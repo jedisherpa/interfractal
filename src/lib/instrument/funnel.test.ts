@@ -5,13 +5,18 @@ import {
   CLOUD6_HREF,
   FUNNEL_SOURCE,
   FUNNEL_VERSION,
+  KYJ_ORIGIN,
   funnelMessage,
+  isAllowedFunnelParentOrigin,
   isFunnelArrival,
   isFunnelMessage,
   isWarmup,
   parseFunnelSearch,
+  postFunnelEvent,
+  resolveFunnelParentOrigin,
   shouldHoldRenderer,
   shouldSkipIntro,
+  tokenOn,
 } from "./funnel.ts";
 
 const app = readFileSync(new URL("../../components/instrument/app.tsx", import.meta.url), "utf8");
@@ -27,12 +32,44 @@ describe("funnel query contract", () => {
     assert.equal(isFunnelArrival(parseFunnelSearch("?from=cloudburst&funnel=1")), true);
   });
 
+  it("tokenOn accepts 1, \"1\", true, \"true\", and JSON-quoted \"%221%22\"", () => {
+    assert.equal(tokenOn(1), true);
+    assert.equal(tokenOn("1"), true);
+    assert.equal(tokenOn(true), true);
+    assert.equal(tokenOn("true"), true);
+    assert.equal(tokenOn('"1"'), true);
+    assert.equal(tokenOn("%221%22"), true);
+    assert.equal(tokenOn('"true"'), true);
+    assert.equal(tokenOn(0), false);
+    assert.equal(tokenOn("0"), false);
+    assert.equal(tokenOn(false), false);
+    assert.equal(tokenOn("no"), false);
+  });
+
+  it("quoted from/funnel from a poisoned Continue still skip Light/Whole", () => {
+    const encoded = parseFunnelSearch("?from=%22cloudburst%22&funnel=%221%22");
+    assert.deepEqual(encoded, { from: "cloudburst", funnel: "1" });
+    assert.equal(shouldSkipIntro(encoded), true);
+
+    const quoted = parseFunnelSearch('?from="cloudburst"&funnel="1"');
+    assert.equal(quoted.from, "cloudburst");
+    assert.equal(quoted.funnel, "1");
+    assert.equal(shouldSkipIntro(quoted), true);
+
+    assert.equal(shouldSkipIntro(parseFunnelSearch({ from: '"cloudburst"', funnel: '"1"' })), true);
+    assert.equal(shouldSkipIntro(parseFunnelSearch({ from: "cloudburst", funnel: '"1"' })), true);
+    assert.equal(parseFunnelSearch({ from: '"cloudburst"' }).from, "cloudburst");
+    assert.equal(isFunnelArrival(parseFunnelSearch({ from: '"cloudburst"' })), true);
+  });
+
   it("warmup=1 parses and holds the renderer", () => {
     const warm = parseFunnelSearch("?from=cloudburst&funnel=1&warmup=1");
     assert.equal(isWarmup(warm), true);
     assert.equal(shouldHoldRenderer(warm), true);
     assert.equal(shouldSkipIntro(warm), false);
     assert.equal(shouldHoldRenderer(parseFunnelSearch({ warmup: "1" })), true);
+    assert.equal(shouldHoldRenderer(parseFunnelSearch({ warmup: '"1"' })), true);
+    assert.equal(shouldHoldRenderer(parseFunnelSearch("?warmup=%221%22")), true);
   });
 
   it("no funnel params keep today’s intro", () => {
@@ -80,5 +117,55 @@ describe("funnel query contract", () => {
     assert.equal(rail.includes("stripe"), false);
     assert.match(rail, /Geometry is not permission/);
     assert.match(rail, /EVIDENCE_STAMP/);
+  });
+
+  it("postMessage never uses target origin * and only sends to the allowlist", () => {
+    const source = readFileSync(new URL("./funnel.ts", import.meta.url), "utf8");
+    assert.match(source, /keep-your-judgment\.vercel\.app/);
+    assert.doesNotMatch(source, /postMessage\([^)]*,\s*["']\*["']\)/);
+
+    assert.equal(isAllowedFunnelParentOrigin(KYJ_ORIGIN), true);
+    assert.equal(isAllowedFunnelParentOrigin("http://localhost:5173"), true);
+    assert.equal(isAllowedFunnelParentOrigin("http://127.0.0.1:8080"), true);
+    assert.equal(isAllowedFunnelParentOrigin("https://evil.example"), false);
+    assert.equal(isAllowedFunnelParentOrigin("https://cloudburst-2.vercel.app"), false);
+
+    const sent: Array<{ data: unknown; origin: string }> = [];
+    const parent = {
+      postMessage(data: unknown, origin: string) {
+        sent.push({ data, origin });
+      },
+    };
+
+    const kyjHost = {
+      parent,
+      location: { ancestorOrigins: [KYJ_ORIGIN] },
+      document: { referrer: `${KYJ_ORIGIN}/` },
+    };
+    assert.equal(resolveFunnelParentOrigin(kyjHost), KYJ_ORIGIN);
+    postFunnelEvent("close-ready", kyjHost);
+    assert.equal(sent.length, 1);
+    assert.equal(sent[0]?.origin, KYJ_ORIGIN);
+    assert.deepEqual(sent[0]?.data, funnelMessage("close-ready"));
+
+    const localHost = {
+      parent,
+      location: { ancestorOrigins: ["http://127.0.0.1:4173"] },
+    };
+    postFunnelEvent("stage-ready", localHost);
+    assert.equal(sent[1]?.origin, "http://127.0.0.1:4173");
+
+    const unknown = {
+      parent,
+      location: { ancestorOrigins: ["https://evil.example"] },
+      document: { referrer: "https://evil.example/embed" },
+    };
+    assert.equal(resolveFunnelParentOrigin(unknown), null);
+    postFunnelEvent("close-ready", unknown);
+    assert.equal(sent.length, 2);
+
+    const topLevel = { parent: undefined as undefined, document: { referrer: KYJ_ORIGIN } };
+    postFunnelEvent("close-ready", topLevel);
+    assert.equal(sent.length, 2);
   });
 });

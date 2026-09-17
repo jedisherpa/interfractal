@@ -90,6 +90,7 @@ export function bloomState(
   gate: IntroBeat,
 ): { active: boolean; settled: boolean } {
   if (!intro) return { active: false, settled: true };
+  if (beat === "pulse" || gate === "pulse") return { active: false, settled: false };
   const order = INTRO_ORDER;
   const i = order.indexOf(beat);
   const g = order.indexOf(gate);

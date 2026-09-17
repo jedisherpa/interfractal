@@ -1,6 +1,6 @@
 import { Line } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
-import { useMemo, useRef, type ReactNode } from "react";
+import { useLayoutEffect, useMemo, useRef, type ReactNode } from "react";
 import * as THREE from "three";
 import { WellRig } from "@/components/game/well-rig.tsx";
 import { FormationRig } from "@/components/instrument/formation-rig.tsx";
@@ -13,6 +13,19 @@ import {
 } from "@/lib/instrument/cosmology.ts";
 import { FORM_CAMERA_R, FACE_OPACITY, rainbowAt } from "@/lib/instrument/formation.ts";
 import { orbit } from "@/lib/instrument/orbit.ts";
+import {
+  CUBE_OVERSHOOT,
+  OTHER_HALF_OPACITY,
+  SHELL_OVERSHOOT,
+  beatLocalProgress,
+  bloomScale,
+  bloomState,
+  introCameraPosition,
+  introElapsed,
+  introProgress,
+  markIntroFrame,
+  resetIntroClock,
+} from "@/lib/instrument/motion.ts";
 import {
   currentCarry,
   currentEnding,
@@ -191,17 +204,36 @@ function applyClip(root: THREE.Object3D, plane: THREE.Plane) {
   });
 }
 
+function setOpacityIfChanged(mat: THREE.Material, opacity: number) {
+  const next = Number(opacity.toFixed(6));
+  const current = (mat as THREE.Material & { opacity?: number }).opacity;
+  if (current !== next) {
+    (mat as THREE.Material & { opacity: number }).opacity = next;
+  }
+}
+
+function ClippedCopy({ plane, children }: { plane: THREE.Plane; children: ReactNode }) {
+  const ref = useRef<THREE.Group>(null);
+  const primed = useRef(false);
+  useLayoutEffect(() => {
+    if (!ref.current) return;
+    applyClip(ref.current, plane);
+    primed.current = true;
+  }, [children, plane]);
+  useFrame(() => {
+    if (primed.current || !ref.current) return;
+    applyClip(ref.current, plane);
+    primed.current = true;
+  });
+  return <group ref={ref}>{children}</group>;
+}
+
 /** Cut at y = 0. The inverted copy is the upper half reflected through the equator. */
 function EquatorialHalf({ invert, children }: { invert: boolean; children: ReactNode }) {
-  const ref = useRef<THREE.Group>(null);
-  const plane = invert ? KEEP_BELOW : KEEP_ABOVE;
-  useFrame(() => {
-    if (ref.current) applyClip(ref.current, plane);
-  });
   return (
-    <group ref={ref} scale={[1, invert ? -1 : 1, 1]}>
-      {children}
-    </group>
+    <ClippedCopy plane={invert ? KEEP_BELOW : KEEP_ABOVE}>
+      <group scale={[1, invert ? -1 : 1, 1]}>{children}</group>
+    </ClippedCopy>
   );
 }
 
@@ -260,51 +292,30 @@ function EquatorCut() {
 function CameraRig({ intro }: { intro: boolean }) {
   const { camera } = useThree();
   const tmp = useMemo(() => new THREE.Vector3(), []);
-  const booted = useRef(false);
   useFrame((_, dt) => {
-    const cap = Math.min(dt, 0.1);
-    if (!intro) orbit.step(cap);
-    const beat = useInstrument.getState().beat;
-    const r =
-      beat === "fibers"
-        ? 34
-        : beat === "cube"
-          ? 26
-          : beat === "L4"
-            ? 30
-            : beat === "L3"
-              ? 26
-              : beat === "L2"
-                ? 22
-                : beat === "L1"
-                  ? 20
-                  : 34;
     if (intro) {
-      const yaw = 0.35;
-      const pitch = 0.2;
-      const cp = Math.cos(pitch);
-      tmp.set(Math.sin(yaw) * r * cp, Math.sin(pitch) * r, Math.cos(yaw) * r * cp);
-      if (!booted.current) {
-        camera.position.copy(tmp);
-        booted.current = true;
-      }
-    } else {
-      booted.current = false;
-      const forming = useInstrument.getState().formStage !== "idle";
-      const stage = useInstrument.getState().formStage;
-      const r = forming ? Math.min(orbit.radius, FORM_CAMERA_R) : orbit.radius;
-      const pitch = forming && (stage === "pattern" || stage === "roles" || stage === "spokes" || stage === "miss")
+      const [x, y, z] = introCameraPosition(introProgress(introElapsed(performance.now())));
+      camera.position.set(x, y, z);
+      camera.lookAt(0, 0, 0);
+      return;
+    }
+    const cap = Math.min(dt, 0.1);
+    orbit.step(cap);
+    const forming = useInstrument.getState().formStage !== "idle";
+    const stage = useInstrument.getState().formStage;
+    const r = forming ? Math.min(orbit.radius, FORM_CAMERA_R) : orbit.radius;
+    const pitch =
+      forming && (stage === "pattern" || stage === "roles" || stage === "spokes" || stage === "miss")
         ? Math.max(orbit.pitch, stage === "pattern" ? 0.72 : 0.52)
         : orbit.pitch;
-      const cp = Math.cos(pitch);
-      tmp.set(
-        Math.sin(orbit.yaw) * r * cp,
-        Math.sin(pitch) * r,
-        Math.cos(orbit.yaw) * r * cp,
-      );
-    }
+    const cp = Math.cos(pitch);
+    tmp.set(
+      Math.sin(orbit.yaw) * r * cp,
+      Math.sin(pitch) * r,
+      Math.cos(orbit.yaw) * r * cp,
+    );
     camera.position.lerp(tmp, 1 - Math.exp(-cap * 3.8));
-    const lookY = !intro && useInstrument.getState().formStage === "pattern" ? 0.05 : 0;
+    const lookY = useInstrument.getState().formStage === "pattern" ? 0.05 : 0;
     camera.lookAt(0, lookY, 0);
   });
   return null;
@@ -321,8 +332,39 @@ function FiberFamily({
   room: boolean;
   size?: number;
 }) {
-  const group = useMemo(() => {
-    const g = new THREE.Group();
+  const { upper, lower, materials } = useMemo(() => {
+    const upperGroup = new THREE.Group();
+    const lowerGroup = new THREE.Group();
+    const mats: {
+      upper: THREE.MeshBasicMaterial;
+      lower: THREE.MeshBasicMaterial;
+      link: boolean;
+      bead: boolean;
+      index: number;
+    }[] = [];
+    let index = 0;
+    const addMesh = (
+      geometry: THREE.BufferGeometry,
+      makeMaterial: () => THREE.MeshBasicMaterial,
+      userData: Record<string, boolean> = {},
+    ) => {
+      const upperMat = makeMaterial();
+      const lowerMat = makeMaterial();
+      const upperMesh = new THREE.Mesh(geometry, upperMat);
+      const lowerMesh = new THREE.Mesh(geometry, lowerMat);
+      Object.assign(upperMesh.userData, userData);
+      Object.assign(lowerMesh.userData, userData);
+      upperGroup.add(upperMesh);
+      lowerGroup.add(lowerMesh);
+      mats.push({
+        upper: upperMat,
+        lower: lowerMat,
+        link: Boolean(userData.link),
+        bead: Boolean(userData.bead),
+        index,
+      });
+      index += 1;
+    };
     for (let i = 0; i < 16; i += 1) {
       const theta = 0.42 + (i % 8) * 0.15;
       const phi = (i * Math.PI) / 8;
@@ -335,13 +377,14 @@ function FiberFamily({
       // Same tube in intro and room so the 2× bundle matches the inner diameter from frame one.
       const tubeR = 0.04 / size;
       const geo = new THREE.TubeGeometry(curve, 96, tubeR, 8, true);
-      const mat = new THREE.MeshBasicMaterial({
-        color: i % 2 === 0 ? 0xf4f1ea : 0x9eb8ae,
-        transparent: true,
-        opacity: 0.92,
-        toneMapped: false,
-      });
-      g.add(new THREE.Mesh(geo, mat));
+      addMesh(geo, () =>
+        new THREE.MeshBasicMaterial({
+          color: i % 2 === 0 ? 0xf4f1ea : 0x9eb8ae,
+          transparent: true,
+          opacity: 0.92,
+          toneMapped: false,
+        }),
+      );
     }
     if (size === 1) {
       const pair = [
@@ -356,41 +399,69 @@ function FiberFamily({
           true,
         );
         const geo = new THREE.TubeGeometry(curve, 128, 0.07, 10, true);
-        const mat = new THREE.MeshBasicMaterial({
-          color: spec.color,
-          transparent: true,
-          opacity: 0.95,
-          toneMapped: false,
-          depthTest: false,
-        });
-        const mesh = new THREE.Mesh(geo, mat);
-        mesh.userData.link = true;
-        g.add(mesh);
+        addMesh(
+          geo,
+          () =>
+            new THREE.MeshBasicMaterial({
+              color: spec.color,
+              transparent: true,
+              opacity: 0.95,
+              toneMapped: false,
+              depthTest: false,
+            }),
+          { link: true },
+        );
       }
       try {
         const ghost = stereographic(state(PI / 3, 0, 0));
         const live = stereographic(state(PI / 3, 0, holonomyAngle(PI / 3)));
-        const ghostBead = new THREE.Mesh(
-          new THREE.SphereGeometry(0.11, 12, 12),
-          new THREE.MeshBasicMaterial({ color: 0xc9c2b0, depthTest: false, toneMapped: false }),
+        const ghostGeo = new THREE.SphereGeometry(0.11, 12, 12);
+        addMesh(
+          ghostGeo,
+          () =>
+            new THREE.MeshBasicMaterial({
+              color: 0xc9c2b0,
+              transparent: true,
+              opacity: 1,
+              depthTest: false,
+              toneMapped: false,
+            }),
+          { bead: true },
         );
+        const ghostBead = upperGroup.children.at(-1) as THREE.Mesh;
+        const ghostMirror = lowerGroup.children.at(-1) as THREE.Mesh;
         ghostBead.position.set(ghost[0], ghost[1], ghost[2]);
-        ghostBead.userData.bead = true;
-        g.add(ghostBead);
-        const liveBead = new THREE.Mesh(
-          new THREE.SphereGeometry(0.14, 12, 12),
-          new THREE.MeshBasicMaterial({ color: 0x5ec8c5, depthTest: false, toneMapped: false }),
+        ghostMirror.position.copy(ghostBead.position);
+        const liveGeo = new THREE.SphereGeometry(0.14, 12, 12);
+        addMesh(
+          liveGeo,
+          () =>
+            new THREE.MeshBasicMaterial({
+              color: 0x5ec8c5,
+              transparent: true,
+              opacity: 1,
+              depthTest: false,
+              toneMapped: false,
+            }),
+          { bead: true },
         );
+        const liveBead = upperGroup.children.at(-1) as THREE.Mesh;
+        const liveMirror = lowerGroup.children.at(-1) as THREE.Mesh;
         liveBead.position.set(live[0], live[1], live[2]);
-        liveBead.userData.bead = true;
-        g.add(liveBead);
+        liveMirror.position.copy(liveBead.position);
       } catch {
         /* stereographic pole excluded */
       }
     }
-    return g;
+    return { upper: upperGroup, lower: lowerGroup, materials: mats };
   }, [size]);
   const grow = useRef(5.52 * size);
+  const upperScale = useRef(5.52 * size);
+  const lowerScale = useRef(5.52 * size);
+  useLayoutEffect(() => {
+    applyClip(upper, KEEP_ABOVE);
+    applyClip(lower, KEEP_BELOW);
+  }, [lower, upper]);
   useFrame((_, dt) => {
     const cap = Math.min(dt, 0.1);
     const forming = room && useInstrument.getState().formStage !== "idle";
@@ -398,20 +469,79 @@ function FiberFamily({
     const base = forming ? (pattern ? 1.15 : 1.85) : 5.52;
     const target = base * size;
     grow.current += (target - grow.current) * Math.min(1, cap * (forming ? 4.2 : 3.4));
-    group.scale.setScalar(grow.current);
-    if (spin) group.rotation.y += cap * spin;
-    group.children.forEach((child, i) => {
-      const mesh = child as THREE.Mesh;
-      const mat = mesh.material as THREE.MeshBasicMaterial;
-      if (mesh.userData.link) {
-        mat.opacity = forming ? 0.42 : 0.92;
+    upperScale.current = grow.current;
+    lowerScale.current = grow.current;
+    upper.scale.setScalar(upperScale.current);
+    lower.scale.setScalar(lowerScale.current);
+    if (spin) {
+      upper.rotation.y += cap * spin;
+      lower.rotation.y += cap * spin;
+    }
+    materials.forEach(({ upper: upperMat, lower: lowerMat, link, bead, index }) => {
+      if (bead) {
+        setOpacityIfChanged(upperMat, 1);
+        setOpacityIfChanged(lowerMat, OTHER_HALF_OPACITY);
         return;
       }
-      if (mesh.userData.bead) return;
-      mat.opacity = forming ? 0.07 + (i % 2) * 0.03 : 0.55 + fill * 0.4 + (i % 2) * 0.08;
+      const baseOpacity = link ? (forming ? 0.42 : 0.92) : forming ? 0.07 + (index % 2) * 0.03 : 0.55 + fill * 0.4 + (index % 2) * 0.08;
+      setOpacityIfChanged(upperMat, baseOpacity);
+      setOpacityIfChanged(lowerMat, baseOpacity * OTHER_HALF_OPACITY);
     });
   });
-  return <primitive object={group} />;
+  return (
+    <>
+      <primitive object={upper} />
+      <primitive object={lower} />
+    </>
+  );
+}
+
+function bloomScalar(
+  intro: boolean,
+  reduced: boolean,
+  beat: IntroBeat,
+  gate: IntroBeat,
+  rest: number,
+  overshoot: number,
+  now: number,
+) {
+  if (!intro) return rest;
+  const state = bloomState(intro, beat, gate);
+  if (state.settled) return rest;
+  if (!state.active) return 0;
+  if (reduced) return rest;
+  return bloomScale(beatLocalProgress(introElapsed(now), gate), rest, overshoot);
+}
+
+function BloomPresence({
+  intro,
+  reduced,
+  beat,
+  gate,
+  rest,
+  overshoot,
+  children,
+}: {
+  intro: boolean;
+  reduced: boolean;
+  beat: IntroBeat;
+  gate: IntroBeat;
+  rest: number;
+  overshoot: number;
+  children: ReactNode;
+}) {
+  const ref = useRef<THREE.Group>(null);
+  const syncScale = (now: number) => {
+    if (!ref.current) return;
+    ref.current.scale.setScalar(bloomScalar(intro, reduced, beat, gate, rest, overshoot, now));
+  };
+  useLayoutEffect(() => {
+    syncScale(performance.now());
+  }, [beat, gate, intro, overshoot, reduced, rest]);
+  useFrame(() => {
+    syncScale(performance.now());
+  });
+  return <group ref={ref}>{children}</group>;
 }
 
 function ImpossibleCube({
@@ -665,8 +795,20 @@ function LiveWell() {
 }
 
 function IntroDriver() {
+  const phase = useInstrument((s) => s.phase);
+  const primed = useRef(false);
   useFrame(() => {
-    useInstrument.getState().advanceIntro(performance.now());
+    if (phase === "intro") {
+      const now = performance.now();
+      markIntroFrame(now);
+      useInstrument.getState().advanceIntro(now);
+      primed.current = true;
+      return;
+    }
+    if (primed.current) {
+      resetIntroClock();
+      primed.current = false;
+    }
   });
   return null;
 }
@@ -699,8 +841,7 @@ export function InstrumentScene() {
   const formStage = useInstrument((s) => s.formStage);
   const intro = phase === "intro";
   const fill = intro && beat === "fibers" ? 1 : intro ? 0.38 : formStage === "idle" ? 0.22 : 0.12;
-  const cubeOn =
-    !intro || beat === "cube" || beat === "L4" || beat === "L3" || beat === "L2" || beat === "L1" || beat === "C9";
+  const spin = reduced ? 0 : 1.55;
 
   return (
     <>
@@ -713,29 +854,25 @@ export function InstrumentScene() {
       <pointLight position={[0, -4, 0]} intensity={0.55} color="#c9d4c8" />
       <EquatorCut />
       <CameraRig intro={intro} />
-      {intro && <IntroDriver />}
+      <IntroDriver />
       {!intro && <CycleDriver />}
+      <FiberFamily spin={spin} fill={fill} room={!intro} />
+      <FiberFamily spin={-spin} fill={fill} room={!intro} size={2} />
       <EquatorialHalf invert={false}>
         <NestedWorlds
           handed={1}
-          fill={fill}
-          room={!intro}
           intro={intro}
           beat={beat}
           world={world}
-          cubeOn={cubeOn}
           reduced={reduced}
         />
       </EquatorialHalf>
       <EquatorialHalf invert>
         <NestedWorlds
           handed={-1}
-          fill={fill}
-          room={!intro}
           intro={intro}
           beat={beat}
           world={world}
-          cubeOn={cubeOn}
           reduced={reduced}
         />
       </EquatorialHalf>
@@ -746,62 +883,43 @@ export function InstrumentScene() {
 
 function NestedWorlds({
   handed,
-  fill,
-  room,
   intro,
   beat,
   world,
-  cubeOn,
   reduced,
 }: {
   handed: 1 | -1;
-  fill: number;
-  room: boolean;
   intro: boolean;
   beat: IntroBeat;
   world: WorldId;
-  cubeOn: boolean;
   reduced: boolean;
 }) {
-  const spin = reduced ? 0 : 1.55 * handed;
-  const show = (id: WorldId, gate: IntroBeat) => {
-    if (!intro) return world === id || world === "C9";
-    const order: IntroBeat[] = ["L4", "L3", "L2", "L1", "C9"];
-    return order.indexOf(beat) >= order.indexOf(gate);
-  };
   return (
     <group>
-      <FiberFamily spin={spin} fill={fill} room={room} />
-      <FiberFamily spin={-spin} fill={fill} room={room} size={2} />
       {intro && beat === "fibers" ? (
         <mesh rotation={[Math.PI / 2, 0, 0]}>
           <torusGeometry args={[1.35, 0.045, 12, 64]} />
           <meshBasicMaterial color="#f4f1ea" />
         </mesh>
       ) : null}
-      {cubeOn && (
-        <ImpossibleCube
-          scale={intro && beat === "cube" ? 2.6 : 1.05}
-          opacity={0.95}
-          beads={intro && beat === "cube"}
-          handed={handed}
-        />
-      )}
-      {(!intro || show("W4", "L4")) && (
+      <BloomPresence intro={intro} reduced={reduced} beat={beat} gate="cube" rest={1.05} overshoot={CUBE_OVERSHOOT}>
+        <ImpossibleCube scale={1} opacity={0.95} beads={intro && beat === "cube"} handed={handed} />
+      </BloomPresence>
+      <BloomPresence intro={intro} reduced={reduced} beat={beat} gate="L4" rest={1} overshoot={SHELL_OVERSHOOT}>
         <Shell id="W4" active={world === "W4" || beat === "L4"} handed={handed} />
-      )}
-      {(!intro || show("W3", "L3")) && (
+      </BloomPresence>
+      <BloomPresence intro={intro} reduced={reduced} beat={beat} gate="L3" rest={1} overshoot={SHELL_OVERSHOOT}>
         <Shell id="W3" active={world === "W3" || beat === "L3"} handed={handed} />
-      )}
-      {(!intro || show("W2", "L2")) && (
+      </BloomPresence>
+      <BloomPresence intro={intro} reduced={reduced} beat={beat} gate="L2" rest={1} overshoot={SHELL_OVERSHOOT}>
         <Shell id="W2" active={world === "W2" || beat === "L2"} handed={handed} />
-      )}
-      {(!intro || show("W1", "L1")) && (
+      </BloomPresence>
+      <BloomPresence intro={intro} reduced={reduced} beat={beat} gate="L1" rest={1} overshoot={SHELL_OVERSHOOT}>
         <Shell id="W1" active={world === "W1" || beat === "L1"} handed={handed} />
-      )}
-      {(!intro || beat === "C9") && (
+      </BloomPresence>
+      <BloomPresence intro={intro} reduced={reduced} beat={beat} gate="C9" rest={1} overshoot={SHELL_OVERSHOOT}>
         <Shell id="C9" active={world === "C9" || beat === "C9"} handed={handed} />
-      )}
+      </BloomPresence>
       {!intro && <WellnessBeads listen={handed === 1} />}
       {!intro && <TetraEdges handed={handed} />}
       {!intro && <CarryArcs />}

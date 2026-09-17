@@ -25,7 +25,7 @@ describe("intro motion", () => {
     assert.equal(samples[0], INTRO_CAM_START);
     assert.equal(samples[40], INTRO_CAM_END);
     for (let i = 1; i < samples.length; i += 1) {
-      assert.ok(samples[i]! >= samples[i - 1]!, `radius dropped at ${i}");
+      assert.ok(samples[i]! >= samples[i - 1]!, `radius dropped at ${i}`);
     }
     assert.equal(easeOutCubic(0), 0);
     assert.equal(easeOutCubic(1), 1);
@@ -53,6 +53,7 @@ describe("intro motion", () => {
   });
 
   it("one solid blooms per beat; earlier solids stay settled", () => {
+    assert.deepEqual(bloomState(true, "pulse", "cube"), { active: false, settled: false });
     assert.deepEqual(bloomState(true, "cube", "cube"), { active: true, settled: false });
     assert.deepEqual(bloomState(true, "L4", "cube"), { active: false, settled: true });
     assert.deepEqual(bloomState(true, "fibers", "cube"), { active: false, settled: false });

@@ -39,8 +39,8 @@ export function FirstPage() {
     >
       <p className="sr-only">
         {gate
-          ? "Four points around Whole. South, Tribe, World, Transcendent. Press a point to enter at that stage. Press Whole for the full intro cycle. Pressing is not a Yes."
-          : "Light above the dot. Whole below. Press the dot to enter. Pressing does not sign a Yes. Skip is at the bottom."}
+          ? "Four points around Whole. South, Tribe, World, Transcendent. Press a point to enter at that stage. Press Whole for the full intro cycle. Pressing is not a Yes. The picture cannot draw the person looking."
+          : "Light above the dot. Whole below. Press the dot to enter. Pressing does not sign a Yes. Skip is at the bottom. The picture cannot draw the person looking."}
       </p>
 
       {gate ? (

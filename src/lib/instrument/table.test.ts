@@ -170,6 +170,12 @@ describe("intention table", () => {
     }
   });
 
+  it("Gold is a third act: it does not wait on commute", () => {
+    assert.equal(goldShown(false, false), false);
+    assert.equal(goldShown(true, false), true);
+    assert.equal(goldShown(true, true), false);
+  });
+
   it("pre-clip magnitude is strength, not heading", () => {
     const seats = makeSeats(4);
     const maya = seats[0]!;

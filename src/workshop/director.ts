@@ -228,7 +228,7 @@ export class WorkshopDirector {
         }
       : {
           id: "exploration",
-          description: "Display z is camera-only until Explore copies it into protocol z",
+          description: "Display z is display-only until Explore copies it into protocol z",
         };
     return projectParade(slot.workshop, {
       vertex,

@@ -77,7 +77,7 @@ export function FormationRig() {
       {plane ? <HorizontalPlane kind={plane === "outer" ? "outer" : "inside"} /> : null}
       {gold && stage === "pattern" ? <OuterEquatorTrack /> : null}
       {committed && stage === "pattern" && !gold ? <OuterEquatorGhost /> : null}
-      <People n={n} stage={stage} reduced={reduced} yes={yes} committed={committed} />
+      <People n={n} stage={stage} reduced={reduced} yes={yes} committed={committed} goldAttested={goldAttested} />
     </group>
   );
 }
@@ -400,12 +400,14 @@ function People({
   reduced,
   yes,
   committed,
+  goldAttested,
 }: {
   n: number;
   stage: FormStage;
   reduced: boolean;
   yes: boolean[];
   committed: boolean;
+  goldAttested: boolean;
 }) {
   const pos = usePos();
   const dots = useRef<(THREE.Mesh | null)[]>([]);
@@ -577,7 +579,7 @@ function People({
             edge.visible = false;
             continue;
           } else {
-            mat.color.setHex(committed && stage === "pattern" ? GOLD : 0xf4f1ea);
+            mat.color.setHex(goldAttested && stage === "pattern" ? GOLD : 0xf4f1ea);
           }
           placeBar(edge, pos[i]!, pos[(i + 1) % n]!, stage === "pattern" ? 0.055 : 0.045);
         } else if (edge) edge.visible = false;
@@ -588,9 +590,9 @@ function People({
       if (spoke) {
         if (showSpokes && held) {
           placeBar(spoke, origin, pos[i]!, confirmed ? 0.028 : 0.016);
-          (spoke.material as THREE.MeshBasicMaterial).color.setHex(confirmed ? GOLD : 0x9eb8ae);
-          (spoke.material as THREE.MeshBasicMaterial).opacity = confirmed ? 0.95 : 0.4;
-          (spoke.material as THREE.MeshBasicMaterial).transparent = !confirmed;
+          (spoke.material as THREE.MeshBasicMaterial).color.setHex(goldAttested && confirmed ? GOLD : 0x9eb8ae);
+          (spoke.material as THREE.MeshBasicMaterial).opacity = goldAttested && confirmed ? 0.95 : confirmed ? 0.7 : 0.4;
+          (spoke.material as THREE.MeshBasicMaterial).transparent = !(goldAttested && confirmed);
         } else spoke.visible = false;
       }
       if (pearl) {

@@ -427,6 +427,7 @@ export const FORBIDDEN_COPY = [
   "entanglement",
   "hopf proves",
   "the icosahedron means we agree",
+  "twelve lenses fill",
   "cdiss approved",
   "aligned",
 ];

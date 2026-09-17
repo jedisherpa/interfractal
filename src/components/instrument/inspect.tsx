@@ -38,7 +38,7 @@ export function InstrumentInspect() {
           </p>
           <h2 className="font-display text-lg font-medium tracking-tight text-balance">Decision Well</h2>
           <p className="mt-1 text-pretty text-sm text-muted">
-            Maya, Finn, and Bea are labeled practice seats. Ready is not Yes. Explore copies display z.
+            Maya, Finn, Bea, and Sam sit on the table. Well practice seats remain Maya, Finn, and Bea. Ready is not Yes. Explore copies display z.
           </p>
         </div>
         <Button size="sm" onClick={closeWell}>
@@ -96,6 +96,13 @@ export function InstrumentInspect() {
           }
         >
           Record repair
+        </Button>
+        <Button
+          onClick={() =>
+            command(() => director.holonomy(vertex), "[CMD] Holonomy. Base returned. Lift acquired. Return is not a reset.")
+          }
+        >
+          Holonomy
         </Button>
       </div>
 
@@ -176,9 +183,9 @@ export function InstrumentInspect() {
       <button type="button" className="text-left text-xs underline" onClick={() => setMathLens(!mathLens)}>
         {mathLens ? "Hide math lens" : "Open math lens"}
       </button>
-      {mathLens ? (
+        {mathLens ? (
         <p className="font-mono text-[0.7rem] text-muted">
-          A person is not a fibre. Geometry is not permission. Carry is constraint, not inherited Yes.
+          A person is not a fibre. Geometry is not permission. Carry is constraint, not inherited Yes. Twelve is a sample, not a tiling. Teal and rose hoops link once; N fibres give N(N−1)/2. Ghost and live beads: same base, lift π/2. □ is the picture plane. The looker is the missing pole.
         </p>
       ) : null}
     </aside>

@@ -15,6 +15,6 @@ Open `http://localhost:8080/`.
 
 ## Table
 
-Whole gate → nested worlds → formation walk. N is who Yes’d the goal. Commit is a human button and never greys. Not-a-fit is a first-class ending. Gold waits on Commit and a clean commute-gate.
+Whole gate → nested worlds → formation walk. N is who Yes’d the goal. Commit is a human button and never greys. Not-a-fit is a first-class ending. Gold is a third human act after Commit. It does not require a clean commute-gate and does not claim the vows commute.
 
-Default axes: purpose, scope, timing, resources, risk, care, authority, completion.
+Four cubes, four eights. The eight names are octants of three hinges. The picture cannot draw the person looking.

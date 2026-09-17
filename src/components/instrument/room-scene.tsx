@@ -22,7 +22,7 @@ import {
   useInstrument,
 } from "@/lib/instrument/store.ts";
 import { TETRA } from "@/workshop/geometry.ts";
-import { fibreSafe } from "@/workshop/hopf.ts";
+import { fibreSafe, holonomyAngle, PI, state, stereographic } from "@/workshop/hopf.ts";
 import type { VertexId } from "@/workshop/types.ts";
 
 const WORLD_DRESS: Record<Exclude<WorldId, "C9">, "garden" | "forest" | "desert" | "core"> = {
@@ -190,6 +190,27 @@ function EquatorialHalf({ invert, children }: { invert: boolean; children: React
 }
 
 function EquatorCut() {
+  const windowLine = useMemo(() => {
+    const s = 4.4;
+    const g = new THREE.BufferGeometry().setFromPoints([
+      new THREE.Vector3(-s, 0, -s),
+      new THREE.Vector3(s, 0, -s),
+      new THREE.Vector3(s, 0, s),
+      new THREE.Vector3(-s, 0, s),
+    ]);
+    const line = new THREE.LineLoop(
+      g,
+      new THREE.LineBasicMaterial({
+        color: 0x5ec8c5,
+        transparent: true,
+        opacity: 0.85,
+        depthTest: false,
+        toneMapped: false,
+      }),
+    );
+    line.renderOrder = 8;
+    return line;
+  }, []);
   return (
     <group>
       <mesh rotation={[-Math.PI / 2, 0, 0]} renderOrder={0}>
@@ -215,6 +236,7 @@ function EquatorCut() {
         />
       </mesh>
       <gridHelper args={[48, 24, "#3a443f", "#1a201c"]} />
+      <primitive object={windowLine} />
     </group>
   );
 }
@@ -305,6 +327,51 @@ function FiberFamily({
       });
       g.add(new THREE.Mesh(geo, mat));
     }
+    if (size === 1) {
+      const pair = [
+        { theta: PI / 3, phi: 0, color: 0x5ec8c5 },
+        { theta: PI / 3, phi: (2 * PI) / 3, color: 0xd4787a },
+      ];
+      for (const spec of pair) {
+        const linked = fibreSafe(spec.theta, spec.phi, 128);
+        if (!linked || linked.length < 8) continue;
+        const curve = new THREE.CatmullRomCurve3(
+          linked.map((p) => new THREE.Vector3(p[0], p[1], p[2])),
+          true,
+        );
+        const geo = new THREE.TubeGeometry(curve, 128, 0.07, 10, true);
+        const mat = new THREE.MeshBasicMaterial({
+          color: spec.color,
+          transparent: true,
+          opacity: 0.95,
+          toneMapped: false,
+          depthTest: false,
+        });
+        const mesh = new THREE.Mesh(geo, mat);
+        mesh.userData.link = true;
+        g.add(mesh);
+      }
+      try {
+        const ghost = stereographic(state(PI / 3, 0, 0));
+        const live = stereographic(state(PI / 3, 0, holonomyAngle(PI / 3)));
+        const ghostBead = new THREE.Mesh(
+          new THREE.SphereGeometry(0.11, 12, 12),
+          new THREE.MeshBasicMaterial({ color: 0xc9c2b0, depthTest: false, toneMapped: false }),
+        );
+        ghostBead.position.set(ghost[0], ghost[1], ghost[2]);
+        ghostBead.userData.bead = true;
+        g.add(ghostBead);
+        const liveBead = new THREE.Mesh(
+          new THREE.SphereGeometry(0.14, 12, 12),
+          new THREE.MeshBasicMaterial({ color: 0x5ec8c5, depthTest: false, toneMapped: false }),
+        );
+        liveBead.position.set(live[0], live[1], live[2]);
+        liveBead.userData.bead = true;
+        g.add(liveBead);
+      } catch {
+        /* stereographic pole excluded */
+      }
+    }
     return g;
   }, [size]);
   const grow = useRef(5.52 * size);
@@ -318,7 +385,13 @@ function FiberFamily({
     group.scale.setScalar(grow.current);
     if (spin) group.rotation.y += cap * spin;
     group.children.forEach((child, i) => {
-      const mat = (child as THREE.Mesh).material as THREE.MeshBasicMaterial;
+      const mesh = child as THREE.Mesh;
+      const mat = mesh.material as THREE.MeshBasicMaterial;
+      if (mesh.userData.link) {
+        mat.opacity = forming ? 0.42 : 0.92;
+        return;
+      }
+      if (mesh.userData.bead) return;
       mat.opacity = forming ? 0.07 + (i % 2) * 0.03 : 0.55 + fill * 0.4 + (i % 2) * 0.08;
     });
   });

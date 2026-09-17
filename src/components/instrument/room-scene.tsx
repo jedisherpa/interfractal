@@ -32,6 +32,22 @@ const WORLD_DRESS: Record<Exclude<WorldId, "C9">, "garden" | "forest" | "desert"
   W4: "core",
 };
 
+const CLEAR: Record<WorldId, string> = {
+  C9: "#16345c",
+  W1: "#5f93cf",
+  W2: "#0a2430",
+  W3: "#38536f",
+  W4: "#020204",
+};
+
+const FOG: Record<WorldId, string> = {
+  C9: "#6a93c4",
+  W1: "#d3e2f5",
+  W2: "#123344",
+  W3: "#b9ab9c",
+  W4: "#1e0533",
+};
+
 const faceTint = new THREE.Color();
 
 function rainbowFromGeometry(src: THREE.BufferGeometry, seed = 0): THREE.BufferGeometry {
@@ -227,9 +243,9 @@ function EquatorCut() {
       <mesh rotation={[-Math.PI / 2, 0, 0]} renderOrder={1}>
         <ringGeometry args={[35.2, 36.1, 96]} />
         <meshBasicMaterial
-          color="#f4f1ea"
+          color="#f8d8a8"
           transparent
-          opacity={0.55}
+          opacity={0.7}
           side={THREE.DoubleSide}
           depthWrite={false}
           toneMapped={false}
@@ -688,8 +704,8 @@ export function InstrumentScene() {
 
   return (
     <>
-      <color attach="background" args={["#07080a"]} />
-      <fog attach="fog" args={["#07080a", 40, 200]} />
+      <color attach="background" args={[CLEAR[world]]} />
+      <fog attach="fog" args={[FOG[world], world === "W1" ? 24 : 40, world === "W4" ? 110 : 200]} />
       <ambientLight intensity={0.7} />
       <directionalLight position={[8, 14, 6]} intensity={1.15} color="#f2efe6" />
       <directionalLight position={[-6, -12, -4]} intensity={0.55} color="#c9d4c8" />

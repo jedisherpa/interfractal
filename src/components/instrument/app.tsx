@@ -105,7 +105,7 @@ function Stage() {
       camera={{ fov: 58, near: 0.2, far: 220, position: [0, 3, 16] }}
       gl={{ antialias: true, powerPreference: "high-performance", toneMapping: NoToneMapping }}
       onCreated={({ gl }) => {
-        gl.setClearColor("#07080a");
+        gl.setClearColor("#16345c");
         gl.localClippingEnabled = true;
       }}
       onPointerMove={(e) => {

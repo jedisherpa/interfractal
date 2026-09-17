@@ -18,6 +18,7 @@ export function FormationPanel() {
   const goal = useInstrument((s) => s.formGoal);
   const seats = useInstrument((s) => s.seats);
   const committed = useInstrument((s) => s.committed);
+  const goldAttested = useInstrument((s) => s.goldAttested);
   const notFit = useInstrument((s) => s.notFit);
   const viewLevel = useInstrument((s) => s.viewLevel);
   const wellOpen = useInstrument((s) => s.wellOpen);
@@ -35,6 +36,7 @@ export function FormationPanel() {
   const held = yesCount(seats);
   const canAdvance = stage !== "idle" || goal.trim().length > 0;
   const caption = formCaption(stage, n, goal);
+  const sitting = stage !== "idle" || notFit;
   const seatsLabel =
     stage === "lenses" || stage === "hold"
       ? shape.polyhedron
@@ -58,6 +60,7 @@ export function FormationPanel() {
           className="h-11 w-full rounded-full border border-paper/20 bg-void/40 px-4 text-sm text-paper placeholder:text-paper/40"
         />
       </label>
+      {sitting ? (
       <label>
         <span className="sr-only">Preferred lodge</span>
         <select
@@ -74,22 +77,25 @@ export function FormationPanel() {
           ))}
         </select>
       </label>
-      {seats.map((seat, i) => (
-        <button
-          key={seat.name}
-          type="button"
-          data-testid={`seat-yes-${seat.name}`}
-          title={`${seat.name}. Individual Yes on the goal. Not Table Commit.`}
-          onClick={() => toggleSeatYes(i)}
-          className={
-            seat.yesOnGoal
-              ? "h-11 shrink-0 rounded-full border border-paper bg-paper px-3 text-[0.65rem] uppercase tracking-wider text-void"
-              : "h-11 shrink-0 rounded-full border border-paper/20 bg-void/40 px-3 text-[0.65rem] uppercase tracking-wider text-paper/75"
-          }
-        >
-          {seat.name}
-        </button>
-      ))}
+      ) : null}
+      {sitting
+        ? seats.map((seat, i) => (
+            <button
+              key={seat.name}
+              type="button"
+              data-testid={`seat-yes-${seat.name}`}
+              title={`${seat.name}. Individual Yes on the goal. Not Table Commit.`}
+              onClick={() => toggleSeatYes(i)}
+              className={
+                seat.yesOnGoal
+                  ? "h-11 shrink-0 rounded-full border border-paper bg-paper px-3 text-[0.65rem] uppercase tracking-wider text-void"
+                  : "h-11 shrink-0 rounded-full border border-paper/20 bg-void/40 px-3 text-[0.65rem] uppercase tracking-wider text-paper/75"
+              }
+            >
+              {seat.name}
+            </button>
+          ))
+        : null}
       <Button
         variant="primary"
         className="shrink-0 bg-paper text-void"
@@ -109,14 +115,18 @@ export function FormationPanel() {
       >
         Commit
       </Button>
+      {sitting || committed ? (
       <Button
         data-testid="table-gold"
-        className="shrink-0 border-paper/40 bg-void/40 text-paper"
+        data-gold={goldAttested ? "true" : "false"}
+        className="shrink-0 border-paper/40 bg-void/40 text-paper data-[gold=true]:border-[#f8d8a8] data-[gold=true]:bg-[#f8d8a8] data-[gold=true]:text-void"
         onClick={tableGold}
         title="Gold is a third human act. It does not claim the vows commute."
       >
         Gold
       </Button>
+      ) : null}
+      {sitting ? (
       <Button
         data-testid="not-a-fit"
         className="shrink-0 border-paper/20 bg-void/40 text-paper"
@@ -125,6 +135,8 @@ export function FormationPanel() {
       >
         Not a fit
       </Button>
+      ) : null}
+      {sitting ? (
       <Button
         data-testid="weather"
         className="shrink-0 border-paper/20 bg-void/40 text-paper"
@@ -133,6 +145,7 @@ export function FormationPanel() {
       >
         Weather
       </Button>
+      ) : null}
       {stage !== "idle" ? (
         <label>
           <span className="sr-only">View level</span>

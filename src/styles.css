@@ -2,9 +2,9 @@
 
 @theme {
   --color-void: #07080a;
-  --color-wash: #f3f1ec;
-  --color-paper: #f4f1ea;
-  --color-surface: #f4f1ea;
+  --color-wash: #f2eadd;
+  --color-paper: #f8f1e8;
+  --color-surface: #f8f1e8;
   --color-ink: #16181c;
   --color-muted: #5c6168;
   --color-line: color-mix(in oklab, #16181c 14%, transparent);
@@ -12,6 +12,8 @@
   --color-phosphor: #1a3d38;
   --color-ok: #1d6b4a;
   --color-warn: #9a3b12;
+  --color-sacred: #f8d8a8;
+  --color-celestial: #98c8f8;
   --color-hole-field: #ffffff;
   --color-hole-dot: #0a0a0a;
   --color-light-field: #0a0a0a;

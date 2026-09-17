@@ -1,18 +1,71 @@
 import { Canvas } from "@react-three/fiber";
-import { useEffect, useState, type ComponentType } from "react";
+import { useEffect, useRef, useState, type ComponentType } from "react";
 import { NoToneMapping } from "three";
+import { CloseRail } from "@/components/instrument/close-rail.tsx";
 import { FirstPage } from "@/components/instrument/first-page.tsx";
 import { InstrumentHud } from "@/components/instrument/hud.tsx";
+import {
+  isFunnelArrival,
+  isFunnelMessage,
+  isWarmup,
+  parseFunnelSearch,
+  postFunnelEvent,
+  type FunnelSearch,
+} from "@/lib/instrument/funnel.ts";
 import { orbit } from "@/lib/instrument/orbit.ts";
 import { installQaHooks, useInstrument } from "@/lib/instrument/store.ts";
 
-export function InstrumentApp() {
-  const phase = useInstrument((s) => s.phase);
+export function InstrumentApp({ search }: { search?: FunnelSearch } = {}) {
+  const routeSearch = search ?? parseFunnelSearch(typeof window !== "undefined" ? window.location.search : "");
+  const funnel = isFunnelArrival(routeSearch);
+  const warmup = isWarmup(routeSearch);
+  const [woken, setWoken] = useState(!warmup);
+  const storePhase = useInstrument((s) => s.phase);
   const webglFailed = useInstrument((s) => s.webglFailed);
+  const closeReadySent = useRef(false);
+
+  const landNow = funnel && woken;
+  const phase = landNow && (storePhase === "pulse" || storePhase === "gate") ? "room" : storePhase;
+  const holdRenderer = warmup && !woken;
 
   useEffect(() => {
     installQaHooks();
   }, []);
+
+  useEffect(() => {
+    if (!warmup) return;
+    postFunnelEvent("stage-warming");
+    let alive = true;
+    void import("@/components/instrument/room-scene")
+      .then(() => {
+        if (alive) postFunnelEvent("stage-ready");
+      })
+      .catch(() => {
+        if (alive) postFunnelEvent("stage-ready");
+      });
+    const onMessage = (event: MessageEvent) => {
+      if (isFunnelMessage(event.data, "wake")) setWoken(true);
+    };
+    window.addEventListener("message", onMessage);
+    return () => {
+      alive = false;
+      window.removeEventListener("message", onMessage);
+    };
+  }, [warmup]);
+
+  useEffect(() => {
+    if (!landNow) return;
+    const instrument = useInstrument.getState();
+    if (instrument.phase === "pulse" || instrument.phase === "gate" || instrument.phase === "intro") {
+      instrument.skipIntro();
+    }
+  }, [landNow]);
+
+  useEffect(() => {
+    if (!landNow || closeReadySent.current) return;
+    closeReadySent.current = true;
+    postFunnelEvent("close-ready");
+  }, [landNow]);
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -73,12 +126,30 @@ export function InstrumentApp() {
     };
   }, []);
 
+  const showFirstPage = !holdRenderer && !landNow && (phase === "pulse" || phase === "gate");
+  const inRoom = !holdRenderer && phase !== "pulse" && phase !== "gate";
+
   return (
-    <div className="relative h-dvh min-h-dvh w-full overflow-hidden bg-void text-ink">
-      {(phase === "pulse" || phase === "gate") && <FirstPage />}
-      {phase !== "pulse" && phase !== "gate" && !webglFailed && <Stage />}
-      {phase !== "pulse" && phase !== "gate" && webglFailed && <Fallback />}
-      {phase !== "pulse" && phase !== "gate" && !webglFailed && <InstrumentHud />}
+    <div
+      className="relative h-dvh min-h-dvh w-full overflow-hidden bg-void text-ink"
+      data-testid="instrument-app"
+      data-phase={holdRenderer ? "warmup" : phase}
+      data-funnel={funnel ? "1" : "0"}
+    >
+      {holdRenderer ? <WarmupShell /> : null}
+      {showFirstPage && <FirstPage />}
+      {inRoom && !webglFailed && <Stage />}
+      {inRoom && webglFailed && <Fallback />}
+      {inRoom && !webglFailed && <InstrumentHud />}
+      {landNow && inRoom && <CloseRail />}
+    </div>
+  );
+}
+
+function WarmupShell() {
+  return (
+    <div className="h-full w-full bg-void" data-testid="funnel-warmup" aria-hidden>
+      <p className="sr-only">Warming the table. The renderer is held.</p>
     </div>
   );
 }

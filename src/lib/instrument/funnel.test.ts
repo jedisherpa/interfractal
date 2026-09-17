@@ -71,7 +71,8 @@ describe("funnel query contract", () => {
 
   it("close rail labels later-exits without a fake payment URL", () => {
     assert.match(rail, /Checkout — later/);
-    assert.match(rail, /href="#"/);
+    assert.match(rail, /disabled/);
+    assert.equal(rail.includes("http"), false);
     assert.match(rail, /Cloud 6 — later/);
     assert.match(rail, /CLOUD6_HREF/);
     assert.match(rail, /target="_blank"/);

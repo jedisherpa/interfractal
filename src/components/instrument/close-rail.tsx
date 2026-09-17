@@ -24,18 +24,15 @@ export function CloseRail() {
         Geometry is not permission. {EVIDENCE_STAMP} Enter, Commit, and Set this goal are not checkout.
       </p>
       <div className="flex min-w-0 flex-1 flex-wrap items-center gap-2 sm:flex-none">
-        <a
-          href="#"
+        <button
+          type="button"
+          disabled
           data-testid="funnel-checkout"
-          aria-disabled="true"
           aria-label="Checkout — later. Payment is not open yet."
-          className={`${exitChip} border border-paper/25 bg-void/40 text-paper/80`}
-          onClick={(event) => {
-            event.preventDefault();
-          }}
+          className={`${exitChip} cursor-not-allowed border border-paper/25 bg-void/40 text-paper/80`}
         >
           Checkout — later
-        </a>
+        </button>
         <a
           href={CLOUD6_HREF}
           target="_blank"

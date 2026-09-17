@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #07080a;
+  --color-wash: #f3f1ec;
+  --color-paper: #f4f1ea;
+  --color-surface: #f4f1ea;
+  --color-ink: #16181c;
+  --color-muted: #5c6168;
+  --color-line: color-mix(in oklab, #16181c 14%, transparent);
+  --color-accent: #1a3d38;
+  --color-phosphor: #1a3d38;
+  --color-ok: #1d6b4a;
+  --color-warn: #9a3b12;
+  --color-hole-field: #ffffff;
+  --color-hole-dot: #0a0a0a;
+  --color-light-field: #0a0a0a;
+  --color-light-dot: #ffffff;
+  --font-display: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-xl: 20px;
+  --shadow-panel: 0 18px 40px color-mix(in oklab, #05070a 18%, transparent);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --motion-quick: 150ms;
+  --motion-fast: 250ms;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  body {
+    background: var(--color-void);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+}
+
+.pulse-field {
+  transition:
+    background-color 700ms var(--ease-out),
+    color 700ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

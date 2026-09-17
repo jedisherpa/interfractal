@@ -3,6 +3,7 @@
 export const FUNNEL_SOURCE = "kyj-funnel";
 export const FUNNEL_VERSION = 1;
 export const CLOUD6_HREF = "https://boulderjoe.com";
+export const KYJ_ORIGIN = "https://keep-your-judgment.vercel.app";
 
 export type FunnelSearch = {
   from?: string;
@@ -18,8 +19,51 @@ export type FunnelMessage = {
   event: FunnelEvent;
 };
 
-function tokenOn(value: unknown): boolean {
-  return value === "1" || value === 1 || value === true || value === "true";
+export type FunnelPostHost = {
+  parent?: {
+    postMessage: (message: unknown, targetOrigin: string) => void;
+    location?: { origin?: string };
+  } | null;
+  location?: { ancestorOrigins?: ArrayLike<string> };
+  document?: { referrer?: string };
+};
+
+/**
+ * Same class of unwrap as Cloudburst #3: TanStack’s default search serializer
+ * JSON-encodes strings, so inbound `funnel=1` can arrive as `funnel="1"` /
+ * `%221%22`. Strip leftover percent-encoding and wrapping quotes.
+ */
+export function normalizeQueryToken(value: unknown): string | undefined {
+  if (value == null) return undefined;
+  if (typeof value === "boolean") return value ? "1" : undefined;
+  if (typeof value === "number" && Number.isFinite(value)) return String(value);
+  if (typeof value !== "string") return undefined;
+
+  let s = value.trim();
+  if (s.includes("%")) {
+    try {
+      s = decodeURIComponent(s).trim();
+    } catch {
+      /* keep the raw token */
+    }
+  }
+
+  while (s.length >= 2) {
+    const open = s[0];
+    const close = s[s.length - 1];
+    if ((open === '"' && close === '"') || (open === "'" && close === "'")) {
+      s = s.slice(1, -1).trim();
+      continue;
+    }
+    break;
+  }
+
+  return s.length ? s : undefined;
+}
+
+export function tokenOn(value: unknown): boolean {
+  const token = normalizeQueryToken(value);
+  return token === "1" || token === "true";
 }
 
 function readParam(input: URLSearchParams | string, key: string): unknown {
@@ -45,7 +89,8 @@ export function parseFunnelSearch(
     warmup = input.warmup;
   }
   const parsed: FunnelSearch = {};
-  if (typeof from === "string" && from.length > 0) parsed.from = from;
+  const fromToken = normalizeQueryToken(from);
+  if (fromToken) parsed.from = fromToken;
   if (tokenOn(funnel)) parsed.funnel = "1";
   if (tokenOn(warmup)) parsed.warmup = "1";
   return parsed;
@@ -83,11 +128,63 @@ export function isFunnelMessage(data: unknown, event?: FunnelEvent): data is Fun
   return true;
 }
 
-export function postFunnelEvent(event: Exclude<FunnelEvent, "wake">) {
-  if (typeof window === "undefined") return;
-  const payload = funnelMessage(event);
+export function isAllowedFunnelParentOrigin(origin: string): boolean {
   try {
-    window.parent?.postMessage(payload, "*");
+    const url = new URL(origin);
+    if (url.origin === KYJ_ORIGIN) return true;
+    if (url.protocol !== "http:" && url.protocol !== "https:") return false;
+    const host = url.hostname.toLowerCase();
+    return host === "localhost" || host === "127.0.0.1" || host === "[::1]";
+  } catch {
+    return false;
+  }
+}
+
+function originFromCandidate(value: string | null | undefined): string | null {
+  if (!value) return null;
+  try {
+    return new URL(value.includes("://") ? value : `https://${value}`).origin;
+  } catch {
+    return null;
+  }
+}
+
+function hasForeignParent(host: FunnelPostHost): boolean {
+  return Boolean(host.parent) && (host.parent as object) !== host;
+}
+
+function safeParentOrigin(host: FunnelPostHost): string | null {
+  try {
+    return host.parent?.location?.origin ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/** First allowlisted parent origin, or null — never fall back to "*". */
+export function resolveFunnelParentOrigin(host: FunnelPostHost): string | null {
+  if (!hasForeignParent(host)) return null;
+  const ancestor = host.location?.ancestorOrigins?.[0];
+  const candidates = [
+    safeParentOrigin(host),
+    originFromCandidate(typeof ancestor === "string" ? ancestor : null),
+    originFromCandidate(host.document?.referrer),
+  ];
+  for (const origin of candidates) {
+    if (origin && isAllowedFunnelParentOrigin(origin)) return origin;
+  }
+  return null;
+}
+
+export function postFunnelEvent(
+  event: Exclude<FunnelEvent, "wake">,
+  host: FunnelPostHost | undefined = typeof window === "undefined" ? undefined : window,
+) {
+  if (!host || !hasForeignParent(host)) return;
+  const target = resolveFunnelParentOrigin(host);
+  if (!target) return;
+  try {
+    host.parent?.postMessage(funnelMessage(event), target);
   } catch {
     /* parent may be missing or cross-origin opaque */
   }

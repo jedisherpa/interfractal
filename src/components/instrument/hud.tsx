@@ -54,6 +54,7 @@ export function InstrumentHud() {
   const ringing = useInstrument((s) => s.ringing);
   const weatherMoving = useInstrument((s) => s.weatherMoving);
   const committed = useInstrument((s) => s.committed);
+  const goldAttested = useInstrument((s) => s.goldAttested);
   void tick;
 
   const ending = currentEnding();
@@ -68,6 +69,7 @@ export function InstrumentHud() {
     confirmedCount: confirmedCount(seats),
     commute: marks.length === 0,
     committed,
+    goldAttested,
   });
 
   if (phase === "intro") {

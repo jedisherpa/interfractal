@@ -16,22 +16,23 @@ import {
 } from "@/lib/instrument/formation.ts";
 import {
   AXIS_CORNERS,
+  CUBE_CORNERS,
+  CUBE_HINGES,
   GOLD,
   ICE,
   LEVEL_SCALE,
   SEAT_COLORS,
-  TABLE_AXES,
   TABLE_LEVELS,
   TRAIL_DECAY,
   TRAIL_LEN,
   chamberFills,
   chamberKind,
   clipHeading,
-  commuteClean,
   confirmedCount,
+  cornerName,
   fiberOffset,
   findContradictions,
-  goldAllowed,
+  goldShown,
   lodgeEdge,
   poseOf,
   preClipMagnitude,
@@ -55,10 +56,11 @@ export function FormationRig() {
   const n = useInstrument((s) => s.formN);
   const reduced = useInstrument((s) => s.reducedMotion);
   const committed = useInstrument((s) => s.committed);
+  const goldAttested = useInstrument((s) => s.goldAttested);
   const seats = useInstrument((s) => s.seats);
   if (stage === "idle") return null;
   const yes = seats.map((s) => s.yesOnGoal);
-  const gold = goldAllowed(seats, committed);
+  const gold = goldShown(goldAttested, stage === "miss");
   const plane =
     stage === "roles" || stage === "spokes" || stage === "miss"
       ? "inside"
@@ -146,6 +148,8 @@ function AxisShells() {
   const viewLevel = useInstrument((s) => s.viewLevel);
   const seats = useInstrument((s) => s.seats);
   const marks = findContradictions(seats);
+  const hinges = CUBE_HINGES[viewLevel];
+  const hingeScale = LEVEL_SCALE[viewLevel] + 0.45;
   return (
     <group>
       {TABLE_LEVELS.map((level) => {
@@ -153,10 +157,21 @@ function AxisShells() {
         const on = level === viewLevel;
         return (
           <group key={level}>
+            <mesh renderOrder={3}>
+              <boxGeometry args={[s * 2, s * 2, s * 2]} />
+              <meshBasicMaterial
+                color={on ? 0xc9d4c8 : 0x6a736e}
+                wireframe
+                transparent
+                opacity={on ? 0.45 : 0.12}
+                depthTest={false}
+                toneMapped={false}
+              />
+            </mesh>
             {AXIS_CORNERS.map((c, i) => {
-              const split = marks.some((m) => m.axis === TABLE_AXES[i] && (m.levelA === level || m.levelB === level));
+              const split = marks.some((m) => m.octant === i && (m.levelA === level || m.levelB === level));
               return (
-                <group key={`${level}-${TABLE_AXES[i]}`} position={[c[0] * s, c[1] * s, c[2] * s]}>
+                <group key={`${level}-${i}-${CUBE_CORNERS[level][i]}`} position={[c[0] * s, c[1] * s, c[2] * s]}>
                   <mesh renderOrder={6}>
                     <sphereGeometry args={[on ? 0.13 : 0.07, 10, 10]} />
                     <meshBasicMaterial
@@ -180,16 +195,16 @@ function AxisShells() {
                     </>
                   ) : null}
                   {on ? (
-                    <Billboard follow position={[c[0] * 0.22, c[1] * 0.22, c[2] * 0.22]}>
+                    <Billboard follow position={[c[0] * 0.28, c[1] * 0.28, c[2] * 0.28]}>
                       <Text
-                        fontSize={0.2}
+                        fontSize={0.18}
                         color="#f4f1ea"
                         anchorX="center"
                         anchorY="middle"
                         outlineWidth={0.012}
                         outlineColor="#0a0a0b"
                       >
-                        {TABLE_AXES[i]}
+                        {cornerName(level, i)}
                       </Text>
                     </Billboard>
                   ) : null}
@@ -199,8 +214,64 @@ function AxisShells() {
           </group>
         );
       })}
+      <group>
+        {(
+          [
+            [[hingeScale, 0, 0], [-hingeScale, 0, 0], hinges[0].plus, hinges[0].minus],
+            [[0, hingeScale, 0], [0, -hingeScale, 0], hinges[1].plus, hinges[1].minus],
+            [[0, 0, hingeScale], [0, 0, -hingeScale], hinges[2].plus, hinges[2].minus],
+          ] as const
+        ).map(([p, m, plus, minus]) => (
+          <group key={`${viewLevel}-${plus}`}>
+            <HingeBar ax={p[0]} ay={p[1]} az={p[2]} bx={m[0]} by={m[1]} bz={m[2]} />
+            <Billboard follow position={p}>
+              <Text fontSize={0.16} color="#e8d5a3" anchorX="center" anchorY="middle" outlineWidth={0.01} outlineColor="#0a0a0b">
+                {plus}
+              </Text>
+            </Billboard>
+            <Billboard follow position={m}>
+              <Text fontSize={0.16} color="#8aa0ae" anchorX="center" anchorY="middle" outlineWidth={0.01} outlineColor="#0a0a0b">
+                {minus}
+              </Text>
+            </Billboard>
+          </group>
+        ))}
+      </group>
     </group>
   );
+}
+
+function HingeBar({
+  ax,
+  ay,
+  az,
+  bx,
+  by,
+  bz,
+}: {
+  ax: number;
+  ay: number;
+  az: number;
+  bx: number;
+  by: number;
+  bz: number;
+}) {
+  const line = useMemo(() => {
+    const g = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(ax, ay, az), new THREE.Vector3(bx, by, bz)]);
+    const obj = new THREE.Line(
+      g,
+      new THREE.LineBasicMaterial({
+        color: 0xe8d5a3,
+        transparent: true,
+        opacity: 0.4,
+        depthTest: false,
+        toneMapped: false,
+      }),
+    );
+    obj.renderOrder = 4;
+    return obj;
+  }, [ax, ay, az, bx, by, bz]);
+  return <primitive object={line} />;
 }
 
 function Hairlines() {
@@ -209,7 +280,7 @@ function Hairlines() {
   const key = marks.map((m) => m.caption).join("|");
   const lines = useMemo(() => {
     return marks.slice(0, 6).map((m, i) => {
-      const a = AXIS_CORNERS[TABLE_AXES.indexOf(m.axis)] ?? AXIS_CORNERS[0]!;
+      const a = AXIS_CORNERS[m.octant] ?? AXIS_CORNERS[0]!;
       const p1 = new THREE.Vector3(a[0], a[1], a[2]).multiplyScalar(LEVEL_SCALE[m.levelA]);
       const p2 = new THREE.Vector3(a[0], a[1], a[2]).multiplyScalar(LEVEL_SCALE[m.levelB]);
       if (m.kind === "vow-vs-vow") p2.add(new THREE.Vector3(0.4, 0.2, -0.3));
@@ -225,7 +296,7 @@ function Hairlines() {
         }),
       );
       line.renderOrder = 5;
-      return <primitive key={`hair-${i}-${m.axis}`} object={line} />;
+      return <primitive key={`hair-${i}-${m.octant}-${m.levelA}`} object={line} />;
     });
     // marks captured via key
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -235,11 +306,12 @@ function Hairlines() {
 
 function ChamberCalendar() {
   const seats = useInstrument((s) => s.seats);
-  const committed = useInstrument((s) => s.committed);
+  const goldAttested = useInstrument((s) => s.goldAttested);
+  const notFit = useInstrument((s) => s.notFit);
   const count = confirmedCount(seats);
   const kind = chamberKind(count);
   const fill = chamberFills(seats, kind);
-  const gold = goldAllowed(seats, committed);
+  const gold = goldShown(goldAttested, notFit);
   const star = starTetraEligible(seats);
   if (kind === "none" && !star) return null;
   return (

@@ -25,7 +25,7 @@ import {
   confirmedCount,
   findContradictions,
   commuteClean,
-  goldAllowed,
+  goldShown,
   makeSeats,
   recordForStage,
   withRecord,
@@ -64,6 +64,7 @@ type InstrumentState = {
   seats: TableSeat[];
   committed: boolean;
   notFit: boolean;
+  goldAttested: boolean;
   viewLevel: TableLevel;
   freezeUntil: number;
   ringing: boolean;
@@ -97,6 +98,7 @@ type Actions = {
   confirmGoal: () => void;
   advanceForm: () => void;
   tableCommit: () => void;
+  tableGold: () => void;
   nameNotFit: () => void;
   setViewLevel: (level: TableLevel) => void;
   crankMood: (index: number, delta?: number) => void;
@@ -134,6 +136,7 @@ const initial: InstrumentState = {
   seats: makeSeats(4),
   committed: false,
   notFit: false,
+  goldAttested: false,
   viewLevel: "self",
   freezeUntil: 0,
   ringing: false,
@@ -176,6 +179,7 @@ function landInRoom(
     seats: makeSeats(4),
     committed: false,
     notFit: false,
+    goldAttested: false,
     viewLevel: "self",
     freezeUntil: 0,
     ringing: false,
@@ -363,6 +367,7 @@ export const useInstrument = create<InstrumentState & Actions>((set, get) => ({
       formGoal: goal,
       committed: false,
       notFit: false,
+      goldAttested: false,
       tick: s.tick + 1,
       log: pushLog(s.log, `[FORM] Goal held: ${goal}. Shape is a view, not a Yes. ${formCaption("goal", s.formN, goal)}`),
     });
@@ -429,8 +434,8 @@ export const useInstrument = create<InstrumentState & Actions>((set, get) => ({
       log: pushLog(
         s.log,
         canPattern
-          ? `[TABLE] Commit. Gold may follow attestation. ${formCaption("pattern", s.formN, s.formGoal)}`
-          : "[TABLE] Commit recorded. Outer equator waits until the walk is outside. This picture is evidence. It is not a Yes.",
+          ? `[TABLE] Commit recorded. Gold is a third act. ${formCaption("pattern", s.formN, s.formGoal)}`
+          : "[TABLE] Commit recorded. Gold is a third act. It does not claim the vows commute.",
       ),
     });
   },
@@ -444,8 +449,25 @@ export const useInstrument = create<InstrumentState & Actions>((set, get) => ({
       formStage: "miss",
       notFit: true,
       committed: false,
+      goldAttested: false,
       tick: s.tick + 1,
       log: pushLog(s.log, `[TABLE] Not-a-fit. ${formCaption("miss", s.formN, s.formGoal)}`),
+    });
+  },
+  tableGold: () => {
+    const s = get();
+    if (s.notFit) {
+      set({ log: pushLog(s.log, "[TABLE] The table named a miss. Gold stays off.") });
+      return;
+    }
+    if (!s.committed) {
+      set({ log: pushLog(s.log, "[TABLE] Gold is a third act. Commit first. It will not claim the vows commute.") });
+      return;
+    }
+    set({
+      goldAttested: true,
+      tick: s.tick + 1,
+      log: pushLog(s.log, "[TABLE] Gold attested. It does not claim the vows commute. This picture is evidence. It is not a Yes."),
     });
   },
   setViewLevel: (viewLevel) => set({ viewLevel, tick: get().tick + 1 }),
@@ -490,6 +512,7 @@ export const useInstrument = create<InstrumentState & Actions>((set, get) => ({
       formStage: "idle",
       committed: false,
       notFit: false,
+      goldAttested: false,
       ringing: false,
       weatherMoving: false,
       freezeUntil: 0,
@@ -590,7 +613,8 @@ export function installQaHooks() {
         viewLevel: s.viewLevel,
         confirmedCount: confirmedCount(s.seats),
         commute: commuteClean(s.seats),
-        gold: goldAllowed(s.seats, s.committed),
+        gold: goldShown(s.goldAttested, s.notFit),
+        goldAttested: s.goldAttested,
         ringing: s.ringing,
         weather: s.weatherMoving,
         contradiction: marks[0]?.caption ?? null,
@@ -602,6 +626,7 @@ export function installQaHooks() {
     advanceForm: () => useInstrument.getState().advanceForm(),
     toggleSeatYes: (i: number) => useInstrument.getState().toggleSeatYes(i),
     tableCommit: () => useInstrument.getState().tableCommit(),
+    tableGold: () => useInstrument.getState().tableGold(),
     nameNotFit: () => useInstrument.getState().nameNotFit(),
     crankMood: (i: number) => useInstrument.getState().crankMood(i),
     noteRing: (n: number) => useInstrument.getState().noteRing(n),
@@ -643,6 +668,7 @@ declare global {
         confirmedCount: number;
         commute: boolean;
         gold: boolean;
+        goldAttested: boolean;
         ringing: boolean;
         weather: boolean;
         contradiction: string | null;
@@ -653,6 +679,7 @@ declare global {
       advanceForm: () => void;
       toggleSeatYes: (i: number) => void;
       tableCommit: () => void;
+      tableGold: () => void;
       nameNotFit: () => void;
       crankMood: (i: number) => void;
       noteRing: (n: number) => void;

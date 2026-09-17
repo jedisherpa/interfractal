@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import {
+  CUBE_CORNERS,
+  CUBE_HINGES,
   EVIDENCE_STAMP,
   SEAT_NAMES,
   TABLE_AXES,
@@ -9,9 +11,10 @@ import {
   commuteClean,
   confirmedCount,
   copyIsClean,
+  cornerName,
   fiberOffset,
   findContradictions,
-  goldAllowed,
+  goldShown,
   lodgeEdge,
   makeSeats,
   poseOf,
@@ -26,7 +29,7 @@ import {
 import { FORM_STAGES, formCaption } from "./formation.ts";
 
 describe("intention table", () => {
-  it("locks the eight approved axis names", () => {
+  it("locks four cubes, four eights, twelve hinges", () => {
     assert.deepEqual([...TABLE_AXES], [
       "purpose",
       "scope",
@@ -38,6 +41,49 @@ describe("intention table", () => {
       "completion",
     ]);
     assert.deepEqual([...TABLE_LEVELS], ["self", "tribe", "world", "transcendent"]);
+    assert.deepEqual([...CUBE_CORNERS.self], [
+      "physical",
+      "emotional",
+      "intellectual",
+      "spiritual",
+      "environmental",
+      "social",
+      "financial",
+      "occupational",
+    ]);
+    assert.deepEqual([...CUBE_CORNERS.tribe], [
+      "hospitality",
+      "membership",
+      "ritual",
+      "succession",
+      "secrecy",
+      "conflict",
+      "role",
+      "repair",
+    ]);
+    assert.deepEqual([...CUBE_CORNERS.world], [
+      "craft",
+      "waste",
+      "infrastructure",
+      "surplus",
+      "market",
+      "reputation",
+      "law",
+      "ground-repair",
+    ]);
+    assert.equal(CUBE_CORNERS.transcendent[0], "purpose");
+    assert.equal(CUBE_CORNERS.transcendent[7], "authority");
+    assert.equal(CUBE_HINGES.self[0].plus, "organism");
+    assert.equal(CUBE_HINGES.tribe[1].minus, "office");
+    assert.equal(CUBE_HINGES.world[2].minus, "exhaust");
+    assert.equal(CUBE_HINGES.transcendent[2].plus, "tend");
+  });
+
+  it("+++ is the plus-plus-plus octant on every cube", () => {
+    assert.equal(cornerName("self", 0), "physical");
+    assert.equal(cornerName("tribe", 0), "hospitality");
+    assert.equal(cornerName("world", 0), "craft");
+    assert.equal(cornerName("transcendent", 0), "purpose");
   });
 
   it("defaults four seats Maya Finn Bea Sam, none Yes", () => {
@@ -66,13 +112,14 @@ describe("intention table", () => {
     assert.equal(stamp(line), line);
   });
 
-  it("Maya’s Self yes fights her Tribe role on authority — split, not an average", () => {
+  it("Maya’s Self social fights her Tribe conflict — same octant, two names, not an average", () => {
     const seats = makeSeats(4).map((s, i) => (i === 0 ? { ...s, yesOnGoal: true } : s));
     const marks = findContradictions(seats);
-    assert.ok(marks.some((m) => m.kind === "cross-level" && m.axis === "authority"));
-    assert.match(marks[0]!.caption, /Maya.*authority/);
+    assert.ok(marks.some((m) => m.kind === "cross-level" && m.octant === 5));
+    assert.match(marks[0]!.caption, /Maya.*social.*conflict/);
     assert.equal(commuteClean(seats), false);
-    assert.equal(goldAllowed(seats, true), false);
+    assert.equal(goldShown(false, false), false);
+    assert.equal(goldShown(true, false), true);
     assert.equal(starTetraEligible(seats), false);
   });
 
@@ -84,11 +131,11 @@ describe("intention table", () => {
   });
 
   it("records count only Yes’d seats; Finn vs Bea on purpose is vow-vs-vow", () => {
-    let seats = makeSeats(4).map((s, i) => (i < 3 ? { ...s, yesOnGoal: true } : s));
+    let seats = makeSeats(4).map((s, i) => (i > 0 && i < 3 ? { ...s, yesOnGoal: true } : s));
     seats = withRecord(seats, 0);
-    assert.equal(confirmedCount(seats), 3);
+    assert.equal(confirmedCount(seats), 2);
     const vows = findContradictions(seats).filter((m) => m.kind === "vow-vs-vow");
-    assert.ok(vows.some((m) => m.axis === "purpose"));
+    assert.ok(vows.some((m) => m.octant === 0));
   });
 
   it("fiber weather offsets off-plane; the plan heading is independent", () => {

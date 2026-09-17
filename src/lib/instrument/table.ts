@@ -1,8 +1,86 @@
 /** Table layer of the teaching instrument. Evidence, not a Yes.
- *  Field (Hopf, nested worlds) is a different picture. */
+ *  Field (Hopf, nested worlds) is a different picture.
+ *  Four cubes, four eights. The 8 names are octants of 3 hinges. */
 
 export const EVIDENCE_STAMP = "This picture is evidence. It is not a Yes.";
 
+export const TABLE_LEVELS = ["self", "tribe", "world", "transcendent"] as const;
+export type TableLevel = (typeof TABLE_LEVELS)[number];
+
+export type Hinge = { plus: string; minus: string };
+
+/** Three hinges per cube. Vertex i = sign-triple of AXIS_CORNERS[i]. */
+export const CUBE_HINGES: Record<TableLevel, readonly [Hinge, Hinge, Hinge]> = {
+  self: [
+    { plus: "organism", minus: "situation" },
+    { plus: "lived", minus: "system" },
+    { plus: "solitary", minus: "relational" },
+  ],
+  tribe: [
+    { plus: "porous", minus: "sealed" },
+    { plus: "person", minus: "office" },
+    { plus: "continue", minus: "rupture" },
+  ],
+  world: [
+    { plus: "matter", minus: "promise" },
+    { plus: "practice", minus: "plant" },
+    { plus: "capacity", minus: "exhaust" },
+  ],
+  transcendent: [
+    { plus: "end", minus: "means" },
+    { plus: "opening", minus: "closing" },
+    { plus: "tend", minus: "command" },
+  ],
+};
+
+/**
+ * Octants, same order as AXIS_CORNERS:
+ * +++ ++- +-+ +-- -++ -+- --+ ---
+ */
+export const CUBE_CORNERS: Record<TableLevel, readonly string[]> = {
+  self: [
+    "physical",
+    "emotional",
+    "intellectual",
+    "spiritual",
+    "environmental",
+    "social",
+    "financial",
+    "occupational",
+  ],
+  tribe: [
+    "hospitality",
+    "membership",
+    "ritual",
+    "succession",
+    "secrecy",
+    "conflict",
+    "role",
+    "repair",
+  ],
+  world: [
+    "craft",
+    "waste",
+    "infrastructure",
+    "surplus",
+    "market",
+    "reputation",
+    "law",
+    "ground-repair",
+  ],
+  transcendent: [
+    "purpose",
+    "scope",
+    "timing",
+    "completion",
+    "care",
+    "resources",
+    "risk",
+    "authority",
+  ],
+};
+
+/** Vow names in the approved listing order. Octant order lives on CUBE_CORNERS.transcendent. */
 export const TABLE_AXES = [
   "purpose",
   "scope",
@@ -15,8 +93,12 @@ export const TABLE_AXES = [
 ] as const;
 export type TableAxis = (typeof TABLE_AXES)[number];
 
-export const TABLE_LEVELS = ["self", "tribe", "world", "transcendent"] as const;
-export type TableLevel = (typeof TABLE_LEVELS)[number];
+export function cornerName(level: TableLevel, i: number): string {
+  return CUBE_CORNERS[level][i] ?? `octant-${i}`;
+}
+
+export const OCTANT_COUNT = 8;
+
 
 /** Default four. Extras join; they do not pre-draw a lodge. */
 export const SEAT_NAMES = ["Maya", "Finn", "Bea", "Sam", "Kai", "Noor", "Remy", "Ade"] as const;
@@ -80,14 +162,14 @@ export type Contradiction = {
   seatB: string;
   levelA: TableLevel;
   levelB: TableLevel;
-  axis: TableAxis;
+  octant: number;
   caption: string;
 };
 
 export type ChamberKind = "none" | "tetra" | "octa" | "icosa";
 
 function emptyCorners(): Corner[] {
-  return TABLE_AXES.map(() => ({ lean: 0, magnitude: 0.4 }));
+  return Array.from({ length: OCTANT_COUNT }, () => ({ lean: 0, magnitude: 0.4 }));
 }
 
 function emptyLevel(): SeatLevel {
@@ -119,14 +201,14 @@ export function makeSeats(n: number, prev?: readonly TableSeat[]): TableSeat[] {
     }
     const levels = emptyLevels();
     if (SEAT_NAMES[i] === "Maya") {
-      levels.self.corners[6] = { lean: 0.85, magnitude: 1.25 };
-      levels.tribe.corners[6] = { lean: -0.8, magnitude: 1.1 };
+      levels.self.corners[5] = { lean: 0.85, magnitude: 1.25 };
+      levels.tribe.corners[5] = { lean: -0.8, magnitude: 1.1 };
     }
     if (SEAT_NAMES[i] === "Finn") {
-      levels.self.corners[0] = { lean: 0.7, magnitude: 0.9 };
+      levels.transcendent.corners[0] = { lean: 0.7, magnitude: 0.9 };
     }
     if (SEAT_NAMES[i] === "Bea") {
-      levels.self.corners[0] = { lean: -0.65, magnitude: 0.85 };
+      levels.transcendent.corners[0] = { lean: -0.65, magnitude: 0.85 };
     }
     return {
       name: SEAT_NAMES[i]!,
@@ -209,7 +291,7 @@ export function findContradictions(seats: readonly TableSeat[]): Contradiction[]
   const out: Contradiction[] = [];
   for (const s of seats) {
     if (!s.yesOnGoal) continue;
-    for (let a = 0; a < TABLE_AXES.length; a += 1) {
+    for (let a = 0; a < OCTANT_COUNT; a += 1) {
       for (let i = 0; i < TABLE_LEVELS.length; i += 1) {
         for (let j = i + 1; j < TABLE_LEVELS.length; j += 1) {
           const li = TABLE_LEVELS[i]!;
@@ -224,29 +306,29 @@ export function findContradictions(seats: readonly TableSeat[]): Contradiction[]
               seatB: s.name,
               levelA: li,
               levelB: lj,
-              axis: TABLE_AXES[a]!,
-              caption: `${s.name}’s ${li} yes fights ${pronoun} ${lj} role on ${TABLE_AXES[a]}.`,
+              octant: a,
+              caption: `${s.name}’s ${li} ${cornerName(li, a)} fights ${pronoun} ${lj} ${cornerName(lj, a)}.`,
             });
           }
         }
       }
     }
   }
-  for (let a = 0; a < TABLE_AXES.length; a += 1) {
+  for (let a = 0; a < OCTANT_COUNT; a += 1) {
     const holders = seats.filter((s) => s.yesOnGoal && s.records.includes(a));
     for (let i = 0; i < holders.length; i += 1) {
       for (let j = i + 1; j < holders.length; j += 1) {
-        const ca = holders[i]!.levels.self.corners[a]!.lean;
-        const cb = holders[j]!.levels.self.corners[a]!.lean;
+        const ca = holders[i]!.levels.transcendent.corners[a]!.lean;
+        const cb = holders[j]!.levels.transcendent.corners[a]!.lean;
         if (ca * cb < 0 && Math.abs(ca) > 0.25 && Math.abs(cb) > 0.25) {
           out.push({
             kind: "vow-vs-vow",
             seatA: holders[i]!.name,
             seatB: holders[j]!.name,
-            levelA: "self",
-            levelB: "self",
-            axis: TABLE_AXES[a]!,
-            caption: `${holders[i]!.name} and ${holders[j]!.name} contradict on ${TABLE_AXES[a]}. Both pearls stay.`,
+            levelA: "transcendent",
+            levelB: "transcendent",
+            octant: a,
+            caption: `${holders[i]!.name} and ${holders[j]!.name} contradict on ${cornerName("transcendent", a)}. Both pearls stay.`,
           });
         }
       }
@@ -274,8 +356,15 @@ export function chamberFills(seats: readonly TableSeat[], kind: ChamberKind): bo
   return kind !== "none" && kind !== "icosa" && commuteClean(seats);
 }
 
-export function goldAllowed(seats: readonly TableSeat[], committed: boolean): boolean {
-  return committed && commuteClean(seats);
+/** Gold is a third human act. It does not require commute and does not claim it. */
+export function goldShown(goldAttested: boolean, notFit: boolean): boolean {
+  return goldAttested && !notFit;
+}
+
+export function goldAllowed(seats: readonly TableSeat[], committed: boolean, goldAttested = false): boolean {
+  void seats;
+  void committed;
+  return goldAttested;
 }
 
 export function poseOf(stage: string): "in" | "out" | "tube" | "none" {
@@ -312,6 +401,7 @@ export function revealCaption(opts: {
   confirmedCount: number;
   commute: boolean;
   committed: boolean;
+  goldAttested?: boolean;
 }): string | null {
   if (opts.ringing) return stamp("the pointer is ringing — ask, don’t act.");
   if (opts.weather) return stamp("weather is moving; the plan is not.");
@@ -319,8 +409,14 @@ export function revealCaption(opts: {
   if (!opts.commute && opts.confirmedCount >= 6) {
     return stamp("the count rose; the vows do not commute.");
   }
-  if (opts.committed && !opts.commute) {
-    return stamp("Commit stands. Gold waits. The vows do not commute.");
+  if (opts.committed && !opts.commute && !opts.goldAttested) {
+    return stamp("Commit stands. Gold is a third act. It will not claim the vows commute.");
+  }
+  if (opts.goldAttested && !opts.commute) {
+    return stamp("Gold is a human act. It does not claim the vows commute.");
+  }
+  if (opts.goldAttested) {
+    return stamp("Gold attested. The picture is still not a Yes.");
   }
   return null;
 }

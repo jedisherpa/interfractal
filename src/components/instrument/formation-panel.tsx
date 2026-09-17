@@ -6,7 +6,7 @@ import {
   formCaption,
   shapeOf,
 } from "@/lib/instrument/formation.ts";
-import { EVIDENCE_STAMP, TABLE_AXES, TABLE_LEVELS, yesCount } from "@/lib/instrument/table.ts";
+import { CUBE_CORNERS, CUBE_HINGES, EVIDENCE_STAMP, TABLE_LEVELS, yesCount } from "@/lib/instrument/table.ts";
 import { useInstrument } from "@/lib/instrument/store.ts";
 
 const field =
@@ -26,6 +26,7 @@ export function FormationPanel() {
   const toggleSeatYes = useInstrument((s) => s.toggleSeatYes);
   const advanceForm = useInstrument((s) => s.advanceForm);
   const tableCommit = useInstrument((s) => s.tableCommit);
+  const tableGold = useInstrument((s) => s.tableGold);
   const nameNotFit = useInstrument((s) => s.nameNotFit);
   const setViewLevel = useInstrument((s) => s.setViewLevel);
   const crankMood = useInstrument((s) => s.crankMood);
@@ -109,6 +110,14 @@ export function FormationPanel() {
         Commit
       </Button>
       <Button
+        data-testid="table-gold"
+        className="shrink-0 border-paper/40 bg-void/40 text-paper"
+        onClick={tableGold}
+        title="Gold is a third human act. It does not claim the vows commute."
+      >
+        Gold
+      </Button>
+      <Button
         data-testid="not-a-fit"
         className="shrink-0 border-paper/20 bg-void/40 text-paper"
         onClick={nameNotFit}
@@ -146,8 +155,8 @@ export function FormationPanel() {
         {committed ? " · committed" : ""}
         {notFit ? " · miss" : ""}
       </p>
-      <p className="hidden max-w-[12rem] truncate font-mono text-[0.6rem] tracking-wide text-paper/40 2xl:block" title={TABLE_AXES.join(" · ")}>
-        {TABLE_AXES.join(" · ")}
+      <p className="hidden max-w-[14rem] truncate font-mono text-[0.6rem] tracking-wide text-paper/40 2xl:block" title={`${CUBE_HINGES[viewLevel].map((h) => `${h.plus}|${h.minus}`).join(" · ")} · ${CUBE_CORNERS[viewLevel].join(" · ")}`}>
+        {CUBE_CORNERS[viewLevel].join(" · ")}
       </p>
       <span className="sr-only">{EVIDENCE_STAMP}</span>
     </div>

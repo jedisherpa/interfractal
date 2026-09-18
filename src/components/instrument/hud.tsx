@@ -11,7 +11,9 @@ import {
   type WorldId,
 } from "@/lib/instrument/cosmology.ts";
 import { formCaption } from "@/lib/instrument/formation.ts";
+import { isFunnelChamberCell, type FunnelSearch } from "@/lib/instrument/funnel.ts";
 import {
+  EVIDENCE_STAMP,
   TABLE_LEVELS,
   confirmedCount,
   findContradictions,
@@ -30,7 +32,8 @@ import {
 const chip =
   "h-11 shrink-0 rounded-full border border-paper/20 bg-void/40 px-3 font-display text-xs uppercase tracking-wider text-paper";
 
-export function InstrumentHud() {
+export function InstrumentHud({ search = {} }: { search?: FunnelSearch }) {
+  const chamber = isFunnelChamberCell(search);
   const phase = useInstrument((s) => s.phase);
   const beat = useInstrument((s) => s.beat);
   const world = useInstrument((s) => s.world);
@@ -93,7 +96,13 @@ export function InstrumentHud() {
   return (
     <>
       <header className="pointer-events-auto absolute inset-x-0 top-0 z-20 border-b border-paper/15 bg-void/80 pt-[env(safe-area-inset-top)] text-paper">
-        <div className="flex h-12 min-h-11 items-center gap-1.5 overflow-x-auto px-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div
+          className={
+            chamber
+              ? "flex min-h-12 flex-wrap items-center gap-1.5 px-3 py-1.5"
+              : "flex h-12 min-h-11 items-center gap-1.5 overflow-x-auto px-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          }
+        >
           <label className="shrink-0">
             <span className="sr-only">World</span>
             <select
@@ -115,7 +124,7 @@ export function InstrumentHud() {
             {held ? " · Self revealed" : ""}
           </p>
 
-          {!wellOpen ? <FormationPanel /> : <div className="min-w-0 flex-1" />}
+          {!wellOpen ? <FormationPanel search={search} /> : <div className="min-w-0 flex-1" />}
 
           <details className="relative shrink-0 sm:hidden">
             <summary className={`${chip} cursor-pointer list-none [&::-webkit-details-marker]:hidden`}>
@@ -179,13 +188,17 @@ export function InstrumentHud() {
           </div>
         </div>
 
-        {formStage !== "idle" ? (
+        {chamber ? (
+          <p className="truncate px-3 py-1 font-mono text-[0.65rem] tracking-wide text-paper/55">
+            {EVIDENCE_STAMP}
+          </p>
+        ) : formStage !== "idle" ? (
           <p className="truncate px-3 py-1 font-mono text-[0.65rem] tracking-wide text-paper/55">
             {reveal ?? formCaption(formStage, formN, formGoal)}
           </p>
         ) : null}
 
-        {formStage !== "idle" && !wellOpen ? (
+        {formStage !== "idle" && !wellOpen && !chamber ? (
           <div className="flex items-center gap-3 overflow-x-auto border-t border-paper/10 px-3 py-1 font-mono text-[0.6rem] uppercase tracking-wider text-paper/55 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {seats.map((seat) => (
               <span key={seat.name} className={seat.yesOnGoal ? "text-paper/80" : "text-paper/35"}>

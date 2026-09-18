@@ -486,7 +486,12 @@ function FiberFamily({
         setOpacityIfChanged(lowerMat, OTHER_HALF_OPACITY);
         return;
       }
-      const baseOpacity = link ? (forming ? 0.42 : 0.92) : forming ? 0.07 + (index % 2) * 0.03 : 0.55 + fill * 0.4 + (index % 2) * 0.08;
+      if (link) {
+        setOpacityIfChanged(upperMat, 0.95);
+        setOpacityIfChanged(lowerMat, 0.95 * OTHER_HALF_OPACITY);
+        return;
+      }
+      const baseOpacity = forming ? 0.07 + (index % 2) * 0.03 : 0.55 + fill * 0.4 + (index % 2) * 0.08;
       setOpacityIfChanged(upperMat, baseOpacity);
       setOpacityIfChanged(lowerMat, baseOpacity * OTHER_HALF_OPACITY);
     });

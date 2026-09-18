@@ -4,11 +4,23 @@ export const FUNNEL_SOURCE = "kyj-funnel";
 export const FUNNEL_VERSION = 1;
 export const CLOUD6_HREF = "https://boulderjoe.com";
 export const KYJ_ORIGIN = "https://keep-your-judgment.vercel.app";
+export const FUNNEL_GOAL_STORAGE_KEY = "kyj-funnel-goal";
+export const FUNNEL_DOORS = ["chamber", "matter"] as const;
+
+export type FunnelDoor = (typeof FUNNEL_DOORS)[number];
 
 export type FunnelSearch = {
   from?: string;
   funnel?: string;
   warmup?: string;
+  door?: FunnelDoor;
+  goal?: string;
+};
+
+export type GoalStorage = {
+  getItem: (key: string) => string | null;
+  setItem: (key: string, value: string) => void;
+  removeItem: (key: string) => void;
 };
 
 export type FunnelEvent = "stage-warming" | "stage-ready" | "close-ready" | "wake";
@@ -73,26 +85,41 @@ function readParam(input: URLSearchParams | string, key: string): unknown {
 
 /** Accept route search, URLSearchParams, or a raw query string. */
 export function parseFunnelSearch(
-  input: { from?: unknown; funnel?: unknown; warmup?: unknown } | URLSearchParams | string | undefined | null,
+  input:
+    | { from?: unknown; funnel?: unknown; warmup?: unknown; door?: unknown; goal?: unknown }
+    | URLSearchParams
+    | string
+    | undefined
+    | null,
 ): FunnelSearch {
   if (input == null) return {};
   let from: unknown;
   let funnel: unknown;
   let warmup: unknown;
+  let door: unknown;
+  let goal: unknown;
   if (typeof input === "string" || input instanceof URLSearchParams) {
     from = readParam(input, "from");
     funnel = readParam(input, "funnel");
     warmup = readParam(input, "warmup");
+    door = readParam(input, "door");
+    goal = readParam(input, "goal");
   } else {
     from = input.from;
     funnel = input.funnel;
     warmup = input.warmup;
+    door = input.door;
+    goal = input.goal;
   }
   const parsed: FunnelSearch = {};
   const fromToken = normalizeQueryToken(from);
   if (fromToken) parsed.from = fromToken;
   if (tokenOn(funnel)) parsed.funnel = "1";
   if (tokenOn(warmup)) parsed.warmup = "1";
+  const doorToken = normalizeQueryToken(door)?.toLowerCase();
+  if (doorToken === "chamber" || doorToken === "matter") parsed.door = doorToken;
+  const goalToken = normalizeQueryToken(goal);
+  if (goalToken) parsed.goal = goalToken;
   return parsed;
 }
 
@@ -105,9 +132,45 @@ export function isWarmup(search: FunnelSearch): boolean {
   return search.warmup === "1";
 }
 
-/** Live funnel land: skip pulse / gate / FirstPage via skipIntro(). */
+/** Slide 7 paycheck. Cloudburst primary and the chamber chip land here, not on the table. */
+export function isMatterDoor(search: FunnelSearch): boolean {
+  return search.door === "matter";
+}
+
+/** Slide 6 chamber cell: funnel land + `door=chamber` (quoted tokens already normalized). */
+export function isFunnelChamberCell(search: FunnelSearch): boolean {
+  return isFunnelArrival(search) && search.door === "chamber";
+}
+
+/** After Commit with a named goal — optional convert chip, still no charge. */
+export function showMakeItMatterChip(search: FunnelSearch, committed: boolean, goal: string): boolean {
+  return isFunnelChamberCell(search) && committed && goal.trim().length > 0;
+}
+
+/** Live funnel land: skip pulse / gate / FirstPage via skipIntro(). Matter goes to /convert. */
 export function shouldSkipIntro(search: FunnelSearch): boolean {
-  return isFunnelArrival(search) && !isWarmup(search);
+  return isFunnelArrival(search) && !isWarmup(search) && !isMatterDoor(search);
+}
+
+export function readCarriedGoal(storage?: GoalStorage | null, searchGoal?: string): string {
+  const fromQuery = normalizeQueryToken(searchGoal)?.trim();
+  if (fromQuery) return fromQuery;
+  try {
+    return storage?.getItem(FUNNEL_GOAL_STORAGE_KEY)?.trim() ?? "";
+  } catch {
+    return "";
+  }
+}
+
+export function writeCarriedGoal(goal: string, storage?: GoalStorage | null) {
+  if (!storage) return;
+  const trimmed = goal.trim();
+  try {
+    if (trimmed) storage.setItem(FUNNEL_GOAL_STORAGE_KEY, trimmed);
+    else storage.removeItem(FUNNEL_GOAL_STORAGE_KEY);
+  } catch {
+    /* private mode / opaque storage */
+  }
 }
 
 /** Warm iframe: parse and cache. Do not start the live renderer. */

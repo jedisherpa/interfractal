@@ -6,13 +6,21 @@ import {
   formCaption,
   shapeOf,
 } from "@/lib/instrument/formation.ts";
+import {
+  convertMatterHref,
+  isFunnelChamberCell,
+  showMakeItMatterChip,
+  writeCarriedGoal,
+  type FunnelSearch,
+} from "@/lib/instrument/funnel.ts";
 import { CUBE_CORNERS, CUBE_HINGES, EVIDENCE_STAMP, TABLE_LEVELS, yesCount } from "@/lib/instrument/table.ts";
 import { useInstrument } from "@/lib/instrument/store.ts";
 
 const field =
   "h-11 shrink-0 rounded-full border border-paper/20 bg-void/40 px-3 font-display text-xs uppercase tracking-wider text-paper";
 
-export function FormationPanel() {
+export function FormationPanel({ search = {} }: { search?: FunnelSearch }) {
+  const chamber = isFunnelChamberCell(search);
   const stage = useInstrument((s) => s.formStage);
   const n = useInstrument((s) => s.formN);
   const goal = useInstrument((s) => s.formGoal);
@@ -26,6 +34,7 @@ export function FormationPanel() {
   const setFormN = useInstrument((s) => s.setFormN);
   const toggleSeatYes = useInstrument((s) => s.toggleSeatYes);
   const advanceForm = useInstrument((s) => s.advanceForm);
+  const confirmGoal = useInstrument((s) => s.confirmGoal);
   const tableCommit = useInstrument((s) => s.tableCommit);
   const tableGold = useInstrument((s) => s.tableGold);
   const nameNotFit = useInstrument((s) => s.nameNotFit);
@@ -34,9 +43,13 @@ export function FormationPanel() {
   if (wellOpen) return null;
   const shape = shapeOf(n);
   const held = yesCount(seats);
-  const canAdvance = stage !== "idle" || goal.trim().length > 0;
+  const named = goal.trim().length > 0;
+  const canAdvance = chamber ? named : stage !== "idle" || named;
   const caption = formCaption(stage, n, goal);
   const sitting = stage !== "idle" || notFit;
+  const walk = !chamber;
+  const holdDoors = walk && stage === "hold";
+  const matter = showMakeItMatterChip(search, committed, goal);
   const seatsLabel =
     stage === "lenses" || stage === "hold"
       ? shape.polyhedron
@@ -46,9 +59,21 @@ export function FormationPanel() {
           ? "not a fit"
           : shape.polygon;
 
+  const persistGoal = () => {
+    writeCarriedGoal(goal, typeof sessionStorage === "undefined" ? null : sessionStorage);
+  };
+
   return (
-    <div className="flex min-w-0 flex-1 items-center gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-      {stage === "hold" ? (
+    <div
+      className={
+        chamber
+          ? "flex min-w-0 flex-1 flex-wrap items-center gap-1.5"
+          : "flex min-w-0 flex-1 items-center gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      }
+      data-testid="formation-panel"
+      data-chamber-cell={chamber ? "1" : "0"}
+    >
+      {holdDoors ? (
       <div className="flex shrink-0 items-center gap-1.5">
       <Button
         data-testid="hold-stay"
@@ -76,19 +101,32 @@ export function FormationPanel() {
       </Button>
       </div>
       ) : null}
-      <label className="min-w-0 flex-1 basis-28">
-        <span className="sr-only">Goal</span>
-        <input
-          type="text"
-          value={goal}
-          placeholder="Name a goal"
-          aria-label="Goal"
-          title={caption}
-          onChange={(e) => setFormGoal(e.target.value)}
-          className="h-11 w-full rounded-full border border-paper/20 bg-void/40 px-4 text-sm text-paper placeholder:text-paper/40"
-        />
-      </label>
-      {sitting ? (
+      <div className="flex min-w-[12rem] flex-1 basis-40 flex-col gap-1">
+        <label className="min-w-0 w-full">
+          <span className="sr-only">Goal</span>
+          <input
+            type="text"
+            value={goal}
+            placeholder="Name a goal"
+            aria-label="Goal"
+            title={caption}
+            onChange={(e) => setFormGoal(e.target.value)}
+            className="h-11 w-full rounded-full border border-paper/20 bg-void/40 px-4 text-sm text-paper placeholder:text-paper/40"
+          />
+        </label>
+        {matter ? (
+          <a
+            href={convertMatterHref(goal)}
+            data-testid="make-it-matter"
+            title="Make it matter. No charge today."
+            onClick={persistGoal}
+            className="inline-flex h-8 w-fit items-center rounded-full border border-paper/30 bg-void/30 px-3 text-[0.65rem] uppercase tracking-wider text-paper/85"
+          >
+            Make it matter
+          </a>
+        ) : null}
+      </div>
+      {walk && sitting ? (
       <label>
         <span className="sr-only">Preferred lodge</span>
         <select
@@ -106,7 +144,7 @@ export function FormationPanel() {
         </select>
       </label>
       ) : null}
-      {sitting
+      {walk && sitting
         ? seats.map((seat, i) => (
             <button
               key={seat.name}
@@ -124,30 +162,46 @@ export function FormationPanel() {
             </button>
           ))
         : null}
-      {stage === "hold" ? null : (
+      {chamber || stage !== "hold" ? (
       <Button
         variant="primary"
         className="shrink-0 bg-paper text-void"
         disabled={!canAdvance}
-        onClick={advanceForm}
+        onClick={() => {
+          if (chamber) {
+            confirmGoal();
+            persistGoal();
+            return;
+          }
+          advanceForm();
+        }}
         data-testid="advance-form"
         title={caption}
       >
-        <span className="sm:hidden">{stage === "idle" ? "Set" : formActionLabel(stage)}</span>
-        <span className="hidden sm:inline">{formActionLabel(stage)}</span>
+        {chamber ? (
+          "Set this goal"
+        ) : (
+          <>
+            <span className="sm:hidden">{stage === "idle" ? "Set" : formActionLabel(stage)}</span>
+            <span className="hidden sm:inline">{formActionLabel(stage)}</span>
+          </>
+        )}
       </Button>
-      )}
-      {stage !== "hold" ? (
+      ) : null}
+      {chamber || stage !== "hold" ? (
       <Button
         data-testid="table-commit"
         className="shrink-0 border-paper/40 bg-void/40 text-paper"
-        onClick={tableCommit}
+        onClick={() => {
+          tableCommit();
+          persistGoal();
+        }}
         title="Commit is a human button. Conflict does not grey it. This picture is evidence. It is not a Yes."
       >
         Commit
       </Button>
       ) : null}
-      {sitting || committed ? (
+      {walk && (sitting || committed) ? (
       <Button
         data-testid="table-gold"
         data-gold={goldAttested ? "true" : "false"}
@@ -158,7 +212,7 @@ export function FormationPanel() {
         Gold
       </Button>
       ) : null}
-      {sitting && stage !== "hold" ? (
+      {walk && sitting && stage !== "hold" ? (
       <Button
         data-testid="not-a-fit"
         className="shrink-0 border-paper/20 bg-void/40 text-paper"
@@ -168,7 +222,7 @@ export function FormationPanel() {
         Not a fit
       </Button>
       ) : null}
-      {sitting ? (
+      {walk && sitting ? (
       <Button
         data-testid="weather"
         className="shrink-0 border-paper/20 bg-void/40 text-paper"
@@ -178,7 +232,7 @@ export function FormationPanel() {
         Weather
       </Button>
       ) : null}
-      {stage !== "idle" ? (
+      {walk && stage !== "idle" ? (
         <label>
           <span className="sr-only">View level</span>
           <select
@@ -195,14 +249,18 @@ export function FormationPanel() {
           </select>
         </label>
       ) : null}
+      {walk ? (
       <p className="hidden shrink-0 font-mono text-[0.65rem] uppercase tracking-wider text-paper/55 xl:block">
         {held}/{n} Yes · {seatsLabel}
         {committed ? " · committed" : ""}
         {notFit ? " · miss" : ""}
       </p>
+      ) : null}
+      {walk ? (
       <p className="hidden max-w-[14rem] truncate font-mono text-[0.6rem] tracking-wide text-paper/40 2xl:block" title={`${CUBE_HINGES[viewLevel].map((h) => `${h.plus}|${h.minus}`).join(" · ")} · ${CUBE_CORNERS[viewLevel].join(" · ")}`}>
         {CUBE_CORNERS[viewLevel].join(" · ")}
       </p>
+      ) : null}
       <span className="sr-only">{EVIDENCE_STAMP}</span>
     </div>
   );

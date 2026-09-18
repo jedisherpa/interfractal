@@ -3,25 +3,34 @@ import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 import {
   CLOUD6_HREF,
+  CLOUDBURST_CONVERT_HREF,
+  FUNNEL_GOAL_STORAGE_KEY,
   FUNNEL_SOURCE,
   FUNNEL_VERSION,
   KYJ_ORIGIN,
+  convertMatterHref,
   funnelMessage,
   isAllowedFunnelParentOrigin,
   isFunnelArrival,
+  isFunnelChamberCell,
   isFunnelMessage,
   isWarmup,
   parseFunnelSearch,
   postFunnelEvent,
+  readCarriedGoal,
   resolveFunnelParentOrigin,
   shouldHoldRenderer,
   shouldSkipIntro,
+  showMakeItMatterChip,
   tokenOn,
+  writeCarriedGoal,
 } from "./funnel.ts";
 
 const app = readFileSync(new URL("../../components/instrument/app.tsx", import.meta.url), "utf8");
 const rail = readFileSync(new URL("../../components/instrument/close-rail.tsx", import.meta.url), "utf8");
+const panel = readFileSync(new URL("../../components/instrument/formation-panel.tsx", import.meta.url), "utf8");
 const firstPage = readFileSync(new URL("../../components/instrument/first-page.tsx", import.meta.url), "utf8");
+const index = readFileSync(new URL("../../routes/index.tsx", import.meta.url), "utf8");
 
 describe("funnel query contract", () => {
   it("from=cloudburst or funnel=1 skips Light/Whole when not warming", () => {
@@ -117,6 +126,100 @@ describe("funnel query contract", () => {
     assert.equal(rail.includes("stripe"), false);
     assert.match(rail, /Geometry is not permission/);
     assert.match(rail, /EVIDENCE_STAMP/);
+  });
+
+  it("accepts inbound door=chamber (and quoted tokens) as the chamber funnel cell", () => {
+    const land = parseFunnelSearch("?from=cloudburst&funnel=1&door=chamber");
+    assert.deepEqual(land, { from: "cloudburst", funnel: "1", door: "chamber" });
+    assert.equal(isFunnelArrival(land), true);
+    assert.equal(shouldSkipIntro(land), true);
+    assert.equal(isFunnelChamberCell(land), true);
+
+    const quoted = parseFunnelSearch('?from="cloudburst"&funnel="1"&door="chamber"');
+    assert.equal(quoted.door, "chamber");
+    assert.equal(isFunnelChamberCell(quoted), true);
+    assert.equal(shouldSkipIntro(quoted), true);
+
+    const encoded = parseFunnelSearch("?from=%22cloudburst%22&funnel=%221%22&door=%22chamber%22");
+    assert.equal(encoded.door, "chamber");
+    assert.equal(isFunnelChamberCell(encoded), true);
+
+    assert.equal(isFunnelChamberCell(parseFunnelSearch({ from: "cloudburst", funnel: "1" })), false);
+    assert.equal(isFunnelChamberCell(parseFunnelSearch("?from=cloudburst&funnel=1&door=matter")), false);
+    assert.equal(isFunnelChamberCell(parseFunnelSearch("?door=chamber")), false);
+    assert.equal(index.includes("door: raw.door"), true);
+    assert.equal(index.includes("goal: raw.goal"), true);
+  });
+
+  it("carries a named goal via ?goal= and sessionStorage without inventing a second form", () => {
+    const planted = parseFunnelSearch("?from=cloudburst&funnel=1&door=chamber&goal=Plant%20trees");
+    assert.equal(planted.goal, "Plant trees");
+    assert.equal(parseFunnelSearch({ goal: '"Plant"' }).goal, "Plant");
+
+    const store = new Map<string, string>();
+    const memory = {
+      getItem: (key: string) => store.get(key) ?? null,
+      setItem: (key: string, value: string) => {
+        store.set(key, value);
+      },
+      removeItem: (key: string) => {
+        store.delete(key);
+      },
+    };
+    assert.equal(readCarriedGoal(memory, planted.goal), "Plant trees");
+    writeCarriedGoal("  Hold the well  ", memory);
+    assert.equal(store.get(FUNNEL_GOAL_STORAGE_KEY), "Hold the well");
+    assert.equal(readCarriedGoal(memory), "Hold the well");
+    writeCarriedGoal("   ", memory);
+    assert.equal(store.has(FUNNEL_GOAL_STORAGE_KEY), false);
+
+    assert.match(app, /readCarriedGoal/);
+    assert.match(app, /setFormGoal/);
+    assert.match(panel, /placeholder="Name a goal"/);
+    assert.match(panel, /Set this goal/);
+    assert.doesNotMatch(panel, /createElement\(["']form/);
+  });
+
+  it("Make it matter after Commit points at Cloudburst convert with the goal, still no charge", () => {
+    const href = convertMatterHref("Plant trees");
+    assert.ok(href.startsWith(CLOUDBURST_CONVERT_HREF));
+    assert.match(href, /door=matter/);
+    assert.match(href, /goal=Plant(\+|%20)trees/);
+    assert.equal(href.includes("stripe"), false);
+    assert.equal(href.toLowerCase().includes("checkout"), false);
+    assert.equal(convertMatterHref("").endsWith("/convert?door=matter"), true);
+
+    const cell = parseFunnelSearch("?from=cloudburst&funnel=1&door=chamber");
+    assert.equal(showMakeItMatterChip(cell, true, "Plant"), true);
+    assert.equal(showMakeItMatterChip(cell, true, "   "), false);
+    assert.equal(showMakeItMatterChip(cell, false, "Plant"), false);
+    assert.equal(showMakeItMatterChip(parseFunnelSearch("?from=cloudburst&funnel=1"), true, "Plant"), false);
+
+    assert.match(panel, /Make it matter/);
+    assert.match(panel, /convertMatterHref/);
+    assert.match(panel, /showMakeItMatterChip/);
+    assert.match(panel, /No charge today/);
+    assert.equal(panel.includes("stripe"), false);
+    assert.match(panel, /EVIDENCE_STAMP/);
+  });
+
+  it("chamber cell hides Gold, Not a fit, Weather, lodge, seat Yes, and Checkout — later", () => {
+    assert.match(panel, /isFunnelChamberCell/);
+    assert.match(panel, /const walk = !chamber/);
+    assert.match(panel, /Preferred lodge/);
+    assert.match(panel, /seat-yes-/);
+    assert.match(panel, /table-gold/);
+    assert.match(panel, /not-a-fit/);
+    assert.match(panel, /weather/);
+    assert.match(panel, /walk && sitting/);
+    assert.match(panel, /walk && \(sitting \|\| committed\)/);
+
+    assert.match(rail, /isFunnelChamberCell/);
+    assert.match(rail, /chamber \? null/);
+    assert.match(rail, /Checkout — later/);
+    assert.match(rail, /text-paper\/55/);
+    assert.equal(rail.includes("stripe"), false);
+    assert.doesNotMatch(rail, /apple pay/i);
   });
 
   it("postMessage never uses target origin * and only sends to the allowlist", () => {

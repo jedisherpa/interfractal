@@ -8,6 +8,8 @@ export const Route = createFileRoute("/")({
     from: raw.from,
     funnel: raw.funnel,
     warmup: raw.warmup,
+    door: raw.door,
+    goal: raw.goal,
   }),
   component: Home,
 });

@@ -180,6 +180,7 @@ describe("funnel query contract", () => {
 
     assert.match(app, /readCarriedGoal/);
     assert.match(app, /setFormGoal/);
+    assert.match(app, /if \(typing\) return/);
     assert.match(panel, /placeholder="Name a goal"/);
     assert.match(panel, /Set this goal/);
   });

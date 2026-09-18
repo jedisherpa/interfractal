@@ -84,6 +84,11 @@ export function InstrumentApp({ search }: { search?: FunnelSearch } = {}) {
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
+      const target = e.target;
+      const typing =
+        target instanceof HTMLElement &&
+        (target.closest("input, textarea, select, [contenteditable='true']") !== null || target.isContentEditable);
+      if (typing) return;
       const s = useInstrument.getState();
       if (s.phase === "pulse" || s.phase === "gate") {
         if (e.code === "Enter" || e.code === "Space") {

@@ -1,4 +1,4 @@
-import { useMemo, useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { submitConvertLead } from "@/lib/instrument/convert-submit.ts";
 import {
@@ -33,22 +33,24 @@ export function ConvertPage({ search }: { search?: FunnelSearch } = {}) {
   const [error, setError] = useState("");
   const [pending, setPending] = useState(false);
   const [done, setDone] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const canSubmit = useMemo(
-    () => goal.trim().length > 0 && name.trim().length > 0 && email.trim().length > 0,
-    [goal, name, email],
-  );
+  useEffect(() => {
+    const carried = readCarriedGoal(storage, routeSearch.goal);
+    if (carried) setGoal((current) => current.trim() || carried);
+  }, [routeSearch.goal, storage]);
 
-  async function onSubmit(event: FormEvent) {
-    event.preventDefault();
+  async function submitLead() {
     if (pending || done) return;
     setError("");
+    const form = formRef.current;
+    const posted = form ? Object.fromEntries(new FormData(form).entries()) : {};
     let payload;
     try {
       payload = parseConvertInput({
-        email,
-        name,
-        goal,
+        email: String(posted.email ?? email),
+        name: String(posted.name ?? name),
+        goal: String(posted.goal ?? goal),
         door,
         source: FUNNEL_SOURCE,
       });
@@ -65,6 +67,11 @@ export function ConvertPage({ search }: { search?: FunnelSearch } = {}) {
     }
     setPending(false);
     setDone(true);
+  }
+
+  function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    void submitLead();
   }
 
   return (
@@ -90,7 +97,14 @@ export function ConvertPage({ search }: { search?: FunnelSearch } = {}) {
             <p className="mt-3 text-sm text-paper/60">{CONVERT_FINE_PRINT}</p>
           </div>
         ) : (
-          <form className="mt-8 flex flex-col gap-4" onSubmit={onSubmit} data-testid="convert-form">
+          <form
+            ref={formRef}
+            className="mt-8 flex flex-col gap-4"
+            method="post"
+            action="#"
+            onSubmit={onSubmit}
+            data-testid="convert-form"
+          >
             <label className="block">
               <span className="mb-1.5 block font-display text-[0.65rem] uppercase tracking-[0.22em] text-paper/55">
                 Goal
@@ -149,12 +163,13 @@ export function ConvertPage({ search }: { search?: FunnelSearch } = {}) {
             ) : null}
 
             <Button
-              type="submit"
+              type="button"
               variant="primary"
               size="md"
-              disabled={!canSubmit || pending}
+              disabled={pending}
               data-testid="convert-submit"
               className="mt-2 w-full bg-paper text-void"
+              onClick={() => void submitLead()}
             >
               {pending ? "Holding your place…" : CONVERT_TITLE}
             </Button>

@@ -6,10 +6,13 @@ import { FirstPage } from "@/components/instrument/first-page.tsx";
 import { InstrumentHud } from "@/components/instrument/hud.tsx";
 import {
   isFunnelArrival,
+  isFunnelChamberCell,
   isFunnelMessage,
   isWarmup,
   parseFunnelSearch,
   postFunnelEvent,
+  readCarriedGoal,
+  writeCarriedGoal,
   type FunnelSearch,
 } from "@/lib/instrument/funnel.ts";
 import { orbit } from "@/lib/instrument/orbit.ts";
@@ -18,6 +21,7 @@ import { installQaHooks, useInstrument } from "@/lib/instrument/store.ts";
 export function InstrumentApp({ search }: { search?: FunnelSearch } = {}) {
   const routeSearch = search ?? parseFunnelSearch(typeof window !== "undefined" ? window.location.search : "");
   const funnel = isFunnelArrival(routeSearch);
+  const chamber = isFunnelChamberCell(routeSearch);
   const warmup = isWarmup(routeSearch);
   const [woken, setWoken] = useState(!warmup);
   const storePhase = useInstrument((s) => s.phase);
@@ -60,6 +64,17 @@ export function InstrumentApp({ search }: { search?: FunnelSearch } = {}) {
       instrument.skipIntro();
     }
   }, [landNow]);
+
+  useEffect(() => {
+    if (!landNow) return;
+    const storage = typeof sessionStorage === "undefined" ? null : sessionStorage;
+    const carried = readCarriedGoal(storage, routeSearch.goal);
+    if (!carried) return;
+    if (!useInstrument.getState().formGoal.trim()) {
+      useInstrument.getState().setFormGoal(carried);
+    }
+    writeCarriedGoal(carried, storage);
+  }, [landNow, routeSearch.goal]);
 
   useEffect(() => {
     if (!landNow || closeReadySent.current) return;
@@ -135,13 +150,15 @@ export function InstrumentApp({ search }: { search?: FunnelSearch } = {}) {
       data-testid="instrument-app"
       data-phase={holdRenderer ? "warmup" : phase}
       data-funnel={funnel ? "1" : "0"}
+      data-funnel-door={routeSearch.door ?? ""}
+      data-chamber-cell={chamber ? "1" : "0"}
     >
       {holdRenderer ? <WarmupShell /> : null}
       {showFirstPage && <FirstPage />}
       {inRoom && !webglFailed && <Stage />}
       {inRoom && webglFailed && <Fallback />}
-      {inRoom && !webglFailed && <InstrumentHud />}
-      {landNow && inRoom && <CloseRail />}
+      {inRoom && !webglFailed && <InstrumentHud search={routeSearch} />}
+      {landNow && inRoom && <CloseRail search={routeSearch} />}
     </div>
   );
 }

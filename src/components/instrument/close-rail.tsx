@@ -11,7 +11,11 @@ export function CloseRail({ search = {} }: { search?: FunnelSearch }) {
       data-testid="funnel-close-rail"
       data-chamber-cell={chamber ? "1" : "0"}
       aria-label="Later exits"
-      className="pointer-events-auto absolute inset-x-0 top-12 z-20 flex items-center gap-2 border-b border-paper/15 bg-void/80 px-3 py-2 text-paper sm:inset-x-auto sm:left-3 sm:top-16 sm:w-[min(17.5rem,calc(100vw-1.5rem))] sm:flex-col sm:items-stretch sm:rounded-xl sm:border sm:border-paper/15"
+      className={
+        chamber
+          ? "pointer-events-auto absolute bottom-16 left-3 z-20 max-w-[min(17.5rem,calc(100vw-1.5rem))] text-paper sm:bottom-auto sm:top-28"
+          : "pointer-events-auto absolute inset-x-0 top-12 z-20 flex items-center gap-2 border-b border-paper/15 bg-void/80 px-3 py-2 text-paper sm:inset-x-auto sm:left-3 sm:top-16 sm:w-[min(17.5rem,calc(100vw-1.5rem))] sm:flex-col sm:items-stretch sm:rounded-xl sm:border sm:border-paper/15"
+      }
     >
       <div className="hidden sm:block">
         <p className="font-display text-[0.65rem] uppercase tracking-[0.22em] text-paper/55">Close</p>

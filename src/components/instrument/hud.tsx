@@ -11,6 +11,7 @@ import {
   type WorldId,
 } from "@/lib/instrument/cosmology.ts";
 import { formCaption } from "@/lib/instrument/formation.ts";
+import { remainderOpen } from "@/lib/instrument/remainder.ts";
 import {
   TABLE_LEVELS,
   confirmedCount,
@@ -71,6 +72,16 @@ export function InstrumentHud() {
     committed,
     goldAttested,
   });
+  const remainderInput = {
+    phase,
+    formStage,
+    wellOpen,
+    cyclePlaying,
+    reducedMotion: reduced,
+  };
+  const lampOpen = remainderOpen(remainderInput);
+  const showYourTurn =
+    lampOpen && (formStage === "hold" || phase === "intro" || phase === "room");
 
   if (phase === "intro") {
     return (
@@ -78,14 +89,23 @@ export function InstrumentHud() {
         <p className="pointer-events-none rounded-full border border-paper/20 bg-void/75 px-4 py-2 font-display text-sm tracking-[0.18em] text-paper uppercase">
           {ROOM_CAPTION[beat]}
         </p>
-        <button
-          type="button"
-          data-testid="skip-intro"
-          className="pointer-events-auto h-11 rounded-full border border-paper/35 bg-void/70 px-4 text-xs font-medium text-paper"
-          onClick={skipIntro}
-        >
-          Skip intro
-        </button>
+        <div className="flex items-center gap-1.5">
+          <span
+            data-testid="remainder-lamp"
+            data-open={lampOpen ? "true" : "false"}
+            className={`${chip} pointer-events-none ${lampOpen ? "border-paper/45" : "opacity-40"}`}
+          >
+            {showYourTurn ? "Your turn" : ""}
+          </span>
+          <button
+            type="button"
+            data-testid="skip-intro"
+            className="pointer-events-auto h-11 rounded-full border border-paper/35 bg-void/70 px-4 text-xs font-medium text-paper"
+            onClick={skipIntro}
+          >
+            Skip intro
+          </button>
+        </div>
       </div>
     );
   }
@@ -110,7 +130,17 @@ export function InstrumentHud() {
               ))}
             </select>
           </label>
-          <p className="hidden shrink-0 font-mono text-[0.65rem] uppercase tracking-wider text-paper/55 lg:block">
+          <span
+            data-testid="remainder-lamp"
+            data-open={lampOpen ? "true" : "false"}
+            className={`${chip} ${lampOpen ? "border-paper/45" : "opacity-40"}`}
+          >
+            {showYourTurn ? "Your turn" : ""}
+          </span>
+          <p className="hidden shrink-0 font-mono text-[0.6rem] tracking-wide text-paper/40 lg:block">
+            loops = weather · dots = people · geometry ≠ permission
+          </p>
+          <p className="hidden shrink-0 font-mono text-[0.65rem] uppercase tracking-wider text-paper/55 xl:block">
             {endingCaption(ending, world)}
             {held ? " · Self revealed" : ""}
           </p>
@@ -149,6 +179,7 @@ export function InstrumentHud() {
             </details>
             <Button
               className="shrink-0 bg-void/40 text-paper border-paper/20"
+              title="Tour of weather. Not a Yes."
               onClick={() => (cyclePlaying ? pauseCycle() : playCycle())}
             >
               {cyclePlaying ? "Pause" : "Cycle"}
@@ -181,7 +212,7 @@ export function InstrumentHud() {
 
         {formStage !== "idle" ? (
           <p className="truncate px-3 py-1 font-mono text-[0.65rem] tracking-wide text-paper/55">
-            {reveal ?? formCaption(formStage, formN, formGoal)}
+            {formStage === "miss" ? formCaption(formStage, formN, formGoal) : (reveal ?? formCaption(formStage, formN, formGoal))}
           </p>
         ) : null}
 
@@ -292,6 +323,7 @@ function MoreActions({
       </div>
       <Button
         className="w-full bg-void/40 text-paper border-paper/20"
+        title="Tour of weather. Not a Yes."
         onClick={() => (cyclePlaying ? pauseCycle() : playCycle())}
       >
         {cyclePlaying ? "Pause cycle" : "View whole cycle"}

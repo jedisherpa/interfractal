@@ -47,7 +47,35 @@ export function FormationPanel() {
           : shape.polygon;
 
   return (
-    <div className="flex min-w-0 flex-1 items-center gap-1.5">
+    <div className="flex min-w-0 flex-1 items-center gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      {stage === "hold" ? (
+      <div className="flex shrink-0 items-center gap-1.5">
+      <Button
+        data-testid="hold-stay"
+        className="shrink-0 border-paper/40 bg-void/40 text-paper"
+        onClick={advanceForm}
+        title="Stay. Pattern waits on a human. Conflict does not grey it."
+      >
+        Stay
+      </Button>
+      <Button
+        data-testid="hold-pattern"
+        className="shrink-0 border-paper/40 bg-void/40 text-paper"
+        onClick={tableCommit}
+        title="Commit is a human button. This picture is evidence. It is not a Yes."
+      >
+        Pattern
+      </Button>
+      <Button
+        data-testid="hold-miss"
+        className="shrink-0 border-paper/40 bg-void/40 text-paper"
+        onClick={nameNotFit}
+        title="The table named a miss, not a failure."
+      >
+        Miss
+      </Button>
+      </div>
+      ) : null}
       <label className="min-w-0 flex-1 basis-28">
         <span className="sr-only">Goal</span>
         <input
@@ -96,6 +124,7 @@ export function FormationPanel() {
             </button>
           ))
         : null}
+      {stage === "hold" ? null : (
       <Button
         variant="primary"
         className="shrink-0 bg-paper text-void"
@@ -107,6 +136,8 @@ export function FormationPanel() {
         <span className="sm:hidden">{stage === "idle" ? "Set" : formActionLabel(stage)}</span>
         <span className="hidden sm:inline">{formActionLabel(stage)}</span>
       </Button>
+      )}
+      {stage !== "hold" ? (
       <Button
         data-testid="table-commit"
         className="shrink-0 border-paper/40 bg-void/40 text-paper"
@@ -115,6 +146,7 @@ export function FormationPanel() {
       >
         Commit
       </Button>
+      ) : null}
       {sitting || committed ? (
       <Button
         data-testid="table-gold"
@@ -126,7 +158,7 @@ export function FormationPanel() {
         Gold
       </Button>
       ) : null}
-      {sitting ? (
+      {sitting && stage !== "hold" ? (
       <Button
         data-testid="not-a-fit"
         className="shrink-0 border-paper/20 bg-void/40 text-paper"

@@ -1,0 +1,126 @@
+{
+  "root": "/workspace/roman-bridge-worktrees/interfractal",
+  "languages": [
+    {
+      "name": "TypeScript",
+      "file_count": 91,
+      "lines": 16125,
+      "loc_band": "xl",
+      "sample_paths": [
+        "vite.config.ts",
+        "server/virtual-grok-og-identity.d.ts",
+        "server/middleware/grok-pwa.ts",
+        "src/router.tsx",
+        "src/workshop/types.ts"
+      ],
+      "family": "code",
+      "role": "product",
+      "expert_eligible": true
+    },
+    {
+      "name": "JavaScript",
+      "file_count": 25,
+      "lines": 4720,
+      "loc_band": "l",
+      "sample_paths": [
+        "eslint.config.mjs",
+        "scripts/browser-guard.mjs",
+        "scripts/grok-pwa-shared.mjs",
+        "scripts/check-auth-invariant.test.mjs",
+        "scripts/sign-out-plan.test.mjs"
+      ],
+      "family": "code",
+      "role": "product",
+      "expert_eligible": true
+    },
+    {
+      "name": "Markdown",
+      "file_count": 23,
+      "lines": 1959,
+      "loc_band": "l",
+      "sample_paths": [
+        "AGENTS.md",
+        "README.md",
+        "docs/BUILD_AGENT_REMAINDER.md",
+        "docs/SMOOTH_DISPLAY.md",
+        "docs/BUILD_AGENT_SMOOTH_INTRO.md"
+      ],
+      "family": "prose",
+      "role": "support",
+      "expert_eligible": false
+    },
+    {
+      "name": "JSON",
+      "file_count": 3,
+      "lines": 142,
+      "loc_band": "s",
+      "sample_paths": [
+        "tsconfig.json",
+        "package.json",
+        "src/lib/og/site.json"
+      ],
+      "family": "config",
+      "role": "support",
+      "expert_eligible": false
+    },
+    {
+      "name": "CSS",
+      "file_count": 2,
+      "lines": 438,
+      "loc_band": "m",
+      "sample_paths": [
+        "src/styles.css",
+        "public/__grok/install/styles.css"
+      ],
+      "family": "markup",
+      "role": "support",
+      "expert_eligible": false
+    },
+    {
+      "name": "HTML",
+      "file_count": 1,
+      "lines": 147,
+      "loc_band": "s",
+      "sample_paths": [
+        "scripts/install-page.html"
+      ],
+      "family": "markup",
+      "role": "support",
+      "expert_eligible": false
+    },
+    {
+      "name": "SQL",
+      "file_count": 1,
+      "lines": 67,
+      "loc_band": "s",
+      "sample_paths": [
+        "migrations/auth/0001_auth.sql"
+      ],
+      "family": "code",
+      "role": "product",
+      "expert_eligible": true
+    },
+    {
+      "name": "Shell",
+      "file_count": 1,
+      "lines": 8,
+      "loc_band": "xs",
+      "sample_paths": [
+        "startup.sh"
+      ],
+      "family": "infra",
+      "role": "product",
+      "expert_eligible": true
+    }
+  ],
+  "entrypoints": [
+    "README.md",
+    "package.json",
+    "docs/world-bible/README.md"
+  ],
+  "skipped": {
+    "noise": 1,
+    "gitignore": 0,
+    "unclassified": 31
+  }
+}

@@ -22,8 +22,8 @@ Ledger documents only, under:
 
 - branch: `rbm/20260919-083634-interfractal-sanctum-porch`
 - base: `main`
-- draft_pr_url: PENDING
-- issue_url: PENDING
+- draft_pr_url: https://github.com/jedisherpa/interfractal/pull/10
+- issue_url: https://github.com/jedisherpa/interfractal/issues/11
 
 ## Scan
 

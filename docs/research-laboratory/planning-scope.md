@@ -1,8 +1,8 @@
 # Technical planning scope
 
-The accepted design is ready for technical planning. The detailed implementation plan is not complete in this import PR.
+The [technical plan, revision 1](technical-plan-v1.md) develops the accepted design into three boundary contracts and eighteen implementation tickets. It is a coordinator review draft with explicit open facts and proposed acceptance checks. Independent specialist review and exact plan acceptance are not complete.
 
-| Workstream | Guidance still to complete |
+| Workstream | Guidance covered by the draft |
 | --- | --- |
 | Research and Jev | Evidence providers and allocation; frozen manifests; durable per-agent attempts; worldview schema; comparison/revision procedure; Jev inputs and rubric; evaluation |
 | Prime and accounting | Account-scoped roles; order/custody/wallet/transfer adapters; exact amounts; approval lifecycle; reconciliation; ambiguous responses; recovery and migration |

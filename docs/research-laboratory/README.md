@@ -4,6 +4,9 @@ This package adds the existing Looking Glass laboratory to Interfractal for insp
 
 - [Laboratory source and historical guide](../../experiments/looking-glass/README.md)
 - [Accepted BTC-Learning design](accepted-design.md)
+- [BTC-Learning technical plan — review draft](technical-plan-v1.md)
+- [Implementation tickets and acceptance checks](implementation-tickets-v1.md)
+- [Visual plan overview](first-view.html)
 - [Planning scope and remaining decisions](planning-scope.md)
 - [Source manifest](source-manifest.json)
 - [Import verification](import-verification.json)
@@ -30,4 +33,4 @@ The replay binds to loopback and its documented fixed port. Running a local repl
 
 The intended BTC-Learning build adds structured four-agent worldviews, Jev comparison, Looking Glass/plain inspection, and Coinbase Prime order, custody, wallet and transfer operations. Those additions remain planned. This PR transfers the existing laboratory and design context; it does not implement that financial or research orchestration system.
 
-The public Interfractal teaching experience remains unchanged. Its eventual authenticated laboratory entry point, backend worker, identity mapping, record contracts and acceptance checks belong in the technical plan.
+The public Interfractal teaching experience remains unchanged. The technical plan proposes its authenticated laboratory entry point, backend workers, identity mapping, record contracts and acceptance checks. It is a coordinator review draft; new specialist reviews and exact plan acceptance remain pending.

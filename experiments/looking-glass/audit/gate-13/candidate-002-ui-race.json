@@ -1,0 +1,71 @@
+{
+  "schema": "gate13-candidate-002-controlled-ui-race-v1",
+  "status": "PASS",
+  "checkCount": 15,
+  "passCount": 15,
+  "errors": [],
+  "checks": [
+    {
+      "name": "initial paused zero published",
+      "pass": true
+    },
+    {
+      "name": "first source visible before checking",
+      "pass": true
+    },
+    {
+      "name": "false check created once",
+      "pass": true
+    },
+    {
+      "name": "pending immutable correction disables version control",
+      "pass": true
+    },
+    {
+      "name": "correction linked and controls reenabled",
+      "pass": true
+    },
+    {
+      "name": "settled Show original click changes state and event",
+      "pass": true
+    },
+    {
+      "name": "show correction restores debrief",
+      "pass": true
+    },
+    {
+      "name": "plain keeps exact information and source path",
+      "pass": true
+    },
+    {
+      "name": "export includes its own event and complete local records",
+      "pass": true
+    },
+    {
+      "name": "post-export layout refreshed",
+      "pass": true
+    },
+    {
+      "name": "paused control survives metadata refresh during delayed hash",
+      "pass": true
+    },
+    {
+      "name": "latest post-render viewport/scene measured",
+      "pass": true
+    },
+    {
+      "name": "inspector matches published semantic and information hashes",
+      "pass": true
+    },
+    {
+      "name": "obsolete asynchronous semantic result rejected",
+      "pass": true
+    },
+    {
+      "name": "all records persist after publication races",
+      "pass": true
+    }
+  ],
+  "hashCalls": 48,
+  "scope": "Isolated VM DOM/clock probe of immutable packaged app; not actual supported-browser evidence."
+}

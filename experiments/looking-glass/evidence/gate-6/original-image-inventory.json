@@ -1,0 +1,209 @@
+[
+  {
+    "path": "evidence/gate-6/screenshots/001-candidate001-plain-narrow.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 960,
+    "bytes": 97904,
+    "sha256": "08b65fc6e3fd630c310bc5895c99ab712fd0d93c12141fc7390182ae66df9ad8",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/001-candidate001-repaired-layout.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 120326,
+    "sha256": "f623c3f397f00946650629c14226008d04ba7ea3103d2b71a71cd6e5839a50e0",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/001-initial-compressed.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 106140,
+    "sha256": "461f0f016b5b0cd6ca03bf9653ece35d09860e68673c82e2acc03bd5a4868504",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-active-replay.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 116185,
+    "sha256": "f80dd93f4d03dd1125272360da34556e954c7a007c3bf995923f7ad020915585",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-compressed-insufficient.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 102788,
+    "sha256": "575bf3fb194369ff15b6af2f0c434b6c58a04bea606cc1c4abc2e09abbef1108",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-failure-relation-overflow.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 115954,
+    "sha256": "7235ead3a56a01758ad728d4c641e55b8478e3f9beb3bd7502b5a9d8d67604cd",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-failure-source-overflow.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 960,
+    "bytes": 140044,
+    "sha256": "d27afb30ad09f508dc55b0c5d901a7e5cbd4c356c82bcdadab684ba67d1c363a",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-graph-dependency-repair.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 114124,
+    "sha256": "6b48577b3d3d9d7189f2773948b8578f43fe3b8b4bd9141efdb5b7aae720bb50",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-initial-compressed.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 102788,
+    "sha256": "575bf3fb194369ff15b6af2f0c434b6c58a04bea606cc1c4abc2e09abbef1108",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-narrow-960x720.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 960,
+    "bytes": 93575,
+    "sha256": "96b3dae0d35e8f7646d7755cc78038e7b8ca1eca92c835549ba19e98b27f1534",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-plain-dependency-repair.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 100885,
+    "sha256": "5e3fdfabd22967297ec45e3b751650eedc2b7f57d85ab0eb7fda73fa493d56b1",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-reference-access.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 104929,
+    "sha256": "b632dbdf5679af94a4e0ff3d97bd60b38acd1409f00fb13d2234406e09e072c7",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-requirement-revision-and-alternatives.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 123076,
+    "sha256": "b939f64ca175c280e74506adc7ecb7171d78b9bff71ee52c07330d13f2a1d1c5",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-supported-and-unsupported-links.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 113658,
+    "sha256": "b3158c797f35148fde02c4bf82a10b20a8458331507f289b8984587282cc72c6",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/002-unsupported-link-close-placement.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 100652,
+    "sha256": "f8cdd1f7fdfbd08ae70ac087c4629500589417225629f5dcd5aa520f609680e2",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-active-replay.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 120845,
+    "sha256": "5ba624ebb3c90836e8dea6cc13e546c0c55e109fe5a7b970d26b1603b0a57b2b",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-graph-dependency-repair.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 114170,
+    "sha256": "26172e67e3c744e33b0d22446cc4408828a636fffdf5406d2d0694df3a782ed5",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-initial-compressed.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 102832,
+    "sha256": "6b15a22c6e6abcb90b27585a582f6f3e5f060177f7f578898a7a005a4f58a074",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-plain-dependency-repair.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 100884,
+    "sha256": "06799f7b39a45098a0823f12948bb56059c10fe4694a4d82cc98701e1c9c2771",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-requirement-revision-and-alternatives.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 123720,
+    "sha256": "2371753865d346e559879b469df46c41160f1cc079808c8744a306876c04558f",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-shared-evidence-wrap-1280.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 115979,
+    "sha256": "abaa5b07f6fc65ad51a25449c8ac7e1126c9f3ed1ac914c3ee2118f6934e79b7",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-source-wrap-960.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 960,
+    "bytes": 129458,
+    "sha256": "7652d1c55ea03f0988858dc01ad47f7f2046f4ba1234a2d8a04693fe76e1c31f",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  },
+  {
+    "path": "evidence/gate-6/screenshots/003-supported-and-unsupported-links.jpg",
+    "pixelHeight": 720,
+    "pixelWidth": 1280,
+    "bytes": 113981,
+    "sha256": "8f42225e5a1e73d9b04f1eb66f0f877544eebf4a00845429e4a68d686d9b29a2",
+    "mime": "image/jpeg",
+    "originalBytesUnchanged": true
+  }
+]

@@ -1,0 +1,1449 @@
+{
+  "schema": "gate12-computational-results-v1",
+  "runId": "G12-COORD-001",
+  "sourceModesHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+  "canonicalBranch": {
+    "id": "C0",
+    "assignmentId": "BASE",
+    "scenarioId": "ALL",
+    "proposals": {
+      "ARCHIVE": {
+        "content": {
+          "groupId": "ARCHIVE",
+          "reference": {
+            "id": "R_DETAIL",
+            "version": 1,
+            "question": "Which declared mode retains the most channels?",
+            "ordering": "retainedChannels descending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P3",
+              "rank": 0,
+              "referencedValue": 6,
+              "sourcePath": "sourceModes.P3.retainedChannels"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 4,
+              "sourcePath": "sourceModes.P2.retainedChannels"
+            },
+            {
+              "modeId": "P1",
+              "rank": 2,
+              "referencedValue": 2,
+              "sourcePath": "sourceModes.P1.retainedChannels"
+            }
+          ],
+          "preferredModeId": "P3",
+          "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        },
+        "contentHash": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+        "envelope": {
+          "recordId": "C-P-ARCHIVE",
+          "branchId": "C0",
+          "documentId": "canonical-script",
+          "createdAtUtc": null,
+          "originEventReference": "G12-COORD-001-script:1"
+        }
+      },
+      "DISPATCH": {
+        "content": {
+          "groupId": "DISPATCH",
+          "reference": {
+            "id": "R_SPEED",
+            "version": 1,
+            "question": "Which declared mode takes the fewest minutes?",
+            "ordering": "sendMinutes ascending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P1",
+              "rank": 0,
+              "referencedValue": 1,
+              "sourcePath": "sourceModes.P1.sendMinutes"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 3,
+              "sourcePath": "sourceModes.P2.sendMinutes"
+            },
+            {
+              "modeId": "P3",
+              "rank": 2,
+              "referencedValue": 5,
+              "sourcePath": "sourceModes.P3.sendMinutes"
+            }
+          ],
+          "preferredModeId": "P1",
+          "derivation": "R_SPEED@1: ordered P1=1, P2=3, P3=5; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        },
+        "contentHash": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76",
+        "envelope": {
+          "recordId": "C-P-DISPATCH",
+          "branchId": "C0",
+          "documentId": "canonical-script",
+          "createdAtUtc": null,
+          "originEventReference": "G12-COORD-001-script:2"
+        }
+      }
+    },
+    "outcomes": [
+      {
+        "content": {
+          "assignmentId": "BASE",
+          "scenarioId": "ALL",
+          "eligibleModeIds": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "proposalContentHashesByGroup": {
+            "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+            "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+          },
+          "procedure": {
+            "id": "MINIMAX_RANK",
+            "version": 1,
+            "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+            "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+            "tieBreakOrder": [
+              "P1",
+              "P2",
+              "P3"
+            ]
+          },
+          "status": "procedure-selected",
+          "missingGroupIds": [],
+          "scoreRows": [
+            {
+              "modeId": "P1",
+              "ranksByGroup": {
+                "ARCHIVE": 2,
+                "DISPATCH": 0
+              },
+              "worstRank": 2
+            },
+            {
+              "modeId": "P2",
+              "ranksByGroup": {
+                "ARCHIVE": 1,
+                "DISPATCH": 1
+              },
+              "worstRank": 1
+            },
+            {
+              "modeId": "P3",
+              "ranksByGroup": {
+                "ARCHIVE": 0,
+                "DISPATCH": 2
+              },
+              "worstRank": 2
+            }
+          ],
+          "tiedMinimizers": [
+            "P2"
+          ],
+          "selectedModeId": "P2",
+          "tieBreakUsed": false,
+          "firstChoicesByGroup": {
+            "ARCHIVE": "P3",
+            "DISPATCH": "P1"
+          },
+          "differentFirstChoices": true,
+          "matchesFirstChoiceByGroup": {
+            "ARCHIVE": false,
+            "DISPATCH": false
+          },
+          "jointAction": {
+            "operation": "simulate-shared-export",
+            "modeId": "P2",
+            "slotCount": 1,
+            "enacted": false
+          }
+        },
+        "contentHash": "ac07535fecc0dd0fd1f4dcc62042c5ab658b335204b5784ea267d59275f36bb7",
+        "envelope": {
+          "recordId": "C-A-ALL",
+          "branchId": "C0",
+          "documentId": "canonical-script",
+          "createdAtUtc": null,
+          "originEventReference": "G12-COORD-001-script:3",
+          "proposalRecordIds": {
+            "ARCHIVE": "C-P-ARCHIVE",
+            "DISPATCH": "C-P-DISPATCH"
+          }
+        }
+      },
+      {
+        "content": {
+          "assignmentId": "BASE",
+          "scenarioId": "EXTREMES",
+          "eligibleModeIds": [
+            "P1",
+            "P3"
+          ],
+          "proposalContentHashesByGroup": {
+            "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+            "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+          },
+          "procedure": {
+            "id": "MINIMAX_RANK",
+            "version": 1,
+            "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+            "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+            "tieBreakOrder": [
+              "P1",
+              "P2",
+              "P3"
+            ]
+          },
+          "status": "procedure-selected",
+          "missingGroupIds": [],
+          "scoreRows": [
+            {
+              "modeId": "P1",
+              "ranksByGroup": {
+                "ARCHIVE": 2,
+                "DISPATCH": 0
+              },
+              "worstRank": 2
+            },
+            {
+              "modeId": "P3",
+              "ranksByGroup": {
+                "ARCHIVE": 0,
+                "DISPATCH": 2
+              },
+              "worstRank": 2
+            }
+          ],
+          "tiedMinimizers": [
+            "P1",
+            "P3"
+          ],
+          "selectedModeId": "P1",
+          "tieBreakUsed": true,
+          "firstChoicesByGroup": {
+            "ARCHIVE": "P3",
+            "DISPATCH": "P1"
+          },
+          "differentFirstChoices": true,
+          "matchesFirstChoiceByGroup": {
+            "ARCHIVE": false,
+            "DISPATCH": true
+          },
+          "jointAction": {
+            "operation": "simulate-shared-export",
+            "modeId": "P1",
+            "slotCount": 1,
+            "enacted": false
+          }
+        },
+        "contentHash": "087dd4e697f4e4939caa2110fa2000287e342699adf890ff8d39be0dc1fd7b50",
+        "envelope": {
+          "recordId": "C-A-EXTREMES",
+          "branchId": "C0",
+          "documentId": "canonical-script",
+          "createdAtUtc": null,
+          "originEventReference": "G12-COORD-001-script:6",
+          "proposalRecordIds": {
+            "ARCHIVE": "C-P-ARCHIVE",
+            "DISPATCH": "C-P-DISPATCH"
+          }
+        }
+      }
+    ],
+    "currentOutcomeId": null,
+    "inspectedOutcomeId": null,
+    "canonical": true
+  },
+  "outcomes": [
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {},
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE",
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {},
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 0
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P2",
+            "ranksByGroup": {
+              "ARCHIVE": 1,
+              "DISPATCH": 1
+            },
+            "worstRank": 1
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          }
+        ],
+        "tiedMinimizers": [
+          "P2"
+        ],
+        "selectedModeId": "P2",
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": true,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": false,
+          "DISPATCH": false
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P2",
+          "slotCount": 1,
+          "enacted": false
+        }
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {},
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE",
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {},
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 0
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          }
+        ],
+        "tiedMinimizers": [
+          "P1",
+          "P3"
+        ],
+        "selectedModeId": "P1",
+        "tieBreakUsed": true,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": true,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": false,
+          "DISPATCH": true
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P1",
+          "slotCount": 1,
+          "enacted": false
+        }
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {},
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE",
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {},
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "BASE",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-no-eligible-option",
+        "missingGroupIds": [],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": true,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {},
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE",
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {},
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "DISPATCH": "38963bb0e8568b7d0c4c5e18b4773b3fbddcd63b3a6c3af00a06a10385567f1b"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "DISPATCH": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "38963bb0e8568b7d0c4c5e18b4773b3fbddcd63b3a6c3af00a06a10385567f1b"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P2",
+            "ranksByGroup": {
+              "ARCHIVE": 1,
+              "DISPATCH": 1
+            },
+            "worstRank": 1
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 0
+            },
+            "worstRank": 0
+          }
+        ],
+        "tiedMinimizers": [
+          "P3"
+        ],
+        "selectedModeId": "P3",
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P3"
+        },
+        "differentFirstChoices": false,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": true,
+          "DISPATCH": true
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P3",
+          "slotCount": 1,
+          "enacted": false
+        }
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {},
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE",
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {},
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "DISPATCH": "38963bb0e8568b7d0c4c5e18b4773b3fbddcd63b3a6c3af00a06a10385567f1b"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "DISPATCH": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "38963bb0e8568b7d0c4c5e18b4773b3fbddcd63b3a6c3af00a06a10385567f1b"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 0
+            },
+            "worstRank": 0
+          }
+        ],
+        "tiedMinimizers": [
+          "P3"
+        ],
+        "selectedModeId": "P3",
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P3"
+        },
+        "differentFirstChoices": false,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": true,
+          "DISPATCH": true
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P3",
+          "slotCount": 1,
+          "enacted": false
+        }
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {},
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE",
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {},
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "DISPATCH"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {
+          "DISPATCH": "38963bb0e8568b7d0c4c5e18b4773b3fbddcd63b3a6c3af00a06a10385567f1b"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-missing-proposal",
+        "missingGroupIds": [
+          "ARCHIVE"
+        ],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "DISPATCH": "P3"
+        },
+        "differentFirstChoices": null,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "content": {
+        "assignmentId": "DETAIL_CONTROL",
+        "scenarioId": "NONE",
+        "eligibleModeIds": [],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "38963bb0e8568b7d0c4c5e18b4773b3fbddcd63b3a6c3af00a06a10385567f1b"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "blocked-no-eligible-option",
+        "missingGroupIds": [],
+        "scoreRows": [],
+        "tiedMinimizers": [],
+        "selectedModeId": null,
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P3"
+        },
+        "differentFirstChoices": false,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": null,
+          "DISPATCH": null
+        },
+        "jointAction": null
+      }
+    }
+  ],
+  "humanParticipants": 0
+}

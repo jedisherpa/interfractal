@@ -1,0 +1,11 @@
+{
+  "recordedAtUtc": "2026-09-20T20:48:18.201992+00:00",
+  "status": "SUPERSEDED_PRESENTATION_AFTER_USER_SCOPE_CHANGE",
+  "reason": "This actual report inspection preceded the user instruction to remove study execution from completion criteria. It is retained; the final revised report will be separately inspected.",
+  "observations": 10,
+  "originalScreenshots": 3,
+  "toolAcquisitionNotes": [
+    "Two initial helper calls failed before acquiring state because a browser-handle lexical binding was unavailable. No browser action or capture was performed by those calls. The helper was rebound and then acquired the retained observations."
+  ],
+  "softwareCoreChanged": false
+}

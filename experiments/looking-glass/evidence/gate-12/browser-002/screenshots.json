@@ -1,0 +1,42 @@
+[
+  {
+    "label": "P2-with-conflicting-local-recommendations",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-002/screenshots/P2-with-conflicting-local-recommendations.jpg",
+    "sha256": "ecafcc36a70c472505a7f274b0eef31b26f544a98f4fdcb15cd59948b183a4d7",
+    "bytes": 133019,
+    "beforeObservationIndex": 7,
+    "afterObservationIndex": 8
+  },
+  {
+    "label": "same-information-plain-P2",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-002/screenshots/same-information-plain-P2.jpg",
+    "sha256": "b151b4c61686160056d7a51578c5d26dc8ed934cd32bf93f37eb295eef486818",
+    "bytes": 109915,
+    "beforeObservationIndex": 11,
+    "afterObservationIndex": 12
+  },
+  {
+    "label": "changed-reference-P3-narrow",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-002/screenshots/changed-reference-P3-narrow.jpg",
+    "sha256": "3f18138a14edb51657bfbec23d3443aa0c5661555b9b2119b1f558a6ca4afdc0",
+    "bytes": 126257,
+    "beforeObservationIndex": 48,
+    "afterObservationIndex": 49
+  },
+  {
+    "label": "no-action-disagreement-preserved-narrow",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-002/screenshots/no-action-disagreement-preserved-narrow.jpg",
+    "sha256": "d5d6633b8a10d7ab08c49fcbf26cd22ba187a6e4dfc8bc83854d24c03fd6068e",
+    "bytes": 113953,
+    "beforeObservationIndex": 54,
+    "afterObservationIndex": 55
+  },
+  {
+    "label": "tie-break-retains-local-disagreement",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-002/screenshots/tie-break-retains-local-disagreement.jpg",
+    "sha256": "584f42bb42dda94c64ce9df60760a4b9ff76614dfb2e6392342c658538a2db48",
+    "bytes": 131759,
+    "beforeObservationIndex": 60,
+    "afterObservationIndex": 61
+  }
+]

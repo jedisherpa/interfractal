@@ -1,0 +1,144 @@
+{
+  "gate": 11,
+  "recordedAtUtc": "2026-09-20T17:35:56.520644+00:00",
+  "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+  "requestedRouting": {
+    "specificationAndSynthesis": "GPT-6 Astra xhigh",
+    "primarySources": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independentAudit": "separate GPT-5.6 Sol high"
+  },
+  "actualStartedWorkers": [
+    {
+      "task": "/root/g10_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Gate11 specification via existing Astra worker"
+    },
+    {
+      "task": "/root/g9_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Gate11 source gathering via existing Luna worker"
+    },
+    {
+      "task": "/root/g9_sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Gate11 independent prespec, later build/browser/handoff audit via existing separate auditor"
+    },
+    {
+      "task": "/root/g9_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Gate11 implementation via existing separate builder",
+      "dispatchedAfterPrespecFreezeAtUtc": "2026-09-20T17:51:25.086396+00:00"
+    }
+  ],
+  "hostRole": "Local setup/tool routing, supported browser controls, evidence/status/Git. No unsupported host model switch claimed.",
+  "humanParticipants": 0,
+  "priorIntegrityEntries": 1437,
+  "gate10ResultPreserved": "BOUNDED_NEGATIVE_NOT_READY; first-start acknowledgement discarded, zero browser responses. Gate11 is independent new scope.",
+  "publicationTarget": {
+    "remote": "origin",
+    "repository": "jedisherpa/btc-constitutional-learning-collective",
+    "visibility": "PRIVATE",
+    "branch": "codex/looking-glass",
+    "authorization": "Earlier actual user request: All right, publish everything to GitHub. Continuing the existing private branch.",
+    "mirrorUntouched": true
+  },
+  "provisionalPort": 44004,
+  "portFreeAtStart": true,
+  "updatedAtUtc": "2026-09-20T18:38:39.534559+00:00",
+  "researchState": "Complete; polished primary-source citations and local-negative qualification inspected by host",
+  "designConstraints": [
+    "Public finite software benchmark with zero humans",
+    "Global summary sufficiency distinct from local partial-AND determination",
+    "Actual world identity/source hashes outside receiver-visible payload",
+    "Minimal repair only over frozen field menu",
+    "Run actual first-use critical browser workflow on initial candidate before exhausting revisions"
+  ],
+  "specificationState": "Frozen before implementation; independent205/205 review passed",
+  "dispatchNotes": [
+    "Astra single-line historical-link clarification followup rejected by agent thread capacity. Host applied the exact independent-auditor-requested wording correction before freeze; no model or scope change.",
+    "Luna source polish was inspected complete on disk; host interrupted the still-running worker after requesting it end, to release capacity. No further gathering requested.",
+    "Independent Sol candidate001 review reactivation was rejected by agent thread capacity while the builder was active. No new audit work is attributed to that rejected dispatch; retry is pending after builder handoff.",
+    "After builder ended, the independent Sol candidate001 audit was successfully reactivated.",
+    "Astra synthesis dispatch during active final Sol audit was rejected by thread capacity. No synthesis is claimed from the failed dispatch; retry follows audit handoff.",
+    "After independent final-core auditor ended, existing Astra xhigh worker successfully reactivated for synthesis of packet, results and run-evidence."
+  ],
+  "hostPrespecClericalCorrection": {
+    "file": "docs/gate-11/record-contract.md",
+    "scope": "Browser step6 now explicitly distinguishes unchanged Gate10 replay identity from separate Gate10 negative-result report; requested by independentSolreview.",
+    "atUtc": "2026-09-20T17:47:50.747963+00:00"
+  },
+  "prespecFreeze": {
+    "path": "docs/gate-11/PRESPEC_FREEZE.json",
+    "sha256": "bc6f624e0eb0a2d225e1aafdebb99ec2fd3dcce45bcd24dd8ccadf6edd85fba9",
+    "frozenAtUtc": "2026-09-20T17:50:45.778341+00:00",
+    "independentChecks": 205,
+    "files": 9
+  },
+  "candidate001": {
+    "runId": "G11-RECEIVER-001",
+    "buildId": "g11-4a38606632d77897a06e",
+    "sourceHash": "4a38606632d77897a06e1d261a2251e3965e048d7d13e451be738d15d5b21ddf",
+    "hostServerExecSession": 9430,
+    "hostStartedAtUtc": "2026-09-20T18:00:31.783268+00:00",
+    "builderEnded": true,
+    "browser": {
+      "observations": 75,
+      "hostActions": 62,
+      "originals": 5,
+      "criticalWorkflow": "pass observed",
+      "localRevisions": 7,
+      "coreFreezeSha256": "0a290af183ad2fca97d966d1ca255df83a8b624408422a0bc14e02d21f457b1f"
+    },
+    "independentVerdict": "BLOCKED_ATOMIC_SNAPSHOT_RACE"
+  },
+  "candidate002": {
+    "authorizedBy": "prespecified initial plus two revisions budget",
+    "scope": "Repair reproducible metadata-refresh versus semantic-publication race",
+    "builderTask": "/root/g9_sol_builder",
+    "dispatchedAtUtc": "2026-09-20T18:05:16.231568+00:00",
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+    "hostServerExecSession": 48924,
+    "independentBuildChecks": 190,
+    "priorRace": "PASS_FIXED",
+    "completeBrowserAcquisition": "browser-002-full",
+    "coreSha256": "e9ab3b68f78a2b7c5a018ef39bd88efcb79536abd83ee1beb7b94e6df52c232a"
+  },
+  "coreAudit": {
+    "verdict": "PASS_BOUNDED_SOFTWARE_AND_BROWSER_EVIDENCE",
+    "report": "audit/gate-11/final-audit.md",
+    "auditorEnded": true
+  },
+  "synthesis": {
+    "worker": "/root/g10_astra",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "xhigh",
+    "completed": true,
+    "files": [
+      "evidence/gate-11/GATE_11_PACKET.md",
+      "evidence/gate-11/results.html",
+      "evidence/gate-11/run-evidence.json"
+    ]
+  },
+  "finalHandoff": {
+    "verdict": "PASS_BOUNDED_HANDOFF",
+    "independentChecks": 1648,
+    "report": "audit/gate-11/handoff-audit.md",
+    "presentationObservations": 5,
+    "presentationOriginals": 2
+  },
+  "allStageWorkersEnded": true,
+  "workerClosure": {
+    "Astra": "Specification and synthesis complete; final response received.",
+    "Luna": "Source files complete and inspected; host interrupted remaining turn to release capacity, as previously recorded.",
+    "SolBuilder": "Both immutable builds and handoffs complete; final response received.",
+    "SolAuditor": "Prespec, two candidate audits, transport diagnosis, closed-core and final handoff complete; final response received.",
+    "host": "Finishing local freeze/Git/publication, then ending at Gate12 boundary. Passive replay servers remain available."
+  }
+}

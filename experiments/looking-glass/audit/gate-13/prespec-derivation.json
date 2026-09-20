@@ -1,0 +1,673 @@
+{
+  "schema": "gate13-independent-prespec-derivation-v1",
+  "status": "PASS",
+  "authoredInputFiles": [
+    {
+      "path": "docs/gate-13/experiment-charter.md",
+      "bytes": 5236,
+      "sha256": "7079f80e70535ff37c5165fb05ef86777f85798bc67cb1a7beeda9e46bbfc8a1"
+    },
+    {
+      "path": "docs/gate-13/model-contract.md",
+      "bytes": 9678,
+      "sha256": "fad7787c343934e2c6316ee6563e0f8b0ffecce9366b36242ffbce8cf5779a16"
+    },
+    {
+      "path": "docs/gate-13/record-contract.md",
+      "bytes": 7384,
+      "sha256": "fd3dcc862e726e556b9f75b4617d3dc0233ea19122a71b383597a01b6e81fdc7"
+    },
+    {
+      "path": "docs/gate-13/fixture.json",
+      "bytes": 12131,
+      "sha256": "95238cd28d4c7af803733585940f60c56733d04dfdc00a216aef1385483247d8"
+    },
+    {
+      "path": "docs/gate-13/independent-predictions.json",
+      "bytes": 14806,
+      "sha256": "fb085a57ac9c65b0b70011e80150a377ab0fa7e77ed6c125eb8bb76db239eaa4"
+    }
+  ],
+  "programLedger": {
+    "path": "docs/program-requirements-and-status.md",
+    "bytes": 8810,
+    "sha256": "167e547151eb8685e616da41b6a5bcdb102c392b1aca3c7a215a17aea6332c18"
+  },
+  "sourceReview": {
+    "path": "research/gate-13/source-review.md",
+    "sha256": "79c3bfae05f96e830b1025a051b6ffa6fc2ab44b8f3529df368eb5e6a26cd092"
+  },
+  "derivedCaseResults": [
+    {
+      "caseId": "MISMATCH",
+      "sourceSha256": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplaySha256": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "predicateOperands": {
+        "leftB": 90,
+        "rightTwiceA": 160
+      },
+      "originalStatementVerdict": false,
+      "difference": 10,
+      "countRatio": {
+        "status": "defined",
+        "numerator": 9,
+        "denominator": 8
+      },
+      "originalLowerBound": 70,
+      "originalOffsets": [
+        10,
+        20
+      ],
+      "originalSvgWidths": [
+        80,
+        160
+      ],
+      "originalLengthRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "correctionAllowedAfterCheck": true,
+      "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+      "correction": {
+        "displaySha256": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+        "lowerBound": 0,
+        "offsets": [
+          80,
+          90
+        ],
+        "svgWidths": [
+          192,
+          216
+        ],
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "text": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "factsTrue": true,
+        "sourceUnchanged": true,
+        "originalUnchanged": true
+      }
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "sourceSha256": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+      "originalDisplaySha256": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+      "sourceCounts": {
+        "A": 40,
+        "B": 80
+      },
+      "predicateOperands": {
+        "leftB": 80,
+        "rightTwiceA": 80
+      },
+      "originalStatementVerdict": true,
+      "difference": 40,
+      "countRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "originalLowerBound": 0,
+      "originalOffsets": [
+        40,
+        80
+      ],
+      "originalSvgWidths": [
+        96,
+        192
+      ],
+      "originalLengthRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "correctionAllowedAfterCheck": false,
+      "diagnosis": "statement-and-zero-baseline-ratio-agree",
+      "correction": null
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "sourceSha256": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplaySha256": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "predicateOperands": {
+        "leftB": 10,
+        "rightTwiceA": 0
+      },
+      "originalStatementVerdict": false,
+      "difference": 10,
+      "countRatio": {
+        "status": "undefined",
+        "reason": "zero-denominator"
+      },
+      "originalLowerBound": 0,
+      "originalOffsets": [
+        0,
+        10
+      ],
+      "originalSvgWidths": [
+        0,
+        24
+      ],
+      "originalLengthRatio": {
+        "status": "undefined",
+        "reason": "zero-denominator"
+      },
+      "correctionAllowedAfterCheck": true,
+      "diagnosis": "zero-reference-count-ratio-undefined",
+      "correction": {
+        "displaySha256": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d",
+        "lowerBound": 0,
+        "offsets": [
+          0,
+          10
+        ],
+        "svgWidths": [
+          0,
+          24
+        ],
+        "lengthRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "text": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+        "factsTrue": true,
+        "sourceUnchanged": true,
+        "originalUnchanged": true
+      }
+    }
+  ],
+  "derivedDisplayConfigurations": [
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 70,
+      "svgWidths": [
+        80,
+        160
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 70,
+      "svgWidths": [
+        80,
+        160
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        192,
+        216
+      ],
+      "statementText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        192,
+        216
+      ],
+      "statementText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 40,
+        "B": 80
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        96,
+        192
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": true
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 40,
+        "B": 80
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        96,
+        192
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": true
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    }
+  ],
+  "derivedCheckpointExpectations": [
+    {
+      "seconds": 0,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 4,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 8,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 12,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "corrected",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 16,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "plain",
+      "version": "corrected",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 20,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "plain",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "originalRetainedCorrectionMarker": true,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 24,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    }
+  ],
+  "scheduledEventCount": 7,
+  "plannedBrowserComparisonsNotObserved": 18,
+  "checkCount": 52,
+  "passCount": 52,
+  "errors": [],
+  "checks": [
+    {
+      "name": "five stable authored inputs and fixture identity",
+      "pass": true
+    },
+    {
+      "name": "author-provided fixture/oracle digest pin",
+      "pass": true
+    },
+    {
+      "name": "case IDs, order, and count",
+      "pass": true
+    },
+    {
+      "name": "public synthetic scope and no participant claim",
+      "pass": true
+    },
+    {
+      "name": "predicate and units",
+      "pass": true
+    },
+    {
+      "name": "source hashes use complete source, display hashes complete display",
+      "pass": true
+    },
+    {
+      "name": "representations and zero-marker contract",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH correction uses exact integer widths and same source",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH source records are bounded same-window counts",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH original exact geometry and statement binding",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH independently derived oracle row",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH declared control arithmetic",
+      "pass": true
+    },
+    {
+      "name": "cropped-length false 2x versus source 9/8",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL source records are bounded same-window counts",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL original exact geometry and statement binding",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL independently derived oracle row",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL declared control arithmetic",
+      "pass": true
+    },
+    {
+      "name": "true control has no correction",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL correction uses exact integer widths and same source",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL source records are bounded same-window counts",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL original exact geometry and statement binding",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL independently derived oracle row",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL declared control arithmetic",
+      "pass": true
+    },
+    {
+      "name": "zero denominator does not obscure false equality",
+      "pass": true
+    },
+    {
+      "name": "five valid versions times two representations",
+      "pass": true
+    },
+    {
+      "name": "five same-information pairs",
+      "pass": true
+    },
+    {
+      "name": "no corrected true-control combination",
+      "pass": true
+    },
+    {
+      "name": "three checks, two corrections, one reuse planned",
+      "pass": true
+    },
+    {
+      "name": "invalid and duplicate action controls",
+      "pass": true
+    },
+    {
+      "name": "local/canonical provenance and reload contract",
+      "pass": true
+    },
+    {
+      "name": "canonical registry is explicitly non-performed at zero",
+      "pass": true
+    },
+    {
+      "name": "seven exact ordered scheduled events",
+      "pass": true
+    },
+    {
+      "name": "checkpoints and natural stop",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 0 exact state",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 4 exact state",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 8 exact state",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 12 exact state",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 16 exact state",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 20 exact state",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 24 exact state",
+      "pass": true
+    },
+    {
+      "name": "18 paused comparisons are planned not observed",
+      "pass": true
+    },
+    {
+      "name": "first-use browser workflow precedes replay baseline",
+      "pass": true
+    },
+    {
+      "name": "same evidence access and information parity declared",
+      "pass": true
+    },
+    {
+      "name": "correction preservation and own export event declared",
+      "pass": true
+    },
+    {
+      "name": "atomic semantic publication and metadata remeasure declared",
+      "pass": true
+    },
+    {
+      "name": "actual browser acquisition and limited claims declared",
+      "pass": true
+    },
+    {
+      "name": "future gate remains unapproved",
+      "pass": true
+    },
+    {
+      "name": "program ledger input hash pinned",
+      "pass": true
+    },
+    {
+      "name": "ledger correctly maps archive 07 four-snapshot dependency",
+      "pass": true
+    },
+    {
+      "name": "ledger correctly maps archive 03 P0–P5 and B/C",
+      "pass": true
+    },
+    {
+      "name": "ledger correctly maps archive 05 sequencing and limits",
+      "pass": true
+    },
+    {
+      "name": "separate next full-program and Gate14 decisions",
+      "pass": true
+    }
+  ],
+  "implementationImports": [],
+  "browserObservations": 0,
+  "humanParticipants": 0
+}

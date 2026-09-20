@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "gate-2-fictional-records-v1",
+  "status": "fictional supplied facts; derivative instrument fixture; not participant data",
+  "sourceDocument": {
+    "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+    "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db"
+  },
+  "canonicalization": "UTF-8 compact JSON, recursively sorted object keys, array order retained; record contentSha256 hashes complete record excluding contentSha256",
+  "records": [
+    {
+      "id": "venue-hall",
+      "version": 1,
+      "label": "Hall",
+      "kind": "venue",
+      "facts": {
+        "capacityHouseholds": 60,
+        "alreadyWheelchairAccessible": false,
+        "hireTokens": 4,
+        "powerAvailable": true,
+        "requiredAccessEquipment": {
+          "name": "portable ramp",
+          "costTokens": 2
+        },
+        "requiredPowerEquipment": null,
+        "shelterRequiredInRain": false
+      },
+      "source": {
+        "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+        "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+        "section": "A small executable task and scoring key",
+        "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+      },
+      "history": [
+        {
+          "version": 1,
+          "operation": "extract-supplied-fictional-facts",
+          "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+          "note": "No participant action or endorsement; source task initial condition only."
+        }
+      ],
+      "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+    },
+    {
+      "id": "venue-field",
+      "version": 1,
+      "label": "Field",
+      "kind": "venue",
+      "facts": {
+        "capacityHouseholds": 80,
+        "alreadyWheelchairAccessible": true,
+        "hireTokens": 3,
+        "powerAvailable": false,
+        "requiredAccessEquipment": null,
+        "requiredPowerEquipment": {
+          "name": "generator",
+          "costTokens": 3
+        },
+        "shelterRequiredInRain": true,
+        "shelterCostTokens": 3
+      },
+      "source": {
+        "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+        "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+        "section": "A small executable task and scoring key",
+        "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+      },
+      "history": [
+        {
+          "version": 1,
+          "operation": "extract-supplied-fictional-facts",
+          "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+          "note": "No participant action or endorsement; source task initial condition only."
+        }
+      ],
+      "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+    },
+    {
+      "id": "venue-studio",
+      "version": 1,
+      "label": "Studio",
+      "kind": "venue",
+      "facts": {
+        "capacityHouseholds": 50,
+        "alreadyWheelchairAccessible": true,
+        "hireTokens": 5,
+        "powerAvailable": true,
+        "requiredAccessEquipment": null,
+        "requiredPowerEquipment": null,
+        "shelterRequiredInRain": false
+      },
+      "source": {
+        "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+        "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+        "section": "A small executable task and scoring key",
+        "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+      },
+      "history": [
+        {
+          "version": 1,
+          "operation": "extract-supplied-fictional-facts",
+          "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+          "note": "No participant action or endorsement; source task initial condition only."
+        }
+      ],
+      "contentSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+    },
+    {
+      "id": "weather-context",
+      "version": 1,
+      "label": "Initial weather and task context",
+      "kind": "context",
+      "facts": {
+        "rainCertain": true,
+        "fieldShelterCostTokens": 3,
+        "indoorVenuesRequireShelter": false,
+        "requiredCapacityHouseholds": 60,
+        "budgetTokens": 8
+      },
+      "source": {
+        "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+        "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+        "section": "A small executable task and scoring key",
+        "locator": "Public brief and Weather row; before the later update"
+      },
+      "history": [
+        {
+          "version": 1,
+          "operation": "extract-supplied-fictional-facts",
+          "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+          "note": "No participant action or endorsement; source task initial condition only."
+        }
+      ],
+      "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+    }
+  ],
+  "limits": [
+    "No original four-agent protocol is administered.",
+    "Use only the initial task facts; the later repair-event update is outside this fixture.",
+    "These two partial criteria do not establish full task feasibility, minimum cost, agreement, authorization or human understanding.",
+    "Null equipment means the source says none is required here; it does not mean unknown."
+  ]
+}

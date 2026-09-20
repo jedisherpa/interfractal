@@ -1,0 +1,47 @@
+{
+  "checkedAtUtc": "2026-09-20T06:41:27.239441+00:00",
+  "checks": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/evidence/gate-0/results.html",
+      "status": 200,
+      "bytes": 11163
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/evidence/gate-1/results.html",
+      "status": 200,
+      "bytes": 11945
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/evidence/gate-2/results.html",
+      "status": 200,
+      "bytes": 19411
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/evidence/gate-3/results.html",
+      "status": 200,
+      "bytes": 15547
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+      "status": 200,
+      "bytes": 17407
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+      "status": 200,
+      "bytes": 24173
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/evidence/gate-6/results.html",
+      "status": 200,
+      "bytes": 17093
+    }
+  ]
+}

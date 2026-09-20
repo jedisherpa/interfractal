@@ -1,0 +1,44 @@
+{
+  "recordedAtUtc": "2026-09-20T02:44:31.363615+00:00",
+  "runId": "G3-TESSERACT-001",
+  "buildId": "g3-2137b012118cbd13",
+  "reason": "Inspector scene rectangle is stale after actual scrolling to and opening its disclosure; deterministic state remains unchanged.",
+  "expected": "Fresh actual viewport and scene rectangle at observations and inspector review",
+  "observationIndices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "initial": {
+    "outer": {
+      "height": 390,
+      "width": 605.5,
+      "x": 27,
+      "y": 291.25
+    },
+    "inspector": {
+      "height": 390,
+      "width": 605.5,
+      "x": 27,
+      "y": 291.25
+    }
+  },
+  "afterScroll": {
+    "outer": {
+      "height": 390,
+      "width": 605.5,
+      "x": 27,
+      "y": -1067.25
+    },
+    "inspector": {
+      "height": 390,
+      "width": 605.5,
+      "x": 27,
+      "y": 291.25
+    }
+  },
+  "originalScreenshot": "screenshots/001-inspector-scroll.jpg",
+  "screenshotSha256": "e632138f5ced7edf08a008194b0f9655e362a6b92b10cf5f85aae2b0a9c7abc4",
+  "revisionAuthorizedWithinGate3": true
+}

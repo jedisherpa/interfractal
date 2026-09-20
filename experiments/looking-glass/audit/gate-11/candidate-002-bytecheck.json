@@ -1,0 +1,174 @@
+{
+  "schema": "gate11-candidate002-independent-bytecheck-v1",
+  "status": "PASS",
+  "checkCount": 41,
+  "passCount": 41,
+  "checks": [
+    {
+      "name": "three identities",
+      "pass": true
+    },
+    {
+      "name": "source content hashes",
+      "pass": true
+    },
+    {
+      "name": "packaged file hashes",
+      "pass": true
+    },
+    {
+      "name": "copied source files exact",
+      "pass": true
+    },
+    {
+      "name": "run file hashes",
+      "pass": true
+    },
+    {
+      "name": "five prespec hashes match prior independent review",
+      "pass": true
+    },
+    {
+      "name": "built fixture matches frozen fixture",
+      "pass": true
+    },
+    {
+      "name": "public route allowlist omits audit and computational results",
+      "pass": true
+    },
+    {
+      "name": "independent prespec still passes",
+      "pass": true
+    },
+    {
+      "name": "full source answers",
+      "pass": true
+    },
+    {
+      "name": "full source SHA-256",
+      "pass": true
+    },
+    {
+      "name": "shortcut counterexamples",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 0",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 0",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 1",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 1",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 2",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 2",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 3",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 3",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 4",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 4",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 5",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 5",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 6",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 6",
+      "pass": true
+    },
+    {
+      "name": "certificate R_COUNT mask 7",
+      "pass": true
+    },
+    {
+      "name": "certificate R_RELEASE mask 7",
+      "pass": true
+    },
+    {
+      "name": "exact sixteen certificates",
+      "pass": true
+    },
+    {
+      "name": "canonical S0 payload hashes",
+      "pass": true
+    },
+    {
+      "name": "canonical S1 payload hashes",
+      "pass": true
+    },
+    {
+      "name": "canonical S2 payload hashes",
+      "pass": true
+    },
+    {
+      "name": "canonical lineage",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 0",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 4",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 8",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 12",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 16",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 20",
+      "pass": true
+    },
+    {
+      "name": "paused checkpoint 24",
+      "pass": true
+    },
+    {
+      "name": "exact seven paused checkpoints",
+      "pass": true
+    }
+  ],
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70"
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "gate11-independent-handoff-audit-v1",
+  "verdict": "PASS_BOUNDED_HANDOFF",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "fullSourceSha256": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "auditScript": "audit/gate-11/verify-handoff.mjs",
+  "verificationResult": "audit/gate-11/handoff-verification.json",
+  "independentChecksPassed": 1648,
+  "independentChecksTotal": 1648,
+  "synthesis": {
+    "packet": {"path": "evidence/gate-11/GATE_11_PACKET.md", "sha256": "f207ccfb7e80f99af224367ca24ad070ebdee508d14e924a544b0c20baa133ad"},
+    "results": {"path": "evidence/gate-11/results.html", "sha256": "ce813b42824eb06cd8b1e72f900e66ef527b7a8b37b92237bb3562b9c67efdc6"},
+    "runEvidence": {"path": "evidence/gate-11/run-evidence.json", "sha256": "e82133d1a98d521f009eac8ad9a903a5c10f26f846319cb25891f790292c71c0", "pinnedArtifactsRehashed": 36},
+    "claimsMatchClosedCore": true,
+    "localPacketLinksResolve": true,
+    "publicResultsLinksResolveToApprovedRoutes": true
+  },
+  "integrity": {"closedCoreEntriesRehashed": 54, "presentationEntriesRehashed": 7, "prespecEntriesRehashed": 9, "priorGateFrozenEntriesRehashed": 1437, "mismatches": 0, "gitHead": "a35be1ccb61c802a8bd7282903a9665b2c7d1863"},
+  "servedReview": {"allowlistedAssets": 9, "allCopiesEqualApprovedSources": true, "allGetBodiesEqualCopies": true, "allHeadLengthsMatch": true, "undeclaredAndPrivateRepositoryRoutesDenied": true, "rawTraversalAndQueryPathsDenied": true, "mutationMethodsDenied": true},
+  "replayReadiness": {"entries": 12, "exactRunBuildIdentities": 12, "rootAndResultsRoutesHTTP200": 12, "gateZeroThroughNineIdentityRoute": "/api/run", "gateTenAndElevenIdentityRoute": "/run/run.json", "claimType": "Present HTTP readiness and exact identity; not a new historical browser trial."},
+  "presentation": {"freezePath": "evidence/gate-11/PRESENTATION_FREEZE.json", "freezeSha256": "5de8fc2728ce348c3daef7f6d222b9fa9ff4ecbfa2c2d93e81c5964ea5c53692", "actualObservations": 5, "newOriginalJpegs": 2, "originalsDirectlyInspectedByAuditor": true, "allFourEmbeddedCoreImagesLoaded": true, "testedWidths": [960, 1280], "horizontalOverflowObserved": false, "actualPausedInstrumentLinkIdentity": "G11-RECEIVER-002 / g11-7ced826c903d40c5a0dd, paused at 0", "consoleWarningsOrErrors": 0},
+  "scopeAndQualifications": [
+    "This is a successful handoff of the bounded Gate 11 software/browser result, not a human comprehension or diagram-advantage result.",
+    "Candidate 001's atomic publication race and the first candidate 002 acquisition's CUA object truncation remain preserved in earlier evidence; the accepted full acquisition is separate.",
+    "The report requires vertical scrolling, and the capped witness image does not show every pair field without internal scrolling.",
+    "Historical replay GET/readiness checks do not repeat earlier supported-browser studies; each gate's packet retains its own qualifications.",
+    "An initial audit-harness dry run incorrectly required the short public results page to repeat the detailed 200,000-character capture limit. That editorial requirement is not in the frozen contract; the packet and run evidence carry the capture qualification. The corrected verifier passes and no product file changed."
+  ],
+  "humanParticipants": 0,
+  "nextGateApproved": false,
+  "openHandoffBlockers": []
+}

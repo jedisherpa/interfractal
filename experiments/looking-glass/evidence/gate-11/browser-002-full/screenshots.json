@@ -1,0 +1,146 @@
+[
+  {
+    "name": "initial-count-summary",
+    "path": "screenshots/initial-count-summary.jpg",
+    "sha256": "6b473cc1d1c8bc97abdd6b6d1deeaf4172c501aab175861dc00b728969a31e2a",
+    "bytes": 109993,
+    "beforeObservation": 2,
+    "afterObservation": 3,
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "documentWidth": 1280,
+      "documentHeight": 2173,
+      "scene": {
+        "x": 52.1953125,
+        "y": 743.328125,
+        "width": 722,
+        "height": 302
+      }
+    }
+  },
+  {
+    "name": "changed-receiver-witness",
+    "path": "screenshots/changed-receiver-witness.jpg",
+    "sha256": "eaf9ea55f047f35b624b846bffaea505337365906c289e1a346ddb2453b2fa64",
+    "bytes": 65650,
+    "beforeObservation": 8,
+    "afterObservation": 9,
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1364.5,
+      "documentWidth": 1280,
+      "documentHeight": 2875,
+      "scene": {
+        "x": 52.1953125,
+        "y": -621.171875,
+        "width": 722,
+        "height": 302
+      }
+    }
+  },
+  {
+    "name": "minimal-repair-diagram",
+    "path": "screenshots/minimal-repair-diagram.jpg",
+    "sha256": "3dbfac9d4ce6f07900e9c2d7ed0fdfd7e9a0b9bd8f5d0de6c505830a0881db97",
+    "bytes": 90954,
+    "beforeObservation": 14,
+    "afterObservation": 15,
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 367.5,
+      "documentWidth": 1280,
+      "documentHeight": 2975,
+      "scene": {
+        "x": 52.1953125,
+        "y": 375.828125,
+        "width": 722,
+        "height": 302
+      }
+    }
+  },
+  {
+    "name": "minimal-repair-plain",
+    "path": "screenshots/minimal-repair-plain.jpg",
+    "sha256": "7ada62b25d1283c29398c4a26c08ac74cff49505d6929d0f795644eaceb2e9bc",
+    "bytes": 103408,
+    "beforeObservation": 17,
+    "afterObservation": 18,
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 367.5,
+      "documentWidth": 1280,
+      "documentHeight": 2831,
+      "scene": {
+        "x": 52.1953125,
+        "y": 375.828125,
+        "width": 1175.609375,
+        "height": 208.15625
+      }
+    }
+  },
+  {
+    "name": "partial-negative-narrow",
+    "path": "screenshots/partial-negative-narrow.jpg",
+    "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16",
+    "bytes": 88356,
+    "beforeObservation": 40,
+    "afterObservation": 41,
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 292,
+      "documentWidth": 960,
+      "documentHeight": 2744,
+      "scene": {
+        "x": 28.1953125,
+        "y": 601.140625,
+        "width": 722,
+        "height": 302
+      }
+    }
+  },
+  {
+    "name": "natural-tour-end",
+    "path": "screenshots/natural-tour-end.jpg",
+    "sha256": "5801f84285efd7074f0ed9eacf959b6bcfa7ec4c8bb9e11eb36b76fb1d001b7c",
+    "bytes": 111637,
+    "beforeObservation": 86,
+    "afterObservation": 87,
+    "runId": "G11-RECEIVER-002",
+    "buildId": "g11-7ced826c903d40c5a0dd",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "documentWidth": 1280,
+      "documentHeight": 2208,
+      "scene": {
+        "x": 52.1953125,
+        "y": 743.328125,
+        "width": 722,
+        "height": 302
+      }
+    }
+  }
+]

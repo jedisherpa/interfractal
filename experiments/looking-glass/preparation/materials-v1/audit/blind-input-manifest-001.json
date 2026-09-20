@@ -1,0 +1,24 @@
+{
+  "schema": "materials-v1-blind-input-manifest-001",
+  "status": "BLIND_DERIVATION_SAVED_AUTHOR_KEY_UNREAD",
+  "sourceTaskFreeze": {
+    "path": "preparation/materials-v1/design/SOURCE_TASK_FREEZE.json",
+    "sha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+    "authorKeyExistedAtFreeze": false,
+    "auditorKeyAccessAuthorizedBeforeBlindFreeze": false
+  },
+  "readFiles": [
+    {"path": "preparation/materials-v1/design/world.json", "sha256": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef", "bytes": 28103},
+    {"path": "preparation/materials-v1/design/allocations.json", "sha256": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d", "bytes": 1119},
+    {"path": "preparation/materials-v1/design/development-tasks.json", "sha256": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6", "bytes": 6342},
+    {"path": "preparation/materials-v1/design/withheld-tasks.json", "sha256": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03", "bytes": 26576},
+    {"path": "preparation/materials-v1/design/snapshot.schema.json", "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a", "bytes": 8053}
+  ],
+  "priorIndependentProtocol": "preparation/materials-v1/audit/requirements-checklist.md",
+  "deriver": {"path": "preparation/materials-v1/audit/derive-blind-key-001.mjs", "sha256": "236b4841864c73f4bdab06ba775c1acb9be7c612b9ab322cf0a6d0f66b1b7b4e"},
+  "blindOutput": {"path": "preparation/materials-v1/audit/blind-key-001.json", "sha256": "1afc61ce7a071079f59a8c127f0edb43a4b72486ce5059ba58e95288154a75c2"},
+  "prohibitedBeforeRootFreeze": ["AUTHOR_ANSWER_KEY", "author expected answers", "author scoring outputs", "author solver", "builder examples or outputs", "other new design plans or contracts"],
+  "authorKeyRead": false,
+  "authorSolverRead": false,
+  "engineeringAuditNotResearchParticipant": true
+}

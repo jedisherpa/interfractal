@@ -1,0 +1,10 @@
+[
+  {
+    "label": "canonical-correction-control-failure",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001-followup/screenshots/canonical-correction-control-failure.jpg",
+    "sha256": "54783c79ae144ee73ac0dc8e93269ee476578b9733b6d985bf739f0b72b73e65",
+    "bytes": 142795,
+    "beforeObservationIndex": 3,
+    "afterObservationIndex": 4
+  }
+]

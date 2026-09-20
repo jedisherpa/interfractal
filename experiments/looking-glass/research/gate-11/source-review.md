@@ -1,0 +1,22 @@
+# Gate 11 source review: break a summary by changing its receiver
+
+Accessed 2026-09-20. Collector: GPT-5.6 Luna via `web__run`. This is a bounded primary-source review for the approved Gate 11 instrument: finite fictional records, a summary, two receiver functions, and a minimal repair. The sources support conditional software checks only; they do not support claims about human meaning, learning, explanation quality, or causal effects.
+
+## Primary methodological findings
+
+**[Segoufin and Vianu (2005), “Views and Queries: Determinacy and Rewriting,” PODS](https://doi.org/10.1145/1065167.1065174)** ([author-hosted full paper](https://dbucsd.github.io/paperpdfs/2005_7.pdf)). The paper defines view determinacy: a view `V` determines a query `Q` when the information in `V` uniquely determines the answer to `Q`, and studies when `Q` can be rewritten over `V`. The Gate 11 translation is task-relative: for a frozen finite set of worlds `W`, summary `S` is adequate for receiver `R` only when every pair of worlds `w1` and `w2` in `W` with `S(w1) = S(w2)` also has `R(w1) = R(w2)`. A same-summary/different-receiver pair is therefore a concrete insufficiency counterexample. Passing a finite `W` establishes conditional adequacy for that declared receiver and world set, not universal sufficiency.
+
+**[Buneman, Khanna, and Tan (2001), “Why and Where: A Characterization of Data Provenance,” ICDT](https://doi.org/10.1007/3-540-44503-X_20)** ([institutional author copy](https://www.research.ed.ac.uk/files/16509989/Why_and_Where_A_Characterization_of_Data_Provenance.pdf)). This primary paper separates why-provenance (which source data contributed to an output) from where-provenance (the source locations from which output data were taken). Gate 11 should attach both a source record/field pointer and the derivation or transform identifier to each summary field and to each repaired field. A repair may expose a missing dependency already present in the frozen records and allowed field menu; a provenance pointer is evidence about origin, not a new fact. If the requested conclusion depends on an unavailable or ambiguous origin, report it as insufficient.
+
+**[Green, Karvounarakis, and Tannen (2007), “Provenance Semirings,” PODS](https://doi.org/10.1145/1265530.1265535)** ([author-hosted paper](https://web.cs.ucdavis.edu/~green/papers/pods07.pdf)). The paper gives symbolic annotations that track alternative derivations and provenance through relational computations, including incomplete and probabilistic data. For this gate, an equivalent plain comparator can carry the same symbolic source/derivation identifiers alongside the same records, formulas, fields, and repaired state. This supports an auditable provenance ledger and makes “same information, changed receiver” a data-level comparison. It does not license inferring a missing value, choosing among unsupported alternatives, or treating a matching display as proof of semantic understanding.
+
+## Gate 11 constraints
+
+1. Freeze (W), the summary function, and each receiver function before testing. Run determinacy separately for each receiver; changing only the receiver must be able to turn a passing summary into a counterexample.
+2. Declare the allowed repair-field menu in advance. A minimal repair is minimal only relative to that menu: it can expose an existing dependency/source pointer or an allowed existing field, preserve its provenance, and leave all other values and ordering unchanged. It cannot add an inferred target result or silently change receiver semantics.
+3. Require the geometry/semantic presentation and an equivalent plain representation to use identical records, computations, provenance, and repair state. Source pointers must survive the repair.
+4. For a requested conclusion that depends on an unsupported or ambiguous dependency, report “insufficient.” A local AND receiver may still soundly return “no” when one verified negative dependency is sufficient, even if another dependency is missing. Software checks establish mathematical conditional determinacy and provenance preservation; they do not establish human learning, comprehension, or causal effects.
+
+## Source limits
+
+All three papers are formal database-theory results. Their guarantees depend on a declared data model, query/view class, and provenance representation. Applying them here is a methodological translation to a finite instrument, not evidence that a human receiver would understand a summary or that a repair improves behavior.

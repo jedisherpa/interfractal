@@ -1,0 +1,383 @@
+{
+  "schema": "gate9-handoff-independent-addendum-v1",
+  "status": "PASS",
+  "qualifiedSoftwareVerdictUnchanged": "PASS_WITH_QUALIFICATION",
+  "scope": "Read-only post-core packet and supported-browser presentation handoff; no extension to the closed instrument trial",
+  "packetSha256": "a6384d749539c5bfe72bfddd13cdd6b0ca948365c32c0e051db3597ada372029",
+  "resultsHtmlSha256": "23562a58e68d9daff20eae37b19c34517923f6ae40d4ec16962ed95b72f8ae36",
+  "runEvidenceSha256": "7549975d977a47cf68e071690b3e9885699be595e4b4d13298cb24e673a2e3a7",
+  "presentationReviewSha256": "ad60bf9866198af2887a34cedc41b94c42765b5c5633936ed89e74f6412b1f0d",
+  "closedCoreManifestSha256": "2bc665deb66351e70ccd13fc57056365cecb75a2f2e892205fc56f79544dd6d0",
+  "pinCount": 14,
+  "pins": [
+    {
+      "path": "docs/gate-9/PRESPEC_FREEZE.json",
+      "pass": true
+    },
+    {
+      "path": "evidence/gate-9/CORE_TRIAL_CLOSED.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/AUDIT.md",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/final-checks.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/build-audit.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/route-audit.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/browser-audit.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/event-audit.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/core-audit.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/live-fingerprint-review.json",
+      "pass": true
+    },
+    {
+      "path": "audit/gate-9/history-integrity.json",
+      "pass": true
+    },
+    {
+      "path": "evidence/gate-9/replay-collection.json",
+      "pass": true
+    },
+    {
+      "path": "research/gate-9/source-review.md",
+      "pass": true
+    },
+    {
+      "path": "evidence/gate-9/COLLECTION_NOTES.json",
+      "pass": true
+    }
+  ],
+  "servedRouteCount": 17,
+  "servedRoutes": [
+    {
+      "route": "/review/results.html",
+      "status": 200,
+      "bytes": 25085,
+      "sha256": "23562a58e68d9daff20eae37b19c34517923f6ae40d4ec16962ed95b72f8ae36",
+      "contentType": "text/html; charset=utf-8",
+      "pass": true
+    },
+    {
+      "route": "/review/packet.md",
+      "status": 200,
+      "bytes": 16605,
+      "sha256": "a6384d749539c5bfe72bfddd13cdd6b0ca948365c32c0e051db3597ada372029",
+      "contentType": "text/markdown; charset=utf-8",
+      "pass": true
+    },
+    {
+      "route": "/review/run-evidence.json",
+      "status": 200,
+      "bytes": 26294,
+      "sha256": "7549975d977a47cf68e071690b3e9885699be595e4b4d13298cb24e673a2e3a7",
+      "contentType": "application/json; charset=utf-8",
+      "pass": true
+    },
+    {
+      "route": "/review/audit.md",
+      "status": 200,
+      "bytes": 9053,
+      "sha256": "82565720bb781064989f641344d3b6fe1f2e2d2ce71d8c9d8c116c970dbe592a",
+      "contentType": "text/markdown; charset=utf-8",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/001-common-practice-1280.jpg",
+      "status": 200,
+      "bytes": 94417,
+      "sha256": "6e18a5ff15043f0ff10545d7beeb0012fbe110ae8d7a0bfdb8d668f1d4d5a655",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/002-t01-completed-choice.jpg",
+      "status": 200,
+      "bytes": 74121,
+      "sha256": "390f18997538da37b202163153b404adbb4c8b5bbf869b1dfcd90b943fa48002",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/003-t01-watch-active.jpg",
+      "status": 200,
+      "bytes": 91630,
+      "sha256": "f8bc27932b9c9fcee4c6a03e395a707ff8b43bbfafa850f3b1792c88170b30de",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/004-t01-watch-complete.jpg",
+      "status": 200,
+      "bytes": 59191,
+      "sha256": "c66c9e90df067539012862a55b923c419416a6f9c773d8b1801a6fcc98866b18",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/005-t01-static-sheet.jpg",
+      "status": 200,
+      "bytes": 92796,
+      "sha256": "7a1a4bc8db00bf6eeec976c33686e4797ef8a837b876d3d67c120c1a481dd83e",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/006-t01-completed-choice-full.jpg",
+      "status": 200,
+      "bytes": 74352,
+      "sha256": "b3de4874c0ce155e100848fec70473fc937e087eb8f40d3177c042e329764846",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/007-t04-nonseparating-static.jpg",
+      "status": 200,
+      "bytes": 95649,
+      "sha256": "643cb903edc51c10863aec63d373d3a35c2e0c324379d6f77fa0262e5fc042b4",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/008-static-960-upper.jpg",
+      "status": 200,
+      "bytes": 49969,
+      "sha256": "c71d7433c6f48f88ff7e5ea1bba1d4836d60869d64e41c33d9c54b38b2ffd6db",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/009-static-960-lower.jpg",
+      "status": 200,
+      "bytes": 68046,
+      "sha256": "18aeca26266f8e4f9d55aa42665db50ddeb7d2f23078fc6bc9db6010dfe0f9ba",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/010-t01-watch-full-manual-review.jpg",
+      "status": 200,
+      "bytes": 73262,
+      "sha256": "eff84de0575869d858487f94289db18b761e2874d60e8258a20d2f09642dc47e",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/011-continuous-tour-active.jpg",
+      "status": 200,
+      "bytes": 61876,
+      "sha256": "26ab81aeac6a529126e1d140759c3c0c03b63d4fdeb62967fc9288da4a56ee01",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/012-continuous-tour-natural-end.jpg",
+      "status": 200,
+      "bytes": 90199,
+      "sha256": "af34935ee37ee9e8019aa740a15ba2e594bbba7f5b38da8f943866bd4671dd9a",
+      "contentType": "image/jpeg",
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/013-final-paused-start.jpg",
+      "status": 200,
+      "bytes": 85015,
+      "sha256": "99dd14b99af1172fba78a1b40e44f58ca5fe0760ce67b534be2b5e4cf329b056",
+      "contentType": "image/jpeg",
+      "pass": true
+    }
+  ],
+  "presentationObservationCount": 6,
+  "presentationCaptureCount": 4,
+  "presentationCaptures": [
+    {
+      "path": "evidence/gate-9/screenshots/presentation-results-top.jpg",
+      "sha256": "d70b9de1e9d09709905e2411b0e9190e4cc193eb8d217dc71bdb802400044a19",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "pass": true
+    },
+    {
+      "path": "evidence/gate-9/screenshots/presentation-results-captures.jpg",
+      "sha256": "5bf2302e049c458d16bffb294a39c82d8fec09bd5a55e750124c2ebb5350f5d4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "pass": true
+    },
+    {
+      "path": "evidence/gate-9/screenshots/presentation-results-sheet.jpg",
+      "sha256": "0929a75d5b6abbe958113eefb026902e215bc3b67d0dc1f4d0a2db6c48e09b26",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "pass": true
+    },
+    {
+      "path": "evidence/gate-9/screenshots/presentation-results-next.jpg",
+      "sha256": "8595385c23c3737c12f91115b765c0bf1c21429132c32bf9af0f7845062af76f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "pass": true
+    }
+  ],
+  "replayCount": 10,
+  "replays": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "runId": "G0-CUBE-005",
+      "buildId": "g0-d85237ad31362768",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 11163,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "runId": "G1-CUBE-003",
+      "buildId": "g1-9dce1c2b9c2b3be4",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 11945,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "runId": "G2-HOPF-003",
+      "buildId": "g2-ccabad12693f86a8",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 19411,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 15547,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 17407,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "runId": "G5-PENTERACT-001",
+      "buildId": "g5-0bdee39bcd7dd541",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 24173,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "runId": "G6-LOCAL-003",
+      "buildId": "g6-0279cdcdc0adc9b0",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 17093,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "runId": "G7-INTERPRET-002",
+      "buildId": "g7-90e64952eb028069",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 16700,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 8,
+      "url": "http://127.0.0.1:44001/",
+      "runId": "G8-AMBIGUITY-001",
+      "buildId": "g8-f5c5ee62889da529",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 23939,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    },
+    {
+      "gate": 9,
+      "url": "http://127.0.0.1:44002/",
+      "runId": "G9-MATCHED-003",
+      "buildId": "g9-15c3bf973fe0c6cd",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "resultsBytes": 25085,
+      "packetExists": true,
+      "restartTargetExists": true,
+      "identityInResults": true,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

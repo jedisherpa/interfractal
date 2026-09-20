@@ -1,0 +1,919 @@
+[
+  {
+    "seconds": 0,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 0,
+      "paused": true,
+      "caseId": "T01",
+      "practiceOpen": false,
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "payload": {
+      "schema": "gate10-semantic-v1",
+      "mode": "saved-tour",
+      "cursorSeconds": 0,
+      "paused": true,
+      "caseId": "T01",
+      "practiceOpen": false,
+      "practice": null,
+      "task": {
+        "id": "T01",
+        "sourceId": "G10-ASSESS-P01",
+        "family": "point4-rotation",
+        "category": "interpolation",
+        "prompt": "The same unknown 4D point is observed at 0 and 90 degrees. Predict its raw xyz at am, strictly between those angles.",
+        "facts": [
+          "The two cards identify the same point P.",
+          "The source has four real coordinates and is unchanged between queries."
+        ],
+        "supports": [
+          {
+            "id": "T01-F1",
+            "queryId": "a0",
+            "pointId": "P",
+            "xyz": [
+              "2",
+              "-1",
+              "1/2"
+            ],
+            "cameraYawDegrees": 0
+          },
+          {
+            "id": "T01-F2",
+            "queryId": "a90",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "-1",
+              "1/2"
+            ],
+            "cameraYawDegrees": 0
+          }
+        ],
+        "target": {
+          "queryId": "am"
+        },
+        "options": [
+          {
+            "id": "O1",
+            "label": "(2, -1, 1/2)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2",
+                "-1",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "id": "O2",
+            "label": "(2/5, -1, 1/2)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2/5",
+                "-1",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "id": "O3",
+            "label": "(2, -1, 0)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2",
+                "-1",
+                "0"
+              ]
+            }
+          },
+          {
+            "id": "O4",
+            "label": "The supplied observations do not determine one target",
+            "hypothesis": {
+              "kind": "insufficient"
+            }
+          }
+        ]
+      },
+      "formulas": {
+        "point": "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.",
+        "ball": "Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+      },
+      "pointQueries": [
+        {
+          "id": "a0",
+          "label": "0 degrees",
+          "cos": "1",
+          "sin": "0"
+        },
+        {
+          "id": "am",
+          "label": "atan2(4,3), about 53.130102 degrees",
+          "cos": "3/5",
+          "sin": "4/5"
+        },
+        {
+          "id": "a90",
+          "label": "90 degrees",
+          "cos": "0",
+          "sin": "1"
+        },
+        {
+          "id": "a180",
+          "label": "180 degrees",
+          "cos": "-1",
+          "sin": "0"
+        }
+      ],
+      "rendering": {
+        "cardWidthCss": 280,
+        "cardHeightCss": 200,
+        "scaleCssPerUnit": 50,
+        "defaultYawDegrees": 0,
+        "defaultPitchDegrees": 20,
+        "decimalPlaces": 6,
+        "autoscale": false
+      },
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "semanticFingerprint": "1aaa1c172b1a0a8f977e1accb6d86e914eceafd1b9eafdb5f1df00ff64191557",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 4,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 4,
+      "paused": true,
+      "caseId": "T02",
+      "practiceOpen": false,
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "payload": {
+      "schema": "gate10-semantic-v1",
+      "mode": "saved-tour",
+      "cursorSeconds": 4,
+      "paused": true,
+      "caseId": "T02",
+      "practiceOpen": false,
+      "practice": null,
+      "task": {
+        "id": "T02",
+        "sourceId": "G10-ASSESS-P02",
+        "family": "point4-rotation",
+        "category": "unseen-setting",
+        "prompt": "A different unknown 4D point is observed at 0 and 90 degrees. Predict its raw xyz at the unworked 180-degree setting.",
+        "facts": [
+          "The two cards identify the same point P.",
+          "This source differs from practice and T01."
+        ],
+        "supports": [
+          {
+            "id": "T02-F1",
+            "queryId": "a0",
+            "pointId": "P",
+            "xyz": [
+              "-3/2",
+              "1/4",
+              "-1"
+            ],
+            "cameraYawDegrees": 0
+          },
+          {
+            "id": "T02-F2",
+            "queryId": "a90",
+            "pointId": "P",
+            "xyz": [
+              "-1/2",
+              "1/4",
+              "-1"
+            ],
+            "cameraYawDegrees": 0
+          }
+        ],
+        "target": {
+          "queryId": "a180"
+        },
+        "options": [
+          {
+            "id": "O1",
+            "label": "(3/2, 1/4, -1)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "3/2",
+                "1/4",
+                "-1"
+              ]
+            }
+          },
+          {
+            "id": "O2",
+            "label": "(1/2, 1/4, -1)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "1/2",
+                "1/4",
+                "-1"
+              ]
+            }
+          },
+          {
+            "id": "O3",
+            "label": "(-3/2, 1/4, -1)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "-3/2",
+                "1/4",
+                "-1"
+              ]
+            }
+          },
+          {
+            "id": "O4",
+            "label": "The supplied observations do not determine one target",
+            "hypothesis": {
+              "kind": "insufficient"
+            }
+          }
+        ]
+      },
+      "formulas": {
+        "point": "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.",
+        "ball": "Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+      },
+      "pointQueries": [
+        {
+          "id": "a0",
+          "label": "0 degrees",
+          "cos": "1",
+          "sin": "0"
+        },
+        {
+          "id": "am",
+          "label": "atan2(4,3), about 53.130102 degrees",
+          "cos": "3/5",
+          "sin": "4/5"
+        },
+        {
+          "id": "a90",
+          "label": "90 degrees",
+          "cos": "0",
+          "sin": "1"
+        },
+        {
+          "id": "a180",
+          "label": "180 degrees",
+          "cos": "-1",
+          "sin": "0"
+        }
+      ],
+      "rendering": {
+        "cardWidthCss": 280,
+        "cardHeightCss": 200,
+        "scaleCssPerUnit": 50,
+        "defaultYawDegrees": 0,
+        "defaultPitchDegrees": 20,
+        "decimalPlaces": 6,
+        "autoscale": false
+      },
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "semanticFingerprint": "2244bd01b19819b1d43e84b1ee7e5b38d4f99bf6b03c2ff3208bdbae4055c481",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 8,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 8,
+      "paused": true,
+      "caseId": "T03",
+      "practiceOpen": false,
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "payload": {
+      "schema": "gate10-semantic-v1",
+      "mode": "saved-tour",
+      "cursorSeconds": 8,
+      "paused": true,
+      "caseId": "T03",
+      "practiceOpen": false,
+      "practice": null,
+      "task": {
+        "id": "T03",
+        "sourceId": "G10-ASSESS-P03-CLASS",
+        "family": "point4-rotation",
+        "category": "same-family-setting",
+        "prompt": "Both cards show the same 0-degree raw observation with different display cameras. What can be predicted at 90 degrees?",
+        "facts": [
+          "The source w coordinate is either -2 or 2; neither alternative is selected as true.",
+          "The source query remains 0 degrees for both cards. Camera yaw changes only the drawing.",
+          "Report the complete possible target set when a unique target is not determined."
+        ],
+        "supports": [
+          {
+            "id": "T03-F1",
+            "queryId": "a0",
+            "pointId": "P",
+            "xyz": [
+              "1/3",
+              "2/3",
+              "-1/3"
+            ],
+            "cameraYawDegrees": 0
+          },
+          {
+            "id": "T03-F2",
+            "queryId": "a0",
+            "pointId": "P",
+            "xyz": [
+              "1/3",
+              "2/3",
+              "-1/3"
+            ],
+            "cameraYawDegrees": 45
+          }
+        ],
+        "target": {
+          "queryId": "a90"
+        },
+        "options": [
+          {
+            "id": "O1",
+            "label": "Only (-2, 2/3, -1/3)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "-2",
+                "2/3",
+                "-1/3"
+              ]
+            }
+          },
+          {
+            "id": "O2",
+            "label": "Only (2, 2/3, -1/3)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2",
+                "2/3",
+                "-1/3"
+              ]
+            }
+          },
+          {
+            "id": "O3",
+            "label": "Only (0, 2/3, -1/3)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "0",
+                "2/3",
+                "-1/3"
+              ]
+            }
+          },
+          {
+            "id": "O4",
+            "label": "Either (-2, 2/3, -1/3) or (2, 2/3, -1/3); no unique target",
+            "hypothesis": {
+              "kind": "point-set",
+              "points": [
+                [
+                  "-2",
+                  "2/3",
+                  "-1/3"
+                ],
+                [
+                  "2",
+                  "2/3",
+                  "-1/3"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "formulas": {
+        "point": "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.",
+        "ball": "Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+      },
+      "pointQueries": [
+        {
+          "id": "a0",
+          "label": "0 degrees",
+          "cos": "1",
+          "sin": "0"
+        },
+        {
+          "id": "am",
+          "label": "atan2(4,3), about 53.130102 degrees",
+          "cos": "3/5",
+          "sin": "4/5"
+        },
+        {
+          "id": "a90",
+          "label": "90 degrees",
+          "cos": "0",
+          "sin": "1"
+        },
+        {
+          "id": "a180",
+          "label": "180 degrees",
+          "cos": "-1",
+          "sin": "0"
+        }
+      ],
+      "rendering": {
+        "cardWidthCss": 280,
+        "cardHeightCss": 200,
+        "scaleCssPerUnit": 50,
+        "defaultYawDegrees": 0,
+        "defaultPitchDegrees": 20,
+        "decimalPlaces": 6,
+        "autoscale": false
+      },
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "semanticFingerprint": "855cf09c2c4e20d0e48b5b2eec51c6d8281670856d0c47d8f2094a6642c47be2",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 12,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 12,
+      "paused": true,
+      "caseId": "T04",
+      "practiceOpen": false,
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "payload": {
+      "schema": "gate10-semantic-v1",
+      "mode": "saved-tour",
+      "cursorSeconds": 12,
+      "paused": true,
+      "caseId": "T04",
+      "practiceOpen": false,
+      "practice": null,
+      "task": {
+        "id": "T04",
+        "sourceId": "G10-ASSESS-B01",
+        "family": "ball4-slice",
+        "category": "changed-family",
+        "prompt": "The source is now a 4D ball with unknown cw and R. Using its two exact nonempty slices and the ball formula, predict the slice at s=7/4.",
+        "facts": [
+          "The 3D center is (0,0,0). The same ball generates both supplied slices.",
+          "The hidden center cw and radius R are fixed. Point and empty are different outcomes."
+        ],
+        "supports": [
+          {
+            "id": "T04-F1",
+            "sliceSetting": "-1/4",
+            "kind": "ball",
+            "radiusSquared": "1",
+            "radius": "1",
+            "cameraYawDegrees": 0
+          },
+          {
+            "id": "T04-F2",
+            "sliceSetting": "1/2",
+            "kind": "ball",
+            "radiusSquared": "25/16",
+            "radius": "5/4",
+            "cameraYawDegrees": 0
+          }
+        ],
+        "target": {
+          "sliceSetting": "7/4"
+        },
+        "options": [
+          {
+            "id": "O1",
+            "label": "A ball of radius 1",
+            "hypothesis": {
+              "kind": "ball",
+              "radiusSquared": "1"
+            }
+          },
+          {
+            "id": "O2",
+            "label": "Empty",
+            "hypothesis": {
+              "kind": "empty"
+            }
+          },
+          {
+            "id": "O3",
+            "label": "One point at (0,0,0)",
+            "hypothesis": {
+              "kind": "point",
+              "radiusSquared": "0"
+            }
+          },
+          {
+            "id": "O4",
+            "label": "The supplied observations do not determine one target",
+            "hypothesis": {
+              "kind": "insufficient"
+            }
+          }
+        ]
+      },
+      "formulas": {
+        "point": "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.",
+        "ball": "Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+      },
+      "pointQueries": [
+        {
+          "id": "a0",
+          "label": "0 degrees",
+          "cos": "1",
+          "sin": "0"
+        },
+        {
+          "id": "am",
+          "label": "atan2(4,3), about 53.130102 degrees",
+          "cos": "3/5",
+          "sin": "4/5"
+        },
+        {
+          "id": "a90",
+          "label": "90 degrees",
+          "cos": "0",
+          "sin": "1"
+        },
+        {
+          "id": "a180",
+          "label": "180 degrees",
+          "cos": "-1",
+          "sin": "0"
+        }
+      ],
+      "rendering": {
+        "cardWidthCss": 280,
+        "cardHeightCss": 200,
+        "scaleCssPerUnit": 50,
+        "defaultYawDegrees": 0,
+        "defaultPitchDegrees": 20,
+        "decimalPlaces": 6,
+        "autoscale": false
+      },
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "semanticFingerprint": "384be91d2c5b4eb312a691bda693151b960756bc0a3ecaca33552d481de75c1a",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 16,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 16,
+      "paused": true,
+      "caseId": "T05",
+      "practiceOpen": false,
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "payload": {
+      "schema": "gate10-semantic-v1",
+      "mode": "saved-tour",
+      "cursorSeconds": 16,
+      "paused": true,
+      "caseId": "T05",
+      "practiceOpen": false,
+      "practice": null,
+      "task": {
+        "id": "T05",
+        "sourceId": "G10-ASSESS-B02",
+        "family": "ball4-slice",
+        "category": "changed-family",
+        "prompt": "A different unknown 4D ball supplies these two slices. Predict the slice at s=1 using the same ball formula.",
+        "facts": [
+          "The 3D center is (0,0,0). The same ball generates both supplied slices.",
+          "This ball is distinct from T04. Use the supplied general ball/point/empty rule."
+        ],
+        "supports": [
+          {
+            "id": "T05-F1",
+            "sliceSetting": "-1/2",
+            "kind": "ball",
+            "radiusSquared": "1",
+            "radius": "1",
+            "cameraYawDegrees": 0
+          },
+          {
+            "id": "T05-F2",
+            "sliceSetting": "1/2",
+            "kind": "point",
+            "radiusSquared": "0",
+            "radius": "0",
+            "cameraYawDegrees": 0
+          }
+        ],
+        "target": {
+          "sliceSetting": "1"
+        },
+        "options": [
+          {
+            "id": "O1",
+            "label": "One point at (0,0,0)",
+            "hypothesis": {
+              "kind": "point",
+              "radiusSquared": "0"
+            }
+          },
+          {
+            "id": "O2",
+            "label": "A ball of radius sqrt(5/4)",
+            "hypothesis": {
+              "kind": "ball",
+              "radiusSquared": "5/4"
+            }
+          },
+          {
+            "id": "O3",
+            "label": "The supplied observations do not determine one target",
+            "hypothesis": {
+              "kind": "insufficient"
+            }
+          },
+          {
+            "id": "O4",
+            "label": "Empty",
+            "hypothesis": {
+              "kind": "empty"
+            }
+          }
+        ]
+      },
+      "formulas": {
+        "point": "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.",
+        "ball": "Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+      },
+      "pointQueries": [
+        {
+          "id": "a0",
+          "label": "0 degrees",
+          "cos": "1",
+          "sin": "0"
+        },
+        {
+          "id": "am",
+          "label": "atan2(4,3), about 53.130102 degrees",
+          "cos": "3/5",
+          "sin": "4/5"
+        },
+        {
+          "id": "a90",
+          "label": "90 degrees",
+          "cos": "0",
+          "sin": "1"
+        },
+        {
+          "id": "a180",
+          "label": "180 degrees",
+          "cos": "-1",
+          "sin": "0"
+        }
+      ],
+      "rendering": {
+        "cardWidthCss": 280,
+        "cardHeightCss": 200,
+        "scaleCssPerUnit": 50,
+        "defaultYawDegrees": 0,
+        "defaultPitchDegrees": 20,
+        "decimalPlaces": 6,
+        "autoscale": false
+      },
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "standard-playback"
+    },
+    "semanticFingerprint": "0d0c5fa64929df73d62c8ab2b957c18247c762fb941356ecaa3e731ce0c070c0",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 20,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 20,
+      "paused": true,
+      "caseId": "T01",
+      "practiceOpen": false,
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "end-of-sequence"
+    },
+    "payload": {
+      "schema": "gate10-semantic-v1",
+      "mode": "saved-tour",
+      "cursorSeconds": 20,
+      "paused": true,
+      "caseId": "T01",
+      "practiceOpen": false,
+      "practice": null,
+      "task": {
+        "id": "T01",
+        "sourceId": "G10-ASSESS-P01",
+        "family": "point4-rotation",
+        "category": "interpolation",
+        "prompt": "The same unknown 4D point is observed at 0 and 90 degrees. Predict its raw xyz at am, strictly between those angles.",
+        "facts": [
+          "The two cards identify the same point P.",
+          "The source has four real coordinates and is unchanged between queries."
+        ],
+        "supports": [
+          {
+            "id": "T01-F1",
+            "queryId": "a0",
+            "pointId": "P",
+            "xyz": [
+              "2",
+              "-1",
+              "1/2"
+            ],
+            "cameraYawDegrees": 0
+          },
+          {
+            "id": "T01-F2",
+            "queryId": "a90",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "-1",
+              "1/2"
+            ],
+            "cameraYawDegrees": 0
+          }
+        ],
+        "target": {
+          "queryId": "am"
+        },
+        "options": [
+          {
+            "id": "O1",
+            "label": "(2, -1, 1/2)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2",
+                "-1",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "id": "O2",
+            "label": "(2/5, -1, 1/2)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2/5",
+                "-1",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "id": "O3",
+            "label": "(2, -1, 0)",
+            "hypothesis": {
+              "kind": "unique-point",
+              "xyz": [
+                "2",
+                "-1",
+                "0"
+              ]
+            }
+          },
+          {
+            "id": "O4",
+            "label": "The supplied observations do not determine one target",
+            "hypothesis": {
+              "kind": "insufficient"
+            }
+          }
+        ]
+      },
+      "formulas": {
+        "point": "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.",
+        "ball": "Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+      },
+      "pointQueries": [
+        {
+          "id": "a0",
+          "label": "0 degrees",
+          "cos": "1",
+          "sin": "0"
+        },
+        {
+          "id": "am",
+          "label": "atan2(4,3), about 53.130102 degrees",
+          "cos": "3/5",
+          "sin": "4/5"
+        },
+        {
+          "id": "a90",
+          "label": "90 degrees",
+          "cos": "0",
+          "sin": "1"
+        },
+        {
+          "id": "a180",
+          "label": "180 degrees",
+          "cos": "-1",
+          "sin": "0"
+        }
+      ],
+      "rendering": {
+        "cardWidthCss": 280,
+        "cardHeightCss": 200,
+        "scaleCssPerUnit": 50,
+        "defaultYawDegrees": 0,
+        "defaultPitchDegrees": 20,
+        "decimalPlaces": 6,
+        "autoscale": false
+      },
+      "draftOption": null,
+      "responsePhase": "none",
+      "response": null,
+      "revealedResult": null,
+      "attachedAttempt": null,
+      "pendingAction": null,
+      "reviewStatus": "end-of-sequence"
+    },
+    "semanticFingerprint": "abb890b38d910ab931e96611a07774aee2cea5bb43dda99a8c3b6a79cad8420d",
+    "referenceOnly": true
+  }
+]

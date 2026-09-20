@@ -1,0 +1,109 @@
+{
+  "schema": "gate12-source-manifest-v1",
+  "runId": "G12-COORD-001",
+  "buildId": "g12-0d66d254f275f3663dee",
+  "sourceHash": "0d66d254f275f3663dee1b9e75062a046106dddc3f4ce9419eaa519688cd5e74",
+  "baseCommit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "content": [
+    {
+      "path": "coordination/README.md",
+      "sha256": "263fe744b2bb666b20ed36b39651a32eea1235281042470d55f31a532b113c29"
+    },
+    {
+      "path": "coordination/app.mjs",
+      "sha256": "a5466affdda54504dd7733636e339a54b06918754570f395f5240609b237fd62"
+    },
+    {
+      "path": "coordination/build.mjs",
+      "sha256": "9757b155df350696f41249f0b069130f273665252376c53d262e448c932cc618"
+    },
+    {
+      "path": "coordination/index.html",
+      "sha256": "925b72e9488bcb6ab2c31873493a667ac77ed7cc12c549e00b91e3122d285a18"
+    },
+    {
+      "path": "coordination/model.mjs",
+      "sha256": "c3e0f1d463bd625f30c8c318fa75d26ed4efca4347cfe2a92e99ec02f32f35a9"
+    },
+    {
+      "path": "coordination/server.mjs",
+      "sha256": "839dae840d0e6f3992b0287a524f50d67bec421106522fb59c367ebb0305ab6a"
+    },
+    {
+      "path": "coordination/style.css",
+      "sha256": "f035ee7680920406884714c480b6816b02775668d68632634a6fc35c1a4139d0"
+    },
+    {
+      "path": "coordination/test.mjs",
+      "sha256": "b9b632b32045a74d6e6e125ab22df268797fea8eb61462db1f41500290654a73"
+    },
+    {
+      "path": "docs/gate-12/PRESPEC_FREEZE.json",
+      "sha256": "0aafcfe9b62f5ba1c2b5934ae7624b4e05248d7ed36ccfa266a4bc55cd4458b1"
+    },
+    {
+      "path": "docs/gate-12/experiment-charter.md",
+      "sha256": "fc5aba50ac7ec1118aafe466ad1a7cd39e293605b142b752df439e5cdcb6f78d"
+    },
+    {
+      "path": "docs/gate-12/model-contract.md",
+      "sha256": "cf823f0d8b1027c32503b180ee95463f65f47e5d04e4e832dc8e1c425ebab034"
+    },
+    {
+      "path": "docs/gate-12/record-contract.md",
+      "sha256": "a298d28328e63064d04853856ea7d400aba170fb11463d125146307734e7e7b0"
+    },
+    {
+      "path": "docs/gate-12/fixture.json",
+      "sha256": "88c6555fc4ba75f41136f08b4e9d27de1a197c03bff7d994581b62cb402ce825"
+    },
+    {
+      "path": "docs/gate-12/independent-predictions.json",
+      "sha256": "313f06f97003efb7f860048e5297dcc3d2038803c2931d318d41b1a76f55d306"
+    }
+  ],
+  "built": [
+    {
+      "path": "README.md",
+      "sha256": "263fe744b2bb666b20ed36b39651a32eea1235281042470d55f31a532b113c29"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "a5466affdda54504dd7733636e339a54b06918754570f395f5240609b237fd62"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "9757b155df350696f41249f0b069130f273665252376c53d262e448c932cc618"
+    },
+    {
+      "path": "index.html",
+      "sha256": "925b72e9488bcb6ab2c31873493a667ac77ed7cc12c549e00b91e3122d285a18"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "c3e0f1d463bd625f30c8c318fa75d26ed4efca4347cfe2a92e99ec02f32f35a9"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "839dae840d0e6f3992b0287a524f50d67bec421106522fb59c367ebb0305ab6a"
+    },
+    {
+      "path": "style.css",
+      "sha256": "f035ee7680920406884714c480b6816b02775668d68632634a6fc35c1a4139d0"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "b9b632b32045a74d6e6e125ab22df268797fea8eb61462db1f41500290654a73"
+    },
+    {
+      "path": "fixture.json",
+      "sha256": "88c6555fc4ba75f41136f08b4e9d27de1a197c03bff7d994581b62cb402ce825"
+    },
+    {
+      "path": "build.json",
+      "sha256": "ce20653ce6adfaeff992cfdd25d1ce9f2ec01e8a9c745a32711085187dcd0f8c"
+    }
+  ]
+}

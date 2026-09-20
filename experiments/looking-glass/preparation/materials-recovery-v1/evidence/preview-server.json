@@ -1,0 +1,15 @@
+{
+  "candidate": "004",
+  "host": "127.0.0.1",
+  "port": 44010,
+  "url": "http://127.0.0.1:44010/",
+  "command": [
+    "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/preview.mjs",
+    "44010"
+  ],
+  "execSessionId": 76837,
+  "observedStartupStdout": "Researcher preview: http://127.0.0.1:44010/\n",
+  "browserTabId": "61",
+  "purpose": "Read-only full-union researcher materials preview; not a participant condition or study collection interface."
+}

@@ -1,0 +1,50 @@
+{
+  "recordedAtUtc": "2026-09-20T01:38:03.515757+00:00",
+  "gate": 2,
+  "routingSource": "Actual user request and project AGENTS.md",
+  "workers": [
+    {
+      "task": "/root/g2_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Experiment specification, mathematical/reference contract, synthesis",
+      "status": "completed"
+    },
+    {
+      "task": "/root/g2_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Primary-source web gathering and pinned code reference inspection",
+      "status": "completed"
+    },
+    {
+      "task": "/root/g2_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation and build checks",
+      "status": "completed"
+    },
+    {
+      "task": "/root/g2_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent mathematical oracle, exact-build checks, preservation and actual browser evidence audit",
+      "status": "completed"
+    }
+  ],
+  "independentAudit": "Separate Sol worker, with no browser operation or implementation ownership; actual results retained in audit/gate-2/.",
+  "hostCoordinator": "Workspace and Git operations, supported browser computer use, evidence collection and preservation; no unsupported model switch claimed.",
+  "humanParticipation": "No participant study or human comprehension result is authorized or inferred.",
+  "authorization": "Actual Gate2 approval in approvals/GATE_2_APPROVAL.json; Gate3 not approved.",
+  "sourceReviewEditorialNote": "Root corrected draft phrasing to distinguish physical common-phase motion from compensated coordinate-chart change; no new internet gathering by root.",
+  "allStageWorkersCompleted": true,
+  "completionRecordedAtUtc": "2026-09-20T02:15:23.948204+00:00",
+  "independentAuditResult": {
+    "oracle": "24/24",
+    "exactBuild": "22/22",
+    "routes": "17/17",
+    "browser": "21/22",
+    "preservationGroups": "4/4",
+    "qualification": "Stale inspector viewport in5/66 observations; plain-table overflow additionally recorded as a presentation defect."
+  }
+}

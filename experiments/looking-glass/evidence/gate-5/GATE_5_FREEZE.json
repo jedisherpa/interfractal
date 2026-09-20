@@ -1,0 +1,589 @@
+{
+  "gate": 5,
+  "frozen_at_utc": "2026-09-20T04:22:53.333970+00:00",
+  "status": "Complete for user review; qualified bounded instrument result; Gate 6 not approved.",
+  "run_id": "G5-PENTERACT-001",
+  "build_id": "g5-0bdee39bcd7dd541",
+  "source_sha256": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "gate_4_saved_commit": "231780872da982cb87b54f004c287a078d26839b",
+  "algorithm": "SHA-256",
+  "all_stage_workers_completed": true,
+  "gate_6_approved": false,
+  "independent_model_build_route_browser_activity_capture_checks_passed": true,
+  "core_observations": 131,
+  "core_original_captures": 17,
+  "core_observed_events": 85,
+  "core_sessions": 3,
+  "successful_root_actions": 93,
+  "separate_presentation_originals": 3,
+  "presentation_http_routes_checked": 37,
+  "prior_frozen_entries_unchanged": 556,
+  "revision_budget_used": {
+    "initial_candidates": 1,
+    "corrections": 0
+  },
+  "history_screenshot_tool_failures": 2,
+  "exclusions": "Live append-only activity.jsonl, mutable root status/README, working source and passive local replay processes. Includes immutable candidate build/canonical files, prespec, primary source review, independent audit, closed actual core evidence, every original capture, separate presentation review and final packet. This manifest cannot include its own hash.",
+  "files": [
+    {
+      "path": "approvals/GATE_5_APPROVAL.json",
+      "sha256": "d9129a08672caecf67bb39a5eb56a03f022c841e1a8ece08a0843c5c39677a3d",
+      "bytes": 830
+    },
+    {
+      "path": "audit/gate-5/AUDIT.md",
+      "sha256": "818cf2eb17039ed5813b4bb44470252ab59ca3d12bba5ae321f6e2c4cb66538d",
+      "bytes": 7551
+    },
+    {
+      "path": "audit/gate-5/G5-PENTERACT-001-activity-audit.json",
+      "sha256": "929550f35507bcdc47375a558b09629e7063ca42bd2e147109e64edb12a51b42",
+      "bytes": 644
+    },
+    {
+      "path": "audit/gate-5/G5-PENTERACT-001-browser-audit.json",
+      "sha256": "45511e8760d75c32cf249e868ef7406c9b85620bd5e559a31a5a81e8704f333a",
+      "bytes": 67124
+    },
+    {
+      "path": "audit/gate-5/G5-PENTERACT-001-build-audit.json",
+      "sha256": "db2d1ed0885516e00fae7bdc6367cf6987fd0373ae63d5dd90b39173ff7e8fe5",
+      "bytes": 577
+    },
+    {
+      "path": "audit/gate-5/G5-PENTERACT-001-capture-audit.json",
+      "sha256": "cee4502f2bafe347ffee770b5d07d0d928c0c9cdbf29c795351350f2c046c57c",
+      "bytes": 7651
+    },
+    {
+      "path": "audit/gate-5/G5-PENTERACT-001-model-audit.json",
+      "sha256": "7dc208aa99d5c7905a2e795f909cb1c8dca38758b086d03bc281bcf3271d4155",
+      "bytes": 2136
+    },
+    {
+      "path": "audit/gate-5/G5-PENTERACT-001-route-audit.json",
+      "sha256": "bb4fa7c4dc136594d295b7eee9d24712af1d48af8ed7db8c94c55a98f4d05e75",
+      "bytes": 2479
+    },
+    {
+      "path": "audit/gate-5/check-activity.mjs",
+      "sha256": "f5ac5ab39840353ad950c8ea4b9848669c5d6b9d92188526d7dcfd98290d053f",
+      "bytes": 8600
+    },
+    {
+      "path": "audit/gate-5/check-browser.mjs",
+      "sha256": "4e3a3bc62a27c398562a7c7df21cc4d28b7a50d1ed026424bd68a0c1f87f293c",
+      "bytes": 10107
+    },
+    {
+      "path": "audit/gate-5/check-build.mjs",
+      "sha256": "fdfba3b4d4e471f565e64b29f580cc3a43e06f987facb69c693eee01fc363e90",
+      "bytes": 6433
+    },
+    {
+      "path": "audit/gate-5/check-captures.mjs",
+      "sha256": "cee659b8db650d289e3375e9d712dddfb49bee502a004e4c6a48aa9cecc8292d",
+      "bytes": 3259
+    },
+    {
+      "path": "audit/gate-5/check-core-closure.mjs",
+      "sha256": "7c461539c06b1a7caeb034d725ce557d14997242f40234daf00801414c946e6e",
+      "bytes": 2759
+    },
+    {
+      "path": "audit/gate-5/check-model.mjs",
+      "sha256": "65a4c86630fc1938645e669d068f3f29eb4330928b41ec226cd9bb0e33adcc5b",
+      "bytes": 10118
+    },
+    {
+      "path": "audit/gate-5/check-prespec.mjs",
+      "sha256": "624683e10195c9bd4cbe82ad012b2f66e0c9b2ea0af0d09dd32246d0edc77bf9",
+      "bytes": 3776
+    },
+    {
+      "path": "audit/gate-5/check-prior-integrity.mjs",
+      "sha256": "408ce86adda4ff0d5cccb6e691566827629e58776a437f27e761ced292597c99",
+      "bytes": 1790
+    },
+    {
+      "path": "audit/gate-5/check-routes.mjs",
+      "sha256": "1f57c61aeebe9a6e9956271a09fdcf37d90d144e555fed727fcdc21567149dee",
+      "bytes": 2394
+    },
+    {
+      "path": "audit/gate-5/core-closure-integrity.json",
+      "sha256": "261950afc3c6152945a03db09d400f5c83b9d04fff33d3bda7b0892d822c2840",
+      "bytes": 334
+    },
+    {
+      "path": "audit/gate-5/oracle-results.json",
+      "sha256": "9524a86921b10501468a9b84801f432592abc1f993fb7b423898f8fe0c44d56c",
+      "bytes": 15758
+    },
+    {
+      "path": "audit/gate-5/oracle.mjs",
+      "sha256": "7ab61b70a148d7dbda0e33e58a7896e88389c0caf5fc4c70f24b7f47a90d9499",
+      "bytes": 8163
+    },
+    {
+      "path": "audit/gate-5/prespec-cross-check.json",
+      "sha256": "70bc7421cb10f34ffec4dc47dcbe21851c100d4fdee2f422f4b369028a1c1df1",
+      "bytes": 371
+    },
+    {
+      "path": "audit/gate-5/prior-integrity.json",
+      "sha256": "9d76e4547555b9247ed13e8c299a352a11132e87ee4c87393c0f2393a10805b2",
+      "bytes": 987
+    },
+    {
+      "path": "audit/gate-5/working-model-audit.json",
+      "sha256": "68c8d9f03a91dec75f8acdb976d840386f17398091b651b77d55c213c0c340ad",
+      "bytes": 2109
+    },
+    {
+      "path": "docs/gate-5/PRESPEC_FREEZE.json",
+      "sha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+      "bytes": 2917
+    },
+    {
+      "path": "docs/gate-5/experiment-charter.md",
+      "sha256": "20920a82e4e670eeb85d32871728ac5151f4877146ba9c14ba6962df567eca2f",
+      "bytes": 7547
+    },
+    {
+      "path": "docs/gate-5/independent-predictions.json",
+      "sha256": "fcd1fb992cb2f12ae3177d6129fffb6bb598f2d5d6dd9f57546ee86bc62490d0",
+      "bytes": 54046
+    },
+    {
+      "path": "docs/gate-5/model-contract.md",
+      "sha256": "c37fb3e353dcd6cb3efc4974c143dd6df1ac732536660b325b71b4e9413ef6dc",
+      "bytes": 12057
+    },
+    {
+      "path": "docs/gate-5/record-contract.md",
+      "sha256": "1dea0f67d6d101e0d69b88bfe50ffc609d4389f7064c454c1513b37d8c2a84a1",
+      "bytes": 9051
+    },
+    {
+      "path": "evidence/gate-5/CORE_EVIDENCE_CLOSED.json",
+      "sha256": "cad8662029f7c8c7fcd2d5f51c5da919755b690fd984ee69bc49a89e0216c6d0",
+      "bytes": 5113
+    },
+    {
+      "path": "evidence/gate-5/GATE_5_PACKET.md",
+      "sha256": "7264d510fc2e964f357f8cbaec96e42ca87c3a7dcb08fc79213acc9840472b03",
+      "bytes": 16208
+    },
+    {
+      "path": "evidence/gate-5/action-trace.json",
+      "sha256": "6cd0f59aeb7fcd885719efdcfc8ae8244a986d3889964d1fc9192ad62767f340",
+      "bytes": 28740
+    },
+    {
+      "path": "evidence/gate-5/browser-observations.json",
+      "sha256": "6c7b142e503661d1d211bc39fe3874453a60b6b9ab0488094d73513216c2a2c7",
+      "bytes": 12773535
+    },
+    {
+      "path": "evidence/gate-5/capture-index.json",
+      "sha256": "88c9dd35e0dcf60b0977129f74a7617082800db6a5d4b41ce7c6d894141096ec",
+      "bytes": 9633
+    },
+    {
+      "path": "evidence/gate-5/console-review.json",
+      "sha256": "7998df7eaa72d2a88cb9b4da7ab38ccc1b16d856d152fd19a6169e1a92987f0c",
+      "bytes": 134
+    },
+    {
+      "path": "evidence/gate-5/execution-provenance.json",
+      "sha256": "741a50da6074d694fb382e0e88cd16a599fb110b9c9337d866d13ce985dd1fec",
+      "bytes": 2100
+    },
+    {
+      "path": "evidence/gate-5/handoff-replay-review.json",
+      "sha256": "2ea4ebe757de3acf7fc044f58247fa3634d011ff71a10468116f38f92039b01c",
+      "bytes": 108798
+    },
+    {
+      "path": "evidence/gate-5/historical-ui-review.json",
+      "sha256": "3b08828e97643bc3383befb9232aa89b86d873612be4720d0e9d471774d44741",
+      "bytes": 42541
+    },
+    {
+      "path": "evidence/gate-5/observed-activity.jsonl",
+      "sha256": "aa1387bd14fea70bae224825b28325776fe8accfb22d47aec0689093c7d1fd69",
+      "bytes": 418759
+    },
+    {
+      "path": "evidence/gate-5/presentation-capture-index.json",
+      "sha256": "2ab1325a3f744df42c6adba7295fa8919de491d76409cbad8212dec7af1b3e80",
+      "bytes": 847
+    },
+    {
+      "path": "evidence/gate-5/presentation-final-dom.json",
+      "sha256": "edef5c82767d2c06454aef1c9e7ddb50efedf1c942fe1aec0b724c8e9d8bf7ac",
+      "bytes": 1393
+    },
+    {
+      "path": "evidence/gate-5/presentation-http-review.json",
+      "sha256": "804f6baa7527b9e4d0bda1bcafe5b1695860a490294b0a6e15e9d6fd66b519fc",
+      "bytes": 13699
+    },
+    {
+      "path": "evidence/gate-5/presentation-replay-handoff.jpg",
+      "sha256": "161d9c3ccb1034f7bed56e442b114062901bb77a9a20a9b303827756bbe08b11",
+      "bytes": 115266
+    },
+    {
+      "path": "evidence/gate-5/presentation-results-captures.jpg",
+      "sha256": "8fa021be03aab8f3bcb72d751c8f29fc0e74dbf6620994ff4326a477f9875855",
+      "bytes": 115025
+    },
+    {
+      "path": "evidence/gate-5/presentation-results-top.jpg",
+      "sha256": "17822770658b11150aaa86f7bec6750b1b031f6b2654ce20f178c450110c0f7a",
+      "bytes": 76064
+    },
+    {
+      "path": "evidence/gate-5/presentation-review.json",
+      "sha256": "11191322acddbae60c6bb8e37b4a103d6fc07f9d8a96d56d7beb29918d7870a2",
+      "bytes": 38567
+    },
+    {
+      "path": "evidence/gate-5/preserved-gate4-server.json",
+      "sha256": "948fc53d7c04396e97b8a8ae91f503fd04d5fdb8268ccebf92ed27ce44f4faad",
+      "bytes": 291
+    },
+    {
+      "path": "evidence/gate-5/prior-gates-integrity.json",
+      "sha256": "50a147746fc6ddf7f1c5c4e9938b9e807327a7b257f5fd1b6bc5c90b62bc4ad4",
+      "bytes": 1239
+    },
+    {
+      "path": "evidence/gate-5/results.html",
+      "sha256": "6fb740e7156b21468b1137765292824425dcaa5bbaed954a2ccf28ce29d5b580",
+      "bytes": 24173
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/AUDIT.md",
+      "sha256": "818cf2eb17039ed5813b4bb44470252ab59ca3d12bba5ae321f6e2c4cb66538d",
+      "bytes": 7551
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/G5-PENTERACT-001-activity-audit.json",
+      "sha256": "929550f35507bcdc47375a558b09629e7063ca42bd2e147109e64edb12a51b42",
+      "bytes": 644
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/G5-PENTERACT-001-browser-audit.json",
+      "sha256": "45511e8760d75c32cf249e868ef7406c9b85620bd5e559a31a5a81e8704f333a",
+      "bytes": 67124
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/G5-PENTERACT-001-build-audit.json",
+      "sha256": "db2d1ed0885516e00fae7bdc6367cf6987fd0373ae63d5dd90b39173ff7e8fe5",
+      "bytes": 577
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/G5-PENTERACT-001-capture-audit.json",
+      "sha256": "cee4502f2bafe347ffee770b5d07d0d928c0c9cdbf29c795351350f2c046c57c",
+      "bytes": 7651
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/G5-PENTERACT-001-model-audit.json",
+      "sha256": "7dc208aa99d5c7905a2e795f909cb1c8dca38758b086d03bc281bcf3271d4155",
+      "bytes": 2136
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/G5-PENTERACT-001-route-audit.json",
+      "sha256": "bb4fa7c4dc136594d295b7eee9d24712af1d48af8ed7db8c94c55a98f4d05e75",
+      "bytes": 2479
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-activity.mjs",
+      "sha256": "f5ac5ab39840353ad950c8ea4b9848669c5d6b9d92188526d7dcfd98290d053f",
+      "bytes": 8600
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-browser.mjs",
+      "sha256": "4e3a3bc62a27c398562a7c7df21cc4d28b7a50d1ed026424bd68a0c1f87f293c",
+      "bytes": 10107
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-build.mjs",
+      "sha256": "fdfba3b4d4e471f565e64b29f580cc3a43e06f987facb69c693eee01fc363e90",
+      "bytes": 6433
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-captures.mjs",
+      "sha256": "cee659b8db650d289e3375e9d712dddfb49bee502a004e4c6a48aa9cecc8292d",
+      "bytes": 3259
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-core-closure.mjs",
+      "sha256": "7c461539c06b1a7caeb034d725ce557d14997242f40234daf00801414c946e6e",
+      "bytes": 2759
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-model.mjs",
+      "sha256": "65a4c86630fc1938645e669d068f3f29eb4330928b41ec226cd9bb0e33adcc5b",
+      "bytes": 10118
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-prespec.mjs",
+      "sha256": "624683e10195c9bd4cbe82ad012b2f66e0c9b2ea0af0d09dd32246d0edc77bf9",
+      "bytes": 3776
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-prior-integrity.mjs",
+      "sha256": "408ce86adda4ff0d5cccb6e691566827629e58776a437f27e761ced292597c99",
+      "bytes": 1790
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/check-routes.mjs",
+      "sha256": "1f57c61aeebe9a6e9956271a09fdcf37d90d144e555fed727fcdc21567149dee",
+      "bytes": 2394
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/core-closure-integrity.json",
+      "sha256": "261950afc3c6152945a03db09d400f5c83b9d04fff33d3bda7b0892d822c2840",
+      "bytes": 334
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/oracle-results.json",
+      "sha256": "9524a86921b10501468a9b84801f432592abc1f993fb7b423898f8fe0c44d56c",
+      "bytes": 15758
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/oracle.mjs",
+      "sha256": "7ab61b70a148d7dbda0e33e58a7896e88389c0caf5fc4c70f24b7f47a90d9499",
+      "bytes": 8163
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/prespec-cross-check.json",
+      "sha256": "70bc7421cb10f34ffec4dc47dcbe21851c100d4fdee2f422f4b369028a1c1df1",
+      "bytes": 371
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/prior-integrity.json",
+      "sha256": "9d76e4547555b9247ed13e8c299a352a11132e87ee4c87393c0f2393a10805b2",
+      "bytes": 987
+    },
+    {
+      "path": "evidence/gate-5/review/audit/gate-5/working-model-audit.json",
+      "sha256": "68c8d9f03a91dec75f8acdb976d840386f17398091b651b77d55c213c0c340ad",
+      "bytes": 2109
+    },
+    {
+      "path": "evidence/gate-5/review/docs/gate-5/PRESPEC_FREEZE.json",
+      "sha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+      "bytes": 2917
+    },
+    {
+      "path": "evidence/gate-5/review/docs/gate-5/experiment-charter.md",
+      "sha256": "20920a82e4e670eeb85d32871728ac5151f4877146ba9c14ba6962df567eca2f",
+      "bytes": 7547
+    },
+    {
+      "path": "evidence/gate-5/review/docs/gate-5/independent-predictions.json",
+      "sha256": "fcd1fb992cb2f12ae3177d6129fffb6bb598f2d5d6dd9f57546ee86bc62490d0",
+      "bytes": 54046
+    },
+    {
+      "path": "evidence/gate-5/review/docs/gate-5/model-contract.md",
+      "sha256": "c37fb3e353dcd6cb3efc4974c143dd6df1ac732536660b325b71b4e9413ef6dc",
+      "bytes": 12057
+    },
+    {
+      "path": "evidence/gate-5/review/docs/gate-5/record-contract.md",
+      "sha256": "1dea0f67d6d101e0d69b88bfe50ffc609d4389f7064c454c1513b37d8c2a84a1",
+      "bytes": 9051
+    },
+    {
+      "path": "evidence/gate-5/review/research/gate-5/source-review.md",
+      "sha256": "f41ce026a1bcea02b597b096c0edda8d507487954fe9fc94565a42840137a6d3",
+      "bytes": 6686
+    },
+    {
+      "path": "evidence/gate-5/review/research/gate-5/sources.json",
+      "sha256": "dd4ce69634426c2e0fb0192799c210660550ed2e7fe32585479ee77691222ba1",
+      "bytes": 6852
+    },
+    {
+      "path": "evidence/gate-5/run-evidence.json",
+      "sha256": "d3fa065be64379d51c8c37259d875e596655fa6fdc02d7b284d06562ab3c089c",
+      "bytes": 16249
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+      "sha256": "faa4be104d81e0dd8ef04a85fb59ba7de3e39174722f601bd61e997c430e38a3",
+      "bytes": 85829
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+      "sha256": "806e28fa825d968b6093723530ba7f6f2094ec85de049081895e66318dfb672d",
+      "bytes": 89494
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+      "sha256": "719f392a38d4997f23e1f8b6627f5ae007eabdee624b738cea18d42907e89073",
+      "bytes": 91836
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-active-first-leg.jpg",
+      "sha256": "46191b53a4163c103f02dc2eb131d50e2ba4f83b6a987a8130758cece7865221",
+      "bytes": 88942
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-active-return-leg.jpg",
+      "sha256": "3ceef667415bab0eea735258c191dc618f26fb0126a7695006e64c7be06d4114",
+      "bytes": 89804
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-active-second-leg.jpg",
+      "sha256": "2d1d315684b4b45f60e670909716b632ca186dcb531c8646c9fb2a31467aac5e",
+      "bytes": 89059
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-initial-comparison.jpg",
+      "sha256": "3d955c900cef32c5bd31dc4e9c085b6a5aacce5fafa7d3ce4c87b43deab58029",
+      "bytes": 85572
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+      "sha256": "94cc575a462c713a5c7502e300b4d9fe31fada5d684d191dc7403dac71582933",
+      "bytes": 125953
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+      "sha256": "cbe84cf066c4343f2bc47a45043d613cc2d10b74dc751bba9d522fa9ac0b814c",
+      "bytes": 81001
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+      "sha256": "eb5e52dfa3997e520884f22a58e9ab8e0bc355babfe5dba154da8d41bc209e61",
+      "bytes": 119160
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+      "sha256": "236ff7b61908cc99063bf299d7f856d9abc8af7b2d08d09378187c8d298b386b",
+      "bytes": 82605
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-empty.jpg",
+      "sha256": "f4583495cc2f4f350a19cf82caa681183d7f6e3678abd20c5f2cb7830c323a3a",
+      "bytes": 114676
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+      "sha256": "e6cc877994d53160cd3f21209365bd5dac1a50421a9df62163d7c87b7cf4dbb6",
+      "bytes": 116232
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+      "sha256": "9fb7d08bd387c9a376ce7a8071a521b47a7e900560d1852cb490b257a97fcef5",
+      "bytes": 115061
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-half-half.jpg",
+      "sha256": "f145abb5e522f12f908ebb87a6121b8754a1f68dd63fdd517639f1612f661840",
+      "bytes": 120645
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-point.jpg",
+      "sha256": "bac01ab7e093bfa96766d99a017971409069a4ba388b029c4e85e6aa763eafa1",
+      "bytes": 114134
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+      "sha256": "85e40d2013e058ff62af12605c7a1f1e478c21562f82cfae0bef82f5012bb806",
+      "bytes": 88157
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/README.md",
+      "sha256": "bd9ee7c05f1168325bca3381325e86bcd4dbbddb4dadca9cfe8d6f492ecdfd7a",
+      "bytes": 8488
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/app.mjs",
+      "sha256": "734c1728367cbd8ac589f2c8a20b7f6636337fcd0cdf1d3f641e446eb768fcc3",
+      "bytes": 25151
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/build.json",
+      "sha256": "7919e5906465b56a355e2003efa3344c3638417bda56e85b217cd22234c8d5ad",
+      "bytes": 2885
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/build.mjs",
+      "sha256": "626511bed7adaa6f766c3dc162029cedf3b840852a1ceedb285e00d29130b82c",
+      "bytes": 9328
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/index.html",
+      "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef",
+      "bytes": 6152
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/model.mjs",
+      "sha256": "0bacbb23bb6d4666b946ca19d5b7236231f8c66d256df95125a54ea621847a6d",
+      "bytes": 15160
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/server.mjs",
+      "sha256": "241f4dd88e956d93950e1262803cddaeac625a4f05e45bf7e26ac1bde28cff5a",
+      "bytes": 5278
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/style.css",
+      "sha256": "764bdea89235ac1529caae521b65848ec8b6ac704d2331730f51ca8d074306b4",
+      "bytes": 5042
+    },
+    {
+      "path": "five-dimensional/builds/g5-0bdee39bcd7dd541/test.mjs",
+      "sha256": "46feecb124a7957741f641450a9e7d82af6a7d684307f465d98a38d8b6cd50e7",
+      "bytes": 7807
+    },
+    {
+      "path": "five-dimensional/runs/G5-PENTERACT-001/checkpoints.json",
+      "sha256": "de96342b6cbcc0adcc898bff3494eb41da455b9b360dec3efe1d0f48d8192519",
+      "bytes": 937697
+    },
+    {
+      "path": "five-dimensional/runs/G5-PENTERACT-001/events.jsonl",
+      "sha256": "14a26fa2c6850c6adcee5a4e3954e84df854f29cc155f385a7ab696073d9418f",
+      "bytes": 5636
+    },
+    {
+      "path": "five-dimensional/runs/G5-PENTERACT-001/initial-state.json",
+      "sha256": "bf734d8cbbb3d11a065478f784aff5f423a89e5708e189a8823a7c15eeeccf10",
+      "bytes": 93276
+    },
+    {
+      "path": "five-dimensional/runs/G5-PENTERACT-001/observation-cases.json",
+      "sha256": "01dc3af974efe58b18ec724954405f89ff796dd60dee20a00e9cbb93dcb1254c",
+      "bytes": 163331
+    },
+    {
+      "path": "five-dimensional/runs/G5-PENTERACT-001/run.json",
+      "sha256": "cb35b3d2a24101b62844b81ee9ae7f8d9ece2d24cd8cc49b74de5fe548e2fa81",
+      "bytes": 3959
+    },
+    {
+      "path": "five-dimensional/runs/G5-PENTERACT-001/slice-cases.json",
+      "sha256": "1fc6110601d554757bcf38c8b752d41489aa1b480da21a3923ef6016048b8242",
+      "bytes": 7878
+    },
+    {
+      "path": "research/gate-5/source-review.md",
+      "sha256": "f41ce026a1bcea02b597b096c0edda8d507487954fe9fc94565a42840137a6d3",
+      "bytes": 6686
+    },
+    {
+      "path": "research/gate-5/sources.json",
+      "sha256": "dd4ce69634426c2e0fb0192799c210660550ed2e7fe32585479ee77691222ba1",
+      "bytes": 6852
+    }
+  ]
+}

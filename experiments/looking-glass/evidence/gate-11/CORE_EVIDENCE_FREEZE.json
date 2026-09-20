@@ -1,0 +1,281 @@
+{
+  "schema": "gate11-core-closure-v1",
+  "closedAtUtc": "2026-09-20T18:20:21.805985+00:00",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "status": "Closed software/browser evidence; separate audit and presentation follow",
+  "entries": [
+    {
+      "path": "evidence/gate-11/CANDIDATE_001_BROWSER_FREEZE.json",
+      "bytes": 3166,
+      "sha256": "0a290af183ad2fca97d966d1ca255df83a8b624408422a0bc14e02d21f457b1f"
+    },
+    {
+      "path": "evidence/gate-11/CANDIDATE_002_FIRST_ACQUISITION_FREEZE.json",
+      "bytes": 4139,
+      "sha256": "959891faec75d702b25adf76929f4e7057e43557030d42d6b1b72a7da3b3a97b"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/all-local-revisions-export.json",
+      "bytes": 116023,
+      "sha256": "fc5cdb6918c55829d45117986a939fddc23461014cf1cf456b98e7c14cc823b8"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/critical-workflow-export.json",
+      "bytes": 41335,
+      "sha256": "1c85dea60bfba9280768717939ff1d72045a3b78eaef8610b3c0dfe6a3520329"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/host-actions.json",
+      "bytes": 1208995,
+      "sha256": "5c3ddfe7a7b5e8c325924a364626f9f15ffcc83177b2ae88d668e164c8c97120"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/observations.json",
+      "bytes": 5582685,
+      "sha256": "76340b90e4e90e03106af29ca9fdc4fead6644e8a03f7ca95ff0d0dd9cc74166"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/changed-receiver-witness.jpg",
+      "bytes": 119637,
+      "sha256": "b446a7cde0fc23da9a4812eebad897bff13c55c5170594c078d7d83dd3705b1c"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/initial-count-summary.jpg",
+      "bytes": 113549,
+      "sha256": "cc81ff93b9afee5297c5874bfc0b5cc3e76c41e078a1c1faffdbe4316257ebad"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/minimal-repair-diagram.jpg",
+      "bytes": 82953,
+      "sha256": "9c8db539af25bb5e9a986ed4e55536b3ace7d3fe2181b886557c35f4baf74b22"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/minimal-repair-plain.jpg",
+      "bytes": 91016,
+      "sha256": "516f85f4e6abff452033ca76ca38fb2a4fb86b1189a50777ac19a512d4550e44"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/partial-negative-narrow.jpg",
+      "bytes": 94057,
+      "sha256": "316f12083b66a04f1864596605b0f6f05e69721cd13efd750207192b3e1b260a"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots.json",
+      "bytes": 3121,
+      "sha256": "5a6b976cdba2140c66ace0765f6fafa117e96818a956c3e07ca563661c5334cc"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/session-one-final-export.json",
+      "bytes": 118537,
+      "sha256": "c83befc5748326f21fe31554dd6802e06b38e2e911f5af096ff5337d874fee14"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/all-local-revisions-export.json",
+      "bytes": 117091,
+      "sha256": "5e600b8d6f3bfeb6c6c246bb9c277628c0cdacf000143d58f4ee674e8fdf22dc"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/critical-workflow-export.json",
+      "bytes": 41567,
+      "sha256": "c94671c76369b6c0e62df9bed73fbcd8f8e8db31845c10a8f40fa79e71de4a45"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/historical-replay-dom.txt",
+      "bytes": 4147,
+      "sha256": "ea0db0ca026d89cc1b8423bfc5eec5c5f88f64f6d2c6022cefc1d9a68cadfd76"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/historical-replay-identity.json",
+      "bytes": 7369,
+      "sha256": "ee475f7eed919561e415cc3a8ead14ee9070eba411cf6a7ab84d5154a7ed1ce9"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/historical-results-dom.txt",
+      "bytes": 9437,
+      "sha256": "ee74241fd387112743fd1b78927a2aee6b4541e160c37707670e909ab0b55099"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/host-actions.json",
+      "bytes": 1386133,
+      "sha256": "66c679a8eeaf99f6c4333363af59e414b844641202c5c311473c950604fa1855"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/natural-tour-export.json",
+      "bytes": 29692,
+      "sha256": "edf9bad2522ca1188a6c4d8c76ca67a984c1663a832b6e6547fed6b7ff634a46"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/observations.json",
+      "bytes": 6616504,
+      "sha256": "f3ab2ad7edf10f972c48bf4415d7ebff965b73d7eff1f571627de86387b8a801"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/changed-receiver-witness.jpg",
+      "bytes": 67307,
+      "sha256": "ce88b7fee5979c324585cd6d25ca139e26fefb2bc205d4862fbd597bb11f0503"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/initial-count-summary.jpg",
+      "bytes": 113627,
+      "sha256": "30c542f3737011970bd5d2a1087ad805fa792b73f001ac7646106587b823d01f"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/minimal-repair-diagram.jpg",
+      "bytes": 92733,
+      "sha256": "7787ac50bcb4b36b47b7ca2b3241b6d743594f16b0c06e21331ff37402c6fcdd"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/minimal-repair-plain.jpg",
+      "bytes": 105070,
+      "sha256": "c7e4aa683a79c945c0269ce225184a98f728c1efd0f19bc8db5ad78e9f4b6d61"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/natural-tour-end.jpg",
+      "bytes": 115338,
+      "sha256": "30cf00c6a4f2c25800d3205c1d3a444f1de6db0665a1a096ce009d2bcbf55398"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/partial-negative-narrow.jpg",
+      "bytes": 88356,
+      "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots.json",
+      "bytes": 3738,
+      "sha256": "0eed4ce5a74f398322a4af9ee2eee8c7a67466717a19e911bba419050232360e"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/session-one-final-export.json",
+      "bytes": 119825,
+      "sha256": "47afd93d58820ace2073d8fa5cb675ec647db6e9d4ec1ce8a47bf03f77e5a4f6"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/session-two-final-export.json",
+      "bytes": 37250,
+      "sha256": "7c4da38daef310f0e0ce265689a502e9baa6180176f5eb2e1a52eace4238cbce"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/all-local-revisions-export.json",
+      "bytes": 117091,
+      "sha256": "fac0d79301fbbedafdd15d7e6b7606fe4ff53c709d1ef5e86a0383c907567b5e"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/critical-workflow-export.json",
+      "bytes": 41567,
+      "sha256": "99c0eac9197459c8b3980734001717f703066e68ae22370edce28a832d0f0cbd"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/host-actions.json",
+      "bytes": 1381406,
+      "sha256": "7283695eacc22eccb50d64bccfccd70f9b96c5c327962b0d997f589b613c7cdf"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/natural-tour-export.json",
+      "bytes": 29692,
+      "sha256": "d0a2e83b40d189e1418d8a68b98cd38e252fec82ee7514b7cbc990161725f206"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/observations.json",
+      "bytes": 6966172,
+      "sha256": "b7cfba0e444c65e6d076d36ce0f3005da8b60b70a7130b31c732213760a771f0"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/changed-receiver-witness.jpg",
+      "bytes": 65650,
+      "sha256": "eaf9ea55f047f35b624b846bffaea505337365906c289e1a346ddb2453b2fa64"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/initial-count-summary.jpg",
+      "bytes": 109993,
+      "sha256": "6b473cc1d1c8bc97abdd6b6d1deeaf4172c501aab175861dc00b728969a31e2a"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/minimal-repair-diagram.jpg",
+      "bytes": 90954,
+      "sha256": "3dbfac9d4ce6f07900e9c2d7ed0fdfd7e9a0b9bd8f5d0de6c505830a0881db97"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/minimal-repair-plain.jpg",
+      "bytes": 103408,
+      "sha256": "7ada62b25d1283c29398c4a26c08ac74cff49505d6929d0f795644eaceb2e9bc"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/natural-tour-end.jpg",
+      "bytes": 111637,
+      "sha256": "5801f84285efd7074f0ed9eacf959b6bcfa7ec4c8bb9e11eb36b76fb1d001b7c"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/partial-negative-narrow.jpg",
+      "bytes": 88356,
+      "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots.json",
+      "bytes": 3738,
+      "sha256": "834b5f90acf816e62110e267904580be94a0cbdf8b00673f820505c44e7e4ff2"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/session-one-final-export.json",
+      "bytes": 119825,
+      "sha256": "27c3d8a8f5675f2f0721781bb2ab3d8a1bc6aa3079cc70751eef7e6874d46e2d"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/session-two-final-export.json",
+      "bytes": 37236,
+      "sha256": "5d59c5f4f52a0ff16573406478964b6472cf7db5e123111e98b9f444a57a4f9e"
+    },
+    {
+      "path": "evidence/gate-11/browser-protocol.json",
+      "bytes": 3383,
+      "sha256": "118558371d913dbc164be60439ee8b381f27dcac660341280d473a5ae0e79764"
+    },
+    {
+      "path": "evidence/gate-11/candidate-001-visual-inspection.json",
+      "bytes": 1632,
+      "sha256": "0c4f3d399e3c6a9c7ce695539954b5e2efc0864433dc40e9b4b1fd6b0c5433cf"
+    },
+    {
+      "path": "evidence/gate-11/candidate-002-transport-limited-verification.json",
+      "bytes": 12501,
+      "sha256": "f8ace24a85fd51d546356979b1bc57c1fbe6aab592274b4fad5d075e5d96dbfe"
+    },
+    {
+      "path": "evidence/gate-11/host-browser-outcome.json",
+      "bytes": 8577,
+      "sha256": "0be83cb4fb6a26e582226fc50d1192fcf711723d92cf4218a8e98a02e3e1899f"
+    },
+    {
+      "path": "evidence/gate-11/host-browser-verification.json",
+      "bytes": 5400,
+      "sha256": "8a58b3b187d0546c53dcad3e5dd29e89b1b0a5eafbec21927f05fb3bb02937c3"
+    },
+    {
+      "path": "evidence/gate-11/host-verify-browser.mjs",
+      "bytes": 4516,
+      "sha256": "00f1caaf39db4829eb1f87e29f518a2a6015640484f9066059c218c8ecd1fdad"
+    },
+    {
+      "path": "evidence/gate-11/prior-integrity-after-browser.json",
+      "bytes": 124,
+      "sha256": "16d99b8b2ce4ab7303802d35daf987cdd9b11984f5cd138ce4899b56dfc6fb66"
+    }
+  ],
+  "count": 54,
+  "rule": "Never modify these records after closure. Presentation QA and later audit use separate paths."
+}

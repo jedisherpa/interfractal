@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "gate7-build-v1",
+  "buildId": "g7-0519920fd48aa2fd",
+  "sourceSha256": "0519920fd48aa2fdb22fdc62970fdd6a429c80294730d14d0bb6f61cdccc2179",
+  "runId": "G7-INTERPRET-001",
+  "publicFiles": [
+    {
+      "path": "index.html",
+      "sha256": "b28a104382168baa9e1a8e91a7c1b48ff1fd2741ea2d5321d058955425b43c57",
+      "bytes": 3954
+    },
+    {
+      "path": "style.css",
+      "sha256": "3a64b95f97fcdb21cc6087b3d020a7856aa95146364050146618526642fc9063",
+      "bytes": 6702
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "a4a4ad2f22a72cf1bf78cc3391e0f61bea9e0594b98cfac2da64e1af3f591d57",
+      "bytes": 24486
+    },
+    {
+      "path": "public-cases.json",
+      "sha256": "4e34224c64247b7cdf3edecd116fc84416d6ffc84781505804bf01ecd3db0f43",
+      "bytes": 28286
+    }
+  ],
+  "internalFiles": [
+    {
+      "path": "model.mjs",
+      "sha256": "940a97e86e30af3471de3feba3c89f8c512662d81d66c08aa6cca903b9d8406d",
+      "bytes": 2988
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "271767d939df51fbb83365535176ebdc0c26390cf8a812185055c48ac1072f73",
+      "bytes": 8364
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "e272151f63179fc71a8c51865b8adab5f46d2c365d483b72209ff1c3604f515d",
+      "bytes": 8673
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "68ef0b55a03ec6747897ad6f831c74db04ce7c5808c3d65ca652cebd51a1696b",
+      "bytes": 8837
+    },
+    {
+      "path": "README.md",
+      "sha256": "fdc529b1bb02ab3c8c730235f858c28dada0dede688f6d3420cd4bf42b63461c",
+      "bytes": 2749
+    }
+  ],
+  "privateFiles": [
+    {
+      "path": "private-answer-key.json",
+      "sha256": "c8b790346bf1f328f47a65575ac050c753cbd200839307fe645e5c408bb0f951",
+      "bytes": 3908
+    },
+    {
+      "path": "independent-predictions.json",
+      "sha256": "8d1fb15c98bc2a9ee1f85e3b33de0b68acbcef6561dda1b4f4f75e1459c9bac4",
+      "bytes": 7643
+    }
+  ],
+  "gitHead": "39d97a4d2829e1b4bec45b0afce90c758a6e05c8",
+  "baseRevision": "39d97a4d2829e1b4bec45b0afce90c758a6e05c8",
+  "nodeVersion": "v24.17.0",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "dependencyIdentity": "Node.js built-ins and browser HTML/SVG only; no package, lockfile or external asset",
+  "builtAtUtc": "2026-09-20T06:43:30.065Z",
+  "prespecFreezeSha256": "8abb6366f27a42590c89365c4d1f019e5c350dee90bfff77290cdd4783b1469f",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-7/experiment-charter.md",
+      "sha256": "689226183f6467c0424541082f6638e000a8c5fb38ef3ebdf9f3eefe7f2c6656",
+      "bytes": 9062
+    },
+    {
+      "path": "docs/gate-7/model-contract.md",
+      "sha256": "543675f0e58f1534315bae7155d0502e2d472cc6659afd566612eead7c3aff80",
+      "bytes": 8053
+    },
+    {
+      "path": "docs/gate-7/record-contract.md",
+      "sha256": "cb8f3a1f2ecbc2544a7b7b98b7989a2a1d1c116f6385730858287838bb9b14f3",
+      "bytes": 8382
+    },
+    {
+      "path": "docs/gate-7/task-fixture.json",
+      "sha256": "4e34224c64247b7cdf3edecd116fc84416d6ffc84781505804bf01ecd3db0f43",
+      "bytes": 28286
+    },
+    {
+      "path": "docs/gate-7/private-answer-key.json",
+      "sha256": "c8b790346bf1f328f47a65575ac050c753cbd200839307fe645e5c408bb0f951",
+      "bytes": 3908
+    },
+    {
+      "path": "docs/gate-7/independent-predictions.json",
+      "sha256": "8d1fb15c98bc2a9ee1f85e3b33de0b68acbcef6561dda1b4f4f75e1459c9bac4",
+      "bytes": 7643
+    }
+  ],
+  "publicFixtureSha256": "4e34224c64247b7cdf3edecd116fc84416d6ffc84781505804bf01ecd3db0f43",
+  "renderer": "Browser HTML/SVG; fixed-scale orthographic yaw then pitch, display depth dropped; raw xyz table separate",
+  "finiteObservationRule": "Static, sequence and frame choice use identical task frame objects; no interpolation"
+}

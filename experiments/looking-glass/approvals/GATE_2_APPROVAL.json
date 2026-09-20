@@ -1,0 +1,13 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T01:33:51.774728+00:00",
+  "source": "actual user message in this task",
+  "user_message": "I approve gate two. Proceed.",
+  "approved_gate": 2,
+  "approved_scope": "Hopf correspondence and a separately labeled candidate shared-reference view over fictional stable records; Gate3 not approved.",
+  "reviewed_run_id": "G1-CUBE-003",
+  "reviewed_build_id": "g1-9dce1c2b9c2b3be4",
+  "reviewed_commit": "b8b354e47477b342726fa14403980e0caea47c0b",
+  "reviewed_packet_sha256": "4c8a6a9aff5000c28f04ac9aba87612cba0d2b26142bdcd66f56103d035166d5",
+  "reviewed_freeze_manifest_sha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+  "gate_3_approved": false
+}

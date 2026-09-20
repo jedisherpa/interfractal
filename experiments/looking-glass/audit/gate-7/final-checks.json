@@ -1,0 +1,363 @@
+{
+  "kind": "gate-7-independent-final-check-outputs",
+  "checkedAtUtc": "2026-09-20T07:14:48.994Z",
+  "nodeVersion": "v24.17.0",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "runId": "G7-INTERPRET-002",
+  "coreManifestSha256": "633f7c56a33ac1c64f49965ecca028a6f2b62fbb3e70f14f96dd9232bff10779",
+  "presentationFiles": [
+    {
+      "path": "evidence/gate-7/results.html",
+      "bytes": 16700,
+      "sha256": "7f56874a99daec1cf1d79e136176e0eabdf6a3c3e5258b22f83bfb8d415d2f4f"
+    },
+    {
+      "path": "evidence/gate-7/GATE_7_PACKET.md",
+      "bytes": 15055,
+      "sha256": "99226b8830a1898e91458f75c80b7a9a25ab41dada35a1478d27eedbf5cb7659"
+    },
+    {
+      "path": "evidence/gate-7/run-evidence.json",
+      "bytes": 12238,
+      "sha256": "991c318e09d83d21b18510f68cdbc1ef7a8663907c96bc765df531fefb7c98a4"
+    },
+    {
+      "path": "audit/gate-7/AUDIT.md",
+      "bytes": 3531,
+      "sha256": "18c63f35364587bb528f13a8688c73fca5e741f8216f97b3e3854e42df142320"
+    }
+  ],
+  "commands": [
+    {
+      "command": "node audit/gate-7/check-prior-integrity.mjs",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-prior-integrity",
+        "allUnchanged": true,
+        "totalEntries": 872,
+        "gates": [
+          {
+            "gate": 0,
+            "manifestSha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+            "entries": 61
+          },
+          {
+            "gate": 1,
+            "manifestSha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+            "entries": 95
+          },
+          {
+            "gate": 2,
+            "manifestSha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+            "entries": 120
+          },
+          {
+            "gate": 3,
+            "manifestSha256": "1ddc109fa40fe4bf091fa90903ebb96d0d6c48d822f7158420084694d5f28edf",
+            "entries": 139
+          },
+          {
+            "gate": 4,
+            "manifestSha256": "2c91c1c5eccaca75f44f3c29dd32d7797a02bbc45f4538e007ac390fc69b1ee9",
+            "entries": 141
+          },
+          {
+            "gate": 5,
+            "manifestSha256": "fa7fb2f90ae5494e5e736ee868fc8823ece13f1b297b7d040086b6652c25dd03",
+            "entries": 112
+          },
+          {
+            "gate": 6,
+            "manifestSha256": "27f4f63245fe0a0c9e11b3740337463dede62e31669468e5b371fc6b4e2e5492",
+            "entries": 204
+          }
+        ]
+      }
+    },
+    {
+      "command": "node audit/gate-7/oracle.mjs",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-prespec-oracle",
+        "prespecSha256": "8abb6366f27a42590c89365c4d1f019e5c350dee90bfff77290cdd4783b1469f",
+        "tasksChecked": 8,
+        "checks": [
+          "freeze-hashes",
+          "answer-mapping",
+          "point-projections",
+          "matrix-ranks",
+          "ambiguity-witnesses",
+          "slice-kinds",
+          "held-out-question",
+          "attention-records-and-rules",
+          "tour-checkpoints"
+        ],
+        "allPassed": true
+      }
+    },
+    {
+      "command": "node audit/gate-7/check-build.mjs G7-INTERPRET-002 g7-90e64952eb028069",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-build-audit",
+        "runId": "G7-INTERPRET-002",
+        "buildId": "g7-90e64952eb028069",
+        "sourceSha256": "90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078",
+        "prespecSha256": "8abb6366f27a42590c89365c4d1f019e5c350dee90bfff77290cdd4783b1469f",
+        "publicFiles": 4,
+        "internalFiles": 5,
+        "privateFiles": 2,
+        "checkpoints": 9,
+        "allPassed": true
+      }
+    },
+    {
+      "command": "node audit/gate-7/check-core.mjs",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-core-seal-audit",
+        "manifestSha256": "633f7c56a33ac1c64f49965ecca028a6f2b62fbb3e70f14f96dd9232bff10779",
+        "files": 21,
+        "counts": {
+          "actualBrowserObservations": 214,
+          "successfulHostActionCalls": 94,
+          "hostActionCalls": 94,
+          "originalCaptures": 11,
+          "checkpointObservations": 36,
+          "activityRows": 115
+        },
+        "observedUiActions": 106,
+        "apiTransactions": 9,
+        "allPassed": true
+      }
+    },
+    {
+      "command": "node audit/gate-7/check-browser.mjs G7-INTERPRET-002",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-browser-record-audit",
+        "runId": "G7-INTERPRET-002",
+        "buildId": "g7-90e64952eb028069",
+        "observations": 214,
+        "originalCaptures": 11,
+        "tasksSeen": [
+          "Q01",
+          "Q02",
+          "Q03",
+          "Q04",
+          "Q05",
+          "Q06",
+          "Q07",
+          "Q08"
+        ],
+        "conditionsSeen": [
+          "static",
+          "prescribed",
+          "interactive",
+          "attention",
+          "plain"
+        ],
+        "pristineObservations": 204,
+        "softwareObservations": 16,
+        "allPassed": true
+      }
+    },
+    {
+      "command": "node audit/gate-7/check-activity.mjs G7-INTERPRET-002",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-activity-audit",
+        "runId": "G7-INTERPRET-002",
+        "buildId": "g7-90e64952eb028069",
+        "rows": 115,
+        "uiEvents": 106,
+        "apiTransactions": 9,
+        "sessions": 7,
+        "types": {
+          "replay.open": 2,
+          "replay.seek": 39,
+          "reset": 5,
+          "replay.reopen": 5,
+          "condition.select": 11,
+          "frames.play": 2,
+          "presentation.frame": 2,
+          "presentation.auto-stop": 1,
+          "frames.pause": 1,
+          "frame.select": 6,
+          "task.open": 10,
+          "validation.mode-select": 1,
+          "submit": 1,
+          "answer.submit": 1,
+          "reveal": 2,
+          "answer.reveal": 2,
+          "skip": 1,
+          "answer.skip": 1,
+          "replay.play": 1,
+          "replay.pause": 1,
+          "replay.from-start": 1,
+          "replay.frame-or-task": 18,
+          "replay.auto-stop": 1
+        },
+        "allPassed": true
+      }
+    },
+    {
+      "command": "node audit/gate-7/check-trial.mjs",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-actual-trial-audit",
+        "runId": "G7-INTERPRET-002",
+        "checkpointRows": 36,
+        "checkpointPasses": 4,
+        "attentionParityFrames": 3,
+        "answerBranches": [
+          "submit",
+          "reveal",
+          "skip",
+          "skip-reveal",
+          "reset"
+        ],
+        "naturalTourStopMs": 48000,
+        "hostActions": 94,
+        "allPassed": true
+      }
+    },
+    {
+      "command": "node audit/gate-7/check-routes.mjs http://127.0.0.1:44000",
+      "exitCode": 0,
+      "result": {
+        "kind": "gate-7-independent-get-route-audit",
+        "base": "http://127.0.0.1:44000",
+        "publicRoutes": 8,
+        "deniedRoutes": 16,
+        "allPassed": true,
+        "optionalReviewRoutes": 6,
+        "checkedOriginalImageRoutes": 4,
+        "checked": [
+          {
+            "path": "/",
+            "status": 200
+          },
+          {
+            "path": "/index.html",
+            "status": 200
+          },
+          {
+            "path": "/style.css",
+            "status": 200
+          },
+          {
+            "path": "/app.mjs",
+            "status": 200
+          },
+          {
+            "path": "/public-cases.json",
+            "status": 200
+          },
+          {
+            "path": "/api/run",
+            "status": 200
+          },
+          {
+            "path": "/api/checkpoints",
+            "status": 200
+          },
+          {
+            "path": "/api/events",
+            "status": 200
+          },
+          {
+            "path": "/review/results.html",
+            "status": 200
+          },
+          {
+            "path": "/review/replay-collection.json",
+            "status": 200
+          },
+          {
+            "path": "/review/packet.md",
+            "status": 200
+          },
+          {
+            "path": "/review/audit.md",
+            "status": 200
+          },
+          {
+            "path": "/review/run-evidence.json",
+            "status": 200
+          },
+          {
+            "path": "/review/source-review.md",
+            "status": 200
+          },
+          {
+            "path": "/private-answer-key.json",
+            "status": 404
+          },
+          {
+            "path": "/independent-predictions.json",
+            "status": 404
+          },
+          {
+            "path": "/model.mjs",
+            "status": 404
+          },
+          {
+            "path": "/server.mjs",
+            "status": 404
+          },
+          {
+            "path": "/build.mjs",
+            "status": 404
+          },
+          {
+            "path": "/test.mjs",
+            "status": 404
+          },
+          {
+            "path": "/build.json",
+            "status": 404
+          },
+          {
+            "path": "/docs/gate-7/private-answer-key.json",
+            "status": 404
+          },
+          {
+            "path": "/review/private-answer-key.json",
+            "status": 404
+          },
+          {
+            "path": "/api/reveal",
+            "status": 404
+          },
+          {
+            "path": "/api/submit",
+            "status": 404
+          },
+          {
+            "path": "/api/activity",
+            "status": 404
+          },
+          {
+            "path": "/api/reset",
+            "status": 404
+          },
+          {
+            "path": "/%2e%2e/private-answer-key.json",
+            "status": 404
+          },
+          {
+            "path": "/%2e%2e/%2e%2e/docs/gate-7/private-answer-key.json",
+            "status": 404
+          },
+          {
+            "path": "/review/screenshots/%2e%2e/private-answer-key.json",
+            "status": 404
+          }
+        ]
+      }
+    }
+  ],
+  "allPassed": true,
+  "interpretationLimit": "Synthetic software/model checks; no human participant or comprehension inference."
+}

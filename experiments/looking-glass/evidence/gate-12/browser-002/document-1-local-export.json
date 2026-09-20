@@ -1,0 +1,1479 @@
+{
+  "schema": "gate12-local-export-v1",
+  "runId": "G12-COORD-002",
+  "buildId": "g12-3c5526361a7cb2cc5c4a",
+  "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+  "provenance": "source_informed_software",
+  "humanParticipants": 0,
+  "includedThroughSequence": 42,
+  "selectedBranchId": "L1",
+  "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+  "referenceHashes": {
+    "R_DETAIL@1": "531a20c28eeba84e2dacfc662a97a8679962fc01f2c168886547bfe3ffe48079",
+    "R_SPEED@1": "f231ecb76a3d1436cd710ec99308452c938fb484134bf94bd937956d9b0ffc25"
+  },
+  "selectedContext": {
+    "mode": "local-exploration",
+    "cursorSeconds": 24,
+    "paused": true,
+    "endReason": null,
+    "representation": "plain",
+    "assignmentId": "BASE",
+    "scenarioId": "EXTREMES",
+    "recordedGroups": [
+      "ARCHIVE",
+      "DISPATCH"
+    ],
+    "currentOutcomeId": "L-A-3",
+    "inspectedOutcomeId": null,
+    "sourceInspectorOpen": false,
+    "recordInspectorOpen": false
+  },
+  "localBranches": [
+    {
+      "id": "L1",
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "proposals": {
+        "ARCHIVE": {
+          "content": {
+            "groupId": "ARCHIVE",
+            "reference": {
+              "id": "R_DETAIL",
+              "version": 1,
+              "question": "Which declared mode retains the most channels?",
+              "ordering": "retainedChannels descending, then fixed mode order",
+              "scope": "All three fixed source modes, independent of availability"
+            },
+            "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+            "ranking": [
+              {
+                "modeId": "P3",
+                "rank": 0,
+                "referencedValue": 6,
+                "sourcePath": "sourceModes.P3.retainedChannels"
+              },
+              {
+                "modeId": "P2",
+                "rank": 1,
+                "referencedValue": 4,
+                "sourcePath": "sourceModes.P2.retainedChannels"
+              },
+              {
+                "modeId": "P1",
+                "rank": 2,
+                "referencedValue": 2,
+                "sourcePath": "sourceModes.P1.retainedChannels"
+              }
+            ],
+            "preferredModeId": "P3",
+            "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+            "provenance": "source_informed_software"
+          },
+          "contentHash": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67",
+          "envelope": {
+            "recordId": "L-P-1",
+            "branchId": "L1",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:16:36.081Z",
+            "originEventReference": "G12-COORD-002-ui:2"
+          }
+        },
+        "DISPATCH": {
+          "content": {
+            "groupId": "DISPATCH",
+            "reference": {
+              "id": "R_SPEED",
+              "version": 1,
+              "question": "Which declared mode takes the fewest minutes?",
+              "ordering": "sendMinutes ascending, then fixed mode order",
+              "scope": "All three fixed source modes, independent of availability"
+            },
+            "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+            "ranking": [
+              {
+                "modeId": "P1",
+                "rank": 0,
+                "referencedValue": 1,
+                "sourcePath": "sourceModes.P1.sendMinutes"
+              },
+              {
+                "modeId": "P2",
+                "rank": 1,
+                "referencedValue": 3,
+                "sourcePath": "sourceModes.P2.sendMinutes"
+              },
+              {
+                "modeId": "P3",
+                "rank": 2,
+                "referencedValue": 5,
+                "sourcePath": "sourceModes.P3.sendMinutes"
+              }
+            ],
+            "preferredModeId": "P1",
+            "derivation": "R_SPEED@1: ordered P1=1, P2=3, P3=5; rank 0 is first over all three modes.",
+            "provenance": "source_informed_software"
+          },
+          "contentHash": "086f07e4b98bd53a8e5d3a0cfdd1d5b05aa36190bfc4cd43ad9bfd846942078e",
+          "envelope": {
+            "recordId": "L-P-2",
+            "branchId": "L1",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:16:36.697Z",
+            "originEventReference": "G12-COORD-002-ui:4"
+          }
+        }
+      },
+      "outcomes": [
+        {
+          "content": {
+            "assignmentId": "BASE",
+            "scenarioId": "ALL",
+            "eligibleModeIds": [
+              "P1",
+              "P2",
+              "P3"
+            ],
+            "proposalContentHashesByGroup": {
+              "ARCHIVE": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67"
+            },
+            "procedure": {
+              "id": "MINIMAX_RANK",
+              "version": 1,
+              "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+              "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+              "tieBreakOrder": [
+                "P1",
+                "P2",
+                "P3"
+              ]
+            },
+            "status": "blocked-missing-proposal",
+            "missingGroupIds": [
+              "DISPATCH"
+            ],
+            "scoreRows": [],
+            "tiedMinimizers": [],
+            "selectedModeId": null,
+            "tieBreakUsed": false,
+            "firstChoicesByGroup": {
+              "ARCHIVE": "P3"
+            },
+            "differentFirstChoices": null,
+            "matchesFirstChoiceByGroup": {
+              "ARCHIVE": null,
+              "DISPATCH": null
+            },
+            "jointAction": null
+          },
+          "contentHash": "32b58cce09a9f5a76d4c9990ee939f0f11e7f02509ca50054ac8f02f0e11f486",
+          "envelope": {
+            "recordId": "L-A-1",
+            "branchId": "L1",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:16:36.417Z",
+            "originEventReference": "G12-COORD-002-ui:3",
+            "proposalRecordIds": {
+              "ARCHIVE": "L-P-1"
+            }
+          }
+        },
+        {
+          "content": {
+            "assignmentId": "BASE",
+            "scenarioId": "ALL",
+            "eligibleModeIds": [
+              "P1",
+              "P2",
+              "P3"
+            ],
+            "proposalContentHashesByGroup": {
+              "ARCHIVE": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67",
+              "DISPATCH": "086f07e4b98bd53a8e5d3a0cfdd1d5b05aa36190bfc4cd43ad9bfd846942078e"
+            },
+            "procedure": {
+              "id": "MINIMAX_RANK",
+              "version": 1,
+              "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+              "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+              "tieBreakOrder": [
+                "P1",
+                "P2",
+                "P3"
+              ]
+            },
+            "status": "procedure-selected",
+            "missingGroupIds": [],
+            "scoreRows": [
+              {
+                "modeId": "P1",
+                "ranksByGroup": {
+                  "ARCHIVE": 2,
+                  "DISPATCH": 0
+                },
+                "worstRank": 2
+              },
+              {
+                "modeId": "P2",
+                "ranksByGroup": {
+                  "ARCHIVE": 1,
+                  "DISPATCH": 1
+                },
+                "worstRank": 1
+              },
+              {
+                "modeId": "P3",
+                "ranksByGroup": {
+                  "ARCHIVE": 0,
+                  "DISPATCH": 2
+                },
+                "worstRank": 2
+              }
+            ],
+            "tiedMinimizers": [
+              "P2"
+            ],
+            "selectedModeId": "P2",
+            "tieBreakUsed": false,
+            "firstChoicesByGroup": {
+              "ARCHIVE": "P3",
+              "DISPATCH": "P1"
+            },
+            "differentFirstChoices": true,
+            "matchesFirstChoiceByGroup": {
+              "ARCHIVE": false,
+              "DISPATCH": false
+            },
+            "jointAction": {
+              "operation": "simulate-shared-export",
+              "modeId": "P2",
+              "slotCount": 1,
+              "enacted": false
+            }
+          },
+          "contentHash": "cfe7ca2049d6d88188ef0fede29d060bc0a1bb3866dabd831838cad60ed17e42",
+          "envelope": {
+            "recordId": "L-A-2",
+            "branchId": "L1",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:16:37.013Z",
+            "originEventReference": "G12-COORD-002-ui:5",
+            "proposalRecordIds": {
+              "ARCHIVE": "L-P-1",
+              "DISPATCH": "L-P-2"
+            }
+          }
+        },
+        {
+          "content": {
+            "assignmentId": "BASE",
+            "scenarioId": "EXTREMES",
+            "eligibleModeIds": [
+              "P1",
+              "P3"
+            ],
+            "proposalContentHashesByGroup": {
+              "ARCHIVE": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67",
+              "DISPATCH": "086f07e4b98bd53a8e5d3a0cfdd1d5b05aa36190bfc4cd43ad9bfd846942078e"
+            },
+            "procedure": {
+              "id": "MINIMAX_RANK",
+              "version": 1,
+              "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+              "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+              "tieBreakOrder": [
+                "P1",
+                "P2",
+                "P3"
+              ]
+            },
+            "status": "procedure-selected",
+            "missingGroupIds": [],
+            "scoreRows": [
+              {
+                "modeId": "P1",
+                "ranksByGroup": {
+                  "ARCHIVE": 2,
+                  "DISPATCH": 0
+                },
+                "worstRank": 2
+              },
+              {
+                "modeId": "P3",
+                "ranksByGroup": {
+                  "ARCHIVE": 0,
+                  "DISPATCH": 2
+                },
+                "worstRank": 2
+              }
+            ],
+            "tiedMinimizers": [
+              "P1",
+              "P3"
+            ],
+            "selectedModeId": "P1",
+            "tieBreakUsed": true,
+            "firstChoicesByGroup": {
+              "ARCHIVE": "P3",
+              "DISPATCH": "P1"
+            },
+            "differentFirstChoices": true,
+            "matchesFirstChoiceByGroup": {
+              "ARCHIVE": false,
+              "DISPATCH": true
+            },
+            "jointAction": {
+              "operation": "simulate-shared-export",
+              "modeId": "P1",
+              "slotCount": 1,
+              "enacted": false
+            }
+          },
+          "contentHash": "d1081143d47c2c4c32fa850cb8ab2bd843d2b598ed4163095de815bc3acec91c",
+          "envelope": {
+            "recordId": "L-A-3",
+            "branchId": "L1",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:17:08.871Z",
+            "originEventReference": "G12-COORD-002-ui:18",
+            "proposalRecordIds": {
+              "ARCHIVE": "L-P-1",
+              "DISPATCH": "L-P-2"
+            }
+          }
+        },
+        {
+          "content": {
+            "assignmentId": "BASE",
+            "scenarioId": "NONE",
+            "eligibleModeIds": [],
+            "proposalContentHashesByGroup": {
+              "ARCHIVE": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67",
+              "DISPATCH": "086f07e4b98bd53a8e5d3a0cfdd1d5b05aa36190bfc4cd43ad9bfd846942078e"
+            },
+            "procedure": {
+              "id": "MINIMAX_RANK",
+              "version": 1,
+              "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+              "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+              "tieBreakOrder": [
+                "P1",
+                "P2",
+                "P3"
+              ]
+            },
+            "status": "blocked-no-eligible-option",
+            "missingGroupIds": [],
+            "scoreRows": [],
+            "tiedMinimizers": [],
+            "selectedModeId": null,
+            "tieBreakUsed": false,
+            "firstChoicesByGroup": {
+              "ARCHIVE": "P3",
+              "DISPATCH": "P1"
+            },
+            "differentFirstChoices": true,
+            "matchesFirstChoiceByGroup": {
+              "ARCHIVE": null,
+              "DISPATCH": null
+            },
+            "jointAction": null
+          },
+          "contentHash": "174b84abd482199ceb1a06e241aab96c0a301ffa7f928964936e85ceb3779838",
+          "envelope": {
+            "recordId": "L-A-4",
+            "branchId": "L1",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:17:08.979Z",
+            "originEventReference": "G12-COORD-002-ui:20",
+            "proposalRecordIds": {
+              "ARCHIVE": "L-P-1",
+              "DISPATCH": "L-P-2"
+            }
+          }
+        }
+      ],
+      "currentOutcomeId": "L-A-3",
+      "inspectedOutcomeId": null,
+      "canonical": false,
+      "originEventReference": "G12-COORD-002-ui:1",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "createdAtUtc": "2026-09-20T19:16:35.765Z"
+    },
+    {
+      "id": "L2",
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "proposals": {
+        "DISPATCH": {
+          "content": {
+            "groupId": "DISPATCH",
+            "reference": {
+              "id": "R_DETAIL",
+              "version": 1,
+              "question": "Which declared mode retains the most channels?",
+              "ordering": "retainedChannels descending, then fixed mode order",
+              "scope": "All three fixed source modes, independent of availability"
+            },
+            "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+            "ranking": [
+              {
+                "modeId": "P3",
+                "rank": 0,
+                "referencedValue": 6,
+                "sourcePath": "sourceModes.P3.retainedChannels"
+              },
+              {
+                "modeId": "P2",
+                "rank": 1,
+                "referencedValue": 4,
+                "sourcePath": "sourceModes.P2.retainedChannels"
+              },
+              {
+                "modeId": "P1",
+                "rank": 2,
+                "referencedValue": 2,
+                "sourcePath": "sourceModes.P1.retainedChannels"
+              }
+            ],
+            "preferredModeId": "P3",
+            "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+            "provenance": "source_informed_software"
+          },
+          "contentHash": "3e76c4c7cfaebe9a2916e1748e47cbe701ca2633047f8f4e2a1447109a7f5b33",
+          "envelope": {
+            "recordId": "L-P-3",
+            "branchId": "L2",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:18:03.948Z",
+            "originEventReference": "G12-COORD-002-ui:33"
+          }
+        },
+        "ARCHIVE": {
+          "content": {
+            "groupId": "ARCHIVE",
+            "reference": {
+              "id": "R_DETAIL",
+              "version": 1,
+              "question": "Which declared mode retains the most channels?",
+              "ordering": "retainedChannels descending, then fixed mode order",
+              "scope": "All three fixed source modes, independent of availability"
+            },
+            "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+            "ranking": [
+              {
+                "modeId": "P3",
+                "rank": 0,
+                "referencedValue": 6,
+                "sourcePath": "sourceModes.P3.retainedChannels"
+              },
+              {
+                "modeId": "P2",
+                "rank": 1,
+                "referencedValue": 4,
+                "sourcePath": "sourceModes.P2.retainedChannels"
+              },
+              {
+                "modeId": "P1",
+                "rank": 2,
+                "referencedValue": 2,
+                "sourcePath": "sourceModes.P1.retainedChannels"
+              }
+            ],
+            "preferredModeId": "P3",
+            "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+            "provenance": "source_informed_software"
+          },
+          "contentHash": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67",
+          "envelope": {
+            "recordId": "L-P-4",
+            "branchId": "L2",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:18:04.452Z",
+            "originEventReference": "G12-COORD-002-ui:34"
+          }
+        }
+      },
+      "outcomes": [
+        {
+          "content": {
+            "assignmentId": "DETAIL_CONTROL",
+            "scenarioId": "ALL",
+            "eligibleModeIds": [
+              "P1",
+              "P2",
+              "P3"
+            ],
+            "proposalContentHashesByGroup": {
+              "ARCHIVE": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67",
+              "DISPATCH": "3e76c4c7cfaebe9a2916e1748e47cbe701ca2633047f8f4e2a1447109a7f5b33"
+            },
+            "procedure": {
+              "id": "MINIMAX_RANK",
+              "version": 1,
+              "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+              "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+              "tieBreakOrder": [
+                "P1",
+                "P2",
+                "P3"
+              ]
+            },
+            "status": "procedure-selected",
+            "missingGroupIds": [],
+            "scoreRows": [
+              {
+                "modeId": "P1",
+                "ranksByGroup": {
+                  "ARCHIVE": 2,
+                  "DISPATCH": 2
+                },
+                "worstRank": 2
+              },
+              {
+                "modeId": "P2",
+                "ranksByGroup": {
+                  "ARCHIVE": 1,
+                  "DISPATCH": 1
+                },
+                "worstRank": 1
+              },
+              {
+                "modeId": "P3",
+                "ranksByGroup": {
+                  "ARCHIVE": 0,
+                  "DISPATCH": 0
+                },
+                "worstRank": 0
+              }
+            ],
+            "tiedMinimizers": [
+              "P3"
+            ],
+            "selectedModeId": "P3",
+            "tieBreakUsed": false,
+            "firstChoicesByGroup": {
+              "ARCHIVE": "P3",
+              "DISPATCH": "P3"
+            },
+            "differentFirstChoices": false,
+            "matchesFirstChoiceByGroup": {
+              "ARCHIVE": true,
+              "DISPATCH": true
+            },
+            "jointAction": {
+              "operation": "simulate-shared-export",
+              "modeId": "P3",
+              "slotCount": 1,
+              "enacted": false
+            }
+          },
+          "contentHash": "51e1a1e8ad9ceb7227c56a3faf5b057ffcc08bb336963b45728aaeda4695064a",
+          "envelope": {
+            "recordId": "L-A-5",
+            "branchId": "L2",
+            "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+            "createdAtUtc": "2026-09-20T19:18:05.165Z",
+            "originEventReference": "G12-COORD-002-ui:35",
+            "proposalRecordIds": {
+              "DISPATCH": "L-P-3",
+              "ARCHIVE": "L-P-4"
+            }
+          }
+        }
+      ],
+      "currentOutcomeId": "L-A-5",
+      "inspectedOutcomeId": null,
+      "canonical": false,
+      "originEventReference": "G12-COORD-002-ui:32",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "createdAtUtc": "2026-09-20T19:18:03.431Z"
+    }
+  ],
+  "events": [
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 1,
+      "eventId": "G12-COORD-002-ui:1",
+      "atUtc": "2026-09-20T19:16:35.765Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "branch-create",
+      "intended": {
+        "branchId": "L1",
+        "assignmentId": "BASE"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5",
+      "afterSemanticFingerprint": "cbf4482d9e084506c71f9d10e2afbc077d4141ed3f879f156d78e39d7dd22acd"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 2,
+      "eventId": "G12-COORD-002-ui:2",
+      "atUtc": "2026-09-20T19:16:36.082Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "proposal-record",
+      "intended": {
+        "branchId": "L1",
+        "groupId": "ARCHIVE",
+        "recordId": "L-P-1",
+        "contentHash": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "cbf4482d9e084506c71f9d10e2afbc077d4141ed3f879f156d78e39d7dd22acd",
+      "afterSemanticFingerprint": "5545c7c5f7e3433f532270c23a69bad3476756d496310c9c038e5d8e3016c70f"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 3,
+      "eventId": "G12-COORD-002-ui:3",
+      "atUtc": "2026-09-20T19:16:36.419Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "ALL",
+        "recordId": "L-A-1",
+        "status": "blocked-missing-proposal",
+        "proposalRecordIds": {
+          "ARCHIVE": "L-P-1"
+        }
+      },
+      "result": "blocked",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "5545c7c5f7e3433f532270c23a69bad3476756d496310c9c038e5d8e3016c70f",
+      "afterSemanticFingerprint": "c1ea1079947952a317c479460e2863a21efd80ced8370841ef2d67eefd0a104a"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 4,
+      "eventId": "G12-COORD-002-ui:4",
+      "atUtc": "2026-09-20T19:16:36.699Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "proposal-record",
+      "intended": {
+        "branchId": "L1",
+        "groupId": "DISPATCH",
+        "recordId": "L-P-2",
+        "contentHash": "086f07e4b98bd53a8e5d3a0cfdd1d5b05aa36190bfc4cd43ad9bfd846942078e"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "c1ea1079947952a317c479460e2863a21efd80ced8370841ef2d67eefd0a104a",
+      "afterSemanticFingerprint": "a98fe21705a853f4d220b0bddfa29fe1f5b2cb0b92c5c7297995f96c1338e00d"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 5,
+      "eventId": "G12-COORD-002-ui:5",
+      "atUtc": "2026-09-20T19:16:37.015Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "ALL",
+        "recordId": "L-A-2",
+        "status": "procedure-selected",
+        "proposalRecordIds": {
+          "ARCHIVE": "L-P-1",
+          "DISPATCH": "L-P-2"
+        }
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "a98fe21705a853f4d220b0bddfa29fe1f5b2cb0b92c5c7297995f96c1338e00d",
+      "afterSemanticFingerprint": "973cb11a207441c4aa96b0fa77dc2c42d7c2ef53cb93946112203774fc84187e"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 6,
+      "eventId": "G12-COORD-002-ui:6",
+      "atUtc": "2026-09-20T19:16:47.374Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "representation-select",
+      "intended": {
+        "representation": "plain"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "973cb11a207441c4aa96b0fa77dc2c42d7c2ef53cb93946112203774fc84187e",
+      "afterSemanticFingerprint": "50d9172dfe2eaf7ff99ae7b071d06a558e989f37903b1a5a92801ccac927167a"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 7,
+      "eventId": "G12-COORD-002-ui:7",
+      "atUtc": "2026-09-20T19:16:48.450Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "local-export",
+      "intended": {
+        "kind": "document-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "50d9172dfe2eaf7ff99ae7b071d06a558e989f37903b1a5a92801ccac927167a",
+      "afterSemanticFingerprint": "50d9172dfe2eaf7ff99ae7b071d06a558e989f37903b1a5a92801ccac927167a"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 8,
+      "eventId": "G12-COORD-002-ui:8",
+      "atUtc": "2026-09-20T19:16:49.081Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "tour-reopen",
+      "intended": {
+        "seconds": 0
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "50d9172dfe2eaf7ff99ae7b071d06a558e989f37903b1a5a92801ccac927167a",
+      "afterSemanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 9,
+      "eventId": "G12-COORD-002-ui:9",
+      "atUtc": "2026-09-20T19:16:49.112Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 0,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 0
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5",
+      "afterSemanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 10,
+      "eventId": "G12-COORD-002-ui:10",
+      "atUtc": "2026-09-20T19:16:49.143Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 4,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 4
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5",
+      "afterSemanticFingerprint": "204bcb940608cbefe8d905cc4e9e0c95f0adc51f0c9ec5c09bc7bef3030103cb"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 11,
+      "eventId": "G12-COORD-002-ui:11",
+      "atUtc": "2026-09-20T19:16:49.176Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 8,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 8
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "204bcb940608cbefe8d905cc4e9e0c95f0adc51f0c9ec5c09bc7bef3030103cb",
+      "afterSemanticFingerprint": "0271f5aa79c733bdb6966493beee36069f7c929216be6958ca431ffea05ff368"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 12,
+      "eventId": "G12-COORD-002-ui:12",
+      "atUtc": "2026-09-20T19:16:49.210Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 12,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 12
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "0271f5aa79c733bdb6966493beee36069f7c929216be6958ca431ffea05ff368",
+      "afterSemanticFingerprint": "8a8b584f37a9ee5578d37cc9ca8038a399216350acaba8909958fdbe434a81ac"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 13,
+      "eventId": "G12-COORD-002-ui:13",
+      "atUtc": "2026-09-20T19:16:49.243Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 16,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 16
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "8a8b584f37a9ee5578d37cc9ca8038a399216350acaba8909958fdbe434a81ac",
+      "afterSemanticFingerprint": "0ede9ea97fbd8b078b7238f70898b7fc9b703070d8e67fa8d905edc0aa57121a"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 14,
+      "eventId": "G12-COORD-002-ui:14",
+      "atUtc": "2026-09-20T19:16:49.311Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 20,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 20
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "0ede9ea97fbd8b078b7238f70898b7fc9b703070d8e67fa8d905edc0aa57121a",
+      "afterSemanticFingerprint": "ac4621a2a2cc2161c11fef16f49783ebab3e9b38733b6c31ab0796a0b6914a2e"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 15,
+      "eventId": "G12-COORD-002-ui:15",
+      "atUtc": "2026-09-20T19:16:49.355Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 24
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "ac4621a2a2cc2161c11fef16f49783ebab3e9b38733b6c31ab0796a0b6914a2e",
+      "afterSemanticFingerprint": "19e144cddd1ee59223c4e1661c9160593107d05a84a5d63c4180e1cacae40c81"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 16,
+      "eventId": "G12-COORD-002-ui:16",
+      "atUtc": "2026-09-20T19:17:08.329Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "branch-select",
+      "intended": {
+        "branchId": "L1"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "19e144cddd1ee59223c4e1661c9160593107d05a84a5d63c4180e1cacae40c81",
+      "afterSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 17,
+      "eventId": "G12-COORD-002-ui:17",
+      "atUtc": "2026-09-20T19:17:08.370Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "scenario-select",
+      "intended": {
+        "scenarioId": "EXTREMES"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba",
+      "afterSemanticFingerprint": "860513657b7ab51833b070f1dbbbea5f8f4ca72a18cecba72639a3f558bd4ab3"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 18,
+      "eventId": "G12-COORD-002-ui:18",
+      "atUtc": "2026-09-20T19:17:08.874Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "EXTREMES",
+        "recordId": "L-A-3",
+        "status": "procedure-selected",
+        "proposalRecordIds": {
+          "ARCHIVE": "L-P-1",
+          "DISPATCH": "L-P-2"
+        }
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "860513657b7ab51833b070f1dbbbea5f8f4ca72a18cecba72639a3f558bd4ab3",
+      "afterSemanticFingerprint": "54038b42e6e82ec5b1dd93b6a491d02eca65eb3ca05b4daf733de02f67070f0a"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 19,
+      "eventId": "G12-COORD-002-ui:19",
+      "atUtc": "2026-09-20T19:17:08.913Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "scenario-select",
+      "intended": {
+        "scenarioId": "NONE"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "54038b42e6e82ec5b1dd93b6a491d02eca65eb3ca05b4daf733de02f67070f0a",
+      "afterSemanticFingerprint": "1d425ec161681b42ba678bc6ea4f00c4e0598ca7e053d3f479a44f4d729f25e9"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 20,
+      "eventId": "G12-COORD-002-ui:20",
+      "atUtc": "2026-09-20T19:17:08.981Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "NONE",
+        "recordId": "L-A-4",
+        "status": "blocked-no-eligible-option",
+        "proposalRecordIds": {
+          "ARCHIVE": "L-P-1",
+          "DISPATCH": "L-P-2"
+        }
+      },
+      "result": "blocked",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "1d425ec161681b42ba678bc6ea4f00c4e0598ca7e053d3f479a44f4d729f25e9",
+      "afterSemanticFingerprint": "c3656bc2da9f8da7c7c132d5fef78fbe49a38536c782310c7119b29026c51f00"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 21,
+      "eventId": "G12-COORD-002-ui:21",
+      "atUtc": "2026-09-20T19:17:09.262Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "scenario-select",
+      "intended": {
+        "scenarioId": "ALL"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "c3656bc2da9f8da7c7c132d5fef78fbe49a38536c782310c7119b29026c51f00",
+      "afterSemanticFingerprint": "31b33240267e7d8e7c5050e4131f9f9f2b3675ac08f97643344fa3dc7448cf42"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 22,
+      "eventId": "G12-COORD-002-ui:22",
+      "atUtc": "2026-09-20T19:17:09.363Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "ALL",
+        "reusedRecordId": "L-A-2"
+      },
+      "result": "reused",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "31b33240267e7d8e7c5050e4131f9f9f2b3675ac08f97643344fa3dc7448cf42",
+      "afterSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 23,
+      "eventId": "G12-COORD-002-ui:23",
+      "atUtc": "2026-09-20T19:17:10.182Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "outcome-inspect",
+      "intended": {
+        "recordId": "L-A-1"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba",
+      "afterSemanticFingerprint": "2a41400f161d1b9c1823d10f26d5ca125349e0ae8d80e9d21678d178779e1981"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 24,
+      "eventId": "G12-COORD-002-ui:24",
+      "atUtc": "2026-09-20T19:17:28.445Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "outcome-inspect",
+      "intended": {
+        "recordId": "L-A-3"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "2a41400f161d1b9c1823d10f26d5ca125349e0ae8d80e9d21678d178779e1981",
+      "afterSemanticFingerprint": "e22b32f886afd839b6d1be8df8bfd4ff58f8721c89cc406b46465462004a845e"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 25,
+      "eventId": "G12-COORD-002-ui:25",
+      "atUtc": "2026-09-20T19:17:29.350Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "outcome-inspect-close",
+      "intended": {},
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "e22b32f886afd839b6d1be8df8bfd4ff58f8721c89cc406b46465462004a845e",
+      "afterSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 26,
+      "eventId": "G12-COORD-002-ui:26",
+      "atUtc": "2026-09-20T19:17:29.847Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "source-inspect",
+      "intended": {},
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba",
+      "afterSemanticFingerprint": "b6f9f7bc0837f249e5999e0d07a78388c8934c45e9cc00492bda20220afb0b50"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 27,
+      "eventId": "G12-COORD-002-ui:27",
+      "atUtc": "2026-09-20T19:17:30.530Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "record-inspect",
+      "intended": {},
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "b6f9f7bc0837f249e5999e0d07a78388c8934c45e9cc00492bda20220afb0b50",
+      "afterSemanticFingerprint": "dde9d7b4d836651659ae0271718c002f629bf649b1c147b76b7540bab7521052"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 28,
+      "eventId": "G12-COORD-002-ui:28",
+      "atUtc": "2026-09-20T19:17:31.099Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "local-export",
+      "intended": {
+        "kind": "document-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "dde9d7b4d836651659ae0271718c002f629bf649b1c147b76b7540bab7521052",
+      "afterSemanticFingerprint": "dde9d7b4d836651659ae0271718c002f629bf649b1c147b76b7540bab7521052"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 29,
+      "eventId": "G12-COORD-002-ui:29",
+      "atUtc": "2026-09-20T19:18:02.198Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "source-inspect-close",
+      "intended": {},
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "dde9d7b4d836651659ae0271718c002f629bf649b1c147b76b7540bab7521052",
+      "afterSemanticFingerprint": "ba369cdfbbdedce3af79dc5fc0cfccfeeb555c4c20c4654cf065771b74125e6a"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 30,
+      "eventId": "G12-COORD-002-ui:30",
+      "atUtc": "2026-09-20T19:18:02.919Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "record-inspect-close",
+      "intended": {},
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "ba369cdfbbdedce3af79dc5fc0cfccfeeb555c4c20c4654cf065771b74125e6a",
+      "afterSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 31,
+      "eventId": "G12-COORD-002-ui:31",
+      "atUtc": "2026-09-20T19:18:03.004Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "branch-assignment-draft",
+      "intended": {
+        "assignmentId": "DETAIL_CONTROL"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba",
+      "afterSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 32,
+      "eventId": "G12-COORD-002-ui:32",
+      "atUtc": "2026-09-20T19:18:03.432Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "branch-create",
+      "intended": {
+        "branchId": "L2",
+        "assignmentId": "DETAIL_CONTROL"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "63c9d59eed8f88891416bf60706aa2b416a70f0836f7a02c2c2c501b3f67edba",
+      "afterSemanticFingerprint": "2b811510ad8ad976ff6ab0feb8b4eeb1a6f765955c62522bb4259f09c6ea6cce"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 33,
+      "eventId": "G12-COORD-002-ui:33",
+      "atUtc": "2026-09-20T19:18:03.950Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "proposal-record",
+      "intended": {
+        "branchId": "L2",
+        "groupId": "DISPATCH",
+        "recordId": "L-P-3",
+        "contentHash": "3e76c4c7cfaebe9a2916e1748e47cbe701ca2633047f8f4e2a1447109a7f5b33"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "2b811510ad8ad976ff6ab0feb8b4eeb1a6f765955c62522bb4259f09c6ea6cce",
+      "afterSemanticFingerprint": "025e5bff323c757a600ed62dc6b073b735f3f44c95194a1e5381bda8c9accbe4"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 34,
+      "eventId": "G12-COORD-002-ui:34",
+      "atUtc": "2026-09-20T19:18:04.454Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "proposal-record",
+      "intended": {
+        "branchId": "L2",
+        "groupId": "ARCHIVE",
+        "recordId": "L-P-4",
+        "contentHash": "1949580dafb39d669f1f2542497f29d829ceadaa06a1c5717e677d2be83cab67"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "025e5bff323c757a600ed62dc6b073b735f3f44c95194a1e5381bda8c9accbe4",
+      "afterSemanticFingerprint": "2de4cb3c27acb4ad09f01267d99d4e144908e2e35e1fec3566b11e119953133e"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 35,
+      "eventId": "G12-COORD-002-ui:35",
+      "atUtc": "2026-09-20T19:18:05.168Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L2",
+        "scenarioId": "ALL",
+        "recordId": "L-A-5",
+        "status": "procedure-selected",
+        "proposalRecordIds": {
+          "DISPATCH": "L-P-3",
+          "ARCHIVE": "L-P-4"
+        }
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "2de4cb3c27acb4ad09f01267d99d4e144908e2e35e1fec3566b11e119953133e",
+      "afterSemanticFingerprint": "d6409ee0b8d9a1147d10ba53a0eb6968d17222930137eec7e6c7a2014c6b111e"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 36,
+      "eventId": "G12-COORD-002-ui:36",
+      "atUtc": "2026-09-20T19:18:05.241Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "representation-select",
+      "intended": {
+        "representation": "plain"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "d6409ee0b8d9a1147d10ba53a0eb6968d17222930137eec7e6c7a2014c6b111e",
+      "afterSemanticFingerprint": "0f24857695f3e6654204151b55fa800ac36d0711d390caf40a1f65c435d1c0b2"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 37,
+      "eventId": "G12-COORD-002-ui:37",
+      "atUtc": "2026-09-20T19:18:25.948Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "branch-select",
+      "intended": {
+        "branchId": "L1"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "0f24857695f3e6654204151b55fa800ac36d0711d390caf40a1f65c435d1c0b2",
+      "afterSemanticFingerprint": "7778c34357b34ead170c840b970546c7603e14867abe109d07a84f8f09ca2fe9"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 38,
+      "eventId": "G12-COORD-002-ui:38",
+      "atUtc": "2026-09-20T19:18:26.051Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "scenario-select",
+      "intended": {
+        "scenarioId": "NONE"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "7778c34357b34ead170c840b970546c7603e14867abe109d07a84f8f09ca2fe9",
+      "afterSemanticFingerprint": "0272f8e82e134e922e375e33211660e62954f0cab77ee69fbefbafaff1b4bffc"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 39,
+      "eventId": "G12-COORD-002-ui:39",
+      "atUtc": "2026-09-20T19:18:26.603Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "NONE",
+        "reusedRecordId": "L-A-4"
+      },
+      "result": "reused",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "0272f8e82e134e922e375e33211660e62954f0cab77ee69fbefbafaff1b4bffc",
+      "afterSemanticFingerprint": "165889ca8e5b0b9ac9bbedb021e443d5edd149f7deaaf5e0b1ae0a6674883322"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 40,
+      "eventId": "G12-COORD-002-ui:40",
+      "atUtc": "2026-09-20T19:18:27.999Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "scenario-select",
+      "intended": {
+        "scenarioId": "EXTREMES"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "165889ca8e5b0b9ac9bbedb021e443d5edd149f7deaaf5e0b1ae0a6674883322",
+      "afterSemanticFingerprint": "37dd1f9b142d752cbc82ea34e31aaffc8ed12dfff052694836c365ac204baba0"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 41,
+      "eventId": "G12-COORD-002-ui:41",
+      "atUtc": "2026-09-20T19:18:28.564Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "procedure-evaluate",
+      "intended": {
+        "branchId": "L1",
+        "scenarioId": "EXTREMES",
+        "reusedRecordId": "L-A-3"
+      },
+      "result": "reused",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "37dd1f9b142d752cbc82ea34e31aaffc8ed12dfff052694836c365ac204baba0",
+      "afterSemanticFingerprint": "f37c0a24394199f3cf52414c27c797a853fd070319b07aa1b5dd1353f4dd9434"
+    },
+    {
+      "schema": "gate12-event-v1",
+      "sequence": 42,
+      "eventId": "G12-COORD-002-ui:42",
+      "atUtc": "2026-09-20T19:19:05.520Z",
+      "runId": "G12-COORD-002",
+      "buildId": "g12-3c5526361a7cb2cc5c4a",
+      "documentId": "2375c0bc-99b1-4a71-a67a-62442e3d2530",
+      "cursorSeconds": 24,
+      "type": "local-export",
+      "intended": {
+        "kind": "document-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "source_informed_software_ui",
+      "provenance": "source_informed_software",
+      "beforeSemanticFingerprint": "f37c0a24394199f3cf52414c27c797a853fd070319b07aa1b5dd1353f4dd9434",
+      "afterSemanticFingerprint": "f37c0a24394199f3cf52414c27c797a853fd070319b07aa1b5dd1353f4dd9434"
+    }
+  ]
+}

@@ -1,0 +1,1198 @@
+[
+  {
+    "index": 0,
+    "label": "baseline-checkpoint-0",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:50:49.410Z",
+    "beforeObservation": 2,
+    "success": true,
+    "afterObservation": 3,
+    "endedAtUtc": "2026-09-20T05:50:49.748Z"
+  },
+  {
+    "index": 1,
+    "label": "baseline-checkpoint-5000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-5000"
+    },
+    "startedAtUtc": "2026-09-20T05:50:49.748Z",
+    "beforeObservation": 3,
+    "success": true,
+    "afterObservation": 4,
+    "endedAtUtc": "2026-09-20T05:50:50.127Z"
+  },
+  {
+    "index": 2,
+    "label": "baseline-checkpoint-10000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-10000"
+    },
+    "startedAtUtc": "2026-09-20T05:50:50.127Z",
+    "beforeObservation": 4,
+    "success": true,
+    "afterObservation": 5,
+    "endedAtUtc": "2026-09-20T05:50:50.564Z"
+  },
+  {
+    "index": 3,
+    "label": "baseline-checkpoint-15000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:50:50.564Z",
+    "beforeObservation": 5,
+    "success": true,
+    "afterObservation": 6,
+    "endedAtUtc": "2026-09-20T05:50:51.047Z"
+  },
+  {
+    "index": 4,
+    "label": "baseline-checkpoint-20000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-20000"
+    },
+    "startedAtUtc": "2026-09-20T05:50:51.048Z",
+    "beforeObservation": 6,
+    "success": true,
+    "afterObservation": 7,
+    "endedAtUtc": "2026-09-20T05:50:51.374Z"
+  },
+  {
+    "index": 5,
+    "label": "baseline-checkpoint-25000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:50:51.375Z",
+    "beforeObservation": 7,
+    "success": true,
+    "afterObservation": 8,
+    "endedAtUtc": "2026-09-20T05:50:51.728Z"
+  },
+  {
+    "index": 6,
+    "label": "baseline-checkpoint-30000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-30000"
+    },
+    "startedAtUtc": "2026-09-20T05:50:51.728Z",
+    "beforeObservation": 8,
+    "success": true,
+    "afterObservation": 9,
+    "endedAtUtc": "2026-09-20T05:50:52.207Z"
+  },
+  {
+    "index": 7,
+    "label": "C1-start",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:50:52.207Z",
+    "beforeObservation": 9,
+    "success": true,
+    "afterObservation": 10,
+    "endedAtUtc": "2026-09-20T05:50:52.590Z"
+  },
+  {
+    "index": 8,
+    "label": "C1-reference-access",
+    "control": {
+      "kind": "click",
+      "id": "ref-access"
+    },
+    "startedAtUtc": "2026-09-20T05:50:52.590Z",
+    "beforeObservation": 10,
+    "success": true,
+    "afterObservation": 11,
+    "endedAtUtc": "2026-09-20T05:50:52.929Z"
+  },
+  {
+    "index": 9,
+    "label": "C1-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 4
+    },
+    "startedAtUtc": "2026-09-20T05:50:52.930Z",
+    "beforeObservation": 11,
+    "success": true,
+    "afterObservation": 12,
+    "endedAtUtc": "2026-09-20T05:50:53.287Z"
+  },
+  {
+    "index": 10,
+    "label": "C1-reference-restored",
+    "control": {
+      "kind": "click",
+      "id": "ref-capacity"
+    },
+    "startedAtUtc": "2026-09-20T05:50:53.651Z",
+    "beforeObservation": 14,
+    "success": true,
+    "afterObservation": 15,
+    "endedAtUtc": "2026-09-20T05:50:53.986Z"
+  },
+  {
+    "index": 11,
+    "label": "C1-expand-field-first",
+    "control": {
+      "kind": "click",
+      "id": "expand-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:50:53.986Z",
+    "beforeObservation": 15,
+    "success": true,
+    "afterObservation": 16,
+    "endedAtUtc": "2026-09-20T05:50:54.508Z"
+  },
+  {
+    "index": 12,
+    "label": "C1-collapse-field",
+    "control": {
+      "kind": "click",
+      "id": "expand-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:50:54.509Z",
+    "beforeObservation": 16,
+    "success": true,
+    "afterObservation": 17,
+    "endedAtUtc": "2026-09-20T05:50:54.858Z"
+  },
+  {
+    "index": 13,
+    "label": "C1-expand-field-restored",
+    "control": {
+      "kind": "click",
+      "id": "expand-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:50:54.858Z",
+    "beforeObservation": 17,
+    "success": true,
+    "afterObservation": 18,
+    "endedAtUtc": "2026-09-20T05:50:55.321Z"
+  },
+  {
+    "index": 14,
+    "label": "N1-graph-setup-reset",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:51:11.008Z",
+    "beforeObservation": 18,
+    "success": true,
+    "afterObservation": 19,
+    "endedAtUtc": "2026-09-20T05:51:11.432Z"
+  },
+  {
+    "index": 15,
+    "label": "N1-graph-setup-mode",
+    "control": {
+      "kind": "click",
+      "id": "view-local"
+    },
+    "startedAtUtc": "2026-09-20T05:51:11.432Z",
+    "beforeObservation": 19,
+    "success": true,
+    "afterObservation": 20,
+    "endedAtUtc": "2026-09-20T05:51:11.799Z"
+  },
+  {
+    "index": 16,
+    "label": "N1-graph-1-select",
+    "control": {
+      "kind": "click",
+      "id": "select-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:51:11.799Z",
+    "beforeObservation": 20,
+    "success": true,
+    "afterObservation": 21,
+    "endedAtUtc": "2026-09-20T05:51:12.220Z"
+  },
+  {
+    "index": 17,
+    "label": "N1-graph-2-expand",
+    "control": {
+      "kind": "click",
+      "id": "expand-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:51:12.220Z",
+    "beforeObservation": 21,
+    "success": true,
+    "afterObservation": 22,
+    "endedAtUtc": "2026-09-20T05:51:12.573Z"
+  },
+  {
+    "index": 18,
+    "label": "N1-graph-3-trace",
+    "control": {
+      "kind": "click",
+      "id": "trace-inspect"
+    },
+    "startedAtUtc": "2026-09-20T05:51:12.574Z",
+    "beforeObservation": 22,
+    "success": true,
+    "afterObservation": 23,
+    "endedAtUtc": "2026-09-20T05:51:13.157Z"
+  },
+  {
+    "index": 19,
+    "label": "N1-graph-4-repair",
+    "control": {
+      "kind": "click",
+      "id": "summary-v2"
+    },
+    "startedAtUtc": "2026-09-20T05:51:13.157Z",
+    "beforeObservation": 23,
+    "success": true,
+    "afterObservation": 24,
+    "endedAtUtc": "2026-09-20T05:51:13.509Z"
+  },
+  {
+    "index": 20,
+    "label": "N1-graph-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 4
+    },
+    "startedAtUtc": "2026-09-20T05:51:13.509Z",
+    "beforeObservation": 24,
+    "success": true,
+    "afterObservation": 25,
+    "endedAtUtc": "2026-09-20T05:51:13.869Z"
+  },
+  {
+    "index": 21,
+    "label": "N1-plain-setup-reset",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:51:14.276Z",
+    "beforeObservation": 27,
+    "success": true,
+    "afterObservation": 28,
+    "endedAtUtc": "2026-09-20T05:51:14.685Z"
+  },
+  {
+    "index": 22,
+    "label": "N1-plain-setup-mode",
+    "control": {
+      "kind": "click",
+      "id": "view-plain"
+    },
+    "startedAtUtc": "2026-09-20T05:51:14.686Z",
+    "beforeObservation": 28,
+    "success": true,
+    "afterObservation": 29,
+    "endedAtUtc": "2026-09-20T05:51:15.069Z"
+  },
+  {
+    "index": 23,
+    "label": "N1-plain-1-select",
+    "control": {
+      "kind": "click",
+      "id": "plain-select-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:52:24.468Z",
+    "beforeObservation": 30,
+    "success": true,
+    "afterObservation": 31,
+    "endedAtUtc": "2026-09-20T05:52:24.890Z"
+  },
+  {
+    "index": 24,
+    "label": "N1-plain-2-expand",
+    "control": {
+      "kind": "click",
+      "id": "plain-expand-G6_LOCAL_FIELD"
+    },
+    "startedAtUtc": "2026-09-20T05:52:24.891Z",
+    "beforeObservation": 31,
+    "success": true,
+    "afterObservation": 32,
+    "endedAtUtc": "2026-09-20T05:52:25.365Z"
+  },
+  {
+    "index": 25,
+    "label": "N1-plain-3-trace",
+    "control": {
+      "kind": "click",
+      "id": "trace-inspect"
+    },
+    "startedAtUtc": "2026-09-20T05:52:25.365Z",
+    "beforeObservation": 32,
+    "success": true,
+    "afterObservation": 33,
+    "endedAtUtc": "2026-09-20T05:52:25.708Z"
+  },
+  {
+    "index": 26,
+    "label": "N1-plain-4-repair",
+    "control": {
+      "kind": "click",
+      "id": "summary-v2"
+    },
+    "startedAtUtc": "2026-09-20T05:52:25.709Z",
+    "beforeObservation": 33,
+    "success": true,
+    "afterObservation": 34,
+    "endedAtUtc": "2026-09-20T05:52:26.103Z"
+  },
+  {
+    "index": 27,
+    "label": "N2-graph-setup-reset",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:52:50.597Z",
+    "beforeObservation": 36,
+    "success": true,
+    "afterObservation": 37,
+    "endedAtUtc": "2026-09-20T05:52:51.174Z"
+  },
+  {
+    "index": 28,
+    "label": "N2-graph-setup-mode",
+    "control": {
+      "kind": "click",
+      "id": "view-local"
+    },
+    "startedAtUtc": "2026-09-20T05:52:51.174Z",
+    "beforeObservation": 37,
+    "success": true,
+    "afterObservation": 38,
+    "endedAtUtc": "2026-09-20T05:52:51.684Z"
+  },
+  {
+    "index": 29,
+    "label": "N2-graph-1-show",
+    "control": {
+      "kind": "click",
+      "id": "claims-show"
+    },
+    "startedAtUtc": "2026-09-20T05:52:51.684Z",
+    "beforeObservation": 38,
+    "success": true,
+    "afterObservation": 39,
+    "endedAtUtc": "2026-09-20T05:52:52.074Z"
+  },
+  {
+    "index": 30,
+    "label": "N2-graph-2-inspect",
+    "control": {
+      "kind": "click",
+      "id": "link-invented-funds"
+    },
+    "startedAtUtc": "2026-09-20T05:52:52.075Z",
+    "beforeObservation": 39,
+    "success": true,
+    "afterObservation": 40,
+    "endedAtUtc": "2026-09-20T05:52:52.601Z"
+  },
+  {
+    "index": 31,
+    "label": "C5-close-placement",
+    "control": {
+      "kind": "click",
+      "id": "layout-close"
+    },
+    "startedAtUtc": "2026-09-20T05:52:52.601Z",
+    "beforeObservation": 40,
+    "success": true,
+    "afterObservation": 41,
+    "endedAtUtc": "2026-09-20T05:52:52.983Z"
+  },
+  {
+    "index": 32,
+    "label": "C5-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 4
+    },
+    "startedAtUtc": "2026-09-20T05:52:52.983Z",
+    "beforeObservation": 41,
+    "success": true,
+    "afterObservation": 42,
+    "endedAtUtc": "2026-09-20T05:52:53.291Z"
+  },
+  {
+    "index": 33,
+    "label": "N2-plain-setup-reset",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:52:53.971Z",
+    "beforeObservation": 44,
+    "success": true,
+    "afterObservation": 45,
+    "endedAtUtc": "2026-09-20T05:52:54.391Z"
+  },
+  {
+    "index": 34,
+    "label": "N2-plain-setup-mode",
+    "control": {
+      "kind": "click",
+      "id": "view-plain"
+    },
+    "startedAtUtc": "2026-09-20T05:52:54.391Z",
+    "beforeObservation": 45,
+    "success": true,
+    "afterObservation": 46,
+    "endedAtUtc": "2026-09-20T05:52:54.849Z"
+  },
+  {
+    "index": 35,
+    "label": "N2-plain-1-show",
+    "control": {
+      "kind": "click",
+      "id": "claims-show"
+    },
+    "startedAtUtc": "2026-09-20T05:52:54.849Z",
+    "beforeObservation": 46,
+    "success": true,
+    "afterObservation": 47,
+    "endedAtUtc": "2026-09-20T05:52:55.246Z"
+  },
+  {
+    "index": 36,
+    "label": "N2-plain-2-inspect",
+    "control": {
+      "kind": "click",
+      "id": "plain-relation-G6-CLAIM-TRANSFER"
+    },
+    "startedAtUtc": "2026-09-20T05:53:14.879Z",
+    "beforeObservation": 47,
+    "success": true,
+    "afterObservation": 48,
+    "endedAtUtc": "2026-09-20T05:53:15.313Z"
+  },
+  {
+    "index": 37,
+    "label": "C3-repaired-baseline",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:53:15.313Z",
+    "beforeObservation": 48,
+    "success": true,
+    "afterObservation": 49,
+    "endedAtUtc": "2026-09-20T05:53:15.830Z"
+  },
+  {
+    "index": 38,
+    "label": "C3-raise-requirement",
+    "control": {
+      "kind": "click",
+      "id": "requirement-v2"
+    },
+    "startedAtUtc": "2026-09-20T05:53:15.830Z",
+    "beforeObservation": 49,
+    "success": true,
+    "afterObservation": 50,
+    "endedAtUtc": "2026-09-20T05:53:16.226Z"
+  },
+  {
+    "index": 39,
+    "label": "C4-retain-alternative-references",
+    "control": {
+      "kind": "click",
+      "id": "references-compare"
+    },
+    "startedAtUtc": "2026-09-20T05:53:16.226Z",
+    "beforeObservation": 50,
+    "success": true,
+    "afterObservation": 51,
+    "endedAtUtc": "2026-09-20T05:53:16.746Z"
+  },
+  {
+    "index": 40,
+    "label": "C3-C4-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 4
+    },
+    "startedAtUtc": "2026-09-20T05:53:16.746Z",
+    "beforeObservation": 51,
+    "success": true,
+    "afterObservation": 52,
+    "endedAtUtc": "2026-09-20T05:53:17.060Z"
+  },
+  {
+    "index": 41,
+    "label": "C3-restore-original-requirement",
+    "control": {
+      "kind": "click",
+      "id": "requirement-v1"
+    },
+    "startedAtUtc": "2026-09-20T05:53:17.262Z",
+    "beforeObservation": 54,
+    "success": true,
+    "afterObservation": 55,
+    "endedAtUtc": "2026-09-20T05:53:17.602Z"
+  },
+  {
+    "index": 42,
+    "label": "C5-canonical-claim-visible",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:53:17.602Z",
+    "beforeObservation": 55,
+    "success": true,
+    "afterObservation": 56,
+    "endedAtUtc": "2026-09-20T05:53:17.960Z"
+  },
+  {
+    "index": 43,
+    "label": "C5-scroll-to-link",
+    "control": {
+      "kind": "scroll",
+      "direction": "down",
+      "pages": 0.65
+    },
+    "startedAtUtc": "2026-09-20T05:53:17.961Z",
+    "beforeObservation": 56,
+    "success": true,
+    "afterObservation": 57,
+    "endedAtUtc": "2026-09-20T05:53:18.262Z"
+  },
+  {
+    "index": 44,
+    "label": "playback-uninterrupted-start",
+    "control": {
+      "kind": "click",
+      "id": "replay"
+    },
+    "startedAtUtc": "2026-09-20T05:53:55.990Z",
+    "beforeObservation": 59,
+    "success": true,
+    "afterObservation": 60,
+    "endedAtUtc": "2026-09-20T05:53:56.595Z"
+  },
+  {
+    "index": 45,
+    "label": "playback-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 4
+    },
+    "startedAtUtc": "2026-09-20T05:53:56.596Z",
+    "beforeObservation": 60,
+    "success": true,
+    "afterObservation": 61,
+    "endedAtUtc": "2026-09-20T05:53:57.093Z"
+  },
+  {
+    "index": 46,
+    "label": "pause-test-start",
+    "control": {
+      "kind": "click",
+      "id": "replay"
+    },
+    "startedAtUtc": "2026-09-20T05:54:35.544Z",
+    "beforeObservation": 66,
+    "success": true,
+    "afterObservation": 67,
+    "endedAtUtc": "2026-09-20T05:54:35.957Z"
+  },
+  {
+    "index": 47,
+    "label": "pause-test-manual-pause",
+    "control": {
+      "kind": "click",
+      "id": "play-pause"
+    },
+    "startedAtUtc": "2026-09-20T05:54:35.957Z",
+    "beforeObservation": 67,
+    "success": true,
+    "afterObservation": 68,
+    "endedAtUtc": "2026-09-20T05:54:36.470Z"
+  },
+  {
+    "index": 48,
+    "label": "playback-step-forward",
+    "control": {
+      "kind": "click",
+      "id": "step-forward"
+    },
+    "startedAtUtc": "2026-09-20T05:55:02.155Z",
+    "beforeObservation": 69,
+    "success": true,
+    "afterObservation": 70,
+    "endedAtUtc": "2026-09-20T05:55:02.670Z"
+  },
+  {
+    "index": 49,
+    "label": "playback-step-back",
+    "control": {
+      "kind": "click",
+      "id": "step-back"
+    },
+    "startedAtUtc": "2026-09-20T05:55:02.671Z",
+    "beforeObservation": 70,
+    "success": true,
+    "afterObservation": 71,
+    "endedAtUtc": "2026-09-20T05:55:03.221Z"
+  },
+  {
+    "index": 50,
+    "label": "playback-scrub-8100",
+    "control": {
+      "kind": "native-slider",
+      "id": "scrub",
+      "value": 8100
+    },
+    "startedAtUtc": "2026-09-20T05:55:03.328Z",
+    "beforeObservation": 71,
+    "success": true,
+    "afterObservation": 72,
+    "endedAtUtc": "2026-09-20T05:55:03.573Z"
+  },
+  {
+    "index": 51,
+    "label": "restored-checkpoint-0",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:55:03.573Z",
+    "beforeObservation": 72,
+    "success": true,
+    "afterObservation": 73,
+    "endedAtUtc": "2026-09-20T05:55:04.098Z"
+  },
+  {
+    "index": 52,
+    "label": "restored-checkpoint-5000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-5000"
+    },
+    "startedAtUtc": "2026-09-20T05:55:04.099Z",
+    "beforeObservation": 73,
+    "success": true,
+    "afterObservation": 74,
+    "endedAtUtc": "2026-09-20T05:55:04.450Z"
+  },
+  {
+    "index": 53,
+    "label": "restored-checkpoint-10000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-10000"
+    },
+    "startedAtUtc": "2026-09-20T05:55:04.450Z",
+    "beforeObservation": 74,
+    "success": true,
+    "afterObservation": 75,
+    "endedAtUtc": "2026-09-20T05:55:04.911Z"
+  },
+  {
+    "index": 54,
+    "label": "restored-checkpoint-15000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:55:04.912Z",
+    "beforeObservation": 75,
+    "success": true,
+    "afterObservation": 76,
+    "endedAtUtc": "2026-09-20T05:55:05.421Z"
+  },
+  {
+    "index": 55,
+    "label": "restored-checkpoint-20000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-20000"
+    },
+    "startedAtUtc": "2026-09-20T05:55:05.421Z",
+    "beforeObservation": 76,
+    "success": true,
+    "afterObservation": 77,
+    "endedAtUtc": "2026-09-20T05:55:05.870Z"
+  },
+  {
+    "index": 56,
+    "label": "restored-checkpoint-25000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:55:05.871Z",
+    "beforeObservation": 77,
+    "success": true,
+    "afterObservation": 78,
+    "endedAtUtc": "2026-09-20T05:55:06.340Z"
+  },
+  {
+    "index": 57,
+    "label": "restored-checkpoint-30000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-30000"
+    },
+    "startedAtUtc": "2026-09-20T05:55:06.340Z",
+    "beforeObservation": 78,
+    "success": true,
+    "afterObservation": 79,
+    "endedAtUtc": "2026-09-20T05:55:06.727Z"
+  },
+  {
+    "index": 58,
+    "label": "responsive-start",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:55:06.727Z",
+    "beforeObservation": 79,
+    "success": true,
+    "afterObservation": 80,
+    "endedAtUtc": "2026-09-20T05:55:07.141Z"
+  },
+  {
+    "index": 59,
+    "label": "responsive-960x720",
+    "control": {
+      "kind": "viewport",
+      "width": 960,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T05:55:07.142Z",
+    "beforeObservation": 80,
+    "success": true,
+    "afterObservation": 81,
+    "endedAtUtc": "2026-09-20T05:55:07.351Z"
+  },
+  {
+    "index": 60,
+    "label": "responsive-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 4
+    },
+    "startedAtUtc": "2026-09-20T05:55:07.351Z",
+    "beforeObservation": 81,
+    "success": true,
+    "afterObservation": 82,
+    "endedAtUtc": "2026-09-20T05:55:07.760Z"
+  },
+  {
+    "index": 61,
+    "label": "responsive-plain-narrow",
+    "control": {
+      "kind": "click",
+      "id": "view-plain"
+    },
+    "startedAtUtc": "2026-09-20T05:55:54.297Z",
+    "beforeObservation": 84,
+    "success": true,
+    "afterObservation": 85,
+    "endedAtUtc": "2026-09-20T05:55:54.796Z"
+  },
+  {
+    "index": 62,
+    "label": "inspect-sources",
+    "control": {
+      "kind": "details",
+      "id": "record-list"
+    },
+    "startedAtUtc": "2026-09-20T05:55:54.796Z",
+    "beforeObservation": 85,
+    "success": true,
+    "afterObservation": 86,
+    "endedAtUtc": "2026-09-20T05:55:55.239Z"
+  },
+  {
+    "index": 63,
+    "label": "inspect-state",
+    "control": {
+      "kind": "details",
+      "id": "inspector"
+    },
+    "startedAtUtc": null,
+    "recordedAtUtc": "2026-09-20T05:57:13.439Z",
+    "beforeObservation": 86,
+    "afterObservation": 87,
+    "success": true,
+    "observationError": "Read-only observation JSON string exceeded tool 200000-character limit after inspector opened; subsequent observation recovers complete state. Exact action start time not retained."
+  },
+  {
+    "index": 64,
+    "label": "restore-wide",
+    "control": {
+      "kind": "viewport",
+      "width": 1280,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T05:57:13.440Z",
+    "beforeObservation": 87,
+    "success": true,
+    "afterObservation": 88,
+    "endedAtUtc": "2026-09-20T05:57:14.144Z"
+  },
+  {
+    "index": 65,
+    "label": "before-library-reopen",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:57:14.144Z",
+    "beforeObservation": 88,
+    "success": true,
+    "afterObservation": 89,
+    "endedAtUtc": "2026-09-20T05:57:14.541Z"
+  },
+  {
+    "index": 66,
+    "label": "library-reopen",
+    "control": {
+      "kind": "link",
+      "name": "Open current run paused"
+    },
+    "startedAtUtc": "2026-09-20T05:57:14.541Z",
+    "beforeObservation": 89,
+    "success": true,
+    "afterObservation": 90,
+    "endedAtUtc": "2026-09-20T05:57:15.451Z"
+  },
+  {
+    "index": 67,
+    "label": "reopened-checkpoint-0",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:57:15.452Z",
+    "beforeObservation": 90,
+    "success": true,
+    "afterObservation": 91,
+    "endedAtUtc": "2026-09-20T05:57:16.009Z"
+  },
+  {
+    "index": 68,
+    "label": "reopened-checkpoint-5000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-5000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:16.010Z",
+    "beforeObservation": 91,
+    "success": true,
+    "afterObservation": 92,
+    "endedAtUtc": "2026-09-20T05:57:16.571Z"
+  },
+  {
+    "index": 69,
+    "label": "reopened-checkpoint-10000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-10000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:16.572Z",
+    "beforeObservation": 92,
+    "success": true,
+    "afterObservation": 93,
+    "endedAtUtc": "2026-09-20T05:57:17.011Z"
+  },
+  {
+    "index": 70,
+    "label": "reopened-checkpoint-15000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:17.012Z",
+    "beforeObservation": 93,
+    "success": true,
+    "afterObservation": 94,
+    "endedAtUtc": "2026-09-20T05:57:17.773Z"
+  },
+  {
+    "index": 71,
+    "label": "reopened-checkpoint-20000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-20000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:17.774Z",
+    "beforeObservation": 94,
+    "success": true,
+    "afterObservation": 95,
+    "endedAtUtc": "2026-09-20T05:57:18.737Z"
+  },
+  {
+    "index": 72,
+    "label": "reopened-checkpoint-25000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:18.737Z",
+    "beforeObservation": 95,
+    "success": true,
+    "afterObservation": 96,
+    "endedAtUtc": "2026-09-20T05:57:19.662Z"
+  },
+  {
+    "index": 73,
+    "label": "reopened-checkpoint-30000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-30000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:19.662Z",
+    "beforeObservation": 96,
+    "success": true,
+    "afterObservation": 97,
+    "endedAtUtc": "2026-09-20T05:57:20.485Z"
+  },
+  {
+    "index": 74,
+    "label": "reload-saved-run",
+    "control": {
+      "kind": "reload"
+    },
+    "startedAtUtc": "2026-09-20T05:57:20.485Z",
+    "beforeObservation": 97,
+    "success": true,
+    "afterObservation": 98,
+    "endedAtUtc": "2026-09-20T05:57:20.814Z"
+  },
+  {
+    "index": 75,
+    "label": "reloaded-checkpoint-0",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:57:20.814Z",
+    "beforeObservation": 98,
+    "success": true,
+    "afterObservation": 99,
+    "endedAtUtc": "2026-09-20T05:57:21.733Z"
+  },
+  {
+    "index": 76,
+    "label": "reloaded-checkpoint-5000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-5000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:21.733Z",
+    "beforeObservation": 99,
+    "success": true,
+    "afterObservation": 100,
+    "endedAtUtc": "2026-09-20T05:57:22.206Z"
+  },
+  {
+    "index": 77,
+    "label": "reloaded-checkpoint-10000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-10000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:22.206Z",
+    "beforeObservation": 100,
+    "success": true,
+    "afterObservation": 101,
+    "endedAtUtc": "2026-09-20T05:57:22.728Z"
+  },
+  {
+    "index": 78,
+    "label": "reloaded-checkpoint-15000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:22.729Z",
+    "beforeObservation": 101,
+    "success": true,
+    "afterObservation": 102,
+    "endedAtUtc": "2026-09-20T05:57:23.438Z"
+  },
+  {
+    "index": 79,
+    "label": "reloaded-checkpoint-20000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-20000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:23.439Z",
+    "beforeObservation": 102,
+    "success": true,
+    "afterObservation": 103,
+    "endedAtUtc": "2026-09-20T05:57:24.361Z"
+  },
+  {
+    "index": 80,
+    "label": "reloaded-checkpoint-25000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:24.362Z",
+    "beforeObservation": 103,
+    "success": true,
+    "afterObservation": 104,
+    "endedAtUtc": "2026-09-20T05:57:25.149Z"
+  },
+  {
+    "index": 81,
+    "label": "reloaded-checkpoint-30000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-30000"
+    },
+    "startedAtUtc": "2026-09-20T05:57:25.149Z",
+    "beforeObservation": 104,
+    "success": true,
+    "afterObservation": 105,
+    "endedAtUtc": "2026-09-20T05:57:25.853Z"
+  },
+  {
+    "index": 82,
+    "label": "final-core-start",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:57:25.853Z",
+    "beforeObservation": 105,
+    "success": true,
+    "afterObservation": 106,
+    "endedAtUtc": "2026-09-20T05:57:26.689Z"
+  },
+  {
+    "index": 83,
+    "label": "failure-narrow-viewport",
+    "control": {
+      "kind": "viewport",
+      "width": 960,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T05:59:38.367Z",
+    "beforeObservation": 106,
+    "success": true,
+    "afterObservation": 107,
+    "endedAtUtc": "2026-09-20T05:59:38.482Z"
+  },
+  {
+    "index": 84,
+    "label": "failure-plain-mode",
+    "control": {
+      "kind": "click",
+      "id": "view-plain"
+    },
+    "startedAtUtc": "2026-09-20T05:59:38.483Z",
+    "beforeObservation": 107,
+    "success": true,
+    "afterObservation": 108,
+    "endedAtUtc": "2026-09-20T05:59:38.963Z"
+  },
+  {
+    "index": 85,
+    "label": "failure-source-disclosure",
+    "control": {
+      "kind": "details",
+      "id": "record-list"
+    },
+    "startedAtUtc": "2026-09-20T05:59:38.963Z",
+    "beforeObservation": 108,
+    "success": true,
+    "afterObservation": 109,
+    "endedAtUtc": "2026-09-20T05:59:39.550Z"
+  },
+  {
+    "index": 86,
+    "label": "failure-scroll-source",
+    "control": {
+      "kind": "scroll",
+      "direction": "down",
+      "pages": 0.4
+    },
+    "startedAtUtc": "2026-09-20T05:59:39.550Z",
+    "beforeObservation": 109,
+    "success": true,
+    "afterObservation": 110,
+    "endedAtUtc": "2026-09-20T05:59:39.865Z"
+  },
+  {
+    "index": 87,
+    "label": "failure-wide-viewport",
+    "control": {
+      "kind": "viewport",
+      "width": 1280,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T05:59:40.177Z",
+    "beforeObservation": 112,
+    "success": true,
+    "afterObservation": 113,
+    "endedAtUtc": "2026-09-20T05:59:40.487Z"
+  },
+  {
+    "index": 88,
+    "label": "failure-wide-reset",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:59:40.487Z",
+    "beforeObservation": 113,
+    "success": true,
+    "afterObservation": 114,
+    "endedAtUtc": "2026-09-20T05:59:40.880Z"
+  },
+  {
+    "index": 89,
+    "label": "failure-shared-evidence",
+    "control": {
+      "kind": "click",
+      "id": "link-shared-weather"
+    },
+    "startedAtUtc": "2026-09-20T05:59:40.880Z",
+    "beforeObservation": 114,
+    "success": true,
+    "afterObservation": 115,
+    "endedAtUtc": "2026-09-20T05:59:41.396Z"
+  },
+  {
+    "index": 90,
+    "label": "candidate002-final-paused-start",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:59:41.902Z",
+    "beforeObservation": 117,
+    "success": true,
+    "afterObservation": 118,
+    "endedAtUtc": "2026-09-20T05:59:42.325Z"
+  }
+]

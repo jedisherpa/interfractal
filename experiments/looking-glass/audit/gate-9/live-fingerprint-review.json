@@ -1,0 +1,39 @@
+{
+  "schema": "gate9-live-fingerprint-review-v1",
+  "observationCount": 307,
+  "exactCount": 304,
+  "mismatchCount": 3,
+  "mismatches": [
+    {
+      "observation": 219,
+      "label": "start saved watch before manual interruption / after",
+      "phase": "running",
+      "tourPaused": false,
+      "tourSeconds": 6.241,
+      "localSeconds": 0.2409999999999997,
+      "recomputed": "5fda669d25de63e07092597f69c80b049359c1fb313ae095f142594102d870e8",
+      "captured": "a7b3fdeff947b8058208c6108c6b213941f32ef1bb1053611537a6687c20c8b9"
+    },
+    {
+      "observation": 236,
+      "label": "resume canonical timeline from checkpoint2 / after",
+      "phase": "draft",
+      "tourPaused": false,
+      "tourSeconds": 2.240400000095367,
+      "localSeconds": 0,
+      "recomputed": "f60696f150fc833afd357f640d4460d12c991f9a36244a32b00f0de2b63fecd8",
+      "captured": "adeb22c4aabdbf6aebe8ed1e42d5542d3c04690337063610c02a20a9fc3aa204"
+    },
+    {
+      "observation": 283,
+      "label": "uninterrupted full tour start / after",
+      "phase": "draft",
+      "tourPaused": false,
+      "tourSeconds": 0.24689999985694883,
+      "localSeconds": 0,
+      "recomputed": "0b937b28eb7f58d02e455f2e772ced2e7aa8e3489432ae1b965dc64537e6e0f8",
+      "captured": "4c9c8a114e3117114cb1233f81b1f0d09f2aa179504e686f5d76869c32ea14a7"
+    }
+  ],
+  "interpretation": "Captured inspector state and fingerprint disagree at three active-clock fractional-time observations; exact alternate state was not captured."
+}

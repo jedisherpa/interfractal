@@ -1,0 +1,43 @@
+{
+  "observedAtUtc": "2026-09-20T04:21:06.331Z",
+  "clientWidth": 1280,
+  "documentWidth": 1280,
+  "galleryLinkCount": 17,
+  "galleryOpen": true,
+  "hasPendingPreparationText": false,
+  "images": [
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1280,
+      "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1280,
+      "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1280,
+      "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1280,
+      "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg"
+    }
+  ],
+  "preservationNote": "Core evidence is closed and independently audited. Host presentation observations are separate from the browser trial. The final gate manifest is GATE_5_FREEZE.json; the local commit identity is reported in the task handoff.",
+  "title": "Gate 5 results · Looking Glass",
+  "url": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+  "viewport": {
+    "devicePixelRatio": 2,
+    "height": 720,
+    "width": 1280
+  },
+  "console": []
+}

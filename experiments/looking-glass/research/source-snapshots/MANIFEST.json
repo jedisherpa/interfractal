@@ -1,0 +1,96 @@
+{
+  "scope": "Pinned files actually inspected for Gate 0, plus upstream license files where present; upstream clone caches excluded from project commit.",
+  "files": [
+    {
+      "repository": "interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "source_path": "src/components/instrument/room-scene.tsx",
+      "snapshot_path": "research/source-snapshots/interfractal/src/components/instrument/room-scene.tsx",
+      "sha256": "7eda699e783217df382eb80a46d3d8eb76cc209780daa3f726930cf2837c4abb"
+    },
+    {
+      "repository": "interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "source_path": "src/components/instrument/first-page.tsx",
+      "snapshot_path": "research/source-snapshots/interfractal/src/components/instrument/first-page.tsx",
+      "sha256": "4619046f9be12cdb6c385bf6f8ed3de07e41675449f6635f080fcf6428c65e71"
+    },
+    {
+      "repository": "interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "source_path": "src/lib/instrument/cosmology.ts",
+      "snapshot_path": "research/source-snapshots/interfractal/src/lib/instrument/cosmology.ts",
+      "sha256": "633b9787d209372743055705c5d96d5f2bc51b9ea87cf96eaf80496454166c5f"
+    },
+    {
+      "repository": "interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "source_path": "src/workshop/hopf.ts",
+      "snapshot_path": "research/source-snapshots/interfractal/src/workshop/hopf.ts",
+      "sha256": "82fb114a5901b2d5d1172163d07cf2508927db85691b573ba3d108d9d5b52795"
+    },
+    {
+      "repository": "interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "source_path": "src/lib/hopf.ts",
+      "snapshot_path": "research/source-snapshots/interfractal/src/lib/hopf.ts",
+      "sha256": "cb68d43ec1e6e2e900a7cd28a4c3b2a1fdb9927f98cdc1e78571553196be858a"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "hopf.js",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/hopf.js",
+      "sha256": "851d49b36c876ab110d9743eeffedf4aa3a3ad042ee72253faeda4143bfd43e2"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "hopf_model.py",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/hopf_model.py",
+      "sha256": "8aafad9ecb70eaf076665d7d15250a4bdd59f3a118fd0e9a30cadfc5cee6647c"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "visualizer_geometry.js",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/visualizer_geometry.js",
+      "sha256": "f7e93aea1b194a0ee613958d7d5941b2fcedbe5e393d0995973dd6c95b4e57eb"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "visualizer.js",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/visualizer.js",
+      "sha256": "2ba48aaa020f813fc3db998a370ee2c2c4cce114b5839a1ce2204f071ef3453e"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "abacus_model.js",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/abacus_model.js",
+      "sha256": "6faab193c83f5fd3aac47fc5116512df680d67bae34c3a4b61c57e3a5dbde5ce"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "README.md",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/README.md",
+      "sha256": "6b8fdcfd028d88b1bf3609627a71cf08b6d20f0da3d717d6bd06e7b78be51024"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "INTEGRATION.md",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/INTEGRATION.md",
+      "sha256": "12b25e313460a078c72314d892916c53820e7645aa827e5cbc21337e9d96540a"
+    },
+    {
+      "repository": "hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "source_path": "VERIFICATION.md",
+      "snapshot_path": "research/source-snapshots/hopf-workshop/VERIFICATION.md",
+      "sha256": "fdd3a5e613fcd44b465827bf89ea199c79119fd41c795b1e56f881b883c4a5cb"
+    }
+  ]
+}

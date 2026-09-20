@@ -1,0 +1,48 @@
+{
+  "schema": "gate9-prepackage-final-edge-v1",
+  "status": "PASS",
+  "checks": {
+    "actual app invalidates same-hash completed export after provenance switch": {
+      "pass": true,
+      "details": {
+        "changedExportIdentity": true,
+        "staleRoute": true,
+        "oldHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+        "newHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+        "oldProvenance": "local_control",
+        "newProvenance": "scripted_demonstration"
+      }
+    },
+    "restored references resolve to canonical run choices": {
+      "pass": true,
+      "details": {
+        "referenceCount": 2
+      }
+    },
+    "actual app hides unfinished-watch old export and event export": {
+      "pass": true,
+      "details": {
+        "phase": "ready",
+        "condition": "watch"
+      }
+    },
+    "actual app masks unacquired registry query labels": {
+      "pass": true,
+      "details": null
+    },
+    "invalid condition does not stop local clock": {
+      "pass": true,
+      "details": {
+        "stopCalls": 0
+      }
+    },
+    "local practice pauses and labels manual review": {
+      "pass": true,
+      "details": {
+        "stopCalls": 1,
+        "reviewStatus": "manual-review"
+      }
+    }
+  },
+  "failures": []
+}

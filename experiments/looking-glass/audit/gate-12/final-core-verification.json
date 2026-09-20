@@ -1,0 +1,382 @@
+{
+  "schema": "gate12-final-core-independent-verification-v1",
+  "status": "PASS",
+  "coreFreezeSha256": "cdcbfb68c8fec722a217075d30c14b76e69803e753296fc3bde8a6ea936335f6",
+  "corePinnedFiles": 102,
+  "corePinFailures": [],
+  "historicalPinnedEntries": 1613,
+  "historicalFailures": [],
+  "observations": 93,
+  "hostActions": 79,
+  "observationHashAndMetadataCounts": {
+    "semantic": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    },
+    "information": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    },
+    "viewport": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    },
+    "scene": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    },
+    "identity": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    },
+    "truncation": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    },
+    "history": {
+      "passed": 93,
+      "total": 93,
+      "badIndices": []
+    }
+  },
+  "designatedCheckpointCount": 18,
+  "checkpointFailures": [],
+  "diagramPlainPairs": [
+    [
+      5,
+      9
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "document1": {
+    "events": 54,
+    "branches": 2,
+    "proposals": 4,
+    "outcomes": 5,
+    "reusedEvaluations": 3
+  },
+  "document2": {
+    "events": 18,
+    "naturalScheduled": 8,
+    "naturalDurationSeconds": 24.002,
+    "activeObservedIndices": [
+      86,
+      87,
+      88
+    ],
+    "missingSeparateActiveWindows": [
+      "4–8",
+      "12–16",
+      "16–20"
+    ]
+  },
+  "originalImages": 5,
+  "checkCount": 73,
+  "passCount": 73,
+  "errors": [],
+  "checks": [
+    {
+      "name": "102 closed core pins",
+      "pass": true
+    },
+    {
+      "name": "1613 historical frozen entries",
+      "pass": true
+    },
+    {
+      "name": "actual acquisition scope",
+      "pass": true
+    },
+    {
+      "name": "observation and action brackets",
+      "pass": true
+    },
+    {
+      "name": "source identity",
+      "pass": true
+    },
+    {
+      "name": "93 semantic observations",
+      "pass": true
+    },
+    {
+      "name": "93 information observations",
+      "pass": true
+    },
+    {
+      "name": "93 viewport observations",
+      "pass": true
+    },
+    {
+      "name": "93 scene observations",
+      "pass": true
+    },
+    {
+      "name": "93 identity observations",
+      "pass": true
+    },
+    {
+      "name": "93 truncation observations",
+      "pass": true
+    },
+    {
+      "name": "93 history observations",
+      "pass": true
+    },
+    {
+      "name": "two real document identities and local reload isolation",
+      "pass": true
+    },
+    {
+      "name": "paused 1280 and 960 no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "18 designated paused checkpoint comparisons",
+      "pass": true
+    },
+    {
+      "name": "diagram/plain information parity 5/9",
+      "pass": true
+    },
+    {
+      "name": "diagram/plain information parity 44/45",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 3",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 5",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 24",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 26",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 28",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 44",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 52",
+      "pass": true
+    },
+    {
+      "name": "actual outcome at observation 58",
+      "pass": true
+    },
+    {
+      "name": "earlier blocked inspection uses recorded context",
+      "pass": true
+    },
+    {
+      "name": "earlier tie inspected under current ALL",
+      "pass": true
+    },
+    {
+      "name": "active samples exact and non-substitute",
+      "pass": true
+    },
+    {
+      "name": "export local exact observed bytes",
+      "pass": true
+    },
+    {
+      "name": "export local includes own event",
+      "pass": true
+    },
+    {
+      "name": "export final1 exact observed bytes",
+      "pass": true
+    },
+    {
+      "name": "export final1 includes own event",
+      "pass": true
+    },
+    {
+      "name": "export final2 exact observed bytes",
+      "pass": true
+    },
+    {
+      "name": "export final2 includes own event",
+      "pass": true
+    },
+    {
+      "name": "export prefixes and two document isolation",
+      "pass": true
+    },
+    {
+      "name": "all displayed export prefixes truthful",
+      "pass": true
+    },
+    {
+      "name": "two branches, four proposals, five outcomes, correct assignments",
+      "pass": true
+    },
+    {
+      "name": "four local proposal mathematical/provenance records",
+      "pass": true
+    },
+    {
+      "name": "five local outcome mathematical/provenance records",
+      "pass": true
+    },
+    {
+      "name": "earlier immutable records survive later exports",
+      "pass": true
+    },
+    {
+      "name": "five created outcomes and three honest reuses",
+      "pass": true
+    },
+    {
+      "name": "54 event envelopes and 38 same-cursor chains",
+      "pass": true
+    },
+    {
+      "name": "18 second-document envelopes and 5 same-cursor chains",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 1/1",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 2/2",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 3/3",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 4/4",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 5/5",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 9/6",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 14/8",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 21/15",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 24/18",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 26/20",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 28/22",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 30/23",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 32/24",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 44/35",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 66/43",
+      "pass": true
+    },
+    {
+      "name": "actual state/event join 77/54",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 79/1",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 80/2",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 81/3",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 82/4",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 84/7",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 85/8",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 89/17",
+      "pass": true
+    },
+    {
+      "name": "second-document state/event join 90/18",
+      "pass": true
+    },
+    {
+      "name": "natural eight scheduled event identities/order",
+      "pass": true
+    },
+    {
+      "name": "natural 20 and 24 same-boundary chains",
+      "pass": true
+    },
+    {
+      "name": "natural elapsed time and final stop",
+      "pass": true
+    },
+    {
+      "name": "five original image hashes/dimensions/brackets",
+      "pass": true
+    },
+    {
+      "name": "actual Gate11 historical replay/result visits",
+      "pass": true
+    },
+    {
+      "name": "candidate001 failure preserved separately",
+      "pass": true
+    }
+  ],
+  "humanParticipants": 0,
+  "scope": "read-only closed-core, model, provenance, event and historical-byte audit; no human outcome"
+}

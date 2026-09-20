@@ -1,0 +1,793 @@
+{
+  "schemaVersion": "gate-6-fixture-v1",
+  "status": "Exact derivative fiction for Gate 6 instrument testing; not participant data",
+  "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+  "sourcePins": [
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    }
+  ],
+  "sourceRecordRefs": [
+    {
+      "recordId": "venue-hall",
+      "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+    },
+    {
+      "recordId": "venue-field",
+      "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+    },
+    {
+      "recordId": "venue-studio",
+      "contentSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+    },
+    {
+      "recordId": "weather-context",
+      "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+    }
+  ],
+  "sourceRecordCount": 4,
+  "sourceReferenceIdentities": [
+    {
+      "id": "R_CAPACITY_60",
+      "version": 1,
+      "mappingVersion": "gate-2-reference-mapping-v1",
+      "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+    },
+    {
+      "id": "R_EXISTING_ACCESS",
+      "version": 1,
+      "mappingVersion": "gate-2-reference-mapping-v1",
+      "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+    }
+  ],
+  "canonicalization": "UTF-8 compact JSON, recursively sorted object keys, array order retained; manifest contentSha256 excludes only its own contentSha256 field",
+  "localContexts": [
+    {
+      "id": "G6_LOCAL_HALL",
+      "label": "Hall local context",
+      "status": "Gate 6 synthetic derivative, not a participant group",
+      "version": 1,
+      "selectedVenueId": "venue-hall",
+      "recordRefs": [
+        {
+          "recordId": "venue-hall",
+          "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "retainedLocalReference": {
+        "id": "R_CAPACITY_60",
+        "version": 1,
+        "mappingVersion": "gate-2-reference-mapping-v1",
+        "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+      },
+      "alternativeReferences": [
+        {
+          "id": "R_CAPACITY_60",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+        },
+        {
+          "id": "R_EXISTING_ACCESS",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+        }
+      ],
+      "dependencyIds": [
+        "G6_DEP_RAMP"
+      ],
+      "history": [
+        {
+          "version": 1,
+          "operation": "create-gate-6-local-context",
+          "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+          "sourceRecordRefs": [
+            {
+              "recordId": "venue-hall",
+              "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+            },
+            {
+              "recordId": "weather-context",
+              "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "note": "Declared synthetic selection and reference preference; no participant endorsement."
+        }
+      ],
+      "contentSha256": "fa9c091a946b550543a1932e4718836ca0839e99f89f4cd90eca568215c0ef4c"
+    },
+    {
+      "id": "G6_LOCAL_FIELD",
+      "label": "Field local context",
+      "status": "Gate 6 synthetic derivative, not a participant group",
+      "version": 1,
+      "selectedVenueId": "venue-field",
+      "recordRefs": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "retainedLocalReference": {
+        "id": "R_EXISTING_ACCESS",
+        "version": 1,
+        "mappingVersion": "gate-2-reference-mapping-v1",
+        "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+      },
+      "alternativeReferences": [
+        {
+          "id": "R_CAPACITY_60",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+        },
+        {
+          "id": "R_EXISTING_ACCESS",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+        }
+      ],
+      "dependencyIds": [
+        "G6_DEP_GENERATOR",
+        "G6_DEP_SHELTER"
+      ],
+      "history": [
+        {
+          "version": 1,
+          "operation": "create-gate-6-local-context",
+          "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+          "sourceRecordRefs": [
+            {
+              "recordId": "venue-field",
+              "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+            },
+            {
+              "recordId": "weather-context",
+              "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "note": "Declared synthetic selection and reference preference; no participant endorsement."
+        }
+      ],
+      "contentSha256": "f3f33f0b516f5db03fabc1fc8b39fca0ad4c6699f317801fadec8580d37dd0d3"
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "G6_DEP_RAMP",
+      "localId": "G6_LOCAL_HALL",
+      "kind": "access",
+      "label": "portable ramp",
+      "costTokens": 2,
+      "availability": "unknown-not-supplied",
+      "evidence": [
+        {
+          "recordId": "venue-hall",
+          "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "field": "facts.requiredAccessEquipment",
+          "role": "name and one equipment charge"
+        }
+      ]
+    },
+    {
+      "id": "G6_DEP_GENERATOR",
+      "localId": "G6_LOCAL_FIELD",
+      "kind": "power",
+      "label": "generator",
+      "costTokens": 3,
+      "availability": "unknown-not-supplied",
+      "evidence": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "field": "facts.requiredPowerEquipment",
+          "role": "name and one equipment charge"
+        }
+      ]
+    },
+    {
+      "id": "G6_DEP_SHELTER",
+      "localId": "G6_LOCAL_FIELD",
+      "kind": "rain-shelter",
+      "label": "rain shelter",
+      "costTokens": 3,
+      "availability": "unknown-not-supplied",
+      "evidence": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "field": "facts.shelterRequiredInRain",
+          "role": "obligation"
+        },
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "field": "facts.shelterCostTokens",
+          "role": "one authoritative shelter charge"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "field": "facts.rainCertain",
+          "role": "condition is true"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "field": "facts.fieldShelterCostTokens",
+          "role": "corroboration of same charge; do not add twice"
+        }
+      ]
+    }
+  ],
+  "receiverRequirements": [
+    {
+      "id": "G6_RECEIVER",
+      "version": 1,
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "status": "Gate 6 synthetic derivative requirement",
+      "minimumCapacityHouseholds": 60,
+      "maximumVenueEquipmentCostTokens": 8,
+      "accessProvisionRequired": true,
+      "powerProvisionRequired": true,
+      "rainProtectionRequiredWhenRainCertain": true,
+      "requiredSummaryFields": [
+        "candidateCapacityHouseholds",
+        "venueEquipmentCostTokens",
+        "requiredEquipment"
+      ],
+      "scope": "Listed venue hire plus required access/power/rain equipment only; disclose source-backed obligations. No equipment availability, bookings, food, service or full event-feasibility inference.",
+      "previousVersion": null,
+      "changedFields": []
+    },
+    {
+      "id": "G6_RECEIVER",
+      "version": 2,
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "status": "Gate 6 synthetic derivative requirement",
+      "minimumCapacityHouseholds": 70,
+      "maximumVenueEquipmentCostTokens": 8,
+      "accessProvisionRequired": true,
+      "powerProvisionRequired": true,
+      "rainProtectionRequiredWhenRainCertain": true,
+      "requiredSummaryFields": [
+        "candidateCapacityHouseholds",
+        "venueEquipmentCostTokens",
+        "requiredEquipment"
+      ],
+      "scope": "Listed venue hire plus required access/power/rain equipment only; disclose source-backed obligations. No equipment availability, bookings, food, service or full event-feasibility inference.",
+      "previousVersion": 1,
+      "changedFields": [
+        {
+          "field": "minimumCapacityHouseholds",
+          "before": 60,
+          "after": 70
+        }
+      ]
+    }
+  ],
+  "supportedRelations": [
+    {
+      "id": "G6_REL_SHARED_SOURCE",
+      "type": "shares-source",
+      "from": "G6_LOCAL_HALL",
+      "to": "G6_LOCAL_FIELD",
+      "direction": "undirected",
+      "status": "supported",
+      "evidence": [
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "field": "*",
+          "role": "same immutable source reference in both local manifests"
+        }
+      ],
+      "meaning": "shared source identity only; no causal influence or transfer"
+    },
+    {
+      "id": "G6_REL_REQUIRES_RAMP",
+      "type": "requires-equipment",
+      "from": "G6_LOCAL_HALL",
+      "to": "G6_DEP_RAMP",
+      "direction": "directed",
+      "status": "supported",
+      "evidence": [
+        {
+          "recordId": "venue-hall",
+          "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "field": "facts.requiredAccessEquipment",
+          "role": "name and one equipment charge"
+        }
+      ]
+    },
+    {
+      "id": "G6_REL_REQUIRES_GENERATOR",
+      "type": "requires-equipment",
+      "from": "G6_LOCAL_FIELD",
+      "to": "G6_DEP_GENERATOR",
+      "direction": "directed",
+      "status": "supported",
+      "evidence": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "field": "facts.requiredPowerEquipment",
+          "role": "name and one equipment charge"
+        }
+      ]
+    },
+    {
+      "id": "G6_REL_REQUIRES_SHELTER",
+      "type": "requires-equipment",
+      "from": "G6_LOCAL_FIELD",
+      "to": "G6_DEP_SHELTER",
+      "direction": "directed",
+      "status": "supported",
+      "evidence": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "field": "facts.shelterRequiredInRain",
+          "role": "obligation"
+        },
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "field": "facts.shelterCostTokens",
+          "role": "one authoritative shelter charge"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "field": "facts.rainCertain",
+          "role": "condition is true"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "field": "facts.fieldShelterCostTokens",
+          "role": "corroboration of same charge; do not add twice"
+        }
+      ]
+    }
+  ],
+  "unsupportedClaim": {
+    "id": "G6-CLAIM-TRANSFER",
+    "type": "transfers-resource",
+    "from": "G6_LOCAL_HALL",
+    "to": "G6_LOCAL_FIELD",
+    "direction": "directed",
+    "status": "unsupported",
+    "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+    "label": "Unsupported claim: Hall transfers a resource to Field",
+    "evidence": [],
+    "includedInSupportedGraph": false,
+    "reason": "No supplied record establishes any Hall-to-Field resource transfer. Shared weather evidence and visual proximity are insufficient."
+  },
+  "referenceProposals": [
+    {
+      "id": "G6_PROPOSAL_CAPACITY",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "position": "organize by capacity criterion",
+      "reference": {
+        "id": "R_CAPACITY_60",
+        "version": 1,
+        "mappingVersion": "gate-2-reference-mapping-v1",
+        "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+      },
+      "retainedByLocalId": "G6_LOCAL_HALL",
+      "status": "synthetic alternative; no commitment"
+    },
+    {
+      "id": "G6_PROPOSAL_ACCESS",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "position": "organize by existing-access criterion",
+      "reference": {
+        "id": "R_EXISTING_ACCESS",
+        "version": 1,
+        "mappingVersion": "gate-2-reference-mapping-v1",
+        "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+      },
+      "retainedByLocalId": "G6_LOCAL_FIELD",
+      "status": "synthetic alternative; no commitment"
+    }
+  ],
+  "summaryRules": {
+    "version": "gate-6-summary-v1",
+    "initialHeadlineByReference": {
+      "R_CAPACITY_60": {
+        "yes": "Meets capacity criterion; dependency detail omitted",
+        "no": "Does not meet capacity criterion; dependency detail omitted"
+      },
+      "R_EXISTING_ACCESS": {
+        "yes": "Meets existing-access criterion; dependency detail omitted",
+        "no": "Does not meet existing-access criterion; dependency detail omitted"
+      }
+    },
+    "genericCriterionReason": {
+      "yes": "Selected venue satisfies the stated criterion",
+      "no": "Selected venue does not satisfy the stated criterion"
+    },
+    "v1ForbiddenFields": [
+      "candidateCapacityHouseholds",
+      "venueEquipmentCostTokens",
+      "requiredEquipment",
+      "acceptedForCostAndCapacityScreen",
+      "numericScreenPass",
+      "capacityPass",
+      "budgetPass"
+    ],
+    "v1RequiredReceiverStatus": "insufficient-summary",
+    "repairFields": [
+      "candidateCapacityHouseholds",
+      "venueEquipmentCostTokens",
+      "requiredEquipment",
+      "receiverIdentity",
+      "receiverEvaluation"
+    ],
+    "sourceAvailabilityStatus": "unknown-not-supplied"
+  },
+  "summaryRevisionHistory": [
+    {
+      "id": "G6_LOCAL_HALL-SUMMARY-1",
+      "localId": "G6_LOCAL_HALL",
+      "revision": 1,
+      "previousRevisionId": null,
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "operation": "compress-partial-reference",
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 1
+      },
+      "changedFields": [
+        "initial criterion-only outward projection"
+      ],
+      "sourceRecordRefs": [
+        {
+          "recordId": "venue-hall",
+          "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+    },
+    {
+      "id": "G6_LOCAL_HALL-SUMMARY-2",
+      "localId": "G6_LOCAL_HALL",
+      "revision": 2,
+      "previousRevisionId": "G6_LOCAL_HALL-SUMMARY-1",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "operation": "repair-for-receiving-task",
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 1
+      },
+      "changedFields": [
+        "candidateCapacityHouseholds",
+        "requiredEquipment",
+        "venueEquipmentCostTokens",
+        "receiverEvaluation"
+      ],
+      "sourceRecordRefs": [
+        {
+          "recordId": "venue-hall",
+          "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+    },
+    {
+      "id": "G6_LOCAL_HALL-SUMMARY-3",
+      "localId": "G6_LOCAL_HALL",
+      "revision": 3,
+      "previousRevisionId": "G6_LOCAL_HALL-SUMMARY-2",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "operation": "recompute-for-external-requirement",
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 2
+      },
+      "changedFields": [
+        "receiver.version",
+        "receiver.minimumCapacityHouseholds",
+        "receiverEvaluation.capacityPass",
+        "receiverEvaluation.numericScreenPass",
+        "receiverEvaluation.classification"
+      ],
+      "sourceRecordRefs": [
+        {
+          "recordId": "venue-hall",
+          "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log.",
+      "reevaluatedFields": [
+        "receiverEvaluation.capacityPass",
+        "receiverEvaluation.budgetPass",
+        "receiverEvaluation.numericScreenPass",
+        "receiverEvaluation.classification"
+      ]
+    },
+    {
+      "id": "G6_LOCAL_FIELD-SUMMARY-1",
+      "localId": "G6_LOCAL_FIELD",
+      "revision": 1,
+      "previousRevisionId": null,
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "operation": "compress-partial-reference",
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 1
+      },
+      "changedFields": [
+        "initial criterion-only outward projection"
+      ],
+      "sourceRecordRefs": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+    },
+    {
+      "id": "G6_LOCAL_FIELD-SUMMARY-2",
+      "localId": "G6_LOCAL_FIELD",
+      "revision": 2,
+      "previousRevisionId": "G6_LOCAL_FIELD-SUMMARY-1",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "operation": "repair-for-receiving-task",
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 1
+      },
+      "changedFields": [
+        "candidateCapacityHouseholds",
+        "requiredEquipment",
+        "venueEquipmentCostTokens",
+        "receiverEvaluation"
+      ],
+      "sourceRecordRefs": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+    },
+    {
+      "id": "G6_LOCAL_FIELD-SUMMARY-3",
+      "localId": "G6_LOCAL_FIELD",
+      "revision": 3,
+      "previousRevisionId": "G6_LOCAL_FIELD-SUMMARY-2",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "operation": "recompute-for-external-requirement",
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 2
+      },
+      "changedFields": [
+        "receiver.version",
+        "receiver.minimumCapacityHouseholds"
+      ],
+      "sourceRecordRefs": [
+        {
+          "recordId": "venue-field",
+          "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+        },
+        {
+          "recordId": "weather-context",
+          "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+        }
+      ],
+      "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log.",
+      "reevaluatedFields": [
+        "receiverEvaluation.capacityPass",
+        "receiverEvaluation.budgetPass",
+        "receiverEvaluation.numericScreenPass",
+        "receiverEvaluation.classification"
+      ]
+    }
+  ],
+  "replay": {
+    "durationMs": 30000,
+    "quantumMs": 100,
+    "stepMs": 1000,
+    "intervalRule": "hold left checkpoint state; at endpoint restore baseline then automatic pause",
+    "checkpointStates": [
+      {
+        "timeMs": 0,
+        "largerReferenceId": "R_CAPACITY_60",
+        "receiverVersion": 1,
+        "summaryRevision": 1,
+        "expandedLocalIds": [],
+        "selectedLocalId": null,
+        "traceMode": "none",
+        "traceLocalId": null,
+        "compareReferences": false,
+        "showClaims": false,
+        "selectedRelationId": null,
+        "representation": "graph",
+        "layout": "ordinary"
+      },
+      {
+        "timeMs": 5000,
+        "largerReferenceId": "R_EXISTING_ACCESS",
+        "receiverVersion": 1,
+        "summaryRevision": 1,
+        "expandedLocalIds": [],
+        "selectedLocalId": null,
+        "traceMode": "none",
+        "traceLocalId": null,
+        "compareReferences": false,
+        "showClaims": false,
+        "selectedRelationId": null,
+        "representation": "graph",
+        "layout": "ordinary"
+      },
+      {
+        "timeMs": 10000,
+        "largerReferenceId": "R_CAPACITY_60",
+        "receiverVersion": 1,
+        "summaryRevision": 1,
+        "expandedLocalIds": [],
+        "selectedLocalId": null,
+        "traceMode": "none",
+        "traceLocalId": null,
+        "compareReferences": false,
+        "showClaims": false,
+        "selectedRelationId": null,
+        "representation": "graph",
+        "layout": "ordinary"
+      },
+      {
+        "timeMs": 15000,
+        "largerReferenceId": "R_CAPACITY_60",
+        "receiverVersion": 1,
+        "summaryRevision": 2,
+        "expandedLocalIds": [
+          "G6_LOCAL_HALL",
+          "G6_LOCAL_FIELD"
+        ],
+        "selectedLocalId": null,
+        "traceMode": "budget",
+        "traceLocalId": null,
+        "compareReferences": false,
+        "showClaims": false,
+        "selectedRelationId": null,
+        "representation": "graph",
+        "layout": "ordinary"
+      },
+      {
+        "timeMs": 20000,
+        "largerReferenceId": "R_CAPACITY_60",
+        "receiverVersion": 2,
+        "summaryRevision": 3,
+        "expandedLocalIds": [
+          "G6_LOCAL_HALL",
+          "G6_LOCAL_FIELD"
+        ],
+        "selectedLocalId": null,
+        "traceMode": "requirement",
+        "traceLocalId": null,
+        "compareReferences": false,
+        "showClaims": false,
+        "selectedRelationId": null,
+        "representation": "graph",
+        "layout": "ordinary"
+      },
+      {
+        "timeMs": 25000,
+        "largerReferenceId": "R_CAPACITY_60",
+        "receiverVersion": 2,
+        "summaryRevision": 3,
+        "expandedLocalIds": [
+          "G6_LOCAL_HALL",
+          "G6_LOCAL_FIELD"
+        ],
+        "selectedLocalId": null,
+        "traceMode": "requirement",
+        "traceLocalId": null,
+        "compareReferences": true,
+        "showClaims": true,
+        "selectedRelationId": "G6-CLAIM-TRANSFER",
+        "representation": "graph",
+        "layout": "ordinary"
+      },
+      {
+        "timeMs": 30000,
+        "largerReferenceId": "R_CAPACITY_60",
+        "receiverVersion": 1,
+        "summaryRevision": 1,
+        "expandedLocalIds": [],
+        "selectedLocalId": null,
+        "traceMode": "none",
+        "traceLocalId": null,
+        "compareReferences": false,
+        "showClaims": false,
+        "selectedRelationId": null,
+        "representation": "graph",
+        "layout": "ordinary"
+      }
+    ]
+  },
+  "comparisonRoutes": [
+    {
+      "id": "N1",
+      "setup": "restore checkpoint0 then set representation; all other state identical, selectedLocalId null",
+      "steps": [
+        {
+          "action": "select Field",
+          "category": "navigation"
+        },
+        {
+          "action": "expand selected local",
+          "category": "navigation"
+        },
+        {
+          "action": "inspect selected local budget trace",
+          "category": "navigation"
+        },
+        {
+          "action": "repair summaries",
+          "category": "correction"
+        }
+      ],
+      "expectedNavigationActions": 3,
+      "expectedCorrectionActions": 1
+    },
+    {
+      "id": "N2",
+      "setup": "restore checkpoint0 then set representation; all other state identical",
+      "steps": [
+        {
+          "action": "show claims",
+          "category": "navigation"
+        },
+        {
+          "action": "inspect G6-CLAIM-TRANSFER",
+          "category": "navigation"
+        }
+      ],
+      "expectedNavigationActions": 2,
+      "expectedCorrectionActions": 0
+    }
+  ],
+  "displayDeclaration": "Arbitrary typed graph/local bundle-inspired views; no formal bundle, metric significance, organizational dimension, influence or authority inferred. Plain table uses identical payloads and operations."
+}

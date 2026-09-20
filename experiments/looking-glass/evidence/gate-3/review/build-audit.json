@@ -1,0 +1,72 @@
+{
+  "checkedAtUtc": "2026-09-20T02:54:58.427Z",
+  "runId": "G3-TESSERACT-003",
+  "buildId": "g3-6c31bc16aeca4460",
+  "sourceSha256": "6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d",
+  "pass": true,
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "immutable snapshot files and full content-derived build identity",
+      "pass": true,
+      "detail": {
+        "sourceSha256": "6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d",
+        "failedFiles": []
+      }
+    },
+    {
+      "name": "run and build bind the unchanged four-file prespec freeze",
+      "pass": true
+    },
+    {
+      "name": "version, renderer, seed, runtime and source dimensions recorded",
+      "pass": true
+    },
+    {
+      "name": "source identities and all 32 edges agree with independent enumeration",
+      "pass": true
+    },
+    {
+      "name": "all five exact saved states reproduce and all 80 projected rows match independent predictions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "initial state and run digests bind first saved checkpoint",
+      "pass": true
+    },
+    {
+      "name": "full 4×4 rotation, fixed 3×4 P and separate composed PR",
+      "pass": true
+    },
+    {
+      "name": "projection fingerprint excludes clock and camera but changes with source angle",
+      "pass": true
+    },
+    {
+      "name": "actual SVG screen positions use fixed center and scale; camera changes only display",
+      "pass": true
+    },
+    {
+      "name": "solver recovers a nonfixture opaque-ID point from supplied matrices and raw 3D p",
+      "pass": true
+    },
+    {
+      "name": "declared 1e-10 rank threshold treats a near-zero source turn as underdetermined",
+      "pass": true
+    },
+    {
+      "name": "solver rejects mismatched IDs and uses no fixture coordinate encoded in ID",
+      "pass": true
+    },
+    {
+      "name": "all 16 source correspondences recover with maximum coordinate error and forward residual ≤1e-10",
+      "pass": true
+    },
+    {
+      "name": "planned fixture events are marked as predictions, not browser observations",
+      "pass": true
+    }
+  ]
+}

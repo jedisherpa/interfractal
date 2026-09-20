@@ -1,0 +1,249 @@
+{
+  "checkedAtUtc": "2026-09-20T03:44:00.954434+00:00",
+  "scope": "Final results page and linked local artifacts; read-only HTTP byte comparison, separate from closed core browser trial",
+  "passed": 30,
+  "failed": 0,
+  "checks": [
+    {
+      "url": "http://127.0.0.1:43997/",
+      "status": 200,
+      "path": "slices/builds/g4-38777d5882ef08a6/index.html",
+      "sha256": "c146097928884ba2d712699b35978aa56fb670bcfeed4382ae8d128e72bb6bf0",
+      "bytes": 7598,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/api/evidence",
+      "status": 200,
+      "path": "evidence/gate-4/run-evidence.json",
+      "sha256": "125bb0135f10511976e6e1bbbd957d6a1766dfd3807d48498cfc317d608ad247",
+      "bytes": 2229,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/api/movie-trace",
+      "status": 200,
+      "path": "slices/runs/G4-SLICES-002/movie-3d.json",
+      "sha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+      "bytes": 52775,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/api/run",
+      "status": 200,
+      "path": "slices/runs/G4-SLICES-002/run.json",
+      "sha256": "448d855783d753e6bd5462dbfca774f2c1d05afb1ecbc19e531a38d100e548f7",
+      "bytes": 4456,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/GATE_4_PACKET.md",
+      "status": 200,
+      "path": "evidence/gate-4/GATE_4_PACKET.md",
+      "sha256": "25a90475d3066fe3103fc697193405c980ee5cd0e86778909c6b3e1194f12acb",
+      "bytes": 14897,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/browser-action-trace.json",
+      "status": 200,
+      "path": "evidence/gate-4/browser-action-trace.json",
+      "sha256": "60b874d7c22bd9521f9d55098557314acdaef976e8df6f12dcccc07834c68b65",
+      "bytes": 11408,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/browser-observations.json",
+      "status": 200,
+      "path": "evidence/gate-4/browser-observations.json",
+      "sha256": "7e7b30823ee3ed2ddd175142ef22892832c37c94301924b7579a916163fd3ca5",
+      "bytes": 10363460,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/candidates/G4-SLICES-001/browser-observations.json",
+      "status": 200,
+      "path": "evidence/gate-4/candidates/G4-SLICES-001/browser-observations.json",
+      "sha256": "826071b54c8c5790e172be70d614fb0435b6c4b929cb6f3e030c45bb3a5cf2ab",
+      "bytes": 3041080,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/candidates/G4-SLICES-001/outcome.json",
+      "status": 200,
+      "path": "evidence/gate-4/candidates/G4-SLICES-001/outcome.json",
+      "sha256": "138d8fea901737dc2bd7221d4c90f91f8b5bda778b415b520b328b1eeb1c7c94",
+      "bytes": 854,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/capture-index.json",
+      "status": 200,
+      "path": "evidence/gate-4/capture-index.json",
+      "sha256": "ff29d6e7a3fc3b352b38075694e9bab3576be2a9e47e8bf77e7a78c503b8d97b",
+      "bytes": 17386,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/core-evidence-closure.json",
+      "status": 200,
+      "path": "evidence/gate-4/core-evidence-closure.json",
+      "sha256": "d62ab7dcc247328ba5f172f0df39985d22562000f99661fecd69ea707bf8894d",
+      "bytes": 6087,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/execution-provenance.json",
+      "status": 200,
+      "path": "evidence/gate-4/execution-provenance.json",
+      "sha256": "c2bb04ab77e2b857d97ffd90ed7697f905d4f29403df53d1d31613de992789b6",
+      "bytes": 1858,
+      "servedMatchesSaved": true,
+      "recheckedAfterCompletionUpdateUtc": "2026-09-20T03:44:28.230946+00:00"
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/history-browser-review.json",
+      "status": 200,
+      "path": "evidence/gate-4/history-browser-review.json",
+      "sha256": "c489dcb2808c71f4ba29f464199bdb8e5274d280b9f574cdb170f096fb972493",
+      "bytes": 54885,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/observed-activity.jsonl",
+      "status": 200,
+      "path": "evidence/gate-4/observed-activity.jsonl",
+      "sha256": "e4b4ca2afe373d034088dced2a97bea7b0fe74dbfec5e8647a91b5a7df93b73f",
+      "bytes": 232123,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+      "status": 200,
+      "path": "evidence/gate-4/results.html",
+      "sha256": "1e718b6076e4ae164eb413ad386774862cb14fbea5d9cd5267b79330fcbc25ac",
+      "bytes": 17407,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/review/AUDIT.md",
+      "status": 200,
+      "path": "evidence/gate-4/review/AUDIT.md",
+      "sha256": "f4970b3c163352c7fb348abf294c6b43e9aa27e76714ee6b20af9e836755927e",
+      "bytes": 7524,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/review/EXPERIMENT_CHARTER.md",
+      "status": 200,
+      "path": "evidence/gate-4/review/EXPERIMENT_CHARTER.md",
+      "sha256": "e9b6728ed266e28f213115b5c94e02da3f8dc19ec673a9d2939d0d97a1672fb8",
+      "bytes": 12840,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/review/PRESPEC_FREEZE.json",
+      "status": 200,
+      "path": "evidence/gate-4/review/PRESPEC_FREEZE.json",
+      "sha256": "da6838373c450bef6cd657f12b29395001a81b4fec1aac97ceb99e7f3a298a15",
+      "bytes": 2021,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/review/SOURCE_REVIEW.md",
+      "status": 200,
+      "path": "evidence/gate-4/review/SOURCE_REVIEW.md",
+      "sha256": "a08dcc3abcdec2ee56de7d0ac440968d046d20d36e3504b43ff884182f97359f",
+      "bytes": 7534,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+      "sha256": "27dda12d3d9064813ec47df78b55d3aad38f27050f4fec3c814e88802cff4971",
+      "bytes": 61476,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+      "sha256": "8528984ec781ce5b58786044351193f059fb0e2df138099039e882d5f66434a5",
+      "bytes": 61478,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+      "sha256": "37b06c18f72675a7c50a399d2238a84dafde1655250883081ad0335c46dcc5d2",
+      "bytes": 59682,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+      "sha256": "b05dea07df6823e00db88767be686f73d758bf9bd938dec67195ea1d499f3b59",
+      "bytes": 60316,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+      "sha256": "48226647017828ba6210eb8d253056bd88b5fd0760c159f7bd1e2a62477add69",
+      "bytes": 86630,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-active-empty.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-active-empty.jpg",
+      "sha256": "4757377cc1e405979e7256cb85d889dfe7dbb71faf9479ba9c3af22107112f98",
+      "bytes": 58981,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+      "sha256": "cb1da4c99182fc7d23c4b90c45566c28cf32616943982f688fc8cd3337aba2ce",
+      "bytes": 58745,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-active-return.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-active-return.jpg",
+      "sha256": "74a9b3e8f8c75d4df7fd3f65acf6f2e74a10d8117fecf443351eac02f3c5c07a",
+      "bytes": 60514,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/evidence/gate-4/screenshots/002-heldout-movie.jpg",
+      "status": 200,
+      "path": "evidence/gate-4/screenshots/002-heldout-movie.jpg",
+      "sha256": "240aaef0a969871c779626d1fbd574b071b3964c313c547f3b754c39505c0df0",
+      "bytes": 83522,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/runs/G4-SLICES-002/checkpoints.json",
+      "status": 200,
+      "path": "slices/runs/G4-SLICES-002/checkpoints.json",
+      "sha256": "bea41a31539a3aae13e4350b45f52c9f12eaba1dc856604384274a606c51411f",
+      "bytes": 57627,
+      "servedMatchesSaved": true
+    },
+    {
+      "url": "http://127.0.0.1:43997/runs/G4-SLICES-002/movie-3d.json",
+      "status": 200,
+      "path": "slices/runs/G4-SLICES-002/movie-3d.json",
+      "sha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+      "bytes": 52775,
+      "servedMatchesSaved": true
+    }
+  ]
+}

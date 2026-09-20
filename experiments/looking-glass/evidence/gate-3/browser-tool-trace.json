@@ -1,0 +1,537 @@
+[
+  {
+    "index": 1,
+    "label": "001 open inspector after scroll",
+    "intendedAtUtc": "2026-09-20T02:43:55.484Z"
+  },
+  {
+    "index": 2,
+    "label": "002 inspector scroll retest",
+    "intendedAtUtc": "2026-09-20T02:45:54.693Z"
+  },
+  {
+    "index": 3,
+    "label": "002 return to heading",
+    "intendedAtUtc": "2026-09-20T02:45:55.499Z"
+  },
+  {
+    "index": 4,
+    "label": "T03 actual coincident SVG A/B hit",
+    "intendedAtUtc": "2026-09-20T02:46:20.843Z"
+  },
+  {
+    "index": 5,
+    "label": "T03 select distinct B at zero",
+    "intendedAtUtc": "2026-09-20T02:46:21.387Z"
+  },
+  {
+    "index": 6,
+    "label": "T03 select other collapsed w-edge",
+    "intendedAtUtc": "2026-09-20T02:46:21.697Z"
+  },
+  {
+    "index": 7,
+    "label": "T03 select marked collapsed edge",
+    "intendedAtUtc": "2026-09-20T02:46:22.057Z"
+  },
+  {
+    "index": 8,
+    "label": "T02 checkpoint 0s",
+    "intendedAtUtc": "2026-09-20T02:46:22.303Z"
+  },
+  {
+    "index": 9,
+    "label": "T02 checkpoint 8s",
+    "intendedAtUtc": "2026-09-20T02:46:22.913Z"
+  },
+  {
+    "index": 10,
+    "label": "Frame checkpoint 8s at heading",
+    "intendedAtUtc": "2026-09-20T02:46:23.528Z"
+  },
+  {
+    "index": 11,
+    "label": "T02 checkpoint 16s",
+    "intendedAtUtc": "2026-09-20T02:46:24.412Z"
+  },
+  {
+    "index": 12,
+    "label": "Frame checkpoint 16s at heading",
+    "intendedAtUtc": "2026-09-20T02:46:24.945Z"
+  },
+  {
+    "index": 13,
+    "label": "T02 checkpoint 24s",
+    "intendedAtUtc": "2026-09-20T02:46:25.864Z"
+  },
+  {
+    "index": 14,
+    "label": "Frame checkpoint 24s at heading",
+    "intendedAtUtc": "2026-09-20T02:46:26.414Z"
+  },
+  {
+    "index": 15,
+    "label": "T02 checkpoint 32s",
+    "intendedAtUtc": "2026-09-20T02:46:27.281Z"
+  },
+  {
+    "index": 16,
+    "label": "Frame checkpoint 32s at heading",
+    "intendedAtUtc": "2026-09-20T02:46:27.798Z"
+  },
+  {
+    "index": 17,
+    "label": "T03 restore 16s for collapsed x-edge",
+    "intendedAtUtc": "2026-09-20T02:47:07.787Z"
+  },
+  {
+    "index": 18,
+    "label": "T03 select B at 90 degrees",
+    "intendedAtUtc": "2026-09-20T02:47:08.378Z"
+  },
+  {
+    "index": 19,
+    "label": "T03 inspect collapsed x-edge at 90 degrees",
+    "intendedAtUtc": "2026-09-20T02:47:08.762Z"
+  },
+  {
+    "index": 20,
+    "label": "T04 baseline restore 8s",
+    "intendedAtUtc": "2026-09-20T02:47:09.073Z"
+  },
+  {
+    "index": 21,
+    "label": "T04 camera yaw 120 at unchanged 8s",
+    "intendedAtUtc": "2026-09-20T02:47:09.671Z"
+  },
+  {
+    "index": 22,
+    "label": "Frame camera-only intervention",
+    "intendedAtUtc": "2026-09-20T02:47:10.366Z"
+  },
+  {
+    "index": 23,
+    "label": "T04 restore 8s after camera",
+    "intendedAtUtc": "2026-09-20T02:47:11.330Z"
+  },
+  {
+    "index": 24,
+    "label": "T04 source turn 30 at unchanged 8s",
+    "intendedAtUtc": "2026-09-20T02:47:11.903Z"
+  },
+  {
+    "index": 25,
+    "label": "Frame source-angle intervention",
+    "intendedAtUtc": "2026-09-20T02:47:12.561Z"
+  },
+  {
+    "index": 26,
+    "label": "T04 restore 8s after source",
+    "intendedAtUtc": "2026-09-20T02:47:13.443Z"
+  },
+  {
+    "index": 27,
+    "label": "T08 select B before actual unique marker hit",
+    "intendedAtUtc": "2026-09-20T02:47:14.048Z"
+  },
+  {
+    "index": 28,
+    "label": "T08 actual unique SVG A hit at 8s",
+    "intendedAtUtc": "2026-09-20T02:47:14.350Z"
+  },
+  {
+    "index": 29,
+    "label": "T05 compare fixed source",
+    "intendedAtUtc": "2026-09-20T02:47:14.959Z"
+  },
+  {
+    "index": 30,
+    "label": "T05 compare camera-only source",
+    "intendedAtUtc": "2026-09-20T02:47:15.561Z"
+  },
+  {
+    "index": 31,
+    "label": "T06 compare known source 0 and 90",
+    "intendedAtUtc": "2026-09-20T02:47:16.183Z"
+  },
+  {
+    "index": 32,
+    "label": "T05 actual fixed source zero",
+    "intendedAtUtc": "2026-09-20T02:47:39.666Z"
+  },
+  {
+    "index": 33,
+    "label": "T05 actual camera 120 at source zero leaves pair coincident",
+    "intendedAtUtc": "2026-09-20T02:47:40.368Z"
+  },
+  {
+    "index": 34,
+    "label": "T07 restore 8s for playback",
+    "intendedAtUtc": "2026-09-20T02:47:40.986Z"
+  },
+  {
+    "index": 35,
+    "label": "T08 select B before motion",
+    "intendedAtUtc": "2026-09-20T02:47:41.598Z"
+  },
+  {
+    "index": 36,
+    "label": "T08 select edge before motion",
+    "intendedAtUtc": "2026-09-20T02:47:41.929Z"
+  },
+  {
+    "index": 37,
+    "label": "T07 manual Play",
+    "intendedAtUtc": "2026-09-20T02:47:42.209Z"
+  },
+  {
+    "index": 38,
+    "label": "T07 manual Pause after advancing",
+    "intendedAtUtc": "2026-09-20T02:47:50.548Z"
+  },
+  {
+    "index": 39,
+    "label": "T07 Step +1s after pause",
+    "intendedAtUtc": "2026-09-20T02:48:05.785Z"
+  },
+  {
+    "index": 40,
+    "label": "T07 actual scrub 12.5s",
+    "intendedAtUtc": "2026-09-20T02:48:06.400Z"
+  },
+  {
+    "index": 41,
+    "label": "T07 restore endpoint for clamp",
+    "intendedAtUtc": "2026-09-20T02:48:07.122Z"
+  },
+  {
+    "index": 42,
+    "label": "T07 Step at endpoint clamps",
+    "intendedAtUtc": "2026-09-20T02:48:07.811Z"
+  },
+  {
+    "index": 43,
+    "label": "T07 Reset to start",
+    "intendedAtUtc": "2026-09-20T02:48:08.406Z"
+  },
+  {
+    "index": 44,
+    "label": "T07 uninterrupted Replay start",
+    "intendedAtUtc": "2026-09-20T02:48:09.053Z"
+  },
+  {
+    "index": 45,
+    "label": "Frame uninterrupted replay at heading",
+    "intendedAtUtc": "2026-09-20T02:48:09.569Z"
+  },
+  {
+    "index": 46,
+    "label": "T07 library opens current run paused",
+    "intendedAtUtc": "2026-09-20T02:49:04.273Z"
+  },
+  {
+    "index": 47,
+    "label": "T07 8s restored after library reopen",
+    "intendedAtUtc": "2026-09-20T02:49:04.544Z"
+  },
+  {
+    "index": 48,
+    "label": "T07 intentional browser reload",
+    "intendedAtUtc": "2026-09-20T02:49:04.979Z"
+  },
+  {
+    "index": 49,
+    "label": "T07 8s restored after browser reload",
+    "intendedAtUtc": "2026-09-20T02:49:05.151Z"
+  },
+  {
+    "index": 50,
+    "label": "T09 open inspector after reload",
+    "intendedAtUtc": "2026-09-20T02:49:05.892Z"
+  },
+  {
+    "index": 51,
+    "label": "T09 narrow return to scene heading",
+    "intendedAtUtc": "2026-09-20T02:49:07.565Z"
+  },
+  {
+    "index": 52,
+    "label": "T09 inspect bounded state JSON at narrow width",
+    "intendedAtUtc": "2026-09-20T02:49:41.973Z"
+  },
+  {
+    "index": 53,
+    "label": "T09 historical Gate2 actual Run Library link",
+    "intendedAtUtc": "2026-09-20T02:49:43.231Z"
+  },
+  {
+    "index": 54,
+    "label": "T07 Library Replay control starts from zero",
+    "intendedAtUtc": "2026-09-20T02:51:03.213Z"
+  },
+  {
+    "index": 55,
+    "label": "T07 Pause Library replay",
+    "intendedAtUtc": "2026-09-20T02:51:03.799Z"
+  },
+  {
+    "index": 56,
+    "label": "Final manual reset to canonical paused start",
+    "intendedAtUtc": "2026-09-20T02:51:04.666Z"
+  },
+  {
+    "index": 57,
+    "label": "Final replay framing",
+    "intendedAtUtc": "2026-09-20T02:51:05.573Z"
+  },
+  {
+    "index": 58,
+    "label": "003 initial canonical paused",
+    "intendedAtUtc": "2026-09-20T02:56:04.819Z"
+  },
+  {
+    "index": 59,
+    "label": "T09 inspector scroll retest",
+    "intendedAtUtc": "2026-09-20T02:56:05.152Z"
+  },
+  {
+    "index": 60,
+    "label": "003 return to heading",
+    "intendedAtUtc": "2026-09-20T02:56:06.114Z"
+  },
+  {
+    "index": 61,
+    "label": "T03 actual coincident SVG A/B hit",
+    "intendedAtUtc": "2026-09-20T02:56:07.095Z"
+  },
+  {
+    "index": 62,
+    "label": "T03 select distinct B at zero",
+    "intendedAtUtc": "2026-09-20T02:56:07.898Z"
+  },
+  {
+    "index": 63,
+    "label": "T03 select other collapsed w-edge",
+    "intendedAtUtc": "2026-09-20T02:56:08.305Z"
+  },
+  {
+    "index": 64,
+    "label": "T03 select marked collapsed edge",
+    "intendedAtUtc": "2026-09-20T02:56:08.628Z"
+  },
+  {
+    "index": 65,
+    "label": "T02 checkpoint 0s",
+    "intendedAtUtc": "2026-09-20T02:56:08.927Z"
+  },
+  {
+    "index": 66,
+    "label": "T02 checkpoint 8s",
+    "intendedAtUtc": "2026-09-20T02:56:09.917Z"
+  },
+  {
+    "index": 67,
+    "label": "T02 checkpoint 16s",
+    "intendedAtUtc": "2026-09-20T02:56:10.631Z"
+  },
+  {
+    "index": 68,
+    "label": "Frame checkpoint 16s at heading",
+    "intendedAtUtc": "2026-09-20T02:56:11.230Z"
+  },
+  {
+    "index": 69,
+    "label": "T02 checkpoint 24s",
+    "intendedAtUtc": "2026-09-20T02:56:12.099Z"
+  },
+  {
+    "index": 70,
+    "label": "T02 checkpoint 32s",
+    "intendedAtUtc": "2026-09-20T02:56:13.187Z"
+  },
+  {
+    "index": 71,
+    "label": "T03 restore 16s for collapsed x-edge",
+    "intendedAtUtc": "2026-09-20T02:56:13.855Z"
+  },
+  {
+    "index": 72,
+    "label": "T03 select B at 90 degrees",
+    "intendedAtUtc": "2026-09-20T02:56:14.463Z"
+  },
+  {
+    "index": 73,
+    "label": "T03 inspect collapsed x-edge at 90 degrees",
+    "intendedAtUtc": "2026-09-20T02:56:14.753Z"
+  },
+  {
+    "index": 74,
+    "label": "T04 baseline restore 8s",
+    "intendedAtUtc": "2026-09-20T02:56:15.109Z"
+  },
+  {
+    "index": 75,
+    "label": "T04 camera yaw 120 at unchanged 8s",
+    "intendedAtUtc": "2026-09-20T02:56:15.804Z"
+  },
+  {
+    "index": 76,
+    "label": "T04 restore 8s after camera",
+    "intendedAtUtc": "2026-09-20T02:56:16.614Z"
+  },
+  {
+    "index": 77,
+    "label": "T04 source turn 30 at unchanged 8s",
+    "intendedAtUtc": "2026-09-20T02:56:17.235Z"
+  },
+  {
+    "index": 78,
+    "label": "T04 restore 8s after source",
+    "intendedAtUtc": "2026-09-20T02:56:17.969Z"
+  },
+  {
+    "index": 79,
+    "label": "T08 select B before actual unique marker hit",
+    "intendedAtUtc": "2026-09-20T02:56:18.649Z"
+  },
+  {
+    "index": 80,
+    "label": "T08 actual unique SVG A hit at 8s",
+    "intendedAtUtc": "2026-09-20T02:56:19.003Z"
+  },
+  {
+    "index": 81,
+    "label": "T05 compare fixed source",
+    "intendedAtUtc": "2026-09-20T02:56:19.959Z"
+  },
+  {
+    "index": 82,
+    "label": "T05 compare camera-only source",
+    "intendedAtUtc": "2026-09-20T02:56:20.768Z"
+  },
+  {
+    "index": 83,
+    "label": "T06 compare known source 0 and 90",
+    "intendedAtUtc": "2026-09-20T02:56:21.567Z"
+  },
+  {
+    "index": 84,
+    "label": "T05 actual fixed source zero",
+    "intendedAtUtc": "2026-09-20T02:56:47.391Z"
+  },
+  {
+    "index": 85,
+    "label": "T05 actual camera 120 at source zero leaves pair coincident",
+    "intendedAtUtc": "2026-09-20T02:56:48.364Z"
+  },
+  {
+    "index": 86,
+    "label": "T07 restore 8s for playback",
+    "intendedAtUtc": "2026-09-20T02:56:49.082Z"
+  },
+  {
+    "index": 87,
+    "label": "T08 select B before motion",
+    "intendedAtUtc": "2026-09-20T02:56:49.700Z"
+  },
+  {
+    "index": 88,
+    "label": "T08 select edge before motion",
+    "intendedAtUtc": "2026-09-20T02:56:50.014Z"
+  },
+  {
+    "index": 89,
+    "label": "T07 manual Play",
+    "intendedAtUtc": "2026-09-20T02:56:50.381Z"
+  },
+  {
+    "index": 90,
+    "label": "T07 manual Pause after advancing",
+    "intendedAtUtc": "2026-09-20T02:56:59.187Z"
+  },
+  {
+    "index": 91,
+    "label": "T07 Step +1s after pause",
+    "intendedAtUtc": "2026-09-20T02:57:14.533Z"
+  },
+  {
+    "index": 92,
+    "label": "T07 actual scrub 12.5s",
+    "intendedAtUtc": "2026-09-20T02:57:15.542Z"
+  },
+  {
+    "index": 93,
+    "label": "T07 restore endpoint for clamp",
+    "intendedAtUtc": "2026-09-20T02:57:16.240Z"
+  },
+  {
+    "index": 94,
+    "label": "T07 Step at endpoint clamps",
+    "intendedAtUtc": "2026-09-20T02:57:17.336Z"
+  },
+  {
+    "index": 95,
+    "label": "T07 Reset to start",
+    "intendedAtUtc": "2026-09-20T02:57:18.168Z"
+  },
+  {
+    "index": 96,
+    "label": "T07 uninterrupted Replay start",
+    "intendedAtUtc": "2026-09-20T02:57:18.876Z"
+  },
+  {
+    "index": 97,
+    "label": "Frame uninterrupted replay at heading",
+    "intendedAtUtc": "2026-09-20T02:57:19.696Z"
+  },
+  {
+    "index": 98,
+    "label": "T07 library opens current run paused",
+    "intendedAtUtc": "2026-09-20T02:58:27.318Z"
+  },
+  {
+    "index": 99,
+    "label": "T07 8s restored after library reopen",
+    "intendedAtUtc": "2026-09-20T02:58:28.245Z"
+  },
+  {
+    "index": 100,
+    "label": "T07 intentional browser reload",
+    "intendedAtUtc": "2026-09-20T02:58:29.142Z"
+  },
+  {
+    "index": 101,
+    "label": "T07 8s restored after browser reload",
+    "intendedAtUtc": "2026-09-20T02:58:29.335Z"
+  },
+  {
+    "index": 102,
+    "label": "T09 open inspector after reload",
+    "intendedAtUtc": "2026-09-20T02:58:29.741Z"
+  },
+  {
+    "index": 103,
+    "label": "T09 inspect bounded state JSON at narrow width",
+    "intendedAtUtc": "2026-09-20T02:58:31.613Z"
+  },
+  {
+    "index": 104,
+    "label": "T07 Library Replay control starts from zero",
+    "intendedAtUtc": "2026-09-20T02:58:32.904Z"
+  },
+  {
+    "index": 105,
+    "label": "T07 Pause Library replay",
+    "intendedAtUtc": "2026-09-20T02:58:33.949Z"
+  },
+  {
+    "index": 106,
+    "label": "Final manual reset to canonical paused start",
+    "intendedAtUtc": "2026-09-20T02:58:34.931Z"
+  },
+  {
+    "index": 107,
+    "label": "Final replay framing",
+    "intendedAtUtc": "2026-09-20T02:58:35.940Z"
+  }
+]

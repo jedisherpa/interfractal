@@ -1,0 +1,44 @@
+{
+  "schema": "gate10-candidate-003-first-start-controlled-repro-v1",
+  "status": "FAIL",
+  "scope": "Exact immutable app source under controlled minimal DOM and accepted mock API; not actual browser or live-server mutation",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "apiCalls": [
+    {
+      "route": "/api/session",
+      "accepted": true
+    },
+    {
+      "route": "/api/start",
+      "accepted": true,
+      "caseId": "T01",
+      "hasValidSessionToken": true
+    }
+  ],
+  "before": {
+    "mode": "local-review",
+    "caseId": "T01",
+    "responsePhase": "none"
+  },
+  "after": {
+    "mode": "local-review",
+    "caseId": "T01",
+    "responsePhase": "none",
+    "pendingAction": null,
+    "attachedAttempt": null,
+    "ledgerAttemptCount": 0,
+    "commitDisabled": true,
+    "skipDisabled": true
+  },
+  "eventTypes": [
+    "session-request",
+    "session-ack",
+    "attempt-start-request"
+  ],
+  "firstStartComparison": {
+    "capturedAttempt": null,
+    "strictMismatch": true
+  },
+  "credentialsAndReceiptsRedacted": true,
+  "reproduced": true
+}

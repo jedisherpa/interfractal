@@ -1,0 +1,3514 @@
+[
+  {
+    "label": "S0-east-start",
+    "path": "captures/S0-east-start.jpg",
+    "recordedAtUtc": "2026-09-20T01:55:34.633Z",
+    "observationLabel": "S0-east-start",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 2,
+      "height": 904,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 998
+    },
+    "sha256": "7b52172956e3926922f9d03844fda9eebfc6bbb24212446e501918093aabee33",
+    "bytes": 94655,
+    "imagePixels": {
+      "width": 998,
+      "height": 904
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S0-east-start-fixed",
+    "path": "captures/S0-east-start-fixed.jpg",
+    "recordedAtUtc": "2026-09-20T01:55:46.653Z",
+    "observationLabel": "S0-east-start-fixed",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 461,
+      "width": 1280
+    },
+    "sha256": "16cb9e770126957bb4aedb8ae12597e88460dee57d4287d0f42052bfd2b968e7",
+    "bytes": 82062,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S1-east-six",
+    "path": "captures/S1-east-six.jpg",
+    "recordedAtUtc": "2026-09-20T01:55:47.327Z",
+    "observationLabel": "S1-east-six",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "a68ca1529a3f9745356c281e5eea56e2a283e26530ee6b0728d652adbcbe66ae",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7433b89337451a79cad4a18f8e2c652b8e3fbfdba50b9b4a973235974fbc623c",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0.29289321881345254,
+      "kind": "inside",
+      "point": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.478279455809169e-16
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 6000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      4.329780281177467e-17,
+      0.7071067811865476,
+      4.329780281177466e-17,
+      0.7071067811865475
+    ],
+    "stateSha256": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 461,
+      "width": 1280
+    },
+    "sha256": "c547f04f1f612ab00f10f65accc161883821c6789c7478f07680ac0c89938042",
+    "bytes": 82413,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S1-east-six-top",
+    "path": "captures/S1-east-six-top.jpg",
+    "recordedAtUtc": "2026-09-20T01:56:03.652Z",
+    "observationLabel": "S1-east-six-top",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "a68ca1529a3f9745356c281e5eea56e2a283e26530ee6b0728d652adbcbe66ae",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7433b89337451a79cad4a18f8e2c652b8e3fbfdba50b9b4a973235974fbc623c",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0.29289321881345254,
+      "kind": "inside",
+      "point": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.478279455809169e-16
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 6000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      4.329780281177467e-17,
+      0.7071067811865476,
+      4.329780281177466e-17,
+      0.7071067811865475
+    ],
+    "stateSha256": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a",
+    "viewport": {
+      "dpr": 1,
+      "height": 805,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "6b0db27160a5979fbb17cbafbb8408facebbbc9199ee14669dee3668c643ff45",
+    "bytes": 78637,
+    "imagePixels": {
+      "width": 1280,
+      "height": 805
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S0-east-start-top",
+    "path": "captures/S0-east-start-top.jpg",
+    "recordedAtUtc": "2026-09-20T01:56:05.476Z",
+    "observationLabel": "S0-east-start-top",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 1055,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "8da60fd6d7c4177046e5bec765e01cd936bfa673a70daac45f6ba49a940af33a",
+    "bytes": 111219,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1055
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S0-fixed-comparison",
+    "path": "captures/S0-fixed-comparison.jpg",
+    "recordedAtUtc": "2026-09-20T01:56:36.096Z",
+    "observationLabel": "S0-fixed-comparison",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "784805d0226718ecfbeede420254972645f8cef104bd56fd3d743c8038b6759d",
+    "bytes": 38416,
+    "imagePixels": {
+      "width": 818,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Capture presentation anomaly: underscaled content in native buffer after viewport change. Preserved; use later S0-fixed-stable for comparison."
+  },
+  {
+    "label": "S1-fixed-comparison",
+    "path": "captures/S1-fixed-comparison.jpg",
+    "recordedAtUtc": "2026-09-20T01:56:37.811Z",
+    "observationLabel": "S1-fixed-comparison",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "a68ca1529a3f9745356c281e5eea56e2a283e26530ee6b0728d652adbcbe66ae",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7433b89337451a79cad4a18f8e2c652b8e3fbfdba50b9b4a973235974fbc623c",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0.29289321881345254,
+      "kind": "inside",
+      "point": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.478279455809169e-16
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 6000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      4.329780281177467e-17,
+      0.7071067811865476,
+      4.329780281177466e-17,
+      0.7071067811865475
+    ],
+    "stateSha256": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "935b7597a08a58c128734bcbfe2320c24399bfc936f0d1acf99118b53199f80a",
+    "bytes": 69058,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S0-fixed-stable",
+    "path": "captures/S0-fixed-stable.jpg",
+    "recordedAtUtc": "2026-09-20T01:57:00.778Z",
+    "observationLabel": "S0-fixed-stable",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "7e41b2f9e89ac69a906c4b037c4dbe7dd98810a91ea179480bec3aa10969ba1d",
+    "bytes": 68668,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S2-front-chart-controls",
+    "path": "captures/S2-front-chart-controls.jpg",
+    "recordedAtUtc": "2026-09-20T01:58:18.382Z",
+    "observationLabel": "S2-front-chart-controls",
+    "baseId": "front",
+    "basePoint": [
+      0,
+      1,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "S",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "3479bd31561c20ea7b247a8ac0fba89213f0a4c6813af1d56f799ea11b3575e6",
+    "hopfPoint": [
+      0,
+      1,
+      -2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "exploration",
+    "modelSha256": "9daf1ba18ac18611f40e14036157cbd5408611cc79f11b3175e33e9fd8023c5c",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": -1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1.7071067811865477,
+      "kind": "inside",
+      "point": [
+        0.41421356237309503,
+        2.5363265666181665e-17,
+        2.5363265666181674e-17
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865475,
+      4.329780281177466e-17,
+      4.329780281177467e-17,
+      -0.7071067811865476
+    ],
+    "stateSha256": "0c8dc92b45f549fb77a5c274994c51e70bc2e9e6564fbfc17eb9ea460e7e3c51",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 614.5,
+      "width": 1280
+    },
+    "sha256": "0731e48317c45002cc47b33de4ffda527b4b87890c3da5bf4e1c7cc38d247db9",
+    "bytes": 96244,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S3-south-infinity-controls",
+    "path": "captures/S3-south-infinity-controls.jpg",
+    "recordedAtUtc": "2026-09-20T01:58:20.591Z",
+    "observationLabel": "S3-south-infinity-controls",
+    "baseId": "south",
+    "basePoint": [
+      0,
+      0,
+      -1
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "S",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "f212136718d9139b9b4f0c2c0d91fa537310fa5a2a3a342f7dd635b5a0c036b9",
+    "hopfPoint": [
+      0,
+      0,
+      -1
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "exploration",
+    "modelSha256": "60dc75da38948a91c1f6dc156f2ccdbefaf241664122ab6dccb85b84f0d63c05",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0,
+      "kind": "infinity",
+      "point": null
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0,
+      0,
+      6.123233995736766e-17,
+      1
+    ],
+    "stateSha256": "8c5a2fb712520cce346aace802b3be6b6c4d442d9e2ba2051814137381987d82",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 555.5,
+      "width": 1280
+    },
+    "sha256": "049ddd9750707507bbb58446bd012e0a7fa19bc2cf546ebb299e4fa2237fb94f",
+    "bytes": 105694,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S3-south-infinity-top",
+    "path": "captures/S3-south-infinity-top.jpg",
+    "recordedAtUtc": "2026-09-20T01:58:21.347Z",
+    "observationLabel": "S3-south-infinity-top",
+    "baseId": "south",
+    "basePoint": [
+      0,
+      0,
+      -1
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "S",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "f212136718d9139b9b4f0c2c0d91fa537310fa5a2a3a342f7dd635b5a0c036b9",
+    "hopfPoint": [
+      0,
+      0,
+      -1
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "exploration",
+    "modelSha256": "60dc75da38948a91c1f6dc156f2ccdbefaf241664122ab6dccb85b84f0d63c05",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0,
+      "kind": "infinity",
+      "point": null
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0,
+      0,
+      6.123233995736766e-17,
+      1
+    ],
+    "stateSha256": "8c5a2fb712520cce346aace802b3be6b6c4d442d9e2ba2051814137381987d82",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "7368df210f1297248ff034ca5f3b12aceee3ff0e0fa34d72478bf698eb4f3087",
+    "bytes": 69955,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "camera-yaw120-top",
+    "path": "captures/camera-yaw120-top.jpg",
+    "recordedAtUtc": "2026-09-20T01:58:47.981Z",
+    "observationLabel": "camera-yaw120-top",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 2.0943951023931953
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "a68ca1529a3f9745356c281e5eea56e2a283e26530ee6b0728d652adbcbe66ae",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "exploration",
+    "modelSha256": "7192f6106ea233b1ff84f4c67f0a18053354def6e7ff820ca0ad9647c9382710",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0.29289321881345254,
+      "kind": "inside",
+      "point": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.478279455809169e-16
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 6000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      4.329780281177467e-17,
+      0.7071067811865476,
+      4.329780281177466e-17,
+      0.7071067811865475
+    ],
+    "stateSha256": "6d1dc5dda417b591fc00303236829562d901e3f65f1b3a3c925816b95139edbe",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "475a86368a76d4adb29b3b2b00cf1fc41a3fd30b8d9a80c577e53acd879f9e71",
+    "bytes": 69788,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S4-capacity-hall",
+    "path": "captures/S4-capacity-hall.jpg",
+    "recordedAtUtc": "2026-09-20T01:59:12.899Z",
+    "observationLabel": "S4-capacity-hall",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 0,
+      "scrollY": 726.5,
+      "width": 1280
+    },
+    "sha256": "b5bbb1d182bc8fe57370fa40e1564cf111f21840b8a0f34f1906fce434acde1a",
+    "bytes": 135504,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Reference layout is visible, but prior coordinate attempt did not select Hall. This is not evidence of successful record inspection. Later confirmed captures preserve actual Hall selection."
+  },
+  {
+    "label": "S5-access-hall",
+    "path": "captures/S5-access-hall.jpg",
+    "recordedAtUtc": "2026-09-20T01:59:13.494Z",
+    "observationLabel": "S5-access-hall",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "bf15152fa028a14b28ad5858f4fb63f4905df3cadb738e39f168c127b7e10df9",
+    "mode": "exploration",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_EXISTING_ACCESS",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "ba0117609c4b5c71f6263675095907d99e72e1f9fb0f8812704e0e811f6f1c19",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 0,
+      "scrollY": 726.5,
+      "width": 1280
+    },
+    "sha256": "f06f6e00f9ea9979bbf42d3d1a90ae41c90179ce798e725022652de0d9eac64f",
+    "bytes": 132475,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Reference layout is visible, but prior coordinate attempt did not select Hall. This is not evidence of successful record inspection. Later confirmed captures preserve actual Hall selection."
+  },
+  {
+    "label": "S5-unmapped-weather",
+    "path": "captures/S5-unmapped-weather.jpg",
+    "recordedAtUtc": "2026-09-20T01:59:15.686Z",
+    "observationLabel": "S5-unmapped-weather",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": true,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": "weather-context",
+    "showUnmapped": true,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 0,
+      "scrollY": 756.5,
+      "width": 1280
+    },
+    "sha256": "8028b4e509273e6826665271bf7e0c3e5096272a812de155f674c2b11bd485b1",
+    "bytes": 136583,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S4-hall-selected-confirmed",
+    "path": "captures/S4-hall-selected-confirmed.jpg",
+    "recordedAtUtc": "2026-09-20T01:59:43.552Z",
+    "observationLabel": "S4-hall-selected-confirmed",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": true,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": "venue-hall",
+    "showUnmapped": true,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 0,
+      "scrollY": 851,
+      "width": 1280
+    },
+    "sha256": "975b310d53a7cdf1e0c4f63bf3f461fcf43dade77019c95d1a30516e464c910b",
+    "bytes": 130434,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S5-hall-access-confirmed",
+    "path": "captures/S5-hall-access-confirmed.jpg",
+    "recordedAtUtc": "2026-09-20T01:59:44.256Z",
+    "observationLabel": "S5-hall-access-confirmed",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": true,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "bf15152fa028a14b28ad5858f4fb63f4905df3cadb738e39f168c127b7e10df9",
+    "mode": "exploration",
+    "modelSha256": "7aef775fee4740dd406201c94e35110af0ed38f04271b5c689163b3e097b9251",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_EXISTING_ACCESS",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": "venue-hall",
+    "showUnmapped": true,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "ba0117609c4b5c71f6263675095907d99e72e1f9fb0f8812704e0e811f6f1c19",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 0,
+      "scrollY": 726.5,
+      "width": 1280
+    },
+    "sha256": "e7f35daf5cd368c54c0b268310b61b377826e80b8f116344e9fb66791eb02cf2",
+    "bytes": 130357,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "plain-source-history-horizontal",
+    "path": "captures/plain-source-history-horizontal.jpg",
+    "recordedAtUtc": "2026-09-20T02:00:32.723Z",
+    "observationLabel": "plain-source-history-horizontal",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 2.0943951023931953
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": true,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "exploration",
+    "modelSha256": "0d42ef7995ff10733b989b177c4ac03a51df3ab5aa64579173f5766aec6eafdd",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": "venue-hall",
+    "showUnmapped": true,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "3ea57801e8c9a4325356a4ca5d9f8a99e9ac8e8c6a2c3b66c0e77849f211d89c",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 1432.5,
+      "scrollY": 1779,
+      "width": 1280
+    },
+    "sha256": "61515df7b97186c181a38a302174653cd043cd6a99f69b67a8942fcdb0d08178",
+    "bytes": 124314,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "plain-reference-comparison",
+    "path": "captures/plain-reference-comparison.jpg",
+    "recordedAtUtc": "2026-09-20T02:00:33.505Z",
+    "observationLabel": "plain-reference-comparison",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 2.0943951023931953
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": true,
+    "geometrySha256": "0c65e61e2fd5a5e5b18c329187b2c9dc757761ffc7879a2fbb403d778e65b124",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "exploration",
+    "modelSha256": "0d42ef7995ff10733b989b177c4ac03a51df3ab5aa64579173f5766aec6eafdd",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 0,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1,
+      "kind": "inside",
+      "point": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": "venue-hall",
+    "showUnmapped": true,
+    "simulationTimeMs": 0,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      0,
+      0.7071067811865475,
+      0
+    ],
+    "stateSha256": "3ea57801e8c9a4325356a4ca5d9f8a99e9ac8e8c6a2c3b66c0e77849f211d89c",
+    "viewport": {
+      "dpr": 1,
+      "height": 1127,
+      "scrollX": 49,
+      "scrollY": 2319,
+      "width": 1280
+    },
+    "sha256": "5a07aaeb6ebdc2179529919d0355778942e1c1241377ce39c5450015bfcb5de1",
+    "bytes": 155132,
+    "imagePixels": {
+      "width": 1280,
+      "height": 1127
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S6-final-twentyfour",
+    "path": "captures/S6-final-twentyfour.jpg",
+    "recordedAtUtc": "2026-09-20T02:02:02.631Z",
+    "observationLabel": "S6-final-twentyfour",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "8ab5b247c59b026adcd02250924f3348a09f9c8f4a7fd98f5df3da9c46dd542d",
+    "hopfPoint": [
+      1,
+      0,
+      2.2204460492503126e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "ceb99563993c3996418e1ac7e09408067600c9e761a1ec25caaa823a2a4f7961",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 6.283185307179586,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 1.0000000000000002,
+      "kind": "inside",
+      "point": [
+        0.7071067811865475,
+        -1.7319121124709863e-16,
+        0.7071067811865474
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 24000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      0.7071067811865476,
+      -1.7319121124709868e-16,
+      0.7071067811865475,
+      -1.7319121124709863e-16
+    ],
+    "stateSha256": "ef5385c9e641b123440c137a568fedcd581dcf89557a97dffce8b22c7d06daad",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 30,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "30b479f8b65080bfcfcd6a8966e49dbde54da1ccf090a925094ffa926d783108",
+    "bytes": 67949,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "S6-reloaded-six",
+    "path": "captures/S6-reloaded-six.jpg",
+    "recordedAtUtc": "2026-09-20T02:02:06.021Z",
+    "observationLabel": "S6-reloaded-six",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "a68ca1529a3f9745356c281e5eea56e2a283e26530ee6b0728d652adbcbe66ae",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7433b89337451a79cad4a18f8e2c652b8e3fbfdba50b9b4a973235974fbc623c",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0.29289321881345254,
+      "kind": "inside",
+      "point": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.478279455809169e-16
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 6000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      4.329780281177467e-17,
+      0.7071067811865476,
+      4.329780281177466e-17,
+      0.7071067811865475
+    ],
+    "stateSha256": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "sha256": "1d9faac9978bd42f09802406201dc0664e71a9eb2021c3ac725d8dbe5cc8adf6",
+    "bytes": 68888,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  },
+  {
+    "label": "exact-state-inspector",
+    "path": "captures/exact-state-inspector.jpg",
+    "recordedAtUtc": "2026-09-20T02:02:30.602Z",
+    "observationLabel": "exact-state-inspector",
+    "baseId": "east",
+    "basePoint": [
+      1,
+      0,
+      0
+    ],
+    "buildId": "g2-ccabad12693f86a8",
+    "camera": {
+      "pitch": 0.3490658503988659,
+      "yaw": 0.5235987755982988
+    },
+    "chart": "N",
+    "clipping": {
+      "excludedS3Point": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "policy": "split at infinity; clip to R\u00b3 radius 4; no closure across excluded point",
+      "radius": 4
+    },
+    "comparing": false,
+    "geometrySha256": "a68ca1529a3f9745356c281e5eea56e2a283e26530ee6b0728d652adbcbe66ae",
+    "hopfPoint": [
+      1,
+      0,
+      2.220446049250313e-16
+    ],
+    "mappingSha256": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+    "mode": "saved-run",
+    "modelSha256": "7433b89337451a79cad4a18f8e2c652b8e3fbfdba50b9b4a973235974fbc623c",
+    "pathReports": {
+      "back": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "east": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "front": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "north": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-minus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "seam-plus": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      },
+      "south": {
+        "boundaryPoints": 2,
+        "clippedSegments": 16,
+        "infinityBreaks": 2,
+        "renderedSegments": 110
+      },
+      "west": {
+        "boundaryPoints": 0,
+        "clippedSegments": 0,
+        "infinityBreaks": 0,
+        "renderedSegments": 128
+      }
+    },
+    "phase": 1.5707963267948966,
+    "playing": false,
+    "recordHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "recordsSha256": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+    "referenceId": "R_CAPACITY_60",
+    "renderer": "SVG",
+    "representation": {
+      "denominator": 0.29289321881345254,
+      "kind": "inside",
+      "point": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.478279455809169e-16
+      ]
+    },
+    "runId": "G2-HOPF-003",
+    "sampling": {
+      "sampledBaseIds": [
+        "north",
+        "south",
+        "east",
+        "west",
+        "front",
+        "back",
+        "seam-plus",
+        "seam-minus"
+      ],
+      "samplesPerFiber": 128
+    },
+    "selectedRecordId": null,
+    "showUnmapped": false,
+    "simulationTimeMs": 6000,
+    "sourceNorm": 1,
+    "sourcePoint": [
+      4.329780281177467e-17,
+      0.7071067811865476,
+      4.329780281177466e-17,
+      0.7071067811865475
+    ],
+    "stateSha256": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a",
+    "viewport": {
+      "dpr": 1,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1940,
+      "width": 1280
+    },
+    "sha256": "1f83ee3f87bbdfe2794608b1765ee02b44c5ae949eb84dfa447daa32921bc4c9",
+    "bytes": 84480,
+    "imagePixels": {
+      "width": 1280,
+      "height": 720
+    },
+    "originalUntouched": true,
+    "captureReview": "Actual image inspected; refer to browser-observations for state and scope."
+  }
+]

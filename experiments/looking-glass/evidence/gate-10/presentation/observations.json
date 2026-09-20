@@ -1,0 +1,582 @@
+[
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/start-ack-discarded.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/initial-cards.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/natural-tour-end.jpg"
+      }
+    ],
+    "inspector": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Open paused instrument"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/replay-collection.json",
+        "label": "Replay identities and restart commands"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/source-review.md",
+        "label": "Primary-source review"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "label": "Gate 0 · Viewing and replay"
+      },
+      {
+        "href": "http://127.0.0.1:43994/",
+        "label": "Gate 1 · 3D-to-2D calibration"
+      },
+      {
+        "href": "http://127.0.0.1:43995/",
+        "label": "Gate 2 · Hopf and shared reference"
+      },
+      {
+        "href": "http://127.0.0.1:43996/",
+        "label": "Gate 3 · 4D projection"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "label": "Gate 4 · Slices and ambiguity"
+      },
+      {
+        "href": "http://127.0.0.1:43998/",
+        "label": "Gate 5 · Two additional coordinates in 5D"
+      },
+      {
+        "href": "http://127.0.0.1:43999/",
+        "label": "Gate 6 · Connected local models"
+      },
+      {
+        "href": "http://127.0.0.1:44000/",
+        "label": "Gate 7 · Unfamiliar-case interpretation"
+      },
+      {
+        "href": "http://127.0.0.1:44001/",
+        "label": "Gate 8 · Indistinguishable worlds"
+      },
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 · Choose, watch or inspect a sheet"
+      },
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Gate 10 · Prediction UI blocked; tour preserved"
+      }
+    ],
+    "text": "LOOKING GLASS · GATE 10 · CLOSED BROWSER RESULT\nPredict an unseen view and transfer\nBounded negative · Prediction instrument not ready\n\nThe server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.\n\nPreserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495\nSource 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4\n\nOpen paused instrument\nReplay identities and restart commands\nPrimary-source review\n\nThis page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.\n\n0\nCommitted answers, skips or reveals\n1\nUnanswered server attempt retained\n0\nHuman participants or outcomes\nThe first step blocked the intended test\n\nAfter the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.\n\nEarlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.\n\nThe decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.\nWhat the evidence supports\nArea\tObserved result\tLimit\nPrediction and reveal\tFirst attempt accepted by the server; acknowledgement discarded by the page.\tNo completed case, answer, skip, reveal or repeated review in the browser.\nModel and service\tIndependent exact-model checks and 572 isolated HTTP/service checks passed.\tThese checks do not establish a functioning UI.\nPublished state\tAll 65 semantic and 65 ledger payloads match their captured fingerprints.\tFour event-export views publish stale document-height metadata.\nSaved replay\tAll 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.\tCheckpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.\nHuman learning and transfer\tUntested; zero participants.\tSource-informed software actions are not human first-exposure predictions.\n\nClosed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.\n\nWatch the answer-free tour\nOpen the instrument and select Reopen saved start.\nClick Play. Five public task sheets appear at four-second boundaries.\nAt 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.\nUse the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.\nSupplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.\nThe actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.\nPreserved failures and remaining limits\n\nCandidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.\n\nThe browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.\n\nEleven preserved local replays\n\nThese previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.\n\nGate 0 · Viewing and replay\nGate 1 · 3D-to-2D calibration\nGate 2 · Hopf and shared reference\nGate 3 · 4D projection\nGate 4 · Slices and ambiguity\nGate 5 · Two additional coordinates in 5D\nGate 6 · Connected local models\nGate 7 · Unfamiliar-case interpretation\nGate 8 · Indistinguishable worlds\nGate 9 · Choose, watch or inspect a sheet\nGate 10 · Prediction UI blocked; tour preserved\nStop at the review boundary\n\nGate 11 — Break a summary by changing its receiver remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.\n\nAstra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.",
+    "title": "Looking Glass · Gate 10 results",
+    "url": "http://127.0.0.1:44003/review/results.html",
+    "viewport": {
+      "documentHeight": 5055,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "label": "report-wide",
+    "observedAtUtc": "2026-09-20T12:17:55.526Z"
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/start-ack-discarded.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/initial-cards.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/natural-tour-end.jpg"
+      }
+    ],
+    "inspector": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Open paused instrument"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/replay-collection.json",
+        "label": "Replay identities and restart commands"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/source-review.md",
+        "label": "Primary-source review"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "label": "Gate 0 · Viewing and replay"
+      },
+      {
+        "href": "http://127.0.0.1:43994/",
+        "label": "Gate 1 · 3D-to-2D calibration"
+      },
+      {
+        "href": "http://127.0.0.1:43995/",
+        "label": "Gate 2 · Hopf and shared reference"
+      },
+      {
+        "href": "http://127.0.0.1:43996/",
+        "label": "Gate 3 · 4D projection"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "label": "Gate 4 · Slices and ambiguity"
+      },
+      {
+        "href": "http://127.0.0.1:43998/",
+        "label": "Gate 5 · Two additional coordinates in 5D"
+      },
+      {
+        "href": "http://127.0.0.1:43999/",
+        "label": "Gate 6 · Connected local models"
+      },
+      {
+        "href": "http://127.0.0.1:44000/",
+        "label": "Gate 7 · Unfamiliar-case interpretation"
+      },
+      {
+        "href": "http://127.0.0.1:44001/",
+        "label": "Gate 8 · Indistinguishable worlds"
+      },
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 · Choose, watch or inspect a sheet"
+      },
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Gate 10 · Prediction UI blocked; tour preserved"
+      }
+    ],
+    "text": "LOOKING GLASS · GATE 10 · CLOSED BROWSER RESULT\nPredict an unseen view and transfer\nBounded negative · Prediction instrument not ready\n\nThe server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.\n\nPreserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495\nSource 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4\n\nOpen paused instrument\nReplay identities and restart commands\nPrimary-source review\n\nThis page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.\n\n0\nCommitted answers, skips or reveals\n1\nUnanswered server attempt retained\n0\nHuman participants or outcomes\nThe first step blocked the intended test\n\nAfter the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.\n\nEarlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.\n\nThe decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.\nWhat the evidence supports\nArea\tObserved result\tLimit\nPrediction and reveal\tFirst attempt accepted by the server; acknowledgement discarded by the page.\tNo completed case, answer, skip, reveal or repeated review in the browser.\nModel and service\tIndependent exact-model checks and 572 isolated HTTP/service checks passed.\tThese checks do not establish a functioning UI.\nPublished state\tAll 65 semantic and 65 ledger payloads match their captured fingerprints.\tFour event-export views publish stale document-height metadata.\nSaved replay\tAll 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.\tCheckpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.\nHuman learning and transfer\tUntested; zero participants.\tSource-informed software actions are not human first-exposure predictions.\n\nClosed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.\n\nWatch the answer-free tour\nOpen the instrument and select Reopen saved start.\nClick Play. Five public task sheets appear at four-second boundaries.\nAt 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.\nUse the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.\nSupplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.\nThe actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.\nPreserved failures and remaining limits\n\nCandidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.\n\nThe browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.\n\nEleven preserved local replays\n\nThese previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.\n\nGate 0 · Viewing and replay\nGate 1 · 3D-to-2D calibration\nGate 2 · Hopf and shared reference\nGate 3 · 4D projection\nGate 4 · Slices and ambiguity\nGate 5 · Two additional coordinates in 5D\nGate 6 · Connected local models\nGate 7 · Unfamiliar-case interpretation\nGate 8 · Indistinguishable worlds\nGate 9 · Choose, watch or inspect a sheet\nGate 10 · Prediction UI blocked; tour preserved\nStop at the review boundary\n\nGate 11 — Break a summary by changing its receiver remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.\n\nAstra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.",
+    "title": "Looking Glass · Gate 10 results",
+    "url": "http://127.0.0.1:44003/review/results.html",
+    "viewport": {
+      "documentHeight": 4804,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollY": 0,
+      "width": 960
+    },
+    "label": "report-narrow",
+    "observedAtUtc": "2026-09-20T12:17:55.570Z"
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/start-ack-discarded.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/initial-cards.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/natural-tour-end.jpg"
+      }
+    ],
+    "inspector": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Open paused instrument"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/replay-collection.json",
+        "label": "Replay identities and restart commands"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/source-review.md",
+        "label": "Primary-source review"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "label": "Gate 0 · Viewing and replay"
+      },
+      {
+        "href": "http://127.0.0.1:43994/",
+        "label": "Gate 1 · 3D-to-2D calibration"
+      },
+      {
+        "href": "http://127.0.0.1:43995/",
+        "label": "Gate 2 · Hopf and shared reference"
+      },
+      {
+        "href": "http://127.0.0.1:43996/",
+        "label": "Gate 3 · 4D projection"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "label": "Gate 4 · Slices and ambiguity"
+      },
+      {
+        "href": "http://127.0.0.1:43998/",
+        "label": "Gate 5 · Two additional coordinates in 5D"
+      },
+      {
+        "href": "http://127.0.0.1:43999/",
+        "label": "Gate 6 · Connected local models"
+      },
+      {
+        "href": "http://127.0.0.1:44000/",
+        "label": "Gate 7 · Unfamiliar-case interpretation"
+      },
+      {
+        "href": "http://127.0.0.1:44001/",
+        "label": "Gate 8 · Indistinguishable worlds"
+      },
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 · Choose, watch or inspect a sheet"
+      },
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Gate 10 · Prediction UI blocked; tour preserved"
+      }
+    ],
+    "text": "LOOKING GLASS · GATE 10 · CLOSED BROWSER RESULT\nPredict an unseen view and transfer\nBounded negative · Prediction instrument not ready\n\nThe server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.\n\nPreserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495\nSource 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4\n\nOpen paused instrument\nReplay identities and restart commands\nPrimary-source review\n\nThis page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.\n\n0\nCommitted answers, skips or reveals\n1\nUnanswered server attempt retained\n0\nHuman participants or outcomes\nThe first step blocked the intended test\n\nAfter the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.\n\nEarlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.\n\nThe decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.\nWhat the evidence supports\nArea\tObserved result\tLimit\nPrediction and reveal\tFirst attempt accepted by the server; acknowledgement discarded by the page.\tNo completed case, answer, skip, reveal or repeated review in the browser.\nModel and service\tIndependent exact-model checks and 572 isolated HTTP/service checks passed.\tThese checks do not establish a functioning UI.\nPublished state\tAll 65 semantic and 65 ledger payloads match their captured fingerprints.\tFour event-export views publish stale document-height metadata.\nSaved replay\tAll 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.\tCheckpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.\nHuman learning and transfer\tUntested; zero participants.\tSource-informed software actions are not human first-exposure predictions.\n\nClosed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.\n\nWatch the answer-free tour\nOpen the instrument and select Reopen saved start.\nClick Play. Five public task sheets appear at four-second boundaries.\nAt 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.\nUse the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.\nSupplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.\nThe actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.\nPreserved failures and remaining limits\n\nCandidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.\n\nThe browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.\n\nEleven preserved local replays\n\nThese previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.\n\nGate 0 · Viewing and replay\nGate 1 · 3D-to-2D calibration\nGate 2 · Hopf and shared reference\nGate 3 · 4D projection\nGate 4 · Slices and ambiguity\nGate 5 · Two additional coordinates in 5D\nGate 6 · Connected local models\nGate 7 · Unfamiliar-case interpretation\nGate 8 · Indistinguishable worlds\nGate 9 · Choose, watch or inspect a sheet\nGate 10 · Prediction UI blocked; tour preserved\nStop at the review boundary\n\nGate 11 — Break a summary by changing its receiver remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.\n\nAstra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.",
+    "title": "Looking Glass · Gate 10 results",
+    "url": "http://127.0.0.1:44003/review/results.html",
+    "viewport": {
+      "documentHeight": 4804,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollY": 0,
+      "width": 960
+    },
+    "label": "report-narrow-failure-figure",
+    "observedAtUtc": "2026-09-20T12:18:10.040Z"
+  },
+  {
+    "images": [],
+    "inspector": "{\n  \"schema\": \"gate10-published-snapshot-v1\",\n  \"runId\": \"G10-PREDICT-003\",\n  \"buildId\": \"g10-9e34f791d83c1cd7a495\",\n  \"snapshotRevision\": 1,\n  \"semanticPayload\": {\n    \"schema\": \"gate10-semantic-v1\",\n    \"mode\": \"saved-tour\",\n    \"cursorSeconds\": 0,\n    \"paused\": true,\n    \"caseId\": \"T01\",\n    \"practiceOpen\": false,\n    \"practice\": null,\n    \"task\": {\n      \"id\": \"T01\",\n      \"sourceId\": \"G10-ASSESS-P01\",\n      \"family\": \"point4-rotation\",\n      \"category\": \"interpolation\",\n      \"prompt\": \"The same unknown 4D point is observed at 0 and 90 degrees. Predict its raw xyz at am, strictly between those angles.\",\n      \"facts\": [\n        \"The two cards identify the same point P.\",\n        \"The source has four real coordinates and is unchanged between queries.\"\n      ],\n      \"supports\": [\n        {\n          \"id\": \"T01-F1\",\n          \"queryId\": \"a0\",\n          \"pointId\": \"P\",\n          \"xyz\": [\n            \"2\",\n            \"-1\",\n            \"1/2\"\n          ],\n          \"cameraYawDegrees\": 0\n        },\n        {\n          \"id\": \"T01-F2\",\n          \"queryId\": \"a90\",\n          \"pointId\": \"P\",\n          \"xyz\": [\n            \"-1\",\n            \"-1\",\n            \"1/2\"\n          ],\n          \"cameraYawDegrees\": 0\n        }\n      ],\n      \"target\": {\n        \"queryId\": \"am\"\n      },\n      \"options\": [\n        {\n          \"id\": \"O1\",\n          \"label\": \"(2, -1, 1/2)\",\n          \"hypothesis\": {\n            \"kind\": \"unique-point\",\n            \"xyz\": [\n              \"2\",\n              \"-1\",\n              \"1/2\"\n            ]\n          }\n        },\n        {\n          \"id\": \"O2\",\n          \"label\": \"(2/5, -1, 1/2)\",\n          \"hypothesis\": {\n            \"kind\": \"unique-point\",\n            \"xyz\": [\n              \"2/5\",\n              \"-1\",\n              \"1/2\"\n            ]\n          }\n        },\n        {\n          \"id\": \"O3\",\n          \"label\": \"(2, -1, 0)\",\n          \"hypothesis\": {\n            \"kind\": \"unique-point\",\n            \"xyz\": [\n              \"2\",\n              \"-1\",\n              \"0\"\n            ]\n          }\n        },\n        {\n          \"id\": \"O4\",\n          \"label\": \"The supplied observations do not determine one target\",\n          \"hypothesis\": {\n            \"kind\": \"insufficient\"\n          }\n        }\n      ]\n    },\n    \"formulas\": {\n      \"point\": \"q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q.\",\n      \"ball\": \"Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty.\"\n    },\n    \"pointQueries\": [\n      {\n        \"id\": \"a0\",\n        \"label\": \"0 degrees\",\n        \"cos\": \"1\",\n        \"sin\": \"0\"\n      },\n      {\n        \"id\": \"am\",\n        \"label\": \"atan2(4,3), about 53.130102 degrees\",\n        \"cos\": \"3/5\",\n        \"sin\": \"4/5\"\n      },\n      {\n        \"id\": \"a90\",\n        \"label\": \"90 degrees\",\n        \"cos\": \"0\",\n        \"sin\": \"1\"\n      },\n      {\n        \"id\": \"a180\",\n        \"label\": \"180 degrees\",\n        \"cos\": \"-1\",\n        \"sin\": \"0\"\n      }\n    ],\n    \"rendering\": {\n      \"cardWidthCss\": 280,\n      \"cardHeightCss\": 200,\n      \"scaleCssPerUnit\": 50,\n      \"defaultYawDegrees\": 0,\n      \"defaultPitchDegrees\": 20,\n      \"decimalPlaces\": 6,\n      \"autoscale\": false\n    },\n    \"draftOption\": null,\n    \"responsePhase\": \"none\",\n    \"response\": null,\n    \"revealedResult\": null,\n    \"attachedAttempt\": null,\n    \"pendingAction\": null,\n    \"reviewStatus\": \"standard-playback\"\n  },\n  \"semanticFingerprint\": \"1aaa1c172b1a0a8f977e1accb6d86e914eceafd1b9eafdb5f1df00ff64191557\",\n  \"ledgerPayload\": {\n    \"schema\": \"gate10-local-ledger-v1\",\n    \"provenance\": \"source_informed_software\",\n    \"humanEligible\": false,\n    \"firstExposureHumanEligible\": false,\n    \"attempts\": [],\n    \"reviewMetadata\": {\n      \"externalExposure\": \"unknown\",\n      \"humanEligible\": false,\n      \"firstExposureHumanEligible\": false\n    }\n  },\n  \"ledgerFingerprint\": \"84b50f8f2efdbbc46a6aeddecd1666f2a431a654c980e3fefd85197a03478607\",\n  \"viewport\": {\n    \"width\": 960,\n    \"height\": 720,\n    \"scrollX\": 0,\n    \"scrollY\": 0,\n    \"documentWidth\": 960,\n    \"documentHeight\": 1853\n  },\n  \"scene\": {\n    \"cardWidthCss\": 280,\n    \"cardHeightCss\": 200,\n    \"renderedCardCount\": 2,\n    \"cardRects\": [\n      {\n        \"width\": 282,\n        \"height\": 202\n      },\n      {\n        \"width\": 282,\n        \"height\": 202\n      }\n    ],\n    \"caseId\": \"T01\"\n  }\n}",
+    "links": [
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 historical run"
+      }
+    ],
+    "text": "Predict an unseen view and transfer\n\nSource-informed software instrument; no human session or learning outcome\n\nScripted software demonstration — no predictions or reveals\n\nPlay\nPause\nPrevious checkpoint\nNext checkpoint\nCheckpoint \n0\n4\n8\n12\n16\n20\nReplay from start\nReopen saved start\n0.000 s / 20 s\n\nInspect the exact supplied observations and named target query. The target result is withheld. The formulas and answer alternatives are public. Alternatives are hypotheses, not correctness labels. Start a software prediction, select an answer and commit it, or explicitly skip. The service locks the response before any reveal. Reveal result is a separate action. Wrong answers, skips and repeat reviews remain recorded. The saved tour contains no predictions or reveals. Reloading or reviewing a case does not restore naive exposure.\n\nq=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q. Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty.\n\nGate 9 historical run\n\nInspect this case\nCase \nT01 · interpolation\nT02 · unseen-setting\nT03 · same-family-setting\nT04 · changed-family\nT05 · changed-family\nOpen worked practice\nClose worked practice\nHide result / inspect another case\nT01 · interpolation\n\nThe same unknown 4D point is observed at 0 and 90 degrees. Predict its raw xyz at am, strictly between those angles.\n\nThe two cards identify the same point P.\n\nThe source has four real coordinates and is unchanged between queries.\n\nSupport 1: T01-F1\npoint P\n\nraw xyz (2, -1, 1/2) · decimals (2.000000, -1.000000, 0.500000)\n\nSource query a0 · camera yaw 0°, pitch 20°\n\nSupport 2: T01-F2\npoint P\n\nraw xyz (-1, -1, 1/2) · decimals (-1.000000, -1.000000, 0.500000)\n\nSource query a90 · camera yaw 0°, pitch 20°\n\nTarget query\n\nSource query am\n\nTarget result withheld\n\nAnswer alternatives\n\nO1: (2, -1, 1/2)\n\nO2: (2/5, -1, 1/2)\n\nO3: (2, -1, 0)\n\nO4: The supplied observations do not determine one target\n\nStart software prediction\nNew review attempt\n O1: (2, -1, 1/2)\n O2: (2/5, -1, 1/2)\n O3: (2, -1, 0)\n O4: The supplied observations do not determine one target\nCommit answer\nSkip answering\nReveal result\nExport redacted ledger\nExport local event log\nPublished snapshot inspector",
+    "title": "Gate 10 — Predict an unseen view",
+    "url": "http://127.0.0.1:44003/",
+    "viewport": {
+      "documentHeight": 1853,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollY": 0,
+      "width": 960
+    },
+    "label": "report-link-opens-paused-final-build",
+    "observedAtUtc": "2026-09-20T12:18:10.432Z"
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/start-ack-discarded.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/initial-cards.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/natural-tour-end.jpg"
+      }
+    ],
+    "inspector": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Open paused instrument"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/replay-collection.json",
+        "label": "Replay identities and restart commands"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/source-review.md",
+        "label": "Primary-source review"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "label": "Gate 0 · Viewing and replay"
+      },
+      {
+        "href": "http://127.0.0.1:43994/",
+        "label": "Gate 1 · 3D-to-2D calibration"
+      },
+      {
+        "href": "http://127.0.0.1:43995/",
+        "label": "Gate 2 · Hopf and shared reference"
+      },
+      {
+        "href": "http://127.0.0.1:43996/",
+        "label": "Gate 3 · 4D projection"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "label": "Gate 4 · Slices and ambiguity"
+      },
+      {
+        "href": "http://127.0.0.1:43998/",
+        "label": "Gate 5 · Two additional coordinates in 5D"
+      },
+      {
+        "href": "http://127.0.0.1:43999/",
+        "label": "Gate 6 · Connected local models"
+      },
+      {
+        "href": "http://127.0.0.1:44000/",
+        "label": "Gate 7 · Unfamiliar-case interpretation"
+      },
+      {
+        "href": "http://127.0.0.1:44001/",
+        "label": "Gate 8 · Indistinguishable worlds"
+      },
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 · Choose, watch or inspect a sheet"
+      },
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Gate 10 · Prediction UI blocked; tour preserved"
+      }
+    ],
+    "text": "LOOKING GLASS · GATE 10 · CLOSED BROWSER RESULT\nPredict an unseen view and transfer\nBounded negative · Prediction instrument not ready\n\nThe server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.\n\nPreserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495\nSource 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4\n\nOpen paused instrument\nReplay identities and restart commands\nPrimary-source review\n\nThis page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.\n\n0\nCommitted answers, skips or reveals\n1\nUnanswered server attempt retained\n0\nHuman participants or outcomes\nThe first step blocked the intended test\n\nAfter the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.\n\nEarlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.\n\nThe decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.\nWhat the evidence supports\nArea\tObserved result\tLimit\nPrediction and reveal\tFirst attempt accepted by the server; acknowledgement discarded by the page.\tNo completed case, answer, skip, reveal or repeated review in the browser.\nModel and service\tIndependent exact-model checks and 572 isolated HTTP/service checks passed.\tThese checks do not establish a functioning UI.\nPublished state\tAll 65 semantic and 65 ledger payloads match their captured fingerprints.\tFour event-export views publish stale document-height metadata.\nSaved replay\tAll 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.\tCheckpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.\nHuman learning and transfer\tUntested; zero participants.\tSource-informed software actions are not human first-exposure predictions.\n\nClosed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.\n\nWatch the answer-free tour\nOpen the instrument and select Reopen saved start.\nClick Play. Five public task sheets appear at four-second boundaries.\nAt 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.\nUse the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.\nSupplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.\nThe actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.\nPreserved failures and remaining limits\n\nCandidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.\n\nThe browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.\n\nEleven preserved local replays\n\nThese previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.\n\nGate 0 · Viewing and replay\nGate 1 · 3D-to-2D calibration\nGate 2 · Hopf and shared reference\nGate 3 · 4D projection\nGate 4 · Slices and ambiguity\nGate 5 · Two additional coordinates in 5D\nGate 6 · Connected local models\nGate 7 · Unfamiliar-case interpretation\nGate 8 · Indistinguishable worlds\nGate 9 · Choose, watch or inspect a sheet\nGate 10 · Prediction UI blocked; tour preserved\nStop at the review boundary\n\nGate 11 — Break a summary by changing its receiver remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.\n\nAstra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.",
+    "title": "Looking Glass · Gate 10 results",
+    "url": "http://127.0.0.1:44003/review/results.html",
+    "viewport": {
+      "documentHeight": 4804,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollY": 38.5,
+      "width": 960
+    },
+    "label": "return-to-report",
+    "observedAtUtc": "2026-09-20T12:18:10.465Z"
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/start-ack-discarded.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/initial-cards.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/natural-tour-end.jpg"
+      }
+    ],
+    "inspector": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Open paused instrument"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/replay-collection.json",
+        "label": "Replay identities and restart commands"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/source-review.md",
+        "label": "Primary-source review"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "label": "Gate 0 · Viewing and replay"
+      },
+      {
+        "href": "http://127.0.0.1:43994/",
+        "label": "Gate 1 · 3D-to-2D calibration"
+      },
+      {
+        "href": "http://127.0.0.1:43995/",
+        "label": "Gate 2 · Hopf and shared reference"
+      },
+      {
+        "href": "http://127.0.0.1:43996/",
+        "label": "Gate 3 · 4D projection"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "label": "Gate 4 · Slices and ambiguity"
+      },
+      {
+        "href": "http://127.0.0.1:43998/",
+        "label": "Gate 5 · Two additional coordinates in 5D"
+      },
+      {
+        "href": "http://127.0.0.1:43999/",
+        "label": "Gate 6 · Connected local models"
+      },
+      {
+        "href": "http://127.0.0.1:44000/",
+        "label": "Gate 7 · Unfamiliar-case interpretation"
+      },
+      {
+        "href": "http://127.0.0.1:44001/",
+        "label": "Gate 8 · Indistinguishable worlds"
+      },
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 · Choose, watch or inspect a sheet"
+      },
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Gate 10 · Prediction UI blocked; tour preserved"
+      }
+    ],
+    "text": "LOOKING GLASS · GATE 10 · CLOSED BROWSER RESULT\nPredict an unseen view and transfer\nBounded negative · Prediction instrument not ready\n\nThe server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.\n\nPreserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495\nSource 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4\n\nOpen paused instrument\nReplay identities and restart commands\nPrimary-source review\n\nThis page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.\n\n0\nCommitted answers, skips or reveals\n1\nUnanswered server attempt retained\n0\nHuman participants or outcomes\nThe first step blocked the intended test\n\nAfter the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.\n\nEarlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.\n\nThe decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.\nWhat the evidence supports\nArea\tObserved result\tLimit\nPrediction and reveal\tFirst attempt accepted by the server; acknowledgement discarded by the page.\tNo completed case, answer, skip, reveal or repeated review in the browser.\nModel and service\tIndependent exact-model checks and 572 isolated HTTP/service checks passed.\tThese checks do not establish a functioning UI.\nPublished state\tAll 65 semantic and 65 ledger payloads match their captured fingerprints.\tFour event-export views publish stale document-height metadata.\nSaved replay\tAll 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.\tCheckpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.\nHuman learning and transfer\tUntested; zero participants.\tSource-informed software actions are not human first-exposure predictions.\n\nClosed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.\n\nWatch the answer-free tour\nOpen the instrument and select Reopen saved start.\nClick Play. Five public task sheets appear at four-second boundaries.\nAt 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.\nUse the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.\nSupplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.\nThe actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.\nPreserved failures and remaining limits\n\nCandidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.\n\nThe browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.\n\nEleven preserved local replays\n\nThese previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.\n\nGate 0 · Viewing and replay\nGate 1 · 3D-to-2D calibration\nGate 2 · Hopf and shared reference\nGate 3 · 4D projection\nGate 4 · Slices and ambiguity\nGate 5 · Two additional coordinates in 5D\nGate 6 · Connected local models\nGate 7 · Unfamiliar-case interpretation\nGate 8 · Indistinguishable worlds\nGate 9 · Choose, watch or inspect a sheet\nGate 10 · Prediction UI blocked; tour preserved\nStop at the review boundary\n\nGate 11 — Break a summary by changing its receiver remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.\n\nAstra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.",
+    "title": "Looking Glass · Gate 10 results",
+    "url": "http://127.0.0.1:44003/review/results.html",
+    "viewport": {
+      "documentHeight": 5055,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollY": 38.5,
+      "width": 1280
+    },
+    "label": "final-report",
+    "observedAtUtc": "2026-09-20T12:18:10.506Z"
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/start-ack-discarded.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/initial-cards.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "http://127.0.0.1:44003/review/screenshots/natural-tour-end.jpg"
+      }
+    ],
+    "inspector": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Open paused instrument"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/replay-collection.json",
+        "label": "Replay identities and restart commands"
+      },
+      {
+        "href": "http://127.0.0.1:44003/review/source-review.md",
+        "label": "Primary-source review"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "label": "Gate 0 · Viewing and replay"
+      },
+      {
+        "href": "http://127.0.0.1:43994/",
+        "label": "Gate 1 · 3D-to-2D calibration"
+      },
+      {
+        "href": "http://127.0.0.1:43995/",
+        "label": "Gate 2 · Hopf and shared reference"
+      },
+      {
+        "href": "http://127.0.0.1:43996/",
+        "label": "Gate 3 · 4D projection"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "label": "Gate 4 · Slices and ambiguity"
+      },
+      {
+        "href": "http://127.0.0.1:43998/",
+        "label": "Gate 5 · Two additional coordinates in 5D"
+      },
+      {
+        "href": "http://127.0.0.1:43999/",
+        "label": "Gate 6 · Connected local models"
+      },
+      {
+        "href": "http://127.0.0.1:44000/",
+        "label": "Gate 7 · Unfamiliar-case interpretation"
+      },
+      {
+        "href": "http://127.0.0.1:44001/",
+        "label": "Gate 8 · Indistinguishable worlds"
+      },
+      {
+        "href": "http://127.0.0.1:44002/",
+        "label": "Gate 9 · Choose, watch or inspect a sheet"
+      },
+      {
+        "href": "http://127.0.0.1:44003/",
+        "label": "Gate 10 · Prediction UI blocked; tour preserved"
+      }
+    ],
+    "text": "LOOKING GLASS · GATE 10 · CLOSED BROWSER RESULT\nPredict an unseen view and transfer\nBounded negative · Prediction instrument not ready\n\nThe server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.\n\nPreserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495\nSource 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4\n\nOpen paused instrument\nReplay identities and restart commands\nPrimary-source review\n\nThis page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.\n\n0\nCommitted answers, skips or reveals\n1\nUnanswered server attempt retained\n0\nHuman participants or outcomes\nThe first step blocked the intended test\n\nAfter the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.\n\nEarlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.\n\nThe decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.\nWhat the evidence supports\nArea\tObserved result\tLimit\nPrediction and reveal\tFirst attempt accepted by the server; acknowledgement discarded by the page.\tNo completed case, answer, skip, reveal or repeated review in the browser.\nModel and service\tIndependent exact-model checks and 572 isolated HTTP/service checks passed.\tThese checks do not establish a functioning UI.\nPublished state\tAll 65 semantic and 65 ledger payloads match their captured fingerprints.\tFour event-export views publish stale document-height metadata.\nSaved replay\tAll 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.\tCheckpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.\nHuman learning and transfer\tUntested; zero participants.\tSource-informed software actions are not human first-exposure predictions.\n\nClosed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.\n\nWatch the answer-free tour\nOpen the instrument and select Reopen saved start.\nClick Play. Five public task sheets appear at four-second boundaries.\nAt 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.\nUse the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.\nSupplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.\nThe actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.\nPreserved failures and remaining limits\n\nCandidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.\n\nThe browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.\n\nEleven preserved local replays\n\nThese previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.\n\nGate 0 · Viewing and replay\nGate 1 · 3D-to-2D calibration\nGate 2 · Hopf and shared reference\nGate 3 · 4D projection\nGate 4 · Slices and ambiguity\nGate 5 · Two additional coordinates in 5D\nGate 6 · Connected local models\nGate 7 · Unfamiliar-case interpretation\nGate 8 · Indistinguishable worlds\nGate 9 · Choose, watch or inspect a sheet\nGate 10 · Prediction UI blocked; tour preserved\nStop at the review boundary\n\nGate 11 — Break a summary by changing its receiver remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.\n\nAstra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.",
+    "title": "Looking Glass · Gate 10 results",
+    "url": "http://127.0.0.1:44003/review/results.html",
+    "viewport": {
+      "documentHeight": 5055,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollY": 0,
+      "width": 1280
+    },
+    "label": "final-report-settled",
+    "observedAtUtc": "2026-09-20T12:18:24.084Z"
+  }
+]

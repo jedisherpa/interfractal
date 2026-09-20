@@ -1,0 +1,435 @@
+{
+  "schema": "gate11-public-fixture-v1",
+  "fixtureId": "G11-FIXTURE-001",
+  "familyId": "G11-SCANNER-FAMILY-001",
+  "title": "Break a summary by changing its receiver",
+  "scope": "Public finite fictional software benchmark; zero human participants; no real release approval.",
+  "provenance": {
+    "author": "Gate 11 synthetic fixture author; AI-authored",
+    "source": "New Gate 11 fictional records, not revisions of historical gates",
+    "worldSemantics": "Four alternative worlds sharing logical record names; neither temporal changes nor actual participant records"
+  },
+  "worldOrder": [
+    "W00",
+    "W01",
+    "W10",
+    "W11"
+  ],
+  "worlds": [
+    {
+      "id": "W00",
+      "records": {
+        "LOT": {
+          "id": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "paint": "amber"
+        },
+        "CAL": {
+          "id": "CAL",
+          "lotId": "LOT",
+          "status": "expired"
+        },
+        "AUTH": {
+          "id": "AUTH",
+          "lotId": "LOT",
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "id": "W01",
+      "records": {
+        "LOT": {
+          "id": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "paint": "amber"
+        },
+        "CAL": {
+          "id": "CAL",
+          "lotId": "LOT",
+          "status": "expired"
+        },
+        "AUTH": {
+          "id": "AUTH",
+          "lotId": "LOT",
+          "status": "approved"
+        }
+      }
+    },
+    {
+      "id": "W10",
+      "records": {
+        "LOT": {
+          "id": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "paint": "amber"
+        },
+        "CAL": {
+          "id": "CAL",
+          "lotId": "LOT",
+          "status": "current"
+        },
+        "AUTH": {
+          "id": "AUTH",
+          "lotId": "LOT",
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "id": "W11",
+      "records": {
+        "LOT": {
+          "id": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "paint": "amber"
+        },
+        "CAL": {
+          "id": "CAL",
+          "lotId": "LOT",
+          "status": "current"
+        },
+        "AUTH": {
+          "id": "AUTH",
+          "lotId": "LOT",
+          "status": "approved"
+        }
+      }
+    }
+  ],
+  "receivers": [
+    {
+      "id": "R_COUNT",
+      "version": 1,
+      "label": "Count at least four scanners",
+      "minimumUnits": 4,
+      "fullSourceFormula": "LOT.units >= 4",
+      "summaryFormula": "payload.units >= 4"
+    },
+    {
+      "id": "R_RELEASE",
+      "version": 1,
+      "label": "Release under both recorded dependencies",
+      "minimumUnits": 4,
+      "fullSourceFormula": "LOT.units >= 4 AND CAL.status == current AND AUTH.status == approved",
+      "summaryFormula": "Sound partial AND over payload.units and supplied calibration/authorization entries; any supplied negative determines no, both positive determine yes, otherwise insufficient."
+    }
+  ],
+  "statusDomains": {
+    "calibration": [
+      "expired",
+      "current"
+    ],
+    "authorization": [
+      "pending",
+      "approved"
+    ]
+  },
+  "baseSummaryPayload": {
+    "schema": "gate11-receiver-summary-v1",
+    "lotId": "LOT",
+    "assetType": "field-scanner",
+    "units": 4,
+    "sourceRef": {
+      "familyId": "G11-SCANNER-FAMILY-001",
+      "logicalRecordId": "LOT",
+      "fields": [
+        "id",
+        "assetType",
+        "units"
+      ],
+      "dereferenceWithinReceiver": false
+    },
+    "additions": {}
+  },
+  "allowedPayloadKeys": [
+    "schema",
+    "lotId",
+    "assetType",
+    "units",
+    "sourceRef",
+    "additions"
+  ],
+  "forbiddenReceiverInputs": [
+    "worldId",
+    "sourceHash",
+    "familySourceHash",
+    "revisionId",
+    "inspectionEnvelope",
+    "sourceResolver",
+    "fullWorld",
+    "precomputedAnswer"
+  ],
+  "repairMenu": [
+    {
+      "id": "calibration",
+      "bit": 1,
+      "label": "Calibration dependency",
+      "sourceRecord": "CAL",
+      "copy": {
+        "forLot": "lotId",
+        "status": "status"
+      },
+      "sourceRef": {
+        "familyId": "G11-SCANNER-FAMILY-001",
+        "logicalRecordId": "CAL",
+        "fields": [
+          "lotId",
+          "status"
+        ],
+        "dereferenceWithinReceiver": false
+      },
+      "entryKeys": [
+        "forLot",
+        "status",
+        "sourceRef"
+      ],
+      "domain": [
+        "expired",
+        "current"
+      ]
+    },
+    {
+      "id": "authorization",
+      "bit": 2,
+      "label": "Custody authorization dependency",
+      "sourceRecord": "AUTH",
+      "copy": {
+        "forLot": "lotId",
+        "status": "status"
+      },
+      "sourceRef": {
+        "familyId": "G11-SCANNER-FAMILY-001",
+        "logicalRecordId": "AUTH",
+        "fields": [
+          "lotId",
+          "status"
+        ],
+        "dereferenceWithinReceiver": false
+      },
+      "entryKeys": [
+        "forLot",
+        "status",
+        "sourceRef"
+      ],
+      "domain": [
+        "pending",
+        "approved"
+      ]
+    },
+    {
+      "id": "paint",
+      "bit": 4,
+      "label": "Paint color (control field)",
+      "sourceRecord": "LOT",
+      "copy": {
+        "value": "paint"
+      },
+      "sourceRef": {
+        "familyId": "G11-SCANNER-FAMILY-001",
+        "logicalRecordId": "LOT",
+        "fields": [
+          "paint"
+        ],
+        "dereferenceWithinReceiver": false
+      },
+      "entryKeys": [
+        "value",
+        "sourceRef"
+      ],
+      "domain": [
+        "amber"
+      ]
+    }
+  ],
+  "repairRule": {
+    "id": "copy-selected-source-fields",
+    "version": 1,
+    "operation": "Union selected menu entries with parent field set and project all four worlds; no source mutation",
+    "emptySelection": "Create retained unchanged-content revision",
+    "duplicateSelection": "Create retained unchanged-content revision if no effective additions",
+    "unknownSelection": "Reject without model change",
+    "minimalityCost": "Count distinct menu entries; not bytes or nested sourceRef keys"
+  },
+  "inspectionEnvelopeRule": {
+    "passedToReceiver": false,
+    "fields": [
+      "worldId",
+      "fullSourceHash",
+      "sourceRecordFieldPaths",
+      "projectionRule",
+      "revisionId",
+      "originEventReference"
+    ],
+    "sourceHashPayload": "Canonical JSON of the world records object",
+    "familyHashPayload": "Canonical JSON of the full ordered fixture worlds array",
+    "logicalReferenceResolution": "Resolve against explicitly selected world only in full-source inspection; never in the receiver evaluator"
+  },
+  "wrongShortcut": {
+    "id": "old-count-answer-as-release",
+    "label": "Wrong shortcut / not the receiver evaluator",
+    "formula": "Return R_COUNT(fullWorld) as if it were R_RELEASE(fullWorld)",
+    "role": "Public counterexample to silently reusing the old answer; never used by sound evaluator"
+  },
+  "representations": [
+    "diagram",
+    "plain"
+  ],
+  "relationTypes": [
+    "summarizes",
+    "supplied-to",
+    "depends-on",
+    "sourced-from"
+  ],
+  "initialState": {
+    "mode": "saved-tour",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "representation": "diagram",
+    "worldId": "W11",
+    "receiverId": "R_COUNT",
+    "revisionId": "S0",
+    "repairDraft": [],
+    "witnessPair": null,
+    "fullSourceOpen": false,
+    "certificateOpen": false
+  },
+  "canonicalRevisions": [
+    {
+      "id": "S0",
+      "parentId": null,
+      "fields": [],
+      "provenance": "scripted_demonstration",
+      "creation": "initial-state"
+    },
+    {
+      "id": "S1",
+      "parentId": "S0",
+      "fields": [
+        "calibration"
+      ],
+      "requestedFields": [
+        "calibration"
+      ],
+      "triggerReceiverId": "R_RELEASE",
+      "provenance": "scripted_demonstration",
+      "creation": "canonical-event-at-12"
+    },
+    {
+      "id": "S2",
+      "parentId": "S1",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "requestedFields": [
+        "authorization"
+      ],
+      "triggerReceiverId": "R_RELEASE",
+      "provenance": "scripted_demonstration",
+      "creation": "canonical-event-at-16"
+    }
+  ],
+  "savedTour": {
+    "durationSeconds": 24,
+    "checkpointSeconds": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "provenance": "scripted_demonstration",
+    "events": [
+      {
+        "seconds": 4,
+        "type": "receiver-select",
+        "origin": "replay",
+        "payload": {
+          "receiverId": "R_RELEASE"
+        }
+      },
+      {
+        "seconds": 8,
+        "type": "witness-open",
+        "origin": "replay",
+        "payload": {
+          "pair": [
+            "W10",
+            "W11"
+          ]
+        }
+      },
+      {
+        "seconds": 12,
+        "type": "repair-apply",
+        "origin": "replay",
+        "payload": {
+          "parentId": "S0",
+          "requestedFields": [
+            "calibration"
+          ],
+          "revisionId": "S1"
+        }
+      },
+      {
+        "seconds": 16,
+        "type": "repair-apply",
+        "origin": "replay",
+        "payload": {
+          "parentId": "S1",
+          "requestedFields": [
+            "authorization"
+          ],
+          "revisionId": "S2"
+        }
+      },
+      {
+        "seconds": 20,
+        "type": "representation-select",
+        "origin": "replay",
+        "payload": {
+          "representation": "plain"
+        }
+      },
+      {
+        "seconds": 24,
+        "type": "canonical-restore",
+        "origin": "replay",
+        "payload": {
+          "state": "initial-display",
+          "retainCursorSeconds": 24
+        }
+      },
+      {
+        "seconds": 24,
+        "type": "tour-stop",
+        "origin": "automatic",
+        "payload": {
+          "reason": "end-of-sequence"
+        }
+      }
+    ]
+  },
+  "uiLabels": {
+    "receiverPanel": "Receiver result from supplied payload only",
+    "sourcePanel": "Full-source inspection \u2014 not supplied to receiver",
+    "globalPanel": "Global sufficiency across all four worlds",
+    "repairPanel": "Add fields from the fixed repair menu",
+    "provenancePanel": "Inspection provenance envelope \u2014 outside receiver input",
+    "tour": "Scripted software demonstration; no human detection or repair result"
+  },
+  "rendering": {
+    "recommendedDiagramWidthCss": 720,
+    "recommendedDiagramHeightCss": 300,
+    "responsive": "Wrap controls and allow vertical scrolling; diagram and plain retain all data",
+    "geometrySemantics": "Typed relations only; no distance, dimensional or visual-advantage claim"
+  }
+}

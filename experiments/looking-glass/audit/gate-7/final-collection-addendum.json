@@ -1,0 +1,23 @@
+{
+  "kind": "gate-7-final-collection-addendum",
+  "checkedAtUtc": "2026-09-20T07:16:03Z",
+  "scope": "Read-only HTTP/local byte reconciliation of finalized replay collection only; no full audit rerun.",
+  "priorAuditRecord": {
+    "path": "audit/gate-7/final-checks.json",
+    "sha256": "52eb4526c77e03ac68ae0d6160891a83932e06bfed16fe4e6984c7078d86dd3d",
+    "unchanged": true,
+    "note": "The earlier route check recorded HTTP 200 but no replay-collection body hash; no earlier body hash is inferred."
+  },
+  "localPath": "evidence/gate-7/replay-collection.json",
+  "url": "http://127.0.0.1:44000/review/replay-collection.json",
+  "httpStatus": 200,
+  "cacheControl": "no-store",
+  "bytes": 4838,
+  "localSha256": "fdd7e36b61b87d76e2c371423ef7a5dadccc78795e65601be447413470d7929c",
+  "httpSha256": "fdd7e36b61b87d76e2c371423ef7a5dadccc78795e65601be447413470d7929c",
+  "byteEqual": true,
+  "entryCount": 8,
+  "finalizedAtUtc": "2026-09-20T07:15:36.335375+00:00",
+  "status": "Final eight-gate collection; Gate 7 independent audit passed for the synthetic instrument. No human results or further scope.",
+  "allPassed": true
+}

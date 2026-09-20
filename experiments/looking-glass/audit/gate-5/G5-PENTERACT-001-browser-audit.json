@@ -1,0 +1,3809 @@
+{
+  "kind": "saved-actual-browser-state-svg-audit",
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "observationsChecked": 131,
+  "checks": "fresh metadata, source/raw/screen equations, declared metrics, SVG points/edges, strict slice drawing",
+  "allChecksPassed": true,
+  "observationSummaries": [
+    {
+      "index": 1,
+      "label": "initial-open-paused",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 2,
+      "label": "initial-comparison-capture-before",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 3,
+      "label": "initial-comparison-capture-after",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 4,
+      "label": "T1-reset-overlap",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 5,
+      "label": "T1-inspect-4D",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 6,
+      "label": "T1-inspect-5D",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 7,
+      "label": "T1-overlap-0-0-capture-before",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 8,
+      "label": "T1-overlap-0-0-capture-after",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 9,
+      "label": "T2-start",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 10,
+      "label": "T2-first-source-turn-45-0",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 11,
+      "label": "T2-first-inspect-4D",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 12,
+      "label": "T2-first-inspect-5D",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 13,
+      "label": "T2-first-turn-45-0-capture-before",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 14,
+      "label": "T2-first-turn-45-0-capture-after",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 15,
+      "label": "T2-second-source-turn-45-45",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 16,
+      "label": "T2-second-inspect-4D",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 17,
+      "label": "T2-second-inspect-5D",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 18,
+      "label": "T2-second-turn-45-45-capture-before",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 19,
+      "label": "T2-second-turn-45-45-capture-after",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 20,
+      "label": "camera-only-yaw120",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 21,
+      "label": "camera-restore-yaw30",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "index": 22,
+      "label": "canonical-replay-start",
+      "timeMs": 300,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        0.047123889803846894,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 23,
+      "label": "playback-scroll-top",
+      "timeMs": 600,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        0.0942477796076938,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 24,
+      "label": "active-first-leg-capture-before",
+      "timeMs": 700,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        0.10995574287564276,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 25,
+      "label": "active-first-leg-capture-after",
+      "timeMs": 800,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        0.12566370614359174,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 26,
+      "label": "active-second-leg-capture-before",
+      "timeMs": 17800,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        1.5707963267948966,
+        1.2252211349000195
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        16
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        16
+      ]
+    },
+    {
+      "index": 27,
+      "label": "active-second-leg-capture-after",
+      "timeMs": 18000,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        1.5707963267948966,
+        1.2566370614359172
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        16
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        16
+      ]
+    },
+    {
+      "index": 28,
+      "label": "active-return-leg-capture-before",
+      "timeMs": 28200,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        0.2827433388230814,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 29,
+      "label": "active-return-leg-capture-after",
+      "timeMs": 28300,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        0.2670353755551324,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 30,
+      "label": "natural-auto-end",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 31,
+      "label": "reset-after-natural-end",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 32,
+      "label": "baseline-checkpoint-0",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 33,
+      "label": "baseline-checkpoint-5",
+      "timeMs": 5000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 34,
+      "label": "baseline-checkpoint-10",
+      "timeMs": 10000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 35,
+      "label": "baseline-checkpoint-15",
+      "timeMs": 15000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 36,
+      "label": "baseline-checkpoint-20",
+      "timeMs": 20000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 37,
+      "label": "baseline-checkpoint-25",
+      "timeMs": 25000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 38,
+      "label": "baseline-checkpoint-30",
+      "timeMs": 30000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 39,
+      "label": "baseline-checkpoint-35",
+      "timeMs": 35000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 40,
+      "label": "baseline-checkpoint-40",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 41,
+      "label": "observability-base-rank3",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 42,
+      "label": "observability-xw-only-rank4-negative",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 43,
+      "label": "rank4-v-hidden-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 44,
+      "label": "rank4-v-hidden-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 45,
+      "label": "observability-add-yv-rank5",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 46,
+      "label": "select-source-v11111",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 47,
+      "label": "slice-independent-w-half",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 48,
+      "label": "slice-independent-v-half",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 49,
+      "label": "slice-half-half-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 50,
+      "label": "slice-half-half-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 51,
+      "label": "slice-equal-A",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 52,
+      "label": "slice-equal-A-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 53,
+      "label": "slice-equal-A-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 54,
+      "label": "slice-equal-B",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 55,
+      "label": "slice-equal-B-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 56,
+      "label": "slice-equal-B-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 57,
+      "label": "slice-point-w",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "point",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 58,
+      "label": "slice-point-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "point",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 59,
+      "label": "slice-point-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "point",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 60,
+      "label": "slice-point-v",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "point",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 61,
+      "label": "slice-empty",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 62,
+      "label": "slice-empty-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 63,
+      "label": "slice-empty-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 64,
+      "label": "manual-alpha-before-restore",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.5235987755982988,
+        0
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 65,
+      "label": "manual-beta-before-restore",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.5235987755982988,
+        1.0471975511965976
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        32
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 66,
+      "label": "manual-camera-before-restore",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.5235987755982988,
+        1.0471975511965976
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        32
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 67,
+      "label": "inspector-open-before-restore",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.5235987755982988,
+        1.0471975511965976
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        32
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 68,
+      "label": "inspector-fresh-environment-capture-before",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.5235987755982988,
+        1.0471975511965976
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        32
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 69,
+      "label": "inspector-fresh-environment-capture-after",
+      "timeMs": 40000,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.5235987755982988,
+        1.0471975511965976
+      ],
+      "sliceKind": "empty",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        32
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "markerCollisionPairs": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 70,
+      "label": "repeat-checkpoint-0",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 71,
+      "label": "repeat-checkpoint-5",
+      "timeMs": 5000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 72,
+      "label": "repeat-checkpoint-10",
+      "timeMs": 10000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 73,
+      "label": "repeat-checkpoint-15",
+      "timeMs": 15000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 74,
+      "label": "repeat-checkpoint-20",
+      "timeMs": 20000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 75,
+      "label": "repeat-checkpoint-25",
+      "timeMs": 25000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 76,
+      "label": "repeat-checkpoint-30",
+      "timeMs": 30000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 77,
+      "label": "repeat-checkpoint-35",
+      "timeMs": 35000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 78,
+      "label": "repeat-checkpoint-40",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 79,
+      "label": "step-at-end-clamp",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 80,
+      "label": "seek-input-nongrid",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 81,
+      "label": "seek-nongrid",
+      "timeMs": 8100,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.272345024703866,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 82,
+      "label": "seek-input-low-clamp",
+      "timeMs": 8100,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.272345024703866,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 83,
+      "label": "seek-low-clamp",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 84,
+      "label": "seek-input-high-clamp",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 85,
+      "label": "seek-high-clamp",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 86,
+      "label": "reset-for-step",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 87,
+      "label": "step-from-zero",
+      "timeMs": 1000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.15707963267948966,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        16,
+        16
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        0,
+        16
+      ]
+    },
+    {
+      "index": 88,
+      "label": "scrub-to-12300",
+      "timeMs": 12300,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.36128315516282616
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        16
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        16
+      ]
+    },
+    {
+      "index": 89,
+      "label": "play-resume-for-pause",
+      "timeMs": 12700,
+      "mode": "saved-run",
+      "playing": true,
+      "angles": [
+        1.5707963267948966,
+        0.4241150082346221
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        16
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        16
+      ]
+    },
+    {
+      "index": 90,
+      "label": "manual-pause",
+      "timeMs": 12900,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.45553093477052
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        16
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        16
+      ]
+    },
+    {
+      "index": 91,
+      "label": "manual-pause-held",
+      "timeMs": 12900,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.45553093477052
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        16
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        16
+      ]
+    },
+    {
+      "index": 92,
+      "label": "task-before-checkpoint-reset",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 93,
+      "label": "task-angle-before-checkpoint-reset",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 94,
+      "label": "checkpoint-clears-task",
+      "timeMs": 15000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 95,
+      "label": "reopen-saved-run",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 96,
+      "label": "reopen-checkpoint-0",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 97,
+      "label": "reopen-checkpoint-5",
+      "timeMs": 5000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 98,
+      "label": "reopen-checkpoint-10",
+      "timeMs": 10000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 99,
+      "label": "reopen-checkpoint-15",
+      "timeMs": 15000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 100,
+      "label": "reopen-checkpoint-20",
+      "timeMs": 20000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 101,
+      "label": "reopen-checkpoint-25",
+      "timeMs": 25000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 102,
+      "label": "reopen-checkpoint-30",
+      "timeMs": 30000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 103,
+      "label": "reopen-checkpoint-35",
+      "timeMs": 35000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 104,
+      "label": "reopen-checkpoint-40",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 105,
+      "label": "reload-saved-run",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 106,
+      "label": "reload-checkpoint-0",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 107,
+      "label": "reload-checkpoint-5",
+      "timeMs": 5000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 108,
+      "label": "reload-checkpoint-10",
+      "timeMs": 10000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 109,
+      "label": "reload-checkpoint-15",
+      "timeMs": 15000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 110,
+      "label": "reload-checkpoint-20",
+      "timeMs": 20000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 111,
+      "label": "reload-checkpoint-25",
+      "timeMs": 25000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0.7853981633974483,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "index": 112,
+      "label": "reload-checkpoint-30",
+      "timeMs": 30000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        1.5707963267948966
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 113,
+      "label": "reload-checkpoint-35",
+      "timeMs": 35000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0.7853981633974483
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        12
+      ],
+      "collapsedEdges": [
+        8,
+        16
+      ],
+      "markerCollisionPairs": [
+        8,
+        32
+      ]
+    },
+    {
+      "index": 114,
+      "label": "reload-checkpoint-40",
+      "timeMs": 40000,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 115,
+      "label": "reset-before-narrow-layout",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 116,
+      "label": "viewport-960x720",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 117,
+      "label": "narrow-scroll-top",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 118,
+      "label": "viewport-960x720-capture-before",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 119,
+      "label": "viewport-960x720-capture-after",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 120,
+      "label": "narrow-inspector-open",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 121,
+      "label": "narrow-inspector-scroll",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 122,
+      "label": "narrow-inspector-capture-before",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 123,
+      "label": "narrow-inspector-capture-after",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 124,
+      "label": "history-open-gate4",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 125,
+      "label": "history-open-gate3",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 126,
+      "label": "viewport-restored-1280x720",
+      "timeMs": 0,
+      "mode": "exploration",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 127,
+      "label": "final-core-reset",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 128,
+      "label": "final-core-scroll-top",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 129,
+      "label": "restored-paused-start-capture-before",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 130,
+      "label": "restored-paused-start-capture-after",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "index": 131,
+      "label": "core-final-queue-flushed",
+      "timeMs": 0,
+      "mode": "saved-run",
+      "playing": false,
+      "angles": [
+        0,
+        0
+      ],
+      "sliceKind": "solid",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    }
+  ]
+}

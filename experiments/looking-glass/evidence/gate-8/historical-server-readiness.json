@@ -1,0 +1,54 @@
+{
+  "recordedAtUtc": "2026-09-20T07:49:06.532450+00:00",
+  "method": "Read-only HTTP readiness, not actual browser review",
+  "entries": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "status": 200,
+      "bytes": 4536
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "status": 200,
+      "bytes": 5319
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "status": 200,
+      "bytes": 5787
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "status": 200,
+      "bytes": 7227
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "status": 200,
+      "bytes": 7598
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "status": 200,
+      "bytes": 6152
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "status": 200,
+      "bytes": 5310
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "status": 200,
+      "bytes": 3954
+    }
+  ]
+}

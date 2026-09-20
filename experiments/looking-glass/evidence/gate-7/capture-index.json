@@ -1,0 +1,112 @@
+[
+  {
+    "path": "evidence/gate-7/screenshots/002-initial-paused.jpg",
+    "sha256": "c39cc7bec3cd6abfea4a147b381054338ed4484d7f367ef0b2627e7cf5a1bde4",
+    "bytes": 121182,
+    "before": 3,
+    "after": 4,
+    "recordedAtUtc": "2026-09-20T06:56:45.596Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-static-sheet.jpg",
+    "sha256": "110f42d80f9b42a6e80ef85772baacd25442c8095be6aa124488ae9ad89ee2ed",
+    "bytes": 113908,
+    "before": 9,
+    "after": 10,
+    "recordedAtUtc": "2026-09-20T06:56:46.398Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-selected-frame.jpg",
+    "sha256": "00c75951350435ca79d1cca397a12e3388e16abcd9029a022249953da6aad8e5",
+    "bytes": 83217,
+    "before": 48,
+    "after": 49,
+    "recordedAtUtc": "2026-09-20T06:58:30.344Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-slice-sheet.jpg",
+    "sha256": "b4305f07e1314d2a95bf6d455214f2e2ac8aef732fb1f1500a62150eb6e55af8",
+    "bytes": 118972,
+    "before": 62,
+    "after": 63,
+    "recordedAtUtc": "2026-09-20T07:02:35.669Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-plain-960.jpg",
+    "sha256": "3678557a0293acb9d185a3b0802968fae71841a83beaa0d031316ddde96447c5",
+    "bytes": 98288,
+    "before": 84,
+    "after": 85,
+    "recordedAtUtc": "2026-09-20T07:03:02.609Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-contexts-960.jpg",
+    "sha256": "000aa5d7fa5799e23c9f3024bff079b8e92269ff1ebba79dc97d90678af004b4",
+    "bytes": 109386,
+    "before": 88,
+    "after": 89,
+    "recordedAtUtc": "2026-09-20T07:03:03.115Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-inspector-960.jpg",
+    "sha256": "80cf13f93040c725cd26f118f89d17faaca4908f0ad92b108c1e33da94f3fc9d",
+    "bytes": 94264,
+    "before": 94,
+    "after": 95,
+    "recordedAtUtc": "2026-09-20T07:03:04.013Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-context-records-960.jpg",
+    "sha256": "3a5112c6ad67bd15cfa5f9fb08a3b8238f7de49dbf08dd92dfa4210e4f74c5f5",
+    "bytes": 101632,
+    "before": 98,
+    "after": 99,
+    "recordedAtUtc": "2026-09-20T07:03:15.352Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-plain-records-960.jpg",
+    "sha256": "47f71426d15954f43fdeee2b6097e203570cf2af3ddb6fac35f87b5261def73d",
+    "bytes": 91597,
+    "before": 104,
+    "after": 105,
+    "recordedAtUtc": "2026-09-20T07:03:16.284Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-tour-active.jpg",
+    "sha256": "d92c020bb1cd907af2b6db4bf726044e546d446d27cfb50034cf3d6014181d8d",
+    "bytes": 123482,
+    "before": 198,
+    "after": 199,
+    "recordedAtUtc": "2026-09-20T07:04:18.687Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-final-paused.jpg",
+    "sha256": "7e18f8ae332104f3c93599ee0679e8c1ef3c8cd6bebad7d85659b24aa414650b",
+    "bytes": 103320,
+    "before": 212,
+    "after": 213,
+    "recordedAtUtc": "2026-09-20T07:05:44.621Z",
+    "runId": "G7-INTERPRET-002",
+    "buildId": "g7-90e64952eb028069"
+  }
+]

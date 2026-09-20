@@ -1,0 +1,12 @@
+{
+  "kind": "gate-6-independent-closed-core-integrity",
+  "runId": "G6-LOCAL-003",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "fileCount": 15,
+  "observations": 105,
+  "rootActions": 83,
+  "captures": 8,
+  "observedEvents": 78,
+  "sessions": 3,
+  "checksPassed": true
+}

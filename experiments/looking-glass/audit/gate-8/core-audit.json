@@ -1,0 +1,23 @@
+{
+  "kind": "gate8-independent-closed-core-audit",
+  "status": "PASS",
+  "coreSha256": "2ec12a77e41c2d3ce05ca77e79c1f37aac2e89a105e2060e1012ddaf447adcbf",
+  "pinnedFiles": 25,
+  "observations": 197,
+  "successfulActions": 83,
+  "originalCaptures": 14,
+  "checkpoints": 36,
+  "activityRows": 79,
+  "continuousReplayElapsedMs": 32020,
+  "historicalGate7Link": "opened paused correct run/build",
+  "consoleEntries": 0,
+  "first960Capture": [
+    960,
+    540
+  ],
+  "settled960Capture": [
+    960,
+    720
+  ],
+  "failedAcquisitionPreserved": true
+}

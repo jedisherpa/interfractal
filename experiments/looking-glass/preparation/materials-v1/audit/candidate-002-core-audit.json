@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "materials-candidate-core-audit/2",
+  "candidate": "package-candidate-002",
+  "verdict": "BLOCKED_FOR_MATERIALS_ACCEPTANCE",
+  "manifestSha256": "55b0b2c2524ac50e5c12e46f56762b86fc802b15d86eb8fba4571bd2547b5d23",
+  "positiveChecks": {
+    "package": "69 files / 68 root manifest entries, exact bytes and four six-card/eight-task participant scopes",
+    "designInputPins": "all DESIGN_FREEZE and SOURCE_TASK_FREEZE entries matched",
+    "candidate001Freeze": "109/109 entries unchanged",
+    "priorGuardRegressionProbes": "17/17 expected outcomes",
+    "postInitialPhaseProbes": "5/5 expected outcomes, including valid union/revised/final synthetic shapes",
+    "previewRoutes": "14/14 exact allowlist and denial probes",
+    "actualPreview": "14 observations / 252 exact source records, seven completed tool calls, three original JPEG pins and visual inspections, console empty; qualified action behavior"
+  },
+  "blocker": {
+    "id": "public-rule-masquerades-as-typed-attestation",
+    "source": "package-candidate-002/builder-tooling/snapshot-contract.mjs",
+    "reproduction": "audit/attestation-probes-002.json",
+    "count": "4/4 invalid rule-only supported attestation interpretations accepted",
+    "predicates": ["understands", "endorses", "resource_commitment", "model_attributes_endorsement"],
+    "cause": "checkClaimId admits public rules, and the attestation loop skips IDs absent from the claims map, so a rule-only support ID produces supported status without a typed source claim.",
+    "minimalCorrection": "For literal interpretation records, each positive or negative attestation witness must include an actual supplied source claim with matching predicate, directed argument roles, boolean polarity and evidence kind. A public rule may accompany but cannot replace the source claim. This does not require deriving every task answer in validation. R05's quantity >= request is a separate derived task/readiness judgment."
+  },
+  "browserQualification": "The first completed mouse click did not open C04; the next action labeled close actually opened it. Later keyboard and mouse transitions succeeded. Seven tool completions comprise five intent-matching outcomes and two mismatches. Viewport shifted 1280x720 to 1279x904 for unknown cause; no horizontal overflow was observed.",
+  "scope": "Finite authored materials and software structure only; no agent research outputs, human participants or Gate14. A transfer response schema/validator, executable comparator/scoring integration and full provenance-sufficiency review remain broader preparation work. Actual model/version/context/tool isolation preflight belongs to future authorized launch.",
+  "artifacts": ["audit/package-verification-002.json", "audit/snapshot-guard-probes-002.json", "audit/phase-probes-002.json", "audit/preview-routes-002.json", "audit/browser-verification-002.json", "audit/attestation-probes-002.json"]
+}

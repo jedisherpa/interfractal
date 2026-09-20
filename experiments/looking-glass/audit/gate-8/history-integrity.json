@@ -1,0 +1,56 @@
+{
+  "kind": "gate8-independent-history-integrity",
+  "revision": "cbb32394e741bcaab78a0970a0905236c706d33e",
+  "entriesVerified": 979,
+  "allUnchanged": true,
+  "gates": [
+    {
+      "gate": 0,
+      "manifestSha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+      "entries": 61,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 1,
+      "manifestSha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+      "entries": 95,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 2,
+      "manifestSha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+      "entries": 120,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 3,
+      "manifestSha256": "1ddc109fa40fe4bf091fa90903ebb96d0d6c48d822f7158420084694d5f28edf",
+      "entries": 139,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 4,
+      "manifestSha256": "2c91c1c5eccaca75f44f3c29dd32d7797a02bbc45f4538e007ac390fc69b1ee9",
+      "entries": 141,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 5,
+      "manifestSha256": "fa7fb2f90ae5494e5e736ee868fc8823ece13f1b297b7d040086b6652c25dd03",
+      "entries": 112,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 6,
+      "manifestSha256": "27f4f63245fe0a0c9e11b3740337463dede62e31669468e5b371fc6b4e2e5492",
+      "entries": 204,
+      "workingTreeAndHeadAgree": true
+    },
+    {
+      "gate": 7,
+      "manifestSha256": "7e33339de2a492f909d04f8c78602bd1461869319df8f6a017692f4780fc946c",
+      "entries": 107,
+      "workingTreeAndHeadAgree": true
+    }
+  ]
+}

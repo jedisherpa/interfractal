@@ -1,0 +1,58 @@
+{
+  "schema": "looking-glass-gate-1-build-audit-v1",
+  "generatedAtUtc": "2026-09-20T01:13:36.871Z",
+  "scope": "Exact preserved build/run bytes and independent numeric expectations; browser observations audited separately",
+  "runId": "G1-CUBE-003",
+  "buildId": "g1-9dce1c2b9c2b3be4",
+  "sourceSha256": "9dce1c2b9c2b3be42e5597e0c666e499d7e0cd8d8ec05d9dac7ad66f72fb7c61",
+  "canonicalFiles": [
+    {
+      "path": "calibration/runs/G1-CUBE-003/run.json",
+      "sha256": "fe7c8159381f54083c4e21f5feda484059f736920338904fc5788fc6b0e93a2d"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/initial-state.json",
+      "sha256": "74fbd2676183c3ef22b2fd95c98d5e0616059c628aa23d63ca4414003b2c8686"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/events.jsonl",
+      "sha256": "e77791a2aea8281ba4443ae85fe61b5b914b70d96f3dc4c170b64d61f36584b4"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/checkpoints.json",
+      "sha256": "0a94994009fd037c79b51c438d4460ea7f6568685f5309cbd8f525f7a83e6be0"
+    }
+  ],
+  "checks": [
+    {
+      "name": "build manifest identifies exact immutable source bytes",
+      "status": "pass"
+    },
+    {
+      "name": "all 61 frozen Gate 0 files retain their hashes",
+      "status": "pass"
+    },
+    {
+      "name": "source graph and canonical fixture identity",
+      "status": "pass"
+    },
+    {
+      "name": "canonical fixture state hashes and all five prespecified checkpoints",
+      "status": "pass"
+    },
+    {
+      "name": "initial state and planned events are labeled fixture, not browser evidence",
+      "status": "pass"
+    },
+    {
+      "name": "exact snapshot: inverse and off-checkpoint camera/source interventions",
+      "status": "pass"
+    },
+    {
+      "name": "fixed orthographic pane mapping and simulation clamping",
+      "status": "pass"
+    }
+  ],
+  "passed": 7,
+  "failed": 0
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "execution-proposal/1",
+  "status": "PROPOSED_NOT_RATIFIED_NOT_EXECUTED",
+  "scope": "Preparation only; no research model calls or human collection authorized",
+  "modelProposal": {
+    "participantModelId": "gpt-5.6-sol",
+    "reasoningEffort": "high",
+    "allResearchSolversSameModel": true,
+    "actualVersion": "must be resolved and frozen at future launch",
+    "temperature": "omit unless supported and prospectively fixed",
+    "seed": "omit unless supported; absence is not deterministic inference",
+    "tools": [],
+    "network": false,
+    "minimumContextTokens": 65536,
+    "responseMode": "one JSON snapshot; raw response always retained"
+  },
+  "isolation": {
+    "required": "Fresh model context with exact serialized allowlisted input and no tools/network, or independently verified restricted runner",
+    "failClosed": [
+      "unexpected file access",
+      "peer/union/key/withheld initial exposure",
+      "unverifiable actual model/version/settings",
+      "input plus output reserve exceeds context",
+      "runner cannot enforce tool/network restriction"
+    ],
+    "engineeringBlindAudit": "Procedural blindness only; shared filesystem does not enforce it"
+  },
+  "stages": [
+    {
+      "id": "I",
+      "name": "independent initial",
+      "calls": 4,
+      "maxGeneratedTokensPerCall": 4096,
+      "inputs": "own6 cards, common initial prompt/schema, D01-D08",
+      "outputs": "four raw outputs and validated-or-failed immutable initial snapshots"
+    },
+    {
+      "id": "C",
+      "name": "deterministic comparison",
+      "calls": 0,
+      "inputs": "four frozen initial snapshots",
+      "outputs": "aligned plain/visual record; do not retrieve omitted facts silently"
+    },
+    {
+      "id": "E",
+      "name": "bounded exchange",
+      "calls": 4,
+      "maxGeneratedTokensPerCall": 512,
+      "inputs": "all initial snapshots, comparison and full18-card union; one simultaneous challenge per agent, peers cannot see same-round challenges before freeze",
+      "outputs": "four immutable messages, each names at most2 claims, source IDs and proposed corrections; no extra discussion round"
+    },
+    {
+      "id": "R",
+      "name": "revision",
+      "calls": 4,
+      "maxGeneratedTokensPerCall": 4096,
+      "inputs": "own initial snapshot, all4 frozen challenge messages, comparison, full18-card union",
+      "outputs": "one revision per original agent, preserving its initial version and dissent; D01-D10"
+    },
+    {
+      "id": "S",
+      "name": "interactive synthesis",
+      "calls": 1,
+      "maxGeneratedTokensPerCall": 4096,
+      "inputs": "full18-card union, all4 revised snapshots, initial parent links and messages",
+      "outputs": "one source-linked interactive_final artifact; synthesizer is additional computation, not a fifth initial participant"
+    },
+    {
+      "id": "T",
+      "name": "withheld evaluation",
+      "callsPerComparator": 1,
+      "maxGeneratedTokensPerCall": 4096,
+      "inputs": "that comparator final artifact, common rules, identical released withheld tasks; no development raw-source retrieval and no key",
+      "outputs": "one immutable transfer response per comparator"
+    }
+  ],
+  "comparators": [
+    {
+      "id": "POOL",
+      "method": "Deterministic bag union of four frozen initial snapshots; align identical predicate/arguments/source lineage and retain incompatible values, missing scopes and all parent IDs. No new inference, vote, new source retrieval or selection of best initial solver. Transfer evaluator receives this full lossless pool. Scalar readout and pool_conflict policy are fixed in SCORING_AND_ANALYSIS.md; it does not recompute facts across scopes.",
+      "baseGenerationCalls": 4,
+      "baseGeneratedTokenCap": 16384,
+      "transferGeneratedTokenCap": 4096,
+      "attributableTotalCap": 20480,
+      "rawEvidenceAccess": "four private6-card packets initially; pooled reports only later, not omitted union facts"
+    },
+    {
+      "id": "UNION",
+      "method": "One fresh solver gets all18 raw source cards, common rules, schema, D01-D10; independent of quartet outputs. Output cap4096; no artificial evidence truncation.",
+      "baseGenerationCalls": 1,
+      "baseGeneratedTokenCap": 4096,
+      "transferGeneratedTokenCap": 4096,
+      "attributableTotalCap": 8192,
+      "rawEvidenceAccess": "complete18-card union from first call"
+    },
+    {
+      "id": "INTERACTIVE",
+      "method": "I,C,E,R,S then T as specified; source union becomes available at E and is retained thereafter.",
+      "baseGenerationCalls": 13,
+      "baseGeneratedTokenCap": 38912,
+      "transferGeneratedTokenCap": 4096,
+      "attributableTotalCap": 43008,
+      "rawEvidenceAccess": "private6-card packets at I; full18-card union at E/R/S"
+    }
+  ],
+  "accounting": {
+    "uniqueCallsWithoutRetries": 17,
+    "uniqueGeneratedTokenCapWithoutRetries": 55296,
+    "sharedInitialCalls": "POOL and INTERACTIVE reuse the exact same4 initial responses; charge once in total actual cost, and disclose shared16384 cap in each attributable branch",
+    "include": [
+      "all input/output tokens including reused prompts",
+      "reasoning tokens if reported",
+      "cached tokens and billing categories separately",
+      "all attempts/failures/retries",
+      "comparison/parser computation",
+      "retrieval bytes/counts",
+      "wall time and summed solver time",
+      "actual spend only if a later run incurs it"
+    ],
+    "priceProposal": "No spending or current price assumption; record actual provider usage/billing at future execution",
+    "retryRule": "No semantic answer revision after seeing key. A transport failure may retry once with identical input, charged and retained. Parse/schema failure retains output and scores missing required atoms; no unbudgeted repair call.",
+    "contextRule": "Measure actual tokenizer counts before launch. Include complete union/pool/artifact inputs plus reserved output; require <= resolved context limit. If not, refreeze a larger-context proposal or reduce format prospectively; never truncate sources.",
+    "comparability": "Budgets and access differ intentionally and are disclosed. No superiority/interaction causal claim from this demonstration. A matched-information/matched-compute contrast requires a separate prospective design."
+  },
+  "futureRepetitionProposal": {
+    "status": "not executed; requires future launch authorization",
+    "quartets": 12,
+    "allocationSchedules": "Three explicit cyclic rotations, each repeated four times; each quartet contains all four private blocks once, with common anchors.",
+    "analysisUnit": "quartet/replicate, not individual card or repeated anchor",
+    "purpose": "debugging sensitivity, not a powered superiority study; report all outcomes and exact model versions",
+    "rotationMaps": [
+      {
+        "id": "ROT0",
+        "A1": "C03-C06",
+        "A2": "C07-C10",
+        "A3": "C11-C14",
+        "A4": "C15-C18"
+      },
+      {
+        "id": "ROT1",
+        "A1": "C07-C10",
+        "A2": "C11-C14",
+        "A3": "C15-C18",
+        "A4": "C03-C06"
+      },
+      {
+        "id": "ROT2",
+        "A1": "C11-C14",
+        "A2": "C15-C18",
+        "A3": "C03-C06",
+        "A4": "C07-C10"
+      }
+    ],
+    "runOrder": [
+      "ROT0-REP1",
+      "ROT1-REP1",
+      "ROT2-REP1",
+      "ROT0-REP2",
+      "ROT1-REP2",
+      "ROT2-REP2",
+      "ROT0-REP3",
+      "ROT1-REP3",
+      "ROT2-REP3",
+      "ROT0-REP4",
+      "ROT1-REP4",
+      "ROT2-REP4"
+    ],
+    "allocationQualification": "Each schedule assigns every block once; three of four possible rotations are proposed, so per-agent exposure is not fully balanced over all blocks. No general allocation-effect claim."
+  },
+  "launchArtifactsRequired": [
+    "public participant-only input manifests and digests",
+    "researcher private inventory",
+    "exact prompt/config hashes",
+    "isolated runner preflight report",
+    "actual model/version/context resolution",
+    "source/key blind audit disposition",
+    "authorization for future collection"
+  ],
+  "explicitlyNotPerformed": [
+    "four research initial snapshots",
+    "research exchange/revisions",
+    "comparator answer collection",
+    "transfer score collection",
+    "human recruitment or study",
+    "Gate14"
+  ]
+}

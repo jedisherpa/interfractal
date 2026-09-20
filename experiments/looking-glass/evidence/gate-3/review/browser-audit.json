@@ -1,0 +1,185 @@
+{
+  "checkedAtUtc": "2026-09-20T02:59:29.516Z",
+  "runId": "G3-TESSERACT-003",
+  "buildId": "g3-6c31bc16aeca4460",
+  "observationCount": 67,
+  "captureCount": 6,
+  "verifiedCaptures": [
+    {
+      "label": "003-C0-paused-0s",
+      "path": "screenshots/003-C0-paused-0s.jpg",
+      "sha256": "5d32d15a78caf455979f23cc6bc80f5facd4990ac7d80ebe334e7b98fcd6c8d8",
+      "bytes": 99937,
+      "dimensions": {
+        "height": 720,
+        "width": 1239
+      }
+    },
+    {
+      "label": "003-C1-paused-16s",
+      "path": "screenshots/003-C1-paused-16s.jpg",
+      "sha256": "6f6f34760465cce338479f59782957ffed7e7cd3dea1f910f8753f2590e7b593",
+      "bytes": 99356,
+      "dimensions": {
+        "height": 720,
+        "width": 1239
+      }
+    },
+    {
+      "label": "003-C3-observability-comparison",
+      "path": "screenshots/003-C3-observability-comparison.jpg",
+      "sha256": "0e099d43c3e1d821fbefa095bf03c346d8b958e6116129cd4b2cb39684e4e171",
+      "bytes": 127584,
+      "dimensions": {
+        "height": 720,
+        "width": 1239
+      }
+    },
+    {
+      "label": "003-C2-active-reverse",
+      "path": "screenshots/003-C2-active-reverse.jpg",
+      "sha256": "2fdfe14a42989422db6beea8296f024f3b04dd9c6c218118b00743a3d937d624",
+      "bytes": 100699,
+      "dimensions": {
+        "height": 720,
+        "width": 1239
+      }
+    },
+    {
+      "label": "003-replay-natural-end",
+      "path": "screenshots/003-replay-natural-end.jpg",
+      "sha256": "8e38c730906832f78114d47e08c71bfbe7cc3e481474f24fb9d7fb83e26fc00c",
+      "bytes": 100012,
+      "dimensions": {
+        "height": 720,
+        "width": 1239
+      }
+    },
+    {
+      "label": "003-resize-960x720-json",
+      "path": "screenshots/003-resize-960x720-json.jpg",
+      "sha256": "5af349d68759921f2bcce08c1eab14d011b4d27e09403da86aa4109c5d8aeecb",
+      "bytes": 70568,
+      "dimensions": {
+        "height": 720,
+        "width": 960
+      }
+    }
+  ],
+  "pass": true,
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "observations bind exact run/build and actual browser URL",
+      "pass": true,
+      "detail": {
+        "count": 67
+      }
+    },
+    {
+      "name": "every recorded 16-vertex source, 4D rotation, raw 3D shadow and SVG screen position matches independent equations",
+      "pass": true,
+      "detail": {
+        "checkedObservations": 67,
+        "errors": [],
+        "errorCount": 0
+      }
+    },
+    {
+      "name": "fresh viewport, DPR, scene rectangle and bounded page width at each actual observation",
+      "pass": true,
+      "detail": {
+        "checked": 67,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "five actual paused checkpoints match independent A/B distances and projected sites",
+      "pass": true,
+      "detail": [
+        {
+          "timeMs": 0,
+          "pass": true,
+          "count": 16
+        },
+        {
+          "timeMs": 8000,
+          "pass": true,
+          "count": 24
+        },
+        {
+          "timeMs": 16000,
+          "pass": true,
+          "count": 7
+        },
+        {
+          "timeMs": 24000,
+          "pass": true,
+          "count": 1
+        },
+        {
+          "timeMs": 32000,
+          "pass": true,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "actual camera/source controls isolate variables and both 8s restores recover same browser checkpoint hash",
+      "pass": true
+    },
+    {
+      "name": "actual inspector reports rank-three negative cases and rank-four all-16 recovery within tolerance",
+      "pass": true,
+      "detail": {
+        "checked": 67,
+        "errors": []
+      }
+    },
+    {
+      "name": "actual rendered site/list selection preserves both overlapping IDs and a collapsed edge",
+      "pass": true
+    },
+    {
+      "name": "actual pause/step/scrub/end/reverse playback and library/reload recovery behave as declared",
+      "pass": true
+    },
+    {
+      "name": "actual fixed, wide and narrow viewport conditions were observed",
+      "pass": true,
+      "detail": {
+        "sizes": [
+          "1239x720",
+          "1280x720",
+          "1280x900",
+          "960x720"
+        ]
+      }
+    },
+    {
+      "name": "original JPEG captures exist and bind to same run/build/observation; supplied hashes/dimensions match",
+      "pass": true,
+      "detail": {
+        "count": 6,
+        "errors": []
+      }
+    },
+    {
+      "name": "append-only observed events bind run/build and increase per UI session with explicit origins",
+      "pass": true,
+      "detail": {
+        "events": 46,
+        "sessions": 3,
+        "errors": []
+      }
+    },
+    {
+      "name": "automatic end event uses frozen end-of-sequence reason",
+      "pass": true,
+      "detail": {
+        "actualReason": "end-of-sequence"
+      }
+    }
+  ]
+}

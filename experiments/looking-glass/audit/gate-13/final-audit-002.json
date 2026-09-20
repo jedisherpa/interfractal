@@ -1,0 +1,73 @@
+{
+  "schema": "gate13-independent-final-audit-002-v1",
+  "verdict": "PASS_WITHIN_DECLARED_SOFTWARE_SCOPE",
+  "acceptedCandidate": {
+    "runId": "G13-MISLEAD-002",
+    "buildId": "g13-5b8514d97acc3485aabf",
+    "sourceSha256": "5b8514d97acc3485aabfebf21e0ff84f7b38384d6ce8fa43b06a58ff1aafcfda"
+  },
+  "closedCore": {
+    "manifest": "evidence/gate-13/CORE_EVIDENCE_FREEZE_002.json",
+    "manifestSha256": "f6cd344da16e2e8d15ad2cbe21f31c66bdc80a8884f1b6ac0d18aab984d6ab20",
+    "pinsPassed": 138,
+    "pinsTotal": 138
+  },
+  "independentVerifier": {
+    "script": "audit/gate-13/verify-final-core-002.mjs",
+    "result": "audit/gate-13/final-core-verification-002.json",
+    "checksPassed": 26,
+    "checksTotal": 26,
+    "errors": []
+  },
+  "actualBrowserEvidence": {
+    "observations": 108,
+    "semanticAndInformationHashMatches": 108,
+    "viewportAndSceneMatches": 108,
+    "sourceDerivedSvgAndTextMatches": 108,
+    "controlAvailabilityMatches": 108,
+    "designatedCanonicalCheckpointMatches": 18,
+    "diagramPlainInformationParityPairs": 3,
+    "hostActionAttempts": 91,
+    "hostActionsCompleted": 91,
+    "hostActionFailures": 0,
+    "consoleErrors": 0,
+    "untouchedOriginalJpegsHashAndBracketVerified": 5,
+    "untouchedOriginalJpegsVisuallyInspected": 5
+  },
+  "candidate001Regression": {
+    "savedTourInspectionIndices": "18-38, 87-89",
+    "savedTourModeAndScriptedProvenanceRetained": true,
+    "localCheckAndApplyUnavailableAtCanonicalCheckpoints": true,
+    "canonicalVersionControlsSucceededAt12_16_20": true,
+    "freshDocumentCheckpoint20CorrectionAndRecordsSucceeded": true,
+    "freshDocumentLocalStartClearsActiveCanonicalFlags": true,
+    "scriptedDefinitionsNotCopiedIntoPerformedLocalRecords": true,
+    "candidate001FailureFreezePinsUnchanged": 84
+  },
+  "exports": {
+    "firstDocumentEvents": 65,
+    "firstDocumentPerformedChecks": 3,
+    "firstDocumentPerformedCorrections": 2,
+    "firstDocumentCheckReuses": 1,
+    "secondDocumentNaturalPrefixEvents": 15,
+    "secondDocumentFinalEvents": 19,
+    "differentDocumentUuid": true,
+    "secondDocumentPerformedLocalRecords": 0,
+    "naturalScheduledEvents": 7,
+    "naturalElapsedSeconds": 24.002,
+    "allFiveActiveFourSecondWindowsSampled": true,
+    "sameCursorEventPairsChecked": 57,
+    "sameCursorEventPairMismatches": 0
+  },
+  "historicalIntegrity": {
+    "earlierFrozenPinsUnchanged": 1745,
+    "candidate001FailurePinsUnchanged": 84
+  },
+  "qualifications": [
+    "This is a software and actual-browser audit of fictional authored data, not a human belief, persuasion, or learning experiment.",
+    "Public canonical definitions remain available for scripted replay but are not counted as performed local checks or corrections.",
+    "The host called viewport reset before observation 104, which still measured 960x720; observation 107 measured 1280x720. The observations establish visible dimensions, not the browser's internal override state.",
+    "Candidate 001 remains blocked in its separate frozen record; its unrelated completed-click non-transition had no established cause and is not retroactively explained by candidate 002."
+  ],
+  "blockingIssues": []
+}

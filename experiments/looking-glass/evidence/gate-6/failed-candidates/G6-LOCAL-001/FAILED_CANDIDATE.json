@@ -1,0 +1,54 @@
+{
+  "runId": "G6-LOCAL-001",
+  "buildId": "g6-fad414e0f36c3457",
+  "closedAtUtc": "2026-09-20T05:48:34.008378+00:00",
+  "result": "failed visual claim visibility; other checks partial",
+  "failure": "SVG unsupported path/label visibly drawn at claimsOpen=false; preserve original before minimal correction.",
+  "counts": {
+    "observations": 20,
+    "actions": 13,
+    "originalCaptures": 3
+  },
+  "files": [
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-001/browser-observations.json",
+      "sha256": "a3f4470e69e618fc1978fab31d06a146710d3ffc6370b4d6ec2033e3c4181c62",
+      "bytes": 2089421
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-001/capture-index.json",
+      "sha256": "0d920231f0ab9580dd85128b09677469326de9a756c4dac10f9f3feee6648ca1",
+      "bytes": 1675
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-001/console-review.json",
+      "sha256": "c8d38ef8e8481fe6b2b1a9b6d26a1d0978dd2dd93465869f2680835a769dac44",
+      "bytes": 62
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-001/action-trace.json",
+      "sha256": "cb2356069292e89c4f597d42125c495a61282bca6ab51ff025cee2edd885dfcf",
+      "bytes": 4122
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-001/observed-activity.jsonl",
+      "sha256": "1977ecc1b74c3dccbfbea147ff3b74c05f26f512f3fd1e5fefa4051d618729dd",
+      "bytes": 40200
+    },
+    {
+      "path": "evidence/gate-6/screenshots/001-candidate001-repaired-layout.jpg",
+      "sha256": "f623c3f397f00946650629c14226008d04ba7ea3103d2b71a71cd6e5839a50e0",
+      "bytes": 120326
+    },
+    {
+      "path": "evidence/gate-6/screenshots/001-initial-compressed.jpg",
+      "sha256": "461f0f016b5b0cd6ca03bf9653ece35d09860e68673c82e2acc03bd5a4868504",
+      "bytes": 106140
+    },
+    {
+      "path": "evidence/gate-6/screenshots/001-candidate001-plain-narrow.jpg",
+      "sha256": "08b65fc6e3fd630c310bc5895c99ab712fd0d93c12141fc7390182ae66df9ad8",
+      "bytes": 97904
+    }
+  ]
+}

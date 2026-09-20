@@ -1,0 +1,118 @@
+{
+  "schema": "gate13-candidate-002-controlled-canonical-controls-v1",
+  "status": "PASS",
+  "checkCount": 27,
+  "passCount": 27,
+  "errors": [],
+  "checks": [
+    {
+      "name": "CP8 check/apply affordance matches disabled controls",
+      "pass": true
+    },
+    {
+      "name": "CP8 source retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP8 records retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP8 representation retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP12 check/apply affordance matches disabled controls",
+      "pass": true
+    },
+    {
+      "name": "CP12 source retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP12 records retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP12 representation retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP12 Show original retains scripted false check and marker",
+      "pass": true
+    },
+    {
+      "name": "CP12 Show correction restores scripted debrief",
+      "pass": true
+    },
+    {
+      "name": "CP16 check/apply affordance matches disabled controls",
+      "pass": true
+    },
+    {
+      "name": "CP16 source retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP16 records retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP16 representation retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP16 Show original retains scripted false check and marker",
+      "pass": true
+    },
+    {
+      "name": "CP16 Show correction restores scripted debrief",
+      "pass": true
+    },
+    {
+      "name": "CP20 check/apply affordance matches disabled controls",
+      "pass": true
+    },
+    {
+      "name": "CP20 source retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP20 records retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP20 representation retains canonical records and truthful event",
+      "pass": true
+    },
+    {
+      "name": "CP20 enabled Show correction retains scripted debrief",
+      "pass": true
+    },
+    {
+      "name": "invalid representation restores exact semantic state with rejected event",
+      "pass": true
+    },
+    {
+      "name": "invalid case transition rolls back without losing canonical binding",
+      "pass": true
+    },
+    {
+      "name": "model-only forced unavailable correction rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "checkpoint masks older local records while scripted provenance selected",
+      "pass": true
+    },
+    {
+      "name": "scripted inspection does not overwrite older local records",
+      "pass": true
+    },
+    {
+      "name": "explicit local entry rehydrates matching older records",
+      "pass": true
+    }
+  ],
+  "scope": "Controlled DOM handlers from immutable 002; not actual supported-browser evidence."
+}

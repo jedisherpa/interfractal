@@ -1,0 +1,81 @@
+- banner:
+  - heading "Predict an unseen view and transfer" [level=1]
+  - paragraph: Source-informed software instrument; no human session or learning outcome
+  - paragraph: Scripted software demonstration — no predictions or reveals
+- main:
+  - region "Saved tour controls":
+    - button "Play"
+    - button "Pause" [disabled]
+    - button "Previous checkpoint"
+    - button "Next checkpoint"
+    - text: Checkpoint
+    - combobox "Checkpoint":
+      - option "0" [selected]
+      - option "4"
+      - option "8"
+      - option "12"
+      - option "16"
+      - option "20"
+    - button "Replay from start"
+    - button "Reopen saved start"
+    - generic: 0.000 s / 20 s
+  - paragraph: Inspect the exact supplied observations and named target query. The target result is withheld. The formulas and answer alternatives are public. Alternatives are hypotheses, not correctness labels. Start a software prediction, select an answer and commit it, or explicitly skip. The service locks the response before any reveal. Reveal result is a separate action. Wrong answers, skips and repeat reviews remain recorded. The saved tour contains no predictions or reveals. Reloading or reviewing a case does not restore naive exposure.
+  - paragraph: "q=(x,y,z,w); observed xyz=(cos(alpha)*x-sin(alpha)*w,y,z). Each query acts on the original q. Center=(0,0,0,cw), unknown R>=0. At w=s, delta=R^2-(s-cw)^2. delta>0: ball radius sqrt(delta); delta=0: point; delta<0: empty."
+  - paragraph:
+    - link "Gate 9 historical run":
+      - /url: http://127.0.0.1:44002/
+  - region "Local review controls":
+    - button "Inspect this case"
+    - text: Case
+    - combobox "Case":
+      - option "T01 · interpolation" [selected]
+      - option "T02 · unseen-setting"
+      - option "T03 · same-family-setting"
+      - option "T04 · changed-family"
+      - option "T05 · changed-family"
+    - button "Open worked practice"
+    - button "Close worked practice" [disabled]
+    - button "Hide result / inspect another case" [disabled]
+  - heading "T01 · interpolation" [level=2]
+  - paragraph: The same unknown 4D point is observed at 0 and 90 degrees. Predict its raw xyz at am, strictly between those angles.
+  - paragraph: The two cards identify the same point P.
+  - paragraph: The source has four real coordinates and is unchanged between queries.
+  - region "Supplied observations":
+    - article:
+      - 'heading "Support 1: T01-F1" [level=3]'
+      - img "raw xyz (2, -1, 1/2) · decimals (2.000000, -1.000000, 0.500000); camera yaw 0 degrees":
+        - generic: point P
+      - paragraph: raw xyz (2, -1, 1/2) · decimals (2.000000, -1.000000, 0.500000)
+      - paragraph: Source query a0 · camera yaw 0°, pitch 20°
+    - article:
+      - 'heading "Support 2: T01-F2" [level=3]'
+      - img "raw xyz (-1, -1, 1/2) · decimals (-1.000000, -1.000000, 0.500000); camera yaw 0 degrees":
+        - generic: point P
+      - paragraph: raw xyz (-1, -1, 1/2) · decimals (-1.000000, -1.000000, 0.500000)
+      - paragraph: Source query a90 · camera yaw 0°, pitch 20°
+  - region "Target query":
+    - heading "Target query" [level=2]
+    - paragraph: Source query am
+    - paragraph: Target result withheld
+    - heading "Answer alternatives" [level=3]
+    - paragraph: "O1: (2, -1, 1/2)"
+    - paragraph: "O2: (2/5, -1, 1/2)"
+    - paragraph: "O3: (2, -1, 0)"
+    - paragraph: "O4: The supplied observations do not determine one target"
+  - button "Start software prediction" [disabled]
+  - button "New review attempt" [disabled]
+  - 'radio "O1: (2, -1, 1/2)" [disabled]'
+  - text: "O1: (2, -1, 1/2)"
+  - 'radio "O2: (2/5, -1, 1/2)" [disabled]'
+  - text: "O2: (2/5, -1, 1/2)"
+  - 'radio "O3: (2, -1, 0)" [disabled]'
+  - text: "O3: (2, -1, 0)"
+  - 'radio "O4: The supplied observations do not determine one target" [disabled]'
+  - text: "O4: The supplied observations do not determine one target"
+  - button "Commit answer" [disabled]
+  - button "Skip answering" [disabled]
+  - button "Reveal result" [disabled]
+  - button "Export redacted ledger" [disabled]
+  - button "Export local event log" [disabled]
+  - generic "Published snapshot inspector"
+  - status

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "initial-count-summary",
+    "path": "screenshots/initial-count-summary.jpg",
+    "sha256": "cc81ff93b9afee5297c5874bfc0b5cc3e76c41e078a1c1faffdbe4316257ebad",
+    "bytes": 113549,
+    "beforeObservation": 1,
+    "afterObservation": 2,
+    "runId": "G11-RECEIVER-001",
+    "buildId": "g11-4a38606632d77897a06e",
+    "viewport": {
+      "documentHeight": 2173,
+      "documentWidth": 1280,
+      "height": 720,
+      "scene": {
+        "height": 302,
+        "width": 722,
+        "x": 52.1953125,
+        "y": 743.328125
+      },
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    }
+  },
+  {
+    "name": "changed-receiver-witness",
+    "path": "screenshots/changed-receiver-witness.jpg",
+    "sha256": "b446a7cde0fc23da9a4812eebad897bff13c55c5170594c078d7d83dd3705b1c",
+    "bytes": 119637,
+    "beforeObservation": 6,
+    "afterObservation": 7,
+    "runId": "G11-RECEIVER-001",
+    "buildId": "g11-4a38606632d77897a06e",
+    "viewport": {
+      "documentHeight": 2875,
+      "documentWidth": 1280,
+      "height": 720,
+      "scene": {
+        "height": 302,
+        "width": 722,
+        "x": 52.1953125,
+        "y": 743.328125
+      },
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    }
+  },
+  {
+    "name": "minimal-repair-diagram",
+    "path": "screenshots/minimal-repair-diagram.jpg",
+    "sha256": "9c8db539af25bb5e9a986ed4e55536b3ace7d3fe2181b886557c35f4baf74b22",
+    "bytes": 82953,
+    "beforeObservation": 12,
+    "afterObservation": 13,
+    "runId": "G11-RECEIVER-001",
+    "buildId": "g11-4a38606632d77897a06e",
+    "viewport": {
+      "documentHeight": 2975,
+      "documentWidth": 1280,
+      "height": 720,
+      "scene": {
+        "height": 302,
+        "width": 722,
+        "x": 52.1953125,
+        "y": 175.828125
+      },
+      "scrollX": 0,
+      "scrollY": 567.5,
+      "width": 1280
+    }
+  },
+  {
+    "name": "minimal-repair-plain",
+    "path": "screenshots/minimal-repair-plain.jpg",
+    "sha256": "516f85f4e6abff452033ca76ca38fb2a4fb86b1189a50777ac19a512d4550e44",
+    "bytes": 91016,
+    "beforeObservation": 16,
+    "afterObservation": 17,
+    "runId": "G11-RECEIVER-001",
+    "buildId": "g11-4a38606632d77897a06e",
+    "viewport": {
+      "documentHeight": 2831,
+      "documentWidth": 1280,
+      "height": 720,
+      "scene": {
+        "height": 208.15625,
+        "width": 1175.609375,
+        "x": 52.1953125,
+        "y": 175.828125
+      },
+      "scrollX": 0,
+      "scrollY": 567.5,
+      "width": 1280
+    }
+  },
+  {
+    "name": "partial-negative-narrow",
+    "path": "screenshots/partial-negative-narrow.jpg",
+    "sha256": "316f12083b66a04f1864596605b0f6f05e69721cd13efd750207192b3e1b260a",
+    "bytes": 94057,
+    "beforeObservation": 38,
+    "afterObservation": 39,
+    "runId": "G11-RECEIVER-001",
+    "buildId": "g11-4a38606632d77897a06e",
+    "viewport": {
+      "documentHeight": 2744,
+      "documentWidth": 960,
+      "height": 720,
+      "scene": {
+        "height": 302,
+        "width": 722,
+        "x": 28.1953125,
+        "y": 893.140625
+      },
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 960
+    }
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "gate": 9,
+  "recorded_at_utc": "2026-09-20T08:45:44.693615+00:00",
+  "base_commit": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "requested_routing": {
+    "specification_and_synthesis": "GPT-6 Astra xhigh",
+    "primary_source_gathering": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independent_audit": "separate GPT-5.6 Sol high"
+  },
+  "actual_started_workers": [
+    {
+      "task": "/root/g9_astra",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "role": "specification"
+    },
+    {
+      "task": "/root/g9_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high",
+      "role": "source gathering"
+    },
+    {
+      "task": "/root/g9_sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "role": "independent prespec and later implementation audit"
+    },
+    {
+      "task": "/root/g9_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "role": "implementation"
+    },
+    {
+      "task": "/root/g9_astra",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "role": "final synthesis after independent evidence audit"
+    }
+  ],
+  "dispatch_notes": [
+    "First independent-auditor dispatch rejected by agent thread capacity; no auditor work claimed. Will sequence after a worker ends.",
+    "Fresh auditor dispatch and old auditor follow-up also encountered capacity; successful fresh g9_sol_audit dispatch after both specification/source workers completed. No review claimed before successful dispatch.",
+    "Parallel audit preparation follow-up rejected by capacity while builder active; independent implementation audit deferred until candidate handoff."
+  ],
+  "host_role": "Local setup, tool routing, actual browser controls and original evidence preservation; host model not switched through an unsupported tool.",
+  "human_participants": 0,
+  "completed_prebuild_roles": [
+    "Astra specification",
+    "Luna source gathering"
+  ],
+  "updated_at_utc": "2026-09-20T10:07:40.150256+00:00",
+  "prespec_freeze_sha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "candidate_history": [
+    {
+      "runId": "G9-MATCHED-001",
+      "buildId": "g9-313e2af27d02a5a8",
+      "sourceSha256": "313e2af27d02a5a80a9cdb8d09193a9e71eaf9478487486bdd6ab8798fa131fd",
+      "status": "retained; builder self-check found omitted parent trace hash in derivation helper output",
+      "browser_acquisition": "one initial paused DOM observation; no controls or screenshots; preserved separately",
+      "root_server_session": 81699,
+      "server_stopped": true
+    },
+    {
+      "runId": "G9-MATCHED-002",
+      "buildId": "g9-bbf83c60c0a79027",
+      "status": "retained; builder self-check found checkpoint-resumed provenance and direct watch-completion-jump rejection edge cases",
+      "browser_acquisition": "none"
+    },
+    {
+      "runId": "G9-MATCHED-003",
+      "buildId": "g9-15c3bf973fe0c6cd",
+      "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+      "status": "Final frozen qualified software result; independent handoff PASS. No further candidate or Gate10 execution.",
+      "root_server_session": 39214,
+      "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "coreClosureSha256": "2bc665deb66351e70ccd13fc57056365cecb75a2f2e892205fc56f79544dd6d0"
+    }
+  ],
+  "prepackage_review_note": "Candidate003 packaged only after independent prepackage PASS from preserved review-3 bytes. One initial candidate and two corrections retained.",
+  "prepackage_audit_history": [
+    {
+      "report": "audit/gate-9/prepackage-audit.md",
+      "result": "BLOCKED before final003 packaging",
+      "issues": [
+        "stale fingerprints after state replacement",
+        "restored observation lacks declared provenance source",
+        "control-generated trace mislabeled scripted and clock interference",
+        "manual controls orphan running tour",
+        "stale completed export reveals future watch payload"
+      ]
+    },
+    {
+      "stage": "corrected mutable draft003",
+      "builder_report": "local and isolated auditor reproduction PASS; independent rerun pending",
+      "original_failed_audit_preserved": true,
+      "immutable003_created": false,
+      "independent_result": "First correction review still blocked on three lifecycle issues; second correction review PASS, see prepackage-final-audit.md."
+    }
+  ],
+  "publication_target": {
+    "verified_at_utc": "2026-09-20T09:46:54.859657+00:00",
+    "authorization": "Earlier actual user instruction: All right, publish everything to GitHub. Continuing on the existing private research branch.",
+    "remote": "origin",
+    "repository": "jedisherpa/btc-constitutional-learning-collective",
+    "visibility": "PRIVATE",
+    "branch": "codex/looking-glass",
+    "merge": false,
+    "publicDeployment": false,
+    "otherRemotesUntouched": true
+  },
+  "final_independent_verdict": "PASS_WITH_QUALIFICATION",
+  "qualification": {
+    "kind": "active-clock inspector consistency",
+    "mismatching_observation_indices": [
+      219,
+      236,
+      283
+    ],
+    "matching_observations": 304,
+    "total_observations": 307,
+    "completed_endpoints_affected": false,
+    "designated_paused_checkpoints_affected": false,
+    "mechanism": "Likely non-atomic snapshot during clock progression; precise alternate state and mechanism not proven."
+  },
+  "audit_pins": [
+    {
+      "path": "audit/gate-9/AUDIT.md",
+      "sha256": "82565720bb781064989f641344d3b6fe1f2e2d2ce71d8c9d8c116c970dbe592a"
+    },
+    {
+      "path": "audit/gate-9/final-checks.json",
+      "sha256": "1e6958b7aef6371728957bffd068679fc4bac00e65fc283af3d952052aedc7b1"
+    }
+  ],
+  "all_stage_workers_ended": true,
+  "completed_roles": [
+    "Astra specification and final synthesis",
+    "Luna primary-source gathering",
+    "Sol implementation",
+    "Separate Sol independent prespec, prepackage, build, browser, event, history, core and final handoff audits",
+    "Host actual browser acquisition, presentation QA and preservation"
+  ],
+  "final_handoff": {
+    "status": "PASS",
+    "path": "audit/gate-9/handoff-addendum.json",
+    "sha256": "fa72e057816d386336e03b32d3f2f3f9ef7715229fd37d082ac0a1b725a65351",
+    "presentation_review": "evidence/gate-9/presentation-review.json",
+    "presentation_review_sha256": "ad60bf9866198af2887a34cedc41b94c42765b5c5633936ed89e74f6412b1f0d",
+    "separate_presentation_observations": 6,
+    "separate_presentation_originals": 4,
+    "report_tab": 34,
+    "replay_tab": 33,
+    "viewport_override_reset": true,
+    "report_shown_at_top": true
+  },
+  "synthesis_artifacts": [
+    {
+      "path": "evidence/gate-9/GATE_9_PACKET.md",
+      "sha256": "a6384d749539c5bfe72bfddd13cdd6b0ca948365c32c0e051db3597ada372029"
+    },
+    {
+      "path": "evidence/gate-9/results.html",
+      "sha256": "23562a58e68d9daff20eae37b19c34517923f6ae40d4ec16962ed95b72f8ae36"
+    },
+    {
+      "path": "evidence/gate-9/run-evidence.json",
+      "sha256": "7549975d977a47cf68e071690b3e9885699be595e4b4d13298cb24e673a2e3a7"
+    }
+  ]
+}

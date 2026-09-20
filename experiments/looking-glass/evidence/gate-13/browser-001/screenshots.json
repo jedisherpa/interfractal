@@ -1,0 +1,50 @@
+[
+  {
+    "label": "failed-original-version-control",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001/screenshots/failed-original-version-control.jpg",
+    "sha256": "a17482ee2e3e633e7004af56ccf8caff287474c30be530db8afd2af670829ba9",
+    "bytes": 108596,
+    "beforeObservationIndex": 8,
+    "afterObservationIndex": 9
+  },
+  {
+    "label": "true-control-check",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001/screenshots/true-control-check.jpg",
+    "sha256": "8117a57c14fb6569ed30e6789818b9558a64bfad16c84a78fac42f6c21b07f30",
+    "bytes": 72681,
+    "beforeObservationIndex": 29,
+    "afterObservationIndex": 30
+  },
+  {
+    "label": "zero-control-plain-debrief",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001/screenshots/zero-control-plain-debrief.jpg",
+    "sha256": "f4ba06127e8ab761cac165223a222b7a55f3a007b357200f49afcaae951ddd3e",
+    "bytes": 128324,
+    "beforeObservationIndex": 38,
+    "afterObservationIndex": 39
+  },
+  {
+    "label": "misleading-original-retained",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001/screenshots/misleading-original-retained.jpg",
+    "sha256": "846e5b53e3b0a5e8fa5de938a24e3729f02e65c0e0f08f21368b7a5ef05ece5c",
+    "bytes": 65377,
+    "beforeObservationIndex": 45,
+    "afterObservationIndex": 46
+  },
+  {
+    "label": "corrected-count-comparison",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001/screenshots/corrected-count-comparison.jpg",
+    "sha256": "fad9a56e63fd435bd80254dcbdfbff4d126c011452823d243964e0503bb8d7bb",
+    "bytes": 68154,
+    "beforeObservationIndex": 49,
+    "afterObservationIndex": 50
+  },
+  {
+    "label": "plain-correction-and-debrief",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/browser-001/screenshots/plain-correction-and-debrief.jpg",
+    "sha256": "1ecb6f1e28ac51c15176a16a5d73106075cce3eae3dab226f6301fb1f0854fde",
+    "bytes": 110866,
+    "beforeObservationIndex": 53,
+    "afterObservationIndex": 54
+  }
+]

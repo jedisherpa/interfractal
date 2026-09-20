@@ -1,0 +1,34 @@
+{
+  "timeSeconds": 0,
+  "state": {
+    "caseId": "G8-C01",
+    "referenceWorldId": "C01-W01",
+    "selectedAdditionalQueryIds": [],
+    "cameraYawDegrees": 0,
+    "certificateVisible": false,
+    "cursorSeconds": 0,
+    "mode": "saved-replay",
+    "paused": true
+  },
+  "observedBundle": [
+    {
+      "queryId": "project",
+      "observation": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "0",
+          "1/2",
+          "-1/4"
+        ]
+      }
+    }
+  ],
+  "compatibleWorldIds": [
+    "C01-W01",
+    "C01-W02"
+  ],
+  "localPropertyDetermined": false,
+  "semanticFingerprint": "82fe999e5cd217b09720a6ce93cd61440001de4126082a4447983dfb7a645a0a",
+  "informationFingerprint": "eb3c2195c27edc2c042cc1a92992db79f45c9dd92ac5ffddf2eea69f061bdd0b"
+}

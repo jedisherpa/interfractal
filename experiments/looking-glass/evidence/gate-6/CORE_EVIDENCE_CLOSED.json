@@ -1,0 +1,97 @@
+{
+  "gate": 6,
+  "runId": "G6-LOCAL-003",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "closedAtUtc": "2026-09-20T06:06:56.859070+00:00",
+  "status": "Actual final candidate core closed before independent final audit and presentation",
+  "observations": 105,
+  "rootActions": 83,
+  "successfulRootActionCalls": 83,
+  "originalCaptures": 8,
+  "observedEvents": 78,
+  "sessions": {
+    "f26fb375-2202-46b6-bb0f-786330f7ebd9": 61,
+    "6f33b2a0-c3e3-4861-966a-25926e42cf29": 8,
+    "280e88b7-9924-43cd-8203-93843ebacc4c": 9
+  },
+  "finalSimulationTimeMs": 0,
+  "finalPlaying": false,
+  "finalModeText": "PAUSED \u00b7 SAVED RUN",
+  "files": [
+    {
+      "path": "evidence/gate-6/browser-observations.json",
+      "sha256": "a2e11b624e1489f050d503e8e1162302f0a4939fdfa9510f4d9164a992d97c6a",
+      "bytes": 11419377
+    },
+    {
+      "path": "evidence/gate-6/action-trace.json",
+      "sha256": "335936177a28101a26103abddb3ba24cc601aa26807b4ad9778dad07d989aac4",
+      "bytes": 27028
+    },
+    {
+      "path": "evidence/gate-6/capture-index.json",
+      "sha256": "ceade28baeacb2ade17803857df4cf67e1b5e00bf750028f7c0cb626bd2d8845",
+      "bytes": 4824
+    },
+    {
+      "path": "evidence/gate-6/observed-activity.jsonl",
+      "sha256": "afda0644f91c4a4f521551d4745c336b6d976f960235bdea0511636a887ef047",
+      "bytes": 258541
+    },
+    {
+      "path": "evidence/gate-6/historical-ui-review.json",
+      "sha256": "5ebe537ebafc0b207a50f65e98ac80162a4dabe9bfdae9d4ded9b2767d5be04b",
+      "bytes": 29686
+    },
+    {
+      "path": "evidence/gate-6/console-review.json",
+      "sha256": "aefc7cf0302d0cde57e3e79be65af1ab390cd7b678f0662f45df4888f59ae60f",
+      "bytes": 62
+    },
+    {
+      "path": "evidence/gate-6/COLLECTION_NOTES.json",
+      "sha256": "0d382271ae780893d49a3fe30becd936171a32b7f71f88b76c5d921998e8a3e4",
+      "bytes": 898
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-initial-compressed.jpg",
+      "sha256": "6b15a22c6e6abcb90b27585a582f6f3e5f060177f7f578898a7a005a4f58a074",
+      "bytes": 102832
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-source-wrap-960.jpg",
+      "sha256": "7652d1c55ea03f0988858dc01ad47f7f2046f4ba1234a2d8a04693fe76e1c31f",
+      "bytes": 129458
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-shared-evidence-wrap-1280.jpg",
+      "sha256": "abaa5b07f6fc65ad51a25449c8ac7e1126c9f3ed1ac914c3ee2118f6934e79b7",
+      "bytes": 115979
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-graph-dependency-repair.jpg",
+      "sha256": "26172e67e3c744e33b0d22446cc4408828a636fffdf5406d2d0694df3a782ed5",
+      "bytes": 114170
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-plain-dependency-repair.jpg",
+      "sha256": "06799f7b39a45098a0823f12948bb56059c10fe4694a4d82cc98701e1c9c2771",
+      "bytes": 100884
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-requirement-revision-and-alternatives.jpg",
+      "sha256": "2371753865d346e559879b469df46c41160f1cc079808c8744a306876c04558f",
+      "bytes": 123720
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-supported-and-unsupported-links.jpg",
+      "sha256": "8f42225e5a1e73d9b04f1eb66f0f877544eebf4a00845429e4a68d686d9b29a2",
+      "bytes": 113981
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-active-replay.jpg",
+      "sha256": "5ba624ebb3c90836e8dea6cc13e546c0c55e109fe5a7b970d26b1603b0a57b2b",
+      "bytes": 120845
+    }
+  ]
+}

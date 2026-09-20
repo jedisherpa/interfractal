@@ -1,0 +1,33 @@
+{
+  "state": {
+    "mode": "saved-tour",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "representation": "diagram",
+    "assignmentId": "BASE",
+    "scenarioId": "ALL",
+    "recordedGroups": [],
+    "currentOutcomeId": null,
+    "inspectedOutcomeId": null,
+    "sourceInspectorOpen": false,
+    "recordInspectorOpen": false
+  },
+  "payload": {
+    "schema": "gate12-semantic-v1",
+    "mode": "saved-tour",
+    "representation": "diagram",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "assignmentId": "BASE",
+    "scenarioId": "ALL",
+    "recordedGroups": [],
+    "proposals": {},
+    "currentOutcome": null,
+    "inspectedOutcome": null,
+    "sourceInspectorOpen": false,
+    "recordInspectorOpen": false
+  },
+  "semanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5"
+}

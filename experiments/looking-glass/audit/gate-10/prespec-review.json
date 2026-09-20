@@ -1,0 +1,246 @@
+{
+  "schema": "gate10-prespec-independent-review-v1",
+  "status": "PASS",
+  "inputFiles": [
+    {
+      "path": "docs/gate-10/experiment-charter.md",
+      "sha256": "af970be7b9de20447d72b2f4e65b1808b76c34d0eea7f66e921a435570cc6706",
+      "bytes": 7158
+    },
+    {
+      "path": "docs/gate-10/model-contract.md",
+      "sha256": "1e8e8624b85577469b89d2f55305121801eea4cbe05b27b2dac630895fe9c6da",
+      "bytes": 15199
+    },
+    {
+      "path": "docs/gate-10/record-contract.md",
+      "sha256": "82d42e74ee80872cd827e85c2b275d03b3ba8b2145da7df2e409426afe15a9b8",
+      "bytes": 12349
+    },
+    {
+      "path": "docs/gate-10/fixture.json",
+      "sha256": "729902887d4a51ac522831f7baf17f8a905422fa6d7aa51f14d81e4565bf089e",
+      "bytes": 8718
+    },
+    {
+      "path": "docs/gate-10/private-answer-key.json",
+      "sha256": "4efe69a6f9af01fd7023c59e927d00c833af8c5ca4ee66a8c0dafde7f7c59938",
+      "bytes": 2968
+    },
+    {
+      "path": "docs/gate-10/independent-predictions.json",
+      "sha256": "23f4177fd0ad5a01ea41f5e3207fc35d88964e4c2df5cfe26667deecb87527ad",
+      "bytes": 6403
+    }
+  ],
+  "checkCount": 98,
+  "practice": {
+    "source": [
+      "1",
+      "0",
+      "0",
+      "-1"
+    ],
+    "supports": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "target": [
+      "7/5",
+      "0",
+      "0"
+    ]
+  },
+  "cases": [
+    {
+      "caseId": "T01",
+      "family": "point4-rotation",
+      "source": [
+        "2",
+        "-1",
+        "1/2",
+        "1"
+      ],
+      "supportRank": 4,
+      "target": {
+        "kind": "unique-point",
+        "xyz": [
+          "2/5",
+          "-1",
+          "1/2"
+        ]
+      },
+      "expectedOptionId": "O2"
+    },
+    {
+      "caseId": "T02",
+      "family": "point4-rotation",
+      "source": [
+        "-3/2",
+        "1/4",
+        "-1",
+        "1/2"
+      ],
+      "supportRank": 4,
+      "target": {
+        "kind": "unique-point",
+        "xyz": [
+          "3/2",
+          "1/4",
+          "-1"
+        ]
+      },
+      "expectedOptionId": "O1"
+    },
+    {
+      "caseId": "T03",
+      "family": "point4-rotation",
+      "sourceClass": [
+        [
+          "1/3",
+          "2/3",
+          "-1/3",
+          "-2"
+        ],
+        [
+          "1/3",
+          "2/3",
+          "-1/3",
+          "2"
+        ]
+      ],
+      "supportRank": 3,
+      "target": {
+        "kind": "point-set",
+        "points": [
+          [
+            "-2",
+            "2/3",
+            "-1/3"
+          ],
+          [
+            "2",
+            "2/3",
+            "-1/3"
+          ]
+        ],
+        "unique": false
+      },
+      "expectedOptionId": "O4"
+    },
+    {
+      "caseId": "T04",
+      "family": "ball4-slice",
+      "centerW": "1/2",
+      "radiusSquared": "25/16",
+      "target": {
+        "kind": "point",
+        "center": [
+          "0",
+          "0",
+          "0"
+        ],
+        "delta": "0",
+        "radiusSquared": "0",
+        "radius": "0"
+      },
+      "expectedOptionId": "O3"
+    },
+    {
+      "caseId": "T05",
+      "family": "ball4-slice",
+      "centerW": "-1/2",
+      "radiusSquared": "1",
+      "target": {
+        "kind": "empty",
+        "center": null,
+        "delta": "-5/4",
+        "radiusSquared": null,
+        "radius": null
+      },
+      "expectedOptionId": "O4"
+    }
+  ],
+  "browserRecipeGrades": [
+    "incorrect",
+    "correct",
+    "correct",
+    null,
+    "correct"
+  ],
+  "canonicalCheckpoints": [
+    {
+      "seconds": 0,
+      "caseId": "T01"
+    },
+    {
+      "seconds": 4,
+      "caseId": "T02"
+    },
+    {
+      "seconds": 8,
+      "caseId": "T03"
+    },
+    {
+      "seconds": 12,
+      "caseId": "T04"
+    },
+    {
+      "seconds": 16,
+      "caseId": "T05"
+    },
+    {
+      "seconds": 20,
+      "caseId": "T01"
+    }
+  ],
+  "canonicalScheduledEvents": [
+    {
+      "seconds": 4,
+      "type": "case-select",
+      "caseId": "T02",
+      "origin": "replay"
+    },
+    {
+      "seconds": 8,
+      "type": "case-select",
+      "caseId": "T03",
+      "origin": "replay"
+    },
+    {
+      "seconds": 12,
+      "type": "case-select",
+      "caseId": "T04",
+      "origin": "replay"
+    },
+    {
+      "seconds": 16,
+      "type": "case-select",
+      "caseId": "T05",
+      "origin": "replay"
+    },
+    {
+      "seconds": 20,
+      "type": "case-select",
+      "caseId": "T01",
+      "origin": "replay"
+    },
+    {
+      "seconds": 20,
+      "type": "tour-stop",
+      "origin": "automatic",
+      "reason": "end-of-sequence"
+    }
+  ],
+  "errors": [],
+  "implementationOrBrowserClaim": false,
+  "humanOutcome": "untested"
+}

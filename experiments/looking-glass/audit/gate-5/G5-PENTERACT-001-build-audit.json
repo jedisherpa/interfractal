@@ -1,0 +1,15 @@
+{
+  "kind": "immutable-build-run-audit",
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "sourceSha256": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "prespecFreezeSha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+  "prespecFilesVerified": 4,
+  "sourceFilesVerified": 8,
+  "checkpointsVerified": 9,
+  "observationCasesVerified": 33,
+  "sliceCasesVerified": 19,
+  "plannedEvents": 11,
+  "allChecksPassed": true,
+  "scope": "Exact bytes and generated records; actual browser behavior audited separately"
+}

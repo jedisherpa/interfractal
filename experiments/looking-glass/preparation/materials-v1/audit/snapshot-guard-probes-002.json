@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "materials-candidate-002-guard-probes/1",
+  "status": "PASS",
+  "candidate": "002",
+  "count": 17,
+  "results": [
+    {
+      "name": "valid initial fixture",
+      "shouldAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "union phase with six cards/eight tasks",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "suppliedCardIds must exactly match trusted context card allowlist",
+        "union taskResponses must contain each phase-required task exactly once"
+      ]
+    },
+    {
+      "name": "A4 identity over A1 packet",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "agentId differs from trusted expected context"
+      ]
+    },
+    {
+      "name": "A4 expected identity over A1 packet",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "initial agentId/cardIds differ from authored allocation"
+      ]
+    },
+    {
+      "name": "duplicate interpretation ID",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "interpretation IDs must be unique within a snapshot"
+      ]
+    },
+    {
+      "name": "supported action without readiness",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "P12: supported action lacks supported D07 readiness",
+        "P12: supported action lacks supported D07 physical",
+        "P12: supported action lacks cited D07 physical evidence",
+        "P12: supported action lacks supported D07 commitment",
+        "P12: supported action lacks cited D07 commitment evidence",
+        "P12: supported action conflicts with D08 none_supported selection"
+      ]
+    },
+    {
+      "name": "both-direction capacity evidence labeled supported",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: status supported differs from evidence pair conflicted"
+      ]
+    },
+    {
+      "name": "both-direction capacity evidence labeled refuted",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: status refuted differs from evidence pair conflicted"
+      ]
+    },
+    {
+      "name": "scoreably false numeric D02 value",
+      "shouldAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "missing trusted context",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "trusted expected context with snapshot/model identity, phase, agentId, cardIds and input/settings hashes is required"
+      ]
+    },
+    {
+      "name": "wrong input manifest binding",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "input manifest hash differs from trusted expected context"
+      ]
+    },
+    {
+      "name": "wrong settings manifest binding",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "settings manifest hash differs from trusted expected context"
+      ]
+    },
+    {
+      "name": "duplicate immutable snapshot ID",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "snapshotId already exists in trusted immutable registry"
+      ]
+    },
+    {
+      "name": "pool phase rejected",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "trusted expected context with snapshot/model identity, phase, agentId, cardIds and input/settings hashes is required"
+      ]
+    },
+    {
+      "name": "valid full-union synthetic shape",
+      "shouldAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "revised missing trusted parent",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "snapshotId differs from trusted expected context",
+        "suppliedCardIds must exactly match trusted context card allowlist",
+        "revised: trusted parent snapshot IDs missing or wrong cardinality",
+        "revised: trusted trigger IDs required",
+        "revised taskResponses must contain each phase-required task exactly once"
+      ]
+    },
+    {
+      "name": "interactive final missing four parents",
+      "shouldAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "agentId differs from trusted expected context",
+        "snapshotId differs from trusted expected context",
+        "suppliedCardIds must exactly match trusted context card allowlist",
+        "interactive_final: trusted parent snapshot IDs missing or wrong cardinality",
+        "interactive_final taskResponses must contain each phase-required task exactly once"
+      ]
+    }
+  ]
+}

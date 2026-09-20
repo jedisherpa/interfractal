@@ -1,0 +1,206 @@
+{
+  "schema": "gate11-host-browser-outcome-v1",
+  "closedAtUtc": "2026-09-20T18:20:21.805985+00:00",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "humanParticipants": 0,
+  "finalCompleteAcquisition": {
+    "directory": "browser-002-full",
+    "observations": 100,
+    "hostActions": 79,
+    "originals": 6,
+    "semanticHashes": 100,
+    "informationHashes": 100,
+    "viewportAndSceneMatches": 100,
+    "designatedCheckpointMatches": 18,
+    "localRevisions": 7,
+    "naturalTourSeconds": 24.005,
+    "scheduledEvents": 7,
+    "eventExportCounts": [
+      56,
+      21
+    ],
+    "uniqueDocuments": 2
+  },
+  "preservedEarlierAcquisitions": [
+    {
+      "directory": "browser-001",
+      "observations": 75,
+      "hostActions": 62,
+      "originals": 5,
+      "outcome": "Critical and negative workflows observed; independent paused-publication race blocks candidate. Partial acquisition stopped before reload/natural tour."
+    },
+    {
+      "directory": "browser-002",
+      "observations": 101,
+      "hostActions": 80,
+      "originals": 6,
+      "outcome": "Actual workflows completed;21 semantic and66 information payloads truncated by structured-result depth limit, one other semantic cursor changed one ULP. Preserve incomplete hash evidence. Independent transport diagnosis; no inferred implementation defect."
+    }
+  ],
+  "totalAcquisitionCounts": {
+    "observations": 276,
+    "hostActions": 221,
+    "originals": 17
+  },
+  "acquisitionErrorDuringFullPass": "One post-export capture exceeded200,000-character single-string tool limit. Actual export succeeded; failed read produced no observation. Read-only retry used lossless40,000-character chunks captured atomically, checked total length, parsed outside page. Action captureError is retained.",
+  "historicalLinks": "Actual replay/results link clicks and DOM/identity in browser-002. Paused G10-PREDICT-003/g10-9e34f791d83c1cd7a495 and separate bounded-negative label verified. No prior file changed.",
+  "priorFrozenEntriesVerified": 1437,
+  "priorMismatches": [],
+  "visualFindings": [
+    "At1280x720 the initial controls/result are legible; further source/provenance/history/export panels require scrolling.",
+    "Final diagram/plain originals show the same six typed relations and full receiver/global result. No layout advantage measured.",
+    "Witness original displays public pair W10/W11 with collision status, separate envelope and capped JSON panels. Reading all pair payloads and answers requires internal scrolling.",
+    "At960x720 controls wrap; the negative-control image clearly distinguishes local no from global insufficiency. No horizontal overflow observed.",
+    "Natural-ending image shows24.000/end-of-sequence; retained events independently distinguish actual playback from checkpoint navigation."
+  ],
+  "images": [
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/changed-receiver-witness.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b446a7cde0fc23da9a4812eebad897bff13c55c5170594c078d7d83dd3705b1c",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/initial-count-summary.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cc81ff93b9afee5297c5874bfc0b5cc3e76c41e078a1c1faffdbe4316257ebad",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/minimal-repair-diagram.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9c8db539af25bb5e9a986ed4e55536b3ace7d3fe2181b886557c35f4baf74b22",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/minimal-repair-plain.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "516f85f4e6abff452033ca76ca38fb2a4fb86b1189a50777ac19a512d4550e44",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/partial-negative-narrow.jpg",
+      "width": 960,
+      "height": 720,
+      "sha256": "316f12083b66a04f1864596605b0f6f05e69721cd13efd750207192b3e1b260a",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/changed-receiver-witness.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ce88b7fee5979c324585cd6d25ca139e26fefb2bc205d4862fbd597bb11f0503",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/initial-count-summary.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "30c542f3737011970bd5d2a1087ad805fa792b73f001ac7646106587b823d01f",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/minimal-repair-diagram.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7787ac50bcb4b36b47b7ca2b3241b6d743594f16b0c06e21331ff37402c6fcdd",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/minimal-repair-plain.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c7e4aa683a79c945c0269ce225184a98f728c1efd0f19bc8db5ad78e9f4b6d61",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/natural-tour-end.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "30cf00c6a4f2c25800d3205c1d3a444f1de6db0665a1a096ce009d2bcbf55398",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/partial-negative-narrow.jpg",
+      "width": 960,
+      "height": 720,
+      "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/changed-receiver-witness.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "eaf9ea55f047f35b624b846bffaea505337365906c289e1a346ddb2453b2fa64",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/initial-count-summary.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6b473cc1d1c8bc97abdd6b6d1deeaf4172c501aab175861dc00b728969a31e2a",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/minimal-repair-diagram.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3dbfac9d4ce6f07900e9c2d7ed0fdfd7e9a0b9bd8f5d0de6c505830a0881db97",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/minimal-repair-plain.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7ada62b25d1283c29398c4a26c08ac74cff49505d6929d0f795644eaceb2e9bc",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/natural-tour-end.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5801f84285efd7074f0ed9eacf959b6bcfa7ec4c8bb9e11eb36b76fb1d001b7c",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots/partial-negative-narrow.jpg",
+      "width": 960,
+      "height": 720,
+      "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16",
+      "originalUnedited": true,
+      "hostVisuallyInspected": true
+    }
+  ],
+  "otherLimits": [
+    "Only declared four-world family and three-field menu.",
+    "Twelve-second natural boundary retained as actual event and paused checkpoint, without a separate active DOM capture during12\u201316 seconds.",
+    "No OS reduced-motion emulation, human learning, human omission detection or diagram benefit measured.",
+    "Exports include their own event but exclude later controls; final reopen preserved separately in host actions."
+  ],
+  "nextGate": 12,
+  "nextGateName": "Coordinate without erasing disagreement",
+  "nextGateApproved": false,
+  "verdict": "Host acquisition complete; pending independent final browser audit and synthesis"
+}

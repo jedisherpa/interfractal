@@ -1,0 +1,27 @@
+{
+  "schema": "gate12-run-manifest-v1",
+  "runId": "G12-COORD-001",
+  "buildId": "g12-0d66d254f275f3663dee",
+  "files": [
+    {
+      "path": "run.json",
+      "sha256": "d476703a45f5c837c21a0145c789f41043b9c9b797567289d4af48e58db1bd79"
+    },
+    {
+      "path": "initial-state.json",
+      "sha256": "3e650d23238780dd127a9a5a17cac972989d86eb79077449d36e1ed9cc630947"
+    },
+    {
+      "path": "events.jsonl",
+      "sha256": "1a3def0daabdf9c020b60adfc72db2f5116f23c1efbd84d2a261cf54330a4002"
+    },
+    {
+      "path": "checkpoints.json",
+      "sha256": "215993d8b1a61d40caece7959ab1596bdf197dc68108e87bfc4658b8a85635b8"
+    },
+    {
+      "path": "computational-results.json",
+      "sha256": "57d4c880f6f21a9585efeb18cb083d42e373893a6bf78e1e7812a511eb3cb20f"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "recordedAtUtc": "2026-09-20T01:19:15.932167+00:00",
+  "gate": 1,
+  "routingSource": "Actual user request and project AGENTS.md",
+  "agents": [
+    {
+      "task": "/root/g1_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Frozen experiment specification, independent analytic predictions, and final synthesis"
+    },
+    {
+      "task": "/root/g1_luna_preservation",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Tool-based clean Git archive recovery of Gate0 and frozen artifact verification; no additional internet gathering needed for this elementary calibration"
+    },
+    {
+      "task": "/root/g1_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation and working/snapshot checks; separate from auditor"
+    },
+    {
+      "task": "/root/g1_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent oracle, snapshot, routes, actual browser records and image audit"
+    }
+  ],
+  "hostCoordinator": "Workspace and Git operations, supported CUA browser controls, evidence collection and preservation. No unsupported host model switch claimed.",
+  "participantScope": "Software agents only; no human responses or comprehension test results recorded.",
+  "authorization": "Gate1 approved by actual user message recorded in approvals/GATE_1_APPROVAL.json; Gate2 not approved."
+}

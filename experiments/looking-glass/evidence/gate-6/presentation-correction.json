@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "gate-6-presentation-correction-v1",
+  "scope": "Presentation-only correction to evidence/gate-6/results.html; no Gate 6 model, build, run, activity, screenshot, or core evidence changed",
+  "candidateRunId": "G6-LOCAL-003",
+  "cause": "Forty CSS dimensions in the results page style block separated numeric values from px (for example, 16 px), invalidating those declarations and producing an unstyled default-font presentation in the actual browser screenshot.",
+  "preservedOriginal": {
+    "path": "evidence/gate-6/presentation-initial-results.html",
+    "sha256": "7b167650919e2c82e301517af256cc31e5cdc88b990a679f628fd50aaad8a1a2",
+    "bytes": 17133
+  },
+  "correctedPresentation": {
+    "path": "evidence/gate-6/results.html",
+    "sha256": "9d9cad17786a4a501512e1b864b5ee27c9408a3b95bfd97819b1c62755ae1ee8",
+    "bytes": 17093
+  },
+  "change": "Removed whitespace between each numeric CSS dimension and px inside the sole style block; 40 replacements. Non-style HTML content is byte-identical.",
+  "verification": "Static check confirms no numeric whitespace-px pattern remains in the style block and non-style HTML is unchanged; actual browser recheck belongs to the host coordinator."
+}

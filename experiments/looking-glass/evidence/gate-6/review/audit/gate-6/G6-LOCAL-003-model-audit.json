@@ -1,0 +1,17 @@
+{
+  "kind": "gate-6-exact-model-audit",
+  "runId": "G6-LOCAL-003",
+  "modulePath": "/Users/paul/BTC-Learning/experiments/looking-glass/local-models/builds/g6-0279cdcdc0adc9b0/model.mjs",
+  "modelSha256": "734dd3f2f008faa3023083165e12d9dcd2df6546eca86e61e39cfc23c452ae44",
+  "sourceSha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+  "referencesSha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+  "fixtureSha256": "3b80d971b31b6a5c9f6b06c6e13167715b934a948d81daf6aa126e56f1eb4020",
+  "checkpointCount": 7,
+  "historicalSourceRecords": 4,
+  "referenceTables": 2,
+  "localContexts": 2,
+  "receiverCases": 4,
+  "malformedOutwardCases": 6,
+  "supportedRelations": 4,
+  "checksPassed": true
+}

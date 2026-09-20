@@ -1,0 +1,57 @@
+{
+  "gate": 10,
+  "schema": "gate10-prespec-freeze-v1",
+  "frozen_at_utc": "2026-09-20T11:21:03.279381+00:00",
+  "status": "Six authored files frozen after independent Sol prespec PASS and before builder dispatch",
+  "algorithm": "SHA-256",
+  "independent_review": [
+    {
+      "path": "audit/gate-10/derive-prespec.py",
+      "sha256": "093ed8395d678767cb1d07d2e6151c1a41a06b9d25d8d8ffa500ee1ce94e6906",
+      "bytes": 16086
+    },
+    {
+      "path": "audit/gate-10/prespec-review.json",
+      "sha256": "8fdb3890e6d2bc4ed2fdacc43888f216b691d2d61811b302130a66b158645d24",
+      "bytes": 4642
+    },
+    {
+      "path": "audit/gate-10/prespec-review.md",
+      "sha256": "4e22fb8b175e958106ec060e1ad7252fbbcc481a6a4bc0cc5a790b1383cc5628",
+      "bytes": 4943
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/gate-10/experiment-charter.md",
+      "sha256": "af970be7b9de20447d72b2f4e65b1808b76c34d0eea7f66e921a435570cc6706",
+      "bytes": 7158
+    },
+    {
+      "path": "docs/gate-10/model-contract.md",
+      "sha256": "1e8e8624b85577469b89d2f55305121801eea4cbe05b27b2dac630895fe9c6da",
+      "bytes": 15199
+    },
+    {
+      "path": "docs/gate-10/record-contract.md",
+      "sha256": "82d42e74ee80872cd827e85c2b275d03b3ba8b2145da7df2e409426afe15a9b8",
+      "bytes": 12349
+    },
+    {
+      "path": "docs/gate-10/fixture.json",
+      "sha256": "729902887d4a51ac522831f7baf17f8a905422fa6d7aa51f14d81e4565bf089e",
+      "bytes": 8718
+    },
+    {
+      "path": "docs/gate-10/private-answer-key.json",
+      "sha256": "4efe69a6f9af01fd7023c59e927d00c833af8c5ca4ee66a8c0dafde7f7c59938",
+      "bytes": 2968
+    },
+    {
+      "path": "docs/gate-10/independent-predictions.json",
+      "sha256": "23f4177fd0ad5a01ea41f5e3207fc35d88964e4c2df5cfe26667deecb87527ad",
+      "bytes": 6403
+    }
+  ],
+  "boundary": "Private key/predictions remain nonserved; no implementation/browser/human result claimed by this freeze."
+}

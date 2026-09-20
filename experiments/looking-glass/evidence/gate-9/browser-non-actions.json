@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "over-budget query",
+    "observation": 109,
+    "reason": "All query controls are visibly disabled; no fabricated rejection event.",
+    "controls": [
+      {
+        "disabled": true,
+        "id": "choose-project",
+        "text": "Observe original xyz projection again"
+      },
+      {
+        "disabled": true,
+        "id": "choose-xw90",
+        "text": "Observe known x-w quarter-turn"
+      },
+      {
+        "disabled": true,
+        "id": "choose-yv90",
+        "text": "Observe known y-v quarter-turn"
+      }
+    ]
+  },
+  {
+    "kind": "watch/static before seal",
+    "observation": 166,
+    "reason": "Review watch/static disabled; no fake click or rejection event.",
+    "controls": [
+      {
+        "disabled": true,
+        "id": "review-watch",
+        "text": "Review watch"
+      },
+      {
+        "disabled": true,
+        "id": "review-static",
+        "text": "Review static"
+      }
+    ]
+  }
+]

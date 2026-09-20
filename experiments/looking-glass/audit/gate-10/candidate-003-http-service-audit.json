@@ -1,0 +1,2303 @@
+{
+  "schema": "gate10-candidate-003-isolated-http-service-audit-v1",
+  "status": "PASS",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "port": 44031,
+  "checkCount": 572,
+  "passCount": 572,
+  "failed": [],
+  "apiOrigin": "software_validation_api",
+  "browserInteraction": false,
+  "isolatedLogPath": "audit/gate-10/candidate-003-isolated-api-actions.jsonl",
+  "checks": [
+    {
+      "name": "no-store GET / 0",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET / 1",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD / 3",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD / 4",
+      "pass": true
+    },
+    {
+      "name": "HEAD /",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /index.html 6",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /index.html 7",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /index.html",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /index.html 9",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /index.html 10",
+      "pass": true
+    },
+    {
+      "name": "HEAD /index.html",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /app.mjs 12",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /app.mjs 13",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /app.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /app.mjs 15",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /app.mjs 16",
+      "pass": true
+    },
+    {
+      "name": "HEAD /app.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /model.mjs 18",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /model.mjs 19",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /model.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /model.mjs 21",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /model.mjs 22",
+      "pass": true
+    },
+    {
+      "name": "HEAD /model.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /style.css 24",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /style.css 25",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /style.css",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /style.css 27",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /style.css 28",
+      "pass": true
+    },
+    {
+      "name": "HEAD /style.css",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /fixture.json 30",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /fixture.json 31",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /fixture.json",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /fixture.json 33",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /fixture.json 34",
+      "pass": true
+    },
+    {
+      "name": "HEAD /fixture.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /build.json 36",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /build.json 37",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /build.json",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /build.json 39",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /build.json 40",
+      "pass": true
+    },
+    {
+      "name": "HEAD /build.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /run/run.json 42",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /run/run.json 43",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /run/run.json",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /run/run.json 45",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /run/run.json 46",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/run.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /run/initial-state.json 48",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /run/initial-state.json 49",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /run/initial-state.json",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /run/initial-state.json 51",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /run/initial-state.json 52",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/initial-state.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /run/events.jsonl 54",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /run/events.jsonl 55",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /run/events.jsonl",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /run/events.jsonl 57",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /run/events.jsonl 58",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/events.jsonl",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /run/checkpoints.json 60",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /run/checkpoints.json 61",
+      "pass": true
+    },
+    {
+      "name": "exact served bytes /run/checkpoints.json",
+      "pass": true
+    },
+    {
+      "name": "no-store HEAD /run/checkpoints.json 63",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant HEAD /run/checkpoints.json 64",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/checkpoints.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /private/private-answer-key.json 66",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /private/private-answer-key.json 67",
+      "pass": true
+    },
+    {
+      "name": "unserved /private/private-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /private/independent-predictions.json 69",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /private/independent-predictions.json 70",
+      "pass": true
+    },
+    {
+      "name": "unserved /private/independent-predictions.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /service.mjs 72",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /service.mjs 73",
+      "pass": true
+    },
+    {
+      "name": "unserved /service.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /math.mjs 75",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /math.mjs 76",
+      "pass": true
+    },
+    {
+      "name": "unserved /math.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /test.mjs 78",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /test.mjs 79",
+      "pass": true
+    },
+    {
+      "name": "unserved /test.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /build.mjs 81",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /build.mjs 82",
+      "pass": true
+    },
+    {
+      "name": "unserved /build.mjs",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /README.md 84",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /README.md 85",
+      "pass": true
+    },
+    {
+      "name": "unserved /README.md",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /run/computational-results.json 87",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /run/computational-results.json 88",
+      "pass": true
+    },
+    {
+      "name": "unserved /run/computational-results.json",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /review/results.html 90",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /review/results.html 91",
+      "pass": true
+    },
+    {
+      "name": "unserved /review/results.html",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /review/packet.md 93",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /review/packet.md 94",
+      "pass": true
+    },
+    {
+      "name": "unserved /review/packet.md",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/key 96",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/key 97",
+      "pass": true
+    },
+    {
+      "name": "unserved /api/key",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /docs/gate-10/private-answer-key.json 99",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /docs/gate-10/private-answer-key.json 100",
+      "pass": true
+    },
+    {
+      "name": "unserved /docs/gate-10/private-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /../docs/gate-10/private-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /%2e%2e/docs/gate-10/private-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /%252e%252e%252fprivate%252fprivate-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /private%2fprivate-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /run/../private/private-answer-key.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /run//checkpoints.json",
+      "pass": true
+    },
+    {
+      "name": "raw traversal/unknown /index.html?x=1",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/session 109",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/session 110",
+      "pass": true
+    },
+    {
+      "name": "GET API denied /api/session",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/start 112",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/start 113",
+      "pass": true
+    },
+    {
+      "name": "GET API denied /api/start",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/commit 115",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/commit 116",
+      "pass": true
+    },
+    {
+      "name": "GET API denied /api/commit",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/reveal 118",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/reveal 119",
+      "pass": true
+    },
+    {
+      "name": "GET API denied /api/reveal",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/close 121",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/close 122",
+      "pass": true
+    },
+    {
+      "name": "GET API denied /api/close",
+      "pass": true
+    },
+    {
+      "name": "no-store GET /api/export 124",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant GET /api/export 125",
+      "pass": true
+    },
+    {
+      "name": "GET API denied /api/export",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /fixture.json 127",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /fixture.json 128",
+      "pass": true
+    },
+    {
+      "name": "POST static denied",
+      "pass": true
+    },
+    {
+      "name": "no-store OPTIONS /api/session 130",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant OPTIONS /api/session 131",
+      "pass": true
+    },
+    {
+      "name": "OPTIONS denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 133",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 134",
+      "pass": true
+    },
+    {
+      "name": "bad Origin denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 136",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 137",
+      "pass": true
+    },
+    {
+      "name": "wrong content type denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 139",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 140",
+      "pass": true
+    },
+    {
+      "name": "invalid JSON denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 142",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 143",
+      "pass": true
+    },
+    {
+      "name": "oversized JSON denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 145",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 146",
+      "pass": true
+    },
+    {
+      "name": "unknown session fields denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 148",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 149",
+      "pass": true
+    },
+    {
+      "name": "wrong actor denied",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 151",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 152",
+      "pass": true
+    },
+    {
+      "name": "session created",
+      "pass": true
+    },
+    {
+      "name": "opaque in-memory session response",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 155",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 156",
+      "pass": true
+    },
+    {
+      "name": "practice start rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 158",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 159",
+      "pass": true
+    },
+    {
+      "name": "unknown case rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 161",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 162",
+      "pass": true
+    },
+    {
+      "name": "wrong build rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 164",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 165",
+      "pass": true
+    },
+    {
+      "name": "invalid session rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 167",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 168",
+      "pass": true
+    },
+    {
+      "name": "T01 start",
+      "pass": true
+    },
+    {
+      "name": "T01 start bound/ungraded",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 171",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 172",
+      "pass": true
+    },
+    {
+      "name": "start retry same identity",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 174",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 175",
+      "pass": true
+    },
+    {
+      "name": "start requestId conflict",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 177",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 178",
+      "pass": true
+    },
+    {
+      "name": "precommit reveal rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 180",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 181",
+      "pass": true
+    },
+    {
+      "name": "off-menu answer rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 183",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 184",
+      "pass": true
+    },
+    {
+      "name": "malformed skip rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 186",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 187",
+      "pass": true
+    },
+    {
+      "name": "cross-case commit rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/export 189",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/export 190",
+      "pass": true
+    },
+    {
+      "name": "unrevealed export redacted",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 192",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 193",
+      "pass": true
+    },
+    {
+      "name": "wrong T01 commit",
+      "pass": true
+    },
+    {
+      "name": "commit ungraded and target-free",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 196",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 197",
+      "pass": true
+    },
+    {
+      "name": "same commit retry receipt unchanged",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 199",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 200",
+      "pass": true
+    },
+    {
+      "name": "conflicting commit requestId rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 202",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 203",
+      "pass": true
+    },
+    {
+      "name": "changed answer after lock rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/export 205",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/export 206",
+      "pass": true
+    },
+    {
+      "name": "locked unrevealed export target-free",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 208",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 209",
+      "pass": true
+    },
+    {
+      "name": "wrong receipt rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 211",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 212",
+      "pass": true
+    },
+    {
+      "name": "cross-case reveal rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 214",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 215",
+      "pass": true
+    },
+    {
+      "name": "wrong-build reveal rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 217",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 218",
+      "pass": true
+    },
+    {
+      "name": "second session",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 220",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 221",
+      "pass": true
+    },
+    {
+      "name": "cross-session reveal rejected",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 223",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 224",
+      "pass": true
+    },
+    {
+      "name": "deliberate wrong reveal",
+      "pass": true
+    },
+    {
+      "name": "revealed key exact and ordered",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 227",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 228",
+      "pass": true
+    },
+    {
+      "name": "same reveal repeated",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 230",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 231",
+      "pass": true
+    },
+    {
+      "name": "distinct repeated reveal intent",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/export 233",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/export 234",
+      "pass": true
+    },
+    {
+      "name": "own revealed export now shows key",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/export 236",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/export 237",
+      "pass": true
+    },
+    {
+      "name": "new session isolated",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 239",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 240",
+      "pass": true
+    },
+    {
+      "name": "T01 repeat start",
+      "pass": true
+    },
+    {
+      "name": "repeat ordinal/prior reveal",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 243",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 244",
+      "pass": true
+    },
+    {
+      "name": "T04 start",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/export 246",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/export 247",
+      "pass": true
+    },
+    {
+      "name": "new start abandons previous unanswered",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 249",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 250",
+      "pass": true
+    },
+    {
+      "name": "T04 skip commit",
+      "pass": true
+    },
+    {
+      "name": "skip locks null",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 253",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 254",
+      "pass": true
+    },
+    {
+      "name": "T04 deliberate reveal",
+      "pass": true
+    },
+    {
+      "name": "skip null grade and point",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 257",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 258",
+      "pass": true
+    },
+    {
+      "name": "T05 start",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 260",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 261",
+      "pass": true
+    },
+    {
+      "name": "T05 commit",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/reveal 263",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/reveal 264",
+      "pass": true
+    },
+    {
+      "name": "T05 reveal",
+      "pass": true
+    },
+    {
+      "name": "empty distinct from point",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 267",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 268",
+      "pass": true
+    },
+    {
+      "name": "open T03",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/close 270",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/close 271",
+      "pass": true
+    },
+    {
+      "name": "explicit close abandons open",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/commit 273",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/commit 274",
+      "pass": true
+    },
+    {
+      "name": "closed open attempt cannot commit",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/export 276",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/export 277",
+      "pass": true
+    },
+    {
+      "name": "wrong/skipped/repeated/abandoned retained",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 279",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 280",
+      "pass": true
+    },
+    {
+      "name": "capacity session",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 282",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 283",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 1",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 285",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 286",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 2",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 288",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 289",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 3",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 291",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 292",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 4",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 294",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 295",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 5",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 297",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 298",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 6",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 300",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 301",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 7",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 303",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 304",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 8",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 306",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 307",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 9",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 309",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 310",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 10",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 312",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 313",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 11",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 315",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 316",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 12",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 318",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 319",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 13",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 321",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 322",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 14",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 324",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 325",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 15",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 327",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 328",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 16",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 330",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 331",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 17",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 333",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 334",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 18",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 336",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 337",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 19",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 339",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 340",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 20",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 342",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 343",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 21",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 345",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 346",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 22",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 348",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 349",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 23",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 351",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 352",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 24",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 354",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 355",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 25",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 357",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 358",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 26",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 360",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 361",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 27",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 363",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 364",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 28",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 366",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 367",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 29",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 369",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 370",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 30",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 372",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 373",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 31",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 375",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 376",
+      "pass": true
+    },
+    {
+      "name": "attempt capacity accepted 32",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/start 378",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/start 379",
+      "pass": true
+    },
+    {
+      "name": "33rd attempt capacity rejects",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 381",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 382",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 4",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 384",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 385",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 5",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 387",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 388",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 6",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 390",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 391",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 7",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 393",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 394",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 8",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 396",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 397",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 9",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 399",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 400",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 10",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 402",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 403",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 11",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 405",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 406",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 12",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 408",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 409",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 13",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 411",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 412",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 14",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 414",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 415",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 15",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 417",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 418",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 16",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 420",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 421",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 17",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 423",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 424",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 18",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 426",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 427",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 19",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 429",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 430",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 20",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 432",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 433",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 21",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 435",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 436",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 22",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 438",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 439",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 23",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 441",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 442",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 24",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 444",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 445",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 25",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 447",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 448",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 26",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 450",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 451",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 27",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 453",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 454",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 28",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 456",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 457",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 29",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 459",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 460",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 30",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 462",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 463",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 31",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 465",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 466",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 32",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 468",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 469",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 33",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 471",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 472",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 34",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 474",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 475",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 35",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 477",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 478",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 36",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 480",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 481",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 37",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 483",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 484",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 38",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 486",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 487",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 39",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 489",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 490",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 40",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 492",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 493",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 41",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 495",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 496",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 42",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 498",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 499",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 43",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 501",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 502",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 44",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 504",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 505",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 45",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 507",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 508",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 46",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 510",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 511",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 47",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 513",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 514",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 48",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 516",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 517",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 49",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 519",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 520",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 50",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 522",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 523",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 51",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 525",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 526",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 52",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 528",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 529",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 53",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 531",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 532",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 54",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 534",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 535",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 55",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 537",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 538",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 56",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 540",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 541",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 57",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 543",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 544",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 58",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 546",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 547",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 59",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 549",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 550",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 60",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 552",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 553",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 61",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 555",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 556",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 62",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 558",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 559",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 63",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 561",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 562",
+      "pass": true
+    },
+    {
+      "name": "session capacity accepted 64",
+      "pass": true
+    },
+    {
+      "name": "no-store POST /api/session 564",
+      "pass": true
+    },
+    {
+      "name": "no cross-origin grant POST /api/session 565",
+      "pass": true
+    },
+    {
+      "name": "65th session capacity rejects",
+      "pass": true
+    },
+    {
+      "name": "controlled-clock session valid",
+      "pass": true
+    },
+    {
+      "name": "controlled-clock expiry rejects",
+      "pass": true
+    },
+    {
+      "name": "expired session cannot reveal",
+      "pass": true
+    },
+    {
+      "name": "new session after expiry",
+      "pass": true
+    },
+    {
+      "name": "isolated API log redacted",
+      "pass": true
+    }
+  ]
+}

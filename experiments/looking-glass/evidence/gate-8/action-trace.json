@@ -1,0 +1,848 @@
+[
+  {
+    "index": 0,
+    "label": "resize 960 by 720",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:34.643Z",
+    "beforeObservation": 3,
+    "success": true,
+    "afterObservation": 4,
+    "endedAtUtc": "2026-09-20T08:14:34.708Z",
+    "originalCollectionIndex": 17
+  },
+  {
+    "index": 1,
+    "label": "scroll to records at960",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:34.850Z",
+    "beforeObservation": 7,
+    "success": true,
+    "afterObservation": 8,
+    "endedAtUtc": "2026-09-20T08:14:35.764Z",
+    "originalCollectionIndex": 18
+  },
+  {
+    "index": 2,
+    "label": "expand raw bundle",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:35.823Z",
+    "beforeObservation": 11,
+    "success": true,
+    "afterObservation": 12,
+    "endedAtUtc": "2026-09-20T08:14:36.383Z",
+    "originalCollectionIndex": 19
+  },
+  {
+    "index": 3,
+    "label": "expand inspector",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:36.390Z",
+    "beforeObservation": 13,
+    "success": true,
+    "afterObservation": 14,
+    "endedAtUtc": "2026-09-20T08:14:37.205Z",
+    "originalCollectionIndex": 20
+  },
+  {
+    "index": 4,
+    "label": "collapse inspector",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:37.257Z",
+    "beforeObservation": 17,
+    "success": true,
+    "afterObservation": 18,
+    "endedAtUtc": "2026-09-20T08:14:37.750Z",
+    "originalCollectionIndex": 21
+  },
+  {
+    "index": 5,
+    "label": "collapse raw bundle",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:37.759Z",
+    "beforeObservation": 19,
+    "success": true,
+    "afterObservation": 20,
+    "endedAtUtc": "2026-09-20T08:14:38.233Z",
+    "originalCollectionIndex": 22
+  },
+  {
+    "index": 6,
+    "label": "restore 1280 by720",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:38.243Z",
+    "beforeObservation": 21,
+    "success": true,
+    "afterObservation": 22,
+    "endedAtUtc": "2026-09-20T08:14:38.393Z",
+    "originalCollectionIndex": 23
+  },
+  {
+    "index": 7,
+    "label": "baseline checkpoint 0",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:38.401Z",
+    "beforeObservation": 23,
+    "success": true,
+    "afterObservation": 24,
+    "endedAtUtc": "2026-09-20T08:14:38.848Z",
+    "originalCollectionIndex": 24
+  },
+  {
+    "index": 8,
+    "label": "baseline checkpoint 4",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:38.866Z",
+    "beforeObservation": 25,
+    "success": true,
+    "afterObservation": 26,
+    "endedAtUtc": "2026-09-20T08:14:39.304Z",
+    "originalCollectionIndex": 25
+  },
+  {
+    "index": 9,
+    "label": "baseline checkpoint 8",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:39.313Z",
+    "beforeObservation": 27,
+    "success": true,
+    "afterObservation": 28,
+    "endedAtUtc": "2026-09-20T08:14:39.692Z",
+    "originalCollectionIndex": 26
+  },
+  {
+    "index": 10,
+    "label": "baseline checkpoint 12",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:39.705Z",
+    "beforeObservation": 29,
+    "success": true,
+    "afterObservation": 30,
+    "endedAtUtc": "2026-09-20T08:14:40.116Z",
+    "originalCollectionIndex": 27
+  },
+  {
+    "index": 11,
+    "label": "baseline checkpoint 16",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:40.123Z",
+    "beforeObservation": 31,
+    "success": true,
+    "afterObservation": 32,
+    "endedAtUtc": "2026-09-20T08:14:40.529Z",
+    "originalCollectionIndex": 28
+  },
+  {
+    "index": 12,
+    "label": "baseline checkpoint 20",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:40.537Z",
+    "beforeObservation": 33,
+    "success": true,
+    "afterObservation": 34,
+    "endedAtUtc": "2026-09-20T08:14:41.125Z",
+    "originalCollectionIndex": 29
+  },
+  {
+    "index": 13,
+    "label": "baseline checkpoint 24",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:41.134Z",
+    "beforeObservation": 35,
+    "success": true,
+    "afterObservation": 36,
+    "endedAtUtc": "2026-09-20T08:14:41.524Z",
+    "originalCollectionIndex": 30
+  },
+  {
+    "index": 14,
+    "label": "baseline checkpoint 28",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:41.533Z",
+    "beforeObservation": 37,
+    "success": true,
+    "afterObservation": 38,
+    "endedAtUtc": "2026-09-20T08:14:41.906Z",
+    "originalCollectionIndex": 31
+  },
+  {
+    "index": 15,
+    "label": "baseline checkpoint 32",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:14:41.918Z",
+    "beforeObservation": 39,
+    "success": true,
+    "afterObservation": 40,
+    "endedAtUtc": "2026-09-20T08:14:42.434Z",
+    "originalCollectionIndex": 32
+  },
+  {
+    "index": 16,
+    "label": "select C01",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:26.851Z",
+    "beforeObservation": 41,
+    "success": true,
+    "afterObservation": 42,
+    "endedAtUtc": "2026-09-20T08:16:26.932Z"
+  },
+  {
+    "index": 17,
+    "label": "C01 camera -45°",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:26.939Z",
+    "beforeObservation": 43,
+    "success": true,
+    "afterObservation": 44,
+    "endedAtUtc": "2026-09-20T08:16:27.741Z"
+  },
+  {
+    "index": 18,
+    "label": "C01 camera 0°",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:27.748Z",
+    "beforeObservation": 45,
+    "success": true,
+    "afterObservation": 46,
+    "endedAtUtc": "2026-09-20T08:16:28.135Z"
+  },
+  {
+    "index": 19,
+    "label": "C01 camera +45°",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:28.142Z",
+    "beforeObservation": 47,
+    "success": true,
+    "afterObservation": 48,
+    "endedAtUtc": "2026-09-20T08:16:28.743Z"
+  },
+  {
+    "index": 20,
+    "label": "C01 add xw90",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:28.751Z",
+    "beforeObservation": 49,
+    "success": true,
+    "afterObservation": 50,
+    "endedAtUtc": "2026-09-20T08:16:29.155Z"
+  },
+  {
+    "index": 21,
+    "label": "C01 show certificate",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:29.162Z",
+    "beforeObservation": 51,
+    "success": true,
+    "afterObservation": 52,
+    "endedAtUtc": "2026-09-20T08:16:29.540Z"
+  },
+  {
+    "index": 22,
+    "label": "C01 hide certificate",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:36.626Z",
+    "beforeObservation": 55,
+    "success": true,
+    "afterObservation": 56,
+    "endedAtUtc": "2026-09-20T08:16:37.039Z"
+  },
+  {
+    "index": 23,
+    "label": "select C02",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:37.048Z",
+    "beforeObservation": 57,
+    "success": true,
+    "afterObservation": 58,
+    "endedAtUtc": "2026-09-20T08:16:37.243Z"
+  },
+  {
+    "index": 24,
+    "label": "C02 add xw90 first",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:55.453Z",
+    "beforeObservation": 59,
+    "success": true,
+    "afterObservation": 60,
+    "endedAtUtc": "2026-09-20T08:16:55.884Z"
+  },
+  {
+    "index": 25,
+    "label": "C02 add yv90 second",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:55.891Z",
+    "beforeObservation": 61,
+    "success": true,
+    "afterObservation": 62,
+    "endedAtUtc": "2026-09-20T08:16:56.387Z"
+  },
+  {
+    "index": 26,
+    "label": "C02 show certificate",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:56.396Z",
+    "beforeObservation": 63,
+    "success": true,
+    "afterObservation": 64,
+    "endedAtUtc": "2026-09-20T08:16:56.854Z"
+  },
+  {
+    "index": 27,
+    "label": "C02 reset for reversed order",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:56.981Z",
+    "beforeObservation": 67,
+    "success": true,
+    "afterObservation": 68,
+    "endedAtUtc": "2026-09-20T08:16:57.405Z"
+  },
+  {
+    "index": 28,
+    "label": "C02 add yv90 first",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:57.413Z",
+    "beforeObservation": 69,
+    "success": true,
+    "afterObservation": 70,
+    "endedAtUtc": "2026-09-20T08:16:57.828Z"
+  },
+  {
+    "index": 29,
+    "label": "C02 add xw90 second",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:57.836Z",
+    "beforeObservation": 71,
+    "success": true,
+    "afterObservation": 72,
+    "endedAtUtc": "2026-09-20T08:16:58.224Z"
+  },
+  {
+    "index": 30,
+    "label": "C02 repeat xw90",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:58.233Z",
+    "beforeObservation": 73,
+    "success": true,
+    "afterObservation": 74,
+    "endedAtUtc": "2026-09-20T08:16:58.628Z"
+  },
+  {
+    "index": 31,
+    "label": "C02 change reference W04",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:58.637Z",
+    "beforeObservation": 75,
+    "success": true,
+    "afterObservation": 76,
+    "endedAtUtc": "2026-09-20T08:16:58.705Z"
+  },
+  {
+    "index": 32,
+    "label": "C02 W04 add xw90",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:16:58.714Z",
+    "beforeObservation": 77,
+    "success": true,
+    "afterObservation": 78,
+    "endedAtUtc": "2026-09-20T08:16:59.027Z"
+  },
+  {
+    "index": 33,
+    "label": "select C03",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:05.116Z",
+    "beforeObservation": 79,
+    "success": true,
+    "afterObservation": 80,
+    "endedAtUtc": "2026-09-20T08:17:05.291Z"
+  },
+  {
+    "index": 34,
+    "label": "C03 add sliceMinus2",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:22.135Z",
+    "beforeObservation": 81,
+    "success": true,
+    "afterObservation": 82,
+    "endedAtUtc": "2026-09-20T08:17:22.645Z"
+  },
+  {
+    "index": 35,
+    "label": "C03 add slicePlus2",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:22.655Z",
+    "beforeObservation": 83,
+    "success": true,
+    "afterObservation": 84,
+    "endedAtUtc": "2026-09-20T08:17:23.089Z"
+  },
+  {
+    "index": 36,
+    "label": "C03 show certificate",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:23.099Z",
+    "beforeObservation": 85,
+    "success": true,
+    "afterObservation": 86,
+    "endedAtUtc": "2026-09-20T08:17:23.418Z"
+  },
+  {
+    "index": 37,
+    "label": "scroll C03 outside-menu explanation",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:23.523Z",
+    "beforeObservation": 89,
+    "success": true,
+    "afterObservation": 90,
+    "endedAtUtc": "2026-09-20T08:17:23.745Z"
+  },
+  {
+    "index": 38,
+    "label": "select C04",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:36.206Z",
+    "beforeObservation": 93,
+    "success": true,
+    "afterObservation": 94,
+    "endedAtUtc": "2026-09-20T08:17:36.396Z"
+  },
+  {
+    "index": 39,
+    "label": "C04 show zero-query certificate",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:36.406Z",
+    "beforeObservation": 95,
+    "success": true,
+    "afterObservation": 96,
+    "endedAtUtc": "2026-09-20T08:17:36.819Z"
+  },
+  {
+    "index": 40,
+    "label": "C04 add robust xw90 distinction",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:36.884Z",
+    "beforeObservation": 99,
+    "success": true,
+    "afterObservation": 100,
+    "endedAtUtc": "2026-09-20T08:17:37.260Z"
+  },
+  {
+    "index": 41,
+    "label": "scroll C04 robust record",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:37.271Z",
+    "beforeObservation": 101,
+    "success": true,
+    "afterObservation": 102,
+    "endedAtUtc": "2026-09-20T08:17:37.466Z"
+  },
+  {
+    "index": 42,
+    "label": "after-exploration checkpoint 0",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:50.865Z",
+    "beforeObservation": 105,
+    "success": true,
+    "afterObservation": 106,
+    "endedAtUtc": "2026-09-20T08:17:51.269Z"
+  },
+  {
+    "index": 43,
+    "label": "after-exploration checkpoint 4",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:51.281Z",
+    "beforeObservation": 107,
+    "success": true,
+    "afterObservation": 108,
+    "endedAtUtc": "2026-09-20T08:17:51.775Z"
+  },
+  {
+    "index": 44,
+    "label": "after-exploration checkpoint 8",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:51.788Z",
+    "beforeObservation": 109,
+    "success": true,
+    "afterObservation": 110,
+    "endedAtUtc": "2026-09-20T08:17:52.108Z"
+  },
+  {
+    "index": 45,
+    "label": "after-exploration checkpoint 12",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:52.129Z",
+    "beforeObservation": 111,
+    "success": true,
+    "afterObservation": 112,
+    "endedAtUtc": "2026-09-20T08:17:52.471Z"
+  },
+  {
+    "index": 46,
+    "label": "after-exploration checkpoint 16",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:52.484Z",
+    "beforeObservation": 113,
+    "success": true,
+    "afterObservation": 114,
+    "endedAtUtc": "2026-09-20T08:17:52.827Z"
+  },
+  {
+    "index": 47,
+    "label": "after-exploration checkpoint 20",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:52.838Z",
+    "beforeObservation": 115,
+    "success": true,
+    "afterObservation": 116,
+    "endedAtUtc": "2026-09-20T08:17:53.163Z"
+  },
+  {
+    "index": 48,
+    "label": "after-exploration checkpoint 24",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:53.173Z",
+    "beforeObservation": 117,
+    "success": true,
+    "afterObservation": 118,
+    "endedAtUtc": "2026-09-20T08:17:53.665Z"
+  },
+  {
+    "index": 49,
+    "label": "after-exploration checkpoint 28",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:53.678Z",
+    "beforeObservation": 119,
+    "success": true,
+    "afterObservation": 120,
+    "endedAtUtc": "2026-09-20T08:17:54.026Z"
+  },
+  {
+    "index": 50,
+    "label": "after-exploration checkpoint 32",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:54.038Z",
+    "beforeObservation": 121,
+    "success": true,
+    "afterObservation": 122,
+    "endedAtUtc": "2026-09-20T08:17:54.388Z"
+  },
+  {
+    "index": 51,
+    "label": "Reopen saved start",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:54.408Z",
+    "beforeObservation": 123,
+    "success": true,
+    "afterObservation": 124,
+    "endedAtUtc": "2026-09-20T08:17:54.850Z"
+  },
+  {
+    "index": 52,
+    "label": "after-reopen checkpoint 0",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:54.862Z",
+    "beforeObservation": 125,
+    "success": true,
+    "afterObservation": 126,
+    "endedAtUtc": "2026-09-20T08:17:55.221Z"
+  },
+  {
+    "index": 53,
+    "label": "after-reopen checkpoint 4",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:55.233Z",
+    "beforeObservation": 127,
+    "success": true,
+    "afterObservation": 128,
+    "endedAtUtc": "2026-09-20T08:17:55.703Z"
+  },
+  {
+    "index": 54,
+    "label": "after-reopen checkpoint 8",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:55.714Z",
+    "beforeObservation": 129,
+    "success": true,
+    "afterObservation": 130,
+    "endedAtUtc": "2026-09-20T08:17:56.229Z"
+  },
+  {
+    "index": 55,
+    "label": "after-reopen checkpoint 12",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:56.241Z",
+    "beforeObservation": 131,
+    "success": true,
+    "afterObservation": 132,
+    "endedAtUtc": "2026-09-20T08:17:56.658Z"
+  },
+  {
+    "index": 56,
+    "label": "after-reopen checkpoint 16",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:56.677Z",
+    "beforeObservation": 133,
+    "success": true,
+    "afterObservation": 134,
+    "endedAtUtc": "2026-09-20T08:17:57.057Z"
+  },
+  {
+    "index": 57,
+    "label": "after-reopen checkpoint 20",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:57.068Z",
+    "beforeObservation": 135,
+    "success": true,
+    "afterObservation": 136,
+    "endedAtUtc": "2026-09-20T08:17:57.430Z"
+  },
+  {
+    "index": 58,
+    "label": "after-reopen checkpoint 24",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:57.442Z",
+    "beforeObservation": 137,
+    "success": true,
+    "afterObservation": 138,
+    "endedAtUtc": "2026-09-20T08:17:57.798Z"
+  },
+  {
+    "index": 59,
+    "label": "after-reopen checkpoint 28",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:57.808Z",
+    "beforeObservation": 139,
+    "success": true,
+    "afterObservation": 140,
+    "endedAtUtc": "2026-09-20T08:17:58.235Z"
+  },
+  {
+    "index": 60,
+    "label": "after-reopen checkpoint 32",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:58.247Z",
+    "beforeObservation": 141,
+    "success": true,
+    "afterObservation": 142,
+    "endedAtUtc": "2026-09-20T08:17:58.654Z"
+  },
+  {
+    "index": 61,
+    "label": "reload saved replay",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:58.668Z",
+    "beforeObservation": 143,
+    "success": true,
+    "afterObservation": 144,
+    "endedAtUtc": "2026-09-20T08:17:58.832Z"
+  },
+  {
+    "index": 62,
+    "label": "after-reload checkpoint 0",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:58.842Z",
+    "beforeObservation": 145,
+    "success": true,
+    "afterObservation": 146,
+    "endedAtUtc": "2026-09-20T08:17:59.352Z"
+  },
+  {
+    "index": 63,
+    "label": "after-reload checkpoint 4",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:59.367Z",
+    "beforeObservation": 147,
+    "success": true,
+    "afterObservation": 148,
+    "endedAtUtc": "2026-09-20T08:17:59.725Z"
+  },
+  {
+    "index": 64,
+    "label": "after-reload checkpoint 8",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:17:59.747Z",
+    "beforeObservation": 149,
+    "success": true,
+    "afterObservation": 150,
+    "endedAtUtc": "2026-09-20T08:18:00.081Z"
+  },
+  {
+    "index": 65,
+    "label": "after-reload checkpoint 12",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:00.093Z",
+    "beforeObservation": 151,
+    "success": true,
+    "afterObservation": 152,
+    "endedAtUtc": "2026-09-20T08:18:00.564Z"
+  },
+  {
+    "index": 66,
+    "label": "after-reload checkpoint 16",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:00.577Z",
+    "beforeObservation": 153,
+    "success": true,
+    "afterObservation": 154,
+    "endedAtUtc": "2026-09-20T08:18:00.948Z"
+  },
+  {
+    "index": 67,
+    "label": "after-reload checkpoint 20",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:00.971Z",
+    "beforeObservation": 155,
+    "success": true,
+    "afterObservation": 156,
+    "endedAtUtc": "2026-09-20T08:18:01.295Z"
+  },
+  {
+    "index": 68,
+    "label": "after-reload checkpoint 24",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:01.305Z",
+    "beforeObservation": 157,
+    "success": true,
+    "afterObservation": 158,
+    "endedAtUtc": "2026-09-20T08:18:01.776Z"
+  },
+  {
+    "index": 69,
+    "label": "after-reload checkpoint 28",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:01.791Z",
+    "beforeObservation": 159,
+    "success": true,
+    "afterObservation": 160,
+    "endedAtUtc": "2026-09-20T08:18:02.151Z"
+  },
+  {
+    "index": 70,
+    "label": "after-reload checkpoint 32",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:02.164Z",
+    "beforeObservation": 161,
+    "success": true,
+    "afterObservation": 162,
+    "endedAtUtc": "2026-09-20T08:18:02.522Z"
+  },
+  {
+    "index": 71,
+    "label": "reopen for manual playback",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:17.464Z",
+    "beforeObservation": 163,
+    "success": true,
+    "afterObservation": 164,
+    "endedAtUtc": "2026-09-20T08:18:17.867Z"
+  },
+  {
+    "index": 72,
+    "label": "manual Play",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:17.881Z",
+    "beforeObservation": 165,
+    "success": true,
+    "afterObservation": 166,
+    "endedAtUtc": "2026-09-20T08:18:18.366Z"
+  },
+  {
+    "index": 73,
+    "label": "manual Pause",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:18.381Z",
+    "beforeObservation": 167,
+    "success": true,
+    "afterObservation": 168,
+    "endedAtUtc": "2026-09-20T08:18:18.697Z"
+  },
+  {
+    "index": 74,
+    "label": "Next checkpoint",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:18.708Z",
+    "beforeObservation": 169,
+    "success": true,
+    "afterObservation": 170,
+    "endedAtUtc": "2026-09-20T08:18:19.060Z"
+  },
+  {
+    "index": 75,
+    "label": "Previous checkpoint",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:19.072Z",
+    "beforeObservation": 171,
+    "success": true,
+    "afterObservation": 172,
+    "endedAtUtc": "2026-09-20T08:18:19.481Z"
+  },
+  {
+    "index": 76,
+    "label": "full Replay from start",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:18:19.497Z",
+    "beforeObservation": 173,
+    "success": true,
+    "afterObservation": 174,
+    "endedAtUtc": "2026-09-20T08:18:19.880Z"
+  },
+  {
+    "index": 77,
+    "label": "Reopen after natural end",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:19:20.117Z",
+    "beforeObservation": 180,
+    "success": true,
+    "afterObservation": 181,
+    "endedAtUtc": "2026-09-20T08:19:20.630Z"
+  },
+  {
+    "index": 78,
+    "label": "resize960 for settled layout capture",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:19:20.645Z",
+    "beforeObservation": 182,
+    "success": true,
+    "afterObservation": 183,
+    "endedAtUtc": "2026-09-20T08:19:20.719Z"
+  },
+  {
+    "index": 79,
+    "label": "scroll narrow layout down",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:19:20.733Z",
+    "beforeObservation": 184,
+    "success": true,
+    "afterObservation": 185,
+    "endedAtUtc": "2026-09-20T08:19:21.039Z"
+  },
+  {
+    "index": 80,
+    "label": "scroll narrow layout back to top",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:19:21.054Z",
+    "beforeObservation": 186,
+    "success": true,
+    "afterObservation": 187,
+    "endedAtUtc": "2026-09-20T08:19:21.277Z"
+  },
+  {
+    "index": 81,
+    "label": "restore final1280 viewport",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:19:21.416Z",
+    "beforeObservation": 190,
+    "success": true,
+    "afterObservation": 191,
+    "endedAtUtc": "2026-09-20T08:19:21.509Z"
+  },
+  {
+    "index": 82,
+    "label": "final Reopen saved start",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:19:58.799Z",
+    "beforeObservation": 193,
+    "success": true,
+    "afterObservation": 194,
+    "endedAtUtc": "2026-09-20T08:19:59.144Z"
+  }
+]

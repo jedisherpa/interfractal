@@ -1,0 +1,109 @@
+- main:
+  - generic: Looking Glass · Gate 10 · Closed browser result
+  - heading "Predict an unseen view and transfer" [level=1]
+  - strong: Bounded negative · Prediction instrument not ready
+  - paragraph: The server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.
+  - paragraph:
+    - text: Preserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495
+    - text: Source 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4
+  - navigation "Review links":
+    - link "Open paused instrument":
+      - /url: /
+    - link "Replay identities and restart commands":
+      - /url: /review/replay-collection.json
+    - link "Primary-source review":
+      - /url: /review/source-review.md
+  - paragraph: This page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.
+  - generic: "0"
+  - text: Committed answers, skips or reveals
+  - generic: "1"
+  - text: Unanswered server attempt retained
+  - generic: "0"
+  - text: Human participants or outcomes
+  - heading "The first step blocked the intended test" [level=2]
+  - paragraph: After the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.
+  - paragraph: Earlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.
+  - figure "The decisive failure. The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.":
+    - img "Original browser capture showing disabled answer, commit, skip and reveal controls after the accepted start"
+    - strong: The decisive failure.
+    - text: The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.
+  - heading "What the evidence supports" [level=2]
+  - table:
+    - rowgroup:
+      - row "Area Observed result Limit":
+        - columnheader "Area"
+        - columnheader "Observed result"
+        - columnheader "Limit"
+    - rowgroup:
+      - row "Prediction and reveal First attempt accepted by the server; acknowledgement discarded by the page. No completed case, answer, skip, reveal or repeated review in the browser.":
+        - cell "Prediction and reveal"
+        - cell "First attempt accepted by the server; acknowledgement discarded by the page."
+        - cell "No completed case, answer, skip, reveal or repeated review in the browser."
+      - row "Model and service Independent exact-model checks and 572 isolated HTTP/service checks passed. These checks do not establish a functioning UI.":
+        - cell "Model and service"
+        - cell "Independent exact-model checks and 572 isolated HTTP/service checks passed."
+        - cell "These checks do not establish a functioning UI."
+      - row "Published state All 65 semantic and 65 ledger payloads match their captured fingerprints. Four event-export views publish stale document-height metadata.":
+        - cell "Published state"
+        - cell "All 65 semantic and 65 ledger payloads match their captured fingerprints."
+        - cell "Four event-export views publish stale document-height metadata."
+      - row "Saved replay All 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds. Checkpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.":
+        - cell "Saved replay"
+        - cell "All 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds."
+        - cell "Checkpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible."
+      - row "Human learning and transfer Untested; zero participants. Source-informed software actions are not human first-exposure predictions.":
+        - cell "Human learning and transfer"
+        - cell "Untested; zero participants."
+        - cell "Source-informed software actions are not human first-exposure predictions."
+  - paragraph: "Closed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged."
+  - heading "Watch the answer-free tour" [level=2]
+  - list:
+    - text: Open the instrument and select
+    - strong: Reopen saved start
+    - text: .
+    - text: Click
+    - strong: Play
+    - text: . Five public task sheets appear at four-second boundaries.
+    - listitem: At 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.
+    - listitem: Use the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.
+  - figure "Supplied observations, target withheld. Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.":
+    - img "Original initial task supports with raw observations and unmarked answer alternatives"
+    - strong: Supplied observations, target withheld.
+    - text: Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.
+  - figure "The actual natural stop. The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.":
+    - img "Original browser page paused at the natural twenty-second tour end"
+    - strong: The actual natural stop.
+    - text: The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.
+  - heading "Preserved failures and remaining limits" [level=2]
+  - paragraph: Candidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.
+  - paragraph: The browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.
+  - heading "Eleven preserved local replays" [level=2]
+  - paragraph: These previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.
+  - list:
+    - link "Gate 0 · Viewing and replay":
+      - /url: http://127.0.0.1:43991/
+    - link "Gate 1 · 3D-to-2D calibration":
+      - /url: http://127.0.0.1:43994/
+    - link "Gate 2 · Hopf and shared reference":
+      - /url: http://127.0.0.1:43995/
+    - link "Gate 3 · 4D projection":
+      - /url: http://127.0.0.1:43996/
+    - link "Gate 4 · Slices and ambiguity":
+      - /url: http://127.0.0.1:43997/
+    - link "Gate 5 · Two additional coordinates in 5D":
+      - /url: http://127.0.0.1:43998/
+    - link "Gate 6 · Connected local models":
+      - /url: http://127.0.0.1:43999/
+    - link "Gate 7 · Unfamiliar-case interpretation":
+      - /url: http://127.0.0.1:44000/
+    - link "Gate 8 · Indistinguishable worlds":
+      - /url: http://127.0.0.1:44001/
+    - link "Gate 9 · Choose, watch or inspect a sheet":
+      - /url: http://127.0.0.1:44002/
+    - link "Gate 10 · Prediction UI blocked; tour preserved":
+      - /url: http://127.0.0.1:44003/
+  - heading "Stop at the review boundary" [level=2]
+  - paragraph:
+    - strong: Gate 11 — Break a summary by changing its receiver
+    - text: remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.
+  - paragraph: Astra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.

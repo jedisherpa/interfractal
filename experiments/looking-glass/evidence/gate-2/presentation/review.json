@@ -1,0 +1,183 @@
+{
+  "observedAtUtc": "2026-09-20T02:13:38.684Z",
+  "scope": "Review-page presentation check, separate from the66 core experiment observations.",
+  "documentWidth": 1280,
+  "heading": "The correspondence holds.The interface still has limits.",
+  "images": [
+    {
+      "alt": "At zero seconds, the east globe point and corresponding fiber are selected; the phase marker is near the lower end of the projected loop.",
+      "complete": true,
+      "height": 720,
+      "src": "/evidence/gate-2/captures/S0-fixed-stable.jpg",
+      "width": 1280
+    },
+    {
+      "alt": "At six seconds, the source marker is near the top of the same projected east loop while its globe point remains east.",
+      "complete": true,
+      "height": 720,
+      "src": "/evidence/gate-2/captures/S1-fixed-comparison.jpg",
+      "width": 1280
+    },
+    {
+      "alt": "The selected south fiber appears as a straight clipped line with continuation dots, without a finite marker for the source point at stereographic infinity.",
+      "complete": true,
+      "height": 720,
+      "src": "/evidence/gate-2/captures/S3-south-infinity-top.jpg",
+      "width": 1280
+    },
+    {
+      "alt": "Hall is selected on the no existing access categorical loop; its unchanged capacity and portable-ramp facts remain visible in the record inspector.",
+      "complete": true,
+      "height": 1127,
+      "src": "/evidence/gate-2/captures/S5-hall-access-confirmed.jpg",
+      "width": 1280
+    }
+  ],
+  "links": [
+    {
+      "href": "/?run=G2-HOPF-003&build=g2-ccabad12693f86a8",
+      "label": "Open paused replay"
+    },
+    {
+      "href": "/evidence/gate-2/GATE_2_PACKET.md",
+      "label": "Full review packet"
+    },
+    {
+      "href": "/evidence/gate-2/review/AUDIT.md",
+      "label": "Independent audit"
+    },
+    {
+      "href": "/evidence/gate-2/review/experiment-charter.md",
+      "label": "charter and companion specification"
+    },
+    {
+      "href": "/evidence/gate-2/review/browser-audit.json",
+      "label": "Browser audit data"
+    },
+    {
+      "href": "/evidence/gate-2/review/build-audit.json",
+      "label": "Exact-build audit"
+    },
+    {
+      "href": "/evidence/gate-2/captures/S0-fixed-stable.jpg",
+      "label": "At zero seconds, the east globe point and corresponding fiber are selected; the phase marker is near the lower end of the projected loop."
+    },
+    {
+      "href": "/evidence/gate-2/captures/S1-fixed-comparison.jpg",
+      "label": "At six seconds, the source marker is near the top of the same projected east loop while its globe point remains east."
+    },
+    {
+      "href": "/evidence/gate-2/captures/S3-south-infinity-top.jpg",
+      "label": "The selected south fiber appears as a straight clipped line with continuation dots, without a finite marker for the source point at stereographic infinity."
+    },
+    {
+      "href": "/evidence/gate-2/captures/S3-south-infinity-controls.jpg",
+      "label": "Explicit control explanation"
+    },
+    {
+      "href": "/evidence/gate-2/captures/S5-hall-access-confirmed.jpg",
+      "label": "Hall is selected on the no existing access categorical loop; its unchanged capacity and portable-ramp facts remain visible in the record inspector."
+    },
+    {
+      "href": "/evidence/gate-2/captures/S4-hall-selected-confirmed.jpg",
+      "label": "The same record under capacity"
+    },
+    {
+      "href": "/evidence/gate-2/captures/plain-source-history-horizontal.jpg",
+      "label": "plain-table overflow original"
+    },
+    {
+      "href": "/evidence/gate-2/plain-equivalent-dom.json",
+      "label": "Actual DOM measurements"
+    },
+    {
+      "href": "https://nilesjohnson.net/hopf.html",
+      "label": "Niles Johnson"
+    },
+    {
+      "href": "https://nilesjohnson.net/hopf-articles/Lyons_Elem-intro-Hopf-fibration.pdf",
+      "label": "David W. Lyons"
+    },
+    {
+      "href": "https://math.stanford.edu/~ralph/math215b/fiber.pdf",
+      "label": "Ralph Cohen’s notes"
+    },
+    {
+      "href": "/evidence/gate-2/browser-observations.json",
+      "label": "66 observations"
+    },
+    {
+      "href": "/evidence/gate-2/browser-trace.json",
+      "label": "Actual browser trace"
+    },
+    {
+      "href": "/evidence/gate-2/activity-snapshot.jsonl",
+      "label": "52-event snapshot"
+    },
+    {
+      "href": "/evidence/gate-2/capture-index.json",
+      "label": "22-original capture index"
+    },
+    {
+      "href": "/evidence/gate-2/HOST_OBSERVATIONS.md",
+      "label": "Host observations"
+    },
+    {
+      "href": "/evidence/gate-2/post-browser-integrity.json",
+      "label": "Preservation record"
+    },
+    {
+      "href": "/evidence/gate-2/browser-console.json",
+      "label": "Console scope"
+    },
+    {
+      "href": "/evidence/gate-2/execution-provenance.json",
+      "label": "Actual worker roles"
+    },
+    {
+      "href": "/evidence/gate-2/captures/S5-unmapped-weather.jpg",
+      "label": "unmapped weather"
+    },
+    {
+      "href": "/evidence/gate-2/captures/plain-reference-comparison.jpg",
+      "label": "both references"
+    },
+    {
+      "href": "/evidence/gate-2/captures/S6-reloaded-six.jpg",
+      "label": "reloaded 6 s"
+    },
+    {
+      "href": "/evidence/gate-2/captures/S0-fixed-comparison.jpg",
+      "label": "retained capture anomaly"
+    },
+    {
+      "href": "http://127.0.0.1:43994/",
+      "label": "Gate 1 calibration"
+    },
+    {
+      "href": "http://127.0.0.1:43991/",
+      "label": "Gate 0 probe"
+    },
+    {
+      "href": "/runs/G2-HOPF-003/run.json",
+      "label": "Canonical run manifest"
+    },
+    {
+      "href": "/runs/G2-HOPF-003/checkpoints.json",
+      "label": "Generated checkpoints"
+    },
+    {
+      "href": "/runs/G2-HOPF-003/events.jsonl",
+      "label": "Planned sequence, not observed events"
+    }
+  ],
+  "title": "Looking Glass · Gate 2 results",
+  "url": "http://127.0.0.1:43995/evidence/gate-2/results.html",
+  "viewport": {
+    "dpr": 2,
+    "height": 720,
+    "scrollX": 0,
+    "scrollY": 0,
+    "width": 1280
+  }
+}

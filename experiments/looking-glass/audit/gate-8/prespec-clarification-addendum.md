@@ -1,0 +1,7 @@
+# Gate 8 independent clarification addendum
+
+The original independent [prespec review](prespec-review.md) remains byte-for-byte unchanged and pinned in `PRESPEC_FREEZE.json`. I separately reviewed the frozen clarification to the model and record contracts after the host incorporated the requested event ordering.
+
+The frozen record contract now specifies that cursor0 is an initial-state record; cursor24 emits replay-origin `add-query` for `sliceMinus2` followed by `slicePlus2`; cursor32 emits replay-origin `add-query` for `xw90` followed by automatic `tour-stop` with reason `end-of-sequence`. Same-boundary events must form a before/after fingerprint chain, and checkpoints follow all events at their boundary. The frozen model contract states the same behavior. This resolves the event-granularity issue in the original review without changing the public fixture, independent predictions or mathematical result.
+
+I verified the frozen five-file manifest SHA-256 `38f1cbae00339eb9d4d1f1ee097fdb124b120c598ecea4c69c3ee7af8c19e7b8`, including model-contract SHA-256 `84f98f27acfb9b0a463d3e27b9f3250c2efcfcf5d6b8dfd4117a0a155f8e6b3d` and record-contract SHA-256 `faca999c99d3da4feafdb27bf9c5bcc08f1ed6b93aa41ed6248239f6e8e36e69`. The immutable candidate and actual replay obey that clarified order. This is my independent confirmation; the separate host clarification record remains preserved in `evidence/gate-8/prespec-clarification-review.json`.

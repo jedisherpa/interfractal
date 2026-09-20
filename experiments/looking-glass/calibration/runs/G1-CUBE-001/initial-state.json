@@ -1,0 +1,456 @@
+{
+  "simulationTimeMs": 0,
+  "state": {
+    "simulationTimeMs": 0,
+    "sourceObject": "ordinary-3d-wire-cube",
+    "sourceDimension": 3,
+    "sourceRotation": {
+      "axis": "y",
+      "matrix": "Ry(theta): x′=cosθx−sinθz; y′=y; z′=sinθx+cosθz",
+      "theta": 0
+    },
+    "shadowProjection": "orthographic P=(x′,y′), independent of display camera",
+    "camera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659
+    },
+    "displayProjection": "orthographic c=Rx(pitch)·Ry(yaw)·rotatedSource; SVG screen=(cx,−cy)",
+    "fixedScalePxPerUnit": 95,
+    "selectedVertexIds": [
+      "v110",
+      "v111"
+    ],
+    "paneMapping": {
+      "source": {
+        "viewBox": [
+          0,
+          0,
+          500,
+          360
+        ],
+        "center": [
+          250,
+          180
+        ],
+        "svgPixel": "(250+95·screenX,180+95·screenY)"
+      },
+      "shadow": {
+        "viewBox": [
+          0,
+          0,
+          500,
+          360
+        ],
+        "center": [
+          250,
+          180
+        ],
+        "svgPixel": "(250+95·x′,180−95·y′)"
+      }
+    },
+    "pairSourceDistance": 2,
+    "pairShadowDistance": 0,
+    "vertices": [
+      {
+        "id": "v000",
+        "originalSource": [
+          -1,
+          -1,
+          -1
+        ],
+        "rotatedSource": [
+          -1,
+          -1,
+          -1
+        ],
+        "shadow": [
+          -1,
+          -1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v001",
+        "originalSource": [
+          -1,
+          -1,
+          1
+        ],
+        "rotatedSource": [
+          -1,
+          -1,
+          1
+        ],
+        "shadow": [
+          -1,
+          -1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v010",
+        "originalSource": [
+          -1,
+          1,
+          -1
+        ],
+        "rotatedSource": [
+          -1,
+          1,
+          -1
+        ],
+        "shadow": [
+          -1,
+          1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v011",
+        "originalSource": [
+          -1,
+          1,
+          1
+        ],
+        "rotatedSource": [
+          -1,
+          1,
+          1
+        ],
+        "shadow": [
+          -1,
+          1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v100",
+        "originalSource": [
+          1,
+          -1,
+          -1
+        ],
+        "rotatedSource": [
+          1,
+          -1,
+          -1
+        ],
+        "shadow": [
+          1,
+          -1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v101",
+        "originalSource": [
+          1,
+          -1,
+          1
+        ],
+        "rotatedSource": [
+          1,
+          -1,
+          1
+        ],
+        "shadow": [
+          1,
+          -1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v110",
+        "originalSource": [
+          1,
+          1,
+          -1
+        ],
+        "rotatedSource": [
+          1,
+          1,
+          -1
+        ],
+        "shadow": [
+          1,
+          1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": "v111",
+        "originalSource": [
+          1,
+          1,
+          1
+        ],
+        "rotatedSource": [
+          1,
+          1,
+          1
+        ],
+        "shadow": [
+          1,
+          1
+        ],
+        "cameraCoordinates": [
+          null,
+          null,
+          null
+        ],
+        "screen": [
+          null,
+          null
+        ]
+      }
+    ],
+    "shadowSites": [
+      {
+        "xy": [
+          -1,
+          -1
+        ],
+        "sourceIds": [
+          "v000",
+          "v001"
+        ],
+        "multiplicity": 2
+      },
+      {
+        "xy": [
+          -1,
+          1
+        ],
+        "sourceIds": [
+          "v010",
+          "v011"
+        ],
+        "multiplicity": 2
+      },
+      {
+        "xy": [
+          1,
+          -1
+        ],
+        "sourceIds": [
+          "v100",
+          "v101"
+        ],
+        "multiplicity": 2
+      },
+      {
+        "xy": [
+          1,
+          1
+        ],
+        "sourceIds": [
+          "v110",
+          "v111"
+        ],
+        "multiplicity": 2
+      }
+    ],
+    "nonzeroShadowSegments": [
+      {
+        "endpoints": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "sourceEdgeIds": [
+          "v000-v010",
+          "v001-v011"
+        ],
+        "multiplicity": 2
+      },
+      {
+        "endpoints": [
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceEdgeIds": [
+          "v000-v100",
+          "v001-v101"
+        ],
+        "multiplicity": 2
+      },
+      {
+        "endpoints": [
+          [
+            -1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sourceEdgeIds": [
+          "v010-v110",
+          "v011-v111"
+        ],
+        "multiplicity": 2
+      },
+      {
+        "endpoints": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sourceEdgeIds": [
+          "v100-v110",
+          "v101-v111"
+        ],
+        "multiplicity": 2
+      }
+    ],
+    "edges": [
+      {
+        "id": "v000-v001",
+        "from": "v000",
+        "to": "v001",
+        "shadowCollapsed": true
+      },
+      {
+        "id": "v000-v010",
+        "from": "v000",
+        "to": "v010",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v000-v100",
+        "from": "v000",
+        "to": "v100",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v001-v011",
+        "from": "v001",
+        "to": "v011",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v001-v101",
+        "from": "v001",
+        "to": "v101",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v010-v011",
+        "from": "v010",
+        "to": "v011",
+        "shadowCollapsed": true
+      },
+      {
+        "id": "v010-v110",
+        "from": "v010",
+        "to": "v110",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v011-v111",
+        "from": "v011",
+        "to": "v111",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v100-v101",
+        "from": "v100",
+        "to": "v101",
+        "shadowCollapsed": true
+      },
+      {
+        "id": "v100-v110",
+        "from": "v100",
+        "to": "v110",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v101-v111",
+        "from": "v101",
+        "to": "v111",
+        "shadowCollapsed": false
+      },
+      {
+        "id": "v110-v111",
+        "from": "v110",
+        "to": "v111",
+        "shadowCollapsed": true
+      }
+    ]
+  },
+  "stateSha256": "6a812f6eda222a1e5eb116f9def5671a46ca3e58413075c5889dfc2c006a544d",
+  "geometrySha256": "ac35900ef087a088b82f512e18bda68184cadf489f377f7adba38424c74f3ac7"
+}

@@ -1,0 +1,34 @@
+{
+  "gate": 8,
+  "runId": "G8-AMBIGUITY-001",
+  "buildId": "g8-f5c5ee62889da529",
+  "closedAtUtc": "2026-09-20T08:20:54.369532+00:00",
+  "humanParticipants": 0,
+  "acceptedBrowserSessionIds": [
+    "5727769d-6670-420d-8485-0276decbbfa9",
+    "615048eb-a95a-4614-8edb-6c47e99f8cee"
+  ],
+  "counts": {
+    "actualBrowserObservations": 197,
+    "hostActionCalls": 83,
+    "successfulHostActionCalls": 83,
+    "originalCaptures": 14,
+    "checkpointObservations": 36,
+    "acceptedActivityRows": 79,
+    "allActivityRowsThroughClosure": 79,
+    "separatelyRecordedHistoricalLinkClicks": 1
+  },
+  "notes": [
+    "Core is the actual resumed acquisition. The incomplete initial acquisition with43 observations,17 actions and4 original images remains in failed-acquisitions/G8-AMBIGUITY-001-server-stop. The same immutable source was restarted after HTTP connection refusal; no candidate code revision occurred.",
+    "CUA helper closures retained original buffers after reassignment; actual resumed records were mechanically separated and reindexed with originalCollectionIndex. Full transition inputs preserved in collection-buffer-transition.json; no observed result was changed.",
+    "The accepted activity file filters by the two explicitly recorded resumed/reloaded session IDs; the complete unfiltered server log through closure is separately preserved. Browser actor metadata is unattributed_local; external host trace explicitly records software_validation.",
+    "All36 checkpoints match across baseline, after exploration, Reopen and reload. Actual continuous32-second replay was bracketed active and at paused natural end; manual Play/Pause and previous/next were exercised separately.",
+    "C01 camera yaw changes and certificate toggles preserved information; C02 two query orders agreed and repeat added nothing; C03 both permitted outer slices remained empty and outside-menu witness appeared only in explanatory certificate; C04 unequal exact values, tolerance-nearness and matching labels were inspected together.",
+    "All UI operations used supported CUA; DOM reads were read-only. No human participant or efficacy result is present.",
+    "The first resumed960-layout JPEG has actual dimensions960x540 despite a960x720 CSS viewport; it is retained as a capture artifact. Later records/inspector and settled-layout captures are960x720. No screenshot was resized or replaced. Actual original dimensions are listed separately from browser DPR.",
+    "At960 and1280 no horizontal page overflow was observed. Full records/certificate/inspector need vertical scrolling; screenshots show viewport portions only. No OS reduced-motion preference was emulated.",
+    "Gate7 historical link was actually clicked and its paused0 run/build DOM identity inspected in a newly opened temporary tab; no historical screenshot was requested.",
+    "Browser warning/error query returned no entries; earlier visible Event log failed text is preserved in the incomplete acquisition. Empty captured console output is not a claim that the earlier outage did not occur.",
+    "Core is closed; later presentation/handoff checks will be separate."
+  ]
+}

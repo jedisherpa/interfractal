@@ -1,0 +1,10 @@
+{
+  "runId": "G9-MATCHED-001",
+  "buildId": "g9-313e2af27d02a5a8",
+  "recordedAtUtc": "2026-09-20T09:05:15.036Z",
+  "status": "Stopped after initial paused DOM observation; no actual controls or screenshots acquired.",
+  "reason": "Builder self-check found deriveWatch/deriveStatic parentTraceHash null; corrected immutable candidate pending.",
+  "observations": 1,
+  "actions": 0,
+  "captures": 0
+}

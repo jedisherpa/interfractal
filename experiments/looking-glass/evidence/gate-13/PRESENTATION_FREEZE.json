@@ -1,0 +1,122 @@
+{
+  "schema": "gate13-presentation-freeze-v1",
+  "frozenAtUtc": "2026-09-20T20:54:33.816924+00:00",
+  "scope": "Final Gate13 report and actual browser inspection after confirmed preparation-only goal amendment. Independent handoff audit follows.",
+  "runId": "G13-MISLEAD-002",
+  "reportSha256": "94972776d340c8de1d15bc8efae8336ffb14f782c9c777533ab02bc26150b732",
+  "observations": 10,
+  "originalImages": 3,
+  "fileCount": 22,
+  "files": [
+    {
+      "path": "docs/preparation-goal-authority-2026-09-20.json",
+      "sha256": "2e4b6baa7b5a169e9bb2a9a66647ab723aee1d0a53d7070455f02699ca6cbf8b",
+      "bytes": 3310
+    },
+    {
+      "path": "evidence/gate-13/GATE_13_PACKET.md",
+      "sha256": "1c7c259442c8d71a67053ceade67f1f4811d48744c9f386fc526d33866d2fab9",
+      "bytes": 11876
+    },
+    {
+      "path": "evidence/gate-13/preparation-requirements-at-close.md",
+      "sha256": "c01c8b088605300f087bb112f4ecf7cf71eef386181d9dbc2b7d4740d0b6fc90",
+      "bytes": 10487
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/acquisition-note.json",
+      "sha256": "d4a267ed4434c8ec7efc5bfa0149e343edda90981ec108ad097502cc00a7c3d7",
+      "bytes": 801
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/console.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/observations.json",
+      "sha256": "bcedbd5d818221414e13169fa7de6ee388bc361ad5173d5b2f4d253757d71709",
+      "bytes": 94316
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/screenshots/comparison-evidence.jpg",
+      "sha256": "87c0ae1b791a019ea27878b079ce5779d4583c95c8d3291785c82672393f7b33",
+      "bytes": 73454
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/screenshots/final-results-top.jpg",
+      "sha256": "c253b6eae12783ecd9a9aaf0b56b5e9b1bd202853336f3b135676bc3a5920868",
+      "bytes": 80678
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/screenshots/preparation-scope-and-next-decision.jpg",
+      "sha256": "c3fb8618fd0473484531fd7054f30ebd9e10642494e8c7d91d51b9c94a7de023",
+      "bytes": 115391
+    },
+    {
+      "path": "evidence/gate-13/presentation-final/screenshots.json",
+      "sha256": "7aa016787d40a833a271c54f9deb31a11325ecdc2fec926f679fb601b5afc8ee",
+      "bytes": 1079
+    },
+    {
+      "path": "evidence/gate-13/results.html",
+      "sha256": "94972776d340c8de1d15bc8efae8336ffb14f782c9c777533ab02bc26150b732",
+      "bytes": 12319
+    },
+    {
+      "path": "evidence/gate-13/review-http-checks.json",
+      "sha256": "702edc45ee06434af5cf81c1f4bca4ce414ca124e695088311116f563bf47169",
+      "bytes": 1122
+    },
+    {
+      "path": "evidence/gate-13/run-evidence.json",
+      "sha256": "eff98284518367a302e06b2b81d185a216b635ea2a2618b54b90203732c2fccb",
+      "bytes": 46616
+    },
+    {
+      "path": "misleading-view/review/allowlist.json",
+      "sha256": "af81ff2104abd317ee4078dd3113779019b4ab7eb5a616e5fa53b68f22044ced",
+      "bytes": 1709
+    },
+    {
+      "path": "misleading-view/review/images/corrected-count-comparison.jpg",
+      "sha256": "fad9a56e63fd435bd80254dcbdfbff4d126c011452823d243964e0503bb8d7bb",
+      "bytes": 68154
+    },
+    {
+      "path": "misleading-view/review/images/misleading-original-retained.jpg",
+      "sha256": "846e5b53e3b0a5e8fa5de938a24e3729f02e65c0e0f08f21368b7a5ef05ece5c",
+      "bytes": 65377
+    },
+    {
+      "path": "misleading-view/review/images/plain-correction-and-debrief.jpg",
+      "sha256": "0eff48280c03ce73cc675a783b2dd90d284fb2d457bf2b69db39c6e9b14d2c35",
+      "bytes": 111005
+    },
+    {
+      "path": "misleading-view/review/images/true-control-check.jpg",
+      "sha256": "ed1d24713a312dde9968be6ec941d0a914ee493ecd5eecacd074a9d45d7f2af9",
+      "bytes": 64310
+    },
+    {
+      "path": "misleading-view/review/images/zero-control-plain-debrief.jpg",
+      "sha256": "f4ba06127e8ab761cac165223a222b7a55f3a007b357200f49afcaae951ddd3e",
+      "bytes": 128324
+    },
+    {
+      "path": "misleading-view/review/replay-collection.json",
+      "sha256": "604ad753dc39d7a0e64f9adee2159c26b44021abd9ed19d52a14cf5b2ce312ce",
+      "bytes": 10157
+    },
+    {
+      "path": "misleading-view/review/results.html",
+      "sha256": "94972776d340c8de1d15bc8efae8336ffb14f782c9c777533ab02bc26150b732",
+      "bytes": 12319
+    },
+    {
+      "path": "misleading-view/review/source-review.md",
+      "sha256": "79c3bfae05f96e830b1025a051b6ffa6fc2ab44b8f3529df368eb5e6a26cd092",
+      "bytes": 4565
+    }
+  ]
+}

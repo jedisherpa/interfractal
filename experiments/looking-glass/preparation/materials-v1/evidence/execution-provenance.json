@@ -1,0 +1,118 @@
+{
+  "recordedAtUtc": "2026-09-20T21:15:19.485683+00:00",
+  "requestedRoles": {
+    "specificationAndSynthesis": "GPT-6 Astra xhigh via existing /root/g10_astra",
+    "implementation": "GPT-5.6 Sol high via /root/prep_sol_builder",
+    "initialRequirementsAudit": "GPT-5.6 Sol high via /root/g9_sol_audit",
+    "blindKeyDerivation": "GPT-5.6 Sol high via resumed /root/g9_sol_audit after builder tooling phase ended",
+    "host": "Setup, local tools, routing, preservation, actual browser inspection and Git"
+  },
+  "researchParticipants": {
+    "agentSnapshotsCollected": 0,
+    "humansEnrolled": 0
+  },
+  "dispatchAttempts": [
+    {
+      "target": "/root/g9_sol_audit",
+      "operation": "followup_task",
+      "task": "blind derivation",
+      "result": "agent thread limit reached; no work started"
+    },
+    {
+      "target": "/root/prep_sol_blind_audit",
+      "operation": "spawn_agent",
+      "task": "fresh blind derivation",
+      "result": "agent thread limit reached; no worker created"
+    },
+    {
+      "target": "/root/g9_sol_audit",
+      "operation": "followup_task",
+      "task": "blind derivation",
+      "result": "Accepted after builder ended tooling turn; runs against only five frozen source/task/schema files"
+    },
+    {
+      "target": "/root/prep_sol_builder",
+      "operation": "followup_task",
+      "task": "candidate002 validator correction",
+      "result": "Accepted; separate preserved candidate requested"
+    },
+    {
+      "target": "/root/g10_astra",
+      "operation": "followup_task",
+      "task": "materials synthesis",
+      "result": "agent thread limit reached; no new work started"
+    },
+    {
+      "target": "/root/g10_astra",
+      "operation": "followup_task",
+      "task": "materials synthesis",
+      "result": "Accepted after candidate001 auditor finished its turn"
+    },
+    {
+      "target": "/root/g9_sol_audit",
+      "operation": "followup_task",
+      "task": "candidate002 independent core audit",
+      "result": "agent thread limit reached while Astra drafting; no new audit work started"
+    },
+    {
+      "target": "/root/g9_sol_audit",
+      "operation": "followup_task",
+      "task": "candidate002 independent core audit",
+      "result": "Accepted after Astra draft turn ended; final BLOCKED on rule-only witnesses"
+    },
+    {
+      "target": "/root/prep_sol_builder",
+      "operation": "followup_task",
+      "task": "candidate003 literal-claim witness correction",
+      "result": "Accepted after candidate002 audit turn ended"
+    },
+    {
+      "target": "/root/g9_sol_audit",
+      "operation": "followup_task",
+      "task": "candidate003 independent core audit",
+      "result": "Accepted; final bounded materials PASS, zero research outputs"
+    },
+    {
+      "target": "/root/g10_astra",
+      "operation": "followup_task",
+      "task": "final materials synthesis",
+      "result": "Accepted; final packet produced after003 independent core audit"
+    },
+    {
+      "target": "/root/g10_astra",
+      "operation": "followup_task",
+      "task": "include clean canonical-path reproduction and preserved initial failure",
+      "result": "Accepted; final review supplement before handoff"
+    }
+  ],
+  "nextAuditAction": "None for this bounded materials handoff; human materials review pending before dependent preparation.",
+  "blindnessLimit": "Procedural reading boundary in a shared filesystem, not OS-enforced isolation. Future research execution requires a genuinely isolated runner/input context.",
+  "authorDesignComplete": true,
+  "builderToolingPhaseComplete": true,
+  "independentBlindKeyStatus": "FROZEN_BEFORE_AUTHOR_KEY_ACCESS",
+  "updatedAtUtc": "2026-09-20T22:01:12.590287+00:00",
+  "blindKeyFreeze": "preparation/materials-v1/audit/BLIND_KEY_FREEZE_001.json",
+  "crossKeyComparison": {
+    "developmentValuesAgreed": 194,
+    "transferValuesAgreed": 98,
+    "structuralBundleIdArraysAgreed": 8,
+    "inScopeAuthorReferences": 442,
+    "provenanceSufficiencyAutomaticallyEstablished": false
+  },
+  "candidate001Disposition": "BLOCKED_FOR_MATERIALS_ACCEPTANCE",
+  "candidate001Freeze": "preparation/materials-v1/evidence/CANDIDATE_001_FREEZE.json",
+  "candidate002Disposition": "BLOCKED_FOR_MATERIALS_ACCEPTANCE",
+  "candidate002Freeze": "preparation/materials-v1/evidence/CANDIDATE_002_FREEZE.json",
+  "candidate002BrowserQualification": "Seven completed operations but five intended transitions; first click did not open C04 and next mislabeled close action opened it. Recovery and subsequent keyboard/mouse transitions pass; all originals retained.",
+  "candidate003Disposition": "PASS_BOUNDED_AUTHORED_MATERIALS_STAGE",
+  "candidate003ManifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+  "coreManifestSha256": "16795483e387a34c0f32e7185723d221dcc772da333a3e3a90848e2a9b80e4d6",
+  "independentCoreReviewComplete": true,
+  "finalHandoffReviewComplete": true,
+  "humanMaterialsApproval": false,
+  "reproductionQualification": "Clean canonical-path rebuild matches70files. Earlier macOS /var symlink invocation silently no-oped; preserve failed record, require success output and exact manifest, document noncanonical CLI limitation.",
+  "finalHandoffVerdict": "PASS_BOUNDED_HANDOFF",
+  "allCurrentEngineeringWorkersCompleted": true,
+  "finalPacketSha256": "316528e2d942f1b611ceb9fb9705976e18c52012bf044cd0a50de22ccd7db608",
+  "goalComplete": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "corrected-materials-overview",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-002/screenshots/corrected-materials-overview.jpg",
+    "sha256": "802660b7b10206d229abd33c1ccfad6f09e27ed3e785ce938f2d4bac6dc827c0",
+    "bytes": 79847,
+    "beforeObservationIndex": 1,
+    "afterObservationIndex": 2
+  },
+  {
+    "label": "corrected-C04-source",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-002/screenshots/corrected-C04-source.jpg",
+    "sha256": "9c65848d5d8a0af467bcfeca22e1e9322ce87983ad71fc253ade2961c5fc3098",
+    "bytes": 116434,
+    "beforeObservationIndex": 4,
+    "afterObservationIndex": 5
+  },
+  {
+    "label": "corrected-C04-keyboard-open",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-002/screenshots/corrected-C04-keyboard-open.jpg",
+    "sha256": "e6a492b863fc10a0313e81c54f99214be8e8df93ae3cef8b331776ae04de36a5",
+    "bytes": 103566,
+    "beforeObservationIndex": 9,
+    "afterObservationIndex": 10
+  }
+]

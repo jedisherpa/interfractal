@@ -1,0 +1,57 @@
+{
+  "schema": "looking-glass-gate-1-route-audit-v1",
+  "generatedAtUtc": "2026-09-20T01:13:42.895Z",
+  "scope": "Read-only local HTTP bytes/status; not browser visual observation",
+  "runId": "G1-CUBE-003",
+  "buildId": "g1-9dce1c2b9c2b3be4",
+  "port": 43994,
+  "checks": [
+    {
+      "name": "root serves exact snapshot index",
+      "status": "pass"
+    },
+    {
+      "name": "app.mjs serves exact snapshot bytes",
+      "status": "pass"
+    },
+    {
+      "name": "model.mjs serves exact snapshot bytes",
+      "status": "pass"
+    },
+    {
+      "name": "style.css serves exact snapshot bytes",
+      "status": "pass"
+    },
+    {
+      "name": "/api/run serves exact canonical bytes",
+      "status": "pass"
+    },
+    {
+      "name": "/api/current-run serves exact canonical bytes",
+      "status": "pass"
+    },
+    {
+      "name": "/api/checkpoints serves exact canonical bytes",
+      "status": "pass"
+    },
+    {
+      "name": "/api/events serves exact canonical bytes",
+      "status": "pass"
+    },
+    {
+      "name": "evidence index identifies this run",
+      "status": "pass"
+    },
+    {
+      "name": "Gate 0 preserved local replay remains reachable",
+      "status": "fail",
+      "detail": "Expected values to be strictly equal:\n\n404 !== 200\n"
+    },
+    {
+      "name": "unknown and encoded traversal routes do not expose project files",
+      "status": "pass"
+    }
+  ],
+  "passed": 10,
+  "failed": 1
+}

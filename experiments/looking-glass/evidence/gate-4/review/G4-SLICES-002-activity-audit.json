@@ -1,0 +1,145 @@
+{
+  "checkedAtUtc": "2026-09-20T03:40:03.637Z",
+  "kind": "browser-activity-and-restoration-audit",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "eventCount": 57,
+  "sessionCount": 3,
+  "activitySource": "evidence/gate-4/observed-activity.jsonl",
+  "observationCount": 90,
+  "actionCount": 53,
+  "pass": true,
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "semantic events bind exact run/build, actor, origins, state and per-session sequence",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "eventCount": 57,
+      "sessionCount": 3
+    },
+    {
+      "name": "all consequential control types and exact automatic end are recorded",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "actual numeric non-grid/out-of-range seek and endpoint step semantics",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "actual camera, slice and movie controls isolate the declared raw states",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "canonical checkpoint fingerprints repeat exactly across controls/reopen/reload",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "baselineCount": 7
+    },
+    {
+      "name": "active playback crosses before, empty and return intervals and auto-stops",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "activeObservations": [
+        {
+          "index": 86,
+          "timeMs": 8300,
+          "kind": "solid",
+          "radius": 0.8549259836383498
+        },
+        {
+          "index": 90,
+          "timeMs": 300,
+          "kind": "solid",
+          "radius": 0.9998242032977598
+        },
+        {
+          "index": 91,
+          "timeMs": 600,
+          "kind": "solid",
+          "radius": 0.9992966276336572
+        },
+        {
+          "index": 92,
+          "timeMs": 700,
+          "kind": "solid",
+          "radius": 0.9990425103567916
+        },
+        {
+          "index": 93,
+          "timeMs": 22500,
+          "kind": "empty",
+          "radius": null
+        },
+        {
+          "index": 94,
+          "timeMs": 22600,
+          "kind": "empty",
+          "radius": null
+        },
+        {
+          "index": 95,
+          "timeMs": 32000,
+          "kind": "solid",
+          "radius": 0.8660254037844386
+        },
+        {
+          "index": 96,
+          "timeMs": 32100,
+          "kind": "solid",
+          "radius": 0.8696038968978923
+        },
+        {
+          "index": 121,
+          "timeMs": 100,
+          "kind": "solid",
+          "radius": 0.9999804685592616
+        },
+        {
+          "index": 122,
+          "timeMs": 800,
+          "kind": "solid",
+          "radius": 0.998749217771909
+        },
+        {
+          "index": 123,
+          "timeMs": 8600,
+          "kind": "solid",
+          "radius": 0.8432637487761466
+        },
+        {
+          "index": 124,
+          "timeMs": 8700,
+          "kind": "solid",
+          "radius": 0.8392472445590751
+        },
+        {
+          "index": 125,
+          "timeMs": 21300,
+          "kind": "empty",
+          "radius": null
+        }
+      ],
+      "minimumVisiblePreboundaryRadius": 0.8392472445590751
+    },
+    {
+      "name": "independent computer-use action trace retained with failed attempts",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "actionCount": 53,
+      "failedAttempts": []
+    }
+  ],
+  "limit": "Event/activity state and external action records; does not infer human comprehension or continuous unrecorded movie equality."
+}

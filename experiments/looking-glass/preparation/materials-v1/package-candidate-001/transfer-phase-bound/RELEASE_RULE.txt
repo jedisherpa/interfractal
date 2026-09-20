@@ -1,0 +1,2 @@
+RESEARCH_TEAM_ONLY until all comparator final artifacts are frozen; never package with initial/revision prompts. Author key is never released to research participants. Context IDs are not exposed before transfer.
+No materials are released or research records collected by this package.

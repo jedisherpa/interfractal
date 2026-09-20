@@ -1,0 +1,853 @@
+{
+  "status": "passed",
+  "fixtureId": "G8-FINITE-WORLDS-01",
+  "pairCount": 9,
+  "subsetCount": 12,
+  "exactBaselineCollisions": 8,
+  "cases": {
+    "G8-C01": {
+      "observations": {
+        "C01-W01": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "0",
+              "1/2",
+              "-1/4"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "1/2",
+              "-1/4"
+            ]
+          }
+        },
+        "C01-W02": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "0",
+              "1/2",
+              "-1/4"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "1/2",
+              "-1/4"
+            ]
+          }
+        }
+      },
+      "certificate": {
+        "caseId": "G8-C01",
+        "baselineCollisionPairs": [
+          [
+            "C01-W01",
+            "C01-W02"
+          ]
+        ],
+        "baselinePairDiagnostics": [
+          {
+            "pair": [
+              "C01-W01",
+              "C01-W02"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          }
+        ],
+        "separatingPairsByAdditionalQuery": {
+          "xw90": [
+            [
+              "C01-W01",
+              "C01-W02"
+            ]
+          ]
+        },
+        "subsets": [
+          {
+            "additionalQueryIds": [],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C01-W01",
+                "C01-W02"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "xw90"
+            ],
+            "familyPropertyDetermined": true,
+            "unresolvedUnequalPropertyPairs": []
+          }
+        ],
+        "subsetCountExamined": 2,
+        "minimum": {
+          "status": "determined",
+          "size": 1,
+          "subsets": [
+            [
+              "xw90"
+            ]
+          ]
+        },
+        "outsideMenu": []
+      }
+    },
+    "G8-C02": {
+      "observations": {
+        "C02-W01": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "1",
+              "0"
+            ]
+          }
+        },
+        "C02-W02": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        },
+        "C02-W03": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "1",
+              "0"
+            ]
+          }
+        },
+        "C02-W04": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      },
+      "certificate": {
+        "caseId": "G8-C02",
+        "baselineCollisionPairs": [
+          [
+            "C02-W01",
+            "C02-W02"
+          ],
+          [
+            "C02-W01",
+            "C02-W03"
+          ],
+          [
+            "C02-W01",
+            "C02-W04"
+          ],
+          [
+            "C02-W02",
+            "C02-W03"
+          ],
+          [
+            "C02-W02",
+            "C02-W04"
+          ],
+          [
+            "C02-W03",
+            "C02-W04"
+          ]
+        ],
+        "baselinePairDiagnostics": [
+          {
+            "pair": [
+              "C02-W01",
+              "C02-W02"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          },
+          {
+            "pair": [
+              "C02-W01",
+              "C02-W03"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          },
+          {
+            "pair": [
+              "C02-W01",
+              "C02-W04"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          },
+          {
+            "pair": [
+              "C02-W02",
+              "C02-W03"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          },
+          {
+            "pair": [
+              "C02-W02",
+              "C02-W04"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          },
+          {
+            "pair": [
+              "C02-W03",
+              "C02-W04"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          }
+        ],
+        "separatingPairsByAdditionalQuery": {
+          "xw90": [
+            [
+              "C02-W01",
+              "C02-W03"
+            ],
+            [
+              "C02-W01",
+              "C02-W04"
+            ],
+            [
+              "C02-W02",
+              "C02-W03"
+            ],
+            [
+              "C02-W02",
+              "C02-W04"
+            ]
+          ],
+          "yv90": [
+            [
+              "C02-W01",
+              "C02-W02"
+            ],
+            [
+              "C02-W01",
+              "C02-W04"
+            ],
+            [
+              "C02-W02",
+              "C02-W03"
+            ],
+            [
+              "C02-W03",
+              "C02-W04"
+            ]
+          ]
+        },
+        "subsets": [
+          {
+            "additionalQueryIds": [],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C02-W01",
+                "C02-W02"
+              ],
+              [
+                "C02-W01",
+                "C02-W03"
+              ],
+              [
+                "C02-W01",
+                "C02-W04"
+              ],
+              [
+                "C02-W02",
+                "C02-W03"
+              ],
+              [
+                "C02-W02",
+                "C02-W04"
+              ],
+              [
+                "C02-W03",
+                "C02-W04"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "xw90"
+            ],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C02-W01",
+                "C02-W02"
+              ],
+              [
+                "C02-W03",
+                "C02-W04"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "yv90"
+            ],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C02-W01",
+                "C02-W03"
+              ],
+              [
+                "C02-W02",
+                "C02-W04"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "xw90",
+              "yv90"
+            ],
+            "familyPropertyDetermined": true,
+            "unresolvedUnequalPropertyPairs": []
+          }
+        ],
+        "subsetCountExamined": 4,
+        "minimum": {
+          "status": "determined",
+          "size": 2,
+          "subsets": [
+            [
+              "xw90",
+              "yv90"
+            ]
+          ]
+        },
+        "outsideMenu": []
+      }
+    },
+    "G8-C03": {
+      "observations": {
+        "C03-W01": {
+          "project": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "1"
+          },
+          "slice0": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "3/4"
+          },
+          "sliceMinus2": {
+            "kind": "empty"
+          },
+          "slicePlus2": {
+            "kind": "empty"
+          }
+        },
+        "C03-W02": {
+          "project": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "1"
+          },
+          "slice0": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "3/4"
+          },
+          "sliceMinus2": {
+            "kind": "empty"
+          },
+          "slicePlus2": {
+            "kind": "empty"
+          }
+        }
+      },
+      "certificate": {
+        "caseId": "G8-C03",
+        "baselineCollisionPairs": [
+          [
+            "C03-W01",
+            "C03-W02"
+          ]
+        ],
+        "baselinePairDiagnostics": [
+          {
+            "pair": [
+              "C03-W01",
+              "C03-W02"
+            ],
+            "propertyEqual": false,
+            "exactEqual": true,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          }
+        ],
+        "separatingPairsByAdditionalQuery": {
+          "sliceMinus2": [],
+          "slicePlus2": []
+        },
+        "subsets": [
+          {
+            "additionalQueryIds": [],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C03-W01",
+                "C03-W02"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "sliceMinus2"
+            ],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C03-W01",
+                "C03-W02"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "slicePlus2"
+            ],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C03-W01",
+                "C03-W02"
+              ]
+            ]
+          },
+          {
+            "additionalQueryIds": [
+              "sliceMinus2",
+              "slicePlus2"
+            ],
+            "familyPropertyDetermined": false,
+            "unresolvedUnequalPropertyPairs": [
+              [
+                "C03-W01",
+                "C03-W02"
+              ]
+            ]
+          }
+        ],
+        "subsetCountExamined": 4,
+        "minimum": {
+          "status": "none-in-menu",
+          "size": null,
+          "subsets": [],
+          "fullMenuSurvivingPairs": [
+            [
+              "C03-W01",
+              "C03-W02"
+            ]
+          ]
+        },
+        "outsideMenu": [
+          {
+            "queryId": "slicePlusHalf",
+            "selectable": false,
+            "observations": {
+              "C03-W01": {
+                "kind": "point",
+                "center": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "radiusSquared": "0"
+              },
+              "C03-W02": {
+                "kind": "ball",
+                "center": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "radiusSquared": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "G8-C04": {
+      "observations": {
+        "C04-W01": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1/1000000000000",
+              "0",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        },
+        "C04-W02": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/1000000000000",
+              "0",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "0",
+              "0"
+            ]
+          }
+        }
+      },
+      "certificate": {
+        "caseId": "G8-C04",
+        "baselineCollisionPairs": [],
+        "baselinePairDiagnostics": [
+          {
+            "pair": [
+              "C04-W01",
+              "C04-W02"
+            ],
+            "propertyEqual": false,
+            "exactEqual": false,
+            "withinTolerance": true,
+            "roundedLabelsEqual": true
+          }
+        ],
+        "separatingPairsByAdditionalQuery": {
+          "xw90": [
+            [
+              "C04-W01",
+              "C04-W02"
+            ]
+          ]
+        },
+        "subsets": [
+          {
+            "additionalQueryIds": [],
+            "familyPropertyDetermined": true,
+            "unresolvedUnequalPropertyPairs": []
+          },
+          {
+            "additionalQueryIds": [
+              "xw90"
+            ],
+            "familyPropertyDetermined": true,
+            "unresolvedUnequalPropertyPairs": []
+          }
+        ],
+        "subsetCountExamined": 2,
+        "minimum": {
+          "status": "determined",
+          "size": 0,
+          "subsets": [
+            []
+          ]
+        },
+        "outsideMenu": []
+      }
+    }
+  },
+  "checkpoints": [
+    {
+      "timeSeconds": 0,
+      "state": {
+        "caseId": "G8-C01",
+        "referenceWorldId": "C01-W01",
+        "selectedAdditionalQueryIds": [],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 0,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "82fe999e5cd217b09720a6ce93cd61440001de4126082a4447983dfb7a645a0a",
+      "informationFingerprint": "eb3c2195c27edc2c042cc1a92992db79f45c9dd92ac5ffddf2eea69f061bdd0b"
+    },
+    {
+      "timeSeconds": 4,
+      "state": {
+        "caseId": "G8-C01",
+        "referenceWorldId": "C01-W01",
+        "selectedAdditionalQueryIds": [
+          "xw90"
+        ],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 4,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "0d04b526569244317c0fa2c365bda3456912a641970bdac48841217061c5615f",
+      "informationFingerprint": "9c9df7e6b1256af9053534b5f764243ee02bb08546e363c01cab2af1a76f83d6"
+    },
+    {
+      "timeSeconds": 8,
+      "state": {
+        "caseId": "G8-C02",
+        "referenceWorldId": "C02-W01",
+        "selectedAdditionalQueryIds": [],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 8,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "45f0e0873a3a85a66f4928c7d87363ee4591b36b84ea35c33d90f863c7987627",
+      "informationFingerprint": "38510e201241b9494801d2ee948c78ceecbb13381c4cd07ed8d884a58e6faba6"
+    },
+    {
+      "timeSeconds": 12,
+      "state": {
+        "caseId": "G8-C02",
+        "referenceWorldId": "C02-W01",
+        "selectedAdditionalQueryIds": [
+          "xw90"
+        ],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 12,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "71bb4ef4141e589a62a8fb80c85453ce31ea91404a5900390c60bd5c35d700a2",
+      "informationFingerprint": "ea7890dca235bf07c3877ba3926d5cd460f4e78c21d4106e0a9d165efd1f0835"
+    },
+    {
+      "timeSeconds": 16,
+      "state": {
+        "caseId": "G8-C02",
+        "referenceWorldId": "C02-W01",
+        "selectedAdditionalQueryIds": [
+          "xw90",
+          "yv90"
+        ],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 16,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "377430811f56b4fbaf9e84fdcb687b6179a4985421cc22f2cc9d1601df78919e",
+      "informationFingerprint": "052b125760e3584a4a60487c1b1f30170893b935ff1779aeccc4ecb7764d097b"
+    },
+    {
+      "timeSeconds": 20,
+      "state": {
+        "caseId": "G8-C03",
+        "referenceWorldId": "C03-W01",
+        "selectedAdditionalQueryIds": [],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 20,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "d512f64619f1353e94fee4bc670a54d02de3b32bab8446abf3b4294fea4891ac",
+      "informationFingerprint": "a7e3c17136d9a5f11a0ce4b76d5b9eb311c09d6810f4a6099b45aceeb58552b4"
+    },
+    {
+      "timeSeconds": 24,
+      "state": {
+        "caseId": "G8-C03",
+        "referenceWorldId": "C03-W01",
+        "selectedAdditionalQueryIds": [
+          "sliceMinus2",
+          "slicePlus2"
+        ],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 24,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "fe923fd99d6240730ccdc5880c0ad68523ce17be78ac7f5bac06f47856690bc6",
+      "informationFingerprint": "5c3aa5627bcf97498b2d2453d8aafe801fe83c948a4abd738d9eb6aa94e2011e"
+    },
+    {
+      "timeSeconds": 28,
+      "state": {
+        "caseId": "G8-C04",
+        "referenceWorldId": "C04-W01",
+        "selectedAdditionalQueryIds": [],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 28,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "84cf2e21c16aa0a9b7edf061636432732fca31283620931d3571242ca4b68b16",
+      "informationFingerprint": "12e1be5d5cef06ab4ce81d5a0d97b29e831cc7835f70da4a7d9ba1ea4ac56332"
+    },
+    {
+      "timeSeconds": 32,
+      "state": {
+        "caseId": "G8-C04",
+        "referenceWorldId": "C04-W01",
+        "selectedAdditionalQueryIds": [
+          "xw90"
+        ],
+        "cameraYawDegrees": 0,
+        "certificateVisible": false,
+        "cursorSeconds": 32,
+        "mode": "saved-replay",
+        "paused": true
+      },
+      "semanticFingerprint": "3f79c42e0f954afeeacf2f091e1213e0b2b971d935b9525ae6fd55b18dcf3394",
+      "informationFingerprint": "04a895f6296202a8e72f1811df0afe22e932f9f8636e8208119d31b121a0f2f3"
+    }
+  ]
+}

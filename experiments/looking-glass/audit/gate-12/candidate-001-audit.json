@@ -1,0 +1,24 @@
+{
+  "schema": "gate12-candidate-001-independent-audit-v1",
+  "verdict": "BLOCKED",
+  "runId": "G12-COORD-001",
+  "buildId": "g12-0d66d254f275f3663dee",
+  "sourceHash": "0d66d254f275f3663dee1b9e75062a046106dddc3f4ce9419eaa519688cd5e74",
+  "frozenPrespecPinsVerified": 9,
+  "sourceManifestPinsVerified": 14,
+  "builtPinsVerified": 10,
+  "runManifestPinsVerified": 5,
+  "closedCandidate001BrowserPinsVerified": 12,
+  "independentSoftwareChecks": {"pass":144,"total":144,"file":"audit/gate-12/candidate-001-check.json"},
+  "controlledVmChecks": {"pass":9,"total":11,"file":"audit/gate-12/candidate-001-ui-race.json"},
+  "actualHostAcquisition": {"observations":43,"hostActions":31,"originalImages":6,"baselineCheckpointsCaptured":7,"source":"evidence/gate-12/browser-001/acquisition-summary.json","stoppedAt":"retained outcome L-A-1 selected but Inspect button disabled"},
+  "blockers": [
+    {"id":"retained-inspection-disabled","source":"coordination/builds/g12-0d66d254f275f3663dee/app.mjs","lines":[52,58,68],"impact":"Actual browser cannot inspect prior immutable outcome after selector choice; prescribed history step stops.","minimalCorrection":"Preserve pending selection across render and enable Inspect on change; then inspect selected record under recorded context."},
+    {"id":"duplicate-local-branch-index","source":"coordination/builds/g12-0d66d254f275f3663dee/app.mjs","lines":[18],"impact":"Local L1 view presents [L1,L1], omits C0, and misstates local branch count/information payload.","minimalCorrection":"Build unique registry [C0,...localBranches] while keeping canonical display masking separate."}
+  ],
+  "presentationDefect": {"id":"source-hash-card-overflow","source":"coordination/builds/g12-0d66d254f275f3663dee/style.css","impact":"Long hash crosses group-card boundary in original browser image; wrap and verify 1280/960."},
+  "unexecutedOn001": ["reference-sensitivity branch","post-exploration and recovery checkpoint comparisons","reload","natural 24-second playback","final report handoff"],
+  "humanParticipants": 0,
+  "enactedAction": false,
+  "nextStep": "Preserve immutable 001 and retest corrected 002 first-use before completing the bounded browser protocol."
+}

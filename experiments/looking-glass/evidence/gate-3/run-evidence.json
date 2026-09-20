@@ -1,0 +1,74 @@
+{
+  "gate": 3,
+  "runId": "G3-TESSERACT-003",
+  "buildId": "g3-6c31bc16aeca4460",
+  "status": "Gate 3 review ready. Earlier failed candidates and original evidence remain preserved.",
+  "resultsUrl": "/evidence/gate-3/results.html",
+  "packetUrl": "/evidence/gate-3/GATE_3_PACKET.md",
+  "screenshots": [
+    {
+      "label": "0s \u00b7 two IDs at one shadow site",
+      "url": "/evidence/gate-3/screenshots/003-C0-paused-0s.jpg",
+      "simulationTimeMs": 0,
+      "timeIntervalMs": [
+        0,
+        0
+      ],
+      "sha256": "5d32d15a78caf455979f23cc6bc80f5facd4990ac7d80ebe334e7b98fcd6c8d8",
+      "imageDimensions": {
+        "width": 1239,
+        "height": 720
+      },
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460"
+    },
+    {
+      "label": "16s \u00b7 separation under the source turn",
+      "url": "/evidence/gate-3/screenshots/003-C1-paused-16s.jpg",
+      "simulationTimeMs": 16000,
+      "timeIntervalMs": [
+        16000,
+        16000
+      ],
+      "sha256": "6f6f34760465cce338479f59782957ffed7e7cd3dea1f910f8753f2590e7b593",
+      "imageDimensions": {
+        "width": 1239,
+        "height": 720
+      },
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460"
+    },
+    {
+      "label": "Active return \u00b7 26.7s",
+      "url": "/evidence/gate-3/screenshots/003-C2-active-reverse.jpg",
+      "simulationTimeMs": 26656,
+      "timeIntervalMs": [
+        26656,
+        26823
+      ],
+      "sha256": "2fdfe14a42989422db6beea8296f024f3b04dd9c6c218118b00743a3d937d624",
+      "imageDimensions": {
+        "width": 1239,
+        "height": 720
+      },
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460"
+    },
+    {
+      "label": "Known-coordinate recovery comparison",
+      "url": "/evidence/gate-3/screenshots/003-C3-observability-comparison.jpg",
+      "simulationTimeMs": 8000,
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "sha256": "0e099d43c3e1d821fbefa095bf03c346d8b958e6116129cd4b2cb39684e4e171",
+      "imageDimensions": {
+        "width": 1239,
+        "height": 720
+      },
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460"
+    }
+  ]
+}

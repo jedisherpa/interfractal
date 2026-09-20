@@ -1,0 +1,17 @@
+# Gate 7 unfamiliar-case instrument
+
+This directory contains a local, eight-case **software demonstration**. It is not a human study, and source-aware agent checks do not measure visual understanding. Gate 7's six-file prespec is pinned by [`PRESPEC_FREEZE.json`](../docs/gate-7/PRESPEC_FREEZE.json). The builder verified its byte hash and each frozen member before producing the accepted immutable snapshot.
+
+The reviewed replay is run **`G7-INTERPRET-002`**, build **`g7-90e64952eb028069`**, source SHA-256 **`90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078`**. It was built with Node.js v24.17.0. Restart that exact snapshot on loopback port 44000 with:
+
+```sh
+/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs
+```
+
+The working-source command `node interpretation/build.mjs` is for a **prospective new candidate**, not recovery of this tested build. It runs arithmetic/fixture checks and writes a sanitized public case file before making an immutable build/run. Since the working README now contains these post-build recovery notes, it no longer matches the reviewed source hash, and the builder must not replace preserved run 002 with new bytes. A justified implementation revision would use run ID 003 and retain both earlier candidates. [Candidate 001's failure manifest](../evidence/gate-7/failed-candidates/G7-INTERPRET-001/FAILED_CANDIDATE.json) records the rejected event, inspector and radius-display defects; [the final audit](../audit/gate-7/AUDIT.md) and [Gate 7 packet](../evidence/gate-7/GATE_7_PACKET.md) record the bounded outcome.
+
+The saved tour opens paused at Q01/static. Its 48-second cursor visits Q01–Q08 in six-second blocks and returns to Q01/static at 48 seconds. Prescribed and interactive blocks show only F1/F2/F3 at the declared discrete two-second holds; Q08's plain block does the same. Static geometry shows all three frames together. Manual task/condition/frame inspection is separate exploration. The within-task prescribed sequence has its own button and six-second progression. Camera drawing uses fixed scale 105 and orthographic yaw about display y, then pitch about display x, before dropping display depth; the raw xyz observation table remains separate and is rounded to six decimals for display.
+
+The server serves only `index.html`, `style.css`, `app.mjs`, sanitized `public-cases.json`, public run/checkpoint/event identity, and named review artifacts. The private key and independent predictions are copied into the exact build for audit recovery but have no GET route. `POST /api/submit` locks an unscored choice or skip and returns an opaque receipt. `POST /api/reveal` requires that matching receipt and is the only answer/explanation path; it omits private derivations. Reopen saved and fresh reload clear client responses, receipts and explanations. Activity records label their actor as `unattributed_local` or explicit `software_validation`; a browser action alone does not establish human participation.
+
+Canonical `events.jsonl` contains planned fixture expectations, while `activity.jsonl` holds actual untrusted local browser actions. The `computational-results.json` file is a source-informed software check and is not participant performance. The public review collection is a separate result surface. Final public review assets must be checked for answer leakage before publication through the allowlisted aliases; exact answers remain behind reveal on the task page.

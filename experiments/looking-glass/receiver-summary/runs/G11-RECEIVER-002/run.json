@@ -1,0 +1,28 @@
+{
+  "schema": "gate11-run-v1",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "fixtureId": "G11-FIXTURE-001",
+  "fixtureSha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc",
+  "prespecFreezeSha256": "bc6f624e0eb0a2d225e1aafdebb99ec2fd3dcce45bcd24dd8ccadf6edd85fba9",
+  "host": "127.0.0.1",
+  "port": 44004,
+  "durationSeconds": 24,
+  "checkpointSeconds": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "scheduledEventCount": 7,
+  "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+  "localSoftwareOnly": true,
+  "humanParticipants": 0
+}

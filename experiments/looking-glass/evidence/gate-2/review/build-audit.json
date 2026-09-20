@@ -1,0 +1,282 @@
+{
+  "runId": "G2-HOPF-003",
+  "buildId": "g2-ccabad12693f86a8",
+  "checkedAtUtc": "2026-09-20T01:54:27.835Z",
+  "assertions": [
+    {
+      "name": "all immutable build files match manifest",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "build ID, source digest and run binding",
+      "pass": true,
+      "detail": {
+        "sourceSha": "ccabad12693f86a810af614995379506bee2029fabf751e5e5f710f0235a961e",
+        "runSha": "ccabad12693f86a810af614995379506bee2029fabf751e5e5f710f0235a961e",
+        "buildId": "g2-ccabad12693f86a8"
+      }
+    },
+    {
+      "name": "8×128 exact build samples match independent source/base/stereo algebra",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "stable eight base IDs retained",
+      "pass": true
+    },
+    {
+      "name": "five independent checkpoint q/h/P predictions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "five saved checkpoint model/state/geometry hashes reproduce exactly",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "five saved mapping hashes reproduce exactly",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "five saved records hashes reproduce exactly",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "initial-state and run hashes agree with first checkpoint",
+      "pass": true
+    },
+    {
+      "name": "front chart compensation preserves actual q/h/P",
+      "pass": true,
+      "detail": {
+        "southPhase": -1.5707963267948966
+      }
+    },
+    {
+      "name": "invalid pole charts reject",
+      "pass": true
+    },
+    {
+      "name": "custom base and source agree with prespec",
+      "pass": true
+    },
+    {
+      "name": "custom selection adds one 128-sample fiber without changing fixed eight",
+      "pass": true
+    },
+    {
+      "name": "south source pole retained and ±4 crossings exist",
+      "pass": true
+    },
+    {
+      "name": "ball clipping intersects south continuation at radius 4",
+      "pass": true,
+      "detail": {
+        "clipFunctionExported": true
+      }
+    },
+    {
+      "name": "declared camera yaw/pitch signs and basis vectors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "camera yaw changes only display camera",
+      "pass": true
+    },
+    {
+      "name": "runtime rules derive both exact frozen assignment tables",
+      "pass": true,
+      "detail": [
+        {
+          "id": "R_CAPACITY_60",
+          "matches": true,
+          "referenceMatches": true,
+          "recordsMatch": true
+        },
+        {
+          "id": "R_EXISTING_ACCESS",
+          "matches": true,
+          "referenceMatches": true,
+          "recordsMatch": true
+        }
+      ]
+    },
+    {
+      "name": "missing facts stay unknown/unmapped and invalid reference rejects",
+      "pass": true,
+      "detail": {
+        "capacityUnknown": {
+          "recordId": "venue-hall",
+          "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "status": "unmapped",
+          "answer": "unknown",
+          "baseId": null,
+          "displayPhaseRad": null,
+          "relevant": false,
+          "reason": "Venue capacity is not supplied; this partial criterion remains unknown and has no forced position."
+        },
+        "accessUnknown": {
+          "recordId": "venue-hall",
+          "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "status": "unmapped",
+          "answer": "unknown",
+          "baseId": null,
+          "displayPhaseRad": null,
+          "relevant": false,
+          "reason": "Existing wheelchair access or the required equipment fact is not supplied; this partial criterion remains unknown and has no forced position."
+        },
+        "invalidReferenceRejected": true
+      }
+    },
+    {
+      "name": "build fixtures byte-identical to frozen docs",
+      "pass": true
+    },
+    {
+      "name": "run source fixture and mapping hashes match build",
+      "pass": true
+    },
+    {
+      "name": "saved mapping contains complete immutable records and expected assignments",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "passed": 22,
+    "total": 22,
+    "failed": []
+  },
+  "checkpoints": [
+    {
+      "tMs": 0,
+      "q": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475,
+        0
+      ],
+      "h": [
+        1,
+        0,
+        2.220446049250313e-16
+      ],
+      "P": [
+        0.7071067811865476,
+        0,
+        0.7071067811865475
+      ],
+      "matchesIndependent": true,
+      "exactModel": true,
+      "exactStateHash": true,
+      "exactGeometryHash": true,
+      "exactMappingHash": true,
+      "exactRecordsHash": true
+    },
+    {
+      "tMs": 6000,
+      "q": [
+        4.329780281177467e-17,
+        0.7071067811865476,
+        4.329780281177466e-17,
+        0.7071067811865475
+      ],
+      "h": [
+        1,
+        0,
+        2.220446049250313e-16
+      ],
+      "P": [
+        1.4782794558091698e-16,
+        2.4142135623730945,
+        1.4782794558091693e-16
+      ],
+      "matchesIndependent": true,
+      "exactModel": true,
+      "exactStateHash": true,
+      "exactGeometryHash": true,
+      "exactMappingHash": true,
+      "exactRecordsHash": true
+    },
+    {
+      "tMs": 12000,
+      "q": [
+        -0.7071067811865476,
+        8.659560562354934e-17,
+        -0.7071067811865475,
+        8.659560562354932e-17
+      ],
+      "h": [
+        1,
+        0,
+        2.220446049250313e-16
+      ],
+      "P": [
+        -0.7071067811865477,
+        8.659560562354935e-17,
+        -0.7071067811865476
+      ],
+      "matchesIndependent": true,
+      "exactModel": true,
+      "exactStateHash": true,
+      "exactGeometryHash": true,
+      "exactMappingHash": true,
+      "exactRecordsHash": true
+    },
+    {
+      "tMs": 18000,
+      "q": [
+        -1.29893408435324e-16,
+        -0.7071067811865476,
+        -1.2989340843532398e-16,
+        -0.7071067811865475
+      ],
+      "h": [
+        1,
+        0,
+        2.220446049250313e-16
+      ],
+      "P": [
+        -7.608979699854502e-17,
+        -0.4142135623730951,
+        -7.6089796998545e-17
+      ],
+      "matchesIndependent": true,
+      "exactModel": true,
+      "exactStateHash": true,
+      "exactGeometryHash": true,
+      "exactMappingHash": true,
+      "exactRecordsHash": true
+    },
+    {
+      "tMs": 24000,
+      "q": [
+        0.7071067811865476,
+        -1.7319121124709868e-16,
+        0.7071067811865475,
+        -1.7319121124709863e-16
+      ],
+      "h": [
+        1,
+        0,
+        2.2204460492503128e-16
+      ],
+      "P": [
+        0.7071067811865475,
+        -1.7319121124709863e-16,
+        0.7071067811865474
+      ],
+      "matchesIndependent": true,
+      "exactModel": true,
+      "exactStateHash": true,
+      "exactGeometryHash": true,
+      "exactMappingHash": true,
+      "exactRecordsHash": true
+    }
+  ]
+}

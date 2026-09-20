@@ -1,0 +1,64 @@
+{
+  "schema": "gate9-prepackage-correction-edge-v1",
+  "status": "BLOCKED",
+  "checks": {
+    "rejected condition preserves semantic state": {
+      "pass": true,
+      "detail": null
+    },
+    "rejected condition preserves running clock": {
+      "pass": false,
+      "detail": {
+        "stopClockCalls": 1
+      }
+    },
+    "actual query cancels active tour and enters exploration": {
+      "pass": true,
+      "detail": {
+        "tourStops": 1,
+        "mode": "exploration",
+        "provenance": "local_control"
+      }
+    },
+    "opening practice pauses active global tour": {
+      "pass": true,
+      "detail": {
+        "practiceTourStops": 1
+      }
+    },
+    "opening practice during local playback": {
+      "pass": false,
+      "detail": {
+        "localStopCalls": 0,
+        "presentationPaused": false,
+        "reviewStatus": "standard-playback"
+      }
+    },
+    "same-hash completed route export invalidates on provenance change": {
+      "pass": false,
+      "detail": {
+        "oldIdentity": {
+          "condition": "choose",
+          "phase": "complete",
+          "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f"
+        },
+        "newIdentity": {
+          "condition": "choose",
+          "phase": "complete",
+          "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f"
+        },
+        "oldProvenance": "local_control",
+        "newProvenance": "scripted_demonstration",
+        "oldClearPredicate": false
+      }
+    },
+    "restored references resolve to canonical choice events": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "problems": [
+    "rejected condition preserves running clock",
+    "same-hash completed route export invalidates on provenance change"
+  ]
+}

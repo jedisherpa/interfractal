@@ -1,0 +1,80 @@
+{
+  "purpose": "Byte-identical copies make the independent audit and its references reachable under the immutable server evidence route. Original audit files remain at their authored paths.",
+  "files": [
+    {
+      "source": "audit/gate-1/G1-CUBE-001-build-audit.json",
+      "copy": "evidence/gate-1/G1-CUBE-001-build-audit.json",
+      "sha256": "9e75197eb439fb2ec90d0fb7d72b3ec205ab5ae6274439f3c7f1a713315a214e"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-002-build-audit.json",
+      "copy": "evidence/gate-1/G1-CUBE-002-build-audit.json",
+      "sha256": "05aef881c81a88a83fc29957b1af846e66c56acde4415c7b5cbe430ce16395e7"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-003-browser-audit-initial.json",
+      "copy": "evidence/gate-1/G1-CUBE-003-browser-audit-initial.json",
+      "sha256": "5464f5f53a1997ed044001c707cfd4f3666ddaa4d277f4f1c3acf3b012423b4b"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-003-browser-audit.json",
+      "copy": "evidence/gate-1/G1-CUBE-003-browser-audit.json",
+      "sha256": "01578d64c3f46cae0111e3efefbb4b180dba1b56d4443a42fb0fa702ba7df749"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-003-build-audit.json",
+      "copy": "evidence/gate-1/G1-CUBE-003-build-audit.json",
+      "sha256": "5c50293d661aa1167bbe02415ad1ccdaec5ef3f2ceb91cb2b49350a1916fe707"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-003-post-browser-integrity.json",
+      "copy": "evidence/gate-1/G1-CUBE-003-post-browser-integrity.json",
+      "sha256": "bc18be9add56a86c6fddc5a796b5fb01846663e39bb4cf7f5336e4f1916e77d5"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-003-route-audit-initial.json",
+      "copy": "evidence/gate-1/G1-CUBE-003-route-audit-initial.json",
+      "sha256": "bea9efd9e2f56e26bb801e25371acb44ed64e60006e7dd26a66fcdec357d7ade"
+    },
+    {
+      "source": "audit/gate-1/G1-CUBE-003-route-audit.json",
+      "copy": "evidence/gate-1/G1-CUBE-003-route-audit.json",
+      "sha256": "325e7cb8f1d7592d2356ab84aeb6220c3b1c30225655ac0cc3cf6a13fa621709"
+    },
+    {
+      "source": "audit/gate-1/REPORT.md",
+      "copy": "evidence/gate-1/independent-audit.md",
+      "sha256": "3ab3191c71446204c5362ab5f5dfbe183d5fbda060961fd3badedc86001ae10c"
+    },
+    {
+      "source": "audit/gate-1/check-browser.mjs",
+      "copy": "evidence/gate-1/check-browser.mjs",
+      "sha256": "d38f968b7d47b8942d85e055e97ad6d8ba569c7a98446e72dbf9648f389dd381"
+    },
+    {
+      "source": "audit/gate-1/check-build.mjs",
+      "copy": "evidence/gate-1/check-build.mjs",
+      "sha256": "0560d906c2a05412b1473fcd2835ca6ff9be961f89294652ce648730deaacb3b"
+    },
+    {
+      "source": "audit/gate-1/check-integrity.mjs",
+      "copy": "evidence/gate-1/check-integrity.mjs",
+      "sha256": "9eda3400f289f028553ff4cf96313bde9bbfe815bfdb99896553c083a3653261"
+    },
+    {
+      "source": "audit/gate-1/check-routes.mjs",
+      "copy": "evidence/gate-1/check-routes.mjs",
+      "sha256": "beb84da521e9b23b1e85e73316d649e1290ff4ff7fb91b799695c76a232aa170"
+    },
+    {
+      "source": "audit/gate-1/oracle-results.json",
+      "copy": "evidence/gate-1/oracle-results.json",
+      "sha256": "b2a15f25684c3d8c0d3f5faa91b585bbd069b477dead66315c9968be1a44c059"
+    },
+    {
+      "source": "audit/gate-1/oracle.mjs",
+      "copy": "evidence/gate-1/oracle.mjs",
+      "sha256": "39ea5ef29dac5c55504392c7eb2e1e7045edcf38167813c101cad4b1afac3321"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "snapshot/1",
+  "snapshotId": "SYNTHETIC_VALID_NOT_RESEARCH_OUTPUT",
+  "agentId": "A1",
+  "phase": "initial",
+  "identity": {
+    "kind": "model_output",
+    "modelId": "SYNTHETIC_FIXTURE_NO_MODEL_RUN",
+    "modelVersion": "none",
+    "settingsManifestSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "inputManifestSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "cutoffTick": 10,
+  "suppliedCardIds": ["C01", "C02", "C03", "C04", "C05", "C06"],
+  "sourceCoverage": [
+    { "cardId": "C01", "disposition": "used", "reason": "Synthetic fixture coverage" },
+    { "cardId": "C02", "disposition": "used", "reason": "Synthetic fixture coverage" },
+    { "cardId": "C03", "disposition": "used", "reason": "Synthetic fixture coverage" },
+    { "cardId": "C04", "disposition": "used", "reason": "Synthetic fixture coverage" },
+    { "cardId": "C05", "disposition": "unresolved", "reason": "Synthetic fixture does not infer endorsement" },
+    { "cardId": "C06", "disposition": "no_task_relevance", "reason": "Synthetic fixture tests the record contract only" }
+  ],
+  "interpretations": [
+    {
+      "id": "I-UNDERSTANDS", "version": 1, "predicate": "understands",
+      "arguments": { "actor": "ARA", "plan": "P12", "planVersion": 1 },
+      "status": "supported", "supportingClaimIds": ["F-C04-1"], "conflictingClaimIds": [],
+      "sourceKind": "source_stipulation", "speechAct": "understanding", "alternatives": [], "confidence": null
+    },
+    {
+      "id": "I-ENDORSES", "version": 1, "predicate": "endorses",
+      "arguments": { "actor": "ARA", "plan": "P12", "planVersion": 1 },
+      "status": "refuted", "supportingClaimIds": [], "conflictingClaimIds": ["F-C04-2"],
+      "sourceKind": "source_stipulation", "speechAct": "declined", "alternatives": ["P8"], "confidence": null
+    },
+    {
+      "id": "I-COMMITMENT", "version": 1, "predicate": "resource_commitment",
+      "arguments": { "actor": "ARA", "plan": "P12", "planVersion": 1, "resource": "press", "quantity": 6 },
+      "status": "supported", "supportingClaimIds": ["F-C04-3"], "conflictingClaimIds": [],
+      "sourceKind": "source_stipulation", "speechAct": "conditional_resource_grant", "alternatives": ["P8"], "confidence": null
+    },
+    {
+      "id": "I-UNKNOWN", "version": 1, "predicate": "endorses",
+      "arguments": { "actor": "BEA", "plan": "P12", "planVersion": 1 },
+      "status": "unknown", "supportingClaimIds": [], "conflictingClaimIds": [],
+      "sourceKind": "model_inference", "speechAct": null, "alternatives": [], "confidence": null
+    }
+  ],
+  "unknowns": ["BEA endorsement of P12 has no supplied evidence in this synthetic record"],
+  "conflicts": ["ARA understands P12, declines endorsement, and conditionally commits press resources"],
+  "proposedActions": [
+    { "planId": "P12", "planVersion": 1, "status": "unknown", "missingDependencies": ["Other actors and current demand not evaluated in fixture"], "enacted": false }
+  ],
+  "taskResponses": [
+    { "taskId": "D01", "values": { "demand": 8, "requirementVersion": 1 }, "evidence": { "demand": ["F-C02-1"], "requirementVersion": ["F-C02-1"] }, "missingDependencies": [] },
+    { "taskId": "D02", "values": { "press": 6, "cart": null, "varnish": null }, "evidence": { "press": ["F-C03-1"], "cart": [], "varnish": [] }, "missingDependencies": ["cart capacity", "varnish capacity"] },
+    { "taskId": "D03", "values": { "araUnderstands": "supported", "araEndorses": "refuted", "araPress6": "supported", "beaEndorses": "unknown", "beaCart2": "unknown" }, "evidence": { "araUnderstands": ["F-C04-1"], "araEndorses": ["F-C04-2"], "araPress6": ["F-C04-3"], "beaEndorses": [], "beaCart2": [] }, "missingDependencies": ["BEA endorsement source", "BEA cart commitment source"] },
+    { "taskId": "D04", "values": { "araExplores": "supported", "araUnderstands": "unknown", "araPress5": "unknown", "beaCart1": "unknown", "cyVarnish1": "unknown" }, "evidence": { "araExplores": ["F-C05-1"], "araUnderstands": [], "araPress5": [], "beaCart1": [], "cyVarnish1": [] }, "missingDependencies": ["P10 understanding and exact commitments"] },
+    { "taskId": "D05", "values": { "modelAttributesAraEndorsement": "unknown", "araEndorses": "refuted", "devMayDescribe": "unknown", "devMayCommit": "unknown" }, "evidence": { "modelAttributesAraEndorsement": [], "araEndorses": ["F-C04-2"], "devMayDescribe": [], "devMayCommit": [] }, "missingDependencies": ["model attribution and mandate not supplied"] },
+    { "taskId": "D06", "values": { "inspection": "unknown" }, "evidence": { "inspection": [] }, "missingDependencies": ["P10 inspection report not supplied"] },
+    { "taskId": "D07", "values": { "P8.physical": "unknown", "P8.demand": "supported", "P8.commitment": "unknown", "P8.inspection": "supported", "P8.readiness": "unknown", "P12.physical": "unknown", "P12.demand": "supported", "P12.commitment": "unknown", "P12.inspection": "supported", "P12.readiness": "unknown", "P10.physical": "unknown", "P10.demand": "supported", "P10.commitment": "unknown", "P10.inspection": "unknown", "P10.readiness": "unknown" }, "evidence": { "P8.physical": [], "P8.demand": ["F-C02-1"], "P8.commitment": [], "P8.inspection": ["R07"], "P8.readiness": [], "P12.physical": [], "P12.demand": ["F-C02-1"], "P12.commitment": [], "P12.inspection": ["R07"], "P12.readiness": [], "P10.physical": [], "P10.demand": ["F-C02-1"], "P10.commitment": [], "P10.inspection": [], "P10.readiness": [] }, "missingDependencies": ["Other capacity and commitment sources"] },
+    { "taskId": "D08", "values": { "selection": "none_supported", "output": null, "cost": null }, "evidence": { "selection": ["R08"], "output": [], "cost": [] }, "missingDependencies": ["No fully supported-ready plan"] }
+  ],
+  "revision": { "parentSnapshotIds": [], "triggerSourceIds": [], "reason": "initial synthetic fixture", "changedInterpretationIds": [], "retainedDissentIds": [] },
+  "confirmationStatus": "model_generated_not_human_attestation",
+  "displayMappingVersion": "plain-visual-shared/1"
+}

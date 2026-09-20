@@ -1,0 +1,21 @@
+{
+  "acceptedRun": "G3-TESSERACT-003",
+  "observations": 67,
+  "allObservations": 164,
+  "actualEvents": 46,
+  "originalCaptures": 6,
+  "allOriginalCaptures": 23,
+  "freshMetadata": 67,
+  "overflow": 0,
+  "automaticEnd": [
+    {
+      "seq": 38,
+      "origin": "automatic-playback",
+      "type": "playback.pause",
+      "payload": {
+        "reason": "end-of-sequence"
+      },
+      "simTimeAfterMs": 32000
+    }
+  ]
+}

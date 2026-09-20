@@ -1,0 +1,179 @@
+{
+  "runId": "G1-CUBE-001",
+  "gate": "G1",
+  "experimentVersion": "G1-calibration-v1",
+  "testId": "G1-cube-source-shadow-calibration",
+  "hypothesis": "A fixed-camera cube source turn changes its 2D shadow predictably while selected source points remain distinct; camera exploration changes only the 3D display.",
+  "baseRevision": "6fb4ecbd516aa9a9dc23710c7ffcda4e8c65b819",
+  "buildId": "g1-37916c6f617be6d5",
+  "sourceSha256": "37916c6f617be6d5a10c8582e123538d5baaa609196f72aafce7bf0c044fe039",
+  "dependencyIdentity": "node-builtins-only; no lockfile or external assets",
+  "builtAt": "2026-09-20T01:10:47.066Z",
+  "durationMs": 40000,
+  "stepMs": 1000,
+  "checkpointTimesMs": [
+    0,
+    10000,
+    20000,
+    30000,
+    40000
+  ],
+  "model": {
+    "type": "ordinary-3d-wire-cube",
+    "dimension": 3,
+    "generatorVersion": "cube-v1",
+    "seed": null,
+    "vertices": [
+      {
+        "id": "v000",
+        "q": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v001",
+        "q": [
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v010",
+        "q": [
+          -1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v011",
+        "q": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v100",
+        "q": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v101",
+        "q": [
+          1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v110",
+        "q": [
+          1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v111",
+        "q": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "v000-v001",
+        "from": "v000",
+        "to": "v001"
+      },
+      {
+        "id": "v000-v010",
+        "from": "v000",
+        "to": "v010"
+      },
+      {
+        "id": "v000-v100",
+        "from": "v000",
+        "to": "v100"
+      },
+      {
+        "id": "v001-v011",
+        "from": "v001",
+        "to": "v011"
+      },
+      {
+        "id": "v001-v101",
+        "from": "v001",
+        "to": "v101"
+      },
+      {
+        "id": "v010-v011",
+        "from": "v010",
+        "to": "v011"
+      },
+      {
+        "id": "v010-v110",
+        "from": "v010",
+        "to": "v110"
+      },
+      {
+        "id": "v011-v111",
+        "from": "v011",
+        "to": "v111"
+      },
+      {
+        "id": "v100-v101",
+        "from": "v100",
+        "to": "v101"
+      },
+      {
+        "id": "v100-v110",
+        "from": "v100",
+        "to": "v110"
+      },
+      {
+        "id": "v101-v111",
+        "from": "v101",
+        "to": "v111"
+      },
+      {
+        "id": "v110-v111",
+        "from": "v110",
+        "to": "v111"
+      }
+    ],
+    "selectedVertexIds": [
+      "v110",
+      "v111"
+    ],
+    "sourceTransform": "Ry(theta) column vector; theta=pi*t/40000 to 20s, then pi*(40000-t)/40000",
+    "displayCamera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659,
+      "order": "Rx(pitch)·Ry(yaw)·rotatedSource",
+      "frozenInCanonicalRun": true
+    },
+    "shadowProjection": "P=(x′,y′)",
+    "displayProjection": "orthographic screen=(cx,−cy)",
+    "scalePxPerUnit": 95,
+    "clipping": "none",
+    "autoRescale": false,
+    "renderer": "SVG 2D; two responsive side-by-side views"
+  },
+  "initialStateHash": "6a812f6eda222a1e5eb116f9def5671a46ca3e58413075c5889dfc2c006a544d",
+  "initialGeometryHash": "ac35900ef087a088b82f512e18bda68184cadf489f377f7adba38424c74f3ac7",
+  "initialStateFile": "initial-state.json",
+  "eventsFile": "events.jsonl",
+  "checkpointsFile": "checkpoints.json",
+  "eventsKind": "planned deterministic fixture, not observed browser controls",
+  "resultsStatus": "Numerical and actual browser observations are recorded separately."
+}

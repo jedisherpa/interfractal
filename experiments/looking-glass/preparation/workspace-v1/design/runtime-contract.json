@@ -1,0 +1,679 @@
+{
+  "schemaVersion": "workspace-runtime-contract/1",
+  "phaseScope": "Synthetic preparation only; later research requires separate approvals",
+  "phases": [
+    "INITIAL",
+    "COMPARED",
+    "EXCHANGE_FROZEN",
+    "REVISIONS_FROZEN",
+    "FINALS_FROZEN",
+    "TRANSFER_RELEASED",
+    "SCORED"
+  ],
+  "callSlots": [
+    {
+      "slotId": "I-A1",
+      "stage": "I",
+      "agentId": "A1",
+      "cap": 4096,
+      "branchIds": [
+        "POOL",
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "I-A2",
+      "stage": "I",
+      "agentId": "A2",
+      "cap": 4096,
+      "branchIds": [
+        "POOL",
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "I-A3",
+      "stage": "I",
+      "agentId": "A3",
+      "cap": 4096,
+      "branchIds": [
+        "POOL",
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "I-A4",
+      "stage": "I",
+      "agentId": "A4",
+      "cap": 4096,
+      "branchIds": [
+        "POOL",
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "E-A1",
+      "stage": "E",
+      "agentId": "A1",
+      "cap": 512,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "E-A2",
+      "stage": "E",
+      "agentId": "A2",
+      "cap": 512,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "E-A3",
+      "stage": "E",
+      "agentId": "A3",
+      "cap": 512,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "E-A4",
+      "stage": "E",
+      "agentId": "A4",
+      "cap": 512,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "R-A1",
+      "stage": "R",
+      "agentId": "A1",
+      "cap": 4096,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "R-A2",
+      "stage": "R",
+      "agentId": "A2",
+      "cap": 4096,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "R-A3",
+      "stage": "R",
+      "agentId": "A3",
+      "cap": 4096,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "R-A4",
+      "stage": "R",
+      "agentId": "A4",
+      "cap": 4096,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "S",
+      "stage": "S",
+      "agentId": "SYNTHESIZER",
+      "cap": 4096,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    },
+    {
+      "slotId": "UNION",
+      "stage": "UNION",
+      "agentId": "UNION",
+      "cap": 4096,
+      "branchIds": [
+        "UNION"
+      ]
+    },
+    {
+      "slotId": "T-POOL",
+      "stage": "T",
+      "agentId": "TRANSFER-POOL",
+      "cap": 4096,
+      "branchIds": [
+        "POOL"
+      ]
+    },
+    {
+      "slotId": "T-UNION",
+      "stage": "T",
+      "agentId": "TRANSFER-UNION",
+      "cap": 4096,
+      "branchIds": [
+        "UNION"
+      ]
+    },
+    {
+      "slotId": "T-INTERACTIVE",
+      "stage": "T",
+      "agentId": "TRANSFER-INTERACTIVE",
+      "cap": 4096,
+      "branchIds": [
+        "INTERACTIVE"
+      ]
+    }
+  ],
+  "syntheticEnvelopeRequired": {
+    "origin": "authored_synthetic",
+    "transport": "fixture",
+    "researchOutput": false,
+    "actualModelInvoked": null,
+    "fixtureId": "nonempty string",
+    "fixtureSha256": "exact authored bytes digest",
+    "trustedContext": "server-created run/access/slot/phase/agent/input/settings binding; not copied from request"
+  },
+  "schemas": {
+    "phaseReceipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "receiptId",
+        "runId",
+        "sequence",
+        "phase",
+        "parentReceiptSha256",
+        "artifactRefs",
+        "inputManifestSha256",
+        "origin",
+        "semanticSha256"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "phase-receipt/1"
+        },
+        "receiptId": {
+          "type": "string"
+        },
+        "runId": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "phase": {
+          "enum": [
+            "INITIAL",
+            "COMPARED",
+            "EXCHANGE_FROZEN",
+            "REVISIONS_FROZEN",
+            "FINALS_FROZEN",
+            "TRANSFER_RELEASED",
+            "SCORED"
+          ]
+        },
+        "parentReceiptSha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "artifactRefs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "sha256"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "inputManifestSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "origin": {
+          "const": "synthetic_fixture_control"
+        },
+        "semanticSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "attemptEnvelope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "attemptId",
+        "slotId",
+        "runId",
+        "origin",
+        "transport",
+        "researchOutput",
+        "actualModelInvoked",
+        "fixtureId",
+        "fixtureSha256",
+        "inputManifestSha256",
+        "rawSha256",
+        "rawUtf8",
+        "parseStatus",
+        "validationStatus",
+        "errorCodes",
+        "retryOf",
+        "simulatedGeneratedTokens",
+        "actualProviderTokens",
+        "actualProviderSpend"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "synthetic-attempt/1"
+        },
+        "attemptId": {
+          "type": "string"
+        },
+        "slotId": {
+          "type": "string"
+        },
+        "runId": {
+          "type": "string"
+        },
+        "origin": {
+          "const": "authored_synthetic"
+        },
+        "transport": {
+          "const": "fixture"
+        },
+        "researchOutput": {
+          "const": false
+        },
+        "actualModelInvoked": {
+          "const": null
+        },
+        "fixtureId": {
+          "type": "string"
+        },
+        "fixtureSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "inputManifestSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "rawSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "rawUtf8": {
+          "type": "string"
+        },
+        "parseStatus": {
+          "enum": [
+            "valid",
+            "invalid"
+          ]
+        },
+        "validationStatus": {
+          "enum": [
+            "accepted",
+            "rejected",
+            "not_parsed"
+          ]
+        },
+        "errorCodes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "retryOf": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "simulatedGeneratedTokens": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "actualProviderTokens": {
+          "const": null
+        },
+        "actualProviderSpend": {
+          "const": 0
+        }
+      }
+    },
+    "proofCertificate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "atomPath",
+        "scopeId",
+        "inputManifestSha256",
+        "claimIds",
+        "catalogRefs",
+        "ruleIds",
+        "missingDependencyPaths",
+        "steps",
+        "conclusion",
+        "status",
+        "reviewDisposition",
+        "basis",
+        "submittedRawSha256",
+        "suppliedPremiseRefs",
+        "hostContextRefs"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "proof-certificate/1"
+        },
+        "atomPath": {
+          "type": "string"
+        },
+        "scopeId": {
+          "type": "string"
+        },
+        "inputManifestSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "catalogRefs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "documentId",
+              "jsonPointer",
+              "documentSha256"
+            ],
+            "properties": {
+              "documentId": {
+                "type": "string"
+              },
+              "jsonPointer": {
+                "type": "string",
+                "pattern": "^/"
+              },
+              "documentSha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "ruleIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "missingDependencyPaths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "ruleId",
+              "premises",
+              "result"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "ruleId": {
+                "type": "string"
+              },
+              "premises": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "result": {}
+            }
+          }
+        },
+        "conclusion": {},
+        "status": {
+          "enum": [
+            "proved",
+            "disproved",
+            "review_required",
+            "not_assessed"
+          ]
+        },
+        "reviewDisposition": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "reviewerId",
+            "evidenceRefs",
+            "reason"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "mechanical",
+                "independent_engineering_review",
+                "pending"
+              ]
+            },
+            "reviewerId": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "evidenceRefs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "reason": {
+              "type": "string"
+            }
+          }
+        },
+        "basis": {
+          "enum": [
+            "host_expected",
+            "submitted_evidence"
+          ]
+        },
+        "submittedRawSha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "suppliedPremiseRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "hostContextRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "proofSubmission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "responseRawSha256",
+        "inputManifestSha256",
+        "origin",
+        "atoms"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "proof-submission/1"
+        },
+        "responseRawSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "inputManifestSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "origin": {
+          "const": "authored_synthetic"
+        },
+        "atoms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "atomPath",
+              "claimIds",
+              "ruleIds",
+              "catalogRefs",
+              "missingDependencyPaths"
+            ],
+            "properties": {
+              "atomPath": {
+                "type": "string"
+              },
+              "claimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "ruleIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "catalogRefs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "documentId",
+                    "jsonPointer",
+                    "documentSha256"
+                  ],
+                  "properties": {
+                    "documentId": {
+                      "type": "string"
+                    },
+                    "jsonPointer": {
+                      "type": "string",
+                      "pattern": "^/"
+                    },
+                    "documentSha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  }
+                }
+              },
+              "missingDependencyPaths": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "certificateSemantics": {
+    "premiseNames": "claim:<claimId>, catalog:<index into catalogRefs>, missing:<index into missingDependencyPaths>, step:<prior stepId>. Only earlier steps allowed.",
+    "rules": "Original R01-R10 plus explicit normalization/count/catalog/bundle deductions described in provenance-review; expose each actual rule step. No new truth from score equality.",
+    "status": "proved requires a valid finite derivation under delivered complete scope. Exact cited-key-array equality is never the algorithm.",
+    "review": "Reviewer IDs correspond to actual engineering review records; scripted demonstration review remains labeled synthetic. No human materials approval generated.",
+    "submissionBoundary": "Host expected proofs never supply missing participant premises for credit. Optional versioned proof sidecar binds rawresponse/inputhash;absence doesnotinvalidateoriginalsnapshotshape. Missing essential proof data -> review_required or disproved, no proofpoint. Preserve actual submitted refs separately from host context.",
+    "gapMatching": "Typed exact dependency paths or explicit reviewed aliases only; arbitrary free text queues review. No hidden NL inference."
+  },
+  "accessModes": [
+    "researcher",
+    "initial:A1",
+    "initial:A2",
+    "initial:A3",
+    "initial:A4"
+  ],
+  "persistence": "Append-only run-scoped JSON/event journal plus retained raw files;atomic accept/reject receipt andsemantic update;reloadreconstructs;exportincludesown event",
+  "counterRules": {
+    "researchOutputs": 0,
+    "providerCalls": 0,
+    "humanParticipants": 0,
+    "uniquePlannedSlots": 17,
+    "totalPlannedGeneratedCap": 55296,
+    "simulatedCountersSeparate": true
+  },
+  "phaseGuards": {
+    "COMPARED": "allfour accepted initial IDs+hashes frozen;pool generated",
+    "EXCHANGE_FROZEN": "allfour exchange messages exist with same pre-exchange comparison input;no peer E in input",
+    "REVISIONS_FROZEN": "allfour accepted revisions;each correct owninitialparent and allfourE inputmanifest",
+    "FINALS_FROZEN": "POOL,UNION,S hashes frozen;S includesallfour revised IDs and no substitution",
+    "TRANSFER_RELEASED": "matchingFINALS receipt and allthree artifact hashes;strictinitial modealwaysrejects",
+    "SCORED": "three transfer attempts retained;score fixed98denominator evenifinvalid;invalidoutputs remain rejected and stage states clearly marked"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "gate": 7,
+  "scope": "Primary-source review for unfamiliar-case interpretation, matched visualization tasks and information, and practice/order controls",
+  "accessed_at_utc": "2026-09-20T06:27:33Z",
+  "accessed_at_local": "2026-09-20T00:27:33-06:00",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only source inspection; no implementation, browser run, deployment, external communication, human study, or Gate 8 work.",
+  "primary_sources": [
+    {
+      "title": "A Nested Model for Visualization Design and Validation",
+      "authors": ["Tamara Munzner"],
+      "publisher": "IEEE Transactions on Visualization and Computer Graphics",
+      "published": "2009",
+      "source_type": "Primary framework paper",
+      "url": "https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/",
+      "pdf_url": "https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf",
+      "doi": "10.1109/TVCG.2009.111",
+      "claims_used": [
+        "Visualization design and validation are separated into task/data characterization, abstract operations and data types, visual encoding/interaction, and implementation.",
+        "Upstream errors can cascade into downstream validation, so task and data assumptions should be explicit.",
+        "Evaluation method should match the level and threat to validity being tested."
+      ],
+      "gate7_use": "Write each unfamiliar case as an explicit task with a frozen answer key and report instrument/replay checks separately from interpretation claims.",
+      "limits": "Framework guidance only; no evidence about Looking Glass, its cases, or human participants."
+    },
+    {
+      "title": "Seven Guiding Scenarios for Information Visualization Evaluation",
+      "authors": ["Heidi Lam", "Enrico Bertini", "Petra Isenberg", "Catherine Plaisant", "Sheelagh Carpendale"],
+      "publisher": "University of Calgary Technical Report 2011-992-04; later IEEE TVCG",
+      "published": "2011",
+      "source_type": "Primary literature-review/framework paper",
+      "url": "https://petra.isenberg.cc/publications/papers/Lam_2011_SGS.pdf",
+      "doi": "10.1109/TVCG.2011.279",
+      "claims_used": [
+        "Evaluation goals include visual data analysis and reasoning, user performance, user experience, communication, collaboration, and automated evaluation.",
+        "The recommended sequence is to set the evaluation goal, select a fitting scenario, then choose methods and planned analyses.",
+        "Different goals require different outputs and should not be collapsed into a single generic evaluation result."
+      ],
+      "gate7_use": "Keep answer correctness, evidence recovery, interaction traces, and any later human observations as separate outcomes.",
+      "limits": "Survey/framework guidance; not an efficacy result and not a validation of this instrument."
+    },
+    {
+      "title": "Effects of Screen-Responsive Visualization on Data Comprehension",
+      "authors": ["Sriram Karthik Badam", "Niklas Elmqvist"],
+      "publisher": "Information Visualization",
+      "published": "2021",
+      "source_type": "Primary empirical visualization study",
+      "url": "https://journals.sagepub.com/doi/10.1177/14738716211038614",
+      "doi": "10.1177/14738716211038614",
+      "claims_used": [
+        "The controlled study matched statement/data task factors across interfaces, piloted correctness and comprehensibility, and measured correctness, time, and replay count.",
+        "Interface order was counterbalanced and statement sets randomized to address order effects.",
+        "A complementary practical study used a different open-ended goal, showing why controlled performance and practical use should be reported separately."
+      ],
+      "gate7_use": "Preserve matched facts and task demands across conditions; record tutorial/practice, order, replay allowance, and information availability; separate accuracy from time and interaction measures.",
+      "limits": "Results concern that study's responsive interfaces and participants; they do not transfer automatically to unfamiliar geometric/reference cases or establish any Looking Glass effect."
+    }
+  ],
+  "derived_gate7_requirements": [
+    {
+      "requirement": "Frozen held-out interpretation cases",
+      "design": "Before inspection, freeze case IDs, wording, source/input IDs, expected and acceptable answers, required evidence, and explicit insufficient-information outcomes; keep the answer key separate.",
+      "basis": ["Munzner 2009 task/data characterization", "Lam et al. evaluation-goal matching"],
+      "status": "Application design derived from sources; not an empirical result."
+    },
+    {
+      "requirement": "Separate correctness, recovery, and observation",
+      "design": "Score answer-key correctness, evidence/dependency/reference recovery, and replay/interaction traces independently. Add actual human observations only if separately authorized.",
+      "basis": ["Lam et al. distinct evaluation scenarios", "Munzner 2009 level-specific validation"],
+      "status": "Application scoring rule; no efficacy or comprehension claim."
+    },
+    {
+      "requirement": "Matched conditions with practice/order fields",
+      "design": "Record case version, available information, display mode, start state, tutorial/practice exposure, order, replay allowance, and hidden fields. For a future human study, match task demands and counterbalance/randomize order.",
+      "basis": ["Badam & Elmqvist 2021 controlled study"],
+      "status": "Design control; no participant effect observed in this project."
+    },
+    {
+      "requirement": "Bounded conclusion",
+      "design": "Conclude only whether the frozen instrument presents and scores the declared cases consistently under the audit. Keep human comprehension, general benefit, transfer, social coordination, emergence, and efficacy unresolved.",
+      "basis": ["Munzner 2009 level-specific threats", "Lam et al. goal-specific evaluation"],
+      "status": "Claim boundary required by project scope."
+    }
+  ],
+  "limits": [
+    "No source establishes that the Looking Glass instrument is understandable, useful, or efficacious.",
+    "No human participants or human results are present in Gate 7.",
+    "A correct keyed answer or reproducible replay does not establish social meaning, collective emergence, authority, influence, or a geometry advantage.",
+    "The recommendations are application-specific requirements derived from primary methods sources and remain to be implemented/audited under the approved Gate 7 scope."
+  ]
+}

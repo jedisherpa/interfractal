@@ -1,0 +1,46 @@
+{
+  "schema": "gate10-host-browser-outcome-v1",
+  "recordedAtUtc": "2026-09-20T12:04:45.506747+00:00",
+  "candidate": "G10-PREDICT-003",
+  "status": "BLOCKED_PREDICTION_WORKFLOW",
+  "actor": "source_informed_software_ui",
+  "humanParticipants": 0,
+  "observedFailure": "Server accepted first attempt, but UI discarded acknowledgement; phase none, attached attempt null, radios/commit/skip/reveal disabled. No answer submitted.",
+  "actualCounts": {
+    "browserAttemptStartClicks": 1,
+    "serverAttemptsCreated": 1,
+    "browserDraftSelections": 0,
+    "browserCommits": 0,
+    "browserSkips": 0,
+    "browserReveals": 0,
+    "primaryCasesCompleted": 0,
+    "repeatReviewsCompleted": 0,
+    "observations": 65,
+    "hostSemanticActions": 49,
+    "originalImages": 6
+  },
+  "unexecuted": [
+    "T01 deliberately wrong commit/reveal",
+    "T02 correct commit/reveal",
+    "T03 ambiguous commit/reveal",
+    "T04 explicit skip and point reveal",
+    "T05 empty reveal",
+    "T01 repeat correct review",
+    "reset after an actual reveal",
+    "attached unanswered-attempt abandonment"
+  ],
+  "completedPaths": [
+    "worked practice open/close twice",
+    "initial/support/narrow original captures",
+    "16 designated paused checkpoints; six after blocked review, not after successful reveals",
+    "one natural 20-second saved tour; scroll/resize observations during playback, no interrupting replay control",
+    "additional Play from local, Pause, previous/next, direct checkpoint, Replay from start",
+    "reload and return paused0",
+    "actual Gate9 link opens exact historical paused run",
+    "ledger and event exports; second document has no service session"
+  ],
+  "exportBoundary": "Event exports include events existing before the export handler logs its own export event. Final session-one export omits that last event and subsequent ledger-export event; final session-two export omits that export event and final reopen. Host action trace and DOM observations retain boundary actions. No complete-after-final-click event log is claimed.",
+  "closureNote": "Unattached server attempt remains answering after practice/reopen; no /api/close record. Reload loses document capability, not proof of abandonment or restored first exposure. API audit probes use isolated logs distinct from this actual browser session.",
+  "viewportAndScrollActions": "Applied viewport1280x720 then960x720 and restored; scrolled for screenshots and active clock regression. These are captured in observations, not all included in semantic-button action count. Temporary viewport reset invoked at end.",
+  "candidateBudget": "Initial001 plus revisions002/003 exhausted; preserve bounded negative result without candidate004."
+}

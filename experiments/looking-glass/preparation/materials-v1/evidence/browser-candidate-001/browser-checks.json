@@ -1,0 +1,77 @@
+{
+  "recordedAtUtc": "2026-09-20T21:34:30.229557+00:00",
+  "kind": "Observed software review index; not research data",
+  "checks": [
+    {
+      "check": "DOM serialized records match every frozen authored source",
+      "pass": true,
+      "detail": {
+        "observations": 16,
+        "recordsPerObservation": 18
+      }
+    },
+    {
+      "check": "All seven recorded UI actions completed",
+      "pass": true,
+      "detail": [
+        "open-C04-source",
+        "close-C04-by-keyboard",
+        "open-C12-by-keyboard",
+        "close-C12-by-keyboard",
+        "open-C18-conflict",
+        "close-C18",
+        "reload-review-index"
+      ]
+    },
+    {
+      "check": "C04-open",
+      "pass": true,
+      "detail": "C04"
+    },
+    {
+      "check": "C12-open-by-keyboard",
+      "pass": true,
+      "detail": "C12"
+    },
+    {
+      "check": "C18-open",
+      "pass": true,
+      "detail": "C18"
+    },
+    {
+      "check": "Reload returns collapsed source disclosures",
+      "pass": true,
+      "detail": "18 collapsed"
+    },
+    {
+      "check": "Original screenshots preserved exactly",
+      "pass": true,
+      "detail": {
+        "originalJpegs": 4
+      }
+    },
+    {
+      "check": "Observed desktop viewport has no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "viewport": "1280x720 only",
+        "observationCount": 16
+      }
+    },
+    {
+      "check": "No captured browser errors or warnings",
+      "pass": true,
+      "detail": 0
+    }
+  ],
+  "pass": true,
+  "candidate": "001",
+  "servedHtmlSha256": "2e603eec5f0d9575a32e1e041ee635593e7deb6d65b414691a799b5cb7fbf2e4",
+  "limits": [
+    "Researcher-only full-union overview, not future isolated participant input",
+    "Native source disclosure tested by click and Enter only",
+    "1280x720 desktop observed; no responsive or comprehensive accessibility claim",
+    "Zero research-agent outputs or human participants",
+    "Synthetic source text and raw JSON can require vertical scrolling"
+  ]
+}

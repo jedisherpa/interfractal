@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "materials-builder-preflight/1",
+  "preparationOnly": true,
+  "recordId": "001",
+  "designFreezeSha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b",
+  "sourceTaskFreezeSha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+  "results": [
+    {
+      "name": "schema-validator-unit",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/schema-validator.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.474Z",
+      "completedAtUtc": "2026-09-20T21:25:04.529Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "schema validator unit checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "design-mutations",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.529Z",
+      "completedAtUtc": "2026-09-20T21:25:04.590Z",
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'D1: unexpected field in development task'\n+ ]\n- []\n\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.test.mjs:20:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: [ 'D1: unexpected field in development task' ],\n  expected: [],\n  operator: 'deepStrictEqual',\n  diff: 'simple'\n}\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "synthetic-snapshot-contract",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/snapshot-contract.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.590Z",
+      "completedAtUtc": "2026-09-20T21:25:04.654Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "snapshot contract fixtures and mutations passed (synthetic; zero research outputs)\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "frozen-source-and-generated-shape",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/check"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.654Z",
+      "completedAtUtc": "2026-09-20T21:25:04.714Z",
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs:13\nconst fail = message => { throw new Error(message); };\n                                ^\n\nError: Usage: node build-package.mjs check|build|verify\n    at fail (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs:13:33)\n    at assert (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs:14:58)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs:246:3)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs:261:75\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "generator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.714Z",
+      "completedAtUtc": "2026-09-20T21:25:04.759Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "preview-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/preview.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.759Z",
+      "completedAtUtc": "2026-09-20T21:25:04.804Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "snapshot-validator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/snapshot-contract.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:04.804Z",
+      "completedAtUtc": "2026-09-20T21:25:04.851Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    }
+  ],
+  "allPassed": false
+}

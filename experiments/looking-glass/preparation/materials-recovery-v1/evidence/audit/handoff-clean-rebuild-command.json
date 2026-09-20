@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "recovery-documented-recipe-execution/1",
+  "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport hashlib, json, shutil, subprocess, tempfile\n\nproject = Path('/Users/paul/BTC-Learning/experiments/looking-glass')\nsource = project / 'preparation/materials-recovery-v1/package-candidate-004'\nnode = Path('/opt/homebrew/Cellar/node@24/24.17.0/bin/node')\nexpected = '66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823'\nsha = lambda data: hashlib.sha256(data).hexdigest()\nassert sha((source / 'MANIFEST.json').read_bytes()) == expected\nstage = Path(tempfile.mkdtemp(prefix='materials004-recovery-')).resolve()\nshutil.copytree(source / 'builder-tooling', stage / 'tooling')\nshutil.copytree(source / 'research-team/design', stage / 'design')\nreport = {'stage': str(stage), 'steps': [], 'passed': False}\nlog = stage / 'reproduction-result.json'\ndef save():\n    log.write_text(json.dumps(report, indent=2) + '\\n')\ntry:\n    report['nodeVersion'] = subprocess.check_output(\n        [str(node), '--version'], text=True).strip()\n    for mode in ['build', 'verify']:\n        command = [str(node), str(stage / 'tooling/build-package.mjs'), mode]\n        result = subprocess.run(command, cwd=stage, text=True,\n                                capture_output=True, timeout=60)\n        report['steps'].append({'command': command, 'exitCode': result.returncode,\n                               'stdout': result.stdout, 'stderr': result.stderr})\n        save()\n        assert result.returncode == 0, 'Command failed; inspect saved report'\n        assert f'{mode} passed: 72 files;' in result.stdout, 'Success output absent'\n        assert 'candidate package-candidate-004' in result.stdout\n    rebuilt = stage / 'package-candidate-004'\n    raw = (rebuilt / 'MANIFEST.json').read_bytes()\n    assert sha(raw) == expected, 'Manifest differs'\n    manifest = json.loads(raw)\n    declared = {entry['path'] for entry in manifest['files']} | {'MANIFEST.json'}\n    actual = {str(p.relative_to(rebuilt)) for p in rebuilt.rglob('*') if p.is_file()}\n    assert len(actual) == 72 and actual == declared, 'Output inventory differs'\n    for entry in manifest['files']:\n        data = (rebuilt / entry['path']).read_bytes()\n        assert len(data) == entry['bytes'] and sha(data) == entry['sha256']\n    for name in actual:\n        assert (rebuilt / name).read_bytes() == (source / name).read_bytes(), name\n    report.update(passed=True, filesCompared=72, manifestSha256=sha(raw))\nexcept Exception as error:\n    report['error'] = str(error)\n    raise\nfinally:\n    save()\n    print('Recovery record:', log)\nprint('Verified all 72 recreated files against preserved candidate 004.')\nPY",
+  "executable": "/bin/zsh",
+  "args": [
+    "-c",
+    "python3 - <<'PY'\nfrom pathlib import Path\nimport hashlib, json, shutil, subprocess, tempfile\n\nproject = Path('/Users/paul/BTC-Learning/experiments/looking-glass')\nsource = project / 'preparation/materials-recovery-v1/package-candidate-004'\nnode = Path('/opt/homebrew/Cellar/node@24/24.17.0/bin/node')\nexpected = '66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823'\nsha = lambda data: hashlib.sha256(data).hexdigest()\nassert sha((source / 'MANIFEST.json').read_bytes()) == expected\nstage = Path(tempfile.mkdtemp(prefix='materials004-recovery-')).resolve()\nshutil.copytree(source / 'builder-tooling', stage / 'tooling')\nshutil.copytree(source / 'research-team/design', stage / 'design')\nreport = {'stage': str(stage), 'steps': [], 'passed': False}\nlog = stage / 'reproduction-result.json'\ndef save():\n    log.write_text(json.dumps(report, indent=2) + '\\n')\ntry:\n    report['nodeVersion'] = subprocess.check_output(\n        [str(node), '--version'], text=True).strip()\n    for mode in ['build', 'verify']:\n        command = [str(node), str(stage / 'tooling/build-package.mjs'), mode]\n        result = subprocess.run(command, cwd=stage, text=True,\n                                capture_output=True, timeout=60)\n        report['steps'].append({'command': command, 'exitCode': result.returncode,\n                               'stdout': result.stdout, 'stderr': result.stderr})\n        save()\n        assert result.returncode == 0, 'Command failed; inspect saved report'\n        assert f'{mode} passed: 72 files;' in result.stdout, 'Success output absent'\n        assert 'candidate package-candidate-004' in result.stdout\n    rebuilt = stage / 'package-candidate-004'\n    raw = (rebuilt / 'MANIFEST.json').read_bytes()\n    assert sha(raw) == expected, 'Manifest differs'\n    manifest = json.loads(raw)\n    declared = {entry['path'] for entry in manifest['files']} | {'MANIFEST.json'}\n    actual = {str(p.relative_to(rebuilt)) for p in rebuilt.rglob('*') if p.is_file()}\n    assert len(actual) == 72 and actual == declared, 'Output inventory differs'\n    for entry in manifest['files']:\n        data = (rebuilt / entry['path']).read_bytes()\n        assert len(data) == entry['bytes'] and sha(data) == entry['sha256']\n    for name in actual:\n        assert (rebuilt / name).read_bytes() == (source / name).read_bytes(), name\n    report.update(passed=True, filesCompared=72, manifestSha256=sha(raw))\nexcept Exception as error:\n    report['error'] = str(error)\n    raise\nfinally:\n    save()\n    print('Recovery record:', log)\nprint('Verified all 72 recreated files against preserved candidate 004.')\nPY"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Recovery record: /private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93/reproduction-result.json\nVerified all 72 recreated files against preserved candidate 004.\n",
+  "stderr": "",
+  "spawnError": null,
+  "generatedReportPath": "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93/reproduction-result.json",
+  "generatedReport": {
+    "stage": "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93",
+    "steps": [
+      {
+        "command": [
+          "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+          "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93/tooling/build-package.mjs",
+          "build"
+        ],
+        "exitCode": 0,
+        "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+          "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93/tooling/build-package.mjs",
+          "verify"
+        ],
+        "exitCode": 0,
+        "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+        "stderr": ""
+      }
+    ],
+    "passed": true,
+    "nodeVersion": "v24.17.0",
+    "filesCompared": 72,
+    "manifestSha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823"
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "index": 0,
+    "label": "common-practice-1280",
+    "path": "evidence/gate-9/screenshots/001-common-practice-1280.jpg",
+    "sha256": "6e18a5ff15043f0ff10545d7beeb0012fbe110ae8d7a0bfdb8d668f1d4d5a655",
+    "bytes": 94417,
+    "beforeObservation": 5,
+    "afterObservation": 6,
+    "capturedAtUtc": "2026-09-20T09:30:54.327Z"
+  },
+  {
+    "index": 1,
+    "label": "t01-completed-choice",
+    "path": "evidence/gate-9/screenshots/002-t01-completed-choice.jpg",
+    "sha256": "390f18997538da37b202163153b404adbb4c8b5bbf869b1dfcd90b943fa48002",
+    "bytes": 74121,
+    "beforeObservation": 41,
+    "afterObservation": 42,
+    "capturedAtUtc": "2026-09-20T09:31:22.734Z"
+  },
+  {
+    "index": 2,
+    "label": "t01-watch-active",
+    "path": "evidence/gate-9/screenshots/003-t01-watch-active.jpg",
+    "sha256": "f8bc27932b9c9fcee4c6a03e395a707ff8b43bbfafa850f3b1792c88170b30de",
+    "bytes": 91630,
+    "beforeObservation": 47,
+    "afterObservation": 48,
+    "capturedAtUtc": "2026-09-20T09:31:23.536Z"
+  },
+  {
+    "index": 3,
+    "label": "t01-watch-complete",
+    "path": "evidence/gate-9/screenshots/004-t01-watch-complete.jpg",
+    "sha256": "c66c9e90df067539012862a55b923c419416a6f9c773d8b1801a6fcc98866b18",
+    "bytes": 59191,
+    "beforeObservation": 54,
+    "afterObservation": 55,
+    "capturedAtUtc": "2026-09-20T09:31:43.836Z"
+  },
+  {
+    "index": 4,
+    "label": "t01-static-sheet",
+    "path": "evidence/gate-9/screenshots/005-t01-static-sheet.jpg",
+    "sha256": "7a1a4bc8db00bf6eeec976c33686e4797ef8a837b876d3d67c120c1a481dd83e",
+    "bytes": 92796,
+    "beforeObservation": 65,
+    "afterObservation": 66,
+    "capturedAtUtc": "2026-09-20T09:32:23.375Z"
+  },
+  {
+    "index": 5,
+    "label": "t01-completed-choice-full",
+    "path": "evidence/gate-9/screenshots/006-t01-completed-choice-full.jpg",
+    "sha256": "b3de4874c0ce155e100848fec70473fc937e087eb8f40d3177c042e329764846",
+    "bytes": 74352,
+    "beforeObservation": 71,
+    "afterObservation": 72,
+    "capturedAtUtc": "2026-09-20T09:32:49.144Z"
+  },
+  {
+    "index": 6,
+    "label": "t04-nonseparating-static",
+    "path": "evidence/gate-9/screenshots/007-t04-nonseparating-static.jpg",
+    "sha256": "643cb903edc51c10863aec63d373d3a35c2e0c324379d6f77fa0262e5fc042b4",
+    "bytes": 95649,
+    "beforeObservation": 152,
+    "afterObservation": 153,
+    "capturedAtUtc": "2026-09-20T09:33:32.216Z"
+  },
+  {
+    "index": 7,
+    "label": "static-960-upper",
+    "path": "evidence/gate-9/screenshots/008-static-960-upper.jpg",
+    "sha256": "c71d7433c6f48f88ff7e5ea1bba1d4836d60869d64e41c33d9c54b38b2ffd6db",
+    "bytes": 49969,
+    "beforeObservation": 158,
+    "afterObservation": 159,
+    "capturedAtUtc": "2026-09-20T09:34:06.614Z"
+  },
+  {
+    "index": 8,
+    "label": "static-960-lower",
+    "path": "evidence/gate-9/screenshots/009-static-960-lower.jpg",
+    "sha256": "18aeca26266f8e4f9d55aa42665db50ddeb7d2f23078fc6bc9db6010dfe0f9ba",
+    "bytes": 68046,
+    "beforeObservation": 162,
+    "afterObservation": 163,
+    "capturedAtUtc": "2026-09-20T09:34:07.234Z"
+  },
+  {
+    "index": 9,
+    "label": "t01-watch-full-manual-review",
+    "path": "evidence/gate-9/screenshots/010-t01-watch-full-manual-review.jpg",
+    "sha256": "eff84de0575869d858487f94289db18b761e2874d60e8258a20d2f09642dc47e",
+    "bytes": 73262,
+    "beforeObservation": 185,
+    "afterObservation": 186,
+    "capturedAtUtc": "2026-09-20T09:34:58.545Z"
+  },
+  {
+    "index": 10,
+    "label": "continuous-tour-active",
+    "path": "evidence/gate-9/screenshots/011-continuous-tour-active.jpg",
+    "sha256": "26ab81aeac6a529126e1d140759c3c0c03b63d4fdeb62967fc9288da4a56ee01",
+    "bytes": 61876,
+    "beforeObservation": 286,
+    "afterObservation": 287,
+    "capturedAtUtc": "2026-09-20T09:37:25.395Z"
+  },
+  {
+    "index": 11,
+    "label": "continuous-tour-natural-end",
+    "path": "evidence/gate-9/screenshots/012-continuous-tour-natural-end.jpg",
+    "sha256": "af34935ee37ee9e8019aa740a15ba2e594bbba7f5b38da8f943866bd4671dd9a",
+    "bytes": 90199,
+    "beforeObservation": 291,
+    "afterObservation": 292,
+    "capturedAtUtc": "2026-09-20T09:38:07.252Z"
+  },
+  {
+    "index": 12,
+    "label": "final-paused-start",
+    "path": "evidence/gate-9/screenshots/013-final-paused-start.jpg",
+    "sha256": "99dd14b99af1172fba78a1b40e44f58ca5fe0760ce67b534be2b5e4cf329b056",
+    "bytes": 85015,
+    "beforeObservation": 305,
+    "afterObservation": 306,
+    "capturedAtUtc": "2026-09-20T09:39:36.064Z"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "schema": "gate11-independent-final-core-verification-v1",
+  "status": "PASS",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "closedCoreSha256": "e9ab3b68f78a2b7c5a018ef39bd88efcb79536abd83ee1beb7b94e6df52c232a",
+  "coreEntries": 54,
+  "priorFrozenEntries": 1437,
+  "fullObservations": 100,
+  "fullHostActions": 79,
+  "fullOriginals": 6,
+  "designatedCheckpoints": 18,
+  "localRevisionCount": 7,
+  "naturalElapsedSeconds": 24.005,
+  "naturalScheduledEvents": 7,
+  "firstDocumentEventCount": 56,
+  "secondDocumentEventCount": 21,
+  "groups": {
+    "closure": {
+      "passed": 56,
+      "total": 56
+    },
+    "historical": {
+      "passed": 1440,
+      "total": 1440
+    },
+    "acquisition": {
+      "passed": 6,
+      "total": 6
+    },
+    "snapshot": {
+      "passed": 400,
+      "total": 400
+    },
+    "metadata": {
+      "passed": 100,
+      "total": 100
+    },
+    "model": {
+      "passed": 300,
+      "total": 300
+    },
+    "provenance": {
+      "passed": 100,
+      "total": 100
+    },
+    "parity": {
+      "passed": 102,
+      "total": 102
+    },
+    "checkpoint": {
+      "passed": 21,
+      "total": 21
+    },
+    "first-use": {
+      "passed": 3,
+      "total": 3
+    },
+    "negative": {
+      "passed": 1,
+      "total": 1
+    },
+    "revisions": {
+      "passed": 10,
+      "total": 10
+    },
+    "exports": {
+      "passed": 14,
+      "total": 14
+    },
+    "events": {
+      "passed": 2,
+      "total": 2
+    },
+    "natural": {
+      "passed": 5,
+      "total": 5
+    },
+    "images": {
+      "passed": 7,
+      "total": 7
+    }
+  },
+  "failed": [],
+  "qualifications": [
+    "First candidate001 remains blocked by separately reproduced atomic publication race.",
+    "First candidate002 object acquisition is transport-limited and preserved separately; only browser-002-full supports complete 100/100 hash checks.",
+    "The natural 12-second boundary is present in a scheduled event and paused checkpoint, without a separate active DOM observation during 12–16 seconds.",
+    "One oversized single-string read failed after a successful export; the action records captureError and a read-only shallow-chunk retry supplied the complete observation.",
+    "No human participants, learning outcome, or diagram advantage were measured."
+  ]
+}

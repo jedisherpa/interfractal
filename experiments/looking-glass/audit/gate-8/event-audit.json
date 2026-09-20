@@ -1,0 +1,24 @@
+{
+  "kind": "gate8-independent-observed-event-audit",
+  "status": "PASS",
+  "totalActivityRows": 79,
+  "acceptedEventRows": 79,
+  "acceptedSessions": [
+    "615048eb-a95a-4614-8edb-6c47e99f8cee",
+    "5727769d-6670-420d-8485-0276decbbfa9"
+  ],
+  "sessionEventCounts": {
+    "615048eb-a95a-4614-8edb-6c47e99f8cee": 52,
+    "5727769d-6670-420d-8485-0276decbbfa9": 27
+  },
+  "completeNaturalReplays": [
+    {
+      "sessionId": "5727769d-6670-420d-8485-0276decbbfa9",
+      "startSeq": 15,
+      "eventsMatched": 10,
+      "stopSeq": 25
+    }
+  ],
+  "excludedRows": 0,
+  "note": "Excluded activity rows remain preserved. Across boundaries, actual before hashes include fractional elapsed cursor; planned before hashes use the boundary cursor. Same-boundary chains and all after hashes are checked."
+}

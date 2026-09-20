@@ -1,0 +1,83 @@
+{
+  "gate": 4,
+  "scope": "Bounded primary-source review for 4D-ball slices, orthographic projection, center/interior/boundary/empty distinctions, and a declared representation-ambiguity construction",
+  "accessed_at_utc": "2026-09-20T03:16:40Z",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only source inspection. No implementation, browser run, deployment, external communication, human study, Gate 5 research, or publication.",
+  "primary_sources": [
+    {
+      "title": "Lecture 11: High Dimensional Geometry, Curse of Dimensionality, Dimension Reduction",
+      "author": "Sanjeev Arora (Princeton University, COS 521)",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall13/cos521/lecnotes/lec11.pdf",
+      "accessed_at_utc": "2026-09-20T03:13:58Z",
+      "source_type": "Princeton University course lecture notes",
+      "pins": [
+        "PDF p. 1, lines 40–44 in fetched text: unit n-ball B_n is defined by sum_i x_i^2 <= 1.",
+        "PDF p. 1, lines 45–53 in fetched text: the x_1=1/2 hyperplane slice of the 4D ball is a 3-ball of radius sqrt(1−1/2^2), and every parallel slice is a ball."
+      ],
+      "supports": [
+        "A hyperplane slice of the unit n-ball is an (n−1)-ball in the displayed 4D example.",
+        "The square-root radius law for the unit case; scaling and substitution give sqrt(R^2−s^2) for a 4D ball of radius R sliced at w=s."
+      ],
+      "does_not_support": [
+        "The project's browser implementation, rendering backend, or display-camera contract.",
+        "A claim that a 3D movie uniquely identifies a 4D source or that extra physical dimensions exist.",
+        "The boundary/singleton/empty UI policy; those follow from the displayed inequality and the Toronto definitions below."
+      ],
+      "use_in_gate4": "Primary source for the higher-dimensional ball definition and parallel-slice example underlying the analytic 4D-ball model."
+    },
+    {
+      "title": "Basic terminology and notation; Interior, boundary, and closure",
+      "author": "University of Toronto, MATH 237Y1 analysis notes",
+      "url": "https://www.math.utoronto.ca/courses/mat237y1/20199/notes/Chapter1/S1.1.html",
+      "accessed_at_utc": "2026-09-20T03:14:41Z",
+      "source_type": "University of Toronto course notes",
+      "pins": [
+        "Lines 17–22: open ball uses |x−a|<r, sphere uses |x−a|=r, and closed ball uses |x−a|<=r.",
+        "Lines 28–38: interior, complement-interior, and boundary are defined by neighborhood conditions.",
+        "Lines 56–71: for an open ball, the interior is the ball and the boundary is the radius-r sphere."
+      ],
+      "supports": [
+        "Keeping a solid ball, its spherical boundary, and the equality sphere mathematically distinct.",
+        "The neighborhood meaning of interior and boundary used to explain why the nondegenerate slice has a solid interior and spherical boundary."
+      ],
+      "does_not_support": [
+        "The exact 4D slice radius formula; that is derived by substitution from the Princeton ball equation.",
+        "A browser or human-comprehension result, arbitrary-shape reconstruction, or a physical extra-dimension claim."
+      ],
+      "use_in_gate4": "Primary terminology reference for the ball/sphere distinction and explicit boundary handling."
+    }
+  ],
+  "derived_checks": [
+    {
+      "claim": "4D solid-ball slice",
+      "formula": "B^4_R ∩ {w=s} = {(x,y,z,s): x^2+y^2+z^2 <= R^2−s^2}; radius sqrt(R^2−s^2) for |s|<R",
+      "derivation": "Substitute w=s into x^2+y^2+z^2+w^2<=R^2. The Princeton source gives the unit-radius parallel-slice case; scaling gives general R.",
+      "status": "direct derivation under the declared Euclidean closed-ball model"
+    },
+    {
+      "claim": "Center/interior/boundary/empty cases",
+      "formula": "s=0 gives radius R; 0<|s|<R gives positive radius; |s|=R gives a singleton; |s|>R gives empty",
+      "derivation": "Analyze the residual radius-squared R^2−s^2 and the equality/inequality set. Toronto's definitions keep solid interiors and spherical boundaries separate.",
+      "status": "direct derivation; singleton is a degenerate intersection, not an ordinary zero-radius rendering"
+    },
+    {
+      "claim": "Orthographic projection of centered 4D ball",
+      "formula": "P(x,y,z,w)=(x,y,z), P(B^4_R)=B^3_R",
+      "derivation": "Dropping w^2 proves inclusion in B^3_R; every (x,y,z) in B^3_R lifts to (x,y,z,0) in B^4_R. An orthogonal source rotation preserves the centered ball.",
+      "status": "direct set-theoretic derivation; display scale and camera remain separate recorded variables"
+    },
+    {
+      "claim": "Stored 3D animation reproduces a selected projection movie",
+      "formula": "Given m(t)=P R(t) q(t), define a stored 3D trajectory a(t)=m(t)",
+      "derivation": "The stored trajectory has exactly the same declared 3D frame output as the chosen movie while carrying no fourth coordinate.",
+      "status": "constructive counterexample derived for Gate 4; not quoted or attributed to either external source"
+    }
+  ],
+  "limits": [
+    "The slice result assumes a centered Euclidean solid 4D ball and a coordinate hyperplane w=s; translated or tilted planes require the corresponding distance-to-center substitution.",
+    "The orthographic image result assumes the coordinate projection with no automatic rescaling; perspective projection or a display transform may change apparent size.",
+    "The ambiguity construction concerns a bounded class of stored 3D trajectories/frame sequences matching one declared movie; it is not a theorem about all representations or arbitrary shape reconstruction.",
+    "Mathematical checks do not establish that a viewer can understand an unfamiliar slice, distinguish projection from slice, or infer source dimension from a movie."
+  ]
+}

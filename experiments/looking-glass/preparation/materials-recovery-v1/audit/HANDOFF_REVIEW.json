@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "materials-recovery-handoff-review/1",
+  "disposition": "bounded-handoff-pass-pending-final-freeze",
+  "dispositionPinCount": 21,
+  "dispositionPinsAllMatch": true,
+  "localPacketReferencesChecked": 11,
+  "localPacketReferencesAllResolve": true,
+  "claimConsistencyWithIndependentAudit": true,
+  "documentedRecipeRuns": 1,
+  "documentedRecipeExactBlockExecuted": true,
+  "documentedRecipeWrapperExitCode": 0,
+  "documentedRecipeNodeVersion": "v24.17.0",
+  "documentedRecipeBuildExitCode": 0,
+  "documentedRecipeVerifyExitCode": 0,
+  "documentedRecipeFilesCompared": 72,
+  "documentedRecipeManifestSha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823",
+  "recipeEvidence": {
+    "rawCommandAndResults": "../evidence/audit/handoff-clean-rebuild-command.json",
+    "generatedReportCopy": "../evidence/audit/handoff-clean-rebuild-report.json"
+  },
+  "negativeProbeExitCodesFromPriorAudit": [1, 1, 1, 1, 1],
+  "retainedSymlinkPreservationLogic": "verify-frozen.py checks link target text, UTF-8 size and SHA-256 without following target",
+  "finalRecoveryFreezeManifestPresentAtReview": false,
+  "finalRecoveryFreezeVerified": false,
+  "humanMaterialsApproval": "PENDING",
+  "researchCollection": "DEFERRED",
+  "remainingBoundary": "Host final preservation and publication; dependent preparation and later research require their own review/authorization."
+}

@@ -1,0 +1,7 @@
+# Gate 11 receiver summary instrument
+
+This is a public fictional four-world software benchmark. `receiver.mjs` is the pure input boundary: it accepts one exact receiver payload and a receiver ID, with no world lookup or source resolver. `model.mjs` derives source projections, immutable repair revisions and all eight repair-subset certificates from the frozen fixture. `app.mjs` exposes the first-use receiver-change and repair controls immediately, with one 24-second saved tour. Diagram and plain views share the same information payload/hash. No human participant workflow is present.
+
+Build and test with `/opt/homebrew/Cellar/node@24/24.17.0/bin/node`. An immutable server requires `--run` and binds only to 127.0.0.1. Review assets are absent until the host stages exact hash-approved files under `receiver-summary/review/` and enumerates them in `review/allowlist.json`; no generic file route exists. Local revisions and exports survive canonical restoration within this page but are not durable across reload. Preserve the export before reload.
+
+Candidate001 is retained with its independent snapshot publication failure. Candidate002 coordinates pending semantic publication with metadata-only refresh and assigns a distinct document ID on each load. See `FAILED_CANDIDATES.md` for the first candidate's bounded finding.

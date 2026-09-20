@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "materials-snapshot-guard-probe/1",
+  "candidate": "package-candidate-001",
+  "scope": "synthetic adversarial record validation; no model calls",
+  "probes": [
+    {
+      "name": "valid synthetic baseline",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "name": "union phase with only six initial cards and D01-D08",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "name": "initial A4 identity over A1 card packet",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "name": "duplicate interpretation ID",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "name": "supported action without derivation or dependencies",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "name": "numerically false D02 press answer with real but insufficient citation",
+      "accepted": true,
+      "errors": []
+    }
+  ]
+}

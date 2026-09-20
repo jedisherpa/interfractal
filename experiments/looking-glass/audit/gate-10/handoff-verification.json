@@ -1,0 +1,336 @@
+{
+  "schema": "gate10-independent-handoff-verification-v1",
+  "status": "PASS_NEGATIVE_HANDOFF",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "pinnedArtifactCount": 35,
+  "closedCoreEntryCount": 22,
+  "publicAssetCount": 6,
+  "deniedRouteCount": 20,
+  "protectedApiGetCount": 6,
+  "replayIdentityCount": 11,
+  "presentationObservationCount": 7,
+  "presentationOriginalCount": 3,
+  "packetLocalLinkCount": 17,
+  "badLocalPacketLinks": [],
+  "publicAssets": [
+    {
+      "route": "/review/replay-collection.json",
+      "sha256": "12cc47d937c5a1740f6592f5e29017d132e035a23f62ceddd13ca678c02605ac",
+      "bytes": 7520,
+      "getStatus": 200,
+      "headStatus": 200,
+      "exactLocalAndSource": true
+    },
+    {
+      "route": "/review/results.html",
+      "sha256": "a5be9af03cd941a8d3c3b967ca19aec6f0f7fa8b531b2d1926daceb39225b785",
+      "bytes": 10711,
+      "getStatus": 200,
+      "headStatus": 200,
+      "exactLocalAndSource": true
+    },
+    {
+      "route": "/review/screenshots/initial-cards.jpg",
+      "sha256": "14bb13b781bf3336c835a93bd1e629a4696580084389da278a147cc11ace3d12",
+      "bytes": 51467,
+      "getStatus": 200,
+      "headStatus": 200,
+      "exactLocalAndSource": true
+    },
+    {
+      "route": "/review/screenshots/natural-tour-end.jpg",
+      "sha256": "9dffeb9e1d72447be0be4a0226545551cf7b4c2aada840f3be30987c9f8c3c9c",
+      "bytes": 122022,
+      "getStatus": 200,
+      "headStatus": 200,
+      "exactLocalAndSource": true
+    },
+    {
+      "route": "/review/screenshots/start-ack-discarded.jpg",
+      "sha256": "e1ef644790e01f3dde06d692c72d93e8f2684eccd40dba03cdf0ea8b0f2e463d",
+      "bytes": 51164,
+      "getStatus": 200,
+      "headStatus": 200,
+      "exactLocalAndSource": true
+    },
+    {
+      "route": "/review/source-review.md",
+      "sha256": "1f90a587609059d93b83988e2787bc1fddaf04103366ba383e4966ca915e55bc",
+      "bytes": 4637,
+      "getStatus": 200,
+      "headStatus": 200,
+      "exactLocalAndSource": true
+    }
+  ],
+  "denied": [
+    {
+      "route": "/private/private-answer-key.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/private/independent-predictions.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/private/build-manifest.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/service.mjs",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/math.mjs",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/test.mjs",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/build.mjs",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/GATE_10_PACKET.md",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/browser-final-audit.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/private-answer-key.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/narrow-supports.jpg",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/screenshots/unknown.jpg",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/arbitrary.txt",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/audit/gate-10/browser-final-audit.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/evidence/gate-10/GATE_10_PACKET.md",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/live/review-allowlist.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/run/computational-results.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/%2e%2e/private/private-answer-key.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/../private/private-answer-key.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/review/results.html?leak=1",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "protectedApis": [
+    {
+      "route": "/api/session",
+      "getStatus": 405,
+      "pass": true
+    },
+    {
+      "route": "/api/start",
+      "getStatus": 405,
+      "pass": true
+    },
+    {
+      "route": "/api/commit",
+      "getStatus": 405,
+      "pass": true
+    },
+    {
+      "route": "/api/reveal",
+      "getStatus": 405,
+      "pass": true
+    },
+    {
+      "route": "/api/close",
+      "getStatus": 405,
+      "pass": true
+    },
+    {
+      "route": "/api/export",
+      "getStatus": 405,
+      "pass": true
+    }
+  ],
+  "replayGet": [
+    {
+      "gate": 0,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G0-CUBE-005",
+      "observedBuildId": "g0-d85237ad31362768",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 1,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G1-CUBE-003",
+      "observedBuildId": "g1-9dce1c2b9c2b3be4",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 2,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G2-HOPF-003",
+      "observedBuildId": "g2-ccabad12693f86a8",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 3,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G3-TESSERACT-003",
+      "observedBuildId": "g3-6c31bc16aeca4460",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 4,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G4-SLICES-002",
+      "observedBuildId": "g4-38777d5882ef08a6",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 5,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G5-PENTERACT-001",
+      "observedBuildId": "g5-0bdee39bcd7dd541",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 6,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G6-LOCAL-003",
+      "observedBuildId": "g6-0279cdcdc0adc9b0",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 7,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G7-INTERPRET-002",
+      "observedBuildId": "g7-90e64952eb028069",
+      "buildRoute": null,
+      "buildStatus": null,
+      "buildMatch": null,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 8,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G8-AMBIGUITY-001",
+      "observedBuildId": "g8-f5c5ee62889da529",
+      "buildRoute": "/api/build",
+      "buildStatus": 200,
+      "buildMatch": true,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 9,
+      "runRoute": "/api/run",
+      "runStatus": 200,
+      "observedRunId": "G9-MATCHED-003",
+      "observedBuildId": "g9-15c3bf973fe0c6cd",
+      "buildRoute": "/api/build",
+      "buildStatus": 200,
+      "buildMatch": true,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    },
+    {
+      "gate": 10,
+      "runRoute": "/run/run.json",
+      "runStatus": 200,
+      "observedRunId": "G10-PREDICT-003",
+      "observedBuildId": "g10-9e34f791d83c1cd7a495",
+      "buildRoute": "/build.json",
+      "buildStatus": 200,
+      "buildMatch": true,
+      "resultsStatus": 200,
+      "identityAndLinkMatch": true
+    }
+  ],
+  "errors": [],
+  "scope": "Read-only actual HTTP handoff plus file pins; no API mutation, new browser trial or human outcome"
+}

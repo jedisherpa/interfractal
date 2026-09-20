@@ -1,0 +1,72 @@
+[
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-initial-paused.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-layout-960.jpg",
+    "width": 960,
+    "height": 540
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-records-960.jpg",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-inspector-960.jpg",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-c01-revealed.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-c02-complementary.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-c03-no-separator.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-c03-outside-menu.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-c04-rounding-trap.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-c04-robust-query.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-tour-active.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-tour-natural-end.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-settled-layout-960.jpg",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "path": "evidence/gate-8/screenshots/001-resumed-final-paused.jpg",
+    "width": 1280,
+    "height": 720
+  }
+]

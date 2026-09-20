@@ -1,0 +1,92 @@
+[
+  {
+    "pass": "baseline",
+    "seconds": 0,
+    "observation": 24,
+    "semanticFingerprint": "82fe999e5cd217b09720a6ce93cd61440001de4126082a4447983dfb7a645a0a",
+    "informationFingerprint": "eb3c2195c27edc2c042cc1a92992db79f45c9dd92ac5ffddf2eea69f061bdd0b",
+    "caseId": "G8-C01",
+    "paused": true,
+    "cursorSeconds": 0
+  },
+  {
+    "pass": "baseline",
+    "seconds": 4,
+    "observation": 26,
+    "semanticFingerprint": "0d04b526569244317c0fa2c365bda3456912a641970bdac48841217061c5615f",
+    "informationFingerprint": "9c9df7e6b1256af9053534b5f764243ee02bb08546e363c01cab2af1a76f83d6",
+    "caseId": "G8-C01",
+    "paused": true,
+    "cursorSeconds": 4
+  },
+  {
+    "pass": "baseline",
+    "seconds": 8,
+    "observation": 28,
+    "semanticFingerprint": "45f0e0873a3a85a66f4928c7d87363ee4591b36b84ea35c33d90f863c7987627",
+    "informationFingerprint": "38510e201241b9494801d2ee948c78ceecbb13381c4cd07ed8d884a58e6faba6",
+    "caseId": "G8-C02",
+    "paused": true,
+    "cursorSeconds": 8
+  },
+  {
+    "pass": "baseline",
+    "seconds": 12,
+    "observation": 30,
+    "semanticFingerprint": "71bb4ef4141e589a62a8fb80c85453ce31ea91404a5900390c60bd5c35d700a2",
+    "informationFingerprint": "ea7890dca235bf07c3877ba3926d5cd460f4e78c21d4106e0a9d165efd1f0835",
+    "caseId": "G8-C02",
+    "paused": true,
+    "cursorSeconds": 12
+  },
+  {
+    "pass": "baseline",
+    "seconds": 16,
+    "observation": 32,
+    "semanticFingerprint": "377430811f56b4fbaf9e84fdcb687b6179a4985421cc22f2cc9d1601df78919e",
+    "informationFingerprint": "052b125760e3584a4a60487c1b1f30170893b935ff1779aeccc4ecb7764d097b",
+    "caseId": "G8-C02",
+    "paused": true,
+    "cursorSeconds": 16
+  },
+  {
+    "pass": "baseline",
+    "seconds": 20,
+    "observation": 34,
+    "semanticFingerprint": "d512f64619f1353e94fee4bc670a54d02de3b32bab8446abf3b4294fea4891ac",
+    "informationFingerprint": "a7e3c17136d9a5f11a0ce4b76d5b9eb311c09d6810f4a6099b45aceeb58552b4",
+    "caseId": "G8-C03",
+    "paused": true,
+    "cursorSeconds": 20
+  },
+  {
+    "pass": "baseline",
+    "seconds": 24,
+    "observation": 36,
+    "semanticFingerprint": "fe923fd99d6240730ccdc5880c0ad68523ce17be78ac7f5bac06f47856690bc6",
+    "informationFingerprint": "5c3aa5627bcf97498b2d2453d8aafe801fe83c948a4abd738d9eb6aa94e2011e",
+    "caseId": "G8-C03",
+    "paused": true,
+    "cursorSeconds": 24
+  },
+  {
+    "pass": "baseline",
+    "seconds": 28,
+    "observation": 38,
+    "semanticFingerprint": "84cf2e21c16aa0a9b7edf061636432732fca31283620931d3571242ca4b68b16",
+    "informationFingerprint": "12e1be5d5cef06ab4ce81d5a0d97b29e831cc7835f70da4a7d9ba1ea4ac56332",
+    "caseId": "G8-C04",
+    "paused": true,
+    "cursorSeconds": 28
+  },
+  {
+    "pass": "baseline",
+    "seconds": 32,
+    "observation": 40,
+    "semanticFingerprint": "3f79c42e0f954afeeacf2f091e1213e0b2b971d935b9525ae6fd55b18dcf3394",
+    "informationFingerprint": "04a895f6296202a8e72f1811df0afe22e932f9f8636e8208119d31b121a0f2f3",
+    "caseId": "G8-C04",
+    "paused": true,
+    "cursorSeconds": 32
+  }
+]

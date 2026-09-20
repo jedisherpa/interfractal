@@ -1,0 +1,42 @@
+{
+  "recordedAtUtc": "2026-09-20T03:16:24.005490+00:00",
+  "gate": 4,
+  "routingSource": "Actual user request and project AGENTS.md",
+  "workers": [
+    {
+      "task": "/root/g4_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Experiment orchestration, frozen specification and later synthesis",
+      "status": "completed"
+    },
+    {
+      "task": "/root/g4_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Bounded primary-source internet gathering",
+      "status": "completed"
+    },
+    {
+      "task": "/root/g4_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation and build checks",
+      "status": "completed"
+    },
+    {
+      "task": "/root/g4_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent mathematical, exact build, route and later raw browser evidence audit; separate from builder",
+      "status": "completed"
+    }
+  ],
+  "independentAudit": "Completed by separate Sol high worker; final saved browser7/7, activity7/7, build8/8, routes11/11; all415prior frozen entries unchanged.",
+  "hostCoordinator": "Local workspace/Git, supported browser computer use and evidence preservation. No unsupported model switch claimed.",
+  "humanParticipation": "No human-study or comprehension result is authorized or inferred.",
+  "authorization": "Actual next-gate approval recorded in approvals/GATE_4_APPROVAL.json. Gate5 not approved.",
+  "allStageWorkersCompleted": true,
+  "completedAtRecordedUtc": "2026-09-20T03:44:00.954434+00:00",
+  "completionEvidence": "Astra, Sol builder and Sol auditor completion confirmed by collaboration status; Luna source pass completion was delivered before its concurrency slot was reused for the independent auditor."
+}

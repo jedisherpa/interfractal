@@ -1,0 +1,29 @@
+{
+  "schema": "gate9-prepackage-audit-v1",
+  "status": "PASS",
+  "candidate": "mutable source before G9-MATCHED-003 packaging",
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "results": {
+    "nineTraceRoutes": "PASS",
+    "newChoiceFingerprintChains": "PASS",
+    "checkpointFingerprintChains": "PASS",
+    "restoredChoiceReferenceProvenance": {
+      "joinsCurrentSessionLog": false,
+      "declaresCanonicalOrReconstructionSource": true
+    },
+    "reopenFingerprintChains": "PASS",
+    "userChoiceFromSavedStartProvenance": {
+      "mode": "exploration",
+      "envelope": "local_control",
+      "origins": [
+        "user-control",
+        "user-control"
+      ]
+    },
+    "manualReview": "PASS",
+    "tourPausedAfterManualPresentationPause": true,
+    "priorFullExportPersistsOnWatch": false,
+    "manualControlsCanOrphanRunningTour": false
+  },
+  "errors": []
+}

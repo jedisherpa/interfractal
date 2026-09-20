@@ -1,0 +1,146 @@
+[
+  {
+    "pass": "initial",
+    "seconds": 0,
+    "matchesInitial": true,
+    "observation": 12
+  },
+  {
+    "pass": "initial",
+    "seconds": 2,
+    "matchesInitial": true,
+    "observation": 14
+  },
+  {
+    "pass": "initial",
+    "seconds": 4,
+    "matchesInitial": true,
+    "observation": 16
+  },
+  {
+    "pass": "initial",
+    "seconds": 6,
+    "matchesInitial": true,
+    "observation": 18
+  },
+  {
+    "pass": "initial",
+    "seconds": 8,
+    "matchesInitial": true,
+    "observation": 20
+  },
+  {
+    "pass": "initial",
+    "seconds": 10,
+    "matchesInitial": true,
+    "observation": 22
+  },
+  {
+    "pass": "initial",
+    "seconds": 12,
+    "matchesInitial": true,
+    "observation": 24
+  },
+  {
+    "pass": "initial",
+    "seconds": 14,
+    "matchesInitial": true,
+    "observation": 26
+  },
+  {
+    "pass": "initial",
+    "seconds": 20,
+    "matchesInitial": true,
+    "observation": 28
+  },
+  {
+    "pass": "initial",
+    "seconds": 24,
+    "matchesInitial": true,
+    "observation": 30
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 0,
+    "matchesInitial": true,
+    "observation": 247
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 2,
+    "matchesInitial": true,
+    "observation": 249
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 4,
+    "matchesInitial": true,
+    "observation": 251
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 6,
+    "matchesInitial": true,
+    "observation": 253
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 8,
+    "matchesInitial": true,
+    "observation": 255
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 10,
+    "matchesInitial": true,
+    "observation": 257
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 12,
+    "matchesInitial": true,
+    "observation": 259
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 14,
+    "matchesInitial": true,
+    "observation": 261
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 20,
+    "matchesInitial": true,
+    "observation": 263
+  },
+  {
+    "pass": "after-exploration",
+    "seconds": 24,
+    "matchesInitial": true,
+    "observation": 265
+  },
+  {
+    "pass": "after-reopen",
+    "seconds": 0,
+    "matchesInitial": true,
+    "observation": 269
+  },
+  {
+    "pass": "after-reopen",
+    "seconds": 24,
+    "matchesInitial": true,
+    "observation": 271
+  },
+  {
+    "pass": "after-reload",
+    "seconds": 0,
+    "matchesInitial": true,
+    "observation": 277
+  },
+  {
+    "pass": "after-reload",
+    "seconds": 24,
+    "matchesInitial": true,
+    "observation": 279
+  }
+]

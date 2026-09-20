@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "materials-cli-regression/1",
+  "source": "synthetic engineering checks; no research outputs",
+  "results": [
+    {
+      "name": "canonical check",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/build-package.mjs",
+        "check"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "source/design and in-memory package check passed: 18 cards, 4 packets, 8 initial tasks, 72 output files; both authored freezes matched\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "canonical build",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "canonical verify",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "existing target refuses overwrite",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/package-utils.mjs:10\n  if (existsSync(target)) throw new Error(`Refusing to overwrite candidate: ${target}`);\n                                ^\n\nError: Refusing to overwrite candidate: /Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/package-candidate-004\n    at writeNewDirectory (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/package-utils.mjs:10:33)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/build-package.mjs:262:25)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/canonical/tooling/build-package.mjs:267:37\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked directory build",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/directory-symlink/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked directory verify",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/directory-symlink/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked file build",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/file-symlink.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked file verify",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/file-symlink.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "invalid command fails",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/invalid-command/tooling/build-package.mjs",
+        "not-a-mode"
+      ],
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/invalid-command/tooling/build-package.mjs:14\nconst fail = message => { throw new Error(message); };\n                                ^\n\nError: Usage: node build-package.mjs check|build|verify\n    at fail (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/invalid-command/tooling/build-package.mjs:14:33)\n    at assert (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/invalid-command/tooling/build-package.mjs:15:58)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/invalid-command/tooling/build-package.mjs:252:3)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/invalid-command/tooling/build-package.mjs:267:37\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "missing design input fails",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs:14\nconst fail = message => { throw new Error(message); };\n                                ^\n\nError: Missing authored design/world.json\n    at fail (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs:14:33)\n    at assert (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs:15:58)\n    at load (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs:131:32)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs:253:16)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/absent-input/tooling/build-package.mjs:267:37\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "disposable build before corruption",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "corrupt output verification fails",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "<anonymous_script>:1\ncorrupt\n^\n\nSyntaxError: Unexpected token 'c', \"corrupt\n\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at readJson (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/package-utils.mjs:7:38)\n    at verifyCandidate (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs:230:30)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs:263:24)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs:267:37\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    }
+  ],
+  "failure": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /mismatch|does not match/i. Input:\n\n'<anonymous_script>:1\\n' +\n  'corrupt\\n' +\n  '^\\n' +\n  '\\n' +\n  `SyntaxError: Unexpected token 'c', \"corrupt\\n` +\n  '\" is not valid JSON\\n' +\n  '    at JSON.parse (<anonymous>)\\n' +\n  '    at readJson (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/package-utils.mjs:7:38)\\n' +\n  '    at verifyCandidate (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs:230:30)\\n' +\n  '    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs:263:24)\\n' +\n  '    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/corrupt-output/tooling/build-package.mjs:267:37\\n' +\n  '    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\\n' +\n  '    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\\n' +\n  '    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\\n' +\n  '\\n' +\n  'Node.js v24.17.0\\n'\n\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/cli-regression.test.mjs:79:10\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)"
+}

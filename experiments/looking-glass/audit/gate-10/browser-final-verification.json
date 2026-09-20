@@ -1,0 +1,390 @@
+{
+  "schema": "gate10-independent-closed-browser-verification-v1",
+  "status": "PASS_WITH_QUALIFICATIONS",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "coreFreezeSha256": "a8310e939ba5d3020d890613ca305f7b71179b5e7c88a97bc064bd588006fd28",
+  "coreEntryCount": 22,
+  "observationCount": 65,
+  "semanticHashesVerified": 65,
+  "ledgerHashesVerified": 65,
+  "withheldObservationCount": 65,
+  "controlInvariantCount": 65,
+  "noHorizontalOverflowCount": 65,
+  "designatedCheckpointCount": 16,
+  "checkpointMatches": 16,
+  "naturalTourElapsedMs": 20004,
+  "naturalScheduledEventCount": 6,
+  "hostSemanticActionCount": 49,
+  "originalImageCount": 6,
+  "serviceEventCount": 6,
+  "serviceEventTypes": [
+    "session-start",
+    "attempt-start",
+    "ledger-export",
+    "ledger-export",
+    "ledger-export",
+    "ledger-export"
+  ],
+  "historicalEntryCount": 1260,
+  "historicGitDiff": [],
+  "staleViewport": [
+    {
+      "index": 27,
+      "label": "session-one-events-pre-reset",
+      "observed": {
+        "documentHeight": 7454,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1278.5,
+        "width": 1280
+      },
+      "published": {
+        "documentHeight": 2219,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1278.5,
+        "width": 1280
+      }
+    },
+    {
+      "index": 36,
+      "label": "session-one-events-final",
+      "observed": {
+        "documentHeight": 10754,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1045.5,
+        "width": 1280
+      },
+      "published": {
+        "documentHeight": 1765,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1045.5,
+        "width": 1280
+      }
+    },
+    {
+      "index": 54,
+      "label": "session-two-natural-tour-events",
+      "observed": {
+        "documentHeight": 4934,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1045.5,
+        "width": 1280
+      },
+      "published": {
+        "documentHeight": 1765,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1045.5,
+        "width": 1280
+      }
+    },
+    {
+      "index": 61,
+      "label": "session-two-events-final",
+      "observed": {
+        "documentHeight": 8414,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1045.5,
+        "width": 1280
+      },
+      "published": {
+        "documentHeight": 1765,
+        "documentWidth": 1280,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 1045.5,
+        "width": 1280
+      }
+    }
+  ],
+  "contentCssDimensions": {
+    "width": 280,
+    "height": 200
+  },
+  "observedSvgBorderBoxDimensions": {
+    "width": 282,
+    "height": 202
+  },
+  "eventAudit": [
+    {
+      "file": "session-one-events-pre-reset.json",
+      "count": 19,
+      "valid": true,
+      "origins": {
+        "user-control": 18,
+        "api": 1
+      }
+    },
+    {
+      "file": "session-one-events-final.json",
+      "count": 30,
+      "valid": true,
+      "origins": {
+        "user-control": 29,
+        "api": 1
+      }
+    },
+    {
+      "file": "session-two-natural-tour-events.json",
+      "count": 10,
+      "valid": true,
+      "origins": {
+        "user-control": 4,
+        "replay": 5,
+        "automatic": 1
+      }
+    },
+    {
+      "file": "session-two-events-final.json",
+      "count": 22,
+      "valid": true,
+      "origins": {
+        "user-control": 16,
+        "replay": 5,
+        "automatic": 1
+      }
+    }
+  ],
+  "checkpointAudit": [
+    {
+      "label": "baseline-cp-0",
+      "seconds": 0,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "baseline-cp-4",
+      "seconds": 4,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "baseline-cp-8",
+      "seconds": 8,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "baseline-cp-12",
+      "seconds": 12,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "baseline-cp-16",
+      "seconds": 16,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "baseline-cp-20",
+      "seconds": 20,
+      "match": true,
+      "reviewStatus": "end-of-sequence"
+    },
+    {
+      "label": "after-blocked-review-cp-0",
+      "seconds": 0,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-blocked-review-cp-4",
+      "seconds": 4,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-blocked-review-cp-8",
+      "seconds": 8,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-blocked-review-cp-12",
+      "seconds": 12,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-blocked-review-cp-16",
+      "seconds": 16,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-blocked-review-cp-20",
+      "seconds": 20,
+      "match": true,
+      "reviewStatus": "end-of-sequence"
+    },
+    {
+      "label": "after-reopen-cp-0",
+      "seconds": 0,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-reopen-cp-20",
+      "seconds": 20,
+      "match": true,
+      "reviewStatus": "end-of-sequence"
+    },
+    {
+      "label": "after-reload-cp-0",
+      "seconds": 0,
+      "match": true,
+      "reviewStatus": "standard-playback"
+    },
+    {
+      "label": "after-reload-cp-20",
+      "seconds": 20,
+      "match": true,
+      "reviewStatus": "end-of-sequence"
+    }
+  ],
+  "naturalAudit": [
+    {
+      "type": "case-select",
+      "seconds": 4,
+      "origin": "replay",
+      "intended": {
+        "caseId": "T02",
+        "boundarySeconds": 4
+      },
+      "beforeMatch": true,
+      "afterMatch": true
+    },
+    {
+      "type": "case-select",
+      "seconds": 8,
+      "origin": "replay",
+      "intended": {
+        "caseId": "T03",
+        "boundarySeconds": 8
+      },
+      "beforeMatch": true,
+      "afterMatch": true
+    },
+    {
+      "type": "case-select",
+      "seconds": 12,
+      "origin": "replay",
+      "intended": {
+        "caseId": "T04",
+        "boundarySeconds": 12
+      },
+      "beforeMatch": true,
+      "afterMatch": true
+    },
+    {
+      "type": "case-select",
+      "seconds": 16,
+      "origin": "replay",
+      "intended": {
+        "caseId": "T05",
+        "boundarySeconds": 16
+      },
+      "beforeMatch": true,
+      "afterMatch": true
+    },
+    {
+      "type": "case-select",
+      "seconds": 20,
+      "origin": "replay",
+      "intended": {
+        "caseId": "T01",
+        "boundarySeconds": 20
+      },
+      "beforeMatch": true,
+      "afterMatch": true
+    },
+    {
+      "type": "tour-stop",
+      "seconds": 20,
+      "origin": "automatic",
+      "intended": {
+        "reason": "end-of-sequence"
+      },
+      "beforeMatch": true,
+      "afterMatch": true
+    }
+  ],
+  "imageAudit": [
+    {
+      "label": "initial-supports",
+      "sha256": "1eec21e5ccfa6b7c0dc81401431c836cd56f551a2aeb2fded89853ab97e35e8b",
+      "bytes": 121314,
+      "width": 1280,
+      "height": 720,
+      "beforeRevision": 1,
+      "afterRevision": 1,
+      "bracketMatch": true
+    },
+    {
+      "label": "initial-cards",
+      "sha256": "14bb13b781bf3336c835a93bd1e629a4696580084389da278a147cc11ace3d12",
+      "bytes": 51467,
+      "width": 1280,
+      "height": 720,
+      "beforeRevision": 2,
+      "afterRevision": 2,
+      "bracketMatch": true
+    },
+    {
+      "label": "narrow-supports",
+      "sha256": "5826cd8709034ca20caecf59af5c7d6ec27c5969014ede29bd952b32ee6e5885",
+      "bytes": 48611,
+      "width": 960,
+      "height": 720,
+      "beforeRevision": 4,
+      "afterRevision": 4,
+      "bracketMatch": true
+    },
+    {
+      "label": "start-ack-discarded",
+      "sha256": "e1ef644790e01f3dde06d692c72d93e8f2684eccd40dba03cdf0ea8b0f2e463d",
+      "bytes": 51164,
+      "width": 1280,
+      "height": 720,
+      "beforeRevision": 25,
+      "afterRevision": 25,
+      "bracketMatch": true
+    },
+    {
+      "label": "active-tour",
+      "sha256": "409e7410783da2233431f0c964e2e13971bd9e5a76bbc9e7ef1f41b423c65a08",
+      "bytes": 121423,
+      "width": 1280,
+      "height": 720,
+      "beforeRevision": 7,
+      "afterRevision": 8,
+      "bracketMatch": true
+    },
+    {
+      "label": "natural-tour-end",
+      "sha256": "9dffeb9e1d72447be0be4a0226545551cf7b4c2aada840f3be30987c9f8c3c9c",
+      "bytes": 122022,
+      "width": 1280,
+      "height": 720,
+      "beforeRevision": 258,
+      "afterRevision": 259,
+      "bracketMatch": true
+    }
+  ],
+  "failures": [],
+  "scope": "Read-only sealed actual browser evidence; prediction workflow remains blocked and human learning untested"
+}

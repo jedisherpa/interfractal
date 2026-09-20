@@ -1,0 +1,23 @@
+{
+  "recordedAtUtc": "2026-09-20T01:13:08.946768+00:00",
+  "gate": 1,
+  "prespecModified": false,
+  "deviations": [
+    {
+      "kind": "local-preview-port",
+      "prespecified": 43993,
+      "actual": 43994,
+      "reason": "Port 43993 was occupied by an unrelated pre-existing Python HTTP server, PID 6196, in Wizard-Joe-Cartoon-Production-2026-09-09/production-work; it was left untouched. Port 43994 had no listener before launch.",
+      "effect": "Local transport only; model, intervention, predictions, timing and evidence requirements unchanged."
+    },
+    {
+      "kind": "automatic-pause-event-origin",
+      "recordedAtUtc": "2026-09-20T01:21:01.443157+00:00",
+      "prespecified": "docs/gate-1/record-contract.md: Automatic playback events are identified as such.",
+      "actual": "Both manual Pause and automatic end invoke playback.pause with intended simulationTimeMs; no explicit origin/automatic field is recorded.",
+      "evidence": "calibration/builds/g1-9dce1c2b9c2b3be4/app.mjs and G1-CUBE-003-ui-session-log-trials.jsonl; independent auditor confirmed.",
+      "effect": "Functional auto-stop is supported by the external uninterrupted browser trace and observed paused40s state. Raw activity event alone cannot establish automatic origin. Core geometry/replay checks pass; full recording-contract compliance is not claimed.",
+      "disposition": "Preserve browser-tested build and report a qualified result. Add an explicit automatic/manual origin field in a future version if authorized; do not rewrite this historical log."
+    }
+  ]
+}

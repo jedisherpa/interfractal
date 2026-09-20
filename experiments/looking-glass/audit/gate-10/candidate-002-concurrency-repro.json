@@ -1,0 +1,67 @@
+{
+  "schema": "gate10-candidate-002-overlap-idempotency-repro-v1",
+  "status": "FAIL",
+  "scope": "Isolated software API concurrency; no browser or human action",
+  "runId": "G10-PREDICT-002",
+  "buildId": "g10-464bfe21ad6044378996",
+  "identicalStart": {
+    "statuses": [
+      201,
+      201
+    ],
+    "attemptIds": [
+      "e21a7121-2a62-4c6f-aeb5-cc49c3985517",
+      "c9563371-f894-4fd6-b99f-221ff87a22d2"
+    ],
+    "distinctAttempts": 2,
+    "expected": "one immutable attempt and identical result for both same-request retries"
+  },
+  "identicalCommit": {
+    "statuses": [
+      201,
+      409
+    ],
+    "receiptEquality": false,
+    "secondError": "attempt_locked",
+    "expected": "same locked commit receipt for both same-request retries"
+  },
+  "conflictingStart": {
+    "statuses": [
+      201,
+      201
+    ],
+    "caseIds": [
+      "T01",
+      "T02"
+    ],
+    "expected": "one accepted request, one 409 conflict for the same requestId with differing caseId"
+  },
+  "httpOverlap": {
+    "identicalStartStatuses": [
+      201,
+      201
+    ],
+    "distinctStartAttemptCount": 2,
+    "identicalCommitStatuses": [
+      201,
+      409
+    ],
+    "secondCommitError": "attempt_locked"
+  },
+  "attemptCount": 5,
+  "serverEventTypes": [
+    "session-start",
+    "attempt-start",
+    "attempt-abandon",
+    "attempt-start",
+    "attempt-abandon",
+    "attempt-start",
+    "commit-ack",
+    "api-reject",
+    "attempt-start",
+    "attempt-abandon",
+    "attempt-start"
+  ],
+  "sourceOfFailure": "startRequests and commitRequests are stored only after awaiting record(); overlapping calls enter before their idempotency entries are visible.",
+  "credentialsRedacted": true
+}

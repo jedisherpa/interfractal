@@ -1,0 +1,50 @@
+[
+  {
+    "label": "conflicting-recommendations-P2-diagram",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-001/screenshots/conflicting-recommendations-P2-diagram.jpg",
+    "sha256": "417e85a0a39c4b3b0a1c11a025a17cffbae037003e6b40a9921bbd63b4dc8c53",
+    "bytes": 135679,
+    "beforeObservationIndex": 7,
+    "afterObservationIndex": 8
+  },
+  {
+    "label": "conflicting-recommendations-P2-plain",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-001/screenshots/conflicting-recommendations-P2-plain.jpg",
+    "sha256": "8d6890a4ae5f1ae56a9f0d36eb34b281a07a7711043b4b5ebc8b3c02a47a9b6a",
+    "bytes": 97900,
+    "beforeObservationIndex": 11,
+    "afterObservationIndex": 12
+  },
+  {
+    "label": "extremes-tie-retains-disagreement",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-001/screenshots/extremes-tie-retains-disagreement.jpg",
+    "sha256": "51fb4aa230e8e04a57efe45dfeaf99a387cbac08dae654c48a83ad24e672c2c8",
+    "bytes": 134409,
+    "beforeObservationIndex": 26,
+    "afterObservationIndex": 27
+  },
+  {
+    "label": "no-eligible-no-action",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-001/screenshots/no-eligible-no-action.jpg",
+    "sha256": "3baf9a73784b85176aded1def7d347bc0bda69f282550dc0ccde690b2cbfdec9",
+    "bytes": 125389,
+    "beforeObservationIndex": 31,
+    "afterObservationIndex": 32
+  },
+  {
+    "label": "retained-inspection-failure-preserved",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-001/screenshots/retained-inspection-failure-preserved.jpg",
+    "sha256": "c5a786a12a85fb628d49435b258a2b976ab9cab56312b3cb86ccb92ad9cc6b35",
+    "bytes": 69898,
+    "beforeObservationIndex": 38,
+    "afterObservationIndex": 39
+  },
+  {
+    "label": "selected-record-inspect-button-disabled",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-12/browser-001/screenshots/selected-record-inspect-button-disabled.jpg",
+    "sha256": "e7274c7da26b6712938606de856c903da20cb2f09c1b2bd6f48b76a21c29bf70",
+    "bytes": 126376,
+    "beforeObservationIndex": 41,
+    "afterObservationIndex": 42
+  }
+]

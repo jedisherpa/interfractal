@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-09-20T23:00:41.396952+00:00",
+  "source_commit": "caa52b02bf7695ee10cd0890a6fd8b1b57af3c7a",
+  "manifest_sha256": "09bd0e8bacf51726f1fef36567b83a5f35f75f7b3bc36c376f4853aa4c5fe9bc",
+  "file_integrity": {
+    "status": "PASS",
+    "regular_files": 5938,
+    "bytes": 235682427,
+    "checks": [
+      "SHA-256 matches manifest after model tests",
+      "Git blob SHA-1 matches captured source",
+      "Git executable mode preserved",
+      "No extra files or symlinks in imported subtree"
+    ]
+  },
+  "model_checks": [
+    {
+      "command": "node experiments/looking-glass/correspondence/test.mjs",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "command": "node experiments/looking-glass/local-models/test.mjs",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "command": "node experiments/looking-glass/coordination/test.mjs",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "command": "node experiments/looking-glass/misleading-view/test.mjs",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "runtime": "Node.js 24",
+  "credential_pattern_scan": {
+    "status": "NO_MATCHES",
+    "scope": "Imported regular files and members of the preserved original-input ZIP",
+    "limitations": "Heuristic token, private-key and sensitive-filename checks; not a comprehensive security audit."
+  },
+  "not_run": [
+    "Root application build and browser verification: no application routes or runtime code changed",
+    "New research trials or model/provider API calls",
+    "Financial operations",
+    "Production deployment"
+  ]
+}

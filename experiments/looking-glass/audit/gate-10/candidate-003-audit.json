@@ -1,0 +1,28 @@
+{
+  "schema": "gate10-independent-candidate-audit-v1",
+  "candidate": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "sourceSha256": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "status": "PASS_PRE_BROWSER",
+  "scope": "Independent exact immutable-build, isolated HTTP/service API, concurrent API and deterministic built-app control-flow review; supported-browser evidence pending",
+  "checks": [
+    {"evidence": "candidate-003-build-audit.json", "status": "PASS", "count": 103, "result": "Exact source/build/freeze/private-copy pins, sanitized public build manifest, six answer-free checkpoints and six scheduled events"},
+    {"evidence": "candidate-003-http-service-audit.json", "status": "PASS", "count": 572, "result": "Isolated exact static routes, denied private/traversal routes, sequential API lifecycle/negative probes, capacity, controlled-clock expiry and redacted logs"},
+    {"evidence": "candidate-003-concurrency-repro.json", "status": "PASS", "result": "Independent direct and isolated-HTTP overlap: identical starts 201/200 one attempt and one event identity; identical commits 201/200 one receipt and one event identity; conflicting starts 201/409"},
+    {"evidence": "candidate-003-app-control-audit.json", "status": "PASS", "count": 12, "result": "Deterministic built-app control flow: atomic initial inspector hash, target withheld, local-play and boundary-pause event joins, API provenance, late export discarded after canonical restore and different local case"}
+  ],
+  "rootServerReadOnlyIdentity": {"origin": "http://127.0.0.1:44003", "routesComparedToImmutableBytes": ["/build.json", "/app.mjs", "/model.mjs", "/fixture.json"], "allExact": true},
+  "candidate002Corrections": [
+    {"id": "G10-002-01", "status": "fixed_in_003", "source": "prediction-transfer/builds/g10-9e34f791d83c1cd7a495/service.mjs:63-99", "basis": "Request identity/payload reserved before awaited logging; independent direct and HTTP overlap passed"},
+    {"id": "G10-002-02", "status": "fixed_in_003", "source": "prediction-transfer/builds/g10-9e34f791d83c1cd7a495/app.mjs:37-43,94-96,152-155", "basis": "Epoch advances on canonical/case/new-attempt transitions and response is accepted only for captured epoch/mode/session; two independent deferred-response probes passed"},
+    {"id": "G10-002-03", "status": "fixed_in_003", "source": "prediction-transfer/builds/g10-9e34f791d83c1cd7a495/app.mjs:27-31,80-90", "basis": "Actual api-origin UI event emitted with source-informed API actor/provenance in controlled built-app probe"},
+    {"id": "G10-002-04", "status": "fixed_in_003", "source": "prediction-transfer/builds/g10-9e34f791d83c1cd7a495/app.mjs:52-65", "basis": "Local restore precedes play-before capture; boundary advance precedes pause-before capture; adjacent same-control/same-boundary hashes joined in controlled probe"}
+  ],
+  "limits": [
+    "No supported-browser click, visible DOM, image, elapsed natural 20-second tour, or full five-case workflow has been observed by this independent audit.",
+    "Continuous clock advancement changes cursor between events; this report asserts the tested shared-control and same-boundary joins, not blanket hash equality across elapsed time.",
+    "Candidate 002 failure reports and immutable candidates remain preserved. API probes are software API evidence, not UI or human actions."
+  ],
+  "browserCollectionRecommendation": "Proceed with the preregistered actual browser protocol for candidate 003, including five cases,16 paused checkpoints, natural tour, export/inspector and original images; retain any observed failures.",
+  "humanOutcomes": "Untested"
+}

@@ -1,0 +1,19 @@
+{
+  "readOnlyObservationTransport": [
+    "Observations0\u201329 retain nested MaxDepth truncation; later observation JSONstring preserves fullinspector state.",
+    "Opening inspector once exceeded200k response limit; recovered with visibleText capped14000 characters; complete inspectorstate retained. Action starttime unavailable for thatcall.",
+    "Candidate transition observations preserve initial002verification separately after replacing001 collector; noUIactions invented."
+  ],
+  "intendedActionMismatches": [
+    {
+      "observations": [
+        94,
+        95,
+        96
+      ],
+      "requested": "reopened checkpoints15000,20000,25000",
+      "observed": "no15000restore; shared-source relation selected; no25000restore",
+      "result": "Not successful checkpoint verification; preserved actualevent/DOM results. Laterreload7CPmatches."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "materials-recovery-independent-audit/1",
+  "reviewer": "separate GPT-5.6 Sol high engineering audit worker",
+  "candidate": "package-candidate-004",
+  "disposition": "bounded-pass",
+  "manifestSha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823",
+  "files": 72,
+  "testedPlatform": "macOS",
+  "testedNode": "v24.17.0",
+  "evidence": {
+    "cli": "../evidence/audit/independent-cli-1789942481320.json",
+    "preservedFirstAttempt": "../evidence/audit/independent-cli-1789942461819.json",
+    "browser": "../evidence/audit/browser-independent.json",
+    "negativeProbeRoot": "../evidence/audit/probes-vtOVVG/",
+    "hostBrowserAcquisition": "../evidence/browser-candidate-004/"
+  },
+  "checks": {
+    "canonicalDirectBuildVerify": true,
+    "directorySymlinkDirectBuildVerify": true,
+    "fileSymlinkDirectBuildVerify": true,
+    "allOutputsByteIdenticalAndManifestVerified": true,
+    "realAndSymlinkImportsSideEffectFree": true,
+    "invalidMissingCorruptOverwriteReturnNonzero": true,
+    "overwriteInventoryUnchanged": true,
+    "noOpAndForgedChildSuccessRejected": true,
+    "semanticPinsByteIdentical": 58,
+    "previousHistoricalEntriesUnchanged": 1947,
+    "previousMaterialsEntriesUnchanged": 352,
+    "previewOnlyIdentityChanged": true,
+    "packagedRegressionTestsPassed": 5,
+    "browserDomSourceInstancesEqual": 72,
+    "browserVisuallyOpenedRecords": ["C04"],
+    "originalImagesDirectlyInspected": 2,
+    "previewHttpRouteChecksPassed": 10
+  },
+  "qualification": "Only tested path forms/runtime; missing-output uses raw ENOENT and malformed JSON a parse error. Materials approval, dependent preparation, human studies and four-agent research are outside this audit."
+}

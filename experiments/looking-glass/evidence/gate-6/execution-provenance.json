@@ -1,0 +1,63 @@
+{
+  "gate": 6,
+  "recordedAtUtc": "2026-09-20T05:28:58.374381+00:00",
+  "routingSource": "Actual user request and applicable project AGENTS.md",
+  "workers": [
+    {
+      "task": "/root/g6_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Specification, orchestration and synthesis",
+      "status": "completed: frozen specification and final synthesis delivered"
+    },
+    {
+      "task": "/root/g6_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Primary-source internet gathering",
+      "status": "bounded source pass delivered; host stopped worker",
+      "coordinationNote": "Source files and findings delivered; worker interrupted after scope completion to end redundant coordination."
+    },
+    {
+      "task": "/root/g6_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation",
+      "status": "completed: immutable implementation and separate presentation CSS repair delivered"
+    },
+    {
+      "task": "/root/g6_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent audit; separate from implementation worker",
+      "status": "completed; independent final audit passed"
+    },
+    {
+      "task": "/root/g6_sol_packaging",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Bounded implementation helper: build packaging, implementation tests and recovery README; separate from independent audit",
+      "status": "completed"
+    }
+  ],
+  "hostCoordinator": "Workspace setup, tool routing, supported CUA browser, evidence preservation and local Git. No unsupported model switch claimed.",
+  "authorization": "Gate6 approved in actual user message; Gate7 not approved.",
+  "humanParticipation": "No human comprehension or social emergence study.",
+  "allStageWorkersCompleted": true,
+  "coreEvidence": {
+    "observations": 105,
+    "rootActionCalls": 83,
+    "originalJpegs": 8,
+    "semanticUiEvents": 78,
+    "sessions": 3,
+    "closedFileCount": 15
+  },
+  "failedCandidates": [
+    "G6-LOCAL-001: SVG claim visibility",
+    "G6-LOCAL-002: source and relation evidence text overflow"
+  ],
+  "independentAudit": "Separate Sol worker independently verified model/build, actual browser controls and exact matched route outcomes, semantic events, checkpoint repetitions, original images, closed core and historical integrity; final bounded checks pass.",
+  "allStageWorkersEnded": true,
+  "workerCompletionNote": "Four workers completed their assignments; the Luna source worker delivered its bounded pass and was explicitly stopped by the host. No worker continues gate execution.",
+  "workersEndedAtRecordedUtc": "2026-09-20T06:19:59.980348+00:00"
+}

@@ -1,0 +1,72 @@
+{
+  "recordedAtUtc": "2026-09-20T01:13:33.561400+00:00",
+  "runId": "G1-CUBE-003",
+  "buildId": "g1-9dce1c2b9c2b3be4",
+  "phase": "before actual browser trials",
+  "files": [
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/app.mjs",
+      "sha256": "eea48e3163e7f34f61a9be6d4e06b9b708c821b78cd022a210ecb258284815f3"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/build.json",
+      "sha256": "08e6855febe31d6178faff5ffd82c07bb1b41098b38d8d95cbdce45299e3621d"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/build.mjs",
+      "sha256": "8b86df4b4280d5b2438aab11cbabe0ec5ba6465084d7a7ae87cbce835602ba84"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/index.html",
+      "sha256": "eef709f58830d6e845bfc52fce9d8210ebf3726a6628d004acba146187d2fa02"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/model.mjs",
+      "sha256": "56a06a617e1bbbe5809d552bceb750e8f57267e9ad9ba36f02a3644a6354ae58"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/server.mjs",
+      "sha256": "dca56f9c02d04d0b354972ff52cb0de16ce5e558b0593b46f0d89b8623708428"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/style.css",
+      "sha256": "6c4872c1b52308f0e14ffaa669ff6141e7cfd46d0b40ffef7be3ecdedd0907c9"
+    },
+    {
+      "path": "calibration/builds/g1-9dce1c2b9c2b3be4/test.mjs",
+      "sha256": "1b1c3561a094fbc4f6195aabe41f08b0fa76f39369853b57ff241536c3f59b30"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/checkpoints.json",
+      "sha256": "0a94994009fd037c79b51c438d4460ea7f6568685f5309cbd8f525f7a83e6be0"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/events.jsonl",
+      "sha256": "e77791a2aea8281ba4443ae85fe61b5b914b70d96f3dc4c170b64d61f36584b4"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/initial-state.json",
+      "sha256": "74fbd2676183c3ef22b2fd95c98d5e0616059c628aa23d63ca4414003b2c8686"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-003/run.json",
+      "sha256": "fe7c8159381f54083c4e21f5feda484059f736920338904fc5788fc6b0e93a2d"
+    },
+    {
+      "path": "docs/gate-1/PRESPEC_FREEZE.json",
+      "sha256": "551ed13918fe6946cd063e90cbfd24e06c3cdf04a88b91c3fe7556b24abc5994"
+    },
+    {
+      "path": "docs/gate-1/experiment-charter.md",
+      "sha256": "5166cebde784cdad18021906761d5a46ed28fd50e11a1ea4c2a1a80a374e7d30"
+    },
+    {
+      "path": "docs/gate-1/independent-predictions.json",
+      "sha256": "c3b5cae1525fa5411e09c76e1488af37e96ad095ad575ad094c86dc874d8b903"
+    },
+    {
+      "path": "docs/gate-1/record-contract.md",
+      "sha256": "600d3155a9a08b8c293c604d64943214eedd982b5343bd6ab724e55699d64ce3"
+    }
+  ]
+}

@@ -15,6 +15,8 @@ export default tseslint.config(
       ".nitro/**",
       "node_modules/**",
       "src/routeTree.gen.ts",
+      // Preserve imported research snapshots; their checks are documented separately.
+      "experiments/looking-glass/**",
     ],
   },
   js.configs.recommended,

@@ -1,0 +1,111 @@
+{
+  "scope": "Existing supported-browser observations and direct original-image inspection; independent DOM/data/hash and live route check",
+  "checks": {
+    "browser": {
+      "observations": 4,
+      "actions": 3,
+      "serializedSourceInstancesEqual": 72,
+      "actuallyOpened": [
+        "C04"
+      ],
+      "openStates": [
+        [],
+        [
+          "C04"
+        ],
+        [],
+        []
+      ],
+      "viewport": "1280×720; DPR2; no horizontal overflow"
+    },
+    "originalImages": [
+      {
+        "path": "screenshots/candidate-004-overview.jpg",
+        "sha256": "7a9cff78258d73b4af5670f4eff691d7518229fb2235957250dcb090218ee7b2",
+        "bytes": 79831
+      },
+      {
+        "path": "screenshots/candidate-004-C04-source.jpg",
+        "sha256": "e77b989326404ecd64a5937cbe799cf133c164b6ed1783ae575d7a122d4b72a1",
+        "bytes": 80705
+      }
+    ],
+    "originalsInspectedDirectly": "Overview visibly identifies candidate 004 and preparation-only disclosure; opened C04 visibly shows understanding, rejected endorsement and alternative plan-specific grants, with JSON continuing below viewport.",
+    "consoleEntries": 0,
+    "reviewHtmlSha256": "f53487296740ef096050066a670868407d9610425f5c2987859c44c049aac63a"
+  },
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200,
+      "bytes": 35237,
+      "sha256": "f53487296740ef096050066a670868407d9610425f5c2987859c44c049aac63a"
+    },
+    {
+      "method": "GET",
+      "path": "/index.html",
+      "status": 200,
+      "bytes": 35237,
+      "sha256": "f53487296740ef096050066a670868407d9610425f5c2987859c44c049aac63a"
+    },
+    {
+      "method": "GET",
+      "path": "/research-team/design/AUTHOR_ANSWER_KEY.json",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "GET",
+      "path": "/participants/A1/world.json",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "GET",
+      "path": "/transfer-phase-bound/withheld-tasks.json",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "GET",
+      "path": "/review/index.html",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "GET",
+      "path": "/../research-team/design/AUTHOR_ANSWER_KEY.json",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "GET",
+      "path": "/%2e%2e/research-team/design/AUTHOR_ANSWER_KEY.json",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "GET",
+      "path": "/index.html?x=1",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

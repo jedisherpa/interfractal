@@ -1,0 +1,127 @@
+- banner:
+  - paragraph: LOOKING GLASS · GATE 9 SOFTWARE INSTRUMENT
+  - heading "One choice trace, three ways to inspect it" [level=1]
+  - paragraph: Choose two observations. Then review their exact ordered trace as a watch sequence or a static sheet. The reference and all candidate worlds are public.
+  - generic: G9-MATCHED-003 · g9-15c3bf973fe0c6cd · fixture G9-MATCHED-OBSERVATIONS-01 · context 955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9
+- main:
+  - region "Shared task and model":
+    - heading "Shared task and model" [level=2]
+    - paragraph: Inspect which worlds remain compatible with the selected raw observations. The property is the ordered signs of (w,v). This is a public software demonstration, not a hidden-world test.
+    - paragraph: Every candidate and the fixed reference world are public. Compatibility below uses selected query records only.
+    - paragraph: Start with one projection. Choose exactly two more observations; a repeat consumes a choice without adding unique information.
+    - paragraph: Each query acts on the original source. The two turns are separate observations; no combined turn is available.
+    - paragraph: Watch preserves the sealed choice order and repeats. Static shows the same three occurrence cards together.
+    - paragraph: Information parity is checked only at completed routes. Timing, agency, memory demand and pixels are not assumed equal.
+    - heading "Public source family" [level=3]
+    - table:
+      - rowgroup:
+        - row "World x y z w v sign(w,v)":
+          - columnheader "World"
+          - columnheader "x"
+          - columnheader "y"
+          - columnheader "z"
+          - columnheader "w"
+          - columnheader "v"
+          - columnheader "sign(w,v)"
+      - rowgroup:
+        - row "C02-W01 1/2 -1/2 0 -1 -1 (-1, -1)":
+          - cell "C02-W01"
+          - cell "1/2"
+          - cell "-1/2"
+          - cell "0"
+          - cell "-1"
+          - cell "-1"
+          - cell "(-1, -1)"
+        - row "C02-W02 1/2 -1/2 0 -1 1 (-1, 1)":
+          - cell "C02-W02"
+          - cell "1/2"
+          - cell "-1/2"
+          - cell "0"
+          - cell "-1"
+          - cell "1"
+          - cell "(-1, 1)"
+        - row "C02-W03 1/2 -1/2 0 1 -1 (1, -1)":
+          - cell "C02-W03"
+          - cell "1/2"
+          - cell "-1/2"
+          - cell "0"
+          - cell "1"
+          - cell "-1"
+          - cell "(1, -1)"
+        - row "C02-W04 1/2 -1/2 0 1 1 (1, 1)":
+          - cell "C02-W04"
+          - cell "1/2"
+          - cell "-1/2"
+          - cell "0"
+          - cell "1"
+          - cell "1"
+          - cell "(1, 1)"
+    - heading "Available observations" [level=3]
+    - paragraph: "project: Observe original xyz projection again; (x,y,z)"
+    - paragraph: "xw90: Observe known x-w quarter-turn; (-w,y,z)"
+    - paragraph: "yv90: Observe known y-v quarter-turn; (x,-v,z)"
+    - paragraph:
+      - text: "Every query acts on the original 5D source, with known correspondence P. Reference:"
+      - strong: C02-W02
+      - text: .
+    - button "Open shared worked practice"
+  - region "Route controls":
+    - heading "Route controls" [level=2]
+    - button "New choice"
+    - button "Review choose" [disabled]
+    - button "Review watch" [disabled]
+    - button "Review static" [disabled]
+    - paragraph:
+      - text: "Sealed trace registry:"
+      - combobox "Select sealed trace" [disabled]
+    - button "Observe original xyz projection again"
+    - button "Observe known x-w quarter-turn"
+    - button "Observe known y-v quarter-turn"
+    - button "Play presentation" [disabled]
+    - button "Pause presentation" [disabled]
+    - button "Restart presentation" [disabled]
+    - button "Previous observation" [disabled]
+    - button "Next observation" [disabled]
+    - button "Finish sheet review" [disabled]
+    - button "Play saved tour"
+    - button "Pause saved tour" [disabled]
+    - button "Previous checkpoint"
+    - button "Next checkpoint"
+    - button "Reopen saved start"
+    - button "Checkpoint 0 s"
+    - button "Checkpoint 2 s"
+    - button "Checkpoint 4 s"
+    - button "Checkpoint 6 s"
+    - button "Checkpoint 8 s"
+    - button "Checkpoint 10 s"
+    - button "Checkpoint 12 s"
+    - button "Checkpoint 14 s"
+    - button "Checkpoint 20 s"
+    - button "Checkpoint 24 s"
+  - region "Observation":
+    - heading "Observation" [level=2]
+    - status: Mode saved-tour · choose / draft · 0/2 choices · local 0.0 s · tour 0.0 s · standard-playback · acquired 1/3 · trace draft
+    - article:
+      - heading "Observation 1 · project" [level=3]
+      - img "Point P projected at x 0.50, y -0.50, z 0.00":
+        - generic: x
+        - generic: "y"
+        - generic: z
+        - generic: P
+      - paragraph: Exact P = (1/2, -1/2, 0)
+      - paragraph: Display = (0.50, -0.50, 0.00)
+    - generic: "Acquired occurrence history: 1. project"
+  - region "Evidence and inspector":
+    - heading "Evidence and inspector" [level=2]
+    - paragraph: Completed route exports include the actual sealed trace, its accepted choice-event references, and the current route result. The inspector shows only acquired observation outputs until the watch completes. Event-log export is unavailable during an unfinished watch because earlier choice records name later queries.
+    - button "Export completed route" [disabled]
+    - button "Export event log"
+    - heading "Export output" [level=3]
+    - heading "Live inspector JSON" [level=3]
+    - generic: "{ \"schema\": \"gate9-browser-inspector-v1\", \"runId\": \"G9-MATCHED-003\", \"buildId\": \"g9-15c3bf973fe0c6cd\", \"sessionId\": \"03529587-8d64-43c3-ad54-a25e5af04c3a\", \"fixtureId\": \"G9-MATCHED-OBSERVATIONS-01\", \"contextHash\": \"955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9\", \"commonContext\": { \"caseId\": \"G9-C01\", \"title\": \"Two hidden signs, one chosen trace\", \"taskText\": \"Inspect which worlds remain compatible with the selected raw observations. The property is the ordered signs of (w,v). This is a public software demonstration, not a hidden-world test.\", \"sourceKind\": \"point5\", \"worlds\": [ { \"id\": \"C02-W01\", \"source\": [ \"1/2\", \"-1/2\", \"0\", \"-1\", \"-1\" ], \"propertyValue\": [ -1, -1 ] }, { \"id\": \"C02-W02\", \"source\": [ \"1/2\", \"-1/2\", \"0\", \"-1\", \"1\" ], \"propertyValue\": [ -1, 1 ] }, { \"id\": \"C02-W03\", \"source\": [ \"1/2\", \"-1/2\", \"0\", \"1\", \"-1\" ], \"propertyValue\": [ 1, -1 ] }, { \"id\": \"C02-W04\", \"source\": [ \"1/2\", \"-1/2\", \"0\", \"1\", \"1\" ], \"propertyValue\": [ 1, 1 ] } ], \"referenceWorldId\": \"C02-W02\", \"propertyDefinition\": \"Ordered signs of (w,v)\", \"queries\": [ { \"id\": \"project\", \"label\": \"Observe original xyz projection again\", \"formula\": \"(x,y,z)\" }, { \"id\": \"xw90\", \"label\": \"Observe known x-w quarter-turn\", \"formula\": \"(-w,y,z)\" }, { \"id\": \"yv90\", \"label\": \"Observe known y-v quarter-turn\", \"formula\": \"(x,-v,z)\" } ], \"instructions\": [ \"Every candidate and the fixed reference world are public. Compatibility below uses selected query records only.\", \"Start with one projection. Choose exactly two more observations; a repeat consumes a choice without adding unique information.\", \"Each query acts on the original source. The two turns are separate observations; no combined turn is available.\", \"Watch preserves the sealed choice order and repeats. Static shows the same three occurrence cards together.\", \"Information parity is checked only at completed routes. Timing, agency, memory demand and pixels are not assumed equal.\" ], \"practice\": { \"id\": \"G9-P01\", \"title\": \"Shared worked practice: one different 4D point\", \"source\": [ \"0\", \"1/2\", \"0\", \"2\" ], \"project\": { \"kind\": \"point\", \"pointId\": \"Practice-P\", \"xyz\": [ \"0\", \"1/2\", \"0\" ] }, \"repeatProject\": { \"kind\": \"point\", \"pointId\": \"Practice-P\", \"xyz\": [ \"0\", \"1/2\", \"0\" ] }, \"xw90\": { \"kind\": \"point\", \"pointId\": \"Practice-P\", \"xyz\": [ \"-2\", \"1/2\", \"0\" ] }, \"explanation\": \"Dropping w hides its value. Repeating that projection preserves the record. A known x-w quarter-turn supplies x-prime=-w=-2. This different worked point is common teaching, not an additional observation of the benchmark reference.\", \"defaultOpen\": false, \"scored\": false }, \"rendering\": { \"yawDegrees\": 0, \"pitchDegrees\": 20, \"scaleCssPxPerUnit\": 80, \"cardDrawingWidthCssPx\": 280, \"cardDrawingHeightCssPx\": 200, \"roundedLabelDigits\": 2, \"negativeZeroLabel\": \"0.00\", \"rawExactValuesVisible\": true } }, \"state\": { \"mode\": \"saved-tour\", \"condition\": \"choose\", \"phase\": \"draft\", \"tourPaused\": true, \"presentationPaused\": true, \"tourSeconds\": 0, \"localSeconds\": 0, \"choices\": [], \"draftOccurrences\": [ { \"index\": 0, \"queryId\": \"project\", \"observation\": { \"kind\": \"point\", \"pointId\": \"P\", \"xyz\": [ \"1/2\", \"-1/2\", \"0\" ] } } ], \"acquiredOccurrenceIndices\": [ 0 ], \"trace\": null, \"traceHash\": null, \"visibleOccurrenceIndices\": [ 0 ], \"completedSummary\": null, \"reviewStatus\": \"standard-playback\", \"practiceOpen\": false, \"traceWithheld\": false }, \"traceHash\": null, \"provenance\": \"scripted_demonstration\", \"visibleOccurrences\": [ { \"index\": 0, \"queryId\": \"project\", \"observation\": { \"kind\": \"point\", \"pointId\": \"P\", \"xyz\": [ \"1/2\", \"-1/2\", \"0\" ] } } ], \"acquiredOccurrences\": [ { \"index\": 0, \"queryId\": \"project\", \"observation\": { \"kind\": \"point\", \"pointId\": \"P\", \"xyz\": [ \"1/2\", \"-1/2\", \"0\" ] } } ], \"acquiredInformationHash\": \"432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9\", \"informationHash\": null, \"completedSummary\": null, \"endpointComparisonEligible\": false, \"semanticFingerprint\": \"37aee3a2192307671746b0d576e4996d54024e0f80781d9f9a8f289f85220e47\", \"eventCount\": 0, \"lastEvent\": null, \"viewport\": { \"innerWidth\": 1279, \"innerHeight\": 904, \"scrollX\": 0, \"scrollY\": 0, \"documentWidth\": 1279, \"documentHeight\": 2547, \"cards\": [ { \"index\": 0, \"queryId\": \"project\", \"width\": 302, \"height\": 310.875, \"svgWidth\": 280, \"svgHeight\": 200 } ] } }"
+  - link "Gate 9 review":
+    - /url: /review/results.html
+  - text: ·
+  - link "Gate 8 historical replay":
+    - /url: http://127.0.0.1:44001/
+  - text: · Zero human participants; human effects untested.

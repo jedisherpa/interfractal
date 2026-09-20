@@ -1,0 +1,11 @@
+{
+  "schema": "gate11-candidate002-paused-publication-race-recheck-v1",
+  "status": "PASS_FIXED",
+  "expectedReceiverAfterControl": "R_RELEASE",
+  "actualPublishedReceiverAfterSettling": "R_RELEASE",
+  "initialSnapshotRevision": 1,
+  "finalSnapshotRevision": 3,
+  "trigger": "receiver control starts delayed hash; immediate paused scroll requests metadata refresh",
+  "softwareControlledDomOnly": true,
+  "browserObservation": false
+}

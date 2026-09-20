@@ -1,0 +1,495 @@
+{
+  "schemaVersion": "materials-world/1",
+  "worldId": "TILE18-v1",
+  "cutoffTick": 10,
+  "statusSemantics": {
+    "supported": [
+      true,
+      false
+    ],
+    "refuted": [
+      false,
+      true
+    ],
+    "conflicted": [
+      true,
+      true
+    ],
+    "unknown": [
+      false,
+      false
+    ]
+  },
+  "rules": [
+    {
+      "id": "R01",
+      "text": "Evaluate only supplied, uniquely identified source claims with occurredTick <= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent."
+    },
+    {
+      "id": "R02",
+      "text": "The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted."
+    },
+    {
+      "id": "R03",
+      "text": "A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown."
+    },
+    {
+      "id": "R04",
+      "text": "Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority."
+    },
+    {
+      "id": "R05",
+      "text": "Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources."
+    },
+    {
+      "id": "R06",
+      "text": "Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor."
+    },
+    {
+      "id": "R07",
+      "text": "For each plan, physical is AND of known capacity >= required quantity; demand is output >= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible."
+    },
+    {
+      "id": "R08",
+      "text": "Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity."
+    },
+    {
+      "id": "R09",
+      "text": "Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration."
+    },
+    {
+      "id": "R10",
+      "text": "Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies."
+    }
+  ],
+  "entities": {
+    "actors": [
+      {
+        "id": "ARA",
+        "kind": "fictional_actor"
+      },
+      {
+        "id": "BEA",
+        "kind": "fictional_actor"
+      },
+      {
+        "id": "CY",
+        "kind": "fictional_actor"
+      },
+      {
+        "id": "DEV",
+        "kind": "fictional_actor"
+      }
+    ],
+    "resources": [
+      {
+        "id": "press",
+        "owner": "ARA"
+      },
+      {
+        "id": "cart",
+        "owner": "BEA"
+      },
+      {
+        "id": "varnish",
+        "owner": "CY"
+      }
+    ]
+  },
+  "plans": [
+    {
+      "id": "P8",
+      "version": 1,
+      "output": 8,
+      "cost": 4,
+      "requires": [
+        {
+          "actor": "ARA",
+          "resource": "press",
+          "quantity": 4
+        },
+        {
+          "actor": "BEA",
+          "resource": "cart",
+          "quantity": 1
+        }
+      ],
+      "inspectionRequired": false
+    },
+    {
+      "id": "P12",
+      "version": 1,
+      "output": 12,
+      "cost": 7,
+      "requires": [
+        {
+          "actor": "ARA",
+          "resource": "press",
+          "quantity": 6
+        },
+        {
+          "actor": "BEA",
+          "resource": "cart",
+          "quantity": 2
+        }
+      ],
+      "inspectionRequired": false
+    },
+    {
+      "id": "P10",
+      "version": 1,
+      "output": 10,
+      "cost": 6,
+      "requires": [
+        {
+          "actor": "ARA",
+          "resource": "press",
+          "quantity": 5
+        },
+        {
+          "actor": "BEA",
+          "resource": "cart",
+          "quantity": 1
+        },
+        {
+          "actor": "CY",
+          "resource": "varnish",
+          "quantity": 1
+        }
+      ],
+      "inspectionRequired": true
+    }
+  ],
+  "commonFieldBoundary": "rules/statusSemantics duplicate C01; entities/plans duplicate C02. No other card facts may be copied into common fields.",
+  "cards": [
+    {
+      "id": "C01",
+      "version": 1,
+      "occurredTick": 0,
+      "recordedTick": 0,
+      "kind": "shared_anchor",
+      "title": "Evaluation rules",
+      "surfaceText": "This card contains the common finite-world evaluation rules and status semantics.",
+      "claims": [],
+      "provenance": "Author-created fictional material; no human statement or observed outcome.",
+      "rules": [
+        {
+          "id": "R01",
+          "text": "Evaluate only supplied, uniquely identified source claims with occurredTick <= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent."
+        },
+        {
+          "id": "R02",
+          "text": "The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted."
+        },
+        {
+          "id": "R03",
+          "text": "A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown."
+        },
+        {
+          "id": "R04",
+          "text": "Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority."
+        },
+        {
+          "id": "R05",
+          "text": "Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources."
+        },
+        {
+          "id": "R06",
+          "text": "Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor."
+        },
+        {
+          "id": "R07",
+          "text": "For each plan, physical is AND of known capacity >= required quantity; demand is output >= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible."
+        },
+        {
+          "id": "R08",
+          "text": "Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity."
+        },
+        {
+          "id": "R09",
+          "text": "Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration."
+        },
+        {
+          "id": "R10",
+          "text": "Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies."
+        }
+      ],
+      "statusSemantics": {
+        "supported": [
+          true,
+          false
+        ],
+        "refuted": [
+          false,
+          true
+        ],
+        "conflicted": [
+          true,
+          true
+        ],
+        "unknown": [
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "version": 1,
+      "occurredTick": 1,
+      "recordedTick": 1,
+      "kind": "shared_anchor",
+      "title": "Tile dispatch catalog",
+      "surfaceText": "Choose one plan. Initial demand is 8 tiles. Plan P8 produces 8 for cost 4; P12 produces 12 for cost 7; P10 produces 10 for cost 6. Exact dependencies are in the catalog.",
+      "claims": [
+        {
+          "id": "F-C02-1",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "tiles",
+            "requirementVersion": 1
+          },
+          "value": 8,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C02-1"
+        }
+      ],
+      "provenance": "Author-created fictional material; no human statement or observed outcome.",
+      "entities": {
+        "actors": [
+          {
+            "id": "ARA",
+            "kind": "fictional_actor"
+          },
+          {
+            "id": "BEA",
+            "kind": "fictional_actor"
+          },
+          {
+            "id": "CY",
+            "kind": "fictional_actor"
+          },
+          {
+            "id": "DEV",
+            "kind": "fictional_actor"
+          }
+        ],
+        "resources": [
+          {
+            "id": "press",
+            "owner": "ARA"
+          },
+          {
+            "id": "cart",
+            "owner": "BEA"
+          },
+          {
+            "id": "varnish",
+            "owner": "CY"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "P8",
+          "version": 1,
+          "output": 8,
+          "cost": 4,
+          "requires": [
+            {
+              "actor": "ARA",
+              "resource": "press",
+              "quantity": 4
+            },
+            {
+              "actor": "BEA",
+              "resource": "cart",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        },
+        {
+          "id": "P12",
+          "version": 1,
+          "output": 12,
+          "cost": 7,
+          "requires": [
+            {
+              "actor": "ARA",
+              "resource": "press",
+              "quantity": 6
+            },
+            {
+              "actor": "BEA",
+              "resource": "cart",
+              "quantity": 2
+            }
+          ],
+          "inspectionRequired": false
+        },
+        {
+          "id": "P10",
+          "version": 1,
+          "output": 10,
+          "cost": 6,
+          "requires": [
+            {
+              "actor": "ARA",
+              "resource": "press",
+              "quantity": 5
+            },
+            {
+              "actor": "BEA",
+              "resource": "cart",
+              "quantity": 1
+            },
+            {
+              "actor": "CY",
+              "resource": "varnish",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": true
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "version": 1,
+      "occurredTick": 2,
+      "recordedTick": 2,
+      "kind": "source_record",
+      "title": "Cart capacity",
+      "surfaceText": "Bea has 2 cart units available.",
+      "claims": [
+        {
+          "id": "F-C07-1",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "BEA",
+            "resource": "cart"
+          },
+          "value": 2,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C07-1"
+        }
+      ],
+      "provenance": "Author-created fictional material; no human statement or observed outcome."
+    },
+    {
+      "id": "C08",
+      "version": 1,
+      "occurredTick": 3,
+      "recordedTick": 3,
+      "kind": "source_record",
+      "title": "P12 cart grant",
+      "surfaceText": "Bea understands and endorses P12 version 1 and commits 2 cart units to it.",
+      "claims": [
+        {
+          "id": "F-C08-1",
+          "predicate": "understands",
+          "arguments": {
+            "actor": "BEA",
+            "plan": "P12",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C08-1"
+        },
+        {
+          "id": "F-C08-2",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "BEA",
+            "plan": "P12",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C08-2"
+        },
+        {
+          "id": "F-C08-3",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "BEA",
+            "plan": "P12",
+            "planVersion": 1,
+            "resource": "cart",
+            "quantity": 2
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C08-3"
+        }
+      ],
+      "provenance": "Author-created fictional material; no human statement or observed outcome."
+    },
+    {
+      "id": "C09",
+      "version": 1,
+      "occurredTick": 3,
+      "recordedTick": 3,
+      "kind": "source_record",
+      "title": "P8 cart grant",
+      "surfaceText": "Bea endorses P8 version 1 and commits 1 cart unit to it as an alternative.",
+      "claims": [
+        {
+          "id": "F-C09-1",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "BEA",
+            "plan": "P8",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C09-1"
+        },
+        {
+          "id": "F-C09-2",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "BEA",
+            "plan": "P8",
+            "planVersion": 1,
+            "resource": "cart",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C09-2"
+        }
+      ],
+      "provenance": "Author-created fictional material; no human statement or observed outcome."
+    },
+    {
+      "id": "C10",
+      "version": 1,
+      "occurredTick": 4,
+      "recordedTick": 4,
+      "kind": "source_record",
+      "title": "P10 cart refusal",
+      "surfaceText": "Bea declines a commitment of 1 cart unit to P10 version 1.",
+      "claims": [
+        {
+          "id": "F-C10-1",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "BEA",
+            "plan": "P10",
+            "planVersion": 1,
+            "resource": "cart",
+            "quantity": 1
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "F-C10-1"
+        }
+      ],
+      "provenance": "Author-created fictional material; no human statement or observed outcome."
+    }
+  ]
+}

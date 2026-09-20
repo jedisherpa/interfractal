@@ -1,0 +1,31 @@
+{
+  "frozen_at_utc": "2026-09-19T22:43:00.494351+00:00",
+  "purpose": "Preserve independent first passes before cross-review; later revisions are separate documents.",
+  "files": [
+    {
+      "path": "reviews/R1_COGNITION.md",
+      "sha256": "3e64d97b2d243ffa949c2776767d7df957861d96eb4e9efea72c76f10b29fbde",
+      "bytes": 19846
+    },
+    {
+      "path": "reviews/R1_COORDINATION_POWER.md",
+      "sha256": "e2393849fcea0f71a992154fd096517f2d48afe28f8a6aabbe2f14e9f36879eb",
+      "bytes": 17878
+    },
+    {
+      "path": "reviews/R1_MATHEMATICS.md",
+      "sha256": "6906e51702f3bbf0f80541326c4fb3580876520a5ab48035afee94ab2dd6c533",
+      "bytes": 16631
+    },
+    {
+      "path": "reviews/R1_STUDY_DESIGN.md",
+      "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+      "bytes": 18094
+    },
+    {
+      "path": "reviews/R1_VISUALIZER_ENGINEERING.md",
+      "sha256": "ae9b6b4b9718dd5f095386c3cadeeb22230c1ff365490b5ee5a2d219bbed790d",
+      "bytes": 17936
+    }
+  ]
+}

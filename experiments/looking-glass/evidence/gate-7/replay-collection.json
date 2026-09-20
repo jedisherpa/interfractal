@@ -1,0 +1,96 @@
+{
+  "recordedAtUtc": "2026-09-20T07:06:55.625114+00:00",
+  "status": "Final eight-gate collection; Gate 7 independent audit passed for the synthetic instrument. No human results or further scope.",
+  "hosting": "Loopback-only on this Mac; restart exact snapshot if a server expires.",
+  "entries": [
+    {
+      "gate": 0,
+      "title": "Viewing and replay",
+      "runId": "G0-CUBE-005",
+      "buildId": "g0-d85237ad31362768",
+      "url": "http://127.0.0.1:43991/",
+      "resultsUrl": "http://127.0.0.1:43991/evidence/gate-0/results.html",
+      "packetPath": "evidence/gate-0/GATE_0_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/probe/builds/g0-d85237ad31362768/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 1,
+      "title": "3D-to-2D calibration",
+      "runId": "G1-CUBE-003",
+      "buildId": "g1-9dce1c2b9c2b3be4",
+      "url": "http://127.0.0.1:43994/",
+      "resultsUrl": "http://127.0.0.1:43994/evidence/gate-1/results.html",
+      "packetPath": "evidence/gate-1/GATE_1_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/calibration/builds/g1-9dce1c2b9c2b3be4/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 2,
+      "title": "Hopf and shared reference",
+      "runId": "G2-HOPF-003",
+      "buildId": "g2-ccabad12693f86a8",
+      "url": "http://127.0.0.1:43995/",
+      "resultsUrl": "http://127.0.0.1:43995/evidence/gate-2/results.html",
+      "packetPath": "evidence/gate-2/GATE_2_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/correspondence/builds/g2-ccabad12693f86a8/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 3,
+      "title": "4D projection",
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460",
+      "url": "http://127.0.0.1:43996/",
+      "resultsUrl": "http://127.0.0.1:43996/evidence/gate-3/results.html",
+      "packetPath": "evidence/gate-3/GATE_3_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/hypercube/builds/g3-6c31bc16aeca4460/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 4,
+      "title": "Slices and ambiguity",
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6",
+      "url": "http://127.0.0.1:43997/",
+      "resultsUrl": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+      "packetPath": "evidence/gate-4/GATE_4_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/slices/builds/g4-38777d5882ef08a6/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 5,
+      "title": "Two additional coordinates in 5D",
+      "runId": "G5-PENTERACT-001",
+      "buildId": "g5-0bdee39bcd7dd541",
+      "url": "http://127.0.0.1:43998/",
+      "resultsUrl": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+      "packetPath": "evidence/gate-5/GATE_5_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/five-dimensional/builds/g5-0bdee39bcd7dd541/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 6,
+      "title": "Connected local models",
+      "runId": "G6-LOCAL-003",
+      "buildId": "g6-0279cdcdc0adc9b0",
+      "url": "http://127.0.0.1:43999/",
+      "resultsUrl": "http://127.0.0.1:43999/evidence/gate-6/results.html",
+      "packetPath": "evidence/gate-6/GATE_6_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/local-models/builds/g6-0279cdcdc0adc9b0/server.mjs",
+      "scope": "Preserved historical instrument; actual browser review in Gate 7 is separately recorded."
+    },
+    {
+      "gate": 7,
+      "title": "Unfamiliar-case interpretation and the bounded conclusion",
+      "runId": "G7-INTERPRET-002",
+      "buildId": "g7-90e64952eb028069",
+      "url": "http://127.0.0.1:44000/",
+      "resultsUrl": "http://127.0.0.1:44000/review/results.html",
+      "packetPath": "evidence/gate-7/GATE_7_PACKET.md",
+      "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs",
+      "scope": "Eight synthetic interpretation cases. Software checks only; no human results."
+    }
+  ],
+  "finalizedAtUtc": "2026-09-20T07:15:36.335375+00:00"
+}

@@ -1,0 +1,112 @@
+{
+  "accessed_date": "2026-09-19",
+  "timezone": "America/Denver",
+  "scope": "Gate 0 source inspection and primary reference gathering only",
+  "execution_policy": "No upstream application code was executed or modified; no external paid service or publishing action was used.",
+  "repositories": [
+    {
+      "name": "interfractal",
+      "url": "https://github.com/jedisherpa/interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "revision_type": "commit",
+      "checkout": "experiments/looking-glass/research/sources/interfractal",
+      "commit_date": "2026-09-18T06:02:50-06:00",
+      "commit_subject": "feat(funnel): chamber cell — hide table extras, carry the goal",
+      "inspected_files": [
+        {
+          "path": "src/components/instrument/room-scene.tsx",
+          "blob": "1bff3b825ca683319554a3e8ff4f48463a93cc78",
+          "facts": ["Three.js/R3F scene; sampled stereographic fiber tubes; clipped upper/lower copies; animated camera/orbit; cube, nested shells, tetrahedral edges, and world-stage effects."],
+          "interpretation": "Useful visual reference, but coupled camera/model animation and narrative effects make it unsuitable for first fixed calibration without an isolated mode."
+        },
+        {
+          "path": "src/components/instrument/first-page.tsx",
+          "blob": "a67d8dd351ac255df8026ef76a8946be8d298c0d",
+          "facts": ["Light/Whole entry; Skip intro; Reduce motion; gate stage controls; accessible text states pressing is not a Yes."],
+          "interpretation": "Useful boundary language and accessibility pattern; stage gate is not an experiment control or consent mechanism."
+        },
+        {
+          "path": "src/lib/instrument/cosmology.ts",
+          "blob": "27de47c21deefda56656c2efb31f1843d85e1664",
+          "facts": ["Defines five world IDs, four stage entries, eight wellness IDs mapped to cube vertices, nested shell radii, and intro timing."],
+          "interpretation": "Demonstrates why object/world/lens counts must remain separate fields."
+        },
+        {
+          "path": "src/workshop/hopf.ts",
+          "blob": "6bd213b7a513065205502b84e840d0e14c42b972",
+          "facts": ["Complex-pair state, normalized Hopf map, common-phase gauge, stereographic map with pole error, local sections, horizontal transport, holonomy, sampled fibers, linking quadrature, and a separate protocol reducer."],
+          "interpretation": "Candidate kernel for later Hopf checks; preserve explicit convention and keep protocol semantics outside geometry."
+        },
+        {
+          "path": "src/lib/hopf.ts",
+          "blob": "b9b8b05eed9f51b5e568780b2abc4ca401728ce8",
+          "facts": ["Additional UI-facing Hopf helpers, tetrahedron metadata, fiber-safe sampling, and intention-bead target coordinates."],
+          "interpretation": "Shows an existing semantic overlay seam, but bead targets are application design choices rather than mathematical consequences."
+        }
+      ],
+      "provenance_gap": "src/workshop/hopf.ts header names hopf-workshop main dd0ab5ea42e34fb53ebee461f7fc6831d6415205; that is not the hopf-workshop revision pinned in this review."
+    },
+    {
+      "name": "hopf-workshop",
+      "url": "https://github.com/jedisherpa/hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "revision_type": "commit",
+      "checkout": "experiments/looking-glass/research/sources/hopf-workshop",
+      "commit_date": "2026-09-18T18:57:13-06:00",
+      "commit_subject": "merge: port Intention Abacus 3D table onto main workshop canvases",
+      "inspected_files": [
+        {"path": "hopf.js", "blob": "f8988a6c31683c312d3ceb4063d536b977f79139", "facts": ["Browser/Node JavaScript Hopf and protocol port."], "interpretation": "Useful for a browser math kernel after independent contract review."},
+        {"path": "hopf_model.py", "blob": "a0028a29d7e1118c730848180a3d7a129e20b16c", "facts": ["Normative stdlib Python implementation; geometry/protocol distinction; Hopf, stereographic, holonomy, linking, versioned consent and repair."], "interpretation": "Readable independent reference, not proof of human or governance topology."},
+        {"path": "visualizer_geometry.js", "blob": "7ebb5832bca12f605774f73639701cb86d9750bd", "facts": ["Canvas 2D yaw/pitch projection, depth sorting, tetrahedron solid, sampled intention beads, explicit geometry-is-not-permission header."], "interpretation": "Potential fallback rendering pattern for a future stage."},
+        {"path": "visualizer.js", "blob": "ef2bfd6b0a497971eb312558f235906f8e5208cb", "facts": ["Projects versioned workshop/rehearsal state into inspectable views and event records."], "interpretation": "Useful separation of view from protocol state; not the Looking Glass run contract."},
+        {"path": "abacus_model.js", "blob": "889cc7aa517cc02e4be0efc84827cb79b765dd4b", "facts": ["8-component state; weighted parser/memory/agreement contributions; base/fiber deltas; identity/authority/oscillation invariants and thresholds."], "interpretation": "Candidate attention model only; thresholds and hashed text projections are unvalidated design choices."},
+        {"path": "README.md", "blob": "afab2802fb68ebea96aa4b550a2cf252567ab503", "facts": ["Separates exact geometry, coordination protocol, and contemplative interpretation; documents nonclaims, Hopf formulas, cones/tori, holonomy, and proposed tests."], "interpretation": "Supports the Looking Glass distinction between fidelity, recovery, and human understanding."},
+        {"path": "INTEGRATION.md", "facts": ["Separates geometry, sequencing, permission, and institutional authority; labels rehearsal as simulated."], "interpretation": "Useful guardrail against mapping topology directly to authority."},
+        {"path": "VERIFICATION.md", "facts": ["Reports upstream numerical, protocol, and browser checks and explicit nonclaims."], "interpretation": "Upstream report only; not independently rerun for this Gate 0 review."}
+      ]
+    }
+  ],
+  "primary_references": [
+    {
+      "title": "Dimensions, chapters 3 and 4: The fourth dimension",
+      "url": "https://www.dimensions-math.org/Dim_CH3_E.htm",
+      "accessed_date": "2026-09-19",
+      "facts": ["Describes 4D points as four coordinates; gives tesseract counts 16 vertices, 32 edges, 24 squares, 8 cubes; contrasts moving 3D sections and 3D shadows; describes 4D stereographic projection and the projection-pole blow-up."],
+      "use": "Primary design reference for separate shadow, slice, and stereographic experiments."
+    },
+    {
+      "title": "Niles Johnson, A visualization of the Hopf fibration",
+      "url": "https://nilesjohnson.net/hopf.html",
+      "accessed_date": "2026-09-19",
+      "facts": ["Describes circles over S2 points, pairwise linked fibers, latitude tori, two solid tori joined at an equatorial torus, and the apparent line/circle through infinity."],
+      "use": "Primary visual and explanatory reference for sampled fibers, links, and pole handling."
+    },
+    {
+      "title": "David W. Lyons, An Elementary Introduction to the Hopf Fibration",
+      "url": "https://nilesjohnson.net/hopf-articles/Lyons_Elem-intro-Hopf-fibration.pdf",
+      "accessed_date": "2026-09-19",
+      "facts": ["Defines a Hopf map S3 to S2; gives a stereographic map S3 minus one point to R3; explains circle fibers, exceptional line at the projection point, and linked projected fibers."],
+      "use": "Primary derivation reference; record coordinate/sign convention when implementing the complex-pair form."
+    }
+  ],
+  "live_deployment": {
+    "url": "https://interfractal-3.vercel.app",
+    "accessed_date": "2026-09-19",
+    "method": "Direct HTTPS HTML fetch; runtime visual/browser probe separately performed by root orchestrator.",
+    "html_facts": ["Interfractal title and hashed asset bundles; SSR instrument app at pulse phase; Light/Whole entry; Skip intro; Reduce motion; pressing does not sign a Yes."],
+    "runtime_observation": "Root reports user-visible probe after Skip intro showed dense translucent multicolored geometry and no WebGL-create error, with only a THREE.Clock deprecation warning.",
+    "revision_status": "Deployment HTML does not expose a source commit; no source revision inferred."
+  },
+  "research_gaps": [
+    "No independent upstream execution or test rerun in Gate 0.",
+    "No source-to-deployment commit association for the live Vercel page.",
+    "No deterministic run/replay library or immutable evidence contract in inspected sources.",
+    "No evidence that semantic abacus state or thresholds improve human understanding or coordination.",
+    "Finite sampled fibers and stereographic clipping require an explicit pole/infinity policy."
+  ],
+  "companion_decision": {
+    "choice": "isolated_companion_preferred",
+    "reason": "Interfractal couples camera motion, source-like spins, staged bloom, clipping, nested shells, and narrative state; a small companion can freeze the model and display-camera variables and record deterministic replay while reusing proven visual and nonclaim patterns.",
+    "future_scope": "Gate 0 ordinary cube probe only; 4D/5D hypercubes, solid-ball slices, Hopf correspondence, and candidate shared-reference mapping wait for later approved gates."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "kind": "synthetic fixture key consistency",
+  "states": [
+    {
+      "state": "S1",
+      "physical_plans": [
+        "bridge|compact|long",
+        "orchard|compact|long"
+      ],
+      "can_act": true
+    },
+    {
+      "state": "S2",
+      "physical_plans": [
+        "bridge|compact|long"
+      ],
+      "can_act": false
+    },
+    {
+      "state": "S3",
+      "physical_plans": [
+        "bridge|compact|long"
+      ],
+      "can_act": false
+    },
+    {
+      "state": "S4",
+      "physical_plans": [
+        "bridge|compact|long"
+      ],
+      "can_act": true
+    }
+  ],
+  "candidate_plans_checked": 32,
+  "compression_counterexample": "S3 and S4 share route/count but require different action readiness.",
+  "not_tested": [
+    "deployed software",
+    "visualizer rendering",
+    "human understanding",
+    "collective capability advantage"
+  ]
+}

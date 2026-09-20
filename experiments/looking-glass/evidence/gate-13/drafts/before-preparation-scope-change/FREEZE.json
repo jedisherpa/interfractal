@@ -1,0 +1,106 @@
+{
+  "recordedAtUtc": "2026-09-20T20:46:13.582596+00:00",
+  "reason": "Preserve synthesis and first report inspection made before the actual user narrowed completion to preparation. This is superseded presentation, not a changed software result.",
+  "files": [
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/GATE_13_PACKET.md",
+      "sha256": "546697f4e994c0602e719e54363634c81299d2abc2b1610f80171e70136b22cd",
+      "bytes": 11451
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/presentation/console.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/presentation/observations.json",
+      "sha256": "dc45a6dcf50b441515c546465f5c2d42c34fe97a8c15bdf91400befa1b2d2e06",
+      "bytes": 89862
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/presentation/screenshots/results-next-decision.jpg",
+      "sha256": "e2c6efe71af3178b9fb989c0581208a3cba8a93a23ad51b4ebdbb46927ad2116",
+      "bytes": 93755
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/presentation/screenshots/results-original-chart.jpg",
+      "sha256": "01be7726fe1dcb013168e52fab1d0cb18324bf8e5cfc5cda843815b81b283a66",
+      "bytes": 71746
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/presentation/screenshots/results-top.jpg",
+      "sha256": "34590641f1a19fcf3a79e6007fd8f0ad644635d0be8dd77dc01f40165c642d11",
+      "bytes": 80381
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/presentation/screenshots.json",
+      "sha256": "fed2dc730884e00c742b33b6f149155db55194fcab9811d8819f31b4559ef8a7",
+      "bytes": 1026
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/program-requirements-and-status.md",
+      "sha256": "167e547151eb8685e616da41b6a5bcdb102c392b1aca3c7a215a17aea6332c18",
+      "bytes": 8810
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/results.html",
+      "sha256": "9e5063498e03ba880bc2aac360ec3aab5b1c00cafa0c9e307a235cb7fee9b9cc",
+      "bytes": 11888
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/review-http-checks.json",
+      "sha256": "a68f19162142dd65e737b3c9fd088f1ec12a3d451f656e0ed35504dd67ab1082",
+      "bytes": 1084
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/run-evidence.json",
+      "sha256": "edacb019098309f98419342fae95286cb244d7695355f0861b8177012c92562b",
+      "bytes": 43591
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/allowlist.json",
+      "sha256": "4f58658c81cda692722361e02f1355d55c86d6dd1e8beded73ed08ea21493a5f",
+      "bytes": 1709
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/images/corrected-count-comparison.jpg",
+      "sha256": "fad9a56e63fd435bd80254dcbdfbff4d126c011452823d243964e0503bb8d7bb",
+      "bytes": 68154
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/images/misleading-original-retained.jpg",
+      "sha256": "846e5b53e3b0a5e8fa5de938a24e3729f02e65c0e0f08f21368b7a5ef05ece5c",
+      "bytes": 65377
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/images/plain-correction-and-debrief.jpg",
+      "sha256": "0eff48280c03ce73cc675a783b2dd90d284fb2d457bf2b69db39c6e9b14d2c35",
+      "bytes": 111005
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/images/true-control-check.jpg",
+      "sha256": "ed1d24713a312dde9968be6ec941d0a914ee493ecd5eecacd074a9d45d7f2af9",
+      "bytes": 64310
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/images/zero-control-plain-debrief.jpg",
+      "sha256": "f4ba06127e8ab761cac165223a222b7a55f3a007b357200f49afcaae951ddd3e",
+      "bytes": 128324
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/replay-collection.json",
+      "sha256": "604ad753dc39d7a0e64f9adee2159c26b44021abd9ed19d52a14cf5b2ce312ce",
+      "bytes": 10157
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/results.html",
+      "sha256": "9e5063498e03ba880bc2aac360ec3aab5b1c00cafa0c9e307a235cb7fee9b9cc",
+      "bytes": 11888
+    },
+    {
+      "path": "evidence/gate-13/drafts/before-preparation-scope-change/served-review/source-review.md",
+      "sha256": "79c3bfae05f96e830b1025a051b6ffa6fc2ab44b8f3529df368eb5e6a26cd092",
+      "bytes": 4565
+    }
+  ]
+}

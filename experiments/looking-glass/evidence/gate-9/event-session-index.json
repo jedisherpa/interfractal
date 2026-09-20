@@ -1,0 +1,23 @@
+[
+  {
+    "sessionId": "aef6e8ae-9e24-4fa3-b509-d2df21f6c8b4",
+    "path": "evidence/gate-9/event-sessions/aef6e8ae-9e24-4fa3-b509-d2df21f6c8b4.json",
+    "observation": 273,
+    "eventCount": 132,
+    "label": "preserve session1 before reload"
+  },
+  {
+    "sessionId": "2e0f0470-7b9a-433e-8ff9-3ca828d4cc44",
+    "path": "evidence/gate-9/event-sessions/2e0f0470-7b9a-433e-8ff9-3ca828d4cc44.json",
+    "observation": 296,
+    "eventCount": 18,
+    "label": "preserve final session2 event log"
+  },
+  {
+    "sessionId": "8d4e84f0-a8e1-4a0c-8da0-b6c8b66c1248",
+    "path": "evidence/gate-9/event-sessions/8d4e84f0-a8e1-4a0c-8da0-b6c8b66c1248.json",
+    "observation": 300,
+    "eventCount": 1,
+    "label": "preserve fresh return session3"
+  }
+]

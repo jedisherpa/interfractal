@@ -1,0 +1,23 @@
+{
+  "frozen_before_browser_experiment_at_utc": "2026-09-20T00:38:14.748006+00:00",
+  "charter_version": "gate-0-charter-v1",
+  "files": [
+    {
+      "path": "docs/experiment-charter.md",
+      "sha256": "4191b47749ce11a6b63eabea5064e16cc532d5aaeda633d966d1e14d641d1226"
+    },
+    {
+      "path": "docs/record-contract.md",
+      "sha256": "7b3b7dd9c664e35043f86710226690eb62b0d0d2d29110e68e6bacc1344f1651"
+    },
+    {
+      "path": "docs/gate-sequence.md",
+      "sha256": "452dc2b3ce47d57c3a9ecc31ad22e5c4b0798206e4e8c3898915a47b415b2ec1"
+    },
+    {
+      "path": "docs/scope-and-authority.md",
+      "sha256": "9563d802a8cd7effcce81eba49b6b02fba7dba0d05fee69eddebb9593bb8fae3"
+    }
+  ],
+  "browser_experiment_started": false
+}

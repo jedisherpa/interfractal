@@ -1,0 +1,12 @@
+{
+  "simulationTimeMs": 0,
+  "taskId": "Q01",
+  "condition": "static",
+  "frameIndex": 0,
+  "answerCount": 0,
+  "revealed": false,
+  "selectedPointId": "K",
+  "frameSetSha256": "0c5cc1eadd56f69ed2d60454220b573e282b6cc61de597621241ffacea639443",
+  "informationSha256": "f335b34eebb009867ef43cfb7af45af5e80e030d77992e43daa9f3d4ff0ab1c2",
+  "checkpointSha256": "44d51bd0b936848e606828ac95e9b73c0e2b5b0a5cb688fa8bd172469c071f27"
+}

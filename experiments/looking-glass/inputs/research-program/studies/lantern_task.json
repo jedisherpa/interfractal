@@ -1,0 +1,198 @@
+{
+  "schema_version": "research-task.v2",
+  "id": "lantern-calibration-A",
+  "status": "synthetic calibration fixture; not human data",
+  "purpose": "Separate physical task feasibility, authorization under an explicit fictional rule, and readiness to act.",
+  "units": {
+    "width": "metres",
+    "duration": "minutes"
+  },
+  "common_brief": {
+    "task": "Prepare a portable lantern display for the festival. Identify all physically feasible plans. For the current proposed plan separately report physical feasibility, authorization under the stated rule, and readiness to act; explain what must change.",
+    "available_minutes": 50,
+    "required_runtime": 60,
+    "rule": "For this fictional task, all four affected participants must explicitly endorse the current proposal version, and the representative must have a matching scoped mandate. This is a task rule, not a universal governance rule.",
+    "authorization_note": "Authorization is evaluated only from the current-version endorsements and mandate. Route closure changes physical feasibility but does not itself revoke those records. Readiness requires both physical feasibility and authorization."
+  },
+  "role_cards": [
+    {
+      "actor": "A",
+      "topic": "Route",
+      "facts": "Orchard: width 1.8 m, travel 25 min. Bridge: width 1.2 m, travel 10 min. Both initially open."
+    },
+    {
+      "actor": "B",
+      "topic": "Fabrication",
+      "facts": "Large frame: width 1.6 m, setup 30 min. Compact frame: width 1.0 m, setup 15 min."
+    },
+    {
+      "actor": "C",
+      "topic": "Power",
+      "facts": "Battery short runs 45 min; battery long runs 90 min. The display must run for 60 min."
+    },
+    {
+      "actor": "D",
+      "topic": "External commitment",
+      "facts": "The group representative's v1 mandate covers the orchard route only. v1 specifies orchard, compact frame, long battery; A/B/C/D endorsed v1. A changed plan needs a new version and current endorsements."
+    }
+  ],
+  "routes": {
+    "orchard": {
+      "width": 1.8,
+      "travel": 25
+    },
+    "bridge": {
+      "width": 1.2,
+      "travel": 10
+    }
+  },
+  "frames": {
+    "large": {
+      "width": 1.6,
+      "setup": 30
+    },
+    "compact": {
+      "width": 1.0,
+      "setup": 15
+    }
+  },
+  "batteries": {
+    "short": {
+      "runtime": 45
+    },
+    "long": {
+      "runtime": 90
+    }
+  },
+  "states": [
+    {
+      "id": "S1",
+      "event": "Initial state",
+      "closed_routes": [],
+      "proposal_version": 1,
+      "proposal": {
+        "route": "orchard",
+        "frame": "compact",
+        "battery": "long"
+      },
+      "endorsement_versions": {
+        "A": 1,
+        "B": 1,
+        "C": 1,
+        "D": 1
+      },
+      "mandate": {
+        "version": 1,
+        "routes": [
+          "orchard"
+        ]
+      },
+      "expected_physical_plans": [
+        "bridge|compact|long",
+        "orchard|compact|long"
+      ],
+      "expected_proposed_plan_physically_feasible": true,
+      "expected_authorized_under_task_rule": true,
+      "expected_action_ready": true
+    },
+    {
+      "id": "S2",
+      "event": "Verified orchard closure. Existing approval remains recorded, but the physical plan no longer works.",
+      "closed_routes": [
+        "orchard"
+      ],
+      "proposal_version": 1,
+      "proposal": {
+        "route": "orchard",
+        "frame": "compact",
+        "battery": "long"
+      },
+      "endorsement_versions": {
+        "A": 1,
+        "B": 1,
+        "C": 1,
+        "D": 1
+      },
+      "mandate": {
+        "version": 1,
+        "routes": [
+          "orchard"
+        ]
+      },
+      "expected_physical_plans": [
+        "bridge|compact|long"
+      ],
+      "expected_proposed_plan_physically_feasible": false,
+      "expected_authorized_under_task_rule": true,
+      "expected_action_ready": false
+    },
+    {
+      "id": "S3",
+      "event": "v2 proposes bridge/compact/long. Representative mandate updated to v2 for bridge. A/B/C endorse v2. D has not responded to v2; their old v1 response remains in history.",
+      "closed_routes": [
+        "orchard"
+      ],
+      "proposal_version": 2,
+      "proposal": {
+        "route": "bridge",
+        "frame": "compact",
+        "battery": "long"
+      },
+      "endorsement_versions": {
+        "A": 2,
+        "B": 2,
+        "C": 2,
+        "D": 1
+      },
+      "mandate": {
+        "version": 2,
+        "routes": [
+          "bridge"
+        ]
+      },
+      "expected_physical_plans": [
+        "bridge|compact|long"
+      ],
+      "expected_proposed_plan_physically_feasible": true,
+      "expected_authorized_under_task_rule": false,
+      "expected_action_ready": false
+    },
+    {
+      "id": "S4",
+      "event": "D explicitly endorses v2. No other fact changes.",
+      "closed_routes": [
+        "orchard"
+      ],
+      "proposal_version": 2,
+      "proposal": {
+        "route": "bridge",
+        "frame": "compact",
+        "battery": "long"
+      },
+      "endorsement_versions": {
+        "A": 2,
+        "B": 2,
+        "C": 2,
+        "D": 2
+      },
+      "mandate": {
+        "version": 2,
+        "routes": [
+          "bridge"
+        ]
+      },
+      "expected_physical_plans": [
+        "bridge|compact|long"
+      ],
+      "expected_proposed_plan_physically_feasible": true,
+      "expected_authorized_under_task_rule": true,
+      "expected_action_ready": true
+    }
+  ],
+  "limits": [
+    "Physical truth in this fixture is stipulated, not measured in the world.",
+    "This is a calibration form, not a difficulty-matched bank for confirmatory human trials.",
+    "The version-and-endorsement rule is intentionally explicit and does not generalize to all organizations.",
+    "Synthetic success establishes scorer consistency only."
+  ]
+}

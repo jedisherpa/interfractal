@@ -1,0 +1,66 @@
+{
+  "schema": "looking-glass-gate-1-browser-audit-v1",
+  "generatedAtUtc": "2026-09-20T01:20:30.330Z",
+  "scope": "Independent checks of root-recorded DOM inspector states, activity log and original image files; no browser controls performed by auditor",
+  "runId": "G1-CUBE-003",
+  "buildId": "g1-9dce1c2b9c2b3be4",
+  "observationCount": 26,
+  "screenshots": [
+    "G1-CUBE-003-S0-initial.jpg",
+    "G1-CUBE-003-S1-midpoint.jpg",
+    "G1-CUBE-003-S2-camera-only.jpg",
+    "G1-CUBE-003-S3-maximum.jpg",
+    "G1-CUBE-003-S4-return.jpg",
+    "G1-CUBE-003-S5-reloaded-midpoint.jpg",
+    "G1-CUBE-003-S6-inspector.jpg"
+  ],
+  "contractLimitations": [
+    {
+      "id": "automatic-pause-origin",
+      "status": "recording-contract-deviation",
+      "requirement": "Automatic playback events are identified as such.",
+      "observed": "The t=40000 playback.pause event has no automatic/manual origin discriminator.",
+      "implication": "External root control trace and browser states support auto-stop in this trial; raw in-app activity alone cannot establish its origin."
+    }
+  ],
+  "checks": [
+    {
+      "name": "browser record provenance and all 26 inspector states self-hash",
+      "status": "pass"
+    },
+    {
+      "name": "all five browser checkpoints match saved fixture exactly",
+      "status": "pass"
+    },
+    {
+      "name": "pause holds coordinates beyond two wall seconds; step and end clamp",
+      "status": "pass"
+    },
+    {
+      "name": "camera-only intervention preserves exact geometry and changes only display view",
+      "status": "pass"
+    },
+    {
+      "name": "source-only intervention changes shadow at fixed camera and restores",
+      "status": "pass"
+    },
+    {
+      "name": "uninterrupted 40-second replay ends at saved source return",
+      "status": "pass"
+    },
+    {
+      "name": "Run Library and page reload open paused zero and reproduce midpoint",
+      "status": "pass"
+    },
+    {
+      "name": "actual activity log has ordered session events and matching intervention evidence",
+      "status": "pass"
+    },
+    {
+      "name": "capture files and console record are present with bounded provenance",
+      "status": "pass"
+    }
+  ],
+  "passed": 9,
+  "failed": 0
+}

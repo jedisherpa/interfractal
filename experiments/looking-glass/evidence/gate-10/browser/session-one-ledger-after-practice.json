@@ -1,0 +1,27 @@
+{
+  "schema": "gate10-redacted-ledger-v1",
+  "sessionId": "61ff208d-45c1-4241-9729-a1ff07778bc4",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "provenance": "source_informed_software",
+  "humanEligible": false,
+  "firstExposureHumanEligible": false,
+  "attempts": [
+    {
+      "attemptId": "5882016a-2df6-4f90-83f4-766f8eef39fc",
+      "caseId": "T01",
+      "ordinal": 1,
+      "priorReveal": false,
+      "status": "answering",
+      "provenance": "source_informed_software",
+      "firstExposureHumanEligible": false,
+      "response": null,
+      "commitEventReference": null,
+      "commitSequence": null,
+      "committedAtUtc": null,
+      "revealEventReference": null,
+      "softwareGrade": null,
+      "target": null,
+      "explanation": null
+    }
+  ]
+}

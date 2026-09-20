@@ -1,0 +1,62 @@
+# Gate 11 model, payload, repair and replay contract
+
+Version `gate11-model-v1`. Decisions use exact integer comparisons and enumerated strings. All benchmark data are public. Implementation must derive results from `fixture.json`; never import `independent-predictions.json` as a runtime oracle.
+
+## Worlds and receiver functions
+
+World order is W00, W01, W10, W11. All contain logical lot `LOT`, four field scanners, amber paint, calibration record `CAL` referring to LOT and authorization record `AUTH` referring to LOT. Their status pairs are `(expired,pending)`, `(expired,approved)`, `(current,pending)`, `(current,approved)` respectively. Distinct worlds are alternatives, not events in a source history.
+
+Full-source truth functions are:
+
+- `R_COUNT(w) := w.lot.units >= 4`.
+- `R_RELEASE(w) := w.lot.units >= 4 && w.calibration.status == "current" && w.authorization.status == "approved"`.
+
+Validate record-to-lot bindings before full-source evaluation; malformed bindings are invalid, not missing evidence that silently passes. All worlds in this fixture are valid. This is a narrow fictional release rule, not an assertion that an actual equipment loan is safe, feasible or approved.
+
+## Exact receiver payload and non-dereference boundary
+
+Baseline payload is exactly `fixture.baseSummaryPayload`. Its `sourceRef` is an identical logical reference in every world: family ID, logical lot record and carried field names. It is expressly non-dereferenceable within the evaluator. It does not contain world ID, full-source hash, unique revision ID, scenario label, URL or a precomputed receiver answer.
+
+Repair entries copy only their declared data:
+
+- `calibration`: `{forLot:"LOT",status:<current|expired>,sourceRef:<fixed CAL field reference>}`.
+- `authorization`: `{forLot:"LOT",status:<approved|pending>,sourceRef:<fixed AUTH field reference>}`.
+- `paint`: `{value:"amber",sourceRef:<fixed LOT.paint reference>}`.
+
+Their fixed `sourceRef` objects are in the fixture and contain no world-specific identity. Omitted entries are absent, never fabricated as positive/negative defaults. The selected menu entries appear under `additions`, ordered canonically when serialized. The full receiver payload includes its logical provenance references; exact equality of that complete payload defines collisions. Do not remove a distinguishing metadata field only during collision analysis while secretly passing it to the receiver.
+
+Actual source identity belongs in a separate **inspection/provenance envelope**: worldId, canonical full-source hash, source record/field paths, projection rule/version, selected revision and origin event reference. It links each copied value to the unchanged source world but is never an evaluator argument. The UI shows payload and envelope in separately labeled sections. Logical references inside the payload are the same across alternative worlds; the envelope resolves them for source inspection only. Clicking a pointer or opening full source changes visibility, not receiver input/result. Public access to all worlds is intentional; the isolation claim is a pure function/input contract, not confidentiality.
+
+`evaluateReceiver(payload, receiverId)` accepts only the exact validated payload schema and a declared receiver ID. It has no fixture-world import, world lookup, resolver, global selected-world state, provenance envelope, hash registry or network access. A dedicated pure module is recommended. Reject unknown receiver IDs, unknown payload/addition fields, invalid enums, wrong lot bindings and unsafe integer values as `invalid-summary` without treating them as ordinary ambiguity. Read-only source inspection and the separate global certificate generator may access full worlds; the evaluator may not.
+
+For valid payloads, return `status: determined|insufficient`, `possibleAnswers:["no"]|["yes"]|["no","yes"]`, `answer:"no"|"yes"|null`, and a reason derived only from supplied fields. Count below four determines no for either receiver. Otherwise R_COUNT determines yes. For R_RELEASE, any supplied expired calibration or pending authorization determines no; both supplied positive dependencies determine yes; otherwise return insufficient. Report absent potentially relevant menu entries, but do not claim each is always individually necessary. The field `paint` never affects either receiver. Enumerating the two missing status alternatives is an equivalent implementation if it uses only declared rule domains, not fixture/world lookup.
+
+The separate benchmark certificate computes, for each field subset D, `S_D(w)` and each equivalence block `S_D(w)=S_D(v)`. D is globally sufficient for receiver R iff every block has a single full-source answer: `for all w,v, S_D(w)=S_D(v) implies R(w)=R(v)`. List every block, its sorted answer set and all unordered conflicting pairs. A globally insufficient repair can still determine one particular payload's answer. Show the global badge separately from the selected payload's local result.
+
+The deliberately wrong shortcut `oldCountAnswerAsRelease` always returns the R_COUNT result without reading release dependencies. Label it `Wrong shortcut / not the receiver evaluator`, report its disagreement worlds, and never route its answer into the real evaluator or repair. All answers are public benchmark outputs.
+
+## Repair revisions and representation parity
+
+**Apply selected repair** adds the selected menu entries to the selected revision's field set, across all four worlds under the same projection rule. It never changes full-source records, status domains or receiver definitions. Selecting a receiver only reevaluates an existing revision; it is not a source or summary revision. Switching worlds changes which summary is inspected, not the rule applied to the family.
+
+Each repair creates an immutable revision record with ID, parent revision reference, fieldsBefore, requestedFields, effectiveAddedFields, fieldsAfter, trigger receiver ID, software/scripted provenance, source-family hash, per-world payloads/payload hashes and per-world source envelopes. Preserve parent and all siblings. IDs may be monotone local identifiers; content hashes are separate. Empty and already-present selections are accepted, explicitly labeled `unchanged-content`, and still preserve the attempted revision and event. Invalid menu entries reject without creating a revision. Paint-only is a valid unchanged-decision repair, not a malformed request. Re-selecting an older revision never deletes later ones.
+
+Canonical revisions S0=`[]`, S1=`[calibration]` with parentS0, and S2=`[calibration,authorization]` with parentS1 are deterministically derived, with `scripted_demonstration` provenance and canonical event references. Local control actions create a separate registry; an initial local child may reference a canonical parent as `referenceOnly`, never claim its creation as a current-session action. Canonical restore selects the canonical registry and clears stale local export display. Local history remains exportable in the document and must be preserved before reload; reload may clear it and must say so. No browser session API or durable participant store is needed.
+
+Both `diagram` and `plain` render the same selected payload, receiver result, full-source inspection when open, collision witness, certificate and revision history. Both expose the same receiver/world/revision/repair controls. The diagram's typed edges are exactly `summarizes`, `supplied-to`, `depends-on` and `sourced-from` where the corresponding objects are visible; the plain table lists the same edges. No answer-specific data appears only in one mode. A selected witness pair remains inspectable after repair, but its status must change to `separated` if its current payloads no longer collide; do not leave a stale counterexample label. Full facts remain unchanged.
+
+Useful minimum controls: Receiver, World, Diagram/Plain, Inspect collision witness (pair selection), Full source open/close, three repair checkboxes, Apply selected repair, Revision selection, Certificate open/close, Export local record, plus global replay controls. No answer-entry/commit/reveal flow. Make local receiver-change and repair available immediately on first use; there is no hidden Start or authorization state. Manual model controls pause the tour and enter local exploration. Selectors and repair drafts do not fabricate accepted repair events before Apply.
+
+## One 24-second scripted tour
+
+At0 open paused, diagram, W11, R_COUNT, revisionS0, no inspection panels, empty repair draft. At4 select R_RELEASE. At8 inspect witness pair W10/W11. At12 apply calibration to S0, selecting S1. At16 add authorization to S1, selecting S2. At20 switch to plain. At24 restore initial canonical display/receiver/revision/panels, retaining cursor24, then stop automatically with reason exactly `end-of-sequence`. Boundary controls have `origin:replay`; final stop is `automatic`; all canonical provenance is scripted. There are seven scheduled events (the five at4–20, restore at24, then stop at24), no fabricated event at0. The sole clock is the tour clock.
+
+Paused checkpoints are0,4,8,12,16,20,24. Apply every event at a boundary before taking that checkpoint. At8 and12 the selected W10/W11 pair still collides and has unequal source answers; at16 and20 it is separated. At24 the selected state resembles0 but cursor24 and end status remain distinct. Play/Pause, Previous/Next, direct checkpoint, Replay from start and Reopen saved start are available. Manual checkpoint24 contains canonical end-state data but has a user-control restore event; it is never evidence of a natural stop. Only uninterrupted actual playback supplies that evidence.
+
+## Hashes, atomic publication and routes
+
+Canonical JSON recursively sorts object keys, preserves array order, contains no whitespace and uses exact strings/safe integers. SHA-256 hashes UTF-8, lowercase hex. Separate hashes cover full-source family, each receiver payload, revision content/history, and global partition/certificate. `partitionHash` hashes sorted world-ID blocks only: paint changes payload bytes but not the induced partition. The two representations share `informationHash`, computed from selected payload/result/receiver and all currently inspectable substantive data while excluding layout. The `semanticFingerprint` covers selected mode/representation/world/receiver/revision content, cursor, paused/end status, repair draft and inspection selections/content; it excludes timestamps, session IDs, viewport, export text and unrelated local registry history. Include complete semantic payload beside its hash. Compare equivalent paused canonical states after exploration/reopen/reload.
+
+For every frame, advance the clock once at one captured value, clone the complete semantic state, derive data once and render from that clone. Hash only that immutable clone; publish it together with its hashes, discarding superseded async hash completions. Never reread a moving engine to attach a fingerprint. After DOM rendering, export expansion, inspector expansion, scroll and resize, measure actual viewport/document/scene dimensions from the resulting layout before publishing the snapshot metadata. Metadata-only refresh must keep the same semantic clone/hash and get its own monotonically increasing snapshotRevision. Publishing the old document height before inserting export text is forbidden. Avoid a self-expanding inspector loop by not sizing the page from its own prior dimension text; fixed/capped export panels are acceptable. Complete DOM observations report both semanticPayload/hash and actual viewport/scene metadata.
+
+Use loopback127.0.0.1:44004 and an explicit required `--run` argument for immutable servers; no fallback to an earlier candidate. All routes are read-only. Enumerate exact GET/HEAD paths for `/`, `/index.html`, declared app/model/receiver/style modules, `/fixture.json`, `/build.json`, and `/run/{run.json,initial-state.json,events.jsonl,checkpoints.json}`. Public build metadata must match the selected run. Reject mutations, undeclared paths, generic filesystem service and traversal. Source/answer secrecy is not required: a closed review allowlist may publish exact results, original images, replay collection and primary-source review after host approval. No generic audit/repository tree serving. Record exact route map/bytes before candidate freeze and verify newly installed presentation routes separately.

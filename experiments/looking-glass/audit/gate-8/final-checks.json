@@ -1,0 +1,63 @@
+{
+  "kind": "gate8-independent-final-checks",
+  "gate": 8,
+  "runId": "G8-AMBIGUITY-001",
+  "buildId": "g8-f5c5ee62889da529",
+  "status": "PASS_WITH_RECORDED_QUALIFICATIONS",
+  "prespecFreezeSha256": "38f1cbae00339eb9d4d1f1ee097fdb124b120c598ecea4c69c3ee7af8c19e7b8",
+  "coreClosureSha256": "2ec12a77e41c2d3ce05ca77e79c1f37aac2e89a105e2060e1012ddaf447adcbf",
+  "auditSha256": "928238cccfa43cacf98245b01b51bdb7f268764c033daab346a9abe40a37fb8a",
+  "clarificationAddendumSha256": "9ed366f562f150146083f2ba0e21a492a0f73cb45a5212ad879599c5c011a1e9",
+  "checks": [
+    {
+      "path": "audit/gate-8/independent-results.json",
+      "sha256": "a3e24ec4f325357e529af11e5ec7da3373ad41d35f319385df2863a83ff89257",
+      "bytes": 16434,
+      "status": "PASS"
+    },
+    {
+      "path": "audit/gate-8/history-integrity.json",
+      "sha256": "74a845eeab4e267f8e2650afa04dcbbb9eca40ad52c4baa8d0a9bdac9a73f6c9",
+      "bytes": 1631,
+      "status": "PASS"
+    },
+    {
+      "path": "audit/gate-8/build-audit.json",
+      "sha256": "9d32506469876b9186a728a615899f615d7a0cda07038047a2d2dc7fefc9a62d",
+      "bytes": 595,
+      "status": "PASS"
+    },
+    {
+      "path": "audit/gate-8/route-audit.json",
+      "sha256": "d5c6121d3bc9829a108d76f752cd93ffe63d70b141563305c50d742e59c03458",
+      "bytes": 3530,
+      "status": "PASS"
+    },
+    {
+      "path": "audit/gate-8/browser-audit.json",
+      "sha256": "f2218704f38cc9d90ad98c9cb530b134ddedc1c4ddf5930cc6f438ebae6889e5",
+      "bytes": 576,
+      "status": "PASS"
+    },
+    {
+      "path": "audit/gate-8/event-audit.json",
+      "sha256": "501255cd7dab20f7892d9766279589864f5c5b2d575916da260f46ef86cd4ad0",
+      "bytes": 798,
+      "status": "PASS"
+    },
+    {
+      "path": "audit/gate-8/core-audit.json",
+      "sha256": "44e74eb1770b1147402a7cae763aad33d1da66e663bdfd45af79fba733b0ce52",
+      "bytes": 547,
+      "status": "PASS"
+    }
+  ],
+  "qualifications": [
+    "Initial server-stop acquisition preserved separately; accepted core recollected with exact same immutable build.",
+    "First resumed 960 px original is 960x540 despite CSS viewport 960x720; later settled original is 960x720.",
+    "Three handoff review routes had not yet been written when read-only route audit ran.",
+    "No human result or OS reduced-motion preference claim."
+  ],
+  "participantCount": 0,
+  "nextGateApproved": false
+}

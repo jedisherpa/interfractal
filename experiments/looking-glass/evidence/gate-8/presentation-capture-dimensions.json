@@ -1,0 +1,101 @@
+{
+  "recordedAtUtc": "2026-09-20T08:33:44.812541+00:00",
+  "scope": "Separate post-core report captures, unedited original bytes",
+  "captures": [
+    {
+      "path": "evidence/gate-8/screenshots/presentation-top.jpg",
+      "width": 1280,
+      "height": 720,
+      "beforeViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "afterViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 0
+      }
+    },
+    {
+      "path": "evidence/gate-8/screenshots/presentation-four-results.jpg",
+      "width": 1280,
+      "height": 720,
+      "beforeViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 1579.5
+      },
+      "afterViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 1579.5
+      }
+    },
+    {
+      "path": "evidence/gate-8/screenshots/presentation-evidence-limits.jpg",
+      "width": 1280,
+      "height": 720,
+      "beforeViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 5625
+      },
+      "afterViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 5625
+      }
+    },
+    {
+      "path": "evidence/gate-8/screenshots/presentation-replay-collection.jpg",
+      "width": 1280,
+      "height": 720,
+      "beforeViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 7278.5
+      },
+      "afterViewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2,
+        "scrollX": 0,
+        "scrollY": 7278.5
+      }
+    },
+    {
+      "path": "evidence/gate-8/screenshots/presentation-next-gate-960.jpg",
+      "width": 960,
+      "height": 720,
+      "beforeViewport": {
+        "width": 960,
+        "height": 720,
+        "dpr": 1,
+        "scrollX": 0,
+        "scrollY": 7759.5
+      },
+      "afterViewport": {
+        "width": 960,
+        "height": 720,
+        "dpr": 1,
+        "scrollX": 0,
+        "scrollY": 7759.5
+      }
+    }
+  ]
+}

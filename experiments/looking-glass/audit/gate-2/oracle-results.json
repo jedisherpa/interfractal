@@ -1,0 +1,430 @@
+{
+  "oracle": "independent-gate-2-v1",
+  "inputs": {
+    "predictions": "docs/gate-2/independent-predictions.json",
+    "records": "docs/gate-2/fictional-records.json",
+    "mappings": "docs/gate-2/reference-mappings.json",
+    "sourceDocument": "inputs/research-program/reviews/R1_STUDY_DESIGN.md"
+  },
+  "tolerance": 1e-10,
+  "assertions": [
+    {
+      "name": "8 bases × 128 unique source points",
+      "pass": true,
+      "detail": [
+        {
+          "id": "north",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 2.220446049250313e-16,
+          "maxBaseError": 2.220446049250313e-16,
+          "infinityIndices": []
+        },
+        {
+          "id": "south",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 2.220446049250313e-16,
+          "maxBaseError": 2.220446049250313e-16,
+          "infinityIndices": [
+            32
+          ]
+        },
+        {
+          "id": "east",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 3.3306690738754696e-16,
+          "maxBaseError": 3.0531133177191805e-16,
+          "infinityIndices": []
+        },
+        {
+          "id": "west",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 3.3306690738754696e-16,
+          "maxBaseError": 3.0531133177191805e-16,
+          "infinityIndices": []
+        },
+        {
+          "id": "front",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 3.3306690738754696e-16,
+          "maxBaseError": 3.0531133177191805e-16,
+          "infinityIndices": []
+        },
+        {
+          "id": "back",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 3.3306690738754696e-16,
+          "maxBaseError": 3.0531133177191805e-16,
+          "infinityIndices": []
+        },
+        {
+          "id": "seam-plus",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 3.3306690738754696e-16,
+          "maxBaseError": 4.440892098500626e-16,
+          "infinityIndices": []
+        },
+        {
+          "id": "seam-minus",
+          "count": 128,
+          "unique": 128,
+          "maxQNormError": 3.3306690738754696e-16,
+          "maxBaseError": 4.718447854656915e-16,
+          "infinityIndices": []
+        }
+      ]
+    },
+    {
+      "name": "all source norms and Hopf base identities",
+      "pass": true
+    },
+    {
+      "name": "only south sample j32 reaches stereo pole",
+      "pass": true
+    },
+    {
+      "name": "closed-form east replay checkpoints",
+      "pass": true,
+      "detail": [
+        {
+          "tMs": 0,
+          "q": [
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0
+          ],
+          "h": [
+            1,
+            0,
+            2.220446049250313e-16
+          ],
+          "P": [
+            0.7071067811865476,
+            0,
+            0.7071067811865475
+          ],
+          "expectedMatch": true
+        },
+        {
+          "tMs": 6000,
+          "q": [
+            4.329780281177467e-17,
+            0.7071067811865476,
+            4.329780281177466e-17,
+            0.7071067811865475
+          ],
+          "h": [
+            1,
+            0,
+            2.220446049250313e-16
+          ],
+          "P": [
+            1.4782794558091698e-16,
+            2.4142135623730945,
+            1.4782794558091693e-16
+          ],
+          "expectedMatch": true
+        },
+        {
+          "tMs": 12000,
+          "q": [
+            -0.7071067811865476,
+            8.659560562354934e-17,
+            -0.7071067811865475,
+            8.659560562354932e-17
+          ],
+          "h": [
+            1,
+            0,
+            2.220446049250313e-16
+          ],
+          "P": [
+            -0.7071067811865477,
+            8.659560562354935e-17,
+            -0.7071067811865476
+          ],
+          "expectedMatch": true
+        },
+        {
+          "tMs": 18000,
+          "q": [
+            -1.29893408435324e-16,
+            -0.7071067811865476,
+            -1.2989340843532398e-16,
+            -0.7071067811865475
+          ],
+          "h": [
+            1,
+            0,
+            2.220446049250313e-16
+          ],
+          "P": [
+            -7.608979699854502e-17,
+            -0.4142135623730951,
+            -7.6089796998545e-17
+          ],
+          "expectedMatch": true
+        },
+        {
+          "tMs": 24000,
+          "q": [
+            0.7071067811865476,
+            -1.7319121124709868e-16,
+            0.7071067811865475,
+            -1.7319121124709863e-16
+          ],
+          "h": [
+            1,
+            0,
+            2.2204460492503128e-16
+          ],
+          "P": [
+            0.7071067811865475,
+            -1.7319121124709863e-16,
+            0.7071067811865474
+          ],
+          "expectedMatch": true
+        }
+      ]
+    },
+    {
+      "name": "east half-turn is antipodal and same base",
+      "pass": true
+    },
+    {
+      "name": "24s numerical return, not exact hash requirement",
+      "pass": true
+    },
+    {
+      "name": "front compensated north→south keeps source, base and projection",
+      "pass": true,
+      "detail": {
+        "frontNorth": [
+          0.7071067811865476,
+          0,
+          0,
+          -0.7071067811865475
+        ],
+        "frontSouth": [
+          0.7071067811865475,
+          4.329780281177466e-17,
+          4.329780281177467e-17,
+          -0.7071067811865476
+        ]
+      }
+    },
+    {
+      "name": "north→south invalid chart rejected",
+      "pass": true
+    },
+    {
+      "name": "south→north invalid chart rejected",
+      "pass": true
+    },
+    {
+      "name": "seam base closeness and atan2 branch jump",
+      "pass": true
+    },
+    {
+      "name": "south pole phase sample 0",
+      "pass": true,
+      "detail": {
+        "q": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "P": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "south pole phase sample 32",
+      "pass": true,
+      "detail": {
+        "q": [
+          0,
+          0,
+          6.123233995736766e-17,
+          1
+        ],
+        "P": null
+      }
+    },
+    {
+      "name": "south pole phase sample 64",
+      "pass": true,
+      "detail": {
+        "q": [
+          0,
+          0,
+          -1,
+          1.2246467991473532e-16
+        ],
+        "P": [
+          0,
+          0,
+          -1.0000000000000002
+        ]
+      }
+    },
+    {
+      "name": "south pole phase sample 96",
+      "pass": true,
+      "detail": {
+        "q": [
+          0,
+          0,
+          -1.8369701987210297e-16,
+          -1
+        ],
+        "P": [
+          0,
+          0,
+          -9.184850993605148e-17
+        ]
+      }
+    },
+    {
+      "name": "south projection exceeds clip on both sides of infinity",
+      "pass": true,
+      "detail": {
+        "before": [
+          0,
+          0,
+          40.73548387208381
+        ],
+        "pole": null,
+        "after": [
+          0,
+          0,
+          -40.73548387208371
+        ]
+      }
+    },
+    {
+      "name": "custom latitude/longitude and north-section source",
+      "pass": true
+    },
+    {
+      "name": "exact front-disk inverse at declared target",
+      "pass": true,
+      "detail": {
+        "picked": [
+          0.5,
+          0.7071067811865476,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "source document SHA-256",
+      "pass": true,
+      "detail": {
+        "sourceSha": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db"
+      }
+    },
+    {
+      "name": "four per-record sorted-key hashes and provenance",
+      "pass": true,
+      "detail": [
+        {
+          "id": "venue-hall",
+          "hash": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "expected": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "sourceMatches": true
+        },
+        {
+          "id": "venue-field",
+          "hash": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "expected": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "sourceMatches": true
+        },
+        {
+          "id": "venue-studio",
+          "hash": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+          "expected": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+          "sourceMatches": true
+        },
+        {
+          "id": "weather-context",
+          "hash": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "expected": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "sourceMatches": true
+        }
+      ]
+    },
+    {
+      "name": "R_CAPACITY_60 assignments derive from supplied facts",
+      "pass": true,
+      "detail": [
+        {
+          "recordId": "venue-hall",
+          "answer": "yes"
+        },
+        {
+          "recordId": "venue-field",
+          "answer": "yes"
+        },
+        {
+          "recordId": "venue-studio",
+          "answer": "no"
+        },
+        {
+          "recordId": "weather-context",
+          "answer": "unmapped"
+        }
+      ]
+    },
+    {
+      "name": "R_EXISTING_ACCESS assignments derive from supplied facts",
+      "pass": true,
+      "detail": [
+        {
+          "recordId": "venue-hall",
+          "answer": "no"
+        },
+        {
+          "recordId": "venue-field",
+          "answer": "yes"
+        },
+        {
+          "recordId": "venue-studio",
+          "answer": "yes"
+        },
+        {
+          "recordId": "weather-context",
+          "answer": "unmapped"
+        }
+      ]
+    },
+    {
+      "name": "Hall ramp option retained despite no existing access",
+      "pass": true
+    },
+    {
+      "name": "weather remains unmapped under both partial references",
+      "pass": true
+    },
+    {
+      "name": "record fixture explicitly excludes full-feasibility inference",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "passed": 24,
+    "total": 24,
+    "failed": []
+  }
+}

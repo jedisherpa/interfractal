@@ -1,0 +1,790 @@
+{
+  "kind": "gate8-independent-rational-derivation",
+  "source": "public fixture only",
+  "predictionComparison": "all checked fields agree",
+  "caseResults": {
+    "G8-C01": {
+      "observations": {
+        "C01-W01": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "0",
+              "1/2",
+              "-1/4"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "1/2",
+              "-1/4"
+            ]
+          }
+        },
+        "C01-W02": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "0",
+              "1/2",
+              "-1/4"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "1/2",
+              "-1/4"
+            ]
+          }
+        }
+      },
+      "baselineExactClasses": [
+        [
+          "C01-W01",
+          "C01-W02"
+        ]
+      ],
+      "baselinePairDiagnostics": [
+        {
+          "pair": [
+            "C01-W01",
+            "C01-W02"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        }
+      ],
+      "separatingPairsByAdditionalQuery": {
+        "xw90": [
+          [
+            "C01-W01",
+            "C01-W02"
+          ]
+        ]
+      },
+      "subsets": [
+        {
+          "additionalQueryIds": [],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C01-W01",
+              "C01-W02"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "xw90"
+          ],
+          "familyPropertyDetermined": true,
+          "unresolvedUnequalPropertyPairs": []
+        }
+      ],
+      "minimum": {
+        "status": "determined",
+        "size": 1,
+        "subsets": [
+          [
+            "xw90"
+          ]
+        ]
+      },
+      "outsideMenu": {}
+    },
+    "G8-C02": {
+      "observations": {
+        "C02-W01": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "1",
+              "0"
+            ]
+          }
+        },
+        "C02-W02": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        },
+        "C02-W03": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "1",
+              "0"
+            ]
+          }
+        },
+        "C02-W04": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "-1/2",
+              "0"
+            ]
+          },
+          "yv90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      },
+      "baselineExactClasses": [
+        [
+          "C02-W01",
+          "C02-W02",
+          "C02-W03",
+          "C02-W04"
+        ]
+      ],
+      "baselinePairDiagnostics": [
+        {
+          "pair": [
+            "C02-W01",
+            "C02-W02"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        },
+        {
+          "pair": [
+            "C02-W01",
+            "C02-W03"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        },
+        {
+          "pair": [
+            "C02-W01",
+            "C02-W04"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        },
+        {
+          "pair": [
+            "C02-W02",
+            "C02-W03"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        },
+        {
+          "pair": [
+            "C02-W02",
+            "C02-W04"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        },
+        {
+          "pair": [
+            "C02-W03",
+            "C02-W04"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        }
+      ],
+      "separatingPairsByAdditionalQuery": {
+        "xw90": [
+          [
+            "C02-W01",
+            "C02-W03"
+          ],
+          [
+            "C02-W01",
+            "C02-W04"
+          ],
+          [
+            "C02-W02",
+            "C02-W03"
+          ],
+          [
+            "C02-W02",
+            "C02-W04"
+          ]
+        ],
+        "yv90": [
+          [
+            "C02-W01",
+            "C02-W02"
+          ],
+          [
+            "C02-W01",
+            "C02-W04"
+          ],
+          [
+            "C02-W02",
+            "C02-W03"
+          ],
+          [
+            "C02-W03",
+            "C02-W04"
+          ]
+        ]
+      },
+      "subsets": [
+        {
+          "additionalQueryIds": [],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C02-W01",
+              "C02-W02"
+            ],
+            [
+              "C02-W01",
+              "C02-W03"
+            ],
+            [
+              "C02-W01",
+              "C02-W04"
+            ],
+            [
+              "C02-W02",
+              "C02-W03"
+            ],
+            [
+              "C02-W02",
+              "C02-W04"
+            ],
+            [
+              "C02-W03",
+              "C02-W04"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "xw90"
+          ],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C02-W01",
+              "C02-W02"
+            ],
+            [
+              "C02-W03",
+              "C02-W04"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "yv90"
+          ],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C02-W01",
+              "C02-W03"
+            ],
+            [
+              "C02-W02",
+              "C02-W04"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "xw90",
+            "yv90"
+          ],
+          "familyPropertyDetermined": true,
+          "unresolvedUnequalPropertyPairs": []
+        }
+      ],
+      "minimum": {
+        "status": "determined",
+        "size": 2,
+        "subsets": [
+          [
+            "xw90",
+            "yv90"
+          ]
+        ]
+      },
+      "outsideMenu": {}
+    },
+    "G8-C03": {
+      "observations": {
+        "C03-W01": {
+          "project": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "1"
+          },
+          "slice0": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "3/4"
+          },
+          "sliceMinus2": {
+            "kind": "empty"
+          },
+          "slicePlus2": {
+            "kind": "empty"
+          }
+        },
+        "C03-W02": {
+          "project": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "1"
+          },
+          "slice0": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "3/4"
+          },
+          "sliceMinus2": {
+            "kind": "empty"
+          },
+          "slicePlus2": {
+            "kind": "empty"
+          }
+        }
+      },
+      "baselineExactClasses": [
+        [
+          "C03-W01",
+          "C03-W02"
+        ]
+      ],
+      "baselinePairDiagnostics": [
+        {
+          "pair": [
+            "C03-W01",
+            "C03-W02"
+          ],
+          "propertyEqual": false,
+          "exactEqual": true,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        }
+      ],
+      "separatingPairsByAdditionalQuery": {
+        "sliceMinus2": [],
+        "slicePlus2": []
+      },
+      "subsets": [
+        {
+          "additionalQueryIds": [],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C03-W01",
+              "C03-W02"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "sliceMinus2"
+          ],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C03-W01",
+              "C03-W02"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "slicePlus2"
+          ],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C03-W01",
+              "C03-W02"
+            ]
+          ]
+        },
+        {
+          "additionalQueryIds": [
+            "sliceMinus2",
+            "slicePlus2"
+          ],
+          "familyPropertyDetermined": false,
+          "unresolvedUnequalPropertyPairs": [
+            [
+              "C03-W01",
+              "C03-W02"
+            ]
+          ]
+        }
+      ],
+      "minimum": {
+        "status": "none-in-menu",
+        "size": null,
+        "subsets": [],
+        "fullMenuSurvivingPairs": [
+          [
+            "C03-W01",
+            "C03-W02"
+          ]
+        ]
+      },
+      "outsideMenu": {
+        "slicePlusHalf": {
+          "C03-W01": {
+            "kind": "point",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "0"
+          },
+          "C03-W02": {
+            "kind": "ball",
+            "center": [
+              "0",
+              "0",
+              "0"
+            ],
+            "radiusSquared": "1"
+          }
+        }
+      }
+    },
+    "G8-C04": {
+      "observations": {
+        "C04-W01": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1/1000000000000",
+              "0",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        },
+        "C04-W02": {
+          "project": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/1000000000000",
+              "0",
+              "0"
+            ]
+          },
+          "xw90": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "-1",
+              "0",
+              "0"
+            ]
+          }
+        }
+      },
+      "baselineExactClasses": [
+        [
+          "C04-W01"
+        ],
+        [
+          "C04-W02"
+        ]
+      ],
+      "baselinePairDiagnostics": [
+        {
+          "pair": [
+            "C04-W01",
+            "C04-W02"
+          ],
+          "propertyEqual": false,
+          "exactEqual": false,
+          "withinTolerance": true,
+          "roundedLabelsEqual": true
+        }
+      ],
+      "separatingPairsByAdditionalQuery": {
+        "xw90": [
+          [
+            "C04-W01",
+            "C04-W02"
+          ]
+        ]
+      },
+      "subsets": [
+        {
+          "additionalQueryIds": [],
+          "familyPropertyDetermined": true,
+          "unresolvedUnequalPropertyPairs": []
+        },
+        {
+          "additionalQueryIds": [
+            "xw90"
+          ],
+          "familyPropertyDetermined": true,
+          "unresolvedUnequalPropertyPairs": []
+        }
+      ],
+      "minimum": {
+        "status": "determined",
+        "size": 0,
+        "subsets": [
+          []
+        ]
+      },
+      "outsideMenu": {}
+    }
+  },
+  "canonicalCheckpoints": [
+    {
+      "timeSeconds": 0,
+      "caseId": "G8-C01",
+      "selectedAdditionalQueryIds": [],
+      "compatibleWorldIds": [
+        "C01-W01",
+        "C01-W02"
+      ],
+      "localPropertyDetermined": false
+    },
+    {
+      "timeSeconds": 4,
+      "caseId": "G8-C01",
+      "selectedAdditionalQueryIds": [
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C01-W01"
+      ],
+      "localPropertyDetermined": true
+    },
+    {
+      "timeSeconds": 8,
+      "caseId": "G8-C02",
+      "selectedAdditionalQueryIds": [],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "localPropertyDetermined": false
+    },
+    {
+      "timeSeconds": 12,
+      "caseId": "G8-C02",
+      "selectedAdditionalQueryIds": [
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "localPropertyDetermined": false
+    },
+    {
+      "timeSeconds": 16,
+      "caseId": "G8-C02",
+      "selectedAdditionalQueryIds": [
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01"
+      ],
+      "localPropertyDetermined": true
+    },
+    {
+      "timeSeconds": 20,
+      "caseId": "G8-C03",
+      "selectedAdditionalQueryIds": [],
+      "compatibleWorldIds": [
+        "C03-W01",
+        "C03-W02"
+      ],
+      "localPropertyDetermined": false
+    },
+    {
+      "timeSeconds": 24,
+      "caseId": "G8-C03",
+      "selectedAdditionalQueryIds": [
+        "sliceMinus2",
+        "slicePlus2"
+      ],
+      "compatibleWorldIds": [
+        "C03-W01",
+        "C03-W02"
+      ],
+      "localPropertyDetermined": false
+    },
+    {
+      "timeSeconds": 28,
+      "caseId": "G8-C04",
+      "selectedAdditionalQueryIds": [],
+      "compatibleWorldIds": [
+        "C04-W01"
+      ],
+      "localPropertyDetermined": true
+    },
+    {
+      "timeSeconds": 32,
+      "caseId": "G8-C04",
+      "selectedAdditionalQueryIds": [
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C04-W01"
+      ],
+      "localPropertyDetermined": true
+    }
+  ],
+  "linearObservationRanks": {
+    "G8-C01": {
+      "project": 3,
+      "project+xw90": 4
+    },
+    "G8-C02": {
+      "project": 3,
+      "project+xw90": 4,
+      "project+yv90": 4,
+      "project+xw90+yv90": 5
+    },
+    "G8-C04": {
+      "project": 3,
+      "project+xw90": 4
+    }
+  },
+  "cameraInformation": "yaw is absent from all forward equations and signatures"
+}

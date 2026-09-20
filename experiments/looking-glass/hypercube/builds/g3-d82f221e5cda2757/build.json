@@ -1,0 +1,76 @@
+{
+  "buildId": "g3-d82f221e5cda2757",
+  "sourceSha256": "d82f221e5cda2757fb426fb25784d79fd78ffcbc9c10f7dc63e51d65c2c15552",
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "0789f100bdb069d6e04f740aeddd0a7b7232eb90efdf21eba7a6ffd14bb66eb3",
+      "bytes": 7227
+    },
+    {
+      "path": "style.css",
+      "sha256": "4259039467aef981f21bc46d32b62f72c5dfd3966c1258b63699ca4a0fde875c",
+      "bytes": 6110
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "68d7533c0358b6e094ac70930407ff5092e5fc592067b6ce1092bd4dda0ad439",
+      "bytes": 25507
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "4fbfaa1ef768bbab4a2dbd840c56c8ac79f4190ee0987deb4f500f5f2f38fd05",
+      "bytes": 8755
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "cbb56613cbd8cc326af39b69543c7ad98187bc2f0515dbc24438f53ec29b821b",
+      "bytes": 5298
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "7ef442881d49b46d4d6463526e08b1cd4a11d652d7665b6f0dc17c6c30afc49b",
+      "bytes": 6981
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "f6d0693fff1c1dab82cf3e6c9182fa25872f857e7d2de7abff3e664b74801148",
+      "bytes": 4584
+    },
+    {
+      "path": "README.md",
+      "sha256": "36dd35c37ed848fec69f76b4d1890d3f35716473893f754a2e203580a5ce0fab",
+      "bytes": 4491
+    }
+  ],
+  "gitHead": "bf2be1afe85874edbaf4e59cbbc48a37991553fc",
+  "uncommittedSourceIdentity": "d82f221e5cda2757fb426fb25784d79fd78ffcbc9c10f7dc63e51d65c2c15552",
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+  "nodeVersion": "v24.10.0",
+  "builtAtUtc": "2026-09-20T02:45:17.564Z",
+  "prespecFreezeSha256": "e18e4a129ea1350b641908fe1a4ebfb6ac1f5fcba6a26d33cc5031d5141cfbf6",
+  "prespecFrozenAtUtc": "2026-09-20T02:38:53.042662+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-3/experiment-charter.md",
+      "sha256": "b931fa0f10efba21e6c79d35a719b27e9ef6cd114d740a590116cd7c24fb7a7b",
+      "bytes": 13285
+    },
+    {
+      "path": "docs/gate-3/model-contract.md",
+      "sha256": "3433d0887238a6ce1a9421f1ad0d2de329479bc59e6fbac3e0587afe0b238202",
+      "bytes": 9100
+    },
+    {
+      "path": "docs/gate-3/record-contract.md",
+      "sha256": "d86d13169d2d3984e43b30699743f0ef356c37eea0f9c5e2cbd2669b3db19163",
+      "bytes": 9224
+    },
+    {
+      "path": "docs/gate-3/independent-predictions.json",
+      "sha256": "91f684c1323c0fb7f2c88f261e5a68dd53ca38245a5cad115d83372e5fa9aa3d",
+      "bytes": 31187
+    }
+  ],
+  "renderer": "SVG view of calculated R³ points; no WebGL dependency"
+}

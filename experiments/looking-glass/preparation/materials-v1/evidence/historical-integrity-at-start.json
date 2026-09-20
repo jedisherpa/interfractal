@@ -1,0 +1,91 @@
+{
+  "recordedAtUtc": "2026-09-20T21:02:31.766061+00:00",
+  "entriesVerified": 1947,
+  "mismatches": [],
+  "manifests": [
+    {
+      "gate": 0,
+      "path": "evidence/gate-0/GATE_0_FREEZE.json",
+      "sha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+      "entries": 61
+    },
+    {
+      "gate": 1,
+      "path": "evidence/gate-1/GATE_1_FREEZE.json",
+      "sha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+      "entries": 95
+    },
+    {
+      "gate": 2,
+      "path": "evidence/gate-2/GATE_2_FREEZE.json",
+      "sha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+      "entries": 120
+    },
+    {
+      "gate": 3,
+      "path": "evidence/gate-3/GATE_3_FREEZE.json",
+      "sha256": "1ddc109fa40fe4bf091fa90903ebb96d0d6c48d822f7158420084694d5f28edf",
+      "entries": 139
+    },
+    {
+      "gate": 4,
+      "path": "evidence/gate-4/GATE_4_FREEZE.json",
+      "sha256": "2c91c1c5eccaca75f44f3c29dd32d7797a02bbc45f4538e007ac390fc69b1ee9",
+      "entries": 141
+    },
+    {
+      "gate": 5,
+      "path": "evidence/gate-5/GATE_5_FREEZE.json",
+      "sha256": "fa7fb2f90ae5494e5e736ee868fc8823ece13f1b297b7d040086b6652c25dd03",
+      "entries": 112
+    },
+    {
+      "gate": 6,
+      "path": "evidence/gate-6/GATE_6_FREEZE.json",
+      "sha256": "27f4f63245fe0a0c9e11b3740337463dede62e31669468e5b371fc6b4e2e5492",
+      "entries": 204
+    },
+    {
+      "gate": 7,
+      "path": "evidence/gate-7/GATE_7_FREEZE.json",
+      "sha256": "7e33339de2a492f909d04f8c78602bd1461869319df8f6a017692f4780fc946c",
+      "entries": 107
+    },
+    {
+      "gate": 8,
+      "path": "evidence/gate-8/GATE_8_FREEZE.json",
+      "sha256": "fb583befad1d0ff40fb4ac05d5e76444f51885f3119e76f1cef7be551806e5b5",
+      "entries": 102
+    },
+    {
+      "gate": 9,
+      "path": "evidence/gate-9/GATE_9_FREEZE.json",
+      "sha256": "a587bb24738f70ee2ec9fa552dcd2512b54987e23fa5c84821a356eb10ca04cd",
+      "entries": 179
+    },
+    {
+      "gate": 10,
+      "path": "evidence/gate-10/FREEZE_MANIFEST.json",
+      "sha256": "4f20de257dd5a065c25a9c40543bed2fb521ee6e5de30e5a33732750ae328130",
+      "entries": 177
+    },
+    {
+      "gate": 11,
+      "path": "evidence/gate-11/FREEZE_MANIFEST.json",
+      "sha256": "ec72d3f7c99d0daaf948639a113e4735c04ddeb19875a218bc8d54bf63076a6f",
+      "entries": 176
+    },
+    {
+      "gate": 12,
+      "path": "evidence/gate-12/FREEZE_MANIFEST.json",
+      "sha256": "19b87a5d159ebbcdb6fe38acb92fb8951573ab87ad21e2e895118898a7037628",
+      "entries": 132
+    },
+    {
+      "gate": 13,
+      "path": "evidence/gate-13/FREEZE_MANIFEST.json",
+      "sha256": "81798ecc84f6c9e584395d4209c04bd0da4ca7f2d0192fa45e33755f99d14949",
+      "entries": 202
+    }
+  ]
+}

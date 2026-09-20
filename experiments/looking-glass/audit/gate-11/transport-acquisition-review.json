@@ -1,0 +1,27 @@
+{
+  "schema": "gate11-first-acquisition-transport-review-v1",
+  "verdict": "INCOMPLETE_OBJECT_TRANSPORT_NOT_CANDIDATE_FAILURE",
+  "candidate": "G11-RECEIVER-002 / g11-7ced826c903d40c5a0dd",
+  "evidenceDirectory": "evidence/gate-11/browser-002",
+  "firstAcquisitionObservations": 101,
+  "capturedSemanticHashesMatching": 79,
+  "capturedInformationHashesMatching": 35,
+  "semanticFailuresWithLiteralMaxDepth": 21,
+  "informationFailuresWithLiteralMaxDepth": 66,
+  "otherSemanticFailure": {
+    "observationIndex": 94,
+    "label": "manual-replay",
+    "capturedCursorSeconds": 0.16290000009536745,
+    "oneUlpLowerCursorSeconds": 0.16290000009536743,
+    "oneUlpLowerPayloadMatchesPublishedFingerprint": true,
+    "otherSemanticFieldsUnchanged": true
+  },
+  "completeStringValuedExportsChecked": ["critical-workflow-export.json", "session-one-final-export.json", "session-two-final-export.json", "natural-tour-export.json"],
+  "independentReproducer": "audit/gate-11/diagnose-candidate-002-transport.mjs",
+  "independentDetailedResult": "audit/gate-11/candidate-002-transport-diagnosis.json",
+  "classification": "Returning a deeply nested parsed object through CUA changed serialized evidence: literal [MaxDepth] replaced nested fields, and one active-clock double changed by one ULP. These captured objects cannot establish their published hashes. The raw string exports are complete but do not replace full DOM observation hashes.",
+  "requiredFollowup": "Preserve the original acquisition; return JSON.stringify of complete DOM observations as a string and independently rehash the new, separately collected evidence before closing the core.",
+  "candidate003Indicated": false,
+  "appDefectEstablished": false,
+  "humanParticipants": 0
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "label": "initial-compressed",
+    "path": "evidence/gate-6/screenshots/001-initial-compressed.jpg",
+    "runId": "G6-LOCAL-001",
+    "buildId": "g6-fad414e0f36c3457",
+    "beforeObservation": 1,
+    "afterObservation": 2,
+    "beforeSimulationTimeMs": 0,
+    "afterSimulationTimeMs": 0,
+    "sha256": "461f0f016b5b0cd6ca03bf9653ece35d09860e68673c82e2acc03bd5a4868504",
+    "bytes": 106140,
+    "mime": "image/jpeg",
+    "captureMethod": "cua native getScreenshot; original bytes unchanged",
+    "originalBytesUnchanged": true
+  },
+  {
+    "label": "candidate001-repaired-layout",
+    "path": "evidence/gate-6/screenshots/001-candidate001-repaired-layout.jpg",
+    "runId": "G6-LOCAL-001",
+    "buildId": "g6-fad414e0f36c3457",
+    "beforeObservation": 11,
+    "afterObservation": 12,
+    "beforeSimulationTimeMs": 15000,
+    "afterSimulationTimeMs": 15000,
+    "sha256": "f623c3f397f00946650629c14226008d04ba7ea3103d2b71a71cd6e5839a50e0",
+    "bytes": 120326,
+    "mime": "image/jpeg",
+    "captureMethod": "cua native getScreenshot; original bytes unchanged",
+    "originalBytesUnchanged": true
+  },
+  {
+    "label": "candidate001-plain-narrow",
+    "path": "evidence/gate-6/screenshots/001-candidate001-plain-narrow.jpg",
+    "runId": "G6-LOCAL-001",
+    "buildId": "g6-fad414e0f36c3457",
+    "beforeObservation": 16,
+    "afterObservation": 17,
+    "beforeSimulationTimeMs": 25000,
+    "afterSimulationTimeMs": 25000,
+    "sha256": "08b65fc6e3fd630c310bc5895c99ab712fd0d93c12141fc7390182ae66df9ad8",
+    "bytes": 97904,
+    "mime": "image/jpeg",
+    "captureMethod": "cua native getScreenshot; original bytes unchanged",
+    "originalBytesUnchanged": true
+  }
+]

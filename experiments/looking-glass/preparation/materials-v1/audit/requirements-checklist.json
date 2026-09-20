@@ -1,0 +1,43 @@
+{
+  "schema": "materials-v1-independent-requirements-checklist-v1",
+  "status": "PHASE_1_PRE_FIXTURE",
+  "blindness": {
+    "authorAnswerKeyRead": false,
+    "authorExpectedAnswersRead": false,
+    "authorScoringOutputsRead": false,
+    "authorSolverRead": false,
+    "authoredCardsOrTasksRead": false,
+    "nextStep": "Derive from root-provided public card/task/rule paths; save and freeze blind key before author-key comparison."
+  },
+  "sourceSha256": {
+    "inputs/research-program/07_SHARED_MEANING_AMENDMENT.md": "05df1425a1c93b56656607b75452c69fa775f331bdb4e5281ce860e124ea5dd8",
+    "inputs/research-program/01_RESEARCH_CHARTER.md": "c3d8438a8ca341fd78228183011889c4444e3c42bf9ec8cc48da362ef6684cae",
+    "inputs/research-program/02_AGENT_PERSPECTIVES_AND_RUNBOOK.md": "f23331744a9e858cc02833be32d5d6a87a035fab3912e6982f1d846b587b63f6",
+    "inputs/research-program/03_INTEGRATED_RESEARCH_PROTOCOL.md": "cf3d0e30cf3f971caeb9ccb50702d6c019f3ebeb8622784688c511177de58aff",
+    "inputs/research-program/04_VISUALIZER_RESEARCH_SPEC.md": "97e923906afd9a1a57103305c96a74c19718ca1868ec3bf8b2f6eeadd01f4144",
+    "docs/program-requirements-and-status.md": "c01c8b088605300f087bb112f4ecf7cf71eef386181d9dbc2b7d4740d0b6fc90"
+  },
+  "requiredAcceptanceAreas": [
+    "18 unique versioned cards; two identical anchors in each of four six-card packets; 24 placements deduplicated to 18 sources",
+    "typed directional relations and exact source/version/cutoff provenance; interpretation, understanding, endorsement, commitment, authority and outcome distinct",
+    "development/withheld separation with independently derivable source-linked task answers and explicit insufficient-evidence cases",
+    "relational transfer, misleading analogy, consequential distinction recovery and changed-requirement coordination coverage",
+    "isolated equal-perspective snapshot prompt/schema and exact model/settings/budget/input manifests prepared without executing research snapshots",
+    "prespecified pooling/full-union/interactive comparators with full evidence and charged computation/retrieval costs",
+    "source-equivalent plain/visual operations and inspection; no rendering-induced permission or scoring change",
+    "independent disposition of ambiguities, software acceptance boundaries and preparation-only scope"
+  ],
+  "consequentialAmbiguities": [
+    "task-specific evidence universe and cutoff",
+    "authority and commitment semantics",
+    "anchor deduplication and revision dependence",
+    "typed relation identity and ordered argument roles",
+    "temporal supersession and effect of changed requirements",
+    "permitted underdetermination and abstention",
+    "scoring equivalents, partial credit and withheld leakage",
+    "exact same-information plain/visual mapping"
+  ],
+  "researchAgentSnapshotsPerformed": 0,
+  "humanParticipants": 0,
+  "gate14Approved": false
+}

@@ -1,0 +1,15 @@
+# Read-only upstream clone caches; inspected pinned files are preserved separately.
+/research/sources/
+# Live review logs remain local; frozen observations and session-log copies are committed.
+/probe/runs/*/activity.jsonl
+/calibration/runs/*/activity.jsonl
+/correspondence/runs/*/activity.jsonl
+/hypercube/runs/*/activity.jsonl
+.DS_Store
+/slices/runs/*/activity.jsonl
+/five-dimensional/runs/*/activity.jsonl
+/local-models/runs/*/activity.jsonl
+/interpretation/runs/*/activity.jsonl
+/ambiguity/runs/*/activity.jsonl
+/matched-observation/runs/*/activity.jsonl
+/prediction-transfer/live/*/actions.jsonl

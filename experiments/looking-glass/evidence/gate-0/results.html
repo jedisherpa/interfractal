@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Looking Glass — Gate 0 results</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#193033;background:#f5f4ee;line-height:1.6}body{margin:0}main{max-width:1060px;margin:auto;padding:40px 24px 72px}h1,h2{line-height:1.2;letter-spacing:-.02em}h1{font-size:clamp(2rem,5vw,3.4rem);margin:.25em 0}h2{margin-top:2em}a{color:#17665e;text-underline-offset:3px}code{overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#e8ece5;padding:18px;border-radius:8px}p,li{max-width:86ch}.eyebrow{letter-spacing:.12em;font-size:.78rem;text-transform:uppercase;font-weight:700}.status{padding:18px 22px;background:#e7eddf;border-left:4px solid #54725b;border-radius:4px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.actions a{display:inline-block;padding:10px 18px;border:1px solid #17665e;border-radius:6px;font-weight:650}.primary{background:#17665e;color:white}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{padding:12px;border-bottom:1px solid #ccd5cb;text-align:left;vertical-align:top}th{background:#e8ece5}figure{margin:24px 0 36px;background:#fff;padding:14px;border:1px solid #d8ddd4;border-radius:10px}figure img{width:100%;max-width:998px;height:auto;display:block;border-radius:6px}figcaption{padding:12px 4px 0;max-width:88ch}.small{font-size:.9rem;color:#49605e}.decision{padding:24px;background:#e7eddf;border-radius:10px;font-size:1.1rem}dl{display:grid;grid-template-columns:minmax(130px,180px) 1fr;gap:8px 18px}dt{font-weight:650}dd{margin:0;overflow-wrap:anywhere}@media(max-width:640px){main{padding:24px 16px 48px}dl{display:block}dd{margin-bottom:14px}figure{padding:8px}th,td{padding:9px}}
+  </style>
+</head>
+<body><main>
+  <p class="eyebrow">Looking Glass · Gate 0 · Evidence review</p>
+  <h1>An ordinary cube, reliably replayed.</h1>
+  <p class="status"><strong>Ready for Paul's review. Gate 1 is not approved.</strong> The final probe reproduced its saved camera states after reopening and reloading. Source and saved-run hashes stayed unchanged. An earlier Look around defect was preserved, repaired, and retested.</p>
+  <div class="actions"><a class="primary" href="/">Open paused replay</a><a href="/evidence/gate-0/GATE_0_PACKET.md">Complete local review packet</a></div>
+  <dl>
+    <dt>Final run</dt><dd><code>G0-CUBE-005</code></dd>
+    <dt>Tested build</dt><dd><code>g0-d85237ad31362768</code></dd>
+    <dt>Source SHA-256</dt><dd><code>d85237ad313627683bce5fed50977060b2c61c9e8626a5056bff74b0efcce567</code></dd>
+    <dt>Actual renderer</dt><dd>SVG from computed ordinary 3D points. WebGL2 was available but was not used to render the cube.</dd>
+    <dt>Viewing surface</dt><dd>Visible Codex in-app browser on Paul's Mac; local server at <a href="/">127.0.0.1:43991</a>. Comparison viewport: 998 × 904.</dd>
+  </dl>
+
+  <h2>Watch this</h2>
+  <ol>
+    <li>Open the replay, paused at zero. Find marked vertex <code>v111</code>.</li>
+    <li>Press <strong>Replay from start</strong>. In 20 seconds the ordinary display camera turns from 30° to 60°; source coordinate <code>(1,1,1)</code> stays fixed. Playback stops at the end.</li>
+    <li>Choose <strong>10s checkpoint</strong> for the 45° view. Try Step +1s or the time slider, and inspect Exact state &amp; diagnostics.</li>
+    <li>Scroll to Look around for separate exploration. Reset restores the saved start; the Run Library's Open paused returns to zero.</li>
+  </ol>
+  <p>The Run Library contains one final saved run. Older candidates remain on disk. Opening or exploring a replay does not approve or start another gate.</p>
+
+  <h2>What the checks showed</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Question</th><th>Expected</th><th>Observed</th><th>Interpretation / unresolved</th></tr></thead>
+    <tbody>
+      <tr><td>Can the scene be viewed?</td><td>Paused cube; visible identities</td><td>SVG rendered; all eight labels visible, selected v111, no material cube clipping</td><td>Local viewing path works. Other devices and Paul's understanding are untested.</td></tr>
+      <tr><td>Does camera motion preserve the source?</td><td>8 vertices / 12 edges; independent coordinate predictions within 1e−10</td><td>All points and checkpoint coordinates verified at 0/10/20s</td><td>Bounded model/camera check passed. No 4D result.</td></tr>
+      <tr><td>Do controls hold exact states?</td><td>Stable pause, 1-second Step, exact checkpoint selection</td><td>524ms pause held for 7.814s; Step 1,000ms; scrub 10,000ms; natural tour stopped at 20,000ms</td><td>Exercised controls passed. Broad accessibility untested.</td></tr>
+      <tr><td>Does reopened replay match?</td><td>Open/reload paused at zero; identical states</td><td>0/10/20s restored; original and reopened midpoint state hashes match exactly</td><td>State replay passed. Pixel identity across devices is not claimed.</td></tr>
+      <tr><td>Is saved evidence unchanged?</td><td>Stable files and gate; exploration distinct</td><td>12 canonical files and 4 frozen documents unchanged; gate unchanged; 120° exploration and reset succeeded</td><td>Tested integrity passed. Review activity is recorded separately.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small">An independent Sol worker checked the mathematics, hashes, local routes, recorded browser states, and original images. Root operated the actual browser. The inspector opened/closed and keyboard Step worked. Screen readers, mobile layouts, changed OS reduced-motion settings, and human comprehension were not evaluated. The <a href="/evidence/gate-0/browser-console.json">final console record</a> contains no captured errors.</p>
+
+  <h2>Actual inspected captures</h2>
+  <figure><img src="/evidence/gate-0/G0-CUBE-005-S0-initial.png" alt="Final run paused at zero seconds: ordinary cube with all eight labeled vertices, selected v111, camera yaw 30 degrees"><figcaption><strong>Final S0 · 0s · yaw 30°.</strong> The cube opens paused. All eight IDs are visible; some lower controls require page scrolling.</figcaption></figure>
+  <figure><img src="/evidence/gate-0/G0-CUBE-005-S2-final.png" alt="Final run paused at 20 seconds: same cube identities, camera yaw 60 degrees"><figcaption><strong>Final S2 · 20s · yaw 60°.</strong> The display camera changed; source identities stayed fixed. Depth-dependent line emphasis does not alter coordinates.</figcaption></figure>
+  <figure><img src="/evidence/gate-0/G0-CUBE-005-S3-replay-midpoint.png" alt="Final run reopened at 10 seconds: cube at camera yaw 45 degrees"><figcaption><strong>Final S3 · reopened 10s midpoint · yaw 45°.</strong> Compare the <a href="/evidence/gate-0/G0-CUBE-005-S1-midpoint.png">original S1 midpoint</a>. Numerical states match exactly; UI/focus differences mean these files are not pixel-identical.</figcaption></figure>
+  <figure><img src="/evidence/gate-0/G0-CUBE-004-failed-look-around.png" alt="Preserved earlier failed run showing Look around still at 60 degrees after requesting 120 degrees"><figcaption><strong>Preserved failure · G0-CUBE-004.</strong> The Look around request was 120°, but pause/redraw reset the requested slider value before it was read; the display stayed at 60°. The request is established by the <a href="/evidence/gate-0/G0-CUBE-004-browser-observations.json">control record</a>. The upper scene is outside this scrolled viewport. <a href="/evidence/gate-0/G0-CUBE-005-look-around-120.png">G005's actual 120° retest</a> passed after the minimal fix.</figcaption></figure>
+  <p>No video is claimed: the supported browser API used did not advertise video recording. These are untouched browser captures, supported by saved state replay.</p>
+
+  <h2>Preservation and scope</h2>
+  <p>G001–G003 are preserved pre-browser candidates with manifest, cache/logging, and frozen-test-path repairs. G004 was browser tested and failed Look around. G005 changed the value-read ordering and run identity, then passed the relevant retest and replay checks. The frozen object, equations, predictions, and gate scope did not change.</p>
+  <p>The four contracts were frozen before browser testing. The run's <code>G0-charter-v1</code> is an explicit alias of the frozen charter's <code>gate-0-charter-v1</code>; neither record was rewritten. In-app actor entries remain <code>unspecified-ui</code>; root's corresponding browser trace identifies automation, never human approval.</p>
+  <p><a href="/evidence/gate-0/G0-CUBE-005-browser-observations.json">Original browser observations</a> include preserved G004 and G005 entries; the <a href="/evidence/gate-0/G0-CUBE-005-observations-only.json">derived final-run subset</a> selects G0-CUBE-005. See <a href="/evidence/gate-0/G0-CUBE-005-after-browser-integrity.json">before/after integrity</a>, <a href="/evidence/gate-0/prespec-freeze.json">prespecification freeze</a>, <a href="/api/run">saved run</a>, and <a href="/api/checkpoints">exact checkpoints</a>.</p>
+  <p>A small isolated companion keeps source and camera changes attributable without Interfractal's combined narrative motion and visual layers. Source research pinned Interfractal <code>1326cc6…</code> and Hopf Workshop <code>2967f71…</code>; it did not infer the live deployment's revision. The existing research program and its proposed language study remain unchanged and unexecuted.</p>
+  <p>Actual roles: GPT-6 Astra with extra-high reasoning handled delegated orchestration/specification/synthesis; GPT-5.6 Luna gathered sources; GPT-5.6 Sol implemented, with a separate Sol audit worker. Root operated the host/browser. These are AI workers, not human expert reviewers or study participants.</p>
+
+  <h2>Reopen the same saved build</h2>
+  <p>If the local preview expires, use the preserved source snapshot. No external packages are needed; the tested runtime was Node v24.10.0. The fixed port must be free.</p>
+  <pre>cd /Users/paul/BTC-Learning
+node experiments/looking-glass/probe/builds/g0-d85237ad31362768/server.mjs</pre>
+  <p>Then open <a href="/">http://127.0.0.1:43991/</a>. The live server is local-only; no indefinite lifetime is promised. The complete packet links durable source, run, audit, and source-review files.</p>
+
+  <h2>The next proposed stage</h2>
+  <p>Gate 1 would compare an ordinary 3D cube with its 2D shadow, separate source rotation from camera motion, check identities/distances/inverse rotation/projected coordinates, demonstrate a hidden distinction, and preserve a calibration replay. Hopf belongs to separately approved Gate 2; genuine 4D begins at Gate 3.</p>
+  <p>These Gate 0 results establish neither higher-dimensional recovery nor human comprehension or shared-meaning benefits. The supplied orchestrator prompt §§9 and 17 requires this stop for Paul's decision; no agent can approve progression.</p>
+  <p class="decision"><strong>Please watch the probe replay. Do you approve Gate 1: the 3D-to-2D calibration and model/replay checks?</strong></p>
+</main></body></html>

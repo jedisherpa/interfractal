@@ -1,0 +1,14 @@
+{
+  "runId": "G4-SLICES-001",
+  "buildId": "g4-1a289997d9829f9c",
+  "preservedAtUtc": "2026-09-20T03:31:45.364988+00:00",
+  "status": "Failed initial browser-environment freshness; bounded manual trial stopped before full playback",
+  "defect": "Observations1\u20133 inspectorDPR2 vs actualDPR1 after viewport override; subsequent explicit control render corrected metadata. New candidate required for passive metadata refresh.",
+  "originalCaptures": 7,
+  "observations": 38,
+  "toolingIncidents": [
+    "Evidence helper was defined before tab binding; initial invocation failed before any record; rebound to actual tab.",
+    "Exact-text inspector locator matched zero elements; no action occurred; DOM snapshot identified summary and direct supported locator worked."
+  ],
+  "scope": "Same frozen Gate4 mathematics and scoring; Gate5 not approved."
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "gate9-independent-prespec-review-v1",
+  "status": "PASS",
+  "method": "Independent Python Fraction arithmetic, exhaustive three-by-three choices, and SHA-256 canonical JSON; no Gate 9 implementation imports.",
+  "sourceFixtureSha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509",
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "worldQueryOutputCount": 12,
+  "orderedChoiceCount": 9,
+  "recipeSummaries": {
+    "G9-T01": {
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+    },
+    "G9-T02": {
+      "choices": [
+        "yv90",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "traceHash": "fb4be0e14f1a7b5306e4a251732b2e46fb687fd092f5c459a80a7b86a4021178",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+    },
+    "G9-T03": {
+      "choices": [
+        "xw90",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "propertyDetermined": false,
+      "traceHash": "89c35ef9c0f3742d6bec647f117ed368b16ae647cac3188bc3521c125760f61f",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837"
+    },
+    "G9-T04": {
+      "choices": [
+        "project",
+        "project"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "traceHash": "7bb222e35edf588a50aad165fdad1f792345101823d45e0ae854cbe614470c38",
+      "informationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9"
+    }
+  },
+  "checkpointTimes": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    20,
+    24
+  ],
+  "scheduledEventCount": 12,
+  "comparisonCount": 33,
+  "errors": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "gate13-independent-prespec-review-v1",
+  "verdict": "PASS_PRESPEC",
+  "basis": "Independent exact finite derivation and contract review before implementation; no Gate 13 build or browser observation.",
+  "derivation": {
+    "script": "audit/gate-13/derive-prespec.py",
+    "result": "audit/gate-13/prespec-derivation.json",
+    "focusedChecks": 52,
+    "passed": 52,
+    "failed": 0,
+    "implementationImports": 0
+  },
+  "authoredInputSha256": {
+    "docs/gate-13/experiment-charter.md": "7079f80e70535ff37c5165fb05ef86777f85798bc67cb1a7beeda9e46bbfc8a1",
+    "docs/gate-13/model-contract.md": "fad7787c343934e2c6316ee6563e0f8b0ffecce9366b36242ffbce8cf5779a16",
+    "docs/gate-13/record-contract.md": "fd3dcc862e726e556b9f75b4617d3dc0233ea19122a71b383597a01b6e81fdc7",
+    "docs/gate-13/fixture.json": "95238cd28d4c7af803733585940f60c56733d04dfdc00a216aef1385483247d8",
+    "docs/gate-13/independent-predictions.json": "fb085a57ac9c65b0b70011e80150a377ab0fa7e77ed6c125eb8bb76db239eaa4"
+  },
+  "programLedger": {
+    "path": "docs/program-requirements-and-status.md",
+    "sha256": "167e547151eb8685e616da41b6a5bcdb102c392b1aca3c7a215a17aea6332c18",
+    "review": "Correctly distinguishes archive 07's unbuilt eighteen-card/four-snapshot bench, archive 03's P0–P5 and B/C human-study design, and archive 05's dependency sequence. Bench and human stages remain incomplete. Snapshot this audited living-ledger version separately at freeze."
+  },
+  "finiteResults": [
+    {"caseId":"MISMATCH","sourceCounts":[80,90],"originalLowerBound":70,"originalOffsets":[10,20],"originalSvgWidths":[80,160],"statementTrue":false,"sourceDifference":10,"countRatio":"9/8","originalLengthRatio":"2","correctedLowerBound":0,"correctedSvgWidths":[192,216],"correctedRatio":"9/8"},
+    {"caseId":"TRUE_CONTROL","sourceCounts":[40,80],"originalLowerBound":0,"originalOffsets":[40,80],"originalSvgWidths":[96,192],"statementTrue":true,"sourceDifference":40,"countRatio":"2","originalLengthRatio":"2","correction":null},
+    {"caseId":"ZERO_CONTROL","sourceCounts":[0,10],"originalLowerBound":0,"originalOffsets":[0,10],"originalSvgWidths":[0,24],"statementTrue":false,"sourceDifference":10,"countRatio":"undefined-zero-denominator","originalLengthRatio":"undefined-zero-denominator","correctedSvgWidths":[0,24]}
+  ],
+  "validCaseVersionRepresentationStates": 10,
+  "sameInformationRepresentationPairs": 5,
+  "canonical": {"durationSeconds":24,"checkpointSeconds":[0,4,8,12,16,20,24],"scheduledEvents":7,"sameBoundaryAt24":["canonical-restore","tour-stop"],"plannedPausedBrowserComparisonsNotObserved":18},
+  "localBrowserPlan": {"checks":3,"corrections":2,"plannedCheckReuses":1,"firstUseBeforeBaseline":true},
+  "criticalInvariants": [
+    "One matching immutable check per case/source/original binding; repeat is reuse, never a second judgment.",
+    "A false matching check is required before a correction; true control has no corrected version.",
+    "Original source and display remain byte-equal; correction links the false check and adds a distinct debrief.",
+    "Visual and plain states have identical source/check/correction access and five same-information pairs.",
+    "Public canonical precomputation is labeled scripted; raw registry presence at cursor zero is not a performed act.",
+    "Published semantic snapshot is atomic; layout metadata remeasures without discarding a pending valid semantic publication.",
+    "Actual first-use browser controls precede replay checkpoints; modeled rejection is not reported as a clicked disabled control."
+  ],
+  "scopeLimit": "Public authored software counterexample, not empirical persuasion, resistance, confidence calibration, debrief efficacy, or human understanding.",
+  "blockingIssues": []
+}

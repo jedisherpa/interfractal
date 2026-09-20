@@ -1,0 +1,82 @@
+{
+  "schema": "gate11-candidate-browser-closure-v1",
+  "closedAtUtc": "2026-09-20T18:04:46.179653+00:00",
+  "runId": "G11-RECEIVER-001",
+  "buildId": "g11-4a38606632d77897a06e",
+  "observations": 75,
+  "hostActions": 62,
+  "originals": 5,
+  "localRevisions": 7,
+  "criticalFirstUseObserved": "completed successfully",
+  "independentBlocker": "Deterministic delayed-hash/metadata-refresh race can discard a pending semantic publication; no such mismatch was directly observed in these ordinary browser actions. See independent candidate001 repro.",
+  "unexecuted": [
+    "reload checkpoints0 and24",
+    "natural24-second playback",
+    "final manual replay controls",
+    "historical links",
+    "presentation QA"
+  ],
+  "entries": [
+    {
+      "path": "evidence/gate-11/browser-001/all-local-revisions-export.json",
+      "bytes": 116023,
+      "sha256": "fc5cdb6918c55829d45117986a939fddc23461014cf1cf456b98e7c14cc823b8"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/critical-workflow-export.json",
+      "bytes": 41335,
+      "sha256": "1c85dea60bfba9280768717939ff1d72045a3b78eaef8610b3c0dfe6a3520329"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/host-actions.json",
+      "bytes": 1208995,
+      "sha256": "5c3ddfe7a7b5e8c325924a364626f9f15ffcc83177b2ae88d668e164c8c97120"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/observations.json",
+      "bytes": 5582685,
+      "sha256": "76340b90e4e90e03106af29ca9fdc4fead6644e8a03f7ca95ff0d0dd9cc74166"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/changed-receiver-witness.jpg",
+      "bytes": 119637,
+      "sha256": "b446a7cde0fc23da9a4812eebad897bff13c55c5170594c078d7d83dd3705b1c"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/initial-count-summary.jpg",
+      "bytes": 113549,
+      "sha256": "cc81ff93b9afee5297c5874bfc0b5cc3e76c41e078a1c1faffdbe4316257ebad"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/minimal-repair-diagram.jpg",
+      "bytes": 82953,
+      "sha256": "9c8db539af25bb5e9a986ed4e55536b3ace7d3fe2181b886557c35f4baf74b22"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/minimal-repair-plain.jpg",
+      "bytes": 91016,
+      "sha256": "516f85f4e6abff452033ca76ca38fb2a4fb86b1189a50777ac19a512d4550e44"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots/partial-negative-narrow.jpg",
+      "bytes": 94057,
+      "sha256": "316f12083b66a04f1864596605b0f6f05e69721cd13efd750207192b3e1b260a"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/screenshots.json",
+      "bytes": 3121,
+      "sha256": "5a6b976cdba2140c66ace0765f6fafa117e96818a956c3e07ca563661c5334cc"
+    },
+    {
+      "path": "evidence/gate-11/browser-001/session-one-final-export.json",
+      "bytes": 118537,
+      "sha256": "c83befc5748326f21fe31554dd6802e06b38e2e911f5af096ff5337d874fee14"
+    }
+  ],
+  "rule": "Closed candidate001 acquisition. Never overwrite; later candidate uses another directory."
+}

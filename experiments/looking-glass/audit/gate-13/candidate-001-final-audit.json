@@ -1,0 +1,63 @@
+{
+  "schema": "gate13-candidate-001-final-independent-audit-v1",
+  "verdict": "BLOCKED_CANONICAL_CONTROL_BINDING",
+  "runId": "G13-MISLEAD-001",
+  "buildId": "g13-daa720242d62cd4c184f",
+  "sourceSha256": "daa720242d62cd4c184f2f3687ddc1e8584f6ce2031f40ba119b87efa225f93d",
+  "mainCoreFreezeSha256": "c281619d92f293e7019c5835ef6df5eb51fe9bfb19b17260dc5140daf9059b35",
+  "verification": {
+    "script": "audit/gate-13/verify-candidate-001-final-core.mjs",
+    "result": "audit/gate-13/candidate-001-final-core-verification.json",
+    "status": "BLOCKED",
+    "focusedChecks": 31,
+    "passed": 30,
+    "failed": 1,
+    "failingCheck": "90 substantive control enablement records: canonical observations 20, 61, 76 advertise applyCorrection true while the actual control is disabled."
+  },
+  "positiveEvidence": {
+    "sealedMainCorePins": 68,
+    "unchangedHistoricalEntries": 1745,
+    "mainObservationsWithMatchingSemanticInformationLayoutAndSvg": 90,
+    "pausedCheckpointMatches": 18,
+    "visualPlainInformationPairs": 3,
+    "firstDocumentEvents": 47,
+    "firstDocumentLocalChecks": 3,
+    "firstDocumentLocalCorrections": 2,
+    "firstDocumentCheckReuses": 1,
+    "secondDocumentNaturalExportEvents": 11,
+    "secondDocumentFinalEvents": 15,
+    "naturalTourScheduledEvents": 7,
+    "naturalTourWallSeconds": 24.002,
+    "sameCursorAdjacentEventChains": 37,
+    "mainOriginalJpegs": 6
+  },
+  "actualBrowser": {
+    "main": {"observations":90,"actionAttempts":71,"toolCompleted":70,"toolFailed":1,"completedWithNoObservedTransition":1},
+    "separateCanonicalFollowup": {"observations":6,"actionAttempts":3,"toolCompleted":3,"consoleErrors":2,"originalJpegs":1},
+    "combinedRecordedActions": {"attempted":74,"toolCompleted":73,"toolFailed":1}
+  },
+  "blockingFindings": [
+    {
+      "id": "CANONICAL_OPERATION_MISSTATEMENT",
+      "observations": [20,61,76],
+      "finding": "Saved-tour checkpoint 8 publishes informationPayload.availableOperations.applyCorrection=true although the actual Apply correction and debrief control is disabled and canonical playback cannot create local records."
+    },
+    {
+      "id": "CANONICAL_TO_LOCAL_BINDING_FAILURE",
+      "actualFollowup": "At saved checkpoint 20, the enabled Show correction and debrief button and its keyboard activation both emitted Error: correction not active. The published checkpoint-20 state remained stale after each attempt; two console errors are retained.",
+      "controlledReproduction": "The immutable 001 handler reproduction also shows enabled source/representation/records at checkpoint 12 throwing the same error, Show original at checkpoint 12 losing the scripted check/correction/retained marker, and the checkpoint-8 operation misstatement.",
+      "mechanism": "Shared local() changes saved-tour mode to local-review while retaining activeCheck/activeCorrection flags; chosen() then binds to empty localReviews instead of the scripted canonical records. Derived corrected state rejects without a local correction."
+    }
+  ],
+  "separateUnresolvedAnomaly": "In the first local workflow a tool-completed Show original click caused no version-select event or state transition despite surrounding enabled controls; cause not established. The following Show correction action failed because it was still correctly disabled. Keyboard and later clicks recovered. This is not asserted to be the canonical binding mechanism.",
+  "minimalCorrectionBoundary": "Keep source/records/representation/version inspection in saved-tour mode while pausing the global clock, preserving scripted record binding; only Start local review or Case should enter local review and rehydrate active flags from local history. Publish operation availability that matches actual enabled controls. Verify all enabled controls at canonical checkpoints 8, 12, 16 and 20, with rollback on rejected transitions and no invented local records.",
+  "separateFollowupFileSha256": {
+    "actions.json": "0f28e6ade01759348ca811683ad41dc66075f57f7038b08eba426430326b65e3",
+    "observations.json": "00584913a14ea7907101ae538681f50f94fdfd38e342b7c7e8fd922379136980",
+    "console.json": "7ceb26d41e03ff1708c629a52f0eeaa818b533182d98fe46aa7715b547840057",
+    "screenshots.json": "67c84ca257b821a1ec3222b9cd9e96722bee0f5c474392e839d21bda191d8c33",
+    "canonical-correction-control-failure.jpg": "54783c79ae144ee73ac0dc8e93269ee476578b9733b6d985bf739f0b72b73e65"
+  },
+  "humanParticipants": 0,
+  "humanPersuasionOrDebriefEffectEstablished": false
+}

@@ -1,0 +1,121 @@
+{
+  "kind": "independent-exact-module-audit",
+  "modulePath": "/Users/paul/BTC-Learning/experiments/looking-glass/five-dimensional/builds/g5-0bdee39bcd7dd541/model.mjs",
+  "sourceSha256": "0bacbb23bb6d4666b946ca19d5b7236231f8c66d256df95125a54ea621847a6d",
+  "gate3BaselineSha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c",
+  "tolerance": 1e-10,
+  "sourceCounts": {
+    "fiveVertices": 32,
+    "fiveEdges": 80,
+    "fourVertices": 16,
+    "fourEdges": 32
+  },
+  "grid": {
+    "anglePairs": 25,
+    "pairChecks": 12400,
+    "maxDistanceError": 7.105427357601002e-15,
+    "maxNormError": 1.7763568394002505e-15,
+    "maxOrthogonalityError": 0,
+    "maxRoundtripError": 2.220446049250313e-16
+  },
+  "reconstruction": {
+    "baseRank": 3,
+    "hiddenRank": 4,
+    "revealedRank": 5,
+    "hypercubePoints": 32,
+    "opaqueProbe": true,
+    "maxRecoveryError": 1.1102230246251565e-16,
+    "maxResidual": 0
+  },
+  "comparisons": [
+    {
+      "anglesDeg": [
+        0,
+        0
+      ],
+      "rawSites": [
+        8,
+        8
+      ],
+      "collapsedEdges": [
+        8,
+        32
+      ],
+      "screenSites": [
+        8,
+        8
+      ],
+      "markerCollisionPairs": [
+        8,
+        48
+      ]
+    },
+    {
+      "anglesDeg": [
+        45,
+        0
+      ],
+      "rawSites": [
+        12,
+        12
+      ],
+      "collapsedEdges": [
+        0,
+        16
+      ],
+      "screenSites": [
+        12,
+        12
+      ],
+      "markerCollisionPairs": [
+        4,
+        32
+      ]
+    },
+    {
+      "anglesDeg": [
+        45,
+        45
+      ],
+      "rawSites": [
+        12,
+        18
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "screenSites": [
+        12,
+        18
+      ],
+      "markerCollisionPairs": [
+        4,
+        20
+      ]
+    },
+    {
+      "anglesDeg": [
+        30,
+        30
+      ],
+      "rawSites": [
+        16,
+        32
+      ],
+      "collapsedEdges": [
+        0,
+        0
+      ],
+      "screenSites": [
+        16,
+        32
+      ],
+      "markerCollisionPairs": [
+        0,
+        0
+      ]
+    }
+  ],
+  "checksPassed": true
+}

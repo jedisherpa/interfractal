@@ -1,0 +1,23 @@
+[
+  {
+    "frame": "F1",
+    "objectsObservation": 71,
+    "plainObservation": 73,
+    "sameInformation": true,
+    "sameFrame": true
+  },
+  {
+    "frame": "F2",
+    "objectsObservation": 75,
+    "plainObservation": 77,
+    "sameInformation": true,
+    "sameFrame": true
+  },
+  {
+    "frame": "F3",
+    "objectsObservation": 79,
+    "plainObservation": 81,
+    "sameInformation": true,
+    "sameFrame": true
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "buildId": "g0-d85237ad31362768",
+  "sourceSha256": "d85237ad313627683bce5fed50977060b2c61c9e8626a5056bff74b0efcce567",
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "d790dbede9d958494e960ae9215dfd8ef47e5b61ef674f514d1afefd4773af49"
+    },
+    {
+      "path": "style.css",
+      "sha256": "0574ddba6a899a990baa4c95ea0bd5680caae1db80b4640e4529103052fd1cd7"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "3e71ad8bfd5ae6d384b04b4003acf78e86855bc53589703575b72696b70acdf4"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "0a95a947929668a24f6f9a7cb39bf3da0704c1d54fff8c970e64f2c7bde22242"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "40827a867fa8bc8304b64a6deb3d07e6f4d2095de831ada850659e5fdf0b3395"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "bb59304d1c7d3b6ffbcb28b4bc26d3e551e5d2b38429bcc95dd7710cd227e9b7"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "4a8d29343573ad288eac2c6621bdb1a919720a89bf37034a078504c525c30e94"
+    }
+  ],
+  "dependencyIdentity": "node-builtins-only; no lockfile or external assets",
+  "nodeVersion": "v24.10.0",
+  "builtAt": "2026-09-20T00:44:50.108Z"
+}

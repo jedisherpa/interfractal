@@ -1,0 +1,38 @@
+{
+  "schema": "gate10-private-answer-key-v1",
+  "fixtureId": "G10-FIXTURE-001",
+  "visibility": "nonserved private build input; individual answer only after valid deliberate reveal",
+  "answers": [
+    {
+      "caseId": "T01", "expectedOptionId": "O2",
+      "source": {"id": "G10-ASSESS-P01", "xyzw": ["2","-1","1/2","1"]},
+      "target": {"kind": "unique-point", "xyz": ["2/5","-1","1/2"]},
+      "explanation": "At 0 degrees x=2; at 90 degrees -w=-1 so w=1. The intermediate query gives x'=3/5*2-4/5*1=2/5. y=-1 and z=1/2 are unchanged. This is an interpolation query for a new source, not evidence of human learning."
+    },
+    {
+      "caseId": "T02", "expectedOptionId": "O1",
+      "source": {"id": "G10-ASSESS-P02", "xyzw": ["-3/2","1/4","-1","1/2"]},
+      "target": {"kind": "unique-point", "xyz": ["3/2","1/4","-1"]},
+      "explanation": "The 0-degree view gives x=-3/2 and the 90-degree view gives w=1/2. At 180 degrees cos=-1 and sin=0, so x'=3/2; y and z stay 1/4 and -1. The 0-degree support alone suffices for this particular target even though both supports are supplied. This is an unseen angle in the same task family, not a changed-family transfer result."
+    },
+    {
+      "caseId": "T03", "expectedOptionId": "O4",
+      "sourceClass": {"id": "G10-ASSESS-P03-CLASS", "selectedSource": null, "admissibleSources": [["1/3","2/3","-1/3","-2"],["1/3","2/3","-1/3","2"]]},
+      "target": {"kind": "point-set", "points": [["-2","2/3","-1/3"],["2","2/3","-1/3"]], "unique": false},
+      "explanation": "Both source alternatives produce the identical supplied 0-degree raw xyz. Camera yaw changes the drawing but supplies no w observation. At 90 degrees x'=-w, yielding -2 or 2 with unchanged y=2/3 and z=-1/3. No source is secretly selected; both outputs must be retained."
+    },
+    {
+      "caseId": "T04", "expectedOptionId": "O3",
+      "source": {"id": "G10-ASSESS-B01", "center": ["0","0","0","1/2"], "radiusSquared": "25/16", "radius": "5/4"},
+      "target": {"kind": "point", "center": ["0","0","0"], "delta": "0", "radiusSquared": "0", "radius": "0"},
+      "explanation": "Subtract the support equations: 25/16-1=3*cw/2-3/16, so cw=1/2. The slice at s=1/2 then gives R^2=25/16. At s=7/4, delta=25/16-(7/4-1/2)^2=0. The slice is one point at the origin, not empty."
+    },
+    {
+      "caseId": "T05", "expectedOptionId": "O4",
+      "source": {"id": "G10-ASSESS-B02", "center": ["0","0","0","-1/2"], "radiusSquared": "1", "radius": "1"},
+      "target": {"kind": "empty", "center": null, "delta": "-5/4", "radiusSquared": null, "radius": null},
+      "explanation": "Subtract the support equations: 0-1=2*cw, hence cw=-1/2. The s=-1/2 slice gives R^2=1. At s=1, delta=1-(1+1/2)^2=-5/4. A negative delta means empty, not a point or a ball with an absolute-valued radius."
+    }
+  ],
+  "grading": {"beforeReveal": "withheld", "answeredMatch": "correct", "answeredMismatch": "incorrect", "skipGrade": null, "aggregateHumanScore": null}
+}

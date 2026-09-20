@@ -1,0 +1,1012 @@
+{
+  "schema": "gate12-independent-prespec-derivation-v1",
+  "status": "PASS",
+  "inputFiles": [
+    {
+      "path": "docs/gate-12/experiment-charter.md",
+      "bytes": 5844,
+      "sha256": "fc5aba50ac7ec1118aafe466ad1a7cd39e293605b142b752df439e5cdcb6f78d"
+    },
+    {
+      "path": "docs/gate-12/model-contract.md",
+      "bytes": 12314,
+      "sha256": "cf823f0d8b1027c32503b180ee95463f65f47e5d04e4e832dc8e1c425ebab034"
+    },
+    {
+      "path": "docs/gate-12/record-contract.md",
+      "bytes": 8686,
+      "sha256": "a298d28328e63064d04853856ea7d400aba170fb11463d125146307734e7e7b0"
+    },
+    {
+      "path": "docs/gate-12/fixture.json",
+      "bytes": 8945,
+      "sha256": "88c6555fc4ba75f41136f08b4e9d27de1a197c03bff7d994581b62cb402ce825"
+    },
+    {
+      "path": "docs/gate-12/independent-predictions.json",
+      "bytes": 24173,
+      "sha256": "313f06f97003efb7f860048e5297dcc3d2038803c2931d318d41b1a76f55d306"
+    }
+  ],
+  "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+  "rankings": {
+    "R_DETAIL": {
+      "P3": 0,
+      "P2": 1,
+      "P1": 2
+    },
+    "R_SPEED": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 2
+    }
+  },
+  "firstChoicesByAssignment": {
+    "BASE": {
+      "ARCHIVE": "P3",
+      "DISPATCH": "P1"
+    },
+    "DETAIL_CONTROL": {
+      "ARCHIVE": "P3",
+      "DISPATCH": "P3"
+    }
+  },
+  "outcomes": [
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [],
+      "missingGroupIds": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {},
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "missingGroupIds": [
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "missingGroupIds": [
+        "ARCHIVE"
+      ],
+      "firstChoicesByGroup": {
+        "DISPATCH": "P1"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "missingGroupIds": [],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3",
+        "DISPATCH": "P1"
+      },
+      "differentFirstChoices": true,
+      "selectedModeId": "P2",
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": false,
+        "DISPATCH": false
+      },
+      "jointAction": {
+        "operation": "simulate-shared-export",
+        "modeId": "P2",
+        "slotCount": 1,
+        "enacted": false
+      },
+      "scoreRows": [
+        {
+          "modeId": "P1",
+          "ranksByGroup": {
+            "ARCHIVE": 2,
+            "DISPATCH": 0
+          },
+          "worstRank": 2
+        },
+        {
+          "modeId": "P2",
+          "ranksByGroup": {
+            "ARCHIVE": 1,
+            "DISPATCH": 1
+          },
+          "worstRank": 1
+        },
+        {
+          "modeId": "P3",
+          "ranksByGroup": {
+            "ARCHIVE": 0,
+            "DISPATCH": 2
+          },
+          "worstRank": 2
+        }
+      ],
+      "tiedMinimizers": [
+        "P2"
+      ],
+      "tieBreakUsed": false,
+      "status": "procedure-selected"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [],
+      "missingGroupIds": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {},
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "missingGroupIds": [
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "missingGroupIds": [
+        "ARCHIVE"
+      ],
+      "firstChoicesByGroup": {
+        "DISPATCH": "P1"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "missingGroupIds": [],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3",
+        "DISPATCH": "P1"
+      },
+      "differentFirstChoices": true,
+      "selectedModeId": "P1",
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": false,
+        "DISPATCH": true
+      },
+      "jointAction": {
+        "operation": "simulate-shared-export",
+        "modeId": "P1",
+        "slotCount": 1,
+        "enacted": false
+      },
+      "scoreRows": [
+        {
+          "modeId": "P1",
+          "ranksByGroup": {
+            "ARCHIVE": 2,
+            "DISPATCH": 0
+          },
+          "worstRank": 2
+        },
+        {
+          "modeId": "P3",
+          "ranksByGroup": {
+            "ARCHIVE": 0,
+            "DISPATCH": 2
+          },
+          "worstRank": 2
+        }
+      ],
+      "tiedMinimizers": [
+        "P1",
+        "P3"
+      ],
+      "tieBreakUsed": true,
+      "status": "procedure-selected"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [],
+      "missingGroupIds": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {},
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "missingGroupIds": [
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "missingGroupIds": [
+        "ARCHIVE"
+      ],
+      "firstChoicesByGroup": {
+        "DISPATCH": "P1"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "BASE",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "missingGroupIds": [],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3",
+        "DISPATCH": "P1"
+      },
+      "differentFirstChoices": true,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-no-eligible-option"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [],
+      "missingGroupIds": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {},
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "missingGroupIds": [
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "missingGroupIds": [
+        "ARCHIVE"
+      ],
+      "firstChoicesByGroup": {
+        "DISPATCH": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "ALL",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "missingGroupIds": [],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3",
+        "DISPATCH": "P3"
+      },
+      "differentFirstChoices": false,
+      "selectedModeId": "P3",
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": true,
+        "DISPATCH": true
+      },
+      "jointAction": {
+        "operation": "simulate-shared-export",
+        "modeId": "P3",
+        "slotCount": 1,
+        "enacted": false
+      },
+      "scoreRows": [
+        {
+          "modeId": "P1",
+          "ranksByGroup": {
+            "ARCHIVE": 2,
+            "DISPATCH": 2
+          },
+          "worstRank": 2
+        },
+        {
+          "modeId": "P2",
+          "ranksByGroup": {
+            "ARCHIVE": 1,
+            "DISPATCH": 1
+          },
+          "worstRank": 1
+        },
+        {
+          "modeId": "P3",
+          "ranksByGroup": {
+            "ARCHIVE": 0,
+            "DISPATCH": 0
+          },
+          "worstRank": 0
+        }
+      ],
+      "tiedMinimizers": [
+        "P3"
+      ],
+      "tieBreakUsed": false,
+      "status": "procedure-selected"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [],
+      "missingGroupIds": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {},
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "missingGroupIds": [
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "missingGroupIds": [
+        "ARCHIVE"
+      ],
+      "firstChoicesByGroup": {
+        "DISPATCH": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "EXTREMES",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "missingGroupIds": [],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3",
+        "DISPATCH": "P3"
+      },
+      "differentFirstChoices": false,
+      "selectedModeId": "P3",
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": true,
+        "DISPATCH": true
+      },
+      "jointAction": {
+        "operation": "simulate-shared-export",
+        "modeId": "P3",
+        "slotCount": 1,
+        "enacted": false
+      },
+      "scoreRows": [
+        {
+          "modeId": "P1",
+          "ranksByGroup": {
+            "ARCHIVE": 2,
+            "DISPATCH": 2
+          },
+          "worstRank": 2
+        },
+        {
+          "modeId": "P3",
+          "ranksByGroup": {
+            "ARCHIVE": 0,
+            "DISPATCH": 0
+          },
+          "worstRank": 0
+        }
+      ],
+      "tiedMinimizers": [
+        "P3"
+      ],
+      "tieBreakUsed": false,
+      "status": "procedure-selected"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [],
+      "missingGroupIds": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {},
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE"
+      ],
+      "missingGroupIds": [
+        "DISPATCH"
+      ],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "DISPATCH"
+      ],
+      "missingGroupIds": [
+        "ARCHIVE"
+      ],
+      "firstChoicesByGroup": {
+        "DISPATCH": "P3"
+      },
+      "differentFirstChoices": null,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-missing-proposal"
+    },
+    {
+      "assignmentId": "DETAIL_CONTROL",
+      "scenarioId": "NONE",
+      "presentGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "missingGroupIds": [],
+      "firstChoicesByGroup": {
+        "ARCHIVE": "P3",
+        "DISPATCH": "P3"
+      },
+      "differentFirstChoices": false,
+      "selectedModeId": null,
+      "matchesFirstChoiceByGroup": {
+        "ARCHIVE": null,
+        "DISPATCH": null
+      },
+      "jointAction": null,
+      "scoreRows": [],
+      "tiedMinimizers": [],
+      "tieBreakUsed": false,
+      "status": "blocked-no-eligible-option"
+    }
+  ],
+  "outcomeCount": 24,
+  "statusCounts": {
+    "blocked-missing-proposal": 18,
+    "blocked-no-eligible-option": 2,
+    "procedure-selected": 4
+  },
+  "scheduledEventCount": 8,
+  "checkpointCount": 7,
+  "browserPausedComparisonsPlannedNotObserved": 18,
+  "checkCount": 67,
+  "passCount": 67,
+  "errors": [],
+  "checks": [
+    {
+      "name": "five authored inputs and matching fixture identity",
+      "pass": true
+    },
+    {
+      "name": "source and fixed order",
+      "pass": true
+    },
+    {
+      "name": "source hash definition",
+      "pass": true
+    },
+    {
+      "name": "exact groups and references",
+      "pass": true
+    },
+    {
+      "name": "assignments and one changed binding",
+      "pass": true
+    },
+    {
+      "name": "scenario eligibility",
+      "pass": true
+    },
+    {
+      "name": "four presence states",
+      "pass": true
+    },
+    {
+      "name": "procedure identity, score, statuses",
+      "pass": true
+    },
+    {
+      "name": "safe provenance and action",
+      "pass": true
+    },
+    {
+      "name": "rank R_DETAIL",
+      "pass": true
+    },
+    {
+      "name": "rank R_SPEED",
+      "pass": true
+    },
+    {
+      "name": "source metric order distinct",
+      "pass": true
+    },
+    {
+      "name": "24 independent contexts",
+      "pass": true
+    },
+    {
+      "name": "predictions exact cardinality and order",
+      "pass": true
+    },
+    {
+      "name": "outcome 00 BASE/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "outcome 01 BASE/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "outcome 02 BASE/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 03 BASE/ALL/ARCHIVE,DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 04 BASE/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "outcome 05 BASE/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "outcome 06 BASE/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 07 BASE/EXTREMES/ARCHIVE,DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 08 BASE/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "outcome 09 BASE/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "outcome 10 BASE/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 11 BASE/NONE/ARCHIVE,DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 12 DETAIL_CONTROL/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "outcome 13 DETAIL_CONTROL/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "outcome 14 DETAIL_CONTROL/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 15 DETAIL_CONTROL/ALL/ARCHIVE,DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 16 DETAIL_CONTROL/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "outcome 17 DETAIL_CONTROL/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "outcome 18 DETAIL_CONTROL/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 19 DETAIL_CONTROL/EXTREMES/ARCHIVE,DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 20 DETAIL_CONTROL/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "outcome 21 DETAIL_CONTROL/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "outcome 22 DETAIL_CONTROL/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "outcome 23 DETAIL_CONTROL/NONE/ARCHIVE,DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "status counts",
+      "pass": true
+    },
+    {
+      "name": "missing precedes empty eligibility",
+      "pass": true
+    },
+    {
+      "name": "BASE disagreement survives selected and no availability",
+      "pass": true
+    },
+    {
+      "name": "control keeps two group identities",
+      "pass": true
+    },
+    {
+      "name": "blocked actions null, not false matches",
+      "pass": true
+    },
+    {
+      "name": "selected actions remain simulated",
+      "pass": true
+    },
+    {
+      "name": "BASE tie-break exactly P1 over P3",
+      "pass": true
+    },
+    {
+      "name": "source and proposal preservation declared",
+      "pass": true
+    },
+    {
+      "name": "expected primary local records",
+      "pass": true
+    },
+    {
+      "name": "creation order invariant explicitly stated",
+      "pass": true
+    },
+    {
+      "name": "eight exact events and seven checkpoints",
+      "pass": true
+    },
+    {
+      "name": "schedule and same-boundary order",
+      "pass": true
+    },
+    {
+      "name": "stop reason",
+      "pass": true
+    },
+    {
+      "name": "seven authored checkpoint rows",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 0",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 4",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 8",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 12",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 16",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 20",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 24",
+      "pass": true
+    },
+    {
+      "name": "checkpoint selected comparisons",
+      "pass": true
+    },
+    {
+      "name": "initial/final display and natural stop",
+      "pass": true
+    },
+    {
+      "name": "18 comparisons prescribed, not observed",
+      "pass": true
+    },
+    {
+      "name": "critical first-use before checkpoint baseline",
+      "pass": true
+    },
+    {
+      "name": "publication race safeguard",
+      "pass": true
+    },
+    {
+      "name": "lossless acquisition and truthful export",
+      "pass": true
+    },
+    {
+      "name": "browser limits and separate historical links",
+      "pass": true
+    },
+    {
+      "name": "no human, no next gate",
+      "pass": true
+    }
+  ],
+  "implementationImports": [],
+  "browserObservations": 0,
+  "humanParticipants": 0
+}

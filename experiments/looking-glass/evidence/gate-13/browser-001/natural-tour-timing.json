@@ -1,0 +1,44 @@
+[
+  {
+    "plannedHostSeconds": 5,
+    "actualHostSeconds": 5.062,
+    "observationIndex": 75,
+    "capturedCursorSeconds": 4.401299999952316,
+    "paused": false
+  },
+  {
+    "plannedHostSeconds": 9,
+    "actualHostSeconds": 9.035,
+    "observationIndex": 76,
+    "capturedCursorSeconds": 8.4015,
+    "paused": false
+  },
+  {
+    "plannedHostSeconds": 13,
+    "actualHostSeconds": 13.035,
+    "observationIndex": 77,
+    "capturedCursorSeconds": 12.4015,
+    "paused": false
+  },
+  {
+    "plannedHostSeconds": 17,
+    "actualHostSeconds": 17.05,
+    "observationIndex": 78,
+    "capturedCursorSeconds": 16.4015,
+    "paused": false
+  },
+  {
+    "plannedHostSeconds": 21,
+    "actualHostSeconds": 21.035,
+    "observationIndex": 79,
+    "capturedCursorSeconds": 20.40209999990463,
+    "paused": false
+  },
+  {
+    "plannedHostSeconds": 25,
+    "actualHostSeconds": 25.036,
+    "observationIndex": 80,
+    "capturedCursorSeconds": 24,
+    "paused": true
+  }
+]

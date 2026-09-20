@@ -1,0 +1,9 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "experiments/looking-glass/preparation/materials-recovery-v1/verify-frozen.py"
+  ],
+  "exitCode": 0,
+  "stdout": "{\n  \"previous\": {\n    \"historicalEntries\": 1947,\n    \"materialsEntries\": 352,\n    \"materialsManifestSha256\": \"b7152720317987bcfa027e98104cb2f1695b0fc3ffd29a1272293e919c8cea5c\",\n    \"failures\": [],\n    \"pass\": true,\n    \"scope\": \"Byte preservation only; no research execution or human approval implied.\"\n  },\n  \"recoveryEntries\": 3395,\n  \"recoveryManifestSha256\": \"3b1e9b76e423c6f5f8395483c1258dbb21d2c3e8ae3606d2d4207326e865240e\",\n  \"failures\": [],\n  \"pass\": true,\n  \"scope\": \"Byte preservation only; no research execution or human approval implied.\"\n}\n",
+  "stderr": ""
+}

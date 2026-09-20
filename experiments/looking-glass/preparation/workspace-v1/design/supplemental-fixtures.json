@@ -1,0 +1,504 @@
+{
+  "schemaVersion": "workspace-supplemental-fixtures/1",
+  "origin": "authored_synthetic_acceptance_only",
+  "researchOutput": false,
+  "mutatesOriginalCorpus": false,
+  "commonSemantics": {
+    "statusBits": {
+      "supported": [
+        1,
+        0
+      ],
+      "refuted": [
+        0,
+        1
+      ],
+      "conflicted": [
+        1,
+        1
+      ],
+      "unknown": [
+        0,
+        0
+      ]
+    },
+    "active": "Only explicit supersession/withdrawal deactivates a supplied record; never delete history. Withdrawal is absence of current grant, not new negative endorsement.",
+    "authority": "Only record owner may append its withdrawal/replacement; a scope/version-bound mandate permits only named operations. Model/replay/importer identity never grants permission.",
+    "planReady": "AND of physical capacity, output>=demand, exact current version commitments and any required inspection; supported only is eligible; all enacted=false",
+    "private": "Unauthorized payload omits private body and truth value, but retains an allowed tombstone with availability=private. Redaction applies before both views/exports.",
+    "reject": "Invalid actor, scope, version, parent, origin or access leaves semantic state unchanged and appends a rejected attempt.",
+    "availability": "separate from four-valued status; never coerce missing/private/not_asked/withdrawn to false or consent"
+  },
+  "cases": [
+    {
+      "id": "S01-AVAILABILITY",
+      "viewer": "OBSERVER",
+      "records": [
+        {
+          "id": "M",
+          "availability": "missing",
+          "activeValues": []
+        },
+        {
+          "id": "P",
+          "availability": "private",
+          "owner": "OWNER",
+          "allowedReaders": [
+            "OWNER"
+          ],
+          "privateBody": "PRIVATE-S01-CANARY",
+          "activeValues": [
+            true
+          ]
+        },
+        {
+          "id": "N",
+          "availability": "not_asked",
+          "activeValues": []
+        },
+        {
+          "id": "D",
+          "availability": "declined",
+          "owner": "OWNER",
+          "activeValues": [
+            false
+          ]
+        },
+        {
+          "id": "W",
+          "availability": "withdrawn",
+          "owner": "OWNER",
+          "history": [
+            {
+              "id": "W1",
+              "value": true
+            },
+            {
+              "id": "W2",
+              "withdraws": "W1",
+              "actor": "OWNER"
+            }
+          ],
+          "activeValues": []
+        },
+        {
+          "id": "C",
+          "availability": "available",
+          "activeValues": [
+            true,
+            false
+          ]
+        }
+      ],
+      "expectedObserverStatuses": {
+        "M": "unknown",
+        "P": "unknown",
+        "N": "unknown",
+        "D": "refuted",
+        "W": "unknown",
+        "C": "conflicted"
+      },
+      "expectedVisibleAvailability": [
+        "missing",
+        "private",
+        "not_asked",
+        "declined",
+        "withdrawn",
+        "available"
+      ],
+      "mustNotExpose": [
+        "PRIVATE-S01-CANARY",
+        "P.activeValues"
+      ],
+      "assertions": [
+        "All6 record IDs remain visible;private source body/value absent in payload,DOM,export",
+        "Withdrawal history remains inspectable only within authorized source scope",
+        "No status creates permission"
+      ]
+    },
+    {
+      "id": "S02-VERSION-OWNER-REPLAY",
+      "initial": {
+        "owner": "A",
+        "other": "B",
+        "plan": {
+          "id": "Q",
+          "version": 1,
+          "output": 2,
+          "cost": 1,
+          "demand": 2,
+          "resource": "r",
+          "required": 2
+        },
+        "capacity": 2,
+        "grant": {
+          "id": "G1",
+          "actor": "A",
+          "plan": "Q",
+          "version": 1,
+          "resource": "r",
+          "quantity": 2,
+          "value": true
+        }
+      },
+      "steps": [
+        {
+          "event": "newProposalVersion",
+          "actor": "A",
+          "version": 2,
+          "expectedReadiness": "unknown",
+          "expectedGrantStatus": "unknown",
+          "retains": "G1"
+        },
+        {
+          "event": "grant",
+          "actor": "B",
+          "planVersion": 2,
+          "quantity": 2,
+          "expected": "rejected_not_owner"
+        },
+        {
+          "event": "grant",
+          "actor": "A",
+          "planVersion": 2,
+          "quantity": 2,
+          "id": "G2",
+          "expected": "accepted",
+          "expectedReadiness": "supported"
+        },
+        {
+          "event": "withdraw",
+          "actor": "B",
+          "target": "G2",
+          "expected": "rejected_not_owner"
+        },
+        {
+          "event": "withdraw",
+          "actor": "A",
+          "target": "G2",
+          "origin": "replay",
+          "expected": "rejected_read_only_origin"
+        },
+        {
+          "event": "withdraw",
+          "actor": "A",
+          "target": "G2",
+          "origin": "local_synthetic_control",
+          "id": "G3",
+          "expected": "accepted",
+          "expectedReadiness": "unknown",
+          "expectedAvailability": "withdrawn"
+        }
+      ]
+    },
+    {
+      "id": "S03-CORRECTION",
+      "plan": {
+        "id": "Q",
+        "version": 1,
+        "output": 2,
+        "demand": 2,
+        "cost": 1,
+        "resource": "r",
+        "required": 2
+      },
+      "sources": [
+        {
+          "id": "CAP1",
+          "kind": "capacity",
+          "owner": "A",
+          "quantity": 2
+        },
+        {
+          "id": "GRANT1",
+          "kind": "grant",
+          "owner": "A",
+          "quantity": 2,
+          "plan": "Q",
+          "version": 1
+        }
+      ],
+      "correction": {
+        "id": "CAP2",
+        "owner": "A",
+        "kind": "capacity",
+        "quantity": 0,
+        "supersedes": "CAP1"
+      },
+      "expectedBefore": {
+        "physical": "supported",
+        "commitment": "supported",
+        "readiness": "supported"
+      },
+      "expectedAfter": {
+        "physical": "refuted",
+        "commitment": "supported",
+        "readiness": "refuted"
+      },
+      "staleDerivedRecord": {
+        "sourceIds": [
+          "CAP1",
+          "GRANT1"
+        ],
+        "afterCorrectionDisposition": "stale_not_current"
+      },
+      "assertions": [
+        "CAP1 survives historical inspection",
+        "CAP2 shown in actual derived/synthesis inputs",
+        "Old capacity never silently drives current readiness"
+      ]
+    },
+    {
+      "id": "S04-ATTRIBUTION-MANDATE",
+      "sources": [
+        {
+          "id": "E1",
+          "predicate": "endorses",
+          "actor": "A",
+          "target": "Q@1",
+          "value": false,
+          "kind": "actor_stipulation"
+        },
+        {
+          "id": "M1",
+          "predicate": "model_attributes_endorsement",
+          "actor": "A",
+          "target": "Q@1",
+          "value": true,
+          "kind": "synthetic_model_artifact"
+        },
+        {
+          "id": "MAN1",
+          "holder": "REP",
+          "operations": [
+            "describe"
+          ],
+          "target": "Q@1",
+          "complete": true
+        }
+      ],
+      "expected": {
+        "actorEndorsement": "refuted",
+        "modelAttribution": "supported",
+        "repDescribe": "allowed",
+        "repCommit": "denied"
+      },
+      "rejectedOperations": [
+        "promote M1 to actor/human attestation",
+        "REP commits resources",
+        "centered/larger REP node gains mandate"
+      ],
+      "assertions": [
+        "Both E1/M1 retained withdifferent types",
+        "Same permission result inplain/visual andafterlayoutchange"
+      ]
+    },
+    {
+      "id": "S05-SUMMARY-DEPENDENCY",
+      "summary": {
+        "offerX": 2,
+        "offerY": 2,
+        "demand": 4
+      },
+      "plans": [
+        {
+          "id": "X",
+          "output": 2,
+          "cost": 1,
+          "required": 1
+        },
+        {
+          "id": "Y",
+          "output": 2,
+          "cost": 2,
+          "required": 1
+        }
+      ],
+      "allowedBundles": [
+        [],
+        [
+          "X"
+        ],
+        [
+          "Y"
+        ],
+        [
+          "X",
+          "Y"
+        ]
+      ],
+      "worlds": [
+        {
+          "id": "SHARED",
+          "planResources": {
+            "X": "fuel",
+            "Y": "fuel"
+          },
+          "capacities": {
+            "fuel": 1
+          },
+          "validExactGrants": true,
+          "expectedSelection": "none_supported"
+        },
+        {
+          "id": "SEPARATE",
+          "planResources": {
+            "X": "fuelX",
+            "Y": "fuelY"
+          },
+          "capacities": {
+            "fuelX": 1,
+            "fuelY": 1
+          },
+          "validExactGrants": true,
+          "expectedSelection": [
+            "X",
+            "Y"
+          ],
+          "expectedOutput": 4,
+          "expectedCost": 3
+        }
+      ],
+      "summaryOnlyExpected": "insufficient_to_distinguish",
+      "assertions": [
+        "Summary payloads identical",
+        "Inspector reveals exact dependency after explicit allowed drilldown",
+        "Do not expose omitted dependencies before drilldown in summary-only payload"
+      ]
+    },
+    {
+      "id": "S06-OVERLAP",
+      "actors": [
+        "A",
+        "B",
+        "C"
+      ],
+      "memberships": {
+        "G1": [
+          "A",
+          "B"
+        ],
+        "G2": [
+          "A",
+          "C"
+        ]
+      },
+      "resource": {
+        "id": "SHARED-A",
+        "owner": "A",
+        "capacity": 1
+      },
+      "requests": [
+        {
+          "id": "R1",
+          "group": "G1",
+          "resource": "SHARED-A",
+          "quantity": 1
+        },
+        {
+          "id": "R2",
+          "group": "G2",
+          "resource": "SHARED-A",
+          "quantity": 1
+        }
+      ],
+      "expected": {
+        "uniqueActorCount": 3,
+        "membershipPlacements": 4,
+        "uniqueCapacity": 1,
+        "combinedDemand": 2,
+        "combinedPhysical": "refuted"
+      },
+      "assertions": [
+        "A may appear twice asmembershiplink butoneidentity/resource",
+        "No duplicate authority orcapacity"
+      ]
+    },
+    {
+      "id": "S07-ROSTERS-RELABEL",
+      "sizes": [
+        3,
+        4,
+        5,
+        12
+      ],
+      "generator": {
+        "actorIds": "N01 through Nnn, with two-digit indices",
+        "records": "For each actor Ni create exactly one source Ri stipulating integer quantity i and owned resource Zi.",
+        "relations": "Directed edges Ni to N(i+1) for each i<n, without wraparound.",
+        "selection": "Selecting the last actor Nnn resolves exactly Rn and Zn.",
+        "relabel": "Biject Ni to X(n+1-i), rename every reference consistently, and reverse display order."
+      },
+      "expected": [
+        {
+          "size": 3,
+          "distinctActors": 3,
+          "distinctRecords": 3,
+          "directedEdges": 2,
+          "sumQuantity": 6,
+          "lastQuantity": 3
+        },
+        {
+          "size": 4,
+          "distinctActors": 4,
+          "distinctRecords": 4,
+          "directedEdges": 3,
+          "sumQuantity": 10,
+          "lastQuantity": 4
+        },
+        {
+          "size": 5,
+          "distinctActors": 5,
+          "distinctRecords": 5,
+          "directedEdges": 4,
+          "sumQuantity": 15,
+          "lastQuantity": 5
+        },
+        {
+          "size": 12,
+          "distinctActors": 12,
+          "distinctRecords": 12,
+          "directedEdges": 11,
+          "sumQuantity": 78,
+          "lastQuantity": 12
+        }
+      ],
+      "assertions": [
+        "No first-four truncation, fixed seats or identity collisions.",
+        "After applying the inverse ID map, task values and permission results are invariant; raw identifier hashes may differ.",
+        "Layout changes alone preserve the semantic payload hash."
+      ]
+    },
+    {
+      "id": "S08-SAME-MEAN-DISTRIBUTIONS",
+      "worlds": [
+        {
+          "id": "OPPOSED",
+          "stipulatedJudgments": [
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "MODERATE",
+          "stipulatedJudgments": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "expectedMeanBoth": 0,
+      "expectedSameDistribution": false,
+      "assertions": [
+        "Show all four stipulated values and world ID in both views.",
+        "Equal mean never establishes agreement.",
+        "Values are authored test judgments, not measured human traits.",
+        "No centroid creates authority."
+      ]
+    }
+  ]
+}

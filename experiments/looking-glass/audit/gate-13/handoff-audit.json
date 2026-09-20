@@ -1,0 +1,64 @@
+{
+  "schema": "gate13-independent-handoff-audit-v1",
+  "verdict": "PASS_PREPARATION_ONLY_HANDOFF",
+  "acceptedSoftwareCandidate": "G13-MISLEAD-002",
+  "independentVerification": {
+    "script": "audit/gate-13/verify-handoff.mjs",
+    "result": "audit/gate-13/handoff-verification.json",
+    "passed": 25,
+    "total": 25,
+    "errors": []
+  },
+  "finalSynthesisSha256": {
+    "packet": "1c7c259442c8d71a67053ceade67f1f4811d48744c9f386fc526d33866d2fab9",
+    "resultsHtml": "94972776d340c8de1d15bc8efae8336ffb14f782c9c777533ab02bc26150b732",
+    "runEvidence": "eff98284518367a302e06b2b81d185a216b635ea2a2618b54b90203732c2fccb"
+  },
+  "preservedPins": {
+    "synthesisComponents": 145,
+    "candidate002ClosedCore": 138,
+    "candidate001Failure": 84,
+    "earlierGates": 1745,
+    "supersededPreScopePresentation": 20,
+    "finalPresentation": 22
+  },
+  "presentationFreezeSha256": "19ba2cac5b5b7814122b7fbe0d81a9e32d08a8c1261ca8dd622693e8772d7ead",
+  "servedReview": {
+    "approvedAssets": 8,
+    "exactSourceCopies": 8,
+    "liveGetAndHeadByteMatches": 8,
+    "privateGenericTraversalAndMutationDenialsPassed": true,
+    "historicalReplayIdentityAndResultRoutesPassed": 14
+  },
+  "finalActualPresentation": {
+    "observations": 10,
+    "originalJpegsHashCheckedAndDirectlyInspected": 3,
+    "consoleRows": 0,
+    "allFourEmbeddedImagesLoadedByObservation": 3,
+    "horizontalOverflowObserved": false,
+    "actualNextDecisionClickObserved": true
+  },
+  "goalScope": {
+    "source": "docs/preparation-goal-authority-2026-09-20.json",
+    "latestUserConfirmation": "Yes—defer both; complete preparation only",
+    "preparationComplete": false,
+    "fourAgentResearchExecutionRequiredForGoalCompletion": false,
+    "humanResearchExecutionRequiredForGoalCompletion": false,
+    "researchAgentSnapshotsPerformed": 0,
+    "humanParticipants": 0,
+    "gate14Approved": false,
+    "gate14Run": false
+  },
+  "qualification": "This passes the Gate 13 software-result handoff and preparation-only scope presentation. It does not complete the broader preparation package, which still requires reviewed materials, keys, plans, integrated instrument, relevant software acceptance, readiness documentation, independent dispositions and a verified preparation ZIP.",
+  "auditHarnessTrail": {
+    "initialResult": "audit/gate-13/handoff-verification-initial.json",
+    "initialStatus": "BLOCKED_22_OF_25_FROM_THREE_FALSE_ASSUMPTIONS",
+    "correctedAssumptions": [
+      "The packet says preparation only without the audit's expected hyphen; the substantive scope statement was present.",
+      "The run-evidence closed-core count is pinsTotal, not fileCount.",
+      "The allowlist intentionally stores route/path/SHA but no bytes field; bytes are checked against the actual source and served Content-Length."
+    ],
+    "candidateOrFrozenEvidenceFailureInInitialResult": false
+  },
+  "blockingIssues": []
+}

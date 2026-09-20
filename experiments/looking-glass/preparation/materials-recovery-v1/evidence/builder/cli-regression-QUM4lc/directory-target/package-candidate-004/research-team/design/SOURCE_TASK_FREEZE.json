@@ -1,0 +1,33 @@
+{
+  "frozenAtUtc": "2026-09-20T21:13:31.316300+00:00",
+  "purpose": "Preserve author-stable source/task/schema bytes before independent blind key derivation. Not materials acceptance.",
+  "authorKeyFileExistsAtFreeze": false,
+  "auditorAuthorKeyAccessAuthorized": false,
+  "files": [
+    {
+      "path": "preparation/materials-v1/design/world.json",
+      "sha256": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef",
+      "bytes": 28103
+    },
+    {
+      "path": "preparation/materials-v1/design/allocations.json",
+      "sha256": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d",
+      "bytes": 1119
+    },
+    {
+      "path": "preparation/materials-v1/design/development-tasks.json",
+      "sha256": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6",
+      "bytes": 6342
+    },
+    {
+      "path": "preparation/materials-v1/design/withheld-tasks.json",
+      "sha256": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03",
+      "bytes": 26576
+    },
+    {
+      "path": "preparation/materials-v1/design/snapshot.schema.json",
+      "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a",
+      "bytes": 8053
+    }
+  ]
+}

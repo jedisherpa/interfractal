@@ -1,0 +1,65 @@
+[
+  {
+    "index": 0,
+    "label": "001 select Q05",
+    "startedAtUtc": "2026-09-20T06:45:57.475Z",
+    "endedAtUtc": "2026-09-20T06:45:57.858Z",
+    "before": 3,
+    "after": 4,
+    "success": true
+  },
+  {
+    "index": 1,
+    "label": "001 scroll Q05 observations",
+    "startedAtUtc": "2026-09-20T06:45:57.858Z",
+    "endedAtUtc": "2026-09-20T06:45:58.192Z",
+    "before": 5,
+    "after": 6,
+    "success": true
+  },
+  {
+    "index": 2,
+    "label": "001 select Q08",
+    "startedAtUtc": "2026-09-20T06:46:33.219Z",
+    "endedAtUtc": "2026-09-20T06:46:33.569Z",
+    "before": 9,
+    "after": 10,
+    "success": true
+  },
+  {
+    "index": 3,
+    "label": "001 narrow viewport",
+    "startedAtUtc": "2026-09-20T06:46:33.569Z",
+    "endedAtUtc": "2026-09-20T06:46:33.678Z",
+    "before": 11,
+    "after": 12,
+    "success": true
+  },
+  {
+    "index": 4,
+    "label": "001 Q08 plain layout",
+    "startedAtUtc": "2026-09-20T06:46:48.921Z",
+    "endedAtUtc": "2026-09-20T06:46:49.371Z",
+    "before": 15,
+    "after": 16,
+    "success": true
+  },
+  {
+    "index": 5,
+    "label": "001 restore 1280",
+    "startedAtUtc": "2026-09-20T06:46:49.437Z",
+    "endedAtUtc": "2026-09-20T06:46:49.571Z",
+    "before": 19,
+    "after": 20,
+    "success": true
+  },
+  {
+    "index": 6,
+    "label": "001 reopen saved",
+    "startedAtUtc": "2026-09-20T06:46:49.571Z",
+    "endedAtUtc": "2026-09-20T06:46:49.989Z",
+    "before": 21,
+    "after": 22,
+    "success": true
+  }
+]

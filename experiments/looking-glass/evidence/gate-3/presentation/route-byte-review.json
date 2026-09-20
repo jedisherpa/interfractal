@@ -1,0 +1,155 @@
+{
+  "reviewedAtUtc": "2026-09-20T03:06:08.524813+00:00",
+  "resultsHtmlSha256": "1862fd1d1005711e91c068befc140f141cb7e9a82dbd4a2af6e16d89f1f07c32",
+  "checks": [
+    {
+      "url": "http://127.0.0.1:43996/",
+      "status": 200,
+      "bytes": 7227,
+      "sha256": "b853c82d7fc603d74421ce445954d2362abfbf2f28dbf264692912620182e017",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/G3-TESSERACT-001-browser-failure.json",
+      "status": 200,
+      "bytes": 1061,
+      "sha256": "c09fa915a8e9f0d70894098590214a71499a20be31006fd5cf9f1e7bc27f4c09",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/GATE_3_PACKET.md",
+      "status": 200,
+      "bytes": 12505,
+      "sha256": "cc83328630eb2de74fafedbacd4aff315bde2bd1b9ea19f60e02e350825a0752",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/HOST_OBSERVATIONS.md",
+      "status": 200,
+      "bytes": 6047,
+      "sha256": "7eb4a6604a3f583b074a692bd2ff409d0d77534bd6d6585ffdeb7b9032237052",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/activity-snapshot.jsonl",
+      "status": 200,
+      "bytes": 107259,
+      "sha256": "b327f94ec35a9bf780ea679df15d96a62f3bd0ef212e8b187f551606ea289e7e",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/browser-observations.json",
+      "status": 200,
+      "bytes": 9373980,
+      "sha256": "63ca5bfbf928747615e871581dbf140a037b9411d5a759e9bf09789153e09d4d",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/browser-tool-anomalies.json",
+      "status": 200,
+      "bytes": 593,
+      "sha256": "a2024bfc89f80d6cc96f1ac61e5c33e0d83722c3dfa00018d76c78685d6eda63",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/candidates/G3-TESSERACT-002/BOUNDED_SNAPSHOT.json",
+      "status": 200,
+      "bytes": 1913,
+      "sha256": "0e35411573ab5ebaa1970652562d86457e7fb2845fb22a448eda4435d221ee0a",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/capture-index.json",
+      "status": 200,
+      "bytes": 28201,
+      "sha256": "fd1d758d96d52099a443bfbb11503763747206db3d6a9597a823cafd8a5d91ac",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/execution-provenance.json",
+      "status": 200,
+      "bytes": 2277,
+      "sha256": "9c6d3e09b3e90a1c4e675b05846558337ef5a141b362835a0f04ca47f957f69a",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/historical-gate2-review.json",
+      "status": 200,
+      "bytes": 75338,
+      "sha256": "c263deed5139506d50843bf991daca9ba9d25f42914d09f4d30ecc7d22488aca",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/post-browser-prior-integrity.json",
+      "status": 200,
+      "bytes": 607,
+      "sha256": "b9ec970385e782ce1caebd8c17bdf5eb2e4afa94b7dd947c39a532f2e00f7eb7",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/review/AUDIT.md",
+      "status": 200,
+      "bytes": 9992,
+      "sha256": "7b9ebce4d3c991b5b0853653795e1fa7f7c220ba4020c9fb36c55bd2a843b6f4",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/review/EXPERIMENT_CHARTER.md",
+      "status": 200,
+      "bytes": 13285,
+      "sha256": "b931fa0f10efba21e6c79d35a719b27e9ef6cd114d740a590116cd7c24fb7a7b",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/screenshots/001-inspector-scroll.jpg",
+      "status": 200,
+      "bytes": 127132,
+      "sha256": "e632138f5ced7edf08a008194b0f9655e362a6b92b10cf5f85aae2b0a9c7abc4",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/screenshots/003-C0-paused-0s.jpg",
+      "status": 200,
+      "bytes": 99937,
+      "sha256": "5d32d15a78caf455979f23cc6bc80f5facd4990ac7d80ebe334e7b98fcd6c8d8",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/screenshots/003-C1-paused-16s.jpg",
+      "status": 200,
+      "bytes": 99356,
+      "sha256": "6f6f34760465cce338479f59782957ffed7e7cd3dea1f910f8753f2590e7b593",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/screenshots/003-C2-active-reverse.jpg",
+      "status": 200,
+      "bytes": 100699,
+      "sha256": "2fdfe14a42989422db6beea8296f024f3b04dd9c6c218118b00743a3d937d624",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/screenshots/003-C3-observability-comparison.jpg",
+      "status": 200,
+      "bytes": 127584,
+      "sha256": "0e099d43c3e1d821fbefa095bf03c346d8b958e6116129cd4b2cb39684e4e171",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/evidence/gate-3/screenshots/003-resize-960x720-json.jpg",
+      "status": 200,
+      "bytes": 70568,
+      "sha256": "5af349d68759921f2bcce08c1eab14d011b4d27e09403da86aa4109c5d8aeecb",
+      "matchesSavedFile": true
+    },
+    {
+      "url": "http://127.0.0.1:43996/",
+      "status": 200,
+      "bytes": 7227,
+      "sha256": "b853c82d7fc603d74421ce445954d2362abfbf2f28dbf264692912620182e017",
+      "matchesSavedFile": true
+    }
+  ],
+  "passed": 21,
+  "failed": 0
+}

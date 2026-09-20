@@ -1,0 +1,320 @@
+[
+  {
+    "index": 24,
+    "label": "002 baseline checkpoint 8000",
+    "attemptedAtUtc": "2026-09-20T03:32:07.171Z",
+    "observationBefore": 41
+  },
+  {
+    "index": 25,
+    "label": "002 baseline checkpoint 16000",
+    "attemptedAtUtc": "2026-09-20T03:32:07.884Z",
+    "observationBefore": 44
+  },
+  {
+    "index": 26,
+    "label": "002 baseline checkpoint 20000",
+    "attemptedAtUtc": "2026-09-20T03:32:08.785Z",
+    "observationBefore": 47
+  },
+  {
+    "index": 27,
+    "label": "002 baseline checkpoint 24000",
+    "attemptedAtUtc": "2026-09-20T03:32:09.545Z",
+    "observationBefore": 50
+  },
+  {
+    "index": 28,
+    "label": "002 baseline checkpoint 32000",
+    "attemptedAtUtc": "2026-09-20T03:32:09.924Z",
+    "observationBefore": 51
+  },
+  {
+    "index": 29,
+    "label": "002 baseline checkpoint 40000",
+    "attemptedAtUtc": "2026-09-20T03:32:10.408Z",
+    "observationBefore": 52
+  },
+  {
+    "index": 30,
+    "label": "002 negative interior",
+    "attemptedAtUtc": "2026-09-20T03:32:37.320Z",
+    "observationBefore": 53
+  },
+  {
+    "index": 31,
+    "label": "002 negative boundary point",
+    "attemptedAtUtc": "2026-09-20T03:32:37.923Z",
+    "observationBefore": 54
+  },
+  {
+    "index": 32,
+    "label": "002 negative empty",
+    "attemptedAtUtc": "2026-09-20T03:32:38.430Z",
+    "observationBefore": 55
+  },
+  {
+    "index": 33,
+    "label": "002 restore8000 after negative slice",
+    "attemptedAtUtc": "2026-09-20T03:32:38.650Z",
+    "observationBefore": 56
+  },
+  {
+    "index": 34,
+    "label": "002 slice override at8000",
+    "attemptedAtUtc": "2026-09-20T03:32:39.350Z",
+    "observationBefore": 57
+  },
+  {
+    "index": 35,
+    "label": "002 restore8000 after positive override",
+    "attemptedAtUtc": "2026-09-20T03:32:39.626Z",
+    "observationBefore": 58
+  },
+  {
+    "index": 36,
+    "label": "002 ambiguity initial canonical camera",
+    "attemptedAtUtc": "2026-09-20T03:32:39.997Z",
+    "observationBefore": 59
+  },
+  {
+    "index": 37,
+    "label": "002 camera-only yaw120",
+    "attemptedAtUtc": "2026-09-20T03:32:40.794Z",
+    "observationBefore": 62
+  },
+  {
+    "index": 38,
+    "label": "002 ambiguity initial camera120",
+    "attemptedAtUtc": "2026-09-20T03:32:41.079Z",
+    "observationBefore": 63
+  },
+  {
+    "index": 39,
+    "label": "002 movie same frame common camera120",
+    "attemptedAtUtc": "2026-09-20T03:32:41.472Z",
+    "observationBefore": 64
+  },
+  {
+    "index": 40,
+    "label": "002 restore8000 after camera",
+    "attemptedAtUtc": "2026-09-20T03:32:42.329Z",
+    "observationBefore": 67
+  },
+  {
+    "index": 41,
+    "label": "002 ambiguity known plane",
+    "attemptedAtUtc": "2026-09-20T03:32:42.811Z",
+    "observationBefore": 68
+  },
+  {
+    "index": 42,
+    "label": "002 ambiguity return plane0",
+    "attemptedAtUtc": "2026-09-20T03:32:43.311Z",
+    "observationBefore": 71
+  },
+  {
+    "index": 43,
+    "label": "002 restore20000 for heldout",
+    "attemptedAtUtc": "2026-09-20T03:32:43.736Z",
+    "observationBefore": 72
+  },
+  {
+    "index": 44,
+    "label": "002 movie baseline20000 compare",
+    "attemptedAtUtc": "2026-09-20T03:32:44.166Z",
+    "observationBefore": 73
+  },
+  {
+    "index": 45,
+    "label": "002 heldout movie source",
+    "attemptedAtUtc": "2026-09-20T03:32:44.558Z",
+    "observationBefore": 74
+  },
+  {
+    "index": 46,
+    "label": "002 movie return saved turn",
+    "attemptedAtUtc": "2026-09-20T03:32:45.503Z",
+    "observationBefore": 77
+  },
+  {
+    "index": 47,
+    "label": "002 restore20000 after heldout",
+    "attemptedAtUtc": "2026-09-20T03:32:45.960Z",
+    "observationBefore": 78
+  },
+  {
+    "index": 48,
+    "label": "002 seek request8050",
+    "attemptedAtUtc": "2026-09-20T03:33:04.955Z",
+    "observationBefore": 79
+  },
+  {
+    "index": 49,
+    "label": "002 seek request-100",
+    "attemptedAtUtc": "2026-09-20T03:33:05.434Z",
+    "observationBefore": 80
+  },
+  {
+    "index": 50,
+    "label": "002 seek request40500",
+    "attemptedAtUtc": "2026-09-20T03:33:06.043Z",
+    "observationBefore": 81
+  },
+  {
+    "index": 51,
+    "label": "002 step at end stays clamped",
+    "attemptedAtUtc": "2026-09-20T03:33:06.493Z",
+    "observationBefore": 82
+  },
+  {
+    "index": 52,
+    "label": "002 scrub12300",
+    "attemptedAtUtc": "2026-09-20T03:33:07.054Z",
+    "observationBefore": 83
+  },
+  {
+    "index": 53,
+    "label": "002 restore8000 before play-pause",
+    "attemptedAtUtc": "2026-09-20T03:33:07.469Z",
+    "observationBefore": 84
+  },
+  {
+    "index": 54,
+    "label": "002 manual play",
+    "attemptedAtUtc": "2026-09-20T03:33:07.853Z",
+    "observationBefore": 85
+  },
+  {
+    "index": 55,
+    "label": "002 manual pause",
+    "attemptedAtUtc": "2026-09-20T03:33:13.731Z",
+    "observationBefore": 86
+  },
+  {
+    "index": 56,
+    "label": "002 step from held pause",
+    "attemptedAtUtc": "2026-09-20T03:33:25.818Z",
+    "observationBefore": 88
+  },
+  {
+    "index": 57,
+    "label": "002 uninterrupted replay from start",
+    "attemptedAtUtc": "2026-09-20T03:33:26.329Z",
+    "observationBefore": 89
+  },
+  {
+    "index": 58,
+    "label": "002 repeat checkpoint0",
+    "attemptedAtUtc": "2026-09-20T03:34:18.987Z",
+    "observationBefore": 97
+  },
+  {
+    "index": 59,
+    "label": "002 repeat checkpoint8000",
+    "attemptedAtUtc": "2026-09-20T03:34:19.601Z",
+    "observationBefore": 98
+  },
+  {
+    "index": 60,
+    "label": "002 repeat checkpoint16000",
+    "attemptedAtUtc": "2026-09-20T03:34:20.044Z",
+    "observationBefore": 99
+  },
+  {
+    "index": 61,
+    "label": "002 repeat checkpoint20000",
+    "attemptedAtUtc": "2026-09-20T03:34:20.384Z",
+    "observationBefore": 100
+  },
+  {
+    "index": 62,
+    "label": "002 repeat checkpoint24000",
+    "attemptedAtUtc": "2026-09-20T03:34:20.860Z",
+    "observationBefore": 101
+  },
+  {
+    "index": 63,
+    "label": "002 repeat checkpoint32000",
+    "attemptedAtUtc": "2026-09-20T03:34:21.275Z",
+    "observationBefore": 102
+  },
+  {
+    "index": 64,
+    "label": "002 repeat checkpoint40000",
+    "attemptedAtUtc": "2026-09-20T03:34:21.650Z",
+    "observationBefore": 103
+  },
+  {
+    "index": 65,
+    "label": "002 inspector opens at end",
+    "attemptedAtUtc": "2026-09-20T03:34:22.025Z",
+    "observationBefore": 104
+  },
+  {
+    "index": 66,
+    "label": "002 inspector closed manually",
+    "attemptedAtUtc": "2026-09-20T03:34:23.831Z",
+    "observationBefore": 111
+  },
+  {
+    "index": 67,
+    "label": "002 checkpoint8000 after display changes",
+    "attemptedAtUtc": "2026-09-20T03:34:24.277Z",
+    "observationBefore": 112
+  },
+  {
+    "index": 68,
+    "label": "002 library open current run paused",
+    "attemptedAtUtc": "2026-09-20T03:35:38.432Z",
+    "observationBefore": 113
+  },
+  {
+    "index": 69,
+    "label": "002 library recovery checkpoint8000",
+    "attemptedAtUtc": "2026-09-20T03:35:38.674Z",
+    "observationBefore": 114
+  },
+  {
+    "index": 70,
+    "label": "002 actual reload opens paused",
+    "attemptedAtUtc": "2026-09-20T03:35:39.061Z",
+    "observationBefore": 115
+  },
+  {
+    "index": 71,
+    "label": "002 reload recovery checkpoint20000",
+    "attemptedAtUtc": "2026-09-20T03:35:39.246Z",
+    "observationBefore": 116
+  },
+  {
+    "index": 72,
+    "label": "002 inspector open before checkpoint",
+    "attemptedAtUtc": "2026-09-20T03:35:39.622Z",
+    "observationBefore": 117
+  },
+  {
+    "index": 73,
+    "label": "002 checkpoint closes inspector and restores20000",
+    "attemptedAtUtc": "2026-09-20T03:35:40.055Z",
+    "observationBefore": 118
+  },
+  {
+    "index": 74,
+    "label": "002 open actual Gate3 history link",
+    "attemptedAtUtc": "2026-09-20T03:35:40.420Z",
+    "observationBefore": 119
+  },
+  {
+    "index": 75,
+    "label": "002 library uninterrupted replay from start",
+    "attemptedAtUtc": "2026-09-20T03:36:06.742Z",
+    "observationBefore": 120
+  },
+  {
+    "index": 76,
+    "label": "002 final canonical paused reset",
+    "attemptedAtUtc": "2026-09-20T03:37:01.675Z",
+    "observationBefore": 126
+  }
+]

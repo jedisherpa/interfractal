@@ -1,0 +1,10 @@
+{
+  "recordedAtUtc": "2026-09-20T22:04:27.697376+00:00",
+  "command": [
+    "python3",
+    "preparation/materials-v1/verify-frozen.py"
+  ],
+  "exitCode": 0,
+  "stdout": "{\n  \"historicalEntries\": 1947,\n  \"materialsEntries\": 352,\n  \"materialsManifestSha256\": \"b7152720317987bcfa027e98104cb2f1695b0fc3ffd29a1272293e919c8cea5c\",\n  \"failures\": [],\n  \"pass\": true,\n  \"scope\": \"Byte preservation only; no research execution or human approval implied.\"\n}\n",
+  "stderr": ""
+}

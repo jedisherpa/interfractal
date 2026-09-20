@@ -1,0 +1,12 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T01:01:58.775543+00:00",
+  "source": "actual user message in this task",
+  "user_message": "I approve Gate 1. Save this replay and commit it then move on to the next.",
+  "approved_gate": 1,
+  "approved_scope": "3D-to-2D calibration and model/replay checks; save and commit the reviewed Gate 0 replay before starting Gate 1.",
+  "reviewed_run_id": "G0-CUBE-005",
+  "reviewed_build_id": "g0-d85237ad31362768",
+  "reviewed_packet_sha256": "3a6503efa50531f777ac089540086d7fecebd17544bc5f09af3f5869b45826fd",
+  "reviewed_freeze_manifest_sha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+  "gate_2_approved": false
+}

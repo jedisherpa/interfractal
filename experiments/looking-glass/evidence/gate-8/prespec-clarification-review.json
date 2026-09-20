@@ -1,0 +1,42 @@
+{
+  "gate": 8,
+  "recordedAtUtc": "2026-09-20T08:02:50.088387+00:00",
+  "reviewer": "host coordinator",
+  "scope": "Conformance of Astra event-order clarification to completed independent Sol review; no replacement of mathematical oracle",
+  "changes": [
+    "t0 is initial-state rather than fabricated interaction",
+    "t24 separate replay sliceMinus2 then slicePlus2 additions in fixture order",
+    "t32 replay xw90 addition followed by automatic tour-stop with reason end-of-sequence and chained fingerprints",
+    "checkpoint states follow all same-boundary events"
+  ],
+  "result": "PASS: matches requested clarification; fixture and predictions unchanged",
+  "independentMathematicalReview": "audit/gate-8/prespec-review.md",
+  "limitation": "Attempted independent auditor resume and new audit dispatch returned agent thread limit reached. Actual immutable-build event implementation remains to be independently audited.",
+  "reviewedFiles": [
+    {
+      "path": "docs/gate-8/experiment-charter.md",
+      "sha256": "621d7b1d804f9ee984b68dc26d6dfcc58de4c395a33664dc358fa88f6f0bf62c",
+      "bytes": 6886
+    },
+    {
+      "path": "docs/gate-8/model-contract.md",
+      "sha256": "84f98f27acfb9b0a463d3e27b9f3250c2efcfcf5d6b8dfd4117a0a155f8e6b3d",
+      "bytes": 10167
+    },
+    {
+      "path": "docs/gate-8/record-contract.md",
+      "sha256": "faca999c99d3da4feafdb27bf9c5bcc08f1ed6b93aa41ed6248239f6e8e36e69",
+      "bytes": 9401
+    },
+    {
+      "path": "docs/gate-8/fixture.json",
+      "sha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509",
+      "bytes": 6580
+    },
+    {
+      "path": "docs/gate-8/independent-predictions.json",
+      "sha256": "2468b3934d36e1a9618f20cdf5ca1286344ea38687f32fc6af3f128f4100a9d6",
+      "bytes": 20259
+    }
+  ]
+}

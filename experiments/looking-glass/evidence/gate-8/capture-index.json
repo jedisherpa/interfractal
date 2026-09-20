@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "path": "evidence/gate-8/screenshots/001-resumed-initial-paused.jpg",
+    "recordedAtUtc": "2026-09-20T08:14:20.779Z",
+    "beforeObservation": 1,
+    "afterObservation": 2,
+    "sha256": "b656b54a9c47d3ebf8549a90533377d2dea46a17f812b116bcb956fd81ac0e6e",
+    "bytes": 99660,
+    "original": true
+  },
+  {
+    "index": 1,
+    "path": "evidence/gate-8/screenshots/001-resumed-layout-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:14:34.843Z",
+    "beforeObservation": 5,
+    "afterObservation": 6,
+    "sha256": "4015df505a167233af3f1cfa6a2f5fe19d098e6bee74e1706eaa1114bfd145d3",
+    "bytes": 59948,
+    "original": true
+  },
+  {
+    "index": 2,
+    "path": "evidence/gate-8/screenshots/001-resumed-records-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:14:35.814Z",
+    "beforeObservation": 9,
+    "afterObservation": 10,
+    "sha256": "9d27898102d5458663dc8f1a3b8d1a133b708e542f7cd274c6f03e2b9b130cc0",
+    "bytes": 75064,
+    "original": true
+  },
+  {
+    "index": 3,
+    "path": "evidence/gate-8/screenshots/001-resumed-inspector-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:14:37.245Z",
+    "beforeObservation": 15,
+    "afterObservation": 16,
+    "sha256": "f6f018c33dbf567f55686c5e14ecef8dc340ab2f9e672f02448aef3980311152",
+    "bytes": 52240,
+    "original": true
+  },
+  {
+    "index": 4,
+    "path": "evidence/gate-8/screenshots/001-resumed-c01-revealed.jpg",
+    "recordedAtUtc": "2026-09-20T08:16:36.617Z",
+    "beforeObservation": 53,
+    "afterObservation": 54,
+    "sha256": "5f3aa2f0c45db692890094c8b8f6593d1171aa219ed410d153c7a20c905cac96",
+    "bytes": 93986,
+    "original": true
+  },
+  {
+    "index": 5,
+    "path": "evidence/gate-8/screenshots/001-resumed-c02-complementary.jpg",
+    "recordedAtUtc": "2026-09-20T08:16:56.972Z",
+    "beforeObservation": 65,
+    "afterObservation": 66,
+    "sha256": "3804563473c7f1c10aafd44a1a1fcc0a289f609e83fbe75d20d1c5e73c0b43ad",
+    "bytes": 104585,
+    "original": true
+  },
+  {
+    "index": 6,
+    "path": "evidence/gate-8/screenshots/001-resumed-c03-no-separator.jpg",
+    "recordedAtUtc": "2026-09-20T08:17:23.515Z",
+    "beforeObservation": 87,
+    "afterObservation": 88,
+    "sha256": "f810df245a21caca06ef41c29ff1bd3d21ae22f545693f174dda8221b0f658d3",
+    "bytes": 105309,
+    "original": true
+  },
+  {
+    "index": 7,
+    "path": "evidence/gate-8/screenshots/001-resumed-c03-outside-menu.jpg",
+    "recordedAtUtc": "2026-09-20T08:17:23.820Z",
+    "beforeObservation": 91,
+    "afterObservation": 92,
+    "sha256": "1fedd0b87b97e54110e3cfaa3d7754f99e5bc31cf54ac185863628e007bfae26",
+    "bytes": 86494,
+    "original": true
+  },
+  {
+    "index": 8,
+    "path": "evidence/gate-8/screenshots/001-resumed-c04-rounding-trap.jpg",
+    "recordedAtUtc": "2026-09-20T08:17:36.875Z",
+    "beforeObservation": 97,
+    "afterObservation": 98,
+    "sha256": "46bfdf692d681f9579d1b6a136d46126f97bfdd806844dca5aecb635bc378eb9",
+    "bytes": 86509,
+    "original": true
+  },
+  {
+    "index": 9,
+    "path": "evidence/gate-8/screenshots/001-resumed-c04-robust-query.jpg",
+    "recordedAtUtc": "2026-09-20T08:17:37.580Z",
+    "beforeObservation": 103,
+    "afterObservation": 104,
+    "sha256": "d1269987ebb74a68741c6760ea14b4e2714b3caa9e75a8e28860887d43d2541b",
+    "bytes": 109041,
+    "original": true
+  },
+  {
+    "index": 10,
+    "path": "evidence/gate-8/screenshots/001-resumed-tour-active.jpg",
+    "recordedAtUtc": "2026-09-20T08:18:19.929Z",
+    "beforeObservation": 175,
+    "afterObservation": 176,
+    "sha256": "59882993243ac7c38836772823516e22e5c794f5505d8a11301d8ebbf356cad1",
+    "bytes": 99615,
+    "original": true
+  },
+  {
+    "index": 11,
+    "path": "evidence/gate-8/screenshots/001-resumed-tour-natural-end.jpg",
+    "recordedAtUtc": "2026-09-20T08:19:20.092Z",
+    "beforeObservation": 178,
+    "afterObservation": 179,
+    "sha256": "67b6495815bead4438bad3774f85f0566b69347a9eb7774a4c3c3bb5c71180d5",
+    "bytes": 104938,
+    "original": true
+  },
+  {
+    "index": 12,
+    "path": "evidence/gate-8/screenshots/001-resumed-settled-layout-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:19:21.401Z",
+    "beforeObservation": 188,
+    "afterObservation": 189,
+    "sha256": "26172670ce151f1432899163f98bea359067c1c5e7a70c1d8641139716efac77",
+    "bytes": 97532,
+    "original": true
+  },
+  {
+    "index": 13,
+    "path": "evidence/gate-8/screenshots/001-resumed-final-paused.jpg",
+    "recordedAtUtc": "2026-09-20T08:19:59.227Z",
+    "beforeObservation": 195,
+    "afterObservation": 196,
+    "sha256": "dd185891e60b9658d241d185423e9517cc64a2e426ed60750db61e4a96308591",
+    "bytes": 100791,
+    "original": true
+  }
+]

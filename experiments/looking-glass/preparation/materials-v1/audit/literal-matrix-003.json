@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "materials-literal-matrix/1",
+  "candidate": "003",
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "understands rule plus matching source",
+      "expectedAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "endorses negative rule plus matching source",
+      "expectedAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "commitment rule plus exact source",
+      "expectedAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "model attribution rule plus exact artifact",
+      "expectedAccept": true,
+      "accepted": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "understands positive rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: positive literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "understands negative rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: negative literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "endorses positive rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-ENDORSES: positive literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "endorses negative rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-ENDORSES: negative literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "resource_commitment positive rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-COMMITMENT: positive literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "resource_commitment negative rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-COMMITMENT: negative literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "model_attributes_endorsement positive rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: positive literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "model_attributes_endorsement negative rule-only",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: negative literal attestation requires a supplied typed source witness; rules alone are insufficient"
+      ]
+    },
+    {
+      "name": "wrong resource-commitment quantity",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-COMMITMENT: F-C04-3 does not positively support this exact predicate, roles, value and evidence kind"
+      ]
+    },
+    {
+      "name": "wrong endorsement plan",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-ENDORSES: F-C04-2 does not refute this exact predicate, roles, value and evidence kind"
+      ]
+    },
+    {
+      "name": "model inference cannot serve literal understanding",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: literal understands requires source_stipulation, not model inference"
+      ]
+    },
+    {
+      "name": "model artifact cannot be relabeled source stipulation",
+      "expectedAccept": false,
+      "accepted": false,
+      "pass": true,
+      "errors": [
+        "I-UNDERSTANDS: literal model_attributes_endorsement requires model_attribution, not model inference",
+        "I-UNDERSTANDS: non-stipulated source labeled as source stipulation"
+      ]
+    }
+  ]
+}

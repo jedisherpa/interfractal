@@ -1,0 +1,28 @@
+{
+  "runId": "G0-CUBE-005",
+  "buildId": "g0-d85237ad31362768",
+  "status": "Browser and independent numeric checks passed; Gate 1 awaits Paul\u2019s review.",
+  "screenshots": [
+    {
+      "label": "Initial",
+      "url": "/evidence/gate-0/G0-CUBE-005-S0-initial.png",
+      "simulationTimeMs": 0
+    },
+    {
+      "label": "Midpoint",
+      "url": "/evidence/gate-0/G0-CUBE-005-S1-midpoint.png",
+      "simulationTimeMs": 10000
+    },
+    {
+      "label": "Final",
+      "url": "/evidence/gate-0/G0-CUBE-005-S2-final.png",
+      "simulationTimeMs": 20000
+    },
+    {
+      "label": "Replayed midpoint",
+      "url": "/evidence/gate-0/G0-CUBE-005-S3-replay-midpoint.png",
+      "simulationTimeMs": 10000
+    }
+  ],
+  "resultsUrl": "/evidence/gate-0/results.html"
+}

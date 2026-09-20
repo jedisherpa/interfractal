@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": {
+    "json_documents_parse": 9,
+    "frozen_R1_hashes_unchanged": 5,
+    "source_snapshots_sha256_and_git_blob_match": 16,
+    "start_here_local_links_resolve": true
+  },
+  "scope": "Package integrity only; synthetic computation results are in studies/synthetic_check_result.json."
+}

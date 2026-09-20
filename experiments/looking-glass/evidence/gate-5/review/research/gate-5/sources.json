@@ -1,0 +1,91 @@
+{
+  "gate": 5,
+  "scope": "Bounded primary-source review for 5D hypercube counts, orthogonal coordinate-plane rotations, known-transform linear observability, and closed 5D-ball 3D slices",
+  "accessed_at_utc": "2026-09-20T03:49:24Z",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only source inspection. No implementation, browser run, deployment, external communication, human study, Gate 6 work, or publication.",
+  "primary_sources": [
+    {
+      "title": "Lecture 11: High Dimensional Geometry, Curse of Dimensionality, Dimension Reduction",
+      "author": "Sanjeev Arora, Princeton University COS 521",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall13/cos521/lecnotes/lec11.pdf",
+      "accessed_at_utc": "2026-09-20T03:49:24Z",
+      "source_type": "Princeton University course lecture notes",
+      "pins": [
+        "PDF p. 1, fetched lines 26-39: the unit n-cube in R^n is {(x1,...,xn): 0 <= xi <= 1}.",
+        "PDF p. 1, fetched lines 40-44: the unit n-ball is B_n = {x : sum_i x_i^2 <= 1}.",
+        "PDF p. 1, fetched lines 45-53: the x_1=1/2 slice of the 4D unit ball is a 3-ball of radius sqrt(1-(1/2)^2), and every parallel slice is a ball."
+      ],
+      "supports": [
+        "The Euclidean closed-ball equation used as the source definition for the 5D slice derivation.",
+        "A fixed-coordinate slice reduces the dimension by one and has a square-root residual radius; the two-fixed-coordinate 5D case follows by direct substitution."
+      ],
+      "does_not_support": [
+        "The project’s centered {-1,+1}^5 vertex convention; the 32/80 count is derived in this review.",
+        "The project’s coordinate-plane rotation matrices, projection matrix, UI, or camera behavior.",
+        "A browser, human-comprehension, arbitrary-reconstruction, or physical-extra-dimension claim."
+      ],
+      "use_in_gate5": "Reused verified prior primary ball source for the 5D closed-ball equation and the dimension-drop/square-root slice law."
+    },
+    {
+      "title": "NumCS(E), AT’25, Chapter 3: Direct Methods for Linear Least Squares Problems",
+      "author": "Ralf Hiptmair, ETH Zurich",
+      "url": "https://people.math.ethz.ch/~grsam/NumMeth/Parts/NCSEFL_handout_chapter_3.pdf",
+      "accessed_at_utc": "2026-09-20T03:49:24Z",
+      "source_type": "ETH Zurich numerical-analysis lecture notes",
+      "pins": [
+        "PDF p. 25, fetched lines 2577-2586: Q is orthogonal when Q^{-1}=Q^T, and orthogonal/unitary maps preserve the Euclidean 2-norm.",
+        "PDF p. 12, fetched lines 1397-1408: if m >= n and N(A)={0}, least squares has a unique solution; N(A)={0} is equivalent to rank(A)=n.",
+        "PDF p. 13, fetched lines 1489-1492: rank defect means redundant parameters can yield the same outputs and are not observable/identifiable."
+      ],
+      "supports": [
+        "Orthogonal coordinate-plane rotation blocks preserve source norms and pairwise distances.",
+        "For a stacked known linear observation system, full column rank is the condition for unique least-squares recovery.",
+        "A rank-deficient observation leaves at least one source-coordinate direction unidentifiable under the declared model."
+      ],
+      "does_not_support": [
+        "The specific x-w and y-v matrices, fixed P=[I_3 0 0], or the project’s composition order; these are direct derivations/model choices.",
+        "Recovery from arbitrary screenshots, unknown transforms/correspondences, a physical five-dimensional space, or human comprehension."
+      ],
+      "use_in_gate5": "Primary linear-algebra reference for orthogonality, rank, unique least-squares recovery, and the meaning of hidden/unidentifiable coordinates."
+    }
+  ],
+  "derived_checks": [
+    {
+      "claim": "5D hypercube counts",
+      "formula": "|{-1,+1}^5|=2^5=32; edges=5*2^5/2=5*2^4=80",
+      "derivation": "Each of five coordinates independently takes two values; each vertex has five one-coordinate neighbors and each undirected edge is counted at both endpoints.",
+      "status": "direct derivation under the declared centered hypercube model from the Princeton n-cube definition"
+    },
+    {
+      "claim": "Independent orthogonal coordinate-plane rotations",
+      "formula": "R_xw(a): (x,w)->(cos(a)x-sin(a)w, sin(a)x+cos(a)w); R_yv(b): (y,v)->(cos(b)y-sin(b)v, sin(b)y+cos(b)v)",
+      "derivation": "Each matrix is identity outside a 2-by-2 rotation block; direct multiplication gives R^T R=I. The planes are disjoint, so the two matrices commute, with inverses at negated angles.",
+      "status": "direct matrix derivation, with orthogonality/norm preservation interpreted using the ETH source"
+    },
+    {
+      "claim": "Known 5D linear observation reaches rank five",
+      "formula": "p=P R_yv(b) R_xw(a) q, P=[I_3 0 0]; identity view plus a=b=pi/2 has row span {e_x,e_y,e_z,-e_w,-e_v}",
+      "derivation": "A single view has at most three rows. With x-w-only views, the v column is zero and rank is at most four. Adding the known y-v rotation supplies the v row, giving rank five and conditional unique least-squares recovery.",
+      "status": "direct linear-algebra derivation plus the ETH full-column-rank result"
+    },
+    {
+      "claim": "5D closed-ball coordinate slice",
+      "formula": "B^5_R intersect {w=s,v=t}={(x,y,z,s,t): x^2+y^2+z^2 <= R^2-s^2-t^2}; rho=sqrt(R^2-s^2-t^2)",
+      "derivation": "Substitute the two fixed coordinates into x^2+y^2+z^2+w^2+v^2<=R^2. Positive residual gives a solid 3-ball, zero gives one point, and negative residual gives empty.",
+      "status": "direct derivation from the Princeton n-ball definition; two-constraint extension is project-derived"
+    },
+    {
+      "claim": "Same-radius ambiguity",
+      "formula": "rho(s,t) depends only on s^2+t^2; e.g. for R=1, (0.6,0) and (0,0.6) both give rho=0.8",
+      "derivation": "Distinct parameter pairs on the same circle in the (s,t) plane have equal residual radius and therefore equal centered 3D slice geometry.",
+      "status": "project-derived bounded ambiguity; equal geometry does not identify ordered hidden parameters without metadata or intervention"
+    }
+  ],
+  "limits": [
+    "The rank-five check assumes exact known linear transforms, known point correspondences, the fixed coordinate projection, and numerical tolerance; it is not arbitrary image inversion.",
+    "The 5D slice assumes a centered Euclidean closed ball and two coordinate hyperplanes. Translated or tilted planes require a corresponding distance-to-center derivation.",
+    "The equal-radius ambiguity concerns the declared centered-ball slice geometry; source metadata can distinguish parameter pairs even when their displayed geometry is equal.",
+    "No source supports a browser result, human understanding, arbitrary reconstruction, or a physical-extra-dimension claim."
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "schema": "gate7-run-evidence-v1",
+  "gate": 7,
+  "status": "qualified_instrument_result",
+  "runId": "G7-INTERPRET-002",
+  "buildId": "g7-90e64952eb028069",
+  "sourceSha256": "90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078",
+  "baseRevision": "39d97a4d2829e1b4bec45b0afce90c758a6e05c8",
+  "publicSummaryPolicy": "No exact correct-choice mappings, hidden coordinates or task explanations. Deliberate reveal in the instrument holds the explanation boundary.",
+  "conclusion": "Faithful and inspectable for these declared synthetic properties under known model/observation assumptions; human understanding and a general visual advantage are untested.",
+  "humanParticipantCount": 0,
+  "humanScore": null,
+  "publicDeployment": false,
+  "sharedMeaningProtocolExecuted": false,
+  "prespec": {
+    "files": 6,
+    "frozenAtUtc": "2026-09-20T06:37:42.415485+00:00",
+    "sha256": "8abb6366f27a42590c89365c4d1f019e5c350dee90bfff77290cdd4783b1469f"
+  },
+  "closedCore": {
+    "manifest": "evidence/gate-7/CORE_TRIAL_CLOSED.json",
+    "sha256": "633f7c56a33ac1c64f49965ecca028a6f2b62fbb3e70f14f96dd9232bff10779",
+    "closedAtUtc": "2026-09-20T07:06:23.415895+00:00",
+    "files": 21,
+    "actualBrowserObservations": 214,
+    "successfulHostActionCalls": 94,
+    "originalJpegs": 11,
+    "checkpointObservations": 36,
+    "activityRows": 115,
+    "uiEvents": 106,
+    "apiTransactions": 9
+  },
+  "independentAudit": {
+    "status": "PASS",
+    "scope": "Frozen math, immutable build, closed core, browser/activity/replay/history and key isolation; no human performance inference.",
+    "url": "http://127.0.0.1:44000/review/audit.md"
+  },
+  "runtime": {
+    "nodeVersion": "v24.17.0",
+    "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "hostShellNodeVersion": "v24.10.0",
+    "renderer": "HTML/SVG, orthographic yaw then pitch; separate raw xyz tables",
+    "newPackages": false
+  },
+  "observedCoverage": {
+    "tasks": 8,
+    "conditions": [
+      "static",
+      "prescribed",
+      "interactive",
+      "attention",
+      "plain"
+    ],
+    "attentionFrameParity": [
+      {
+        "frameId": "F1",
+        "sameInformation": true,
+        "sameFrame": true
+      },
+      {
+        "frameId": "F2",
+        "sameInformation": true,
+        "sameFrame": true
+      },
+      {
+        "frameId": "F3",
+        "sameInformation": true,
+        "sameFrame": true
+      }
+    ]
+  },
+  "replay": {
+    "durationSeconds": 48,
+    "checkpointsSeconds": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48
+    ],
+    "matchedPasses": [
+      "baseline",
+      "restored",
+      "reopened",
+      "reloaded"
+    ],
+    "naturalStopReason": "end-of-sequence",
+    "activeObservationTimesSeconds": [
+      0.4,
+      22.2
+    ],
+    "naturalEndObservedSeconds": 48,
+    "finalState": {
+      "paused": true,
+      "cursorSeconds": 0,
+      "answerCount": 0,
+      "revealedCount": 0
+    }
+  },
+  "responseMechanics": {
+    "actor": "software_validation",
+    "optionSubmissions": 1,
+    "nullSkips": 1,
+    "intentionalReveals": 2,
+    "humanInterpretationMeaning": false,
+    "submitUngraded": true,
+    "skipTreatedAsWrong": false,
+    "freshStateClearsResponsesAndReveals": true
+  },
+  "comparison": {
+    "sameUnderlyingFiniteObservations": true,
+    "sameCognitiveAccessClaim": false,
+    "geometryAdvantageDemonstrated": false,
+    "humanTimingMeasured": false,
+    "proposedTeachingSeconds": 60,
+    "proposedTaskSeconds": 45,
+    "timeLimitsEnforced": false,
+    "practiceAndOrderEffects": "Unmeasured; repeated exposure and explanations can teach a solution method."
+  },
+  "synthesis": [
+    {
+      "question": "Mathematical fidelity",
+      "expected": "Independent equations and the frozen key agree across eight synthetic cases.",
+      "observed": "The independent oracle passes projection, observability, slice, reference and checkpoint checks.",
+      "interpretation": "The declared model and task instrument are internally consistent.",
+      "unresolved": "Recovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels."
+    },
+    {
+      "question": "Information recovery and ambiguity",
+      "expected": "Distinguish properties determined by the supplied observations from compatible alternatives.",
+      "observed": "The audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.",
+      "interpretation": "The instrument supports bounded model questions and preserves genuine insufficiency.",
+      "unresolved": "No arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established."
+    },
+    {
+      "question": "Actual human understanding",
+      "expected": "Report only real, separately authorized human observations.",
+      "observed": "Zero human participants. One software option submission and one null skip tested response/reveal mechanics.",
+      "interpretation": "Human understanding is untested; there is no human score.",
+      "unresolved": "Accuracy, confusion, learning, transfer and perceived usefulness require actual participation."
+    },
+    {
+      "question": "Views, controls and reference changes",
+      "expected": "Same finite data across three geometry presentations; the same records/rules in local objects and plain table.",
+      "observed": "All eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.",
+      "interpretation": "The controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.",
+      "unresolved": "Static, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested."
+    },
+    {
+      "question": "Strongest counterexample and next experiment",
+      "expected": "Retain failures and end with the smallest proposal that could change the conclusion.",
+      "observed": "Non-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.",
+      "interpretation": "Faithful software and a convincing appearance do not by themselves establish unique origin or comprehension.",
+      "unresolved": "Propose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun."
+    }
+  ],
+  "captures": [
+    {
+      "file": "001-slice-sheet.jpg",
+      "title": "Preserved failure: excessive numeric precision",
+      "runId": "G7-INTERPRET-001",
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2
+      },
+      "bracketingObservations": [
+        7,
+        8
+      ],
+      "caption": "Candidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison."
+    },
+    {
+      "file": "002-slice-sheet.jpg",
+      "title": "The corrected supplied slice sheet",
+      "runId": "G7-INTERPRET-002",
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 1
+      },
+      "bracketingObservations": [
+        62,
+        63
+      ],
+      "caption": "Candidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information."
+    },
+    {
+      "file": "002-context-records-960.jpg",
+      "title": "Local objects retain the source records",
+      "runId": "G7-INTERPRET-002",
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIds": [
+        "F3"
+      ],
+      "viewport": {
+        "width": 960,
+        "height": 720,
+        "dpr": 1
+      },
+      "bracketingObservations": [
+        98,
+        99
+      ],
+      "caption": "Candidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed."
+    },
+    {
+      "file": "002-plain-records-960.jpg",
+      "title": "The plain view exposes the same facts",
+      "runId": "G7-INTERPRET-002",
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIds": [
+        "F3"
+      ],
+      "viewport": {
+        "width": 960,
+        "height": 720,
+        "dpr": 1
+      },
+      "bracketingObservations": [
+        104,
+        105
+      ],
+      "caption": "Candidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop."
+    }
+  ],
+  "failedCandidates": [
+    {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "status": "rejected_and_preserved",
+      "actualBrowserObservations": 23,
+      "hostActionCalls": 7,
+      "originalJpegs": 4,
+      "activityRows": 5,
+      "failures": [
+        "API transactions mislabeled/duplicated as semantic UI events",
+        "Incomplete public state inspector",
+        "Unrounded radius labels"
+      ],
+      "manifestPath": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/FAILED_CANDIDATE.json"
+    }
+  ],
+  "limitations": [
+    "Source/key-informed agents are not human participants.",
+    "Numerical recovery assumes known raw projected observations and stable correspondences, not arbitrary SVG pixels.",
+    "Equal frame data does not equal simultaneous access, memory demands, drawing area or interaction effort.",
+    "The short prescribed-sequence elapsed observation first occurred at 6s; no intermediate observation is asserted.",
+    "Complete records and inspector require vertical scrolling at 960px.",
+    "Small ball thumbnails 143×103 CSS pixels rely on associated numerical tables.",
+    "No OS reduced-motion emulation or cross-device pixel identity test.",
+    "Historical HTTP checks covered all seven prior servers; actual link/DOM checks covered Gate 3 and Gate 6 only."
+  ],
+  "history": {
+    "priorFrozenEntriesVerified": 872,
+    "allUnchanged": true,
+    "httpCheckedGates": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "actualBrowserCheckedGates": [
+      3,
+      6
+    ],
+    "historicalScreenshotsRequested": false,
+    "totalGate7OriginalJpegs": 15
+  },
+  "artifacts": {
+    "replayUrl": "http://127.0.0.1:44000/",
+    "packetUrl": "http://127.0.0.1:44000/review/packet.md",
+    "resultsUrl": "http://127.0.0.1:44000/review/results.html",
+    "collectionUrl": "http://127.0.0.1:44000/review/replay-collection.json",
+    "sourceReviewUrl": "http://127.0.0.1:44000/review/source-review.md"
+  },
+  "nextScope": {
+    "proposal": "One separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison.",
+    "approved": false,
+    "executed": false,
+    "populationEfficacyClaimPermitted": false
+  },
+  "presentationReviewBoundary": "Later host/auditor review of these summaries is separate from the closed core; the original observations and screenshots remain unchanged."
+}

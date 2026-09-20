@@ -1,0 +1,63 @@
+{
+  "runId": "G2-HOPF-001",
+  "buildId": "g2-d8107c62a9ca1f71",
+  "label": "corrected",
+  "checkedAtUtc": "2026-09-20T01:51:23.821Z",
+  "checks": [
+    {
+      "group": "gate-0",
+      "manifest": "evidence/gate-0/GATE_0_FREEZE.json",
+      "files": 61,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "group": "gate-1",
+      "manifest": "evidence/gate-1/GATE_1_FREEZE.json",
+      "files": 95,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "group": "gate-2-prespec",
+      "manifest": "docs/gate-2/PRESPEC_FREEZE.json",
+      "files": 6,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "group": "gate-2-build",
+      "manifest": "correspondence/builds/g2-d8107c62a9ca1f71/build.json",
+      "files": 9,
+      "failures": [],
+      "pass": true
+    }
+  ],
+  "runFiles": [
+    {
+      "path": "correspondence/runs/G2-HOPF-001/run.json",
+      "sha256": "ce316585c20371d3cc885d0547aa0d2253aee9f5aeb1d090b73f808674d190bf",
+      "bytes": 4344
+    },
+    {
+      "path": "correspondence/runs/G2-HOPF-001/initial-state.json",
+      "sha256": "4426350e9af9d82285d25a6d6e3984ac504e22dcefbdf0c77a0367d70599c5fc",
+      "bytes": 789593
+    },
+    {
+      "path": "correspondence/runs/G2-HOPF-001/checkpoints.json",
+      "sha256": "67c994c9a62391777babf894e7bebe5bba986e7bd8d86edd1d03d6325c7ee4d2",
+      "bytes": 4228320
+    },
+    {
+      "path": "correspondence/runs/G2-HOPF-001/events.jsonl",
+      "sha256": "fb0ac34a3be06975472f9094c265f55d8fd85a840c5e58246ec3fbb351b77f3e",
+      "bytes": 2172
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "total": 4,
+    "failed": []
+  }
+}

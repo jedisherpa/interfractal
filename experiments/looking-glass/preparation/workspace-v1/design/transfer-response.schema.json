@@ -1,0 +1,1673 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:looking-glass:transfer-response:1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "inputManifestSha256",
+    "comparatorArtifactSha256",
+    "responses",
+    "limitations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "transfer-response/1"
+    },
+    "runId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inputManifestSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "comparatorArtifactSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "responses": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W01"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "demand": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "commitment": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "inspection": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "readiness": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "selection": {
+                    "enum": [
+                      "Q7",
+                      "none_supported"
+                    ]
+                  },
+                  "linEndorsesV1": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "utterancePredicate": {
+                    "enum": [
+                      "understands",
+                      "resource_commitment"
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "linEndorsesV1": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "utterancePredicate": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W02"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "demand": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "commitment": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "inspection": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "readiness": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "selection": {
+                    "enum": [
+                      "Q7",
+                      "none_supported"
+                    ]
+                  },
+                  "linEndorsesV1": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "utterancePredicate": {
+                    "enum": [
+                      "understands",
+                      "resource_commitment"
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "linEndorsesV1": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "utterancePredicate": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W03"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "demand": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "commitment": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "inspection": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "readiness": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "selection": {
+                    "enum": [
+                      "Q7",
+                      "none_supported"
+                    ]
+                  },
+                  "linEndorsesV1": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "utterancePredicate": {
+                    "enum": [
+                      "understands",
+                      "resource_commitment"
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "linEndorsesV1": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "utterancePredicate": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W04"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "demand": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "commitment": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "inspection": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "readiness": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "selection": {
+                    "enum": [
+                      "Q7",
+                      "none_supported"
+                    ]
+                  },
+                  "linEndorsesV1": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "utterancePredicate": {
+                    "enum": [
+                      "understands",
+                      "resource_commitment"
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "linEndorsesV1": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "utterancePredicate": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W05"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "demand": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "commitment": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "inspection": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "readiness": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "selection": {
+                    "enum": [
+                      "Q7",
+                      "none_supported"
+                    ]
+                  },
+                  "linEndorsesV1": {
+                    "type": "string",
+                    "enum": [
+                      "supported",
+                      "refuted",
+                      "conflicted",
+                      "unknown"
+                    ]
+                  },
+                  "utterancePredicate": {
+                    "enum": [
+                      "understands",
+                      "resource_commitment"
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "physical",
+                  "demand",
+                  "commitment",
+                  "inspection",
+                  "readiness",
+                  "selection",
+                  "linEndorsesV1",
+                  "utterancePredicate"
+                ],
+                "properties": {
+                  "physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "linEndorsesV1": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "utterancePredicate": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W06-SHARED"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "bundles",
+                  "selection"
+                ],
+                "properties": {
+                  "bundles": {
+                    "type": "array",
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "planIds",
+                        "physical",
+                        "demand",
+                        "commitment",
+                        "inspection",
+                        "readiness",
+                        "output",
+                        "cost"
+                      ],
+                      "properties": {
+                        "planIds": {
+                          "type": "array",
+                          "items": {
+                            "enum": [
+                              "X",
+                              "Y"
+                            ]
+                          },
+                          "uniqueItems": true
+                        },
+                        "physical": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "demand": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "commitment": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "inspection": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "readiness": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "output": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "cost": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      }
+                    }
+                  },
+                  "selection": {
+                    "oneOf": [
+                      {
+                        "const": "none_supported"
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "enum": [
+                            "X",
+                            "Y"
+                          ]
+                        },
+                        "uniqueItems": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "bundles.0.physical",
+                  "bundles.0.demand",
+                  "bundles.0.commitment",
+                  "bundles.0.inspection",
+                  "bundles.0.readiness",
+                  "bundles.0.output",
+                  "bundles.0.cost",
+                  "bundles.1.physical",
+                  "bundles.1.demand",
+                  "bundles.1.commitment",
+                  "bundles.1.inspection",
+                  "bundles.1.readiness",
+                  "bundles.1.output",
+                  "bundles.1.cost",
+                  "bundles.2.physical",
+                  "bundles.2.demand",
+                  "bundles.2.commitment",
+                  "bundles.2.inspection",
+                  "bundles.2.readiness",
+                  "bundles.2.output",
+                  "bundles.2.cost",
+                  "bundles.3.physical",
+                  "bundles.3.demand",
+                  "bundles.3.commitment",
+                  "bundles.3.inspection",
+                  "bundles.3.readiness",
+                  "bundles.3.output",
+                  "bundles.3.cost",
+                  "selection"
+                ],
+                "properties": {
+                  "bundles.0.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contextId",
+              "values",
+              "evidence",
+              "missingDependencies"
+            ],
+            "properties": {
+              "contextId": {
+                "const": "W06-SPLIT"
+              },
+              "values": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "bundles",
+                  "selection"
+                ],
+                "properties": {
+                  "bundles": {
+                    "type": "array",
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "planIds",
+                        "physical",
+                        "demand",
+                        "commitment",
+                        "inspection",
+                        "readiness",
+                        "output",
+                        "cost"
+                      ],
+                      "properties": {
+                        "planIds": {
+                          "type": "array",
+                          "items": {
+                            "enum": [
+                              "X",
+                              "Y"
+                            ]
+                          },
+                          "uniqueItems": true
+                        },
+                        "physical": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "demand": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "commitment": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "inspection": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "readiness": {
+                          "type": "string",
+                          "enum": [
+                            "supported",
+                            "refuted",
+                            "conflicted",
+                            "unknown"
+                          ]
+                        },
+                        "output": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "cost": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      }
+                    }
+                  },
+                  "selection": {
+                    "oneOf": [
+                      {
+                        "const": "none_supported"
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "enum": [
+                            "X",
+                            "Y"
+                          ]
+                        },
+                        "uniqueItems": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "evidence": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "bundles.0.physical",
+                  "bundles.0.demand",
+                  "bundles.0.commitment",
+                  "bundles.0.inspection",
+                  "bundles.0.readiness",
+                  "bundles.0.output",
+                  "bundles.0.cost",
+                  "bundles.1.physical",
+                  "bundles.1.demand",
+                  "bundles.1.commitment",
+                  "bundles.1.inspection",
+                  "bundles.1.readiness",
+                  "bundles.1.output",
+                  "bundles.1.cost",
+                  "bundles.2.physical",
+                  "bundles.2.demand",
+                  "bundles.2.commitment",
+                  "bundles.2.inspection",
+                  "bundles.2.readiness",
+                  "bundles.2.output",
+                  "bundles.2.cost",
+                  "bundles.3.physical",
+                  "bundles.3.demand",
+                  "bundles.3.commitment",
+                  "bundles.3.inspection",
+                  "bundles.3.readiness",
+                  "bundles.3.output",
+                  "bundles.3.cost",
+                  "selection"
+                ],
+                "properties": {
+                  "bundles.0.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.0.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.1.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.2.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.physical": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.demand": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.commitment": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.inspection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.readiness": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.output": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "bundles.3.cost": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "selection": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "missingDependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

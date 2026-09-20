@@ -1,0 +1,37 @@
+{
+  "recordedAtUtc": "2026-09-20T22:36:10.855787+00:00",
+  "userApproval": "approvals/MATERIALS_AND_RECOVERY_APPROVAL.json",
+  "scope": "Prepare and independently validate the equivalent plain/visual workspace and synthetic runner/scoring/transfer workflow. Include the source-equivalent mapping and applicable broader acceptance corpus.",
+  "inputs": [
+    {
+      "path": "preparation/materials-v1/review/MATERIALS_REVIEW_PACKET.md",
+      "sha256": "316528e2d942f1b611ceb9fb9705976e18c52012bf044cd0a50de22ccd7db608",
+      "bytes": 11372
+    },
+    {
+      "path": "preparation/materials-v1/FREEZE_MANIFEST.json",
+      "sha256": "b7152720317987bcfa027e98104cb2f1695b0fc3ffd29a1272293e919c8cea5c",
+      "bytes": 75041
+    },
+    {
+      "path": "preparation/materials-recovery-v1/review/RECOVERY_CORRECTION_PACKET.md",
+      "sha256": "34dc04b5fc259cd222aaa9c5a02d190dc86e88018ae388fddb3232bd6c5d02ab",
+      "bytes": 7299
+    },
+    {
+      "path": "preparation/materials-recovery-v1/FREEZE_MANIFEST.json",
+      "sha256": "3b1e9b76e423c6f5f8395483c1258dbb21d2c3e8ae3606d2d4207326e865240e",
+      "bytes": 994187
+    },
+    {
+      "path": "preparation/materials-recovery-v1/package-candidate-004/MANIFEST.json",
+      "sha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823",
+      "bytes": 14515
+    }
+  ],
+  "researchCollectionAuthorized": false,
+  "humanCollectionAuthorized": false,
+  "gate14Approved": false,
+  "engineeringFixtures": "Explicitly labeled synthetic records only; do not count as research outputs.",
+  "completionBoundary": "Inspectable implemented workflow, independent review and real supported-browser evidence before the next preparation-stage review. Broader protocol/readiness/ZIP preparation remains afterward."
+}

@@ -1,0 +1,143 @@
+{
+  "state": {
+    "mode": "saved-tour",
+    "caseId": "MISMATCH",
+    "version": "original",
+    "representation": "visual",
+    "cursorSeconds": 0,
+    "paused": true,
+    "sourceOpen": false,
+    "recordsOpen": false,
+    "activeCheck": false,
+    "activeCorrection": false,
+    "endReason": null
+  },
+  "payload": {
+    "schema": "gate13-semantic-v1",
+    "mode": "saved-tour",
+    "representation": "visual",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "caseId": "MISMATCH",
+    "version": "original",
+    "sourceOpen": false,
+    "recordsOpen": false,
+    "activeCheck": false,
+    "activeCorrection": false,
+    "source": {
+      "id": "MISMATCH-SOURCE-1",
+      "version": 1,
+      "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+      "unit": "tiles",
+      "windowId": "MISMATCH-WINDOW-1",
+      "records": [
+        {
+          "id": "A",
+          "completedCount": 80
+        },
+        {
+          "id": "B",
+          "completedCount": 90
+        }
+      ],
+      "provenance": "author-created synthetic fixture; no measured production"
+    },
+    "originalDisplay": {
+      "id": "MISMATCH-ORIGINAL-1",
+      "version": 1,
+      "statement": {
+        "id": "MISMATCH-TWICE-1",
+        "predicate": "TWICE_COUNT",
+        "predicateVersion": 1,
+        "text": "B completed twice as many tiles as A."
+      },
+      "scale": {
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ]
+      },
+      "mark": "horizontal-length",
+      "sourceOrder": [
+        "A",
+        "B"
+      ]
+    },
+    "display": {
+      "id": "MISMATCH-ORIGINAL-1",
+      "version": 1,
+      "statement": {
+        "id": "MISMATCH-TWICE-1",
+        "predicate": "TWICE_COUNT",
+        "predicateVersion": 1,
+        "text": "B completed twice as many tiles as A."
+      },
+      "scale": {
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ]
+      },
+      "mark": "horizontal-length",
+      "sourceOrder": [
+        "A",
+        "B"
+      ]
+    },
+    "encoding": {
+      "counts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 70,
+      "upperBound": 100,
+      "plotWidth": 240,
+      "ticks": [
+        70,
+        80,
+        90,
+        100
+      ],
+      "offsets": [
+        10,
+        20
+      ],
+      "svgWidths": [
+        80,
+        160
+      ],
+      "countRatio": {
+        "status": "defined",
+        "numerator": 9,
+        "denominator": 8
+      },
+      "lengthRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "difference": 10,
+      "predicateOperands": {
+        "leftB": 90,
+        "rightTwiceA": 160
+      },
+      "originalStatementTrue": false
+    },
+    "check": null,
+    "correction": null,
+    "correctionMarker": null,
+    "debrief": null
+  },
+  "semanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4"
+}

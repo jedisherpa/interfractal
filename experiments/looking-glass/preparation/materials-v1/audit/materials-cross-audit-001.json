@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "materials-cross-audit/1",
+  "stage": "candidate-001 pre-browser independent audit",
+  "verdict": "QUALIFIED_REQUIRES_VALIDATION_DISPOSITION",
+  "blindFreezeSha256": "d23efa250eec5e4aa689f956a479d743ab5823dc857a740c62a10f3e42997603",
+  "blindKeySha256": "1afc61ce7a071079f59a8c127f0edb43a4b72486ce5059ba58e95288154a75c2",
+  "designFreezeSha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b",
+  "authorKeySha256": "7ddc0950cbd06b4ddce9d37044d435833f8bcc33a3a63b9271a6517105880c4c",
+  "candidateManifestSha256": "76855c270508bb9460695db2c9dd77481a7f5dd9250452f7f0058a736f324a11",
+  "agreement": {
+    "developmentValueAtoms": "194/194",
+    "transferScoringAtoms": "98/98",
+    "transferBundleIdArrays": "8/8",
+    "authorEvidenceReferencesResolvedInSuppliedScope": "442/442",
+    "sourcePins": "5/5",
+    "unresolvedSourceTaskAnswerDisagreements": 0,
+    "qualification": "Exact value agreement and reference existence do not prove each citation set is substantively sufficient. The independent blind key's A1 D08 none_supported proof lists R08 and missing dependencies; the author's longer proof cites additional supplied facts. Preserve that provenance-score distinction."
+  },
+  "budget": {
+    "interactiveBaseCap": 38912,
+    "interactiveWithTransferCap": 43008,
+    "unionWithTransferCap": 8192,
+    "poolWithTransferCap": 20480,
+    "uniqueCallsWithoutRetries": 17,
+    "uniqueGeneratedTokenCapWithoutRetries": 55296,
+    "threeRotationsTimesFourReplicates": 12,
+    "qualification": "Proposals only. Actual model version, tokenizer/context fit, settings, isolation, costs and access require future preflight. Comparator access and generation budgets differ by design."
+  },
+  "package": {
+    "fileAndManifestEntries": "69/69 files, including 68 manifest-pinned entries and the root manifest",
+    "participantPackets": 4,
+    "cardsPerPacket": 6,
+    "initialTasksPerPacket": 8,
+    "privateClaimLeaks": 0,
+    "httpPreviewProbesPassed": "14/14",
+    "boundary": "Researcher and phase-bound private files exist on disk but the exact preview serves only / and /index.html. A future research runner must enforce isolation; shared filesystem directories alone do not."
+  },
+  "findings": [
+    {
+      "id": "semantic-validator-partial",
+      "severity": "material-before-future-launch",
+      "file": "preparation/materials-v1/package-candidate-001/builder-tooling/snapshot-contract.mjs",
+      "reproduction": "audit/snapshot-guard-probes-001.json",
+      "observed": "The packaged validator accepted a synthetic union record containing only A1's six cards and D01-D08, A4 identity on A1's packet, duplicate interpretation IDs, and an unsupported action with no dependencies; each returned zero errors.",
+      "contract": "DESIGN_CONTRACT requires phase-specific exact card/task sets, unique interpretation IDs, exact identity/input binding and only supported-ready proposed actions.",
+      "minimumDisposition": "Implement these phase/identity/uniqueness/action guards with synthetic rejection tests before claiming complete semantic validation, or explicitly state that this candidate provides only initial-shape validation and retain a fail-closed future-launch requirement. Value correctness remains a separate scoring judgment."
+    },
+    {
+      "id": "four-valued-status-mismatch",
+      "severity": "material-before-future-launch",
+      "reproduction": "audit/four-valued-probes-001.json",
+      "observed": "A synthetic capacity interpretation citing both positive and negative evidence passes with either supported or refuted status, although the stipulated rule requires conflicted.",
+      "minimumDisposition": "Enforce exact positive/negative evidence pair for each of four statuses."
+    },
+    {
+      "id": "value-vs-provenance",
+      "severity": "qualification",
+      "observed": "The validator also accepts a synthetic D02.press=99 with a valid but insufficient citation. Exact scoring and substantive source review must catch this; a schema pass is not source correctness."
+    }
+  ],
+  "auditTrail": {
+    "initialHarnessResult": "audit/cross-review-001.json",
+    "harnessCorrection": "The first comparison harness wrongly iterated the author W06 canonicalEvidence array as an atom map, producing 155 false invalid-reference errors. No frozen source or blind file changed.",
+    "correctedResult": "audit/cross-review-001-corrected.json",
+    "packageResult": "audit/package-verification-001.json",
+    "routeResult": "audit/preview-routes-001.json"
+  },
+  "limits": "No actual four-agent or human execution. No browser claim is made in this report; root is collecting supported preview observations separately."
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "gate7-private-answer-key-v1",
+  "neverServeAsStaticAsset": true,
+  "scope": "Software model/scoring checks; no human results.",
+  "answers": [
+    {
+      "taskId": "Q01",
+      "choiceId": "b",
+      "explanation": "The orthogonal observations at α=30° and 120° give w = −sin(30°)·x′30 − sin(120°)·x′120 = −0.8. This uses raw projected coordinates and known stable correspondence.",
+      "privateDerivation": {
+        "K": [
+          0.4,
+          -0.6,
+          0.2,
+          -0.8
+        ],
+        "M": [
+          -0.5,
+          0.3,
+          -0.4,
+          0.6
+        ]
+      }
+    },
+    {
+      "taskId": "Q02",
+      "choiceId": "c",
+      "explanation": "The camera changes do not add a new source projection. x cos30° − w sin30° = 0.5 leaves x and w underdetermined.",
+      "privateDerivation": {
+        "compatibleSources": [
+          [
+            0.5773502691896257,
+            -0.2,
+            0.7,
+            0
+          ],
+          [
+            1.1547005383792515,
+            -0.2,
+            0.7,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "taskId": "Q03",
+      "choiceId": "a",
+      "explanation": "Every β is zero, so no observation contains v. Positive and negative v sources both reproduce all supplied frames.",
+      "privateDerivation": {
+        "sourceForCalculation": [
+          0.3,
+          -0.4,
+          0.2,
+          0.7,
+          0.6
+        ],
+        "alternativeSource": [
+          0.3,
+          -0.4,
+          0.2,
+          0.7,
+          -0.6
+        ]
+      }
+    },
+    {
+      "taskId": "Q04",
+      "choiceId": "d",
+      "explanation": "The β=0 observations supply y=+0.5; β=70° supplies y′. Thus v=(y cos70°−y′)/sin70°=−0.4. Raw coordinates and known transforms are required.",
+      "privateDerivation": {
+        "sourceForCalculation": [
+          0.2,
+          0.5,
+          -0.3,
+          -0.6,
+          -0.4
+        ]
+      }
+    },
+    {
+      "taskId": "Q05",
+      "choiceId": "b",
+      "explanation": "At s=1.8, |s−0.3|=1.5 exceeds radius1.2, so the slice is empty. Projection existentially ranges over w and remains radius1.2.",
+      "privateDerivation": {
+        "observedRadicands": [
+          1.44,
+          1.08,
+          0
+        ],
+        "heldOutSetting": 1.8,
+        "heldOutRadicand": -0.81
+      }
+    },
+    {
+      "taskId": "Q06",
+      "choiceId": "d",
+      "explanation": "Only s²+t²=0.64 is determined. The displayed camera changes add no signed slice-setting information.",
+      "privateDerivation": {
+        "compatibleSettings": [
+          [
+            0.48,
+            0.64
+          ],
+          [
+            -0.48,
+            0.64
+          ],
+          [
+            0.64,
+            0.48
+          ]
+        ]
+      }
+    },
+    {
+      "taskId": "Q07",
+      "choiceId": "a",
+      "explanation": "Capacity-only summaries omit the costs needed for the receiver. Both cost≤6 and cost>6 completions are compatible with each displayed summary.",
+      "privateDerivation": {
+        "witnessCosts": {
+          "worldA": {
+            "Oak": 5,
+            "Jetty": 7
+          },
+          "worldB": {
+            "Oak": 7,
+            "Jetty": 5
+          }
+        },
+        "sourceIndependence": "Q07 and Q08 use different fictional contexts; no Q08 record supplies Q07 costs."
+      }
+    },
+    {
+      "taskId": "Q08",
+      "choiceId": "c",
+      "explanation": "Cedar has capacity64 and cost3+2=5, so fails the new capacity70 screen. Quay has capacity78 and cost4+1+2=7, so meets both revised criteria.",
+      "privateDerivation": {
+        "costs": {
+          "Cedar": 5,
+          "Quay": 7
+        },
+        "receiver1": {
+          "Cedar": true,
+          "Quay": false
+        },
+        "receiver2": {
+          "Cedar": false,
+          "Quay": true
+        }
+      }
+    }
+  ]
+}

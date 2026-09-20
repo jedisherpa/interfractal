@@ -1,0 +1,61 @@
+{
+  "recorded_at_utc": "2026-09-20T09:20:26.990086+00:00",
+  "purpose": "Preserve mutable draft003 bytes during second independent prepackage review, before further correction; not an immutable run or accepted candidate.",
+  "prespec_freeze_sha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "files": [
+    {
+      "original_path": "matched-observation/README.md",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/README.md",
+      "sha256": "43bb099a34cad6cc7dd518419f5850a5c3388dc730b24691ad0eaeefbb726ecb",
+      "bytes": 4229
+    },
+    {
+      "original_path": "matched-observation/app.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/app.mjs",
+      "sha256": "d5b145f58748df226e6dfa783ddf5fc7e78d3d09483329e82bf8b3bd103e2d37",
+      "bytes": 12935
+    },
+    {
+      "original_path": "matched-observation/build.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/build.mjs",
+      "sha256": "f98d82dd5a55873df7c609e4f16a4973345d0e431fc7a4765891a2a01efdd9a0",
+      "bytes": 7112
+    },
+    {
+      "original_path": "matched-observation/core.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/core.mjs",
+      "sha256": "381c36bb50b5cc44ba45161ad0b34e92bb0c80602af479fd905b58205432d83f",
+      "bytes": 5256
+    },
+    {
+      "original_path": "matched-observation/engine.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/engine.mjs",
+      "sha256": "68c00632425885eb3d73f5171ac9a076c56a68264f62c5852263012f8353731d",
+      "bytes": 14995
+    },
+    {
+      "original_path": "matched-observation/index.html",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/index.html",
+      "sha256": "1aba01b17cd5eb0105155e3153ab4325bb79e4f72eac7681e58a1a30881b87af",
+      "bytes": 3758
+    },
+    {
+      "original_path": "matched-observation/server.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/server.mjs",
+      "sha256": "c5410c2ee96c7e67d9745318a20f0437a3b2264bbd38785e4f6b5566718cd47b",
+      "bytes": 3947
+    },
+    {
+      "original_path": "matched-observation/style.css",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/style.css",
+      "sha256": "4bf7d0ed7986c25f765b95cdd6bf9106310fa5bd1f61cb66d77ba32f4b841047",
+      "bytes": 2204
+    },
+    {
+      "original_path": "matched-observation/test.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-2/test.mjs",
+      "sha256": "d4dca64df77c8c234733db7aaa47ce78563de112df769376cd40a937b6123a02",
+      "bytes": 9777
+    }
+  ]
+}

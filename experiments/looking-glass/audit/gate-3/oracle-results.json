@@ -1,0 +1,508 @@
+{
+  "oracle": "gate-3-independent-v1",
+  "tolerance": 1e-10,
+  "source": {
+    "vertices": [
+      {
+        "id": "v0000",
+        "q": [
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v0001",
+        "q": [
+          -1,
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v0010",
+        "q": [
+          -1,
+          -1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v0011",
+        "q": [
+          -1,
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v0100",
+        "q": [
+          -1,
+          1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v0101",
+        "q": [
+          -1,
+          1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v0110",
+        "q": [
+          -1,
+          1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v0111",
+        "q": [
+          -1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v1000",
+        "q": [
+          1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v1001",
+        "q": [
+          1,
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v1010",
+        "q": [
+          1,
+          -1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v1011",
+        "q": [
+          1,
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v1100",
+        "q": [
+          1,
+          1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v1101",
+        "q": [
+          1,
+          1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v1110",
+        "q": [
+          1,
+          1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v1111",
+        "q": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "e-v0000-v0001",
+        "from": "v0000",
+        "to": "v0001"
+      },
+      {
+        "id": "e-v0000-v0010",
+        "from": "v0000",
+        "to": "v0010"
+      },
+      {
+        "id": "e-v0000-v0100",
+        "from": "v0000",
+        "to": "v0100"
+      },
+      {
+        "id": "e-v0000-v1000",
+        "from": "v0000",
+        "to": "v1000"
+      },
+      {
+        "id": "e-v0001-v0011",
+        "from": "v0001",
+        "to": "v0011"
+      },
+      {
+        "id": "e-v0001-v0101",
+        "from": "v0001",
+        "to": "v0101"
+      },
+      {
+        "id": "e-v0001-v1001",
+        "from": "v0001",
+        "to": "v1001"
+      },
+      {
+        "id": "e-v0010-v0011",
+        "from": "v0010",
+        "to": "v0011"
+      },
+      {
+        "id": "e-v0010-v0110",
+        "from": "v0010",
+        "to": "v0110"
+      },
+      {
+        "id": "e-v0010-v1010",
+        "from": "v0010",
+        "to": "v1010"
+      },
+      {
+        "id": "e-v0011-v0111",
+        "from": "v0011",
+        "to": "v0111"
+      },
+      {
+        "id": "e-v0011-v1011",
+        "from": "v0011",
+        "to": "v1011"
+      },
+      {
+        "id": "e-v0100-v0101",
+        "from": "v0100",
+        "to": "v0101"
+      },
+      {
+        "id": "e-v0100-v0110",
+        "from": "v0100",
+        "to": "v0110"
+      },
+      {
+        "id": "e-v0100-v1100",
+        "from": "v0100",
+        "to": "v1100"
+      },
+      {
+        "id": "e-v0101-v0111",
+        "from": "v0101",
+        "to": "v0111"
+      },
+      {
+        "id": "e-v0101-v1101",
+        "from": "v0101",
+        "to": "v1101"
+      },
+      {
+        "id": "e-v0110-v0111",
+        "from": "v0110",
+        "to": "v0111"
+      },
+      {
+        "id": "e-v0110-v1110",
+        "from": "v0110",
+        "to": "v1110"
+      },
+      {
+        "id": "e-v0111-v1111",
+        "from": "v0111",
+        "to": "v1111"
+      },
+      {
+        "id": "e-v1000-v1001",
+        "from": "v1000",
+        "to": "v1001"
+      },
+      {
+        "id": "e-v1000-v1010",
+        "from": "v1000",
+        "to": "v1010"
+      },
+      {
+        "id": "e-v1000-v1100",
+        "from": "v1000",
+        "to": "v1100"
+      },
+      {
+        "id": "e-v1001-v1011",
+        "from": "v1001",
+        "to": "v1011"
+      },
+      {
+        "id": "e-v1001-v1101",
+        "from": "v1001",
+        "to": "v1101"
+      },
+      {
+        "id": "e-v1010-v1011",
+        "from": "v1010",
+        "to": "v1011"
+      },
+      {
+        "id": "e-v1010-v1110",
+        "from": "v1010",
+        "to": "v1110"
+      },
+      {
+        "id": "e-v1011-v1111",
+        "from": "v1011",
+        "to": "v1111"
+      },
+      {
+        "id": "e-v1100-v1101",
+        "from": "v1100",
+        "to": "v1101"
+      },
+      {
+        "id": "e-v1100-v1110",
+        "from": "v1100",
+        "to": "v1110"
+      },
+      {
+        "id": "e-v1101-v1111",
+        "from": "v1101",
+        "to": "v1111"
+      },
+      {
+        "id": "e-v1110-v1111",
+        "from": "v1110",
+        "to": "v1111"
+      }
+    ],
+    "marked": {
+      "A": "v1110",
+      "B": "v1111",
+      "edge": "e-v1110-v1111"
+    }
+  },
+  "checkpoints": [
+    {
+      "timeMs": 0,
+      "thetaRad": 0,
+      "ASourceRotated": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "BSourceRotated": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "AShadow": [
+        1,
+        1,
+        1
+      ],
+      "BShadow": [
+        1,
+        1,
+        1
+      ],
+      "pairShadowDistance": 0
+    },
+    {
+      "timeMs": 8000,
+      "thetaRad": 0.7853981633974483,
+      "ASourceRotated": [
+        1.414213562373095,
+        1,
+        1,
+        -1.1102230246251565e-16
+      ],
+      "BSourceRotated": [
+        1.1102230246251565e-16,
+        1,
+        1,
+        1.414213562373095
+      ],
+      "AShadow": [
+        1.414213562373095,
+        1,
+        1
+      ],
+      "BShadow": [
+        1.1102230246251565e-16,
+        1,
+        1
+      ],
+      "pairShadowDistance": 1.4142135623730951
+    },
+    {
+      "timeMs": 16000,
+      "thetaRad": 1.5707963267948966,
+      "ASourceRotated": [
+        1,
+        1,
+        1,
+        0.9999999999999999
+      ],
+      "BSourceRotated": [
+        -0.9999999999999999,
+        1,
+        1,
+        1
+      ],
+      "AShadow": [
+        1,
+        1,
+        1
+      ],
+      "BShadow": [
+        -0.9999999999999999,
+        1,
+        1
+      ],
+      "pairShadowDistance": 2
+    },
+    {
+      "timeMs": 24000,
+      "thetaRad": 0.7853981633974483,
+      "ASourceRotated": [
+        1.414213562373095,
+        1,
+        1,
+        -1.1102230246251565e-16
+      ],
+      "BSourceRotated": [
+        1.1102230246251565e-16,
+        1,
+        1,
+        1.414213562373095
+      ],
+      "AShadow": [
+        1.414213562373095,
+        1,
+        1
+      ],
+      "BShadow": [
+        1.1102230246251565e-16,
+        1,
+        1
+      ],
+      "pairShadowDistance": 1.4142135623730951
+    },
+    {
+      "timeMs": 32000,
+      "thetaRad": 0,
+      "ASourceRotated": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "BSourceRotated": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "AShadow": [
+        1,
+        1,
+        1
+      ],
+      "BShadow": [
+        1,
+        1,
+        1
+      ],
+      "pairShadowDistance": 0
+    }
+  ],
+  "assertions": [
+    {
+      "name": "16 unique lexicographically ordered ±1 vertices and 32 unique one-coordinate edges",
+      "pass": true
+    },
+    {
+      "name": "vertex affine span is four; solid, boundary and skeleton dimensions differ",
+      "pass": true
+    },
+    {
+      "name": "all 120 unordered source pairs have the prespecified squared-distance histogram",
+      "pass": true
+    },
+    {
+      "name": "source norms and all 120 pair distances persist at each checkpoint",
+      "pass": true
+    },
+    {
+      "name": "R transpose R identity and inverse round trip",
+      "pass": true
+    },
+    {
+      "name": "A and B retain source distance two; shadow distances follow 0,√2,2,√2,0",
+      "pass": true
+    },
+    {
+      "name": "coincidence multiplicities and collapsed edge counts at 0,45,90 degrees",
+      "pass": true
+    },
+    {
+      "name": "camera changes screen position but not source or raw projected coordinates",
+      "pass": true
+    },
+    {
+      "name": "fixed shadow and camera-only stacks have rank three and w null direction",
+      "pass": true
+    },
+    {
+      "name": "known zero and ninety degree source observations stack to rank four and diag(1,2,2,1) Gram",
+      "pass": true
+    },
+    {
+      "name": "observations plus known matrices reconstruct all 16 sources with opaque IDs",
+      "pass": true
+    },
+    {
+      "name": "rank threshold keeps near-zero rotation underdetermined",
+      "pass": true
+    }
+  ],
+  "passed": 12,
+  "failed": 0
+}

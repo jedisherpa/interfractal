@@ -1,0 +1,479 @@
+{
+  "runId": "G2-HOPF-003",
+  "buildId": "g2-ccabad12693f86a8",
+  "checkedAtUtc": "2026-09-20T02:07:40.653Z",
+  "observationCount": 66,
+  "eventCount": 52,
+  "captureFiles": [
+    {
+      "label": "S0-east-start",
+      "path": "captures/S0-east-start.jpg",
+      "sha256": "7b52172956e3926922f9d03844fda9eebfc6bbb24212446e501918093aabee33",
+      "bytes": 94655,
+      "imagePixels": {
+        "width": 998,
+        "height": 904
+      }
+    },
+    {
+      "label": "S0-east-start-fixed",
+      "path": "captures/S0-east-start-fixed.jpg",
+      "sha256": "16cb9e770126957bb4aedb8ae12597e88460dee57d4287d0f42052bfd2b968e7",
+      "bytes": 82062,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S1-east-six",
+      "path": "captures/S1-east-six.jpg",
+      "sha256": "c547f04f1f612ab00f10f65accc161883821c6789c7478f07680ac0c89938042",
+      "bytes": 82413,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S1-east-six-top",
+      "path": "captures/S1-east-six-top.jpg",
+      "sha256": "6b0db27160a5979fbb17cbafbb8408facebbbc9199ee14669dee3668c643ff45",
+      "bytes": 78637,
+      "imagePixels": {
+        "width": 1280,
+        "height": 805
+      }
+    },
+    {
+      "label": "S0-east-start-top",
+      "path": "captures/S0-east-start-top.jpg",
+      "sha256": "8da60fd6d7c4177046e5bec765e01cd936bfa673a70daac45f6ba49a940af33a",
+      "bytes": 111219,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1055
+      }
+    },
+    {
+      "label": "S0-fixed-comparison",
+      "path": "captures/S0-fixed-comparison.jpg",
+      "sha256": "784805d0226718ecfbeede420254972645f8cef104bd56fd3d743c8038b6759d",
+      "bytes": 38416,
+      "imagePixels": {
+        "width": 818,
+        "height": 720
+      }
+    },
+    {
+      "label": "S1-fixed-comparison",
+      "path": "captures/S1-fixed-comparison.jpg",
+      "sha256": "935b7597a08a58c128734bcbfe2320c24399bfc936f0d1acf99118b53199f80a",
+      "bytes": 69058,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S0-fixed-stable",
+      "path": "captures/S0-fixed-stable.jpg",
+      "sha256": "7e41b2f9e89ac69a906c4b037c4dbe7dd98810a91ea179480bec3aa10969ba1d",
+      "bytes": 68668,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S2-front-chart-controls",
+      "path": "captures/S2-front-chart-controls.jpg",
+      "sha256": "0731e48317c45002cc47b33de4ffda527b4b87890c3da5bf4e1c7cc38d247db9",
+      "bytes": 96244,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S3-south-infinity-controls",
+      "path": "captures/S3-south-infinity-controls.jpg",
+      "sha256": "049ddd9750707507bbb58446bd012e0a7fa19bc2cf546ebb299e4fa2237fb94f",
+      "bytes": 105694,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S3-south-infinity-top",
+      "path": "captures/S3-south-infinity-top.jpg",
+      "sha256": "7368df210f1297248ff034ca5f3b12aceee3ff0e0fa34d72478bf698eb4f3087",
+      "bytes": 69955,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "camera-yaw120-top",
+      "path": "captures/camera-yaw120-top.jpg",
+      "sha256": "475a86368a76d4adb29b3b2b00cf1fc41a3fd30b8d9a80c577e53acd879f9e71",
+      "bytes": 69788,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S4-capacity-hall",
+      "path": "captures/S4-capacity-hall.jpg",
+      "sha256": "b5bbb1d182bc8fe57370fa40e1564cf111f21840b8a0f34f1906fce434acde1a",
+      "bytes": 135504,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "S5-access-hall",
+      "path": "captures/S5-access-hall.jpg",
+      "sha256": "f06f6e00f9ea9979bbf42d3d1a90ae41c90179ce798e725022652de0d9eac64f",
+      "bytes": 132475,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "S5-unmapped-weather",
+      "path": "captures/S5-unmapped-weather.jpg",
+      "sha256": "8028b4e509273e6826665271bf7e0c3e5096272a812de155f674c2b11bd485b1",
+      "bytes": 136583,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "S4-hall-selected-confirmed",
+      "path": "captures/S4-hall-selected-confirmed.jpg",
+      "sha256": "975b310d53a7cdf1e0c4f63bf3f461fcf43dade77019c95d1a30516e464c910b",
+      "bytes": 130434,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "S5-hall-access-confirmed",
+      "path": "captures/S5-hall-access-confirmed.jpg",
+      "sha256": "e7f35daf5cd368c54c0b268310b61b377826e80b8f116344e9fb66791eb02cf2",
+      "bytes": 130357,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "plain-source-history-horizontal",
+      "path": "captures/plain-source-history-horizontal.jpg",
+      "sha256": "61515df7b97186c181a38a302174653cd043cd6a99f69b67a8942fcdb0d08178",
+      "bytes": 124314,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "plain-reference-comparison",
+      "path": "captures/plain-reference-comparison.jpg",
+      "sha256": "5a07aaeb6ebdc2179529919d0355778942e1c1241377ce39c5450015bfcb5de1",
+      "bytes": 155132,
+      "imagePixels": {
+        "width": 1280,
+        "height": 1127
+      }
+    },
+    {
+      "label": "S6-final-twentyfour",
+      "path": "captures/S6-final-twentyfour.jpg",
+      "sha256": "30b479f8b65080bfcfcd6a8966e49dbde54da1ccf090a925094ffa926d783108",
+      "bytes": 67949,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "S6-reloaded-six",
+      "path": "captures/S6-reloaded-six.jpg",
+      "sha256": "1d9faac9978bd42f09802406201dc0664e71a9eb2021c3ac725d8dbe5cc8adf6",
+      "bytes": 68888,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "exact-state-inspector",
+      "path": "captures/exact-state-inspector.jpg",
+      "sha256": "1f83ee3f87bbdfe2794608b1765ee02b44c5ae949eb84dfa447daa32921bc4c9",
+      "bytes": 84480,
+      "imagePixels": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "assertions": [
+    {
+      "name": "all browser observations carry exact run/build and renderer",
+      "pass": true,
+      "detail": {
+        "count": 66,
+        "failures": []
+      }
+    },
+    {
+      "name": "browser inspector viewport is current at each observation",
+      "pass": false,
+      "detail": {
+        "consistent": 61,
+        "total": 66,
+        "mismatches": [
+          {
+            "label": "S1-east-six-top",
+            "actual": {
+              "dpr": 1,
+              "height": 805,
+              "scrollX": 0,
+              "scrollY": 0,
+              "width": 1280
+            },
+            "inspector": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            }
+          },
+          {
+            "label": "S0-fixed-comparison",
+            "actual": {
+              "dpr": 1,
+              "height": 720,
+              "scrollX": 0,
+              "scrollY": 0,
+              "width": 1280
+            },
+            "inspector": {
+              "devicePixelRatio": 1,
+              "height": 1127,
+              "width": 1280
+            }
+          },
+          {
+            "label": "capacity-hall-marker",
+            "actual": {
+              "dpr": 1,
+              "height": 1127,
+              "scrollX": 0,
+              "scrollY": 200,
+              "width": 1280
+            },
+            "inspector": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            }
+          },
+          {
+            "label": "S4-capacity-hall",
+            "actual": {
+              "dpr": 1,
+              "height": 1127,
+              "scrollX": 0,
+              "scrollY": 726.5,
+              "width": 1280
+            },
+            "inspector": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            }
+          },
+          {
+            "label": "S6-final-twentyfour",
+            "actual": {
+              "dpr": 1,
+              "height": 720,
+              "scrollX": 30,
+              "scrollY": 0,
+              "width": 1280
+            },
+            "inspector": {
+              "devicePixelRatio": 1,
+              "height": 1127,
+              "width": 1280
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "all browser observations agree with independent q/h/P equations",
+      "pass": true,
+      "detail": {
+        "count": 66,
+        "failures": []
+      }
+    },
+    {
+      "name": "all 128 selected fiber samples in every observation agree numerically",
+      "pass": true,
+      "detail": {
+        "checked": 8448,
+        "failures": []
+      }
+    },
+    {
+      "name": "all browser mapping and records hashes agree with source-derived rules",
+      "pass": true,
+      "detail": {
+        "count": 66,
+        "failures": []
+      }
+    },
+    {
+      "name": "all browser observations expose complete SHA-256 fingerprints",
+      "pass": true,
+      "detail": {
+        "checked": 66,
+        "failures": []
+      }
+    },
+    {
+      "name": "five actually operated checkpoint observations match frozen q/h/P",
+      "pass": true,
+      "detail": [
+        {
+          "label": "S0-east-start-top",
+          "present": true,
+          "t": 0
+        },
+        {
+          "label": "S1-east-six-top",
+          "present": true,
+          "t": 6000
+        },
+        {
+          "label": "checkpoint-12000",
+          "present": true,
+          "t": 12000
+        },
+        {
+          "label": "checkpoint-18000",
+          "present": true,
+          "t": 18000
+        },
+        {
+          "label": "checkpoint-24000",
+          "present": true,
+          "t": 24000
+        }
+      ]
+    },
+    {
+      "name": "same-browser checkpoint hashes restore exactly after Library and reload",
+      "pass": true
+    },
+    {
+      "name": "phase changes q while east base holds and 24s numerically returns",
+      "pass": true
+    },
+    {
+      "name": "actual front chart N→S→N compensates phase and keeps source",
+      "pass": true
+    },
+    {
+      "name": "actual unavailable pole chart is disabled with reason",
+      "pass": true
+    },
+    {
+      "name": "actual south pole keeps source, infinity and broken clipped line",
+      "pass": true
+    },
+    {
+      "name": "actual custom 30°/60° selection matches independent prespec",
+      "pass": true
+    },
+    {
+      "name": "actual SVG surface pick uses logged coordinates and +Y inverse",
+      "pass": true,
+      "detail": {
+        "screen": [
+          393.5,
+          135.54928588867188
+        ],
+        "predicted": [
+          0.4966216216216216,
+          0.7073275938835465,
+          0.5030453656170819
+        ],
+        "observed": [
+          0.4966216216216216,
+          0.7073275938835465,
+          0.5030453656170819
+        ]
+      }
+    },
+    {
+      "name": "actual camera turn isolates q/h/P/mapping and checkpoint restores exactly",
+      "pass": true
+    },
+    {
+      "name": "first Hall coordinate attempt is retained as a missed hit",
+      "pass": true
+    },
+    {
+      "name": "actual reference Hall yes→no→yes keeps record/math and restores mapping",
+      "pass": true
+    },
+    {
+      "name": "actual plain/unmapped comparison retains four records and weather context",
+      "pass": true
+    },
+    {
+      "name": "observed UI events are ordered per session, identity-bound and origin-labeled",
+      "pass": true,
+      "detail": {
+        "events": 52,
+        "sessions": 3,
+        "failures": []
+      }
+    },
+    {
+      "name": "automatic end pause is distinguishable from manual pause",
+      "pass": true
+    },
+    {
+      "name": "original captures bind actual observations/run/build/state",
+      "pass": true,
+      "detail": {
+        "count": 22,
+        "failures": []
+      }
+    },
+    {
+      "name": "root browser trace records actual inspected states",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "total": 22,
+    "failed": [
+      "browser inspector viewport is current at each observation"
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "schema": "gate7-independent-predictions-v1",
+  "basis": "Closed-form arithmetic prepared before implementation browser trials; does not import the builder model.",
+  "tolerance": {
+    "rawCoordinates": 1e-10,
+    "numericDisplayRoundingDigits": 6,
+    "rank": 1e-10
+  },
+  "tasks": {
+    "Q01": {
+      "expectedChoice": "b",
+      "stackedRank": 4,
+      "recoverableCoordinates": [
+        "x",
+        "y",
+        "z",
+        "w"
+      ],
+      "source": [
+        0.4,
+        -0.6,
+        0.2,
+        -0.8
+      ],
+      "projectionFrames": [
+        [
+          {
+            "id": "K",
+            "xyz": [
+              0.7464101615137755,
+              -0.6,
+              0.2
+            ],
+            "marker": "circle"
+          },
+          {
+            "id": "M",
+            "xyz": [
+              -0.7330127018922192,
+              0.3,
+              -0.4
+            ],
+            "marker": "square"
+          }
+        ],
+        [
+          {
+            "id": "K",
+            "xyz": [
+              0.4928203230275511,
+              -0.6,
+              0.2
+            ],
+            "marker": "circle"
+          },
+          {
+            "id": "M",
+            "xyz": [
+              -0.26961524227066336,
+              0.3,
+              -0.4
+            ],
+            "marker": "square"
+          }
+        ],
+        [
+          {
+            "id": "K",
+            "xyz": [
+              -0.7464101615137756,
+              -0.6,
+              0.2
+            ],
+            "marker": "circle"
+          },
+          {
+            "id": "M",
+            "xyz": [
+              0.7330127018922193,
+              0.3,
+              -0.4
+            ],
+            "marker": "square"
+          }
+        ]
+      ]
+    },
+    "Q02": {
+      "expectedChoice": "c",
+      "stackedRank": 3,
+      "freeDimension": 1,
+      "rawObservation": [
+        0.5,
+        -0.2,
+        0.7
+      ],
+      "unchangedAcrossCameraFrames": true,
+      "selectedPointId": "N"
+    },
+    "Q03": {
+      "expectedChoice": "a",
+      "stackedRank": 4,
+      "freeDimension": 1,
+      "unobservedCoordinate": "v",
+      "projectionFrames": [
+        [
+          {
+            "id": "P",
+            "xyz": [
+              0.04249368590780442,
+              -0.4,
+              0.2
+            ],
+            "marker": "circle"
+          }
+        ],
+        [
+          {
+            "id": "P",
+            "xyz": [
+              -0.7603908775478364,
+              -0.4,
+              0.2
+            ],
+            "marker": "circle"
+          }
+        ],
+        [
+          {
+            "id": "P",
+            "xyz": [
+              -0.042493685907804474,
+              -0.4,
+              0.2
+            ],
+            "marker": "circle"
+          }
+        ]
+      ]
+    },
+    "Q04": {
+      "expectedChoice": "d",
+      "stackedRank": 5,
+      "recoveredV": -0.4,
+      "projectionFrames": [
+        [
+          {
+            "id": "R",
+            "xyz": [
+              0.3931506101525829,
+              0.5,
+              -0.3
+            ],
+            "marker": "circle"
+          }
+        ],
+        [
+          {
+            "id": "R",
+            "xyz": [
+              0.4954115438064113,
+              0.5,
+              -0.3
+            ],
+            "marker": "circle"
+          }
+        ],
+        [
+          {
+            "id": "R",
+            "xyz": [
+              0.3931506101525829,
+              0.5468871199771977,
+              -0.3
+            ],
+            "marker": "circle"
+          }
+        ]
+      ]
+    },
+    "Q05": {
+      "expectedChoice": "b",
+      "sliceKinds": [
+        "ball",
+        "ball",
+        "point"
+      ],
+      "sliceRadii": [
+        1.2,
+        1.0392304845413265,
+        0
+      ],
+      "projectionRadii": [
+        1.2,
+        1.2,
+        1.2
+      ],
+      "boundaryTolerance": 1e-10,
+      "heldOutSetting": 1.8,
+      "heldOutSliceKind": "empty",
+      "heldOutProjectionRadius": 1.2
+    },
+    "Q06": {
+      "expectedChoice": "d",
+      "radius": 0.6,
+      "sSquaredPlusTSquared": 0.64,
+      "uniquelyIdentifiedSignedPair": false
+    },
+    "Q07": {
+      "expectedChoice": "a",
+      "costsAvailable": false,
+      "determinateReceiverResults": false
+    },
+    "Q08": {
+      "expectedChoice": "c",
+      "sourceRecordsUnchangedAcrossFrames": true,
+      "totals": {
+        "Cedar": 5,
+        "Quay": 7
+      },
+      "receiverResults": [
+        {
+          "Cedar": true,
+          "Quay": false
+        },
+        {
+          "Cedar": true,
+          "Quay": false
+        },
+        {
+          "Cedar": false,
+          "Quay": true
+        }
+      ],
+      "capacity60Mapping": {
+        "Cedar": true,
+        "Quay": true
+      },
+      "existingAccessMapping": {
+        "Cedar": false,
+        "Quay": true
+      },
+      "graphPlainSemanticEquality": true
+    }
+  },
+  "canonicalReplay": {
+    "durationSeconds": 48,
+    "checkpoints": [
+      {
+        "timeSeconds": 0,
+        "taskId": "Q01",
+        "condition": "static",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 6,
+        "taskId": "Q02",
+        "condition": "prescribed",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 12,
+        "taskId": "Q03",
+        "condition": "interactive",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 18,
+        "taskId": "Q04",
+        "condition": "prescribed",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 24,
+        "taskId": "Q05",
+        "condition": "static",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 30,
+        "taskId": "Q06",
+        "condition": "interactive",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 36,
+        "taskId": "Q07",
+        "condition": "attention",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 42,
+        "taskId": "Q08",
+        "condition": "plain",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      },
+      {
+        "timeSeconds": 48,
+        "taskId": "Q01",
+        "condition": "static",
+        "frameIndex": 0,
+        "answerCount": 0,
+        "revealed": false
+      }
+    ],
+    "withinBlockFrameIndex": "For prescribed/interactive blocks and the Q08/plain block: floor((t mod 6)/2), capped at2. Q07 has one frame. Static always stores frameIndex0 and displays all supplied frames. At48 reset to baseline task/condition/frame and stop; cursor remains48."
+  },
+  "guardChecks": [
+    "All modes for a geometry task reference identical frame bytes.",
+    "Both attention renderers reference identical records/rules/frame bytes.",
+    "Unrevealed task/UI/API payloads contain no answers, correct-choice IDs, hidden source coordinates, rank/recovery results or key explanations.",
+    "Q06 public data contain no actual signed (s,t) pair.",
+    "GET/private key paths are denied; POST reveal requires a valid prior submitted-or-skipped receipt.",
+    "Fresh page and Reopen saved clear transient responses/reveals; saved replay never contains responses.",
+    "Software checks remain labeled software_validation; participant result count stays0.",
+    "Known hidden-coordinate alternatives reproduce all insufficient-case supplied observations."
+  ]
+}

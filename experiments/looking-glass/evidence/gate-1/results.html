@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Looking Glass · Gate 1 results</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10191c;--panel:#17262b;--text:#edf0eb;--muted:#bac8c8;--line:#365057;--accent:#ead2a3}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:42px 24px 64px}h1,h2{line-height:1.2}h1{font:clamp(2rem,5vw,3.4rem)/1.12 Georgia,serif;margin:.3em 0}h2{font-size:1.35rem;margin-top:2em}.eyebrow{color:var(--accent);letter-spacing:.13em;font-size:.8rem;text-transform:uppercase}.lead{font-size:1.17rem;max-width:850px}p{margin:1em 0}a{color:#cfe0b8;text-underline-offset:3px}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.links{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.button{padding:10px 17px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:var(--panel)}.button.primary{background:#c9d9b4;color:#142016;font-weight:700}.identity,.note{padding:16px 20px;border-left:3px solid var(--accent);background:var(--panel);overflow-wrap:anywhere}.identity{font-size:.92rem;color:var(--muted)}code{font-family:ui-monospace,monospace;font-size:.9em}ol{padding-left:1.6em}li{padding:.22em 0}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}table{border-collapse:collapse;min-width:800px;width:100%;font-size:.9rem}th,td{text-align:left;vertical-align:top;padding:13px;border-bottom:1px solid var(--line)}th{background:var(--panel);color:var(--accent)}tr:last-child td{border-bottom:0}figure{margin:28px 0;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:10px}figure img{display:block;width:100%;height:auto}figcaption{padding:13px 7px 4px;color:var(--muted);font-size:.95rem}pre{padding:18px;background:var(--panel);overflow-x:auto;font-size:.85rem}details{padding:14px 18px;border:1px solid var(--line);border-radius:8px}summary{cursor:pointer;color:var(--accent)}footer{margin-top:40px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.9rem}@media(max-width:600px){main{padding:24px 14px}body{font-size:16px}figure{padding:6px}.links{gap:8px}}
+  </style>
+</head>
+<body><main>
+  <div class="eyebrow">Looking Glass · Gate 1 review</div>
+  <h1>A cube, its shadow,<br>and a separate camera.</h1>
+  <p class="lead">The known cube passed the mathematical and functional replay checks. Turning the source reveals a distinction hidden in its first shadow. Moving only the camera leaves that shadow unchanged.</p>
+  <p class="note"><strong>Qualified result:</strong> one logging requirement remains unmet. The raw pause event does not distinguish automatic completion from a manual Pause. The separate browser trace supports this trial's automatic stop. Human understanding has not been tested.</p>
+  <nav class="links" aria-label="Replay and evidence">
+    <a class="button primary" href="/">Open paused Gate 1 replay</a>
+    <a class="button" href="http://127.0.0.1:43991/">Preserved Gate 0 replay</a>
+    <a class="button" href="GATE_1_PACKET.md">Complete review packet</a>
+    <a class="button" href="independent-audit.md">Independent audit</a>
+  </nav>
+  <p class="identity">Run <strong>G1-CUBE-003</strong> · Build <strong>g1-9dce1c2b9c2b3be4</strong><br>SVG from computed 3D points · 40-second source turn · Fixed camera yaw 30°, pitch 20° · Local preview on Paul's Mac</p>
+
+  <h2>Watch this</h2>
+  <ol>
+    <li>At <strong>0 seconds</strong>, find diamond <code>v110</code> and circle <code>v111</code>. They are two units apart in the source cube but share one shadow site.</li>
+    <li>Click <strong>Replay</strong>. At <strong>10 seconds</strong>, their shadow distance is about 1.414; at <strong>20 seconds</strong>, it is 2; at <strong>40 seconds</strong>, they overlap again. The camera stays fixed.</li>
+    <li>Restore <strong>10 s</strong>, scroll to <strong>Look around</strong>, and move the camera. The left view changes while the right shadow stays fixed. Click <strong>10 s</strong> again to restore the saved state. <strong>Source turn</strong> is a separate control.</li>
+    <li>Scroll to <strong>Exact state &amp; diagnostics</strong> for coordinates and edge identities, or the <strong>Run Library</strong> for the preserved Gate 0 replay.</li>
+  </ol>
+
+  <h2>Questions, predictions and evidence</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Question</th><th>Expected</th><th>Observed</th><th>Interpretation</th><th>Unresolved</th></tr></thead>
+    <tbody>
+      <tr><td>T01 · Identity and distance</td><td>8 vertices, 12 edges, 28 pairwise distances preserved</td><td>All five checkpoints agree</td><td>Model invariants passed</td><td>Other objects untested</td></tr>
+      <tr><td>T02 · Source and shadow</td><td>Pair separation 0 / √2 / 2 / √2 / 0</td><td>Predicted coordinates agree within 2.22 × 10<sup>−16</sup>; tolerance 10<sup>−10</sup></td><td>This known rotation reveals the hidden distinction</td><td>No arbitrary screenshot reconstruction</td></tr>
+      <tr><td>T03 · Inverse and return</td><td>Algebraic inverse restores source; 40 s geometry equals 0 s</td><td>Independent inverse tests pass; geometry hashes match</td><td>Both checks passed</td><td>A returning movie alone would be insufficient</td></tr>
+      <tr><td>T04 · Camera-only change</td><td>Yaw 30° → 120° leaves shadow fixed</td><td>Geometry hash unchanged; source-view coordinates change</td><td>Camera isolation passed</td><td>Symmetric outlines can look similar</td></tr>
+      <tr><td>T05 · Manual source turn</td><td>Source 45° → 30° gives shadow distance 1, camera fixed</td><td>Distance 1; exploration labeled; exact restore</td><td>Independent control passed</td><td>Broader interaction usability untested</td></tr>
+      <tr><td>T06 · Controls and replay</td><td>Pause stable, 1 s steps, exact checkpoints and reload</td><td>Pause held 19.247 s; step advanced exactly 1 s; replay/reload matched</td><td><strong>Mixed:</strong> functional pass, event-origin deviation</td><td>Raw pause event does not identify automatic/manual origin</td></tr>
+      <tr><td>T07 · History and viewing</td><td>Canonical bytes unchanged; G0 accessible; readable comparison</td><td>16 Gate 1 files and 61 frozen G0 files preserved; original G0 link opened</td><td>Preservation and investigator visual check passed</td><td>Scrolling, small labels, other devices and human comprehension</td></tr>
+    </tbody>
+  </table></div>
+  <p>The independent audit checked 26 actual browser observations and seven original images. Playback was observed starting, running at 15.710 s, and completed at 40 s. No moving reverse-phase frame or video was captured; a separate 30 s checkpoint verifies the return state. The recorded item named <code>full-replay-returning</code> already shows 40 s, paused.</p>
+
+  <h2>Four untouched, inspected captures</h2>
+  <p>Click an image to open its full size. The geometry stays within both panes; grouped labels preserve coincident source IDs without jitter. Lower controls require scrolling.</p>
+  <figure><a href="G1-CUBE-003-S0-initial.jpg"><img src="G1-CUBE-003-S0-initial.jpg" width="1280" height="720" alt="At zero seconds, v110 and v111 are distinct source corners but share one shadow site"></a><figcaption><strong>0 s · Hidden distinction.</strong> The pair's source distance is 2 and its shadow distance is 0. Four shadow sites represent eight source vertices.</figcaption></figure>
+  <figure><a href="G1-CUBE-003-S1-midpoint.jpg"><img src="G1-CUBE-003-S1-midpoint.jpg" width="1280" height="720" alt="At ten seconds, source rotation separates the marked pair in shadow while camera stays fixed"></a><figcaption><strong>10 s · Source turn 45°.</strong> The marked shadow distance is √2. Other pairs still coincide; all identities remain recorded.</figcaption></figure>
+  <figure><a href="G1-CUBE-003-S2-camera-only.jpg"><img src="G1-CUBE-003-S2-camera-only.jpg" width="1280" height="720" alt="Camera-only exploration at ten seconds changes source-view labels but leaves the shadow unchanged"></a><figcaption><strong>10 s · Camera yaw 120°.</strong> Compare with the previous image: left-side identities move; the right shadow is unchanged. Cube symmetry makes the silhouette alone ambiguous.</figcaption></figure>
+  <figure><a href="G1-CUBE-003-S3-maximum.jpg"><img src="G1-CUBE-003-S3-maximum.jpg" width="1280" height="720" alt="At twenty seconds the source turn is ninety degrees and the marked shadow distance reaches two"></a><figcaption><strong>20 s · Source turn 90°.</strong> The marked pair occupies opposite upper shadow sites, distance 2 apart. The primary camera is unchanged.</figcaption></figure>
+  <p>Additional originals: <a href="G1-CUBE-003-S4-return.jpg">40 s return</a> · <a href="G1-CUBE-003-S5-reloaded-midpoint.jpg">reloaded 10 s</a> · <a href="G1-CUBE-003-S6-inspector.jpg">inspector</a>. The <a href="capture-index.json">capture index</a> binds all seven to run, build, time and state.</p>
+
+  <h2>What changed, and what remains</h2>
+  <p><strong>001</strong> failed before browser use because a camera-field typo produced NaN/null display coordinates. <strong>002</strong> corrected that and passed numeric checks, then pre-browser review found a missing historical G0 build label. <strong>003</strong> added the label and is the only browser-tested Gate 1 candidate. All three source snapshots and run fixtures remain preserved; the packet links them.</p>
+  <p>The preview uses port <strong>43994</strong> because 43993 already served an unrelated project. The tested build retains the pause-origin limitation rather than rewriting its history. Both <a href="deviations.json">deviations are recorded</a>. The result supports this known-source calibration; it does not establish human comprehension, Hopf behavior, or 4D/5D geometry.</p>
+
+  <details><summary>Evidence and exact recovery</summary>
+    <p><a href="browser-observations.json">Actual browser observations</a> · <a href="G1-CUBE-003-ui-session-log-trials.jsonl">Saved UI events</a> · <a href="post-browser-integrity.json">Preservation checks</a> · <a href="browser-console.json">Console observation scope</a> · <a href="commit-recovery.json">G0 commit recovery</a> · <a href="gate-0-library-link-check.json">Actual G0 library opening</a></p>
+    <p>Full source SHA-256: <code>9dce1c2b9c2b3be42e5597e0c666e499d7e0cd8d8ec05d9dac7ad66f72fb7c61</code></p>
+    <p>If the preview stops, restart its exact saved build with the preserved run directories alongside it:</p>
+    <pre><code>node /Users/paul/BTC-Learning/experiments/looking-glass/calibration/builds/g1-9dce1c2b9c2b3be4/server.mjs</code></pre>
+    <p>Node v24.10.0 was used. No packages, lockfile or external assets are required. Open <a href="/">the paused replay</a>; an already-running server needs no restart.</p>
+  </details>
+
+  <h2>Decision: proposed Gate 2</h2>
+  <p>Gate 2 would add linked ideal S² base points and sampled S³ Hopf fibers with mathematical checks, including chart and infinity cases. A <strong>separate candidate attention view</strong> would organize fictional records under two transparent reference questions, preserving identities, ambiguity, reversible changes and a plain listing. This would test a declared mapping, not establish a theory of human attention.</p>
+  <p class="note"><strong>Do you approve Gate 2: Hopf correspondence and the shared reference, want revisions to Gate 1, or want to pause?</strong><br>Gate 2 has not begun. Opening this page or using replay controls does not approve it.</p>
+  <footer>Evidence review only · Actual browser controls by root; independent audit by a separate Sol worker; specification and synthesis by Astra xhigh · No human participation or video claimed</footer>
+</main></body>
+</html>

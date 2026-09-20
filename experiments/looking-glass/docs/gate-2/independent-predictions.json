@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "gate-2-independent-predictions-v1",
+  "derivation": "Specified by Astra from closed-form complex-pair algebra before implementation/browser outputs; no application imports. Math/source review and independent Sol audit remain separate.",
+  "tolerance": {
+    "absoluteCoordinate": 1e-10,
+    "normSquared": 1e-10,
+    "chartDomainThreshold": 1e-12,
+    "stereographicDenominatorThreshold": 1e-12,
+    "exactRestoration": "Identical deterministic checkpoint serialized bytes/hash for the same build, timestamp and declared state; not tolerant image comparison."
+  },
+  "bases": [
+    {
+      "id": "north",
+      "xyz": [
+        0,
+        0,
+        1
+      ],
+      "canonicalSamplingChart": "north"
+    },
+    {
+      "id": "south",
+      "xyz": [
+        0,
+        0,
+        -1
+      ],
+      "canonicalSamplingChart": "south"
+    },
+    {
+      "id": "east",
+      "xyz": [
+        1,
+        0,
+        0
+      ],
+      "canonicalSamplingChart": "north"
+    },
+    {
+      "id": "west",
+      "xyz": [
+        -1,
+        0,
+        0
+      ],
+      "canonicalSamplingChart": "north"
+    },
+    {
+      "id": "front",
+      "xyz": [
+        0,
+        1,
+        0
+      ],
+      "canonicalSamplingChart": "north"
+    },
+    {
+      "id": "back",
+      "xyz": [
+        0,
+        -1,
+        0
+      ],
+      "canonicalSamplingChart": "north"
+    },
+    {
+      "id": "seam-plus",
+      "xyz": [
+        -0.9999999999995,
+        1e-06,
+        0
+      ],
+      "canonicalSamplingChart": "north"
+    },
+    {
+      "id": "seam-minus",
+      "xyz": [
+        -0.9999999999995,
+        -1e-06,
+        0
+      ],
+      "canonicalSamplingChart": "north"
+    }
+  ],
+  "sampleCountPerFiber": 128,
+  "phaseSampleRule": "gamma_j=2*pi*j/128; j=0..127, all phases around each circle; duplicate closure endpoint is not a new source sample.",
+  "replayCheckpoints": [
+    {
+      "tMs": 0,
+      "baseId": "east",
+      "chart": "north",
+      "phaseRad": 0.0,
+      "sourceQ": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475,
+        0
+      ],
+      "hopfBase": [
+        1,
+        0,
+        0
+      ],
+      "stereographicR3": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "sourceNormSquared": 1,
+      "hopfNormSquared": 1,
+      "comparison": "All numeric fields tolerance 1e-10; 24s vs 0s numeric equality only, unless exact periodic evaluation is declared."
+    },
+    {
+      "tMs": 6000,
+      "baseId": "east",
+      "chart": "north",
+      "phaseRad": 1.5707963267948966,
+      "sourceQ": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "hopfBase": [
+        1,
+        0,
+        0
+      ],
+      "stereographicR3": [
+        0,
+        2.414213562373095,
+        0
+      ],
+      "sourceNormSquared": 1,
+      "hopfNormSquared": 1,
+      "comparison": "All numeric fields tolerance 1e-10; 24s vs 0s numeric equality only, unless exact periodic evaluation is declared."
+    },
+    {
+      "tMs": 12000,
+      "baseId": "east",
+      "chart": "north",
+      "phaseRad": 3.141592653589793,
+      "sourceQ": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475,
+        0
+      ],
+      "hopfBase": [
+        1,
+        0,
+        0
+      ],
+      "stereographicR3": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "sourceNormSquared": 1,
+      "hopfNormSquared": 1,
+      "comparison": "All numeric fields tolerance 1e-10; 24s vs 0s numeric equality only, unless exact periodic evaluation is declared."
+    },
+    {
+      "tMs": 18000,
+      "baseId": "east",
+      "chart": "north",
+      "phaseRad": 4.71238898038469,
+      "sourceQ": [
+        0,
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "hopfBase": [
+        1,
+        0,
+        0
+      ],
+      "stereographicR3": [
+        0,
+        -0.41421356237309515,
+        0
+      ],
+      "sourceNormSquared": 1,
+      "hopfNormSquared": 1,
+      "comparison": "All numeric fields tolerance 1e-10; 24s vs 0s numeric equality only, unless exact periodic evaluation is declared."
+    },
+    {
+      "tMs": 24000,
+      "baseId": "east",
+      "chart": "north",
+      "phaseRad": 6.283185307179586,
+      "sourceQ": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475,
+        0
+      ],
+      "hopfBase": [
+        1,
+        0,
+        0
+      ],
+      "stereographicR3": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "sourceNormSquared": 1,
+      "hopfNormSquared": 1,
+      "comparison": "All numeric fields tolerance 1e-10; 24s vs 0s numeric equality only, unless exact periodic evaluation is declared."
+    }
+  ],
+  "chartSwitch": {
+    "baseId": "front",
+    "before": {
+      "chart": "north",
+      "phaseRad": 0,
+      "sourceQ": [
+        0.7071067811865475,
+        0,
+        0,
+        -0.7071067811865475
+      ]
+    },
+    "transitionLongitudeRad": 1.5707963267948966,
+    "after": {
+      "chart": "south",
+      "phaseRad": -1.5707963267948966,
+      "sourceQ": [
+        0.7071067811865475,
+        0,
+        0,
+        -0.7071067811865475
+      ]
+    },
+    "expectedProjection": [
+      0.41421356237309515,
+      0,
+      0
+    ],
+    "invalidCases": [
+      {
+        "baseId": "north",
+        "chart": "south"
+      },
+      {
+        "baseId": "south",
+        "chart": "north"
+      }
+    ],
+    "expected": "Reject unavailable chart with explanation and preserve prior state; front north→south→north preserves q and h numerically, canonical full-fiber samples remain unchanged."
+  },
+  "poleCases": {
+    "north": {
+      "sourceFormula": "(cos gamma,sin gamma,0,0)",
+      "projectedFormula": "(cos gamma,sin gamma,0)",
+      "expectedShape": "unit circle in xy-plane"
+    },
+    "south": {
+      "sourceFormula": "(0,0,cos gamma,sin gamma)",
+      "projectedFormula": "(0,0,cos gamma/(1-sin gamma))",
+      "singularSampleIndex": 32,
+      "singularPhaseRad": 1.5707963267948966,
+      "poleQ": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedShape": "unbounded z-axis plus omitted projection pole; visible clipping boundary ±4",
+      "checkpoints": [
+        {
+          "phaseRad": 0,
+          "projection": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "phaseRad": 1.5707963267948966,
+          "projection": null,
+          "status": "at-infinity"
+        },
+        {
+          "phaseRad": 3.141592653589793,
+          "projection": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "phaseRad": 4.71238898038469,
+          "projection": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "seamCases": {
+    "epsilon": 1e-06,
+    "expectedBaseDistance": 2e-06,
+    "longitudeDifferenceApprox": 6.283183307179586,
+    "statement": "atan2 chart longitude jumps near ±pi, while the two base points and their canonical north sections are nearby; no claim of a globally continuous longitude or global phase origin."
+  },
+  "semanticAnswerKey": {
+    "R_CAPACITY_60": {
+      "venue-hall": "yes",
+      "venue-field": "yes",
+      "venue-studio": "no",
+      "weather-context": "unmapped"
+    },
+    "R_EXISTING_ACCESS": {
+      "venue-hall": "no",
+      "venue-field": "yes",
+      "venue-studio": "yes",
+      "weather-context": "unmapped"
+    }
+  },
+  "counterexamples": [
+    "h cannot recover common phase: east q at gamma0 and gamma pi are distinct antipodal source points with the same base.",
+    "South projection is undefined at gamma pi/2 even though q and h are valid; no deletion from source data and no finite bridge across infinity.",
+    "Hall failing existing-access criterion does not imply it cannot become accessible with the supplied ramp.",
+    "Capacity and access alone cannot establish the full repair-event solution or minimum cost."
+  ],
+  "customSelection": {
+    "latitudeDegrees": 30,
+    "longitudeDegrees": 60,
+    "expectedBase": [
+      0.4330127018922193,
+      0.75,
+      0.5
+    ],
+    "chart": "north",
+    "phaseRad": 0,
+    "expectedSourceQ": [
+      0.8660254037844386,
+      0,
+      0.25,
+      -0.4330127018922193
+    ],
+    "expectedProjection": [
+      0.6043389585039245,
+      0,
+      0.17445763018700947
+    ],
+    "surfacePick": {
+      "targetSvg": [
+        394,
+        136
+      ],
+      "pointingToleranceSvg": 2,
+      "targetBase": [
+        0.5,
+        0.7071067811865476,
+        0.5
+      ],
+      "expectedFromActualCoordinates": "X=(u-320)/148; Z=-(v-210)/148; p=(X,+sqrt(1-X²-Z²),Z); use actual logged SVG input and1e-10 numerical tolerance, not a rounded screenshot location",
+      "visibleHemisphere": "+Y only"
+    },
+    "expectedFixedBaseChange": false
+  }
+}

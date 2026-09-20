@@ -1,0 +1,1413 @@
+[
+  {
+    "index": 0,
+    "label": "001 initial paused inspection",
+    "recordedAtUtc": "2026-09-20T06:45:24.865Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · SAVED TOUR\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ01 · GEOMETRY\nFor the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.\nGEOMETRY\nThe same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.\nx′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.\nPoint IDs and source identities are local to this case; no source identity is asserted across different cases.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 30°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.74641\t-0.6\t0.2\nM\t-0.733013\t0.3\t-0.4\nF2\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 120°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.49282\t-0.6\t0.2\nM\t-0.269615\t0.3\t-0.4\nF3\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 210°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t-0.74641\t-0.6\t0.2\nM\t0.733013\t0.3\t-0.4\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\n+0.8\n−0.8\n+0.4\n−0.4\nThe available observations are insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "saved-replay",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": "K",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "scene": {
+        "width": 959,
+        "height": 369,
+        "svgSizes": [
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          }
+        ]
+      },
+      "taskId": "Q01",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 3
+  },
+  {
+    "index": 1,
+    "label": "001-initial before capture",
+    "recordedAtUtc": "2026-09-20T06:45:24.872Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · SAVED TOUR\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ01 · GEOMETRY\nFor the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.\nGEOMETRY\nThe same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.\nx′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.\nPoint IDs and source identities are local to this case; no source identity is asserted across different cases.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 30°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.74641\t-0.6\t0.2\nM\t-0.733013\t0.3\t-0.4\nF2\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 120°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.49282\t-0.6\t0.2\nM\t-0.269615\t0.3\t-0.4\nF3\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 210°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t-0.74641\t-0.6\t0.2\nM\t0.733013\t0.3\t-0.4\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\n+0.8\n−0.8\n+0.4\n−0.4\nThe available observations are insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "saved-replay",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": "K",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "scene": {
+        "width": 959,
+        "height": 369,
+        "svgSizes": [
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          }
+        ]
+      },
+      "taskId": "Q01",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 3
+  },
+  {
+    "index": 2,
+    "label": "001-initial after capture",
+    "recordedAtUtc": "2026-09-20T06:45:24.910Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · SAVED TOUR\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ01 · GEOMETRY\nFor the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.\nGEOMETRY\nThe same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.\nx′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.\nPoint IDs and source identities are local to this case; no source identity is asserted across different cases.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 30°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.74641\t-0.6\t0.2\nM\t-0.733013\t0.3\t-0.4\nF2\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 120°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.49282\t-0.6\t0.2\nM\t-0.269615\t0.3\t-0.4\nF3\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 210°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t-0.74641\t-0.6\t0.2\nM\t0.733013\t0.3\t-0.4\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\n+0.8\n−0.8\n+0.4\n−0.4\nThe available observations are insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "saved-replay",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": "K",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "scene": {
+        "width": 959,
+        "height": 369,
+        "svgSizes": [
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          }
+        ]
+      },
+      "taskId": "Q01",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 3
+  },
+  {
+    "index": 3,
+    "label": "001 select Q05 before",
+    "recordedAtUtc": "2026-09-20T06:45:57.494Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · SAVED TOUR\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ01 · GEOMETRY\nFor the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.\nGEOMETRY\nThe same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.\nx′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.\nPoint IDs and source identities are local to this case; no source identity is asserted across different cases.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 30°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.74641\t-0.6\t0.2\nM\t-0.733013\t0.3\t-0.4\nF2\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 120°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.49282\t-0.6\t0.2\nM\t-0.269615\t0.3\t-0.4\nF3\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 210°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t-0.74641\t-0.6\t0.2\nM\t0.733013\t0.3\t-0.4\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\n+0.8\n−0.8\n+0.4\n−0.4\nThe available observations are insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "saved-replay",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": "K",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "scene": {
+        "width": 959,
+        "height": 369,
+        "svgSizes": [
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          }
+        ]
+      },
+      "taskId": "Q01",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 3
+  },
+  {
+    "index": 4,
+    "label": "001 select Q05 after",
+    "recordedAtUtc": "2026-09-20T06:45:57.857Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 482.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ05 · GEOMETRY\nPredict the slice and full orthographic xyz projection at the unshown setting s = 1.8.\nGEOMETRY\nThe solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.\nThe projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.2\n\nSlice plane w = 0.3. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.2\nFull projection\tball\t1.2\nF2\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.0392304845413265\n\nSlice plane w = 0.9. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.0392304845413265\nFull projection\tball\t1.2\nF3\nSOURCE OBSERVATION\nBALL · r = 1.2\nPOINT · r = 0\n\nSlice plane w = 1.5. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tpoint\t0\nFull projection\tball\t1.2\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth are empty.\nThe slice is empty; the full projection remains a ball of radius 1.2.\nThe slice is a point; the projection is empty.\nBoth remain balls of radius 1.2.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 482.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 261,
+        "svgSizes": [
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          }
+        ]
+      },
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 6
+  },
+  {
+    "index": 5,
+    "label": "001 scroll Q05 observations before",
+    "recordedAtUtc": "2026-09-20T06:45:57.862Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 482.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ05 · GEOMETRY\nPredict the slice and full orthographic xyz projection at the unshown setting s = 1.8.\nGEOMETRY\nThe solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.\nThe projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.2\n\nSlice plane w = 0.3. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.2\nFull projection\tball\t1.2\nF2\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.0392304845413265\n\nSlice plane w = 0.9. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.0392304845413265\nFull projection\tball\t1.2\nF3\nSOURCE OBSERVATION\nBALL · r = 1.2\nPOINT · r = 0\n\nSlice plane w = 1.5. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tpoint\t0\nFull projection\tball\t1.2\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth are empty.\nThe slice is empty; the full projection remains a ball of radius 1.2.\nThe slice is a point; the projection is empty.\nBoth remain balls of radius 1.2.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 482.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 261,
+        "svgSizes": [
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          }
+        ]
+      },
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 6
+  },
+  {
+    "index": 6,
+    "label": "001 scroll Q05 observations after",
+    "recordedAtUtc": "2026-09-20T06:45:58.191Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 895.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ05 · GEOMETRY\nPredict the slice and full orthographic xyz projection at the unshown setting s = 1.8.\nGEOMETRY\nThe solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.\nThe projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.2\n\nSlice plane w = 0.3. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.2\nFull projection\tball\t1.2\nF2\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.0392304845413265\n\nSlice plane w = 0.9. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.0392304845413265\nFull projection\tball\t1.2\nF3\nSOURCE OBSERVATION\nBALL · r = 1.2\nPOINT · r = 0\n\nSlice plane w = 1.5. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tpoint\t0\nFull projection\tball\t1.2\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth are empty.\nThe slice is empty; the full projection remains a ball of radius 1.2.\nThe slice is a point; the projection is empty.\nBoth remain balls of radius 1.2.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 895.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 261,
+        "svgSizes": [
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          }
+        ]
+      },
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 6
+  },
+  {
+    "index": 7,
+    "label": "001-slice-sheet before capture",
+    "recordedAtUtc": "2026-09-20T06:45:58.197Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 895.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ05 · GEOMETRY\nPredict the slice and full orthographic xyz projection at the unshown setting s = 1.8.\nGEOMETRY\nThe solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.\nThe projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.2\n\nSlice plane w = 0.3. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.2\nFull projection\tball\t1.2\nF2\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.0392304845413265\n\nSlice plane w = 0.9. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.0392304845413265\nFull projection\tball\t1.2\nF3\nSOURCE OBSERVATION\nBALL · r = 1.2\nPOINT · r = 0\n\nSlice plane w = 1.5. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tpoint\t0\nFull projection\tball\t1.2\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth are empty.\nThe slice is empty; the full projection remains a ball of radius 1.2.\nThe slice is a point; the projection is empty.\nBoth remain balls of radius 1.2.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 895.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 261,
+        "svgSizes": [
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          }
+        ]
+      },
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 6
+  },
+  {
+    "index": 8,
+    "label": "001-slice-sheet after capture",
+    "recordedAtUtc": "2026-09-20T06:45:58.314Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 895.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ05 · GEOMETRY\nPredict the slice and full orthographic xyz projection at the unshown setting s = 1.8.\nGEOMETRY\nThe solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.\nThe projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.2\n\nSlice plane w = 0.3. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.2\nFull projection\tball\t1.2\nF2\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.0392304845413265\n\nSlice plane w = 0.9. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.0392304845413265\nFull projection\tball\t1.2\nF3\nSOURCE OBSERVATION\nBALL · r = 1.2\nPOINT · r = 0\n\nSlice plane w = 1.5. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tpoint\t0\nFull projection\tball\t1.2\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth are empty.\nThe slice is empty; the full projection remains a ball of radius 1.2.\nThe slice is a point; the projection is empty.\nBoth remain balls of radius 1.2.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 895.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 261,
+        "svgSizes": [
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          }
+        ]
+      },
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 6
+  },
+  {
+    "index": 9,
+    "label": "001 select Q08 before",
+    "recordedAtUtc": "2026-09-20T06:46:33.225Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 895.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ05 · GEOMETRY\nPredict the slice and full orthographic xyz projection at the unshown setting s = 1.8.\nGEOMETRY\nThe solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.\nThe projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.2\n\nSlice plane w = 0.3. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.2\nFull projection\tball\t1.2\nF2\nSOURCE OBSERVATION\nBALL · r = 1.2\nBALL · r = 1.0392304845413265\n\nSlice plane w = 0.9. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tball\t1.0392304845413265\nFull projection\tball\t1.2\nF3\nSOURCE OBSERVATION\nBALL · r = 1.2\nPOINT · r = 0\n\nSlice plane w = 1.5. Full projection remains a separate observation.\n\nObservation\tKind\tRadius\nSlice\tpoint\t0\nFull projection\tball\t1.2\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth are empty.\nThe slice is empty; the full projection remains a ball of radius 1.2.\nThe slice is a point; the projection is empty.\nBoth remain balls of radius 1.2.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 895.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 261,
+        "svgSizes": [
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          },
+          {
+            "width": 143,
+            "height": 103
+          }
+        ]
+      },
+      "taskId": "Q05",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 6
+  },
+  {
+    "index": 10,
+    "label": "001 select Q08 after",
+    "recordedAtUtc": "2026-09-20T06:46:33.568Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 951.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nCedar\n\nLocal reference: capacity60@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\n\nQuay\n\nLocal reference: existing-access@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nTyped costs belong to their named source record. Card position does not establish a relation or receiver result.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 951.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 238,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 11,
+    "label": "001 narrow viewport before",
+    "recordedAtUtc": "2026-09-20T06:46:33.573Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 951.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nCedar\n\nLocal reference: capacity60@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\n\nQuay\n\nLocal reference: existing-access@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nTyped costs belong to their named source record. Card position does not establish a relation or receiver result.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 951.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 238,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 12,
+    "label": "001 narrow viewport after",
+    "recordedAtUtc": "2026-09-20T06:46:33.678Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 1008.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nCedar\n\nLocal reference: capacity60@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\n\nQuay\n\nLocal reference: existing-access@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nTyped costs belong to their named source record. Card position does not establish a relation or receiver result.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 1008.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 269,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 13,
+    "label": "001-contexts-960 before capture",
+    "recordedAtUtc": "2026-09-20T06:46:33.683Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 1008.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nCedar\n\nLocal reference: capacity60@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\n\nQuay\n\nLocal reference: existing-access@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nTyped costs belong to their named source record. Card position does not establish a relation or receiver result.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 1008.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 269,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 14,
+    "label": "001-contexts-960 after capture",
+    "recordedAtUtc": "2026-09-20T06:46:33.750Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 1008.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nCedar\n\nLocal reference: capacity60@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\n\nQuay\n\nLocal reference: existing-access@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nTyped costs belong to their named source record. Card position does not establish a relation or receiver result.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 1008.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 269,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 15,
+    "label": "001 Q08 plain layout before",
+    "recordedAtUtc": "2026-09-20T06:46:48.940Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 1008.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nCedar\n\nLocal reference: capacity60@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\n\nQuay\n\nLocal reference: existing-access@1\n\nOutward summary: capacity ≥60 = yes\n\nRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nTyped costs belong to their named source record. Card position does not establish a relation or receiver result.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 1008.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 269,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "attention",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 16,
+    "label": "001 Q08 plain layout after",
+    "recordedAtUtc": "2026-09-20T06:46:49.370Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 461.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as local objects.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nContext\tLocal reference\tOutward summary\tSource detail\nCedar\tcapacity60@1\tcapacity ≥60: yes\tRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\nQuay\texisting-access@1\tcapacity ≥60: yes\tRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 461.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 243,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 17,
+    "label": "001-plain-960 before capture",
+    "recordedAtUtc": "2026-09-20T06:46:49.376Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 461.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as local objects.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nContext\tLocal reference\tOutward summary\tSource detail\nCedar\tcapacity60@1\tcapacity ≥60: yes\tRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\nQuay\texisting-access@1\tcapacity ≥60: yes\tRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 461.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 243,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 18,
+    "label": "001-plain-960 after capture",
+    "recordedAtUtc": "2026-09-20T06:46:49.435Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 461.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as local objects.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nContext\tLocal reference\tOutward summary\tSource detail\nCedar\tcapacity60@1\tcapacity ≥60: yes\tRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\nQuay\texisting-access@1\tcapacity ≥60: yes\tRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 461.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 243,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 19,
+    "label": "001 restore 1280 before",
+    "recordedAtUtc": "2026-09-20T06:46:49.442Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 960,
+    "scroll": {
+      "x": 0,
+      "y": 461.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as local objects.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nContext\tLocal reference\tOutward summary\tSource detail\nCedar\tcapacity60@1\tcapacity ≥60: yes\tRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\nQuay\texisting-access@1\tcapacity ≥60: yes\tRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 461.5
+      },
+      "scene": {
+        "width": 639,
+        "height": 243,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 20,
+    "label": "001 restore 1280 after",
+    "recordedAtUtc": "2026-09-20T06:46:49.570Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 461.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as local objects.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nContext\tLocal reference\tOutward summary\tSource detail\nCedar\tcapacity60@1\tcapacity ≥60: yes\tRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\nQuay\texisting-access@1\tcapacity ≥60: yes\tRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 461.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 185,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 21,
+    "label": "001 reopen saved before",
+    "recordedAtUtc": "2026-09-20T06:46:49.576Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 461.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · EXPLORATION\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ08 · ATTENTION\nAfter the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?\nREFERENCE / SCALE\nUse capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.\nThe source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility.\nOBSERVATION CONDITION\nLocal objects\nPlain table\n\nSame supplied records, reference criteria and frame selectors as local objects.\n\nSUPPLIED OBSERVATIONS\nFinite frame observation\nF1 / 3\nF1\nF2\nF3\nF1\nREFERENCE FRAME\n\nShared reference capacity60@1. Receiving screen: capacity ≥60; setup cost ≤6 tokens. Detail: expanded.\n\ncapacity60@1: Capacity at least 60 (capacity >= 60; Fictional venue numeric screen; Gate7 fixture designer v1) · existing-access@1: Existing step-free access (existingAccess === true; Fictional venue numeric screen; Gate7 fixture designer v1)\n\nContext\tLocal reference\tOutward summary\tSource detail\nCedar\tcapacity60@1\tcapacity ≥60: yes\tRecord REC-C: capacity 64; existing access no; required costs C-hire 3, C-ramp 2 tokens.\nQuay\texisting-access@1\tcapacity ≥60: yes\tRecord REC-Q: capacity 78; existing access yes; required costs Q-hire 4, Q-power 1, Q-shelter 2 tokens.\n\nBoth representations expose the same supplied frame records and reference criteria. Where costs are absent, neither view can infer them.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\nBoth\nCedar only\nQuay only\nNeither\nThe available information is insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "exploration",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": null,
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 461.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 185,
+        "svgSizes": []
+      },
+      "taskId": "Q08",
+      "condition": "plain",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 0
+  },
+  {
+    "index": 22,
+    "label": "001 reopen saved after",
+    "recordedAtUtc": "2026-09-20T06:46:49.988Z",
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1
+    },
+    "documentWidth": 1280,
+    "scroll": {
+      "x": 0,
+      "y": 113.5
+    },
+    "visibleText": "LOOKING GLASS · GATE 7 · SYNTHETIC TASKS\n\nUnfamiliar cases\n\nInspect the supplied observations, choose a response or skip, then deliberately reveal the model explanation.\n\nPAUSED · SAVED TOUR\nG7-INTERPRET-001 · g7-0519920fd48aa2fd\nRead first · common rules and timing\nA source rotation changes a model observation; a display camera changes its drawing.\nA projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.\nA shared reference states a question and rule; switching it does not rewrite source records.\nChoose insufficient information when more than one allowed source condition gives the supplied observations.\n\nSuggested teaching: 60s, optional. Suggested task time: 45s, optional. There is no recorded human timing or performance.\n\nGeometry: the sheet, sequence, and frame selector offer the same finite observations. The sequence holds each frame for 2 seconds; no in-between model frames exist. Attention: local objects and the plain table use the same records and rules.\n\nSoftware validation mode\n\nSelect this before agent or host answer-mechanics checks. UI actions never authenticate a human participant.\n\nPAUSED 48-SECOND REPLAY\nEight-case tour\n0.0s / 48s\nReopen saved start\nReplay from start\nPlay\n−1s\n+1s\n0s · Q01\n6s · Q02\n12s · Q03\n18s · Q04\n24s · Q05\n30s · Q06\n36s · Q07\n42s · Q08\n48s · reset\nCASE LIBRARY\nQ01\nGeometry observation\nQ02\nGeometry observation\nQ03\nGeometry observation\nQ04\nGeometry observation\nQ05\nGeometry observation\nQ06\nGeometry observation\nQ07\nReference / scale\nQ08\nReference / scale\n\nThe saved tour is a software demonstration. Repeated exposure changes any later interpretation trial.\n\nQ01 · GEOMETRY\nFor the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.\nGEOMETRY\nThe same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.\nx′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.\nPoint IDs and source identities are local to this case; no source identity is asserted across different cases.\nOBSERVATION CONDITION\nStatic sheet\nPrescribed sequence\nChoose a frame\n\nAll supplied frames simultaneously; identical captions and raw-coordinate tables.\n\nSUPPLIED OBSERVATIONS\nComplete finite frame sheet\n3 frames together\nF1\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 30°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.74641\t-0.6\t0.2\nM\t-0.733013\t0.3\t-0.4\nF2\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 120°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t0.49282\t-0.6\t0.2\nM\t-0.269615\t0.3\t-0.4\nF3\nSOURCE OBSERVATION\nK\nM\n\nSource settings: α 210°. Display camera: yaw 25°, pitch 18°.\n\nPoint\traw x′\traw y′\traw z′\nK\t-0.74641\t-0.6\t0.2\nM\t0.733013\t0.3\t-0.4\n\nOnly the listed discrete frames are supplied. The raw xyz table is the source projection before the display camera. No intermediate source observations are available.\n\nYOUR INTERPRETATION\nChoose an answer or skip\nNO AUTO-SCORING\n+0.8\n−0.8\n+0.4\n−0.4\nThe available observations are insufficient.\nSubmit selected answer\nSkip this case\nReveal model explanation\n\nThe model explanation stays closed until submission or skip.\n\nPublic state inspector · run and display hashes\nReplay collection\ng7-0519920fd48aa2fd · 0519920fd48aa2fd\nPublic run identity\nPlanned checkpoints\nReview collection\nVisual results\nGate 0 · G0-CUBE-005\nGate 1 · G1-CUBE-003\nGate 2 · G2-HOPF-003\nGate 3 · G3-TESSERACT-003\nGate 4 · G4-SLICES-002\nGate 5 · G5-PENTERACT-001\nGate 6 · G6-LOCAL-003\nnode interpretation/builds/g7-0519920fd48aa2fd/server.mjs\nLOCAL SOFTWARE INSTRUMENT · NO HUMAN RESULTS IN THIS REPLAY · OBSERVATIONS ARE FINITE AND DISCRETE",
+    "inspector": {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "mode": "saved-replay",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": "K",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 113.5
+      },
+      "scene": {
+        "width": 959,
+        "height": 369,
+        "svgSizes": [
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          }
+        ]
+      },
+      "taskId": "Q01",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "answerCount": 0,
+      "revealedCount": 0
+    },
+    "svgCount": 3
+  }
+]

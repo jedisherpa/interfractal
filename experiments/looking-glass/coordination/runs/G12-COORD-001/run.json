@@ -1,0 +1,28 @@
+{
+  "schema": "gate12-run-v1",
+  "runId": "G12-COORD-001",
+  "buildId": "g12-0d66d254f275f3663dee",
+  "sourceHash": "0d66d254f275f3663dee1b9e75062a046106dddc3f4ce9419eaa519688cd5e74",
+  "baseCommit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "fixtureId": "G12-FIXTURE-001",
+  "fixtureSha256": "88c6555fc4ba75f41136f08b4e9d27de1a197c03bff7d994581b62cb402ce825",
+  "prespecFreezeSha256": "0aafcfe9b62f5ba1c2b5934ae7624b4e05248d7ed36ccfa266a4bc55cd4458b1",
+  "host": "127.0.0.1",
+  "port": 44005,
+  "durationSeconds": 24,
+  "checkpointSeconds": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "scheduledEventCount": 8,
+  "sourceModesHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+  "localSoftwareOnly": true,
+  "humanParticipants": 0
+}

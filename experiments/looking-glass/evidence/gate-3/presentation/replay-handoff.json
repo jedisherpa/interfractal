@@ -1,0 +1,32 @@
+{
+  "reviewedAtUtc": "2026-09-20T03:06:27.272Z",
+  "note": "Post-trial review reload: its live programmatic-open event is outside the frozen bounded scientific event snapshot. Temporary viewport override reset.",
+  "checkpoint": "1d54305d0912601519a1d5356fbfbda4e71f9d84f02656d2ff592203bd265dca",
+  "evidenceLinks": [
+    {
+      "href": "/evidence/gate-3/screenshots/003-C0-paused-0s.jpg",
+      "label": "0s · two IDs at one shadow site · 0.0s"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C1-paused-16s.jpg",
+      "label": "16s · separation under the source turn · 16.0s"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C2-active-reverse.jpg",
+      "label": "Active return · 26.7s · 26.7s"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C3-observability-comparison.jpg",
+      "label": "Known-coordinate recovery comparison · 8.0s"
+    },
+    {
+      "href": "/evidence/gate-3/results.html",
+      "label": "Gate 3 results"
+    }
+  ],
+  "library": "G3-TESSERACT-003 · g3-6c31bc16aeca4460 · canonical paused start",
+  "mode": "PAUSED · SAVED RUN",
+  "run": "G3-TESSERACT-003",
+  "time": "0.0s / 32s",
+  "url": "http://127.0.0.1:43996/"
+}

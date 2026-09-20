@@ -1,0 +1,1034 @@
+{
+  "startedAtUtc": "2026-09-20T07:14:51.669Z",
+  "coreUnchanged": true,
+  "notes": [
+    "Presentation is separate from the closed instrument core. One CUA JavaScript parse error occurred before execution during initial layout inspection; no API calls or UI actions ran in that failed call.",
+    "Below-fold images use lazy loading. They were inspected after scrolling into view."
+  ],
+  "observations": [
+    {
+      "label": "presentation-final-top before",
+      "recordedAtUtc": "2026-09-20T07:14:51.726Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 0,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-top after",
+      "recordedAtUtc": "2026-09-20T07:14:51.827Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 0,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-conclusions before",
+      "recordedAtUtc": "2026-09-20T07:14:52.131Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 1440,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-conclusions after",
+      "recordedAtUtc": "2026-09-20T07:14:52.334Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 1440,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-originals before",
+      "recordedAtUtc": "2026-09-20T07:15:03.966Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 3600,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-originals after",
+      "recordedAtUtc": "2026-09-20T07:15:04.182Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 3600,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-collection before",
+      "recordedAtUtc": "2026-09-20T07:15:04.487Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 7153,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    },
+    {
+      "label": "presentation-final-collection after",
+      "recordedAtUtc": "2026-09-20T07:15:04.588Z",
+      "url": "http://127.0.0.1:44000/review/results.html",
+      "title": "Looking Glass · Final Gate 7 evidence",
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "scrollY": 7153,
+      "pageWidth": 1280,
+      "text": "LOOKING GLASS · GATE 7 · FINAL APPROVED STAGE\nA working instrument.\nAn open human question.\n\nThe eight frozen cases and replay pass as a qualified instrument-readiness result. Human understanding and a general advantage for the geometric or attention view remain untested.\n\nAccepted run G7-INTERPRET-002 · build g7-90e64952eb028069. Exact task explanations remain behind deliberate reveal in the instrument; this report contains no option key.\n\nOpen paused instrument\nRead full packet\nIndependent audit\n\nFor a first attempt, use the cases before the tour or explanations. Repeated exposure changes any later interpretation trial.\n\n8\nfrozen synthetic cases\n36\nmatching checkpoint observations\n214\nactual browser observations\n0\nhuman participants\nWatch and try\nAt 0s, compare Static sheet, Prescribed sequence and Choose a frame. The same finite observations and raw coordinate tables are available through different access patterns. Sequence frames last 2 seconds with no interpolation.\nAt 24s, inspect the supplied slice/projection sheet. At 42s, switch the same reference/receiver frame between Local objects and Plain table.\nSubmit an answer or skip, then intentionally choose Reveal model explanation. Submission alone gives no grading. Reopen saved start or reload clears the transient responses and explanations.\nReplay from start visits all eight cases and naturally stops paused at 48s. It is a software demonstration with no participant answers.\n\nTeaching: 60 seconds recommended; task time: 45 seconds recommended. These are proposed, unenforced limits, with pausing and revisiting available. No participant exposure or timing outcome was measured.\n\nFive separate conclusions\n\nThe independent core audit passes the exact frozen build and closed evidence. Source-informed agents checked the model and interface; they did not take a human comprehension test.\n\nQuestion\tExpected\tObserved\tInterpretation\tUnresolved\nMathematical fidelity\tIndependent equations and the frozen key agree across eight synthetic cases.\tThe independent oracle passes projection, observability, slice, reference and checkpoint checks.\tThe declared model and task instrument are internally consistent.\tRecovery assumes supplied raw 3D coordinates, known transforms and correct point correspondence; it is not recovery from SVG pixels.\nInformation recovery and ambiguity\tDistinguish properties determined by the supplied observations from compatible alternatives.\tThe audit verifies both determining observations and explicit non-uniqueness witnesses; exact task explanations remain behind deliberate reveal.\tThe instrument supports bounded model questions and preserves genuine insufficiency.\tNo arbitrary shape reconstruction, unique higher-dimensional physical cause, or general inference from appearance is established.\nActual human understanding\tReport only real, separately authorized human observations.\tZero human participants. One software option submission and one null skip tested response/reveal mechanics.\tHuman understanding is untested; there is no human score.\tAccuracy, confusion, learning, transfer and perceived usefulness require actual participation.\nViews, controls and reference changes\tSame finite data across three geometry presentations; the same records/rules in local objects and plain table.\tAll eight tasks and five conditions appeared in the browser. Geometry retains the same full observation set; the attention pair matches each of its three frames and information hashes.\tThe controls and reference/receiver transitions work. Equal facts do not establish equal cognitive effort or a visual advantage.\tStatic, serial and selectable access differ in memory and control demands. Dense records, small thumbnails and vertical scrolling remain; human clarity was not tested.\nStrongest counterexample and next experiment\tRetain failures and end with the smallest proposal that could change the conclusion.\tNon-unique observations and missing dependencies remain explicit. The preserved Gate 4 example shows a stored 3D movie can reproduce a selected projection movie. Candidate 001 presentation/event defects are preserved and corrected in 002.\tFaithful software and a convincing appearance do not by themselves establish unique origin or comprehension.\tPropose one separately requested think-aloud session on unrevealed cases with a fixed first-exposure plan and plain comparison. It is unapproved and unrun.\n\nThe same observation set does not mean the same memory burden, simultaneous access or drawing size. The plain view condenses records into rows; local objects make grouping prominent. Neither has a demonstrated comprehension advantage.\n\nThe bounded answer is that the instrument exposes selected properties of declared four- and five-coordinate models and preserves inspectable, reference-dependent fictional records. Numerical recovery assumes known raw observations and transforms. It does not establish inference from arbitrary pixels, a unique physical origin, human understanding or social meaning.\n\nInspected originals: failure, correction and comparison\n\nThese four images are unmodified viewport captures, with task/condition and capture limits recorded. The first candidate’s failure is retained.\n\nPreserved failure: excessive numeric precision\nCandidate 001, Q05 static sheet, 1280×720 CSS viewport (reported DPR 2), exploration at cursor 0. The unrounded long radius label violates the declared six-decimal presentation. This original also shows unselected response options; it supplies no keyed answer. The image is a viewport capture, not a whole-page comparison. Bracketing observations 7–8.\nThe corrected supplied slice sheet\nCandidate 002, Q05 static sheet, 1280×720 CSS viewport (DPR 1), exploration at cursor 0. The supplied balls and boundary point are distinct and numeric labels use six decimals. The queried unshown setting is not added to the sheet. Each ball drawing occupies 143×103 CSS pixels; the tables carry explicit numerical information. Bracketing observations 62–63.\nLocal objects retain the source records\nCandidate 002, Q08 Local objects, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The two local references, revised receiving rule and full cost records are visible after scrolling. Card position adds no relation or receiver result. No response is selected or explanation revealed. Bracketing observations 98–99.\nThe plain view exposes the same facts\nCandidate 002, Q08 Plain table, frame F3, 960×720 CSS viewport (DPR 1), exploration at cursor 0. The identical facts appear as rows, with unselected response controls below. This image is framed at a different scroll position from Local objects; the browser frame/information hashes establish parity, not the crop. Bracketing observations 104–105.\n\nStatic selected-point sheet · Active tour · Final pristine state\n\nEvidence, revision and limits\n\nThe closed final core has 214 observations, 94 successful host action calls, 11 original JPEGs and 115 activity rows—106 UI events and 9 API transactions. All 21 closed files were rehashed. Nine checkpoints match across four passes: baseline, restored, reopened and reloaded. The full tour was observed active, at 22.2s and at its natural 48s end; final state is paused 0 with no answers or reveals.\n\nOne explicitly software-marked option submission and one null skip exercised the response/reveal paths. Neither is Paul’s answer or a participant outcome. The first elapsed observation of the short prescribed sequence was its 6s end; no intermediate short-sequence observation is claimed.\n\nCandidate 001 retained 23 observations and 4 originals after event-schema, incomplete-inspector and numeric-display failures. Candidate 002 corrects those defects and passes the independent audit. All 15 Gate 7 originals remain preserved; one justified revision was used.\n\nPublic route checks deny 16 private/internal/traversal GET paths. The held answer key is not a public asset. Submit is ungraded; reveal requires its matching receipt. Full response logs and numerical oracles remain local audit material.\n\nNo horizontal page overflow was observed at 1280×720 or 960×720. Complete records and the inspector require vertical scrolling at 960px; six-ball thumbnails are small. The queried console had no warnings/errors. Manual paused controls were tested; OS reduced-motion emulation and cross-device pixel identity were not.\n\nAstra: specification/synthesis. Sol: implementation and a separate independent audit. Luna: primary-source review. Host: actual browser operation and evidence. These are software-agent roles. No human study, deployment or four-agent language protocol occurred.\n\nMachine-readable result · Evaluation source review\n\nThe final replay collection\n\nAll 872 previous frozen manifest entries remain unchanged. All seven historical servers passed read-only HTTP checks; Gate 3 and Gate 6 were also opened through actual browser links and their paused run/build identities inspected. Their original qualifications remain in their packets.\n\nGate 0\nViewing and replay\nG0-CUBE-005\ng0-d85237ad31362768\nGate 1\n3D-to-2D calibration\nG1-CUBE-003\ng1-9dce1c2b9c2b3be4\nGate 2\nHopf and shared reference\nG2-HOPF-003\ng2-ccabad12693f86a8\nGate 3\n4D projection\nG3-TESSERACT-003\ng3-6c31bc16aeca4460\nGate 4\nSlices and ambiguity\nG4-SLICES-002\ng4-38777d5882ef08a6\nGate 5\nTwo additional coordinates in 5D\nG5-PENTERACT-001\ng5-0bdee39bcd7dd541\nGate 6\nConnected local models\nG6-LOCAL-003\ng6-0279cdcdc0adc9b0\nGate 7\nUnfamiliar-case interpretation and the bounded conclusion\nG7-INTERPRET-002\ng7-90e64952eb028069\n\nExact run/build collection and restart commands\n\nLoopback previews on this Mac; no permanent hosting claim. This exact Gate 7 snapshot uses Node v24.17.0:\n\n/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs\nThe sequence ends here\n\nKeep the instrument as a reproducible model-and-observation tool. The smallest proposed next experiment is one separately requested, recorded think-aloud session on unrevealed cases, with a fixed first-exposure plan and plain comparison. It would provide individual usability evidence, not population efficacy.\n\nThat session and all further scope remain unapproved and unrun. No new objects, formal bundle construction, VR or shared-meaning integration begins automatically.\n\nSource SHA-256 90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078\nFrozen specification: 2026-09-20T06:37:42.415485Z. Closed core: 2026-09-20T07:06:23.415895Z. Presentation review is separate from the unchanged core observations.",
+      "images": [
+        {
+          "src": "/review/screenshots/001-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-slice-sheet.jpg",
+          "complete": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-context-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "/review/screenshots/002-plain-records-960.jpg",
+          "complete": true,
+          "width": 960,
+          "height": 720
+        }
+      ],
+      "links": [
+        {
+          "text": "Open paused instrument",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Read full packet",
+          "href": "http://127.0.0.1:44000/review/packet.md"
+        },
+        {
+          "text": "Independent audit",
+          "href": "http://127.0.0.1:44000/review/audit.md"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/001-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-slice-sheet.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-context-records-960.jpg"
+        },
+        {
+          "text": "",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-plain-records-960.jpg"
+        },
+        {
+          "text": "Static selected-point sheet",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-static-sheet.jpg"
+        },
+        {
+          "text": "Active tour",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-tour-active.jpg"
+        },
+        {
+          "text": "Final pristine state",
+          "href": "http://127.0.0.1:44000/review/screenshots/002-final-paused.jpg"
+        },
+        {
+          "text": "Machine-readable result",
+          "href": "http://127.0.0.1:44000/review/run-evidence.json"
+        },
+        {
+          "text": "Evaluation source review",
+          "href": "http://127.0.0.1:44000/review/source-review.md"
+        },
+        {
+          "text": "Gate 0Viewing and replayG0-CUBE-005g0-d85237ad31362768",
+          "href": "http://127.0.0.1:43991/"
+        },
+        {
+          "text": "Gate 13D-to-2D calibrationG1-CUBE-003g1-9dce1c2b9c2b3be4",
+          "href": "http://127.0.0.1:43994/"
+        },
+        {
+          "text": "Gate 2Hopf and shared referenceG2-HOPF-003g2-ccabad12693f86a8",
+          "href": "http://127.0.0.1:43995/"
+        },
+        {
+          "text": "Gate 34D projectionG3-TESSERACT-003g3-6c31bc16aeca4460",
+          "href": "http://127.0.0.1:43996/"
+        },
+        {
+          "text": "Gate 4Slices and ambiguityG4-SLICES-002g4-38777d5882ef08a6",
+          "href": "http://127.0.0.1:43997/"
+        },
+        {
+          "text": "Gate 5Two additional coordinates in 5DG5-PENTERACT-001g5-0bdee39bcd7dd541",
+          "href": "http://127.0.0.1:43998/"
+        },
+        {
+          "text": "Gate 6Connected local modelsG6-LOCAL-003g6-0279cdcdc0adc9b0",
+          "href": "http://127.0.0.1:43999/"
+        },
+        {
+          "text": "Gate 7Unfamiliar-case interpretation and the bounded conclusionG7-INTERPRET-002g7-90e64952eb028069",
+          "href": "http://127.0.0.1:44000/"
+        },
+        {
+          "text": "Exact run/build collection and restart commands",
+          "href": "http://127.0.0.1:44000/review/replay-collection.json"
+        }
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "path": "evidence/gate-7/screenshots/presentation-final-top.jpg",
+      "sha256": "eae2ccddc0ebb3ce5fac9d7d2058384f79e509582cf99ebab849f7f37cfdf347",
+      "bytes": 81829,
+      "before": "presentation-final-top before",
+      "after": "presentation-final-top after"
+    },
+    {
+      "path": "evidence/gate-7/screenshots/presentation-final-conclusions.jpg",
+      "sha256": "0c79d12563a048ea4112e6205c597341b4c3140c795acb5baf29ab586ada39f1",
+      "bytes": 130778,
+      "before": "presentation-final-conclusions before",
+      "after": "presentation-final-conclusions after"
+    },
+    {
+      "path": "evidence/gate-7/screenshots/presentation-final-originals.jpg",
+      "sha256": "e8a2d0e9d4c4e3c8fad92b7e00e9ad84e9c31cc4f76e174cd9803de33d18229f",
+      "bytes": 100509,
+      "before": "presentation-final-originals before",
+      "after": "presentation-final-originals after"
+    },
+    {
+      "path": "evidence/gate-7/screenshots/presentation-final-collection.jpg",
+      "sha256": "972937ea0b9bbafc7f2200f9a1b26689733af0df10193c639fb89138c498a9ed",
+      "bytes": 95296,
+      "before": "presentation-final-collection before",
+      "after": "presentation-final-collection after"
+    }
+  ],
+  "consoleWarningsAndErrors": [],
+  "finishedAtUtc": "2026-09-20T07:15:04.591Z"
+}

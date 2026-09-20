@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "materials-browser-evidence-audit/1",
+  "candidate": "001",
+  "status": "PASS",
+  "observations": 16,
+  "sourceRecordsMatched": 288,
+  "hostActionCalls": 7,
+  "originalJpegs": 4,
+  "consoleEntries": 0,
+  "limits": [
+    "Only 1280x720 was observed",
+    "Researcher full-union overview, not participant isolation",
+    "No actual model or human observations"
+  ],
+  "errors": []
+}

@@ -1,0 +1,91 @@
+{
+  "gate": 10,
+  "scope": "Bounded primary-source review for interpolation versus new-setting versus changed-task analogical transfer, and pre-reveal prediction commitments",
+  "accessed_at_utc": "2026-09-20T08:54:00Z",
+  "accessed_at_local": "2026-09-20T02:54:00-06:00",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only inspection of original papers and publisher or author archives; no implementation, browser run, deployment, participant recruitment, human study, causal claim, or Gate11 work.",
+  "primary_sources": [
+    {
+      "title": "Schema induction and analogical transfer",
+      "authors": ["Mary L. Gick", "Keith J. Holyoak"],
+      "publisher": "Cognitive Psychology",
+      "published": "1983",
+      "volume": "15(1)",
+      "pages": "1-38",
+      "source_type": "Primary experimental paper; analogical problem transfer and schema induction",
+      "url": "https://doi.org/10.1016/0010-0285(83)90002-6",
+      "open_copy_url": "https://gwern.net/doc/psychology/1983-gick.pdf",
+      "open_copy_provenance": "Third-party-hosted copy of the original paper; the publisher DOI is the primary attribution.",
+      "claims_used": [
+        "Participants read stories illustrating problems and solutions and then attempted a semantically different but structurally analogous transfer problem.",
+        "Summarization, explicit principle statements, and diagrams were experimental manipulations intended to support abstraction and transfer.",
+        "Transfer to a target should be described by the relation retained and the surface/task changes, not by novelty alone."
+      ],
+      "gate10_use": "Predeclare whether each scored case is same-family recombination, an unseen setting preserving the task relation, or a changed-task analogical target; retain the overlap fields and score categories separately.",
+      "limits": "The materials were verbal problem stories and a radiation problem. The experiments do not define universal near/far-transfer thresholds, validate a geometric model, or imply that a new source/query is human transfer."
+    },
+    {
+      "title": "Learning and Transfer: A General Role for Analogical Encoding",
+      "authors": ["Dedre Gentner", "Jeffrey Loewenstein", "Leigh Thompson"],
+      "publisher": "Journal of Educational Psychology",
+      "published": "2003",
+      "volume": "95(2)",
+      "pages": "393-408",
+      "source_type": "Primary experimental paper; three studies of analogical comparison and transfer",
+      "url": "https://doi.org/10.1037/0022-0663.95.2.393",
+      "open_copy_url": "https://groups.psych.northwestern.edu/gentner/papers/GentnerLoewensteinThompson03.pdf",
+      "claims_used": [
+        "The studies examined novices learning negotiation strategies from cases.",
+        "Comparing two cases improved abstraction and later transfer relative to studying the cases separately in the reported tasks.",
+        "The source-target relationship and the support given for comparison are part of the transfer manipulation."
+      ],
+      "gate10_use": "Declare retained relational structure, changed surface context, and changed task demand independently; do not call a changed family transfer without recording which structure is shared and which task requirements changed.",
+      "limits": "Negotiation cases, comparison instructions, and face-to-face transfer tasks differ from the finite 5-D point-world benchmark. The findings provide design logic, not a transferable effect estimate or proof of far transfer."
+    },
+    {
+      "title": "Explicitly predicting outcomes enhances learning of expectancy-violating information",
+      "authors": ["Garvin Brod", "Andrea Greve", "Dietsje Jolles", "Maria Theobald", "Elena M. Galeano-Keiner"],
+      "publisher": "Psychonomic Bulletin & Review",
+      "published": "2022",
+      "volume": "29(6)",
+      "pages": "2192-2201",
+      "source_type": "Primary experimental paper; prediction-before-feedback versus postdiction control",
+      "url": "https://doi.org/10.3758/s13423-022-02124-x",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9722848/",
+      "claims_used": [
+        "Two experiments compared an explicit numerical prediction made before the correct fact with a postdiction made after the fact was shown.",
+        "Predictions were committed before feedback and the later test was held across the prediction/postdiction comparison.",
+        "The reported memory benefit was concentrated on highly expectancy-violating outcomes."
+      ],
+      "gate10_use": "Log an immutable pre-reveal prediction event, then reveal the answer in a separate event; preserve any correction or explanation after reveal. For a future first-exposure assessment, do not serve a protected explanation or target result to the precommit browser state before sealing. Software validation may inspect the answer key, so it verifies event ordering and served-state boundaries rather than blind human answer construction.",
+      "limits": "The study measured human memory for numerical facts and used prediction/postdiction ordering, not geometric view prediction or analogical transfer. Its memory effect must not be extrapolated to Gate10 accuracy or agency."
+    }
+  ],
+  "derived_gate10_requirements": [
+    {
+      "requirement": "Predeclared transfer taxonomy",
+      "design": "Before implementation, label every case by source family, query relation, coordinate regime, surface context, output schema, and task demand. Score same-family recombination, unseen setting, and changed-task analogical transfer separately.",
+      "basis": ["Gick & Holyoak 1983", "Gentner, Loewenstein & Thompson 2003"],
+      "status": "Application specification rule; not a human result."
+    },
+    {
+      "requirement": "Immutable prediction-before-reveal",
+      "design": "Seal the answer before revealing the unseen view; store commit and reveal as ordered events. Keep answer derivation independent from the hidden key and future display state; separate correction and explanation from the committed response.",
+      "basis": ["Brod et al. 2022"],
+      "status": "Application instrumentation rule; no prediction-learning claim without actual observations."
+    },
+    {
+      "requirement": "Practice and leakage boundary",
+      "design": "Exclude practice and same-task reuse from first-exposure transfer scores. Check that protected explanation or target result is not served to the precommit browser state before sealing, and disclose that host/auditor software validation may inspect the answer key; this is not a blind human assessment. Report uncertainty by predeclared category.",
+      "basis": ["All three primary studies and the Gate10 scope"],
+      "status": "Application audit rule; not directly established by one paper."
+    }
+  ],
+  "limits": [
+    "No source validates the Looking Glass instrument or predicts Gate10 performance.",
+    "The studies are heterogeneous human experiments in verbal problems, negotiation, and numerical fact memory; no effect sizes are pooled or extrapolated.",
+    "Software event order, answer-key independence, and category labels can be audited without establishing human learning, transfer, calibration, or usefulness.",
+    "Novel pixels or a new source/query combination alone do not establish changed-task or analogical transfer; the retained relational structure and task demand must be specified before scoring."
+  ]
+}

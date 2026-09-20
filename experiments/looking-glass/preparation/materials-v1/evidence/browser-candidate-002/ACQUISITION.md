@@ -1,0 +1,9 @@
+# Candidate 002 browser acquisition
+
+The host used the supported browser API against http://127.0.0.1:44008/ in background tab 59. Fourteen DOM observations, seven attempted/completed tool operations, and three untouched original JPEGs were preserved. All three images were inspected directly. The first shows the corrected candidate identifier; the second preserves the unsuccessful open attempt with C04 still collapsed; the third shows the successful keyboard-open source disclosure.
+
+The first click intended to open C04 did not expand it. The next action was labeled “close” but Enter actually opened it; those original labels and observations remain unchanged. A viewport transition from 1280×720 to 1279×904 was observed in this interval; its cause and relation to the click miss were not established. Following reload, keyboard open, mouse close, mouse open and keyboard close each visibly produced the expected state. Thus seven tool completions include only five intended state outcomes. The failure is neither deleted nor called a passed click.
+
+Every DOM observation serializes all eighteen source disclosures exactly as the frozen world; this does not mean every disclosure was opened visually. The corrected preview HTML differs from candidate001 only in the displayed candidate number. Candidate001's independently reviewed disclosures remain separately identified. Both observed viewports had no horizontal overflow; this is not a broad responsive/accessibility claim. Captured errors/warnings were empty. No viewport override was set by this acquisition.
+
+This page is a researcher overview containing the full source union. It is not a blind participant condition, integrated visualizer, research session or evidence of human understanding. No model research output or human participant was collected. The scoped validator correction is tested separately in the software audit; this read-only page does not execute a snapshot validator.

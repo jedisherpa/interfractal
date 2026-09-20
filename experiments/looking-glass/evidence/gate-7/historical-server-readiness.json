@@ -1,0 +1,56 @@
+{
+  "checkedAtUtc": "2026-09-20T06:26:36.744358+00:00",
+  "method": "Read-only HTTP, not browser execution",
+  "servers": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "d790dbede9d958494e960ae9215dfd8ef47e5b61ef674f514d1afefd4773af49"
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "eef709f58830d6e845bfc52fce9d8210ebf3726a6628d004acba146187d2fa02"
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "8296ec34a12e6cda09518d6b5bc0e65402c0d500568d81debf55d6d94c189fed"
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "b853c82d7fc603d74421ce445954d2362abfbf2f28dbf264692912620182e017"
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "c146097928884ba2d712699b35978aa56fb670bcfeed4382ae8d128e72bb6bf0"
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef"
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "status": 200,
+      "exactImmutableIndex": true,
+      "sha256": "b6d00e01939db242bce3ad3f30ae1bfc56c988f279d186c54cac8699c2c0c70c"
+    }
+  ],
+  "newPort44000Available": true
+}

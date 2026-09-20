@@ -1,0 +1,29 @@
+[
+  {
+    "path": "presentation-replay-handoff.jpg",
+    "sha256": "161d9c3ccb1034f7bed56e442b114062901bb77a9a20a9b303827756bbe08b11",
+    "bytes": 115266,
+    "pixelWidth": 1279,
+    "pixelHeight": 904,
+    "uneditedNativeJpeg": true,
+    "scope": "Post-core presentation only"
+  },
+  {
+    "path": "presentation-results-captures.jpg",
+    "sha256": "8fa021be03aab8f3bcb72d751c8f29fc0e74dbf6620994ff4326a477f9875855",
+    "bytes": 115025,
+    "pixelWidth": 1280,
+    "pixelHeight": 720,
+    "uneditedNativeJpeg": true,
+    "scope": "Post-core presentation only"
+  },
+  {
+    "path": "presentation-results-top.jpg",
+    "sha256": "17822770658b11150aaa86f7bec6750b1b031f6b2654ce20f178c450110c0f7a",
+    "bytes": 76064,
+    "pixelWidth": 1280,
+    "pixelHeight": 720,
+    "uneditedNativeJpeg": true,
+    "scope": "Post-core presentation only"
+  }
+]

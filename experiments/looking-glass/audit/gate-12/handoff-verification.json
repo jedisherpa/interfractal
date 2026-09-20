@@ -1,0 +1,267 @@
+{
+  "schema": "gate12-independent-handoff-verification-v1",
+  "status": "PASS",
+  "checkCount": 31,
+  "passCount": 31,
+  "errors": [],
+  "checks": [
+    {
+      "name": "synthesis SHA evidence/gate-12/GATE_12_PACKET.md",
+      "pass": true
+    },
+    {
+      "name": "synthesis SHA evidence/gate-12/results.html",
+      "pass": true
+    },
+    {
+      "name": "synthesis SHA evidence/gate-12/run-evidence.json",
+      "pass": true
+    },
+    {
+      "name": "109 synthesis component pins",
+      "pass": true
+    },
+    {
+      "name": "102 unchanged closed-core pins",
+      "pass": true
+    },
+    {
+      "name": "nine prespec pins unchanged",
+      "pass": true
+    },
+    {
+      "name": "1613 prior frozen entries unchanged",
+      "pass": true
+    },
+    {
+      "name": "Git base still frozen at approved Gate11 commit",
+      "pass": true
+    },
+    {
+      "name": "candidate and aggregate action counts from raw",
+      "pass": true
+    },
+    {
+      "name": "packet action-count prose truthful",
+      "pass": true
+    },
+    {
+      "name": "HTML action-count prose truthful",
+      "pass": true
+    },
+    {
+      "name": "packet/HTML model and browser claims anchored",
+      "pass": true
+    },
+    {
+      "name": "bounded no-human and Gate13-unapproved claims",
+      "pass": true
+    },
+    {
+      "name": "known qualifications disclosed",
+      "pass": true
+    },
+    {
+      "name": "source review scopes remain narrow",
+      "pass": true
+    },
+    {
+      "name": "synthesis role/provenance labels",
+      "pass": true
+    },
+    {
+      "name": "packet local artifact links resolve",
+      "pass": true
+    },
+    {
+      "name": "HTML four original images and static content",
+      "pass": true
+    },
+    {
+      "name": "HTML internal review links and next anchor",
+      "pass": true
+    },
+    {
+      "name": "eight exact approved review copies",
+      "pass": true
+    },
+    {
+      "name": "four HTML images are approved originals",
+      "pass": true
+    },
+    {
+      "name": "eight actual served GET/HEAD exact assets",
+      "pass": true
+    },
+    {
+      "name": "actual current instrument/run identity",
+      "pass": true
+    },
+    {
+      "name": "private/generic/traversal/mutation denials",
+      "pass": true
+    },
+    {
+      "name": "13 exact replay descriptors and copy",
+      "pass": true
+    },
+    {
+      "name": "13 current exact replay identities and result routes",
+      "pass": true
+    },
+    {
+      "name": "six sealed presentation pins",
+      "pass": true
+    },
+    {
+      "name": "nine visible report observations and no overflow",
+      "pass": true
+    },
+    {
+      "name": "lazy-load state honestly retained then all four loaded",
+      "pass": true
+    },
+    {
+      "name": "presentation links and bounded next gate visible",
+      "pass": true
+    },
+    {
+      "name": "presentation originals and console",
+      "pass": true
+    }
+  ],
+  "synthesisPins": 3,
+  "componentPins": 109,
+  "corePins": 102,
+  "priorPins": 1613,
+  "allowlistedAssets": 8,
+  "servedAssetFailures": [],
+  "routeDenialFailures": [],
+  "replayChecks": [
+    {
+      "gate": 0,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 1,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 2,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 3,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 4,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 5,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 6,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 7,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 8,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 9,
+      "identityRoute": "/api/run",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 10,
+      "identityRoute": "/run/run.json",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 11,
+      "identityRoute": "/run/run.json",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 12,
+      "identityRoute": "/run/run.json",
+      "rootStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    }
+  ],
+  "presentationFreezeSha256": "7ee2a3dc1a82e5d02731b9d47c6dd9b0ce0da5dd00061c468e303509d1e78168",
+  "presentationObservations": 9,
+  "presentationOriginals": 2,
+  "presentationFinalObservedViewport": [
+    960,
+    720
+  ],
+  "qualification": "Final sealed report observation remains at 960x720; viewport-override reset is host reported, not independently established by that last DOM record. Initial lazy-image incompleteness is retained and all four load after scroll. Final gate freeze/Git publication pending."
+}

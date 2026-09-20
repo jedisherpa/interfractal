@@ -1,0 +1,18 @@
+[
+  {
+    "label": "candidate-003-overview",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-003/screenshots/candidate-003-overview.jpg",
+    "sha256": "3e19435f8ed03a52e1b97c13fdf59edc2b5e58f6ff2b989e04540682702302aa",
+    "bytes": 79849,
+    "beforeObservationIndex": 1,
+    "afterObservationIndex": 2
+  },
+  {
+    "label": "candidate-003-C04-source",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-003/screenshots/candidate-003-C04-source.jpg",
+    "sha256": "e77b989326404ecd64a5937cbe799cf133c164b6ed1783ae575d7a122d4b72a1",
+    "bytes": 80705,
+    "beforeObservationIndex": 4,
+    "afterObservationIndex": 5
+  }
+]

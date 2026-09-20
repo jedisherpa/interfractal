@@ -1,0 +1,89 @@
+{
+  "kind": "Host comparison of actual exported browser endpoints; independent audit pending",
+  "rows": [
+    {
+      "recipe": "G9-T01",
+      "conditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "sameTracePayload": true,
+      "sameInformationHash": true,
+      "allAcquiredMatch": true,
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "reviewStatuses": [
+        "standard-playback",
+        "standard-playback",
+        "standard-playback"
+      ]
+    },
+    {
+      "recipe": "G9-T02",
+      "conditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "traceHash": "fb4be0e14f1a7b5306e4a251732b2e46fb687fd092f5c459a80a7b86a4021178",
+      "sameTracePayload": true,
+      "sameInformationHash": true,
+      "allAcquiredMatch": true,
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "reviewStatuses": [
+        "standard-playback",
+        "manual-review",
+        "manual-review"
+      ]
+    },
+    {
+      "recipe": "G9-T03",
+      "conditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "traceHash": "89c35ef9c0f3742d6bec647f117ed368b16ae647cac3188bc3521c125760f61f",
+      "sameTracePayload": true,
+      "sameInformationHash": true,
+      "allAcquiredMatch": true,
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "reviewStatuses": [
+        "standard-playback",
+        "manual-review",
+        "manual-review"
+      ]
+    },
+    {
+      "recipe": "G9-T04",
+      "conditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "traceHash": "7bb222e35edf588a50aad165fdad1f792345101823d45e0ae854cbe614470c38",
+      "sameTracePayload": true,
+      "sameInformationHash": true,
+      "allAcquiredMatch": true,
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "reviewStatuses": [
+        "standard-playback",
+        "manual-review",
+        "manual-review"
+      ]
+    }
+  ]
+}

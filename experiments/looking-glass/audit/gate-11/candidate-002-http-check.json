@@ -1,0 +1,241 @@
+{
+  "schema": "gate11-candidate002-independent-http-v1",
+  "status": "PASS",
+  "checkCount": 44,
+  "passCount": 44,
+  "readOnlyHost": "http://127.0.0.1:44004",
+  "routeChecks": [
+    {
+      "name": "GET /",
+      "pass": true,
+      "status": 200,
+      "sha256": "c827c0d5033de440de77e8c1210f12905380697d4267b84c1d836e964f807782"
+    },
+    {
+      "name": "HEAD /",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /index.html",
+      "pass": true,
+      "status": 200,
+      "sha256": "c827c0d5033de440de77e8c1210f12905380697d4267b84c1d836e964f807782"
+    },
+    {
+      "name": "HEAD /index.html",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /app.mjs",
+      "pass": true,
+      "status": 200,
+      "sha256": "833fe12cb19f81b7227892277396d1bb9f828bace082f4ecd45466941f352562"
+    },
+    {
+      "name": "HEAD /app.mjs",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /model.mjs",
+      "pass": true,
+      "status": 200,
+      "sha256": "abf4491d27b62b4c5ea24c1ed2d11fbb04dd6afeaec58b58639c14fcbfebdf79"
+    },
+    {
+      "name": "HEAD /model.mjs",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /receiver.mjs",
+      "pass": true,
+      "status": 200,
+      "sha256": "d138bfd7e0d050c82a25bf1948919edce27111150f2322cc77a8faeb126720a9"
+    },
+    {
+      "name": "HEAD /receiver.mjs",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /style.css",
+      "pass": true,
+      "status": 200,
+      "sha256": "a75eab86f66a118d56a6d51e0d8e5c729c43555214a9a383b7fb2cd82314acd7"
+    },
+    {
+      "name": "HEAD /style.css",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /fixture.json",
+      "pass": true,
+      "status": 200,
+      "sha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc"
+    },
+    {
+      "name": "HEAD /fixture.json",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /build.json",
+      "pass": true,
+      "status": 200,
+      "sha256": "ac85874ffe005e46b608260d6a64d5847d6376d93a64ec31cc71243a120824b2"
+    },
+    {
+      "name": "HEAD /build.json",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /run/run.json",
+      "pass": true,
+      "status": 200,
+      "sha256": "50211f30ef0b6e85dff964ca3cbe177a11d22aee5a86bdfa0d4cd5477290c6e7"
+    },
+    {
+      "name": "HEAD /run/run.json",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /run/initial-state.json",
+      "pass": true,
+      "status": 200,
+      "sha256": "a04d5f9184af850be793ccdf0efa9dec7d468ac0447a5ec165a8a8f86564d8d6"
+    },
+    {
+      "name": "HEAD /run/initial-state.json",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /run/events.jsonl",
+      "pass": true,
+      "status": 200,
+      "sha256": "fb4624b1d46eb617b08153514f72d0ca8c2d399489ef20eb2acf3e677d961f54"
+    },
+    {
+      "name": "HEAD /run/events.jsonl",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "GET /run/checkpoints.json",
+      "pass": true,
+      "status": 200,
+      "sha256": "5b279154bbe8fd5d61dff456506edd4df7d2655d8f5fa8eb65f0a9ada6082aaa"
+    },
+    {
+      "name": "HEAD /run/checkpoints.json",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "name": "deny /docs/gate-11/fixture.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /audit/gate-11/prespec-review.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /run/computational-results.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /run/run-manifest.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /source-manifest.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /server.mjs",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /review/results.html",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /review/unknown.html",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /missing",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /run/../run.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /%2e%2e/run.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /%252e%252e/run.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny //fixture.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /fixture.json?x=1",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /fixture.json#x",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "deny /fixture\\.json",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "name": "reject POST",
+      "pass": true,
+      "status": 405
+    },
+    {
+      "name": "reject PUT",
+      "pass": true,
+      "status": 405
+    },
+    {
+      "name": "reject DELETE",
+      "pass": true,
+      "status": 405
+    },
+    {
+      "name": "reject OPTIONS",
+      "pass": true,
+      "status": 405
+    }
+  ]
+}

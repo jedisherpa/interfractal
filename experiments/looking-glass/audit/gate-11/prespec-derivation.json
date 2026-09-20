@@ -1,0 +1,1494 @@
+{
+  "schema": "gate11-independent-prespec-derivation-v1",
+  "status": "PASS",
+  "inputFiles": [
+    {
+      "path": "docs/gate-11/experiment-charter.md",
+      "bytes": 6152,
+      "sha256": "52b7c3867661323e3d7def4e16f052d724297ed139e24506aa704771eceb706b"
+    },
+    {
+      "path": "docs/gate-11/model-contract.md",
+      "bytes": 12468,
+      "sha256": "18f613cdd9ea352581fce1a7ee0fcc1425282c650f0c870b9cc000d5955115e8"
+    },
+    {
+      "path": "docs/gate-11/record-contract.md",
+      "bytes": 10708,
+      "sha256": "207f6a04142af991aa3371b5a01ccf0520d167fe30c2320c175a9b655a4a869a"
+    },
+    {
+      "path": "docs/gate-11/fixture.json",
+      "bytes": 10580,
+      "sha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc"
+    },
+    {
+      "path": "docs/gate-11/independent-predictions.json",
+      "bytes": 16978,
+      "sha256": "db411186c313d349a73a1c3b6ef7d4e77687e3000097587bb730bdd92defeb22"
+    }
+  ],
+  "checkCount": 205,
+  "passCount": 205,
+  "errors": [],
+  "worldOrder": [
+    "W00",
+    "W01",
+    "W10",
+    "W11"
+  ],
+  "fullTruth": {
+    "R_COUNT": [
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "R_RELEASE": [
+      "no",
+      "no",
+      "no",
+      "yes"
+    ]
+  },
+  "worldSourceHashes": {
+    "W00": "03f9ebaa603d3228770a4a3914712092b8bc298b152c6e71ac38ff99bae54c2f",
+    "W01": "b60670ee18da1d2e541a82a3520f3fd4419125febe0453d04998a563eb181177",
+    "W10": "1edc7b4cdc9f9b7aa5cbe9b7fb2dd9224700969047874f4c22556337a2add07b",
+    "W11": "cff451d1e1ba7bb1a118111b74ddf38b1e0e0aeaf832c36bd8b9d59dcbe29e57"
+  },
+  "familyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+  "projectionCount": 32,
+  "projectionPayloadHashes": {
+    "0": {
+      "W00": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042",
+      "W01": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042",
+      "W10": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042",
+      "W11": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042"
+    },
+    "1": {
+      "W00": "e7e02a14caf6306bba0a812944edfceb9c16610207cafb80fda3c4ef55383e89",
+      "W01": "e7e02a14caf6306bba0a812944edfceb9c16610207cafb80fda3c4ef55383e89",
+      "W10": "dc861068dd2482281a03ebe4fd6a847036a4a148a24b6fed748eaa0b8611e117",
+      "W11": "dc861068dd2482281a03ebe4fd6a847036a4a148a24b6fed748eaa0b8611e117"
+    },
+    "2": {
+      "W00": "9e35446113d6e130e8f9dfa1b2297beb88e77bfea729ab2e0046054b7de35f46",
+      "W01": "9dbf06fa45219662d7e642f6ea546d9dd1e1d3e05b3860ed328d6ac1efa45bfc",
+      "W10": "9e35446113d6e130e8f9dfa1b2297beb88e77bfea729ab2e0046054b7de35f46",
+      "W11": "9dbf06fa45219662d7e642f6ea546d9dd1e1d3e05b3860ed328d6ac1efa45bfc"
+    },
+    "3": {
+      "W00": "f79b1e8cf4680af76c46bc840ccbb3d9dc17ddfd738ca86ef4dee78e9e89639c",
+      "W01": "78719534c50cbee444138fc10d9ccd23706321efafb90166bed1a551cf58c305",
+      "W10": "c867201c2ebb46ffc65650244495b5745b590c5bb19598c8ee08970a14076ea6",
+      "W11": "11a7cea829a1dc053c9d946a2808e5902ace58aec94af175695855ec6aa71e9d"
+    },
+    "4": {
+      "W00": "14aa1c3ee975db698a43b6636dfaedbe3b99ad3a0e02adc78ef5fba0c26ccc89",
+      "W01": "14aa1c3ee975db698a43b6636dfaedbe3b99ad3a0e02adc78ef5fba0c26ccc89",
+      "W10": "14aa1c3ee975db698a43b6636dfaedbe3b99ad3a0e02adc78ef5fba0c26ccc89",
+      "W11": "14aa1c3ee975db698a43b6636dfaedbe3b99ad3a0e02adc78ef5fba0c26ccc89"
+    },
+    "5": {
+      "W00": "e04b403ca6d0ecc85e2bb8045ae340b52ddedded79a3369493af6495faca0175",
+      "W01": "e04b403ca6d0ecc85e2bb8045ae340b52ddedded79a3369493af6495faca0175",
+      "W10": "d3b19f6065498059f6e656223805b33be80205b57d101f8efcd8eefd2f2dc5b3",
+      "W11": "d3b19f6065498059f6e656223805b33be80205b57d101f8efcd8eefd2f2dc5b3"
+    },
+    "6": {
+      "W00": "07efac88b1f2e279c5c4f724bb692eb622d3ddd4911f2528fc7d517a1b610847",
+      "W01": "664eef8b9caa13b94b36fbc9297d78e855efa4366fd9e96c4861c11a93905759",
+      "W10": "07efac88b1f2e279c5c4f724bb692eb622d3ddd4911f2528fc7d517a1b610847",
+      "W11": "664eef8b9caa13b94b36fbc9297d78e855efa4366fd9e96c4861c11a93905759"
+    },
+    "7": {
+      "W00": "b789c8639a4c11fb9f01844720b06b0e310625772a9229637cb29743f3a9f9ca",
+      "W01": "c59996b61d220fe6624fa84073fded771d0127cc4948b8d3d47de0ac494b4f11",
+      "W10": "d3a9c81d214b164f0cc8329aafa03914d09a445ac3d36c9f01756122e6204210",
+      "W11": "81ac7a09798bc583bab2f7c8eef4037e0352e45ffd7178c9c39717ac384e0459"
+    }
+  },
+  "partitionHashes": {
+    "0": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+    "1": "80002705eed1a3974f3d07bbb2f03b9d502e1d63e2cdc1b7f546e53ca436d18c",
+    "2": "c899d5de68960b63b85ce19529f69c6ce86c01a5f681deaafd2dc859d6213bdd",
+    "3": "a77be5164347992eba5976f4f71bfc5ab7ae2110af8258d0031bbe23e49a8485",
+    "4": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+    "5": "80002705eed1a3974f3d07bbb2f03b9d502e1d63e2cdc1b7f546e53ca436d18c",
+    "6": "c899d5de68960b63b85ce19529f69c6ce86c01a5f681deaafd2dc859d6213bdd",
+    "7": "a77be5164347992eba5976f4f71bfc5ab7ae2110af8258d0031bbe23e49a8485"
+  },
+  "copiedSourcePathsByMenu": {
+    "calibration": [
+      "CAL.lotId",
+      "CAL.status"
+    ],
+    "authorization": [
+      "AUTH.lotId",
+      "AUTH.status"
+    ],
+    "paint": [
+      "LOT.paint"
+    ]
+  },
+  "subsetCertificates": [
+    {
+      "mask": 0,
+      "fields": [],
+      "entryCount": 0,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "insufficient",
+        "W01": "insufficient",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W00",
+          "W11"
+        ],
+        [
+          "W01",
+          "W11"
+        ],
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 1,
+      "fields": [
+        "calibration"
+      ],
+      "entryCount": 1,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 2,
+      "fields": [
+        "authorization"
+      ],
+      "entryCount": 1,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "insufficient",
+        "W10": "no",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W01",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 3,
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "entryCount": 2,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "releaseAnswers": [
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "no",
+        "W11": "yes"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": true,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": []
+    },
+    {
+      "mask": 4,
+      "fields": [
+        "paint"
+      ],
+      "entryCount": 1,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "insufficient",
+        "W01": "insufficient",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W00",
+          "W11"
+        ],
+        [
+          "W01",
+          "W11"
+        ],
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 5,
+      "fields": [
+        "calibration",
+        "paint"
+      ],
+      "entryCount": 2,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 6,
+      "fields": [
+        "authorization",
+        "paint"
+      ],
+      "entryCount": 2,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "insufficient",
+        "W10": "no",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W01",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 7,
+      "fields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "entryCount": 3,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "releaseAnswers": [
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "no",
+        "W11": "yes"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": true,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": []
+    }
+  ],
+  "sufficientReleaseMasks": [
+    3,
+    7
+  ],
+  "subsetMinimalReleaseMasks": [
+    3
+  ],
+  "cardinalityMinimum": 2,
+  "countMinimumMask": 0,
+  "localReleaseMinimum": {
+    "W00": {
+      "minimum": 1,
+      "minimalMenus": [
+        [
+          "calibration"
+        ],
+        [
+          "authorization"
+        ]
+      ]
+    },
+    "W01": {
+      "minimum": 1,
+      "minimalMenus": [
+        [
+          "calibration"
+        ]
+      ]
+    },
+    "W10": {
+      "minimum": 1,
+      "minimalMenus": [
+        [
+          "authorization"
+        ]
+      ]
+    },
+    "W11": {
+      "minimum": 2,
+      "minimalMenus": [
+        [
+          "calibration",
+          "authorization"
+        ]
+      ]
+    }
+  },
+  "partitionEqualities": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "wrongShortcutFalsePositiveWorlds": [
+    "W00",
+    "W01",
+    "W10"
+  ],
+  "canonicalEventCount": 7,
+  "canonicalCheckpointCount": 7,
+  "browserCheckpointCountPrespecifiedNotObserved": 18,
+  "checks": [
+    {
+      "name": "five authored files",
+      "pass": true
+    },
+    {
+      "name": "fixture/prediction identity",
+      "pass": true
+    },
+    {
+      "name": "four ordered worlds",
+      "pass": true
+    },
+    {
+      "name": "three exact menu bits",
+      "pass": true
+    },
+    {
+      "name": "two declared receivers",
+      "pass": true
+    },
+    {
+      "name": "logical base source reference",
+      "pass": true
+    },
+    {
+      "name": "base payload exact fields",
+      "pass": true
+    },
+    {
+      "name": "allowed payload key list exact",
+      "pass": true
+    },
+    {
+      "name": "no covert receiver inputs",
+      "pass": true
+    },
+    {
+      "name": "menu entry schemas exact",
+      "pass": true
+    },
+    {
+      "name": "fixed menu source references",
+      "pass": true
+    },
+    {
+      "name": "menu status domains",
+      "pass": true
+    },
+    {
+      "name": "exact full-source status grid",
+      "pass": true
+    },
+    {
+      "name": "all four world lot values",
+      "pass": true
+    },
+    {
+      "name": "all four world source bindings",
+      "pass": true
+    },
+    {
+      "name": "full truth R_COUNT",
+      "pass": true
+    },
+    {
+      "name": "full truth R_RELEASE",
+      "pass": true
+    },
+    {
+      "name": "derivation W00",
+      "pass": true
+    },
+    {
+      "name": "derivation W01",
+      "pass": true
+    },
+    {
+      "name": "derivation W10",
+      "pass": true
+    },
+    {
+      "name": "derivation W11",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 0",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 0 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 1",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 1 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 2",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 2 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 3",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 3 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 4",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 4 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 5",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 5 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 6",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 6 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "subset certificate mask 7",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W00 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W00 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W00 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W00 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W01 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W01 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W01 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W01 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W10 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W10 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W10 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W10 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W11 exact copied fields",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W11 logical references",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W11 no source identity in receiver payload",
+      "pass": true
+    },
+    {
+      "name": "mask 7 W11 local answer sound",
+      "pass": true
+    },
+    {
+      "name": "32 independent world/subset projections",
+      "pass": true
+    },
+    {
+      "name": "projection does not mutate full source",
+      "pass": true
+    },
+    {
+      "name": "complete payload baseline collision",
+      "pass": true
+    },
+    {
+      "name": "baseline count yes and release insufficient",
+      "pass": true
+    },
+    {
+      "name": "paint changes bytes not partition",
+      "pass": true
+    },
+    {
+      "name": "paint partition hashes equal",
+      "pass": true
+    },
+    {
+      "name": "authored partition equalities",
+      "pass": true
+    },
+    {
+      "name": "release sufficient masks",
+      "pass": true
+    },
+    {
+      "name": "unique subset-minimal repair",
+      "pass": true
+    },
+    {
+      "name": "release cardinality-minimum",
+      "pass": true
+    },
+    {
+      "name": "singletons and proper subsets fail",
+      "pass": true
+    },
+    {
+      "name": "remove calibration witness",
+      "pass": true
+    },
+    {
+      "name": "remove authorization witness",
+      "pass": true
+    },
+    {
+      "name": "count empty minimum",
+      "pass": true
+    },
+    {
+      "name": "wrong shortcut three false positives",
+      "pass": true
+    },
+    {
+      "name": "four local minima",
+      "pass": true
+    },
+    {
+      "name": "negative single-field local determination but global insufficiency",
+      "pass": true
+    },
+    {
+      "name": "positive single-field local insufficiency",
+      "pass": true
+    },
+    {
+      "name": "full source hash definition",
+      "pass": true
+    },
+    {
+      "name": "four distinct inspection-only world hashes",
+      "pass": true
+    },
+    {
+      "name": "inspection envelope outside receiver",
+      "pass": true
+    },
+    {
+      "name": "canonical revision lineage",
+      "pass": true
+    },
+    {
+      "name": "canonical creation truthful",
+      "pass": true
+    },
+    {
+      "name": "empty/duplicate/paint control defined",
+      "pass": true
+    },
+    {
+      "name": "representation parity domain",
+      "pass": true
+    },
+    {
+      "name": "representation parity explicitly specified",
+      "pass": true
+    },
+    {
+      "name": "pure evaluator boundary explicitly specified",
+      "pass": true
+    },
+    {
+      "name": "local registry and source provenance explicitly specified",
+      "pass": true
+    },
+    {
+      "name": "seven event schedule",
+      "pass": true
+    },
+    {
+      "name": "no fabricated event at zero",
+      "pass": true
+    },
+    {
+      "name": "24 seconds and seven checkpoints",
+      "pass": true
+    },
+    {
+      "name": "event repair lineage and stop",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 0 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 4 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 8 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 12 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 16 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 20 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 24 derived",
+      "pass": true
+    },
+    {
+      "name": "checkpoint 24 end reason",
+      "pass": true
+    },
+    {
+      "name": "initial state exact",
+      "pass": true
+    },
+    {
+      "name": "checkpoint common pending status",
+      "pass": true
+    },
+    {
+      "name": "18 checkpoint browser protocol",
+      "pass": true
+    },
+    {
+      "name": "historical replay and results are separate destinations",
+      "pass": true
+    },
+    {
+      "name": "real first-use prioritized",
+      "pass": true
+    },
+    {
+      "name": "snapshot/export safeguards specified",
+      "pass": true
+    },
+    {
+      "name": "read-only routes and explicit run specified",
+      "pass": true
+    },
+    {
+      "name": "no human or Gate12 execution",
+      "pass": true
+    }
+  ],
+  "implementationImports": [],
+  "browserObservations": 0,
+  "humanParticipants": 0
+}

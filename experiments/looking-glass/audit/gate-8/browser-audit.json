@@ -1,0 +1,21 @@
+{
+  "kind": "gate8-independent-browser-evidence-audit",
+  "status": "PASS",
+  "observations": 197,
+  "actions": 83,
+  "modelChecks": 197,
+  "viewportChecks": 197,
+  "certificateChecks": 26,
+  "checkpointRecords": 36,
+  "checkpointPasses": {
+    "baseline": 9,
+    "after-exploration": 9,
+    "after-reopen": 9,
+    "after-reload": 9
+  },
+  "sessions": [
+    "615048eb-a95a-4614-8edb-6c47e99f8cee",
+    "5727769d-6670-420d-8485-0276decbbfa9"
+  ],
+  "limitation": "This script audits stored host observations; original-image visual review and observed activity are separate."
+}

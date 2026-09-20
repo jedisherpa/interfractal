@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "materials-recovery-integrity/1",
+  "reference": "materials-v1/package-candidate-003",
+  "candidate": "package-candidate-004",
+  "semanticPinCount": 58,
+  "semanticPinErrors": [],
+  "addedPaths": [
+    "builder-tooling/cli-entry.mjs",
+    "builder-tooling/cli-regression.test.mjs"
+  ],
+  "removedPaths": [],
+  "changedPaths": [
+    "MANIFEST.json",
+    "builder-tooling/README.md",
+    "builder-tooling/build-package.mjs",
+    "builder-tooling/preview.mjs",
+    "builder-tooling/run-candidate.mjs",
+    "builder-tooling/run-preflight.mjs",
+    "review/index.html"
+  ],
+  "candidateManifest": {
+    "bytes": 14515,
+    "sha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823"
+  },
+  "candidateFileCount": 72,
+  "designSourceEqual": []
+}

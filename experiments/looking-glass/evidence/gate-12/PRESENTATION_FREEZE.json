@@ -1,0 +1,39 @@
+{
+  "schema": "gate12-presentation-freeze-v1",
+  "frozenAtUtc": "2026-09-20T19:38:40.159356+00:00",
+  "observations": 9,
+  "originals": 2,
+  "note": "Lazy report images initially incomplete after jumping to next section; actual scroll then all four images fully loaded, no errors. Viewport override reset after testing.",
+  "files": [
+    {
+      "path": "evidence/gate-12/presentation/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-12/presentation/observations.json",
+      "bytes": 177473,
+      "sha256": "5fd55f6c905b60e222fc80cb8d41516d0fe06dc43ca2d78a2934099f7652c7e8"
+    },
+    {
+      "path": "evidence/gate-12/presentation/screenshots/next-gate-boundary-narrow.jpg",
+      "bytes": 80748,
+      "sha256": "43047b360442c56057487dd06e378f3de20e147334248bdd05103f4c6d45cd8b"
+    },
+    {
+      "path": "evidence/gate-12/presentation/screenshots/results-overview.jpg",
+      "bytes": 80029,
+      "sha256": "a9cd34c1c739ab24448d86076c13da265ea7608c6828c57ca57ae336824ddc7c"
+    },
+    {
+      "path": "evidence/gate-12/presentation/screenshots.json",
+      "bytes": 695,
+      "sha256": "efe463a3e773d089eefed05ae53861bacb2e0574b4cad71fb458fb1baf5c5db0"
+    },
+    {
+      "path": "evidence/gate-12/review-http-checks.json",
+      "bytes": 2108,
+      "sha256": "90c76774cfc42ad38b574fe0746c86af8b8c92c663e7a25e625d0d09268b642e"
+    }
+  ]
+}

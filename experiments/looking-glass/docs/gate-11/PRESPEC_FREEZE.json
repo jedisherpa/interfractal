@@ -1,0 +1,54 @@
+{
+  "schema": "gate11-prespec-freeze-v1",
+  "frozenAtUtc": "2026-09-20T17:50:45.778341+00:00",
+  "beforeImplementation": true,
+  "independentVerdict": "PASS_FOR_FREEZE",
+  "independentChecks": 205,
+  "files": [
+    {
+      "path": "docs/gate-11/experiment-charter.md",
+      "bytes": 6152,
+      "sha256": "52b7c3867661323e3d7def4e16f052d724297ed139e24506aa704771eceb706b"
+    },
+    {
+      "path": "docs/gate-11/model-contract.md",
+      "bytes": 12468,
+      "sha256": "18f613cdd9ea352581fce1a7ee0fcc1425282c650f0c870b9cc000d5955115e8"
+    },
+    {
+      "path": "docs/gate-11/record-contract.md",
+      "bytes": 10708,
+      "sha256": "207f6a04142af991aa3371b5a01ccf0520d167fe30c2320c175a9b655a4a869a"
+    },
+    {
+      "path": "docs/gate-11/fixture.json",
+      "bytes": 10580,
+      "sha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc"
+    },
+    {
+      "path": "docs/gate-11/independent-predictions.json",
+      "bytes": 16978,
+      "sha256": "db411186c313d349a73a1c3b6ef7d4e77687e3000097587bb730bdd92defeb22"
+    },
+    {
+      "path": "audit/gate-11/prespec-review.md",
+      "bytes": 3732,
+      "sha256": "f5ec4902bdc86bbd38510f252944821a4a92095156df22a5d79080c670282caa"
+    },
+    {
+      "path": "audit/gate-11/prespec-review.json",
+      "bytes": 3051,
+      "sha256": "e1d7b569aff10364051973bb4e7972705dcc5e672f6d34c6b044510691b95fdc"
+    },
+    {
+      "path": "audit/gate-11/derive-prespec.py",
+      "bytes": 21000,
+      "sha256": "5dc92dcfd86477e22b751e260a46e3fada6bdc432a29128c29b64d76d7814c03"
+    },
+    {
+      "path": "audit/gate-11/prespec-derivation.json",
+      "bytes": 32035,
+      "sha256": "7c66f9678928f9f35474e6cc54cd3d9483f8025b9165119d581c8e863ff993f8"
+    }
+  ]
+}

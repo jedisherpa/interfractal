@@ -1,0 +1,357 @@
+{
+  "schema": "gate9-fixture-v1",
+  "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+  "humanParticipantCount": 0,
+  "benchmarkKind": "transparent matched-observation software instrument",
+  "provenance": {
+    "sourceFixture": "docs/gate-8/fixture.json",
+    "sourceCase": "G8-C02",
+    "sourceWorldsCopiedUnchanged": true,
+    "sourceFixtureSha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509"
+  },
+  "commonContext": {
+    "caseId": "G9-C01",
+    "title": "Two hidden signs, one chosen trace",
+    "taskText": "Inspect which worlds remain compatible with the selected raw observations. The property is the ordered signs of (w,v). This is a public software demonstration, not a hidden-world test.",
+    "sourceKind": "point5",
+    "worlds": [
+      {
+        "id": "C02-W01",
+        "source": [
+          "1/2",
+          "-1/2",
+          "0",
+          "-1",
+          "-1"
+        ],
+        "propertyValue": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "C02-W02",
+        "source": [
+          "1/2",
+          "-1/2",
+          "0",
+          "-1",
+          "1"
+        ],
+        "propertyValue": [
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "C02-W03",
+        "source": [
+          "1/2",
+          "-1/2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "propertyValue": [
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "C02-W04",
+        "source": [
+          "1/2",
+          "-1/2",
+          "0",
+          "1",
+          "1"
+        ],
+        "propertyValue": [
+          1,
+          1
+        ]
+      }
+    ],
+    "referenceWorldId": "C02-W02",
+    "propertyDefinition": "Ordered signs of (w,v)",
+    "queries": [
+      {
+        "id": "project",
+        "label": "Observe original xyz projection again",
+        "formula": "(x,y,z)"
+      },
+      {
+        "id": "xw90",
+        "label": "Observe known x-w quarter-turn",
+        "formula": "(-w,y,z)"
+      },
+      {
+        "id": "yv90",
+        "label": "Observe known y-v quarter-turn",
+        "formula": "(x,-v,z)"
+      }
+    ],
+    "instructions": [
+      "Every candidate and the fixed reference world are public. Compatibility below uses selected query records only.",
+      "Start with one projection. Choose exactly two more observations; a repeat consumes a choice without adding unique information.",
+      "Each query acts on the original source. The two turns are separate observations; no combined turn is available.",
+      "Watch preserves the sealed choice order and repeats. Static shows the same three occurrence cards together.",
+      "Information parity is checked only at completed routes. Timing, agency, memory demand and pixels are not assumed equal."
+    ],
+    "practice": {
+      "id": "G9-P01",
+      "title": "Shared worked practice: one different 4D point",
+      "source": [
+        "0",
+        "1/2",
+        "0",
+        "2"
+      ],
+      "project": {
+        "kind": "point",
+        "pointId": "Practice-P",
+        "xyz": [
+          "0",
+          "1/2",
+          "0"
+        ]
+      },
+      "repeatProject": {
+        "kind": "point",
+        "pointId": "Practice-P",
+        "xyz": [
+          "0",
+          "1/2",
+          "0"
+        ]
+      },
+      "xw90": {
+        "kind": "point",
+        "pointId": "Practice-P",
+        "xyz": [
+          "-2",
+          "1/2",
+          "0"
+        ]
+      },
+      "explanation": "Dropping w hides its value. Repeating that projection preserves the record. A known x-w quarter-turn supplies x-prime=-w=-2. This different worked point is common teaching, not an additional observation of the benchmark reference.",
+      "defaultOpen": false,
+      "scored": false
+    },
+    "rendering": {
+      "yawDegrees": 0,
+      "pitchDegrees": 20,
+      "scaleCssPxPerUnit": 80,
+      "cardDrawingWidthCssPx": 280,
+      "cardDrawingHeightCssPx": 200,
+      "roundedLabelDigits": 2,
+      "negativeZeroLabel": "0.00",
+      "rawExactValuesVisible": true
+    }
+  },
+  "choiceContract": {
+    "baselineQueryId": "project",
+    "selectionBudget": 2,
+    "selectableQueryIds": [
+      "project",
+      "xw90",
+      "yv90"
+    ],
+    "repeatsAllowed": true,
+    "repeatConsumesSelection": true,
+    "earlyCompleteAllowed": false,
+    "sealReason": "choice-budget-complete"
+  },
+  "presentationContract": {
+    "watchOccurrenceSeconds": 2,
+    "watchTotalSeconds": 6,
+    "staticReviewSeconds": 6,
+    "matchesChooserDwell": false,
+    "localNaturalStopReason": "end-of-presentation",
+    "manualCompletionReason": "manual-review-complete",
+    "informationComparisonEndpoint": "complete routes only"
+  },
+  "auditRecipes": [
+    {
+      "id": "G9-T01",
+      "label": "Complementary forward",
+      "choiceQueryIds": [
+        "xw90",
+        "yv90"
+      ]
+    },
+    {
+      "id": "G9-T02",
+      "label": "Complementary reverse",
+      "choiceQueryIds": [
+        "yv90",
+        "xw90"
+      ]
+    },
+    {
+      "id": "G9-T03",
+      "label": "Repeated partial observation",
+      "choiceQueryIds": [
+        "xw90",
+        "xw90"
+      ]
+    },
+    {
+      "id": "G9-T04",
+      "label": "Repeated nonseparating baseline",
+      "choiceQueryIds": [
+        "project",
+        "project"
+      ]
+    }
+  ],
+  "softwareOrder": {
+    "recipeIds": [
+      "G9-T01",
+      "G9-T02",
+      "G9-T03",
+      "G9-T04"
+    ],
+    "conditions": [
+      "choose",
+      "watch",
+      "static"
+    ],
+    "priorKnowledge": "source-informed software validation; no fresh human exposures"
+  },
+  "savedTour": {
+    "durationSeconds": 24,
+    "recipeId": "G9-T01",
+    "provenance": "scripted_demonstration",
+    "checkpointsSeconds": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      20,
+      24
+    ],
+    "boundaries": [
+      {
+        "seconds": 0,
+        "records": [
+          {
+            "type": "initial-state",
+            "condition": "choose",
+            "queryId": "project",
+            "paused": true
+          }
+        ]
+      },
+      {
+        "seconds": 2,
+        "events": [
+          {
+            "origin": "replay",
+            "type": "choose-query",
+            "queryId": "xw90"
+          }
+        ]
+      },
+      {
+        "seconds": 4,
+        "events": [
+          {
+            "origin": "replay",
+            "type": "choose-query",
+            "queryId": "yv90"
+          },
+          {
+            "origin": "automatic",
+            "type": "trace-seal",
+            "reason": "choice-budget-complete"
+          }
+        ]
+      },
+      {
+        "seconds": 6,
+        "events": [
+          {
+            "origin": "replay",
+            "type": "condition-select",
+            "condition": "watch"
+          },
+          {
+            "origin": "replay",
+            "type": "presentation-play"
+          }
+        ]
+      },
+      {
+        "seconds": 8,
+        "events": [
+          {
+            "origin": "replay",
+            "type": "observation-presented",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "seconds": 10,
+        "events": [
+          {
+            "origin": "replay",
+            "type": "observation-presented",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "seconds": 12,
+        "events": [
+          {
+            "origin": "automatic",
+            "type": "presentation-stop",
+            "reason": "end-of-presentation",
+            "localSeconds": 6
+          }
+        ]
+      },
+      {
+        "seconds": 14,
+        "events": [
+          {
+            "origin": "replay",
+            "type": "condition-select",
+            "condition": "static"
+          },
+          {
+            "origin": "replay",
+            "type": "presentation-play"
+          }
+        ]
+      },
+      {
+        "seconds": 20,
+        "events": [
+          {
+            "origin": "automatic",
+            "type": "presentation-stop",
+            "reason": "end-of-presentation",
+            "localSeconds": 6
+          }
+        ]
+      },
+      {
+        "seconds": 24,
+        "events": [
+          {
+            "origin": "automatic",
+            "type": "tour-stop",
+            "reason": "end-of-sequence"
+          }
+        ]
+      }
+    ]
+  }
+}

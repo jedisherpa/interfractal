@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "materials-candidate-audit-closure/1",
+  "candidate": "package-candidate-001",
+  "verdict": "BLOCKED_FOR_MATERIALS_ACCEPTANCE",
+  "reason": "Packaged snapshot semantic validator accepts phase, identity, unique-ID, action-readiness and four-valued-status violations that the frozen design contract requires it to reject.",
+  "positiveChecks": {
+    "blindAuthorValueAgreement": "194/194 development and 98/98 transfer",
+    "canonicalEvidenceReferenceScope": "442/442",
+    "manifestAndPacketBoundary": "69/69 files; four six-card packets, eight initial tasks each, zero foreign claim leaks",
+    "httpPreview": "14/14 routes",
+    "actualBrowserEvidence": "16 DOM observations, 288 exact source-record comparisons, seven completed actions, four preserved and directly inspected original JPEGs, zero console entries, observed 1280x720 only"
+  },
+  "repros": [
+    "audit/snapshot-guard-probes-001.json",
+    "audit/four-valued-probes-001.json"
+  ],
+  "independentResults": [
+    "audit/cross-review-001-corrected.json",
+    "audit/package-verification-001.json",
+    "audit/preview-routes-001.json",
+    "audit/browser-verification-001.json"
+  ],
+  "preservation": "Candidate001 and its host browser evidence remain attributable to 001. Corrective candidate002 must have a new immutable package and independent verification; no frozen blind or design files are changed.",
+  "limitations": "Preparation-only software/materials checks; no four-agent research outputs, transfer responses, human participants, Gate14 or isolated-runner test."
+}

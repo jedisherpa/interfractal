@@ -1,0 +1,608 @@
+{
+  "schema": "gate12-candidate-001-independent-check-v1",
+  "candidate": "G12-COORD-001",
+  "buildId": "g12-0d66d254f275f3663dee",
+  "sourceHash": "0d66d254f275f3663dee1b9e75062a046106dddc3f4ce9419eaa519688cd5e74",
+  "checkCount": 144,
+  "passCount": 144,
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    {
+      "name": "frozen spec and prespec audit 9 pins",
+      "pass": true
+    },
+    {
+      "name": "manifest source 14 pins",
+      "pass": true
+    },
+    {
+      "name": "manifest built 10 pins",
+      "pass": true
+    },
+    {
+      "name": "run manifest 5 pins",
+      "pass": true
+    },
+    {
+      "name": "source hash independently recomputed",
+      "pass": true
+    },
+    {
+      "name": "run and spec identities",
+      "pass": true
+    },
+    {
+      "name": "source hash from independent canonicalization",
+      "pass": true
+    },
+    {
+      "name": "public build contains no oracle path",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/ALL/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/ALL/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/ALL/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/EXTREMES/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/EXTREMES/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/EXTREMES/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite BASE/NONE/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order BASE/NONE/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings BASE/NONE/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/ALL/empty",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/ALL/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/ALL/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/ALL/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/ALL/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/ALL/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/EXTREMES/empty",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/EXTREMES/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/EXTREMES/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/EXTREMES/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/EXTREMES/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/EXTREMES/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/NONE/empty",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/NONE/ARCHIVE",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/NONE/DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "finite DETAIL_CONTROL/NONE/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "proposal-order DETAIL_CONTROL/NONE/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "exact local bindings DETAIL_CONTROL/NONE/ARCHIVE+DISPATCH",
+      "pass": true
+    },
+    {
+      "name": "wrong group content",
+      "pass": true
+    },
+    {
+      "name": "wrong source hash",
+      "pass": true
+    },
+    {
+      "name": "altered rank",
+      "pass": true
+    },
+    {
+      "name": "altered reference",
+      "pass": true
+    },
+    {
+      "name": "altered preferred",
+      "pass": true
+    },
+    {
+      "name": "extra semantic field",
+      "pass": true
+    },
+    {
+      "name": "bad content hash",
+      "pass": true
+    },
+    {
+      "name": "unknown scenario",
+      "pass": true
+    },
+    {
+      "name": "unknown assignment",
+      "pass": true
+    },
+    {
+      "name": "wrong procedure",
+      "pass": true
+    },
+    {
+      "name": "extra group",
+      "pass": true
+    },
+    {
+      "name": "wrong assignment proposal",
+      "pass": true
+    },
+    {
+      "name": "malformed proposals object",
+      "pass": true
+    },
+    {
+      "name": "stored 24 computational outcomes independently match",
+      "pass": true
+    },
+    {
+      "name": "canonical proposal content/source hashes",
+      "pass": true
+    },
+    {
+      "name": "canonical outcome content hashes",
+      "pass": true
+    },
+    {
+      "name": "initial state and semantic hash",
+      "pass": true
+    },
+    {
+      "name": "seven checkpoint hashes",
+      "pass": true
+    },
+    {
+      "name": "eight canonical event identities",
+      "pass": true
+    },
+    {
+      "name": "same-boundary event fingerprint chains",
+      "pass": true
+    },
+    {
+      "name": "canonical action never human/enacted",
+      "pass": true
+    },
+    {
+      "name": "diagram/plain exact information equality",
+      "pass": true
+    },
+    {
+      "name": "document UUID outside semantic/information",
+      "pass": true
+    },
+    {
+      "name": "GET /",
+      "pass": true
+    },
+    {
+      "name": "HEAD /",
+      "pass": true
+    },
+    {
+      "name": "GET /index.html",
+      "pass": true
+    },
+    {
+      "name": "HEAD /index.html",
+      "pass": true
+    },
+    {
+      "name": "GET /app.mjs",
+      "pass": true
+    },
+    {
+      "name": "HEAD /app.mjs",
+      "pass": true
+    },
+    {
+      "name": "GET /model.mjs",
+      "pass": true
+    },
+    {
+      "name": "HEAD /model.mjs",
+      "pass": true
+    },
+    {
+      "name": "GET /style.css",
+      "pass": true
+    },
+    {
+      "name": "HEAD /style.css",
+      "pass": true
+    },
+    {
+      "name": "GET /fixture.json",
+      "pass": true
+    },
+    {
+      "name": "HEAD /fixture.json",
+      "pass": true
+    },
+    {
+      "name": "GET /build.json",
+      "pass": true
+    },
+    {
+      "name": "HEAD /build.json",
+      "pass": true
+    },
+    {
+      "name": "GET /run/run.json",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/run.json",
+      "pass": true
+    },
+    {
+      "name": "GET /run/initial-state.json",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/initial-state.json",
+      "pass": true
+    },
+    {
+      "name": "GET /run/events.jsonl",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/events.jsonl",
+      "pass": true
+    },
+    {
+      "name": "GET /run/checkpoints.json",
+      "pass": true
+    },
+    {
+      "name": "HEAD /run/checkpoints.json",
+      "pass": true
+    },
+    {
+      "name": "deny /review/results.html",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /review/source-review.md",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /review/images/x.jpg",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /independent-predictions.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /model-contract.md",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /run/computational-results.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /source-manifest.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /server.mjs",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /foo",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /review/anything.html",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /../docs/gate-12/fixture.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /%2e%2e/docs/gate-12/fixture.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /run//run.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /run/run.json?x=1",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny method POST",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method PUT",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method PATCH",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method DELETE",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method OPTIONS",
+      "pass": true,
+      "detail": 405
+    }
+  ],
+  "scope": "packaged source/model/run assets and isolated loopback HTTP; no browser claim"
+}

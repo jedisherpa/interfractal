@@ -1,0 +1,301 @@
+[
+  {
+    "path": "evidence/gate-9/screenshots/001-common-practice-1280.jpg",
+    "sha256": "6e18a5ff15043f0ff10545d7beeb0012fbe110ae8d7a0bfdb8d668f1d4d5a655",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2792,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 472.5,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2792,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 472.5,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/002-t01-completed-choice.jpg",
+    "sha256": "390f18997538da37b202163153b404adbb4c8b5bbf869b1dfcd90b943fa48002",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 985.5,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 985.5,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/003-t01-watch-active.jpg",
+    "sha256": "f8bc27932b9c9fcee4c6a03e395a707ff8b43bbfafa850f3b1792c88170b30de",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2566,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 743.5,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2566,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 743.5,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/004-t01-watch-complete.jpg",
+    "sha256": "c66c9e90df067539012862a55b923c419416a6f9c773d8b1801a6fcc98866b18",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1588.5,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1588.5,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/005-t01-static-sheet.jpg",
+    "sha256": "7a1a4bc8db00bf6eeec976c33686e4797ef8a837b876d3d67c120c1a481dd83e",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1242,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1242,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/006-t01-completed-choice-full.jpg",
+    "sha256": "b3de4874c0ce155e100848fec70473fc937e087eb8f40d3177c042e329764846",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2585,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1274,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2585,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1274,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/007-t04-nonseparating-static.jpg",
+    "sha256": "643cb903edc51c10863aec63d373d3a35c2e0c324379d6f77fa0262e5fc042b4",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1242,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2881,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1242,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/008-static-960-upper.jpg",
+    "sha256": "c71d7433c6f48f88ff7e5ea1bba1d4836d60869d64e41c33d9c54b38b2ffd6db",
+    "width": 960,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 3374,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1420,
+      "width": 960
+    },
+    "afterViewport": {
+      "documentHeight": 3374,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1420,
+      "width": 960
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/009-static-960-lower.jpg",
+    "sha256": "18aeca26266f8e4f9d55aa42665db50ddeb7d2f23078fc6bc9db6010dfe0f9ba",
+    "width": 960,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 3374,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1744,
+      "width": 960
+    },
+    "afterViewport": {
+      "documentHeight": 3374,
+      "documentWidth": 960,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1744,
+      "width": 960
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/010-t01-watch-full-manual-review.jpg",
+    "sha256": "eff84de0575869d858487f94289db18b761e2874d60e8258a20d2f09642dc47e",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2585,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1270,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2585,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1270,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/011-continuous-tour-active.jpg",
+    "sha256": "26ab81aeac6a529126e1d140759c3c0c03b63d4fdeb62967fc9288da4a56ee01",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2547,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1268,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2547,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1268,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/012-continuous-tour-natural-end.jpg",
+    "sha256": "af34935ee37ee9e8019aa740a15ba2e594bbba7f5b38da8f943866bd4671dd9a",
+    "width": 1280,
+    "height": 720,
+    "beforeViewport": {
+      "documentHeight": 2585,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1252.5,
+      "width": 1280
+    },
+    "afterViewport": {
+      "documentHeight": 2585,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1252.5,
+      "width": 1280
+    },
+    "matchesBeforeCssViewport": true
+  },
+  {
+    "path": "evidence/gate-9/screenshots/013-final-paused-start.jpg",
+    "sha256": "99dd14b99af1172fba78a1b40e44f58ca5fe0760ce67b534be2b5e4cf329b056",
+    "width": 1279,
+    "height": 904,
+    "beforeViewport": {
+      "documentHeight": 2843,
+      "documentWidth": 1279,
+      "height": 904,
+      "scrollX": 0,
+      "scrollY": 1253,
+      "width": 1279
+    },
+    "afterViewport": {
+      "documentHeight": 2843,
+      "documentWidth": 1279,
+      "height": 904,
+      "scrollX": 0,
+      "scrollY": 1253,
+      "width": 1279
+    },
+    "matchesBeforeCssViewport": true
+  }
+]

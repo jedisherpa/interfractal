@@ -1,0 +1,21 @@
+{
+  "schema": "gate12-candidate-002-independent-audit-v1",
+  "verdict": "PASS_FOR_BROWSER_COLLECTION",
+  "runId": "G12-COORD-002",
+  "buildId": "g12-3c5526361a7cb2cc5c4a",
+  "sourceHash": "3c5526361a7cb2cc5c4afe35c23801f183dacdc2f8ae4653471b202a27a9665c",
+  "frozenPrespecPinsVerified": 9,
+  "sourceManifestPinsVerified": 14,
+  "builtPinsVerified": 10,
+  "runManifestPinsVerified": 5,
+  "modelAndServerBytesEqualCandidate001": true,
+  "independentPackagedChecks": {"pass":148,"total":148,"file":"audit/gate-12/candidate-002-check.json"},
+  "controlledVmChecks": {"pass":19,"total":19,"file":"audit/gate-12/candidate-002-ui-race.json"},
+  "candidate001DefectsCorrected": ["retained outcome selector enables inspection and preserves pending selection through redraw","branch registry is unique C0 followed by local branches","long group-card source hash wraps in inspected 960-pixel original"],
+  "qualification": "The public scripted C0 raw branchRegistry is preloaded even at paused0. Active semantic/display and actual event provenance remain separately masked; no secrecy condition is claimed.",
+  "browserStatus": "Host collection ongoing; actual earlier-record inspection appears at browser-002 observations 29–32, but full core not yet audited.",
+  "blockingFindings": [],
+  "humanParticipants": 0,
+  "enactedAction": false,
+  "nextStep": "Continue actual supported-browser protocol; later audit the closed core separately."
+}

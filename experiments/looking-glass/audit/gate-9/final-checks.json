@@ -1,0 +1,46 @@
+{
+  "schema": "gate9-final-independent-checks-v1",
+  "status": "PASS_WITH_QUALIFICATION",
+  "scope": "software instrument, immutable build, closed actual browser core, and historical freeze; zero human participants",
+  "runId": "G9-MATCHED-003",
+  "buildId": "g9-15c3bf973fe0c6cd",
+  "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+  "closedCoreManifestSha256": "2bc665deb66351e70ccd13fc57056365cecb75a2f2e892205fc56f79544dd6d0",
+  "componentStatuses": {
+    "prespec": "PASS",
+    "prepackageFinal": "PASS",
+    "immutableBuild": "PASS",
+    "readOnlyRoutes": "PASS",
+    "historicalFreeze": "PASS",
+    "closedCore": "PASS",
+    "browserEvidence": "PASS_WITH_QUALIFICATION",
+    "semanticEvents": "PASS"
+  },
+  "counts": {
+    "closedFiles": 32,
+    "browserObservations": 307,
+    "actualRecordedMainActionCalls": 135,
+    "successfulMainActionCalls": 134,
+    "disabledMainActionCalls": 1,
+    "originalJpegs": 13,
+    "primaryMatchedEndpoints": 12,
+    "additionalRegressionExports": 4,
+    "designatedCheckpointComparisons": 24,
+    "exactCapturedSemanticFingerprints": 304,
+    "liveClockFingerprintMismatches": 3,
+    "actualBrowserSemanticEvents": 151,
+    "actualBrowserSessions": 3,
+    "historicalFrozenEntries": 1081
+  },
+  "qualification": {
+    "kind": "non_atomic_live_inspector_fingerprint",
+    "observationIndices": [
+      219,
+      236,
+      283
+    ],
+    "impact": "Three active-clock snapshots cannot be claimed as self-consistent state/fingerprint pairs. All 24 designated paused checkpoints and 16 completed-route exports verified; no endpoint parity result depends on these three snapshots."
+  },
+  "humanOutcome": "untested",
+  "errors": []
+}

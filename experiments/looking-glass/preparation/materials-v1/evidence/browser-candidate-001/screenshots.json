@@ -1,0 +1,34 @@
+[
+  {
+    "label": "materials-overview",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-001/screenshots/materials-overview.jpg",
+    "sha256": "a81f81ff560b78995fcf7d9425a2aae85f833c8f59d63c6e93cd628da3b4b7e9",
+    "bytes": 79784,
+    "beforeObservationIndex": 1,
+    "afterObservationIndex": 2
+  },
+  {
+    "label": "understanding-dissent-commitment-source",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-001/screenshots/understanding-dissent-commitment-source.jpg",
+    "sha256": "b3f06f2aa50702dbf44a280b78ffa6475d41e330c760fe9c5004ca11d6f726b1",
+    "bytes": 78920,
+    "beforeObservationIndex": 4,
+    "afterObservationIndex": 5
+  },
+  {
+    "label": "capacity-correction-source",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-001/screenshots/capacity-correction-source.jpg",
+    "sha256": "c57642d5539e559a6b070ffbb3e61c58997763879fd2d5d275a021d9146a95f0",
+    "bytes": 80189,
+    "beforeObservationIndex": 8,
+    "afterObservationIndex": 9
+  },
+  {
+    "label": "unresolved-inspection-reports",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/evidence/browser-candidate-001/screenshots/unresolved-inspection-reports.jpg",
+    "sha256": "fa139b31acfb4665c1cac333e7a778e91fa8b8cd3b744232727bca59dc6e0762",
+    "bytes": 85665,
+    "beforeObservationIndex": 12,
+    "afterObservationIndex": 13
+  }
+]

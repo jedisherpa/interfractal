@@ -1,0 +1,17 @@
+{
+  "kind": "closed-core-evidence-byte-audit",
+  "closedAtUtc": "2026-09-20T03:38:05.049026+00:00",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "entryCount": 27,
+  "failures": [],
+  "counts": {
+    "allCandidateObservations": 128,
+    "allOriginalCaptures": 21,
+    "finalObservations": 90,
+    "finalOriginalCaptures": 14,
+    "finalEvents": 57,
+    "allCaptureDimensionsMatch": true
+  },
+  "pass": true
+}

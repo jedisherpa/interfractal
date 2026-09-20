@@ -1,0 +1,68 @@
+{
+  "at_utc": "2026-09-20T00:45:01.180737+00:00",
+  "files": [
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/test.mjs",
+      "sha256": "4a8d29343573ad288eac2c6621bdb1a919720a89bf37034a078504c525c30e94",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/index.html",
+      "sha256": "d160077448fa172dd6242ea280e9aac77033be11404a2fce4b1b5846b8493926",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/build.mjs",
+      "sha256": "bb59304d1c7d3b6ffbcb28b4bc26d3e551e5d2b38429bcc95dd7710cd227e9b7",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/style.css",
+      "sha256": "0574ddba6a899a990baa4c95ea0bd5680caae1db80b4640e4529103052fd1cd7",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/app.mjs",
+      "sha256": "779977bbc9ef26ec8d614729033cb551fd2c828735590636999162e07020475a",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/server.mjs",
+      "sha256": "6cefac0f485c9fcb8e776235d1938b9c907a92ab006ebbff519038eb8a10267e",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/model.mjs",
+      "sha256": "bdf1e5fe457037635bb0753f124f33b9d238245afa6ae2cd829d2fd5a467459c",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-5cbe62c304898cf1/build.json",
+      "sha256": "3944b418bf9207d7e9ea0ac6b6edcf9922fe0eddb07b97e1fa57ac7f844a35d0",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-004/run.json",
+      "sha256": "8de116c01de48aa79b126ab846c736282c4cdd187462586008dcf3c39e6d1f42",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-004/events.jsonl",
+      "sha256": "180e2b69ae468d31190f57b235001eedfdb4cacbcb0ad75d5e4ea59abede9536",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-004/checkpoints.json",
+      "sha256": "792b9383fb5c5a28cbcce0aab98b5c2e51c099ba76ae5c2e4f2b828971e9b330",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-004/initial-state.json",
+      "sha256": "2d2e0219a313c625486c62a2cebc760de38168fd8c4b1cc9c913565fbe26da19",
+      "matches": true
+    }
+  ],
+  "all_match": true,
+  "gate_unchanged": true,
+  "result": "FAIL G0-P05: Look around mode changed but requested yaw120 remained60. Saved run remains unchanged."
+}

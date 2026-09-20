@@ -1,0 +1,783 @@
+{
+  "schema": "gate8-review-evidence-v1",
+  "gate": 8,
+  "result": "qualified_pass",
+  "resultScope": "Four public finite candidate families and their frozen query menus; independently audited software model, actual browser operation and repeatable replay.",
+  "humanParticipantCount": 0,
+  "participantResponseCount": 0,
+  "humanUnderstandingEstablished": false,
+  "visualAdvantageEstablished": false,
+  "globalQueryOptimalityEstablished": false,
+  "runId": "G8-AMBIGUITY-001",
+  "buildId": "g8-f5c5ee62889da529",
+  "sourceSha256": "f5c5ee62889da529fcb16cce66b777707335c34db299d85a22332f2521c5a046",
+  "baseRevision": "cbb32394e741bcaab78a0970a0905236c706d33e",
+  "runtime": {
+    "nodeVersion": "v24.17.0",
+    "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "renderer": "Fixed 43 px/unit SVG, yaw about display y, fixed pitch 20°, no autoscale; exact records separate"
+  },
+  "prespec": {
+    "path": "docs/gate-8/PRESPEC_FREEZE.json",
+    "sha256": "38f1cbae00339eb9d4d1f1ee097fdb124b120c598ecea4c69c3ee7af8c19e7b8",
+    "frozenAtUtc": "2026-09-20T08:02:50.088387+00:00",
+    "fileCount": 5,
+    "clarificationReview": "Host conformance check before freeze due to agent capacity limit; later independent exact-build and observed-event audit passed."
+  },
+  "closedCore": {
+    "path": "evidence/gate-8/CORE_TRIAL_CLOSED.json",
+    "sha256": "2ec12a77e41c2d3ce05ca77e79c1f37aac2e89a105e2060e1012ddaf447adcbf",
+    "closedAtUtc": "2026-09-20T08:20:54.369532+00:00",
+    "pinnedFileCount": 25,
+    "counts": {
+      "actualBrowserObservations": 197,
+      "hostActionCalls": 83,
+      "successfulHostActionCalls": 83,
+      "originalCaptures": 14,
+      "checkpointObservations": 36,
+      "acceptedActivityRows": 79,
+      "allActivityRowsThroughClosure": 79,
+      "separatelyRecordedHistoricalLinkClicks": 1
+    },
+    "acceptedBrowserSessionIds": [
+      "5727769d-6670-420d-8485-0276decbbfa9",
+      "615048eb-a95a-4614-8edb-6c47e99f8cee"
+    ]
+  },
+  "independentAudit": {
+    "url": "http://127.0.0.1:44001/review/audit.md",
+    "path": "audit/gate-8/AUDIT.md",
+    "sha256": "928238cccfa43cacf98245b01b51bdb7f268764c033daab346a9abe40a37fb8a",
+    "decision": "PASS with recorded acquisition and capture qualifications",
+    "reports": {
+      "build-audit.json": "PASS",
+      "route-audit.json": "PASS",
+      "browser-audit.json": "PASS",
+      "event-audit.json": "PASS",
+      "core-audit.json": "PASS"
+    }
+  },
+  "benchmark": {
+    "worlds": 10,
+    "allowedWorldQueryOutputsChecked": 28,
+    "withinCasePairs": 9,
+    "baselineExactConflictingPairs": 8,
+    "additionalQuerySubsets": 12,
+    "cases": [
+      {
+        "caseId": "G8-C01",
+        "title": "A hidden sign",
+        "baselineExactConflictingPairs": 1,
+        "subsetsExamined": 2,
+        "minimum": {
+          "status": "determined",
+          "size": 1,
+          "subsets": [
+            [
+              "xw90"
+            ]
+          ]
+        },
+        "primaryCapture": "http://127.0.0.1:44001/review/screenshots/001-resumed-c01-revealed.jpg",
+        "interpretation": "The original projection is shared. After the x–w quarter-turn, the reference has x=+1 and the other candidate has x=−1. The certificate exhausts both allowed subsets. This capture uses display yaw +45°; that camera setting adds no raw information."
+      },
+      {
+        "caseId": "G8-C02",
+        "title": "Two hidden signs",
+        "baselineExactConflictingPairs": 6,
+        "subsetsExamined": 4,
+        "minimum": {
+          "status": "determined",
+          "size": 2,
+          "subsets": [
+            [
+              "xw90",
+              "yv90"
+            ]
+          ]
+        },
+        "primaryCapture": "http://127.0.0.1:44001/review/screenshots/001-resumed-c02-complementary.jpg",
+        "interpretation": "The three panels show the baseline and two separate observations of the original source. Each turn alone leaves two conflicting pairs; together they determine both signs for all four candidates. The certificate checks four subsets. A combined-turn query is outside this menu."
+      },
+      {
+        "caseId": "G8-C03",
+        "title": "A menu with no separator",
+        "baselineExactConflictingPairs": 1,
+        "subsetsExamined": 4,
+        "minimum": {
+          "status": "none-in-menu",
+          "size": null,
+          "subsets": [],
+          "fullMenuSurvivingPairs": [
+            [
+              "C03-W01",
+              "C03-W02"
+            ]
+          ]
+        },
+        "primaryCapture": "http://127.0.0.1:44001/review/screenshots/001-resumed-c03-no-separator.jpg",
+        "interpretation": "The two balls share the projection and central slice. Both outer slices are empty; the +2 panel continues below this viewport. The full-menu certificate retains C03-W01 and C03-W02. The separate outside-menu capture shows why this is a restricted-menu failure, not universal impossibility."
+      },
+      {
+        "caseId": "G8-C04",
+        "title": "Equal labels, unequal raw values",
+        "baselineExactConflictingPairs": 0,
+        "subsetsExamined": 2,
+        "minimum": {
+          "status": "determined",
+          "size": 0,
+          "subsets": [
+            []
+          ]
+        },
+        "primaryCapture": "http://127.0.0.1:44001/review/screenshots/001-resumed-c04-rounding-trap.jpg",
+        "interpretation": "The baseline x values differ by 2×10⁻¹². They are within the diagnostic 10⁻¹⁰ tolerance and both display as 0.00, while the exact comparison is unequal. The minimum additional-query count is zero. Equal labels do not establish equal raw observations or equal pixels."
+      }
+    ]
+  },
+  "replay": {
+    "durationSeconds": 32,
+    "checkpointSeconds": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32
+    ],
+    "equivalentCheckpointPasses": 4,
+    "matchingCheckpointObservations": 36,
+    "plannedTransitionEvents": 10,
+    "observedSemanticRows": 79,
+    "continuousReplayElapsedMilliseconds": 32020,
+    "initialStateIsInteractionEvent": false,
+    "naturalStop": {
+      "origin": "automatic",
+      "type": "tour-stop",
+      "reason": "end-of-sequence",
+      "cursorSeconds": 32,
+      "paused": true
+    },
+    "finalCollectedState": {
+      "caseId": "G8-C01",
+      "referenceWorldId": "C01-W01",
+      "cursorSeconds": 0,
+      "paused": true,
+      "cameraYawDegrees": 0,
+      "certificateVisible": false
+    },
+    "browserActor": "unattributed_local",
+    "externalHostActor": "software_validation"
+  },
+  "captures": [
+    {
+      "index": 0,
+      "path": "evidence/gate-8/screenshots/001-resumed-initial-paused.jpg",
+      "recordedAtUtc": "2026-09-20T08:14:20.779Z",
+      "beforeObservation": 1,
+      "afterObservation": 2,
+      "sha256": "b656b54a9c47d3ebf8549a90533377d2dea46a17f812b116bcb956fd81ac0e6e",
+      "bytes": 99660,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-initial-paused.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 1,
+      "path": "evidence/gate-8/screenshots/001-resumed-layout-960.jpg",
+      "recordedAtUtc": "2026-09-20T08:14:34.843Z",
+      "beforeObservation": 5,
+      "afterObservation": 6,
+      "sha256": "4015df505a167233af3f1cfa6a2f5fe19d098e6bee74e1706eaa1114bfd145d3",
+      "bytes": 59948,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-layout-960.jpg",
+      "actualImageDimensions": [
+        960,
+        540
+      ],
+      "cssViewport": {
+        "width": 960,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 2,
+      "path": "evidence/gate-8/screenshots/001-resumed-records-960.jpg",
+      "recordedAtUtc": "2026-09-20T08:14:35.814Z",
+      "beforeObservation": 9,
+      "afterObservation": 10,
+      "sha256": "9d27898102d5458663dc8f1a3b8d1a133b708e542f7cd274c6f03e2b9b130cc0",
+      "bytes": 75064,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-records-960.jpg",
+      "actualImageDimensions": [
+        960,
+        720
+      ],
+      "cssViewport": {
+        "width": 960,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 576
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 3,
+      "path": "evidence/gate-8/screenshots/001-resumed-inspector-960.jpg",
+      "recordedAtUtc": "2026-09-20T08:14:37.245Z",
+      "beforeObservation": 15,
+      "afterObservation": 16,
+      "sha256": "f6f018c33dbf567f55686c5e14ecef8dc340ab2f9e672f02448aef3980311152",
+      "bytes": 52240,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-inspector-960.jpg",
+      "actualImageDimensions": [
+        960,
+        720
+      ],
+      "cssViewport": {
+        "width": 960,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 900.5
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 4,
+      "path": "evidence/gate-8/screenshots/001-resumed-c01-revealed.jpg",
+      "recordedAtUtc": "2026-09-20T08:16:36.617Z",
+      "beforeObservation": 53,
+      "afterObservation": 54,
+      "sha256": "5f3aa2f0c45db692890094c8b8f6593d1171aa219ed410d153c7a20c905cac96",
+      "bytes": 93986,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-c01-revealed.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 515
+      },
+      "caseId": "G8-C01",
+      "mode": "exploration",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 45,
+      "inlineInReview": true
+    },
+    {
+      "index": 5,
+      "path": "evidence/gate-8/screenshots/001-resumed-c02-complementary.jpg",
+      "recordedAtUtc": "2026-09-20T08:16:56.972Z",
+      "beforeObservation": 65,
+      "afterObservation": 66,
+      "sha256": "3804563473c7f1c10aafd44a1a1fcc0a289f609e83fbe75d20d1c5e73c0b43ad",
+      "bytes": 104585,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-c02-complementary.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 700
+      },
+      "caseId": "G8-C02",
+      "mode": "exploration",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 0,
+      "inlineInReview": true
+    },
+    {
+      "index": 6,
+      "path": "evidence/gate-8/screenshots/001-resumed-c03-no-separator.jpg",
+      "recordedAtUtc": "2026-09-20T08:17:23.515Z",
+      "beforeObservation": 87,
+      "afterObservation": 88,
+      "sha256": "f810df245a21caca06ef41c29ff1bd3d21ae22f545693f174dda8221b0f658d3",
+      "bytes": 105309,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-c03-no-separator.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 515
+      },
+      "caseId": "G8-C03",
+      "mode": "exploration",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 0,
+      "inlineInReview": true
+    },
+    {
+      "index": 7,
+      "path": "evidence/gate-8/screenshots/001-resumed-c03-outside-menu.jpg",
+      "recordedAtUtc": "2026-09-20T08:17:23.820Z",
+      "beforeObservation": 91,
+      "afterObservation": 92,
+      "sha256": "1fedd0b87b97e54110e3cfaa3d7754f99e5bc31cf54ac185863628e007bfae26",
+      "bytes": 86494,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-c03-outside-menu.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 924
+      },
+      "caseId": "G8-C03",
+      "mode": "exploration",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 8,
+      "path": "evidence/gate-8/screenshots/001-resumed-c04-rounding-trap.jpg",
+      "recordedAtUtc": "2026-09-20T08:17:36.875Z",
+      "beforeObservation": 97,
+      "afterObservation": 98,
+      "sha256": "46bfdf692d681f9579d1b6a136d46126f97bfdd806844dca5aecb635bc378eb9",
+      "bytes": 86509,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-c04-rounding-trap.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 657.5
+      },
+      "caseId": "G8-C04",
+      "mode": "exploration",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 0,
+      "inlineInReview": true
+    },
+    {
+      "index": 9,
+      "path": "evidence/gate-8/screenshots/001-resumed-c04-robust-query.jpg",
+      "recordedAtUtc": "2026-09-20T08:17:37.580Z",
+      "beforeObservation": 103,
+      "afterObservation": 104,
+      "sha256": "d1269987ebb74a68741c6760ea14b4e2714b3caa9e75a8e28860887d43d2541b",
+      "bytes": 109041,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-c04-robust-query.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 406.5
+      },
+      "caseId": "G8-C04",
+      "mode": "exploration",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 10,
+      "path": "evidence/gate-8/screenshots/001-resumed-tour-active.jpg",
+      "recordedAtUtc": "2026-09-20T08:18:19.929Z",
+      "beforeObservation": 175,
+      "afterObservation": 176,
+      "sha256": "59882993243ac7c38836772823516e22e5c794f5505d8a11301d8ebbf356cad1",
+      "bytes": 99615,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-tour-active.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0.301,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 11,
+      "path": "evidence/gate-8/screenshots/001-resumed-tour-natural-end.jpg",
+      "recordedAtUtc": "2026-09-20T08:19:20.092Z",
+      "beforeObservation": 178,
+      "afterObservation": 179,
+      "sha256": "67b6495815bead4438bad3774f85f0566b69347a9eb7774a4c3c3bb5c71180d5",
+      "bytes": 104938,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-tour-natural-end.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "caseId": "G8-C04",
+      "mode": "saved-replay",
+      "cursorSeconds": 32,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 12,
+      "path": "evidence/gate-8/screenshots/001-resumed-settled-layout-960.jpg",
+      "recordedAtUtc": "2026-09-20T08:19:21.401Z",
+      "beforeObservation": 188,
+      "afterObservation": 189,
+      "sha256": "26172670ce151f1432899163f98bea359067c1c5e7a70c1d8641139716efac77",
+      "bytes": 97532,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-settled-layout-960.jpg",
+      "actualImageDimensions": [
+        960,
+        720
+      ],
+      "cssViewport": {
+        "width": 960,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    },
+    {
+      "index": 13,
+      "path": "evidence/gate-8/screenshots/001-resumed-final-paused.jpg",
+      "recordedAtUtc": "2026-09-20T08:19:59.227Z",
+      "beforeObservation": 195,
+      "afterObservation": 196,
+      "sha256": "dd185891e60b9658d241d185423e9517cc64a2e426ed60750db61e4a96308591",
+      "bytes": 100791,
+      "original": true,
+      "url": "http://127.0.0.1:44001/review/screenshots/001-resumed-final-paused.jpg",
+      "actualImageDimensions": [
+        1280,
+        720
+      ],
+      "cssViewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "caseId": "G8-C01",
+      "mode": "saved-replay",
+      "cursorSeconds": 0,
+      "cameraYawDegrees": 0,
+      "inlineInReview": false
+    }
+  ],
+  "preservedIncompleteAcquisition": {
+    "path": "evidence/gate-8/failed-acquisitions/G8-AMBIGUITY-001-server-stop/INCOMPLETE_ACQUISITION.json",
+    "recordedAtUtc": "2026-09-20T08:13:56.986211+00:00",
+    "runId": "G8-AMBIGUITY-001",
+    "buildId": "g8-f5c5ee62889da529",
+    "status": "incomplete acquisition preserved, not accepted core",
+    "reason": "HTTP connection refused on port44001 after builder completed; rendered page reported Event log failed: Failed to fetch. Some UI actions remained client-side. Exact immutable build unchanged.",
+    "counts": {
+      "observations": 43,
+      "actions": 17,
+      "originalCaptures": 4
+    },
+    "restart": "Root exec session19630 starts exact same Node24.17.0 immutable server; new browser session will redo complete protocol",
+    "claimBoundary": "No complete actual event log or acceptance claimed for this acquisition. getByLabel Case also failed; subsequent DOM snapshot exposed named combobox.",
+    "originalImageUrls": [
+      "http://127.0.0.1:44001/review/screenshots/001-initial-paused.jpg",
+      "http://127.0.0.1:44001/review/screenshots/001-layout-960.jpg",
+      "http://127.0.0.1:44001/review/screenshots/001-observations-960.jpg",
+      "http://127.0.0.1:44001/review/screenshots/001-inspector-960.jpg"
+    ]
+  },
+  "candidateHistory": [
+    {
+      "runId": "G8-AMBIGUITY-001",
+      "buildId": "g8-f5c5ee62889da529",
+      "sourceRevisions": 0,
+      "acquisitions": [
+        "incomplete original server-stop acquisition preserved",
+        "resumed complete audited core on the identical immutable source"
+      ]
+    }
+  ],
+  "collectionQualifications": [
+    "Core is the actual resumed acquisition. The incomplete initial acquisition with43 observations,17 actions and4 original images remains in failed-acquisitions/G8-AMBIGUITY-001-server-stop. The same immutable source was restarted after HTTP connection refusal; no candidate code revision occurred.",
+    "CUA helper closures retained original buffers after reassignment; actual resumed records were mechanically separated and reindexed with originalCollectionIndex. Full transition inputs preserved in collection-buffer-transition.json; no observed result was changed.",
+    "The accepted activity file filters by the two explicitly recorded resumed/reloaded session IDs; the complete unfiltered server log through closure is separately preserved. Browser actor metadata is unattributed_local; external host trace explicitly records software_validation.",
+    "All36 checkpoints match across baseline, after exploration, Reopen and reload. Actual continuous32-second replay was bracketed active and at paused natural end; manual Play/Pause and previous/next were exercised separately.",
+    "C01 camera yaw changes and certificate toggles preserved information; C02 two query orders agreed and repeat added nothing; C03 both permitted outer slices remained empty and outside-menu witness appeared only in explanatory certificate; C04 unequal exact values, tolerance-nearness and matching labels were inspected together.",
+    "All UI operations used supported CUA; DOM reads were read-only. No human participant or efficacy result is present.",
+    "The first resumed960-layout JPEG has actual dimensions960x540 despite a960x720 CSS viewport; it is retained as a capture artifact. Later records/inspector and settled-layout captures are960x720. No screenshot was resized or replaced. Actual original dimensions are listed separately from browser DPR.",
+    "At960 and1280 no horizontal page overflow was observed. Full records/certificate/inspector need vertical scrolling; screenshots show viewport portions only. No OS reduced-motion preference was emulated.",
+    "Gate7 historical link was actually clicked and its paused0 run/build DOM identity inspected in a newly opened temporary tab; no historical screenshot was requested.",
+    "Browser warning/error query returned no entries; earlier visible Event log failed text is preserved in the incomplete acquisition. Empty captured console output is not a claim that the earlier outage did not occur.",
+    "Core is closed; later presentation/handoff checks will be separate."
+  ],
+  "historicalPreservation": {
+    "uniqueFrozenEntries": 979,
+    "gates": "0–7",
+    "allVerifiedUnchanged": true,
+    "historicalHttpHomepagesAvailable": 8,
+    "actualHistoricalBrowserReview": "Gate 7 visible link opened; paused run/build identity inspected; no historical screenshot requested"
+  },
+  "modelRoles": [
+    {
+      "task": "/root/g8_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Specification, orchestration and synthesis"
+    },
+    {
+      "task": "/root/g8_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Primary-source internet gathering"
+    },
+    {
+      "task": "/root/g8_sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent prespec/build/browser evidence audit"
+    },
+    {
+      "task": "/root/g8_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation separate from auditor"
+    },
+    {
+      "task": "/root/g8_astra_synthesis",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Requested event-contract clarification and later synthesis"
+    }
+  ],
+  "dispatchIssues": [
+    {
+      "action": "spawn Gate8 independent Sol auditor and followup prior Sol auditor",
+      "result": "agent thread limit reached",
+      "resolution": "Resolved by sequencing workers; separate Sol auditor and builder dispatched after Astra and Luna completed."
+    },
+    {
+      "action": "Resume g8_sol_audit / spawn replacement after Astra completion",
+      "result": "agent thread limit reached",
+      "resolution": "Host froze transparent exact conformance check; independent Sol audit resumed successfully after builder ended. Final immutable implementation audit verifies clarified event ordering."
+    }
+  ],
+  "sourceReview": {
+    "url": "http://127.0.0.1:44001/review/source-review.md",
+    "collector": "GPT-5.6 Luna, high effort",
+    "primaryPapers": 3,
+    "scope": "Design context only; no validation of this instrument or human result."
+  },
+  "replayCollection": [
+    {
+      "gate": 0,
+      "title": "Viewing and replay",
+      "runId": "G0-CUBE-005",
+      "buildId": "g0-d85237ad31362768",
+      "url": "http://127.0.0.1:43991/",
+      "resultsUrl": "http://127.0.0.1:43991/evidence/gate-0/results.html",
+      "packetPath": "evidence/gate-0/GATE_0_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/probe/builds/g0-d85237ad31362768/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 1,
+      "title": "3D-to-2D calibration",
+      "runId": "G1-CUBE-003",
+      "buildId": "g1-9dce1c2b9c2b3be4",
+      "url": "http://127.0.0.1:43994/",
+      "resultsUrl": "http://127.0.0.1:43994/evidence/gate-1/results.html",
+      "packetPath": "evidence/gate-1/GATE_1_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/calibration/builds/g1-9dce1c2b9c2b3be4/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 2,
+      "title": "Hopf and shared reference",
+      "runId": "G2-HOPF-003",
+      "buildId": "g2-ccabad12693f86a8",
+      "url": "http://127.0.0.1:43995/",
+      "resultsUrl": "http://127.0.0.1:43995/evidence/gate-2/results.html",
+      "packetPath": "evidence/gate-2/GATE_2_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/correspondence/builds/g2-ccabad12693f86a8/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 3,
+      "title": "4D projection",
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460",
+      "url": "http://127.0.0.1:43996/",
+      "resultsUrl": "http://127.0.0.1:43996/evidence/gate-3/results.html",
+      "packetPath": "evidence/gate-3/GATE_3_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/hypercube/builds/g3-6c31bc16aeca4460/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 4,
+      "title": "Slices and ambiguity",
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6",
+      "url": "http://127.0.0.1:43997/",
+      "resultsUrl": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+      "packetPath": "evidence/gate-4/GATE_4_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/slices/builds/g4-38777d5882ef08a6/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 5,
+      "title": "Two additional coordinates in 5D",
+      "runId": "G5-PENTERACT-001",
+      "buildId": "g5-0bdee39bcd7dd541",
+      "url": "http://127.0.0.1:43998/",
+      "resultsUrl": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+      "packetPath": "evidence/gate-5/GATE_5_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/five-dimensional/builds/g5-0bdee39bcd7dd541/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 6,
+      "title": "Connected local models",
+      "runId": "G6-LOCAL-003",
+      "buildId": "g6-0279cdcdc0adc9b0",
+      "url": "http://127.0.0.1:43999/",
+      "resultsUrl": "http://127.0.0.1:43999/evidence/gate-6/results.html",
+      "packetPath": "evidence/gate-6/GATE_6_PACKET.md",
+      "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/local-models/builds/g6-0279cdcdc0adc9b0/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 7,
+      "title": "Unfamiliar-case interpretation and the bounded conclusion",
+      "runId": "G7-INTERPRET-002",
+      "buildId": "g7-90e64952eb028069",
+      "url": "http://127.0.0.1:44000/",
+      "resultsUrl": "http://127.0.0.1:44000/review/results.html",
+      "packetPath": "evidence/gate-7/GATE_7_PACKET.md",
+      "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs",
+      "scope": "Preserved historical instrument. Gate8 separately verifies979 frozen entries; Gate7 additionally has an actual visible-link DOM review."
+    },
+    {
+      "gate": 8,
+      "title": "Indistinguishable worlds and revealing observations",
+      "runId": "G8-AMBIGUITY-001",
+      "buildId": "g8-f5c5ee62889da529",
+      "url": "http://127.0.0.1:44001/",
+      "resultsUrl": "http://127.0.0.1:44001/review/results.html",
+      "packetPath": "evidence/gate-8/GATE_8_PACKET.md",
+      "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/ambiguity/builds/g8-f5c5ee62889da529/server.mjs",
+      "scope": "Four public finite candidate families; exact query-menu certificates and software replay. No human results."
+    }
+  ],
+  "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/ambiguity/builds/g8-f5c5ee62889da529/server.mjs",
+  "nextGate": {
+    "number": 9,
+    "name": "Choose, watch, or inspect a static sheet",
+    "approved": false,
+    "executed": false,
+    "proposal": "Match the selected, watched and static observation information; freeze exposure, practice, stopping and order rules. A causal human claim additionally requires an approved real-participant protocol and actual observations."
+  },
+  "reviewUrls": {
+    "replay": "http://127.0.0.1:44001/",
+    "results": "http://127.0.0.1:44001/review/results.html",
+    "packet": "http://127.0.0.1:44001/review/packet.md",
+    "audit": "http://127.0.0.1:44001/review/audit.md",
+    "runEvidence": "http://127.0.0.1:44001/review/run-evidence.json",
+    "sources": "http://127.0.0.1:44001/review/source-review.md"
+  },
+  "limitations": [
+    "Public finite families and fixed menus only; no adaptive optimum, unknown-noise inference, arbitrary-image reconstruction or physical extra-dimension claim.",
+    "No human participants, comprehension results, usability advantage, learning or transfer result.",
+    "No OS reduced-motion preference emulation; manual paused and checkpoint controls tested.",
+    "Viewport captures show portions of a scrolled page; raw records, certificates and inspector require vertical scrolling.",
+    "C04 quarter-turn directly reveals −w and separates paired fixture worlds; it is not a general observation of δ sign.",
+    "Review presentation and handoff checks occur after the closed core and are not added to its counts."
+  ],
+  "captureCountingNote": "18 preserved instrument originals: 14 accepted and four from the incomplete acquisition. Later presentation captures are separate and are not part of these counts."
+}

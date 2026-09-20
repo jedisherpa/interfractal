@@ -1,0 +1,18 @@
+{
+  "kind": "gate8-independent-build-audit",
+  "status": "PASS",
+  "buildId": "g8-f5c5ee62889da529",
+  "sourceSha256": "f5c5ee62889da529fcb16cce66b777707335c34db299d85a22332f2521c5a046",
+  "prespecFreezeSha256": "38f1cbae00339eb9d4d1f1ee097fdb124b120c598ecea4c69c3ee7af8c19e7b8",
+  "observations": 28,
+  "pairs": 9,
+  "subsets": 12,
+  "checkpoints": 9,
+  "plannedEvents": 10,
+  "runtime": {
+    "nodeVersion": "v24.17.0",
+    "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node"
+  },
+  "historyEntriesPreviouslyVerified": 979,
+  "browserAndObservedEvents": "pending host capture"
+}

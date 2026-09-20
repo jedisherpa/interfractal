@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "materials-builder-preflight/1",
+  "preparationOnly": true,
+  "recordId": "001",
+  "designFreezeSha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b",
+  "sourceTaskFreezeSha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+  "results": [
+    {
+      "name": "schema-validator-unit",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/schema-validator.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:16.476Z",
+      "completedAtUtc": "2026-09-20T22:11:16.530Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "schema validator unit checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "design-mutations",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/build-package.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:16.530Z",
+      "completedAtUtc": "2026-09-20T22:11:16.594Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "package design mutation checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "synthetic-snapshot-contract",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/snapshot-contract.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:16.594Z",
+      "completedAtUtc": "2026-09-20T22:11:16.661Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "snapshot contract fixtures and mutations passed (synthetic; zero research outputs)\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "literal-attestation-witness",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/literal-attestation.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:16.661Z",
+      "completedAtUtc": "2026-09-20T22:11:16.730Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "literal attestation polarity and witness checks passed (synthetic; zero research outputs)\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "cli-regression",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/cli-regression.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:16.730Z",
+      "completedAtUtc": "2026-09-20T22:11:17.951Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "CLI regression evidence: /Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/RESULTS.json\nCLI canonical/symlink/import/failure checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "frozen-source-and-generated-shape",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/build-package.mjs",
+        "check"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:17.951Z",
+      "completedAtUtc": "2026-09-20T22:11:18.027Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "source/design and in-memory package check passed: 18 cards, 4 packets, 8 initial tasks, 72 output files; both authored freezes matched\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "generator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/build-package.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:18.027Z",
+      "completedAtUtc": "2026-09-20T22:11:18.075Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "preview-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/preview.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:18.075Z",
+      "completedAtUtc": "2026-09-20T22:11:18.125Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "snapshot-validator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/tooling/snapshot-contract.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T22:11:18.125Z",
+      "completedAtUtc": "2026-09-20T22:11:18.171Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    }
+  ],
+  "allPassed": true
+}

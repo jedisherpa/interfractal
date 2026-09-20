@@ -1,0 +1,17 @@
+{
+  "recordedAtUtc": "2026-09-20T22:40:45.902Z",
+  "source": "Fresh get_goal after user objective edit",
+  "storedGoal": {
+    "threadId": "01a0bc35-2fb6-7561-a6a0-6f1cd01cdc5c",
+    "objective": "Complete the research program defined in **COLLECTIVE\\_CAPABILITY\\_RESEARCH\\_PACKAGE\\_v0\\_3.zip**, including its shared-meaning amendment, to determine under what conditions participants can develop, steward, and coordinate collective capability across scales—and whether the visualizer helps them organize attention around a shared reference while preserving consequential differences and participant agency. Completion requires carrying out the program’s required stages: defining and independently checking the research materials; ; building and validating the visualizer and equivalent plain workspace; completing the applicable human-study readiness, feasibility, comparison, mechanism, and cross-scale investigations; and resolving independent review findings. Each stage must produce inspectable evidence and receive the required human approval before dependent work proceeds. The final deliverable is an updated research-program ZIP containing the implementation, reproducible experiments and browser replays, source records, methods, results, review decisions, limitations, and an evidence-based recommendation about what to build and use. Positive, negative, and inconclusive findings are all valid outcomes. Completion means the agreed research has been performed and its conclusions are traceable to evidence. Any required stage that remains blocked, deferred, or unfinished must remain explicitly marked incomplete.&#x20;",
+    "status": "active",
+    "tokensUsed": 3646892,
+    "timeUsedSeconds": 9496,
+    "createdAt": 1789933637,
+    "updatedAt": 1789943999
+  },
+  "immediateWork": "Approved workspace, synthetic runner/scoring and transfer preparation continues; useful under either completion wording.",
+  "collectionAuthorized": false,
+  "completionScopeClarificationPending": true,
+  "clarificationReason": "Latest edited objective includes human investigations, while the prior explicit conversation deferred both studies and limited completion to preparation."
+}

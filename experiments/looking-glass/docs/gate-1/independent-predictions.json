@@ -1,0 +1,2064 @@
+{
+  "version": "gate-1-independent-predictions-v1",
+  "status": "pre-browser expectations, not observed results",
+  "derivation": "Closed-form values cos/sin at 0, pi/4, pi/2; source coordinates generated directly from bit IDs. No calibration implementation functions imported. Camera predictions use the independently expanded fixed yaw30/pitch20 formulas.",
+  "toleranceAbsolute": 1e-10,
+  "sourceVertices": [
+    {
+      "id": "v000",
+      "xyz": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "id": "v001",
+      "xyz": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "v010",
+      "xyz": [
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "v011",
+      "xyz": [
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "v100",
+      "xyz": [
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "id": "v101",
+      "xyz": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "v110",
+      "xyz": [
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "id": "v111",
+      "xyz": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "sourceEdges": [
+    {
+      "id": "v000-v001",
+      "from": "v000",
+      "to": "v001"
+    },
+    {
+      "id": "v000-v010",
+      "from": "v000",
+      "to": "v010"
+    },
+    {
+      "id": "v000-v100",
+      "from": "v000",
+      "to": "v100"
+    },
+    {
+      "id": "v001-v011",
+      "from": "v001",
+      "to": "v011"
+    },
+    {
+      "id": "v001-v101",
+      "from": "v001",
+      "to": "v101"
+    },
+    {
+      "id": "v010-v011",
+      "from": "v010",
+      "to": "v011"
+    },
+    {
+      "id": "v010-v110",
+      "from": "v010",
+      "to": "v110"
+    },
+    {
+      "id": "v011-v111",
+      "from": "v011",
+      "to": "v111"
+    },
+    {
+      "id": "v100-v101",
+      "from": "v100",
+      "to": "v101"
+    },
+    {
+      "id": "v100-v110",
+      "from": "v100",
+      "to": "v110"
+    },
+    {
+      "id": "v101-v111",
+      "from": "v101",
+      "to": "v111"
+    },
+    {
+      "id": "v110-v111",
+      "from": "v110",
+      "to": "v111"
+    }
+  ],
+  "invariants": {
+    "sourceVertexCount": 8,
+    "sourceEdgeCount": 12,
+    "vertexNorm": 1.7320508075688772,
+    "edgeLength": 2,
+    "pairwiseDistanceCount": 28,
+    "pairwiseDistanceMultiplicity": [
+      {
+        "distance": 2,
+        "count": 12
+      },
+      {
+        "distance": 2.8284271247461903,
+        "count": 12
+      },
+      {
+        "distance": 3.4641016151377544,
+        "count": 4
+      }
+    ],
+    "algebraicInverseAnglesDegrees": [
+      0,
+      15,
+      45,
+      90
+    ],
+    "inverseIdentity": "R(-theta)R(theta)=I; check every vertex independently of time schedule"
+  },
+  "fixedCamera": {
+    "yawRadians": 0.5235987755982988,
+    "pitchRadians": 0.3490658503988659
+  },
+  "checkpoints": [
+    {
+      "simulationTimeMs": 0,
+      "sourceAngleDegrees": 0,
+      "sourceAngleRadians": 0.0,
+      "cameraYawRadians": 0.5235987755982988,
+      "cameraPitchRadians": 0.3490658503988659,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "displayCamera": [
+            -1.3660254037844386,
+            -0.814504559722719,
+            -0.6859715142820881
+          ],
+          "sourceViewScreen": [
+            -1.3660254037844386,
+            0.814504559722719
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "displayCamera": [
+            -0.3660254037844386,
+            -1.4069008251747666,
+            0.9416238484166592
+          ],
+          "sourceViewScreen": [
+            -0.3660254037844386,
+            1.4069008251747666
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "displayCamera": [
+            -1.3660254037844386,
+            1.064880681849098,
+            -0.0019312276307507648
+          ],
+          "sourceViewScreen": [
+            -1.3660254037844386,
+            -1.064880681849098
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "displayCamera": [
+            -0.3660254037844386,
+            0.47248441639705024,
+            1.6256641350679966
+          ],
+          "sourceViewScreen": [
+            -0.3660254037844386,
+            -0.47248441639705024
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "displayCamera": [
+            0.3660254037844386,
+            -0.47248441639705024,
+            -1.6256641350679966
+          ],
+          "sourceViewScreen": [
+            0.3660254037844386,
+            0.47248441639705024
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "displayCamera": [
+            1.3660254037844386,
+            -1.064880681849098,
+            0.0019312276307507648
+          ],
+          "sourceViewScreen": [
+            1.3660254037844386,
+            1.064880681849098
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            -1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "displayCamera": [
+            0.3660254037844386,
+            1.4069008251747666,
+            -0.9416238484166592
+          ],
+          "sourceViewScreen": [
+            0.3660254037844386,
+            -1.4069008251747666
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "displayCamera": [
+            1.3660254037844386,
+            0.814504559722719,
+            0.6859715142820881
+          ],
+          "sourceViewScreen": [
+            1.3660254037844386,
+            -0.814504559722719
+          ]
+        }
+      ],
+      "trackedPair": [
+        "v110",
+        "v111"
+      ],
+      "trackedPairSourceDistance": 2,
+      "trackedPairShadowDistance": 0,
+      "distinctShadowSiteCount": 4,
+      "shadowSites": [
+        {
+          "xy": [
+            -1,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v001"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            -1
+          ],
+          "sourceIds": [
+            "v100",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            1
+          ],
+          "sourceIds": [
+            "v110",
+            "v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "collapsedSourceEdgeIds": [
+        "v000-v001",
+        "v010-v011",
+        "v100-v101",
+        "v110-v111"
+      ],
+      "collapsedSourceEdgeCount": 4,
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v001-v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "simulationTimeMs": 10000,
+      "sourceAngleDegrees": 45,
+      "sourceAngleRadians": 0.7853981633974483,
+      "cameraYawRadians": 0.5235987755982988,
+      "cameraPitchRadians": 0.3490658503988659,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            0.0,
+            -1,
+            -1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            -1
+          ],
+          "displayCamera": [
+            -0.7071067811865476,
+            -0.5208052043351794,
+            -1.4929038613177315
+          ],
+          "sourceViewScreen": [
+            -0.7071067811865476,
+            0.5208052043351794
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1.4142135623730951,
+            -1,
+            0.0
+          ],
+          "shadow": [
+            -1.4142135623730951,
+            -1
+          ],
+          "displayCamera": [
+            -1.2247448713915892,
+            -1.1815373834338838,
+            0.32244288106300606
+          ],
+          "sourceViewScreen": [
+            -1.2247448713915892,
+            1.1815373834338838
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            0.0,
+            1,
+            -1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            1
+          ],
+          "displayCamera": [
+            -0.7071067811865476,
+            1.3585800372366374,
+            -0.8088635746663941
+          ],
+          "sourceViewScreen": [
+            -0.7071067811865476,
+            -1.3585800372366374
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1.4142135623730951,
+            1,
+            0.0
+          ],
+          "shadow": [
+            -1.4142135623730951,
+            1
+          ],
+          "displayCamera": [
+            -1.2247448713915892,
+            0.6978478581379332,
+            1.0064831677143435
+          ],
+          "sourceViewScreen": [
+            -1.2247448713915892,
+            -0.6978478581379332
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1.4142135623730951,
+            -1,
+            0.0
+          ],
+          "shadow": [
+            1.4142135623730951,
+            -1
+          ],
+          "displayCamera": [
+            1.2247448713915892,
+            -0.6978478581379332,
+            -1.0064831677143435
+          ],
+          "sourceViewScreen": [
+            1.2247448713915892,
+            0.6978478581379332
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            0.0,
+            -1,
+            1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            -1
+          ],
+          "displayCamera": [
+            0.7071067811865476,
+            -1.3585800372366374,
+            0.8088635746663941
+          ],
+          "sourceViewScreen": [
+            0.7071067811865476,
+            1.3585800372366374
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1.4142135623730951,
+            1,
+            0.0
+          ],
+          "shadow": [
+            1.4142135623730951,
+            1
+          ],
+          "displayCamera": [
+            1.2247448713915892,
+            1.1815373834338838,
+            -0.32244288106300606
+          ],
+          "sourceViewScreen": [
+            1.2247448713915892,
+            -1.1815373834338838
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            0.0,
+            1,
+            1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            1
+          ],
+          "displayCamera": [
+            0.7071067811865476,
+            0.5208052043351794,
+            1.4929038613177315
+          ],
+          "sourceViewScreen": [
+            0.7071067811865476,
+            -0.5208052043351794
+          ]
+        }
+      ],
+      "trackedPair": [
+        "v110",
+        "v111"
+      ],
+      "trackedPairSourceDistance": 2,
+      "trackedPairShadowDistance": 1.4142135623730951,
+      "distinctShadowSiteCount": 6,
+      "shadowSites": [
+        {
+          "xy": [
+            -1.4142135623730951,
+            -1
+          ],
+          "sourceIds": [
+            "v001"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            -1.4142135623730951,
+            1
+          ],
+          "sourceIds": [
+            "v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            0.0,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            0.0,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1.4142135623730951,
+            -1
+          ],
+          "sourceIds": [
+            "v100"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            1.4142135623730951,
+            1
+          ],
+          "sourceIds": [
+            "v110"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "collapsedSourceEdgeIds": [],
+      "collapsedSourceEdgeCount": 0,
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1.4142135623730951,
+              -1
+            ],
+            [
+              -1.4142135623730951,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v001-v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "endpoints": [
+            [
+              -1.4142135623730951,
+              -1
+            ],
+            [
+              0.0,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v001",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.4142135623730951,
+              1
+            ],
+            [
+              0.0,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v011",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.0,
+              -1
+            ],
+            [
+              0.0,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.0,
+              -1
+            ],
+            [
+              1.4142135623730951,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v100-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.0,
+              1
+            ],
+            [
+              1.4142135623730951,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v110-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1.4142135623730951,
+              -1
+            ],
+            [
+              1.4142135623730951,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110"
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "simulationTimeMs": 20000,
+      "sourceAngleDegrees": 90,
+      "sourceAngleRadians": 1.5707963267948966,
+      "cameraYawRadians": 0.5235987755982988,
+      "cameraPitchRadians": 0.3490658503988659,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "displayCamera": [
+            0.3660254037844386,
+            -0.47248441639705024,
+            -1.6256641350679966
+          ],
+          "sourceViewScreen": [
+            0.3660254037844386,
+            0.47248441639705024
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "displayCamera": [
+            -1.3660254037844386,
+            -0.814504559722719,
+            -0.6859715142820881
+          ],
+          "sourceViewScreen": [
+            -1.3660254037844386,
+            0.814504559722719
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            -1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "displayCamera": [
+            0.3660254037844386,
+            1.4069008251747666,
+            -0.9416238484166592
+          ],
+          "sourceViewScreen": [
+            0.3660254037844386,
+            -1.4069008251747666
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "displayCamera": [
+            -1.3660254037844386,
+            1.064880681849098,
+            -0.0019312276307507648
+          ],
+          "sourceViewScreen": [
+            -1.3660254037844386,
+            -1.064880681849098
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "displayCamera": [
+            1.3660254037844386,
+            -1.064880681849098,
+            0.0019312276307507648
+          ],
+          "sourceViewScreen": [
+            1.3660254037844386,
+            1.064880681849098
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "displayCamera": [
+            -0.3660254037844386,
+            -1.4069008251747666,
+            0.9416238484166592
+          ],
+          "sourceViewScreen": [
+            -0.3660254037844386,
+            1.4069008251747666
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "displayCamera": [
+            1.3660254037844386,
+            0.814504559722719,
+            0.6859715142820881
+          ],
+          "sourceViewScreen": [
+            1.3660254037844386,
+            -0.814504559722719
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "displayCamera": [
+            -0.3660254037844386,
+            0.47248441639705024,
+            1.6256641350679966
+          ],
+          "sourceViewScreen": [
+            -0.3660254037844386,
+            -0.47248441639705024
+          ]
+        }
+      ],
+      "trackedPair": [
+        "v110",
+        "v111"
+      ],
+      "trackedPairSourceDistance": 2,
+      "trackedPairShadowDistance": 2,
+      "distinctShadowSiteCount": 4,
+      "shadowSites": [
+        {
+          "xy": [
+            -1,
+            -1
+          ],
+          "sourceIds": [
+            "v001",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            1
+          ],
+          "sourceIds": [
+            "v011",
+            "v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v100"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v110"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "collapsedSourceEdgeIds": [
+        "v000-v100",
+        "v001-v101",
+        "v010-v110",
+        "v011-v111"
+      ],
+      "collapsedSourceEdgeCount": 4,
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v001-v011",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v001",
+            "v100-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v011",
+            "v110-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v100-v110"
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "simulationTimeMs": 30000,
+      "sourceAngleDegrees": 45,
+      "sourceAngleRadians": 0.7853981633974483,
+      "cameraYawRadians": 0.5235987755982988,
+      "cameraPitchRadians": 0.3490658503988659,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            0.0,
+            -1,
+            -1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            -1
+          ],
+          "displayCamera": [
+            -0.7071067811865476,
+            -0.5208052043351794,
+            -1.4929038613177315
+          ],
+          "sourceViewScreen": [
+            -0.7071067811865476,
+            0.5208052043351794
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1.4142135623730951,
+            -1,
+            0.0
+          ],
+          "shadow": [
+            -1.4142135623730951,
+            -1
+          ],
+          "displayCamera": [
+            -1.2247448713915892,
+            -1.1815373834338838,
+            0.32244288106300606
+          ],
+          "sourceViewScreen": [
+            -1.2247448713915892,
+            1.1815373834338838
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            0.0,
+            1,
+            -1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            1
+          ],
+          "displayCamera": [
+            -0.7071067811865476,
+            1.3585800372366374,
+            -0.8088635746663941
+          ],
+          "sourceViewScreen": [
+            -0.7071067811865476,
+            -1.3585800372366374
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1.4142135623730951,
+            1,
+            0.0
+          ],
+          "shadow": [
+            -1.4142135623730951,
+            1
+          ],
+          "displayCamera": [
+            -1.2247448713915892,
+            0.6978478581379332,
+            1.0064831677143435
+          ],
+          "sourceViewScreen": [
+            -1.2247448713915892,
+            -0.6978478581379332
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1.4142135623730951,
+            -1,
+            0.0
+          ],
+          "shadow": [
+            1.4142135623730951,
+            -1
+          ],
+          "displayCamera": [
+            1.2247448713915892,
+            -0.6978478581379332,
+            -1.0064831677143435
+          ],
+          "sourceViewScreen": [
+            1.2247448713915892,
+            0.6978478581379332
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            0.0,
+            -1,
+            1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            -1
+          ],
+          "displayCamera": [
+            0.7071067811865476,
+            -1.3585800372366374,
+            0.8088635746663941
+          ],
+          "sourceViewScreen": [
+            0.7071067811865476,
+            1.3585800372366374
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1.4142135623730951,
+            1,
+            0.0
+          ],
+          "shadow": [
+            1.4142135623730951,
+            1
+          ],
+          "displayCamera": [
+            1.2247448713915892,
+            1.1815373834338838,
+            -0.32244288106300606
+          ],
+          "sourceViewScreen": [
+            1.2247448713915892,
+            -1.1815373834338838
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            0.0,
+            1,
+            1.4142135623730951
+          ],
+          "shadow": [
+            0.0,
+            1
+          ],
+          "displayCamera": [
+            0.7071067811865476,
+            0.5208052043351794,
+            1.4929038613177315
+          ],
+          "sourceViewScreen": [
+            0.7071067811865476,
+            -0.5208052043351794
+          ]
+        }
+      ],
+      "trackedPair": [
+        "v110",
+        "v111"
+      ],
+      "trackedPairSourceDistance": 2,
+      "trackedPairShadowDistance": 1.4142135623730951,
+      "distinctShadowSiteCount": 6,
+      "shadowSites": [
+        {
+          "xy": [
+            -1.4142135623730951,
+            -1
+          ],
+          "sourceIds": [
+            "v001"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            -1.4142135623730951,
+            1
+          ],
+          "sourceIds": [
+            "v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            0.0,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            0.0,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1.4142135623730951,
+            -1
+          ],
+          "sourceIds": [
+            "v100"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            1.4142135623730951,
+            1
+          ],
+          "sourceIds": [
+            "v110"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "collapsedSourceEdgeIds": [],
+      "collapsedSourceEdgeCount": 0,
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1.4142135623730951,
+              -1
+            ],
+            [
+              -1.4142135623730951,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v001-v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "endpoints": [
+            [
+              -1.4142135623730951,
+              -1
+            ],
+            [
+              0.0,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v001",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.4142135623730951,
+              1
+            ],
+            [
+              0.0,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v011",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.0,
+              -1
+            ],
+            [
+              0.0,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.0,
+              -1
+            ],
+            [
+              1.4142135623730951,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v100-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.0,
+              1
+            ],
+            [
+              1.4142135623730951,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v110-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1.4142135623730951,
+              -1
+            ],
+            [
+              1.4142135623730951,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110"
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "simulationTimeMs": 40000,
+      "sourceAngleDegrees": 0,
+      "sourceAngleRadians": 0.0,
+      "cameraYawRadians": 0.5235987755982988,
+      "cameraPitchRadians": 0.3490658503988659,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "displayCamera": [
+            -1.3660254037844386,
+            -0.814504559722719,
+            -0.6859715142820881
+          ],
+          "sourceViewScreen": [
+            -1.3660254037844386,
+            0.814504559722719
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "displayCamera": [
+            -0.3660254037844386,
+            -1.4069008251747666,
+            0.9416238484166592
+          ],
+          "sourceViewScreen": [
+            -0.3660254037844386,
+            1.4069008251747666
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "displayCamera": [
+            -1.3660254037844386,
+            1.064880681849098,
+            -0.0019312276307507648
+          ],
+          "sourceViewScreen": [
+            -1.3660254037844386,
+            -1.064880681849098
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "displayCamera": [
+            -0.3660254037844386,
+            0.47248441639705024,
+            1.6256641350679966
+          ],
+          "sourceViewScreen": [
+            -0.3660254037844386,
+            -0.47248441639705024
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "displayCamera": [
+            0.3660254037844386,
+            -0.47248441639705024,
+            -1.6256641350679966
+          ],
+          "sourceViewScreen": [
+            0.3660254037844386,
+            0.47248441639705024
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "displayCamera": [
+            1.3660254037844386,
+            -1.064880681849098,
+            0.0019312276307507648
+          ],
+          "sourceViewScreen": [
+            1.3660254037844386,
+            1.064880681849098
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            -1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "displayCamera": [
+            0.3660254037844386,
+            1.4069008251747666,
+            -0.9416238484166592
+          ],
+          "sourceViewScreen": [
+            0.3660254037844386,
+            -1.4069008251747666
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "displayCamera": [
+            1.3660254037844386,
+            0.814504559722719,
+            0.6859715142820881
+          ],
+          "sourceViewScreen": [
+            1.3660254037844386,
+            -0.814504559722719
+          ]
+        }
+      ],
+      "trackedPair": [
+        "v110",
+        "v111"
+      ],
+      "trackedPairSourceDistance": 2,
+      "trackedPairShadowDistance": 0,
+      "distinctShadowSiteCount": 4,
+      "shadowSites": [
+        {
+          "xy": [
+            -1,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v001"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            -1
+          ],
+          "sourceIds": [
+            "v100",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            1
+          ],
+          "sourceIds": [
+            "v110",
+            "v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "collapsedSourceEdgeIds": [
+        "v000-v001",
+        "v010-v011",
+        "v100-v101",
+        "v110-v111"
+      ],
+      "collapsedSourceEdgeCount": 4,
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v001-v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        }
+      ]
+    }
+  ],
+  "counterfactuals": {
+    "cameraOnlyAt10000": {
+      "requestedYawDegrees": 120,
+      "pitchDegrees": 20,
+      "sourceAngleDegrees": 45,
+      "expected": "All original/rotated/shadow coordinates and geometry fingerprint unchanged; ordinary source-view camera/screen changes."
+    },
+    "sourceOnlyAt10000": {
+      "requestedSourceAngleDegrees": 30,
+      "cameraYawDegrees": 30,
+      "cameraPitchDegrees": 20,
+      "pairShadowDistance": 1,
+      "v110Rotated": [
+        1.3660254037844386,
+        1,
+        -0.3660254037844386
+      ],
+      "v111Rotated": [
+        0.3660254037844386,
+        1,
+        1.3660254037844386
+      ]
+    },
+    "fixedInitialView": {
+      "sourcePairIds": [
+        "v110",
+        "v111"
+      ],
+      "sourcePairDistance": 2,
+      "identicalShadow": [
+        1,
+        1
+      ],
+      "notRecoverableFromThisShadowAlone": "The two omitted z values; rotation of the display camera does not add them to the 2D shadow."
+    }
+  },
+  "interpretationLimit": "Known source, known projection and stable correspondences only. No arbitrary screenshot reconstruction, unfamiliar human comprehension, or higher-dimensional physical claim."
+}

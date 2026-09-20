@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "materials-recovery-disposition/1",
+  "candidate": "package-candidate-004",
+  "status": "BOUNDED_PASS_PACKAGING_RECOVERY_CORRECTION",
+  "independentAudit": "audit/INDEPENDENT_AUDIT.md",
+  "manifestSha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823",
+  "files": 72,
+  "manifestEntries": 71,
+  "testedEnvironment": {
+    "platform": "macOS",
+    "node": "v24.17.0",
+    "directPaths": [
+      "canonical",
+      "directory symlink",
+      "file symlink"
+    ],
+    "importPaths": [
+      "real",
+      "directory symlink"
+    ]
+  },
+  "checks": {
+    "freshOutputsByteIdentical": 3,
+    "baselinePinsIdentical": 58,
+    "historicalPinsUnchanged": 1947,
+    "materialsV1PinsUnchanged": 352,
+    "changedPaths": 7,
+    "addedPaths": 2,
+    "removedPaths": 0,
+    "packagedRegressionTests": 5,
+    "authoredFreezeDesignCheck": true,
+    "overwriteInventoryUnchanged": true,
+    "noOpAndForgedSuccessRejected": true,
+    "httpChecks": 10,
+    "browserObservations": 4,
+    "intendedActions": 3,
+    "domSerializedSourceInstances": 72,
+    "visuallyOpenedCards": [
+      "C04"
+    ],
+    "originalImagesDirectlyInspected": 2,
+    "viewport": [
+      1280,
+      720
+    ],
+    "devicePixelRatio": 2,
+    "consoleEntries": 0,
+    "negativeProbeExpectedExitCode": 1
+  },
+  "qualifications": [
+    "Tested runtime and path forms only; no unrestricted cross-platform claim",
+    "Raw Node ENOENT and JSON parse diagnostics remain",
+    "Builder and independent auditor diagnostic-expectation failures retained separately; corrected assertions did not require auditor product changes",
+    "Historical absolute symlink fixtures may be stale after relocation; recovery uses packaged tooling/design in new stage",
+    "Browser DOM comparison is not visual inspection of every source card"
+  ],
+  "humanMaterialsApproval": "PENDING",
+  "dependentPreparationStarted": false,
+  "overallPreparationGoalComplete": false,
+  "researchOutputs": 0,
+  "humanParticipants": 0,
+  "gate14": "UNAPPROVED_UNRUN",
+  "remainingPreparation": [
+    "materials review boundary",
+    "transfer schema/validator and synthetic runner",
+    "comparator/scorer/cost integration and substantive provenance review",
+    "equivalent plain/visual instrument and acceptance corpus",
+    "human protocol/readiness and comparison/mechanism/cross-scale plans",
+    "independent dispositions and verified preparation ZIP"
+  ],
+  "futureLaunchOnly": [
+    "actual model/version/settings/context and isolation recheck",
+    "separate collection authorization and applicable real approvals"
+  ],
+  "pins": [
+    {
+      "path": "authority.json",
+      "sha256": "a79f11edabfa3345d5bd45b5cb55d174cdeb7d404d25203ca39efe0b1339a37f",
+      "bytes": 1446
+    },
+    {
+      "path": "scope-and-acceptance.md",
+      "sha256": "cbcf9c73ba35c5b64874b1ab4fb7f0a8e113f98aab37e1aa29fec68daa182065",
+      "bytes": 6226
+    },
+    {
+      "path": "baseline-contract.json",
+      "sha256": "d0d32879f68fa53165919caf5afa55fb8645d307df0a8c8cdd597721056bdc3f",
+      "bytes": 18017
+    },
+    {
+      "path": "package-candidate-004/MANIFEST.json",
+      "sha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823",
+      "bytes": 14515
+    },
+    {
+      "path": "audit/INDEPENDENT_AUDIT.md",
+      "sha256": "c1200c5940bb33e3691c993cb4568bd4b011c33018302e754ac51b4d38afe0e4",
+      "bytes": 5713
+    },
+    {
+      "path": "audit/INDEPENDENT_AUDIT.json",
+      "sha256": "757b762f609b3ea658e7db1d881d79d531a859403ce329c9425c2d24ddd12298",
+      "bytes": 1728
+    },
+    {
+      "path": "evidence/audit/independent-cli-1789942481320.json",
+      "sha256": "b245e0bbf3e8f9f33061b6b5dcc0ca24f41e04346384ac654471d7a060614fee",
+      "bytes": 35253
+    },
+    {
+      "path": "evidence/audit/independent-cli-1789942461819.json",
+      "sha256": "bb046729f06a1b093bff9faf594fc545a5641f56a8a0b5750acd96dba9c20935",
+      "bytes": 28088
+    },
+    {
+      "path": "evidence/audit/browser-independent.json",
+      "sha256": "dc941df63bae5b6383cbc38b984d2100e3c55e02b7cfb162763ac87499274658",
+      "bytes": 3329
+    },
+    {
+      "path": "evidence/builder/candidate-build-004.json",
+      "sha256": "ec5c200807dcfb51f92c0becff358a0beb2c090beb1179358b742e0cb9892aea",
+      "bytes": 1476
+    },
+    {
+      "path": "evidence/builder/semantic-integrity-004.json",
+      "sha256": "bed64457b7f1299bf1ece4eeabbad101b7b05174a5172be0803f1c4113a796fc",
+      "bytes": 777
+    },
+    {
+      "path": "evidence/builder/cli-regression-summary-004.json",
+      "sha256": "d8891f1490e09d5936c644b5c9ad4e608c9092b1fbf59cb556ee2f5931a067cd",
+      "bytes": 3458
+    },
+    {
+      "path": "evidence/browser-candidate-004/ACQUISITION.md",
+      "sha256": "ba1f1902b161022abe2daa02a69850aa6c4749cf7556768ac68fb4186b305859",
+      "bytes": 1616
+    },
+    {
+      "path": "evidence/browser-candidate-004/comparison.json",
+      "sha256": "91b179d589e914083a5fa2fb4ebc34dd1973bc51edc11322c386a8d3f3b95ab3",
+      "bytes": 1266
+    },
+    {
+      "path": "evidence/browser-candidate-004/observations.json",
+      "sha256": "e2909babe6f91035505657293db9b4d8c06c898e596026653d655480c272885a",
+      "bytes": 162096
+    },
+    {
+      "path": "evidence/browser-candidate-004/actions.json",
+      "sha256": "b2aab4a40f2158839dacfff8938957e3f653edf124ba5580fe5f5f28b0376e93",
+      "bytes": 302
+    },
+    {
+      "path": "evidence/browser-candidate-004/screenshots.json",
+      "sha256": "46d6993dbd0f7089f7b05ff4553d64524b48051639d04f2be817344bc6f5db6e",
+      "bytes": 333
+    },
+    {
+      "path": "evidence/browser-candidate-004/screenshots/candidate-004-overview.jpg",
+      "sha256": "7a9cff78258d73b4af5670f4eff691d7518229fb2235957250dcb090218ee7b2",
+      "bytes": 79831
+    },
+    {
+      "path": "evidence/browser-candidate-004/screenshots/candidate-004-C04-source.jpg",
+      "sha256": "e77b989326404ecd64a5937cbe799cf133c164b6ed1783ae575d7a122d4b72a1",
+      "bytes": 80705
+    },
+    {
+      "path": "RECOVERY.md",
+      "sha256": "3a688132ae52104e96049ae08ff763df63ae4b0b62583404f1fa7e4d0fcbf912",
+      "bytes": 5515
+    },
+    {
+      "path": "review/RECOVERY_CORRECTION_PACKET.md",
+      "sha256": "34dc04b5fc259cd222aaa9c5a02d190dc86e88018ae388fddb3232bd6c5d02ab",
+      "bytes": 7299
+    }
+  ],
+  "pinScope": "Selected stable components; not final preservation or publication record"
+}

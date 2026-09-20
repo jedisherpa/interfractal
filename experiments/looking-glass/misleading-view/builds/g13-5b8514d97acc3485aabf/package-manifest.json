@@ -1,0 +1,109 @@
+{
+  "schema": "gate13-package-manifest-v1",
+  "runId": "G13-MISLEAD-002",
+  "buildId": "g13-5b8514d97acc3485aabf",
+  "sourceHash": "5b8514d97acc3485aabfebf21e0ff84f7b38384d6ce8fa43b06a58ff1aafcfda",
+  "baseCommit": "29cd75bc83006b6dee4a8437224bb5f14b3871e4",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "content": [
+    {
+      "path": "misleading-view/revision-002/README.md",
+      "sha256": "1e71eac48f57e8847c59b64245efc644b32a82426349c60fcf2aab72ebb7c74b"
+    },
+    {
+      "path": "misleading-view/revision-002/app.mjs",
+      "sha256": "bb268d6f6cd168c49aa8b528c98c0896fe8f938568e472a9b5bd18f2dde3e526"
+    },
+    {
+      "path": "misleading-view/revision-002/build.mjs",
+      "sha256": "55dd8f4aeb12eeb62aee2064fca1dc65dc97e797bcabd5ad8faa2f1663a4c331"
+    },
+    {
+      "path": "misleading-view/revision-002/index.html",
+      "sha256": "f5d703e033d8cd216e5ba57d1325d2f8d1bb00ac95e545f88b0b02fb1ab2a508"
+    },
+    {
+      "path": "misleading-view/revision-002/model.mjs",
+      "sha256": "9391acb67128bc13cb5bb84f3e292dcbe01b51f29078d9635fde355c0868aef5"
+    },
+    {
+      "path": "misleading-view/revision-002/server.mjs",
+      "sha256": "bc7d753e8ed89ab7fbd09e297697123f9d3ca3b0297da7b66fcf3b49096bc0b5"
+    },
+    {
+      "path": "misleading-view/revision-002/style.css",
+      "sha256": "85dc0236baa5d68d910fc5883c5eaf84237ec8a58a2eb98e082937093c65bb9d"
+    },
+    {
+      "path": "misleading-view/revision-002/test.mjs",
+      "sha256": "adf1f3d86e5a8be1070781e98ffc029fba74483fcad7825a5ad0e39ba316f265"
+    },
+    {
+      "path": "docs/gate-13/PRESPEC_FREEZE.json",
+      "sha256": "5e05e46a031ce84786d1f67c1b194fb457c7817d6300b40d3c35ceed20371269"
+    },
+    {
+      "path": "docs/gate-13/experiment-charter.md",
+      "sha256": "7079f80e70535ff37c5165fb05ef86777f85798bc67cb1a7beeda9e46bbfc8a1"
+    },
+    {
+      "path": "docs/gate-13/model-contract.md",
+      "sha256": "fad7787c343934e2c6316ee6563e0f8b0ffecce9366b36242ffbce8cf5779a16"
+    },
+    {
+      "path": "docs/gate-13/record-contract.md",
+      "sha256": "fd3dcc862e726e556b9f75b4617d3dc0233ea19122a71b383597a01b6e81fdc7"
+    },
+    {
+      "path": "docs/gate-13/fixture.json",
+      "sha256": "95238cd28d4c7af803733585940f60c56733d04dfdc00a216aef1385483247d8"
+    },
+    {
+      "path": "docs/gate-13/independent-predictions.json",
+      "sha256": "fb085a57ac9c65b0b70011e80150a377ab0fa7e77ed6c125eb8bb76db239eaa4"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1e71eac48f57e8847c59b64245efc644b32a82426349c60fcf2aab72ebb7c74b"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "bb268d6f6cd168c49aa8b528c98c0896fe8f938568e472a9b5bd18f2dde3e526"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "55dd8f4aeb12eeb62aee2064fca1dc65dc97e797bcabd5ad8faa2f1663a4c331"
+    },
+    {
+      "path": "index.html",
+      "sha256": "f5d703e033d8cd216e5ba57d1325d2f8d1bb00ac95e545f88b0b02fb1ab2a508"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "9391acb67128bc13cb5bb84f3e292dcbe01b51f29078d9635fde355c0868aef5"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "bc7d753e8ed89ab7fbd09e297697123f9d3ca3b0297da7b66fcf3b49096bc0b5"
+    },
+    {
+      "path": "style.css",
+      "sha256": "85dc0236baa5d68d910fc5883c5eaf84237ec8a58a2eb98e082937093c65bb9d"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "adf1f3d86e5a8be1070781e98ffc029fba74483fcad7825a5ad0e39ba316f265"
+    },
+    {
+      "path": "fixture.json",
+      "sha256": "95238cd28d4c7af803733585940f60c56733d04dfdc00a216aef1385483247d8"
+    },
+    {
+      "path": "build.json",
+      "sha256": "73c0396298b308ee255ecd9b116940eb9d085a0ad1df0a94e0b1bdec601643af"
+    }
+  ]
+}

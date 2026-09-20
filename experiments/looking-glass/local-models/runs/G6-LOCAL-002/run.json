@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "gate-6-run-v1",
+  "runId": "G6-LOCAL-002",
+  "gate": "G6",
+  "status": "planned deterministic fixture; actual browser results and activity stored separately",
+  "experimentVersion": "gate-6-charter-v1",
+  "modelVersion": "gate-6-model-v1",
+  "eventSchemaVersion": "gate-6-record-v1",
+  "generatorVersion": "gate-6-builder-v1",
+  "buildId": "g6-b31ef3d7838d10c8",
+  "sourceSha256": "b31ef3d7838d10c8356ad04ff989277df9a0603861b5f8ddb88902f268fb0cc5",
+  "gitHead": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+  "baseRevision": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+  "uncommittedSourceIdentity": "b31ef3d7838d10c8356ad04ff989277df9a0603861b5f8ddb88902f268fb0cc5",
+  "dependencyIdentity": "Node.js built-ins and browser SVG/HTML only; no package, lockfile, external asset or source seed",
+  "nodeVersion": "v24.17.0",
+  "builtAtUtc": "2026-09-20T05:49:17.796Z",
+  "prespecFreezeSha256": "2241afcb9c3bcdffacfbc277d92c918d4c3678baa41e0f906467cfa81b020570",
+  "prespecFrozenAtUtc": "2026-09-20T05:40:15.602977+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-6/experiment-charter.md",
+      "sha256": "a307da2de1411cd45ce592279ff4176b80017fcfd67d07c6083e40858276cd9d",
+      "bytes": 10059
+    },
+    {
+      "path": "docs/gate-6/model-contract.md",
+      "sha256": "cc2ef35f0303eec54337714444dd32dd55073e9014330878ea8a567a8c3dab49",
+      "bytes": 10566
+    },
+    {
+      "path": "docs/gate-6/record-contract.md",
+      "sha256": "23120b6e1f9cbe3fe52cabbe995e60f95148a7fe6ad8455c4ae75cc1a8ad98ca",
+      "bytes": 8455
+    },
+    {
+      "path": "docs/gate-6/fixture.json",
+      "sha256": "3b80d971b31b6a5c9f6b06c6e13167715b934a948d81daf6aa126e56f1eb4020",
+      "bytes": 26870
+    },
+    {
+      "path": "docs/gate-6/independent-predictions.json",
+      "sha256": "91d9d43ef59efda7164de8decb715bad32189a0a104cb06737101f5c9cac7b04",
+      "bytes": 14991
+    }
+  ],
+  "sourcePins": [
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    }
+  ],
+  "fixtureSha256": "3b80d971b31b6a5c9f6b06c6e13167715b934a948d81daf6aa126e56f1eb4020",
+  "renderer": "Browser HTML/SVG local-context diagram and equivalent plain table; arbitrary layout without geometric inference",
+  "sourceSeed": null,
+  "durationMs": 30000,
+  "sampleMs": 100,
+  "stepMs": 1000,
+  "checkpointTimesMs": [
+    0,
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000
+  ],
+  "localContextCount": 2,
+  "sourceRecordCount": 4,
+  "supportedRelationCount": 4,
+  "unsupportedClaimCount": 1,
+  "initialStateFile": "initial-state.json",
+  "checkpointsFile": "checkpoints.json",
+  "eventsFile": "events.jsonl",
+  "activityFile": "activity.jsonl",
+  "eventsKind": "planned deterministic fixture; not observed browser controls",
+  "initialSourceSha256": "1c848c8b835b305837636f290514f2cfe7aa7afeee951bebd742f2b93b6ea54f",
+  "initialLocalSha256": "391e9e886fc6881fef3694f3290801befe4bc3cb7c4ed2e167deca64200796ab",
+  "initialRelationsSha256": "0d4973d6a1f48fda95d947c9640f2927389bc12a3c98fd3ca7fc67fce2747a04",
+  "initialMappingSha256": "bfe800bb20b3633d335f3b3d40775d7a97866aafe7f961d269e236b88687870e",
+  "initialSummarySha256": "5191f9d1f8057cb362de2082f25c2bda6ab38427eb760c2614465031f01410ff",
+  "initialSummaryHistorySha256": "b0ec57e231abe6b97a63ad4028b7df79820706b3f929d2790c64ba486a8e770f",
+  "initialReceiverSha256": "98ff7bd4eebb23dfa3491290f151a8d8591b0272233d05f49641ba31724a909a",
+  "initialCheckpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930",
+  "fingerprintAlgorithm": "SHA-256 of UTF-8 JSON.stringify of declared state boundary, in fixed property order"
+}

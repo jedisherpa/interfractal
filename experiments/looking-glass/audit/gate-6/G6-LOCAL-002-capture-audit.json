@@ -1,0 +1,154 @@
+{
+  "kind": "gate-6-independent-original-capture-audit",
+  "runId": "G6-LOCAL-002",
+  "buildId": "g6-b31ef3d7838d10c8",
+  "originalCount": 9,
+  "captures": [
+    {
+      "label": "compressed-insufficient",
+      "path": "evidence/gate-6/screenshots/002-compressed-insufficient.jpg",
+      "sha256": "575bf3fb194369ff15b6af2f0c434b6c58a04bea606cc1c4abc2e09abbef1108",
+      "bytes": 102788,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 1,
+      "afterObservation": 2,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "reference-access",
+      "path": "evidence/gate-6/screenshots/002-reference-access.jpg",
+      "sha256": "b632dbdf5679af94a4e0ff3d97bd60b38acd1409f00fb13d2234406e09e072c7",
+      "bytes": 104929,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 13,
+      "afterObservation": 14,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "graph-dependency-repair",
+      "path": "evidence/gate-6/screenshots/002-graph-dependency-repair.jpg",
+      "sha256": "6b48577b3d3d9d7189f2773948b8578f43fe3b8b4bd9141efdb5b7aae720bb50",
+      "bytes": 114124,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 26,
+      "afterObservation": 27,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "plain-dependency-repair",
+      "path": "evidence/gate-6/screenshots/002-plain-dependency-repair.jpg",
+      "sha256": "5e3fdfabd22967297ec45e3b751650eedc2b7f57d85ab0eb7fda73fa493d56b1",
+      "bytes": 100885,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 35,
+      "afterObservation": 36,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "unsupported-link-close-placement",
+      "path": "evidence/gate-6/screenshots/002-unsupported-link-close-placement.jpg",
+      "sha256": "f8cdd1f7fdfbd08ae70ac087c4629500589417225629f5dcd5aa520f609680e2",
+      "bytes": 100652,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 43,
+      "afterObservation": 44,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "requirement-revision-and-alternatives",
+      "path": "evidence/gate-6/screenshots/002-requirement-revision-and-alternatives.jpg",
+      "sha256": "b939f64ca175c280e74506adc7ecb7171d78b9bff71ee52c07330d13f2a1d1c5",
+      "bytes": 123076,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 53,
+      "afterObservation": 54,
+      "simulationTimeBracketMs": [
+        15000,
+        15000
+      ]
+    },
+    {
+      "label": "supported-and-unsupported-links",
+      "path": "evidence/gate-6/screenshots/002-supported-and-unsupported-links.jpg",
+      "sha256": "b3158c797f35148fde02c4bf82a10b20a8458331507f289b8984587282cc72c6",
+      "bytes": 113658,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 58,
+      "afterObservation": 59,
+      "simulationTimeBracketMs": [
+        25000,
+        25000
+      ]
+    },
+    {
+      "label": "active-replay",
+      "path": "evidence/gate-6/screenshots/002-active-replay.jpg",
+      "sha256": "f80dd93f4d03dd1125272360da34556e954c7a007c3bf995923f7ad020915585",
+      "bytes": 116185,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 63,
+      "afterObservation": 64,
+      "simulationTimeBracketMs": [
+        23000,
+        23300
+      ]
+    },
+    {
+      "label": "narrow-960x720",
+      "path": "evidence/gate-6/screenshots/002-narrow-960x720.jpg",
+      "sha256": "96b3dae0d35e8f7646d7755cc78038e7b8ca1eca92c835549ba19e98b27f1534",
+      "bytes": 93575,
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "beforeObservation": 83,
+      "afterObservation": 84,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    }
+  ],
+  "limits": "A playback capture is bracketed by actual observations; its exact atomic frame time is not asserted.",
+  "checksPassed": true
+}

@@ -1,0 +1,91 @@
+{
+  "gate": 9,
+  "scope": "Bounded primary-source review for active observation, yoked passive replay, learning/memory measurement, and static-versus-temporal display controls",
+  "accessed_at_utc": "2026-09-20T08:48:27Z",
+  "accessed_at_local": "2026-09-20T02:48:27-06:00",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only inspection of original papers and publisher/archival records; no implementation, browser run, deployment, external communication, participant recruitment, human study, or causal Gate 9 result.",
+  "primary_sources": [
+    {
+      "title": "Active manual control of object views facilitates visual recognition",
+      "authors": ["Karin L. Harman", "G. Keith Humphrey", "Melvyn A. Goodale"],
+      "publisher": "Current Biology",
+      "published": "1999-11-18",
+      "volume": "9(22)",
+      "pages": "1315-1318",
+      "source_type": "Primary experimental paper; active exploration with yoked passive replay",
+      "url": "https://doi.org/10.1016/S0960-9822(00)80053-6",
+      "full_text_or_record_url": "https://pubmed.ncbi.nlm.nih.gov/10574764/",
+      "open_copy_url": "https://can.lab.indiana.edu/publications/pub-files/1999-harman-et-al.pdf",
+      "claims_used": [
+        "Active viewers rotated novel 3-D objects; passive viewers saw the exact same image sequence replayed from an active exploration.",
+        "The active condition showed more efficient later visual recognition in that object task.",
+        "A yoked exact-sequence replay is a relevant way to hold visual content constant while changing control over its presentation."
+      ],
+      "gate9_use": "The watch condition must receive the chooser's realized baseline and exactly two query occurrences in the same order, with source-card IDs, occurrence indices, duplicates, and terminal hash preserved.",
+      "limits": "The task used manually rotated virtual objects and an object-recognition outcome. Motor/efference cues, action timing, selected views, and object-specific strategies remain possible contributors; the result does not establish an agency mechanism or a Gate 9 performance effect."
+    },
+    {
+      "title": "Deconstructing the effect of self-directed study on episodic memory",
+      "authors": ["Douglas Markant", "Sarah DuBrow", "Lila Davachi", "Todd M. Gureckis"],
+      "publisher": "Memory & Cognition",
+      "published": "2014-06-19",
+      "volume": "42",
+      "pages": "1211-1224",
+      "source_type": "Primary experimental paper; four self-directed versus passive/yoked memory experiments",
+      "url": "https://doi.org/10.3758/s13421-014-0435-9",
+      "full_text_or_record_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4281964/",
+      "claims_used": [
+        "Across four experiments, self-directed study improved recognition relative to passive observation.",
+        "The advantage persisted when control was reduced to pressing a button when ready to advance, implicating timing/attentional coordination rather than only content selection.",
+        "Yoked designs can match study content while leaving episode timing, attention, revisitation, and other exposure details different."
+      ],
+      "gate9_use": "Freeze practice, item/order/duplicate rules, exposure duration, stopping, submission, and terminal conditions before any human use; treat the chooser's realized sequence as the watch route and retain the static route's reinspection affordance as an explicit condition difference.",
+      "limits": "The experiments used spatial object arrays and recognition/spatial memory outcomes. They do not validate the finite 5-D world model, establish a benefit of agency in this task, or supply a participant-free causal result."
+    },
+    {
+      "title": "Learning the Concept of Function With Dynamic Visualizations",
+      "authors": ["Tobias Rolfes", "Jürgen Roth", "Wolfgang Schnotz"],
+      "publisher": "Frontiers in Psychology",
+      "published": "2020-04-30",
+      "volume": "11",
+      "article": "693",
+      "source_type": "Primary experimental paper; static, linear dynamic, and interactive dynamic presentations",
+      "url": "https://doi.org/10.3389/fpsyg.2020.00693",
+      "full_text_or_record_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7212367/",
+      "claims_used": [
+        "157 students learned with static, linear dynamic, or interactive dynamic representations while core task content was held constant.",
+        "Dynamic groups outperformed the static group in the reported immediate posttest; linear and interactive dynamic groups did not differ significantly.",
+        "Static representations permit repeated inspection, while linear dynamic presentation exposes temporal change transiently and imposes different integration demands."
+      ],
+      "gate9_use": "Treat terminal information matching as separate from temporal access, memory load, reinspection, agency, and pixel parity; use the paper as a control warning rather than as a prediction for the finite point-world benchmark.",
+      "limits": "This was a 25-minute mathematics lesson with 14-year-old students and an immediate posttest, with no actor-to-observer yoked replay. Static/dynamic conditions may differ in temporal information and instructional scaffolding, so the result cannot be transferred to Gate 9 or interpreted as a general static-versus-watch effect."
+    }
+  ],
+  "derived_gate9_requirements": [
+    {
+      "requirement": "Exact yoked replay",
+      "design": "Let the chooser's two finite query occurrences define the watched stream. Preserve the same baseline, query labels, order, occurrence count, duplicates, source-card IDs, and terminal information hash; reject any substituted or independently selected watch sequence.",
+      "basis": ["Harman, Humphrey & Goodale 1999"],
+      "status": "Application instrument rule; not a human outcome."
+    },
+    {
+      "requirement": "Exposure and timing contract",
+      "design": "Freeze practice, per-card exposure/viewing windows, stopping, submission, and terminal display rules. Record timing and attention as condition variables because content matching alone does not match study experience.",
+      "basis": ["Markant et al. 2014"],
+      "status": "Application control rule; no causal claim without approved participants and observed data."
+    },
+    {
+      "requirement": "Static condition parity boundary",
+      "design": "Use identical cards and preserve duplicate/order records in the static sheet. Report all-card simultaneous access and reinspection as intended affordances; compare only terminal raw-record equality as information parity.",
+      "basis": ["Rolfes, Roth & Schnotz 2020"],
+      "status": "Application reporting rule; the paper does not validate this instrument."
+    }
+  ],
+  "limits": [
+    "No source establishes that the Looking Glass Gate 9 instrument is correct, understandable, useful, or causally effective.",
+    "No participants or human outcomes are present in this source pass; software route checks cannot stand in for learning or memory observations.",
+    "Terminal exact information matching does not imply matched temporal exposure, attention, agency, motor experience, memory trace, or pixels.",
+    "The cited studies are heterogeneous primary experiments and should not be pooled into an effect estimate for the finite 5-D point-world task."
+  ]
+}

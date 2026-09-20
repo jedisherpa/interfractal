@@ -1,0 +1,643 @@
+{
+  "schema": "gate9-run-evidence-v1",
+  "status": "PASS_WITH_QUALIFICATION",
+  "scope": "Completed software information parity over one public four-world family; zero human participants.",
+  "runId": "G9-MATCHED-003",
+  "buildId": "g9-15c3bf973fe0c6cd",
+  "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+  "baseRevision": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "prespecFreezeSha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "prespecFrozenAtUtc": "2026-09-20T08:54:03.252772+00:00",
+  "closedCoreManifestSha256": "2bc665deb66351e70ccd13fc57056365cecb75a2f2e892205fc56f79544dd6d0",
+  "coreClosedAtUtc": "2026-09-20T09:40:49.923137+00:00",
+  "independentAuditSha256": "82565720bb781064989f641344d3b6fe1f2e2d2ce71d8c9d8c116c970dbe592a",
+  "independentFinalChecksSha256": "1e6958b7aef6371728957bffd068679fc4bac00e65fc283af3d952052aedc7b1",
+  "runtime": {
+    "nodeVersion": "v24.17.0",
+    "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "renderer": "HTML/SVG; fixed yaw0, pitch20 degrees, 80 CSS px/unit; 280x200 CSS px observation drawing"
+  },
+  "urls": {
+    "instrument": "http://127.0.0.1:44002/",
+    "results": "http://127.0.0.1:44002/review/results.html",
+    "packet": "http://127.0.0.1:44002/review/packet.md",
+    "audit": "http://127.0.0.1:44002/review/audit.md"
+  },
+  "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/matched-observation/builds/g9-15c3bf973fe0c6cd/server.mjs",
+  "counts": {
+    "closedFiles": 32,
+    "browserObservations": 307,
+    "actualRecordedMainActionCalls": 135,
+    "successfulMainActionCalls": 134,
+    "disabledMainActionCalls": 1,
+    "originalJpegs": 13,
+    "primaryMatchedEndpoints": 12,
+    "additionalRegressionExports": 4,
+    "designatedCheckpointComparisons": 24,
+    "exactCapturedSemanticFingerprints": 304,
+    "liveClockFingerprintMismatches": 3,
+    "actualBrowserSemanticEvents": 151,
+    "actualBrowserSessions": 3,
+    "historicalFrozenEntries": 1081
+  },
+  "componentStatuses": {
+    "prespec": "PASS",
+    "prepackageFinal": "PASS",
+    "immutableBuild": "PASS",
+    "readOnlyRoutes": "PASS",
+    "historicalFreeze": "PASS",
+    "closedCore": "PASS",
+    "browserEvidence": "PASS_WITH_QUALIFICATION",
+    "semanticEvents": "PASS"
+  },
+  "qualification": {
+    "description": "Three active-clock inspector snapshots (observations 219, 236 and 283) contain a state that does not hash to the fingerprint displayed beside it. The other 304 of 307 snapshots match exactly, including every completed export observation and all 24 designated paused checkpoints. A non-atomic snapshot during clock progression is a plausible explanation, but the exact mechanism is not proven.",
+    "observationIndices": [
+      219,
+      236,
+      283
+    ],
+    "affectedScope": "Active-clock inspector state/fingerprint pairing only; completed endpoints and designated paused checkpoints independently match.",
+    "mechanismProven": false
+  },
+  "matchedRoutes": [
+    {
+      "recipeId": "G9-T01",
+      "choiceQueryIds": [
+        "xw90",
+        "yv90"
+      ],
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "completedConditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "endpointParity": "PASS",
+      "evidence": "12 primary actual route exports, four triads; corroborated by independent browser audit"
+    },
+    {
+      "recipeId": "G9-T02",
+      "choiceQueryIds": [
+        "yv90",
+        "xw90"
+      ],
+      "traceHash": "fb4be0e14f1a7b5306e4a251732b2e46fb687fd092f5c459a80a7b86a4021178",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "completedConditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "endpointParity": "PASS",
+      "evidence": "12 primary actual route exports, four triads; corroborated by independent browser audit"
+    },
+    {
+      "recipeId": "G9-T03",
+      "choiceQueryIds": [
+        "xw90",
+        "xw90"
+      ],
+      "traceHash": "89c35ef9c0f3742d6bec647f117ed368b16ae647cac3188bc3521c125760f61f",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "completedConditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "endpointParity": "PASS",
+      "evidence": "12 primary actual route exports, four triads; corroborated by independent browser audit"
+    },
+    {
+      "recipeId": "G9-T04",
+      "choiceQueryIds": [
+        "project",
+        "project"
+      ],
+      "traceHash": "7bb222e35edf588a50aad165fdad1f792345101823d45e0ae854cbe614470c38",
+      "informationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "completedConditions": [
+        "choose",
+        "watch",
+        "static"
+      ],
+      "endpointParity": "PASS",
+      "evidence": "12 primary actual route exports, four triads; corroborated by independent browser audit"
+    }
+  ],
+  "timing": {
+    "choiceBudget": 2,
+    "chooserDuration": "untimed variable decision time",
+    "watchSecondsPerOccurrence": 2,
+    "watchTotalNominalSeconds": 6,
+    "staticNominalSeconds": 6,
+    "savedTourNominalSeconds": 24,
+    "uninterruptedTourWallSeconds": 24.004,
+    "savedTourPresentationStopsAt": [
+      12,
+      20
+    ],
+    "savedTourStopAt": 24,
+    "savedTourScheduledEvents": 12,
+    "timingMatchedAcrossConditions": false,
+    "gazeOrHumanExposureMeasured": false
+  },
+  "checkpointEvidence": {
+    "distinctCheckpoints": 10,
+    "timesSeconds": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      20,
+      24
+    ],
+    "designatedComparisons": 24,
+    "matches": 24,
+    "passes": "10 initial, 10 after exploration, 0/24 after reopening, 0/24 after reload"
+  },
+  "eventEvidence": {
+    "actualBrowserSessionEventCounts": [
+      132,
+      18,
+      1
+    ],
+    "total": 151,
+    "actualMainActionCalls": 135,
+    "successful": 134,
+    "disabledExportAttempt": 1,
+    "historicalOutboundAndReturn": "Separate actual same-tab navigation record; return creates session3.",
+    "controlOriginIsHumanIdentity": false
+  },
+  "layout": {
+    "originalImagesMatchObservedCssViewports": true,
+    "svgDrawingCssSize": [
+      280,
+      200
+    ],
+    "testedViewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        960,
+        720
+      ]
+    ],
+    "defaultWidthObservations": {
+      "count": 7,
+      "width": 1279
+    },
+    "narrowStatic": "Third card wraps and requires vertical scrolling.",
+    "reportedHorizontalOverflow": false,
+    "earlyPartialCapturesPreserved": true,
+    "osReducedMotionEmulated": false,
+    "pixelEquivalenceClaimed": false
+  },
+  "humanParticipants": 0,
+  "humanOutcomes": "untested",
+  "publicReferenceBoundary": "All worlds and fixed reference C02-W02 are public; compatibility evaluates selected evidence, not hidden-answer knowledge.",
+  "candidateHistory": [
+    {
+      "runId": "G9-MATCHED-001",
+      "buildId": "g9-313e2af27d02a5a8",
+      "sourceSha256": "313e2af27d02a5a80a9cdb8d09193a9e71eaf9478487486bdd6ab8798fa131fd",
+      "result": "retained failed candidate",
+      "reason": "Parent trace hash omitted from derivation helpers; one incomplete initial DOM acquisition, no controls/screenshots."
+    },
+    {
+      "runId": "G9-MATCHED-002",
+      "buildId": "g9-bbf83c60c0a79027",
+      "sourceSha256": "bbf83c60c0a79027327d397222c921907bdf31f4d9c13f5aa61521bcb76eef28",
+      "result": "retained failed candidate",
+      "reason": "Checkpoint-resume provenance and direct watch-completion-jump defects."
+    },
+    {
+      "runId": "G9-MATCHED-003",
+      "buildId": "g9-15c3bf973fe0c6cd",
+      "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+      "result": "PASS_WITH_QUALIFICATION",
+      "reason": "Packaged from independently passing review-3 bytes. Three active-clock inspector mismatches retained."
+    }
+  ],
+  "prepackageReviews": [
+    "BLOCKED: five state/provenance/clock/export issue groups",
+    "BLOCKED: three remaining lifecycle/export issue groups; review-2 snapshot retained",
+    "PASS: review-3 exact bytes packaged as003"
+  ],
+  "collectionQualifications": [
+    "One premature disabled export retained; the query after checkpoint2 started a fresh local draft, which needed a second actual choice.",
+    "Canonical checkpoint2 resume was separately paused and manually finished; it is not the uninterrupted tour.",
+    "Partial early viewport images retained alongside later full-card images.",
+    "Historical Gate8 same-tab return created third session."
+  ],
+  "pins": [
+    {
+      "path": "docs/gate-9/PRESPEC_FREEZE.json",
+      "sha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+      "bytes": 1677
+    },
+    {
+      "path": "evidence/gate-9/CORE_TRIAL_CLOSED.json",
+      "sha256": "2bc665deb66351e70ccd13fc57056365cecb75a2f2e892205fc56f79544dd6d0",
+      "bytes": 6310
+    },
+    {
+      "path": "audit/gate-9/AUDIT.md",
+      "sha256": "82565720bb781064989f641344d3b6fe1f2e2d2ce71d8c9d8c116c970dbe592a",
+      "bytes": 9053
+    },
+    {
+      "path": "audit/gate-9/final-checks.json",
+      "sha256": "1e6958b7aef6371728957bffd068679fc4bac00e65fc283af3d952052aedc7b1",
+      "bytes": 1709
+    },
+    {
+      "path": "audit/gate-9/build-audit.json",
+      "sha256": "b5288fa28ccc2ba9743fc90deefc52b5b989a28177381f82cbe4e734b1d4f164",
+      "bytes": 476
+    },
+    {
+      "path": "audit/gate-9/route-audit.json",
+      "sha256": "9197cd9a55797ff5f08eb36afb1302db7601b852500ebfb1d6883573a2ea7721",
+      "bytes": 11088
+    },
+    {
+      "path": "audit/gate-9/browser-audit.json",
+      "sha256": "953bb277fbce38eb1be3910bec404f845ee3e3f88e3769e4c08b10f076be2e39",
+      "bytes": 490
+    },
+    {
+      "path": "audit/gate-9/event-audit.json",
+      "sha256": "6df721bb8eb4e8e624b9a4e139c3b21c12a77c3651499e1df7055373afdb7f73",
+      "bytes": 367
+    },
+    {
+      "path": "audit/gate-9/core-audit.json",
+      "sha256": "d120b49d8e0c238f77dc2ddda43423e16d9cfd4616e3ec32f70abf69b2d8c9a8",
+      "bytes": 424
+    },
+    {
+      "path": "audit/gate-9/live-fingerprint-review.json",
+      "sha256": "9860cc38312422c1f2099c710595e0ca2f1029522ea9e3e9b0821cae8971c5f3",
+      "bytes": 1497
+    },
+    {
+      "path": "audit/gate-9/history-integrity.json",
+      "sha256": "bea4c99661861ffa465040ae1f3ca099fb257ff6e6528360863989d37e803de0",
+      "bytes": 2593
+    },
+    {
+      "path": "evidence/gate-9/replay-collection.json",
+      "sha256": "b347217a1d0ed66879642898056b07f5f4c994427afae4aef053b32e57ac4f3d",
+      "bytes": 7031
+    },
+    {
+      "path": "research/gate-9/source-review.md",
+      "sha256": "13ed696ab2a7b05298167f7de8183b47334b250e81ffc9cffa797e91b03621bc",
+      "bytes": 6667
+    },
+    {
+      "path": "evidence/gate-9/COLLECTION_NOTES.json",
+      "sha256": "9c81093a98566c870d13f5dd060d44e19fe26bff3eb907b44bf4e85d70427834",
+      "bytes": 1520
+    }
+  ],
+  "originalCaptures": [
+    {
+      "index": 0,
+      "label": "common-practice-1280",
+      "path": "evidence/gate-9/screenshots/001-common-practice-1280.jpg",
+      "sha256": "6e18a5ff15043f0ff10545d7beeb0012fbe110ae8d7a0bfdb8d668f1d4d5a655",
+      "bytes": 94417,
+      "beforeObservation": 5,
+      "afterObservation": 6,
+      "capturedAtUtc": "2026-09-20T09:30:54.327Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/001-common-practice-1280.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 1,
+      "label": "t01-completed-choice",
+      "path": "evidence/gate-9/screenshots/002-t01-completed-choice.jpg",
+      "sha256": "390f18997538da37b202163153b404adbb4c8b5bbf869b1dfcd90b943fa48002",
+      "bytes": 74121,
+      "beforeObservation": 41,
+      "afterObservation": 42,
+      "capturedAtUtc": "2026-09-20T09:31:22.734Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/002-t01-completed-choice.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 2,
+      "label": "t01-watch-active",
+      "path": "evidence/gate-9/screenshots/003-t01-watch-active.jpg",
+      "sha256": "f8bc27932b9c9fcee4c6a03e395a707ff8b43bbfafa850f3b1792c88170b30de",
+      "bytes": 91630,
+      "beforeObservation": 47,
+      "afterObservation": 48,
+      "capturedAtUtc": "2026-09-20T09:31:23.536Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/003-t01-watch-active.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 3,
+      "label": "t01-watch-complete",
+      "path": "evidence/gate-9/screenshots/004-t01-watch-complete.jpg",
+      "sha256": "c66c9e90df067539012862a55b923c419416a6f9c773d8b1801a6fcc98866b18",
+      "bytes": 59191,
+      "beforeObservation": 54,
+      "afterObservation": 55,
+      "capturedAtUtc": "2026-09-20T09:31:43.836Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/004-t01-watch-complete.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 4,
+      "label": "t01-static-sheet",
+      "path": "evidence/gate-9/screenshots/005-t01-static-sheet.jpg",
+      "sha256": "7a1a4bc8db00bf6eeec976c33686e4797ef8a837b876d3d67c120c1a481dd83e",
+      "bytes": 92796,
+      "beforeObservation": 65,
+      "afterObservation": 66,
+      "capturedAtUtc": "2026-09-20T09:32:23.375Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/005-t01-static-sheet.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": true
+    },
+    {
+      "index": 5,
+      "label": "t01-completed-choice-full",
+      "path": "evidence/gate-9/screenshots/006-t01-completed-choice-full.jpg",
+      "sha256": "b3de4874c0ce155e100848fec70473fc937e087eb8f40d3177c042e329764846",
+      "bytes": 74352,
+      "beforeObservation": 71,
+      "afterObservation": 72,
+      "capturedAtUtc": "2026-09-20T09:32:49.144Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/006-t01-completed-choice-full.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": true
+    },
+    {
+      "index": 6,
+      "label": "t04-nonseparating-static",
+      "path": "evidence/gate-9/screenshots/007-t04-nonseparating-static.jpg",
+      "sha256": "643cb903edc51c10863aec63d373d3a35c2e0c324379d6f77fa0262e5fc042b4",
+      "bytes": 95649,
+      "beforeObservation": 152,
+      "afterObservation": 153,
+      "capturedAtUtc": "2026-09-20T09:33:32.216Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/007-t04-nonseparating-static.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": true
+    },
+    {
+      "index": 7,
+      "label": "static-960-upper",
+      "path": "evidence/gate-9/screenshots/008-static-960-upper.jpg",
+      "sha256": "c71d7433c6f48f88ff7e5ea1bba1d4836d60869d64e41c33d9c54b38b2ffd6db",
+      "bytes": 49969,
+      "beforeObservation": 158,
+      "afterObservation": 159,
+      "capturedAtUtc": "2026-09-20T09:34:06.614Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/008-static-960-upper.jpg",
+      "width": 960,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 8,
+      "label": "static-960-lower",
+      "path": "evidence/gate-9/screenshots/009-static-960-lower.jpg",
+      "sha256": "18aeca26266f8e4f9d55aa42665db50ddeb7d2f23078fc6bc9db6010dfe0f9ba",
+      "bytes": 68046,
+      "beforeObservation": 162,
+      "afterObservation": 163,
+      "capturedAtUtc": "2026-09-20T09:34:07.234Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/009-static-960-lower.jpg",
+      "width": 960,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 9,
+      "label": "t01-watch-full-manual-review",
+      "path": "evidence/gate-9/screenshots/010-t01-watch-full-manual-review.jpg",
+      "sha256": "eff84de0575869d858487f94289db18b761e2874d60e8258a20d2f09642dc47e",
+      "bytes": 73262,
+      "beforeObservation": 185,
+      "afterObservation": 186,
+      "capturedAtUtc": "2026-09-20T09:34:58.545Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/010-t01-watch-full-manual-review.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": true
+    },
+    {
+      "index": 10,
+      "label": "continuous-tour-active",
+      "path": "evidence/gate-9/screenshots/011-continuous-tour-active.jpg",
+      "sha256": "26ab81aeac6a529126e1d140759c3c0c03b63d4fdeb62967fc9288da4a56ee01",
+      "bytes": 61876,
+      "beforeObservation": 286,
+      "afterObservation": 287,
+      "capturedAtUtc": "2026-09-20T09:37:25.395Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/011-continuous-tour-active.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 11,
+      "label": "continuous-tour-natural-end",
+      "path": "evidence/gate-9/screenshots/012-continuous-tour-natural-end.jpg",
+      "sha256": "af34935ee37ee9e8019aa740a15ba2e594bbba7f5b38da8f943866bd4671dd9a",
+      "bytes": 90199,
+      "beforeObservation": 291,
+      "afterObservation": 292,
+      "capturedAtUtc": "2026-09-20T09:38:07.252Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/012-continuous-tour-natural-end.jpg",
+      "width": 1280,
+      "height": 720,
+      "selectedInPacket": false
+    },
+    {
+      "index": 12,
+      "label": "final-paused-start",
+      "path": "evidence/gate-9/screenshots/013-final-paused-start.jpg",
+      "sha256": "99dd14b99af1172fba78a1b40e44f58ca5fe0760ce67b534be2b5e4cf329b056",
+      "bytes": 85015,
+      "beforeObservation": 305,
+      "afterObservation": 306,
+      "capturedAtUtc": "2026-09-20T09:39:36.064Z",
+      "url": "http://127.0.0.1:44002/review/screenshots/013-final-paused-start.jpg",
+      "width": 1279,
+      "height": 904,
+      "selectedInPacket": false
+    }
+  ],
+  "replayCollection": {
+    "recordedAtUtc": "2026-09-20T09:42:30.672793+00:00",
+    "status": "Ten local replay entries. Gate9 review outcome is stated in its packet and independent audit; no human performance result.",
+    "hosting": "Loopback-only on this Mac; restart exact snapshot if a server expires.",
+    "entries": [
+      {
+        "gate": 0,
+        "title": "Viewing and replay",
+        "runId": "G0-CUBE-005",
+        "buildId": "g0-d85237ad31362768",
+        "url": "http://127.0.0.1:43991/",
+        "resultsUrl": "http://127.0.0.1:43991/evidence/gate-0/results.html",
+        "packetPath": "evidence/gate-0/GATE_0_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/probe/builds/g0-d85237ad31362768/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 1,
+        "title": "3D-to-2D calibration",
+        "runId": "G1-CUBE-003",
+        "buildId": "g1-9dce1c2b9c2b3be4",
+        "url": "http://127.0.0.1:43994/",
+        "resultsUrl": "http://127.0.0.1:43994/evidence/gate-1/results.html",
+        "packetPath": "evidence/gate-1/GATE_1_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/calibration/builds/g1-9dce1c2b9c2b3be4/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 2,
+        "title": "Hopf and shared reference",
+        "runId": "G2-HOPF-003",
+        "buildId": "g2-ccabad12693f86a8",
+        "url": "http://127.0.0.1:43995/",
+        "resultsUrl": "http://127.0.0.1:43995/evidence/gate-2/results.html",
+        "packetPath": "evidence/gate-2/GATE_2_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/correspondence/builds/g2-ccabad12693f86a8/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 3,
+        "title": "4D projection",
+        "runId": "G3-TESSERACT-003",
+        "buildId": "g3-6c31bc16aeca4460",
+        "url": "http://127.0.0.1:43996/",
+        "resultsUrl": "http://127.0.0.1:43996/evidence/gate-3/results.html",
+        "packetPath": "evidence/gate-3/GATE_3_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/hypercube/builds/g3-6c31bc16aeca4460/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 4,
+        "title": "Slices and ambiguity",
+        "runId": "G4-SLICES-002",
+        "buildId": "g4-38777d5882ef08a6",
+        "url": "http://127.0.0.1:43997/",
+        "resultsUrl": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+        "packetPath": "evidence/gate-4/GATE_4_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/slices/builds/g4-38777d5882ef08a6/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 5,
+        "title": "Two additional coordinates in 5D",
+        "runId": "G5-PENTERACT-001",
+        "buildId": "g5-0bdee39bcd7dd541",
+        "url": "http://127.0.0.1:43998/",
+        "resultsUrl": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+        "packetPath": "evidence/gate-5/GATE_5_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/five-dimensional/builds/g5-0bdee39bcd7dd541/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 6,
+        "title": "Connected local models",
+        "runId": "G6-LOCAL-003",
+        "buildId": "g6-0279cdcdc0adc9b0",
+        "url": "http://127.0.0.1:43999/",
+        "resultsUrl": "http://127.0.0.1:43999/evidence/gate-6/results.html",
+        "packetPath": "evidence/gate-6/GATE_6_PACKET.md",
+        "restartCommand": "node /Users/paul/BTC-Learning/experiments/looking-glass/local-models/builds/g6-0279cdcdc0adc9b0/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 7,
+        "title": "Unfamiliar-case interpretation and the bounded conclusion",
+        "runId": "G7-INTERPRET-002",
+        "buildId": "g7-90e64952eb028069",
+        "url": "http://127.0.0.1:44000/",
+        "resultsUrl": "http://127.0.0.1:44000/review/results.html",
+        "packetPath": "evidence/gate-7/GATE_7_PACKET.md",
+        "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/interpretation/builds/g7-90e64952eb028069/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 8,
+        "title": "Indistinguishable worlds and revealing observations",
+        "runId": "G8-AMBIGUITY-001",
+        "buildId": "g8-f5c5ee62889da529",
+        "url": "http://127.0.0.1:44001/",
+        "resultsUrl": "http://127.0.0.1:44001/review/results.html",
+        "packetPath": "evidence/gate-8/GATE_8_PACKET.md",
+        "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/ambiguity/builds/g8-f5c5ee62889da529/server.mjs",
+        "scope": "Preserved historical gate result; consult its own packet for qualifications. Gate9 independently verifies all1081 frozen Gate0–8 entries and performs a fresh visible-link review of Gate8."
+      },
+      {
+        "gate": 9,
+        "title": "Choose, watch, or inspect a static sheet",
+        "runId": "G9-MATCHED-003",
+        "buildId": "g9-15c3bf973fe0c6cd",
+        "url": "http://127.0.0.1:44002/",
+        "resultsUrl": "http://127.0.0.1:44002/review/results.html",
+        "packetPath": "evidence/gate-9/GATE_9_PACKET.md",
+        "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/matched-observation/builds/g9-15c3bf973fe0c6cd/server.mjs",
+        "scope": "Choice-derived watch and static records over one public four-world family; completed software endpoints only. Timing, memory, agency and human advantage are untested."
+      }
+    ]
+  },
+  "modelRoles": {
+    "specification_and_synthesis": "GPT-6 Astra xhigh",
+    "primary_source_gathering": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independent_audit": "separate GPT-5.6 Sol high"
+  },
+  "closureScope": "This synthesis pins the already closed browser core and completed independent audit. Presentation/handoff review and final gate freeze are separate; their future hashes are not claimed here.",
+  "nextGate": {
+    "number": 10,
+    "title": "Predict an unseen view and transfer",
+    "approved": false,
+    "executed": false,
+    "boundary": "A separately approved prespecified instrument scope; human learning or transfer claims require actual authorized human observations."
+  }
+}

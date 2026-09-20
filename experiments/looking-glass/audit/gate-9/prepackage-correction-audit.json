@@ -1,0 +1,39 @@
+{
+  "schema": "gate9-prepackage-correction-audit-v1",
+  "status": "BLOCKED",
+  "candidate": "mutable source before G9-MATCHED-003 packaging",
+  "sourceSnapshot": "evidence/gate-9/prepackage-drafts/review-2/SNAPSHOT.json",
+  "prespecFreezeSha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "originalReproduction": {
+    "path": "audit/gate-9/prepackage-correction-original-repro.json",
+    "status": "PASS"
+  },
+  "builderTest": "PASS",
+  "edgeCheck": "audit/gate-9/prepackage-correction-edge.json",
+  "lifecycleMatrix": "audit/gate-9/prepackage-correction-matrix.json",
+  "blockingFindings": [
+    {
+      "id": "rejected-condition-stops-clock",
+      "path": "matched-observation/engine.mjs",
+      "behavior": "Rejected selectCondition invokes stopClock while a watch or static presentation remains running and unpaused."
+    },
+    {
+      "id": "local-practice-unmarked",
+      "path": "matched-observation/engine.mjs",
+      "behavior": "Opening practice during a local running watch/static presentation leaves the timer active and reviewStatus standard-playback."
+    },
+    {
+      "id": "same-hash-stale-export",
+      "path": "matched-observation/app.mjs",
+      "behavior": "A completed local T01 choose export remains visible after restoring canonical T01 choose checkpoint 4 because condition, phase, and traceHash are unchanged although provenance changes."
+    }
+  ],
+  "frozenPrespecVerified": true,
+  "review2SnapshotVerified": true,
+  "oldBuildManifestsVerified": [
+    "G9-MATCHED-001",
+    "G9-MATCHED-002"
+  ],
+  "candidate003ExistedAtReview": false,
+  "browserClaims": false
+}

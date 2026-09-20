@@ -1,0 +1,53 @@
+{
+  "recordedAtUtc": "2026-09-20T21:49:49.950342+00:00",
+  "candidate": "003",
+  "status": "PASS_BOUNDED_REVIEW_INDEX",
+  "checks": [
+    {
+      "check": "All observed source records equal frozen world",
+      "pass": true,
+      "detail": {
+        "observations": 8,
+        "sourceRecordInstances": 144
+      }
+    },
+    {
+      "check": "Three intended actions completed and observed",
+      "pass": true,
+      "detail": [
+        "keyboard open",
+        "mouse close",
+        "reload"
+      ]
+    },
+    {
+      "check": "Original screenshot bytes preserved",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "No horizontal overflow in observed viewport",
+      "pass": true,
+      "detail": [
+        [
+          1280,
+          720
+        ]
+      ]
+    },
+    {
+      "check": "No captured error or warning",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "check": "Review HTML changes only displayed candidate number",
+      "pass": true,
+      "detail": "Prior UI evidence remains identified by candidate"
+    }
+  ],
+  "pass": true,
+  "servedHtmlSha256": "24e7cfbcadea10f87e758e4bb98429a4d892917cca331aa80507033d78bcc8d2",
+  "researchOutputs": 0,
+  "humanParticipants": 0
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Looking Glass · Gate 10 results</title>
+<style>
+:root{color-scheme:light;--ink:#172633;--muted:#51626d;--paper:#f4f6f7;--line:#cbd6dc;--fail:#8b2e39;--link:#145c79}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1120px;margin:auto;padding:44px 28px 72px}a{color:var(--link);text-underline-offset:3px}h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.13;letter-spacing:-.04em;margin:8px 0 22px;max-width:850px}h2{font-size:1.45rem;margin:34px 0 12px}p{max-width:900px;margin:14px 0}.eyebrow{font-size:.85rem;text-transform:uppercase;letter-spacing:.13em;font-weight:700;color:var(--muted)}.verdict{border-left:5px solid var(--fail);padding:20px 24px;background:#fff;margin:22px 0}.verdict strong{color:var(--fail);font-size:1.25rem}.verdict p{margin-bottom:0}.identity{font:13px/1.7 ui-monospace,SFMono-Regular,monospace;overflow-wrap:anywhere;color:var(--muted)}nav{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}nav a{display:inline-block;border:1px solid var(--line);border-radius:6px;background:#fff;padding:9px 13px;font-weight:600}.counts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:25px 0}.count{background:#fff;border:1px solid var(--line);border-radius:8px;padding:17px}.count b{display:block;font-size:1.7rem;line-height:1.15}.count span{font-size:.93rem;color:var(--muted)}.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:#fff}table{width:100%;border-collapse:collapse;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:14px;border-bottom:1px solid var(--line)}th{background:#e9eff2}tr:last-child td{border-bottom:0}ol{padding-left:25px;max-width:900px}li{margin:9px 0}figure{margin:22px 0 30px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:16px 20px;color:var(--muted);font-size:.96rem}figcaption strong{color:var(--ink)}.small{font-size:.9rem;color:var(--muted)}.replays{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 22px;padding:0;list-style:none}.replays li{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}footer{margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}code{font-size:.92em;overflow-wrap:anywhere}@media(max-width:650px){main{padding:28px 18px 50px}.counts{grid-template-columns:1fr}.replays{grid-template-columns:1fr}th,td{padding:11px}.identity{font-size:12px}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">Looking Glass · Gate 10 · Closed browser result</div>
+<h1>Predict an unseen view and transfer</h1>
+<div class="verdict"><strong>Bounded negative · Prediction instrument not ready</strong><p>The server accepted the first software attempt, but the page discarded its acknowledgement. Answer choices, Commit, Skip and Reveal stayed disabled. The preserved tour works; the prediction workflow does not.</p></div>
+<p class="identity">Preserved run G10-PREDICT-003 · build g10-9e34f791d83c1cd7a495<br>Source 9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4</p>
+<nav aria-label="Review links"><a href="/">Open paused instrument</a><a href="/review/replay-collection.json">Replay identities and restart commands</a><a href="/review/source-review.md">Primary-source review</a></nav>
+<p>This page preserves the result without disclosing task answers. The five assessment cases distinguish an intermediate view, a new setting in the same family, and a changed mathematical task family. One fixed worked practice uses a separate source. All work was source-informed software validation.</p>
+<div class="counts"><div class="count"><b>0</b><span>Committed answers, skips or reveals</span></div><div class="count"><b>1</b><span>Unanswered server attempt retained</span></div><div class="count"><b>0</b><span>Human participants or outcomes</span></div></div>
+
+<h2>The first step blocked the intended test</h2>
+<p>After the first Start click, the service created an attempt. The app compared two inconsistent representations of a missing attempt identity and treated the valid response as stale. It returned before enabling answers. The record remains unanswered on the server; it was never a skip, a scored response or a completed case.</p>
+<p>Earlier exact-build, isolated service and controlled app checks passed within their scope. They did not exercise this first-start acknowledgement through the UI. Actual browser operation exposed the gap. Their readiness recommendation is superseded by this failure.</p>
+<figure><img src="/review/screenshots/start-ack-discarded.jpg" alt="Original browser capture showing disabled answer, commit, skip and reveal controls after the accepted start"><figcaption><strong>The decisive failure.</strong> The target remains withheld. The controls stay disabled after the server accepted the start. This is an untouched original capture, not a successful prediction.</figcaption></figure>
+
+<h2>What the evidence supports</h2>
+<div class="tablewrap"><table><thead><tr><th scope="col">Area</th><th scope="col">Observed result</th><th scope="col">Limit</th></tr></thead><tbody>
+<tr><td>Prediction and reveal</td><td>First attempt accepted by the server; acknowledgement discarded by the page.</td><td>No completed case, answer, skip, reveal or repeated review in the browser.</td></tr>
+<tr><td>Model and service</td><td>Independent exact-model checks and 572 isolated HTTP/service checks passed.</td><td>These checks do not establish a functioning UI.</td></tr>
+<tr><td>Published state</td><td>All 65 semantic and 65 ledger payloads match their captured fingerprints.</td><td>Four event-export views publish stale document-height metadata.</td></tr>
+<tr><td>Saved replay</td><td>All 16 paused checkpoint comparisons match. The tour stops naturally after 20.004 seconds.</td><td>Checkpoint recovery followed blocked review, reopening and reload; no after-reveal recovery was possible.</td></tr>
+<tr><td>Human learning and transfer</td><td>Untested; zero participants.</td><td>Source-informed software actions are not human first-exposure predictions.</td></tr>
+</tbody></table></div>
+<p class="small">Closed core: 65 DOM observations, 49 host semantic actions, six original images and six service-log rows. The service rows are two accepted mutations and four ledger reads. Audit API probes are kept separate from these actual-browser counts. All 1,260 frozen Gate 0–9 entries remain unchanged.</p>
+
+<h2>Watch the answer-free tour</h2>
+<ol><li>Open the instrument and select <strong>Reopen saved start</strong>.</li><li>Click <strong>Play</strong>. Five public task sheets appear at four-second boundaries.</li><li>At 20 seconds, the tour returns to its opening case and stops paused. It contains no prediction, commit or target reveal.</li><li>Use the six checkpoints to inspect the supplied observations. Local review and reload do not restore naïve exposure or create a human outcome.</li></ol>
+<figure><img src="/review/screenshots/initial-cards.jpg" alt="Original initial task supports with raw observations and unmarked answer alternatives"><figcaption><strong>Supplied observations, target withheld.</strong> Raw support cards and unmarked alternatives are visible. Their presence does not establish interpretation or a submitted answer.</figcaption></figure>
+<figure><img src="/review/screenshots/natural-tour-end.jpg" alt="Original browser page paused at the natural twenty-second tour end"><figcaption><strong>The actual natural stop.</strong> The page is paused at 20 seconds with its scripted demonstration label. The retained event record establishes the uninterrupted stop.</figcaption></figure>
+
+<h2>Preserved failures and remaining limits</h2>
+<p>Candidate 001 had a clock-capture defect during scroll and resize. Candidate 002 failed independent checks for overlapping requests, stale exports, event provenance and replay event chains. Candidate 003 corrected those scoped findings but failed the actual first-start UI path. All three candidates are retained; the initial candidate plus two permitted revisions are exhausted. No fourth candidate or silent repair is included.</p>
+<p>The browser inspected 1280- and 960-pixel layouts with no reported horizontal overflow. Lower controls and exports require vertical scrolling. Event exports are captured prefixes and omit later export-boundary actions. No rendered target reveal was reached, no operating-system reduced-motion setting was tested, and no human learning, transfer or interface advantage was measured.</p>
+
+<h2>Eleven preserved local replays</h2>
+<p class="small">These previews run on this Mac and may need restarting. Each historical gate keeps its own result and qualifications. Exact run/build identities and commands are in the replay collection linked above.</p>
+<ul class="replays">
+<li><a href="http://127.0.0.1:43991/">Gate 0 · Viewing and replay</a></li>
+<li><a href="http://127.0.0.1:43994/">Gate 1 · 3D-to-2D calibration</a></li>
+<li><a href="http://127.0.0.1:43995/">Gate 2 · Hopf and shared reference</a></li>
+<li><a href="http://127.0.0.1:43996/">Gate 3 · 4D projection</a></li>
+<li><a href="http://127.0.0.1:43997/">Gate 4 · Slices and ambiguity</a></li>
+<li><a href="http://127.0.0.1:43998/">Gate 5 · Two additional coordinates in 5D</a></li>
+<li><a href="http://127.0.0.1:43999/">Gate 6 · Connected local models</a></li>
+<li><a href="http://127.0.0.1:44000/">Gate 7 · Unfamiliar-case interpretation</a></li>
+<li><a href="http://127.0.0.1:44001/">Gate 8 · Indistinguishable worlds</a></li>
+<li><a href="http://127.0.0.1:44002/">Gate 9 · Choose, watch or inspect a sheet</a></li>
+<li><a href="http://127.0.0.1:44003/">Gate 10 · Prediction UI blocked; tour preserved</a></li>
+</ul>
+<footer><h2>Stop at the review boundary</h2><p><strong>Gate 11 — Break a summary by changing its receiver</strong> remains unapproved and unrun. The proposed next case would inspect how a summary can omit a dependency needed by a changed receiver task, with a minimal repair and plain representation. Advancing to that gate or authorizing another Gate 10 repair is a separate decision for Paul.</p><p class="small">Astra specified and synthesized; Luna gathered primary sources; separate Sol workers implemented and audited. The host operated the browser and preserved originals. These were software roles. This page reports the closed browser core; presentation verification and the final gate freeze are separate records.</p></footer>
+</main></body></html>

@@ -1,0 +1,261 @@
+[
+  {
+    "atUtc": "2026-09-20T12:01:38.585Z",
+    "type": "button",
+    "name": "Open worked practice"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:47.902Z",
+    "type": "button",
+    "name": "Close worked practice"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.220Z",
+    "type": "button",
+    "name": "Reopen saved start"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.535Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "0"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.565Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "4"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.598Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "8"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.634Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "12"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.666Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "16"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.699Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "20"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.731Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "0"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:48.732Z",
+    "type": "button",
+    "name": "Inspect this case"
+  },
+  {
+    "atUtc": "2026-09-20T12:01:49.018Z",
+    "type": "button",
+    "name": "Start software prediction"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:26.889Z",
+    "type": "button",
+    "name": "Export redacted ledger"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:47.981Z",
+    "type": "button",
+    "name": "Export redacted ledger"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:48.285Z",
+    "type": "button",
+    "name": "Open worked practice"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:48.589Z",
+    "type": "button",
+    "name": "Close worked practice"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:48.891Z",
+    "type": "button",
+    "name": "Export redacted ledger"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.198Z",
+    "type": "button",
+    "name": "Export local event log"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.498Z",
+    "type": "button",
+    "name": "Reopen saved start"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.773Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "0"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.803Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "4"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.838Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "8"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.873Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "12"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.908Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "16"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.937Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "20"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:49.967Z",
+    "type": "button",
+    "name": "Reopen saved start"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:50.279Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "20"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:50.308Z",
+    "type": "button",
+    "name": "Inspect this case"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:50.568Z",
+    "type": "button",
+    "name": "Export local event log"
+  },
+  {
+    "atUtc": "2026-09-20T12:02:50.848Z",
+    "type": "button",
+    "name": "Export redacted ledger"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:03.802Z",
+    "type": "reload"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:03.832Z",
+    "type": "select",
+    "label": "Checkpoint",
+    "value": "20"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:03.859Z",
+    "type": "button",
+    "name": "Reopen saved start"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:04.117Z",
+    "type": "button",
+    "name": "Play"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:45.485Z",
+    "type": "button",
+    "name": "Inspect this case"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:45.754Z",
+    "type": "button",
+    "name": "Export local event log"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:46.052Z",
+    "type": "button",
+    "name": "Reopen saved start"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:46.318Z",
+    "type": "button",
+    "name": "Inspect this case"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:46.584Z",
+    "type": "button",
+    "name": "Play"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:46.865Z",
+    "type": "button",
+    "name": "Pause"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:47.153Z",
+    "type": "button",
+    "name": "Next checkpoint"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:47.456Z",
+    "type": "button",
+    "name": "Previous checkpoint"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:47.756Z",
+    "type": "button",
+    "name": "Replay from start"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:48.059Z",
+    "type": "button",
+    "name": "Pause"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:48.368Z",
+    "type": "button",
+    "name": "Inspect this case"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:48.633Z",
+    "type": "button",
+    "name": "Export local event log"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:48.912Z",
+    "type": "button",
+    "name": "Export redacted ledger"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:49.209Z",
+    "type": "button",
+    "name": "Reopen saved start"
+  },
+  {
+    "atUtc": "2026-09-20T12:03:49.767Z",
+    "type": "link",
+    "name": "Gate 9 historical run"
+  }
+]

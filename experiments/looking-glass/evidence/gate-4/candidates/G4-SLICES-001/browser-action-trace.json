@@ -1,0 +1,141 @@
+[
+  {
+    "index": 1,
+    "label": "001 baseline checkpoint 8000",
+    "attemptedAtUtc": "2026-09-20T03:30:06.281Z",
+    "observationBefore": 3
+  },
+  {
+    "index": 2,
+    "label": "001 baseline checkpoint 16000",
+    "attemptedAtUtc": "2026-09-20T03:30:07.243Z",
+    "observationBefore": 6
+  },
+  {
+    "index": 3,
+    "label": "001 baseline checkpoint 20000",
+    "attemptedAtUtc": "2026-09-20T03:30:08.125Z",
+    "observationBefore": 9
+  },
+  {
+    "index": 4,
+    "label": "001 checkpoint 24000 point return",
+    "attemptedAtUtc": "2026-09-20T03:30:35.599Z",
+    "observationBefore": 12
+  },
+  {
+    "index": 5,
+    "label": "001 checkpoint 32000 interior return",
+    "attemptedAtUtc": "2026-09-20T03:30:36.007Z",
+    "observationBefore": 13
+  },
+  {
+    "index": 6,
+    "label": "001 checkpoint 40000 center end",
+    "attemptedAtUtc": "2026-09-20T03:30:36.478Z",
+    "observationBefore": 14
+  },
+  {
+    "index": 7,
+    "label": "001 negative interior",
+    "attemptedAtUtc": "2026-09-20T03:30:36.939Z",
+    "observationBefore": 15
+  },
+  {
+    "index": 8,
+    "label": "001 negative boundary point",
+    "attemptedAtUtc": "2026-09-20T03:30:37.272Z",
+    "observationBefore": 16
+  },
+  {
+    "index": 9,
+    "label": "001 negative empty",
+    "attemptedAtUtc": "2026-09-20T03:30:37.610Z",
+    "observationBefore": 17
+  },
+  {
+    "index": 10,
+    "label": "001 restore 8000 after override",
+    "attemptedAtUtc": "2026-09-20T03:30:37.820Z",
+    "observationBefore": 18
+  },
+  {
+    "index": 11,
+    "label": "001 camera-only yaw120",
+    "attemptedAtUtc": "2026-09-20T03:30:38.183Z",
+    "observationBefore": 19
+  },
+  {
+    "index": 12,
+    "label": "001 ambiguity initial camera120",
+    "attemptedAtUtc": "2026-09-20T03:30:38.458Z",
+    "observationBefore": 20
+  },
+  {
+    "index": 13,
+    "label": "001 ambiguity known plane",
+    "attemptedAtUtc": "2026-09-20T03:30:39.006Z",
+    "observationBefore": 21
+  },
+  {
+    "index": 14,
+    "label": "001 restore20 movie",
+    "attemptedAtUtc": "2026-09-20T03:30:39.450Z",
+    "observationBefore": 24
+  },
+  {
+    "index": 15,
+    "label": "001 movie current compare",
+    "attemptedAtUtc": "2026-09-20T03:30:40.043Z",
+    "observationBefore": 25
+  },
+  {
+    "index": 16,
+    "label": "001 heldout movie source",
+    "attemptedAtUtc": "2026-09-20T03:30:40.399Z",
+    "observationBefore": 26
+  },
+  {
+    "index": 17,
+    "label": "001 seek request8050",
+    "attemptedAtUtc": "2026-09-20T03:30:53.829Z",
+    "observationBefore": 29
+  },
+  {
+    "index": 18,
+    "label": "001 seek request-100",
+    "attemptedAtUtc": "2026-09-20T03:30:54.280Z",
+    "observationBefore": 30
+  },
+  {
+    "index": 19,
+    "label": "001 seek request40500",
+    "attemptedAtUtc": "2026-09-20T03:30:54.767Z",
+    "observationBefore": 31
+  },
+  {
+    "index": 20,
+    "label": "001 inspector open",
+    "attemptedAtUtc": "2026-09-20T03:30:55.113Z",
+    "observationBefore": 32,
+    "toolError": "Exact-text locator did not match disclosure summary; no UI action occurred."
+  },
+  {
+    "index": 21,
+    "label": "001 inspector open via summary",
+    "attemptedAtUtc": "2026-09-20T03:31:12.438Z",
+    "observationBefore": 32
+  },
+  {
+    "index": 22,
+    "label": "001 restore20 closes inspector",
+    "attemptedAtUtc": "2026-09-20T03:31:13.337Z",
+    "observationBefore": 35
+  },
+  {
+    "index": 23,
+    "label": "001 bounded candidate stop",
+    "attemptedAtUtc": "2026-09-20T03:31:13.714Z",
+    "observationBefore": 36
+  }
+]

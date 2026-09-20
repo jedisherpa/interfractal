@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "materials-package-manifest-v1",
+  "files": [
+    {
+      "path": "allocation.json",
+      "bytes": 308,
+      "sha256": "7860041931f7e53f505e435dd88d55f8c40a3cd1b6e07d06bfbe18c9c4731a6f"
+    },
+    {
+      "path": "development-tasks.json",
+      "bytes": 4977,
+      "sha256": "0bc296ee07f264b54dcce768257129cd69595095a9f5b416021cef475946f245"
+    },
+    {
+      "path": "INITIAL_PROMPT_TEMPLATE.txt",
+      "bytes": 945,
+      "sha256": "2044be43e7dca73f736416f5c5189b160958c30ec7c3ad53aa8491b2cdbd1e5c"
+    },
+    {
+      "path": "input-manifest.json",
+      "bytes": 1213,
+      "sha256": "cc5603f9c0c385fea40928e80c473dde783ba5a7e7dbe07508396edd4656ecd7"
+    },
+    {
+      "path": "PARTICIPANT_INSTRUCTIONS.md",
+      "bytes": 2649,
+      "sha256": "894410e84ce79794be29fffc14110eee6e5da75b10d61135acb2ab501b5c9052"
+    },
+    {
+      "path": "proposed-run-settings.json",
+      "bytes": 353,
+      "sha256": "e50b791e5e3bbe5401dc203dc46b404cbe9a9d3b6e51c2c3cc3ed74a3628d4b8"
+    },
+    {
+      "path": "snapshot.schema.json",
+      "bytes": 8053,
+      "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a"
+    },
+    {
+      "path": "world.json",
+      "bytes": 16987,
+      "sha256": "6070d22bc4eef75163adb4f8351326ee8c345dadc9e30fbfe4ad110a1453e064"
+    }
+  ]
+}

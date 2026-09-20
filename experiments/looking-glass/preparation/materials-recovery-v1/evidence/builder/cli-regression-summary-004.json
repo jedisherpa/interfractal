@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "materials-cli-attempt-summary/1",
+  "attempts": [
+    {
+      "directory": "cli-regression-J4sU9s",
+      "resultSha256": "8fd2c39f9701cc2cea0303f7405703d03e49b4f07e1f24f9f719e4878aae2fe3",
+      "passed": true,
+      "failure": null,
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/directory-target"
+        },
+        {
+          "path": "import-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/import-only"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/file-target/tooling/build-package.mjs"
+        }
+      ]
+    },
+    {
+      "directory": "cli-regression-QUM4lc",
+      "resultSha256": "39795bef16623494830e84219bf717285598bb2fa00e3dfeedd5574b3d6da77e",
+      "passed": true,
+      "failure": null,
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-QUM4lc/directory-target"
+        },
+        {
+          "path": "import-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-QUM4lc/import-only"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-QUM4lc/file-target/tooling/build-package.mjs"
+        }
+      ]
+    },
+    {
+      "directory": "cli-regression-iMtn26",
+      "resultSha256": "df8ba0a2f75bd679c1c92458a692b65f614484eac035732b42eaf35e5ab3a10f",
+      "passed": true,
+      "failure": null,
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/directory-target"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/file-target/tooling/build-package.mjs"
+        }
+      ]
+    },
+    {
+      "directory": "cli-regression-upYQwy",
+      "resultSha256": "c0f1aa4742ab104f0f4127a622ce7ba85d436f874f432c1bac0952765fde32b6",
+      "passed": false,
+      "failure": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /mismatch|does not match/i. Input:",
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/directory-target"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/file-target/tooling/build-package.mjs"
+        }
+      ]
+    }
+  ],
+  "previewOnlyCandidateIdentity": true,
+  "verboseComparison": "cli-regression-attempts-004.json"
+}

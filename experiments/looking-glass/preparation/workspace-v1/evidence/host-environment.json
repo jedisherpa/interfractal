@@ -1,0 +1,15 @@
+{
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "pythonVersion": "3.9.6",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "gitBase": "2bfe51f84cfbbb0df7c3fa5f81f5e1eb0c293e49",
+  "routingFailuresBeforeBuilderStarted": [
+    "New Sol builder spawn rejected: agent thread limit reached",
+    "First prep_sol_builder followup rejected: agent thread limit reached"
+  ],
+  "routingResolution": "Resumed existing Sol high prep_sol_builder after separate provenance reviewer completed; no duplicated builder ran.",
+  "researchModelCalls": 0,
+  "humanParticipants": 0
+}

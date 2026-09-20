@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "materials-package-independent-audit/2",
+  "status": "PASS",
+  "manifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+  "fileCount": 70,
+  "manifestEntries": 69,
+  "packets": [
+    {
+      "agentId": "A1",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "files": 9,
+      "initialTasks": 8
+    },
+    {
+      "agentId": "A2",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "files": 9,
+      "initialTasks": 8
+    },
+    {
+      "agentId": "A3",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "files": 9,
+      "initialTasks": 8
+    },
+    {
+      "agentId": "A4",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "files": 9,
+      "initialTasks": 8
+    }
+  ],
+  "previewSha256": "24e7cfbcadea10f87e758e4bb98429a4d892917cca331aa80507033d78bcc8d2",
+  "previewIdenticalToCandidate001": false,
+  "errors": []
+}

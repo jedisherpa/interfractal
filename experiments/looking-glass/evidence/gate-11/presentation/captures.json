@@ -1,0 +1,14 @@
+[
+  {
+    "name": "desktop-report",
+    "sha256": "457305a8a04f1b50f9bd51a5b62cfba49eff60b26feef965f6d482116eed363d",
+    "bytes": 98633,
+    "observation": 0
+  },
+  {
+    "name": "narrow-repair-section",
+    "sha256": "de6c8d5297234db63de020c996b41847621162701cfa7be85ccbb58a6742e2d4",
+    "bytes": 105812,
+    "observation": 2
+  }
+]

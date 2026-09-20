@@ -1,0 +1,74 @@
+{
+  "gate": 4,
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "status": "Gate 4 review ready. Final mathematical and browser checks pass; candidate001 startup metadata failure and original evidence remain preserved.",
+  "resultsUrl": "/evidence/gate-4/results.html",
+  "packetUrl": "/evidence/gate-4/GATE_4_PACKET.md",
+  "screenshots": [
+    {
+      "label": "0s \u00b7 full center slice",
+      "url": "/evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+      "simulationTimeMs": 0,
+      "timeIntervalMs": [
+        0,
+        0
+      ],
+      "sha256": "8528984ec781ce5b58786044351193f059fb0e2df138099039e882d5f66434a5",
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6"
+    },
+    {
+      "label": "16s \u00b7 boundary singleton",
+      "url": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+      "simulationTimeMs": 16000,
+      "timeIntervalMs": [
+        16000,
+        16000
+      ],
+      "sha256": "37b06c18f72675a7c50a399d2238a84dafde1655250883081ad0335c46dcc5d2",
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6"
+    },
+    {
+      "label": "20s \u00b7 empty slice and fixed projection",
+      "url": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+      "simulationTimeMs": 20000,
+      "timeIntervalMs": [
+        20000,
+        20000
+      ],
+      "sha256": "b05dea07df6823e00db88767be686f73d758bf9bd938dec67195ea1d499f3b59",
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6"
+    },
+    {
+      "label": "Known slice \u00b7 declared candidates separate",
+      "url": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+      "simulationTimeMs": 8000,
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "sha256": "48226647017828ba6210eb8d253056bd88b5fd0760c159f7bd1e2a62477add69",
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6"
+    }
+  ]
+}

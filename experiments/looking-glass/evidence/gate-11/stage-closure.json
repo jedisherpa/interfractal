@@ -1,0 +1,35 @@
+{
+  "recordedAtUtc": "2026-09-20T18:38:39.534559+00:00",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "result": "PASS_BOUNDED_SOFTWARE_AND_BROWSER_EVIDENCE",
+  "handoff": "PASS_BOUNDED_HANDOFF",
+  "allStageWorkersEnded": true,
+  "nextGate": 12,
+  "nextGateName": "Coordinate without erasing disagreement",
+  "nextGateApproved": false,
+  "publication": {
+    "authorization": "Earlier actual user request to publish everything to GitHub; same private origin branch.",
+    "repository": "jedisherpa/btc-constitutional-learning-collective",
+    "visibilityVerified": "PRIVATE",
+    "branch": "codex/looking-glass",
+    "remote": "origin",
+    "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+    "statusAtFreeze": "Ready for local Git commit and push; resulting commit is recorded by Git and final host response.",
+    "mirrorUntouched": true
+  },
+  "counts": {
+    "coreFiles": 54,
+    "completeObservations": 100,
+    "completeHostActions": 79,
+    "completeOriginals": 6,
+    "allAcquisitionObservations": 276,
+    "allAcquisitionHostActions": 221,
+    "allInstrumentOriginals": 17,
+    "presentationObservations": 5,
+    "presentationOriginals": 2,
+    "totalOriginalImages": 19,
+    "historicalEntriesVerified": 1437
+  },
+  "boundary": "Stage workers stopped. No Gate12 experiment started. Passive exact replay servers remain on loopback."
+}

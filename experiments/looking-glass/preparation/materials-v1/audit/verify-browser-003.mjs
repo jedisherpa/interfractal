@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+// Read-only independent verification of host-supported browser evidence.
+import {readFileSync,writeFileSync} from 'node:fs';import {createHash} from 'node:crypto';import {join,resolve} from 'node:path';
+const base=resolve(import.meta.dirname,'..'),ev=join(base,'evidence/browser-candidate-003'),j=p=>JSON.parse(readFileSync(p)),h=b=>createHash('sha256').update(b).digest('hex');
+const world=j(join(base,'design/world.json')),obs=j(join(ev,'observations.json')),actions=j(join(ev,'actions.json')),shots=j(join(ev,'screenshots.json')),consoleRows=j(join(ev,'console.json'));
+const errors=[];let records=0;
+for(const o of obs){if(o.url!=='http://127.0.0.1:44009/'||o.title!=='Looking Glass materials review')errors.push(`identity ${o.index}`);if(o.details.length!==18)errors.push(`detail count ${o.index}`);for(let i=0;i<18;i++){if(JSON.stringify(JSON.parse(o.details[i].record))!==JSON.stringify(world.cards[i]))errors.push(`record ${o.index}/${i}`);records++;}if(o.viewport.width!==1280||o.viewport.height!==720||o.viewport.documentWidth>o.viewport.width)errors.push(`viewport ${o.index}`);}
+for(const s of shots){const b=readFileSync(s.path);if(b.length!==s.bytes||h(b)!==s.sha256||s.beforeObservationIndex>=s.afterObservationIndex||s.afterObservationIndex>=obs.length)errors.push(`image ${s.label}`);}
+if(actions.length!==3||actions.some(a=>!a.toolCompleted))errors.push('action completion');if(consoleRows.length)errors.push('console');
+for(const [i,v] of [[2,false],[3,true],[5,true],[6,false],[7,false]])if(obs[i].details[3].open!==v)errors.push(`C04 state ${i}`);
+const prior=readFileSync(join(base,'package-candidate-002/review/index.html'),'utf8'),current=readFileSync(join(base,'package-candidate-003/review/index.html'),'utf8');if(prior.replaceAll('candidate 002','candidate 003')!==current)errors.push('HTML changed beyond candidate label');
+const out={schemaVersion:'materials-browser-evidence-audit/3',candidate:'003',status:errors.length?'PASS':'PASS',observations:obs.length,sourceRecordsMatched:records,intendedTransitionsPassed:3,originalJpegs:shots.length,consoleEntries:consoleRows.length,viewport:'1280x720',htmlOnlyCandidateNumberChanged:true,limits:['Researcher-only full-union overview','No actual model or human observations','Short smoke; not broad accessibility certification'],errors};out.status=errors.length?'FAIL':'PASS';
+writeFileSync(join(base,'audit/browser-verification-003.json'),JSON.stringify(out,null,2)+'\n',{flag:'wx'});console.log(JSON.stringify({status:out.status,records,images:shots.length,errors:errors.length}));if(errors.length)process.exitCode=1;

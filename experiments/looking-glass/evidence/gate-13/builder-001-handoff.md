@@ -1,0 +1,9 @@
+# Gate 13 candidate 001 builder handoff
+
+- Run `G13-MISLEAD-001`; build `g13-daa720242d62cd4c184f`; full source SHA-256 `daa720242d62cd4c184f2f3687ddc1e8584f6ce2031f40ba119b87efa225f93d`.
+- Frozen prespec SHA-256 `5e05e46a031ce84786d1f67c1b194fb457c7817d6300b40d3c35ceed20371269`.
+- Exact restart: `/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/misleading-view/builds/g13-daa720242d62cd4c184f/server.mjs --run /Users/paul/BTC-Learning/experiments/looking-glass/misleading-view/runs/G13-MISLEAD-001 --port 44006`.
+- Source and immutable packaged tests each report **213 PASS**: three exact cases, ten case/version/representation states, source/display hashes, corrected widths and provenance links, check/correction reuse and rejection, first-use controlled UI route, seven checkpoint expectations, natural fractional-clock playback and delayed-hash publication. Ephemeral HTTP allowlist probe: **10 PASS**. These are software checks, not actual browser or independent-auditor outcomes.
+- First-use controls: `#start-review` → `#source` (panel `#source-panel`) → `#check` (`#check-result`) → `#correct` (`#correction-panel` / `#debrief`) → `#original` → `#correction` → `#representation` → `#export`. Other controls: `#case`, `#records`, `#records-panel`, replay controls `#play`, `#pause`, `#checkpoint`, `#previous`, `#next`, `#replay`, `#reopen`.
+- Published JSON: `#inspector`; exported actual local records and event prefix: `#export-output`. Visual bars: `#visual svg` with `rect[data-count][data-offset][data-width]`; plain representation: `#plain table`. Both have `#numeric-key` exact encoding table.
+- Review routes return 404 until host installs hash-approved assets. All source and answers are public; no participant, belief or persuasion data are collected. Local history is document memory and clears on reload after export.

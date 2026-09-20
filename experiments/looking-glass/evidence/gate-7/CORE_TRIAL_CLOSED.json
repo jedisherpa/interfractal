@@ -1,0 +1,121 @@
+{
+  "gate": 7,
+  "runId": "G7-INTERPRET-002",
+  "buildId": "g7-90e64952eb028069",
+  "closedAtUtc": "2026-09-20T07:06:23.415895+00:00",
+  "counts": {
+    "actualBrowserObservations": 214,
+    "successfulHostActionCalls": 94,
+    "hostActionCalls": 94,
+    "originalCaptures": 11,
+    "checkpointObservations": 36,
+    "activityRows": 115
+  },
+  "files": [
+    {
+      "path": "evidence/gate-7/browser-observations.json",
+      "sha256": "b91062a57bbb3b63c741a4dff02b70a4378a1914f2007a861642ef2ef2f9c3d8",
+      "bytes": 2162540
+    },
+    {
+      "path": "evidence/gate-7/action-trace.json",
+      "sha256": "bd749f886082a4fa6c301bf9ca67600df0c9a0f5d1e5127acaa43b8186c6b65b",
+      "bytes": 20568
+    },
+    {
+      "path": "evidence/gate-7/capture-index.json",
+      "sha256": "e90ebd2b86dc69ddcb30eff731092d6299de59fb0fea2e814b8dda6d6c9961b0",
+      "bytes": 3644
+    },
+    {
+      "path": "evidence/gate-7/checkpoint-review.json",
+      "sha256": "5b09f78d7586a2514801198fe94b82104c145335b4a7fc2e28101115d1c3e6b7",
+      "bytes": 20278
+    },
+    {
+      "path": "evidence/gate-7/actual-condition-parity.json",
+      "sha256": "9745d8fe6467551510574fe4948f64caec6d3a17e709d3ad4cbb9659106a1d7d",
+      "bytes": 414
+    },
+    {
+      "path": "evidence/gate-7/historical-browser-review.json",
+      "sha256": "e3e952e9adcfb5459c242797831b34ba6f4eb832c881c657ec84d17dc2198997",
+      "bytes": 16260
+    },
+    {
+      "path": "evidence/gate-7/console-review.json",
+      "sha256": "8e449c944da3cde886b935f556dfdfc1999c4db856f9fd1ff0756696a94931e7",
+      "bytes": 95
+    },
+    {
+      "path": "evidence/gate-7/observed-activity.jsonl",
+      "sha256": "07d879b8856562ec44a812ee6b146011d2d6f0301bc38e5db248576cf86ddf98",
+      "bytes": 103121
+    },
+    {
+      "path": "evidence/gate-7/COLLECTION_NOTES.json",
+      "sha256": "9fb07437e62cfdb5ae975283646ed1e04239e15c1ae814e12ce7abe5913b68ed",
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/gate-7/capture-dimensions.json",
+      "sha256": "c3b7d01ed12425e97464b4f2475fa0be2125163c75768364c881f681512bd950",
+      "bytes": 2122
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-initial-paused.jpg",
+      "sha256": "c39cc7bec3cd6abfea4a147b381054338ed4484d7f367ef0b2627e7cf5a1bde4",
+      "bytes": 121182
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-static-sheet.jpg",
+      "sha256": "110f42d80f9b42a6e80ef85772baacd25442c8095be6aa124488ae9ad89ee2ed",
+      "bytes": 113908
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-selected-frame.jpg",
+      "sha256": "00c75951350435ca79d1cca397a12e3388e16abcd9029a022249953da6aad8e5",
+      "bytes": 83217
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-slice-sheet.jpg",
+      "sha256": "b4305f07e1314d2a95bf6d455214f2e2ac8aef732fb1f1500a62150eb6e55af8",
+      "bytes": 118972
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-plain-960.jpg",
+      "sha256": "3678557a0293acb9d185a3b0802968fae71841a83beaa0d031316ddde96447c5",
+      "bytes": 98288
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-contexts-960.jpg",
+      "sha256": "000aa5d7fa5799e23c9f3024bff079b8e92269ff1ebba79dc97d90678af004b4",
+      "bytes": 109386
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-inspector-960.jpg",
+      "sha256": "80cf13f93040c725cd26f118f89d17faaca4908f0ad92b108c1e33da94f3fc9d",
+      "bytes": 94264
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-context-records-960.jpg",
+      "sha256": "3a5112c6ad67bd15cfa5f9fb08a3b8238f7de49dbf08dd92dfa4210e4f74c5f5",
+      "bytes": 101632
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-plain-records-960.jpg",
+      "sha256": "47f71426d15954f43fdeee2b6097e203570cf2af3ddb6fac35f87b5261def73d",
+      "bytes": 91597
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-tour-active.jpg",
+      "sha256": "d92c020bb1cd907af2b6db4bf726044e546d446d27cfb50034cf3d6014181d8d",
+      "bytes": 123482
+    },
+    {
+      "path": "evidence/gate-7/screenshots/002-final-paused.jpg",
+      "sha256": "7e18f8ae332104f3c93599ee0679e8c1ef3c8cd6bebad7d85659b24aa414650b",
+      "bytes": 103320
+    }
+  ]
+}

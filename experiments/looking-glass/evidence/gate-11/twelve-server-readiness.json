@@ -1,0 +1,66 @@
+{
+  "checkedAtUtc": "2026-09-20T18:21:50.212279+00:00",
+  "scope": "RootGET readiness only. Identity/served-byte and route checks separately audited.",
+  "entries": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "status": 200
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "status": 200
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "status": 200
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "status": 200
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "status": 200
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "status": 200
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "status": 200
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "status": 200
+    },
+    {
+      "gate": 8,
+      "url": "http://127.0.0.1:44001/",
+      "status": 200
+    },
+    {
+      "gate": 9,
+      "url": "http://127.0.0.1:44002/",
+      "status": 200
+    },
+    {
+      "gate": 10,
+      "url": "http://127.0.0.1:44003/",
+      "status": 200
+    },
+    {
+      "gate": 11,
+      "url": "http://127.0.0.1:44004/",
+      "status": 200
+    }
+  ]
+}

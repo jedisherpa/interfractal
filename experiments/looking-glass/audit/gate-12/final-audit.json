@@ -1,0 +1,29 @@
+{
+  "schema": "gate12-independent-final-core-audit-v1",
+  "verdict": "PASS_DECLARED_SOFTWARE_SCOPE",
+  "completedRunId": "G12-COORD-002",
+  "completedBuildId": "g12-3c5526361a7cb2cc5c4a",
+  "completedSourceHash": "3c5526361a7cb2cc5c4afe35c23801f183dacdc2f8ae4653471b202a27a9665c",
+  "sealedCoreManifestSha256": "cdcbfb68c8fec722a217075d30c14b76e69803e753296fc3bde8a6ea936335f6",
+  "sealedCorePinsVerified": 102,
+  "historicalGate0Through11PinsVerified": 1613,
+  "independentVerifier": "audit/gate-12/verify-final-core.mjs",
+  "verificationResults": "audit/gate-12/final-core-verification.json",
+  "checks": {"passed":73,"total":73},
+  "actualBrowser": {"observations":93,"hostActions":79,"originalImages":5,"semanticFingerprintsRehashed":93,"informationHashesRehashed":93,"viewportMatches":93,"sceneMatches":93,"designatedPausedCheckpointsMatched":18,"diagramPlainInformationPairsMatched":2},
+  "firstDocument": {"branches":2,"proposals":4,"createdOutcomes":5,"reusedEvaluations":3,"finalEventCount":54,"originAndContentHashesVerified":true},
+  "secondDocument": {"localBranchesAfterReload":0,"finalEventCount":18,"naturalScheduledEvents":8,"naturalDurationSeconds":24.002,"naturalStopReason":"end-of-sequence","finalReopenPausedZero":true},
+  "candidate001": {"status":"BLOCKED_RETAINED_OUTCOME_INSPECTION","preservedObservations":43,"preservedHostActions":31,"preservedOriginalImages":6},
+  "qualifications": [
+    "Three actual active snapshots near 0, 9.522 and 20.242 seconds; no separate active DOM observations during 4–8, 12–16 or 16–20 seconds.",
+    "Public raw canonical registry preloads scripted records at paused0; active semantic/display/event provenance distinguishes them from performed playback events.",
+    "Initial viewport1280x720 changed temporarily to1279x904; explicit1280x720 and960x720 checks passed and override reset.",
+    "Lower controls and capped JSON panels require scrolling; no reduced-motion emulation.",
+    "Results-page/public-route handoff is outside this closed-core audit."
+  ],
+  "blockingFindings": [],
+  "humanParticipants": 0,
+  "enactedActions": 0,
+  "humanCoordinationBenefitEstablished": false,
+  "nextStep": "Astra may synthesize the bounded software result; separately audit the published handoff before final freeze."
+}

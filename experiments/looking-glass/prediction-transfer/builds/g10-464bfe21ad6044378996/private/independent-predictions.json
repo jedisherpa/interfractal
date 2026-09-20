@@ -1,0 +1,72 @@
+{
+  "schema": "gate10-independent-predictions-v1",
+  "fixtureId": "G10-FIXTURE-001",
+  "status": "author-supplied analytic expectations; independent audit pending",
+  "oraclePolicy": "Recompute with exact fractions from equations without importing implementation or treating this file as an audit result.",
+  "split": {
+    "practiceSources": ["G10-PRACTICE-P00"],
+    "assessmentPointSources": ["G10-ASSESS-P01","G10-ASSESS-P02","G10-ASSESS-P03-CLASS"],
+    "assessmentBallSources": ["G10-ASSESS-B01","G10-ASSESS-B02"],
+    "practiceWorkedQueryIds": ["am"],
+    "practiceSupportQueryIds": ["a0","a90"],
+    "unworkedSameFamilyQueryIds": ["a180"],
+    "assessmentTargetSourceQueryPairs": [
+      ["G10-ASSESS-P01","am"], ["G10-ASSESS-P02","a180"], ["G10-ASSESS-P03-CLASS","a90"],
+      ["G10-ASSESS-B01","slice:7/4"], ["G10-ASSESS-B02","slice:1"]
+    ],
+    "noAssessmentTargetPairAppearsInPractice": true,
+    "noAssessmentTargetResultAppearsInCanonicalTour": true,
+    "transferChange": ["point to ball source class", "linear rotation/projection to quadratic slicing", "xyz output to ball/point/empty classification"],
+    "notClaimed": ["novelty to the project or source-informed agents", "empirically matched difficulty", "human first exposure", "human learning or transfer"]
+  },
+  "practice": {"xyzw": ["1","0","0","-1"], "a0": ["1","0","0"], "a90": ["1","0","0"], "am": ["7/5","0","0"], "derivation": "3/5*1-4/5*(-1)=7/5"},
+  "pointChecks": [
+    {"caseId":"T01", "xyzw":["2","-1","1/2","1"], "supports":[["2","-1","1/2"],["-1","-1","1/2"]], "stackedRank":4, "targetQuery":"am", "target":["2/5","-1","1/2"], "derivation":"3/5*2-4/5*1=2/5", "expectedOptionId":"O2"},
+    {"caseId":"T02", "xyzw":["-3/2","1/4","-1","1/2"], "supports":[["-3/2","1/4","-1"],["-1/2","1/4","-1"]], "stackedRank":4, "targetQuery":"a180", "target":["3/2","1/4","-1"], "derivation":"(-1)*(-3/2)-0*(1/2)=3/2", "targetAlreadyIdentifiedByA0Alone":true, "expectedOptionId":"O1"},
+    {"caseId":"T03", "admissibleSources":[["1/3","2/3","-1/3","-2"],["1/3","2/3","-1/3","2"]], "bothSupportRawValues":["1/3","2/3","-1/3"], "stackedRank":3, "sourceNullVector":["0","0","0","1"], "cameraYawDegrees":[0,45], "targetQuery":"a90", "targetSet":[["-2","2/3","-1/3"],["2","2/3","-1/3"]], "unique":false, "selectedHiddenSource":null, "expectedOptionId":"O4"}
+  ],
+  "ballChecks": [
+    {"caseId":"T04", "supportSettings":["-1/4","1/2"], "supportRadiusSquared":["1","25/16"], "subtractedEquation":"9/16 = 3*cw/2 - 3/16", "cw":"1/2", "radiusSquared":"25/16", "radius":"5/4", "targetSetting":"7/4", "targetDelta":"0", "targetKind":"point", "targetRadiusSquared":"0", "expectedOptionId":"O3"},
+    {"caseId":"T05", "supportSettings":["-1/2","1/2"], "supportRadiusSquared":["1","0"], "subtractedEquation":"-1 = 2*cw", "cw":"-1/2", "radiusSquared":"1", "radius":"1", "targetSetting":"1", "targetDelta":"-5/4", "targetKind":"empty", "targetRadiusSquared":null, "expectedOptionId":"O4"}
+  ],
+  "matrixRows": {
+    "a0": [["1","0","0","0"],["0","1","0","0"],["0","0","1","0"]],
+    "am": [["3/5","0","0","-4/5"],["0","1","0","0"],["0","0","1","0"]],
+    "a90": [["0","0","0","-1"],["0","1","0","0"],["0","0","1","0"]],
+    "a180": [["-1","0","0","0"],["0","1","0","0"],["0","0","1","0"]]
+  },
+  "primaryBrowserResponseRecipe": [
+    {"caseId":"T01","response":{"kind":"answer","optionId":"O1"},"beforeReveal":"withheld","afterRevealSoftwareGrade":"incorrect","purpose":"retain deliberately wrong answer"},
+    {"caseId":"T02","response":{"kind":"answer","optionId":"O1"},"beforeReveal":"withheld","afterRevealSoftwareGrade":"correct"},
+    {"caseId":"T03","response":{"kind":"answer","optionId":"O4"},"beforeReveal":"withheld","afterRevealSoftwareGrade":"correct","purpose":"retain both admissible target outputs"},
+    {"caseId":"T04","response":{"kind":"skip","optionId":null},"beforeReveal":"withheld","afterRevealSoftwareGrade":null,"purpose":"skip then show boundary point without inventing an answer"},
+    {"caseId":"T05","response":{"kind":"answer","optionId":"O4"},"beforeReveal":"withheld","afterRevealSoftwareGrade":"correct","purpose":"empty outcome distinct from point"}
+  ],
+  "separateReviewRecipe": {"caseId":"T01","response":{"kind":"answer","optionId":"O2"},"priorReveal":true,"afterRevealSoftwareGrade":"correct","originalWrongResponseUnchanged":true},
+  "checkpoints": [
+    {"seconds":0,"caseId":"T01"}, {"seconds":4,"caseId":"T02"}, {"seconds":8,"caseId":"T03"},
+    {"seconds":12,"caseId":"T04"}, {"seconds":16,"caseId":"T05"}, {"seconds":20,"caseId":"T01"}
+  ],
+  "checkpointCommon": {"mode":"saved-tour","paused":true,"practiceOpen":false,"draftOption":null,"responsePhase":"none","response":null,"revealedResult":null,"attachedLocalAttempt":null,"publicSupportCardCount":2},
+  "canonicalScheduledEvents": [
+    {"seconds":4,"type":"case-select","caseId":"T02","origin":"replay"},
+    {"seconds":8,"type":"case-select","caseId":"T03","origin":"replay"},
+    {"seconds":12,"type":"case-select","caseId":"T04","origin":"replay"},
+    {"seconds":16,"type":"case-select","caseId":"T05","origin":"replay"},
+    {"seconds":20,"type":"case-select","caseId":"T01","origin":"replay"},
+    {"seconds":20,"type":"tour-stop","origin":"automatic","reason":"end-of-sequence"}
+  ],
+  "invariants": [
+    "No canonical event/checkpoint contains an assessment commit, target result or reveal.",
+    "Identical canonical checkpoints have identical semantic fingerprints after exploration/reopen/reload regardless of retained local ledger history.",
+    "Each published active or paused semantic/ledger payload independently hashes to the fingerprint beside it.",
+    "Commit server sequence precedes first reveal sequence for each revealed attempt.",
+    "Commit acknowledgement discloses no grade, expected choice, target or explanation.",
+    "Changing an answer after commit cannot modify the original record; a same payload retry returns the original receipt.",
+    "Skip response and grade remain null after reveal.",
+    "An attempt cannot be revealed with another session, case, build or expired capability.",
+    "A new session and every read-only route remain free of prior-session reveal payloads.",
+    "Response alternatives may contain the correct value as a neutral hypothesis; they must not be marked as correct before reveal.",
+    "All outcomes and attempt records describe software checks, never human performance."
+  ]
+}

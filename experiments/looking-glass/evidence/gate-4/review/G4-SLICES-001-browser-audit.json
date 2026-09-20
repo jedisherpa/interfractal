@@ -1,0 +1,167 @@
+{
+  "checkedAtUtc": "2026-09-20T03:38:42.782Z",
+  "kind": "actual-browser-observation-audit",
+  "runId": "G4-SLICES-001",
+  "buildId": "g4-1a289997d9829f9c",
+  "observationCount": 38,
+  "captureCount": 7,
+  "verifiedCaptures": [
+    {
+      "label": "001-C0-center-0s",
+      "path": "screenshots/001-C0-center-0s.jpg",
+      "sha256": "27dda12d3d9064813ec47df78b55d3aad38f27050f4fec3c814e88802cff4971",
+      "bytes": 61476,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "001-interior-8s",
+      "path": "screenshots/001-interior-8s.jpg",
+      "sha256": "99b60da45f521a59f01ecda8d4eacec3b540b6974399954d951b1eae813226ea",
+      "bytes": 61841,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "001-C1-point-16s",
+      "path": "screenshots/001-C1-point-16s.jpg",
+      "sha256": "935a6312eea8973f915f6a71c28b149cab6e1aa6f3a3e0efc852c983438c30e1",
+      "bytes": 59640,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "001-C2-empty-20s",
+      "path": "screenshots/001-C2-empty-20s.jpg",
+      "sha256": "32d5cd5a880d23a72eadf80ae9de80d5b9637390a7a0818e04c97df11104f6dd",
+      "bytes": 60316,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "001-ambiguity-known-plane",
+      "path": "screenshots/001-ambiguity-known-plane.jpg",
+      "sha256": "4468de36e9bec1d3372a5dfb438fbb5aca093bb91d0d216551d01f95f41b6641",
+      "bytes": 86148,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "001-heldout-movie",
+      "path": "screenshots/001-heldout-movie.jpg",
+      "sha256": "4d5977efdfec885c41e0eb886359ad8a8fe8e15d4aa93f62e85775237ed9bae5",
+      "bytes": 87433,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "001-inspector-metadata",
+      "path": "screenshots/001-inspector-metadata.jpg",
+      "sha256": "7bb6223b9f1a1f726252327fe0fe374bac61fc462adef19bd0d1b0bd08bd669e",
+      "bytes": 97037,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "pass": false,
+  "passed": 5,
+  "failed": 2,
+  "checks": [
+    {
+      "name": "actual observations bind exact run, build, trace and local URL",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "count": 38
+    },
+    {
+      "name": "all observed raw slices, projection, ambiguity and movie values obey frozen equations",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "fresh inspector viewport/DPR/scene rectangles/visibility and bounded page width",
+      "pass": false,
+      "errorCount": 3,
+      "errors": [
+        {
+          "index": 1,
+          "label": "001 initial paused load",
+          "inspectorDpr": 2,
+          "actualDpr": 1,
+          "inspectorScrollWidth": 1280,
+          "actualScrollWidth": 1280
+        },
+        {
+          "index": 2,
+          "label": "001-C0-center-0s / before capture",
+          "inspectorDpr": 2,
+          "actualDpr": 1,
+          "inspectorScrollWidth": 1280,
+          "actualScrollWidth": 1280
+        },
+        {
+          "index": 3,
+          "label": "001-C0-center-0s / after capture",
+          "inspectorDpr": 2,
+          "actualDpr": 1,
+          "inspectorScrollWidth": 1280,
+          "actualScrollWidth": 1280
+        }
+      ]
+    },
+    {
+      "name": "all three prespecified viewport sizes were observed",
+      "pass": false,
+      "errorCount": 2,
+      "errors": [
+        {
+          "expectedSize": "1280x900",
+          "reason": "prespecified actual viewport condition absent"
+        },
+        {
+          "expectedSize": "960x720",
+          "reason": "prespecified actual viewport condition absent"
+        }
+      ],
+      "viewportSizes": [
+        "1280x720"
+      ]
+    },
+    {
+      "name": "actual SVG scenes distinguish solid, point and empty with declared camera/scale",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "all seven paused canonical checkpoints observed at predicted values",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "original captures exist and bind to actual before/after states",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "captureCount": 7
+    }
+  ],
+  "limit": "This checks recorded actual state, DOM geometry, environment and original capture bytes. It does not create observations or infer human comprehension."
+}

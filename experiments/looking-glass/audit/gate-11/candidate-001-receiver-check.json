@@ -1,0 +1,433 @@
+{
+  "schema": "gate11-candidate001-independent-receiver-v1",
+  "status": "PASS",
+  "checkCount": 105,
+  "passCount": 105,
+  "projectionCount": 32,
+  "invalidCaseCount": 9,
+  "implementationModuleImports": [
+    "packaged receiver.mjs"
+  ],
+  "checks": [
+    {
+      "name": "mask0-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask0-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask0-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask0-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask0-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask0-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask0-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask0-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask0-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask0-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask0-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask0-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask1-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask1-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask1-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask1-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask1-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask1-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask1-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask1-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask1-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask1-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask1-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask1-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask2-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask2-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask2-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask2-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask2-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask2-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask2-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask2-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask2-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask2-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask2-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask2-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask3-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask3-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask3-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask3-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask3-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask3-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask3-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask3-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask3-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask3-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask3-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask3-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask4-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask4-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask4-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask4-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask4-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask4-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask4-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask4-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask4-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask4-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask4-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask4-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask5-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask5-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask5-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask5-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask5-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask5-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask5-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask5-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask5-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask5-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask5-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask5-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask6-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask6-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask6-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask6-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask6-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask6-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask6-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask6-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask6-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask6-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask6-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask6-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask7-W00-count",
+      "pass": true
+    },
+    {
+      "name": "mask7-W00-release",
+      "pass": true
+    },
+    {
+      "name": "mask7-W00-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask7-W01-count",
+      "pass": true
+    },
+    {
+      "name": "mask7-W01-release",
+      "pass": true
+    },
+    {
+      "name": "mask7-W01-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask7-W10-count",
+      "pass": true
+    },
+    {
+      "name": "mask7-W10-release",
+      "pass": true
+    },
+    {
+      "name": "mask7-W10-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "mask7-W11-count",
+      "pass": true
+    },
+    {
+      "name": "mask7-W11-release",
+      "pass": true
+    },
+    {
+      "name": "mask7-W11-unchanged-input",
+      "pass": true
+    },
+    {
+      "name": "reject-unknown receiver",
+      "pass": true
+    },
+    {
+      "name": "reject-covert world id",
+      "pass": true
+    },
+    {
+      "name": "reject-covert source hash",
+      "pass": true
+    },
+    {
+      "name": "reject-covert revision",
+      "pass": true
+    },
+    {
+      "name": "reject-unsafe count",
+      "pass": true
+    },
+    {
+      "name": "reject-wrong lot binding",
+      "pass": true
+    },
+    {
+      "name": "reject-invalid enum",
+      "pass": true
+    },
+    {
+      "name": "reject-unknown addition",
+      "pass": true
+    },
+    {
+      "name": "reject-dereferenceable ref",
+      "pass": true
+    }
+  ]
+}

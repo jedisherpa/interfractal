@@ -1,0 +1,19 @@
+{
+  "schema": "gate7-computational-results-v1",
+  "status": "passed",
+  "provenance": "software_validation; source/key-informed model checks, not visual comprehension",
+  "checkGroups": [
+    "fixture/key identity",
+    "public fixture isolation",
+    "4D recovery and camera ambiguity",
+    "5D hidden and revealed coordinate",
+    "4D ball projection/slice and held-out setting",
+    "5D equal-radius ambiguity",
+    "reference summary insufficiency",
+    "reference and receiver calculations",
+    "nine deterministic tour checkpoints"
+  ],
+  "taskCount": 8,
+  "humanParticipantCount": 0,
+  "score": null
+}

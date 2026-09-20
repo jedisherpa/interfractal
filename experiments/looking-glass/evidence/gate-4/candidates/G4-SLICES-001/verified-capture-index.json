@@ -1,0 +1,233 @@
+[
+  {
+    "label": "001-C0-center-0s",
+    "path": "screenshots/001-C0-center-0s.jpg",
+    "capturedAtUtc": "2026-09-20T03:29:57.467Z",
+    "beforeObservation": 2,
+    "afterObservation": 3,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      0,
+      0
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "27dda12d3d9064813ec47df78b55d3aad38f27050f4fec3c814e88802cff4971",
+    "bytes": 61476,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  },
+  {
+    "label": "001-interior-8s",
+    "path": "screenshots/001-interior-8s.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:07.241Z",
+    "beforeObservation": 5,
+    "afterObservation": 6,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      8000,
+      8000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "99b60da45f521a59f01ecda8d4eacec3b540b6974399954d951b1eae813226ea",
+    "bytes": 61841,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  },
+  {
+    "label": "001-C1-point-16s",
+    "path": "screenshots/001-C1-point-16s.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:08.120Z",
+    "beforeObservation": 8,
+    "afterObservation": 9,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      16000,
+      16000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "935a6312eea8973f915f6a71c28b149cab6e1aa6f3a3e0efc852c983438c30e1",
+    "bytes": 59640,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  },
+  {
+    "label": "001-C2-empty-20s",
+    "path": "screenshots/001-C2-empty-20s.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:08.880Z",
+    "beforeObservation": 11,
+    "afterObservation": 12,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      20000,
+      20000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "32d5cd5a880d23a72eadf80ae9de80d5b9637390a7a0818e04c97df11104f6dd",
+    "bytes": 60316,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  },
+  {
+    "label": "001-ambiguity-known-plane",
+    "path": "screenshots/001-ambiguity-known-plane.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:39.445Z",
+    "beforeObservation": 23,
+    "afterObservation": 24,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      8000,
+      8000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "4468de36e9bec1d3372a5dfb438fbb5aca093bb91d0d216551d01f95f41b6641",
+    "bytes": 86148,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  },
+  {
+    "label": "001-heldout-movie",
+    "path": "screenshots/001-heldout-movie.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:40.861Z",
+    "beforeObservation": 28,
+    "afterObservation": 29,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      20000,
+      20000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "4d5977efdfec885c41e0eb886359ad8a8fe8e15d4aa93f62e85775237ed9bae5",
+    "bytes": 87433,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  },
+  {
+    "label": "001-inspector-metadata",
+    "path": "screenshots/001-inspector-metadata.jpg",
+    "capturedAtUtc": "2026-09-20T03:31:13.319Z",
+    "beforeObservation": 34,
+    "afterObservation": 35,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      40000,
+      40000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true,
+    "sha256": "7bb6223b9f1a1f726252327fe0fe374bac61fc462adef19bd0d1b0bd08bd669e",
+    "bytes": 97037,
+    "imageDimensions": {
+      "width": 1280,
+      "height": 720
+    },
+    "beforeViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "afterViewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 1280
+    },
+    "imageMatchesObservedViewport": true
+  }
+]

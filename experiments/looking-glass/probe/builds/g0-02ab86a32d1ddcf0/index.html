@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Looking Glass · Gate 0 cube probe</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topline">
+      <div><div class="eyebrow">LOOKING GLASS / LAB NOTE 00</div><h1>An ordinary cube,<br><em>seen again.</em></h1></div>
+      <div class="stage"><span class="pulse"></span><span>GATE 0<br><strong>Viewing & replay probe</strong></span></div>
+    </header>
+    <section class="hero" aria-label="Ordinary three-dimensional cube visualization">
+      <div class="scene-meta"><span id="mode-chip">SAVED RUN · PAUSED</span><span>3D source · orthographic display</span></div>
+      <svg id="scene" viewBox="0 0 700 560" role="img" aria-label="A marked wireframe cube shown with an ordinary movable camera">
+        <defs><radialGradient id="halo"><stop stop-color="#5894ab" stop-opacity=".20"/><stop offset="1" stop-color="#5894ab" stop-opacity="0"/></radialGradient></defs>
+        <circle cx="350" cy="275" r="245" fill="url(#halo)"/>
+        <g id="cube"></g>
+      </svg>
+      <div class="scene-footer"><span>Selected point <strong>v111</strong> <i class="diamond"></i></span><span id="camera-readout">camera yaw 30.0°</span></div>
+    </section>
+    <div class="below">
+      <section class="card controls" aria-label="Replay controls">
+        <div class="card-title"><span>01 / REPLAY</span><span id="time-readout">00:00 / 00:20</span></div>
+        <div class="buttons"><button id="play" class="primary">▶ Play from here</button><button id="replay">↺ Replay from start</button><button id="pause">Ⅱ Pause</button><button id="step">Step +1s</button></div>
+        <label class="slider-label" for="scrub">Simulation time <span id="seek-value">0.0 s</span></label><input id="scrub" type="range" min="0" max="20000" step="100" value="0">
+        <div class="buttons small"><button data-checkpoint="0">0s checkpoint</button><button data-checkpoint="10000">10s checkpoint</button><button data-checkpoint="20000">20s checkpoint</button><button id="reset">Reset</button></div>
+        <p class="fine">The saved path moves only the display camera. The cube’s coordinates never change. The original run is read only.</p>
+      </section>
+      <section class="card guide">
+        <div class="card-title"><span>02 / THE QUESTION</span><span>ORDINARY SPACE</span></div>
+        <p class="reference-label">CURRENT SHARED REFERENCE</p><p class="reference">Can we view and replay this ordinary cube?</p>
+        <div class="guide-lines"><p><b>What we’re testing</b><br>A watchable scene with a recoverable saved state.</p><p><b>What changes</b><br>The ordinary camera turns from 30° to 60° over 20 seconds.</p><p><b>What to watch</b><br>Follow the marked vertex v111; its source coordinates stay (+1,+1,+1).</p></div>
+        <p class="scope">This is a 3D viewing probe. It makes no 4D, 5D, Hopf, or shared-meaning result.</p>
+      </section>
+      <section class="card exploration">
+        <div class="card-title"><span>03 / EXPLORE</span><span>SEPARATE FROM RUN</span></div>
+        <label for="look">Look around <span id="look-value">30.0°</span></label><input id="look" type="range" min="0" max="360" step="1" value="30">
+        <p class="fine">Moving this control starts an exploration view. Replay from start restores the saved camera path.</p>
+      </section>
+      <section class="card library">
+        <div class="card-title"><span>04 / RUN LIBRARY</span><span>1 SAVED RUN</span></div>
+        <div class="run-row"><div><strong id="run-id">G0-CUBE-001</strong><span>Camera orbit · 20s · preserved build</span></div><button id="open-run">Open paused</button></div>
+        <p class="fine" id="build-readout">Loading build identity…</p><div id="evidence" class="evidence">Captures pending.</div>
+      </section>
+      <details class="card inspector"><summary>Exact state & diagnostics <span>JSON / renderer / WebGL capability</span></summary><div class="inspect-inner"><p class="fine">State is derived from simulation time. Screen coordinates use a fixed 138 px/unit scale; the inspector lists all eight source vertices and twelve edges.</p><pre id="diagnostics"></pre><pre id="state-json"></pre></div></details>
+    </div>
+    <footer>LOOKING GLASS · GATE 0 / THE CALIBRATION OF A VIEW</footer>
+  </main>
+  <script type="module" src="/app.mjs"></script>
+</body>
+</html>

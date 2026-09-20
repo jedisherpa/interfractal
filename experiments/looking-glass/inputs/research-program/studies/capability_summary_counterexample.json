@@ -1,0 +1,35 @@
+{
+  "schema_version": "research-task.v1",
+  "id": "shared-battery-capability-counterexample",
+  "status": "synthetic exact counterexample; not human or application evidence",
+  "question": "Can two groups offering two ready lantern kits meet the same request?",
+  "rules": [
+    "Each of two otherwise complete kits needs one long battery for its entire 60-minute display.",
+    "Requests occur simultaneously for the full 60 minutes; a battery cannot be shared or recharged during the interval.",
+    "All listed long batteries last at least 60 minutes and fit either kit.",
+    "No other resource, permission, skill, route or timing constraint differs between worlds. No additional equipment is available."
+  ],
+  "requested_simultaneous_units": [1, 2],
+  "worlds": [
+    {
+      "id": "independent_power",
+      "outward_summary": {"offer": "two ready lantern kits", "kit_count": 2},
+      "kit_count": 2,
+      "available_long_batteries": ["battery-A", "battery-B"],
+      "expected_request_feasibility": {"1": true, "2": true}
+    },
+    {
+      "id": "shared_power",
+      "outward_summary": {"offer": "two ready lantern kits", "kit_count": 2},
+      "kit_count": 2,
+      "available_long_batteries": ["battery-A"],
+      "expected_request_feasibility": {"1": true, "2": false}
+    }
+  ],
+  "augmented_interface": "Expose kit count, count of exclusive available long batteries, simultaneous-use constraint and the bounded 60-minute request domain.",
+  "limits": [
+    "A knowledgeable individual or coordinator with this record can solve the case directly; group advantage is not stipulated.",
+    "The example tests insufficiency of a particular advertised summary and adequacy of the enriched record for these requests only.",
+    "It does not test learned prediction, dynamic closure, emergent personhood, human behavior or geometry."
+  ]
+}

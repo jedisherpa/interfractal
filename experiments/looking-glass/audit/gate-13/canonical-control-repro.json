@@ -1,0 +1,225 @@
+{
+  "schema": "gate13-candidate-001-canonical-control-reproduction-v1",
+  "status": "DEFECT_REPRODUCED",
+  "defects": {
+    "cp8AdvertisesUnavailableCorrection": true,
+    "cp12SourceThrows": true,
+    "cp12RepresentationThrows": true,
+    "cp12RecordsThrows": true,
+    "cp12OriginalDropsScriptedCheckAndCorrection": true,
+    "cp20CorrectionThrows": true
+  },
+  "cases": [
+    {
+      "seconds": 8,
+      "control": "correct",
+      "before": {
+        "mode": "saved-tour",
+        "version": "original",
+        "activeCheck": true,
+        "activeCorrection": false,
+        "informationAvailableOperations": {
+          "inspectSource": true,
+          "checkOriginal": true,
+          "applyCorrection": true,
+          "showOriginal": false,
+          "showCorrection": false,
+          "inspectRecords": true,
+          "export": true
+        },
+        "controlDisabled": true,
+        "eventCount": 1
+      },
+      "error": null,
+      "after": {
+        "mode": "saved-tour",
+        "version": "original",
+        "activeCheck": true,
+        "activeCorrection": false,
+        "publishedMode": "saved-tour",
+        "publishedVersion": "original",
+        "publishedCheck": true,
+        "publishedCorrection": false,
+        "publishedMarker": null,
+        "eventCount": 1,
+        "message": "Information SHA-256 1c07974291e9cc5dee349983a8da90eceb2e422c61d10ad8c32c310164ec74ad. Document 5e1f105f-e82a-4c61-8f64-76ec71e2f3ab."
+      }
+    },
+    {
+      "seconds": 12,
+      "control": "source",
+      "before": {
+        "mode": "saved-tour",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "informationAvailableOperations": {
+          "inspectSource": true,
+          "checkOriginal": true,
+          "applyCorrection": false,
+          "showOriginal": true,
+          "showCorrection": false,
+          "inspectRecords": true,
+          "export": true
+        },
+        "controlDisabled": false,
+        "eventCount": 1
+      },
+      "error": "Error: correction not active",
+      "after": {
+        "mode": "local-review",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "publishedMode": "saved-tour",
+        "publishedVersion": "corrected",
+        "publishedCheck": true,
+        "publishedCorrection": true,
+        "publishedMarker": null,
+        "eventCount": 1,
+        "message": "Information SHA-256 8e0cfe01083689814cf8bc12a5a1bdc5469edd9bcf5385ab5bb54bfdac6c8f09. Document f63228d4-4caa-40be-bfd6-ab9755bd32fc."
+      }
+    },
+    {
+      "seconds": 12,
+      "control": "representation",
+      "before": {
+        "mode": "saved-tour",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "informationAvailableOperations": {
+          "inspectSource": true,
+          "checkOriginal": true,
+          "applyCorrection": false,
+          "showOriginal": true,
+          "showCorrection": false,
+          "inspectRecords": true,
+          "export": true
+        },
+        "controlDisabled": false,
+        "eventCount": 1
+      },
+      "error": "Error: correction not active",
+      "after": {
+        "mode": "local-review",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "publishedMode": "saved-tour",
+        "publishedVersion": "corrected",
+        "publishedCheck": true,
+        "publishedCorrection": true,
+        "publishedMarker": null,
+        "eventCount": 1,
+        "message": "Information SHA-256 8e0cfe01083689814cf8bc12a5a1bdc5469edd9bcf5385ab5bb54bfdac6c8f09. Document 91698c44-25c0-4aa9-9bcb-555e1a9e9832."
+      }
+    },
+    {
+      "seconds": 12,
+      "control": "records",
+      "before": {
+        "mode": "saved-tour",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "informationAvailableOperations": {
+          "inspectSource": true,
+          "checkOriginal": true,
+          "applyCorrection": false,
+          "showOriginal": true,
+          "showCorrection": false,
+          "inspectRecords": true,
+          "export": true
+        },
+        "controlDisabled": false,
+        "eventCount": 1
+      },
+      "error": "Error: correction not active",
+      "after": {
+        "mode": "local-review",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "publishedMode": "saved-tour",
+        "publishedVersion": "corrected",
+        "publishedCheck": true,
+        "publishedCorrection": true,
+        "publishedMarker": null,
+        "eventCount": 1,
+        "message": "Information SHA-256 8e0cfe01083689814cf8bc12a5a1bdc5469edd9bcf5385ab5bb54bfdac6c8f09. Document 6b0384ad-244a-4025-8be7-8d0a1c1b3dbb."
+      }
+    },
+    {
+      "seconds": 12,
+      "control": "original",
+      "before": {
+        "mode": "saved-tour",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "informationAvailableOperations": {
+          "inspectSource": true,
+          "checkOriginal": true,
+          "applyCorrection": false,
+          "showOriginal": true,
+          "showCorrection": false,
+          "inspectRecords": true,
+          "export": true
+        },
+        "controlDisabled": false,
+        "eventCount": 1
+      },
+      "error": null,
+      "after": {
+        "mode": "local-review",
+        "version": "original",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "publishedMode": "local-review",
+        "publishedVersion": "original",
+        "publishedCheck": false,
+        "publishedCorrection": false,
+        "publishedMarker": null,
+        "eventCount": 2,
+        "message": "Information SHA-256 a3fe1a9c6747191c4312ede3d69c6000f380afc61232261c4bced9898b2749b2. Document ec8e70c1-0bae-4cac-9ead-f8bed117fe15."
+      }
+    },
+    {
+      "seconds": 20,
+      "control": "correction",
+      "before": {
+        "mode": "saved-tour",
+        "version": "original",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "informationAvailableOperations": {
+          "inspectSource": true,
+          "checkOriginal": true,
+          "applyCorrection": false,
+          "showOriginal": false,
+          "showCorrection": true,
+          "inspectRecords": true,
+          "export": true
+        },
+        "controlDisabled": false,
+        "eventCount": 1
+      },
+      "error": "Error: correction not active",
+      "after": {
+        "mode": "local-review",
+        "version": "corrected",
+        "activeCheck": true,
+        "activeCorrection": true,
+        "publishedMode": "saved-tour",
+        "publishedVersion": "original",
+        "publishedCheck": true,
+        "publishedCorrection": true,
+        "publishedMarker": "Correction available; original retained for inspection",
+        "eventCount": 1,
+        "message": "Information SHA-256 29939a4ae68c6cff1d954b865097b6b3cda2f4fb7c78cd9e160637e512b3b7b1. Document 761f4fa3-c37d-4607-a771-8fefbd9d5f39."
+      }
+    }
+  ],
+  "scope": "Controlled VM handlers from immutable 001; not actual supported-browser clicks. Sealed browser core did not execute these cross-mode canonical controls."
+}

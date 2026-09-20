@@ -1,0 +1,91 @@
+{
+  "schema": "gate10-host-browser-protocol-v1",
+  "status": "planned; no observations or successful checks claimed",
+  "recordedAtUtc": "2026-09-20T11:20:40.037009+00:00",
+  "specification": "docs/gate-10/record-contract.md; awaits independent review/freeze",
+  "actor": "source_informed_software",
+  "humanParticipants": 0,
+  "primaryCases": [
+    {
+      "caseId": "T01",
+      "selection": "O1",
+      "intent": "deliberately wrong response retained"
+    },
+    {
+      "caseId": "T02",
+      "selection": "O1",
+      "intent": "correct response mechanics"
+    },
+    {
+      "caseId": "T03",
+      "selection": "O4",
+      "intent": "two admissible outputs, no unique source"
+    },
+    {
+      "caseId": "T04",
+      "selection": null,
+      "intent": "explicit skip; null grade"
+    },
+    {
+      "caseId": "T05",
+      "selection": "O4",
+      "intent": "empty target mechanics"
+    }
+  ],
+  "primaryLifecycle": [
+    "supplied supports and target withheld",
+    "start attempt",
+    "select draft or skip",
+    "server acknowledgement locks ungraded response",
+    "separate deliberate reveal",
+    "redacted session ledger export"
+  ],
+  "repeatReview": {
+    "caseId": "T01",
+    "selection": "O2",
+    "intent": "new attempt retains prior wrong response and priorReveal metadata"
+  },
+  "additionalPaths": [
+    "practice before assessment and reopened during review",
+    "abandon uncommitted attempt",
+    "clear result and export on canonical restore",
+    "fresh document has no inherited local result",
+    "visible Gate9 link"
+  ],
+  "checkpointPlan": {
+    "times": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20
+    ],
+    "baseline": 6,
+    "afterLocalReview": 6,
+    "afterReopen": [
+      0,
+      20
+    ],
+    "afterReload": [
+      0,
+      20
+    ],
+    "plannedTotal": 16
+  },
+  "continuousTour": {
+    "durationSeconds": 20,
+    "required": "actual Play action, multiple active snapshot observations, natural automatic end-of-sequence; manual final checkpoint is not a natural stop"
+  },
+  "imagePlan": [
+    "initial supplied supports",
+    "committed but unrevealed wrong answer",
+    "revealed wrong/ambiguous response",
+    "point after skipped answer",
+    "empty target",
+    "active or naturally ended tour",
+    "narrow layout if material"
+  ],
+  "preservation": "Original untouched bytes and complete published DOM payload before/after capture; all answer-bearing captures local only. Every actual semantic and ledger fingerprint independently rehashed. Browser actions, disabled non-actions and separate API probes counted separately.",
+  "closure": "Seal core observations/actions/exports/originals before independent final audit; presentation QA uses separate files/counts."
+}

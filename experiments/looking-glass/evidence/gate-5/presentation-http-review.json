@@ -1,0 +1,345 @@
+{
+  "checkedAtUtc": "2026-09-20T04:20:52.090211+00:00",
+  "kind": "Final presentation links and immutable source byte checks",
+  "allChecksPassed": true,
+  "localRoutesChecked": 37,
+  "externalPrimarySourcesNotRefetchedByHost": [
+    "https://people.math.ethz.ch/~grsam/NumMeth/Parts/NCSEFL_handout_chapter_3.pdf",
+    "https://www.cs.princeton.edu/courses/archive/fall13/cos521/lecnotes/lec11.pdf"
+  ],
+  "checks": [
+    {
+      "url": "http://127.0.0.1:43998/",
+      "file": "five-dimensional/builds/g5-0bdee39bcd7dd541/index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 6152,
+      "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/api/checkpoints",
+      "file": "five-dimensional/runs/G5-PENTERACT-001/checkpoints.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 937697,
+      "sha256": "de96342b6cbcc0adcc898bff3494eb41da455b9b360dec3efe1d0f48d8192519",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/api/evidence",
+      "file": "evidence/gate-5/run-evidence.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 16249,
+      "sha256": "d3fa065be64379d51c8c37259d875e596655fa6fdc02d7b284d06562ab3c089c",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/api/run",
+      "file": "five-dimensional/runs/G5-PENTERACT-001/run.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 3959,
+      "sha256": "cb35b3d2a24101b62844b81ee9ae7f8d9ece2d24cd8cc49b74de5fe548e2fa81",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/CORE_EVIDENCE_CLOSED.json",
+      "file": "evidence/gate-5/CORE_EVIDENCE_CLOSED.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 5113,
+      "sha256": "cad8662029f7c8c7fcd2d5f51c5da919755b690fd984ee69bc49a89e0216c6d0",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/GATE_5_PACKET.md",
+      "file": "evidence/gate-5/GATE_5_PACKET.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 16208,
+      "sha256": "7264d510fc2e964f357f8cbaec96e42ca87c3a7dcb08fc79213acc9840472b03",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/action-trace.json",
+      "file": "evidence/gate-5/action-trace.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 28740,
+      "sha256": "6cd0f59aeb7fcd885719efdcfc8ae8244a986d3889964d1fc9192ad62767f340",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/browser-observations.json",
+      "file": "evidence/gate-5/browser-observations.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 12773535,
+      "sha256": "6c7b142e503661d1d211bc39fe3874453a60b6b9ab0488094d73513216c2a2c7",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/capture-index.json",
+      "file": "evidence/gate-5/capture-index.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 9633,
+      "sha256": "88c9dd35e0dcf60b0977129f74a7617082800db6a5d4b41ce7c6d894141096ec",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/execution-provenance.json",
+      "file": "evidence/gate-5/execution-provenance.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 2100,
+      "sha256": "741a50da6074d694fb382e0e88cd16a599fb110b9c9337d866d13ce985dd1fec",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/historical-ui-review.json",
+      "file": "evidence/gate-5/historical-ui-review.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 42541,
+      "sha256": "3b08828e97643bc3383befb9232aa89b86d873612be4720d0e9d471774d44741",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/observed-activity.jsonl",
+      "file": "evidence/gate-5/observed-activity.jsonl",
+      "status": 200,
+      "contentType": "application/x-ndjson; charset=utf-8",
+      "bytes": 418759,
+      "sha256": "aa1387bd14fea70bae224825b28325776fe8accfb22d47aec0689093c7d1fd69",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+      "file": "evidence/gate-5/results.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 24173,
+      "sha256": "6fb740e7156b21468b1137765292824425dcaa5bbaed954a2ccf28ce29d5b580",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/review/audit/gate-5/AUDIT.md",
+      "file": "evidence/gate-5/review/audit/gate-5/AUDIT.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 7551,
+      "sha256": "818cf2eb17039ed5813b4bb44470252ab59ca3d12bba5ae321f6e2c4cb66538d",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/review/docs/gate-5/PRESPEC_FREEZE.json",
+      "file": "evidence/gate-5/review/docs/gate-5/PRESPEC_FREEZE.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 2917,
+      "sha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/review/research/gate-5/source-review.md",
+      "file": "evidence/gate-5/review/research/gate-5/source-review.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 6686,
+      "sha256": "f41ce026a1bcea02b597b096c0edda8d507487954fe9fc94565a42840137a6d3",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/run-evidence.json",
+      "file": "evidence/gate-5/run-evidence.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 16249,
+      "sha256": "d3fa065be64379d51c8c37259d875e596655fa6fdc02d7b284d06562ab3c089c",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+      "file": "evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 85829,
+      "sha256": "faa4be104d81e0dd8ef04a85fb59ba7de3e39174722f601bd61e997c430e38a3",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+      "file": "evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 89494,
+      "sha256": "806e28fa825d968b6093723530ba7f6f2094ec85de049081895e66318dfb672d",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+      "file": "evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 91836,
+      "sha256": "719f392a38d4997f23e1f8b6627f5ae007eabdee624b738cea18d42907e89073",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-first-leg.jpg",
+      "file": "evidence/gate-5/screenshots/001-active-first-leg.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 88942,
+      "sha256": "46191b53a4163c103f02dc2eb131d50e2ba4f83b6a987a8130758cece7865221",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-return-leg.jpg",
+      "file": "evidence/gate-5/screenshots/001-active-return-leg.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 89804,
+      "sha256": "3ceef667415bab0eea735258c191dc618f26fb0126a7695006e64c7be06d4114",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-second-leg.jpg",
+      "file": "evidence/gate-5/screenshots/001-active-second-leg.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 89059,
+      "sha256": "2d1d315684b4b45f60e670909716b632ca186dcb531c8646c9fb2a31467aac5e",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-initial-comparison.jpg",
+      "file": "evidence/gate-5/screenshots/001-initial-comparison.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 85572,
+      "sha256": "3d955c900cef32c5bd31dc4e9c085b6a5aacce5fafa7d3ce4c87b43deab58029",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+      "file": "evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 125953,
+      "sha256": "94cc575a462c713a5c7502e300b4d9fe31fada5d684d191dc7403dac71582933",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+      "file": "evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 81001,
+      "sha256": "cbe84cf066c4343f2bc47a45043d613cc2d10b74dc751bba9d522fa9ac0b814c",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+      "file": "evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 119160,
+      "sha256": "eb5e52dfa3997e520884f22a58e9ab8e0bc355babfe5dba154da8d41bc209e61",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+      "file": "evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 82605,
+      "sha256": "236ff7b61908cc99063bf299d7f856d9abc8af7b2d08d09378187c8d298b386b",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg",
+      "file": "evidence/gate-5/screenshots/001-slice-empty.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 114676,
+      "sha256": "f4583495cc2f4f350a19cf82caa681183d7f6e3678abd20c5f2cb7830c323a3a",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+      "file": "evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 116232,
+      "sha256": "e6cc877994d53160cd3f21209365bd5dac1a50421a9df62163d7c87b7cf4dbb6",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+      "file": "evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 115061,
+      "sha256": "9fb7d08bd387c9a376ce7a8071a521b47a7e900560d1852cb490b257a97fcef5",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-half-half.jpg",
+      "file": "evidence/gate-5/screenshots/001-slice-half-half.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 120645,
+      "sha256": "f145abb5e522f12f908ebb87a6121b8754a1f68dd63fdd517639f1612f661840",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg",
+      "file": "evidence/gate-5/screenshots/001-slice-point.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 114134,
+      "sha256": "bac01ab7e093bfa96766d99a017971409069a4ba388b029c4e85e6aa763eafa1",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+      "file": "evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 88157,
+      "sha256": "85e40d2013e058ff62af12605c7a1f1e478c21562f82cfae0bef82f5012bb806",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/checkpoints.json",
+      "file": "five-dimensional/runs/G5-PENTERACT-001/checkpoints.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 937697,
+      "sha256": "de96342b6cbcc0adcc898bff3494eb41da455b9b360dec3efe1d0f48d8192519",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/observation-cases.json",
+      "file": "five-dimensional/runs/G5-PENTERACT-001/observation-cases.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 163331,
+      "sha256": "01dc3af974efe58b18ec724954405f89ff796dd60dee20a00e9cbb93dcb1254c",
+      "exactBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/slice-cases.json",
+      "file": "five-dimensional/runs/G5-PENTERACT-001/slice-cases.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 7878,
+      "sha256": "1fc6110601d554757bcf38c8b752d41489aa1b480da21a3923ef6016048b8242",
+      "exactBytes": true
+    }
+  ]
+}

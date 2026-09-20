@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "gate-4-prespec-freeze-v1",
+  "gate": 4,
+  "frozenAtUtc": "2026-09-20T03:23:06.699443+00:00",
+  "status": "Frozen before any Gate4 browser trial; no implementation or browser success asserted",
+  "authorRole": "Assigned GPT-6 Astra xhigh specification/synthesis worker",
+  "approvedScope": "Gate4: slices, projections and ambiguity only; no Gate5,5D,human study,publication,spending or external messages",
+  "baseRevision": "144abb15c3252f0ef6a2dbd2d3c45333ecf6aaef",
+  "implementationContractAgreed": "Sol builder explicitly confirmed all four contracts compatible, including strict solid/point/empty classifications, 100ms clock, seven checkpoints, separate fingerprints and real fetched 3D-only trace. Builder will finish source/tests/README and create immutable build only after this freeze. Root confirmed port43997 free and model design aligned; no browser collection has begun.",
+  "predictionConsistencyCheck": {
+    "scope": "Specification only; independent direct equation evaluation without implementation imports",
+    "checkpointCount": 7,
+    "analyticSliceCaseCount": 11,
+    "storedTraceExpectedFrameCount": 401,
+    "initialAmbiguityEqual": true,
+    "knownPlaneDistinguishesDeclaredPair": true,
+    "heldOutRaw3DCenterDistance": 1,
+    "allCheckedSpecificationInvariantsAgree": true
+  },
+  "files": [
+    {
+      "path": "docs/gate-4/experiment-charter.md",
+      "sha256": "e9b6728ed266e28f213115b5c94e02da3f8dc19ec673a9d2939d0d97a1672fb8",
+      "bytes": 12840
+    },
+    {
+      "path": "docs/gate-4/model-contract.md",
+      "sha256": "5d7d592c411dbd57c4635dd94f1bebb138a3ff769c58e394a6f1d49c8e79f551",
+      "bytes": 10511
+    },
+    {
+      "path": "docs/gate-4/record-contract.md",
+      "sha256": "7cf7eae0b52637ac061f88a49fe5551bded7a686a3ffdf7abcde0a7aa90bea0a",
+      "bytes": 10363
+    },
+    {
+      "path": "docs/gate-4/independent-predictions.json",
+      "sha256": "957963f128ca680af8440c5f533730c1ac824af8e805aecc3fb3bc0178428e91",
+      "bytes": 14378
+    }
+  ]
+}

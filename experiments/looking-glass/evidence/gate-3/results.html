@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Looking Glass · Gate 3 results</title>
+<style>
+:root{--bg:#081d23;--panel:#102a31;--ink:#f0eadd;--muted:#b6c9c9;--gold:#e9bd7e;--line:#365159;--good:#a9d6cb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{width:min(1120px,calc(100% - 40px));margin:48px auto 64px}a{color:var(--gold);text-underline-offset:3px}a:hover{color:#fff}a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.12}h1{font-size:clamp(36px,6vw,64px);max-width:1000px;margin:14px 0 24px}h2{font-size:32px;margin:0 0 20px}h3{font-size:19px;margin:0 0 10px}.eyebrow{color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}.lead{font-size:21px;max-width:900px}.muted,small,figcaption{color:var(--muted)}.toolbar{display:flex;flex-wrap:wrap;gap:12px;margin:25px 0}.button{display:inline-block;background:var(--gold);color:#16242a;border:1px solid var(--gold);border-radius:8px;padding:11px 18px;font-weight:700;text-decoration:none}.button.secondary{background:transparent;color:var(--gold)}section{margin-top:42px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px;min-width:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.capture-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.result{color:var(--good);font-size:25px;font-weight:700;margin:8px 0}.subtle{font-size:14px}.identity{overflow-wrap:anywhere}.identity code{font-size:14px}ol,ul{padding-left:24px}li{margin:9px 0}.table-wrap{max-width:100%;overflow:auto;border:1px solid var(--line);border-radius:12px}table{border-collapse:collapse;width:100%;min-width:850px;font-size:15px}th,td{text-align:left;vertical-align:top;padding:16px;border-bottom:1px solid var(--line)}th{color:var(--gold);background:var(--panel)}tr:last-child td{border-bottom:0}th:first-child{width:16%}code{font:14px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#06161a;border:1px solid var(--line);border-radius:10px;padding:18px}figure{margin:0;min-width:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel)}figure img{width:100%;height:auto;display:block}figcaption{padding:18px;font-size:15px}figcaption strong{display:block;color:var(--ink);font-size:17px;margin-bottom:6px}.note{border-left:3px solid var(--gold);padding-left:20px}.links{display:flex;gap:10px 22px;flex-wrap:wrap}.footer{border-top:1px solid var(--line);padding-top:24px;margin-top:40px}.counts{font-size:14px;color:var(--muted)}@media(max-width:760px){main{width:calc(100% - 28px);margin-top:28px}.grid,.capture-grid{grid-template-columns:1fr}.panel{padding:20px}.lead{font-size:19px}h2{font-size:28px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="eyebrow">Looking Glass / Gate 3 / Review evidence</div>
+<h1>A known turn reveals a difference one shadow hides.</h1>
+<p class="lead">The marked vertices coincide in the first 3D projection, separate during a controlled x–w turn, and reunite on return. The ordinary camera stays fixed.</p>
+<p><strong>Qualified instrument result.</strong> The declared mathematics, bounded coordinate recovery and saved replay checks passed after two preserved corrections. Human understanding was not tested.</p>
+<div class="toolbar"><a class="button" href="/">Open the paused replay</a><a class="button secondary" href="/evidence/gate-3/GATE_3_PACKET.md">Full review packet</a><a class="button secondary" href="/evidence/gate-3/review/AUDIT.md">Independent audit</a></div>
+<p class="identity"><strong>G3-TESSERACT-003</strong> · build <code>g3-6c31bc16aeca4460</code><br><small>Source SHA-256: <code>6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d</code></small></p>
+<p class="counts">Final run: 67 actual browser observations · 46 observed events · 6 original images. Across all three candidates: 164 observations and 23 originals. Generated fixtures are counted separately.</p>
+</header>
+
+<section class="grid" aria-label="Three distinct claims">
+<article class="panel"><div class="eyebrow">Mathematical fidelity</div><p class="result">Supported</p><p>16 four-coordinate vertices, 32 edges, affine span four. Rotation preserves source norms and all 120 pair distances. All five checkpoints agree with independent predictions.</p></article>
+<article class="panel"><div class="eyebrow">Coordinate recovery</div><p class="result">Conditional</p><p>Known source views at 0° and 90° give rank four. Recovery uses raw 3D coordinates, supplied transforms and matched IDs. Camera-only views leave w hidden.</p></article>
+<article class="panel"><div class="eyebrow">Human understanding</div><p class="result">Not tested</p><p>Agent operation is instrument verification. No participant result, arbitrary screenshot reconstruction or evidence of physical extra dimensions is claimed.</p></article>
+</section>
+
+<section class="panel">
+<h2>Watch this</h2>
+<ol>
+<li>At <strong>0 s</strong>, inspect A <code>v1110=(1,1,1,−1)</code> and B <code>v1111=(1,1,1,+1)</code>. Both IDs occupy one projected site; the source edge is still length 2.</li>
+<li>Click <strong>Replay from start</strong>. At 8 s the projected pair distance is √2; at 16 s it is 2. It returns to zero at 32 s. Use 0/8/16/24/32 s for exact checkpoints.</li>
+<li>At 8 s change <strong>Ordinary camera yaw</strong>, then restore the checkpoint and change <strong>x–w rotation</strong>. One changes the screen view; the other changes the raw 3D projection. The controls are below the first scene.</li>
+<li>Use the three <strong>Compare</strong> controls. Fixed 0° and camera-only conditions remain underdetermined; the known 0°+90° source condition reconstructs all four coordinates.</li>
+</ol>
+<p class="muted">The solid is 4D, its boundary 3D, and the drawn skeleton 1D. Its vertices span four dimensions. The screen is a 2D display of a computed 3D projection.</p>
+</section>
+
+<section>
+<h2>Expected and observed</h2>
+<p>The <a href="/evidence/gate-3/review/EXPERIMENT_CHARTER.md">prespecified charter</a> was frozen before browser trials at <code>2026-09-20T02:38:53.042662Z</code>. The separate verifier derived its own oracle and reviewed exact builds plus actual browser records.</p>
+<div class="table-wrap" tabindex="0" aria-label="Horizontally scrollable evidence comparison"><table>
+<thead><tr><th>Question</th><th>Expected</th><th>Observed</th><th>Interpretation</th><th>Unresolved / limits</th></tr></thead>
+<tbody>
+<tr><td>Is the model faithful?</td><td>16 vertices, 32 edges; orthogonal rotation and preserved distances; five exact checkpoint states.</td><td>Oracle 12/12, prespec 6/6, exact build 14/14. All 80 saved vertex rows and all 67 final browser states agree within 1e−10.</td><td>The declared equations are supported for the checked cases.</td><td>The picture itself does not prove a higher-dimensional physical cause.</td></tr>
+<tr><td>Do identities survive overlap?</td><td>Both IDs remain accessible; projected zero-length edges retain source identity.</td><td>Actual overlapping SVG hit disclosed both IDs; list and separated-marker selection worked; collapsed w/x edges remained inspectable.</td><td>No artificial jitter creates the separation.</td><td>Overlapping hits are ambiguous until an exact ID is selected.</td></tr>
+<tr><td>What stays hidden?</td><td>Fixed source view and ordinary cameras keep rank three and a w-null direction.</td><td>Both negative conditions reported underdetermined. A camera turn at source 0° kept the pair coincident.</td><td>An entire w-line fits in R⁴; the hypercube fixture has two possible w values.</td><td>Camera-space 3D and screen 2D coordinates differ; neither supplies w sensitivity.</td></tr>
+<tr><td>What do known source turns add?</td><td>0°+90° raw 3D observations give rank four and Gram matrix diag(1,2,2,1).</td><td>All 16 recovered; maximum coordinate error 1.11×10⁻¹⁶, maximum absolute forward residual 0. Nonfixture opaque-ID and mismatched-ID checks passed.</td><td>Numerical recovery under known transforms and correspondences.</td><td>No unknown-transform, unknown-correspondence or screenshot inversion claim.</td></tr>
+<tr><td>Are controls and replay faithful?</td><td>Separate camera/source/time; stable pause, step, scrub, reverse playback, exact restoration and distinct event origins.</td><td>Final browser audit 12/12. Automatic stop at 32000 ms records <code>automatic-playback</code> and <code>end-of-sequence</code>. Reopen/reload 8 s hashes match.</td><td>The saved build reproduces the declared run.</td><td>Exact hashes are same-browser checks, not cross-runtime or pixel-equality claims.</td></tr>
+<tr><td>Are evidence and layout reliable?</td><td>Fresh viewport/DPR/scene measurements, bounded page width, earlier gates preserved.</td><td>67/67 fresh; no measured width overflow across four actual viewport sizes. All 276 historical frozen entries unchanged.</td><td>Earlier metadata defects were corrected in the final instrument.</td><td>Inspector needs vertical scrolling; OS reduced-motion preference was not emulated; historical screenshot attempts failed.</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>Four original captures</h2>
+<p>Click an image to inspect the unmodified original. Final C0/C1/C2 share an actual <strong>1239×720</strong> viewport, fixed camera, scale and scene framing. This recorded display condition differs from earlier 1280×720 captures; 1280×720 was also tested separately.</p>
+<div class="capture-grid">
+<figure><a href="/evidence/gate-3/screenshots/003-C0-paused-0s.jpg"><img src="/evidence/gate-3/screenshots/003-C0-paused-0s.jpg" width="1239" height="720" alt="Final run at zero seconds: A and B coincide and their distinct source coordinates remain visible"></a><figcaption><strong>0 s · one projected site</strong>Final candidate 003. Source distance 2; projected distance 0. Both IDs remain present.</figcaption></figure>
+<figure><a href="/evidence/gate-3/screenshots/003-C1-paused-16s.jpg"><img src="/evidence/gate-3/screenshots/003-C1-paused-16s.jpg" width="1239" height="720" alt="Final run at sixteen seconds: A and B are separated under the unchanged camera"></a><figcaption><strong>16 s · known 90° source turn</strong>Final candidate 003. Projected distance 2 with the same camera, scale and framing as the first capture.</figcaption></figure>
+<figure><a href="/evidence/gate-3/screenshots/003-C2-active-reverse.jpg"><img src="/evidence/gate-3/screenshots/003-C2-active-reverse.jpg" width="1239" height="720" alt="Final run visibly playing during its reverse segment at 26.7 seconds and 29.7 degrees"></a><figcaption><strong>Active return · 26.7 s / 29.7°</strong>Final candidate 003 visibly reads PLAYING. Surrounding observations bracket the image at 26656–26823 ms; no atomic capture time is invented.</figcaption></figure>
+<figure><a href="/evidence/gate-3/screenshots/001-inspector-scroll.jpg"><img src="/evidence/gate-3/screenshots/001-inspector-scroll.jpg" width="1280" height="720" alt="Preserved candidate001 inspector and library view at the recorded metadata failure"></a><figcaption><strong>Preserved failure · candidate 001</strong>After scrolling, measured scene y was −1067.25 while the inspector retained 291.25. This image preserves the UI context; the <a href="/evidence/gate-3/G3-TESSERACT-001-browser-failure.json">numeric failure record</a> establishes the mismatch.</figcaption></figure>
+</div>
+<p class="links"><a href="/evidence/gate-3/screenshots/003-C3-observability-comparison.jpg">Final three-condition comparison</a><a href="/evidence/gate-3/capture-index.json">All 23 capture records and hashes</a><a href="/evidence/gate-3/screenshots/003-resize-960x720-json.jpg">Narrow inspector original</a></p>
+</section>
+
+<section class="panel">
+<h2>Two corrections, with the failures retained</h2>
+<ul>
+<li><strong>001 · g3-2137b012118cbd13.</strong> Actual inspector scene metadata stayed stale after scrolling, and initial DPR disagreed with the separate browser reading. Four observations and the original failed capture remain preserved.</li>
+<li><strong>002 · g3-d82f221e5cda2757.</strong> Metadata refresh was repaired. Its 93 observations, 16 originals and 46 events supported 11/12 browser checks. Automatic stop had the correct origin and time but said <code>canonical end</code> instead of the frozen <code>end-of-sequence</code>. The <a href="/evidence/gate-3/candidates/G3-TESSERACT-002/BOUNDED_SNAPSHOT.json">bounded candidate snapshot</a> is retained.</li>
+<li><strong>003 · g3-6c31bc16aeca4460.</strong> The reason label and run identity changed; model equations, projection, camera and rendered geometry did not. The final repeated trial passed 12/12 browser checks and 14/14 live-route checks. Earlier images and logs were not relabeled.</li>
+</ul>
+<p>All 276 frozen Gate 0/1/2 artifacts remain unchanged. The Gate 2 library link was actually opened from candidate 002 and identified through DOM/accessibility as <code>G2-HOPF-003 / g2-ccabad12693f86a8</code>. Candidate 003 retains that same link. Two historical-tab screenshot calls failed; no historical image is claimed.</p>
+<p class="note">The inspector’s exact JSON still requires substantial vertical scrolling. Paused opening and manual stepping were exercised; an operating-system reduced-motion preference was not changed or tested. No participant comprehension, visual superiority over a plain table, physical extra dimension or video result is asserted.</p>
+</section>
+
+<section>
+<h2>Inspect and recover</h2>
+<p class="links"><a href="/evidence/gate-3/HOST_OBSERVATIONS.md">Host observations and limits</a><a href="/evidence/gate-3/browser-observations.json">Actual browser states</a><a href="/evidence/gate-3/activity-snapshot.jsonl">Final actual events</a><a href="/evidence/gate-3/browser-tool-anomalies.json">Tool anomalies</a><a href="/evidence/gate-3/historical-gate2-review.json">Historical identity check</a><a href="/evidence/gate-3/post-browser-prior-integrity.json">Prior artifact hashes</a><a href="/evidence/gate-3/execution-provenance.json">Agent roles and settings</a></p>
+<p>If the local preview stops, start the exact tested snapshot:</p>
+<pre><code>node /Users/paul/BTC-Learning/experiments/looking-glass/hypercube/builds/g3-6c31bc16aeca4460/server.mjs</code></pre>
+<p class="muted">Then open <a href="http://127.0.0.1:43996/">the local replay</a>. Node v24.10.0 was tested; built-ins and SVG only, with no packages, lockfile or external assets. This page is a static local evidence view; it sends no approval and advances no experiment.</p>
+</section>
+
+<footer class="footer">
+<div class="eyebrow">Next named decision · not yet approved</div>
+<h2>Gate 4: slices, projections and ambiguity</h2>
+<p>The proposed next deliverables are an analytic 4D-ball slice with center, interior, boundary and empty cases; an explicit projection comparison; and a bounded ambiguity example. None of that work has begun.</p>
+<p><strong>Approve Gate 4, request Gate 3 revisions, or pause.</strong> The decision belongs in Paul’s actual conversation. No interaction with this page counts as approval.</p>
+</footer>
+</main>
+</body>
+</html>

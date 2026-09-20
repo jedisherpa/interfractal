@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "development-tasks/1",
+  "worldId": "TILE18-v1",
+  "tasks": [
+    {
+      "id": "D01",
+      "scope": "all",
+      "question": "Report active demand from the supplied evidence, not from unseen cards.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "demand": "integer|null",
+        "requirementVersion": "integer|null"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D02",
+      "scope": "all",
+      "question": "Report active physical capacities; preserve superseded sources as history.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "press": "integer|null",
+        "cart": "integer|null",
+        "varnish": "integer|null"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D03",
+      "scope": "all",
+      "question": "Keep P12 understanding, endorsement and resource commitments separate.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "araUnderstands": "supported|refuted|conflicted|unknown",
+        "araEndorses": "supported|refuted|conflicted|unknown",
+        "araPress6": "supported|refuted|conflicted|unknown",
+        "beaEndorses": "supported|refuted|conflicted|unknown",
+        "beaCart2": "supported|refuted|conflicted|unknown"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D04",
+      "scope": "all",
+      "question": "Identify the P10 predicates separately; absence is unknown.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "araExplores": "supported|refuted|conflicted|unknown",
+        "araUnderstands": "supported|refuted|conflicted|unknown",
+        "araPress5": "supported|refuted|conflicted|unknown",
+        "beaCart1": "supported|refuted|conflicted|unknown",
+        "cyVarnish1": "supported|refuted|conflicted|unknown"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D05",
+      "scope": "all",
+      "question": "Distinguish the recorded model attribution from actual Ara endorsement of P12, and inspect Dev\u2019s mandate.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "modelAttributesAraEndorsement": "supported|refuted|conflicted|unknown",
+        "araEndorses": "supported|refuted|conflicted|unknown",
+        "devMayDescribe": "supported|refuted|conflicted|unknown",
+        "devMayCommit": "supported|refuted|conflicted|unknown"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D06",
+      "scope": "all",
+      "question": "Evaluate the P10 inspection reports for the same plan version and scope.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "inspection": "supported|refuted|conflicted|unknown"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D07",
+      "scope": "all",
+      "question": "Evaluate each catalog plan relative to only supplied evidence; report component statuses.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "P8.physical": "supported|refuted|conflicted|unknown",
+        "P8.demand": "supported|refuted|conflicted|unknown",
+        "P8.commitment": "supported|refuted|conflicted|unknown",
+        "P8.inspection": "supported|refuted|conflicted|unknown",
+        "P8.readiness": "supported|refuted|conflicted|unknown",
+        "P12.physical": "supported|refuted|conflicted|unknown",
+        "P12.demand": "supported|refuted|conflicted|unknown",
+        "P12.commitment": "supported|refuted|conflicted|unknown",
+        "P12.inspection": "supported|refuted|conflicted|unknown",
+        "P12.readiness": "supported|refuted|conflicted|unknown",
+        "P10.physical": "supported|refuted|conflicted|unknown",
+        "P10.demand": "supported|refuted|conflicted|unknown",
+        "P10.commitment": "supported|refuted|conflicted|unknown",
+        "P10.inspection": "supported|refuted|conflicted|unknown",
+        "P10.readiness": "supported|refuted|conflicted|unknown"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D08",
+      "scope": "all",
+      "question": "Choose the minimum-cost supported-ready plan, or none_supported. None does not assert impossibility.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "selection": "P8|P12|P10|none_supported",
+        "output": "integer|null",
+        "cost": "integer|null"
+      },
+      "initialAccess": true
+    },
+    {
+      "id": "D09",
+      "scope": "union_only",
+      "question": "For Cy/P10 varnish, count distinct positive commitment lineages and maximum granted amount. Preserve every restatement source.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "lineageCount": "integer",
+        "maxQuantity": "integer"
+      },
+      "initialAccess": false
+    },
+    {
+      "id": "D10",
+      "scope": "union_only",
+      "question": "Classify C06/C13 and C13/C14 by surface and normalized relation. Normalized relation includes predicate and all directed argument roles.",
+      "responseFields": [
+        "values",
+        "evidence",
+        "missingDependencies"
+      ],
+      "scoringAtoms": {
+        "C06_C13": "same_surface_different_relation|same_relation|unknown",
+        "C13_C14": "different_surface_same_relation|different_relation|unknown"
+      },
+      "initialAccess": false
+    }
+  ],
+  "initialTaskIds": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08"
+  ],
+  "postUnionTaskIds": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10"
+  ],
+  "provenanceRule": "Every atom has evidence array of exact supplied claim IDs or rule IDs. Unknown has [] plus named missing dependency. Derived atoms list primitive support/contradiction claim IDs and rule IDs. No answer key is included."
+}

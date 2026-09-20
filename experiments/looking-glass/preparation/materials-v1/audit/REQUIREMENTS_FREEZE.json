@@ -1,0 +1,16 @@
+{
+  "recordedAtUtc": "2026-09-20T21:04:08.341443+00:00",
+  "status": "Independent requirements read before auditor accesses authored materials or key; not artifact acceptance.",
+  "files": [
+    {
+      "path": "preparation/materials-v1/audit/requirements-checklist.md",
+      "sha256": "bda3f96ed2ebf7cfb15133e185a4f83f4892315ec05e018e8f856cbc2fa34c9a",
+      "bytes": 9822
+    },
+    {
+      "path": "preparation/materials-v1/audit/requirements-checklist.json",
+      "sha256": "54a360bc568ec92271d321ca45998daa3bf8cbdd1aa61c8de01203fbca9b0073",
+      "bytes": 2880
+    }
+  ]
+}

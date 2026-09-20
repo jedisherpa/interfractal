@@ -1,0 +1,14 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T02:30:53.545366+00:00",
+  "source": "actual user message in this task",
+  "user_message": "Gate 3: a 4D object and its moving 3D shadow",
+  "interpretation": "Clear ordinary-language selection of the named next stage in response to Gate3 approval question.",
+  "approved_gate": 3,
+  "approved_scope": "Genuine 4D hypercube, controlled x-w rotation and 3D projection, known-transform rank/reconstruction checks, reproducible replay; Gate4 not approved.",
+  "reviewed_run_id": "G2-HOPF-003",
+  "reviewed_build_id": "g2-ccabad12693f86a8",
+  "reviewed_commit": "bf2be1afe85874edbaf4e59cbbc48a37991553fc",
+  "reviewed_packet_sha256": "9e8f8096de5bc84e06e7ab6ba545105bf70f2ca692dc3b7b8e7fc261ec8f3bd1",
+  "reviewed_freeze_manifest_sha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+  "gate_4_approved": false
+}

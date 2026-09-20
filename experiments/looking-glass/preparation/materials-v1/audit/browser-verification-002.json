@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "materials-browser-evidence-audit/2",
+  "candidate": "002",
+  "status": "PASS_QUALIFIED",
+  "observations": 14,
+  "sourceRecordsMatched": 252,
+  "toolCompletions": 7,
+  "intentMatchedTransitions": 5,
+  "intentMismatches": 2,
+  "originalJpegs": 3,
+  "consoleEntries": 0,
+  "viewports": [
+    "1279x904",
+    "1280x720"
+  ],
+  "previewOnlyCandidateLabelChanged": true,
+  "qualification": "First completed click did not open C04; next action labeled close actually opened it. Failure and labels retained; later keyboard/mouse transitions succeeded. Viewport shift cause unknown.",
+  "limits": [
+    "Researcher full-union overview, not participant isolation",
+    "No actual model or human observations"
+  ],
+  "errors": []
+}

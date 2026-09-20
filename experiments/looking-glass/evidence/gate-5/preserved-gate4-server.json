@@ -1,0 +1,9 @@
+{
+  "checkedAtUtc": "2026-09-20T03:49:36.884740+00:00",
+  "url": "http://127.0.0.1:43997/",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "reachable": true,
+  "exactRunBytesMatch": true,
+  "runSha256": "448d855783d753e6bd5462dbfca774f2c1d05afb1ecbc19e531a38d100e548f7"
+}

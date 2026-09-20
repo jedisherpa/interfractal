@@ -1,0 +1,13 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T03:49:36.884740+00:00",
+  "source": "actual user message in this task",
+  "user_message": "Approve **Gate 5: two additional coordinates in 5D**",
+  "approved_gate": 5,
+  "approved_scope": "Independent x-w and y-v five-dimensional model controls, 32-vertex/80-edge hypercube, conditional known-observation rank/recovery, two-parameter5D-ball slices and prespecified4D comparison tasks; Gate6 not approved.",
+  "reviewed_run_id": "G4-SLICES-002",
+  "reviewed_build_id": "g4-38777d5882ef08a6",
+  "reviewed_commit": "231780872da982cb87b54f004c287a078d26839b",
+  "reviewed_packet_sha256": "25a90475d3066fe3103fc697193405c980ee5cd0e86778909c6b3e1194f12acb",
+  "reviewed_freeze_manifest_sha256": "2c91c1c5eccaca75f44f3c29dd32d7797a02bbc45f4538e007ac390fc69b1ee9",
+  "gate_6_approved": false
+}

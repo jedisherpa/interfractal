@@ -1,0 +1,1008 @@
+{
+  "schemaVersion": "withheld-tasks/1",
+  "releasePolicy": "RESEARCH_TEAM_ONLY until all comparator final artifacts are frozen; never package with initial/revision prompts. Author key is never released to research participants. Context IDs are not exposed before transfer.",
+  "contexts": [
+    {
+      "id": "W01",
+      "cutoffTick": 10,
+      "surface": "Ready.",
+      "surfaceBindingClaimId": "W01-F7",
+      "entities": {
+        "actors": [
+          "LIN",
+          "NOA"
+        ],
+        "resources": [
+          {
+            "id": "bench",
+            "owner": "LIN"
+          },
+          {
+            "id": "courier",
+            "owner": "NOA"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "Q7",
+          "version": 1,
+          "output": 7,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LIN",
+              "resource": "bench",
+              "quantity": 3
+            },
+            {
+              "actor": "NOA",
+              "resource": "courier",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W01-F1",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LIN",
+            "resource": "bench"
+          },
+          "value": 3,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F1"
+        },
+        {
+          "id": "W01-F2",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "NOA",
+            "resource": "courier"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F2"
+        },
+        {
+          "id": "W01-F3",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 7,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F3"
+        },
+        {
+          "id": "W01-F4",
+          "predicate": "understands",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F4"
+        },
+        {
+          "id": "W01-F5",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F5"
+        },
+        {
+          "id": "W01-F6",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "NOA",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "courier",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F6"
+        },
+        {
+          "id": "W01-F7",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "bench",
+            "quantity": 3
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W01-F7"
+        }
+      ],
+      "task": "Evaluate Q7 at its catalog version. Return all four components, readiness, selection and LIN endorsement at version 1. Explain which relation the displayed utterance records."
+    },
+    {
+      "id": "W02",
+      "cutoffTick": 10,
+      "surface": "Ready.",
+      "surfaceBindingClaimId": "W02-F4",
+      "entities": {
+        "actors": [
+          "LIN",
+          "NOA"
+        ],
+        "resources": [
+          {
+            "id": "bench",
+            "owner": "LIN"
+          },
+          {
+            "id": "courier",
+            "owner": "NOA"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "Q7",
+          "version": 1,
+          "output": 7,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LIN",
+              "resource": "bench",
+              "quantity": 3
+            },
+            {
+              "actor": "NOA",
+              "resource": "courier",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W02-F1",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LIN",
+            "resource": "bench"
+          },
+          "value": 3,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W02-F1"
+        },
+        {
+          "id": "W02-F2",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "NOA",
+            "resource": "courier"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W02-F2"
+        },
+        {
+          "id": "W02-F3",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 7,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W02-F3"
+        },
+        {
+          "id": "W02-F4",
+          "predicate": "understands",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W02-F4"
+        },
+        {
+          "id": "W02-F5",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W02-F5"
+        },
+        {
+          "id": "W02-F6",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "NOA",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "courier",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W02-F6"
+        }
+      ],
+      "task": "Evaluate Q7 at its catalog version. Return all four components, readiness, selection and LIN endorsement at version 1. Explain which relation the displayed utterance records."
+    },
+    {
+      "id": "W03",
+      "cutoffTick": 10,
+      "surface": "Ready.",
+      "surfaceBindingClaimId": "W03-F7",
+      "entities": {
+        "actors": [
+          "LIN",
+          "NOA"
+        ],
+        "resources": [
+          {
+            "id": "bench",
+            "owner": "LIN"
+          },
+          {
+            "id": "courier",
+            "owner": "NOA"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "Q7",
+          "version": 2,
+          "output": 7,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LIN",
+              "resource": "bench",
+              "quantity": 3
+            },
+            {
+              "actor": "NOA",
+              "resource": "courier",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W03-F1",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LIN",
+            "resource": "bench"
+          },
+          "value": 3,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F1"
+        },
+        {
+          "id": "W03-F2",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "NOA",
+            "resource": "courier"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F2"
+        },
+        {
+          "id": "W03-F3",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 7,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F3"
+        },
+        {
+          "id": "W03-F4",
+          "predicate": "understands",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F4"
+        },
+        {
+          "id": "W03-F5",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F5"
+        },
+        {
+          "id": "W03-F6",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "NOA",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "courier",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F6"
+        },
+        {
+          "id": "W03-F7",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "bench",
+            "quantity": 3
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W03-F7"
+        }
+      ],
+      "task": "Evaluate Q7 at its catalog version. Return all four components, readiness, selection and LIN endorsement at version 1. Explain which relation the displayed utterance records."
+    },
+    {
+      "id": "W04",
+      "cutoffTick": 10,
+      "surface": "Ready.",
+      "surfaceBindingClaimId": "W04-F7",
+      "entities": {
+        "actors": [
+          "LIN",
+          "NOA"
+        ],
+        "resources": [
+          {
+            "id": "bench",
+            "owner": "LIN"
+          },
+          {
+            "id": "courier",
+            "owner": "NOA"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "Q7",
+          "version": 1,
+          "output": 7,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LIN",
+              "resource": "bench",
+              "quantity": 3
+            },
+            {
+              "actor": "NOA",
+              "resource": "courier",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W04-F1",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LIN",
+            "resource": "bench"
+          },
+          "value": 3,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F1"
+        },
+        {
+          "id": "W04-F2",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "NOA",
+            "resource": "courier"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F2"
+        },
+        {
+          "id": "W04-F3",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 7,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F3"
+        },
+        {
+          "id": "W04-F4",
+          "predicate": "understands",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F4"
+        },
+        {
+          "id": "W04-F5",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F5"
+        },
+        {
+          "id": "W04-F6",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "NOA",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "courier",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F6"
+        },
+        {
+          "id": "W04-F7",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "bench",
+            "quantity": 3
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F7"
+        },
+        {
+          "id": "W04-F8",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 2
+          },
+          "value": 8,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W04-F8",
+          "supersedes": [
+            "W04-F3"
+          ]
+        }
+      ],
+      "task": "Evaluate Q7 at its catalog version. Return all four components, readiness, selection and LIN endorsement at version 1. Explain which relation the displayed utterance records."
+    },
+    {
+      "id": "W05",
+      "cutoffTick": 10,
+      "surface": "Ready.",
+      "surfaceBindingClaimId": "W05-F7",
+      "entities": {
+        "actors": [
+          "LIN",
+          "NOA"
+        ],
+        "resources": [
+          {
+            "id": "bench",
+            "owner": "LIN"
+          },
+          {
+            "id": "courier",
+            "owner": "NOA"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "Q7",
+          "version": 1,
+          "output": 7,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LIN",
+              "resource": "bench",
+              "quantity": 3
+            },
+            {
+              "actor": "NOA",
+              "resource": "courier",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W05-F1",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LIN",
+            "resource": "bench"
+          },
+          "value": 3,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F1"
+        },
+        {
+          "id": "W05-F2",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "NOA",
+            "resource": "courier"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F2"
+        },
+        {
+          "id": "W05-F3",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 7,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F3"
+        },
+        {
+          "id": "W05-F4",
+          "predicate": "understands",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F4"
+        },
+        {
+          "id": "W05-F5",
+          "predicate": "endorses",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F5"
+        },
+        {
+          "id": "W05-F6",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "NOA",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "courier",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F6"
+        },
+        {
+          "id": "W05-F7",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "bench",
+            "quantity": 3
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F7"
+        },
+        {
+          "id": "W05-F8",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LIN",
+            "plan": "Q7",
+            "planVersion": 1,
+            "resource": "bench",
+            "quantity": 3
+          },
+          "value": false,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W05-F8"
+        }
+      ],
+      "task": "Evaluate Q7 at its catalog version. Return all four components, readiness, selection and LIN endorsement at version 1. Explain which relation the displayed utterance records."
+    },
+    {
+      "id": "W06-SHARED",
+      "cutoffTick": 10,
+      "surface": "X can supply 6. Y can supply 6.",
+      "entities": {
+        "actors": [
+          "LEE"
+        ],
+        "resources": [
+          {
+            "id": "bay",
+            "owner": "LEE"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "X",
+          "version": 1,
+          "output": 6,
+          "cost": 2,
+          "requires": [
+            {
+              "actor": "LEE",
+              "resource": "bay",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        },
+        {
+          "id": "Y",
+          "version": 1,
+          "output": 6,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LEE",
+              "resource": "bay",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W06-SHARED-CAP-bay",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LEE",
+            "resource": "bay"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SHARED-CAP-bay"
+        },
+        {
+          "id": "W06-SHARED-D",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 12,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SHARED-D"
+        },
+        {
+          "id": "W06-SHARED-K-X",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LEE",
+            "plan": "X",
+            "planVersion": 1,
+            "resource": "bay",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SHARED-K-X"
+        },
+        {
+          "id": "W06-SHARED-K-Y",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LEE",
+            "plan": "Y",
+            "planVersion": 1,
+            "resource": "bay",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SHARED-K-Y"
+        }
+      ],
+      "allowedBundles": [
+        [],
+        [
+          "X"
+        ],
+        [
+          "Y"
+        ],
+        [
+          "X",
+          "Y"
+        ]
+      ],
+      "task": "Enumerate all allowed bundles. Sum demands on the same resource ID, outputs and costs. Check required commitments and choose cheapest supported-ready bundle, or none_supported. Empty bundle has physical/commitment/inspection supported, output/cost 0."
+    },
+    {
+      "id": "W06-SPLIT",
+      "cutoffTick": 10,
+      "surface": "X can supply 6. Y can supply 6.",
+      "entities": {
+        "actors": [
+          "LEE"
+        ],
+        "resources": [
+          {
+            "id": "bayX",
+            "owner": "LEE"
+          },
+          {
+            "id": "bayY",
+            "owner": "LEE"
+          }
+        ]
+      },
+      "plans": [
+        {
+          "id": "X",
+          "version": 1,
+          "output": 6,
+          "cost": 2,
+          "requires": [
+            {
+              "actor": "LEE",
+              "resource": "bayX",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        },
+        {
+          "id": "Y",
+          "version": 1,
+          "output": 6,
+          "cost": 3,
+          "requires": [
+            {
+              "actor": "LEE",
+              "resource": "bayY",
+              "quantity": 1
+            }
+          ],
+          "inspectionRequired": false
+        }
+      ],
+      "facts": [
+        {
+          "id": "W06-SPLIT-CAP-bayX",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LEE",
+            "resource": "bayX"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SPLIT-CAP-bayX"
+        },
+        {
+          "id": "W06-SPLIT-CAP-bayY",
+          "predicate": "capacity",
+          "arguments": {
+            "actor": "LEE",
+            "resource": "bayY"
+          },
+          "value": 1,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SPLIT-CAP-bayY"
+        },
+        {
+          "id": "W06-SPLIT-D",
+          "predicate": "demand",
+          "arguments": {
+            "requirement": "parcels",
+            "requirementVersion": 1
+          },
+          "value": 12,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SPLIT-D"
+        },
+        {
+          "id": "W06-SPLIT-K-X",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LEE",
+            "plan": "X",
+            "planVersion": 1,
+            "resource": "bayX",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SPLIT-K-X"
+        },
+        {
+          "id": "W06-SPLIT-K-Y",
+          "predicate": "resource_commitment",
+          "arguments": {
+            "actor": "LEE",
+            "plan": "Y",
+            "planVersion": 1,
+            "resource": "bayY",
+            "quantity": 1
+          },
+          "value": true,
+          "evidenceKind": "stipulated_source",
+          "lineageId": "W06-SPLIT-K-Y"
+        }
+      ],
+      "allowedBundles": [
+        [],
+        [
+          "X"
+        ],
+        [
+          "Y"
+        ],
+        [
+          "X",
+          "Y"
+        ]
+      ],
+      "task": "Enumerate all allowed bundles. Sum demands on the same resource ID, outputs and costs. Check required commitments and choose cheapest supported-ready bundle, or none_supported. Empty bundle has physical/commitment/inspection supported, output/cost 0."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "W01",
+      "contextIds": [
+        "W01"
+      ],
+      "scoringAtoms": {
+        "physical": "supported|refuted|conflicted|unknown",
+        "demand": "supported|refuted|conflicted|unknown",
+        "commitment": "supported|refuted|conflicted|unknown",
+        "inspection": "supported|refuted|conflicted|unknown",
+        "readiness": "supported|refuted|conflicted|unknown",
+        "selection": "Q7|none_supported",
+        "linEndorsesV1": "supported|refuted|conflicted|unknown",
+        "utterancePredicate": "understands|resource_commitment"
+      }
+    },
+    {
+      "id": "W02",
+      "contextIds": [
+        "W02"
+      ],
+      "scoringAtoms": {
+        "physical": "supported|refuted|conflicted|unknown",
+        "demand": "supported|refuted|conflicted|unknown",
+        "commitment": "supported|refuted|conflicted|unknown",
+        "inspection": "supported|refuted|conflicted|unknown",
+        "readiness": "supported|refuted|conflicted|unknown",
+        "selection": "Q7|none_supported",
+        "linEndorsesV1": "supported|refuted|conflicted|unknown",
+        "utterancePredicate": "understands|resource_commitment"
+      }
+    },
+    {
+      "id": "W03",
+      "contextIds": [
+        "W03"
+      ],
+      "scoringAtoms": {
+        "physical": "supported|refuted|conflicted|unknown",
+        "demand": "supported|refuted|conflicted|unknown",
+        "commitment": "supported|refuted|conflicted|unknown",
+        "inspection": "supported|refuted|conflicted|unknown",
+        "readiness": "supported|refuted|conflicted|unknown",
+        "selection": "Q7|none_supported",
+        "linEndorsesV1": "supported|refuted|conflicted|unknown",
+        "utterancePredicate": "understands|resource_commitment"
+      }
+    },
+    {
+      "id": "W04",
+      "contextIds": [
+        "W04"
+      ],
+      "scoringAtoms": {
+        "physical": "supported|refuted|conflicted|unknown",
+        "demand": "supported|refuted|conflicted|unknown",
+        "commitment": "supported|refuted|conflicted|unknown",
+        "inspection": "supported|refuted|conflicted|unknown",
+        "readiness": "supported|refuted|conflicted|unknown",
+        "selection": "Q7|none_supported",
+        "linEndorsesV1": "supported|refuted|conflicted|unknown",
+        "utterancePredicate": "understands|resource_commitment"
+      }
+    },
+    {
+      "id": "W05",
+      "contextIds": [
+        "W05"
+      ],
+      "scoringAtoms": {
+        "physical": "supported|refuted|conflicted|unknown",
+        "demand": "supported|refuted|conflicted|unknown",
+        "commitment": "supported|refuted|conflicted|unknown",
+        "inspection": "supported|refuted|conflicted|unknown",
+        "readiness": "supported|refuted|conflicted|unknown",
+        "selection": "Q7|none_supported",
+        "linEndorsesV1": "supported|refuted|conflicted|unknown",
+        "utterancePredicate": "understands|resource_commitment"
+      }
+    },
+    {
+      "id": "W06",
+      "contextIds": [
+        "W06-SHARED",
+        "W06-SPLIT"
+      ],
+      "scoringAtoms": {
+        "eachBundle": "physical,demand,commitment,inspection,readiness,output,cost",
+        "selection": "ordered plan ID array|none_supported"
+      }
+    }
+  ],
+  "relationTransferQuestion": "For each context explain the task-relevant relation using directed argument roles, and whether surface similarity alone is sufficient. No universal meaning claim."
+}

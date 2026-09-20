@@ -1,0 +1,61 @@
+{
+  "schema": "gate11-closed-review-allowlist-v1",
+  "approvedBy": "Host, within actual user-approved Gate11 review and prior private-publication scope",
+  "createdAtUtc": "2026-09-20T18:32:51.656546+00:00",
+  "assets": [
+    {
+      "route": "/review/images/changed-receiver-witness.jpg",
+      "path": "review/images/changed-receiver-witness.jpg",
+      "sha256": "eaf9ea55f047f35b624b846bffaea505337365906c289e1a346ddb2453b2fa64",
+      "bytes": 65650
+    },
+    {
+      "route": "/review/images/initial-count-summary.jpg",
+      "path": "review/images/initial-count-summary.jpg",
+      "sha256": "6b473cc1d1c8bc97abdd6b6d1deeaf4172c501aab175861dc00b728969a31e2a",
+      "bytes": 109993
+    },
+    {
+      "route": "/review/images/minimal-repair-diagram.jpg",
+      "path": "review/images/minimal-repair-diagram.jpg",
+      "sha256": "3dbfac9d4ce6f07900e9c2d7ed0fdfd7e9a0b9bd8f5d0de6c505830a0881db97",
+      "bytes": 90954
+    },
+    {
+      "route": "/review/images/minimal-repair-plain.jpg",
+      "path": "review/images/minimal-repair-plain.jpg",
+      "sha256": "7ada62b25d1283c29398c4a26c08ac74cff49505d6929d0f795644eaceb2e9bc",
+      "bytes": 103408
+    },
+    {
+      "route": "/review/images/natural-tour-end.jpg",
+      "path": "review/images/natural-tour-end.jpg",
+      "sha256": "5801f84285efd7074f0ed9eacf959b6bcfa7ec4c8bb9e11eb36b76fb1d001b7c",
+      "bytes": 111637
+    },
+    {
+      "route": "/review/images/partial-negative-narrow.jpg",
+      "path": "review/images/partial-negative-narrow.jpg",
+      "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16",
+      "bytes": 88356
+    },
+    {
+      "route": "/review/replay-collection.json",
+      "path": "review/replay-collection.json",
+      "sha256": "d6ce0979039a33538269884388d9debceae10c2c7de964be467acc1d9b0aeae0",
+      "bytes": 8407
+    },
+    {
+      "route": "/review/results.html",
+      "path": "review/results.html",
+      "sha256": "ce813b42824eb06cd8b1e72f900e66ef527b7a8b37b92237bb3562b9c67efdc6",
+      "bytes": 13588
+    },
+    {
+      "route": "/review/source-review.md",
+      "path": "review/source-review.md",
+      "sha256": "ff32fa87a3e830e3dd2277659a4c4e72edd904b549399c10d331a07d171d31c9",
+      "bytes": 4535
+    }
+  ]
+}

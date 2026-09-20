@@ -1,0 +1,852 @@
+[
+  {
+    "index": 0,
+    "label": "reloaded-final-scope",
+    "recordedAtUtc": "2026-09-20T20:53:43.095Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 5784.5,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": false,
+        "width": 0,
+        "height": 0,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": false,
+        "width": 0,
+        "height": 0,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 1,
+    "label": "preparation-scope-and-next-decision-before",
+    "recordedAtUtc": "2026-09-20T20:53:43.128Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 5784.5,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": false,
+        "width": 0,
+        "height": 0,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": false,
+        "width": 0,
+        "height": 0,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 2,
+    "label": "preparation-scope-and-next-decision-after",
+    "recordedAtUtc": "2026-09-20T20:53:43.194Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 5784.5,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": false,
+        "width": 0,
+        "height": 0,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": false,
+        "width": 0,
+        "height": 0,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 3,
+    "label": "comparison-after-scope-change",
+    "recordedAtUtc": "2026-09-20T20:53:53.183Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1464.5,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 4,
+    "label": "comparison-evidence-before",
+    "recordedAtUtc": "2026-09-20T20:53:53.200Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1464.5,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 5,
+    "label": "comparison-evidence-after",
+    "recordedAtUtc": "2026-09-20T20:53:53.281Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 1464.5,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 6,
+    "label": "returned-top",
+    "recordedAtUtc": "2026-09-20T20:53:53.515Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 7,
+    "label": "final-results-top-before",
+    "recordedAtUtc": "2026-09-20T20:53:53.548Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 8,
+    "label": "final-results-top-after",
+    "recordedAtUtc": "2026-09-20T20:53:53.615Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  },
+  {
+    "index": 9,
+    "label": "actual-next-decision-click",
+    "recordedAtUtc": "2026-09-20T20:54:13.483Z",
+    "url": "http://127.0.0.1:44006/review/results.html#next",
+    "title": "Gate 13 results — A persuasive but wrong view",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 5910,
+      "documentWidth": 1280,
+      "documentHeight": 6630
+    },
+    "text": "LOOKING GLASS · GATE 13 · PUBLIC AUTHORED COUNTEREXAMPLE\nA persuasive but wrong view\nPASS within the declared software scope · candidate 002\n\nThe cropped bars have a ratio of 2. The unchanged counts establish 9/8. The correction preserves both the source and the false original.\n\n“Persuasive” names the challenge, not an observed effect. Zero humans participated. No susceptibility, belief change, confidence calibration or debrief efficacy was measured.\n\nOpen paused instrument\nAll 14 preserved replays\nPrimary-source review\nNext decision\n\nG13-MISLEAD-002 · g13-5b8514d97acc3485aabf\n\n2\ncropped length ratio · 20/10\n9/8\ncount ratio · 90/80\n0\nsource facts changed\nThe headline and the source disagree\n\nThe fictional source says A completed 80 tiles and B completed 90. The authored headline says B completed twice as many. Starting the axis at 70 makes the remaining lengths 10 and 20. Their ratio is 2, while the counts' ratio is 9/8. Count labels and the baseline remain visible and inspectable.\n\nUntouched candidate 002 capture after checking/correction. The false original remains available with its correction marker; this is not a first-exposure image.\nThe correction states 10 more tiles, or 9/8 as many, and restores a zero baseline. It changes no source fact.\nCorrection is conditional\nCase\tA / B\tOriginal statement\tRecorded result\nCropped baseline\t80 / 90\tFalse: 90 ≠ 2×80\tDifference 10; count ratio 9/8.\nAccurate control\t40 / 80\tTrue: 80 = 2×40\tNo correction record.\nZero control\t0 / 10\tFalse: 10 ≠ 2×0\tDifference 10; ratio undefined.\n\nEvery original states “B completed twice as many tiles as A.” These are stipulated counts within fictional windows, not rates or production measurements. An undefined ratio does not make the equality undecidable.\n\nThe zero-control debrief invents no percentage, infinity value or positive A bar.\nSame checking evidence, retained history\n\nVisual and plain views expose the same counts, bounds, encoding key, source inspection, check, correction and history operations. All answers are public. The browser retained three checks, two corrections and one reused check. Three actual visual/plain information pairs and 18 checkpoint comparisons match.\n\nThe plain view preserves the debrief and record links. Same information does not establish equal human effort or a visual advantage.\n\nCandidate 002 has 108 complete observations, 91 tool-completed action attempts, no failed attempts, five untouched originals and an empty captured console. All snapshot semantic/information hashes and viewport/scene measurements match. Its first-document export has 65 events and all five local records. Reload starts a new UUID with no local records; its 15-event natural export and later 19-event final export are prefixes of the same second document. Each export includes its own event.\n\nThe independent final audit passes within the declared software scope: 26/26 focused checks, all 108 captured-state comparisons, 138 closed-core pins, 84 preserved failure pins and 1,745 earlier frozen entries. Separate packaged checks passed 73/73, controlled publication checks 15/15 and saved-tour regression checks 27/27. The final verifier imports no implementation module.\n\nCandidate 001 remains a failure. Its saved-tour controls could lose scripted record bindings; the enabled correction control then threw an error. Its advertised correction availability also disagreed with the disabled button. Candidate 002 keeps inspection in the saved mode, corrects the operation metadata and validates changes before applying them. Only explicit Start/Case controls enter local review.\n\nThe fix was exercised at saved checkpoints 8, 12, 16 and 20, including correction/record inspection after reload with no local history. Candidate 001 also retains a separate first local click with no observed effect and a dependent disabled-button failure; that click's cause remains unexplained. Across both candidates and the follow-up: 204 observations, 165 attempted actions, 164 tool completions, one tool failure and 12 originals. Tool completion alone does not prove an effective transition.\n\nWatch the 24-second tour\n\nOpen the paused instrument, choose Reopen saved start, then Play. Evidence opens at 4 seconds; the original is checked at 8; correction/debrief appears at 12; the plain view at 16; and the retained original at 20. At 24 the opening display restores and stops automatically. The actual run took 24.002 seconds and recorded all seven scheduled events.\n\nFor local work, choose Start local review, inspect sources, check the statement and apply correction/debrief. Switch retained versions and inspect the controls. Saved inspection pauses while retaining scripted records. Export local work before reload; it is held in document memory.\n\nActive snapshots cover each four-second interval, followed by the paused end; this is not continuous observation. Both 1280×720 and 960×720 layouts were checked. The viewport reset call preceded the measured return to 1280×720. Lower controls and JSON panels require scrolling; OS reduced-motion was not tested.\n\nExact local restart\nA bounded result toward a preparation-only goal\n\nPandey and colleagues (2014) and Wijnker and colleagues (2026) provide empirical context for visual persuasion and correction. Their human findings do not validate this fixture's effects. See the bounded source review.\n\nActual roles: GPT-6 Astra xhigh specification/synthesis; GPT-5.6 Luna high sources; GPT-5.6 Sol high implementation and a separate Sol high auditor; host-supported browser controls and evidence preservation. These software workers are not research participants.\n\nThe user has narrowed the goal to preparation: reviewed 18-card materials, key and withheld tasks; schema, prompts, budgets and comparator/analysis plans; an accepted equivalent plain/visual instrument; human protocol/readiness documents; independent review; and an updated preparation ZIP. These deliverables remain incomplete.\n\nActual four-agent output collection and human interviews, pilots, comparisons, mechanism and cross-scale/durability studies are deferred and are not completion blockers. Real owner, consent, setting and review approvals remain explicit future-execution dependencies where applicable. Engineering workers are not the four research participants. Earlier gates remain preserved, including Gate 10's negative result.\n\nNext decision\n\nApprove Gate 14 — Geometry ablations?\n\nGate 14 remains unapproved and unrun. The separate materials/key review advances preparation; neither decision authorizes deferred research-agent or human collection.\n\nThis report covers the software/browser core. Presentation and public-route review are separate handoff evidence. No complete-program or human-outcome claim follows.",
+    "links": [
+      {
+        "text": "Open paused instrument",
+        "href": "/"
+      },
+      {
+        "text": "All 14 preserved replays",
+        "href": "/review/replay-collection.json"
+      },
+      {
+        "text": "Primary-source review",
+        "href": "/review/source-review.md"
+      },
+      {
+        "text": "Next decision",
+        "href": "#next"
+      },
+      {
+        "text": "Pandey and colleagues (2014)",
+        "href": "https://doi.org/10.1109/TVCG.2014.2346419"
+      },
+      {
+        "text": "Wijnker and colleagues (2026)",
+        "href": "https://doi.org/10.1371/journal.pone.0340100"
+      },
+      {
+        "text": "bounded source review",
+        "href": "/review/source-review.md"
+      }
+    ],
+    "images": [
+      {
+        "src": "/review/images/misleading-original-retained.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Retained original with false twice-count headline, 80 and 90 count labels, and cropped 70-to-100 axis."
+      },
+      {
+        "src": "/review/images/corrected-count-comparison.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Corrected zero-baseline chart with unchanged 80 and 90 counts and exact 9/8 comparison."
+      },
+      {
+        "src": "/review/images/zero-control-plain-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain zero-control correction with known 10-tile difference and explicitly undefined ratios."
+      },
+      {
+        "src": "/review/images/plain-correction-and-debrief.jpg",
+        "complete": true,
+        "width": 960,
+        "height": 720,
+        "alt": "Plain original-check diagnosis, correction explanation, source links and immutable review history."
+      }
+    ],
+    "headings": [
+      "A persuasive but wrong view",
+      "The headline and the source disagree",
+      "Correction is conditional",
+      "Same checking evidence, retained history",
+      "Watch the 24-second tour",
+      "A bounded result toward a preparation-only goal",
+      "Next decision"
+    ]
+  }
+]

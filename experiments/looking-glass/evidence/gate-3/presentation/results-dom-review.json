@@ -1,0 +1,134 @@
+{
+  "document": {
+    "clientWidth": 1280,
+    "scrollWidth": 1280
+  },
+  "headings": [
+    "A known turn reveals a difference one shadow hides.",
+    "Watch this",
+    "Expected and observed",
+    "Four original captures",
+    "Two corrections, with the failures retained",
+    "Inspect and recover",
+    "Gate 4: slices, projections and ambiguity"
+  ],
+  "images": [
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1239,
+      "src": "/evidence/gate-3/screenshots/003-C0-paused-0s.jpg"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1239,
+      "src": "/evidence/gate-3/screenshots/003-C1-paused-16s.jpg"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1239,
+      "src": "/evidence/gate-3/screenshots/003-C2-active-reverse.jpg"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 720,
+      "naturalWidth": 1280,
+      "src": "/evidence/gate-3/screenshots/001-inspector-scroll.jpg"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "label": "Open the paused replay"
+    },
+    {
+      "href": "/evidence/gate-3/GATE_3_PACKET.md",
+      "label": "Full review packet"
+    },
+    {
+      "href": "/evidence/gate-3/review/AUDIT.md",
+      "label": "Independent audit"
+    },
+    {
+      "href": "/evidence/gate-3/review/EXPERIMENT_CHARTER.md",
+      "label": "prespecified charter"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C0-paused-0s.jpg",
+      "label": "Final run at zero seconds: A and B coincide and their distinct source coordinates remain visible"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C1-paused-16s.jpg",
+      "label": "Final run at sixteen seconds: A and B are separated under the unchanged camera"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C2-active-reverse.jpg",
+      "label": "Final run visibly playing during its reverse segment at 26.7 seconds and 29.7 degrees"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/001-inspector-scroll.jpg",
+      "label": "Preserved candidate001 inspector and library view at the recorded metadata failure"
+    },
+    {
+      "href": "/evidence/gate-3/G3-TESSERACT-001-browser-failure.json",
+      "label": "numeric failure record"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-C3-observability-comparison.jpg",
+      "label": "Final three-condition comparison"
+    },
+    {
+      "href": "/evidence/gate-3/capture-index.json",
+      "label": "All 23 capture records and hashes"
+    },
+    {
+      "href": "/evidence/gate-3/screenshots/003-resize-960x720-json.jpg",
+      "label": "Narrow inspector original"
+    },
+    {
+      "href": "/evidence/gate-3/candidates/G3-TESSERACT-002/BOUNDED_SNAPSHOT.json",
+      "label": "bounded candidate snapshot"
+    },
+    {
+      "href": "/evidence/gate-3/HOST_OBSERVATIONS.md",
+      "label": "Host observations and limits"
+    },
+    {
+      "href": "/evidence/gate-3/browser-observations.json",
+      "label": "Actual browser states"
+    },
+    {
+      "href": "/evidence/gate-3/activity-snapshot.jsonl",
+      "label": "Final actual events"
+    },
+    {
+      "href": "/evidence/gate-3/browser-tool-anomalies.json",
+      "label": "Tool anomalies"
+    },
+    {
+      "href": "/evidence/gate-3/historical-gate2-review.json",
+      "label": "Historical identity check"
+    },
+    {
+      "href": "/evidence/gate-3/post-browser-prior-integrity.json",
+      "label": "Prior artifact hashes"
+    },
+    {
+      "href": "/evidence/gate-3/execution-provenance.json",
+      "label": "Agent roles and settings"
+    },
+    {
+      "href": "http://127.0.0.1:43996/",
+      "label": "the local replay"
+    }
+  ],
+  "title": "Looking Glass · Gate 3 results",
+  "url": "http://127.0.0.1:43996/evidence/gate-3/results.html",
+  "viewport": {
+    "devicePixelRatio": 2,
+    "height": 720,
+    "width": 1280
+  }
+}

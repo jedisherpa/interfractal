@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "gate-2-reference-mappings-v1",
+  "referenceDefinitions": [
+    {
+      "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+      "version": 1,
+      "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+      "mappingVersion": "gate-2-reference-mapping-v1",
+      "criteria": "A venue with a supplied capacity >=60 maps to yes; a supplied smaller capacity maps to no. Non-venue/context records are unmapped. Missing venue capacity would be unknown/unmapped; never infer it.",
+      "id": "R_CAPACITY_60",
+      "wording": "Which venues can hold at least 60 households?"
+    },
+    {
+      "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+      "version": 1,
+      "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+      "mappingVersion": "gate-2-reference-mapping-v1",
+      "criteria": "A venue whose supplied access fact is already accessible maps to yes; a venue explicitly requiring a portable ramp maps to no. Non-venue/context records are unmapped. Missing venue access would be unknown/unmapped; never infer it.",
+      "id": "R_EXISTING_ACCESS",
+      "wording": "Which venues already have wheelchair access without added equipment?"
+    }
+  ],
+  "yesBase": {
+    "id": "east",
+    "xyz": [
+      1,
+      0,
+      0
+    ]
+  },
+  "noBase": {
+    "id": "west",
+    "xyz": [
+      -1,
+      0,
+      0
+    ]
+  },
+  "placementDeclaration": "Yes/east and no/west are arbitrary categorical display positions, not quantities, physical directions, agreement, or mathematical consequences of Hopf geometry. Record phase is a fixed arbitrary display slot by immutable fixture order: Hall 0, Field pi/2, Studio pi. Phase is not time, importance, trust or endorsement. The unmapped record has no forced point or phase.",
+  "expectedAssignments": {
+    "R_CAPACITY_60": [
+      {
+        "recordId": "venue-hall",
+        "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+        "status": "mapped",
+        "answer": "yes",
+        "baseId": "east",
+        "displayPhaseRad": 0.0,
+        "relevant": true,
+        "reason": "60 households meets the 60-household threshold."
+      },
+      {
+        "recordId": "venue-field",
+        "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+        "status": "mapped",
+        "answer": "yes",
+        "baseId": "east",
+        "displayPhaseRad": 1.5707963267948966,
+        "relevant": true,
+        "reason": "80 households meets the 60-household threshold."
+      },
+      {
+        "recordId": "venue-studio",
+        "recordSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+        "status": "mapped",
+        "answer": "no",
+        "baseId": "west",
+        "displayPhaseRad": 3.141592653589793,
+        "relevant": true,
+        "reason": "50 households is below the 60-household threshold."
+      },
+      {
+        "recordId": "weather-context",
+        "recordSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+        "status": "unmapped",
+        "answer": null,
+        "baseId": null,
+        "displayPhaseRad": null,
+        "relevant": false,
+        "reason": "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing."
+      }
+    ],
+    "R_EXISTING_ACCESS": [
+      {
+        "recordId": "venue-hall",
+        "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+        "status": "mapped",
+        "answer": "no",
+        "baseId": "west",
+        "displayPhaseRad": 0.0,
+        "relevant": true,
+        "reason": "Supplied access fact: a portable ramp costing 2 tokens is required."
+      },
+      {
+        "recordId": "venue-field",
+        "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+        "status": "mapped",
+        "answer": "yes",
+        "baseId": "east",
+        "displayPhaseRad": 1.5707963267948966,
+        "relevant": true,
+        "reason": "Supplied access fact: already accessible; no added access equipment required."
+      },
+      {
+        "recordId": "venue-studio",
+        "recordSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+        "status": "mapped",
+        "answer": "yes",
+        "baseId": "east",
+        "displayPhaseRad": 3.141592653589793,
+        "relevant": true,
+        "reason": "Supplied access fact: already accessible; no added access equipment required."
+      },
+      {
+        "recordId": "weather-context",
+        "recordSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+        "status": "unmapped",
+        "answer": null,
+        "baseId": null,
+        "displayPhaseRad": null,
+        "relevant": false,
+        "reason": "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing."
+      }
+    ]
+  },
+  "expectedRoundTrip": "R_CAPACITY_60 → R_EXISTING_ACCESS → R_CAPACITY_60 restores exactly the same assignment data and mapping fingerprint; source hashes and all factual/history fields remain unchanged.",
+  "comparison": "Both immutable reference definitions and both complete assignment tables remain available side by side with identical source IDs/hashes; the plain equivalent exposes the same fields, reasons and records."
+}

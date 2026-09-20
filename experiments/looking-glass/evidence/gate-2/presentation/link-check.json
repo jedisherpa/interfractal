@@ -1,0 +1,203 @@
+{
+  "recordedAtUtc": "2026-09-20T02:14:02.626459+00:00",
+  "scope": "Read-only HTTP verification of every unique internal evidence/run href and image src in final static results.html. This is separate from actual browser operation.",
+  "passed": true,
+  "checks": [
+    {
+      "url": "/evidence/gate-2/GATE_2_PACKET.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "9e8f8096de5bc84e06e7ab6ba545105bf70f2ca692dc3b7b8e7fc261ec8f3bd1",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/HOST_OBSERVATIONS.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "18abc4d67088ef4884e174c2f72ab40c264b283c2f80ef677278d9a256a29ccb",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/activity-snapshot.jsonl",
+      "status": 200,
+      "contentType": "application/x-ndjson; charset=utf-8",
+      "sha256": "f8dc7d611c991ff003745c5cea1a640334faf97a6ea258aa8de1b60ae94aa3e4",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/browser-console.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "e46d139a6bd2243a45aa95086c806df791abe9b19857c5604a8a568fcb0b55a2",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/browser-observations.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "6e26b7b8b07cacc037363682c4a21ec8a38917efe58b635d7c869eb41c7ddcd7",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/browser-trace.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "9e8ee5197f82b6df7ce12b26236909acc2c808ebe345db7fda6f82f9dec29928",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/capture-index.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "0d70917c8b530d955dcfa7761a65e4bcd889bd5bcb552dc4331260571cb2bd61",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S0-fixed-comparison.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "784805d0226718ecfbeede420254972645f8cef104bd56fd3d743c8038b6759d",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S0-fixed-stable.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "7e41b2f9e89ac69a906c4b037c4dbe7dd98810a91ea179480bec3aa10969ba1d",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S1-fixed-comparison.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "935b7597a08a58c128734bcbfe2320c24399bfc936f0d1acf99118b53199f80a",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S3-south-infinity-controls.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "049ddd9750707507bbb58446bd012e0a7fa19bc2cf546ebb299e4fa2237fb94f",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S3-south-infinity-top.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "7368df210f1297248ff034ca5f3b12aceee3ff0e0fa34d72478bf698eb4f3087",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S4-hall-selected-confirmed.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "975b310d53a7cdf1e0c4f63bf3f461fcf43dade77019c95d1a30516e464c910b",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S5-hall-access-confirmed.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "e7f35daf5cd368c54c0b268310b61b377826e80b8f116344e9fb66791eb02cf2",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S5-unmapped-weather.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "8028b4e509273e6826665271bf7e0c3e5096272a812de155f674c2b11bd485b1",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/S6-reloaded-six.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "1d9faac9978bd42f09802406201dc0664e71a9eb2021c3ac725d8dbe5cc8adf6",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/plain-reference-comparison.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "5a07aaeb6ebdc2179529919d0355778942e1c1241377ce39c5450015bfcb5de1",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/captures/plain-source-history-horizontal.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "61515df7b97186c181a38a302174653cd043cd6a99f69b67a8942fcdb0d08178",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/execution-provenance.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "0ea311de0571cc775b3dcde78b7ea3b265d1fa2a97b1950d433c111d3121760e",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/plain-equivalent-dom.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "cbb48637924038155aed6c9806744e12f9a6b3a0bdefe88d2039ba97ebbedf98",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/post-browser-integrity.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "d0ef260d00b9bc573e725b338f5e80e314535132721bb233297a048b6c0a6f07",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/review/AUDIT.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "e7aa4c0a50489c5fc9497b96f0fb08271f050eea8808621e198db64eeceb44f8",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/review/browser-audit.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "a65d1da2aaba9d083fae999e8b13e9dcc79adb7d0e1c981d8172ddfc47bc2d8d",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/review/build-audit.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "90600a7f639ce927d0da9ebee3a60256f98a27c5f13cdb95ddc72f66929a10c3",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/evidence/gate-2/review/experiment-charter.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "84973cde2d9f27d30abb1ec25e7ab14e495a1774356d260bfe98777bb7c6b4f2",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/runs/G2-HOPF-003/checkpoints.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "10cc7df3fc219a679d62918925d386297ce349d7fe7dd5492bea5ba1191e7694",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/runs/G2-HOPF-003/events.jsonl",
+      "status": 200,
+      "contentType": "application/x-ndjson; charset=utf-8",
+      "sha256": "681a8d91a0f22f595848fe5b57089f3bfb904822b8c7eb66100a0214fe7293a4",
+      "matchesLocalBytes": true
+    },
+    {
+      "url": "/runs/G2-HOPF-003/run.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "5254a843c5668b6811cdd120b5420d03b61d8e43219a6becbf999ab530dc98d2",
+      "matchesLocalBytes": true
+    }
+  ]
+}

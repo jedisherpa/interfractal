@@ -1,0 +1,14 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T11:05:24.317817+00:00",
+  "source": "actual user message in this task",
+  "user_message": "Approve **Gate 10: Predict an unseen view and transfer**",
+  "approved_gate": 10,
+  "approved_scope": "Prespecified unfamiliar source/query combinations and a distinct transfer family; commit predictions before reveal; independent answer derivations and leakage checks, actual browser validation, replay, audit and bounded instrument synthesis. No human-study execution. Stop at Gate11 review.",
+  "reviewed_run_id": "G9-MATCHED-003",
+  "reviewed_build_id": "g9-15c3bf973fe0c6cd",
+  "reviewed_commit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+  "reviewed_packet_sha256": "a6384d749539c5bfe72bfddd13cdd6b0ca948365c32c0e051db3597ada372029",
+  "reviewed_freeze_manifest_sha256": "a587bb24738f70ee2ec9fa552dcd2512b54987e23fa5c84821a356eb10ca04cd",
+  "gate_11_approved": false,
+  "human_study_execution_authorized": false
+}

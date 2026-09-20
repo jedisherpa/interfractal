@@ -1,0 +1,50 @@
+{
+  "schema": "gate12-independent-handoff-audit-v1",
+  "verdict": "PASS_HANDOFF_OF_DECLARED_SOFTWARE_RESULT",
+  "scope": "Immutable Gate 12 synthesis, sealed core and presentation evidence, approved public review routes, and current replay readiness; no new browser experiment or human study.",
+  "runId": "G12-COORD-002",
+  "buildId": "g12-3c5526361a7cb2cc5c4a",
+  "verification": {
+    "path": "audit/gate-12/handoff-verification.json",
+    "script": "audit/gate-12/verify-handoff.mjs",
+    "status": "PASS",
+    "focusedChecks": 31,
+    "passed": 31,
+    "failed": 0
+  },
+  "sealedPins": {
+    "synthesisComponents": 109,
+    "closedCore": 102,
+    "prespec": 9,
+    "priorHistorical": 1613,
+    "presentation": 6
+  },
+  "servedReview": {
+    "allowlistedAssets": 8,
+    "getExactBytes": 8,
+    "headExactLengths": 8,
+    "forbiddenAndMutationProbes": "All denied on an isolated instance of the immutable server; no mutation probes were sent to the host's live server.",
+    "currentReplayIdentities": 13,
+    "replayIdentityRoutes": "Gates 0–9 /api/run; Gates 10–12 /run/run.json"
+  },
+  "rawActionCounts": {
+    "candidate001": {"attempted": 31, "completed": 29, "failed": 2},
+    "candidate002": {"attempted": 79, "completed": 79, "failed": 0},
+    "combined": {"attempted": 110, "completed": 108, "failed": 2}
+  },
+  "presentation": {
+    "sealedObservations": 9,
+    "sealedOriginalJpegs": 2,
+    "noHorizontalOverflow": true,
+    "fourEmbeddedCoreOriginalsLoadedAfterScroll": true,
+    "initialLazyImageIncompletenessRetained": true,
+    "lastSealedObservationViewport": [960, 720]
+  },
+  "qualifications": [
+    "The host called viewport reset before the last capture. That final sealed report observation remains 960 × 720, whose dimensions alone do not establish the internal override state.",
+    "The public canonical registry preloads scripted records; active display and event origins distinguish replay from local actions. Active frames do not cover all intervals, as the packet states.",
+    "This is a software handoff PASS. No human participated, no action was enacted, and Gate 13 remains unapproved and unrun.",
+    "The first audit-harness run reported one false failure because it required the exact report URL without its legitimate #next fragment. The corrected predicate accepts the report and its #next anchor; the final 31/31 result supersedes that transient, unfrozen harness output."
+  ],
+  "publicationState": "Final Gate 12 freeze, Git commit, and push remain pending with the host."
+}

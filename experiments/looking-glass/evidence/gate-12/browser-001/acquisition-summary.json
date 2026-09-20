@@ -1,0 +1,13 @@
+{
+  "runId": "G12-COORD-001",
+  "buildId": "g12-0d66d254f275f3663dee",
+  "status": "BLOCKED_RETAINED_OUTCOME_INSPECTION",
+  "observations": 43,
+  "hostActions": 31,
+  "originalImages": 6,
+  "criticalFirstUse": "Completed missing-proposal block, both local proposals, P2 selection, diagram/plain and export",
+  "stoppedAt": "Retained outcome L-A-1 selected in actual DOM but Inspect button remained disabled; original screenshot and failed action retained. No reference-control, reload or natural tour completed.",
+  "acquisitionErrors": "One exact getByLabel locator failure resolved with accessible combobox role; separate actual disabled-button failure retained.",
+  "exportPrefixEvents": 23,
+  "humanParticipants": 0
+}

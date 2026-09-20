@@ -1,0 +1,23 @@
+{
+  "kind": "gate-6-independent-prespec-cross-check",
+  "sourcePins": [
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    }
+  ],
+  "recordCount": 4,
+  "referenceCount": 2,
+  "localCount": 2,
+  "dependencyCount": 3,
+  "supportedRelationCount": 4,
+  "summaryRevisionCount": 6,
+  "checkpointCount": 7,
+  "checksPassed": true
+}

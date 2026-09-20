@@ -1,0 +1,30 @@
+{
+  "schema": "gate10-computational-results-v1",
+  "fixtureId": "G10-FIXTURE-001",
+  "source": "builder math model test; not human observations",
+  "cases": [
+    {
+      "caseId": "T01",
+      "category": "interpolation"
+    },
+    {
+      "caseId": "T02",
+      "category": "unseen-setting"
+    },
+    {
+      "caseId": "T03",
+      "category": "same-family-setting"
+    },
+    {
+      "caseId": "T04",
+      "category": "changed-family"
+    },
+    {
+      "caseId": "T05",
+      "category": "changed-family"
+    }
+  ],
+  "responseCount": 0,
+  "revealCount": 0,
+  "humanParticipants": 0
+}

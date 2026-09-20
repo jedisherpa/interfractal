@@ -1,0 +1,310 @@
+{
+  "recordedAtUtc": "2026-09-20T18:45:49.591060+00:00",
+  "scope": "Read-only current HTTP readiness, separate from immutable byte integrity",
+  "entries": [
+    {
+      "gate": 0,
+      "expectedRun": "G0-CUBE-005",
+      "expectedBuild": "g0-d85237ad31362768",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43991/",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43991/evidence/gate-0/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43991/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 1,
+      "expectedRun": "G1-CUBE-003",
+      "expectedBuild": "g1-9dce1c2b9c2b3be4",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43994/",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43994/evidence/gate-1/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43994/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 2,
+      "expectedRun": "G2-HOPF-003",
+      "expectedBuild": "g2-ccabad12693f86a8",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43995/",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43995/evidence/gate-2/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43995/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 3,
+      "expectedRun": "G3-TESSERACT-003",
+      "expectedBuild": "g3-6c31bc16aeca4460",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43996/",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43996/evidence/gate-3/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43996/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 4,
+      "expectedRun": "G4-SLICES-002",
+      "expectedBuild": "g4-38777d5882ef08a6",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43997/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43997/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 5,
+      "expectedRun": "G5-PENTERACT-001",
+      "expectedBuild": "g5-0bdee39bcd7dd541",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43998/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43998/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 6,
+      "expectedRun": "G6-LOCAL-003",
+      "expectedBuild": "g6-0279cdcdc0adc9b0",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:43999/",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:43999/evidence/gate-6/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:43999/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 7,
+      "expectedRun": "G7-INTERPRET-002",
+      "expectedBuild": "g7-90e64952eb028069",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:44000/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:44000/review/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:44000/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 8,
+      "expectedRun": "G8-AMBIGUITY-001",
+      "expectedBuild": "g8-f5c5ee62889da529",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:44001/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:44001/review/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:44001/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 9,
+      "expectedRun": "G9-MATCHED-003",
+      "expectedBuild": "g9-15c3bf973fe0c6cd",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:44002/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:44002/review/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:44002/api/run",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 10,
+      "expectedRun": "G10-PREDICT-003",
+      "expectedBuild": "g10-9e34f791d83c1cd7a495",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:44003/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:44003/review/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:44003/run/run.json",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    },
+    {
+      "gate": 11,
+      "expectedRun": "G11-RECEIVER-002",
+      "expectedBuild": "g11-7ced826c903d40c5a0dd",
+      "checks": [
+        {
+          "url": "http://127.0.0.1:44004/",
+          "httpStatus": 200,
+          "containsExpectedRun": false,
+          "containsExpectedBuild": false
+        },
+        {
+          "url": "http://127.0.0.1:44004/review/results.html",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        },
+        {
+          "url": "http://127.0.0.1:44004/run/run.json",
+          "httpStatus": 200,
+          "containsExpectedRun": true,
+          "containsExpectedBuild": true
+        }
+      ]
+    }
+  ],
+  "status": "PASS",
+  "replaysChecked": 12,
+  "allExactIdentityRoutesMatch": true,
+  "interpretation": "Root pages may be static shells; identity checked from their read-only run endpoints, not inferred from HTML shell. All twelve results pages contain expected identities."
+}

@@ -1,0 +1,24 @@
+{
+  "recordedAtUtc": "2026-09-20T02:30:53.545366+00:00",
+  "scope": "Before any Gate3 changes; all prior frozen artifact hashes verified.",
+  "checks": [
+    {
+      "gate": 0,
+      "frozenFiles": 61,
+      "manifestSha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+      "passed": true
+    },
+    {
+      "gate": 1,
+      "frozenFiles": 95,
+      "manifestSha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+      "passed": true
+    },
+    {
+      "gate": 2,
+      "frozenFiles": 120,
+      "manifestSha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+      "passed": true
+    }
+  ]
+}

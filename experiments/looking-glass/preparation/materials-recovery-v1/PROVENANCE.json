@@ -1,0 +1,38 @@
+{
+  "recordedAtUtc": "2026-09-20T22:19:32.405266+00:00",
+  "scope": "Engineering preparation: same-stage packaging recovery correction, not research collection",
+  "roles": [
+    {
+      "agent": "/root/g10_astra",
+      "modelRoute": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "work": "Scope, acceptance and final synthesis"
+    },
+    {
+      "agent": "/root/prep_sol_builder",
+      "modelRoute": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "work": "CLI entry and result verification implementation, candidate004 and regression evidence"
+    },
+    {
+      "agent": "/root/recovery_sol_audit",
+      "modelRoute": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "work": "Separate independent code, clean recovery, negative-probe, integrity, browser-evidence and handoff audit"
+    },
+    {
+      "agent": "/root",
+      "work": "Host routing, local setup, supported browser acquisition, preservation and Git publication; no unsupported host model switch claimed"
+    }
+  ],
+  "internetGathering": "Not needed for this local recovery correction; no Luna assignment this revision",
+  "sourceMaterials": "All 58 baseline semantic files unchanged; historical materials-v1 remains frozen",
+  "deferredResearch": {
+    "fourAgentExecution": true,
+    "humanResearchExecution": true,
+    "researchOutputsCollected": 0,
+    "humanParticipants": 0
+  },
+  "humanMaterialsApproval": false,
+  "overallPreparationGoalComplete": false
+}

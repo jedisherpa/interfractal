@@ -1,0 +1,34 @@
+{
+  "recordedAtUtc": "2026-09-20T21:54:59.955004+00:00",
+  "candidate": "003",
+  "kind": "Clean software reproduction with canonical paths; no model calls",
+  "stagingDirectory": "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/looking-glass-materials003-ta3y2wma",
+  "earlierAttempt": "evidence/clean-reproduction-003.json",
+  "earlierFailureExplanation": "The initial /var staging path is an OS symlink. Node import.meta.filename resolved to /private/var while process argv retained /var, so the CLI main guard returned without building. This corrected attempt uses canonical paths; original code and failed evidence are unchanged. Noncanonical symlink entry paths remain a disclosed CLI limitation.",
+  "steps": [
+    {
+      "command": [
+        "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/looking-glass-materials003-ta3y2wma/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "stdout": "build passed: 70 files; 18 cards; four six-card participant packets; candidate package-candidate-003\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/looking-glass-materials003-ta3y2wma/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "stdout": "verify passed: 70 files; 18 cards; four six-card participant packets; candidate package-candidate-003\n",
+      "stderr": ""
+    }
+  ],
+  "filesCompared": 70,
+  "mismatches": [],
+  "manifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+  "pass": true
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "gate13-review-allowlist-v1",
+  "assets": [
+    {
+      "route": "/review/images/corrected-count-comparison.jpg",
+      "path": "review/images/corrected-count-comparison.jpg",
+      "sha256": "fad9a56e63fd435bd80254dcbdfbff4d126c011452823d243964e0503bb8d7bb"
+    },
+    {
+      "route": "/review/images/misleading-original-retained.jpg",
+      "path": "review/images/misleading-original-retained.jpg",
+      "sha256": "846e5b53e3b0a5e8fa5de938a24e3729f02e65c0e0f08f21368b7a5ef05ece5c"
+    },
+    {
+      "route": "/review/images/plain-correction-and-debrief.jpg",
+      "path": "review/images/plain-correction-and-debrief.jpg",
+      "sha256": "0eff48280c03ce73cc675a783b2dd90d284fb2d457bf2b69db39c6e9b14d2c35"
+    },
+    {
+      "route": "/review/images/true-control-check.jpg",
+      "path": "review/images/true-control-check.jpg",
+      "sha256": "ed1d24713a312dde9968be6ec941d0a914ee493ecd5eecacd074a9d45d7f2af9"
+    },
+    {
+      "route": "/review/images/zero-control-plain-debrief.jpg",
+      "path": "review/images/zero-control-plain-debrief.jpg",
+      "sha256": "f4ba06127e8ab761cac165223a222b7a55f3a007b357200f49afcaae951ddd3e"
+    },
+    {
+      "route": "/review/replay-collection.json",
+      "path": "review/replay-collection.json",
+      "sha256": "604ad753dc39d7a0e64f9adee2159c26b44021abd9ed19d52a14cf5b2ce312ce"
+    },
+    {
+      "route": "/review/results.html",
+      "path": "review/results.html",
+      "sha256": "9e5063498e03ba880bc2aac360ec3aab5b1c00cafa0c9e307a235cb7fee9b9cc"
+    },
+    {
+      "route": "/review/source-review.md",
+      "path": "review/source-review.md",
+      "sha256": "79c3bfae05f96e830b1025a051b6ffa6fc2ab44b8f3529df368eb5e6a26cd092"
+    }
+  ]
+}

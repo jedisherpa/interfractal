@@ -1,0 +1,16 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T18:45:10.204603+00:00",
+  "source": "actual user message in this task",
+  "user_message": "**Gate 12: Coordinate without erasing disagreement**",
+  "interpretation": "Explicit selection of the named next gate in response to Gate12 approval question.",
+  "approved_gate": 12,
+  "approved_scope": "Small public fictional shared decision with two explicit local references, retained incompatible judgments, source provenance and inspectable joint action; computational and actual browser checks, independent audit and bounded instrument synthesis. No human-study execution. Stop at Gate13 review.",
+  "reviewed_run_id": "G11-RECEIVER-002",
+  "reviewed_build_id": "g11-7ced826c903d40c5a0dd",
+  "reviewed_commit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+  "reviewed_packet_sha256": "f207ccfb7e80f99af224367ca24ad070ebdee508d14e924a544b0c20baa133ad",
+  "reviewed_freeze_manifest_sha256": "ec72d3f7c99d0daaf948639a113e4735c04ddeb19875a218bc8d54bf63076a6f",
+  "preserved_gate10_result": "BOUNDED_NEGATIVE_NOT_READY",
+  "gate_13_approved": false,
+  "human_study_execution_authorized": false
+}

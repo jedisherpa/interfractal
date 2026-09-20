@@ -1,0 +1,176 @@
+{
+  "runId": "G0-CUBE-005",
+  "gate": "G0",
+  "experimentVersion": "G0-charter-v1",
+  "testId": "G0-cube-view-replay",
+  "hypothesis": "A marked ordinary 3D cube remains legible and a saved camera path can be replayed from exact time states.",
+  "baseRevision": "3f1b1d028947fcc2fb207e41780f1a2b714705b0",
+  "buildId": "g0-d85237ad31362768",
+  "sourceSha256": "d85237ad313627683bce5fed50977060b2c61c9e8626a5056bff74b0efcce567",
+  "dependencyIdentity": "node-builtins-only; no lockfile or external assets",
+  "builtAt": "2026-09-20T00:44:50.108Z",
+  "durationMs": 20000,
+  "checkpointTimesMs": [
+    0,
+    10000,
+    20000
+  ],
+  "model": {
+    "type": "ordinary-3d-wire-cube",
+    "dimension": 3,
+    "generatorVersion": "cube-v1",
+    "seed": null,
+    "vertices": [
+      {
+        "id": "v000",
+        "q": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v001",
+        "q": [
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v010",
+        "q": [
+          -1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v011",
+        "q": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v100",
+        "q": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v101",
+        "q": [
+          1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v110",
+        "q": [
+          1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v111",
+        "q": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "v000-v001",
+        "from": "v000",
+        "to": "v001"
+      },
+      {
+        "id": "v000-v010",
+        "from": "v000",
+        "to": "v010"
+      },
+      {
+        "id": "v000-v100",
+        "from": "v000",
+        "to": "v100"
+      },
+      {
+        "id": "v001-v011",
+        "from": "v001",
+        "to": "v011"
+      },
+      {
+        "id": "v001-v101",
+        "from": "v001",
+        "to": "v101"
+      },
+      {
+        "id": "v010-v011",
+        "from": "v010",
+        "to": "v011"
+      },
+      {
+        "id": "v010-v110",
+        "from": "v010",
+        "to": "v110"
+      },
+      {
+        "id": "v011-v111",
+        "from": "v011",
+        "to": "v111"
+      },
+      {
+        "id": "v100-v101",
+        "from": "v100",
+        "to": "v101"
+      },
+      {
+        "id": "v100-v110",
+        "from": "v100",
+        "to": "v110"
+      },
+      {
+        "id": "v101-v111",
+        "from": "v101",
+        "to": "v111"
+      },
+      {
+        "id": "v110-v111",
+        "from": "v110",
+        "to": "v111"
+      }
+    ],
+    "selectedVertexId": "v111",
+    "sourceTransform": "identity",
+    "displayCamera": {
+      "yawStart": 0.5235987755982988,
+      "yawEnd": 1.0471975511965976,
+      "pitch": 0.3490658503988659,
+      "order": "Rx(pitch) · Ry(yaw) · q"
+    },
+    "projection": "orthographic screen=(cx,-cy)",
+    "scalePxPerUnit": 138,
+    "clipping": "none",
+    "displayOptions": {
+      "depthCue": "edge-opacity",
+      "glow": false,
+      "trail": false,
+      "autoRescale": false
+    },
+    "renderer": "SVG 2D",
+    "viewport": "responsive SVG viewBox 700×560"
+  },
+  "initialStateHash": "85106e9a82bca61ab8f43451536f168472aaadc2c1763633ec957889839cd3af",
+  "eventsFile": "events.jsonl",
+  "checkpointsFile": "checkpoints.json",
+  "initialStateFile": "initial-state.json",
+  "resultsStatus": "Model replay checks are recorded separately by actual test; browser inspection required."
+}

@@ -1,0 +1,567 @@
+{
+  "schema": "gate13-author-predictions-v1",
+  "fixtureId": "G13-FIXTURE-001",
+  "status": "Author expectations pending independent prespec derivation",
+  "oraclePolicy": "Derive independently from source counts, exact predicate and scale definitions; never import builder code or equate this authored file with independent validation.",
+  "caseResults": [
+    {
+      "caseId": "MISMATCH",
+      "sourceSha256": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplaySha256": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "predicateOperands": {
+        "leftB": 90,
+        "rightTwiceA": 160
+      },
+      "originalStatementVerdict": false,
+      "difference": 10,
+      "countRatio": {
+        "status": "defined",
+        "numerator": 9,
+        "denominator": 8
+      },
+      "originalLowerBound": 70,
+      "originalOffsets": [
+        10,
+        20
+      ],
+      "originalSvgWidths": [
+        80,
+        160
+      ],
+      "originalLengthRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "correctionAllowedAfterCheck": true,
+      "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+      "correction": {
+        "displaySha256": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+        "lowerBound": 0,
+        "offsets": [
+          80,
+          90
+        ],
+        "svgWidths": [
+          192,
+          216
+        ],
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "text": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "factsTrue": true,
+        "sourceUnchanged": true,
+        "originalUnchanged": true
+      }
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "sourceSha256": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+      "originalDisplaySha256": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+      "sourceCounts": {
+        "A": 40,
+        "B": 80
+      },
+      "predicateOperands": {
+        "leftB": 80,
+        "rightTwiceA": 80
+      },
+      "originalStatementVerdict": true,
+      "difference": 40,
+      "countRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "originalLowerBound": 0,
+      "originalOffsets": [
+        40,
+        80
+      ],
+      "originalSvgWidths": [
+        96,
+        192
+      ],
+      "originalLengthRatio": {
+        "status": "defined",
+        "numerator": 2,
+        "denominator": 1
+      },
+      "correctionAllowedAfterCheck": false,
+      "diagnosis": "statement-and-zero-baseline-ratio-agree",
+      "correction": null
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "sourceSha256": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplaySha256": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "predicateOperands": {
+        "leftB": 10,
+        "rightTwiceA": 0
+      },
+      "originalStatementVerdict": false,
+      "difference": 10,
+      "countRatio": {
+        "status": "undefined",
+        "reason": "zero-denominator"
+      },
+      "originalLowerBound": 0,
+      "originalOffsets": [
+        0,
+        10
+      ],
+      "originalSvgWidths": [
+        0,
+        24
+      ],
+      "originalLengthRatio": {
+        "status": "undefined",
+        "reason": "zero-denominator"
+      },
+      "correctionAllowedAfterCheck": true,
+      "diagnosis": "zero-reference-count-ratio-undefined",
+      "correction": {
+        "displaySha256": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d",
+        "lowerBound": 0,
+        "offsets": [
+          0,
+          10
+        ],
+        "svgWidths": [
+          0,
+          24
+        ],
+        "lengthRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "text": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+        "factsTrue": true,
+        "sourceUnchanged": true,
+        "originalUnchanged": true
+      }
+    }
+  ],
+  "caseResultCount": 3,
+  "displayConfigurations": [
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 70,
+      "svgWidths": [
+        80,
+        160
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 70,
+      "svgWidths": [
+        80,
+        160
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        192,
+        216
+      ],
+      "statementText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 80,
+        "B": 90
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        192,
+        216
+      ],
+      "statementText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 40,
+        "B": 80
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        96,
+        192
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": true
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 40,
+        "B": 80
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        96,
+        192
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": true
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed twice as many tiles as A.",
+      "displayedStatementTrue": false,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representation": "visual",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representation": "plain",
+      "sourceCounts": {
+        "A": 0,
+        "B": 10
+      },
+      "lowerBound": 0,
+      "svgWidths": [
+        0,
+        24
+      ],
+      "statementText": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+      "displayedStatementTrue": true,
+      "originalCheckVerdict": false
+    }
+  ],
+  "displayConfigurationCount": 10,
+  "displayConfigurationScope": "Finite case/version/representation combinations; not an enumeration of every inspection, clock or local-history state.",
+  "informationParityPairs": [
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representations": [
+        "visual",
+        "plain"
+      ]
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representations": [
+        "visual",
+        "plain"
+      ]
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representations": [
+        "visual",
+        "plain"
+      ]
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representations": [
+        "visual",
+        "plain"
+      ]
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representations": [
+        "visual",
+        "plain"
+      ]
+    }
+  ],
+  "primaryBrowserRecords": {
+    "checkRecords": 3,
+    "correctionRecords": 2,
+    "deliberateCheckReuses": 1,
+    "caseOrder": [
+      "MISMATCH",
+      "TRUE_CONTROL",
+      "ZERO_CONTROL"
+    ],
+    "sourceMutations": 0,
+    "originalDisplayMutations": 0,
+    "humanResponses": 0
+  },
+  "negativeControls": {
+    "beforeCheckCorrectionAllowed": false,
+    "trueControlCorrectionAllowed": false,
+    "zeroCountRatioUndefined": true,
+    "zeroStatementStillFalse": true,
+    "wrongBindingMutationAllowed": false,
+    "correctedTrueControlValid": false,
+    "duplicateCheckCreatesRecord": false
+  },
+  "checkpointExpectations": [
+    {
+      "seconds": 0,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 4,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 8,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 12,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "corrected",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 16,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "plain",
+      "version": "corrected",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 20,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "plain",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "originalRetainedCorrectionMarker": true,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    },
+    {
+      "seconds": 24,
+      "caseId": "MISMATCH",
+      "paused": true,
+      "representation": "visual",
+      "version": "original",
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "originalRetainedCorrectionMarker": false,
+      "localRecordsInSelectedCanonicalDisplay": 0
+    }
+  ],
+  "checkpointCount": 7,
+  "scheduledEvents": [
+    {
+      "atSeconds": 4,
+      "type": "source-inspect",
+      "payload": {
+        "open": true
+      },
+      "origin": "replay"
+    },
+    {
+      "atSeconds": 8,
+      "type": "statement-check",
+      "payload": {
+        "caseId": "MISMATCH",
+        "recordId": "C-K-MISMATCH"
+      },
+      "origin": "replay"
+    },
+    {
+      "atSeconds": 12,
+      "type": "correction-apply",
+      "payload": {
+        "caseId": "MISMATCH",
+        "recordId": "C-C-MISMATCH",
+        "checkRecordId": "C-K-MISMATCH"
+      },
+      "origin": "replay"
+    },
+    {
+      "atSeconds": 16,
+      "type": "representation-select",
+      "payload": {
+        "representation": "plain"
+      },
+      "origin": "replay"
+    },
+    {
+      "atSeconds": 20,
+      "type": "version-select",
+      "payload": {
+        "version": "original"
+      },
+      "origin": "replay"
+    },
+    {
+      "atSeconds": 24,
+      "type": "canonical-restore",
+      "payload": {
+        "display": "initial",
+        "retainCursorSeconds": 24
+      },
+      "origin": "replay"
+    },
+    {
+      "atSeconds": 24,
+      "type": "tour-stop",
+      "payload": {
+        "reason": "end-of-sequence"
+      },
+      "origin": "automatic"
+    }
+  ],
+  "scheduledEventCount": 7,
+  "plannedPausedComparisons": 18,
+  "naturalStopReason": "end-of-sequence",
+  "keyDerivations": [
+    "MISMATCH: 90 != 2*80; 90/80=9/8; (90-70)/(80-70)=2; original widths80/160 versus corrected192/216.",
+    "TRUE_CONTROL: 80=2*40; both count and length ratio2; no correction record.",
+    "ZERO_CONTROL: 10 != 2*0; difference10; count and length ratios undefined because denominator0; widths0/24."
+  ],
+  "preservation": [
+    "Source and original display objects never change.",
+    "A correction references its matching immutable false check and source/display hashes.",
+    "Showing original after correction preserves its correction marker and linked records.",
+    "Source inspection has the same enabled path and content in visual/plain before correction.",
+    "Export includes its own event; new document UUID and empty local history after reload.",
+    "Canonical public precomputed records never count as host-performed local checks."
+  ]
+}

@@ -1,10 +1,10 @@
 # Looking Glass research laboratory
 
-This package adds the existing Looking Glass laboratory to Interfractal for inspection and further design work. It is a source import, not a new integration into the deployed teaching app.
+This package preserves the existing Looking Glass laboratory in Interfractal for inspection and further design work. The user subsequently selected BTC Learning Collective as the home of this project’s visualizer and workshop. The copied runtime and current technical plan are in [BTC PR #6](https://github.com/jedisherpa/btc-constitutional-learning-collective/pull/6). See [the hosting update](hosting-update.md).
 
 - [Laboratory source and historical guide](../../experiments/looking-glass/README.md)
 - [Accepted BTC-Learning design](accepted-design.md)
-- [BTC-Learning technical plan — review draft](technical-plan-v1.md)
+- [Historical BTC-Learning technical plan — revision 1](technical-plan-v1.md)
 - [Implementation tickets and acceptance checks](implementation-tickets-v1.md)
 - [Visual plan overview](first-view.html)
 - [Planning scope and remaining decisions](planning-scope.md)

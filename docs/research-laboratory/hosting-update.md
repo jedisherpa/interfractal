@@ -7,3 +7,7 @@ The BTC pages are `/laboratory/visualizer` and `/laboratory/workshop`. They shar
 The import pins 35 instrument/workshop source and test files from Interfractal commit `1326cc64223fc167610c2157f2c24fa33a87c93b`. The [BTC import guide](https://github.com/jedisherpa/btc-constitutional-learning-collective/blob/codex/btc-visualizer-workshop/docs/laboratory/README.md) records the file manifest, host adaptations, dependencies and validation.
 
 This Interfractal package remains a historical source/design copy. Revision 1’s proposal to host the project’s view here and add a cross-site session bridge is superseded by the BTC hosting decision. The original revision 1 documents and import evidence are retained as history. No production merge or deployment is recorded by this update.
+
+## Part 1 integration
+
+The newly mirrored Fractalwave Part 1 architecture is integrated in [BTC technical plan revision 3](https://github.com/jedisherpa/btc-constitutional-learning-collective/blob/codex/btc-visualizer-workshop/docs/laboratory/technical-plan-v3.md). Its [integration review](https://github.com/jedisherpa/btc-constitutional-learning-collective/blob/codex/btc-visualizer-workshop/docs/laboratory/integration-review-v3.md) maps the new two-level loop, per-agent SQLite, wave/provenance and live-view work into 25 tickets and five proposed contracts. Original drafts remain intact, BTC hosting remains settled, and the referenced Part 2 remains unavailable in the reviewed publication. This is planning integration, not a claim that the new loop runs.

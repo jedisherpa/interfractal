@@ -1,0 +1,21 @@
+{
+  "kind": "saved-actual-event-and-restoration-audit",
+  "activityPath": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-5/observed-activity.jsonl",
+  "runId": "G5-PENTERACT-001",
+  "sessions": 3,
+  "events": 85,
+  "actionTraceEntries": 93,
+  "t1Inspects": 2,
+  "t2RouteSourceTurns": 2,
+  "otherT2SourceTurns": 1,
+  "t2Inspects": 4,
+  "automaticStops": 1,
+  "manualPauses": 1,
+  "steps": 2,
+  "seeks": 4,
+  "checkpointGroups": 4,
+  "checkpointTimesPerGroup": 9,
+  "activeLegs": 3,
+  "allChecksPassed": true,
+  "scope": "Saved observed UI events and root computer-use trace; no generated fixture events counted as actions."
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "workspace-design-freeze/1",
+  "frozenAtUtc": "2026-09-20T22:48:03.613036+00:00",
+  "scope": "Synthetic workspace/runner/scoring preparation only. Later studies required overall but not authorized in this phase.",
+  "source": "Astra xhigh stable handoff before dependent implementation",
+  "files": [
+    {
+      "path": "preparation/workspace-v1/design/ACCEPTANCE_MATRIX.json",
+      "sha256": "21d5a9ef83fa1457debc4bb0ba11ae2ad566d69e147cb385ae6a6d377fd1bdf6",
+      "bytes": 18931
+    },
+    {
+      "path": "preparation/workspace-v1/design/IMPLEMENTATION_CONTRACT.md",
+      "sha256": "ebc83ee567878e8b47fef280cb7f8a0f678df9fffcb4173f44f87f974c69799b",
+      "bytes": 10133
+    },
+    {
+      "path": "preparation/workspace-v1/design/RUNNER_AND_SCORING.md",
+      "sha256": "49a8b090ce8b6a9d6296361f9cfbeb454b646ab475a49e08d9644d3a93eebd02",
+      "bytes": 13575
+    },
+    {
+      "path": "preparation/workspace-v1/design/runtime-contract.json",
+      "sha256": "717d64c753f6f65cf3a95a24502d7d3fc24936a3dedadd14429a08d9ed54a88a",
+      "bytes": 16840
+    },
+    {
+      "path": "preparation/workspace-v1/design/supplemental-fixtures.json",
+      "sha256": "3a3ac0ba0222e264c7f8eeda3477475df1d2f1ea8f64efd4bbb3e0e3042a4a63",
+      "bytes": 12668
+    },
+    {
+      "path": "preparation/workspace-v1/design/transfer-response.schema.json",
+      "sha256": "94b71c62ae98401321738c1e94472c5d7ebbb57ed4ebbbf7f76ca58a7074da14",
+      "bytes": 52932
+    }
+  ]
+}

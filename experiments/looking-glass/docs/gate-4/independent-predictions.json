@@ -1,0 +1,740 @@
+{
+  "schemaVersion": "gate-4-independent-predictions-v1",
+  "gate": 4,
+  "status": "Prespecified expected values; not implementation or browser observations",
+  "derivation": "Python standard-library direct evaluation of the frozen equations; no implementation imports or outputs used",
+  "absoluteNumericTolerance": 1e-10,
+  "classification": {
+    "radicand": "1-(s-c)^2",
+    "solid": "radicand>0",
+    "point": "radicand===0",
+    "empty": "radicand<0",
+    "emptyRadius": null,
+    "epsilonBand": false,
+    "beforeDisplayRounding": true
+  },
+  "sourceCandidates": [
+    {
+      "id": "ball-center",
+      "center4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "radius": 1
+    },
+    {
+      "id": "ball-plus",
+      "center4": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "radius": 1
+    },
+    {
+      "id": "ball-minus",
+      "center4": [
+        0,
+        0,
+        0,
+        -0.5
+      ],
+      "radius": 1
+    }
+  ],
+  "primaryProjection": {
+    "P": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "center3": [
+      0,
+      0,
+      0
+    ],
+    "radius": 1,
+    "invariantUnder": [
+      "primary slice s",
+      "ordinary camera",
+      "separate movie angle"
+    ]
+  },
+  "clock": {
+    "durationMs": 40000,
+    "quantumMs": 100,
+    "stepMs": 1000,
+    "startsPaused": true,
+    "seek": "100*Math.round(clamp(requestedMs,0,40000)/100)",
+    "h": "t<=20000?t/20000:(40000-t)/20000",
+    "sliceS": "1.25*h",
+    "movieThetaRadians": "(pi/2)*h"
+  },
+  "display": {
+    "yawDegrees": 30,
+    "pitchDegrees": 20,
+    "viewBox": [
+      0,
+      0,
+      640,
+      420
+    ],
+    "center": [
+      320,
+      210
+    ],
+    "scale": 80,
+    "autofit": false,
+    "cameraProjection": "orthographic"
+  },
+  "analyticCases": [
+    {
+      "c": 0,
+      "s": 0,
+      "offset": 0,
+      "radicand": 1,
+      "kind": "solid",
+      "radius": 1.0,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": -0.5,
+      "offset": -0.5,
+      "radicand": 0.75,
+      "kind": "solid",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": 0.5,
+      "offset": 0.5,
+      "radicand": 0.75,
+      "kind": "solid",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": -1,
+      "offset": -1,
+      "radicand": 0,
+      "kind": "point",
+      "radius": 0.0,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": 1,
+      "offset": 1,
+      "radicand": 0,
+      "kind": "point",
+      "radius": 0.0,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": -1.25,
+      "offset": -1.25,
+      "radicand": -0.5625,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "c": 0,
+      "s": 1.25,
+      "offset": 1.25,
+      "radicand": -0.5625,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "c": 0,
+      "s": -0.999999,
+      "offset": -0.999999,
+      "radicand": 1.999999000079633e-06,
+      "kind": "solid",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": 0.999999,
+      "offset": 0.999999,
+      "radicand": 1.999999000079633e-06,
+      "kind": "solid",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "c": 0,
+      "s": -1.000001,
+      "offset": -1.000001,
+      "radicand": -2.0000009999243673e-06,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "c": 0,
+      "s": 1.000001,
+      "offset": 1.000001,
+      "radicand": -2.0000009999243673e-06,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "C0",
+      "timeMs": 0,
+      "primarySlice": {
+        "c": 0,
+        "s": 0.0,
+        "offset": 0.0,
+        "radicand": 1.0,
+        "kind": "solid",
+        "radius": 1.0,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 0,
+        "thetaRadians": 0.0,
+        "thetaDegrees": 0.0,
+        "rotatedCenter4": [
+          -0.0,
+          0,
+          0,
+          0.5
+        ],
+        "projectedCenter3": [
+          -0.0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 0,
+      "movieProjectedCenterScreen": [
+        320.0,
+        210.0
+      ]
+    },
+    {
+      "id": "C8",
+      "timeMs": 8000,
+      "primarySlice": {
+        "c": 0,
+        "s": 0.5,
+        "offset": 0.5,
+        "radicand": 0.75,
+        "kind": "solid",
+        "radius": 0.8660254037844386,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 8000,
+        "thetaRadians": 0.6283185307179586,
+        "thetaDegrees": 36.0,
+        "rotatedCenter4": [
+          -0.29389262614623657,
+          0,
+          0,
+          0.4045084971874737
+        ],
+        "projectedCenter3": [
+          -0.29389262614623657,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 80,
+      "movieProjectedCenterScreen": [
+        299.6385215817949,
+        205.9793120753243
+      ]
+    },
+    {
+      "id": "C16",
+      "timeMs": 16000,
+      "primarySlice": {
+        "c": 0,
+        "s": 1.0,
+        "offset": 1.0,
+        "radicand": 0.0,
+        "kind": "point",
+        "radius": 0.0,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 16000,
+        "thetaRadians": 1.2566370614359172,
+        "thetaDegrees": 72.0,
+        "rotatedCenter4": [
+          -0.47552825814757677,
+          0,
+          0,
+          0.15450849718747373
+        ],
+        "projectedCenter3": [
+          -0.47552825814757677,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 160,
+      "movieProjectedCenterScreen": [
+        287.0544358581467,
+        203.4943902797184
+      ]
+    },
+    {
+      "id": "C20",
+      "timeMs": 20000,
+      "primarySlice": {
+        "c": 0,
+        "s": 1.25,
+        "offset": 1.25,
+        "radicand": -0.5625,
+        "kind": "empty",
+        "radius": null,
+        "center3": null
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 20000,
+        "thetaRadians": 1.5707963267948966,
+        "thetaDegrees": 90.0,
+        "rotatedCenter4": [
+          -0.5,
+          0,
+          0,
+          3.061616997868383e-17
+        ],
+        "projectedCenter3": [
+          -0.5,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 200,
+      "movieProjectedCenterScreen": [
+        285.3589838486225,
+        203.1595971334866
+      ]
+    },
+    {
+      "id": "C24",
+      "timeMs": 24000,
+      "primarySlice": {
+        "c": 0,
+        "s": 1.0,
+        "offset": 1.0,
+        "radicand": 0.0,
+        "kind": "point",
+        "radius": 0.0,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 24000,
+        "thetaRadians": 1.2566370614359172,
+        "thetaDegrees": 72.0,
+        "rotatedCenter4": [
+          -0.47552825814757677,
+          0,
+          0,
+          0.15450849718747373
+        ],
+        "projectedCenter3": [
+          -0.47552825814757677,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 240,
+      "movieProjectedCenterScreen": [
+        287.0544358581467,
+        203.4943902797184
+      ]
+    },
+    {
+      "id": "C32",
+      "timeMs": 32000,
+      "primarySlice": {
+        "c": 0,
+        "s": 0.5,
+        "offset": 0.5,
+        "radicand": 0.75,
+        "kind": "solid",
+        "radius": 0.8660254037844386,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 32000,
+        "thetaRadians": 0.6283185307179586,
+        "thetaDegrees": 36.0,
+        "rotatedCenter4": [
+          -0.29389262614623657,
+          0,
+          0,
+          0.4045084971874737
+        ],
+        "projectedCenter3": [
+          -0.29389262614623657,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 320,
+      "movieProjectedCenterScreen": [
+        299.6385215817949,
+        205.9793120753243
+      ]
+    },
+    {
+      "id": "C40",
+      "timeMs": 40000,
+      "primarySlice": {
+        "c": 0,
+        "s": 0.0,
+        "offset": 0.0,
+        "radicand": 1.0,
+        "kind": "solid",
+        "radius": 1.0,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "primaryProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "movie": {
+        "timeMs": 40000,
+        "thetaRadians": 0.0,
+        "thetaDegrees": 0.0,
+        "rotatedCenter4": [
+          -0.0,
+          0,
+          0,
+          0.5
+        ],
+        "projectedCenter3": [
+          -0.0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "storedFrameIndex": 400,
+      "movieProjectedCenterScreen": [
+        320.0,
+        210.0
+      ]
+    }
+  ],
+  "ambiguity": {
+    "candidateClass": [
+      "ball-plus",
+      "ball-minus"
+    ],
+    "initial": {
+      "knownSlicePlane": 0,
+      "plus": {
+        "c": 0.5,
+        "s": 0,
+        "offset": -0.5,
+        "radicand": 0.75,
+        "kind": "solid",
+        "radius": 0.8660254037844386,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "minus": {
+        "c": -0.5,
+        "s": 0,
+        "offset": 0.5,
+        "radicand": 0.75,
+        "kind": "solid",
+        "radius": 0.8660254037844386,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "sameRawSlice": true,
+      "sameRawProjection": true,
+      "distinguishable": false
+    },
+    "intervened": {
+      "knownSlicePlane": 0.5,
+      "plus": {
+        "c": 0.5,
+        "s": 0.5,
+        "offset": 0.0,
+        "radicand": 1.0,
+        "kind": "solid",
+        "radius": 1.0,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "minus": {
+        "c": -0.5,
+        "s": 0.5,
+        "offset": 1.0,
+        "radicand": 0.0,
+        "kind": "point",
+        "radius": 0.0,
+        "center3": [
+          0,
+          0,
+          0
+        ]
+      },
+      "sameRawSlice": false,
+      "sameRawProjection": true,
+      "distinguishableWithinDeclaredClass": true
+    },
+    "cameraOnly": {
+      "yawDegrees": [
+        30,
+        120
+      ],
+      "pitchDegrees": 20,
+      "knownSlicePlane": 0,
+      "rawCandidatesStillEqual": true
+    },
+    "noClaim": "Arbitrary shape or unknown-transform reconstruction"
+  },
+  "stored3DMovie": {
+    "frameCount": 401,
+    "frameTimes": "100*k for k=0..400",
+    "frameSchema": [
+      "timeMs",
+      "center[3]",
+      "radius"
+    ],
+    "centerFormula": "[-0.5*sin((pi/2)*h(timeMs)),0,0]",
+    "radius": 1,
+    "readerInputsOnly": [
+      "immutable 3D frame array",
+      "quantized time"
+    ],
+    "readerRule": "frames[timeMs/100]",
+    "fileIdentity": "Actual serialized trace SHA-256 must be frozen in tested build/run manifest",
+    "allFrameMaximumAllowedCenterOrRadiusError": 1e-10,
+    "claimScope": "All declared discrete frames, and common ordinary-camera display of their 3D data; no unrecorded continuous interpolation claim"
+  },
+  "heldOut": {
+    "timeMs": 20000,
+    "canonicalAngleDegrees": 90,
+    "overrideAngleDegrees": -90,
+    "modelCenter3": [
+      0.5,
+      0,
+      0
+    ],
+    "storedCenter3": [
+      -0.5,
+      0,
+      0
+    ],
+    "modelRadius": 1,
+    "storedRadius": 1,
+    "rawCenterDistance": 1,
+    "modelScreenCenter": [
+      354.6410161513775,
+      216.8404028665134
+    ],
+    "storedScreenCenter": [
+      285.3589838486225,
+      203.1595971334866
+    ],
+    "screenDeltaModelMinusStored": [
+      69.28203230275506,
+      13.680805733026773
+    ],
+    "primarySliceUnchanged": {
+      "c": 0,
+      "s": 1.25,
+      "offset": 1.25,
+      "radicand": -0.5625,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    "traceFileHashUnchanged": true,
+    "inference": "Rejects only this fixed prerecorded response under a held-out source-angle intervention; does not exclude adaptive 3D models"
+  },
+  "browserRequirements": {
+    "manualPointCheckpointsMs": [
+      16000,
+      24000
+    ],
+    "manualEmptyCheckpointMs": 20000,
+    "uninterruptedActiveEmptyIntervalMsExclusive": [
+      16000,
+      24000
+    ],
+    "uninterruptedActiveReturnNonemptyMsExclusive": [
+      24000,
+      40000
+    ],
+    "exactLivePointFrameRequired": false,
+    "automaticStop": {
+      "timeMs": 40000,
+      "playing": false,
+      "origin": "automatic-playback",
+      "reason": "end-of-sequence"
+    },
+    "restore": "Exact same-browser/build checkpoint fingerprint; environment,wall time,playing,session/activity excluded",
+    "metadataRefresh": [
+      "snapshot",
+      "scroll",
+      "resize",
+      "scene/inspector toggle"
+    ]
+  },
+  "scopeLimits": [
+    "No human understanding observation",
+    "No raw 3D recovery from screen pixels",
+    "No uniquely 4D physical cause",
+    "No arbitrary shape uniqueness",
+    "No Gate5 or5D work"
+  ]
+}

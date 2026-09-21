@@ -1,0 +1,67 @@
+{
+  "schema": "gate12-candidate001-browser-freeze-v1",
+  "frozenAtUtc": "2026-09-20T19:10:20.367208+00:00",
+  "status": "BLOCKED_RETAINED_OUTCOME_INSPECTION",
+  "files": [
+    {
+      "path": "evidence/gate-12/browser-001/acquisition-summary.json",
+      "bytes": 722,
+      "sha256": "417ef4ebad3a75339283929510f50a5fd7b0d4d5cff9e6f122e69c6d1849b99a"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/actions.json",
+      "bytes": 259047,
+      "sha256": "40cf60c06b354b08dc8fe2d7add1bc0dfb513eaca0f1f6b1e7a929a94e420a5c"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/document-export.json",
+      "bytes": 32494,
+      "sha256": "4ec216e6963022a4c1c696524507b9c66d349c61bdf6a76bff50b23a1cbd0326"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/observations.json",
+      "bytes": 2656877,
+      "sha256": "18801dc9631d44a9d3607bc6e53770ea1f59f41f8ef8420c3eb0ee44f941252c"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots/conflicting-recommendations-P2-diagram.jpg",
+      "bytes": 135679,
+      "sha256": "417e85a0a39c4b3b0a1c11a025a17cffbae037003e6b40a9921bbd63b4dc8c53"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots/conflicting-recommendations-P2-plain.jpg",
+      "bytes": 97900,
+      "sha256": "8d6890a4ae5f1ae56a9f0d36eb34b281a07a7711043b4b5ebc8b3c02a47a9b6a"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots/extremes-tie-retains-disagreement.jpg",
+      "bytes": 134409,
+      "sha256": "51fb4aa230e8e04a57efe45dfeaf99a387cbac08dae654c48a83ad24e672c2c8"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots/no-eligible-no-action.jpg",
+      "bytes": 125389,
+      "sha256": "3baf9a73784b85176aded1def7d347bc0bda69f282550dc0ccde690b2cbfdec9"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots/retained-inspection-failure-preserved.jpg",
+      "bytes": 69898,
+      "sha256": "c5a786a12a85fb628d49435b258a2b976ab9cab56312b3cb86ccb92ad9cc6b35"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots/selected-record-inspect-button-disabled.jpg",
+      "bytes": 126376,
+      "sha256": "e7274c7da26b6712938606de856c903da20cb2f09c1b2bd6f48b76a21c29bf70"
+    },
+    {
+      "path": "evidence/gate-12/browser-001/screenshots.json",
+      "bytes": 2249,
+      "sha256": "3f5cd00e906e18afec96e75b648ffeb256108de0ea6cca9d643b1de5dacb5f7a"
+    }
+  ]
+}

@@ -1,0 +1,2416 @@
+[
+  {
+    "simulationTimeMs": 0,
+    "state": {
+      "simulationTimeMs": 0,
+      "sourceObject": "ordinary-3d-wire-cube",
+      "sourceDimension": 3,
+      "sourceRotation": {
+        "axis": "y",
+        "matrix": "Ry(theta): x′=cosθx−sinθz; y′=y; z′=sinθx+cosθz",
+        "theta": 0
+      },
+      "shadowProjection": "orthographic P=(x′,y′), independent of display camera",
+      "camera": {
+        "yaw": 0.5235987755982988,
+        "pitch": 0.3490658503988659
+      },
+      "displayProjection": "orthographic c=Rx(pitch)·Ry(yaw)·rotatedSource; SVG screen=(cx,−cy)",
+      "fixedScalePxPerUnit": 95,
+      "selectedVertexIds": [
+        "v110",
+        "v111"
+      ],
+      "paneMapping": {
+        "source": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·screenX,180+95·screenY)"
+        },
+        "shadow": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·x′,180−95·y′)"
+        }
+      },
+      "pairSourceDistance": 2,
+      "pairShadowDistance": 0,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "cameraCoordinates": [
+            -1.3660254037844386,
+            -0.814504559722719,
+            -0.6859715142820884
+          ],
+          "screen": [
+            -1.3660254037844386,
+            0.814504559722719
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "cameraCoordinates": [
+            -0.36602540378443876,
+            -1.4069008251747666,
+            0.9416238484166592
+          ],
+          "screen": [
+            -0.36602540378443876,
+            1.4069008251747666
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "cameraCoordinates": [
+            -1.3660254037844386,
+            1.064880681849098,
+            -0.0019312276307509313
+          ],
+          "screen": [
+            -1.3660254037844386,
+            -1.064880681849098
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "cameraCoordinates": [
+            -0.36602540378443876,
+            0.47248441639705024,
+            1.6256641350679966
+          ],
+          "screen": [
+            -0.36602540378443876,
+            -0.47248441639705024
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "cameraCoordinates": [
+            0.36602540378443876,
+            -0.47248441639705024,
+            -1.6256641350679966
+          ],
+          "screen": [
+            0.36602540378443876,
+            0.47248441639705024
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "cameraCoordinates": [
+            1.3660254037844386,
+            -1.064880681849098,
+            0.0019312276307509313
+          ],
+          "screen": [
+            1.3660254037844386,
+            1.064880681849098
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            -1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "cameraCoordinates": [
+            0.36602540378443876,
+            1.4069008251747666,
+            -0.9416238484166592
+          ],
+          "screen": [
+            0.36602540378443876,
+            -1.4069008251747666
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "cameraCoordinates": [
+            1.3660254037844386,
+            0.814504559722719,
+            0.6859715142820884
+          ],
+          "screen": [
+            1.3660254037844386,
+            -0.814504559722719
+          ]
+        }
+      ],
+      "shadowSites": [
+        {
+          "xy": [
+            -1,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v001"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            -1
+          ],
+          "sourceIds": [
+            "v100",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            1
+          ],
+          "sourceIds": [
+            "v110",
+            "v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v001-v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "edges": [
+        {
+          "id": "v000-v001",
+          "from": "v000",
+          "to": "v001",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v000-v010",
+          "from": "v000",
+          "to": "v010",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v100",
+          "from": "v000",
+          "to": "v100",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v011",
+          "from": "v001",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v101",
+          "from": "v001",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v011",
+          "from": "v010",
+          "to": "v011",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v010-v110",
+          "from": "v010",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v011-v111",
+          "from": "v011",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v101",
+          "from": "v100",
+          "to": "v101",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v100-v110",
+          "from": "v100",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v101-v111",
+          "from": "v101",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v110-v111",
+          "from": "v110",
+          "to": "v111",
+          "shadowCollapsed": true
+        }
+      ]
+    },
+    "stateSha256": "900e4313f83f277028e19990b6b95d3a22cab77383d0b4d0970ccd9764384bc3",
+    "geometrySha256": "ac35900ef087a088b82f512e18bda68184cadf489f377f7adba38424c74f3ac7"
+  },
+  {
+    "simulationTimeMs": 10000,
+    "state": {
+      "simulationTimeMs": 10000,
+      "sourceObject": "ordinary-3d-wire-cube",
+      "sourceDimension": 3,
+      "sourceRotation": {
+        "axis": "y",
+        "matrix": "Ry(theta): x′=cosθx−sinθz; y′=y; z′=sinθx+cosθz",
+        "theta": 0.7853981633974483
+      },
+      "shadowProjection": "orthographic P=(x′,y′), independent of display camera",
+      "camera": {
+        "yaw": 0.5235987755982988,
+        "pitch": 0.3490658503988659
+      },
+      "displayProjection": "orthographic c=Rx(pitch)·Ry(yaw)·rotatedSource; SVG screen=(cx,−cy)",
+      "fixedScalePxPerUnit": 95,
+      "selectedVertexIds": [
+        "v110",
+        "v111"
+      ],
+      "paneMapping": {
+        "source": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·screenX,180+95·screenY)"
+        },
+        "shadow": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·x′,180−95·y′)"
+        }
+      },
+      "pairSourceDistance": 2,
+      "pairShadowDistance": 1.414213562373095,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            -1.1102230246251565e-16,
+            -1,
+            -1.414213562373095
+          ],
+          "shadow": [
+            -1.1102230246251565e-16,
+            -1
+          ],
+          "cameraCoordinates": [
+            -0.7071067811865475,
+            -0.5208052043351794,
+            -1.4929038613177312
+          ],
+          "screen": [
+            -0.7071067811865475,
+            0.5208052043351794
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1.414213562373095,
+            -1,
+            1.1102230246251565e-16
+          ],
+          "shadow": [
+            -1.414213562373095,
+            -1
+          ],
+          "cameraCoordinates": [
+            -1.224744871391589,
+            -1.1815373834338836,
+            0.32244288106300595
+          ],
+          "screen": [
+            -1.224744871391589,
+            1.1815373834338836
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            -1.1102230246251565e-16,
+            1,
+            -1.414213562373095
+          ],
+          "shadow": [
+            -1.1102230246251565e-16,
+            1
+          ],
+          "cameraCoordinates": [
+            -0.7071067811865475,
+            1.3585800372366374,
+            -0.8088635746663939
+          ],
+          "screen": [
+            -0.7071067811865475,
+            -1.3585800372366374
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1.414213562373095,
+            1,
+            1.1102230246251565e-16
+          ],
+          "shadow": [
+            -1.414213562373095,
+            1
+          ],
+          "cameraCoordinates": [
+            -1.224744871391589,
+            0.6978478581379333,
+            1.0064831677143433
+          ],
+          "screen": [
+            -1.224744871391589,
+            -0.6978478581379333
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1.414213562373095,
+            -1,
+            -1.1102230246251565e-16
+          ],
+          "shadow": [
+            1.414213562373095,
+            -1
+          ],
+          "cameraCoordinates": [
+            1.224744871391589,
+            -0.6978478581379333,
+            -1.0064831677143433
+          ],
+          "screen": [
+            1.224744871391589,
+            0.6978478581379333
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            1.1102230246251565e-16,
+            -1,
+            1.414213562373095
+          ],
+          "shadow": [
+            1.1102230246251565e-16,
+            -1
+          ],
+          "cameraCoordinates": [
+            0.7071067811865475,
+            -1.3585800372366374,
+            0.8088635746663939
+          ],
+          "screen": [
+            0.7071067811865475,
+            1.3585800372366374
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1.414213562373095,
+            1,
+            -1.1102230246251565e-16
+          ],
+          "shadow": [
+            1.414213562373095,
+            1
+          ],
+          "cameraCoordinates": [
+            1.224744871391589,
+            1.1815373834338836,
+            -0.32244288106300595
+          ],
+          "screen": [
+            1.224744871391589,
+            -1.1815373834338836
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            1.1102230246251565e-16,
+            1,
+            1.414213562373095
+          ],
+          "shadow": [
+            1.1102230246251565e-16,
+            1
+          ],
+          "cameraCoordinates": [
+            0.7071067811865475,
+            0.5208052043351794,
+            1.4929038613177312
+          ],
+          "screen": [
+            0.7071067811865475,
+            -0.5208052043351794
+          ]
+        }
+      ],
+      "shadowSites": [
+        {
+          "xy": [
+            -1.1102230246251565e-16,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1.414213562373095,
+            -1
+          ],
+          "sourceIds": [
+            "v001"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            -1.1102230246251565e-16,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1.414213562373095,
+            1
+          ],
+          "sourceIds": [
+            "v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            1.414213562373095,
+            -1
+          ],
+          "sourceIds": [
+            "v100"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            1.414213562373095,
+            1
+          ],
+          "sourceIds": [
+            "v110"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              -1
+            ],
+            [
+              -1.414213562373095,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v001",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              -1
+            ],
+            [
+              -1.1102230246251565e-16,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              -1
+            ],
+            [
+              1.414213562373095,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v100-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.414213562373095,
+              -1
+            ],
+            [
+              -1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v001-v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              1
+            ],
+            [
+              -1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v011",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              1
+            ],
+            [
+              1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v110-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1.414213562373095,
+              -1
+            ],
+            [
+              1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "edges": [
+        {
+          "id": "v000-v001",
+          "from": "v000",
+          "to": "v001",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v010",
+          "from": "v000",
+          "to": "v010",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v100",
+          "from": "v000",
+          "to": "v100",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v011",
+          "from": "v001",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v101",
+          "from": "v001",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v011",
+          "from": "v010",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v110",
+          "from": "v010",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v011-v111",
+          "from": "v011",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v101",
+          "from": "v100",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v110",
+          "from": "v100",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v101-v111",
+          "from": "v101",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v110-v111",
+          "from": "v110",
+          "to": "v111",
+          "shadowCollapsed": false
+        }
+      ]
+    },
+    "stateSha256": "f6529206b60ef0418c81839cc14a0de2cb372ab829841ff8f319fc88149be71e",
+    "geometrySha256": "0aea39216d384a3e829234f4c690fd1347e4cb424aaabeca5fc1bb1e67558971"
+  },
+  {
+    "simulationTimeMs": 20000,
+    "state": {
+      "simulationTimeMs": 20000,
+      "sourceObject": "ordinary-3d-wire-cube",
+      "sourceDimension": 3,
+      "sourceRotation": {
+        "axis": "y",
+        "matrix": "Ry(theta): x′=cosθx−sinθz; y′=y; z′=sinθx+cosθz",
+        "theta": 1.5707963267948966
+      },
+      "shadowProjection": "orthographic P=(x′,y′), independent of display camera",
+      "camera": {
+        "yaw": 0.5235987755982988,
+        "pitch": 0.3490658503988659
+      },
+      "displayProjection": "orthographic c=Rx(pitch)·Ry(yaw)·rotatedSource; SVG screen=(cx,−cy)",
+      "fixedScalePxPerUnit": 95,
+      "selectedVertexIds": [
+        "v110",
+        "v111"
+      ],
+      "paneMapping": {
+        "source": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·screenX,180+95·screenY)"
+        },
+        "shadow": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·x′,180−95·y′)"
+        }
+      },
+      "pairSourceDistance": 2,
+      "pairShadowDistance": 2,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            0.9999999999999999,
+            -1,
+            -1
+          ],
+          "shadow": [
+            0.9999999999999999,
+            -1
+          ],
+          "cameraCoordinates": [
+            0.36602540378443865,
+            -0.47248441639705024,
+            -1.6256641350679966
+          ],
+          "screen": [
+            0.36602540378443865,
+            0.47248441639705024
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            -0.9999999999999999
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "cameraCoordinates": [
+            -1.3660254037844386,
+            -0.814504559722719,
+            -0.6859715142820882
+          ],
+          "screen": [
+            -1.3660254037844386,
+            0.814504559722719
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            0.9999999999999999,
+            1,
+            -1
+          ],
+          "shadow": [
+            0.9999999999999999,
+            1
+          ],
+          "cameraCoordinates": [
+            0.36602540378443865,
+            1.4069008251747666,
+            -0.9416238484166592
+          ],
+          "screen": [
+            0.36602540378443865,
+            -1.4069008251747666
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            -0.9999999999999999
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "cameraCoordinates": [
+            -1.3660254037844386,
+            1.064880681849098,
+            -0.0019312276307508203
+          ],
+          "screen": [
+            -1.3660254037844386,
+            -1.064880681849098
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            0.9999999999999999
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "cameraCoordinates": [
+            1.3660254037844386,
+            -1.064880681849098,
+            0.0019312276307508203
+          ],
+          "screen": [
+            1.3660254037844386,
+            1.064880681849098
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -0.9999999999999999,
+            -1,
+            1
+          ],
+          "shadow": [
+            -0.9999999999999999,
+            -1
+          ],
+          "cameraCoordinates": [
+            -0.36602540378443865,
+            -1.4069008251747666,
+            0.9416238484166592
+          ],
+          "screen": [
+            -0.36602540378443865,
+            1.4069008251747666
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            0.9999999999999999
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "cameraCoordinates": [
+            1.3660254037844386,
+            0.814504559722719,
+            0.6859715142820882
+          ],
+          "screen": [
+            1.3660254037844386,
+            -0.814504559722719
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -0.9999999999999999,
+            1,
+            1
+          ],
+          "shadow": [
+            -0.9999999999999999,
+            1
+          ],
+          "cameraCoordinates": [
+            -0.36602540378443865,
+            0.47248441639705024,
+            1.6256641350679966
+          ],
+          "screen": [
+            -0.36602540378443865,
+            -0.47248441639705024
+          ]
+        }
+      ],
+      "shadowSites": [
+        {
+          "xy": [
+            0.9999999999999999,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v100"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            -1
+          ],
+          "sourceIds": [
+            "v001",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            0.9999999999999999,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v110"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            1
+          ],
+          "sourceIds": [
+            "v011",
+            "v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              0.9999999999999999,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v001",
+            "v100-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.9999999999999999,
+              -1
+            ],
+            [
+              0.9999999999999999,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v100-v110"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v001-v011",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              0.9999999999999999,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v011",
+            "v110-v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "edges": [
+        {
+          "id": "v000-v001",
+          "from": "v000",
+          "to": "v001",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v010",
+          "from": "v000",
+          "to": "v010",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v100",
+          "from": "v000",
+          "to": "v100",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v001-v011",
+          "from": "v001",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v101",
+          "from": "v001",
+          "to": "v101",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v010-v011",
+          "from": "v010",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v110",
+          "from": "v010",
+          "to": "v110",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v011-v111",
+          "from": "v011",
+          "to": "v111",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v100-v101",
+          "from": "v100",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v110",
+          "from": "v100",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v101-v111",
+          "from": "v101",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v110-v111",
+          "from": "v110",
+          "to": "v111",
+          "shadowCollapsed": false
+        }
+      ]
+    },
+    "stateSha256": "23ff40f9769f0c54ab34bbaeb813065141519677a72d655a1860c771c54eda8a",
+    "geometrySha256": "19ef6cf706e1ad8cf626a6ff2d2f54d3090d299a393fb57407e98a925f0a1f78"
+  },
+  {
+    "simulationTimeMs": 30000,
+    "state": {
+      "simulationTimeMs": 30000,
+      "sourceObject": "ordinary-3d-wire-cube",
+      "sourceDimension": 3,
+      "sourceRotation": {
+        "axis": "y",
+        "matrix": "Ry(theta): x′=cosθx−sinθz; y′=y; z′=sinθx+cosθz",
+        "theta": 0.7853981633974483
+      },
+      "shadowProjection": "orthographic P=(x′,y′), independent of display camera",
+      "camera": {
+        "yaw": 0.5235987755982988,
+        "pitch": 0.3490658503988659
+      },
+      "displayProjection": "orthographic c=Rx(pitch)·Ry(yaw)·rotatedSource; SVG screen=(cx,−cy)",
+      "fixedScalePxPerUnit": 95,
+      "selectedVertexIds": [
+        "v110",
+        "v111"
+      ],
+      "paneMapping": {
+        "source": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·screenX,180+95·screenY)"
+        },
+        "shadow": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·x′,180−95·y′)"
+        }
+      },
+      "pairSourceDistance": 2,
+      "pairShadowDistance": 1.414213562373095,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            -1.1102230246251565e-16,
+            -1,
+            -1.414213562373095
+          ],
+          "shadow": [
+            -1.1102230246251565e-16,
+            -1
+          ],
+          "cameraCoordinates": [
+            -0.7071067811865475,
+            -0.5208052043351794,
+            -1.4929038613177312
+          ],
+          "screen": [
+            -0.7071067811865475,
+            0.5208052043351794
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1.414213562373095,
+            -1,
+            1.1102230246251565e-16
+          ],
+          "shadow": [
+            -1.414213562373095,
+            -1
+          ],
+          "cameraCoordinates": [
+            -1.224744871391589,
+            -1.1815373834338836,
+            0.32244288106300595
+          ],
+          "screen": [
+            -1.224744871391589,
+            1.1815373834338836
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            -1.1102230246251565e-16,
+            1,
+            -1.414213562373095
+          ],
+          "shadow": [
+            -1.1102230246251565e-16,
+            1
+          ],
+          "cameraCoordinates": [
+            -0.7071067811865475,
+            1.3585800372366374,
+            -0.8088635746663939
+          ],
+          "screen": [
+            -0.7071067811865475,
+            -1.3585800372366374
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1.414213562373095,
+            1,
+            1.1102230246251565e-16
+          ],
+          "shadow": [
+            -1.414213562373095,
+            1
+          ],
+          "cameraCoordinates": [
+            -1.224744871391589,
+            0.6978478581379333,
+            1.0064831677143433
+          ],
+          "screen": [
+            -1.224744871391589,
+            -0.6978478581379333
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1.414213562373095,
+            -1,
+            -1.1102230246251565e-16
+          ],
+          "shadow": [
+            1.414213562373095,
+            -1
+          ],
+          "cameraCoordinates": [
+            1.224744871391589,
+            -0.6978478581379333,
+            -1.0064831677143433
+          ],
+          "screen": [
+            1.224744871391589,
+            0.6978478581379333
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            1.1102230246251565e-16,
+            -1,
+            1.414213562373095
+          ],
+          "shadow": [
+            1.1102230246251565e-16,
+            -1
+          ],
+          "cameraCoordinates": [
+            0.7071067811865475,
+            -1.3585800372366374,
+            0.8088635746663939
+          ],
+          "screen": [
+            0.7071067811865475,
+            1.3585800372366374
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1.414213562373095,
+            1,
+            -1.1102230246251565e-16
+          ],
+          "shadow": [
+            1.414213562373095,
+            1
+          ],
+          "cameraCoordinates": [
+            1.224744871391589,
+            1.1815373834338836,
+            -0.32244288106300595
+          ],
+          "screen": [
+            1.224744871391589,
+            -1.1815373834338836
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            1.1102230246251565e-16,
+            1,
+            1.414213562373095
+          ],
+          "shadow": [
+            1.1102230246251565e-16,
+            1
+          ],
+          "cameraCoordinates": [
+            0.7071067811865475,
+            0.5208052043351794,
+            1.4929038613177312
+          ],
+          "screen": [
+            0.7071067811865475,
+            -0.5208052043351794
+          ]
+        }
+      ],
+      "shadowSites": [
+        {
+          "xy": [
+            -1.1102230246251565e-16,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1.414213562373095,
+            -1
+          ],
+          "sourceIds": [
+            "v001"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            -1.1102230246251565e-16,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1.414213562373095,
+            1
+          ],
+          "sourceIds": [
+            "v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            1.414213562373095,
+            -1
+          ],
+          "sourceIds": [
+            "v100"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "xy": [
+            1.414213562373095,
+            1
+          ],
+          "sourceIds": [
+            "v110"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              -1
+            ],
+            [
+              -1.414213562373095,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v001",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              -1
+            ],
+            [
+              -1.1102230246251565e-16,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              -1
+            ],
+            [
+              1.414213562373095,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v100-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.414213562373095,
+              -1
+            ],
+            [
+              -1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v001-v011"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              1
+            ],
+            [
+              -1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v011",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1.1102230246251565e-16,
+              1
+            ],
+            [
+              1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v110-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1.414213562373095,
+              -1
+            ],
+            [
+              1.414213562373095,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110"
+          ],
+          "multiplicity": 1
+        }
+      ],
+      "edges": [
+        {
+          "id": "v000-v001",
+          "from": "v000",
+          "to": "v001",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v010",
+          "from": "v000",
+          "to": "v010",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v100",
+          "from": "v000",
+          "to": "v100",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v011",
+          "from": "v001",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v101",
+          "from": "v001",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v011",
+          "from": "v010",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v110",
+          "from": "v010",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v011-v111",
+          "from": "v011",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v101",
+          "from": "v100",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v110",
+          "from": "v100",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v101-v111",
+          "from": "v101",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v110-v111",
+          "from": "v110",
+          "to": "v111",
+          "shadowCollapsed": false
+        }
+      ]
+    },
+    "stateSha256": "6f30d74724a6d491f3d8715a4314c27b4386cad3d2a4918856f3ea54b2306ce4",
+    "geometrySha256": "0aea39216d384a3e829234f4c690fd1347e4cb424aaabeca5fc1bb1e67558971"
+  },
+  {
+    "simulationTimeMs": 40000,
+    "state": {
+      "simulationTimeMs": 40000,
+      "sourceObject": "ordinary-3d-wire-cube",
+      "sourceDimension": 3,
+      "sourceRotation": {
+        "axis": "y",
+        "matrix": "Ry(theta): x′=cosθx−sinθz; y′=y; z′=sinθx+cosθz",
+        "theta": 0
+      },
+      "shadowProjection": "orthographic P=(x′,y′), independent of display camera",
+      "camera": {
+        "yaw": 0.5235987755982988,
+        "pitch": 0.3490658503988659
+      },
+      "displayProjection": "orthographic c=Rx(pitch)·Ry(yaw)·rotatedSource; SVG screen=(cx,−cy)",
+      "fixedScalePxPerUnit": 95,
+      "selectedVertexIds": [
+        "v110",
+        "v111"
+      ],
+      "paneMapping": {
+        "source": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·screenX,180+95·screenY)"
+        },
+        "shadow": {
+          "viewBox": [
+            0,
+            0,
+            500,
+            360
+          ],
+          "center": [
+            250,
+            180
+          ],
+          "svgPixel": "(250+95·x′,180−95·y′)"
+        }
+      },
+      "pairSourceDistance": 2,
+      "pairShadowDistance": 0,
+      "vertices": [
+        {
+          "id": "v000",
+          "originalSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "cameraCoordinates": [
+            -1.3660254037844386,
+            -0.814504559722719,
+            -0.6859715142820884
+          ],
+          "screen": [
+            -1.3660254037844386,
+            0.814504559722719
+          ]
+        },
+        {
+          "id": "v001",
+          "originalSource": [
+            -1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            -1,
+            1
+          ],
+          "shadow": [
+            -1,
+            -1
+          ],
+          "cameraCoordinates": [
+            -0.36602540378443876,
+            -1.4069008251747666,
+            0.9416238484166592
+          ],
+          "screen": [
+            -0.36602540378443876,
+            1.4069008251747666
+          ]
+        },
+        {
+          "id": "v010",
+          "originalSource": [
+            -1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            -1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "cameraCoordinates": [
+            -1.3660254037844386,
+            1.064880681849098,
+            -0.0019312276307509313
+          ],
+          "screen": [
+            -1.3660254037844386,
+            -1.064880681849098
+          ]
+        },
+        {
+          "id": "v011",
+          "originalSource": [
+            -1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            -1,
+            1,
+            1
+          ],
+          "shadow": [
+            -1,
+            1
+          ],
+          "cameraCoordinates": [
+            -0.36602540378443876,
+            0.47248441639705024,
+            1.6256641350679966
+          ],
+          "screen": [
+            -0.36602540378443876,
+            -0.47248441639705024
+          ]
+        },
+        {
+          "id": "v100",
+          "originalSource": [
+            1,
+            -1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            -1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "cameraCoordinates": [
+            0.36602540378443876,
+            -0.47248441639705024,
+            -1.6256641350679966
+          ],
+          "screen": [
+            0.36602540378443876,
+            0.47248441639705024
+          ]
+        },
+        {
+          "id": "v101",
+          "originalSource": [
+            1,
+            -1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            -1,
+            1
+          ],
+          "shadow": [
+            1,
+            -1
+          ],
+          "cameraCoordinates": [
+            1.3660254037844386,
+            -1.064880681849098,
+            0.0019312276307509313
+          ],
+          "screen": [
+            1.3660254037844386,
+            1.064880681849098
+          ]
+        },
+        {
+          "id": "v110",
+          "originalSource": [
+            1,
+            1,
+            -1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            -1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "cameraCoordinates": [
+            0.36602540378443876,
+            1.4069008251747666,
+            -0.9416238484166592
+          ],
+          "screen": [
+            0.36602540378443876,
+            -1.4069008251747666
+          ]
+        },
+        {
+          "id": "v111",
+          "originalSource": [
+            1,
+            1,
+            1
+          ],
+          "rotatedSource": [
+            1,
+            1,
+            1
+          ],
+          "shadow": [
+            1,
+            1
+          ],
+          "cameraCoordinates": [
+            1.3660254037844386,
+            0.814504559722719,
+            0.6859715142820884
+          ],
+          "screen": [
+            1.3660254037844386,
+            -0.814504559722719
+          ]
+        }
+      ],
+      "shadowSites": [
+        {
+          "xy": [
+            -1,
+            -1
+          ],
+          "sourceIds": [
+            "v000",
+            "v001"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            -1,
+            1
+          ],
+          "sourceIds": [
+            "v010",
+            "v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            -1
+          ],
+          "sourceIds": [
+            "v100",
+            "v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "xy": [
+            1,
+            1
+          ],
+          "sourceIds": [
+            "v110",
+            "v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "nonzeroShadowSegments": [
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v010",
+            "v001-v011"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v000-v100",
+            "v001-v101"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v010-v110",
+            "v011-v111"
+          ],
+          "multiplicity": 2
+        },
+        {
+          "endpoints": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sourceEdgeIds": [
+            "v100-v110",
+            "v101-v111"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "edges": [
+        {
+          "id": "v000-v001",
+          "from": "v000",
+          "to": "v001",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v000-v010",
+          "from": "v000",
+          "to": "v010",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v000-v100",
+          "from": "v000",
+          "to": "v100",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v011",
+          "from": "v001",
+          "to": "v011",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v001-v101",
+          "from": "v001",
+          "to": "v101",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v010-v011",
+          "from": "v010",
+          "to": "v011",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v010-v110",
+          "from": "v010",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v011-v111",
+          "from": "v011",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v100-v101",
+          "from": "v100",
+          "to": "v101",
+          "shadowCollapsed": true
+        },
+        {
+          "id": "v100-v110",
+          "from": "v100",
+          "to": "v110",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v101-v111",
+          "from": "v101",
+          "to": "v111",
+          "shadowCollapsed": false
+        },
+        {
+          "id": "v110-v111",
+          "from": "v110",
+          "to": "v111",
+          "shadowCollapsed": true
+        }
+      ]
+    },
+    "stateSha256": "428e7e410fc3dab8c40de06f41aac30aeea984ebe2a133008e9d9c0c1ace236d",
+    "geometrySha256": "ac35900ef087a088b82f512e18bda68184cadf489f377f7adba38424c74f3ac7"
+  }
+]

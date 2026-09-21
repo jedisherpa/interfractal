@@ -1,0 +1,39 @@
+# Gate 9 — Choose, watch, or inspect a static sheet
+
+Version `gate9-charter-v1`. Draft for independent review before host freeze. The actual user has authorized Gate 9 after Gate 8. This authorizes an instrument and software comparison, with zero human participants; it does not authorize recruitment, a human session or Gate 10. Preserve the 1,081 frozen artifact entries through Gate 8.
+
+## Question and bounded design
+
+Can a choice trace be the single source of truth for a watch replay and a static sheet, including when the chooser requests redundant or insufficient observations? At completed matched endpoints, do the three routes contain exactly the same acquired observation set, trace order and multiplicity, and therefore the same query-evidence compatibility result?
+
+Use one small finite family: the four 5D points from Gate 8 C02, copied unchanged into a new fixture. The public reference is fixed to C02-W02. The property is the ordered signs of `(w,v)`. All worlds, the reference, formulas and menus are disclosed equally in all modes. This is a transparent instrument demonstration, not a hidden-world assessment. Its compatibility calculation asks what the selected observation records distinguish within the declared family; it does not pretend that the publicly displayed reference and source table conceal an answer.
+
+Start with the ordinary xyz projection. The chooser makes exactly two additional selections from `project`, `xw90`, and `yv90`; repeats are permitted and consume a selection. Each query acts on the original source. The second accepted choice seals a three-occurrence trace: baseline, first choice, second choice. Watch and static must be derived from those actual occurrences, with no optimal-query substitution, completion, sorting of playback order, extra preview, interpolation or omitted repeat.
+
+Four prespecified audit recipes are enough: xw→yv, yv→xw, xw→xw, and project→project. Their endpoint compatible-world counts are respectively 1, 1, 2 and 4. The auditor also checks all nine possible two-choice orders using the three-item menu. This is exhaustive software coverage of a tiny instrument, not nine study conditions or a performance sample.
+
+## What is matched
+
+The common context (world table, public reference, task statement, formulas, instruction/practice card, labels and menu descriptions) is identical across modes. All observation cards use the same renderer, exact values, captions, correspondence P, fixed display camera and scale. Static has three occurrence cards, even when two or all three are duplicates; ordinal labels preserve the chooser's order. Watch visits the same three occurrence cards in that order. Its renderer reads the sealed trace, not a separately selected recipe. Choose shows the current occurrence and retains the acquired-history record.
+
+At completion, compare the exact acquired unique query/output set, the ordered occurrence trace, and compatibility/property-determination computed from that set. Choose is complete when its second choice seals the trace; watch is complete at its six-second end after all three occurrences; static is complete at its six-second end. Midstream static already displays all three cards, whereas watch and choose have exposed only a prefix. Do not compare these unequal intermediate information states as matched endpoints.
+
+Information parity is not temporal, agency, memory, attention, effort or pixel equivalence. A static sheet affords simultaneous comparison; sequential cards require temporal comparison; choosing introduces decision time and agency. The watch schedule deliberately does not reproduce variable chooser decision time. Equal card data and nominal scale do not prove equal image sizes, legibility, gaze, experienced duration or cognitive load. Inspect and report the actual layout. No causal human advantage, learning score, usability percentage or response-time comparison is produced here.
+
+## Frozen practice, exposure, stopping and order
+
+The shared practice card in `fixture.json` is one fully worked, separate 4D point example. It explains a projection, a revealing quarter-turn and a repeated projection. It is available unchanged in all modes and supplies no additional observation of the benchmark reference. No scored practice, mastery threshold, adaptive hints or extra teaching is allowed. Software validators read it once before the first route check; any later rereading is logged as review, with no human exposure claim.
+
+Choose has no countdown and exactly two accepted choices. There is no early successful stopping, even if the property is already determined after a choice. There is no third choice, undo, source/reference switch or query outside the menu. Starting a new choice abandons an unfinished draft explicitly; it cannot generate a matched endpoint. A sealed trace is immutable. Starting another draft preserves the earlier sealed trace in that session's exported trace registry, and never mutates its watch/static data.
+
+Watch holds each occurrence for two nominal simulation seconds: indices 0, 1, 2 at local times [0,2), [2,4), [4,6]. It then stops paused at 6. Static displays all three cards from local 0 and stops its review timer paused at 6. These are frozen presentation conventions, not matched measured exposure. Pauses keep the current display visible; manual stepping/restart changes access. Record all such actions and mark the route `manual-review` after any pause, step or restart. Only an uninterrupted forward run is `standard-playback`; neither label means actual human attention was measured. Both routes remain accessible with paused/manual operation.
+
+For this gate's software checks, use fixed recipe order T01, T02, T03, T04, and within each use choose→watch→static because the latter routes depend on the former trace. Reuse is openly source-informed software validation, not independent first exposure. The saved tour is a separate scripted illustration of T01, not an empirical choice or participant session. No people are assigned to orders. A later human comparison would need separate approval and a new frozen protocol specifying recruitment/consent, yoke assignment, first exposure, balanced order or distinct-person triads, responses, exclusions and uncertainty. This public benchmark and its software logs are not that protocol.
+
+## Readiness and boundary
+
+Readiness requires exact trace derivation, equal common context, matched completed information, retained repetitions and failure cases, independent model predictions, rejected invalid actions, unambiguous logs, recoverable paused checkpoints, actual browser controls and inspected originals. A missing observation, concealed extra source query, regenerated optimal replay or comparison of an incomplete watch with a complete sheet blocks a parity claim. A failed human claim is not the outcome: human effects are **untested**.
+
+Use built-in Node and HTML/SVG in `matched-observation/`, provisionally loopback 44002. Do not add a study platform, package dependency, answer service, recruitment workflow or adaptive learner. Exact Gate 8 arithmetic may be reused only through new immutable source copies; history stays unchanged.
+
+A separate Sol reviewer reviews these five files and predictions before the host writes `PRESPEC_FREEZE.json`; the builder starts only afterward. Allow one candidate `G9-MATCHED-001` and at most two justified corrections, preserving all bytes and evidence. Material changes return to prespec review. Astra owns these five prespec files and later synthesis; builder owns the new instrument; independent auditor owns `audit/gate-9/`; host owns freeze, actual browser evidence, packet/status and Git. Freeze the resulting Gate 9 packet, stop workers and return for the next named-gate decision. No automatic Gate 10 or human execution follows.

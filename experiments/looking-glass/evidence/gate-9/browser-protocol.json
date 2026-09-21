@@ -1,0 +1,149 @@
+{
+  "schema": "gate9-host-browser-protocol-v1",
+  "created_at_utc": "2026-09-20T08:55:41.190612+00:00",
+  "source": "docs/gate-9/record-contract.md frozen before implementation",
+  "prespec_sha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "actor": "software_validation_host",
+  "human_participants": 0,
+  "collection_state": "planned_not_performed",
+  "recipes_in_order": {
+    "G9-T01": {
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+    },
+    "G9-T02": {
+      "choices": [
+        "yv90",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "traceHash": "fb4be0e14f1a7b5306e4a251732b2e46fb687fd092f5c459a80a7b86a4021178",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+    },
+    "G9-T03": {
+      "choices": [
+        "xw90",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "propertyDetermined": false,
+      "traceHash": "89c35ef9c0f3742d6bec647f117ed368b16ae647cac3188bc3521c125760f61f",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837"
+    },
+    "G9-T04": {
+      "choices": [
+        "project",
+        "project"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "traceHash": "7bb222e35edf588a50aad165fdad1f792345101823d45e0ae854cbe614470c38",
+      "informationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9"
+    }
+  },
+  "conditions_in_order": [
+    "choose",
+    "watch",
+    "static"
+  ],
+  "checkpoint_passes": {
+    "initial": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      20,
+      24
+    ],
+    "after_exploration": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      20,
+      24
+    ],
+    "after_reopen": [
+      0,
+      24
+    ],
+    "after_reload": [
+      0,
+      24
+    ]
+  },
+  "viewports_css": [
+    [
+      1280,
+      720
+    ],
+    [
+      960,
+      720
+    ]
+  ],
+  "required_checks": [
+    "common practice inspected and closed",
+    "T01 actual choice->watch6s natural end->static6s natural end",
+    "T02 reversed choices and manual watch/static completion",
+    "T03 repeated xw retained and still two compatible worlds",
+    "T04 repeated projection retained and still four compatible worlds",
+    "disabled over-budget control observed without fabricated event",
+    "new draft retains old sealed traces and disables watch/static",
+    "24s saved tour natural end with active bracketing state/image",
+    "global pause/previous/next and local pause/resume/restart",
+    "reopen/reload checkpoint reproducibility",
+    "visible Gate8 replay link and correct paused run/build",
+    "fresh viewport/scene metadata; actual original image dimensions",
+    "restore paused saved start before core closure"
+  ],
+  "original_captures_minimum": [
+    "T01 completed choice",
+    "T01 active/completed watch",
+    "T01 full static sheet",
+    "T04 nonseparating static sheet"
+  ],
+  "collection_files": [
+    "browser-observations.json",
+    "action-trace.json",
+    "checkpoint-review.json",
+    "capture-index.json",
+    "exported-routes.json",
+    "observed-activity.jsonl",
+    "capture-dimensions.json",
+    "CORE_TRIAL_CLOSED.json"
+  ],
+  "cautions": [
+    "No study participants or performance scores",
+    "Match completed acquired data only; not timing, attention, memory, agency or pixels",
+    "No browser state injection or app-internal reads; actual controls and DOM-backed read-only inspection",
+    "Preserve original capture bytes and all failed acquisition attempts"
+  ]
+}

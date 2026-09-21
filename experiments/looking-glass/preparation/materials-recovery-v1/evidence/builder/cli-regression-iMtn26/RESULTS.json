@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "materials-cli-regression/1",
+  "source": "synthetic engineering checks; no research outputs",
+  "results": [
+    {
+      "name": "canonical check",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/build-package.mjs",
+        "check"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "source/design and in-memory package check passed: 18 cards, 4 packets, 8 initial tasks, 72 output files; both authored freezes matched\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "canonical build",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "canonical verify",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "existing target refuses overwrite",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/package-utils.mjs:10\n  if (existsSync(target)) throw new Error(`Refusing to overwrite candidate: ${target}`);\n                                ^\n\nError: Refusing to overwrite candidate: /Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/package-candidate-004\n    at writeNewDirectory (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/package-utils.mjs:10:33)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/build-package.mjs:262:25)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/canonical/tooling/build-package.mjs:267:37\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked directory build",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/directory-symlink/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked directory verify",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/directory-symlink/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked file build",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/file-symlink.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "symlinked file verify",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/file-symlink.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "invalid command fails",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/invalid-command/tooling/build-package.mjs",
+        "not-a-mode"
+      ],
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/invalid-command/tooling/build-package.mjs:14\nconst fail = message => { throw new Error(message); };\n                                ^\n\nError: Usage: node build-package.mjs check|build|verify\n    at fail (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/invalid-command/tooling/build-package.mjs:14:33)\n    at assert (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/invalid-command/tooling/build-package.mjs:15:58)\n    at main (file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/invalid-command/tooling/build-package.mjs:252:3)\n    at file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/invalid-command/tooling/build-package.mjs:267:37\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:633:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "normal imports have no output artifacts or server",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--input-type=module",
+        "-e",
+        "await Promise.all([\"file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/import-only/tooling/build-package.mjs\",\"file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/import-only/tooling/run-candidate.mjs\",\"file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/import-only/tooling/run-preflight.mjs\",\"file:///Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/import-only/tooling/preview.mjs\"].map(url => import(url))); process.stdout.write('IMPORT_OK\\n');"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "IMPORT_OK\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "no-op child exit zero rejected",
+      "assessmentErrors": [
+        "build: required success marker absent",
+        "verify: required success marker absent",
+        "candidate root manifest absent"
+      ]
+    },
+    {
+      "name": "fake success without artifacts rejected",
+      "assessmentErrors": [
+        "candidate root manifest absent"
+      ]
+    },
+    {
+      "name": "deterministic manifest identity",
+      "sha256": "9dd2d2d39509a1f28909bfc88bea5d81390f4fad61de030c79e5d122b75478a0"
+    }
+  ],
+  "failure": null
+}

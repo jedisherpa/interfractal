@@ -1,0 +1,14 @@
+[
+  {
+    "atUtc": "2026-09-20T02:50:28.302Z",
+    "action": "Native screenshot of historical Gate2 target-blank tab11",
+    "result": "Unable to capture screenshot",
+    "scope": "Historical page DOM/AX identity was successfully read and saved; no image claimed for failed attempt."
+  },
+  {
+    "atUtc": "2026-09-20T02:51:03.208Z",
+    "action": "Supported full tab screenshot retry of historical Gate2 tab11",
+    "result": "Unable to capture screenshot",
+    "scope": "Capture unavailable for new target-blank historical tab; DOM and AX verification succeeded. No image fabricated."
+  }
+]

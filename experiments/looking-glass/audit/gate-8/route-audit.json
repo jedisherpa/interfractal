@@ -1,0 +1,145 @@
+{
+  "kind": "gate8-independent-GET-route-audit",
+  "status": "PASS",
+  "origin": "http://127.0.0.1:44001",
+  "listenAddress": "127.0.0.1:44001",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/index.html",
+      "status": 200,
+      "sha256": "7e8263e791debd4d104495617a48e72da9d6f0b61de2456ab9cc160c76cee382"
+    },
+    {
+      "method": "GET",
+      "path": "/style.css",
+      "status": 200,
+      "sha256": "e7649ebc1a91cf4514471f8708824326b9c0075fb2755ec8159dab74aff1c0c0"
+    },
+    {
+      "method": "GET",
+      "path": "/app.mjs",
+      "status": 200,
+      "sha256": "3c941aa5140226f356a5c9e09133d8ee132684c1302355ba23de70f57817cac5"
+    },
+    {
+      "method": "GET",
+      "path": "/model.mjs",
+      "status": 200,
+      "sha256": "79c0846f7d78a283c7baa6a169f50a23517c22d63deb0a7be702b8c32266312f"
+    },
+    {
+      "method": "GET",
+      "path": "/hash.mjs",
+      "status": 200,
+      "sha256": "516de9395927660ec8a570ecfa6aa64a50a8b08e4f7ab30228617498c8f1fe01"
+    },
+    {
+      "method": "GET",
+      "path": "/fixture.json",
+      "status": 200,
+      "sha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200,
+      "sha256": "7e8263e791debd4d104495617a48e72da9d6f0b61de2456ab9cc160c76cee382"
+    },
+    {
+      "method": "GET",
+      "path": "/api/run",
+      "status": 200,
+      "sha256": "f23906a6b648dbcd61a00fc64399cf5ab06b249292074d9bcaaba0eadb18d0ea"
+    },
+    {
+      "method": "GET",
+      "path": "/api/build",
+      "status": 200,
+      "sha256": "0dca4b34c4503e23777e34a11239a46f3325c73b10a99b3c1d7b0083646301fc"
+    },
+    {
+      "method": "GET",
+      "path": "/api/checkpoints",
+      "status": 200,
+      "sha256": "623e1e1183ade05126c3bc6bfafdd588ea2d9bba488a1e6e118fcefa72c5c06f"
+    },
+    {
+      "method": "GET",
+      "path": "/api/events",
+      "status": 200,
+      "sha256": "1c6b785570a49f44946286644bc154addb1a307fa71c9bcf1faafada3f8d0fb3"
+    },
+    {
+      "method": "GET",
+      "path": "/PRESPEC_FREEZE.json",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/independent-predictions.json",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/test.mjs",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/api/activity",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/docs/gate-8/fixture.json",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/review/screenshots/..%2fREADME.md",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/review/screenshots/not-an-original.txt",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/not-a-route",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/review/results.html",
+      "status": 404,
+      "interpretation": "review artifact not yet written"
+    },
+    {
+      "method": "GET",
+      "path": "/review/packet.md",
+      "status": 404,
+      "interpretation": "review artifact not yet written"
+    },
+    {
+      "method": "GET",
+      "path": "/review/audit.md",
+      "status": 200,
+      "interpretation": "available"
+    },
+    {
+      "method": "GET",
+      "path": "/review/run-evidence.json",
+      "status": 404,
+      "interpretation": "review artifact not yet written"
+    },
+    {
+      "method": "GET",
+      "path": "/review/source-review.md",
+      "status": 200,
+      "interpretation": "available"
+    }
+  ],
+  "postRequestsMade": 0
+}

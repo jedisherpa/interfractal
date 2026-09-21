@@ -1,0 +1,114 @@
+[
+  {
+    "label": "001-C0-center-0s",
+    "path": "screenshots/001-C0-center-0s.jpg",
+    "capturedAtUtc": "2026-09-20T03:29:57.467Z",
+    "beforeObservation": 2,
+    "afterObservation": 3,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      0,
+      0
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  },
+  {
+    "label": "001-interior-8s",
+    "path": "screenshots/001-interior-8s.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:07.241Z",
+    "beforeObservation": 5,
+    "afterObservation": 6,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      8000,
+      8000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  },
+  {
+    "label": "001-C1-point-16s",
+    "path": "screenshots/001-C1-point-16s.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:08.120Z",
+    "beforeObservation": 8,
+    "afterObservation": 9,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      16000,
+      16000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  },
+  {
+    "label": "001-C2-empty-20s",
+    "path": "screenshots/001-C2-empty-20s.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:08.880Z",
+    "beforeObservation": 11,
+    "afterObservation": 12,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      20000,
+      20000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  },
+  {
+    "label": "001-ambiguity-known-plane",
+    "path": "screenshots/001-ambiguity-known-plane.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:39.445Z",
+    "beforeObservation": 23,
+    "afterObservation": 24,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      8000,
+      8000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  },
+  {
+    "label": "001-heldout-movie",
+    "path": "screenshots/001-heldout-movie.jpg",
+    "capturedAtUtc": "2026-09-20T03:30:40.861Z",
+    "beforeObservation": 28,
+    "afterObservation": 29,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      20000,
+      20000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  },
+  {
+    "label": "001-inspector-metadata",
+    "path": "screenshots/001-inspector-metadata.jpg",
+    "capturedAtUtc": "2026-09-20T03:31:13.319Z",
+    "beforeObservation": 34,
+    "afterObservation": 35,
+    "runId": "G4-SLICES-001",
+    "buildId": "g4-1a289997d9829f9c",
+    "timeIntervalMs": [
+      40000,
+      40000
+    ],
+    "playingBefore": false,
+    "playingAfter": false,
+    "originalUnedited": true
+  }
+]

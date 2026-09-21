@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "materials-browser-evidence-audit/3",
+  "candidate": "003",
+  "status": "PASS",
+  "observations": 8,
+  "sourceRecordsMatched": 144,
+  "intendedTransitionsPassed": 3,
+  "originalJpegs": 2,
+  "consoleEntries": 0,
+  "viewport": "1280x720",
+  "htmlOnlyCandidateNumberChanged": true,
+  "limits": [
+    "Researcher-only full-union overview",
+    "No actual model or human observations",
+    "Short smoke; not broad accessibility certification"
+  ],
+  "errors": []
+}

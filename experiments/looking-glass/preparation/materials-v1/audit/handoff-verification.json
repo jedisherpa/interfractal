@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "materials-final-handoff-verification/1",
+  "status": "FAIL",
+  "packetSha256": "316528e2d942f1b611ceb9fb9705976e18c52012bf044cd0a50de22ccd7db608",
+  "dispositionSha256": "e0629afb9e9735db89c3332853d78988b5cbe025942402f8d4838eaadae91daa",
+  "coreManifestSha256": "16795483e387a34c0f32e7185723d221dcc772da333a3e3a90848e2a9b80e4d6",
+  "coreEntries": 334,
+  "dispositionPins": 27,
+  "historicalEntries": 1947,
+  "priorCandidateFreezes": [
+    {
+      "name": "CANDIDATE_001_FREEZE.json",
+      "entries": 109,
+      "changed": 0
+    },
+    {
+      "name": "CANDIDATE_002_FREEZE.json",
+      "entries": 119,
+      "changed": 0
+    }
+  ],
+  "cleanReproduction": {
+    "firstAttemptRecordedFailure": true,
+    "canonicalStageFileMatches": 70,
+    "manifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+    "noncanonicalPathIssueStillPresent": true
+  },
+  "packetLocalLinks": 15,
+  "badLinks": [],
+  "scope": {
+    "materialsStagePassed": true,
+    "overallPreparationIncomplete": true,
+    "humanMaterialsApprovalPending": true,
+    "researchCollectionPerformed": false
+  },
+  "pinChecks": 2326,
+  "errors": [
+    "disposition pin count",
+    "current prose scope"
+  ]
+}

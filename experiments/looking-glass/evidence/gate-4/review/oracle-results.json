@@ -1,0 +1,123 @@
+{
+  "kind": "independent-equation-oracle",
+  "implementationImported": false,
+  "predictionFile": "docs/gate-4/independent-predictions.json",
+  "tolerance": 1e-10,
+  "analyticCases": 11,
+  "checkpoints": [
+    {
+      "id": "C0",
+      "timeMs": 0,
+      "sliceKind": "solid",
+      "sliceRadius": 1,
+      "movieCenter3": [
+        0,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        320,
+        210
+      ]
+    },
+    {
+      "id": "C8",
+      "timeMs": 8000,
+      "sliceKind": "solid",
+      "sliceRadius": 0.8660254037844386,
+      "movieCenter3": [
+        -0.29389262614623657,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        299.6385215817949,
+        205.9793120753243
+      ]
+    },
+    {
+      "id": "C16",
+      "timeMs": 16000,
+      "sliceKind": "point",
+      "sliceRadius": 0,
+      "movieCenter3": [
+        -0.47552825814757677,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        287.0544358581467,
+        203.4943902797184
+      ]
+    },
+    {
+      "id": "C20",
+      "timeMs": 20000,
+      "sliceKind": "empty",
+      "sliceRadius": null,
+      "movieCenter3": [
+        -0.5,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        285.3589838486225,
+        203.1595971334866
+      ]
+    },
+    {
+      "id": "C24",
+      "timeMs": 24000,
+      "sliceKind": "point",
+      "sliceRadius": 0,
+      "movieCenter3": [
+        -0.47552825814757677,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        287.0544358581467,
+        203.4943902797184
+      ]
+    },
+    {
+      "id": "C32",
+      "timeMs": 32000,
+      "sliceKind": "solid",
+      "sliceRadius": 0.8660254037844386,
+      "movieCenter3": [
+        -0.29389262614623657,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        299.6385215817949,
+        205.9793120753243
+      ]
+    },
+    {
+      "id": "C40",
+      "timeMs": 40000,
+      "sliceKind": "solid",
+      "sliceRadius": 1,
+      "movieCenter3": [
+        0,
+        0,
+        0
+      ],
+      "movieScreenCenter": [
+        320,
+        210
+      ]
+    }
+  ],
+  "initialAmbiguityEqual": true,
+  "knownPlaneDistinguishesDeclaredPair": true,
+  "movieFrameCount": 401,
+  "heldOutDistance": 1,
+  "heldOutScreenDelta": [
+    69.28203230275506,
+    13.680805733026773
+  ],
+  "status": "prespecified equations independently verified; no implementation or browser result"
+}

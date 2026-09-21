@@ -1,0 +1,14 @@
+{
+  "schema": "gate10-builder-003-http-overlap-v1",
+  "status": "PASS",
+  "source": "isolated software API probe; no browser/human action",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "identicalStartStatuses": [201, 200],
+  "sameAttempt": true,
+  "conflictStatuses": [201, 409],
+  "identicalCommitStatuses": [201, 200],
+  "sameReceipt": true,
+  "attemptCount": 2,
+  "acceptedCommitCount": 1
+}

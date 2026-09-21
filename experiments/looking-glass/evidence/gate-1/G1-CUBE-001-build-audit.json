@@ -1,0 +1,60 @@
+{
+  "schema": "looking-glass-gate-1-build-audit-v1",
+  "generatedAtUtc": "2026-09-20T01:12:10.318Z",
+  "scope": "Exact preserved build/run bytes and independent numeric expectations; browser observations audited separately",
+  "runId": "G1-CUBE-001",
+  "buildId": "g1-37916c6f617be6d5",
+  "sourceSha256": "37916c6f617be6d5a10c8582e123538d5baaa609196f72aafce7bf0c044fe039",
+  "canonicalFiles": [
+    {
+      "path": "calibration/runs/G1-CUBE-001/run.json",
+      "sha256": "bbe7cdf7f8f990d12c52f44ca8f83dd5b1fde70b683ebe5d6791a327b7be2a1e"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-001/initial-state.json",
+      "sha256": "3f6e921497a556fa905af2ba7a5ce02f1a3495b45e40a3cda0c9c359415a5ee0"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-001/events.jsonl",
+      "sha256": "e2e207192b12e720ada943d88665e4a1ce99e682677133a446c5f4677c082f2b"
+    },
+    {
+      "path": "calibration/runs/G1-CUBE-001/checkpoints.json",
+      "sha256": "6831f8526cc4d190943269fa536ca88a4a4d2672620de67cc202413012bcd3fd"
+    }
+  ],
+  "checks": [
+    {
+      "name": "build manifest identifies exact immutable source bytes",
+      "status": "pass"
+    },
+    {
+      "name": "all 61 frozen Gate 0 files retain their hashes",
+      "status": "pass"
+    },
+    {
+      "name": "source graph and canonical fixture identity",
+      "status": "pass"
+    },
+    {
+      "name": "canonical fixture state hashes and all five prespecified checkpoints",
+      "status": "fail",
+      "detail": "checkpoint 0/v000/camera[0]: got null, expected -1.3660254037844386"
+    },
+    {
+      "name": "initial state and planned events are labeled fixture, not browser evidence",
+      "status": "pass"
+    },
+    {
+      "name": "exact snapshot: inverse and off-checkpoint camera/source interventions",
+      "status": "fail",
+      "detail": "camera-only source and shadow/v000/camera[0]: got NaN, expected -0.7071067811865476"
+    },
+    {
+      "name": "fixed orthographic pane mapping and simulation clamping",
+      "status": "pass"
+    }
+  ],
+  "passed": 5,
+  "failed": 2
+}

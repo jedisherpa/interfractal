@@ -1,0 +1,420 @@
+{
+  "schema": "gate10-run-evidence-v1",
+  "synthesizedAtUtc": "2026-09-20T12:17:15.512332+00:00",
+  "result": "BOUNDED_NEGATIVE",
+  "instrumentReadiness": "NOT_READY",
+  "independentOverallVerdict": "BLOCKED_PREDICTION_WORKFLOW",
+  "independentTechnicalReplayVerdict": "PASS_WITH_EXPORT_VIEWPORT_METADATA_QUALIFICATION",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "sourceSha256": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "baseCommit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+  "runtime": {
+    "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "nodeVersion": "v24.17.0"
+  },
+  "previewUrl": "http://127.0.0.1:44003/",
+  "publicResultsUrl": "http://127.0.0.1:44003/review/results.html",
+  "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/prediction-transfer/builds/g10-9e34f791d83c1cd7a495/server.mjs --run /Users/paul/BTC-Learning/experiments/looking-glass/prediction-transfer/runs/G10-PREDICT-003 --port 44003",
+  "restartLimitation": "Explicit --run required; the server default selects earlier candidate 001.",
+  "closedCore": {
+    "manifest": "evidence/gate-10/CORE_EVIDENCE_FREEZE.json",
+    "sha256": "a8310e939ba5d3020d890613ca305f7b71179b5e7c88a97bc064bd588006fd28",
+    "entries": 22,
+    "hashAndByteMatches": 22,
+    "readOnlyMode": "0444"
+  },
+  "actualBrowser": {
+    "fullObservations": 65,
+    "semanticFingerprintMatches": 65,
+    "ledgerFingerprintMatches": 65,
+    "withheldTargetObservations": 65,
+    "responseControlInvariantMatches": 65,
+    "noHorizontalOverflowObservations": 65,
+    "hostSemanticActions": 49,
+    "hostActionTypes": {
+      "button": 32,
+      "select": 15,
+      "reload": 1,
+      "historicalLink": 1
+    },
+    "activeUnpausedObservations": 12,
+    "pausedObservations": 53,
+    "designatedPausedCheckpoints": {
+      "compared": 16,
+      "exactPayloadAndFingerprintMatches": 16,
+      "afterBlockedReview": 6,
+      "afterSuccessfulReveal": 0
+    },
+    "naturalTour": {
+      "elapsedMilliseconds": 20004,
+      "scheduledEvents": 6,
+      "scheduledEventPayloadAndFingerprintMatches": 6,
+      "caseSelectSeconds": [
+        4,
+        8,
+        12,
+        16,
+        20
+      ],
+      "automaticStopSeconds": 20,
+      "automaticStopReason": "end-of-sequence",
+      "finalBoundaryFingerprintJoin": true
+    },
+    "sixUntouchedJpegOriginals": {
+      "hashAndBracketMatches": 6,
+      "actualDimensions": {
+        "initial-supports": [
+          1280,
+          720
+        ],
+        "initial-cards": [
+          1280,
+          720
+        ],
+        "narrow-supports": [
+          960,
+          720
+        ],
+        "start-ack-discarded": [
+          1280,
+          720
+        ],
+        "active-tour": [
+          1280,
+          720
+        ],
+        "natural-tour-end": [
+          1280,
+          720
+        ]
+      },
+      "visuallyInspected": 6
+    },
+    "svg": {
+      "declaredContentCss": [
+        280,
+        200
+      ],
+      "observedBorderBox": [
+        282,
+        202
+      ],
+      "observedSvgRects": 130,
+      "sceneToDomRectMatches": 130
+    },
+    "consoleEntries": 0,
+    "gate9LinkVisibleIdentity": "G9-MATCHED-003 \u00b7 g9-15c3bf973fe0c6cd"
+  },
+  "predictionFailure": {
+    "actualBrowserAttemptStartClicks": 1,
+    "serviceAttemptsCreated": 1,
+    "browserDraftSelections": 0,
+    "browserCommits": 0,
+    "browserSkips": 0,
+    "browserReveals": 0,
+    "primaryCasesCompleted": 0,
+    "repeatReviewsCompleted": 0,
+    "sourceFinding": "audit/gate-10/candidate-003-browser-blocker-recheck.json",
+    "browserFinding": "The accepted T01 attempt-start acknowledgement was discarded by the app's undefined-versus-null stale-response comparison; local phase remained none with no attached attempt and disabled answer/skip/reveal controls.",
+    "retainedAttempt": "One T01 ordinal-1 server attempt remained answering with null response and no commit/reveal reference before practice, after practice, and at final session-one export; no close or abandon event was recorded.",
+    "actualServiceLog": {
+      "rows": 6,
+      "acceptedStateMutations": [
+        "session-start",
+        "attempt-start"
+      ],
+      "readOnlyExports": 4,
+      "commits": 0,
+      "reveals": 0,
+      "closes": 0
+    },
+    "freshDocument": "Session two produced an empty local/server export and no new service session. Reload did not recover the orphan or establish naive human exposure."
+  },
+  "viewportQualification": {
+    "matchingObservations": 61,
+    "staleDocumentHeightObservations": 4,
+    "labels": [
+      "session-one-events-pre-reset",
+      "session-one-events-final",
+      "session-two-natural-tour-events",
+      "session-two-events-final"
+    ],
+    "causeSupportedByEvidence": "Event export text expanded the actual document after the last inspector publish; only documentHeight differed. Published and actual width, height, scroll coordinates and documentWidth matched.",
+    "effect": "Do not claim fully atomic live viewport metadata for these four export states. Semantic and ledger fingerprints still independently match their published payloads."
+  },
+  "uiEventExports": {
+    "sessionOneFinalRows": 30,
+    "sessionTwoFinalRows": 22,
+    "sessionOneApiAcknowledgements": 1,
+    "sessionOneAttemptStartAcknowledgements": 0,
+    "naturalTourReplayEvents": 5,
+    "naturalTourAutomaticStops": 1,
+    "provenance": "All exported user-control, api, replay and automatic events have the appropriate source-informed or scripted actor/provenance. Export handlers log their own event after serializing the export, so final export files omit boundary/tail actions; host actions and observations retain them.",
+    "manualCheckpoint20": "A direct manual selection of checkpoint 20 has the canonical end-of-sequence state payload, but its event origin is user-control/checkpoint-direct; it is not evidence of a natural stop. The separate natural tour has the automatic tour-stop event."
+  },
+  "historicalIntegrity": {
+    "gates": "0-9",
+    "manifestEntriesRehashed": 1260,
+    "mismatches": 0,
+    "trackedDiffFromGate10Base": 0,
+    "baseCommit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1"
+  },
+  "preBrowserScope": {
+    "prespecIndependentChecks": 98,
+    "immutableBuildChecks": 103,
+    "isolatedHttpServiceChecks": 572,
+    "controlledAppChecks": 12,
+    "status": "Scoped passes preserved; first-start UI acknowledgement not exercised. Readiness recommendation superseded by actual browser blocker.",
+    "apiTrafficSeparation": "Isolated audit and builder probes are separate from the six-row closed actual browser service log."
+  },
+  "unexecuted": [
+    "T01 deliberately wrong commit/reveal",
+    "T02 correct commit/reveal",
+    "T03 ambiguous commit/reveal",
+    "T04 explicit skip and point reveal",
+    "T05 empty reveal",
+    "T01 repeat correct review",
+    "reset after an actual reveal",
+    "attached unanswered-attempt abandonment"
+  ],
+  "humanParticipants": 0,
+  "humanLearningAndTransfer": "UNTESTED",
+  "firstExposureHumanClaim": false,
+  "provenance": {
+    "specificationAndSynthesis": "GPT-6 Astra xhigh",
+    "sourceGathering": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independentAudit": "Separate GPT-5.6 Sol high",
+    "host": "Supported browser operation and evidence preservation",
+    "rolesAreSoftware": true,
+    "detailedHostRecord": "evidence/gate-10/execution-provenance.json"
+  },
+  "candidateHistory": [
+    {
+      "runId": "G10-PREDICT-001",
+      "buildId": "g10-6a81e6f6965f96cee454",
+      "result": "preserved_failure",
+      "reason": "Scroll/resize publication reused last timer cursor instead of a captured current clock.",
+      "actualBrowserAcquisition": false
+    },
+    {
+      "runId": "G10-PREDICT-002",
+      "buildId": "g10-464bfe21ad6044378996",
+      "result": "blocked_pre_browser",
+      "reason": "Concurrent retries, stale exports, API provenance and replay event-chain defects.",
+      "actualBrowserAcquisition": false
+    },
+    {
+      "runId": "G10-PREDICT-003",
+      "buildId": "g10-9e34f791d83c1cd7a495",
+      "result": "bounded_negative_not_ready",
+      "reason": "First attempt-start acknowledgement discarded; actual answer workflow blocked.",
+      "actualBrowserAcquisition": true
+    }
+  ],
+  "candidateBudget": {
+    "initialCandidates": 1,
+    "revisions": 2,
+    "exhausted": true,
+    "candidate004Exists": false,
+    "repairAppliedAfterBrowserFailure": false
+  },
+  "publicPresentationBoundary": {
+    "answerFree": true,
+    "allowedNewImages": [
+      "/review/screenshots/initial-cards.jpg",
+      "/review/screenshots/start-ack-discarded.jpg",
+      "/review/screenshots/natural-tour-end.jpg"
+    ],
+    "fullPacketAuditKeyAndSoftwareExportsRemainLocal": true,
+    "publicPresentationVerification": "Pending separate host presentation QA; not part of the closed 65-observation browser core."
+  },
+  "closureBoundary": {
+    "coreClosed": true,
+    "finalGateFreezeClaimedHere": false,
+    "workerShutdownClaimedHere": false,
+    "publicationOrPushClaimedHere": false,
+    "nextGate": 11,
+    "nextGateName": "Break a summary by changing its receiver",
+    "nextGateApproved": false,
+    "nextGateStarted": false
+  },
+  "pinnedArtifacts": [
+    {
+      "path": "docs/gate-10/PRESPEC_FREEZE.json",
+      "bytes": 1921,
+      "sha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56"
+    },
+    {
+      "path": "evidence/gate-10/CORE_EVIDENCE_FREEZE.json",
+      "bytes": 4509,
+      "sha256": "a8310e939ba5d3020d890613ca305f7b71179b5e7c88a97bc064bd588006fd28"
+    },
+    {
+      "path": "evidence/gate-10/host-browser-outcome.json",
+      "bytes": 2715,
+      "sha256": "34d68f33aa463d82b7d4d041ab8a8629641e97f19df463cae0eac273d9b71740"
+    },
+    {
+      "path": "evidence/gate-10/replay-collection.json",
+      "bytes": 7520,
+      "sha256": "12cc47d937c5a1740f6592f5e29017d132e035a23f62ceddd13ca678c02605ac"
+    },
+    {
+      "path": "evidence/gate-10/prior-integrity-at-start.json",
+      "bytes": 2341,
+      "sha256": "58cb14d93ea51c09aa02c9c3efb3d393014af52c38873f55c2f1c75c77fa6708"
+    },
+    {
+      "path": "evidence/gate-10/historical-server-readiness.json",
+      "bytes": 1340,
+      "sha256": "130954e250a081f3533f9168ed6a1c947a4137cc82e9eb6332109e27bb829713"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots.json",
+      "bytes": 1364,
+      "sha256": "60c3d4bc70d7ab89404f94f66234fffcf0c412c69288a3f36632b634f147a634"
+    },
+    {
+      "path": "evidence/gate-10/browser/server-actions-closed.jsonl",
+      "bytes": 3738,
+      "sha256": "825e3ccc3e6821599b8fab9fe861813e88f004fbd9d09942f5c6ac77eab2d643"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-one-ledger-final.json",
+      "bytes": 764,
+      "sha256": "eb93ed8db9bd572be5d7173ecdd21d6a7870aca06047da323ffc82a56b783b24"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-two-ledger-final.json",
+      "bytes": 61,
+      "sha256": "3ce5eaf5ce715ba44f1ea5d7ecee5b4eb4e4722b38bf4604e5653a53c8dbc6bd"
+    },
+    {
+      "path": "audit/gate-10/prespec-review.md",
+      "bytes": 4943,
+      "sha256": "4e22fb8b175e958106ec060e1ad7252fbbcc481a6a4bc0cc5a790b1383cc5628"
+    },
+    {
+      "path": "audit/gate-10/prespec-review.json",
+      "bytes": 4642,
+      "sha256": "8fdb3890e6d2bc4ed2fdacc43888f216b691d2d61811b302130a66b158645d24"
+    },
+    {
+      "path": "audit/gate-10/candidate-002-audit.md",
+      "bytes": 4929,
+      "sha256": "96907120c6cf4b2c5575071797d9be8923867498d86893733aa8f67465a271cc"
+    },
+    {
+      "path": "audit/gate-10/candidate-002-audit.json",
+      "bytes": 6314,
+      "sha256": "220905df771c2be3fb0996f94a5796f8ce83b8e240a2004adc55d1a963a574f0"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-audit.md",
+      "bytes": 3278,
+      "sha256": "e454e0afa15a0c77b5e3007f216d139cf8c475596b4ade6c11346e4fff821f72"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-audit.json",
+      "bytes": 3661,
+      "sha256": "20ada55ef4f53a561b61a3f9f476f637a3995516c619bc5ea39e5da31a382f36"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-build-audit.json",
+      "bytes": 458,
+      "sha256": "77cef9a2ca4691165bf907b53f727a4f805cd5610048684a0e7fad85ac1ae6ac"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-http-service-audit.json",
+      "bytes": 47800,
+      "sha256": "1886f1471132c8d4d727164cb508f460ed620ee298f29252aed7e1fef5134821"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-app-control-audit.json",
+      "bytes": 1297,
+      "sha256": "ae8ccd6fad165d3ca6924b82f64922604f55b55ea1ef6451158980e9ec0c64b0"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-concurrency-repro.json",
+      "bytes": 1769,
+      "sha256": "80531a3309e19f3a1c3673ec44f917d2aa157b4729c8c550383cc4cf8ed1df27"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-browser-blocker-recheck.md",
+      "bytes": 2992,
+      "sha256": "34b80ab2f698d2beb8dad8de852960aece606612ccbb1748fd5f2efa20873e16"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-browser-blocker-recheck.json",
+      "bytes": 3535,
+      "sha256": "961ca1adff05cdd66519e88d9027e6073022c9241c6e489322c38f0857fb3251"
+    },
+    {
+      "path": "audit/gate-10/candidate-003-first-start-blocker-repro.json",
+      "bytes": 1055,
+      "sha256": "d225caf1aff2ffad940b5ae24cb504cd95a10deefcba40d3c75f7147c66686b0"
+    },
+    {
+      "path": "audit/gate-10/browser-final-audit.md",
+      "bytes": 5446,
+      "sha256": "08dc0df759c0be1e6ff47b87544889e99499657c05beb5e8bd2d351c49d19ff5"
+    },
+    {
+      "path": "audit/gate-10/browser-final-audit.json",
+      "bytes": 5289,
+      "sha256": "b970e34b9fe3cbc72f87de0444ed582974a2f74c5900bfea7f9d045a343a694b"
+    },
+    {
+      "path": "audit/gate-10/browser-final-verification.json",
+      "bytes": 8997,
+      "sha256": "c9beac0c2fb778885644f81b9c7be46cff9970fae653304a97e6b3733302b602"
+    },
+    {
+      "path": "audit/gate-10/verify-browser-final.mjs",
+      "bytes": 14677,
+      "sha256": "132d1bdd2af76113f84e34f1ef5148a360302ffc84a080067212bf1b1e40de25"
+    },
+    {
+      "path": "research/gate-10/source-review.md",
+      "bytes": 4637,
+      "sha256": "1f90a587609059d93b83988e2787bc1fddaf04103366ba383e4966ca915e55bc"
+    },
+    {
+      "path": "research/gate-10/sources.json",
+      "bytes": 7435,
+      "sha256": "4ca5020beb31e5e7ff18389eaf858f886a52de3f98265db367130664301d7df9"
+    },
+    {
+      "path": "prediction-transfer/runs/G10-PREDICT-001/run-manifest.json",
+      "bytes": 779,
+      "sha256": "509cbb4fecc231abc535b98904ba6f238257f7dc482917b44aca36ead81609c9"
+    },
+    {
+      "path": "prediction-transfer/runs/G10-PREDICT-002/run-manifest.json",
+      "bytes": 779,
+      "sha256": "3b60956dcb16c3a5f0506de03e85735aa9bf8f5e2dc89379f8dc78b3977b159a"
+    },
+    {
+      "path": "prediction-transfer/runs/G10-PREDICT-003/run.json",
+      "bytes": 781,
+      "sha256": "1b6d1b9dd770d3af2dddcf28bb57042bfc3cef867fb3dc8dc29542e15c93ae1e"
+    },
+    {
+      "path": "prediction-transfer/runs/G10-PREDICT-003/run-manifest.json",
+      "bytes": 779,
+      "sha256": "c155bbe8a5394b3c01b1566ba9a949972d7053fbea682d8597f45ba1dcdb2115"
+    },
+    {
+      "path": "evidence/gate-10/GATE_10_PACKET.md",
+      "bytes": 17494,
+      "sha256": "c11042beb1274586cb49a3ced36577b3d0cb85f9384f974f7874ca86dfc0f57f"
+    },
+    {
+      "path": "evidence/gate-10/results.html",
+      "bytes": 10711,
+      "sha256": "a5be9af03cd941a8d3c3b967ca19aec6f0f7fa8b531b2d1926daceb39225b785"
+    }
+  ]
+}

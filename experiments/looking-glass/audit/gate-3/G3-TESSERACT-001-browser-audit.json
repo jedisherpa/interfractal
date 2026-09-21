@@ -1,0 +1,217 @@
+{
+  "checkedAtUtc": "2026-09-20T02:52:19.544Z",
+  "runId": "G3-TESSERACT-001",
+  "buildId": "g3-2137b012118cbd13",
+  "observationCount": 4,
+  "captureCount": 1,
+  "verifiedCaptures": [
+    {
+      "label": "001-inspector-scroll",
+      "path": "screenshots/001-inspector-scroll.jpg",
+      "sha256": "e632138f5ced7edf08a008194b0f9655e362a6b92b10cf5f85aae2b0a9c7abc4",
+      "bytes": 127132,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    }
+  ],
+  "pass": false,
+  "passed": 5,
+  "failed": 2,
+  "checks": [
+    {
+      "name": "observations bind exact run/build and actual browser URL",
+      "pass": true,
+      "detail": {
+        "count": 4
+      }
+    },
+    {
+      "name": "every recorded 16-vertex source, 4D rotation, raw 3D shadow and SVG screen position matches independent equations",
+      "pass": true,
+      "detail": {
+        "checkedObservations": 4,
+        "errors": [],
+        "errorCount": 0
+      }
+    },
+    {
+      "name": "fresh viewport, DPR, scene rectangle and bounded page width at each actual observation",
+      "pass": false,
+      "detail": {
+        "checked": 4,
+        "mismatches": [
+          {
+            "index": 1,
+            "label": "001 initial canonical paused",
+            "actualRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": 291.25
+            },
+            "inspectorRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": 291.25
+            },
+            "viewport": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            },
+            "inspectorViewport": {
+              "devicePixelRatio": 2,
+              "height": 720,
+              "width": 1280
+            },
+            "scrollWidth": 1280,
+            "clientWidth": 1280
+          },
+          {
+            "index": 2,
+            "label": "001 open inspector after scroll",
+            "actualRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": -1067.25
+            },
+            "inspectorRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": 291.25
+            },
+            "viewport": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            },
+            "inspectorViewport": {
+              "devicePixelRatio": 2,
+              "height": 720,
+              "width": 1280
+            },
+            "scrollWidth": 1280,
+            "clientWidth": 1280
+          },
+          {
+            "index": 3,
+            "label": "001-inspector-scroll / before image",
+            "actualRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": -1067.25
+            },
+            "inspectorRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": 291.25
+            },
+            "viewport": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            },
+            "inspectorViewport": {
+              "devicePixelRatio": 2,
+              "height": 720,
+              "width": 1280
+            },
+            "scrollWidth": 1280,
+            "clientWidth": 1280
+          },
+          {
+            "index": 4,
+            "label": "001-inspector-scroll / after image",
+            "actualRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": -1067.25
+            },
+            "inspectorRect": {
+              "height": 390,
+              "width": 605.5,
+              "x": 27,
+              "y": 291.25
+            },
+            "viewport": {
+              "devicePixelRatio": 1,
+              "height": 720,
+              "width": 1280
+            },
+            "inspectorViewport": {
+              "devicePixelRatio": 2,
+              "height": 720,
+              "width": 1280
+            },
+            "scrollWidth": 1280,
+            "clientWidth": 1280
+          }
+        ]
+      }
+    },
+    {
+      "name": "five actual paused checkpoints match independent A/B distances and projected sites",
+      "pass": false,
+      "detail": [
+        {
+          "timeMs": 0,
+          "pass": true,
+          "count": 4
+        },
+        {
+          "timeMs": 8000,
+          "pass": false,
+          "count": 0
+        },
+        {
+          "timeMs": 16000,
+          "pass": false,
+          "count": 0
+        },
+        {
+          "timeMs": 24000,
+          "pass": false,
+          "count": 0
+        },
+        {
+          "timeMs": 32000,
+          "pass": false,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "actual inspector reports rank-three negative cases and rank-four all-16 recovery within tolerance",
+      "pass": true,
+      "detail": {
+        "checked": 4,
+        "errors": []
+      }
+    },
+    {
+      "name": "original JPEG captures exist and bind to same run/build/observation; supplied hashes/dimensions match",
+      "pass": true,
+      "detail": {
+        "count": 1,
+        "errors": []
+      }
+    },
+    {
+      "name": "append-only observed events bind run/build and increase per UI session with explicit origins",
+      "pass": true,
+      "detail": {
+        "events": 1,
+        "sessions": 1,
+        "errors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "overflow": "visible",
+  "pageWidth": 2712,
+  "plainScrollWidth": 2666,
+  "plainWidth": 1186,
+  "recordedAt": "2026-09-20T02:00:31.746Z",
+  "tables": [
+    {
+      "head": [
+        "Record / SHA-256",
+        "Supplied facts",
+        "Current answer / placement",
+        "Display phase",
+        "Reason",
+        "Source / history"
+      ],
+      "rows": [
+        [
+          "Hall (venue-hall)\n3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "{\"capacityHouseholds\":60,\"alreadyWheelchairAccessible\":false,\"hireTokens\":4,\"powerAvailable\":true,\"requiredAccessEquipment\":{\"name\":\"portable ramp\",\"costTokens\":2},\"requiredPowerEquipment\":null,\"shelterRequiredInRain\":false}",
+          "mapped · yes · east",
+          "0.000 rad · arbitrary display slot",
+          "60 households meets the 60-household threshold.",
+          "{\"source\":{\"path\":\"inputs/research-program/reviews/R1_STUDY_DESIGN.md\",\"sha256\":\"70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db\",\"section\":\"A small executable task and scoring key\",\"locator\":\"Venue hire paragraph; Capacity, Access, Power and Weather rows\"},\"history\":[{\"version\":1,\"operation\":\"extract-supplied-fictional-facts\",\"actor\":\"Looking Glass Gate 2 specification; AI-authored derivative\",\"note\":\"No participant action or endorsement; source task initial condition only.\"}]}"
+        ],
+        [
+          "Field (venue-field)\nb7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "{\"capacityHouseholds\":80,\"alreadyWheelchairAccessible\":true,\"hireTokens\":3,\"powerAvailable\":false,\"requiredAccessEquipment\":null,\"requiredPowerEquipment\":{\"name\":\"generator\",\"costTokens\":3},\"shelterRequiredInRain\":true,\"shelterCostTokens\":3}",
+          "mapped · yes · east",
+          "1.571 rad · arbitrary display slot",
+          "80 households meets the 60-household threshold.",
+          "{\"source\":{\"path\":\"inputs/research-program/reviews/R1_STUDY_DESIGN.md\",\"sha256\":\"70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db\",\"section\":\"A small executable task and scoring key\",\"locator\":\"Venue hire paragraph; Capacity, Access, Power and Weather rows\"},\"history\":[{\"version\":1,\"operation\":\"extract-supplied-fictional-facts\",\"actor\":\"Looking Glass Gate 2 specification; AI-authored derivative\",\"note\":\"No participant action or endorsement; source task initial condition only.\"}]}"
+        ],
+        [
+          "Studio (venue-studio)\n1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+          "{\"capacityHouseholds\":50,\"alreadyWheelchairAccessible\":true,\"hireTokens\":5,\"powerAvailable\":true,\"requiredAccessEquipment\":null,\"requiredPowerEquipment\":null,\"shelterRequiredInRain\":false}",
+          "mapped · no · west",
+          "3.142 rad · arbitrary display slot",
+          "50 households is below the 60-household threshold.",
+          "{\"source\":{\"path\":\"inputs/research-program/reviews/R1_STUDY_DESIGN.md\",\"sha256\":\"70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db\",\"section\":\"A small executable task and scoring key\",\"locator\":\"Venue hire paragraph; Capacity, Access, Power and Weather rows\"},\"history\":[{\"version\":1,\"operation\":\"extract-supplied-fictional-facts\",\"actor\":\"Looking Glass Gate 2 specification; AI-authored derivative\",\"note\":\"No participant action or endorsement; source task initial condition only.\"}]}"
+        ],
+        [
+          "Initial weather and task context (weather-context)\ne030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "{\"rainCertain\":true,\"fieldShelterCostTokens\":3,\"indoorVenuesRequireShelter\":false,\"requiredCapacityHouseholds\":60,\"budgetTokens\":8}",
+          "unmapped",
+          "none · off loop",
+          "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing.",
+          "{\"source\":{\"path\":\"inputs/research-program/reviews/R1_STUDY_DESIGN.md\",\"sha256\":\"70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db\",\"section\":\"A small executable task and scoring key\",\"locator\":\"Public brief and Weather row; before the later update\"},\"history\":[{\"version\":1,\"operation\":\"extract-supplied-fictional-facts\",\"actor\":\"Looking Glass Gate 2 specification; AI-authored derivative\",\"note\":\"No participant action or endorsement; source task initial condition only.\"}]}"
+        ]
+      ]
+    },
+    {
+      "head": [
+        "Record",
+        "Current reference",
+        "Other reference",
+        "What changed"
+      ],
+      "rows": [
+        [
+          "Hall",
+          "yes · 60 households meets the 60-household threshold.",
+          "no · Supplied access fact: a portable ramp costing 2 tokens is required.",
+          "criterion changes the assignment; source unchanged"
+        ],
+        [
+          "Field",
+          "yes · 80 households meets the 60-household threshold.",
+          "yes · Supplied access fact: already accessible; no added access equipment required.",
+          "same assignment; source unchanged"
+        ],
+        [
+          "Studio",
+          "no · 50 households is below the 60-household threshold.",
+          "yes · Supplied access fact: already accessible; no added access equipment required.",
+          "criterion changes the assignment; source unchanged"
+        ],
+        [
+          "Initial weather and task context",
+          "unmapped · Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing.",
+          "unmapped · Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing.",
+          "same assignment; source unchanged"
+        ]
+      ]
+    }
+  ],
+  "viewport": {
+    "height": 1127,
+    "width": 1280
+  }
+}

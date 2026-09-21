@@ -1,0 +1,358 @@
+{
+  "schema": "gate12-public-fixture-v1",
+  "fixtureId": "G12-FIXTURE-001",
+  "title": "Coordinate without erasing disagreement",
+  "baseCommitAtSpecification": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+  "scope": "Public finite fictional software benchmark; no human participants, consent or enacted export.",
+  "sourceProvenance": {
+    "author": "Gate 12 synthetic fixture author; AI-authored",
+    "source": "New fictional sensor-export modes, not historical source revisions",
+    "factsMeaning": "Stipulated integer channel and duration values, not measured product specifications"
+  },
+  "sourceModes": [
+    {
+      "id": "P1",
+      "label": "Brief export",
+      "retainedChannels": 2,
+      "sendMinutes": 1
+    },
+    {
+      "id": "P2",
+      "label": "Middle export",
+      "retainedChannels": 4,
+      "sendMinutes": 3
+    },
+    {
+      "id": "P3",
+      "label": "Full export",
+      "retainedChannels": 6,
+      "sendMinutes": 5
+    }
+  ],
+  "sourceHashPayload": "Canonical JSON of the ordered sourceModes array",
+  "fixedModeOrder": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "groups": [
+    {
+      "id": "ARCHIVE",
+      "label": "Archive group (fictional)"
+    },
+    {
+      "id": "DISPATCH",
+      "label": "Dispatch group (fictional)"
+    }
+  ],
+  "references": [
+    {
+      "id": "R_DETAIL",
+      "version": 1,
+      "question": "Which declared mode retains the most channels?",
+      "ordering": "retainedChannels descending, then fixed mode order",
+      "scope": "All three fixed source modes, independent of availability",
+      "ignoredMetric": "sendMinutes"
+    },
+    {
+      "id": "R_SPEED",
+      "version": 1,
+      "question": "Which declared mode takes the fewest minutes?",
+      "ordering": "sendMinutes ascending, then fixed mode order",
+      "scope": "All three fixed source modes, independent of availability",
+      "ignoredMetric": "retainedChannels"
+    }
+  ],
+  "referenceAssignments": [
+    {
+      "id": "BASE",
+      "label": "Different local objectives",
+      "referencesByGroup": {
+        "ARCHIVE": {
+          "id": "R_DETAIL",
+          "version": 1
+        },
+        "DISPATCH": {
+          "id": "R_SPEED",
+          "version": 1
+        }
+      }
+    },
+    {
+      "id": "DETAIL_CONTROL",
+      "label": "New branch: Dispatch changes to detail",
+      "referencesByGroup": {
+        "ARCHIVE": {
+          "id": "R_DETAIL",
+          "version": 1
+        },
+        "DISPATCH": {
+          "id": "R_DETAIL",
+          "version": 1
+        }
+      },
+      "changedFrom": "BASE",
+      "changedGroup": "DISPATCH"
+    }
+  ],
+  "availabilityScenarios": [
+    {
+      "id": "ALL",
+      "label": "All modes eligible",
+      "eligibleModeIds": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "id": "EXTREMES",
+      "label": "Only end modes eligible",
+      "eligibleModeIds": [
+        "P1",
+        "P3"
+      ]
+    },
+    {
+      "id": "NONE",
+      "label": "No mode eligible",
+      "eligibleModeIds": []
+    }
+  ],
+  "proposalPresenceStates": [
+    [],
+    [
+      "ARCHIVE"
+    ],
+    [
+      "DISPATCH"
+    ],
+    [
+      "ARCHIVE",
+      "DISPATCH"
+    ]
+  ],
+  "proposalRule": {
+    "id": "derive-local-ranking",
+    "version": 1,
+    "rankConvention": "Zero-based rank over all three modes; zero is first choice",
+    "preferredMode": "First mode in declared reference ordering",
+    "immutability": "One record per group per branch; duplicate rejects",
+    "referenceChange": "New immutable branch only",
+    "humanPreferenceClaim": false
+  },
+  "procedure": {
+    "id": "MINIMAX_RANK",
+    "version": 1,
+    "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+    "requiredGroups": [
+      "ARCHIVE",
+      "DISPATCH"
+    ],
+    "validationOrder": [
+      "valid source/reference/proposal bindings",
+      "both required groups present",
+      "nonempty eligible set",
+      "rank comparison and fixed tie-break"
+    ],
+    "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+    "minimize": "worstRank",
+    "tieBreakOrder": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "missingStatus": "blocked-missing-proposal",
+    "emptyStatus": "blocked-no-eligible-option",
+    "selectedStatus": "procedure-selected",
+    "noHumanEndorsementInferred": true,
+    "fairnessOrUtilityClaim": false
+  },
+  "jointActionTemplate": {
+    "operation": "simulate-shared-export",
+    "modeId": "selectedModeId",
+    "slotCount": 1,
+    "enacted": false
+  },
+  "recordRules": {
+    "proposalSemanticFields": [
+      "groupId",
+      "reference",
+      "sourceHash",
+      "ranking",
+      "preferredModeId",
+      "derivation",
+      "provenance"
+    ],
+    "outcomeSemanticFields": [
+      "assignmentId",
+      "scenarioId",
+      "eligibleModeIds",
+      "proposalContentHashesByGroup",
+      "procedure",
+      "status",
+      "missingGroupIds",
+      "scoreRows",
+      "tiedMinimizers",
+      "selectedModeId",
+      "tieBreakUsed",
+      "firstChoicesByGroup",
+      "differentFirstChoices",
+      "matchesFirstChoiceByGroup",
+      "jointAction"
+    ],
+    "envelopeOnlyFields": [
+      "recordId",
+      "branchId",
+      "documentId",
+      "createdAtUtc",
+      "originEventReference",
+      "proposalRecordIds"
+    ],
+    "repeatedEvaluation": "Reuse existing record with identical branch/scenario/proposal-content context, log reuse; do not create another action",
+    "blockedAction": null,
+    "missingComparison": null,
+    "noSelectionMatches": {
+      "ARCHIVE": null,
+      "DISPATCH": null
+    }
+  },
+  "representations": [
+    "diagram",
+    "plain"
+  ],
+  "relationTypes": [
+    "judged-under",
+    "derived-from",
+    "input-to",
+    "selected-by"
+  ],
+  "initialState": {
+    "mode": "saved-tour",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "representation": "diagram",
+    "assignmentId": "BASE",
+    "scenarioId": "ALL",
+    "recordedGroups": [],
+    "currentOutcomeId": null,
+    "inspectedOutcomeId": null,
+    "sourceInspectorOpen": false,
+    "recordInspectorOpen": false
+  },
+  "canonicalRecords": {
+    "proposalIdsByGroup": {
+      "ARCHIVE": "C-P-ARCHIVE",
+      "DISPATCH": "C-P-DISPATCH"
+    },
+    "outcomeIdsByScenario": {
+      "ALL": "C-A-ALL",
+      "EXTREMES": "C-A-EXTREMES"
+    },
+    "provenance": "scripted_demonstration",
+    "initialDisplayedRecords": [],
+    "localCreationClaim": false
+  },
+  "savedTour": {
+    "durationSeconds": 24,
+    "checkpoints": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "events": [
+      {
+        "seconds": 4,
+        "type": "proposal-record",
+        "origin": "replay",
+        "payload": {
+          "groupId": "ARCHIVE",
+          "recordId": "C-P-ARCHIVE"
+        }
+      },
+      {
+        "seconds": 8,
+        "type": "proposal-record",
+        "origin": "replay",
+        "payload": {
+          "groupId": "DISPATCH",
+          "recordId": "C-P-DISPATCH"
+        }
+      },
+      {
+        "seconds": 12,
+        "type": "procedure-evaluate",
+        "origin": "replay",
+        "payload": {
+          "scenarioId": "ALL",
+          "outcomeId": "C-A-ALL"
+        }
+      },
+      {
+        "seconds": 16,
+        "type": "representation-select",
+        "origin": "replay",
+        "payload": {
+          "representation": "plain"
+        }
+      },
+      {
+        "seconds": 20,
+        "type": "scenario-select",
+        "origin": "replay",
+        "payload": {
+          "scenarioId": "EXTREMES"
+        }
+      },
+      {
+        "seconds": 20,
+        "type": "procedure-evaluate",
+        "origin": "replay",
+        "payload": {
+          "scenarioId": "EXTREMES",
+          "outcomeId": "C-A-EXTREMES"
+        }
+      },
+      {
+        "seconds": 24,
+        "type": "canonical-restore",
+        "origin": "replay",
+        "payload": {
+          "state": "initial-display",
+          "retainCursorSeconds": 24
+        }
+      },
+      {
+        "seconds": 24,
+        "type": "tour-stop",
+        "origin": "automatic",
+        "payload": {
+          "reason": "end-of-sequence"
+        }
+      }
+    ]
+  },
+  "uiLabels": {
+    "scope": "Source-informed software benchmark \u2014 zero human participants",
+    "jointPanel": "Joint procedural outcome \u2014 not human acceptance",
+    "selectedAction": "Procedure-selected simulated action; not enacted",
+    "disagreement": "Different local recommendations retained",
+    "modeledAgreement": "Same modeled first choice; no human endorsement inferred",
+    "missing": "Incomplete local records; no judgment or consent inferred",
+    "history": "Immutable retained records; recorded context may differ from current controls",
+    "tour": "Scripted demonstration, not a record of group consent"
+  },
+  "runtime": {
+    "module": "coordination",
+    "defaultPort": 44005,
+    "host": "127.0.0.1",
+    "explicitRunRequired": true,
+    "mutationApi": false,
+    "perDocumentUuidOutsideSemantic": true
+  }
+}

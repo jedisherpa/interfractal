@@ -1,0 +1,121 @@
+{
+  "schema": "gate10-core-closure-v1",
+  "closedAtUtc": "2026-09-20T12:05:01.050551+00:00",
+  "status": "closed actual browser evidence; negative prediction outcome",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "entries": [
+    {
+      "path": "evidence/gate-10/browser/console.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "evidence/gate-10/browser/historical-link-dom.txt",
+      "bytes": 10444,
+      "sha256": "3122a70136e18cd63f75aac717c636c57b7db77a222055701f622f1c06652d63"
+    },
+    {
+      "path": "evidence/gate-10/browser/host-actions.json",
+      "bytes": 5278,
+      "sha256": "50cf458c1a27bb2a89577f6ad884b7246a890b8e4988c7e8354cced8b20b6c8a"
+    },
+    {
+      "path": "evidence/gate-10/browser/observations.json",
+      "bytes": 970902,
+      "sha256": "358b0c5d679cc481ec5ca454909815ad05888c0c97161a2200e19415247c85b5"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots/active-tour.jpg",
+      "bytes": 121423,
+      "sha256": "409e7410783da2233431f0c964e2e13971bd9e5a76bbc9e7ef1f41b423c65a08"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots/initial-cards.jpg",
+      "bytes": 51467,
+      "sha256": "14bb13b781bf3336c835a93bd1e629a4696580084389da278a147cc11ace3d12"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots/initial-supports.jpg",
+      "bytes": 121314,
+      "sha256": "1eec21e5ccfa6b7c0dc81401431c836cd56f551a2aeb2fded89853ab97e35e8b"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots/narrow-supports.jpg",
+      "bytes": 48611,
+      "sha256": "5826cd8709034ca20caecf59af5c7d6ec27c5969014ede29bd952b32ee6e5885"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots/natural-tour-end.jpg",
+      "bytes": 122022,
+      "sha256": "9dffeb9e1d72447be0be4a0226545551cf7b4c2aada840f3be30987c9f8c3c9c"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots/start-ack-discarded.jpg",
+      "bytes": 51164,
+      "sha256": "e1ef644790e01f3dde06d692c72d93e8f2684eccd40dba03cdf0ea8b0f2e463d"
+    },
+    {
+      "path": "evidence/gate-10/browser/screenshots.json",
+      "bytes": 1364,
+      "sha256": "60c3d4bc70d7ab89404f94f66234fffcf0c412c69288a3f36632b634f147a634"
+    },
+    {
+      "path": "evidence/gate-10/browser/server-actions-closed.jsonl",
+      "bytes": 3738,
+      "sha256": "825e3ccc3e6821599b8fab9fe861813e88f004fbd9d09942f5c6ac77eab2d643"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-one-events-final.json",
+      "bytes": 22504,
+      "sha256": "279f327027cd27d534dfffd8c69bc8aeae4e7daa605d6d5d19148d24188f8572"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-one-events-pre-reset.json",
+      "bytes": 14082,
+      "sha256": "971968bbf3efe70faad123c05a49cad3fc90987d312eafac707a2adb0ba557f3"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-one-ledger-after-practice.json",
+      "bytes": 764,
+      "sha256": "eb93ed8db9bd572be5d7173ecdd21d6a7870aca06047da323ffc82a56b783b24"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-one-ledger-before-practice.json",
+      "bytes": 764,
+      "sha256": "eb93ed8db9bd572be5d7173ecdd21d6a7870aca06047da323ffc82a56b783b24"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-one-ledger-final.json",
+      "bytes": 764,
+      "sha256": "eb93ed8db9bd572be5d7173ecdd21d6a7870aca06047da323ffc82a56b783b24"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-two-events-final.json",
+      "bytes": 16052,
+      "sha256": "5c9c8dc70f5aaa6cf624fd52da523e9b92cb863195dae9061f35d353cf406153"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-two-ledger-final.json",
+      "bytes": 61,
+      "sha256": "3ce5eaf5ce715ba44f1ea5d7ecee5b4eb4e4722b38bf4604e5653a53c8dbc6bd"
+    },
+    {
+      "path": "evidence/gate-10/browser/session-two-natural-tour-events.json",
+      "bytes": 7391,
+      "sha256": "83f6188038e55da089b78792c8e4dbf01930d969761e160a21e93daf70f5779b"
+    },
+    {
+      "path": "evidence/gate-10/browser-protocol.json",
+      "bytes": 2730,
+      "sha256": "c8d64edb02a9ae88c95b77119bc5130bba25a4ec846b428db1625bf227d8c733"
+    },
+    {
+      "path": "evidence/gate-10/host-browser-outcome.json",
+      "bytes": 2715,
+      "sha256": "34d68f33aa463d82b7d4d041ab8a8629641e97f19df463cae0eac273d9b71740"
+    }
+  ],
+  "count": 22,
+  "rule": "Never modify these files after closure. Presentation QA and subsequent audit records use separate paths."
+}

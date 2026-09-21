@@ -1,0 +1,265 @@
+{
+  "schema": "gate11-host-browser-verification-v1",
+  "generatedAtUtc": "2026-09-20T18:19:11.275Z",
+  "actor": "source_informed_software",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "observations": 100,
+  "hostActions": 79,
+  "originals": 6,
+  "humanParticipants": 0,
+  "semanticHashes": {
+    "passed": 100,
+    "total": 100
+  },
+  "informationHashes": {
+    "passed": 100,
+    "total": 100
+  },
+  "viewportAndScene": {
+    "passed": 100,
+    "total": 100
+  },
+  "checkpoints": [
+    {
+      "index": 23,
+      "label": "baseline-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 24,
+      "label": "baseline-cp-4",
+      "seconds": 4,
+      "pass": true
+    },
+    {
+      "index": 25,
+      "label": "baseline-cp-8",
+      "seconds": 8,
+      "pass": true
+    },
+    {
+      "index": 26,
+      "label": "baseline-cp-12",
+      "seconds": 12,
+      "pass": true
+    },
+    {
+      "index": 27,
+      "label": "baseline-cp-16",
+      "seconds": 16,
+      "pass": true
+    },
+    {
+      "index": 28,
+      "label": "baseline-cp-20",
+      "seconds": 20,
+      "pass": true
+    },
+    {
+      "index": 29,
+      "label": "baseline-cp-24",
+      "seconds": 24,
+      "pass": true
+    },
+    {
+      "index": 67,
+      "label": "after-local-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 68,
+      "label": "after-local-cp-4",
+      "seconds": 4,
+      "pass": true
+    },
+    {
+      "index": 69,
+      "label": "after-local-cp-8",
+      "seconds": 8,
+      "pass": true
+    },
+    {
+      "index": 70,
+      "label": "after-local-cp-12",
+      "seconds": 12,
+      "pass": true
+    },
+    {
+      "index": 71,
+      "label": "after-local-cp-16",
+      "seconds": 16,
+      "pass": true
+    },
+    {
+      "index": 72,
+      "label": "after-local-cp-20",
+      "seconds": 20,
+      "pass": true
+    },
+    {
+      "index": 73,
+      "label": "after-local-cp-24",
+      "seconds": 24,
+      "pass": true
+    },
+    {
+      "index": 74,
+      "label": "reopen-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 75,
+      "label": "reopen-cp-24",
+      "seconds": 24,
+      "pass": true
+    },
+    {
+      "index": 78,
+      "label": "reload-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 79,
+      "label": "reload-cp-24",
+      "seconds": 24,
+      "pass": true
+    }
+  ],
+  "criticalFirstUse": {
+    "completed": true,
+    "sourceInspectionInputUnchanged": true,
+    "repairParity": true,
+    "negativeParity": true
+  },
+  "localRevisions": [
+    {
+      "id": "L1",
+      "parent": "S0",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L2",
+      "parent": "S0",
+      "fields": [
+        "calibration"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L3",
+      "parent": "S0",
+      "fields": [
+        "authorization"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L4",
+      "parent": "S0",
+      "fields": [],
+      "outcome": "unchanged-content"
+    },
+    {
+      "id": "L5",
+      "parent": "S0",
+      "fields": [
+        "paint"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L6",
+      "parent": "S0",
+      "fields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L7",
+      "parent": "L1",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "outcome": "unchanged-content"
+    }
+  ],
+  "naturalTour": {
+    "elapsedSeconds": 24.005,
+    "scheduledEvents": [
+      {
+        "sequence": 4,
+        "type": "receiver-select",
+        "origin": "replay",
+        "cursor": 4
+      },
+      {
+        "sequence": 5,
+        "type": "witness-open",
+        "origin": "replay",
+        "cursor": 8
+      },
+      {
+        "sequence": 6,
+        "type": "repair-apply",
+        "origin": "replay",
+        "cursor": 12
+      },
+      {
+        "sequence": 7,
+        "type": "repair-apply",
+        "origin": "replay",
+        "cursor": 16
+      },
+      {
+        "sequence": 8,
+        "type": "representation-select",
+        "origin": "replay",
+        "cursor": 20
+      },
+      {
+        "sequence": 9,
+        "type": "canonical-restore",
+        "origin": "replay",
+        "cursor": 24
+      },
+      {
+        "sequence": 10,
+        "type": "tour-stop",
+        "origin": "automatic",
+        "cursor": 24
+      }
+    ],
+    "endReason": "end-of-sequence",
+    "activeObservationIndices": [
+      81,
+      82,
+      83,
+      84
+    ],
+    "twelveSecondBoundary": "Retained in actual scheduled event and paused checkpoint; no separate active DOM observation inside12–16 seconds."
+  },
+  "exports": {
+    "documentOne": "1c07dc94-1541-4c59-8eac-afa0c2401580",
+    "documentTwo": "faab4d99-b86a-4cdd-b58f-40cbdcb5a065",
+    "distinctDocuments": true,
+    "documentOneEvents": 56,
+    "documentTwoEvents": 21,
+    "includeOwnExport": true,
+    "laterBoundary": "Final Reopen follows the last export and remains in host actions/DOM, not falsely included in its event prefix. Historical link actions are preserved separately in the first002 acquisition."
+  },
+  "failures": [],
+  "scope": "Host evidence checks pending separate independent Sol browser audit; no human or diagram advantage claim."
+}

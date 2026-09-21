@@ -1,0 +1,93 @@
+{
+  "gate": 3,
+  "scope": "Bounded primary-source review for the genuine 4D hypercube shadow and known-transform observability check",
+  "accessed_at_utc": "2026-09-20T02:30:33Z",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only source inspection. No upstream code execution, deployment, external communication, human study, Gate 4/5D research, or UI work.",
+  "primary_sources": [
+    {
+      "title": "Dimensions, Chapters 3 and 4: The fourth dimension",
+      "url": "https://www.dimensions-math.org/Dim_CH3_E.htm",
+      "accessed_at_utc": "2026-09-20T02:28:56Z",
+      "source_type": "Author-maintained mathematical visualization and exposition",
+      "sections_or_page_pins": [
+        "Web page sections 2–3 (lines 16–42 in the fetched page): a point in 4D is represented by four coordinates; the table lists the 4D hypercube/tesseract with 16 vertices and 32 edges.",
+        "Web page section 4 (lines 43–58): sections and shadows are complementary ways to represent 4D objects; a 4D object can cast a changing 3D shadow as it turns in 4D.",
+        "Web page section 5 (lines 59–70): S³ is represented in R⁴ and stereographically projected to a 3D tangent space; passage through the projection pole produces an unbounded/infinite display.",
+        "The page title explicitly says Chapters 3 and 4; the browser tool exposed this combined page rather than a separate chapter-4 document."
+      ],
+      "supports": [
+        "A 4D point requires four coordinates in the mathematical model.",
+        "The regular 4D hypercube/tesseract has 16 vertices and 32 edges.",
+        "A controlled turn of a 4D object can change its 3D shadow, and the shadow carries only partial information from any one view.",
+        "A stereographic-style 4D-to-3D representation needs an explicit projection-pole/infinity policy."
+      ],
+      "does_not_support": [
+        "The Looking Glass rotation matrix, composition order, orthographic matrix P, or display-camera implementation.",
+        "A claim that one or more screenshots uniquely determine an arbitrary 4D object.",
+        "The rank-four reconstruction result for known transforms and correspondences; that is derived and checked in this project.",
+        "Human understanding, participant performance, semantic meaning, or physical extra dimensions."
+      ],
+      "use_in_gate3": "Motivates the genuine 4-coordinate/16-vertex/32-edge object and the separate moving-shadow view, while retaining the source's warning that one shadow is partial information."
+    },
+    {
+      "title": "NumCS(E), AT’25, Chapter 3: Direct Methods for Linear Least Squares Problems",
+      "author": "Ralf Hiptmair, ETH Zurich",
+      "url": "https://people.math.ethz.ch/~grsam/NumMeth/Parts/NCSEFL_handout_chapter_3.pdf",
+      "accessed_at_utc": "2026-09-20T02:29:37Z",
+      "source_type": "University-hosted numerical analysis lecture notes",
+      "sections_or_page_pins": [
+        "§3.1.2, Theorem 3.1.2.1, PDF p. 9 / printed p. 222: x is a least-squares solution of Ax=b iff it satisfies AᵀAx=Aᵀb.",
+        "§3.1.2, Corollary 3.1.2.13 and Remark 3.1.2.15, PDF p. 12 / printed p. 225: if N(A)={0}, the least-squares solution is unique and x=(AᵀA)⁻¹Aᵀb; N(A)={0} is equivalent to rank(A)=n for m≥n.",
+        "§3.1.2, Remark 3.1.2.18 and the full-rank problem statement, PDF pp. 13–14 / printed pp. 226–227: rank loss means redundant, non-identifiable parameters; full rank defines the unique least-squares problem."
+      ],
+      "supports": [
+        "For a stacked known linear system A q≈b, full column rank is the condition for a unique least-squares recovery of q.",
+        "The normal equations provide the bounded recovery check under the declared Euclidean model.",
+        "Rank deficiency means that different parameter vectors can yield the same outputs, so a fixed view can leave a hidden coordinate unobservable."
+      ],
+      "does_not_support": [
+        "Recovery from arbitrary images or unknown point correspondences.",
+        "Recovery when transforms are unknown, nonlinear, or estimated from the same observations.",
+        "A physical or ontological claim about four-dimensional space, or a human-use result.",
+        "The project's specific x–w rotation or the separate display-camera control."
+      ],
+      "use_in_gate3": "Provides the primary university reference for interpreting rank(P)=3 in a static/camera-only observation and rank([P R_k])=4 as a sufficient condition for unique numerical recovery with known transforms and correspondences."
+    }
+  ],
+  "unavailable_or_unresolved": [
+    {
+      "url": "https://www.dimensions-math.org/Dim_CH4_E.htm",
+      "status": "inaccessible_via_web_tool",
+      "attempted_at_utc": "2026-09-20T02:28:56Z",
+      "note": "The supplied prompt linked the combined Chapters 3–4 page above. This separate chapter-4 URL was derived for a bounded availability check, attempted once, and returned an access error. No content from it is used; do not infer page-specific claims from the unavailable URL."
+    }
+  ],
+  "derived_checks": [
+    {
+      "claim": "4D hypercube combinatorics",
+      "derivation": "Vertices are {-1,+1}^4, giving 2^4=16. Each vertex has four one-coordinate neighbors, so the undirected edge count is 16·4/2=32.",
+      "status": "direct derivation under the declared object; Dimensions independently lists 16 vertices and 32 edges"
+    },
+    {
+      "claim": "Static and camera-only observations have rank at most three",
+      "derivation": "With P=[I₃ 0], a static observation has matrix P and rank 3. A known ordinary display camera C_k∈SO(3) gives C_k P; left multiplication by invertible C_k preserves row space, so stacking camera-only views remains rank 3 and cannot identify w.",
+      "status": "direct linear-algebra derivation; no external claim needed"
+    },
+    {
+      "claim": "An additional proper x–w rotation can give rank four",
+      "derivation": "For column vectors R_xw(θ) has x′=cosθ·x−sinθ·w and w′=sinθ·x+cosθ·w. Stacking P at θ=0 with P R_xw(π/2) includes the rows e_xᵀ,e_yᵀ,e_zᵀ and −e_wᵀ, hence rank 4. The least-squares uniqueness interpretation then follows from the ETH full-column-rank result.",
+      "status": "direct derivation plus bounded application of the ETH source"
+    },
+    {
+      "claim": "Coincident pair separates under source rotation",
+      "derivation": "For q_a=(a,b,c,w_a) and q_b=(a,b,c,w_b), Pq_a=Pq_b at θ=0. After R_xw(θ), their projected x difference is −sinθ·(w_a−w_b); θ=π/2 separates any unequal w values while preserving IDs.",
+      "status": "direct derivation under the declared projection/rotation convention"
+    }
+  ],
+  "limits": [
+    "The review has two usable external sources, within the requested 2–4 source bound.",
+    "The mathematical observability result is conditional on exact known transforms, known point correspondences, an orthographic P, and numerical tolerance; it is not arbitrary shape reconstruction.",
+    "A rank result establishes model-level identifiability under those assumptions, not that a viewer can infer the property from an unfamiliar animation."
+  ]
+}

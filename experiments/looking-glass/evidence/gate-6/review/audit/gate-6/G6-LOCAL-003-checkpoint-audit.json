@@ -1,0 +1,137 @@
+{
+  "kind": "gate-6-independent-checkpoint-repeat-audit",
+  "runId": "G6-LOCAL-003",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "timesMs": [
+    0,
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000
+  ],
+  "phases": {
+    "baseline": [
+      {
+        "observation": 15,
+        "checkpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930"
+      },
+      {
+        "observation": 16,
+        "checkpointSha256": "9d17b78c1e42ad44c21eea969f3a1d261996b3d7f5a92e31376dc7820394b3b4"
+      },
+      {
+        "observation": 17,
+        "checkpointSha256": "4000048605e7a6b3bf7ee4b6dfcfa94b3a6f299676e9382c0f0baedf7eed1b98"
+      },
+      {
+        "observation": 18,
+        "checkpointSha256": "cddf600d5cf325650d91b609d93005ba7b0cc9e9fdcef9f3aad56e91dbb4f1f7"
+      },
+      {
+        "observation": 19,
+        "checkpointSha256": "f214d9fc5a2f6ecf1740868b25023d051f6f7be978bb166a607b33848f792906"
+      },
+      {
+        "observation": 20,
+        "checkpointSha256": "62e73fad2132242b7711955882b1f775b1bcc4b69b1f6fad53d5cf3d3c2f1428"
+      },
+      {
+        "observation": 21,
+        "checkpointSha256": "481934322b5061f44bd8ad820989ee0fc745d3c584acd2453eb92535b5d9b8b2"
+      }
+    ],
+    "restored": [
+      {
+        "observation": 78,
+        "checkpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930"
+      },
+      {
+        "observation": 79,
+        "checkpointSha256": "9d17b78c1e42ad44c21eea969f3a1d261996b3d7f5a92e31376dc7820394b3b4"
+      },
+      {
+        "observation": 80,
+        "checkpointSha256": "4000048605e7a6b3bf7ee4b6dfcfa94b3a6f299676e9382c0f0baedf7eed1b98"
+      },
+      {
+        "observation": 81,
+        "checkpointSha256": "cddf600d5cf325650d91b609d93005ba7b0cc9e9fdcef9f3aad56e91dbb4f1f7"
+      },
+      {
+        "observation": 82,
+        "checkpointSha256": "f214d9fc5a2f6ecf1740868b25023d051f6f7be978bb166a607b33848f792906"
+      },
+      {
+        "observation": 83,
+        "checkpointSha256": "62e73fad2132242b7711955882b1f775b1bcc4b69b1f6fad53d5cf3d3c2f1428"
+      },
+      {
+        "observation": 84,
+        "checkpointSha256": "481934322b5061f44bd8ad820989ee0fc745d3c584acd2453eb92535b5d9b8b2"
+      }
+    ],
+    "reopened": [
+      {
+        "observation": 86,
+        "checkpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930"
+      },
+      {
+        "observation": 87,
+        "checkpointSha256": "9d17b78c1e42ad44c21eea969f3a1d261996b3d7f5a92e31376dc7820394b3b4"
+      },
+      {
+        "observation": 88,
+        "checkpointSha256": "4000048605e7a6b3bf7ee4b6dfcfa94b3a6f299676e9382c0f0baedf7eed1b98"
+      },
+      {
+        "observation": 89,
+        "checkpointSha256": "cddf600d5cf325650d91b609d93005ba7b0cc9e9fdcef9f3aad56e91dbb4f1f7"
+      },
+      {
+        "observation": 90,
+        "checkpointSha256": "f214d9fc5a2f6ecf1740868b25023d051f6f7be978bb166a607b33848f792906"
+      },
+      {
+        "observation": 91,
+        "checkpointSha256": "62e73fad2132242b7711955882b1f775b1bcc4b69b1f6fad53d5cf3d3c2f1428"
+      },
+      {
+        "observation": 92,
+        "checkpointSha256": "481934322b5061f44bd8ad820989ee0fc745d3c584acd2453eb92535b5d9b8b2"
+      }
+    ],
+    "reloaded": [
+      {
+        "observation": 94,
+        "checkpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930"
+      },
+      {
+        "observation": 95,
+        "checkpointSha256": "9d17b78c1e42ad44c21eea969f3a1d261996b3d7f5a92e31376dc7820394b3b4"
+      },
+      {
+        "observation": 96,
+        "checkpointSha256": "4000048605e7a6b3bf7ee4b6dfcfa94b3a6f299676e9382c0f0baedf7eed1b98"
+      },
+      {
+        "observation": 97,
+        "checkpointSha256": "cddf600d5cf325650d91b609d93005ba7b0cc9e9fdcef9f3aad56e91dbb4f1f7"
+      },
+      {
+        "observation": 98,
+        "checkpointSha256": "f214d9fc5a2f6ecf1740868b25023d051f6f7be978bb166a607b33848f792906"
+      },
+      {
+        "observation": 99,
+        "checkpointSha256": "62e73fad2132242b7711955882b1f775b1bcc4b69b1f6fad53d5cf3d3c2f1428"
+      },
+      {
+        "observation": 100,
+        "checkpointSha256": "481934322b5061f44bd8ad820989ee0fc745d3c584acd2453eb92535b5d9b8b2"
+      }
+    ]
+  },
+  "checksPassed": true
+}

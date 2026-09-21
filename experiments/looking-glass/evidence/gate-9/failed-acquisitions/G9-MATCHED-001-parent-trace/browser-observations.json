@@ -1,0 +1,407 @@
+[
+  {
+    "index": 0,
+    "label": "initial paused",
+    "observedAtUtc": "2026-09-20T09:04:37.738Z",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "practice-toggle",
+        "text": "Open shared worked practice"
+      },
+      {
+        "disabled": false,
+        "id": "new-choice",
+        "text": "New choice"
+      },
+      {
+        "disabled": true,
+        "id": "review-choose",
+        "text": "Review choose"
+      },
+      {
+        "disabled": true,
+        "id": "review-watch",
+        "text": "Review watch"
+      },
+      {
+        "disabled": true,
+        "id": "review-static",
+        "text": "Review static"
+      },
+      {
+        "disabled": false,
+        "id": "choose-project",
+        "text": "Observe original xyz projection again"
+      },
+      {
+        "disabled": false,
+        "id": "choose-xw90",
+        "text": "Observe known x-w quarter-turn"
+      },
+      {
+        "disabled": false,
+        "id": "choose-yv90",
+        "text": "Observe known y-v quarter-turn"
+      },
+      {
+        "disabled": true,
+        "id": "presentation-play",
+        "text": "Play presentation"
+      },
+      {
+        "disabled": true,
+        "id": "presentation-pause",
+        "text": "Pause presentation"
+      },
+      {
+        "disabled": true,
+        "id": "presentation-restart",
+        "text": "Restart presentation"
+      },
+      {
+        "disabled": true,
+        "id": "previous-observation",
+        "text": "Previous observation"
+      },
+      {
+        "disabled": true,
+        "id": "next-observation",
+        "text": "Next observation"
+      },
+      {
+        "disabled": true,
+        "id": "finish-sheet",
+        "text": "Finish sheet review"
+      },
+      {
+        "disabled": false,
+        "id": "tour-play",
+        "text": "Play saved tour"
+      },
+      {
+        "disabled": true,
+        "id": "tour-pause",
+        "text": "Pause saved tour"
+      },
+      {
+        "disabled": false,
+        "id": "previous-checkpoint",
+        "text": "Previous checkpoint"
+      },
+      {
+        "disabled": false,
+        "id": "next-checkpoint",
+        "text": "Next checkpoint"
+      },
+      {
+        "disabled": false,
+        "id": "reopen-start",
+        "text": "Reopen saved start"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 0 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 2 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 4 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 6 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 8 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 10 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 12 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 14 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 20 s"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "text": "Checkpoint 24 s"
+      },
+      {
+        "disabled": true,
+        "id": "export-route",
+        "text": "Export completed route"
+      },
+      {
+        "disabled": false,
+        "id": "export-events",
+        "text": "Export event log"
+      }
+    ],
+    "cards": [
+      {
+        "height": 200,
+        "width": 280
+      }
+    ],
+    "exportText": "",
+    "inspector": {
+      "acquiredInformationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+      "acquiredOccurrences": [
+        {
+          "index": 0,
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "queryId": "project"
+        }
+      ],
+      "buildId": "g9-313e2af27d02a5a8",
+      "commonContext": {
+        "caseId": "G9-C01",
+        "instructions": [
+          "Every candidate and the fixed reference world are public. Compatibility below uses selected query records only.",
+          "Start with one projection. Choose exactly two more observations; a repeat consumes a choice without adding unique information.",
+          "Each query acts on the original source. The two turns are separate observations; no combined turn is available.",
+          "Watch preserves the sealed choice order and repeats. Static shows the same three occurrence cards together.",
+          "Information parity is checked only at completed routes. Timing, agency, memory demand and pixels are not assumed equal."
+        ],
+        "practice": {
+          "defaultOpen": false,
+          "explanation": "Dropping w hides its value. Repeating that projection preserves the record. A known x-w quarter-turn supplies x-prime=-w=-2. This different worked point is common teaching, not an additional observation of the benchmark reference.",
+          "id": "G9-P01",
+          "project": {
+            "kind": "point",
+            "pointId": "Practice-P",
+            "xyz": [
+              "0",
+              "1/2",
+              "0"
+            ]
+          },
+          "repeatProject": {
+            "kind": "point",
+            "pointId": "Practice-P",
+            "xyz": [
+              "0",
+              "1/2",
+              "0"
+            ]
+          },
+          "scored": false,
+          "source": [
+            "0",
+            "1/2",
+            "0",
+            "2"
+          ],
+          "title": "Shared worked practice: one different 4D point",
+          "xw90": {
+            "kind": "point",
+            "pointId": "Practice-P",
+            "xyz": [
+              "-2",
+              "1/2",
+              "0"
+            ]
+          }
+        },
+        "propertyDefinition": "Ordered signs of (w,v)",
+        "queries": [
+          {
+            "formula": "(x,y,z)",
+            "id": "project",
+            "label": "Observe original xyz projection again"
+          },
+          {
+            "formula": "(-w,y,z)",
+            "id": "xw90",
+            "label": "Observe known x-w quarter-turn"
+          },
+          {
+            "formula": "(x,-v,z)",
+            "id": "yv90",
+            "label": "Observe known y-v quarter-turn"
+          }
+        ],
+        "referenceWorldId": "C02-W02",
+        "rendering": {
+          "cardDrawingHeightCssPx": 200,
+          "cardDrawingWidthCssPx": 280,
+          "negativeZeroLabel": "0.00",
+          "pitchDegrees": 20,
+          "rawExactValuesVisible": true,
+          "roundedLabelDigits": 2,
+          "scaleCssPxPerUnit": 80,
+          "yawDegrees": 0
+        },
+        "sourceKind": "point5",
+        "taskText": "Inspect which worlds remain compatible with the selected raw observations. The property is the ordered signs of (w,v). This is a public software demonstration, not a hidden-world test.",
+        "title": "Two hidden signs, one chosen trace",
+        "worlds": [
+          {
+            "id": "C02-W01",
+            "propertyValue": [
+              -1,
+              -1
+            ],
+            "source": [
+              "1/2",
+              "-1/2",
+              "0",
+              "-1",
+              "-1"
+            ]
+          },
+          {
+            "id": "C02-W02",
+            "propertyValue": [
+              -1,
+              1
+            ],
+            "source": [
+              "1/2",
+              "-1/2",
+              "0",
+              "-1",
+              "1"
+            ]
+          },
+          {
+            "id": "C02-W03",
+            "propertyValue": [
+              1,
+              -1
+            ],
+            "source": [
+              "1/2",
+              "-1/2",
+              "0",
+              "1",
+              "-1"
+            ]
+          },
+          {
+            "id": "C02-W04",
+            "propertyValue": [
+              1,
+              1
+            ],
+            "source": [
+              "1/2",
+              "-1/2",
+              "0",
+              "1",
+              "1"
+            ]
+          }
+        ]
+      },
+      "completedSummary": null,
+      "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+      "endpointComparisonEligible": false,
+      "eventCount": 0,
+      "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+      "informationHash": null,
+      "lastEvent": null,
+      "provenance": "scripted_demonstration",
+      "runId": "G9-MATCHED-001",
+      "schema": "gate9-browser-inspector-v1",
+      "semanticFingerprint": "d049b8994f8ecf34d00130bfd2b7137664d30c06274b30090f0dc76a96f43535",
+      "sessionId": "2fa73d12-6ba4-4eaa-bbf7-efcc3737d95c",
+      "state": {
+        "acquiredOccurrenceIndices": [
+          0
+        ],
+        "choices": [],
+        "completedSummary": null,
+        "condition": "choose",
+        "localSeconds": 0,
+        "mode": "saved-tour",
+        "phase": "draft",
+        "practiceOpen": false,
+        "presentationPaused": true,
+        "reviewStatus": "standard-playback",
+        "tourPaused": true,
+        "tourSeconds": 0,
+        "trace": null,
+        "traceHash": null,
+        "traceWithheld": false,
+        "visibleOccurrenceIndices": [
+          0
+        ]
+      },
+      "traceHash": null,
+      "viewport": {
+        "cards": [
+          {
+            "height": 310.875,
+            "index": 0,
+            "queryId": "project",
+            "svgHeight": 200,
+            "svgWidth": 280,
+            "width": 302
+          }
+        ],
+        "documentHeight": 2528,
+        "documentWidth": 1280,
+        "innerHeight": 720,
+        "innerWidth": 1280,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "visibleOccurrences": [
+        {
+          "index": 0,
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          },
+          "queryId": "project"
+        }
+      ]
+    },
+    "url": "http://127.0.0.1:44002/",
+    "viewport": {
+      "documentHeight": 2528,
+      "documentWidth": 1280,
+      "height": 720,
+      "scrollX": 0,
+      "scrollY": 0,
+      "width": 1280
+    }
+  }
+]

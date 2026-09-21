@@ -1,0 +1,205 @@
+{
+  "checkedAtUtc": "2026-09-20T03:40:03.632Z",
+  "kind": "actual-browser-observation-audit",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "observationCount": 90,
+  "captureCount": 14,
+  "verifiedCaptures": [
+    {
+      "label": "002-C0-center-0s",
+      "path": "screenshots/002-C0-center-0s.jpg",
+      "sha256": "8528984ec781ce5b58786044351193f059fb0e2df138099039e882d5f66434a5",
+      "bytes": 61478,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-interior-8s",
+      "path": "screenshots/002-interior-8s.jpg",
+      "sha256": "c03182cfc905d6854a55aa3cebf85e280f7b6c899b678493c880be7df4a5cb15",
+      "bytes": 61875,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-C1-point-16s",
+      "path": "screenshots/002-C1-point-16s.jpg",
+      "sha256": "37b06c18f72675a7c50a399d2238a84dafde1655250883081ad0335c46dcc5d2",
+      "bytes": 59682,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-C2-empty-20s",
+      "path": "screenshots/002-C2-empty-20s.jpg",
+      "sha256": "b05dea07df6823e00db88767be686f73d758bf9bd938dec67195ea1d499f3b59",
+      "bytes": 60316,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-ambiguity-initial",
+      "path": "screenshots/002-ambiguity-initial.jpg",
+      "sha256": "ae8a9178a5a19cb27aead7716d9d7aef45f6f3b71ffdb41ae29de84a3deb8bfb",
+      "bytes": 85806,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-movie-common-camera",
+      "path": "screenshots/002-movie-common-camera.jpg",
+      "sha256": "74739a23d9ffa48623cdcdd0032c05f4fb04d67d45afd84d37ab7516cf987ae6",
+      "bytes": 78937,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-C3-ambiguity-known-plane",
+      "path": "screenshots/002-C3-ambiguity-known-plane.jpg",
+      "sha256": "48226647017828ba6210eb8d253056bd88b5fd0760c159f7bd1e2a62477add69",
+      "bytes": 86630,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-heldout-movie",
+      "path": "screenshots/002-heldout-movie.jpg",
+      "sha256": "240aaef0a969871c779626d1fbd574b071b3964c313c547f3b754c39505c0df0",
+      "bytes": 83522,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-active-before-boundary",
+      "path": "screenshots/002-active-before-boundary.jpg",
+      "sha256": "6cba355d12762e749662b49169b638a3d0287dae9559f62c65e0ac233461e450",
+      "bytes": 61985,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-active-empty",
+      "path": "screenshots/002-active-empty.jpg",
+      "sha256": "4757377cc1e405979e7256cb85d889dfe7dbb71faf9479ba9c3af22107112f98",
+      "bytes": 58981,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-active-return",
+      "path": "screenshots/002-active-return.jpg",
+      "sha256": "74a9b3e8f8c75d4df7fd3f65acf6f2e74a10d8117fecf443351eac02f3c5c07a",
+      "bytes": 60514,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-inspector-fresh-scrolled",
+      "path": "screenshots/002-inspector-fresh-scrolled.jpg",
+      "sha256": "47266fb48cdc5d69db76ff6e4ce8a0d558556f8e9eea9042e2a2e4b9658634f1",
+      "bytes": 53040,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-viewport960x720",
+      "path": "screenshots/002-viewport960x720.jpg",
+      "sha256": "645060f01d814b008168931fccd088e24399499522c899e3df717efbfc28c31c",
+      "bytes": 51996,
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      }
+    },
+    {
+      "label": "002-active-interior-library-replay",
+      "path": "screenshots/002-active-interior-library-replay.jpg",
+      "sha256": "cb1da4c99182fc7d23c4b90c45566c28cf32616943982f688fc8cd3337aba2ce",
+      "bytes": 58745,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "pass": true,
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "actual observations bind exact run, build, trace and local URL",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "count": 90
+    },
+    {
+      "name": "all observed raw slices, projection, ambiguity and movie values obey frozen equations",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "fresh inspector viewport/DPR/scene rectangles/visibility and bounded page width",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "all three prespecified viewport sizes were observed",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "viewportSizes": [
+        "1280x720",
+        "1280x900",
+        "960x720"
+      ]
+    },
+    {
+      "name": "actual SVG scenes distinguish solid, point and empty with declared camera/scale",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "all seven paused canonical checkpoints observed at predicted values",
+      "pass": true,
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "name": "original captures exist and bind to actual before/after states",
+      "pass": true,
+      "errorCount": 0,
+      "errors": [],
+      "captureCount": 14
+    }
+  ],
+  "limit": "This checks recorded actual state, DOM geometry, environment and original capture bytes. It does not create observations or infer human comprehension."
+}

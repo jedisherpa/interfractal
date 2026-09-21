@@ -1,0 +1,24 @@
+{
+  "checkedAtUtc": "2026-09-20T02:51:41.839038+00:00",
+  "checks": [
+    {
+      "gate": 0,
+      "manifestSha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+      "checkedFiles": 61,
+      "mismatches": []
+    },
+    {
+      "gate": 1,
+      "manifestSha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+      "checkedFiles": 95,
+      "mismatches": []
+    },
+    {
+      "gate": 2,
+      "manifestSha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+      "checkedFiles": 120,
+      "mismatches": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,66 @@
+{
+  "recordedAtUtc": "2026-09-20T11:06:42.265932+00:00",
+  "checks": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 8,
+      "url": "http://127.0.0.1:44001/",
+      "status": 200,
+      "readinessOnly": true
+    },
+    {
+      "gate": 9,
+      "url": "http://127.0.0.1:44002/",
+      "status": 200,
+      "readinessOnly": true
+    }
+  ],
+  "scope": "Read-only HTTP readiness, not new historical browser trials"
+}

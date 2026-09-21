@@ -1,0 +1,96 @@
+{
+  "kind": "gate-6-independent-read-only-routes",
+  "baseUrl": "http://127.0.0.1:43999",
+  "buildDir": "/Users/paul/BTC-Learning/experiments/looking-glass/local-models/builds/g6-0279cdcdc0adc9b0",
+  "exactByteCases": 13,
+  "rejectionCases": 5,
+  "findings": [
+    {
+      "path": "/",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/app.mjs",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/model.mjs",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/fictional-records.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/reference-mappings.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/fixture.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/api/run",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/api/current-run",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/api/checkpoints",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/api/events",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/runs/G6-LOCAL-003/initial-state.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "/unknown",
+      "status": 404
+    },
+    {
+      "path": "/api/no-such-route",
+      "status": 404
+    },
+    {
+      "path": "/runs/%2e%2e%2f%2e%2e%2fREADME.md",
+      "status": 403
+    },
+    {
+      "path": "/evidence/gate-6/%2e%2e%2f%2e%2e%2fREADME.md",
+      "status": 403
+    },
+    {
+      "path": "/api/no-such-route",
+      "method": "POST",
+      "status": 404
+    }
+  ],
+  "checksPassed": true
+}

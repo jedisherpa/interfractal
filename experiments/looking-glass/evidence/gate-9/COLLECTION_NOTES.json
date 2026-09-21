@@ -1,0 +1,26 @@
+{
+  "runId": "G9-MATCHED-003",
+  "notes": [
+    {
+      "kind": "host-protocol correction",
+      "detail": "An extra regression labeled an actual query after checkpoint2 as a continuation. The UI correctly starts a fresh local draft, so only one accepted choice existed and Export completed route was disabled. The failed click and all surrounding state were retained. Host then supplied the second local choice and exported that actual trace. A separate canonical resume checks reconstruction provenance."
+    },
+    {
+      "kind": "viewport framing",
+      "detail": "Early choice/watch captures are partial viewport views; preserved unchanged. Additional full card captures were acquired through actual scrolling. Narrow static sheet wraps and requires vertical scrolling."
+    },
+    {
+      "kind": "historical same-tab return",
+      "detail": "Following the visible Gate8 link and returning created a third fresh Gate9 session. Its sole event is an actual event-log export; all three sessions are retained."
+    },
+    {
+      "kind": "timed regression sampling",
+      "detail": "The optional canonical checkpoint2 resume advanced to static local~3.6s before the next sampling call. It was paused and completed manually; it is separate from the uninterrupted full tour."
+    },
+    {
+      "kind": "human scope",
+      "detail": "All actions were host software validation. No human participants, gaze/exposure measurements, OS reduced-motion emulation or human outcomes."
+    }
+  ],
+  "humanParticipants": 0
+}

@@ -1,0 +1,1333 @@
+{
+  "simulationTimeMs": 0,
+  "state": {
+    "schemaVersion": "gate-6-local-model-v1",
+    "simulationTimeMs": 0,
+    "sourceRecords": [
+      {
+        "id": "venue-hall",
+        "version": 1,
+        "label": "Hall",
+        "kind": "venue",
+        "facts": {
+          "capacityHouseholds": 60,
+          "alreadyWheelchairAccessible": false,
+          "hireTokens": 4,
+          "powerAvailable": true,
+          "requiredAccessEquipment": {
+            "name": "portable ramp",
+            "costTokens": 2
+          },
+          "requiredPowerEquipment": null,
+          "shelterRequiredInRain": false
+        },
+        "source": {
+          "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+          "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+          "section": "A small executable task and scoring key",
+          "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+        },
+        "history": [
+          {
+            "version": 1,
+            "operation": "extract-supplied-fictional-facts",
+            "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+            "note": "No participant action or endorsement; source task initial condition only."
+          }
+        ],
+        "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "version": 1,
+        "label": "Field",
+        "kind": "venue",
+        "facts": {
+          "capacityHouseholds": 80,
+          "alreadyWheelchairAccessible": true,
+          "hireTokens": 3,
+          "powerAvailable": false,
+          "requiredAccessEquipment": null,
+          "requiredPowerEquipment": {
+            "name": "generator",
+            "costTokens": 3
+          },
+          "shelterRequiredInRain": true,
+          "shelterCostTokens": 3
+        },
+        "source": {
+          "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+          "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+          "section": "A small executable task and scoring key",
+          "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+        },
+        "history": [
+          {
+            "version": 1,
+            "operation": "extract-supplied-fictional-facts",
+            "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+            "note": "No participant action or endorsement; source task initial condition only."
+          }
+        ],
+        "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "version": 1,
+        "label": "Studio",
+        "kind": "venue",
+        "facts": {
+          "capacityHouseholds": 50,
+          "alreadyWheelchairAccessible": true,
+          "hireTokens": 5,
+          "powerAvailable": true,
+          "requiredAccessEquipment": null,
+          "requiredPowerEquipment": null,
+          "shelterRequiredInRain": false
+        },
+        "source": {
+          "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+          "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+          "section": "A small executable task and scoring key",
+          "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+        },
+        "history": [
+          {
+            "version": 1,
+            "operation": "extract-supplied-fictional-facts",
+            "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+            "note": "No participant action or endorsement; source task initial condition only."
+          }
+        ],
+        "contentSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "version": 1,
+        "label": "Initial weather and task context",
+        "kind": "context",
+        "facts": {
+          "rainCertain": true,
+          "fieldShelterCostTokens": 3,
+          "indoorVenuesRequireShelter": false,
+          "requiredCapacityHouseholds": 60,
+          "budgetTokens": 8
+        },
+        "source": {
+          "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+          "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+          "section": "A small executable task and scoring key",
+          "locator": "Public brief and Weather row; before the later update"
+        },
+        "history": [
+          {
+            "version": 1,
+            "operation": "extract-supplied-fictional-facts",
+            "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+            "note": "No participant action or endorsement; source task initial condition only."
+          }
+        ],
+        "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "referenceDefinitions": [
+      {
+        "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+        "version": 1,
+        "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+        "mappingVersion": "gate-2-reference-mapping-v1",
+        "criteria": "A venue with a supplied capacity >=60 maps to yes; a supplied smaller capacity maps to no. Non-venue/context records are unmapped. Missing venue capacity would be unknown/unmapped; never infer it.",
+        "id": "R_CAPACITY_60",
+        "wording": "Which venues can hold at least 60 households?"
+      },
+      {
+        "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+        "version": 1,
+        "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+        "mappingVersion": "gate-2-reference-mapping-v1",
+        "criteria": "A venue whose supplied access fact is already accessible maps to yes; a venue explicitly requiring a portable ramp maps to no. Non-venue/context records are unmapped. Missing venue access would be unknown/unmapped; never infer it.",
+        "id": "R_EXISTING_ACCESS",
+        "wording": "Which venues already have wheelchair access without added equipment?"
+      }
+    ],
+    "assignments": {
+      "R_CAPACITY_60": [
+        {
+          "recordId": "venue-hall",
+          "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 0,
+          "relevant": true,
+          "reason": "60 households meets the 60-household threshold."
+        },
+        {
+          "recordId": "venue-field",
+          "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 1.5707963267948966,
+          "relevant": true,
+          "reason": "80 households meets the 60-household threshold."
+        },
+        {
+          "recordId": "venue-studio",
+          "recordSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+          "status": "mapped",
+          "answer": "no",
+          "baseId": "west",
+          "displayPhaseRad": 3.141592653589793,
+          "relevant": true,
+          "reason": "50 households is below the 60-household threshold."
+        },
+        {
+          "recordId": "weather-context",
+          "recordSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "status": "unmapped",
+          "answer": null,
+          "baseId": null,
+          "displayPhaseRad": null,
+          "relevant": false,
+          "reason": "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing."
+        }
+      ],
+      "R_EXISTING_ACCESS": [
+        {
+          "recordId": "venue-hall",
+          "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "status": "mapped",
+          "answer": "no",
+          "baseId": "west",
+          "displayPhaseRad": 0,
+          "relevant": true,
+          "reason": "Supplied access fact: a portable ramp costing 2 tokens is required."
+        },
+        {
+          "recordId": "venue-field",
+          "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 1.5707963267948966,
+          "relevant": true,
+          "reason": "Supplied access fact: already accessible; no added access equipment required."
+        },
+        {
+          "recordId": "venue-studio",
+          "recordSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 3.141592653589793,
+          "relevant": true,
+          "reason": "Supplied access fact: already accessible; no added access equipment required."
+        },
+        {
+          "recordId": "weather-context",
+          "recordSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+          "status": "unmapped",
+          "answer": null,
+          "baseId": null,
+          "displayPhaseRad": null,
+          "relevant": false,
+          "reason": "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing."
+        }
+      ]
+    },
+    "localManifests": [
+      {
+        "id": "G6_LOCAL_HALL",
+        "label": "Hall local context",
+        "status": "Gate 6 synthetic derivative, not a participant group",
+        "version": 1,
+        "selectedVenueId": "venue-hall",
+        "recordRefs": [
+          {
+            "recordId": "venue-hall",
+            "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+          },
+          {
+            "recordId": "weather-context",
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+          }
+        ],
+        "retainedLocalReference": {
+          "id": "R_CAPACITY_60",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+        },
+        "alternativeReferences": [
+          {
+            "id": "R_CAPACITY_60",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+          },
+          {
+            "id": "R_EXISTING_ACCESS",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+          }
+        ],
+        "dependencyIds": [
+          "G6_DEP_RAMP"
+        ],
+        "history": [
+          {
+            "version": 1,
+            "operation": "create-gate-6-local-context",
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-hall",
+                "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Declared synthetic selection and reference preference; no participant endorsement."
+          }
+        ],
+        "contentSha256": "fa9c091a946b550543a1932e4718836ca0839e99f89f4cd90eca568215c0ef4c"
+      },
+      {
+        "id": "G6_LOCAL_FIELD",
+        "label": "Field local context",
+        "status": "Gate 6 synthetic derivative, not a participant group",
+        "version": 1,
+        "selectedVenueId": "venue-field",
+        "recordRefs": [
+          {
+            "recordId": "venue-field",
+            "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+          },
+          {
+            "recordId": "weather-context",
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+          }
+        ],
+        "retainedLocalReference": {
+          "id": "R_EXISTING_ACCESS",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+        },
+        "alternativeReferences": [
+          {
+            "id": "R_CAPACITY_60",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+          },
+          {
+            "id": "R_EXISTING_ACCESS",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+          }
+        ],
+        "dependencyIds": [
+          "G6_DEP_GENERATOR",
+          "G6_DEP_SHELTER"
+        ],
+        "history": [
+          {
+            "version": 1,
+            "operation": "create-gate-6-local-context",
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-field",
+                "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Declared synthetic selection and reference preference; no participant endorsement."
+          }
+        ],
+        "contentSha256": "f3f33f0b516f5db03fabc1fc8b39fca0ad4c6699f317801fadec8580d37dd0d3"
+      }
+    ],
+    "contexts": [
+      {
+        "id": "G6_LOCAL_HALL",
+        "label": "Hall local context",
+        "manifest": {
+          "id": "G6_LOCAL_HALL",
+          "label": "Hall local context",
+          "status": "Gate 6 synthetic derivative, not a participant group",
+          "version": 1,
+          "selectedVenueId": "venue-hall",
+          "recordRefs": [
+            {
+              "recordId": "venue-hall",
+              "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+            },
+            {
+              "recordId": "weather-context",
+              "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "retainedLocalReference": {
+            "id": "R_CAPACITY_60",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+          },
+          "alternativeReferences": [
+            {
+              "id": "R_CAPACITY_60",
+              "version": 1,
+              "mappingVersion": "gate-2-reference-mapping-v1",
+              "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+            },
+            {
+              "id": "R_EXISTING_ACCESS",
+              "version": 1,
+              "mappingVersion": "gate-2-reference-mapping-v1",
+              "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+            }
+          ],
+          "dependencyIds": [
+            "G6_DEP_RAMP"
+          ],
+          "history": [
+            {
+              "version": 1,
+              "operation": "create-gate-6-local-context",
+              "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+              "sourceRecordRefs": [
+                {
+                  "recordId": "venue-hall",
+                  "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+                },
+                {
+                  "recordId": "weather-context",
+                  "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+                }
+              ],
+              "note": "Declared synthetic selection and reference preference; no participant endorsement."
+            }
+          ],
+          "contentSha256": "fa9c091a946b550543a1932e4718836ca0839e99f89f4cd90eca568215c0ef4c"
+        },
+        "records": [
+          {
+            "id": "venue-hall",
+            "version": 1,
+            "label": "Hall",
+            "kind": "venue",
+            "facts": {
+              "capacityHouseholds": 60,
+              "alreadyWheelchairAccessible": false,
+              "hireTokens": 4,
+              "powerAvailable": true,
+              "requiredAccessEquipment": {
+                "name": "portable ramp",
+                "costTokens": 2
+              },
+              "requiredPowerEquipment": null,
+              "shelterRequiredInRain": false
+            },
+            "source": {
+              "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+              "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+              "section": "A small executable task and scoring key",
+              "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+            },
+            "history": [
+              {
+                "version": 1,
+                "operation": "extract-supplied-fictional-facts",
+                "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+                "note": "No participant action or endorsement; source task initial condition only."
+              }
+            ],
+            "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+          },
+          {
+            "id": "weather-context",
+            "version": 1,
+            "label": "Initial weather and task context",
+            "kind": "context",
+            "facts": {
+              "rainCertain": true,
+              "fieldShelterCostTokens": 3,
+              "indoorVenuesRequireShelter": false,
+              "requiredCapacityHouseholds": 60,
+              "budgetTokens": 8
+            },
+            "source": {
+              "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+              "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+              "section": "A small executable task and scoring key",
+              "locator": "Public brief and Weather row; before the later update"
+            },
+            "history": [
+              {
+                "version": 1,
+                "operation": "extract-supplied-fictional-facts",
+                "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+                "note": "No participant action or endorsement; source task initial condition only."
+              }
+            ],
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+          }
+        ],
+        "localCriterion": {
+          "recordId": "venue-hall",
+          "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 0,
+          "relevant": true,
+          "reason": "60 households meets the 60-household threshold."
+        },
+        "outerCriterion": {
+          "recordId": "venue-hall",
+          "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 0,
+          "relevant": true,
+          "reason": "60 households meets the 60-household threshold."
+        },
+        "dependency": {
+          "hire": {
+            "id": "venue-hall:hire",
+            "kind": "venue-hire",
+            "label": "Venue hire",
+            "costTokens": 4,
+            "sourceId": "venue-hall",
+            "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+            "evidencePointers": [
+              "venue-hall.facts.hireTokens"
+            ]
+          },
+          "requiredEquipment": [
+            {
+              "id": "G6_DEP_RAMP",
+              "localId": "G6_LOCAL_HALL",
+              "kind": "access",
+              "label": "portable ramp",
+              "costTokens": 2,
+              "availability": "unknown-not-supplied",
+              "evidence": [
+                {
+                  "recordId": "venue-hall",
+                  "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+                  "field": "facts.requiredAccessEquipment",
+                  "role": "name and one equipment charge"
+                }
+              ]
+            }
+          ],
+          "venueEquipmentCostTokens": 6,
+          "availability": "unknown-not-supplied"
+        },
+        "summaryHistory": [
+          {
+            "id": "G6_LOCAL_HALL-SUMMARY-1",
+            "localId": "G6_LOCAL_HALL",
+            "revision": 1,
+            "previousRevisionId": null,
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "operation": "compress-partial-reference",
+            "trigger": {
+              "id": "G6_RECEIVER",
+              "version": 1
+            },
+            "changedFields": [
+              "initial criterion-only outward projection"
+            ],
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-hall",
+                "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+          },
+          {
+            "id": "G6_LOCAL_HALL-SUMMARY-2",
+            "localId": "G6_LOCAL_HALL",
+            "revision": 2,
+            "previousRevisionId": "G6_LOCAL_HALL-SUMMARY-1",
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "operation": "repair-for-receiving-task",
+            "trigger": {
+              "id": "G6_RECEIVER",
+              "version": 1
+            },
+            "changedFields": [
+              "candidateCapacityHouseholds",
+              "requiredEquipment",
+              "venueEquipmentCostTokens",
+              "receiverEvaluation"
+            ],
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-hall",
+                "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+          },
+          {
+            "id": "G6_LOCAL_HALL-SUMMARY-3",
+            "localId": "G6_LOCAL_HALL",
+            "revision": 3,
+            "previousRevisionId": "G6_LOCAL_HALL-SUMMARY-2",
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "operation": "recompute-for-external-requirement",
+            "trigger": {
+              "id": "G6_RECEIVER",
+              "version": 2
+            },
+            "changedFields": [
+              "receiver.version",
+              "receiver.minimumCapacityHouseholds",
+              "receiverEvaluation.capacityPass",
+              "receiverEvaluation.numericScreenPass",
+              "receiverEvaluation.classification"
+            ],
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-hall",
+                "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log.",
+            "reevaluatedFields": [
+              "receiverEvaluation.capacityPass",
+              "receiverEvaluation.budgetPass",
+              "receiverEvaluation.numericScreenPass",
+              "receiverEvaluation.classification"
+            ]
+          }
+        ],
+        "activeSummary": {
+          "localId": "G6_LOCAL_HALL",
+          "label": "Hall local context",
+          "selectedVenueId": "venue-hall",
+          "selectedVenueSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+          "selectedVenueSource": {
+            "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+            "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+            "section": "A small executable task and scoring key",
+            "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+          },
+          "reference": {
+            "id": "R_CAPACITY_60",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "wording": "Which venues can hold at least 60 households?",
+            "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+            "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+            "criteria": "A venue with a supplied capacity >=60 maps to yes; a supplied smaller capacity maps to no. Non-venue/context records are unmapped. Missing venue capacity would be unknown/unmapped; never infer it."
+          },
+          "criterion": {
+            "status": "mapped",
+            "answer": "yes",
+            "reason": "Selected venue satisfies the stated criterion.",
+            "evidencePointer": "venue-hall.facts.capacityHouseholds"
+          },
+          "summaryRuleId": "G6_OUTWARD",
+          "summaryVersion": 1,
+          "dependencyDetail": "omitted",
+          "localManifestPointer": "local:G6_LOCAL_HALL",
+          "headline": "Meets capacity criterion; dependency detail omitted",
+          "revisionId": "G6_LOCAL_HALL-SUMMARY-1"
+        },
+        "outwardEvaluation": {
+          "status": "insufficient-summary",
+          "missingFields": [
+            "candidateCapacityHouseholds",
+            "venueEquipmentCostTokens",
+            "requiredEquipment",
+            "requiredEquipmentComplete",
+            "receiverId",
+            "receiverVersion",
+            "receiverMinimumCapacityHouseholds",
+            "receiverMaximumVenueEquipmentCostTokens"
+          ],
+          "numericScreenPass": null,
+          "capacityPass": null,
+          "budgetPass": null,
+          "scope": "Outward payload only; no full-source fallback"
+        },
+        "expanded": false
+      },
+      {
+        "id": "G6_LOCAL_FIELD",
+        "label": "Field local context",
+        "manifest": {
+          "id": "G6_LOCAL_FIELD",
+          "label": "Field local context",
+          "status": "Gate 6 synthetic derivative, not a participant group",
+          "version": 1,
+          "selectedVenueId": "venue-field",
+          "recordRefs": [
+            {
+              "recordId": "venue-field",
+              "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+            },
+            {
+              "recordId": "weather-context",
+              "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "retainedLocalReference": {
+            "id": "R_EXISTING_ACCESS",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+          },
+          "alternativeReferences": [
+            {
+              "id": "R_CAPACITY_60",
+              "version": 1,
+              "mappingVersion": "gate-2-reference-mapping-v1",
+              "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+            },
+            {
+              "id": "R_EXISTING_ACCESS",
+              "version": 1,
+              "mappingVersion": "gate-2-reference-mapping-v1",
+              "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+            }
+          ],
+          "dependencyIds": [
+            "G6_DEP_GENERATOR",
+            "G6_DEP_SHELTER"
+          ],
+          "history": [
+            {
+              "version": 1,
+              "operation": "create-gate-6-local-context",
+              "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+              "sourceRecordRefs": [
+                {
+                  "recordId": "venue-field",
+                  "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+                },
+                {
+                  "recordId": "weather-context",
+                  "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+                }
+              ],
+              "note": "Declared synthetic selection and reference preference; no participant endorsement."
+            }
+          ],
+          "contentSha256": "f3f33f0b516f5db03fabc1fc8b39fca0ad4c6699f317801fadec8580d37dd0d3"
+        },
+        "records": [
+          {
+            "id": "venue-field",
+            "version": 1,
+            "label": "Field",
+            "kind": "venue",
+            "facts": {
+              "capacityHouseholds": 80,
+              "alreadyWheelchairAccessible": true,
+              "hireTokens": 3,
+              "powerAvailable": false,
+              "requiredAccessEquipment": null,
+              "requiredPowerEquipment": {
+                "name": "generator",
+                "costTokens": 3
+              },
+              "shelterRequiredInRain": true,
+              "shelterCostTokens": 3
+            },
+            "source": {
+              "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+              "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+              "section": "A small executable task and scoring key",
+              "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+            },
+            "history": [
+              {
+                "version": 1,
+                "operation": "extract-supplied-fictional-facts",
+                "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+                "note": "No participant action or endorsement; source task initial condition only."
+              }
+            ],
+            "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+          },
+          {
+            "id": "weather-context",
+            "version": 1,
+            "label": "Initial weather and task context",
+            "kind": "context",
+            "facts": {
+              "rainCertain": true,
+              "fieldShelterCostTokens": 3,
+              "indoorVenuesRequireShelter": false,
+              "requiredCapacityHouseholds": 60,
+              "budgetTokens": 8
+            },
+            "source": {
+              "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+              "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+              "section": "A small executable task and scoring key",
+              "locator": "Public brief and Weather row; before the later update"
+            },
+            "history": [
+              {
+                "version": 1,
+                "operation": "extract-supplied-fictional-facts",
+                "actor": "Looking Glass Gate 2 specification; AI-authored derivative",
+                "note": "No participant action or endorsement; source task initial condition only."
+              }
+            ],
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+          }
+        ],
+        "localCriterion": {
+          "recordId": "venue-field",
+          "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 1.5707963267948966,
+          "relevant": true,
+          "reason": "Supplied access fact: already accessible; no added access equipment required."
+        },
+        "outerCriterion": {
+          "recordId": "venue-field",
+          "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "status": "mapped",
+          "answer": "yes",
+          "baseId": "east",
+          "displayPhaseRad": 1.5707963267948966,
+          "relevant": true,
+          "reason": "80 households meets the 60-household threshold."
+        },
+        "dependency": {
+          "hire": {
+            "id": "venue-field:hire",
+            "kind": "venue-hire",
+            "label": "Venue hire",
+            "costTokens": 3,
+            "sourceId": "venue-field",
+            "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+            "evidencePointers": [
+              "venue-field.facts.hireTokens"
+            ]
+          },
+          "requiredEquipment": [
+            {
+              "id": "G6_DEP_GENERATOR",
+              "localId": "G6_LOCAL_FIELD",
+              "kind": "power",
+              "label": "generator",
+              "costTokens": 3,
+              "availability": "unknown-not-supplied",
+              "evidence": [
+                {
+                  "recordId": "venue-field",
+                  "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+                  "field": "facts.requiredPowerEquipment",
+                  "role": "name and one equipment charge"
+                }
+              ]
+            },
+            {
+              "id": "G6_DEP_SHELTER",
+              "localId": "G6_LOCAL_FIELD",
+              "kind": "rain-shelter",
+              "label": "rain shelter",
+              "costTokens": 3,
+              "availability": "unknown-not-supplied",
+              "evidence": [
+                {
+                  "recordId": "venue-field",
+                  "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+                  "field": "facts.shelterRequiredInRain",
+                  "role": "obligation"
+                },
+                {
+                  "recordId": "venue-field",
+                  "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+                  "field": "facts.shelterCostTokens",
+                  "role": "one authoritative shelter charge"
+                },
+                {
+                  "recordId": "weather-context",
+                  "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+                  "field": "facts.rainCertain",
+                  "role": "condition is true"
+                },
+                {
+                  "recordId": "weather-context",
+                  "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+                  "field": "facts.fieldShelterCostTokens",
+                  "role": "corroboration of same charge; do not add twice"
+                }
+              ]
+            }
+          ],
+          "venueEquipmentCostTokens": 9,
+          "availability": "unknown-not-supplied"
+        },
+        "summaryHistory": [
+          {
+            "id": "G6_LOCAL_FIELD-SUMMARY-1",
+            "localId": "G6_LOCAL_FIELD",
+            "revision": 1,
+            "previousRevisionId": null,
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "operation": "compress-partial-reference",
+            "trigger": {
+              "id": "G6_RECEIVER",
+              "version": 1
+            },
+            "changedFields": [
+              "initial criterion-only outward projection"
+            ],
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-field",
+                "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+          },
+          {
+            "id": "G6_LOCAL_FIELD-SUMMARY-2",
+            "localId": "G6_LOCAL_FIELD",
+            "revision": 2,
+            "previousRevisionId": "G6_LOCAL_FIELD-SUMMARY-1",
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "operation": "repair-for-receiving-task",
+            "trigger": {
+              "id": "G6_RECEIVER",
+              "version": 1
+            },
+            "changedFields": [
+              "candidateCapacityHouseholds",
+              "requiredEquipment",
+              "venueEquipmentCostTokens",
+              "receiverEvaluation"
+            ],
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-field",
+                "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log."
+          },
+          {
+            "id": "G6_LOCAL_FIELD-SUMMARY-3",
+            "localId": "G6_LOCAL_FIELD",
+            "revision": 3,
+            "previousRevisionId": "G6_LOCAL_FIELD-SUMMARY-2",
+            "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+            "operation": "recompute-for-external-requirement",
+            "trigger": {
+              "id": "G6_RECEIVER",
+              "version": 2
+            },
+            "changedFields": [
+              "receiver.version",
+              "receiver.minimumCapacityHouseholds"
+            ],
+            "sourceRecordRefs": [
+              {
+                "recordId": "venue-field",
+                "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+              },
+              {
+                "recordId": "weather-context",
+                "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+              }
+            ],
+            "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log.",
+            "reevaluatedFields": [
+              "receiverEvaluation.capacityPass",
+              "receiverEvaluation.budgetPass",
+              "receiverEvaluation.numericScreenPass",
+              "receiverEvaluation.classification"
+            ]
+          }
+        ],
+        "activeSummary": {
+          "localId": "G6_LOCAL_FIELD",
+          "label": "Field local context",
+          "selectedVenueId": "venue-field",
+          "selectedVenueSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+          "selectedVenueSource": {
+            "path": "inputs/research-program/reviews/R1_STUDY_DESIGN.md",
+            "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+            "section": "A small executable task and scoring key",
+            "locator": "Venue hire paragraph; Capacity, Access, Power and Weather rows"
+          },
+          "reference": {
+            "id": "R_CAPACITY_60",
+            "version": 1,
+            "mappingVersion": "gate-2-reference-mapping-v1",
+            "wording": "Which venues can hold at least 60 households?",
+            "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+            "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+            "criteria": "A venue with a supplied capacity >=60 maps to yes; a supplied smaller capacity maps to no. Non-venue/context records are unmapped. Missing venue capacity would be unknown/unmapped; never infer it."
+          },
+          "criterion": {
+            "status": "mapped",
+            "answer": "yes",
+            "reason": "Selected venue satisfies the stated criterion.",
+            "evidencePointer": "venue-field.facts.capacityHouseholds"
+          },
+          "summaryRuleId": "G6_OUTWARD",
+          "summaryVersion": 1,
+          "dependencyDetail": "omitted",
+          "localManifestPointer": "local:G6_LOCAL_FIELD",
+          "headline": "Meets capacity criterion; dependency detail omitted",
+          "revisionId": "G6_LOCAL_FIELD-SUMMARY-1"
+        },
+        "outwardEvaluation": {
+          "status": "insufficient-summary",
+          "missingFields": [
+            "candidateCapacityHouseholds",
+            "venueEquipmentCostTokens",
+            "requiredEquipment",
+            "requiredEquipmentComplete",
+            "receiverId",
+            "receiverVersion",
+            "receiverMinimumCapacityHouseholds",
+            "receiverMaximumVenueEquipmentCostTokens"
+          ],
+          "numericScreenPass": null,
+          "capacityPass": null,
+          "budgetPass": null,
+          "scope": "Outward payload only; no full-source fallback"
+        },
+        "expanded": false
+      }
+    ],
+    "largerReference": {
+      "id": "R_CAPACITY_60",
+      "version": 1,
+      "mappingVersion": "gate-2-reference-mapping-v1",
+      "wording": "Which venues can hold at least 60 households?",
+      "scope": "Initial fictional neighborhood repair-event records; one partial criterion only; no participant commitment",
+      "author": "Looking Glass Gate 2 specification; AI-authored candidate for Paul review",
+      "criteria": "A venue with a supplied capacity >=60 maps to yes; a supplied smaller capacity maps to no. Non-venue/context records are unmapped. Missing venue capacity would be unknown/unmapped; never infer it."
+    },
+    "requirement": {
+      "id": "G6_RECEIVER",
+      "version": 1,
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "status": "Gate 6 synthetic derivative requirement",
+      "minimumCapacityHouseholds": 60,
+      "maximumVenueEquipmentCostTokens": 8,
+      "accessProvisionRequired": true,
+      "powerProvisionRequired": true,
+      "rainProtectionRequiredWhenRainCertain": true,
+      "requiredSummaryFields": [
+        "candidateCapacityHouseholds",
+        "venueEquipmentCostTokens",
+        "requiredEquipment"
+      ],
+      "scope": "Listed venue hire plus required access/power/rain equipment only; disclose source-backed obligations. No equipment availability, bookings, food, service or full event-feasibility inference.",
+      "previousVersion": null,
+      "changedFields": []
+    },
+    "supportedRelations": [
+      {
+        "id": "G6_REL_SHARED_SOURCE",
+        "type": "shares-source",
+        "from": "G6_LOCAL_HALL",
+        "to": "G6_LOCAL_FIELD",
+        "direction": "undirected",
+        "status": "supported",
+        "evidence": [
+          {
+            "recordId": "weather-context",
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+            "field": "*",
+            "role": "same immutable source reference in both local manifests"
+          }
+        ],
+        "meaning": "shared source identity only; no causal influence or transfer"
+      },
+      {
+        "id": "G6_REL_REQUIRES_RAMP",
+        "type": "requires-equipment",
+        "from": "G6_LOCAL_HALL",
+        "to": "G6_DEP_RAMP",
+        "direction": "directed",
+        "status": "supported",
+        "evidence": [
+          {
+            "recordId": "venue-hall",
+            "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+            "field": "facts.requiredAccessEquipment",
+            "role": "name and one equipment charge"
+          }
+        ]
+      },
+      {
+        "id": "G6_REL_REQUIRES_GENERATOR",
+        "type": "requires-equipment",
+        "from": "G6_LOCAL_FIELD",
+        "to": "G6_DEP_GENERATOR",
+        "direction": "directed",
+        "status": "supported",
+        "evidence": [
+          {
+            "recordId": "venue-field",
+            "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+            "field": "facts.requiredPowerEquipment",
+            "role": "name and one equipment charge"
+          }
+        ]
+      },
+      {
+        "id": "G6_REL_REQUIRES_SHELTER",
+        "type": "requires-equipment",
+        "from": "G6_LOCAL_FIELD",
+        "to": "G6_DEP_SHELTER",
+        "direction": "directed",
+        "status": "supported",
+        "evidence": [
+          {
+            "recordId": "venue-field",
+            "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+            "field": "facts.shelterRequiredInRain",
+            "role": "obligation"
+          },
+          {
+            "recordId": "venue-field",
+            "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+            "field": "facts.shelterCostTokens",
+            "role": "one authoritative shelter charge"
+          },
+          {
+            "recordId": "weather-context",
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+            "field": "facts.rainCertain",
+            "role": "condition is true"
+          },
+          {
+            "recordId": "weather-context",
+            "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+            "field": "facts.fieldShelterCostTokens",
+            "role": "corroboration of same charge; do not add twice"
+          }
+        ]
+      }
+    ],
+    "claim": {
+      "id": "G6-CLAIM-TRANSFER",
+      "type": "transfers-resource",
+      "from": "G6_LOCAL_HALL",
+      "to": "G6_LOCAL_FIELD",
+      "direction": "directed",
+      "status": "unsupported",
+      "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+      "label": "Unsupported claim: Hall transfers a resource to Field",
+      "evidence": [],
+      "includedInSupportedGraph": false,
+      "reason": "No supplied record establishes any Hall-to-Field resource transfer. Shared weather evidence and visual proximity are insufficient."
+    },
+    "inspectedRelation": null,
+    "proposals": [
+      {
+        "id": "G6_PROPOSAL_CAPACITY",
+        "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+        "position": "organize by capacity criterion",
+        "reference": {
+          "id": "R_CAPACITY_60",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+        },
+        "retainedByLocalId": "G6_LOCAL_HALL",
+        "status": "synthetic alternative; no commitment"
+      },
+      {
+        "id": "G6_PROPOSAL_ACCESS",
+        "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+        "position": "organize by existing-access criterion",
+        "reference": {
+          "id": "R_EXISTING_ACCESS",
+          "version": 1,
+          "mappingVersion": "gate-2-reference-mapping-v1",
+          "definitionSha256": "1f5f245c37e43c02a572dcb8f268341dd97237f0c77aef62726ae392871d705a"
+        },
+        "retainedByLocalId": "G6_LOCAL_FIELD",
+        "status": "synthetic alternative; no commitment"
+      }
+    ],
+    "disagreement": "Hall retains capacity; Field retains existing access. Both alternatives persist; no average or endorsement.",
+    "trace": {
+      "trigger": {
+        "id": "G6_RECEIVER",
+        "version": 2,
+        "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+        "status": "Gate 6 synthetic derivative requirement",
+        "minimumCapacityHouseholds": 70,
+        "maximumVenueEquipmentCostTokens": 8,
+        "accessProvisionRequired": true,
+        "powerProvisionRequired": true,
+        "rainProtectionRequiredWhenRainCertain": true,
+        "requiredSummaryFields": [
+          "candidateCapacityHouseholds",
+          "venueEquipmentCostTokens",
+          "requiredEquipment"
+        ],
+        "scope": "Listed venue hire plus required access/power/rain equipment only; disclose source-backed obligations. No equipment availability, bookings, food, service or full event-feasibility inference.",
+        "previousVersion": 1,
+        "changedFields": [
+          {
+            "field": "minimumCapacityHouseholds",
+            "before": 60,
+            "after": 70
+          }
+        ]
+      },
+      "affected": [
+        {
+          "localId": "G6_LOCAL_HALL",
+          "recordId": "venue-hall",
+          "field": "facts.capacityHouseholds"
+        },
+        {
+          "localId": "G6_LOCAL_FIELD",
+          "recordId": "venue-field",
+          "field": "facts.capacityHouseholds"
+        }
+      ],
+      "revisions": [
+        {
+          "id": "G6_LOCAL_HALL-SUMMARY-3",
+          "localId": "G6_LOCAL_HALL",
+          "revision": 3,
+          "previousRevisionId": "G6_LOCAL_HALL-SUMMARY-2",
+          "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+          "operation": "recompute-for-external-requirement",
+          "trigger": {
+            "id": "G6_RECEIVER",
+            "version": 2
+          },
+          "changedFields": [
+            "receiver.version",
+            "receiver.minimumCapacityHouseholds",
+            "receiverEvaluation.capacityPass",
+            "receiverEvaluation.numericScreenPass",
+            "receiverEvaluation.classification"
+          ],
+          "sourceRecordRefs": [
+            {
+              "recordId": "venue-hall",
+              "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+            },
+            {
+              "recordId": "weather-context",
+              "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log.",
+          "reevaluatedFields": [
+            "receiverEvaluation.capacityPass",
+            "receiverEvaluation.budgetPass",
+            "receiverEvaluation.numericScreenPass",
+            "receiverEvaluation.classification"
+          ]
+        },
+        {
+          "id": "G6_LOCAL_FIELD-SUMMARY-3",
+          "localId": "G6_LOCAL_FIELD",
+          "revision": 3,
+          "previousRevisionId": "G6_LOCAL_FIELD-SUMMARY-2",
+          "author": "Gate 6 synthetic fixture editor; AI-authored simulation",
+          "operation": "recompute-for-external-requirement",
+          "trigger": {
+            "id": "G6_RECEIVER",
+            "version": 2
+          },
+          "changedFields": [
+            "receiver.version",
+            "receiver.minimumCapacityHouseholds"
+          ],
+          "sourceRecordRefs": [
+            {
+              "recordId": "venue-field",
+              "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+            },
+            {
+              "recordId": "weather-context",
+              "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "note": "Synthetic deterministic history; actual control initiator is recorded separately in the browser activity log.",
+          "reevaluatedFields": [
+            "receiverEvaluation.capacityPass",
+            "receiverEvaluation.budgetPass",
+            "receiverEvaluation.numericScreenPass",
+            "receiverEvaluation.classification"
+          ]
+        }
+      ]
+    },
+    "controls": {
+      "referenceId": "R_CAPACITY_60",
+      "requirementVersion": 1,
+      "summaryVersion": 1,
+      "expandedIds": [],
+      "selectedContextId": null,
+      "traceMode": "none",
+      "traceLocalId": null,
+      "alternativesOpen": false,
+      "claimsOpen": false,
+      "inspectedRelationId": null,
+      "view": "graph",
+      "layout": "ordinary",
+      "inspectorOpen": false,
+      "sourceListOpen": false
+    }
+  },
+  "sourceSha256": "1c848c8b835b305837636f290514f2cfe7aa7afeee951bebd742f2b93b6ea54f",
+  "localSha256": "391e9e886fc6881fef3694f3290801befe4bc3cb7c4ed2e167deca64200796ab",
+  "relationsSha256": "0d4973d6a1f48fda95d947c9640f2927389bc12a3c98fd3ca7fc67fce2747a04",
+  "mappingSha256": "bfe800bb20b3633d335f3b3d40775d7a97866aafe7f961d269e236b88687870e",
+  "summarySha256": "5191f9d1f8057cb362de2082f25c2bda6ab38427eb760c2614465031f01410ff",
+  "summaryHistorySha256": "b0ec57e231abe6b97a63ad4028b7df79820706b3f929d2790c64ba486a8e770f",
+  "receiverSha256": "98ff7bd4eebb23dfa3491290f151a8d8591b0272233d05f49641ba31724a909a",
+  "semanticSha256": "0fe6247ca02d49a558e4fd197f14bdbfffc3b106ac6c85a365276d4229aaa1a8",
+  "checkpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930"
+}

@@ -1,0 +1,366 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:looking-glass:snapshot:1",
+  "title": "Prepared snapshot record, no collected responses",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "snapshotId",
+    "agentId",
+    "phase",
+    "identity",
+    "inputManifestSha256",
+    "cutoffTick",
+    "suppliedCardIds",
+    "sourceCoverage",
+    "interpretations",
+    "unknowns",
+    "conflicts",
+    "proposedActions",
+    "taskResponses",
+    "revision",
+    "confirmationStatus",
+    "displayMappingVersion"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "snapshot/1"
+    },
+    "snapshotId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agentId": {
+      "type": "string"
+    },
+    "phase": {
+      "enum": [
+        "initial",
+        "revised",
+        "pool",
+        "union",
+        "interactive_final"
+      ]
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "modelId",
+        "modelVersion",
+        "settingsManifestSha256"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "model_output",
+            "deterministic_pool"
+          ]
+        },
+        "modelId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "modelVersion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "settingsManifestSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "inputManifestSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "cutoffTick": {
+      "const": 10
+    },
+    "suppliedCardIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "sourceCoverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cardId",
+          "disposition",
+          "reason"
+        ],
+        "properties": {
+          "cardId": {
+            "type": "string"
+          },
+          "disposition": {
+            "enum": [
+              "used",
+              "unresolved",
+              "no_task_relevance"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interpretations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "version",
+          "predicate",
+          "arguments",
+          "status",
+          "supportingClaimIds",
+          "conflictingClaimIds",
+          "sourceKind",
+          "speechAct",
+          "alternatives",
+          "confidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "version": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "predicate": {
+            "type": "string"
+          },
+          "arguments": {
+            "type": "object"
+          },
+          "status": {
+            "enum": [
+              "supported",
+              "refuted",
+              "conflicted",
+              "unknown"
+            ]
+          },
+          "supportingClaimIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "conflictingClaimIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "sourceKind": {
+            "enum": [
+              "source_stipulation",
+              "model_attribution",
+              "model_inference"
+            ]
+          },
+          "speechAct": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "provenance"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "provenance": {
+                    "const": "model_self_report_not_evidence"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "proposedActions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "planId",
+          "planVersion",
+          "status",
+          "missingDependencies",
+          "enacted"
+        ],
+        "properties": {
+          "planId": {
+            "type": "string"
+          },
+          "planVersion": {
+            "type": "integer"
+          },
+          "status": {
+            "enum": [
+              "supported",
+              "refuted",
+              "conflicted",
+              "unknown"
+            ]
+          },
+          "missingDependencies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "enacted": {
+            "const": false
+          }
+        }
+      }
+    },
+    "taskResponses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "taskId",
+          "values",
+          "evidence",
+          "missingDependencies"
+        ],
+        "properties": {
+          "taskId": {
+            "type": "string"
+          },
+          "values": {
+            "type": "object"
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          },
+          "missingDependencies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "revision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "parentSnapshotIds",
+        "triggerSourceIds",
+        "reason",
+        "changedInterpretationIds",
+        "retainedDissentIds"
+      ],
+      "properties": {
+        "parentSnapshotIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "triggerSourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "reason": {
+          "type": "string"
+        },
+        "changedInterpretationIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "retainedDissentIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "confirmationStatus": {
+      "const": "model_generated_not_human_attestation"
+    },
+    "displayMappingVersion": {
+      "const": "plain-visual-shared/1"
+    }
+  }
+}

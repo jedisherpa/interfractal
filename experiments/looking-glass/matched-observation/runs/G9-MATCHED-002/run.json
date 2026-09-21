@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "gate9-run-v1",
+  "gate": "G9",
+  "runId": "G9-MATCHED-002",
+  "buildId": "g9-bbf83c60c0a79027",
+  "sourceSha256": "bbf83c60c0a79027327d397222c921907bdf31f4d9c13f5aa61521bcb76eef28",
+  "status": "scripted demonstration and mathematical software checks; browser validation separate",
+  "gitHead": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "baseRevision": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "nodeVersion": "v24.17.0",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "builtAtUtc": "2026-09-20T09:05:17.099Z",
+  "prespecFreezeSha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-9/experiment-charter.md",
+      "sha256": "5d3335e6224f3289b46d4a98edecb06992a36a23ff355f983fbc46acce7e97c2",
+      "bytes": 7845
+    },
+    {
+      "path": "docs/gate-9/model-contract.md",
+      "sha256": "a00a6f9dfe8a99875f98647ca28e258fc0b66a529c775be06c508af5fb5e196d",
+      "bytes": 10971
+    },
+    {
+      "path": "docs/gate-9/record-contract.md",
+      "sha256": "71cda7552c711a32b5092dea426e088a64091e55a4a5c4b25773eb12725ddd97",
+      "bytes": 10932
+    },
+    {
+      "path": "docs/gate-9/fixture.json",
+      "sha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+      "bytes": 8238
+    },
+    {
+      "path": "docs/gate-9/independent-predictions.json",
+      "sha256": "03194be6024ffdabafff686263001f0c40e1f6b8cf86f9330c27cd7bfc8c5f25",
+      "bytes": 38462
+    }
+  ],
+  "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+  "publicFixtureSha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "experimentVersion": "gate9-charter-v1",
+  "modelVersion": "gate9-model-v1",
+  "recordVersion": "gate9-record-v1",
+  "durationSeconds": 24,
+  "checkpointSeconds": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    20,
+    24
+  ],
+  "scheduledEventCount": 12,
+  "allOrderedChoiceCount": 9,
+  "humanParticipantCount": 0,
+  "humanPerformance": "untested",
+  "actor": "scripted_demonstration",
+  "eventsKind": "canonical scripted expectations; browser events exported separately",
+  "files": {
+    "initialState": "initial-state.json",
+    "checkpoints": "checkpoints.json",
+    "events": "events.jsonl",
+    "computationalResults": "computational-results.json"
+  }
+}

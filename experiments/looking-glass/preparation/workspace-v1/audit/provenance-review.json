@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "workspace-provenance-review/1",
+  "scope": "Frozen authored synthetic materials only; no four-agent or human research data",
+  "valueVerdict": "292-of-292-source-derived-values-agree",
+  "developmentAtoms": 194,
+  "transferAtoms": 98,
+  "w06BundleRelationsReviewed": 8,
+  "valueDisagreements": 0,
+  "nonactiveOrOutOfScopeCitations": 0,
+  "sourceDerivedUnknownOrNullWithNamedMissingDependencies": 101,
+  "transferAtomsWithoutPerAtomAuthorEvidence": 73,
+  "transferUnknownAtomsWithPartialNonemptyAuthorEvidence": [
+    "W02/commitment",
+    "W02/readiness",
+    "W03/commitment",
+    "W03/readiness"
+  ],
+  "proofVerdict": "Value key agrees, but author citation arrays are illustrative and incomplete for automatic provenance scoring; independent scoped rule and source proof is required.",
+  "evidence": "../evidence/audit/provenance-atom-matrix.json",
+  "checker": "provenance-check.mjs",
+  "frozenInputsChanged": false,
+  "researchOutputsCollected": 0,
+  "humanParticipants": 0
+}

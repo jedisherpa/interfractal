@@ -1,0 +1,44 @@
+{
+  "recordedAtUtc": "2026-09-20T18:05:44.339854+00:00",
+  "candidate": "001",
+  "images": [
+    {
+      "path": "browser-001/screenshots/changed-receiver-witness.jpg",
+      "width": 1280,
+      "height": 720,
+      "inspectedByHost": true
+    },
+    {
+      "path": "browser-001/screenshots/initial-count-summary.jpg",
+      "width": 1280,
+      "height": 720,
+      "inspectedByHost": true
+    },
+    {
+      "path": "browser-001/screenshots/minimal-repair-diagram.jpg",
+      "width": 1280,
+      "height": 720,
+      "inspectedByHost": true
+    },
+    {
+      "path": "browser-001/screenshots/minimal-repair-plain.jpg",
+      "width": 1280,
+      "height": 720,
+      "inspectedByHost": true
+    },
+    {
+      "path": "browser-001/screenshots/partial-negative-narrow.jpg",
+      "width": 960,
+      "height": 720,
+      "inspectedByHost": true
+    }
+  ],
+  "visualFindings": [
+    "Initial count result and primary controls are visible and readable at1280x720.",
+    "Changed-receiver image shows the insufficient result and open-panel controls; detailed witness/source panels are below the viewport and preserved in DOM observations.",
+    "Diagram and plain originals show the same six typed relations; the receiver-result line is partly clipped at the top after scrolling.",
+    "At960x720 controls wrap without horizontal overflow; selected negative result is visible, while global result and source details require scrolling.",
+    "JSON panels use capped internal scroll regions; the plain screenshot shows a scrolled payload region. No human readability or interface advantage measured."
+  ],
+  "imagesEdited": false
+}

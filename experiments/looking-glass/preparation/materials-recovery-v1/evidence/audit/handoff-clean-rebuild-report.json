@@ -1,0 +1,29 @@
+{
+  "stage": "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93",
+  "steps": [
+    {
+      "command": [
+        "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93/tooling/build-package.mjs",
+        "build"
+      ],
+      "exitCode": 0,
+      "stdout": "build passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "/private/var/folders/xs/rl7wpblj6jj1bhw1dbf0jsmm0000gp/T/materials004-recovery-x9o9mw93/tooling/build-package.mjs",
+        "verify"
+      ],
+      "exitCode": 0,
+      "stdout": "verify passed: 72 files; 18 cards; four six-card participant packets; candidate package-candidate-004\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "nodeVersion": "v24.17.0",
+  "filesCompared": 72,
+  "manifestSha256": "66c2343ea244d5e8946b7a6841520c9af5d7361c74b358c018d8733f01bdd823"
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "gate10-candidate-003-browser-blocker-recheck-v1",
+  "candidate": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "sourceSha256": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "status": "BLOCKED_ACTUAL_BROWSER",
+  "finding": {
+    "id": "G10-003-01",
+    "title": "First accepted attempt-start acknowledgement is discarded by null/undefined attempt comparison",
+    "source": [
+      "prediction-transfer/builds/g10-9e34f791d83c1cd7a495/app.mjs:69-80",
+      "prediction-transfer/builds/g10-9e34f791d83c1cd7a495/app.mjs:92-104"
+    ],
+    "mechanism": "act() captures attached?.attemptId ?? null, which is null before the first start. dispatchPending() later compares attached?.attemptId, which is undefined, to that null with strict inequality. This branch clears pending and returns before onAck(data) attaches the accepted attempt, updates responsePhase, or records it locally.",
+    "actualBrowserEvidence": {
+      "observationsFile": "evidence/gate-10/browser/observations.json",
+      "labels": ["T01-started", "T01-start-ack", "first-start-server-ledger"],
+      "afterAcceptedStart": {"mode": "local-review", "caseId": "T01", "responsePhase": "none", "pendingAction": null, "attachedAttempt": null, "localLedgerAttemptCount": 0, "commitDisabled": true, "skipDisabled": true},
+      "serviceActionsFile": "prediction-transfer/live/G10-PREDICT-003/actions.jsonl",
+      "serviceAcceptedTypes": ["session-start", "attempt-start"],
+      "laterServerExport": {"caseId": "T01", "attemptCount": 1, "status": "answering", "response": null, "commitEventReference": null, "revealEventReference": null}
+    },
+    "independentControlledReproduction": "candidate-003-first-start-blocker-repro.json",
+    "contract": "docs/gate-10/model-contract.md:22-25,41-43; docs/gate-10/record-contract.md:9-11,23-25",
+    "impact": "The service retains an unanswered attempt, while the app shows no attached attempt and disables answer, skip and reveal controls. The planned five-case UI response/reveal workflow cannot run on candidate 003; an API test is not a substitute for that UI evidence.",
+    "minimalHypotheticalFix": "Normalize both compared attempt identities the same way, for example (attached?.attemptId ?? null) on the current side, before deciding whether an acknowledgement is stale. Then recheck the first-start UI path, late-response binding and retained ledger. No candidate/source change is authorized in this recheck."
+  },
+  "priorPrebrowserAuditQualification": "candidate-003-audit.json passed its stated build, isolated API, overlap and 12 controlled app scenarios. Those scenarios did not call the actual first-start handler through session issuance and API acknowledgement; therefore they did not test this comparison. The 103 build checks cover immutable math/manifests, and the 572 HTTP checks operate the API directly, not its UI consumer. The earlier pre-browser recommendation is superseded for trial readiness by this actual browser finding, while its scoped passing checks remain true.",
+  "bounds": ["No code, frozen spec, immutable build, live server or closed browser evidence was edited.", "The independent reproduction used accepted mock API responses against exact built app source; actual browser facts come only from retained host evidence.", "No new candidate is permitted by the project budget. Human learning and transfer remain untested."],
+  "credentialsAndReceipts": "No token or receipt values appear in this report or controlled reproduction."
+}

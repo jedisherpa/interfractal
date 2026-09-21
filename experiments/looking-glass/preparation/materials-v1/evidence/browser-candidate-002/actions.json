@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "label": "open-C04-source",
+    "startedAtUtc": "2026-09-20T21:40:35.700Z",
+    "beforeObservationIndex": 2,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:40:36.447Z"
+  },
+  {
+    "index": 1,
+    "label": "close-C04-by-keyboard",
+    "startedAtUtc": "2026-09-20T21:40:36.613Z",
+    "beforeObservationIndex": 5,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:40:36.623Z"
+  },
+  {
+    "index": 2,
+    "label": "reload-review-index",
+    "startedAtUtc": "2026-09-20T21:40:36.741Z",
+    "beforeObservationIndex": 6,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:40:36.763Z"
+  },
+  {
+    "index": 3,
+    "label": "open-C04-by-keyboard-recovery",
+    "startedAtUtc": "2026-09-20T21:40:48.507Z",
+    "beforeObservationIndex": 7,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:40:48.536Z"
+  },
+  {
+    "index": 4,
+    "label": "close-C04-by-click-recovery",
+    "startedAtUtc": "2026-09-20T21:40:56.190Z",
+    "beforeObservationIndex": 10,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:40:56.536Z"
+  },
+  {
+    "index": 5,
+    "label": "open-C04-by-click-visible",
+    "startedAtUtc": "2026-09-20T21:41:06.166Z",
+    "beforeObservationIndex": 11,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:41:06.552Z"
+  },
+  {
+    "index": 6,
+    "label": "close-C04-by-keyboard-verified",
+    "startedAtUtc": "2026-09-20T21:41:15.836Z",
+    "beforeObservationIndex": 12,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:41:15.864Z"
+  }
+]

@@ -1,0 +1,1337 @@
+{
+  "recordedAtUtc": "2026-09-20T20:31:54.773Z",
+  "method": "Host evidence summary; no implementation imported. Independent final audit follows.",
+  "runId": "G13-MISLEAD-002",
+  "buildId": "g13-5b8514d97acc3485aabf",
+  "observations": 108,
+  "actionAttempts": 91,
+  "toolCompleted": 91,
+  "toolFailed": 0,
+  "completedAttemptWithNoObservedEffect": [],
+  "originalImages": 5,
+  "checks": [
+    {
+      "index": 0,
+      "label": "initial-paused-zero",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 1,
+      "label": "viewport-1280x720",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 2,
+      "label": "start-local-mismatch",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 3,
+      "label": "source-before-check",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 4,
+      "label": "check-original-mismatch",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 5,
+      "label": "apply-mismatch-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 6,
+      "label": "inspect-retained-original",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 7,
+      "label": "return-to-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 8,
+      "label": "inspect-mismatch-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 9,
+      "label": "mismatch-correction-plain",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 10,
+      "label": "first-workflow-export",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 11,
+      "label": "baseline-checkpoint-0",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 12,
+      "label": "baseline-checkpoint-4",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 13,
+      "label": "baseline-checkpoint-8",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 14,
+      "label": "baseline-checkpoint-12",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 15,
+      "label": "baseline-checkpoint-16",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 16,
+      "label": "baseline-checkpoint-20",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 17,
+      "label": "baseline-checkpoint-24",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 18,
+      "label": "regression-checkpoint-8",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 19,
+      "label": "regression-8-source",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 20,
+      "label": "regression-8-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 21,
+      "label": "regression-8-representation",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 22,
+      "label": "regression-checkpoint-12",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 23,
+      "label": "regression-12-source",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 24,
+      "label": "regression-12-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 25,
+      "label": "regression-12-representation",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 26,
+      "label": "regression-12-original",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 27,
+      "label": "regression-12-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 28,
+      "label": "regression-checkpoint-16",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 29,
+      "label": "regression-16-source",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 30,
+      "label": "regression-16-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 31,
+      "label": "regression-16-representation",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 32,
+      "label": "regression-16-original",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 33,
+      "label": "regression-16-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 34,
+      "label": "regression-checkpoint-20",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 35,
+      "label": "regression-20-source",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 36,
+      "label": "regression-20-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 37,
+      "label": "regression-20-representation",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 38,
+      "label": "regression-20-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 39,
+      "label": "select-true-control",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 40,
+      "label": "true-source-before-check",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 41,
+      "label": "true-check-by-keyboard",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 42,
+      "label": "scroll-true-chart-and-check",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 43,
+      "label": "true-control-check-before-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 44,
+      "label": "true-control-check-after-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 45,
+      "label": "select-zero-control",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 46,
+      "label": "zero-source-before-check",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 47,
+      "label": "zero-check",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 48,
+      "label": "zero-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 49,
+      "label": "zero-correction-plain",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 50,
+      "label": "viewport-960x720",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 51,
+      "label": "scroll-zero-plain-debrief",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 52,
+      "label": "zero-control-plain-debrief-before-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 53,
+      "label": "zero-control-plain-debrief-after-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 54,
+      "label": "return-retained-mismatch",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 55,
+      "label": "repeat-mismatch-check",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 56,
+      "label": "mismatch-original-retained",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 57,
+      "label": "mismatch-original-visual",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 58,
+      "label": "scroll-original-chart",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 59,
+      "label": "misleading-original-retained-before-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 60,
+      "label": "misleading-original-retained-after-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 61,
+      "label": "mismatch-correction-for-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 62,
+      "label": "scroll-corrected-chart",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 63,
+      "label": "corrected-count-comparison-before-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 64,
+      "label": "corrected-count-comparison-after-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 65,
+      "label": "mismatch-plain-for-debrief",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 66,
+      "label": "scroll-mismatch-plain-debrief",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 67,
+      "label": "plain-correction-and-debrief-before-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 68,
+      "label": "plain-correction-and-debrief-after-image",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 69,
+      "label": "inspect-final-local-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 70,
+      "label": "export-three-checks-two-corrections",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 71,
+      "label": "open-published-inspector",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 72,
+      "label": "close-published-inspector",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 73,
+      "label": "restore-after-local-0",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 74,
+      "label": "restore-after-local-4",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 75,
+      "label": "restore-after-local-8",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 76,
+      "label": "restore-after-local-12",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 77,
+      "label": "restore-after-local-16",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 78,
+      "label": "restore-after-local-20",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 79,
+      "label": "restore-after-local-24",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 80,
+      "label": "previous-checkpoint",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 81,
+      "label": "next-checkpoint",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 82,
+      "label": "reopen-comparison-0",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 83,
+      "label": "reopen-comparison-24",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 84,
+      "label": "first-document-final-export",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 85,
+      "label": "reload-comparison-0",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 86,
+      "label": "reload-comparison-24",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 87,
+      "label": "fresh-document-regression-cp20",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 88,
+      "label": "fresh-document-scripted-correction",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 89,
+      "label": "fresh-document-scripted-records",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 90,
+      "label": "fresh-document-explicit-local-start",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 91,
+      "label": "natural-tour-reopen",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 92,
+      "label": "natural-tour-play",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 93,
+      "label": "natural-sample-5s",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 94,
+      "label": "natural-sample-9s",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 95,
+      "label": "natural-sample-13s",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 96,
+      "label": "natural-sample-17s",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 97,
+      "label": "natural-sample-21s",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 98,
+      "label": "natural-sample-25s",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 99,
+      "label": "natural-tour-export",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 100,
+      "label": "replay-control-start",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 101,
+      "label": "manual-pause",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 102,
+      "label": "second-document-final-export",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 103,
+      "label": "finish-paused-zero",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 104,
+      "label": "viewport-reset",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 105,
+      "label": "scroll-to-top",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 106,
+      "label": "follow-gate12-replay",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "index": 107,
+      "label": "follow-gate12-results",
+      "semantic": true,
+      "information": true,
+      "viewport": true,
+      "scene": true,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "checkpointComparisons": [
+    {
+      "index": 11,
+      "label": "baseline-checkpoint-0",
+      "seconds": 0,
+      "match": true
+    },
+    {
+      "index": 12,
+      "label": "baseline-checkpoint-4",
+      "seconds": 4,
+      "match": true
+    },
+    {
+      "index": 13,
+      "label": "baseline-checkpoint-8",
+      "seconds": 8,
+      "match": true
+    },
+    {
+      "index": 14,
+      "label": "baseline-checkpoint-12",
+      "seconds": 12,
+      "match": true
+    },
+    {
+      "index": 15,
+      "label": "baseline-checkpoint-16",
+      "seconds": 16,
+      "match": true
+    },
+    {
+      "index": 16,
+      "label": "baseline-checkpoint-20",
+      "seconds": 20,
+      "match": true
+    },
+    {
+      "index": 17,
+      "label": "baseline-checkpoint-24",
+      "seconds": 24,
+      "match": true
+    },
+    {
+      "index": 73,
+      "label": "restore-after-local-0",
+      "seconds": 0,
+      "match": true
+    },
+    {
+      "index": 74,
+      "label": "restore-after-local-4",
+      "seconds": 4,
+      "match": true
+    },
+    {
+      "index": 75,
+      "label": "restore-after-local-8",
+      "seconds": 8,
+      "match": true
+    },
+    {
+      "index": 76,
+      "label": "restore-after-local-12",
+      "seconds": 12,
+      "match": true
+    },
+    {
+      "index": 77,
+      "label": "restore-after-local-16",
+      "seconds": 16,
+      "match": true
+    },
+    {
+      "index": 78,
+      "label": "restore-after-local-20",
+      "seconds": 20,
+      "match": true
+    },
+    {
+      "index": 79,
+      "label": "restore-after-local-24",
+      "seconds": 24,
+      "match": true
+    },
+    {
+      "index": 82,
+      "label": "reopen-comparison-0",
+      "seconds": 0,
+      "match": true
+    },
+    {
+      "index": 83,
+      "label": "reopen-comparison-24",
+      "seconds": 24,
+      "match": true
+    },
+    {
+      "index": 85,
+      "label": "reload-comparison-0",
+      "seconds": 0,
+      "match": true
+    },
+    {
+      "index": 86,
+      "label": "reload-comparison-24",
+      "seconds": 24,
+      "match": true
+    }
+  ],
+  "informationParityPairs": [
+    {
+      "observations": [
+        8,
+        9
+      ],
+      "match": true
+    },
+    {
+      "observations": [
+        48,
+        49
+      ],
+      "match": true
+    },
+    {
+      "observations": [
+        62,
+        65
+      ],
+      "match": true
+    }
+  ],
+  "exportSummary": [
+    {
+      "label": "first-document-final-export",
+      "index": 84,
+      "documentId": "20e2f866-6557-46ac-ae44-e5f99bcb6d7b",
+      "eventCount": 65,
+      "includedThroughSequence": 65,
+      "includesOwnEvent": true,
+      "checks": 3,
+      "corrections": 2,
+      "checkReuses": 1,
+      "scheduledEvents": []
+    },
+    {
+      "label": "natural-tour-export",
+      "index": 99,
+      "documentId": "e31a6f43-26aa-4c67-91b3-eb372bdeba71",
+      "eventCount": 15,
+      "includedThroughSequence": 15,
+      "includesOwnEvent": true,
+      "checks": 0,
+      "corrections": 0,
+      "checkReuses": 0,
+      "scheduledEvents": [
+        {
+          "type": "source-inspect",
+          "cursor": 4,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:42.505Z"
+        },
+        {
+          "type": "statement-check",
+          "cursor": 8,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:46.504Z"
+        },
+        {
+          "type": "correction-apply",
+          "cursor": 12,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:50.505Z"
+        },
+        {
+          "type": "representation-select",
+          "cursor": 16,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:54.506Z"
+        },
+        {
+          "type": "version-select",
+          "cursor": 20,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:58.504Z"
+        },
+        {
+          "type": "canonical-restore",
+          "cursor": 24,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:31:02.505Z"
+        },
+        {
+          "type": "tour-stop",
+          "cursor": 24,
+          "origin": "automatic",
+          "atUtc": "2026-09-20T20:31:02.505Z"
+        }
+      ]
+    },
+    {
+      "label": "second-document-final-export",
+      "index": 102,
+      "documentId": "e31a6f43-26aa-4c67-91b3-eb372bdeba71",
+      "eventCount": 19,
+      "includedThroughSequence": 19,
+      "includesOwnEvent": true,
+      "checks": 0,
+      "corrections": 0,
+      "checkReuses": 0,
+      "scheduledEvents": [
+        {
+          "type": "source-inspect",
+          "cursor": 4,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:42.505Z"
+        },
+        {
+          "type": "statement-check",
+          "cursor": 8,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:46.504Z"
+        },
+        {
+          "type": "correction-apply",
+          "cursor": 12,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:50.505Z"
+        },
+        {
+          "type": "representation-select",
+          "cursor": 16,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:54.506Z"
+        },
+        {
+          "type": "version-select",
+          "cursor": 20,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:30:58.504Z"
+        },
+        {
+          "type": "canonical-restore",
+          "cursor": 24,
+          "origin": "replay",
+          "atUtc": "2026-09-20T20:31:02.505Z"
+        },
+        {
+          "type": "tour-stop",
+          "cursor": 24,
+          "origin": "automatic",
+          "atUtc": "2026-09-20T20:31:02.505Z"
+        }
+      ]
+    }
+  ],
+  "naturalActiveCaptures": [
+    {
+      "index": 92,
+      "cursor": 0.24329999995231627,
+      "paused": false,
+      "version": "original",
+      "representation": "visual"
+    },
+    {
+      "index": 93,
+      "cursor": 4.961899999856949,
+      "paused": false,
+      "version": "original",
+      "representation": "visual"
+    },
+    {
+      "index": 94,
+      "cursor": 8.962099999904632,
+      "paused": false,
+      "version": "original",
+      "representation": "visual"
+    },
+    {
+      "index": 95,
+      "cursor": 12.9605,
+      "paused": false,
+      "version": "corrected",
+      "representation": "visual"
+    },
+    {
+      "index": 96,
+      "cursor": 16.961299999952317,
+      "paused": false,
+      "version": "corrected",
+      "representation": "plain"
+    },
+    {
+      "index": 97,
+      "cursor": 20.961799999952316,
+      "paused": false,
+      "version": "original",
+      "representation": "plain"
+    },
+    {
+      "index": 98,
+      "cursor": 24,
+      "paused": true,
+      "version": "original",
+      "representation": "visual"
+    }
+  ],
+  "naturalWallClockSeconds": 24.002,
+  "imageChecks": [
+    {
+      "label": "true-control-check",
+      "shaMatches": true,
+      "bytes": 64310,
+      "before": 43,
+      "after": 44
+    },
+    {
+      "label": "zero-control-plain-debrief",
+      "shaMatches": true,
+      "bytes": 128324,
+      "before": 52,
+      "after": 53
+    },
+    {
+      "label": "misleading-original-retained",
+      "shaMatches": true,
+      "bytes": 65377,
+      "before": 59,
+      "after": 60
+    },
+    {
+      "label": "corrected-count-comparison",
+      "shaMatches": true,
+      "bytes": 68154,
+      "before": 63,
+      "after": 64
+    },
+    {
+      "label": "plain-correction-and-debrief",
+      "shaMatches": true,
+      "bytes": 111005,
+      "before": 67,
+      "after": 68
+    }
+  ],
+  "limitations": [
+    "Candidate001 and its failed canonical-control followup are retained separately; candidate002 repairs the record binding and operation metadata.",
+    "Public authored fixture, no withheld answers, human participants, persuasion scores or OS reduced-motion test.",
+    "Vertical and capped JSON panel scrolling required; viewport override reset and final actual dimensions recorded."
+  ]
+}

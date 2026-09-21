@@ -1,0 +1,96 @@
+{
+  "gate": 8,
+  "scope": "Bounded primary-source review for finite indistinguishable candidate worlds, linear observability/rank/nullspace checks, numerical SVD reporting, and finite query selection",
+  "accessed_at_utc": "2026-09-20T07:49:27Z",
+  "accessed_at_local": "2026-09-20T01:49:27-06:00",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only source inspection; no implementation, browser run, deployment, external communication, human study, or Gate 9 work.",
+  "primary_sources": [
+    {
+      "title": "On the General Theory of Control Systems",
+      "authors": ["R. E. Kalman"],
+      "publisher": "Proceedings of the First IFAC Congress on Automatic Control",
+      "published": "1960",
+      "pages": "481-492",
+      "source_type": "Primary control-theory paper",
+      "url": "https://www.control.utoronto.ca/~broucke/ece557f/kalman.pdf",
+      "doi_url": "https://doi.org/10.1016/S1474-6670(17)70094-8",
+      "claims_used": [
+        "Linear state-space observability is an observation/recovery property of the declared system and output history.",
+        "Observability and controllability are treated through computable linear-system structure and duality.",
+        "For a stacked linear observation map, rank identifies the observed directions while its nullspace contains state differences invisible to that map."
+      ],
+      "gate8_use": "Model restricted intervention menus as observation maps; report rank/nullspace and separately enumerate finite candidate collisions; test a hidden-sign pair before and after a named revealing intervention.",
+      "limits": "The paper concerns declared linear control models; it does not validate the Looking Glass geometry, rendering, finite fixtures, or any human interpretation."
+    },
+    {
+      "title": "Calculating the Singular Values and Pseudo-Inverse of a Matrix",
+      "authors": ["G. H. Golub", "W. Kahan"],
+      "publisher": "Journal of the Society for Industrial and Applied Mathematics Series B: Numerical Analysis",
+      "published": "1965",
+      "volume": "2(2)",
+      "pages": "205-224",
+      "source_type": "Primary numerical-linear-algebra paper",
+      "url": "https://epubs.siam.org/doi/10.1137/0702016",
+      "doi": "10.1137/0702016",
+      "claims_used": [
+        "A numerically stable SVD procedure exposes singular values and orthogonal singular vectors.",
+        "The pseudoinverse provides a practical least-squares solution and handles rank-deficient matrices.",
+        "When floating arithmetic is used, small singular values require an explicit numerical treatment rather than an unqualified exact-zero test."
+      ],
+      "gate8_use": "Use SVD as an optional floating-point audit for stacked-map rank/nullspace and residual checks; the quarter-turn benchmark’s exact rational rank and candidate equality remain authoritative; retain raw values separately from rounded display values.",
+      "limits": "The algorithmic paper does not prescribe this project’s tolerance, display format, candidate family, exact-rational arithmetic, or claim boundary."
+    },
+    {
+      "title": "Improving Generalization with Active Learning",
+      "authors": ["David A. Cohn", "Les E. Atlas", "Richard E. Ladner"],
+      "publisher": "Machine Learning",
+      "published": "1994",
+      "volume": "15(2)",
+      "pages": "201-221",
+      "source_type": "Primary algorithmic active-learning paper",
+      "url": "https://storm.cis.fordham.edu/~gweiss/selected-papers/cohn94.pdf",
+      "doi_url": "https://doi.org/10.1023/A:1022673506211",
+      "claims_used": [
+        "Active learning gives the learner control over which inputs receive information.",
+        "Selective sampling queries an oracle in a region of uncertainty and updates a version-space approximation.",
+        "Queries are useful when they target unresolved disagreement rather than arbitrary examples."
+      ],
+      "gate8_use": "Freeze finite candidate worlds and intervention menu; choose a query that partitions surviving candidates; log pre/post candidate sets and label any outside-menu witness as out of scope.",
+      "limits": "The paper studies binary concept learning and neural-network selective sampling; it is an algorithmic source, not a human-participant study or a proof for this benchmark’s geometry."
+    }
+  ],
+  "derived_gate8_requirements": [
+    {
+      "requirement": "Finite candidate equivalence under a finite menu",
+      "design": "For every candidate pair and every permitted intervention, store exact forward-map outputs and pairwise differences. Two candidates are equivalent under the menu only if their outputs are exactly equal for every permitted intervention. A floating-point tolerance may flag near-collisions for diagnosis, but pairwise within-tolerance comparisons must not be used to construct equivalence classes because the relation can be nontransitive.",
+      "basis": ["Kalman 1960 observation-map/nullspace framing", "Cohn, Atlas & Ladner 1994 unresolved-disagreement queries"],
+      "status": "Application benchmark rule; not a result established by the sources."
+    },
+    {
+      "requirement": "Rank/nullspace and finite separation are separate outcomes",
+      "design": "Report exact rational stacked-map rank/nullspace and pairwise candidate separation for the benchmark. If floating diagnostics are also used, report singular values, thresholded numerical rank, nullspace basis/residual, and conditioning separately. A finite family may separate despite a rank-deficient full state map, or remain colliding despite a poorly conditioned near-full-rank map.",
+      "basis": ["Kalman 1960", "Golub & Kahan 1965"],
+      "status": "Application reporting rule; no human or arbitrary-image inference."
+    },
+    {
+      "requirement": "Numerical and display precision are explicit",
+      "design": "Freeze the exact-equality rule, any diagnostic separation tolerance, and display rounding; report raw values and displayed values. If floating diagnostics are used, also report singular values and residuals and recheck near-threshold cases over a declared sensitivity range.",
+      "basis": ["Golub & Kahan 1965 numerical SVD/pseudoinverse"],
+      "status": "Numerical audit requirement derived for this software benchmark."
+    },
+    {
+      "requirement": "Restricted-menu conclusion preserves outside-menu witness",
+      "design": "If a shifted-ball pair has exactly equal outputs across the allowed slice menu, record the pair as equivalent under that menu. Preserve near-equality as a diagnostic, and preserve any outside-menu separating intervention as a labeled witness without using it to upgrade the restricted-menu conclusion.",
+      "basis": ["Cohn, Atlas & Ladner 1994 query selection from uncertainty", "Kalman 1960 model/menu dependence"],
+      "status": "Scope boundary for the proposed Gate 8 benchmark."
+    }
+  ],
+  "limits": [
+    "No source establishes that the Looking Glass instrument is correct, understandable, useful, or efficacious.",
+    "No human participants or human outcomes are present in this source pass.",
+    "Rank and nullspace results are conditional on the declared model, observations, correspondences, and exact arithmetic or explicitly reported numerical diagnostic rule; they do not establish reconstruction from arbitrary screenshots or a physical higher dimension.",
+    "A finite query can separate the frozen candidate family without proving uniqueness outside that family or outside the permitted intervention menu.",
+    "A display-rounding collision is an information loss in the displayed channel and must not be silently reported as a raw-model equality."
+  ]
+}

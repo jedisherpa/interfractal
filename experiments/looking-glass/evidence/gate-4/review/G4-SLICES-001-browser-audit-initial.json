@@ -1,0 +1,125 @@
+{
+  "kind": "initial-candidate-actual-browser-audit",
+  "runId": "G4-SLICES-001",
+  "buildId": "g4-1a289997d9829f9c",
+  "frozenObservationIndexes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "observationCount": 12,
+  "dprMismatches": [
+    {
+      "index": 1,
+      "label": "001 initial paused load",
+      "inspectorDpr": 2,
+      "actualDpr": 1,
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "index": 2,
+      "label": "001-C0-center-0s / before capture",
+      "inspectorDpr": 2,
+      "actualDpr": 1,
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "index": 3,
+      "label": "001-C0-center-0s / after capture",
+      "inspectorDpr": 2,
+      "actualDpr": 1,
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      }
+    }
+  ],
+  "status": "FAIL: inspector DPR stale after viewport setting in initial observations",
+  "imageInspection": [
+    {
+      "label": "001-C0-center-0s",
+      "observation": "Both equal-radius solid-ball depictions visible at paused 0s; initial stale DPR belongs to this capture."
+    },
+    {
+      "label": "001-C1-point-16s",
+      "observation": "Primary slice shows one small location glyph and BOUNDARY-POINT badge; reference remains full ball."
+    },
+    {
+      "label": "001-C2-empty-20s",
+      "observation": "Primary slice shows EMPTY · NO POINTS and no slice ball/point; reference remains full ball."
+    }
+  ],
+  "originals": [
+    {
+      "label": "001-C0-center-0s",
+      "path": "screenshots/001-C0-center-0s.jpg",
+      "sha256": "27dda12d3d9064813ec47df78b55d3aad38f27050f4fec3c814e88802cff4971",
+      "bytes": 61476,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 2,
+      "afterObservation": 3,
+      "originalUnedited": true
+    },
+    {
+      "label": "001-interior-8s",
+      "path": "screenshots/001-interior-8s.jpg",
+      "sha256": "99b60da45f521a59f01ecda8d4eacec3b540b6974399954d951b1eae813226ea",
+      "bytes": 61841,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 5,
+      "afterObservation": 6,
+      "originalUnedited": true
+    },
+    {
+      "label": "001-C1-point-16s",
+      "path": "screenshots/001-C1-point-16s.jpg",
+      "sha256": "935a6312eea8973f915f6a71c28b149cab6e1aa6f3a3e0efc852c983438c30e1",
+      "bytes": 59640,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 8,
+      "afterObservation": 9,
+      "originalUnedited": true
+    },
+    {
+      "label": "001-C2-empty-20s",
+      "path": "screenshots/001-C2-empty-20s.jpg",
+      "sha256": "32d5cd5a880d23a72eadf80ae9de80d5b9637390a7a0818e04c97df11104f6dd",
+      "bytes": 60316,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 11,
+      "afterObservation": 12,
+      "originalUnedited": true
+    }
+  ],
+  "limit": "First twelve observations only; subsequent candidate 001 actions and any candidate 002 repair require separate audit."
+}

@@ -1,0 +1,69 @@
+{
+  "gate": 7,
+  "runId": "G7-INTERPRET-001",
+  "buildId": "g7-0519920fd48aa2fd",
+  "sourceSha256": "0519920fd48aa2fdb22fdc62970fdd6a429c80294730d14d0bb6f61cdccc2179",
+  "closedAtUtc": "2026-09-20T06:47:38.096135+00:00",
+  "status": "Failed candidate preserved; incomplete browser protocol",
+  "failures": [
+    "Independent static audit: server submit/skip/reveal rows mislabeled semantic browser events without required fields; duplicate with full client records.",
+    "Actual public inspector omits declared semantic/checkpoint/information fingerprints and complete state.",
+    "Actual slice screenshot shows unrounded long radius value despite six-decimal display requirement."
+  ],
+  "observations": 23,
+  "rootActions": 7,
+  "originalCaptures": 4,
+  "observedEventRows": 5,
+  "files": [
+    {
+      "path": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/COLLECTION_NOTES.json",
+      "sha256": "30099a1e1781bfcae2295f4ed0479b90d60938e6a4407fa1131cdd5f526e398b",
+      "bytes": 670
+    },
+    {
+      "path": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/action-trace.json",
+      "sha256": "8a18f233f2f9b454ddd6ab30e1e16e6ff3d1dfdab502f34ee256a3ccbf2e8951",
+      "bytes": 1461
+    },
+    {
+      "path": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/browser-observations.json",
+      "sha256": "630a403229815c6ba4f404afb87833f9bf7efc7a9e938ebce2bce3763cf5f47f",
+      "bytes": 125094
+    },
+    {
+      "path": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/capture-index.json",
+      "sha256": "6751c738849668878b28b4f19fff26ef24f200bde50000f864f55dd513bfb813",
+      "bytes": 1310
+    },
+    {
+      "path": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/console-review.json",
+      "sha256": "e10d6b7575052c82971193d4c879ed2d56cd77d2fe2d4dbda0bcb81e80fb2151",
+      "bytes": 130
+    },
+    {
+      "path": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/observed-activity.jsonl",
+      "sha256": "90e6679703d919085e7087a2e7c71783f06c35b9a422a3277c196e69e1e1252b",
+      "bytes": 3663
+    },
+    {
+      "path": "evidence/gate-7/screenshots/001-contexts-960.jpg",
+      "sha256": "cf324206abf44ee22ec5858d3db895f7a1e3a30cde8f836ab69955971238626a",
+      "bytes": 101756
+    },
+    {
+      "path": "evidence/gate-7/screenshots/001-initial.jpg",
+      "sha256": "13038d85f0d9d43fd4d5e0accdc9889c8695bd00edb01f1518063d73da1044d0",
+      "bytes": 120170
+    },
+    {
+      "path": "evidence/gate-7/screenshots/001-plain-960.jpg",
+      "sha256": "7d39de9e90655c3b679351d3d6558435582f2eb743462b3acdb93a0c33acb2b4",
+      "bytes": 103291
+    },
+    {
+      "path": "evidence/gate-7/screenshots/001-slice-sheet.jpg",
+      "sha256": "1a174b411ada5814df5e2536a50d64772eaa4a26e18e7e24cf08f3f4990d0fa7",
+      "bytes": 118401
+    }
+  ]
+}

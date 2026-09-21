@@ -1,0 +1,34 @@
+{
+  "checkedAtUtc": "2026-09-20T02:38:23.382Z",
+  "scope": "All 276 frozen Gate 0, 1 and 2 entries and pinned manifest bytes",
+  "pass": false,
+  "checks": [
+    {
+      "gate": 0,
+      "expectedFiles": 61,
+      "actualFiles": 61,
+      "manifestSha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9abb1ed8783ef82dc5",
+      "actualManifestSha256": "0dd3d5b9bd66ec07f8ee7d82db407365acc4eb2a04b1d0f9bb1ed8783ef82dc5",
+      "pass": false,
+      "mismatches": []
+    },
+    {
+      "gate": 1,
+      "expectedFiles": 95,
+      "actualFiles": 95,
+      "manifestSha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+      "actualManifestSha256": "302bc210ce9e7f45573ce4515229fd6402f491db12b8d173c9bd26f98438587d",
+      "pass": true,
+      "mismatches": []
+    },
+    {
+      "gate": 2,
+      "expectedFiles": 120,
+      "actualFiles": 120,
+      "manifestSha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+      "actualManifestSha256": "52d91bfe40813a6f041b8806a036bc78c144f2a1fbe03e73f3fc05ff03de1104",
+      "pass": true,
+      "mismatches": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "gate": 13,
+  "scope": "Primary methodological sources for a polished misleading representation, independent checking evidence, and a disclosed correction/debrief.",
+  "accessed_at_utc": "2026-09-20T19:53:09Z",
+  "accessed_at_local": "2026-09-20T13:53:09-0600",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only primary-source review; no implementation, browser study, deployment, recruitment, human-participant work, or invented susceptibility outcomes.",
+  "primary_sources": [
+    {
+      "title": "The Persuasive Power of Data Visualization",
+      "authors": ["Anshul Vikram Pandey", "Anjali Manivannan", "Oded Nov", "Margaret Satterthwaite", "Enrico Bertini"],
+      "publisher": "IEEE Transactions on Visualization and Computer Graphics, 20(12), 2211-2220",
+      "published": "2014-12",
+      "source_type": "peer-reviewed empirical journal article; publisher DOI primary attribution and author-associated full-paper copy",
+      "url": "https://doi.org/10.1109/TVCG.2014.2346419",
+      "open_copy_url": "https://static1.squarespace.com/static/5502f56fe4b0aa0a8/t/5da3d77afe2f655194b13312/1571018619600/persuasion-tvcg2014.pdf",
+      "claims_used": [
+        "Randomized crowd-sourced experiments compared charts and tables in messages designed to change attitudes.",
+        "Charts were more persuasive than tables under some initial-attitude conditions, while the result varied with topic and prior attitude.",
+        "The authors leave the causal mechanism of medium effects unresolved."
+      ],
+      "gate13_use": "Motivate a polished-view counterexample with fixed underlying facts and separate logs for the initial representation, checking evidence, and later correction.",
+      "limits": "Human attitude-change study with selected topics and treatments; it does not show that geometry persuades, that a wrong view fools users, or that the result transfers to this fixture."
+    },
+    {
+      "title": "Debunking misleading graphs effectively: How vocationally educated young adults perceive graphs",
+      "authors": ["Winnifred Wijnker", "Peter Burger", "Ionica Smeets", "Sanne Willems"],
+      "publisher": "PLOS One, 21(2), e0340100",
+      "published": "2026-02-09",
+      "source_type": "peer-reviewed open-access empirical research article; publisher full text and DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0340100",
+      "open_copy_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340100",
+      "preregistration_url": "https://aspredicted.org/8Z5_YSL",
+      "data_url": "https://osf.io/gcmf2/overview",
+      "claims_used": [
+        "The study used fictional misleading and accurate graphs, including truncated axes, distorted pictorial areas, and 3D pies.",
+        "The survey (n=130) and think-aloud interviews (n=10) evaluated clean versus full-design corrections.",
+        "The article reports reduced misleading effects after correction and no detected clean/full correction difference, with learning limited to new graphs of the same type."
+      ],
+      "gate13_use": "Require an accurate comparator or checking record, a typed mismatch explanation, and a separately logged disclosed correction/debrief while preserving the original misleading artifact.",
+      "limits": "Specific graph types, fictional data, vocationally educated young-adult sample, and disclosed preregistration-analysis deviations; no basis for a Looking Glass human or debiasing claim."
+    }
+  ],
+  "derived_gate13_requirements": [
+    {
+      "requirement": "Independent mismatch certificate",
+      "design": "Freeze source facts and the correct answer independently, then verify that the polished representation makes a different claim without changing the underlying facts.",
+      "basis": "Pandey et al. (2014); Wijnker et al. (2026)",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Equal-access checking evidence",
+      "design": "Expose source facts, derivation, mismatch description, and an accurate comparator through the same public fixture routes; do not silently alter the original view.",
+      "basis": "Wijnker et al. (2026) correction design; Gate13 scope",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Disclosed correction/debrief",
+      "design": "Record correction as a distinct state that identifies the wrong encoding or inference and points to existing evidence without adding facts or deleting the misleading artifact.",
+      "basis": "Wijnker et al. (2026)",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "No invented human effect",
+      "design": "Report only software mismatch, evidence-access, and correction-path checks; reserve persuasion, resistance, confidence, and debiasing claims for an approved human protocol.",
+      "basis": "Both primary studies and the Gate13 evidence boundary",
+      "status": "scope limit"
+    }
+  ],
+  "limits": [
+    "Both sources are human empirical studies with specific populations, topics, graph forms, and procedures; their findings do not establish effects in the public synthetic fixture.",
+    "The Gate13 software result is limited to independently verified mismatch, equal evidence access, and disclosed correction/debrief state; it makes no persuasion, resistance, confidence-calibration, or successful-debiasing claim.",
+    "Wijnker et al. disclose deviations from preregistered analysis and limit the learning result to new misleading graphs of the same type."
+  ]
+}

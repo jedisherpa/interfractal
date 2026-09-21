@@ -1,0 +1,230 @@
+{
+  "recordedAtUtc": "2026-09-20T07:08:07.113Z",
+  "temporaryViewportOverrideCleared": true,
+  "observation": {
+    "url": "http://127.0.0.1:44000/",
+    "title": "Looking Glass · Gate 7",
+    "viewport": {
+      "width": 1279,
+      "height": 864,
+      "dpr": 2
+    },
+    "documentWidth": 1279,
+    "inspector": {
+      "runId": "G7-INTERPRET-002",
+      "buildId": "g7-90e64952eb028069",
+      "fixtureId": "G7-UNFAMILIAR-01",
+      "mode": "saved-replay",
+      "simulationTimeMs": 0,
+      "cursorSeconds": 0,
+      "presentationSeconds": null,
+      "paused": true,
+      "actor": "unattributed_local",
+      "selectedPointId": "K",
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 720,
+        "devicePixelRatio": 2,
+        "scrollX": 0,
+        "scrollY": 535
+      },
+      "scene": {
+        "width": 959,
+        "height": 369,
+        "svgSizes": [
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          },
+          {
+            "width": 294,
+            "height": 212
+          }
+        ]
+      },
+      "taskId": "Q01",
+      "condition": "static",
+      "frameIndex": 0,
+      "playing": false,
+      "publicTask": {
+        "id": "Q01",
+        "family": "geometry",
+        "scene": "points",
+        "prompt": "For the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.",
+        "availableFacts": [
+          "The same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.",
+          "x′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.",
+          "Point IDs and source identities are local to this case; no source identity is asserted across different cases."
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "+0.8"
+          },
+          {
+            "id": "b",
+            "label": "−0.8"
+          },
+          {
+            "id": "c",
+            "label": "+0.4"
+          },
+          {
+            "id": "d",
+            "label": "−0.4"
+          },
+          {
+            "id": "e",
+            "label": "The available observations are insufficient."
+          }
+        ]
+      },
+      "availableFrameIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "currentFrame": {
+        "id": "F1",
+        "displayCamera": {
+          "yawDegrees": 25,
+          "pitchDegrees": 18,
+          "scale": 105
+        },
+        "parameters": {
+          "alphaDegrees": 30
+        },
+        "points": [
+          {
+            "id": "K",
+            "xyz": [
+              0.7464101615137755,
+              -0.6,
+              0.2
+            ],
+            "marker": "circle"
+          },
+          {
+            "id": "M",
+            "xyz": [
+              -0.7330127018922192,
+              0.3,
+              -0.4
+            ],
+            "marker": "square"
+          }
+        ]
+      },
+      "displayedFrames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 30
+          },
+          "points": [
+            {
+              "id": "K",
+              "xyz": [
+                0.7464101615137755,
+                -0.6,
+                0.2
+              ],
+              "marker": "circle"
+            },
+            {
+              "id": "M",
+              "xyz": [
+                -0.7330127018922192,
+                0.3,
+                -0.4
+              ],
+              "marker": "square"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 120
+          },
+          "points": [
+            {
+              "id": "K",
+              "xyz": [
+                0.4928203230275511,
+                -0.6,
+                0.2
+              ],
+              "marker": "circle"
+            },
+            {
+              "id": "M",
+              "xyz": [
+                -0.26961524227066336,
+                0.3,
+                -0.4
+              ],
+              "marker": "square"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 210
+          },
+          "points": [
+            {
+              "id": "K",
+              "xyz": [
+                -0.7464101615137756,
+                -0.6,
+                0.2
+              ],
+              "marker": "circle"
+            },
+            {
+              "id": "M",
+              "xyz": [
+                0.7330127018922193,
+                0.3,
+                -0.4
+              ],
+              "marker": "square"
+            }
+          ]
+        }
+      ],
+      "responses": [],
+      "revealedTaskIds": [],
+      "answerCount": 0,
+      "revealedCount": 0,
+      "hashes": {
+        "frameSetSha256": "0c5cc1eadd56f69ed2d60454220b573e282b6cc61de597621241ffacea639443",
+        "informationSha256": "f335b34eebb009867ef43cfb7af45af5e80e030d77992e43daa9f3d4ff0ab1c2",
+        "semanticSha256": "01fd2fcfd6a3c84ec902533f77fafc6536d851f48c2763c058b2dde0182048eb",
+        "checkpointSha256": "44d51bd0b936848e606828ac95e9b73c0e2b5b0a5cb688fa8bd172469c071f27",
+        "displaySha256": "65316055d8e0f4d0b44b6a077393629c071b7d2f9063328f4805ba84eb3b9e69"
+      }
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema": "gate8-fixture-v1",
+  "fixtureId": "G8-FINITE-WORLDS-01",
+  "benchmarkKind": "transparent finite software benchmark",
+  "humanParticipantCount": 0,
+  "publicDisclosure": "Every candidate source and property is public. The reference world is selected openly. Certificates are explanations, not participant scores.",
+  "rationalEncoding": "reduced n or n/d, positive denominator, zero encoded as 0",
+  "numericDiagnosticTolerance": "1/10000000000",
+  "roundedLabelDigits": 2,
+  "cameraYawDegrees": [
+    -45,
+    0,
+    45
+  ],
+  "cases": [
+    {
+      "id": "G8-C01",
+      "title": "A hidden sign",
+      "sourceKind": "point4",
+      "propertyDefinition": "w > 0",
+      "defaultReferenceWorldId": "C01-W01",
+      "worlds": [
+        {
+          "id": "C01-W01",
+          "source": [
+            "0",
+            "1/2",
+            "-1/4",
+            "-1"
+          ],
+          "propertyValue": false
+        },
+        {
+          "id": "C01-W02",
+          "source": [
+            "0",
+            "1/2",
+            "-1/4",
+            "1"
+          ],
+          "propertyValue": true
+        }
+      ],
+      "queries": [
+        {
+          "id": "project",
+          "kind": "project",
+          "label": "Original xyz projection"
+        },
+        {
+          "id": "xw90",
+          "kind": "xw90",
+          "label": "Observe a known x–w quarter-turn"
+        }
+      ],
+      "baselineQueryIds": [
+        "project"
+      ],
+      "additionalQueryIds": [
+        "xw90"
+      ],
+      "outsideMenuQueries": []
+    },
+    {
+      "id": "G8-C02",
+      "title": "Two hidden signs",
+      "sourceKind": "point5",
+      "propertyDefinition": "Ordered signs of (w,v)",
+      "defaultReferenceWorldId": "C02-W01",
+      "worlds": [
+        {
+          "id": "C02-W01",
+          "source": [
+            "1/2",
+            "-1/2",
+            "0",
+            "-1",
+            "-1"
+          ],
+          "propertyValue": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "C02-W02",
+          "source": [
+            "1/2",
+            "-1/2",
+            "0",
+            "-1",
+            "1"
+          ],
+          "propertyValue": [
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "C02-W03",
+          "source": [
+            "1/2",
+            "-1/2",
+            "0",
+            "1",
+            "-1"
+          ],
+          "propertyValue": [
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "C02-W04",
+          "source": [
+            "1/2",
+            "-1/2",
+            "0",
+            "1",
+            "1"
+          ],
+          "propertyValue": [
+            1,
+            1
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "id": "project",
+          "kind": "project",
+          "label": "Original xyz projection"
+        },
+        {
+          "id": "xw90",
+          "kind": "xw90",
+          "label": "Observe a known x–w quarter-turn"
+        },
+        {
+          "id": "yv90",
+          "kind": "yv90",
+          "label": "Observe a known y–v quarter-turn"
+        }
+      ],
+      "baselineQueryIds": [
+        "project"
+      ],
+      "additionalQueryIds": [
+        "xw90",
+        "yv90"
+      ],
+      "outsideMenuQueries": [],
+      "menuBoundary": "Each query acts on the original source. A joint x–w/y–v turn is not in this menu; allowing it changes the query-minimum problem."
+    },
+    {
+      "id": "G8-C03",
+      "title": "A menu that cannot separate the worlds",
+      "sourceKind": "ball4",
+      "propertyDefinition": "Hidden center c > 0",
+      "defaultReferenceWorldId": "C03-W01",
+      "worlds": [
+        {
+          "id": "C03-W01",
+          "center": [
+            "0",
+            "0",
+            "0",
+            "-1/2"
+          ],
+          "radiusSquared": "1",
+          "propertyValue": false
+        },
+        {
+          "id": "C03-W02",
+          "center": [
+            "0",
+            "0",
+            "0",
+            "1/2"
+          ],
+          "radiusSquared": "1",
+          "propertyValue": true
+        }
+      ],
+      "queries": [
+        {
+          "id": "project",
+          "kind": "project",
+          "label": "Original xyz projection"
+        },
+        {
+          "id": "slice0",
+          "kind": "slice",
+          "label": "Slice at w=0",
+          "setting": "0"
+        },
+        {
+          "id": "sliceMinus2",
+          "kind": "slice",
+          "label": "Slice at w=−2",
+          "setting": "-2"
+        },
+        {
+          "id": "slicePlus2",
+          "kind": "slice",
+          "label": "Slice at w=+2",
+          "setting": "2"
+        }
+      ],
+      "baselineQueryIds": [
+        "project",
+        "slice0"
+      ],
+      "additionalQueryIds": [
+        "sliceMinus2",
+        "slicePlus2"
+      ],
+      "outsideMenuQueries": [
+        {
+          "id": "slicePlusHalf",
+          "kind": "slice",
+          "label": "Outside-menu example: slice at w=+1/2",
+          "setting": "1/2"
+        }
+      ],
+      "menuBoundary": "No separator is available within the two allowed added slices. The outside-menu query is an explanatory counterexample to a universal impossibility claim and cannot be selected as evidence."
+    },
+    {
+      "id": "G8-C04",
+      "title": "Equal labels, unequal raw observations",
+      "sourceKind": "point4",
+      "propertyDefinition": "x > 0",
+      "defaultReferenceWorldId": "C04-W01",
+      "worlds": [
+        {
+          "id": "C04-W01",
+          "source": [
+            "-1/1000000000000",
+            "0",
+            "0",
+            "-1"
+          ],
+          "propertyValue": false
+        },
+        {
+          "id": "C04-W02",
+          "source": [
+            "1/1000000000000",
+            "0",
+            "0",
+            "1"
+          ],
+          "propertyValue": true
+        }
+      ],
+      "queries": [
+        {
+          "id": "project",
+          "kind": "project",
+          "label": "Original xyz projection"
+        },
+        {
+          "id": "xw90",
+          "kind": "xw90",
+          "label": "Observe a known x–w quarter-turn"
+        }
+      ],
+      "baselineQueryIds": [
+        "project"
+      ],
+      "additionalQueryIds": [
+        "xw90"
+      ],
+      "outsideMenuQueries": [],
+      "precisionBoundary": "Exact baseline values differ. Expanding raw fractions discloses precision of an already supplied observation; it is not a new source query. Identical rounded labels do not establish identical pixels or exact raw equality."
+    }
+  ]
+}

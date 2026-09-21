@@ -1,0 +1,13 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T06:25:48.744921+00:00",
+  "source": "actual user message in this task",
+  "user_message": "Approve **Gate 7: Unfamiliar-case interpretation and the bounded conclusion**",
+  "approved_gate": 7,
+  "approved_scope": "Frozen unfamiliar task set with separate answer key, declared static/sequence/interactive and plain/attention conditions, computational validation, participant-ready interface and final bounded synthesis. No invented human outcomes or further scope.",
+  "reviewed_run_id": "G6-LOCAL-003",
+  "reviewed_build_id": "g6-0279cdcdc0adc9b0",
+  "reviewed_commit": "39d97a4d2829e1b4bec45b0afce90c758a6e05c8",
+  "reviewed_packet_sha256": "e738da91cb6e8040d93df4bb3560a72fc7c92a31f6870750477d73d0a292cef4",
+  "reviewed_freeze_manifest_sha256": "27f4f63245fe0a0c9e11b3740337463dede62e31669468e5b371fc6b4e2e5492",
+  "further_scope_approved": false
+}

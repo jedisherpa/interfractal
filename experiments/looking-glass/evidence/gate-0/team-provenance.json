@@ -1,0 +1,32 @@
+{
+  "recorded_at_utc": "2026-09-20T00:52:54.642489+00:00",
+  "actual_delegated_roles": [
+    {
+      "role": "orchestration and synthesis",
+      "task": "astra_orchestration",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh"
+    },
+    {
+      "role": "internet gathering and primary-source inspection",
+      "task": "luna_research",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "role": "implementation",
+      "task": "sol_implementation",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "role": "independent audit",
+      "task": "sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    }
+  ],
+  "host_coordinator": "Local setup, tool routing, supported computer-use actions, evidence preservation; no claimed host-model switch.",
+  "independence": "Implementation and audit were distinct agent assignments. These were AI software checks, not human expertise or comprehension findings.",
+  "human_gate_approval": false
+}

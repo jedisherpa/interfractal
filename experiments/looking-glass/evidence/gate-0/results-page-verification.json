@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-09-20T00:54:57.843Z",
+  "images": [
+    {
+      "height": 904,
+      "loaded": true,
+      "src": "/evidence/gate-0/G0-CUBE-005-S0-initial.png",
+      "width": 998
+    },
+    {
+      "height": 904,
+      "loaded": true,
+      "src": "/evidence/gate-0/G0-CUBE-005-S2-final.png",
+      "width": 998
+    },
+    {
+      "height": 904,
+      "loaded": true,
+      "src": "/evidence/gate-0/G0-CUBE-005-S3-replay-midpoint.png",
+      "width": 998
+    },
+    {
+      "height": 904,
+      "loaded": true,
+      "src": "/evidence/gate-0/G0-CUBE-004-failed-look-around.png",
+      "width": 998
+    }
+  ],
+  "runLibraryEvidenceLinks": 5,
+  "probeLeftPausedAtMs": 0
+}

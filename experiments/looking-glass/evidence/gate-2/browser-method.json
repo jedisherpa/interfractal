@@ -1,0 +1,11 @@
+{
+  "recordedAtUtc": "2026-09-20T02:11:35.758356+00:00",
+  "browser": "Codex in-app browser",
+  "controlSurface": "mcp__cua_repl supported native tab and documented Playwright locator APIs",
+  "stateRead": "Read-only DOM inspection of displayed inspector JSON, visible text, SVG path attributes and bounding rectangles; no hidden application state or injected handlers.",
+  "actions": "Actual buttons, slider UI setters, select controls, real rendered SVG circle/path clicks, native coordinates, library navigation and browser reload.",
+  "sampling": "66 DOM observations and 22 untouched native screenshots; viewport dimensions recorded independently from cached inspector.",
+  "measurementProbeLimitation": "A read-only DOM proxy did not expose SVG getScreenCTM on queried paths. No app mutation occurred. Actual fiber hit coordinates were instead derived from observed SVG viewBox, bounding rectangle and path geometry with preserveAspectRatio scaling.",
+  "timing": "A separate >=2-second wait tested pause stability. Uninterrupted full replay was observed without intervening controls, then its natural endpoint and explicit event origin were inspected.",
+  "scope": "Bounded local investigator tests only; no human participant, network-performance audit, exhaustive accessibility test, or recorded video."
+}

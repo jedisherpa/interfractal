@@ -1,0 +1,81 @@
+{
+  "gate": 8,
+  "recordedAtUtc": "2026-09-20T07:48:35.193621+00:00",
+  "baseRevision": "cbb32394e741bcaab78a0970a0905236c706d33e",
+  "workers": [
+    {
+      "task": "/root/g8_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Specification, orchestration and synthesis",
+      "status": "Completed initial prespec and continuation sequence"
+    },
+    {
+      "task": "/root/g8_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Primary-source internet gathering",
+      "status": "Completed primary-source gathering; exact/tolerance and optional-SVD scope corrected."
+    },
+    {
+      "task": "/root/g8_sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent prespec/build/browser evidence audit",
+      "status": "Completed final independent model/build/routes/closed-core audit and presentation handoff addendum; bounded PASS with recorded qualifications"
+    },
+    {
+      "task": "/root/g8_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation separate from auditor",
+      "status": "Completed candidate001 and implementation checks; no browser actions"
+    },
+    {
+      "task": "/root/g8_astra_synthesis",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Requested event-contract clarification and later synthesis",
+      "status": "Completed event clarification, final packet, visual results and run-evidence synthesis"
+    }
+  ],
+  "hostCoordinator": "Local setup, tool routing, supported browser operation, preservation and Git; no unsupported host model switch claimed.",
+  "dispatchIssues": [
+    {
+      "action": "spawn Gate8 independent Sol auditor and followup prior Sol auditor",
+      "result": "agent thread limit reached",
+      "resolution": "Resolved by sequencing workers; separate Sol auditor and builder dispatched after Astra and Luna completed."
+    },
+    {
+      "action": "Resume g8_sol_audit / spawn replacement after Astra completion",
+      "result": "agent thread limit reached",
+      "resolution": "Host froze transparent exact conformance check; independent Sol audit resumed successfully after builder ended. Final immutable implementation audit verifies clarified event ordering."
+    }
+  ],
+  "allStageWorkersEnded": true,
+  "humanParticipants": 0,
+  "runtimeIssues": [
+    {
+      "issue": "Builder-launched server no longer listening after handoff",
+      "evidence": "failed-acquisitions/G8-AMBIGUITY-001-server-stop/INCOMPLETE_ACQUISITION.json",
+      "resolution": "Restarted exact unchanged immutablebuild under root exec session19630, repeated entire core in fresh browser session."
+    },
+    {
+      "issue": "Persistent CUA helper closures retained original arrays across reassignment",
+      "evidence": "collection-buffer-transition.json",
+      "resolution": "Preserved actual mixed records, mechanically separated resumedsession and reindexed with originalCollectionIndex; fresh helper object used thereafter."
+    },
+    {
+      "issue": "First resumed960-layout JPEG actual960x540 despite CSS960x720",
+      "evidence": "capture-dimensions.json",
+      "resolution": "Original retained; subsequent settled layout, records and inspector actual960x720. No editing or replacement."
+    }
+  ],
+  "completedAtUtc": "2026-09-20T08:36:39.220428+00:00",
+  "serverAfterHandoff": {
+    "owner": "root coordinator",
+    "execSessionId": 19630,
+    "url": "http://127.0.0.1:44001/",
+    "exactBuild": "g8-f5c5ee62889da529"
+  }
+}

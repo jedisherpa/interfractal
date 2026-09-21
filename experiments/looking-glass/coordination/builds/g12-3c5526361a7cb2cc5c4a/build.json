@@ -1,0 +1,25 @@
+{
+  "schema": "gate12-public-build-v1",
+  "runId": "G12-COORD-002",
+  "buildId": "g12-3c5526361a7cb2cc5c4a",
+  "sourceHash": "3c5526361a7cb2cc5c4afe35c23801f183dacdc2f8ae4653471b202a27a9665c",
+  "baseCommit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+  "fixtureId": "G12-FIXTURE-001",
+  "nodeVersion": "v24.17.0",
+  "publicRoutes": [
+    "/",
+    "/index.html",
+    "/app.mjs",
+    "/model.mjs",
+    "/style.css",
+    "/fixture.json",
+    "/build.json",
+    "/run/run.json",
+    "/run/initial-state.json",
+    "/run/events.jsonl",
+    "/run/checkpoints.json"
+  ],
+  "reviewRoutesRequireHashApproval": true,
+  "localSoftwareOnly": true,
+  "humanParticipants": 0
+}

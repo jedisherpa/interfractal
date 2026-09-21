@@ -1,0 +1,28 @@
+{
+  "runId": "G9-MATCHED-003",
+  "buildId": "g9-15c3bf973fe0c6cd",
+  "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+  "hostObservedAtUtc": "2026-09-20T09:40:49.922495+00:00",
+  "observations": 307,
+  "actionCalls": 135,
+  "successfulActionCalls": 134,
+  "unsuccessfulActionCalls": [
+    {
+      "index": 100,
+      "label": "regression-restored-choice choose export",
+      "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Export completed route\"s]\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Export completed route\\\"s]\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":null,\"disabled\":true,\"role\":null,\"tag\":\"button\",\"text\":\"Export completed route\",\"type\":\"button\",\"visible\":true}],\"visibleCount\":1,\"truncated\":false}"
+    }
+  ],
+  "originalCaptures": 13,
+  "designatedCheckpointObservations": 24,
+  "designatedCheckpointMatches": true,
+  "primaryRouteExports": 12,
+  "additionalRegressionExports": 4,
+  "actualEventSessions": 3,
+  "actualSemanticEvents": 151,
+  "uninterruptedTourWallSecondsFromEvents": 24.004,
+  "finalPausedStart": true,
+  "originalImageViewportMatches": true,
+  "humanParticipants": 0,
+  "independentBrowserAudit": "pending"
+}

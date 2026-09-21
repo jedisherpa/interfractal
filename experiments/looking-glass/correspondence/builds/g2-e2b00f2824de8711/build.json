@@ -1,0 +1,87 @@
+{
+  "buildId": "g2-e2b00f2824de8711",
+  "sourceSha256": "e2b00f2824de87116d42fea3059f8a737b09d5b2f051a83bde63b9154a5b75da",
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "310a924e0aa31790450cc74b9ff31ce164e2c466e73726ce14c935ac75a13863"
+    },
+    {
+      "path": "style.css",
+      "sha256": "5387efa699a22178a8839f0405f58bef053a24556b4810197dd40c953a127dcf"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "3f1931f2f340b2fee66ed6a57c9c56fe73c7b79fbbaaf8663a616e72f6a8e66d"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "a694a28196c8e7739093ef4c0d89f8a64d946cdd0f395094ba9f4e22d98729e2"
+    },
+    {
+      "path": "mapping.mjs",
+      "sha256": "89fe3febe03bac75e5ad3821bba9f60a55b68870e245edff6f50640dd5d2b344"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "b4e798d06dd2b8b03e4c49d1139a7d96fd27afbb6f4df25811ad3ddc3e804eba"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "18ead56bf3f86987bc00d0aa559ee983d966285e4bd8b1d4e1efd5d870cce0d3"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "9cd3861d04fb80379d39da85c33779542976b82b150487b1b9ffc740d90852ba"
+    },
+    {
+      "path": "fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36"
+    },
+    {
+      "path": "reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "71aa89b0ca58cf074cd4cc859dac179792d684d1a9a565130b8553cbdf4dbce9"
+    }
+  ],
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external runtime assets",
+  "nodeVersion": "v24.10.0",
+  "builtAt": "2026-09-20T01:52:36.633Z",
+  "prespecFreezeSha256": "9edccd502697e829aac92c90a09c3e42838ba26748e888181b4dd94c35977a12",
+  "prespecFrozenAtUtc": "2026-09-20T01:46:30.247897+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-2/experiment-charter.md",
+      "sha256": "84973cde2d9f27d30abb1ec25e7ab14e495a1774356d260bfe98777bb7c6b4f2",
+      "bytes": 13410
+    },
+    {
+      "path": "docs/gate-2/model-contract.md",
+      "sha256": "e9aeaecadd27ab404efb36bac8d989fed9c95daf59ed02e9260bdf1ddcbd3e07",
+      "bytes": 10841
+    },
+    {
+      "path": "docs/gate-2/record-contract.md",
+      "sha256": "f9a08dc83a55011bee057d927cd0f8e76ff60f6a39d65731230c1490d26d47eb",
+      "bytes": 10072
+    },
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    },
+    {
+      "path": "docs/gate-2/independent-predictions.json",
+      "sha256": "888d718a94ca66b6980da693bb3c5277ea28a3d4040b735ec8b6df616fd9a200",
+      "bytes": 8842
+    }
+  ]
+}

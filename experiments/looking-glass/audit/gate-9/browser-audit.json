@@ -1,0 +1,22 @@
+{
+  "schema": "gate9-browser-observation-audit-v1",
+  "status": "PASS_WITH_QUALIFICATION",
+  "observationCount": 307,
+  "exactSemanticFingerprints": 304,
+  "liveClockFingerprintMismatches": [
+    219,
+    236,
+    283
+  ],
+  "viewportsByWidth": {
+    "1279": 7,
+    "1280": 283,
+    "960": 17
+  },
+  "incompleteWatchObservations": 68,
+  "staticReadyObservations": 8,
+  "actualRouteExports": 16,
+  "primaryRecipeModeEndpoints": 12,
+  "designatedCheckpointObservations": 24,
+  "errors": []
+}

@@ -1,0 +1,27 @@
+{
+  "frozenAtUtc": "2026-09-20T21:26:17.804753+00:00",
+  "status": "Independent derivation preserved before author-key access or cross-comparison. Not final materials acceptance.",
+  "blindness": "Procedural read allowlist in shared filesystem; no claim of OS isolation.",
+  "files": [
+    {
+      "path": "preparation/materials-v1/audit/blind-key-001.json",
+      "sha256": "1afc61ce7a071079f59a8c127f0edb43a4b72486ce5059ba58e95288154a75c2",
+      "bytes": 94431
+    },
+    {
+      "path": "preparation/materials-v1/audit/blind-derivation-001.md",
+      "sha256": "edef78473cce8d2e7d0506c99037a863c23797cd36056bca00fa0698ec8bafdd",
+      "bytes": 9899
+    },
+    {
+      "path": "preparation/materials-v1/audit/blind-input-manifest-001.json",
+      "sha256": "88f3bb9cf6e8fa526014485b2bd9a36d40d999d85e5712f4dc2d74bb0be8f3ca",
+      "bytes": 1923
+    },
+    {
+      "path": "preparation/materials-v1/audit/derive-blind-key-001.mjs",
+      "sha256": "236b4841864c73f4bdab06ba775c1acb9be7c612b9ab322cf0a6d0f66b1b7b4e",
+      "bytes": 16850
+    }
+  ]
+}

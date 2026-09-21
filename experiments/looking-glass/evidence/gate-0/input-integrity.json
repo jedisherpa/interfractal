@@ -1,0 +1,347 @@
+{
+  "checked_at_utc": "2026-09-20T00:32:46.200988+00:00",
+  "file_count": 68,
+  "all_match": true,
+  "files": [
+    {
+      "path": "research-program/00_SHARED_BRIEF.md",
+      "sha256": "0c495ee9c37b002e508c52b8353ce16865fab6046997070d6355011d432e86b4",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/01_RESEARCH_CHARTER.md",
+      "sha256": "c3d8438a8ca341fd78228183011889c4444e3c42bf9ec8cc48da362ef6684cae",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/02_AGENT_PERSPECTIVES_AND_RUNBOOK.md",
+      "sha256": "f23331744a9e858cc02833be32d5d6a87a035fab3912e6982f1d846b587b63f6",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/03_INTEGRATED_RESEARCH_PROTOCOL.md",
+      "sha256": "cf3d0e30cf3f971caeb9ccb50702d6c019f3ebeb8622784688c511177de58aff",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/04_VISUALIZER_RESEARCH_SPEC.md",
+      "sha256": "97e923906afd9a1a57103305c96a74c19718ca1868ec3bf8b2f6eeadd01f4144",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/05_EXECUTION_PLAN_AND_GATES.md",
+      "sha256": "439922df5a6c0a9803f6a42c8200d870b168564940048650f247e78b2b10f148",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/06_CONCEPTUAL_SYNTHESIS.md",
+      "sha256": "02affa016f790528a9e3ca6261a352bc0102902c207caca01cd4c1ddd8273ff2",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/07_SHARED_MEANING_AMENDMENT.md",
+      "sha256": "05df1425a1c93b56656607b75452c69fa775f331bdb4e5281ce860e124ea5dd8",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/LAUNCH_BRIEF.md",
+      "sha256": "279573654c23e3dbc2f5b669792b4619c376993cc1150b0cdc885d286b2c99ca",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/PACKAGE_MANIFEST.json",
+      "sha256": "48d8ae5f05fe3c8f547b9c603a4b28a56b8f03788e9e4c72c3d308167def10a5",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/PACKAGE_VALIDATION.json",
+      "sha256": "57f4ce1745a4304d4c44d2545b16063818ba8950030baf7f6abd6e47a7ed1936",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/REVISION_LOG.md",
+      "sha256": "563133e30e605df6243a0a39f6b2ca5e79e83f010e49ff002464bec81044a4b1",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/START_HERE.md",
+      "sha256": "81b12259dda4380c38508d41ad1118120e73cacdde28ba207b05cb6548f6a3af",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/CLAIMS_LEDGER.md",
+      "sha256": "8d4330e096329e10e1fc327e8051ff382e615da519ea385b2ed0fb5ad4ef7f00",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/DOCTORAL_PROPOSAL_HOPF_COLLECTIVE_BRIDGE_UNATTESTED.md",
+      "sha256": "44868ee356a1de085f44a0872c7a50b21f42b7dd6cf72bc96378efa0daea0949",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/DOCTORAL_PROPOSAL_VISUALIZER_KNOWN_STRUCTURES_UNATTESTED.md",
+      "sha256": "44868ee356a1de085f44a0872c7a50b21f42b7dd6cf72bc96378efa0daea0949",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/MANIFEST.json",
+      "sha256": "e992e4b7e815d18e505311d70312bd23a2a05edfea3586fb38c1aeb605a55ce1",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/abacus_engine.js",
+      "sha256": "67ff885149585d2b973d8d53bfcb51f6b0d67c90f6c58042e0af70f99b9797aa",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/abacus_model.js",
+      "sha256": "6faab193c83f5fd3aac47fc5116512df680d67bae34c3a4b61c57e3a5dbde5ce",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/docs/INTENTION_ABACUS.md",
+      "sha256": "eed5c5cb830e3974a173a1a02b96e14cb6717e55897051c05029014cad9fdc4e",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/hopf_model.py",
+      "sha256": "8aafad9ecb70eaf076665d7d15250a4bdd59f3a118fd0e9a30cadfc5cee6647c",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/visualizer.js",
+      "sha256": "2ba48aaa020f813fc3db998a370ee2c2c4cce114b5839a1ce2204f071ef3453e",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/visualizer_geometry.js",
+      "sha256": "f7e93aea1b194a0ee613958d7d5941b2fcedbe5e393d0995973dd6c95b4e57eb",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/visualizer_ui.js",
+      "sha256": "f204f2071b8007500d0512650cc3325d15991bcd9497e23a1bf24b179bc21581",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/hopf-workshop/weopoly_hopf.py",
+      "sha256": "84c951ec6962694ac33b79cb098d6604cda41041ee606b77dc3ae4ab577c870e",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/lensforge-app/engine/src/game/lensAssignment.ts",
+      "sha256": "44a5ebf8c67e33d272f08db157de643d34188d7a43ca4bcb0abee477e7415e36",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/lensforge-app/engine/src/game/orchestrationService.ts",
+      "sha256": "40d63807c321eb80b8c1f227748bffa4973ea507209e599622e18e343713da9f",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/lensforge-app/engine/src/game/round2Assignment.ts",
+      "sha256": "fc1435ac2ab3ed33075e5cf4f8a8f1e1d371f339930c715990c0001825250ea7",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/lensforge-app/engine/src/llm/service.ts",
+      "sha256": "0b20e1e754841f892a8ebd3b1016ed65b90cf36738958f8de996fd433debc62a",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/lensforge-app/lens-packs/hands-of-the-void.json",
+      "sha256": "e3b51198d30e8bf05bc263a791b567e84f4cfc41e5af2cb57068fa705d22701b",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/lensforge-app/tma/src/pages/ForgePage.tsx",
+      "sha256": "44565cd4b940bb58d53aa8fbeeef2686f096f4e24dff3c5f6d98be4b29144d63",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/weopoly/docs/GAME_RULES.md",
+      "sha256": "df77479473a54a638290db82d510a9590909e0cc6b0f5e237f144faa20991405",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/engineering/weopoly/lib/domain.ts",
+      "sha256": "6c65fb6884361292d96a5bed13045613fa5e58ff1267fed6417053ab6f38cb20",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/operating-context-extracted.txt",
+      "sha256": "3858befbe5fe550e4bd6b456ae611fa6011213d6119387bc51ab0b373b90f7c4",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/evidence/user-source-manifest.json",
+      "sha256": "4ef15cca8ec71cb281f9da0daf99267f490c0efeb3caa4a596181d6846b2878d",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/01_RESEARCH_CHARTER.md",
+      "sha256": "0e8e0457c7c2aa2852c160056dad25a86999a7a7657f0541b55b51da79f3fbf6",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/02_AGENT_PERSPECTIVES_AND_RUNBOOK.md",
+      "sha256": "23a990628062ebe99f9de38ac33f29531bf95ec5725f8a3fb511399b2fa0298f",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/03_INTEGRATED_RESEARCH_PROTOCOL.md",
+      "sha256": "6b1004abd783880e3d6c9526533dc1349b73c9136182ee674d62216bc070eea7",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/04_VISUALIZER_RESEARCH_SPEC.md",
+      "sha256": "2ccd3be88664d070c879d41eabe5e17d9ceff8b84b2679fb1ab28f3abe228c2e",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/05_EXECUTION_PLAN_AND_GATES.md",
+      "sha256": "bc720b46cd28fb9383698bbd54498d2d452d0af7a56d6b9974c970cd7c9c68e1",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/06_CONCEPTUAL_SYNTHESIS.md",
+      "sha256": "8ff2e67a617547676ee001bf807c45d0ba213c6c900710a73ba94233f0c6879a",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/LAUNCH_BRIEF.md",
+      "sha256": "fd1977e6696b199f8945b6fbfed7517c821ac1329e478c051a2cbcd41701d6c7",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/PACKAGE_MANIFEST.json",
+      "sha256": "1f3a92585750d694271c58aae8e442139bafbc559842dffba3d6540896fd467f",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/PACKAGE_VALIDATION.json",
+      "sha256": "dab3ec3a86c7ef9041bcbc4ac3a400b008ffc914b86ccd9aa1e432922e7736b3",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/START_HERE.md",
+      "sha256": "16a985c784aa3a3b2379424ac78cd35bc4604de34cf0b87cc53e3b784e866e4a",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/evidence/CLAIMS_LEDGER.md",
+      "sha256": "a6c7e10ec2200301f5739c9d7cdebb9b5846aa8ad63798f653efd7e60ecf6f87",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/history/v0.2/prompts/ASSIGNMENTS_AND_HANDOFFS.md",
+      "sha256": "6f5c10183982be5a6e86dcf44f4d1246f66cc90ae61368c15b6a14dd226405c2",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/prompts/ASSIGNMENTS_AND_HANDOFFS.md",
+      "sha256": "916c0014337d3a06119af40337dc14c8522aaad904ca05f33cd234a1418a77a7",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R1_COGNITION.md",
+      "sha256": "3e64d97b2d243ffa949c2776767d7df957861d96eb4e9efea72c76f10b29fbde",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R1_COORDINATION_POWER.md",
+      "sha256": "e2393849fcea0f71a992154fd096517f2d48afe28f8a6aabbe2f14e9f36879eb",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R1_FREEZE_MANIFEST.json",
+      "sha256": "ae2f114df089f3cb62efffbc67a34272bfe8a749c2eb412a4dd6ce75a29aa7da",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R1_MATHEMATICS.md",
+      "sha256": "6906e51702f3bbf0f80541326c4fb3580876520a5ab48035afee94ab2dd6c533",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R1_STUDY_DESIGN.md",
+      "sha256": "70d29d0051a3247e9f997f0a854d052410152d1ccd95c41305a1653a722b87db",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R1_VISUALIZER_ENGINEERING.md",
+      "sha256": "ae9b6b4b9718dd5f095386c3cadeeb22230c1ff365490b5ee5a2d219bbed790d",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R2_ADVERSARIAL.md",
+      "sha256": "537807dadd462247b314fb3ed40f6df14f001b30dfe3e22c7dd609945d68471e",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R2_BASELINE_SYNTHETIC_RESULT.json",
+      "sha256": "df8e256628366a141a0c93f13acfa830abc1a2cceab8a2f5182133507bf17243",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R2_METHODS_CROSSCHECK.md",
+      "sha256": "5a7602d85d627313da39d9c8d3a37c19f4c29b6934caf3e2316fe7fce5e21c88",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R2_MODEL_VISUALIZER_CROSSCHECK.md",
+      "sha256": "8761d4153ec5d57f4a95cd2abaaf68c1788e52e48ae9ee3eb5e3a86f3f9f1c65",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R2_REVIEWED_VERSION_MANIFEST.json",
+      "sha256": "3fedd8e21be35c308e0ef1f09b998d4f99af52dc1c08c605289b570427997020",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R3_ADVERSARIAL_VERIFICATION.md",
+      "sha256": "5db7eaae717737d24b9ad243e98e752b4d7ebe5174c84060e0a10028842028c4",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R3_METHODS_VERIFICATION.md",
+      "sha256": "841dd9a4669d3a5a948c6548de75517741d33b2f7edb5b4fd2406a52ad29cf2c",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/R3_MODEL_VERIFICATION.md",
+      "sha256": "ad2467d0e383a1fa4d6b19cc5a94b9273db0abea6766d9756f7034d8c40615ba",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/reviews/REVIEW_DISPOSITIONS.md",
+      "sha256": "1bd08789d2e7062ab9014c8e1c16f7a55e3cbbf9af59b66e1358b4b25b4cf677",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/studies/FIRST_SESSION_MATERIALS.md",
+      "sha256": "c95122096171aae3494e9376a150cd3a8a6f97213c59f926c7ea08170b498cb0",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/studies/capability_summary_counterexample.json",
+      "sha256": "e4694921e98ef1f873973d407c3f588a5f26d27007fa2999a87c0c9418ef16f7",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/studies/lantern_task.json",
+      "sha256": "d2e976598393ea4e0195cf4b2ddb6baa4a6f7b1a8531eab28c3d7eac2802e14b",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/studies/synthetic_check_result.json",
+      "sha256": "a28f3258c459255a6b03620e41b5f3ef987a2c9a5cea97dc9e817742cd91dae9",
+      "matches_extracted": true
+    },
+    {
+      "path": "research-program/studies/verify_fixture.py",
+      "sha256": "1592559e33a953ab7538b85d27f8b9ac575fa508ca76bed9da853d479672f3eb",
+      "matches_extracted": true
+    }
+  ]
+}

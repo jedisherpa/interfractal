@@ -1,0 +1,36 @@
+{
+  "schema": "gate10-approved-answer-free-review-v1",
+  "reviewedAtUtc": "2026-09-20T12:17:32.237630+00:00",
+  "assets": [
+    {
+      "route": "/review/replay-collection.json",
+      "path": "review/replay-collection.json",
+      "sha256": "12cc47d937c5a1740f6592f5e29017d132e035a23f62ceddd13ca678c02605ac"
+    },
+    {
+      "route": "/review/results.html",
+      "path": "review/results.html",
+      "sha256": "a5be9af03cd941a8d3c3b967ca19aec6f0f7fa8b531b2d1926daceb39225b785"
+    },
+    {
+      "route": "/review/screenshots/initial-cards.jpg",
+      "path": "review/screenshots/initial-cards.jpg",
+      "sha256": "14bb13b781bf3336c835a93bd1e629a4696580084389da278a147cc11ace3d12"
+    },
+    {
+      "route": "/review/screenshots/natural-tour-end.jpg",
+      "path": "review/screenshots/natural-tour-end.jpg",
+      "sha256": "9dffeb9e1d72447be0be4a0226545551cf7b4c2aada840f3be30987c9f8c3c9c"
+    },
+    {
+      "route": "/review/screenshots/start-ack-discarded.jpg",
+      "path": "review/screenshots/start-ack-discarded.jpg",
+      "sha256": "e1ef644790e01f3dde06d692c72d93e8f2684eccd40dba03cdf0ea8b0f2e463d"
+    },
+    {
+      "route": "/review/source-review.md",
+      "path": "review/source-review.md",
+      "sha256": "1f90a587609059d93b83988e2787bc1fddaf04103366ba383e4966ca915e55bc"
+    }
+  ]
+}

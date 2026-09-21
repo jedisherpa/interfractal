@@ -1,0 +1,46 @@
+{
+  "recordedAtUtc": "2026-09-20T20:40:56.952709+00:00",
+  "method": "Read-only exact HTTP review assets; separate browser presentation follows",
+  "checks": [
+    {
+      "route": "/review/images/corrected-count-comparison.jpg",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/images/misleading-original-retained.jpg",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/images/plain-correction-and-debrief.jpg",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/images/true-control-check.jpg",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/images/zero-control-plain-debrief.jpg",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/replay-collection.json",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/results.html",
+      "status": 200,
+      "shaMatches": true
+    },
+    {
+      "route": "/review/source-review.md",
+      "status": 200,
+      "shaMatches": true
+    }
+  ]
+}

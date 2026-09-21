@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "snapshot/1",
+  "snapshotId": "SYNTHETIC_INVALID_FALSE_AS_UNKNOWN_NOT_RESEARCH_OUTPUT",
+  "agentId": "A1",
+  "phase": "initial",
+  "identity": { "kind": "model_output", "modelId": "SYNTHETIC_FIXTURE_NO_MODEL_RUN", "modelVersion": "none", "settingsManifestSha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+  "inputManifestSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "cutoffTick": 10,
+  "suppliedCardIds": ["C01", "C02", "C03", "C04", "C05", "C06"],
+  "sourceCoverage": [
+    { "cardId": "C01", "disposition": "used", "reason": "synthetic" },
+    { "cardId": "C02", "disposition": "used", "reason": "synthetic" },
+    { "cardId": "C03", "disposition": "used", "reason": "synthetic" },
+    { "cardId": "C04", "disposition": "used", "reason": "synthetic" },
+    { "cardId": "C05", "disposition": "used", "reason": "synthetic" },
+    { "cardId": "C06", "disposition": "used", "reason": "synthetic" }
+  ],
+  "interpretations": [{
+    "id": "I-INVALID", "version": 1, "predicate": "endorses",
+    "arguments": { "actor": "BEA", "plan": "P12", "planVersion": 1 },
+    "status": false, "supportingClaimIds": [], "conflictingClaimIds": [],
+    "sourceKind": "model_inference", "speechAct": null, "alternatives": [], "confidence": null
+  }],
+  "unknowns": [], "conflicts": [], "proposedActions": [], "taskResponses": [],
+  "revision": { "parentSnapshotIds": [], "triggerSourceIds": [], "reason": "synthetic invalid fixture", "changedInterpretationIds": [], "retainedDissentIds": [] },
+  "confirmationStatus": "model_generated_not_human_attestation",
+  "displayMappingVersion": "plain-visual-shared/1"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "allOrderedChoiceCount": 9,
+  "canonicalScheduledEventCount": 12,
+  "savedCheckpointCount": 10,
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "checks": [
+    "exact records",
+    "independent prediction hashes",
+    "nine choice routes",
+    "repeat retention",
+    "state-preserving invalid choices",
+    "trace registry",
+    "manual review",
+    "canonical event chain",
+    "checkpoint restore"
+  ]
+}

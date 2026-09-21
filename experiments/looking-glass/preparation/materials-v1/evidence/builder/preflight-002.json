@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "materials-builder-preflight/1",
+  "preparationOnly": true,
+  "recordId": "002",
+  "designFreezeSha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b",
+  "sourceTaskFreezeSha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+  "results": [
+    {
+      "name": "schema-validator-unit",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/schema-validator.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.542Z",
+      "completedAtUtc": "2026-09-20T21:25:17.598Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "schema validator unit checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "design-mutations",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.598Z",
+      "completedAtUtc": "2026-09-20T21:25:17.663Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "package design mutation checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "synthetic-snapshot-contract",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/snapshot-contract.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.663Z",
+      "completedAtUtc": "2026-09-20T21:25:17.727Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "snapshot contract fixtures and mutations passed (synthetic; zero research outputs)\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "frozen-source-and-generated-shape",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs",
+        "check"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.727Z",
+      "completedAtUtc": "2026-09-20T21:25:17.798Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "source/design and in-memory package check passed: 18 cards, 4 packets, 8 initial tasks, 68 output files; both authored freezes matched\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "generator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "build-package.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.798Z",
+      "completedAtUtc": "2026-09-20T21:25:17.848Z",
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "node:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/build-package.mjs'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at node:internal/main/check_syntax:33:20 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "preview-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "preview.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.848Z",
+      "completedAtUtc": "2026-09-20T21:25:17.898Z",
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "node:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/preview.mjs'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at node:internal/main/check_syntax:33:20 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    },
+    {
+      "name": "snapshot-validator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "snapshot-contract.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:25:17.898Z",
+      "completedAtUtc": "2026-09-20T21:25:17.948Z",
+      "exitCode": 1,
+      "signal": null,
+      "stdout": "",
+      "stderr": "node:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/snapshot-contract.mjs'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at node:internal/main/check_syntax:33:20 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.17.0\n",
+      "spawnError": null
+    }
+  ],
+  "allPassed": false
+}

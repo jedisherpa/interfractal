@@ -1,0 +1,13 @@
+{
+  "recordedAtUtc": "2026-09-20T21:38:00.660129+00:00",
+  "requestedChange": "Exclude both four-agent and all human study execution from active goal completion; preparation only.",
+  "goalApiSupportsObjectiveEdit": false,
+  "supportedUiAttempt": {
+    "api": "cua.getApp",
+    "target": "Codex",
+    "result": "Blocked: Computer Use is not allowed to use com.openai.codex for safety reasons.",
+    "editorRead": false,
+    "editorChanged": false
+  },
+  "disposition": "No bypass attempted. Actual explicit user confirmation governs; effective preparation-only objective is recorded in project authority, AGENTS, status and requirements ledger. Stored app objective retains residual human-execution wording."
+}

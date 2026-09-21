@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "materials-package-manifest-v1",
+  "files": [
+    {
+      "path": "RELEASE_RULE.txt",
+      "bytes": 286,
+      "sha256": "577b7305a754d9a50633a34b6d50d36bcd508dff05424361e1d5630137f6bb99"
+    },
+    {
+      "path": "withheld-tasks.json",
+      "bytes": 26576,
+      "sha256": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03"
+    }
+  ]
+}

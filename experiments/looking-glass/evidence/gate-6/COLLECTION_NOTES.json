@@ -1,0 +1,8 @@
+{
+  "finalCandidate": "G6-LOCAL-003",
+  "observationTransport": "Read-only DOM extraction serialized as JSON text, parsed by host; full inspector state preserved. visibleText capped14000 chars to avoid duplicating full inspector text. No MaxDepth truncations in final candidate.",
+  "evidenceScope": "Actual final-candidate core; failed candidates and transition observations separate. Later presentation/handoff review excluded.",
+  "screenshots": "Eight final original JPEGs; decoded pixel sizes distinct from reported browserDPR.",
+  "historicalReview": "Actual Gate2/Gate5 links opened into new tabs; exact identity and paused state read from DOM. Tabs closed. No historical screenshot attempted or claimed.",
+  "navigation": "Final seven checkpoints repeated using fresh native accessibility indices with actual time check after each; prior candidate002 target/actual mismatches preserved."
+}

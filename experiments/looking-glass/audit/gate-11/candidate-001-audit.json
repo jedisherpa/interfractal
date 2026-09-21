@@ -1,0 +1,26 @@
+{
+  "schema": "gate11-candidate001-independent-audit-v1",
+  "verdict": "BLOCKED_ATOMIC_SNAPSHOT_RACE",
+  "runId": "G11-RECEIVER-001",
+  "buildId": "g11-4a38606632d77897a06e",
+  "sourceHash": "4a38606632d77897a06e1d261a2251e3965e048d7d13e451be738d15d5b21ddf",
+  "passingIndependentChecks": [
+    {"file": "candidate-001-bytecheck.json", "passed": 41, "total": 41},
+    {"file": "candidate-001-receiver-check.json", "passed": 105, "total": 105},
+    {"file": "candidate-001-http-check.json", "passed": 44, "total": 44}
+  ],
+  "blockingFinding": {
+    "id": "G11-001-ATOMIC-PUBLISH-RACE",
+    "source": "receiver-summary/builds/g11-4a38606632d77897a06e/app.mjs lines 35-42 and 97",
+    "reproducer": "audit/gate-11/repro-candidate-001-snapshot-race.mjs",
+    "result": "audit/gate-11/candidate-001-snapshot-race-repro.json",
+    "actual": "After selecting R_RELEASE and immediately scrolling while semantic hashes are pending, the settled published snapshot still reports R_COUNT.",
+    "cause": "Paused metadataRefresh increments the shared revision and republishes stale lastPacket; the pending semantic publish sees n !== revision and discards itself.",
+    "contractImpact": "A state-changing control can fail to publish its new semantic state, violating the frozen atomic publication requirement.",
+    "minimalCorrection": "Coordinate metadata-only refresh with pending semantic publication; never let it invalidate a newer semantic publish or commit an obsolete lastPacket as current. Apply the measurement after the new semantic render and verify control plus scroll/resize/details races."
+  },
+  "reproEvidenceType": "controlled DOM software test with delayed WebCrypto hashing; not a supported-browser observation",
+  "actualBrowserEvidenceAudited": false,
+  "humanParticipants": 0,
+  "nextAction": "Preserve immutable candidate001 and its actual host observations; builder may make a justified candidate002 correction, followed by independent recheck and actual browser acquisition."
+}

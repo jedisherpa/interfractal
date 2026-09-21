@@ -1,0 +1,347 @@
+{
+  "simulationTimeMs": 0,
+  "state": {
+    "simulationTimeMs": 0,
+    "source": {
+      "id": "ball-center",
+      "dimension": 4,
+      "radius": 1,
+      "center4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inequality": "x²+y²+z²+w² ≤ 1"
+    },
+    "slice": {
+      "levelW": 0,
+      "sourceCenterW": 0,
+      "deltaW": 0,
+      "discriminant": 1,
+      "kind": "solid",
+      "classification": "center",
+      "isEmpty": false,
+      "isPoint": false,
+      "radius": 1,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ radius²}"
+    },
+    "projection": {
+      "sourceCenter4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "radius": 1,
+      "classification": "solid-3d-ball",
+      "set": "{(x,y,z): x²+y²+z² ≤ 1}"
+    },
+    "camera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659
+    },
+    "displayOptions": {
+      "labels": true,
+      "depthCues": true,
+      "reducedMotionManualControls": true,
+      "inspectorOpen": false
+    },
+    "ambiguity": {
+      "candidateClass": "two unit 4D balls with known center w=+0.5 or w=-0.5",
+      "declaredInitialView": "orthographic xyz projection and w=0 slice",
+      "intervention": "known slice level w=+0.5",
+      "levelW": 0,
+      "candidates": [
+        {
+          "id": "ball-plus",
+          "sourceCenter4": [
+            0,
+            0,
+            0,
+            0.5
+          ],
+          "fixedProjection": {
+            "sourceCenter4": [
+              0,
+              0,
+              0,
+              0.5
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ]
+            ],
+            "center3": [
+              0,
+              0,
+              0
+            ],
+            "radius": 1,
+            "classification": "solid-3d-ball",
+            "set": "{(x,y,z): x²+y²+z² ≤ 1}"
+          },
+          "initialSlice": {
+            "levelW": 0,
+            "sourceCenterW": 0.5,
+            "deltaW": -0.5,
+            "discriminant": 0.75,
+            "kind": "solid",
+            "classification": "interior",
+            "isEmpty": false,
+            "isPoint": false,
+            "radius": 0.8660254037844386,
+            "center3": [
+              0,
+              0,
+              0
+            ],
+            "set": "{(x,y,z): x²+y²+z² ≤ radius²}"
+          },
+          "selectedSlice": {
+            "levelW": 0,
+            "sourceCenterW": 0.5,
+            "deltaW": -0.5,
+            "discriminant": 0.75,
+            "kind": "solid",
+            "classification": "interior",
+            "isEmpty": false,
+            "isPoint": false,
+            "radius": 0.8660254037844386,
+            "center3": [
+              0,
+              0,
+              0
+            ],
+            "set": "{(x,y,z): x²+y²+z² ≤ radius²}"
+          }
+        },
+        {
+          "id": "ball-minus",
+          "sourceCenter4": [
+            0,
+            0,
+            0,
+            -0.5
+          ],
+          "fixedProjection": {
+            "sourceCenter4": [
+              0,
+              0,
+              0,
+              -0.5
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ]
+            ],
+            "center3": [
+              0,
+              0,
+              0
+            ],
+            "radius": 1,
+            "classification": "solid-3d-ball",
+            "set": "{(x,y,z): x²+y²+z² ≤ 1}"
+          },
+          "initialSlice": {
+            "levelW": 0,
+            "sourceCenterW": -0.5,
+            "deltaW": 0.5,
+            "discriminant": 0.75,
+            "kind": "solid",
+            "classification": "interior",
+            "isEmpty": false,
+            "isPoint": false,
+            "radius": 0.8660254037844386,
+            "center3": [
+              0,
+              0,
+              0
+            ],
+            "set": "{(x,y,z): x²+y²+z² ≤ radius²}"
+          },
+          "selectedSlice": {
+            "levelW": 0,
+            "sourceCenterW": -0.5,
+            "deltaW": 0.5,
+            "discriminant": 0.75,
+            "kind": "solid",
+            "classification": "interior",
+            "isEmpty": false,
+            "isPoint": false,
+            "radius": 0.8660254037844386,
+            "center3": [
+              0,
+              0,
+              0
+            ],
+            "set": "{(x,y,z): x²+y²+z² ≤ radius²}"
+          }
+        }
+      ]
+    },
+    "movie": {
+      "index": 0,
+      "simulationTimeMs": 0,
+      "angleRadians": 0,
+      "rotatedCenter4": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "sourceProjection": {
+        "center3": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "sourceId": "ball-plus",
+      "sourceCenter4": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "sourceAngleRadians": 0,
+      "rotationMatrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "projectionMatrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "stored3dFrame": {
+        "timeMs": 0,
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1
+      },
+      "intervention": "saved-turn",
+      "comparison": {
+        "centerDistance": 0,
+        "radiusDifference": 0
+      }
+    },
+    "controls": {
+      "sliceLevelOverride": null,
+      "cameraYawOverride": null,
+      "ambiguityLevelOverride": null,
+      "movieAngleOverride": null
+    }
+  },
+  "sourceSha256": "dae273564d323bfb94f4433f5bfd24f0c5152c73a26ba95997be0614bc43d80b",
+  "sliceSha256": "75fb3dfb8a82554090a890dd0f6b1df35d53d17d5b073fa9f81d3f0bb220c55a",
+  "projectionSha256": "86ac4d17c5e118e10827f80c881d9b46a8595e763468f490dc1f84191b8b75c1",
+  "movieSha256": "a596d647164ea130ece6f899171f77e0d4bb2b2b860b12c99531b9da43e78ad1",
+  "geometrySha256": "7346102aad280b5f8f633b0cf79af0b613b4ad1f1d76a83e2d7f0ac878c815b5",
+  "checkpointSha256": "4394430a19ef57af760ee2c36b33d1de4aadcc4c7fdc5c83a95ea1cad5b1d467",
+  "displaySha256": "701267359dbeacfc58caaa42ee5e8c6600997a80241429c104e28e9bc2ceb1d6"
+}

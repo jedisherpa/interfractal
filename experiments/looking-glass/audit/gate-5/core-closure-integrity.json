@@ -1,0 +1,14 @@
+{
+  "kind": "closed-core-byte-integrity",
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "filesVerified": 23,
+  "observations": 131,
+  "rootActions": 93,
+  "originals": 17,
+  "observedEvents": 85,
+  "sessions": 3,
+  "consoleEntries": 0,
+  "documentedHistoricalScreenshotFailures": 2,
+  "allChecksPassed": true
+}

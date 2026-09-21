@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "allocations/1",
+  "worldId": "TILE18-v1",
+  "sharedCardIds": [
+    "C01",
+    "C02"
+  ],
+  "packet": {
+    "agentId": "A4",
+    "cardIds": [
+      "C01",
+      "C02",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "perspectiveInstructionId": "COMMON-PERSPECTIVE-1"
+  }
+}

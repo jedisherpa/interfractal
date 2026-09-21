@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "gate-3-prespec-freeze-v1",
+  "gate": 3,
+  "frozenAtUtc": "2026-09-20T02:38:53.042662+00:00",
+  "status": "Frozen before actual browser trials; no implementation or browser success asserted",
+  "authorRole": "GPT-6 Astra xhigh specification/synthesis agent",
+  "approvedScope": "Gate3: a 4D object and its moving 3D shadow; no slices,Gate4,5D,participant study or public deployment",
+  "implementationContractAgreed": "Sol builder confirmed model/timeline/camera and read the four draft contracts with no blocking mathematical mismatch; aligning required fields/events before first candidate. Root confirmed port43996 and no actual browser trial yet.",
+  "predictionConsistencyCheck": {
+    "scope": "Specification only; no implementation imports",
+    "vertexCheckpointRows": 80,
+    "unorderedSourcePairs": 120,
+    "edgeCount": 32,
+    "allDeclaredAnalyticCountsAndGramAgree": true,
+    "maximumAnalyticVsTrigCoordinateError": 2.220446049250313e-16
+  },
+  "files": [
+    {
+      "path": "docs/gate-3/experiment-charter.md",
+      "sha256": "b931fa0f10efba21e6c79d35a719b27e9ef6cd114d740a590116cd7c24fb7a7b",
+      "bytes": 13285
+    },
+    {
+      "path": "docs/gate-3/model-contract.md",
+      "sha256": "3433d0887238a6ce1a9421f1ad0d2de329479bc59e6fbac3e0587afe0b238202",
+      "bytes": 9100
+    },
+    {
+      "path": "docs/gate-3/record-contract.md",
+      "sha256": "d86d13169d2d3984e43b30699743f0ef356c37eea0f9c5e2cbd2669b3db19163",
+      "bytes": 9224
+    },
+    {
+      "path": "docs/gate-3/independent-predictions.json",
+      "sha256": "91f684c1323c0fb7f2c88f261e5a68dd53ca38245a5cad115d83372e5fa9aa3d",
+      "bytes": 31187
+    }
+  ]
+}

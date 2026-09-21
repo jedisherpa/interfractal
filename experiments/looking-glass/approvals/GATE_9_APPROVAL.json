@@ -1,0 +1,14 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T08:45:09.587134+00:00",
+  "source": "actual user message in this task",
+  "user_message": "Approve **Gate 9: Choose, watch, or inspect a static sheet**",
+  "approved_gate": 9,
+  "approved_scope": "Matched-observation instrument: chooser, yoked ordered watch and identical static observation cards; frozen exposure/order/stopping conventions, computational and actual browser validation, independent audit. No human-study execution. Stop at Gate10 review.",
+  "reviewed_run_id": "G8-AMBIGUITY-001",
+  "reviewed_build_id": "g8-f5c5ee62889da529",
+  "reviewed_commit": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "reviewed_packet_sha256": "56c3d57e6ea337a41f88e080d33ec005038927d405869b28a64c68cc9b8e1bd7",
+  "reviewed_freeze_manifest_sha256": "fb583befad1d0ff40fb4ac05d5e76444f51885f3119e76f1cef7be551806e5b5",
+  "gate_10_approved": false,
+  "human_study_execution_authorized": false
+}

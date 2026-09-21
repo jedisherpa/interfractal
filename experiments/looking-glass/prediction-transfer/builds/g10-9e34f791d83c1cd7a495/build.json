@@ -1,0 +1,32 @@
+{
+  "schema": "gate10-public-build-v1",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "fixtureId": "G10-FIXTURE-001",
+  "sourceHash": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "baseCommit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+  "nodeVersion": "v24.17.0",
+  "publicRoutes": [
+    "/",
+    "/index.html",
+    "/app.mjs",
+    "/model.mjs",
+    "/style.css",
+    "/fixture.json",
+    "/build.json",
+    "/run/run.json",
+    "/run/initial-state.json",
+    "/run/events.jsonl",
+    "/run/checkpoints.json"
+  ],
+  "apiRoutes": [
+    "/api/session",
+    "/api/start",
+    "/api/commit",
+    "/api/reveal",
+    "/api/close",
+    "/api/export"
+  ],
+  "localSoftwareOnly": true,
+  "humanParticipants": 0
+}

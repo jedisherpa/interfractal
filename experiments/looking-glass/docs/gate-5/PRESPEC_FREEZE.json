@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "gate-5-prespec-freeze-v1",
+  "gate": 5,
+  "frozenAtUtc": "2026-09-20T03:59:55.539897+00:00",
+  "status": "Frozen before any Gate5 browser trial; no implementation or browser success asserted",
+  "authorRole": "Assigned GPT-6 Astra xhigh specification/synthesis worker",
+  "approvedScope": "Gate5: two additional coordinates in5D only; no Gate6 preparation, human study, deployment, spending or external messages",
+  "baseRevision": "231780872da982cb87b54f004c287a078d26839b",
+  "candidateIdConvention": "G5-PENTERACT-001 and incrementing preserved revisions",
+  "implementationContractAgreed": "Sol builder explicitly confirmed the four contracts compatible and requested freeze. Builder is aligning implementation and will build after freeze. Root confirmed port43998 free and no browser trials started.",
+  "baseline4D": {
+    "type": "separately labeled computed4D comparator",
+    "modelPath": "hypercube/builds/g3-6c31bc16aeca4460/model.mjs",
+    "modelSha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c",
+    "savedBuildId": "g3-6c31bc16aeca4460",
+    "vertexCount": 16,
+    "edgeCount": 32,
+    "embeddedV": 0,
+    "betaIgnored": true,
+    "validationAnglesDegrees": [
+      0,
+      30,
+      45,
+      90
+    ]
+  },
+  "predictionConsistencyCheck": {
+    "scope": "Independent direct equation evaluation only; no Gate5 implementation imports/outputs",
+    "checkpointCount": 9,
+    "analyticSliceCaseCount": 19,
+    "anglePairCount": 25,
+    "sourcePairChecksPerAngle": 496,
+    "rankSequence": [
+      3,
+      4,
+      5
+    ],
+    "reconstructionPredictionCount": 33,
+    "maximumEquationError": 7.105427357601002e-15,
+    "maximumPredictedRecoveryTruthError": 1.1102230246251565e-16,
+    "maximumPredictedRecoveryForwardResidual": 1.1102230246251565e-16,
+    "rawSiteCounts4D5D": [
+      [
+        8,
+        8
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        18
+      ]
+    ],
+    "screenMarkerCollisionPairCounts4D5D": [
+      [
+        8,
+        48
+      ],
+      [
+        4,
+        32
+      ],
+      [
+        4,
+        20
+      ]
+    ],
+    "generic30Degree5DRawSites": 32,
+    "allCheckedSpecificationInvariantsAgree": true
+  },
+  "files": [
+    {
+      "path": "docs/gate-5/experiment-charter.md",
+      "sha256": "20920a82e4e670eeb85d32871728ac5151f4877146ba9c14ba6962df567eca2f",
+      "bytes": 7547
+    },
+    {
+      "path": "docs/gate-5/model-contract.md",
+      "sha256": "c37fb3e353dcd6cb3efc4974c143dd6df1ac732536660b325b71b4e9413ef6dc",
+      "bytes": 12057
+    },
+    {
+      "path": "docs/gate-5/record-contract.md",
+      "sha256": "1dea0f67d6d101e0d69b88bfe50ffc609d4389f7064c454c1513b37d8c2a84a1",
+      "bytes": 9051
+    },
+    {
+      "path": "docs/gate-5/independent-predictions.json",
+      "sha256": "fcd1fb992cb2f12ae3177d6129fffb6bb598f2d5d6dd9f57546ee86bc62490d0",
+      "bytes": 54046
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "frozen-model-nonfixture-audit",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "sliceCases": 33,
+  "frameCases": 401,
+  "maxTraceError": 0,
+  "invalidInputCases": 9,
+  "seekQuantizationCases": 4,
+  "isolatedControls": [
+    "ordinary camera",
+    "primary slice",
+    "movie angle",
+    "inspector display option"
+  ],
+  "ambiguityKnownPlane": "solid versus point",
+  "heldOutRaw3DCenterDistance": 1,
+  "pass": true,
+  "scope": "Frozen model API and trace only; no actual browser control or image result."
+}

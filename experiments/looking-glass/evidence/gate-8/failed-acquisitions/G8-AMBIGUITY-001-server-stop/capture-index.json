@@ -1,0 +1,42 @@
+[
+  {
+    "index": 0,
+    "path": "evidence/gate-8/screenshots/001-initial-paused.jpg",
+    "recordedAtUtc": "2026-09-20T08:11:55.151Z",
+    "beforeObservation": 1,
+    "afterObservation": 2,
+    "sha256": "cce46024db1c2ef662b90545723e7f759bf9b26819c8ceaeccf394ecaacbe193",
+    "bytes": 103179,
+    "original": true
+  },
+  {
+    "index": 1,
+    "path": "evidence/gate-8/screenshots/001-layout-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:12:14.188Z",
+    "beforeObservation": 5,
+    "afterObservation": 6,
+    "sha256": "2742aeb8ac6e0668033d510d020eb546e50ede97519541149ae4bb06501e9a1e",
+    "bytes": 96394,
+    "original": true
+  },
+  {
+    "index": 2,
+    "path": "evidence/gate-8/screenshots/001-observations-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:12:14.629Z",
+    "beforeObservation": 9,
+    "afterObservation": 10,
+    "sha256": "9d27898102d5458663dc8f1a3b8d1a133b708e542f7cd274c6f03e2b9b130cc0",
+    "bytes": 75064,
+    "original": true
+  },
+  {
+    "index": 3,
+    "path": "evidence/gate-8/screenshots/001-inspector-960.jpg",
+    "recordedAtUtc": "2026-09-20T08:12:28.694Z",
+    "beforeObservation": 15,
+    "afterObservation": 16,
+    "sha256": "f769e26361cecde2a01046d787ce1431618f4d2d2a5d72adaf5ab3d5c2ce245b",
+    "bytes": 52962,
+    "original": true
+  }
+]

@@ -1,0 +1,275 @@
+{
+  "schema": "gate13-independent-handoff-verification-v1",
+  "status": "BLOCKED",
+  "checkCount": 25,
+  "passCount": 22,
+  "errors": [
+    {
+      "name": "deferral and unfinished preparation explicit in packet/report/ledger"
+    },
+    {
+      "name": "core claims match raw counts and independent verdict"
+    },
+    {
+      "name": "eight exact approved allowlist copies including original images",
+      "detail": [
+        "/review/images/corrected-count-comparison.jpg",
+        "/review/images/misleading-original-retained.jpg",
+        "/review/images/plain-correction-and-debrief.jpg",
+        "/review/images/true-control-check.jpg",
+        "/review/images/zero-control-plain-debrief.jpg",
+        "/review/replay-collection.json",
+        "/review/results.html",
+        "/review/source-review.md"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "final synthesis SHA evidence/gate-13/GATE_13_PACKET.md",
+      "pass": true
+    },
+    {
+      "name": "final synthesis SHA evidence/gate-13/results.html",
+      "pass": true
+    },
+    {
+      "name": "final synthesis SHA evidence/gate-13/run-evidence.json",
+      "pass": true
+    },
+    {
+      "name": "145 exact synthesis component pins",
+      "pass": true
+    },
+    {
+      "name": "138 sealed candidate 002 core pins",
+      "pass": true
+    },
+    {
+      "name": "84 candidate 001 failure pins",
+      "pass": true
+    },
+    {
+      "name": "1745 earlier frozen entries",
+      "pass": true
+    },
+    {
+      "name": "20 superseded synthesis and presentation pins retained",
+      "pass": true
+    },
+    {
+      "name": "22 final presentation and served-asset pins",
+      "pass": true
+    },
+    {
+      "name": "actual confirmation governs preparation-only scope",
+      "pass": true
+    },
+    {
+      "name": "deferral and unfinished preparation explicit in packet/report/ledger",
+      "pass": false
+    },
+    {
+      "name": "roles, negative history, no human claim, and Gate14 boundary",
+      "pass": true
+    },
+    {
+      "name": "core claims match raw counts and independent verdict",
+      "pass": false
+    },
+    {
+      "name": "packet local links resolve",
+      "pass": true
+    },
+    {
+      "name": "report four approved image embeds, static links and next anchor",
+      "pass": true
+    },
+    {
+      "name": "eight exact approved allowlist copies including original images",
+      "pass": false
+    },
+    {
+      "name": "eight actual served GET/HEAD byte-identical assets",
+      "pass": true
+    },
+    {
+      "name": "separate host HTTP acquisition reports eight matching assets",
+      "pass": true
+    },
+    {
+      "name": "current live immutable run/build identity",
+      "pass": true
+    },
+    {
+      "name": "private/generic/traversal paths and mutation methods denied",
+      "pass": true
+    },
+    {
+      "name": "fourteen exact descriptors and approved copy",
+      "pass": true
+    },
+    {
+      "name": "fourteen current historical root/result/identity routes",
+      "pass": true
+    },
+    {
+      "name": "three bracketed final presentation originals and empty console",
+      "pass": true
+    },
+    {
+      "name": "ten actual final presentation observations at 1280x720 without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "final report shows bounded verdict, scope, and actual next-decision navigation",
+      "pass": true
+    }
+  ],
+  "pins": {
+    "synthesisComponents": 145,
+    "core": 138,
+    "failedCandidate": 84,
+    "historical": 1745,
+    "supersededPresentation": 20,
+    "finalPresentation": 22
+  },
+  "servedAssets": 8,
+  "servedFailures": [],
+  "denialFailures": [],
+  "replayChecks": [
+    {
+      "gate": 0,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 1,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 2,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 3,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 4,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 5,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 6,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 7,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 8,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 9,
+      "identityRoute": "/api/run",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 10,
+      "identityRoute": "/run/run.json",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 11,
+      "identityRoute": "/run/run.json",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 12,
+      "identityRoute": "/run/run.json",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    },
+    {
+      "gate": 13,
+      "identityRoute": "/run/run.json",
+      "indexStatus": 200,
+      "resultsStatus": 200,
+      "identityStatus": 200,
+      "runMatch": true,
+      "buildMatch": true
+    }
+  ],
+  "presentation": {
+    "observations": 10,
+    "originalImages": 3,
+    "consoleRows": 0,
+    "firstAllFourLoadedIndex": 3
+  },
+  "scope": "Preparation-only handoff; no research-agent snapshots or human collection performed; Gate14 unapproved."
+}

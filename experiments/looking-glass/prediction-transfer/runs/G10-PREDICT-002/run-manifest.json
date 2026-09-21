@@ -1,0 +1,27 @@
+{
+  "schema": "gate10-run-manifest-v1",
+  "runId": "G10-PREDICT-002",
+  "buildId": "g10-464bfe21ad6044378996",
+  "files": [
+    {
+      "path": "run.json",
+      "sha256": "7f2fd6900f5f1ebc28c527f66b8d0057aa2374f96193031fddd532766e867b84"
+    },
+    {
+      "path": "initial-state.json",
+      "sha256": "11c4ce0f0c42702d33aff6abd1dc1c0e40b1ce84ba79ec9bccbe6a5f0627ee40"
+    },
+    {
+      "path": "events.jsonl",
+      "sha256": "3ab1a69e065987a1081a8ac7ea023ab2444dc9aaf5eef294a893f6da2437460c"
+    },
+    {
+      "path": "checkpoints.json",
+      "sha256": "62af0cfa14dcfdcfaa69c5d768c54fcdd4d78b09f6a988dc13c4f4952b0a1dde"
+    },
+    {
+      "path": "computational-results.json",
+      "sha256": "7ac246857d503e4c6a7e13d6cda283583da44d570bff0fab96ce4f6021c35756"
+    }
+  ]
+}

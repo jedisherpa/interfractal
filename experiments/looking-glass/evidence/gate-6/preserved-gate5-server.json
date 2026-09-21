@@ -1,0 +1,10 @@
+{
+  "checkedAtUtc": "2026-09-20T05:28:21.991430+00:00",
+  "url": "http://127.0.0.1:43998/",
+  "status": 200,
+  "bytes": 6152,
+  "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef",
+  "snapshot": "five-dimensional/builds/g5-0bdee39bcd7dd541/index.html",
+  "exactSnapshotBytes": true,
+  "commit": "56a8e6956e455155326c6b2a7fa50ef2c89e3836"
+}

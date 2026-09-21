@@ -1,0 +1,14 @@
+[
+  {
+    "action": "keyboard Enter on C04 disclosure",
+    "completedAtUtc": "2026-09-20T22:12:57.246Z"
+  },
+  {
+    "action": "mouse click closes C04 disclosure",
+    "completedAtUtc": "2026-09-20T22:13:08.307Z"
+  },
+  {
+    "action": "reload",
+    "completedAtUtc": "2026-09-20T22:13:16.459Z"
+  }
+]

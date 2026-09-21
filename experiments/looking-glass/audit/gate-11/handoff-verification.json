@@ -1,0 +1,63 @@
+{
+  "schema": "gate11-independent-handoff-verification-v1",
+  "status": "PASS",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "synthesisPins": 36,
+  "closedCorePins": 54,
+  "priorFrozenEntries": 1437,
+  "reviewAssets": 9,
+  "replayIdentities": 12,
+  "presentationRecordReady": true,
+  "groups": {
+    "identity": {
+      "passed": 3,
+      "total": 3
+    },
+    "claims": {
+      "passed": 5,
+      "total": 5
+    },
+    "pins": {
+      "passed": 37,
+      "total": 37
+    },
+    "core": {
+      "passed": 56,
+      "total": 56
+    },
+    "prespec": {
+      "passed": 9,
+      "total": 9
+    },
+    "historical": {
+      "passed": 1438,
+      "total": 1438
+    },
+    "review": {
+      "passed": 11,
+      "total": 11
+    },
+    "served": {
+      "passed": 21,
+      "total": 21
+    },
+    "denial": {
+      "passed": 24,
+      "total": 24
+    },
+    "links": {
+      "passed": 3,
+      "total": 3
+    },
+    "replay": {
+      "passed": 25,
+      "total": 25
+    },
+    "presentation": {
+      "passed": 16,
+      "total": 16
+    }
+  },
+  "failed": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "gate9-browser-event-audit-v1",
+  "status": "PASS",
+  "sessionEventCounts": [
+    132,
+    18,
+    1
+  ],
+  "semanticEventCount": 151,
+  "continuousTourScheduledEvents": 12,
+  "continuousTourWallSeconds": 24.004,
+  "naturalTourStopUtc": "2026-09-20T09:37:48.747Z",
+  "actualRouteExportsChecked": 16,
+  "failedDisabledExportActions": 1,
+  "errors": []
+}

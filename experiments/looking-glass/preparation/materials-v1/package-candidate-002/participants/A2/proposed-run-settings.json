@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "initial-settings-proposal/1",
+  "status": "PROPOSED_NOT_RATIFIED_NOT_EXECUTED",
+  "agentId": "A2",
+  "modelId": "gpt-5.6-sol",
+  "modelVersion": null,
+  "reasoningEffort": "high",
+  "maxGeneratedTokens": 4096,
+  "minimumContextTokens": 65536,
+  "tools": [],
+  "network": false,
+  "actualSettingsMustBeFrozenAtFutureLaunch": true
+}

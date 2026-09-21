@@ -18,3 +18,7 @@ Open `http://localhost:8080/`.
 Whole gate → nested worlds → formation walk. N is who Yes’d the goal. Commit is a human button and never greys. Not-a-fit is a first-class ending. Gold is a third human act after Commit. It does not require a clean commute-gate and does not claim the vows commute.
 
 Four cubes, four eights. The eight names are octants of three hinges. The picture cannot draw the person looking.
+
+## Research laboratory
+
+The [Looking Glass laboratory and BTC-Learning design package](docs/research-laboratory/README.md) preserve the imported source, research evidence, provenance and integration planning scope. The laboratory is separate from the current public teaching app.

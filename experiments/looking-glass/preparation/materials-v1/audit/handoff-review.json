@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "materials-final-handoff-review/1",
+  "verdict": "PASS_BOUNDED_MATERIALS_HANDOFF_WITH_CANONICAL_PATH_QUALIFICATION",
+  "materialsReviewPacketSha256": "316528e2d942f1b611ceb9fb9705976e18c52012bf044cd0a50de22ccd7db608",
+  "materialsDispositionSha256": "e0629afb9e9735db89c3332853d78988b5cbe025942402f8d4838eaadae91daa",
+  "closedCoreManifestSha256": "16795483e387a34c0f32e7185723d221dcc772da333a3e3a90848e2a9b80e4d6",
+  "verification": {
+    "closedCorePins": "334/334",
+    "dispositionPins": "27/27",
+    "historicalGateEntries": "1947/1947",
+    "failedCandidateFreezePins": "001 109/109; 002 119/119",
+    "canonicalCleanReproduction": "70/70 file bytes and exact 003 manifest hash, no extra files",
+    "packetLocalLinks": "all resolved",
+    "liveScope": "AGENTS, README, requirements ledger and updated PROJECT_STATUS agree on preparation-only current work, incomplete overall goal, pending human materials approval, deferred research collection and unapproved Gate14"
+  },
+  "canonicalPathQualification": {
+    "observedFirstAttempt": "Noncanonical /var symlink invocation returned exit 0 with empty stdout/stderr and no package; preserved failing record lists all 70 files missing.",
+    "causeSupportedByCode": "build-package.mjs direct-entry guard compares resolved process.argv[1] string with Node's canonical import.meta.filename; /var and /private/var differ.",
+    "observedRecovery": "Canonical /private/var absolute build and verify commands printed explicit 70-file successes; the staging package has exactly 70 files identical to the accepted package.",
+    "disposition": "The bounded canonical-path handoff is reproducible and usable with RECOVERY.md's output/inventory/hash requirements. Exit code alone is not a success signal. Harden the guard and add symlink-path regression in subsequent tooling preparation; no unrestricted CLI compatibility claim."
+  },
+  "acceptedScope": "Authored materials, independently reconciled finite key, participant package boundaries, stated snapshot guards and short researcher-preview smoke only",
+  "notAccepted": ["Overall preparation-goal completion", "Human materials approval", "Complete transfer validator/scorer/comparator/runner", "Integrated equivalent plain/visual instrument", "Human study readiness", "Four-agent or human data collection", "Gate14"],
+  "auditHarnessTrail": {
+    "firstRawResult": "audit/handoff-verification.json",
+    "falseAssumptions": ["Assumed 24 disposition pins where the finalized disposition has 27", "Looked for hyphenated lowercase transfer-response wording while the ledger uses capitalized unhyphenated Transfer response"],
+    "correctedIntermediate": "audit/handoff-verification-corrected.json",
+    "finalResult": "audit/handoff-verification-final.json",
+    "sourceInputsChanged": false
+  },
+  "humanParticipants": 0,
+  "researchOutputs": 0,
+  "remainingGoalWork": "Transfer schema/validator, comparator and scoring integration, full provenance sufficiency, integrated instrument and acceptance, human protocol/readiness, plans/ownership and verified final preparation ZIP. Actual collection is explicitly excluded from goal completion."
+}

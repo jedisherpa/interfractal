@@ -1,0 +1,15 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T19:52:49.663984+00:00",
+  "source": "actual user message in this task",
+  "user_message": "Approve **Gate 13: A persuasive but wrong view**",
+  "approved_gate": 13,
+  "approved_scope": "Public frozen misleading-view counterexample, equal checking-evidence access, provenance-preserving correction and debrief; computational and actual browser checks, independent audit and bounded software synthesis. No human-study execution. Stop at Gate14 review.",
+  "reviewed_run_id": "G12-COORD-002",
+  "reviewed_build_id": "g12-3c5526361a7cb2cc5c4a",
+  "reviewed_commit": "29cd75bc83006b6dee4a8437224bb5f14b3871e4",
+  "reviewed_packet_sha256": "daf8c269b99f623c4fb21992d50e07d50f0002ac8fa90f0870c618111f3aea57",
+  "reviewed_freeze_manifest_sha256": "19b87a5d159ebbcdb6fe38acb92fb8951573ab87ad21e2e895118898a7037628",
+  "preserved_gate10_result": "BOUNDED_NEGATIVE_NOT_READY",
+  "gate_14_approved": false,
+  "human_study_execution_authorized": false
+}

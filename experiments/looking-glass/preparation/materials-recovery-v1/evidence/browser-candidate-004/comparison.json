@@ -1,0 +1,50 @@
+{
+  "observations": [
+    {
+      "label": "initial overview",
+      "recordCount": 18,
+      "allRecordsEqualToWorld": true,
+      "open": [],
+      "noHorizontalOverflow": true
+    },
+    {
+      "label": "after keyboard open C04",
+      "recordCount": 18,
+      "allRecordsEqualToWorld": true,
+      "open": [
+        "C04"
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "label": "after mouse close C04",
+      "recordCount": 18,
+      "allRecordsEqualToWorld": true,
+      "open": [],
+      "noHorizontalOverflow": true
+    },
+    {
+      "label": "after reload",
+      "recordCount": 18,
+      "allRecordsEqualToWorld": true,
+      "open": [],
+      "noHorizontalOverflow": true
+    }
+  ],
+  "domSerializedSourceInstances": 72,
+  "actions": 3,
+  "expectedOpenStatesMatched": true,
+  "originalImageChecks": [
+    {
+      "path": "screenshots/candidate-004-overview.jpg",
+      "hashAndSizeMatch": true
+    },
+    {
+      "path": "screenshots/candidate-004-C04-source.jpg",
+      "hashAndSizeMatch": true
+    }
+  ],
+  "consoleEntryCount": 0,
+  "pass": true,
+  "qualification": "Only C04 was visually opened. All18records perobservation were compared as DOM data; this is not18visuallyinspected source panels or evidence of human understanding."
+}

@@ -1,0 +1,93 @@
+{
+  "checkedAtUtc": "2026-09-20T03:40:03.645Z",
+  "kind": "read-only-local-route-audit",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "base": "http://127.0.0.1:43997",
+  "pass": true,
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 7598,
+      "sha256": "c146097928884ba2d712699b35978aa56fb670bcfeed4382ae8d128e72bb6bf0",
+      "expectedSha256": "c146097928884ba2d712699b35978aa56fb670bcfeed4382ae8d128e72bb6bf0",
+      "pass": true
+    },
+    {
+      "route": "/style.css",
+      "status": 200,
+      "bytes": 5629,
+      "sha256": "2c7e19e2a66082bf2cdcd34f51e71ba56b7fbd93fc53bb4e6897d26de0c5b930",
+      "expectedSha256": "2c7e19e2a66082bf2cdcd34f51e71ba56b7fbd93fc53bb4e6897d26de0c5b930",
+      "pass": true
+    },
+    {
+      "route": "/app.mjs",
+      "status": 200,
+      "bytes": 22621,
+      "sha256": "e237a1279d1b9864396cad30b757dc74928bf6a9c269e8057e7d38ee94aee0ef",
+      "expectedSha256": "e237a1279d1b9864396cad30b757dc74928bf6a9c269e8057e7d38ee94aee0ef",
+      "pass": true
+    },
+    {
+      "route": "/model.mjs",
+      "status": 200,
+      "bytes": 8468,
+      "sha256": "db10371b3a0276f4078b72fbe830a43878cfcc2102410250094579b022bb9a50",
+      "expectedSha256": "db10371b3a0276f4078b72fbe830a43878cfcc2102410250094579b022bb9a50",
+      "pass": true
+    },
+    {
+      "route": "/api/run",
+      "status": 200,
+      "bytes": 4456,
+      "sha256": "448d855783d753e6bd5462dbfca774f2c1d05afb1ecbc19e531a38d100e548f7",
+      "expectedSha256": "448d855783d753e6bd5462dbfca774f2c1d05afb1ecbc19e531a38d100e548f7",
+      "pass": true
+    },
+    {
+      "route": "/api/checkpoints",
+      "status": 200,
+      "bytes": 57627,
+      "sha256": "bea41a31539a3aae13e4350b45f52c9f12eaba1dc856604384274a606c51411f",
+      "expectedSha256": "bea41a31539a3aae13e4350b45f52c9f12eaba1dc856604384274a606c51411f",
+      "pass": true
+    },
+    {
+      "route": "/api/events",
+      "status": 200,
+      "bytes": 3848,
+      "sha256": "f25c20d01e91c929f97b72049e1ca0c7e25b1b1014a094e1246e98be82314532",
+      "expectedSha256": "f25c20d01e91c929f97b72049e1ca0c7e25b1b1014a094e1246e98be82314532",
+      "pass": true
+    },
+    {
+      "route": "/api/movie-trace",
+      "status": 200,
+      "bytes": 52775,
+      "sha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+      "expectedSha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+      "pass": true
+    },
+    {
+      "route": "/runs/G4-SLICES-002/movie-3d.json",
+      "status": 200,
+      "bytes": 52775,
+      "sha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+      "expectedSha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+      "pass": true
+    },
+    {
+      "route": "/no-such-gate4-asset",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "route": "/evidence/gate-4/%2e%2e%2fGATE_3_PACKET.md",
+      "status": 403,
+      "pass": true
+    }
+  ],
+  "scope": "HTTP byte routes only; no browser rendering, controls, screenshots or user observations."
+}

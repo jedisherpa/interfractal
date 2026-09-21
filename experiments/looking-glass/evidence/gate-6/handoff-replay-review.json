@@ -1,0 +1,16 @@
+{
+  "recordedAtUtc": "2026-09-20T06:18:10.266Z",
+  "scope": "Presentation handoff reload after closed core; live events excluded from experiment counts.",
+  "dom": {
+    "url": "http://127.0.0.1:43999/",
+    "title": "Gate 6 · Local views across scales",
+    "viewport": {
+      "width": 1279,
+      "height": 904,
+      "dpr": 2
+    },
+    "documentWidth": 1279,
+    "bodyText": "LOOKING GLASS / GATE 6 / SYNTHETIC FIXTURE\n\nLocal views across scales\n\nTwo inspectable plans, one receiving task. Links are typed claims, not geometric proof.\n\nPAUSED · SAVED RUN\nG6-LOCAL-003 · g6-0279cdcdc0adc9b0\nLARGER REFERENCE\nCapacity ≥60\nExisting access\nRECEIVING TASK\n≥60 · ≤8\n≥70 · ≤8\nSUMMARY\nCompressed\nRepair detail\nVIEW\nLocal objects\nPlain table\nCURRENT QUESTION\nReceiver@1: ≥60 households · listed venue + equipment ≤8 tokens\n\nOutward summaries answer only the selected partial reference. The receiving screen is insufficient until dependencies and cost are disclosed.\n\nInspect selected budget trace\nCompare reference alternatives\nShow relation claims\nClose placement\n\nNo local selected.\n\nLOCAL REFERENCE · R_CAPACITY_60@1\nHall local context\nsource venue-hall\n\nMeets capacity criterion; dependency detail omitted\n\nOuter R_CAPACITY_60@1: yes\nReceiver@1: insufficient summary\nSelect plan\nExpand source\n\nCollapsed outward object · 2 constituent records recoverable.\n\nLOCAL REFERENCE · R_EXISTING_ACCESS@1\nField local context\nsource venue-field\n\nMeets capacity criterion; dependency detail omitted\n\nOuter R_CAPACITY_60@1: yes\nReceiver@1: insufficient summary\nSelect plan\nExpand source\n\nCollapsed outward object · 2 constituent records recoverable.\n\nSHARED WEATHER SOURCE\nTYPED CROSS-CONTEXT LINKS\nShared source · weather\n\nSelect a typed relation to inspect its evidence. Lines and distance are arbitrary.\n\nReplay from start\nPlay\n−1s\n+1s\n0.0s / 30s\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nFour unchanged source records and both full reference tables\nExact state inspector · sources, histories, summaries, links, hashes, environment\nRun library\ng6-0279cdcdc0adc9b0 · 0279cdcdc0adc9b0\nOpen current run paused\nCanonical checkpoints\nObserved activity\nResults\nEvidence index\nHistorical Gate 2 · G2-HOPF-003\nHistorical Gate 5 · G5-PENTERACT-001\nnode local-models/builds/g6-0279cdcdc0adc9b0/server.mjs\nLOCAL DERIVATIVE INSTRUMENT · NO HUMAN STUDY · ORGANIZATIONAL SCALE IS NOT SPATIAL DIMENSION"
+  },
+  "console": []
+}

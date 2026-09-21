@@ -1,0 +1,66 @@
+{
+  "at_utc": "2026-09-20T00:45:38.376466+00:00",
+  "run_id": "G0-CUBE-005",
+  "build_id": "g0-d85237ad31362768",
+  "files": [
+    {
+      "path": "probe/builds/g0-d85237ad31362768/test.mjs",
+      "sha256": "4a8d29343573ad288eac2c6621bdb1a919720a89bf37034a078504c525c30e94"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/index.html",
+      "sha256": "d790dbede9d958494e960ae9215dfd8ef47e5b61ef674f514d1afefd4773af49"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/build.mjs",
+      "sha256": "bb59304d1c7d3b6ffbcb28b4bc26d3e551e5d2b38429bcc95dd7710cd227e9b7"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/style.css",
+      "sha256": "0574ddba6a899a990baa4c95ea0bd5680caae1db80b4640e4529103052fd1cd7"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/app.mjs",
+      "sha256": "3e71ad8bfd5ae6d384b04b4003acf78e86855bc53589703575b72696b70acdf4"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/server.mjs",
+      "sha256": "40827a867fa8bc8304b64a6deb3d07e6f4d2095de831ada850659e5fdf0b3395"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/model.mjs",
+      "sha256": "0a95a947929668a24f6f9a7cb39bf3da0704c1d54fff8c970e64f2c7bde22242"
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/build.json",
+      "sha256": "5064a2ee70dc2e9b47a38600c4cecf6599178dccd929223f12c2d2659a0f83a0"
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/run.json",
+      "sha256": "6191a6acd6fd6297b117a82a6735e1a6916bd1d7cbcd4e5608480c0029c6fd7c"
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/events.jsonl",
+      "sha256": "971fe23488d2d64621bfdccb09bdd83119c49c0522bf79020941e5512e9cb504"
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/checkpoints.json",
+      "sha256": "792b9383fb5c5a28cbcce0aab98b5c2e51c099ba76ae5c2e4f2b828971e9b330"
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/initial-state.json",
+      "sha256": "2d2e0219a313c625486c62a2cebc760de38168fd8c4b1cc9c913565fbe26da19"
+    }
+  ],
+  "stage_before": {
+    "project": "Looking Glass",
+    "current_gate": 0,
+    "status": "executing",
+    "authorized_scope": "Source inspection, isolated local setup, experiment definition, and minimal ordinary 3D cube browser/replay probe",
+    "next_gate": 1,
+    "next_gate_approved": false,
+    "approvals": [],
+    "public_deployment": false,
+    "original_shared_meaning_protocol_executed": false
+  }
+}

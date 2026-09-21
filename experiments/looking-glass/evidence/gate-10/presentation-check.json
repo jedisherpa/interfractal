@@ -1,0 +1,51 @@
+{
+  "recordedAtUtc": "2026-09-20T12:18:37.903635+00:00",
+  "scope": "Presentation-only actual supported-browser checks, separate from closed65-observation instrument core.",
+  "reportSha256": "a5be9af03cd941a8d3c3b967ca19aec6f0f7fa8b531b2d1926daceb39225b785",
+  "observations": 7,
+  "originalScreenshots": 3,
+  "screenImagesInspected": 3,
+  "reportWidths": [
+    1280,
+    960
+  ],
+  "allThreeReportImagesLoaded": true,
+  "noHorizontalOverflow": true,
+  "actualLinkCheck": "Open paused instrument navigates to G10-PREDICT-003/buildg10-9e34f791d83c1cd7a495, saved-tour, paused0, noattempt/result; Backreturnsreport.",
+  "scrollObservationLimit": "DOM captures immediately following scroll can precede rendered scrolling; original screenshots are separately observed presentation evidence, not asserted synchronous snapshot/image pairs.",
+  "viewportResetInvoked": true,
+  "reportFinalScrollY": 0,
+  "coreFilesChanged": false,
+  "files": [
+    {
+      "path": "evidence/gate-10/presentation/console.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "path": "evidence/gate-10/presentation/dom.txt",
+      "sha256": "ee74241fd387112743fd1b78927a2aee6b4541e160c37707670e909ab0b55099",
+      "bytes": 9437
+    },
+    {
+      "path": "evidence/gate-10/presentation/failure-figure.jpg",
+      "sha256": "c42340554bbad29bc5795130e1c03f34d103881b597cdc8b46ee5f2560e2d0e5",
+      "bytes": 76398
+    },
+    {
+      "path": "evidence/gate-10/presentation/observations.json",
+      "sha256": "eee404e0b33459bbed2fe893d9ae250b36f748616bc466b85fe5012ba596cfa3",
+      "bytes": 59138
+    },
+    {
+      "path": "evidence/gate-10/presentation/results-narrow.jpg",
+      "sha256": "0bc04bce44dba9cf337ce691feb13d07464c62bc9ad4ff34fd2a1a1a45164b0a",
+      "bytes": 58840
+    },
+    {
+      "path": "evidence/gate-10/presentation/results-wide.jpg",
+      "sha256": "fff348f9976038d1482761056ce882e9ac8d4f581991a60644d5294fa381099a",
+      "bytes": 100298
+    }
+  ]
+}

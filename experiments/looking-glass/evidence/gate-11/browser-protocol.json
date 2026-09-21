@@ -1,0 +1,69 @@
+{
+  "schema": "gate11-host-browser-protocol-v1",
+  "status": "planned; no browser observations claimed",
+  "recordedAtUtc": "2026-09-20T17:53:23.413144+00:00",
+  "prespecFreezeSha256": "bc6f624e0eb0a2d225e1aafdebb99ec2fd3dcce45bcd24dd8ccadf6edd85fba9",
+  "actor": "source_informed_software",
+  "humanParticipants": 0,
+  "criticalFirstUse": [
+    "Fresh paused start: W11/S0 under R_COUNT is locally yes and globally sufficient.",
+    "Select R_RELEASE: local and global insufficiency.",
+    "Inspect W10/W11 collision and full source without changing receiver payload.",
+    "Apply calibration and authorization: new actual revision, local yes, global sufficiency, separated witness.",
+    "Switch diagram and plain views with identical information hash.",
+    "Export the actual workflow, revisions and events."
+  ],
+  "baselineMeaning": "After the critical first-use workflow, reset and collect seven canonical comparison baselines. These are not pre-exposure baselines and imply no human novelty.",
+  "negativeControls": [
+    "From S0 apply calibration only: W11 insufficient; W00 locally no while globally insufficient.",
+    "From S0 apply authorization only: W11 insufficient; W00 locally no while globally insufficient.",
+    "From S0 apply no fields: retain a new unchanged-content revision.",
+    "From S0 apply paint only: payload changes; partition and insufficiency do not.",
+    "From S0 apply all three fields: sufficient but not minimal.",
+    "Reselect the successful two-field revision and retain all parent and sibling revisions.",
+    "Apply already-present fields as an unchanged-content control if exposed by normal controls.",
+    "Inspect the eight-subset certificate and the three false positives of the explicitly wrong shortcut."
+  ],
+  "parity": "Compare diagram and plain views for a successful repair and an insufficient or negative-control state at the same paused cursor. No human advantage claim.",
+  "checkpointPlan": {
+    "seconds": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "baseline": 7,
+    "afterLocalControls": 7,
+    "afterReopen": [
+      0,
+      24
+    ],
+    "afterReload": [
+      0,
+      24
+    ],
+    "designatedTotal": 18
+  },
+  "naturalTour": {
+    "seconds": 24,
+    "scheduledEvents": 7,
+    "required": "Actual Play action, multiple active fractional-clock observations, natural automatic stop at24 with end-of-sequence, then separate manual control checks."
+  },
+  "metadata": "Test1280\u00d7720 and960\u00d7720. Capture immediate post-export, inspector open/close, scroll and resize states. Read the full published payload and actual DOM dimensions together; independently rehash every snapshot.",
+  "originalImages": [
+    "Initial count summary",
+    "Changed receiver with collision witness",
+    "Minimal repair in diagram view",
+    "Same information in plain view",
+    "Partial negative control at narrow width",
+    "Natural tour end or a material failure"
+  ],
+  "historicalLinks": [
+    "http://127.0.0.1:44003/ for paused run/build identity",
+    "http://127.0.0.1:44003/review/results.html for the negative verdict"
+  ],
+  "closure": "Preserve each candidate and browser failure separately. Close the core before the final independent browser audit; presentation checks use separate files. Verify all1,437 historical entries unchanged. No Gate10 repair or Gate12 execution."
+}

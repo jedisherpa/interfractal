@@ -1,0 +1,30 @@
+{
+  "schema": "gate12-independent-prespec-review-v1",
+  "verdict": "PASS",
+  "reviewedInputs": [
+    {"path":"docs/gate-12/experiment-charter.md","sha256":"fc5aba50ac7ec1118aafe466ad1a7cd39e293605b142b752df439e5cdcb6f78d"},
+    {"path":"docs/gate-12/model-contract.md","sha256":"cf823f0d8b1027c32503b180ee95463f65f47e5d04e4e832dc8e1c425ebab034"},
+    {"path":"docs/gate-12/record-contract.md","sha256":"a298d28328e63064d04853856ea7d400aba170fb11463d125146307734e7e7b0"},
+    {"path":"docs/gate-12/fixture.json","sha256":"88c6555fc4ba75f41136f08b4e9d27de1a197c03bff7d994581b62cb402ce825"},
+    {"path":"docs/gate-12/independent-predictions.json","sha256":"313f06f97003efb7f860048e5297dcc3d2038803c2931d318d41b1a76f55d306"}
+  ],
+  "derivation": "audit/gate-12/prespec-derivation.json",
+  "script": "audit/gate-12/derive-prespec.py",
+  "checkCount": 67,
+  "passCount": 67,
+  "failureCount": 0,
+  "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+  "caseCount": 24,
+  "outcomeCounts": {"blocked-missing-proposal":18,"blocked-no-eligible-option":2,"procedure-selected":4},
+  "rankings": {"R_DETAIL":{"P3":0,"P2":1,"P1":2},"R_SPEED":{"P1":0,"P2":1,"P3":2}},
+  "bothPresentSelections": {"BASE/ALL":"P2","BASE/EXTREMES":"P1","BASE/NONE":null,"DETAIL_CONTROL/ALL":"P3","DETAIL_CONTROL/EXTREMES":"P3","DETAIL_CONTROL/NONE":null},
+  "canonicalScheduledEvents": 8,
+  "canonicalCheckpoints": 7,
+  "browserPausedComparisonsPlannedNotObserved": 18,
+  "historicalFrozenEntriesHostReportedNotRehashed": 1613,
+  "implementationImports": [],
+  "browserObservations": 0,
+  "humanParticipants": 0,
+  "blockers": [],
+  "nextStep": "Freeze these exact five authored inputs before separate implementation."
+}

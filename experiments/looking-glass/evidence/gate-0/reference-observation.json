@@ -1,0 +1,24 @@
+{
+  "observed_at_utc": "2026-09-20T00:33:07.782681+00:00",
+  "surface": "Codex In-app Browser",
+  "host": "user local macOS",
+  "reference_url": "https://interfractal-3.vercel.app/",
+  "action": "Clicked Skip intro",
+  "scene": "Dense translucent multicolor geometry rendered; center nested cube-like structure; geometry fills view. Goal/world/log controls present. No commitments made.",
+  "console_errors_observed": 0,
+  "console_warnings": [
+    "THREE.Clock deprecation"
+  ],
+  "limitations": [
+    "Deployed source revision not established",
+    "No source-to-deployment equivalence claim",
+    "No downstream model correctness or human-understanding claim"
+  ],
+  "screenshot": "reference-interfractal.png",
+  "console_log": "reference-console.json",
+  "browser_viewport_observed": {
+    "width": 677,
+    "height": 904
+  },
+  "preview_mechanism": "Local Codex desktop browser tab on the same Mac; local HTTP preview can be opened visibly and marked as deliverable. Verified when probe loads."
+}

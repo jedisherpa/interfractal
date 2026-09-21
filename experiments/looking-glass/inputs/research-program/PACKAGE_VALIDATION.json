@@ -1,0 +1,11 @@
+{
+  "version": "0.3",
+  "status": "PASS",
+  "checks": {
+    "current_question_consistent_in_four_entry_documents": true,
+    "active_document_local_links_checked": 17,
+    "broken_active_document_local_links": [],
+    "unchanged_historical_review_source_fixture_files": 38
+  },
+  "scope": "Document and package integrity only. No new agent bench, independent review, application test, or human study was performed. Prior computation results remain historical."
+}

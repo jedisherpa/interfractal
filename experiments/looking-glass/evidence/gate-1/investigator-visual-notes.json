@@ -1,0 +1,26 @@
+{
+  "recordedAtUtc": "2026-09-20T01:16:11.607410+00:00",
+  "observer": "root browser-automation; no human participant",
+  "runId": "G1-CUBE-003",
+  "buildId": "g1-9dce1c2b9c2b3be4",
+  "inspectedCaptures": [
+    "G1-CUBE-003-S0-initial.jpg",
+    "G1-CUBE-003-S1-midpoint.jpg",
+    "G1-CUBE-003-S2-camera-only.jpg",
+    "G1-CUBE-003-S3-maximum.jpg",
+    "G1-CUBE-003-S4-return.jpg"
+  ],
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "findings": [
+    "Two labeled panes and pair measurements visible together. Cube and shadow geometry remain inside their pane boundaries.",
+    "At0s the marked IDs share a shadow site; at10s they are separated; at20s marked IDs lie on opposite upper shadow sites. At40s the original overlap returns.",
+    "The camera-only120-degree image changes the left source view while the right shadow and its labels retain the10s positions. Numeric hash checks are separate from this image judgment.",
+    "Coincident sites list multiple source IDs. Lines can cross or coincide; the inspector retains all source edges. No jitter added to separate overlapping geometry.",
+    "Primary playback buttons and checkpoint controls are visible at the bottom of the720-pixel viewport. Exploration controls, Run Library and inspector require scrolling. Small vertex labels may limit readability at smaller sizes; no responsive-device study or human usability trial performed."
+  ],
+  "video": "No supported video capture was advertised; original screenshots and semantic activity records are preserved instead.",
+  "claimLimit": "These observations check rendering and controls; they do not demonstrate human understanding."
+}

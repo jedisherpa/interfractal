@@ -1,0 +1,41 @@
+{
+  "gate": 8,
+  "frozenAtUtc": "2026-09-20T08:02:50.088387+00:00",
+  "baseRevision": "cbb32394e741bcaab78a0970a0905236c706d33e",
+  "status": "Five specification files frozen before implementation; independent Sol mathematical review PASS, requested event clarification confirmed by host; final independent build audit pending",
+  "independentReview": "audit/gate-8/prespec-review.md",
+  "independentReviewSha256": "50eb6526aea2e048daf94078b98dbeabc3c29a4cdd791e711ae3203091cf85a2",
+  "clarificationReview": {
+    "path": "evidence/gate-8/prespec-clarification-review.json",
+    "sha256": "66509e4021674a2f43bffecced3540763864cf8ac6d373ae51cc7dea848620ab",
+    "bytes": 1790
+  },
+  "publicFixture": "docs/gate-8/fixture.json",
+  "files": [
+    {
+      "path": "docs/gate-8/experiment-charter.md",
+      "sha256": "621d7b1d804f9ee984b68dc26d6dfcc58de4c395a33664dc358fa88f6f0bf62c",
+      "bytes": 6886
+    },
+    {
+      "path": "docs/gate-8/model-contract.md",
+      "sha256": "84f98f27acfb9b0a463d3e27b9f3250c2efcfcf5d6b8dfd4117a0a155f8e6b3d",
+      "bytes": 10167
+    },
+    {
+      "path": "docs/gate-8/record-contract.md",
+      "sha256": "faca999c99d3da4feafdb27bf9c5bcc08f1ed6b93aa41ed6248239f6e8e36e69",
+      "bytes": 9401
+    },
+    {
+      "path": "docs/gate-8/fixture.json",
+      "sha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509",
+      "bytes": 6580
+    },
+    {
+      "path": "docs/gate-8/independent-predictions.json",
+      "sha256": "2468b3934d36e1a9618f20cdf5ca1286344ea38687f32fc6af3f128f4100a9d6",
+      "bytes": 20259
+    }
+  ]
+}

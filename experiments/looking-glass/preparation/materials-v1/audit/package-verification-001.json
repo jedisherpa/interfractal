@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "materials-package-independent-audit/1",
+  "status": "PASS",
+  "candidateManifestSha256": "76855c270508bb9460695db2c9dd77481a7f5dd9250452f7f0058a736f324a11",
+  "fileCount": 69,
+  "manifestEntryCount": 68,
+  "totalManifestBytes": 421684,
+  "designFreezeEntries": 12,
+  "sourceFreezeEntries": 5,
+  "packets": [
+    {
+      "agentId": "A1",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "files": 9,
+      "inputFiles": 7,
+      "privateClaimLeakCount": 0
+    },
+    {
+      "agentId": "A2",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "files": 9,
+      "inputFiles": 7,
+      "privateClaimLeakCount": 0
+    },
+    {
+      "agentId": "A3",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "files": 9,
+      "inputFiles": 7,
+      "privateClaimLeakCount": 0
+    },
+    {
+      "agentId": "A4",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "files": 9,
+      "inputFiles": 7,
+      "privateClaimLeakCount": 0
+    }
+  ],
+  "errors": []
+}

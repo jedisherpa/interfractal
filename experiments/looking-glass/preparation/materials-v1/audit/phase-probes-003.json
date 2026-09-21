@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "materials-postinitial-probes/1",
+  "status": "PASS",
+  "probes": [
+    {
+      "name": "union full18 D01-D10",
+      "accepted": true,
+      "expectedAccept": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "revised full18 with trusted parent and trigger",
+      "accepted": true,
+      "expectedAccept": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "revised lacking D09 D10",
+      "accepted": false,
+      "expectedAccept": false,
+      "pass": true,
+      "errors": [
+        "revised taskResponses must contain each phase-required task exactly once"
+      ]
+    },
+    {
+      "name": "interactive final full18 with four trusted parents",
+      "accepted": true,
+      "expectedAccept": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "interactive final one parent",
+      "accepted": false,
+      "expectedAccept": false,
+      "pass": true,
+      "errors": [
+        "interactive_final: parent snapshot IDs differ from immutable trusted context"
+      ]
+    }
+  ]
+}

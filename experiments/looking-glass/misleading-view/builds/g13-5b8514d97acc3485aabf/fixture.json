@@ -1,0 +1,436 @@
+{
+  "schema": "gate13-fixture-v1",
+  "fixtureId": "G13-FIXTURE-001",
+  "title": "A persuasive but wrong view",
+  "baseCommitAtSpecification": "29cd75bc83006b6dee4a8437224bb5f14b3871e4",
+  "scope": {
+    "public": true,
+    "authoredCounterexample": true,
+    "empiricallyPersuasive": false,
+    "humanParticipants": 0,
+    "caseCount": 3,
+    "claim": "Finite source/statement mismatch, equal evidence access and provenance-preserving correction"
+  },
+  "publicNotice": "Public fictional demonstration — authored statements may contain mistakes.",
+  "caseOrder": [
+    "MISMATCH",
+    "TRUE_CONTROL",
+    "ZERO_CONTROL"
+  ],
+  "cases": [
+    {
+      "id": "MISMATCH",
+      "label": "Cropped-baseline counterexample",
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "correctionDisplay": {
+        "id": "MISMATCH-CORRECTED-1",
+        "version": 1,
+        "text": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "scale": {
+          "lowerBound": 0,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            0,
+            20,
+            40,
+            60,
+            80,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ],
+        "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded."
+      },
+      "diagnosis": "cropped-length-ratio-is-not-count-ratio"
+    },
+    {
+      "id": "TRUE_CONTROL",
+      "label": "Accurate-statement control",
+      "source": {
+        "id": "TRUE_CONTROL-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "TRUE_CONTROL-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 40
+          },
+          {
+            "id": "B",
+            "completedCount": 80
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "TRUE_CONTROL-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "TRUE_CONTROL-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 0,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            0,
+            20,
+            40,
+            60,
+            80,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "correctionDisplay": null,
+      "diagnosis": "statement-and-zero-baseline-ratio-agree",
+      "checkExplanation": "The original statement is true: 80 equals twice 40. The axis starts at zero and both count and length ratios equal 2. No correction is created. Do not infer that every polished view is false."
+    },
+    {
+      "id": "ZERO_CONTROL",
+      "label": "Zero-reference-count control",
+      "source": {
+        "id": "ZERO_CONTROL-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "ZERO_CONTROL-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 0
+          },
+          {
+            "id": "B",
+            "completedCount": 10
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "ZERO_CONTROL-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "ZERO_CONTROL-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 0,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            0,
+            20,
+            40,
+            60,
+            80,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "correctionDisplay": {
+        "id": "ZERO_CONTROL-CORRECTED-1",
+        "version": 1,
+        "text": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+        "scale": {
+          "lowerBound": 0,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            0,
+            20,
+            40,
+            60,
+            80,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ],
+        "debrief": "The original headline is false: 10 is not twice 0. B/A and the bar-length ratio have a zero denominator; neither is a finite multiplicative factor. The counts and their difference remain exactly known. Correct the statement without inventing a percentage, infinity value or positive A bar."
+      },
+      "diagnosis": "zero-reference-count-ratio-undefined"
+    }
+  ],
+  "predicate": {
+    "id": "TWICE_COUNT",
+    "version": 1,
+    "definition": "B.completedCount == 2 * A.completedCount",
+    "unit": "tiles",
+    "ratioNotNeededToDecideEquality": true
+  },
+  "arithmetic": {
+    "integers": "safe integers; selected corpus is 0..100",
+    "difference": "B-A",
+    "countRatio": "reduce(B,A), undefined if A=0",
+    "lengthOffsets": "[A-lowerBound,B-lowerBound]",
+    "lengthRatio": "reduce(B-lowerBound,A-lowerBound), undefined if A-lowerBound=0",
+    "svgWidths": "240*(count-lowerBound)/(100-lowerBound)",
+    "ratioDefinedShape": {
+      "status": "defined",
+      "numerator": "integer",
+      "denominator": "positive integer"
+    },
+    "ratioUndefinedShape": {
+      "status": "undefined",
+      "reason": "zero-denominator"
+    }
+  },
+  "hashPolicy": {
+    "sourcePayload": "the selected case.source object",
+    "originalDisplayPayload": "the selected case.originalDisplay object",
+    "correctionDisplayPayload": "the selected non-null case.correctionDisplay object",
+    "canonicalJson": "UTF-8 JSON, recursively sorted object keys, fixed array order, no whitespace, finite values",
+    "algorithm": "SHA-256",
+    "recordEnvelopeExcluded": [
+      "recordId",
+      "documentId",
+      "atUtc",
+      "eventSequence",
+      "eventId"
+    ]
+  },
+  "representations": [
+    "visual",
+    "plain"
+  ],
+  "visualEncoding": {
+    "viewBox": [
+      0,
+      0,
+      320,
+      160
+    ],
+    "plotX": 60,
+    "plotWidth": 240,
+    "barOrder": [
+      "A",
+      "B"
+    ],
+    "widthsInViewBoxUnits": true,
+    "zeroMarker": "labeled zero line; no positive-width replacement bar",
+    "sameNumericKeyInBoth": true,
+    "mustShow": [
+      "source counts",
+      "authored statement",
+      "lower and upper bounds",
+      "bar offsets",
+      "bar widths",
+      "warning",
+      "source and correction controls"
+    ]
+  },
+  "controls": [
+    "Start local review",
+    "Case",
+    "Representation",
+    "Inspect source evidence",
+    "Check original statement",
+    "Apply correction and debrief",
+    "Show original",
+    "Show correction and debrief",
+    "Inspect records",
+    "Export review record",
+    "Play",
+    "Pause",
+    "Previous checkpoint",
+    "Next checkpoint",
+    "Checkpoint",
+    "Replay from start",
+    "Reopen saved start"
+  ],
+  "localRecordRules": {
+    "reviewMapKey": "caseId",
+    "maxChecksPerCaseBinding": 1,
+    "repeatCheck": "reuse existing immutable record and log reused",
+    "correctionRequires": "matching false check of the original statement; valid source/display binding",
+    "maxCorrectionsPerFalseCase": 1,
+    "trueCaseCorrection": null,
+    "originalAfterCorrectionMarker": "Correction available; original retained for inspection",
+    "localProvenance": "host_controlled_software",
+    "canonicalProvenance": "scripted_demonstration",
+    "reopenPreservesLocalHistory": true,
+    "reloadPreservesLocalHistory": false,
+    "reloadChangesDocumentUuid": true,
+    "exportIncludesOwnEvent": true
+  },
+  "initialState": {
+    "mode": "saved-tour",
+    "caseId": "MISMATCH",
+    "version": "original",
+    "representation": "visual",
+    "cursorSeconds": 0,
+    "paused": true,
+    "sourceOpen": false,
+    "recordsOpen": false,
+    "activeCheck": false,
+    "activeCorrection": false
+  },
+  "canonicalRecords": {
+    "caseId": "MISMATCH",
+    "checkRecordId": "C-K-MISMATCH",
+    "correctionRecordId": "C-C-MISMATCH",
+    "provenance": "scripted_demonstration",
+    "publicPrecomputationAllowed": true,
+    "performedStateDeterminedBy": "active semantic/display mask and actual events, not raw registry presence"
+  },
+  "savedTour": {
+    "durationSeconds": 24,
+    "checkpointSeconds": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "events": [
+      {
+        "atSeconds": 4,
+        "type": "source-inspect",
+        "payload": {
+          "open": true
+        },
+        "origin": "replay"
+      },
+      {
+        "atSeconds": 8,
+        "type": "statement-check",
+        "payload": {
+          "caseId": "MISMATCH",
+          "recordId": "C-K-MISMATCH"
+        },
+        "origin": "replay"
+      },
+      {
+        "atSeconds": 12,
+        "type": "correction-apply",
+        "payload": {
+          "caseId": "MISMATCH",
+          "recordId": "C-C-MISMATCH",
+          "checkRecordId": "C-K-MISMATCH"
+        },
+        "origin": "replay"
+      },
+      {
+        "atSeconds": 16,
+        "type": "representation-select",
+        "payload": {
+          "representation": "plain"
+        },
+        "origin": "replay"
+      },
+      {
+        "atSeconds": 20,
+        "type": "version-select",
+        "payload": {
+          "version": "original"
+        },
+        "origin": "replay"
+      },
+      {
+        "atSeconds": 24,
+        "type": "canonical-restore",
+        "payload": {
+          "display": "initial",
+          "retainCursorSeconds": 24
+        },
+        "origin": "replay"
+      },
+      {
+        "atSeconds": 24,
+        "type": "tour-stop",
+        "payload": {
+          "reason": "end-of-sequence"
+        },
+        "origin": "automatic"
+      }
+    ],
+    "eventCount": 7,
+    "naturalStopReason": "end-of-sequence"
+  },
+  "runtime": {
+    "module": "misleading-view",
+    "port": 44006,
+    "host": "127.0.0.1",
+    "runPattern": "G13-MISLEAD-00N",
+    "candidateNumbers": [
+      1,
+      2,
+      3
+    ],
+    "buildPrefix": "g13-",
+    "explicitAbsoluteRunRequired": true,
+    "mutationApi": false,
+    "dependencyInstallRequired": false
+  }
+}

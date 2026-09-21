@@ -1,0 +1,57 @@
+{
+  "savedAtUtc": "2026-09-20T02:55:11.726662+00:00",
+  "candidate": "G3-TESSERACT-002",
+  "note": "Actual full browser trial prior to final label-only candidate003. Screenshot paths in copied records remain relative to evidence/gate-3, and original image files remain in sharedscreenshots directory.",
+  "files": [
+    {
+      "file": "browser-observations.json",
+      "sha256": "240e2ee2420401bac4b2c16a2074d21c0888a8a2b008fa0c5c95737664a65391",
+      "bytes": 5548471
+    },
+    {
+      "file": "browser-tool-trace.json",
+      "sha256": "70a1379341255d4af3e42290d53d7b41534f0478b6407eb45d205375e3726f4e",
+      "bytes": 6900
+    },
+    {
+      "file": "capture-index.json",
+      "sha256": "0b9fba43cb2d19a5dc7a441c92e80b7734b10dd24d55af41747497419dc48cad",
+      "bytes": 20984
+    },
+    {
+      "file": "activity-snapshot.jsonl",
+      "sha256": "ee145f72ffec0a608dfaf0a89c7de0406ae8f24e0ca2fe80f4ad0cb907227b29",
+      "bytes": 106755
+    },
+    {
+      "file": "HOST_OBSERVATIONS.md",
+      "sha256": "d66f1408c16c441814977d1d9fb3a98e031b155b4caa8e6114b28f7c80d5f696",
+      "bytes": 5579
+    },
+    {
+      "file": "browser-console.json",
+      "sha256": "cffee0b4fa9acea140da1a241036fbe3abaede4046ea70d76dc1c5bed7befca5",
+      "bytes": 102
+    },
+    {
+      "file": "layout-dom-check.json",
+      "sha256": "2d8f1203360ae49c9e6e66e9439cf7d7131d896cc0f2712d293f33c9e883fa03",
+      "bytes": 4422
+    },
+    {
+      "file": "historical-gate2-review.json",
+      "sha256": "c263deed5139506d50843bf991daca9ba9d25f42914d09f4d30ecc7d22488aca",
+      "bytes": 75338
+    },
+    {
+      "file": "browser-tool-anomalies.json",
+      "sha256": "a2024bfc89f80d6cc96f1ac61e5c33e0d83722c3dfa00018d76c78685d6eda63",
+      "bytes": 593
+    },
+    {
+      "file": "post-browser-prior-integrity.json",
+      "sha256": "347cf47525682c7dfaa7236ccbdf1cacb2d1e8ca6229111afbcf6c3eb50e4948",
+      "bytes": 607
+    }
+  ]
+}

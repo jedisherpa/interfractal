@@ -1,0 +1,190 @@
+{
+  "schema": "gate13-independent-final-core-verification-v1",
+  "status": "BLOCKED",
+  "checkCount": 31,
+  "passCount": 30,
+  "errors": [
+    {
+      "name": "90 substantive control enablement records",
+      "detail": [
+        20,
+        61,
+        76
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "closed core 68 exact immutable pins and freeze identity",
+      "pass": true
+    },
+    {
+      "name": "all 1745 prior frozen entries unchanged",
+      "pass": true
+    },
+    {
+      "name": "prespec and immutable candidate identity",
+      "pass": true
+    },
+    {
+      "name": "actual observation/action denominators",
+      "pass": true
+    },
+    {
+      "name": "90 independently recomputed semantic and information hashes",
+      "pass": true
+    },
+    {
+      "name": "90 actual-versus-published viewport and scene records",
+      "pass": true
+    },
+    {
+      "name": "90 source-derived SVG count/offset/width/tick/zero-marker records",
+      "pass": true
+    },
+    {
+      "name": "90 source-bound visible statement and scale labels",
+      "pass": true
+    },
+    {
+      "name": "90 substantive control enablement records",
+      "pass": false
+    },
+    {
+      "name": "18 designated paused checkpoint comparisons exact",
+      "pass": true
+    },
+    {
+      "name": "three actual visual/plain information pairs exact",
+      "pass": true
+    },
+    {
+      "name": "six untouched JPEGs with exact hashes and before/after brackets",
+      "pass": true
+    },
+    {
+      "name": "console collection has no errors",
+      "pass": true
+    },
+    {
+      "name": "47-event first export complete including its own event",
+      "pass": true
+    },
+    {
+      "name": "11-event natural and 15-event second exports complete",
+      "pass": true
+    },
+    {
+      "name": "three local checks, two corrections and immutable source/check/event provenance",
+      "pass": true
+    },
+    {
+      "name": "one deliberate reused check did not create duplicate record",
+      "pass": true
+    },
+    {
+      "name": "reload creates new UUID and no local review records",
+      "pass": true
+    },
+    {
+      "name": "canonical definitions are not performed local records",
+      "pass": true
+    },
+    {
+      "name": "all same-cursor adjacent event chains",
+      "pass": true
+    },
+    {
+      "name": "natural tour seven exact scheduled events and provenance",
+      "pass": true
+    },
+    {
+      "name": "natural 24.002-second stop measured from event UTC",
+      "pass": true
+    },
+    {
+      "name": "active DOM samples in all five prescribed intervals",
+      "pass": true
+    },
+    {
+      "name": "retained completed-click non-transition is truthfully identifiable",
+      "pass": true
+    },
+    {
+      "name": "dependent disabled-control failure and recovery preserved",
+      "pass": true
+    },
+    {
+      "name": "source panel before checking and accurate true/zero controls",
+      "pass": true
+    },
+    {
+      "name": "historical Gate 12 links show exact paused replay and result",
+      "pass": true
+    },
+    {
+      "name": "final instrument returns paused zero, default viewport later observed",
+      "pass": true
+    },
+    {
+      "name": "six follow-up observations independently hash/layout valid",
+      "pass": true
+    },
+    {
+      "name": "three actual follow-up controls and one bracketed original retained",
+      "pass": true
+    },
+    {
+      "name": "actual enabled canonical correction click and keyboard retry both fail",
+      "pass": true
+    }
+  ],
+  "corePins": 68,
+  "priorPins": 1745,
+  "observations": 90,
+  "actions": {
+    "attempted": 71,
+    "toolCompleted": 70,
+    "toolFailed": 1,
+    "completedWithoutObservedTransition": 1
+  },
+  "originalJpegs": 6,
+  "followup": {
+    "observations": 6,
+    "actions": 3,
+    "originalJpegs": 1,
+    "consoleErrors": 2,
+    "hashMismatchIndices": []
+  },
+  "hashMismatchIndices": [],
+  "layoutMismatchIndices": [],
+  "geometryMismatchIndices": [],
+  "labelMismatchIndices": [],
+  "controlMismatchIndices": [
+    20,
+    61,
+    76
+  ],
+  "checkpointMismatchIndices": [],
+  "recordMismatches": [],
+  "sameBoundary": {
+    "first": {
+      "pairs": 29,
+      "bad": []
+    },
+    "natural": {
+      "pairs": 3,
+      "bad": []
+    },
+    "second": {
+      "pairs": 5,
+      "bad": []
+    }
+  },
+  "elapsedNaturalSeconds": 24.002,
+  "blockingIssues": [
+    "Published canonical applyCorrection availability contradicts disabled actual control at observations 20, 61, 76.",
+    "Enabled canonical correction version control at checkpoint 20 fails on actual click and keyboard retry with Error: correction not active; local() switches to empty local review while retaining scripted activeCorrection. Controlled immutable handler repro establishes related CP12 source/representation/records failures and Show original provenance loss."
+  ],
+  "qualification": "The main first-use local correction path and replay checks passed, but the canonical-to-local control defect blocks candidate001 acceptance. Initial separate Show original non-transition cause remains unestablished; later local keyboard/click recovery succeeded. No human susceptibility or debrief effect tested."
+}

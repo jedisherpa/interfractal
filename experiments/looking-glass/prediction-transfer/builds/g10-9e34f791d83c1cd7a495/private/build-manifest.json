@@ -1,0 +1,141 @@
+{
+  "schema": "gate10-private-build-manifest-v1",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "sourceHash": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "baseCommit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "sourceContent": [
+    {
+      "path": "prediction-transfer/README.md",
+      "sha256": "d91ceb8eb264b5455a72ff8502a65be39ba6e54a1021d3dbf7e844e78a889294"
+    },
+    {
+      "path": "prediction-transfer/app.mjs",
+      "sha256": "3bea76739626249800c0ca4fc906b13da4019bdc147894f9e03d762354fedca7"
+    },
+    {
+      "path": "prediction-transfer/build.mjs",
+      "sha256": "dbf916820770a3b46dddc1d8c1dc4a917172397b52c25ba4a1a41d4ba7683692"
+    },
+    {
+      "path": "prediction-transfer/index.html",
+      "sha256": "25c37fb7889cb25df582303fdc92b0da57b8117903a10670e57c8beb9dbe407e"
+    },
+    {
+      "path": "prediction-transfer/math.mjs",
+      "sha256": "57c7b345d621f882c4ec8f9b48b8e3b578b5836f579865cb22bf4266dbb0c396"
+    },
+    {
+      "path": "prediction-transfer/model.mjs",
+      "sha256": "dec5d25548ec8d246087e4687eee1516ab02e2abd24f5a1292909f38727c9841"
+    },
+    {
+      "path": "prediction-transfer/server.mjs",
+      "sha256": "ee3d62d48d96d507cb3c63b46dbfa4911f1c2f2dc516f14de0484ada6fb831df"
+    },
+    {
+      "path": "prediction-transfer/service.mjs",
+      "sha256": "0664a7bede449df65b2f24f39c716f8f31f654a709dd2392de3f86665d386818"
+    },
+    {
+      "path": "prediction-transfer/style.css",
+      "sha256": "5c9996f90635ebddfa1b291a6a4dd83288a03025b9258646effe56c507949114"
+    },
+    {
+      "path": "prediction-transfer/test.mjs",
+      "sha256": "528edbb6498c0228a30a6259db994b8607cfcc0f700076a038f30bd57d8c7d42"
+    },
+    {
+      "path": "docs/gate-10/PRESPEC_FREEZE.json",
+      "sha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56"
+    },
+    {
+      "path": "docs/gate-10/experiment-charter.md",
+      "sha256": "af970be7b9de20447d72b2f4e65b1808b76c34d0eea7f66e921a435570cc6706"
+    },
+    {
+      "path": "docs/gate-10/fixture.json",
+      "sha256": "729902887d4a51ac522831f7baf17f8a905422fa6d7aa51f14d81e4565bf089e"
+    },
+    {
+      "path": "docs/gate-10/independent-predictions.json",
+      "sha256": "23f4177fd0ad5a01ea41f5e3207fc35d88964e4c2df5cfe26667deecb87527ad"
+    },
+    {
+      "path": "docs/gate-10/model-contract.md",
+      "sha256": "1e8e8624b85577469b89d2f55305121801eea4cbe05b27b2dac630895fe9c6da"
+    },
+    {
+      "path": "docs/gate-10/private-answer-key.json",
+      "sha256": "4efe69a6f9af01fd7023c59e927d00c833af8c5ca4ee66a8c0dafde7f7c59938"
+    },
+    {
+      "path": "docs/gate-10/record-contract.md",
+      "sha256": "82d42e74ee80872cd827e85c2b275d03b3ba8b2145da7df2e409426afe15a9b8"
+    }
+  ],
+  "buildFiles": [
+    {
+      "path": "README.md",
+      "sha256": "d91ceb8eb264b5455a72ff8502a65be39ba6e54a1021d3dbf7e844e78a889294"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "3bea76739626249800c0ca4fc906b13da4019bdc147894f9e03d762354fedca7"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "dbf916820770a3b46dddc1d8c1dc4a917172397b52c25ba4a1a41d4ba7683692"
+    },
+    {
+      "path": "index.html",
+      "sha256": "25c37fb7889cb25df582303fdc92b0da57b8117903a10670e57c8beb9dbe407e"
+    },
+    {
+      "path": "math.mjs",
+      "sha256": "57c7b345d621f882c4ec8f9b48b8e3b578b5836f579865cb22bf4266dbb0c396"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "dec5d25548ec8d246087e4687eee1516ab02e2abd24f5a1292909f38727c9841"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "ee3d62d48d96d507cb3c63b46dbfa4911f1c2f2dc516f14de0484ada6fb831df"
+    },
+    {
+      "path": "service.mjs",
+      "sha256": "0664a7bede449df65b2f24f39c716f8f31f654a709dd2392de3f86665d386818"
+    },
+    {
+      "path": "style.css",
+      "sha256": "5c9996f90635ebddfa1b291a6a4dd83288a03025b9258646effe56c507949114"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "528edbb6498c0228a30a6259db994b8607cfcc0f700076a038f30bd57d8c7d42"
+    },
+    {
+      "path": "fixture.json",
+      "sha256": "729902887d4a51ac522831f7baf17f8a905422fa6d7aa51f14d81e4565bf089e"
+    },
+    {
+      "path": "build.json",
+      "sha256": "6bcde6ce9ad19ed68f1be4c8162e24423921bac7c476ce1518851d4d19000a9e"
+    },
+    {
+      "path": "private/private-answer-key.json",
+      "sha256": "4efe69a6f9af01fd7023c59e927d00c833af8c5ca4ee66a8c0dafde7f7c59938"
+    },
+    {
+      "path": "private/independent-predictions.json",
+      "sha256": "23f4177fd0ad5a01ea41f5e3207fc35d88964e4c2df5cfe26667deecb87527ad"
+    },
+    {
+      "path": "private/PRESPEC_FREEZE.json",
+      "sha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "recordedAtUtc": "2026-09-20T19:45:48.472376+00:00",
+  "runId": "G12-COORD-002",
+  "buildId": "g12-3c5526361a7cb2cc5c4a",
+  "result": "PASS_DECLARED_SOFTWARE_SCOPE",
+  "handoff": "PASS_HANDOFF_OF_DECLARED_SOFTWARE_RESULT",
+  "allStageWorkersEnded": true,
+  "nextGate": 13,
+  "nextGateName": "A persuasive but wrong view",
+  "nextGateApproved": false,
+  "publication": {
+    "authorization": "Earlier actual user request to publish everything to GitHub; continuing same private origin branch.",
+    "repository": "jedisherpa/btc-constitutional-learning-collective",
+    "visibilityVerified": "PRIVATE",
+    "branch": "codex/looking-glass",
+    "remote": "origin",
+    "baseCommit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+    "statusAtFreeze": "Ready for local Git commit and push; resulting commit recorded by Git and final host response.",
+    "mirrorUntouched": true
+  },
+  "counts": {
+    "coreFiles": 102,
+    "completeObservations": 93,
+    "completeHostActions": 79,
+    "completeOriginals": 5,
+    "allAcquisitionObservations": 136,
+    "allAcquisitionActionAttempts": 110,
+    "allAcquisitionCompletedActions": 108,
+    "allAcquisitionFailedActions": 2,
+    "allInstrumentOriginals": 11,
+    "presentationObservations": 9,
+    "presentationOriginals": 2,
+    "totalOriginalImages": 13,
+    "historicalEntriesVerified": 1613
+  },
+  "humanParticipants": 0,
+  "boundary": "Stage workers ended. No Gate13 experiment started. Passive exact replay servers remain on loopback."
+}

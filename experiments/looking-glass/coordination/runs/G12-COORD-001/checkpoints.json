@@ -1,0 +1,791 @@
+[
+  {
+    "seconds": 0,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 0,
+      "paused": true,
+      "endReason": null,
+      "representation": "diagram",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [],
+      "currentOutcomeId": null,
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "diagram",
+      "cursorSeconds": 0,
+      "paused": true,
+      "endReason": null,
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [],
+      "proposals": {},
+      "currentOutcome": null,
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "d6994b5edb0a79211485da4adaa6481a3c8f0808f81a5046a5cd61e57d9f59b5",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 4,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 4,
+      "paused": true,
+      "endReason": null,
+      "representation": "diagram",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE"
+      ],
+      "currentOutcomeId": null,
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "diagram",
+      "cursorSeconds": 4,
+      "paused": true,
+      "endReason": null,
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE"
+      ],
+      "proposals": {
+        "ARCHIVE": {
+          "groupId": "ARCHIVE",
+          "reference": {
+            "id": "R_DETAIL",
+            "version": 1,
+            "question": "Which declared mode retains the most channels?",
+            "ordering": "retainedChannels descending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P3",
+              "rank": 0,
+              "referencedValue": 6,
+              "sourcePath": "sourceModes.P3.retainedChannels"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 4,
+              "sourcePath": "sourceModes.P2.retainedChannels"
+            },
+            {
+              "modeId": "P1",
+              "rank": 2,
+              "referencedValue": 2,
+              "sourcePath": "sourceModes.P1.retainedChannels"
+            }
+          ],
+          "preferredModeId": "P3",
+          "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        }
+      },
+      "currentOutcome": null,
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "204bcb940608cbefe8d905cc4e9e0c95f0adc51f0c9ec5c09bc7bef3030103cb",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 8,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 8,
+      "paused": true,
+      "endReason": null,
+      "representation": "diagram",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "currentOutcomeId": null,
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "diagram",
+      "cursorSeconds": 8,
+      "paused": true,
+      "endReason": null,
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "proposals": {
+        "ARCHIVE": {
+          "groupId": "ARCHIVE",
+          "reference": {
+            "id": "R_DETAIL",
+            "version": 1,
+            "question": "Which declared mode retains the most channels?",
+            "ordering": "retainedChannels descending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P3",
+              "rank": 0,
+              "referencedValue": 6,
+              "sourcePath": "sourceModes.P3.retainedChannels"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 4,
+              "sourcePath": "sourceModes.P2.retainedChannels"
+            },
+            {
+              "modeId": "P1",
+              "rank": 2,
+              "referencedValue": 2,
+              "sourcePath": "sourceModes.P1.retainedChannels"
+            }
+          ],
+          "preferredModeId": "P3",
+          "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        },
+        "DISPATCH": {
+          "groupId": "DISPATCH",
+          "reference": {
+            "id": "R_SPEED",
+            "version": 1,
+            "question": "Which declared mode takes the fewest minutes?",
+            "ordering": "sendMinutes ascending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P1",
+              "rank": 0,
+              "referencedValue": 1,
+              "sourcePath": "sourceModes.P1.sendMinutes"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 3,
+              "sourcePath": "sourceModes.P2.sendMinutes"
+            },
+            {
+              "modeId": "P3",
+              "rank": 2,
+              "referencedValue": 5,
+              "sourcePath": "sourceModes.P3.sendMinutes"
+            }
+          ],
+          "preferredModeId": "P1",
+          "derivation": "R_SPEED@1: ordered P1=1, P2=3, P3=5; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        }
+      },
+      "currentOutcome": null,
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "0271f5aa79c733bdb6966493beee36069f7c929216be6958ca431ffea05ff368",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 12,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 12,
+      "paused": true,
+      "endReason": null,
+      "representation": "diagram",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "currentOutcomeId": "C-A-ALL",
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "diagram",
+      "cursorSeconds": 12,
+      "paused": true,
+      "endReason": null,
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "proposals": {
+        "ARCHIVE": {
+          "groupId": "ARCHIVE",
+          "reference": {
+            "id": "R_DETAIL",
+            "version": 1,
+            "question": "Which declared mode retains the most channels?",
+            "ordering": "retainedChannels descending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P3",
+              "rank": 0,
+              "referencedValue": 6,
+              "sourcePath": "sourceModes.P3.retainedChannels"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 4,
+              "sourcePath": "sourceModes.P2.retainedChannels"
+            },
+            {
+              "modeId": "P1",
+              "rank": 2,
+              "referencedValue": 2,
+              "sourcePath": "sourceModes.P1.retainedChannels"
+            }
+          ],
+          "preferredModeId": "P3",
+          "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        },
+        "DISPATCH": {
+          "groupId": "DISPATCH",
+          "reference": {
+            "id": "R_SPEED",
+            "version": 1,
+            "question": "Which declared mode takes the fewest minutes?",
+            "ordering": "sendMinutes ascending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P1",
+              "rank": 0,
+              "referencedValue": 1,
+              "sourcePath": "sourceModes.P1.sendMinutes"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 3,
+              "sourcePath": "sourceModes.P2.sendMinutes"
+            },
+            {
+              "modeId": "P3",
+              "rank": 2,
+              "referencedValue": 5,
+              "sourcePath": "sourceModes.P3.sendMinutes"
+            }
+          ],
+          "preferredModeId": "P1",
+          "derivation": "R_SPEED@1: ordered P1=1, P2=3, P3=5; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        }
+      },
+      "currentOutcome": {
+        "assignmentId": "BASE",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 0
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P2",
+            "ranksByGroup": {
+              "ARCHIVE": 1,
+              "DISPATCH": 1
+            },
+            "worstRank": 1
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          }
+        ],
+        "tiedMinimizers": [
+          "P2"
+        ],
+        "selectedModeId": "P2",
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": true,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": false,
+          "DISPATCH": false
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P2",
+          "slotCount": 1,
+          "enacted": false
+        }
+      },
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "8a8b584f37a9ee5578d37cc9ca8038a399216350acaba8909958fdbe434a81ac",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 16,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 16,
+      "paused": true,
+      "endReason": null,
+      "representation": "plain",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "currentOutcomeId": "C-A-ALL",
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "plain",
+      "cursorSeconds": 16,
+      "paused": true,
+      "endReason": null,
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "proposals": {
+        "ARCHIVE": {
+          "groupId": "ARCHIVE",
+          "reference": {
+            "id": "R_DETAIL",
+            "version": 1,
+            "question": "Which declared mode retains the most channels?",
+            "ordering": "retainedChannels descending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P3",
+              "rank": 0,
+              "referencedValue": 6,
+              "sourcePath": "sourceModes.P3.retainedChannels"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 4,
+              "sourcePath": "sourceModes.P2.retainedChannels"
+            },
+            {
+              "modeId": "P1",
+              "rank": 2,
+              "referencedValue": 2,
+              "sourcePath": "sourceModes.P1.retainedChannels"
+            }
+          ],
+          "preferredModeId": "P3",
+          "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        },
+        "DISPATCH": {
+          "groupId": "DISPATCH",
+          "reference": {
+            "id": "R_SPEED",
+            "version": 1,
+            "question": "Which declared mode takes the fewest minutes?",
+            "ordering": "sendMinutes ascending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P1",
+              "rank": 0,
+              "referencedValue": 1,
+              "sourcePath": "sourceModes.P1.sendMinutes"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 3,
+              "sourcePath": "sourceModes.P2.sendMinutes"
+            },
+            {
+              "modeId": "P3",
+              "rank": 2,
+              "referencedValue": 5,
+              "sourcePath": "sourceModes.P3.sendMinutes"
+            }
+          ],
+          "preferredModeId": "P1",
+          "derivation": "R_SPEED@1: ordered P1=1, P2=3, P3=5; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        }
+      },
+      "currentOutcome": {
+        "assignmentId": "BASE",
+        "scenarioId": "ALL",
+        "eligibleModeIds": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 0
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P2",
+            "ranksByGroup": {
+              "ARCHIVE": 1,
+              "DISPATCH": 1
+            },
+            "worstRank": 1
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          }
+        ],
+        "tiedMinimizers": [
+          "P2"
+        ],
+        "selectedModeId": "P2",
+        "tieBreakUsed": false,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": true,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": false,
+          "DISPATCH": false
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P2",
+          "slotCount": 1,
+          "enacted": false
+        }
+      },
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "0ede9ea97fbd8b078b7238f70898b7fc9b703070d8e67fa8d905edc0aa57121a",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 20,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 20,
+      "paused": true,
+      "endReason": null,
+      "representation": "plain",
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "currentOutcomeId": "C-A-EXTREMES",
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "plain",
+      "cursorSeconds": 20,
+      "paused": true,
+      "endReason": null,
+      "assignmentId": "BASE",
+      "scenarioId": "EXTREMES",
+      "recordedGroups": [
+        "ARCHIVE",
+        "DISPATCH"
+      ],
+      "proposals": {
+        "ARCHIVE": {
+          "groupId": "ARCHIVE",
+          "reference": {
+            "id": "R_DETAIL",
+            "version": 1,
+            "question": "Which declared mode retains the most channels?",
+            "ordering": "retainedChannels descending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P3",
+              "rank": 0,
+              "referencedValue": 6,
+              "sourcePath": "sourceModes.P3.retainedChannels"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 4,
+              "sourcePath": "sourceModes.P2.retainedChannels"
+            },
+            {
+              "modeId": "P1",
+              "rank": 2,
+              "referencedValue": 2,
+              "sourcePath": "sourceModes.P1.retainedChannels"
+            }
+          ],
+          "preferredModeId": "P3",
+          "derivation": "R_DETAIL@1: ordered P3=6, P2=4, P1=2; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        },
+        "DISPATCH": {
+          "groupId": "DISPATCH",
+          "reference": {
+            "id": "R_SPEED",
+            "version": 1,
+            "question": "Which declared mode takes the fewest minutes?",
+            "ordering": "sendMinutes ascending, then fixed mode order",
+            "scope": "All three fixed source modes, independent of availability"
+          },
+          "sourceHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+          "ranking": [
+            {
+              "modeId": "P1",
+              "rank": 0,
+              "referencedValue": 1,
+              "sourcePath": "sourceModes.P1.sendMinutes"
+            },
+            {
+              "modeId": "P2",
+              "rank": 1,
+              "referencedValue": 3,
+              "sourcePath": "sourceModes.P2.sendMinutes"
+            },
+            {
+              "modeId": "P3",
+              "rank": 2,
+              "referencedValue": 5,
+              "sourcePath": "sourceModes.P3.sendMinutes"
+            }
+          ],
+          "preferredModeId": "P1",
+          "derivation": "R_SPEED@1: ordered P1=1, P2=3, P3=5; rank 0 is first over all three modes.",
+          "provenance": "scripted_demonstration"
+        }
+      },
+      "currentOutcome": {
+        "assignmentId": "BASE",
+        "scenarioId": "EXTREMES",
+        "eligibleModeIds": [
+          "P1",
+          "P3"
+        ],
+        "proposalContentHashesByGroup": {
+          "ARCHIVE": "b797a1d17619a3b0762c5a87888202f3ae6fcc0cb443f21b0fd1b2c2f0980a77",
+          "DISPATCH": "493fc423a719b7da34d679244b732ec93bc01789cc6ae21e01b727d4493f1f76"
+        },
+        "procedure": {
+          "id": "MINIMAX_RANK",
+          "version": 1,
+          "question": "Which eligible mode has the smallest worst local rank under the two recorded references?",
+          "score": "max(rankARCHIVE(mode), rankDISPATCH(mode))",
+          "tieBreakOrder": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "status": "procedure-selected",
+        "missingGroupIds": [],
+        "scoreRows": [
+          {
+            "modeId": "P1",
+            "ranksByGroup": {
+              "ARCHIVE": 2,
+              "DISPATCH": 0
+            },
+            "worstRank": 2
+          },
+          {
+            "modeId": "P3",
+            "ranksByGroup": {
+              "ARCHIVE": 0,
+              "DISPATCH": 2
+            },
+            "worstRank": 2
+          }
+        ],
+        "tiedMinimizers": [
+          "P1",
+          "P3"
+        ],
+        "selectedModeId": "P1",
+        "tieBreakUsed": true,
+        "firstChoicesByGroup": {
+          "ARCHIVE": "P3",
+          "DISPATCH": "P1"
+        },
+        "differentFirstChoices": true,
+        "matchesFirstChoiceByGroup": {
+          "ARCHIVE": false,
+          "DISPATCH": true
+        },
+        "jointAction": {
+          "operation": "simulate-shared-export",
+          "modeId": "P1",
+          "slotCount": 1,
+          "enacted": false
+        }
+      },
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "ac4621a2a2cc2161c11fef16f49783ebab3e9b38733b6c31ab0796a0b6914a2e",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 24,
+    "state": {
+      "mode": "saved-tour",
+      "cursorSeconds": 24,
+      "paused": true,
+      "endReason": "end-of-sequence",
+      "representation": "diagram",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [],
+      "currentOutcomeId": null,
+      "inspectedOutcomeId": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "payload": {
+      "schema": "gate12-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "diagram",
+      "cursorSeconds": 24,
+      "paused": true,
+      "endReason": "end-of-sequence",
+      "assignmentId": "BASE",
+      "scenarioId": "ALL",
+      "recordedGroups": [],
+      "proposals": {},
+      "currentOutcome": null,
+      "inspectedOutcome": null,
+      "sourceInspectorOpen": false,
+      "recordInspectorOpen": false
+    },
+    "semanticFingerprint": "19e144cddd1ee59223c4e1661c9160593107d05a84a5d63c4180e1cacae40c81",
+    "referenceOnly": true
+  }
+]

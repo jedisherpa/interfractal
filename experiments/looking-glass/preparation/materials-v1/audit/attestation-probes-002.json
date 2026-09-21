@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "materials-attestation-adversarial-probes/1",
+  "candidate": "package-candidate-002",
+  "status": "BLOCKED",
+  "count": 4,
+  "results": [
+    {
+      "name": "understands rule-only model inference",
+      "expected": "reject: public rule alone is not a typed source attestation",
+      "actual": "accepted",
+      "errors": []
+    },
+    {
+      "name": "endorses rule-only model inference",
+      "expected": "reject: public rule alone is not a typed source attestation",
+      "actual": "accepted",
+      "errors": []
+    },
+    {
+      "name": "resource commitment rule-only model inference",
+      "expected": "reject: public rule alone is not a typed source attestation",
+      "actual": "accepted",
+      "errors": []
+    },
+    {
+      "name": "model attribution rule-only without model artifact",
+      "expected": "reject: public rule alone is not a typed source attestation",
+      "actual": "accepted",
+      "errors": []
+    }
+  ],
+  "minimalCorrection": "For attestation predicates, require each polarity witness to be an actual supplied claim with exact predicate, directed roles, value and evidenceKind. Never count a public rule ID alone as a positive or negative actor/model attestation. Keep numeric task value correctness in separate scoring."
+}

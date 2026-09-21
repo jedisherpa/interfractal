@@ -1,0 +1,102 @@
+{
+  "schema": "gate11-acquisition-closure-v1",
+  "closedAtUtc": "2026-09-20T18:15:11.298797+00:00",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "observations": 101,
+  "hostActions": 80,
+  "originals": 6,
+  "limitation": "Browser tool structured-result depth limit replaced deeply nested arrays with literal [MaxDepth].79/101 semantic and35/101 information payloads rehash;101/101 layout metadata and18/18 published checkpoint fingerprints match. No evidence of a build mismatch is inferred from truncated payloads. Full reacquisition uses JSON text transport. These records are never silently reconstructed.",
+  "entries": [
+    {
+      "path": "evidence/gate-11/browser-002/all-local-revisions-export.json",
+      "bytes": 117091,
+      "sha256": "5e600b8d6f3bfeb6c6c246bb9c277628c0cdacf000143d58f4ee674e8fdf22dc"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/critical-workflow-export.json",
+      "bytes": 41567,
+      "sha256": "c94671c76369b6c0e62df9bed73fbcd8f8e8db31845c10a8f40fa79e71de4a45"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/historical-replay-dom.txt",
+      "bytes": 4147,
+      "sha256": "ea0db0ca026d89cc1b8423bfc5eec5c5f88f64f6d2c6022cefc1d9a68cadfd76"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/historical-replay-identity.json",
+      "bytes": 7369,
+      "sha256": "ee475f7eed919561e415cc3a8ead14ee9070eba411cf6a7ab84d5154a7ed1ce9"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/historical-results-dom.txt",
+      "bytes": 9437,
+      "sha256": "ee74241fd387112743fd1b78927a2aee6b4541e160c37707670e909ab0b55099"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/host-actions.json",
+      "bytes": 1386133,
+      "sha256": "66c679a8eeaf99f6c4333363af59e414b844641202c5c311473c950604fa1855"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/natural-tour-export.json",
+      "bytes": 29692,
+      "sha256": "edf9bad2522ca1188a6c4d8c76ca67a984c1663a832b6e6547fed6b7ff634a46"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/observations.json",
+      "bytes": 6616504,
+      "sha256": "f3ab2ad7edf10f972c48bf4415d7ebff965b73d7eff1f571627de86387b8a801"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/changed-receiver-witness.jpg",
+      "bytes": 67307,
+      "sha256": "ce88b7fee5979c324585cd6d25ca139e26fefb2bc205d4862fbd597bb11f0503"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/initial-count-summary.jpg",
+      "bytes": 113627,
+      "sha256": "30c542f3737011970bd5d2a1087ad805fa792b73f001ac7646106587b823d01f"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/minimal-repair-diagram.jpg",
+      "bytes": 92733,
+      "sha256": "7787ac50bcb4b36b47b7ca2b3241b6d743594f16b0c06e21331ff37402c6fcdd"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/minimal-repair-plain.jpg",
+      "bytes": 105070,
+      "sha256": "c7e4aa683a79c945c0269ce225184a98f728c1efd0f19bc8db5ad78e9f4b6d61"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/natural-tour-end.jpg",
+      "bytes": 115338,
+      "sha256": "30cf00c6a4f2c25800d3205c1d3a444f1de6db0665a1a096ce009d2bcbf55398"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots/partial-negative-narrow.jpg",
+      "bytes": 88356,
+      "sha256": "26f8a46c053ea55f15ef3142d8a2244769dc2560d318c0b514053b65c7cdcc16"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/screenshots.json",
+      "bytes": 3738,
+      "sha256": "0eed4ce5a74f398322a4af9ee2eee8c7a67466717a19e911bba419050232360e"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/session-one-final-export.json",
+      "bytes": 119825,
+      "sha256": "47afd93d58820ace2073d8fa5cb675ec647db6e9d4ec1ce8a47bf03f77e5a4f6"
+    },
+    {
+      "path": "evidence/gate-11/browser-002/session-two-final-export.json",
+      "bytes": 37250,
+      "sha256": "7c4da38daef310f0e0ce265689a502e9baa6180176f5eb2e1a52eace4238cbce"
+    }
+  ]
+}

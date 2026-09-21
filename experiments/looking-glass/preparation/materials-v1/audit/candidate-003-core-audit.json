@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "materials-candidate-core-audit/3",
+  "candidate": "package-candidate-003",
+  "verdict": "PASS_BOUNDED_AUTHORED_MATERIALS_STAGE",
+  "notVerdict": "No research-runner, transfer-collector, integrated instrument, human-readiness or full preparation-goal acceptance claim",
+  "manifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+  "reviewHtmlSha256": "24e7cfbcadea10f87e758e4bb98429a4d892917cca331aa80507033d78bcc8d2",
+  "blindKeyAndAuthorAgreement": "194/194 development and 98/98 transfer scoring atoms; eight W06 bundle-ID arrays; 442/442 author evidence references resolve in scope",
+  "checks": {
+    "packageAndPublicPrivateBoundary": "70/70 files, 69 root manifest entries, four six-card/eight-task participant bundles with no foreign claim IDs",
+    "previousGuardRegression": "17/17 expected outcomes",
+    "postInitialPhaseShapes": "5/5 expected outcomes",
+    "literalTypedSourceMatrix": "16/16 expected outcomes: rule-only both polarities rejected for four literal predicates, matching typed source plus rule accepted, wrong roles/quantity/evidence kind rejected",
+    "publicPreviewRoutes": "14/14 exact HTML/denial probes",
+    "actualPreview": "8 observations, 144 exact DOM source-record comparisons, 3 intended state transitions, 2 original JPEGs matched and directly inspected, empty console, 1280x720 without horizontal overflow",
+    "priorFailuresPreserved": "candidate001 109/109 pins and candidate002 119/119 pins unchanged",
+    "builderPreflight": "preflight006 8/8 saved results and candidate-build-003 build/verify exit0, independently corroborated by byte and behavior checks"
+  },
+  "correctionScope": "Packaged snapshot-contract.mjs now requires a supplied typed source witness with exact predicate, roles, polarity and evidence kind for literal understands, endorses, resource_commitment and model_attributes_endorsement interpretations. Public rules can supplement but cannot be the sole witness. This remains structural/provenance-guard validation, not a complete source-correctness scorer.",
+  "browserHistoryQualification": "Candidate002 preserved 7 completed tool calls but 2 intent mismatches; candidate003 is a fresh 3-transition short smoke. No claim that the earlier misses were explained or that all interaction modes/accessibility were exhaustively tested.",
+  "remainingPreparationWork": [
+    "Dedicated machine-readable transfer-response schema/validator and negative tests",
+    "Executable comparator and scoring integration including retained scope/provenance tuples and costs",
+    "Full substantive citation/provenance sufficiency review beyond reference resolution and literal-source guards",
+    "Integrated source-equivalent plain/visual instrument and its acceptance corpus",
+    "Human protocol/readiness, mechanism/comparison/cross-scale plans, owners and updated verified preparation ZIP"
+  ],
+  "futureLaunchOnly": ["Actual model/version/settings and tokenizer/context fit", "Fresh-context or restricted-runner isolation including tools/network boundary", "Separate authorization before any four-agent or human collection"],
+  "noCollection": "Zero research-agent outputs, exchange messages, transfer responses or human participants; Gate14 unapproved",
+  "artifacts": ["audit/package-verification-003.json", "audit/snapshot-guard-probes-003.json", "audit/phase-probes-003.json", "audit/attestation-probes-003.json", "audit/literal-matrix-003.json", "audit/preview-routes-003.json", "audit/browser-verification-003.json", "audit/cross-review-001-corrected.json"]
+}

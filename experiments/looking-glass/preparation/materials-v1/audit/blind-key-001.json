@@ -1,0 +1,3502 @@
+{
+  "schema": "materials-v1-independent-blind-key-001",
+  "status": "BLIND_UNCOMPARED",
+  "scope": "Engineering audit only; no four research-agent snapshots or humans.",
+  "sourceTaskFreezeSha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+  "inputFiles": [
+    {
+      "path": "preparation/materials-v1/design/world.json",
+      "sha256": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef",
+      "bytes": 28103
+    },
+    {
+      "path": "preparation/materials-v1/design/allocations.json",
+      "sha256": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d",
+      "bytes": 1119
+    },
+    {
+      "path": "preparation/materials-v1/design/development-tasks.json",
+      "sha256": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6",
+      "bytes": 6342
+    },
+    {
+      "path": "preparation/materials-v1/design/withheld-tasks.json",
+      "sha256": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03",
+      "bytes": 26576
+    },
+    {
+      "path": "preparation/materials-v1/design/snapshot.schema.json",
+      "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a",
+      "bytes": 8053
+    }
+  ],
+  "counts": {
+    "packetContexts": 4,
+    "packetTaskContexts": 32,
+    "unionTaskContexts": 10,
+    "totalDevelopmentTaskContexts": 42,
+    "withheldTasks": 6,
+    "withheldContexts": 7
+  },
+  "packetContexts": [
+    {
+      "contextId": "A1",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "activeClaimIds": [
+        "F-C02-1",
+        "F-C03-1",
+        "F-C04-1",
+        "F-C04-2",
+        "F-C04-3",
+        "F-C04-4",
+        "F-C05-1",
+        "F-C06-1"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 8,
+            "requirementVersion": 1
+          },
+          "atoms": {
+            "demand": {
+              "value": 8,
+              "evidence": [
+                "F-C02-1"
+              ],
+              "missingDependencies": []
+            },
+            "requirementVersion": {
+              "value": 1,
+              "evidence": [
+                "F-C02-1"
+              ],
+              "missingDependencies": []
+            }
+          }
+        },
+        "D02": {
+          "values": {
+            "press": 6,
+            "cart": null,
+            "varnish": null
+          },
+          "atoms": {
+            "press": {
+              "value": 6,
+              "evidence": [
+                "F-C03-1"
+              ],
+              "missingDependencies": [],
+              "alternativeValues": []
+            },
+            "cart": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart"
+              ],
+              "alternativeValues": []
+            },
+            "varnish": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity CY/varnish"
+              ],
+              "alternativeValues": []
+            }
+          }
+        },
+        "D03": {
+          "atoms": {
+            "araUnderstands": {
+              "status": "supported",
+              "evidence": [
+                "F-C04-1",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "refuted",
+              "evidence": [
+                "F-C04-2",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "araPress6": {
+              "status": "supported",
+              "evidence": [
+                "F-C04-3",
+                "R05"
+              ],
+              "missingDependencies": [],
+              "reason": "R05"
+            },
+            "beaEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "BEA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "beaCart2": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araUnderstands": "supported",
+            "araEndorses": "refuted",
+            "araPress6": "supported",
+            "beaEndorses": "unknown",
+            "beaCart2": "unknown"
+          }
+        },
+        "D04": {
+          "atoms": {
+            "araExplores": {
+              "status": "supported",
+              "evidence": [
+                "F-C05-1",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "araUnderstands": {
+              "status": "supported",
+              "evidence": [
+                "F-C06-1",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "araPress5": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5"
+              ],
+              "reason": "R05"
+            },
+            "beaCart1": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P10@1 quantity 1"
+              ],
+              "reason": "R05"
+            },
+            "cyVarnish1": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment CY/varnish P10@1 quantity 1"
+              ],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araExplores": "supported",
+            "araUnderstands": "supported",
+            "araPress5": "unknown",
+            "beaCart1": "unknown",
+            "cyVarnish1": "unknown"
+          }
+        },
+        "D05": {
+          "atoms": {
+            "modelAttributesAraEndorsement": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "model attribution ARA/P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "refuted",
+              "evidence": [
+                "F-C04-2",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "devMayDescribe": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "complete DEV mandate for describe"
+              ],
+              "reason": "R06"
+            },
+            "devMayCommit": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "complete DEV mandate for commit"
+              ],
+              "reason": "R06"
+            }
+          },
+          "values": {
+            "modelAttributesAraEndorsement": "unknown",
+            "araEndorses": "refuted",
+            "devMayDescribe": "unknown",
+            "devMayCommit": "unknown"
+          }
+        },
+        "D06": {
+          "atoms": {
+            "inspection": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "inspection": "unknown"
+          }
+        },
+        "D07": {
+          "atoms": {
+            "P8.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart"
+              ],
+              "reason": "R07"
+            },
+            "P8.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P8.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P8@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P8.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P8.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "commitment BEA/cart P8@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P12.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart"
+              ],
+              "reason": "R07"
+            },
+            "P12.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P12.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R07"
+            },
+            "P12.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P12.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R07"
+            },
+            "P10.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "capacity CY/varnish"
+              ],
+              "reason": "R07"
+            },
+            "P10.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1",
+                "commitment CY/varnish P10@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P10.inspection": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            },
+            "P10.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "capacity CY/varnish",
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1",
+                "commitment CY/varnish P10@1 quantity 1",
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "supported",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "unknown",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "unknown",
+            "P10.demand": "supported",
+            "P10.commitment": "unknown",
+            "P10.inspection": "unknown",
+            "P10.readiness": "unknown"
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null,
+            "evidence": [
+              "R08"
+            ],
+            "missingDependencies": [
+              "capacity BEA/cart",
+              "capacity CY/varnish",
+              "commitment ARA/press P10@1 quantity 5",
+              "commitment BEA/cart P10@1 quantity 1",
+              "commitment BEA/cart P12@1 quantity 2",
+              "commitment BEA/cart P8@1 quantity 1",
+              "commitment CY/varnish P10@1 quantity 1",
+              "release inspection P10@1"
+            ]
+          },
+          "atoms": {
+            "selection": {
+              "value": "none_supported",
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "capacity CY/varnish",
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1",
+                "commitment BEA/cart P12@1 quantity 2",
+                "commitment BEA/cart P8@1 quantity 1",
+                "commitment CY/varnish P10@1 quantity 1",
+                "release inspection P10@1"
+              ]
+            },
+            "output": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "capacity CY/varnish",
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1",
+                "commitment BEA/cart P12@1 quantity 2",
+                "commitment BEA/cart P8@1 quantity 1",
+                "commitment CY/varnish P10@1 quantity 1",
+                "release inspection P10@1"
+              ]
+            },
+            "cost": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity BEA/cart",
+                "capacity CY/varnish",
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1",
+                "commitment BEA/cart P12@1 quantity 2",
+                "commitment BEA/cart P8@1 quantity 1",
+                "commitment CY/varnish P10@1 quantity 1",
+                "release inspection P10@1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "contextId": "A2",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "activeClaimIds": [
+        "F-C02-1",
+        "F-C07-1",
+        "F-C08-1",
+        "F-C08-2",
+        "F-C08-3",
+        "F-C09-1",
+        "F-C09-2",
+        "F-C10-1"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 8,
+            "requirementVersion": 1
+          },
+          "atoms": {
+            "demand": {
+              "value": 8,
+              "evidence": [
+                "F-C02-1"
+              ],
+              "missingDependencies": []
+            },
+            "requirementVersion": {
+              "value": 1,
+              "evidence": [
+                "F-C02-1"
+              ],
+              "missingDependencies": []
+            }
+          }
+        },
+        "D02": {
+          "values": {
+            "press": null,
+            "cart": 2,
+            "varnish": null
+          },
+          "atoms": {
+            "press": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press"
+              ],
+              "alternativeValues": []
+            },
+            "cart": {
+              "value": 2,
+              "evidence": [
+                "F-C07-1"
+              ],
+              "missingDependencies": [],
+              "alternativeValues": []
+            },
+            "varnish": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity CY/varnish"
+              ],
+              "alternativeValues": []
+            }
+          }
+        },
+        "D03": {
+          "atoms": {
+            "araUnderstands": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA understands P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araPress6": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P12@1 quantity 6"
+              ],
+              "reason": "R05"
+            },
+            "beaEndorses": {
+              "status": "supported",
+              "evidence": [
+                "F-C08-2",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "beaCart2": {
+              "status": "supported",
+              "evidence": [
+                "F-C08-3",
+                "R05"
+              ],
+              "missingDependencies": [],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araUnderstands": "unknown",
+            "araEndorses": "unknown",
+            "araPress6": "unknown",
+            "beaEndorses": "supported",
+            "beaCart2": "supported"
+          }
+        },
+        "D04": {
+          "atoms": {
+            "araExplores": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA explores P10@1"
+              ],
+              "reason": "R04"
+            },
+            "araUnderstands": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA understands P10@1"
+              ],
+              "reason": "R04"
+            },
+            "araPress5": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5"
+              ],
+              "reason": "R05"
+            },
+            "beaCart1": {
+              "status": "refuted",
+              "evidence": [
+                "F-C10-1",
+                "R05"
+              ],
+              "missingDependencies": [],
+              "reason": "R05"
+            },
+            "cyVarnish1": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment CY/varnish P10@1 quantity 1"
+              ],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araExplores": "unknown",
+            "araUnderstands": "unknown",
+            "araPress5": "unknown",
+            "beaCart1": "refuted",
+            "cyVarnish1": "unknown"
+          }
+        },
+        "D05": {
+          "atoms": {
+            "modelAttributesAraEndorsement": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "model attribution ARA/P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "devMayDescribe": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "complete DEV mandate for describe"
+              ],
+              "reason": "R06"
+            },
+            "devMayCommit": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "complete DEV mandate for commit"
+              ],
+              "reason": "R06"
+            }
+          },
+          "values": {
+            "modelAttributesAraEndorsement": "unknown",
+            "araEndorses": "unknown",
+            "devMayDescribe": "unknown",
+            "devMayCommit": "unknown"
+          }
+        },
+        "D06": {
+          "atoms": {
+            "inspection": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "inspection": "unknown"
+          }
+        },
+        "D07": {
+          "atoms": {
+            "P8.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press"
+              ],
+              "reason": "R07"
+            },
+            "P8.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P8.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P8@1 quantity 4"
+              ],
+              "reason": "R07"
+            },
+            "P8.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P8.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "commitment ARA/press P8@1 quantity 4"
+              ],
+              "reason": "R07"
+            },
+            "P12.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press"
+              ],
+              "reason": "R07"
+            },
+            "P12.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P12.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P12@1 quantity 6"
+              ],
+              "reason": "R07"
+            },
+            "P12.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P12.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "commitment ARA/press P12@1 quantity 6"
+              ],
+              "reason": "R07"
+            },
+            "P10.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity CY/varnish"
+              ],
+              "reason": "R07"
+            },
+            "P10.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.commitment": {
+              "status": "refuted",
+              "evidence": [
+                "F-C10-1",
+                "R05",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.inspection": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            },
+            "P10.readiness": {
+              "status": "refuted",
+              "evidence": [
+                "F-C02-1",
+                "F-C10-1",
+                "R05",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "supported",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "unknown",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "unknown",
+            "P10.demand": "supported",
+            "P10.commitment": "refuted",
+            "P10.inspection": "unknown",
+            "P10.readiness": "refuted"
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null,
+            "evidence": [
+              "R08"
+            ],
+            "missingDependencies": [
+              "capacity ARA/press",
+              "commitment ARA/press P12@1 quantity 6",
+              "commitment ARA/press P8@1 quantity 4"
+            ]
+          },
+          "atoms": {
+            "selection": {
+              "value": "none_supported",
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment ARA/press P8@1 quantity 4"
+              ]
+            },
+            "output": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment ARA/press P8@1 quantity 4"
+              ]
+            },
+            "cost": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment ARA/press P8@1 quantity 4"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "contextId": "A3",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "activeClaimIds": [
+        "F-C02-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 8,
+            "requirementVersion": 1
+          },
+          "atoms": {
+            "demand": {
+              "value": 8,
+              "evidence": [
+                "F-C02-1"
+              ],
+              "missingDependencies": []
+            },
+            "requirementVersion": {
+              "value": 1,
+              "evidence": [
+                "F-C02-1"
+              ],
+              "missingDependencies": []
+            }
+          }
+        },
+        "D02": {
+          "values": {
+            "press": null,
+            "cart": null,
+            "varnish": 0
+          },
+          "atoms": {
+            "press": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press"
+              ],
+              "alternativeValues": []
+            },
+            "cart": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart"
+              ],
+              "alternativeValues": []
+            },
+            "varnish": {
+              "value": 0,
+              "evidence": [
+                "F-C12-1"
+              ],
+              "missingDependencies": [],
+              "alternativeValues": []
+            }
+          }
+        },
+        "D03": {
+          "atoms": {
+            "araUnderstands": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA understands P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araPress6": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P12@1 quantity 6"
+              ],
+              "reason": "R05"
+            },
+            "beaEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "BEA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "beaCart2": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araUnderstands": "unknown",
+            "araEndorses": "unknown",
+            "araPress6": "unknown",
+            "beaEndorses": "unknown",
+            "beaCart2": "unknown"
+          }
+        },
+        "D04": {
+          "atoms": {
+            "araExplores": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA explores P10@1"
+              ],
+              "reason": "R04"
+            },
+            "araUnderstands": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA understands P10@1"
+              ],
+              "reason": "R04"
+            },
+            "araPress5": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5"
+              ],
+              "reason": "R05"
+            },
+            "beaCart1": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P10@1 quantity 1"
+              ],
+              "reason": "R05"
+            },
+            "cyVarnish1": {
+              "status": "supported",
+              "evidence": [
+                "F-C13-1",
+                "F-C14-1",
+                "R05"
+              ],
+              "missingDependencies": [],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araExplores": "unknown",
+            "araUnderstands": "unknown",
+            "araPress5": "unknown",
+            "beaCart1": "unknown",
+            "cyVarnish1": "supported"
+          }
+        },
+        "D05": {
+          "atoms": {
+            "modelAttributesAraEndorsement": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "model attribution ARA/P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "devMayDescribe": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "complete DEV mandate for describe"
+              ],
+              "reason": "R06"
+            },
+            "devMayCommit": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "complete DEV mandate for commit"
+              ],
+              "reason": "R06"
+            }
+          },
+          "values": {
+            "modelAttributesAraEndorsement": "unknown",
+            "araEndorses": "unknown",
+            "devMayDescribe": "unknown",
+            "devMayCommit": "unknown"
+          }
+        },
+        "D06": {
+          "atoms": {
+            "inspection": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "inspection": "unknown"
+          }
+        },
+        "D07": {
+          "atoms": {
+            "P8.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart"
+              ],
+              "reason": "R07"
+            },
+            "P8.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P8.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P8@1 quantity 4",
+                "commitment BEA/cart P8@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P8.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P8.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P8@1 quantity 4",
+                "commitment BEA/cart P8@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P12.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart"
+              ],
+              "reason": "R07"
+            },
+            "P12.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P12.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R07"
+            },
+            "P12.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P12.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R07"
+            },
+            "P10.physical": {
+              "status": "refuted",
+              "evidence": [
+                "F-C12-1",
+                "R03",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C02-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P10.inspection": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "release inspection P10@1"
+              ],
+              "reason": "R07"
+            },
+            "P10.readiness": {
+              "status": "refuted",
+              "evidence": [
+                "F-C02-1",
+                "F-C12-1",
+                "R03",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "supported",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "unknown",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "refuted",
+            "P10.demand": "supported",
+            "P10.commitment": "unknown",
+            "P10.inspection": "unknown",
+            "P10.readiness": "refuted"
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null,
+            "evidence": [
+              "R08"
+            ],
+            "missingDependencies": [
+              "capacity ARA/press",
+              "capacity BEA/cart",
+              "commitment ARA/press P12@1 quantity 6",
+              "commitment ARA/press P8@1 quantity 4",
+              "commitment BEA/cart P12@1 quantity 2",
+              "commitment BEA/cart P8@1 quantity 1"
+            ]
+          },
+          "atoms": {
+            "selection": {
+              "value": "none_supported",
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment ARA/press P8@1 quantity 4",
+                "commitment BEA/cart P12@1 quantity 2",
+                "commitment BEA/cart P8@1 quantity 1"
+              ]
+            },
+            "output": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment ARA/press P8@1 quantity 4",
+                "commitment BEA/cart P12@1 quantity 2",
+                "commitment BEA/cart P8@1 quantity 1"
+              ]
+            },
+            "cost": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment ARA/press P8@1 quantity 4",
+                "commitment BEA/cart P12@1 quantity 2",
+                "commitment BEA/cart P8@1 quantity 1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "contextId": "A4",
+      "cardIds": [
+        "C01",
+        "C02",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "activeClaimIds": [
+        "F-C15-1",
+        "F-C16-1",
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 10,
+            "requirementVersion": 2
+          },
+          "atoms": {
+            "demand": {
+              "value": 10,
+              "evidence": [
+                "F-C17-1"
+              ],
+              "missingDependencies": []
+            },
+            "requirementVersion": {
+              "value": 2,
+              "evidence": [
+                "F-C17-1"
+              ],
+              "missingDependencies": []
+            }
+          }
+        },
+        "D02": {
+          "values": {
+            "press": null,
+            "cart": null,
+            "varnish": null
+          },
+          "atoms": {
+            "press": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press"
+              ],
+              "alternativeValues": []
+            },
+            "cart": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity BEA/cart"
+              ],
+              "alternativeValues": []
+            },
+            "varnish": {
+              "value": null,
+              "evidence": [],
+              "missingDependencies": [
+                "capacity CY/varnish"
+              ],
+              "alternativeValues": []
+            }
+          }
+        },
+        "D03": {
+          "atoms": {
+            "araUnderstands": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA understands P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "araPress6": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P12@1 quantity 6"
+              ],
+              "reason": "R05"
+            },
+            "beaEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "BEA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "beaCart2": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araUnderstands": "unknown",
+            "araEndorses": "unknown",
+            "araPress6": "unknown",
+            "beaEndorses": "unknown",
+            "beaCart2": "unknown"
+          }
+        },
+        "D04": {
+          "atoms": {
+            "araExplores": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA explores P10@1"
+              ],
+              "reason": "R04"
+            },
+            "araUnderstands": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA understands P10@1"
+              ],
+              "reason": "R04"
+            },
+            "araPress5": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5"
+              ],
+              "reason": "R05"
+            },
+            "beaCart1": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment BEA/cart P10@1 quantity 1"
+              ],
+              "reason": "R05"
+            },
+            "cyVarnish1": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment CY/varnish P10@1 quantity 1"
+              ],
+              "reason": "R05"
+            }
+          },
+          "values": {
+            "araExplores": "unknown",
+            "araUnderstands": "unknown",
+            "araPress5": "unknown",
+            "beaCart1": "unknown",
+            "cyVarnish1": "unknown"
+          }
+        },
+        "D05": {
+          "atoms": {
+            "modelAttributesAraEndorsement": {
+              "status": "supported",
+              "evidence": [
+                "F-C16-1",
+                "R04"
+              ],
+              "missingDependencies": [],
+              "reason": "R04"
+            },
+            "araEndorses": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "ARA endorses P12@1"
+              ],
+              "reason": "R04"
+            },
+            "devMayDescribe": {
+              "status": "supported",
+              "evidence": [
+                "F-C15-1",
+                "R06"
+              ],
+              "missingDependencies": [],
+              "reason": "R06"
+            },
+            "devMayCommit": {
+              "status": "refuted",
+              "evidence": [
+                "F-C15-1",
+                "R06"
+              ],
+              "missingDependencies": [],
+              "reason": "R06"
+            }
+          },
+          "values": {
+            "modelAttributesAraEndorsement": "supported",
+            "araEndorses": "unknown",
+            "devMayDescribe": "supported",
+            "devMayCommit": "refuted"
+          }
+        },
+        "D06": {
+          "atoms": {
+            "inspection": {
+              "status": "conflicted",
+              "evidence": [
+                "F-C18-1",
+                "F-C18-2",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "inspection": "conflicted"
+          }
+        },
+        "D07": {
+          "atoms": {
+            "P8.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart"
+              ],
+              "reason": "R07"
+            },
+            "P8.demand": {
+              "status": "refuted",
+              "evidence": [
+                "F-C17-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P8.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P8@1 quantity 4",
+                "commitment BEA/cart P8@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P8.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P8.readiness": {
+              "status": "refuted",
+              "evidence": [
+                "F-C17-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P12.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart"
+              ],
+              "reason": "R07"
+            },
+            "P12.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C17-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P12.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R07"
+            },
+            "P12.inspection": {
+              "status": "supported",
+              "evidence": [
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "inspection not required"
+            },
+            "P12.readiness": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ],
+              "reason": "R07"
+            },
+            "P10.physical": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "capacity CY/varnish"
+              ],
+              "reason": "R07"
+            },
+            "P10.demand": {
+              "status": "supported",
+              "evidence": [
+                "F-C17-1",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.commitment": {
+              "status": "unknown",
+              "evidence": [],
+              "missingDependencies": [
+                "commitment ARA/press P10@1 quantity 5",
+                "commitment BEA/cart P10@1 quantity 1",
+                "commitment CY/varnish P10@1 quantity 1"
+              ],
+              "reason": "R07"
+            },
+            "P10.inspection": {
+              "status": "conflicted",
+              "evidence": [
+                "F-C18-1",
+                "F-C18-2",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            },
+            "P10.readiness": {
+              "status": "refuted",
+              "evidence": [
+                "F-C17-1",
+                "F-C18-1",
+                "F-C18-2",
+                "R07"
+              ],
+              "missingDependencies": [],
+              "reason": "R07"
+            }
+          },
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "refuted",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "refuted",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "unknown",
+            "P10.demand": "supported",
+            "P10.commitment": "unknown",
+            "P10.inspection": "conflicted",
+            "P10.readiness": "refuted"
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null,
+            "evidence": [
+              "R08"
+            ],
+            "missingDependencies": [
+              "capacity ARA/press",
+              "capacity BEA/cart",
+              "commitment ARA/press P12@1 quantity 6",
+              "commitment BEA/cart P12@1 quantity 2"
+            ]
+          },
+          "atoms": {
+            "selection": {
+              "value": "none_supported",
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ]
+            },
+            "output": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ]
+            },
+            "cost": {
+              "value": null,
+              "evidence": [
+                "R08"
+              ],
+              "missingDependencies": [
+                "capacity ARA/press",
+                "capacity BEA/cart",
+                "commitment ARA/press P12@1 quantity 6",
+                "commitment BEA/cart P12@1 quantity 2"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "union": {
+    "contextId": "UNION",
+    "cardIds": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "activeClaimIds": [
+      "F-C03-1",
+      "F-C04-1",
+      "F-C04-2",
+      "F-C04-3",
+      "F-C04-4",
+      "F-C05-1",
+      "F-C06-1",
+      "F-C07-1",
+      "F-C08-1",
+      "F-C08-2",
+      "F-C08-3",
+      "F-C09-1",
+      "F-C09-2",
+      "F-C10-1",
+      "F-C12-1",
+      "F-C13-1",
+      "F-C14-1",
+      "F-C15-1",
+      "F-C16-1",
+      "F-C17-1",
+      "F-C18-1",
+      "F-C18-2"
+    ],
+    "tasks": {
+      "D01": {
+        "values": {
+          "demand": 10,
+          "requirementVersion": 2
+        },
+        "atoms": {
+          "demand": {
+            "value": 10,
+            "evidence": [
+              "F-C17-1"
+            ],
+            "missingDependencies": []
+          },
+          "requirementVersion": {
+            "value": 2,
+            "evidence": [
+              "F-C17-1"
+            ],
+            "missingDependencies": []
+          }
+        }
+      },
+      "D02": {
+        "values": {
+          "press": 6,
+          "cart": 2,
+          "varnish": 0
+        },
+        "atoms": {
+          "press": {
+            "value": 6,
+            "evidence": [
+              "F-C03-1"
+            ],
+            "missingDependencies": [],
+            "alternativeValues": []
+          },
+          "cart": {
+            "value": 2,
+            "evidence": [
+              "F-C07-1"
+            ],
+            "missingDependencies": [],
+            "alternativeValues": []
+          },
+          "varnish": {
+            "value": 0,
+            "evidence": [
+              "F-C12-1"
+            ],
+            "missingDependencies": [],
+            "alternativeValues": []
+          }
+        }
+      },
+      "D03": {
+        "atoms": {
+          "araUnderstands": {
+            "status": "supported",
+            "evidence": [
+              "F-C04-1",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "araEndorses": {
+            "status": "refuted",
+            "evidence": [
+              "F-C04-2",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "araPress6": {
+            "status": "supported",
+            "evidence": [
+              "F-C04-3",
+              "R05"
+            ],
+            "missingDependencies": [],
+            "reason": "R05"
+          },
+          "beaEndorses": {
+            "status": "supported",
+            "evidence": [
+              "F-C08-2",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "beaCart2": {
+            "status": "supported",
+            "evidence": [
+              "F-C08-3",
+              "R05"
+            ],
+            "missingDependencies": [],
+            "reason": "R05"
+          }
+        },
+        "values": {
+          "araUnderstands": "supported",
+          "araEndorses": "refuted",
+          "araPress6": "supported",
+          "beaEndorses": "supported",
+          "beaCart2": "supported"
+        }
+      },
+      "D04": {
+        "atoms": {
+          "araExplores": {
+            "status": "supported",
+            "evidence": [
+              "F-C05-1",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "araUnderstands": {
+            "status": "supported",
+            "evidence": [
+              "F-C06-1",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "araPress5": {
+            "status": "unknown",
+            "evidence": [],
+            "missingDependencies": [
+              "commitment ARA/press P10@1 quantity 5"
+            ],
+            "reason": "R05"
+          },
+          "beaCart1": {
+            "status": "refuted",
+            "evidence": [
+              "F-C10-1",
+              "R05"
+            ],
+            "missingDependencies": [],
+            "reason": "R05"
+          },
+          "cyVarnish1": {
+            "status": "supported",
+            "evidence": [
+              "F-C13-1",
+              "F-C14-1",
+              "R05"
+            ],
+            "missingDependencies": [],
+            "reason": "R05"
+          }
+        },
+        "values": {
+          "araExplores": "supported",
+          "araUnderstands": "supported",
+          "araPress5": "unknown",
+          "beaCart1": "refuted",
+          "cyVarnish1": "supported"
+        }
+      },
+      "D05": {
+        "atoms": {
+          "modelAttributesAraEndorsement": {
+            "status": "supported",
+            "evidence": [
+              "F-C16-1",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "araEndorses": {
+            "status": "refuted",
+            "evidence": [
+              "F-C04-2",
+              "R04"
+            ],
+            "missingDependencies": [],
+            "reason": "R04"
+          },
+          "devMayDescribe": {
+            "status": "supported",
+            "evidence": [
+              "F-C15-1",
+              "R06"
+            ],
+            "missingDependencies": [],
+            "reason": "R06"
+          },
+          "devMayCommit": {
+            "status": "refuted",
+            "evidence": [
+              "F-C15-1",
+              "R06"
+            ],
+            "missingDependencies": [],
+            "reason": "R06"
+          }
+        },
+        "values": {
+          "modelAttributesAraEndorsement": "supported",
+          "araEndorses": "refuted",
+          "devMayDescribe": "supported",
+          "devMayCommit": "refuted"
+        }
+      },
+      "D06": {
+        "atoms": {
+          "inspection": {
+            "status": "conflicted",
+            "evidence": [
+              "F-C18-1",
+              "F-C18-2",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          }
+        },
+        "values": {
+          "inspection": "conflicted"
+        }
+      },
+      "D07": {
+        "atoms": {
+          "P8.physical": {
+            "status": "supported",
+            "evidence": [
+              "F-C03-1",
+              "F-C07-1",
+              "R03",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P8.demand": {
+            "status": "refuted",
+            "evidence": [
+              "F-C17-1",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P8.commitment": {
+            "status": "supported",
+            "evidence": [
+              "F-C04-4",
+              "F-C09-2",
+              "R05",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P8.inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "inspection not required"
+          },
+          "P8.readiness": {
+            "status": "refuted",
+            "evidence": [
+              "F-C03-1",
+              "F-C04-4",
+              "F-C07-1",
+              "F-C09-2",
+              "F-C17-1",
+              "R03",
+              "R05",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P12.physical": {
+            "status": "supported",
+            "evidence": [
+              "F-C03-1",
+              "F-C07-1",
+              "R03",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P12.demand": {
+            "status": "supported",
+            "evidence": [
+              "F-C17-1",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P12.commitment": {
+            "status": "supported",
+            "evidence": [
+              "F-C04-3",
+              "F-C08-3",
+              "R05",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P12.inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "inspection not required"
+          },
+          "P12.readiness": {
+            "status": "supported",
+            "evidence": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C17-1",
+              "R03",
+              "R05",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P10.physical": {
+            "status": "refuted",
+            "evidence": [
+              "F-C03-1",
+              "F-C07-1",
+              "F-C12-1",
+              "R03",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P10.demand": {
+            "status": "supported",
+            "evidence": [
+              "F-C17-1",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P10.commitment": {
+            "status": "refuted",
+            "evidence": [
+              "F-C10-1",
+              "F-C13-1",
+              "F-C14-1",
+              "R05",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P10.inspection": {
+            "status": "conflicted",
+            "evidence": [
+              "F-C18-1",
+              "F-C18-2",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          },
+          "P10.readiness": {
+            "status": "refuted",
+            "evidence": [
+              "F-C03-1",
+              "F-C07-1",
+              "F-C10-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R03",
+              "R05",
+              "R07"
+            ],
+            "missingDependencies": [],
+            "reason": "R07"
+          }
+        },
+        "values": {
+          "P8.physical": "supported",
+          "P8.demand": "refuted",
+          "P8.commitment": "supported",
+          "P8.inspection": "supported",
+          "P8.readiness": "refuted",
+          "P12.physical": "supported",
+          "P12.demand": "supported",
+          "P12.commitment": "supported",
+          "P12.inspection": "supported",
+          "P12.readiness": "supported",
+          "P10.physical": "refuted",
+          "P10.demand": "supported",
+          "P10.commitment": "refuted",
+          "P10.inspection": "conflicted",
+          "P10.readiness": "refuted"
+        }
+      },
+      "D08": {
+        "values": {
+          "selection": "P12",
+          "output": 12,
+          "cost": 7,
+          "evidence": [
+            "F-C03-1",
+            "F-C04-3",
+            "F-C07-1",
+            "F-C08-3",
+            "F-C17-1",
+            "R03",
+            "R05",
+            "R07",
+            "R08"
+          ]
+        },
+        "atoms": {
+          "selection": {
+            "value": "P12",
+            "evidence": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C17-1",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "missingDependencies": []
+          },
+          "output": {
+            "value": 12,
+            "evidence": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C17-1",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "missingDependencies": []
+          },
+          "cost": {
+            "value": 7,
+            "evidence": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C17-1",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "missingDependencies": []
+          }
+        }
+      },
+      "D09": {
+        "values": {
+          "lineageCount": 1,
+          "maxQuantity": 1
+        },
+        "atoms": {
+          "lineageCount": {
+            "value": 1,
+            "evidence": [
+              "F-C13-1",
+              "F-C14-1",
+              "R09"
+            ],
+            "missingDependencies": []
+          },
+          "maxQuantity": {
+            "value": 1,
+            "evidence": [
+              "F-C13-1",
+              "F-C14-1",
+              "R05",
+              "R09"
+            ],
+            "missingDependencies": []
+          }
+        },
+        "reason": "F-C13-1 and F-C14-1 restate one lineage K-CY-P10; preserve both source references."
+      },
+      "D10": {
+        "values": {
+          "C06_C13": "same_surface_different_relation",
+          "C13_C14": "different_surface_same_relation"
+        },
+        "atoms": {
+          "C06_C13": {
+            "value": "same_surface_different_relation",
+            "evidence": [
+              "F-C06-1",
+              "F-C13-1",
+              "R04"
+            ],
+            "missingDependencies": []
+          },
+          "C13_C14": {
+            "value": "different_surface_same_relation",
+            "evidence": [
+              "F-C13-1",
+              "F-C14-1",
+              "R09"
+            ],
+            "missingDependencies": []
+          }
+        },
+        "reason": "C06 and C13 share surface \"Ready.\" but predicates/roles differ; C13 and C14 differ in surface yet same actor-plan-version-resource-quantity and lineage."
+      }
+    }
+  },
+  "withheldContexts": [
+    {
+      "contextId": "W01",
+      "taskId": "W01",
+      "activeClaimIds": [
+        "W01-F1",
+        "W01-F2",
+        "W01-F3",
+        "W01-F4",
+        "W01-F5",
+        "W01-F6",
+        "W01-F7"
+      ],
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "supported",
+        "inspection": "supported",
+        "readiness": "supported",
+        "selection": "Q7",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "atoms": {
+        "physical": {
+          "status": "supported",
+          "evidence": [
+            "R03",
+            "R07",
+            "W01-F1",
+            "W01-F2"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "demand": {
+          "status": "supported",
+          "evidence": [
+            "R07",
+            "W01-F3"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "commitment": {
+          "status": "supported",
+          "evidence": [
+            "R05",
+            "R07",
+            "W01-F6",
+            "W01-F7"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "inspection": {
+          "status": "supported",
+          "evidence": [
+            "R07"
+          ],
+          "missingDependencies": [],
+          "reason": "inspection not required"
+        },
+        "readiness": {
+          "status": "supported",
+          "evidence": [
+            "R03",
+            "R05",
+            "R07",
+            "W01-F1",
+            "W01-F2",
+            "W01-F3",
+            "W01-F6",
+            "W01-F7"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "selection": {
+          "value": "Q7",
+          "evidence": [
+            "R03",
+            "R05",
+            "R07",
+            "R08",
+            "W01-F1",
+            "W01-F2",
+            "W01-F3",
+            "W01-F6",
+            "W01-F7"
+          ],
+          "missingDependencies": []
+        },
+        "linEndorsesV1": {
+          "status": "refuted",
+          "evidence": [
+            "R04",
+            "W01-F5"
+          ],
+          "missingDependencies": [],
+          "reason": "R04"
+        },
+        "utterancePredicate": {
+          "value": "resource_commitment",
+          "evidence": [
+            "W01-F7",
+            "R04"
+          ],
+          "missingDependencies": []
+        }
+      },
+      "reason": "The same surface “Ready.” has a typed relation determined by its bound claim, never by wording alone."
+    },
+    {
+      "contextId": "W02",
+      "taskId": "W02",
+      "activeClaimIds": [
+        "W02-F1",
+        "W02-F2",
+        "W02-F3",
+        "W02-F4",
+        "W02-F5",
+        "W02-F6"
+      ],
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "unknown",
+        "inspection": "supported",
+        "readiness": "unknown",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "understands"
+      },
+      "atoms": {
+        "physical": {
+          "status": "supported",
+          "evidence": [
+            "R03",
+            "R07",
+            "W02-F1",
+            "W02-F2"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "demand": {
+          "status": "supported",
+          "evidence": [
+            "R07",
+            "W02-F3"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "commitment": {
+          "status": "unknown",
+          "evidence": [],
+          "missingDependencies": [
+            "commitment LIN/bench Q7@1 quantity 3"
+          ],
+          "reason": "R07"
+        },
+        "inspection": {
+          "status": "supported",
+          "evidence": [
+            "R07"
+          ],
+          "missingDependencies": [],
+          "reason": "inspection not required"
+        },
+        "readiness": {
+          "status": "unknown",
+          "evidence": [],
+          "missingDependencies": [
+            "commitment LIN/bench Q7@1 quantity 3"
+          ],
+          "reason": "R07"
+        },
+        "selection": {
+          "value": "none_supported",
+          "evidence": [
+            "R08"
+          ],
+          "missingDependencies": [
+            "commitment LIN/bench Q7@1 quantity 3"
+          ]
+        },
+        "linEndorsesV1": {
+          "status": "refuted",
+          "evidence": [
+            "R04",
+            "W02-F5"
+          ],
+          "missingDependencies": [],
+          "reason": "R04"
+        },
+        "utterancePredicate": {
+          "value": "understands",
+          "evidence": [
+            "W02-F4",
+            "R04"
+          ],
+          "missingDependencies": []
+        }
+      },
+      "reason": "The same surface “Ready.” has a typed relation determined by its bound claim, never by wording alone."
+    },
+    {
+      "contextId": "W03",
+      "taskId": "W03",
+      "activeClaimIds": [
+        "W03-F1",
+        "W03-F2",
+        "W03-F3",
+        "W03-F4",
+        "W03-F5",
+        "W03-F6",
+        "W03-F7"
+      ],
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "unknown",
+        "inspection": "supported",
+        "readiness": "unknown",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "atoms": {
+        "physical": {
+          "status": "supported",
+          "evidence": [
+            "R03",
+            "R07",
+            "W03-F1",
+            "W03-F2"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "demand": {
+          "status": "supported",
+          "evidence": [
+            "R07",
+            "W03-F3"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "commitment": {
+          "status": "unknown",
+          "evidence": [],
+          "missingDependencies": [
+            "commitment LIN/bench Q7@2 quantity 3",
+            "commitment NOA/courier Q7@2 quantity 1"
+          ],
+          "reason": "R07"
+        },
+        "inspection": {
+          "status": "supported",
+          "evidence": [
+            "R07"
+          ],
+          "missingDependencies": [],
+          "reason": "inspection not required"
+        },
+        "readiness": {
+          "status": "unknown",
+          "evidence": [],
+          "missingDependencies": [
+            "commitment LIN/bench Q7@2 quantity 3",
+            "commitment NOA/courier Q7@2 quantity 1"
+          ],
+          "reason": "R07"
+        },
+        "selection": {
+          "value": "none_supported",
+          "evidence": [
+            "R08"
+          ],
+          "missingDependencies": [
+            "commitment LIN/bench Q7@2 quantity 3",
+            "commitment NOA/courier Q7@2 quantity 1"
+          ]
+        },
+        "linEndorsesV1": {
+          "status": "refuted",
+          "evidence": [
+            "R04",
+            "W03-F5"
+          ],
+          "missingDependencies": [],
+          "reason": "R04"
+        },
+        "utterancePredicate": {
+          "value": "resource_commitment",
+          "evidence": [
+            "W03-F7",
+            "R04"
+          ],
+          "missingDependencies": []
+        }
+      },
+      "reason": "The same surface “Ready.” has a typed relation determined by its bound claim, never by wording alone."
+    },
+    {
+      "contextId": "W04",
+      "taskId": "W04",
+      "activeClaimIds": [
+        "W04-F1",
+        "W04-F2",
+        "W04-F4",
+        "W04-F5",
+        "W04-F6",
+        "W04-F7",
+        "W04-F8"
+      ],
+      "values": {
+        "physical": "supported",
+        "demand": "refuted",
+        "commitment": "supported",
+        "inspection": "supported",
+        "readiness": "refuted",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "atoms": {
+        "physical": {
+          "status": "supported",
+          "evidence": [
+            "R03",
+            "R07",
+            "W04-F1",
+            "W04-F2"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "demand": {
+          "status": "refuted",
+          "evidence": [
+            "R07",
+            "W04-F8"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "commitment": {
+          "status": "supported",
+          "evidence": [
+            "R05",
+            "R07",
+            "W04-F6",
+            "W04-F7"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "inspection": {
+          "status": "supported",
+          "evidence": [
+            "R07"
+          ],
+          "missingDependencies": [],
+          "reason": "inspection not required"
+        },
+        "readiness": {
+          "status": "refuted",
+          "evidence": [
+            "R03",
+            "R05",
+            "R07",
+            "W04-F1",
+            "W04-F2",
+            "W04-F6",
+            "W04-F7",
+            "W04-F8"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "selection": {
+          "value": "none_supported",
+          "evidence": [
+            "R08"
+          ],
+          "missingDependencies": []
+        },
+        "linEndorsesV1": {
+          "status": "refuted",
+          "evidence": [
+            "R04",
+            "W04-F5"
+          ],
+          "missingDependencies": [],
+          "reason": "R04"
+        },
+        "utterancePredicate": {
+          "value": "resource_commitment",
+          "evidence": [
+            "W04-F7",
+            "R04"
+          ],
+          "missingDependencies": []
+        }
+      },
+      "reason": "The same surface “Ready.” has a typed relation determined by its bound claim, never by wording alone."
+    },
+    {
+      "contextId": "W05",
+      "taskId": "W05",
+      "activeClaimIds": [
+        "W05-F1",
+        "W05-F2",
+        "W05-F3",
+        "W05-F4",
+        "W05-F5",
+        "W05-F6",
+        "W05-F7",
+        "W05-F8"
+      ],
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "conflicted",
+        "inspection": "supported",
+        "readiness": "conflicted",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "atoms": {
+        "physical": {
+          "status": "supported",
+          "evidence": [
+            "R03",
+            "R07",
+            "W05-F1",
+            "W05-F2"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "demand": {
+          "status": "supported",
+          "evidence": [
+            "R07",
+            "W05-F3"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "commitment": {
+          "status": "conflicted",
+          "evidence": [
+            "R05",
+            "R07",
+            "W05-F6",
+            "W05-F7",
+            "W05-F8"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "inspection": {
+          "status": "supported",
+          "evidence": [
+            "R07"
+          ],
+          "missingDependencies": [],
+          "reason": "inspection not required"
+        },
+        "readiness": {
+          "status": "conflicted",
+          "evidence": [
+            "R03",
+            "R05",
+            "R07",
+            "W05-F1",
+            "W05-F2",
+            "W05-F3",
+            "W05-F6",
+            "W05-F7",
+            "W05-F8"
+          ],
+          "missingDependencies": [],
+          "reason": "R07"
+        },
+        "selection": {
+          "value": "none_supported",
+          "evidence": [
+            "R08"
+          ],
+          "missingDependencies": []
+        },
+        "linEndorsesV1": {
+          "status": "refuted",
+          "evidence": [
+            "R04",
+            "W05-F5"
+          ],
+          "missingDependencies": [],
+          "reason": "R04"
+        },
+        "utterancePredicate": {
+          "value": "resource_commitment",
+          "evidence": [
+            "W05-F7",
+            "R04"
+          ],
+          "missingDependencies": []
+        }
+      },
+      "reason": "The same surface “Ready.” has a typed relation determined by its bound claim, never by wording alone."
+    },
+    {
+      "contextId": "W06-SHARED",
+      "taskId": "W06",
+      "activeClaimIds": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y"
+      ],
+      "bundles": [
+        {
+          "planIds": [],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SHARED-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SHARED-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 0,
+          "cost": 0
+        },
+        {
+          "planIds": [
+            "X"
+          ],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R03",
+              "R10",
+              "W06-SHARED-CAP-bay"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SHARED-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R05",
+              "R10",
+              "W06-SHARED-K-X"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07",
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R03",
+              "R05",
+              "R07",
+              "R10",
+              "W06-SHARED-CAP-bay",
+              "W06-SHARED-D",
+              "W06-SHARED-K-X"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 6,
+          "cost": 2
+        },
+        {
+          "planIds": [
+            "Y"
+          ],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R03",
+              "R10",
+              "W06-SHARED-CAP-bay"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SHARED-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R05",
+              "R10",
+              "W06-SHARED-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07",
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R03",
+              "R05",
+              "R07",
+              "R10",
+              "W06-SHARED-CAP-bay",
+              "W06-SHARED-D",
+              "W06-SHARED-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 6,
+          "cost": 3
+        },
+        {
+          "planIds": [
+            "X",
+            "Y"
+          ],
+          "physical": {
+            "status": "refuted",
+            "evidence": [
+              "R03",
+              "R10",
+              "W06-SHARED-CAP-bay"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "supported",
+            "evidence": [
+              "R10",
+              "W06-SHARED-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R05",
+              "R10",
+              "W06-SHARED-K-X",
+              "W06-SHARED-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07",
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R03",
+              "R05",
+              "R07",
+              "R10",
+              "W06-SHARED-CAP-bay",
+              "W06-SHARED-D",
+              "W06-SHARED-K-X",
+              "W06-SHARED-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 12,
+          "cost": 5
+        }
+      ],
+      "selection": "none_supported",
+      "selectionEvidence": [
+        "R10"
+      ],
+      "reason": "The surface summary is identical across W06 contexts, but exact resource identity changes the X+Y bundle capacity test."
+    },
+    {
+      "contextId": "W06-SPLIT",
+      "taskId": "W06",
+      "activeClaimIds": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y"
+      ],
+      "bundles": [
+        {
+          "planIds": [],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SPLIT-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SPLIT-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 0,
+          "cost": 0
+        },
+        {
+          "planIds": [
+            "X"
+          ],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R03",
+              "R10",
+              "W06-SPLIT-CAP-bayX"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SPLIT-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R05",
+              "R10",
+              "W06-SPLIT-K-X"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07",
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R03",
+              "R05",
+              "R07",
+              "R10",
+              "W06-SPLIT-CAP-bayX",
+              "W06-SPLIT-D",
+              "W06-SPLIT-K-X"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 6,
+          "cost": 2
+        },
+        {
+          "planIds": [
+            "Y"
+          ],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R03",
+              "R10",
+              "W06-SPLIT-CAP-bayY"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "refuted",
+            "evidence": [
+              "R10",
+              "W06-SPLIT-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R05",
+              "R10",
+              "W06-SPLIT-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07",
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "refuted",
+            "evidence": [
+              "R03",
+              "R05",
+              "R07",
+              "R10",
+              "W06-SPLIT-CAP-bayY",
+              "W06-SPLIT-D",
+              "W06-SPLIT-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 6,
+          "cost": 3
+        },
+        {
+          "planIds": [
+            "X",
+            "Y"
+          ],
+          "physical": {
+            "status": "supported",
+            "evidence": [
+              "R03",
+              "R10",
+              "W06-SPLIT-CAP-bayX",
+              "W06-SPLIT-CAP-bayY"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "demand": {
+            "status": "supported",
+            "evidence": [
+              "R10",
+              "W06-SPLIT-D"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "commitment": {
+            "status": "supported",
+            "evidence": [
+              "R05",
+              "R10",
+              "W06-SPLIT-K-X",
+              "W06-SPLIT-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "inspection": {
+            "status": "supported",
+            "evidence": [
+              "R07",
+              "R10"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "readiness": {
+            "status": "supported",
+            "evidence": [
+              "R03",
+              "R05",
+              "R07",
+              "R10",
+              "W06-SPLIT-CAP-bayX",
+              "W06-SPLIT-CAP-bayY",
+              "W06-SPLIT-D",
+              "W06-SPLIT-K-X",
+              "W06-SPLIT-K-Y"
+            ],
+            "missingDependencies": [],
+            "reason": "R10"
+          },
+          "output": 12,
+          "cost": 5
+        }
+      ],
+      "selection": [
+        "X",
+        "Y"
+      ],
+      "selectionEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y"
+      ],
+      "reason": "The surface summary is identical across W06 contexts, but exact resource identity changes the X+Y bundle capacity test."
+    }
+  ],
+  "consequentialAmbiguities": [
+    {
+      "id": "A01",
+      "issue": "A task-level unknown aggregate may have some known subcomponents. Its top-level evidence is empty by the task provenance rule, while the named missing dependencies and separately listed components retain the known sources.",
+      "disposition": "Preserve component evidence; score unknown aggregate as unknown, not as a negative fact."
+    },
+    {
+      "id": "A02",
+      "issue": "W03 asks LIN endorsement at version 1 even though Q7 catalog version is 2.",
+      "disposition": "Version-1 endorsement remains refuted from W03-F5; plan-v2 commitment is unknown because supplied grants bind version 1."
+    },
+    {
+      "id": "A03",
+      "issue": "W05 contains positive and negative exact commitment claims without supersession.",
+      "disposition": "Commitment and readiness are conflicted, not eligible; do not let a positive claim cancel an explicit refusal."
+    },
+    {
+      "id": "A04",
+      "issue": "C13 and C14 have different surface text but one lineage. Counting source references is 2; counting distinct grants is 1.",
+      "disposition": "Retain both references while deduplicating lineages."
+    },
+    {
+      "id": "A05",
+      "issue": "Bundle W06-SHARED has independent positive plan grants for X and Y but one physical bay unit.",
+      "disposition": "Combined two-unit demand exceeds capacity; do not infer simultaneous capacity from separate conditional grants."
+    }
+  ],
+  "authorKeyCompared": false
+}

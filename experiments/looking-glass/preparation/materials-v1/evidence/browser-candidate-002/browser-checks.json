@@ -1,0 +1,87 @@
+{
+  "recordedAtUtc": "2026-09-20T21:42:09.694707+00:00",
+  "candidate": "002",
+  "status": "PASS_RECOVERED_PREVIEW_WITH_PRESERVED_INITIAL_ATTEMPT_FAILURE",
+  "allIntendedActionOutcomesPassed": false,
+  "checks": [
+    {
+      "check": "DOM source records equal frozen world",
+      "pass": true,
+      "detail": {
+        "observations": 14,
+        "recordsPerObservation": 18,
+        "totalRecords": 252
+      }
+    },
+    {
+      "check": "All recorded tool operations completed",
+      "pass": true,
+      "detail": "Completion is not proof of intended UI state"
+    },
+    {
+      "check": "Preserved initial click miss and mislabeled followup",
+      "pass": true,
+      "detail": "Open-click did not open; following action labeled close actually opened"
+    },
+    {
+      "check": "Recovery keyboard open and mouse close",
+      "pass": true,
+      "detail": {
+        "openObservation": 8,
+        "closeObservation": 11
+      }
+    },
+    {
+      "check": "Visible mouse open and keyboard close",
+      "pass": true,
+      "detail": {
+        "openObservation": 12,
+        "closeObservation": 13
+      }
+    },
+    {
+      "check": "Reload restores collapsed disclosures",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "check": "Original screenshots match pins",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "check": "No horizontal overflow at observed viewports",
+      "pass": true,
+      "detail": [
+        [
+          1279,
+          904
+        ],
+        [
+          1280,
+          720
+        ]
+      ]
+    },
+    {
+      "check": "No captured error or warning",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "check": "Preview HTML changes only displayed candidate number",
+      "pass": true,
+      "detail": "001 original UI evidence applies to unchanged structure;002 observations retained separately"
+    }
+  ],
+  "allDeclaredChecksPass": true,
+  "servedHtmlSha256": "c9b9fab9694c8b64de211aa42a35134934f04eb33954489553b2f6a92d78bf06",
+  "actionsAttempted": 7,
+  "toolCompletions": 7,
+  "intentMatchedTransitions": 5,
+  "mismatchedIntents": 2,
+  "observations": 14,
+  "originalScreenshots": 3,
+  "researchOutputs": 0,
+  "humanParticipants": 0
+}

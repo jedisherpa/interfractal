@@ -1,0 +1,22 @@
+{
+  "runId": "G7-INTERPRET-002",
+  "closedAtUtc": "2026-09-20T07:06:23.415895+00:00",
+  "humanParticipants": 0,
+  "actualBrowserObservations": 214,
+  "successfulHostActionCalls": 94,
+  "hostActionCalls": 94,
+  "originalCaptures": 11,
+  "checkpointObservations": 36,
+  "activityRows": 115,
+  "notes": [
+    "All actions used supported CUA UI APIs; DOM evaluation was read-only. Browser observations and activity rows are separate evidence types.",
+    "Q01 deliberately submitted option a as a software mechanism check, then revealed; Q05 skipped with null choice, then revealed. Neither is a human interpretation result.",
+    "All nine paused checkpoints were checked at baseline, after exploration and reset, after Reopen, and after page reload.",
+    "The first prescribed-sequence elapsed observation occurred at natural six-second end; no intermediate timestamp is claimed. The full 48-second saved tour was observed active and at natural paused end.",
+    "At 960 CSS pixels, complete source records and the public inspector required vertical scrolling. No horizontal page overflow was observed.",
+    "Gate3 and Gate6 historical links were actually clicked and their DOM identities inspected. No historical screenshots were requested in this trial.",
+    "Original JPEG bytes are unmodified. Screenshots record only visible viewport portions; DOM observations provide separate full-state evidence.",
+    "Candidate001 failed evidence remains separately preserved. Candidate002 produced no warning/error console messages in the queried captured log.",
+    "Core trial is closed. Later review-page/handoff checks are separate files and cannot amend these observations."
+  ]
+}

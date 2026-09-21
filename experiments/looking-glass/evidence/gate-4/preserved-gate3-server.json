@@ -1,0 +1,9 @@
+{
+  "checkedAtUtc": "2026-09-20T03:16:53.386463+00:00",
+  "url": "http://127.0.0.1:43996/api/run",
+  "status": 200,
+  "runId": "G3-TESSERACT-003",
+  "buildId": "g3-6c31bc16aeca4460",
+  "matchesSavedRunBytes": true,
+  "runSha256": "3e4ca26073e15772858c53167681ee8aaf236e615206f9c89e523026be815e4f"
+}

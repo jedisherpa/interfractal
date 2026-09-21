@@ -1,0 +1,22 @@
+{
+  "version": "gate-1-prespecification-freeze-v1",
+  "frozenAtUtc": "2026-09-20T01:07:42.504847+00:00",
+  "status": "Frozen before Gate1 browser trials; predictions not observed results",
+  "gate": 1,
+  "gate2Approved": false,
+  "gate0PreservationCommit": "6fb4ecbd516aa9a9dc23710c7ffcda4e8c65b819",
+  "files": [
+    {
+      "path": "experiment-charter.md",
+      "sha256": "5166cebde784cdad18021906761d5a46ed28fd50e11a1ea4c2a1a80a374e7d30"
+    },
+    {
+      "path": "record-contract.md",
+      "sha256": "600d3155a9a08b8c293c604d64943214eedd982b5343bd6ab724e55699d64ce3"
+    },
+    {
+      "path": "independent-predictions.json",
+      "sha256": "c3b5cae1525fa5411e09c76e1488af37e96ad095ad575ad094c86dc874d8b903"
+    }
+  ]
+}

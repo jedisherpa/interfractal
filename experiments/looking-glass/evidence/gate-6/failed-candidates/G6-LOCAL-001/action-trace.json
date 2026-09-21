@@ -1,0 +1,173 @@
+[
+  {
+    "index": 0,
+    "label": "baseline-checkpoint-0",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:47:07.559Z",
+    "beforeObservation": 2,
+    "success": true,
+    "afterObservation": 3,
+    "endedAtUtc": "2026-09-20T05:47:08.025Z"
+  },
+  {
+    "index": 1,
+    "label": "baseline-checkpoint-5000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-5000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:08.025Z",
+    "beforeObservation": 3,
+    "success": true,
+    "afterObservation": 4,
+    "endedAtUtc": "2026-09-20T05:47:08.496Z"
+  },
+  {
+    "index": 2,
+    "label": "baseline-checkpoint-10000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-10000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:08.496Z",
+    "beforeObservation": 4,
+    "success": true,
+    "afterObservation": 5,
+    "endedAtUtc": "2026-09-20T05:47:08.843Z"
+  },
+  {
+    "index": 3,
+    "label": "baseline-checkpoint-15000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:08.843Z",
+    "beforeObservation": 5,
+    "success": true,
+    "afterObservation": 6,
+    "endedAtUtc": "2026-09-20T05:47:09.195Z"
+  },
+  {
+    "index": 4,
+    "label": "baseline-checkpoint-20000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-20000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:09.196Z",
+    "beforeObservation": 6,
+    "success": true,
+    "afterObservation": 7,
+    "endedAtUtc": "2026-09-20T05:47:09.530Z"
+  },
+  {
+    "index": 5,
+    "label": "baseline-checkpoint-25000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:09.531Z",
+    "beforeObservation": 7,
+    "success": true,
+    "afterObservation": 8,
+    "endedAtUtc": "2026-09-20T05:47:09.910Z"
+  },
+  {
+    "index": 6,
+    "label": "baseline-checkpoint-30000",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-30000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:09.910Z",
+    "beforeObservation": 8,
+    "success": true,
+    "afterObservation": 9,
+    "endedAtUtc": "2026-09-20T05:47:10.236Z"
+  },
+  {
+    "index": 7,
+    "label": "candidate001-expanded-repair",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-15000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:38.253Z",
+    "beforeObservation": 9,
+    "success": true,
+    "afterObservation": 10,
+    "endedAtUtc": "2026-09-20T05:47:38.852Z"
+  },
+  {
+    "index": 8,
+    "label": "candidate001-claims-alternatives",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-25000"
+    },
+    "startedAtUtc": "2026-09-20T05:47:39.324Z",
+    "beforeObservation": 12,
+    "success": true,
+    "afterObservation": 13,
+    "endedAtUtc": "2026-09-20T05:47:39.759Z"
+  },
+  {
+    "index": 9,
+    "label": "candidate001-plain-claims",
+    "control": {
+      "kind": "click",
+      "id": "view-plain"
+    },
+    "startedAtUtc": "2026-09-20T05:47:56.729Z",
+    "beforeObservation": 13,
+    "success": true,
+    "afterObservation": 14,
+    "endedAtUtc": "2026-09-20T05:47:57.295Z"
+  },
+  {
+    "index": 10,
+    "label": "candidate001-narrow-viewport",
+    "control": {
+      "kind": "viewport",
+      "width": 960,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T05:47:57.304Z",
+    "beforeObservation": 14,
+    "success": true,
+    "afterObservation": 15,
+    "endedAtUtc": "2026-09-20T05:47:57.498Z"
+  },
+  {
+    "index": 11,
+    "label": "candidate001-final-paused-start",
+    "control": {
+      "kind": "click",
+      "id": "checkpoint-0"
+    },
+    "startedAtUtc": "2026-09-20T05:48:18.531Z",
+    "beforeObservation": 17,
+    "success": true,
+    "afterObservation": 18,
+    "endedAtUtc": "2026-09-20T05:48:19.002Z"
+  },
+  {
+    "index": 12,
+    "label": "candidate001-restore-wide",
+    "control": {
+      "kind": "viewport",
+      "width": 1280,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T05:48:19.002Z",
+    "beforeObservation": 18,
+    "success": true,
+    "afterObservation": 19,
+    "endedAtUtc": "2026-09-20T05:48:19.202Z"
+  }
+]

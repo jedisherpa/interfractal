@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "gate-2-prespec-freeze-v1",
+  "gate": 2,
+  "frozenAtUtc": "2026-09-20T01:46:30.247897+00:00",
+  "status": "Frozen before actual browser trials; no browser result asserted",
+  "authorRole": "GPT-6 Astra xhigh specification/synthesis agent",
+  "approvedScope": "Hopf correspondence and separately labeled candidate shared-reference view; Gate 3 excluded",
+  "implementationContractAgreed": "Builder confirmed pre-browser fixes and custom surface selection;640\u00d7420 fixed layout recorded. G2-HOPF-001 preserved as pre-browser nonconforming candidate;G2-HOPF-002 to be created after this freeze.",
+  "files": [
+    {
+      "path": "docs/gate-2/experiment-charter.md",
+      "sha256": "84973cde2d9f27d30abb1ec25e7ab14e495a1774356d260bfe98777bb7c6b4f2",
+      "bytes": 13410
+    },
+    {
+      "path": "docs/gate-2/model-contract.md",
+      "sha256": "e9aeaecadd27ab404efb36bac8d989fed9c95daf59ed02e9260bdf1ddcbd3e07",
+      "bytes": 10841
+    },
+    {
+      "path": "docs/gate-2/record-contract.md",
+      "sha256": "f9a08dc83a55011bee057d927cd0f8e76ff60f6a39d65731230c1490d26d47eb",
+      "bytes": 10072
+    },
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    },
+    {
+      "path": "docs/gate-2/independent-predictions.json",
+      "sha256": "888d718a94ca66b6980da693bb3c5277ea28a3d4040b735ec8b6df616fd9a200",
+      "bytes": 8842
+    }
+  ]
+}

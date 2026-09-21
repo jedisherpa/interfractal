@@ -1,0 +1,1251 @@
+{
+  "schema": "gate13-review-export-v1",
+  "runId": "G13-MISLEAD-001",
+  "buildId": "g13-daa720242d62cd4c184f",
+  "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+  "provenance": "host_controlled_software",
+  "humanParticipants": 0,
+  "includedThroughSequence": 47,
+  "selectedContext": {
+    "mode": "saved-tour",
+    "caseId": "MISMATCH",
+    "version": "original",
+    "representation": "visual",
+    "cursorSeconds": 24,
+    "paused": true,
+    "sourceOpen": false,
+    "recordsOpen": false,
+    "activeCheck": false,
+    "activeCorrection": false,
+    "endReason": null
+  },
+  "localReviews": {
+    "MISMATCH": {
+      "check": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "check",
+          "caseId": "MISMATCH",
+          "provenance": "host_controlled_software",
+          "recordId": "L-K-1",
+          "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+          "atUtc": "2026-09-20T20:11:29.487Z",
+          "originEventReference": "G13-MISLEAD-001-ui:3"
+        },
+        "content": {
+          "schema": "gate13-check-content-v1",
+          "caseId": "MISMATCH",
+          "sourceId": "MISMATCH-SOURCE-1",
+          "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+          "originalDisplayId": "MISMATCH-ORIGINAL-1",
+          "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+          "statementId": "MISMATCH-TWICE-1",
+          "statementVersion": 1,
+          "statementText": "B completed twice as many tiles as A.",
+          "predicate": "TWICE_COUNT@1",
+          "predicateOperands": {
+            "leftB": 90,
+            "rightTwiceA": 160
+          },
+          "verdict": false,
+          "difference": 10,
+          "countRatio": {
+            "status": "defined",
+            "numerator": 9,
+            "denominator": 8
+          },
+          "originalOffsets": [
+            10,
+            20
+          ],
+          "originalSvgWidths": [
+            80,
+            160
+          ],
+          "originalLengthRatio": {
+            "status": "defined",
+            "numerator": 2,
+            "denominator": 1
+          },
+          "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+          "provenanceClass": "authored-software-check"
+        },
+        "contentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735"
+      },
+      "correction": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "correction",
+          "caseId": "MISMATCH",
+          "provenance": "host_controlled_software",
+          "checkRecordId": "L-K-1",
+          "recordId": "L-C-1",
+          "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+          "atUtc": "2026-09-20T20:11:30.156Z",
+          "originEventReference": "G13-MISLEAD-001-ui:4"
+        },
+        "content": {
+          "schema": "gate13-correction-content-v1",
+          "caseId": "MISMATCH",
+          "sourceId": "MISMATCH-SOURCE-1",
+          "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+          "originalDisplayId": "MISMATCH-ORIGINAL-1",
+          "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+          "checkContentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735",
+          "correctedDisplayId": "MISMATCH-CORRECTED-1",
+          "correctedDisplayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+          "correctedText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+          "oldLowerBound": 70,
+          "newLowerBound": 0,
+          "oldSvgWidths": [
+            80,
+            160
+          ],
+          "newSvgWidths": [
+            192,
+            216
+          ],
+          "difference": 10,
+          "countRatio": {
+            "status": "defined",
+            "numerator": 9,
+            "denominator": 8
+          },
+          "correctedLengthRatio": {
+            "status": "defined",
+            "numerator": 9,
+            "denominator": 8
+          },
+          "factsTrue": true,
+          "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded.",
+          "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+          "provenanceClass": "authored-software-correction"
+        },
+        "contentHash": "de7fc135d604ad50ac0db1bf320f000632d2217008df9c30986042b812409bf1"
+      }
+    },
+    "TRUE_CONTROL": {
+      "check": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "check",
+          "caseId": "TRUE_CONTROL",
+          "provenance": "host_controlled_software",
+          "recordId": "L-K-2",
+          "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+          "atUtc": "2026-09-20T20:13:17.149Z",
+          "originEventReference": "G13-MISLEAD-001-ui:22"
+        },
+        "content": {
+          "schema": "gate13-check-content-v1",
+          "caseId": "TRUE_CONTROL",
+          "sourceId": "TRUE_CONTROL-SOURCE-1",
+          "sourceHash": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+          "originalDisplayId": "TRUE_CONTROL-ORIGINAL-1",
+          "originalDisplayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+          "statementId": "TRUE_CONTROL-TWICE-1",
+          "statementVersion": 1,
+          "statementText": "B completed twice as many tiles as A.",
+          "predicate": "TWICE_COUNT@1",
+          "predicateOperands": {
+            "leftB": 80,
+            "rightTwiceA": 80
+          },
+          "verdict": true,
+          "difference": 40,
+          "countRatio": {
+            "status": "defined",
+            "numerator": 2,
+            "denominator": 1
+          },
+          "originalOffsets": [
+            40,
+            80
+          ],
+          "originalSvgWidths": [
+            96,
+            192
+          ],
+          "originalLengthRatio": {
+            "status": "defined",
+            "numerator": 2,
+            "denominator": 1
+          },
+          "diagnosis": "statement-and-zero-baseline-ratio-agree",
+          "provenanceClass": "authored-software-check"
+        },
+        "contentHash": "1045a862be506534cd515f614c47607efe8ba01f53a7c7f56201084c8aae9d40"
+      },
+      "correction": null
+    },
+    "ZERO_CONTROL": {
+      "check": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "check",
+          "caseId": "ZERO_CONTROL",
+          "provenance": "host_controlled_software",
+          "recordId": "L-K-3",
+          "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+          "atUtc": "2026-09-20T20:13:37.320Z",
+          "originEventReference": "G13-MISLEAD-001-ui:25"
+        },
+        "content": {
+          "schema": "gate13-check-content-v1",
+          "caseId": "ZERO_CONTROL",
+          "sourceId": "ZERO_CONTROL-SOURCE-1",
+          "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+          "originalDisplayId": "ZERO_CONTROL-ORIGINAL-1",
+          "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+          "statementId": "ZERO_CONTROL-TWICE-1",
+          "statementVersion": 1,
+          "statementText": "B completed twice as many tiles as A.",
+          "predicate": "TWICE_COUNT@1",
+          "predicateOperands": {
+            "leftB": 10,
+            "rightTwiceA": 0
+          },
+          "verdict": false,
+          "difference": 10,
+          "countRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "originalOffsets": [
+            0,
+            10
+          ],
+          "originalSvgWidths": [
+            0,
+            24
+          ],
+          "originalLengthRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "diagnosis": "zero-reference-count-ratio-undefined",
+          "provenanceClass": "authored-software-check"
+        },
+        "contentHash": "19274c31ee4fb0d3685a532c2a37eefa84c5c8ff3e9270064bc75ac43e5365a3"
+      },
+      "correction": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "correction",
+          "caseId": "ZERO_CONTROL",
+          "provenance": "host_controlled_software",
+          "checkRecordId": "L-K-3",
+          "recordId": "L-C-2",
+          "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+          "atUtc": "2026-09-20T20:13:37.993Z",
+          "originEventReference": "G13-MISLEAD-001-ui:26"
+        },
+        "content": {
+          "schema": "gate13-correction-content-v1",
+          "caseId": "ZERO_CONTROL",
+          "sourceId": "ZERO_CONTROL-SOURCE-1",
+          "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+          "originalDisplayId": "ZERO_CONTROL-ORIGINAL-1",
+          "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+          "checkContentHash": "19274c31ee4fb0d3685a532c2a37eefa84c5c8ff3e9270064bc75ac43e5365a3",
+          "correctedDisplayId": "ZERO_CONTROL-CORRECTED-1",
+          "correctedDisplayHash": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d",
+          "correctedText": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+          "oldLowerBound": 0,
+          "newLowerBound": 0,
+          "oldSvgWidths": [
+            0,
+            24
+          ],
+          "newSvgWidths": [
+            0,
+            24
+          ],
+          "difference": 10,
+          "countRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "correctedLengthRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "factsTrue": true,
+          "debrief": "The original headline is false: 10 is not twice 0. B/A and the bar-length ratio have a zero denominator; neither is a finite multiplicative factor. The counts and their difference remain exactly known. Correct the statement without inventing a percentage, infinity value or positive A bar.",
+          "diagnosis": "zero-reference-count-ratio-undefined",
+          "provenanceClass": "authored-software-correction"
+        },
+        "contentHash": "1d49e0b5834968f6f36b2e99c985d8c3f2e9d02eccffcd6847844c0114b4183c"
+      }
+    }
+  },
+  "canonicalDefinitions": {
+    "MISMATCH": {
+      "checkContentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735",
+      "correctionContentHash": "de7fc135d604ad50ac0db1bf320f000632d2217008df9c30986042b812409bf1"
+    },
+    "TRUE_CONTROL": {
+      "checkContentHash": "1045a862be506534cd515f614c47607efe8ba01f53a7c7f56201084c8aae9d40",
+      "correctionContentHash": null
+    },
+    "ZERO_CONTROL": {
+      "checkContentHash": "19274c31ee4fb0d3685a532c2a37eefa84c5c8ff3e9270064bc75ac43e5365a3",
+      "correctionContentHash": "1d49e0b5834968f6f36b2e99c985d8c3f2e9d02eccffcd6847844c0114b4183c"
+    }
+  },
+  "events": [
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 1,
+      "eventId": "G13-MISLEAD-001-ui:1",
+      "atUtc": "2026-09-20T20:11:28.157Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "review-start",
+      "intended": {
+        "caseId": "MISMATCH"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4",
+      "afterSemanticFingerprint": "f42749b23c086bb8b752ca023ae564d723ed0a2229c4b160db6104b410c49236"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 2,
+      "eventId": "G13-MISLEAD-001-ui:2",
+      "atUtc": "2026-09-20T20:11:28.920Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "source-inspect",
+      "intended": {
+        "open": true
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "f42749b23c086bb8b752ca023ae564d723ed0a2229c4b160db6104b410c49236",
+      "afterSemanticFingerprint": "70f9c4acece19b86841f42b2ee33db5fe3cde40f91a477b6a3522678a3018339"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 3,
+      "eventId": "G13-MISLEAD-001-ui:3",
+      "atUtc": "2026-09-20T20:11:29.488Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "statement-check",
+      "intended": {
+        "caseId": "MISMATCH",
+        "recordId": "L-K-1",
+        "contentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "70f9c4acece19b86841f42b2ee33db5fe3cde40f91a477b6a3522678a3018339",
+      "afterSemanticFingerprint": "9dc863a5d3bc30811bfe6a8011fcd3e92711ca96e6a98cea464da478b98d3468"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 4,
+      "eventId": "G13-MISLEAD-001-ui:4",
+      "atUtc": "2026-09-20T20:11:30.159Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "correction-apply",
+      "intended": {
+        "caseId": "MISMATCH",
+        "recordId": "L-C-1",
+        "checkRecordId": "L-K-1",
+        "contentHash": "de7fc135d604ad50ac0db1bf320f000632d2217008df9c30986042b812409bf1"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "9dc863a5d3bc30811bfe6a8011fcd3e92711ca96e6a98cea464da478b98d3468",
+      "afterSemanticFingerprint": "811ee153bd99b310de802243cb26090676e464899e26694cf4eb51b9bc9c534c"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 5,
+      "eventId": "G13-MISLEAD-001-ui:5",
+      "atUtc": "2026-09-20T20:11:54.592Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "record-inspect",
+      "intended": {
+        "open": true
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "811ee153bd99b310de802243cb26090676e464899e26694cf4eb51b9bc9c534c",
+      "afterSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 6,
+      "eventId": "G13-MISLEAD-001-ui:6",
+      "atUtc": "2026-09-20T20:11:55.204Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "review-export",
+      "intended": {
+        "kind": "document-review-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078",
+      "afterSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 7,
+      "eventId": "G13-MISLEAD-001-ui:7",
+      "atUtc": "2026-09-20T20:12:37.727Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "version-select",
+      "intended": {
+        "version": "original"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078",
+      "afterSemanticFingerprint": "2b098a939ef1955a1e472b01dd3881cb594286a0058c348ad20d977cd44bc7a5"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 8,
+      "eventId": "G13-MISLEAD-001-ui:8",
+      "atUtc": "2026-09-20T20:12:50.210Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "version-select",
+      "intended": {
+        "version": "corrected"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "2b098a939ef1955a1e472b01dd3881cb594286a0058c348ad20d977cd44bc7a5",
+      "afterSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 9,
+      "eventId": "G13-MISLEAD-001-ui:9",
+      "atUtc": "2026-09-20T20:12:50.632Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "version-select",
+      "intended": {
+        "version": "original"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078",
+      "afterSemanticFingerprint": "2b098a939ef1955a1e472b01dd3881cb594286a0058c348ad20d977cd44bc7a5"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 10,
+      "eventId": "G13-MISLEAD-001-ui:10",
+      "atUtc": "2026-09-20T20:12:51.043Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "version-select",
+      "intended": {
+        "version": "corrected"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "2b098a939ef1955a1e472b01dd3881cb594286a0058c348ad20d977cd44bc7a5",
+      "afterSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 11,
+      "eventId": "G13-MISLEAD-001-ui:11",
+      "atUtc": "2026-09-20T20:12:51.112Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "representation-select",
+      "intended": {
+        "representation": "plain"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "7e7a11ed65201629841d988f883fecfd44860c1e625ef11432e901cc3f3a8078",
+      "afterSemanticFingerprint": "bc13f6afaa2c49da4431bf38ec5e509cec4c46e6244a86c1a9702571b847b8e3"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 12,
+      "eventId": "G13-MISLEAD-001-ui:12",
+      "atUtc": "2026-09-20T20:12:51.703Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "review-export",
+      "intended": {
+        "kind": "document-review-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "bc13f6afaa2c49da4431bf38ec5e509cec4c46e6244a86c1a9702571b847b8e3",
+      "afterSemanticFingerprint": "bc13f6afaa2c49da4431bf38ec5e509cec4c46e6244a86c1a9702571b847b8e3"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 13,
+      "eventId": "G13-MISLEAD-001-ui:13",
+      "atUtc": "2026-09-20T20:13:16.059Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 0
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "bc13f6afaa2c49da4431bf38ec5e509cec4c46e6244a86c1a9702571b847b8e3",
+      "afterSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 14,
+      "eventId": "G13-MISLEAD-001-ui:14",
+      "atUtc": "2026-09-20T20:13:16.101Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 4,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 4
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4",
+      "afterSemanticFingerprint": "722cf8d9f19658e35142b3f35c6e87dcc3ae5a322a1aa6f95103edde05e621a8"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 15,
+      "eventId": "G13-MISLEAD-001-ui:15",
+      "atUtc": "2026-09-20T20:13:16.134Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 8,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 8
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "722cf8d9f19658e35142b3f35c6e87dcc3ae5a322a1aa6f95103edde05e621a8",
+      "afterSemanticFingerprint": "daa1f6beb2577d40f850fdc771b4fbfed6c549468e5da29cff4b675896ff427a"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 16,
+      "eventId": "G13-MISLEAD-001-ui:16",
+      "atUtc": "2026-09-20T20:13:16.182Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 12,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 12
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "daa1f6beb2577d40f850fdc771b4fbfed6c549468e5da29cff4b675896ff427a",
+      "afterSemanticFingerprint": "c94e8c0d635e76c7364edd0240e7026bfda76c711b4b5bfec170800c83e63965"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 17,
+      "eventId": "G13-MISLEAD-001-ui:17",
+      "atUtc": "2026-09-20T20:13:16.231Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 16,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 16
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "c94e8c0d635e76c7364edd0240e7026bfda76c711b4b5bfec170800c83e63965",
+      "afterSemanticFingerprint": "854a362af3733bdc969fe0ad0e7559c7356757463a41d406471620dd8ac8f254"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 18,
+      "eventId": "G13-MISLEAD-001-ui:18",
+      "atUtc": "2026-09-20T20:13:16.282Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 20,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 20
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "854a362af3733bdc969fe0ad0e7559c7356757463a41d406471620dd8ac8f254",
+      "afterSemanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 19,
+      "eventId": "G13-MISLEAD-001-ui:19",
+      "atUtc": "2026-09-20T20:13:16.364Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 24
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac",
+      "afterSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 20,
+      "eventId": "G13-MISLEAD-001-ui:20",
+      "atUtc": "2026-09-20T20:13:16.395Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "case-select",
+      "intended": {
+        "caseId": "TRUE_CONTROL"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d",
+      "afterSemanticFingerprint": "4442e079a1ebd6a1e9f3e84348f1e559333f9f24188f204419aa0461144d8018"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 21,
+      "eventId": "G13-MISLEAD-001-ui:21",
+      "atUtc": "2026-09-20T20:13:17.110Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "source-inspect",
+      "intended": {
+        "open": true
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "4442e079a1ebd6a1e9f3e84348f1e559333f9f24188f204419aa0461144d8018",
+      "afterSemanticFingerprint": "433de30d44e933eb924a69bdd89199995c016f029a57c7043c9a62b08af88ac9"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 22,
+      "eventId": "G13-MISLEAD-001-ui:22",
+      "atUtc": "2026-09-20T20:13:17.151Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "statement-check",
+      "intended": {
+        "caseId": "TRUE_CONTROL",
+        "recordId": "L-K-2",
+        "contentHash": "1045a862be506534cd515f614c47607efe8ba01f53a7c7f56201084c8aae9d40"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "433de30d44e933eb924a69bdd89199995c016f029a57c7043c9a62b08af88ac9",
+      "afterSemanticFingerprint": "60cec0b024df59074b403d9c67d4225043e06584513c4d8c6da45e019403bb6e"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 23,
+      "eventId": "G13-MISLEAD-001-ui:23",
+      "atUtc": "2026-09-20T20:13:36.279Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "case-select",
+      "intended": {
+        "caseId": "ZERO_CONTROL"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "60cec0b024df59074b403d9c67d4225043e06584513c4d8c6da45e019403bb6e",
+      "afterSemanticFingerprint": "ff42ab5c671c686e6fba7e0a2bf307fe0c9a83b76107b94c62c20251153cda94"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 24,
+      "eventId": "G13-MISLEAD-001-ui:24",
+      "atUtc": "2026-09-20T20:13:36.776Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "source-inspect",
+      "intended": {
+        "open": true
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "ff42ab5c671c686e6fba7e0a2bf307fe0c9a83b76107b94c62c20251153cda94",
+      "afterSemanticFingerprint": "c446f1307f671e8db02581e729affef3df2550b1fda9d488548a3f55e9c2e9a9"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 25,
+      "eventId": "G13-MISLEAD-001-ui:25",
+      "atUtc": "2026-09-20T20:13:37.322Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "statement-check",
+      "intended": {
+        "caseId": "ZERO_CONTROL",
+        "recordId": "L-K-3",
+        "contentHash": "19274c31ee4fb0d3685a532c2a37eefa84c5c8ff3e9270064bc75ac43e5365a3"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "c446f1307f671e8db02581e729affef3df2550b1fda9d488548a3f55e9c2e9a9",
+      "afterSemanticFingerprint": "16412262e63acfa313b58f823e138e945991ed8b0261d730894e0a2bc09c57f0"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 26,
+      "eventId": "G13-MISLEAD-001-ui:26",
+      "atUtc": "2026-09-20T20:13:37.996Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "correction-apply",
+      "intended": {
+        "caseId": "ZERO_CONTROL",
+        "recordId": "L-C-2",
+        "checkRecordId": "L-K-3",
+        "contentHash": "1d49e0b5834968f6f36b2e99c985d8c3f2e9d02eccffcd6847844c0114b4183c"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "16412262e63acfa313b58f823e138e945991ed8b0261d730894e0a2bc09c57f0",
+      "afterSemanticFingerprint": "4356f06bd9d562ac7cf1027a397f8f48dfd454ea6945fc995810adf33fa5d7d3"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 27,
+      "eventId": "G13-MISLEAD-001-ui:27",
+      "atUtc": "2026-09-20T20:13:38.064Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "representation-select",
+      "intended": {
+        "representation": "plain"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "4356f06bd9d562ac7cf1027a397f8f48dfd454ea6945fc995810adf33fa5d7d3",
+      "afterSemanticFingerprint": "872e6103adfb4828a4d208df2d4ca2a7605cb297f039f5ca6d180e6ff3876dec"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 28,
+      "eventId": "G13-MISLEAD-001-ui:28",
+      "atUtc": "2026-09-20T20:13:53.005Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "case-select",
+      "intended": {
+        "caseId": "MISMATCH"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "872e6103adfb4828a4d208df2d4ca2a7605cb297f039f5ca6d180e6ff3876dec",
+      "afterSemanticFingerprint": "46a1732da0e2d3d3f8026c9a57df24bd534e445e2731a7ee088872eef5a69ac5"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 29,
+      "eventId": "G13-MISLEAD-001-ui:29",
+      "atUtc": "2026-09-20T20:13:53.488Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "statement-check",
+      "intended": {
+        "caseId": "MISMATCH",
+        "reusedRecordId": "L-K-1"
+      },
+      "result": "reused",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "46a1732da0e2d3d3f8026c9a57df24bd534e445e2731a7ee088872eef5a69ac5",
+      "afterSemanticFingerprint": "46a1732da0e2d3d3f8026c9a57df24bd534e445e2731a7ee088872eef5a69ac5"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 30,
+      "eventId": "G13-MISLEAD-001-ui:30",
+      "atUtc": "2026-09-20T20:13:53.992Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "version-select",
+      "intended": {
+        "version": "original"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "46a1732da0e2d3d3f8026c9a57df24bd534e445e2731a7ee088872eef5a69ac5",
+      "afterSemanticFingerprint": "7548ed6bd4b19411699c1b90059add7d5975bdbe6422ddd4ebd770203c764ae2"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 31,
+      "eventId": "G13-MISLEAD-001-ui:31",
+      "atUtc": "2026-09-20T20:13:54.038Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "representation-select",
+      "intended": {
+        "representation": "visual"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "7548ed6bd4b19411699c1b90059add7d5975bdbe6422ddd4ebd770203c764ae2",
+      "afterSemanticFingerprint": "c4576dcb88ee10dfbb3a7158f4471d057dbc489a6bc63775b69bfb60754b9075"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 32,
+      "eventId": "G13-MISLEAD-001-ui:32",
+      "atUtc": "2026-09-20T20:14:11.642Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "version-select",
+      "intended": {
+        "version": "corrected"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "c4576dcb88ee10dfbb3a7158f4471d057dbc489a6bc63775b69bfb60754b9075",
+      "afterSemanticFingerprint": "320dc2002a44a00a3b8b84ca04fe9f55a69c9c33fb624fbf206d199aac18e5b5"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 33,
+      "eventId": "G13-MISLEAD-001-ui:33",
+      "atUtc": "2026-09-20T20:14:12.875Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "representation-select",
+      "intended": {
+        "representation": "plain"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "320dc2002a44a00a3b8b84ca04fe9f55a69c9c33fb624fbf206d199aac18e5b5",
+      "afterSemanticFingerprint": "46a1732da0e2d3d3f8026c9a57df24bd534e445e2731a7ee088872eef5a69ac5"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 34,
+      "eventId": "G13-MISLEAD-001-ui:34",
+      "atUtc": "2026-09-20T20:14:13.739Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "record-inspect",
+      "intended": {
+        "open": true
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "46a1732da0e2d3d3f8026c9a57df24bd534e445e2731a7ee088872eef5a69ac5",
+      "afterSemanticFingerprint": "d95d18f02abb17e76c27e68af8d35de3d5e0b74c3080a5d4cc79410667e85ec4"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 35,
+      "eventId": "G13-MISLEAD-001-ui:35",
+      "atUtc": "2026-09-20T20:14:14.406Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "review-export",
+      "intended": {
+        "kind": "document-review-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "d95d18f02abb17e76c27e68af8d35de3d5e0b74c3080a5d4cc79410667e85ec4",
+      "afterSemanticFingerprint": "d95d18f02abb17e76c27e68af8d35de3d5e0b74c3080a5d4cc79410667e85ec4"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 36,
+      "eventId": "G13-MISLEAD-001-ui:36",
+      "atUtc": "2026-09-20T20:14:32.610Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 0
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "d95d18f02abb17e76c27e68af8d35de3d5e0b74c3080a5d4cc79410667e85ec4",
+      "afterSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 37,
+      "eventId": "G13-MISLEAD-001-ui:37",
+      "atUtc": "2026-09-20T20:14:32.668Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 4,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 4
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4",
+      "afterSemanticFingerprint": "722cf8d9f19658e35142b3f35c6e87dcc3ae5a322a1aa6f95103edde05e621a8"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 38,
+      "eventId": "G13-MISLEAD-001-ui:38",
+      "atUtc": "2026-09-20T20:14:32.706Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 8,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 8
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "722cf8d9f19658e35142b3f35c6e87dcc3ae5a322a1aa6f95103edde05e621a8",
+      "afterSemanticFingerprint": "daa1f6beb2577d40f850fdc771b4fbfed6c549468e5da29cff4b675896ff427a"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 39,
+      "eventId": "G13-MISLEAD-001-ui:39",
+      "atUtc": "2026-09-20T20:14:32.772Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 12,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 12
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "daa1f6beb2577d40f850fdc771b4fbfed6c549468e5da29cff4b675896ff427a",
+      "afterSemanticFingerprint": "c94e8c0d635e76c7364edd0240e7026bfda76c711b4b5bfec170800c83e63965"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 40,
+      "eventId": "G13-MISLEAD-001-ui:40",
+      "atUtc": "2026-09-20T20:14:32.817Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 16,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 16
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "c94e8c0d635e76c7364edd0240e7026bfda76c711b4b5bfec170800c83e63965",
+      "afterSemanticFingerprint": "854a362af3733bdc969fe0ad0e7559c7356757463a41d406471620dd8ac8f254"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 41,
+      "eventId": "G13-MISLEAD-001-ui:41",
+      "atUtc": "2026-09-20T20:14:32.894Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 20,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 20
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "854a362af3733bdc969fe0ad0e7559c7356757463a41d406471620dd8ac8f254",
+      "afterSemanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 42,
+      "eventId": "G13-MISLEAD-001-ui:42",
+      "atUtc": "2026-09-20T20:14:32.964Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 24
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac",
+      "afterSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 43,
+      "eventId": "G13-MISLEAD-001-ui:43",
+      "atUtc": "2026-09-20T20:14:33.426Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 20,
+      "type": "tour-checkpoint-previous",
+      "intended": {
+        "seconds": 20
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d",
+      "afterSemanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 44,
+      "eventId": "G13-MISLEAD-001-ui:44",
+      "atUtc": "2026-09-20T20:14:33.837Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "tour-checkpoint-next",
+      "intended": {
+        "seconds": 24
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac",
+      "afterSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 45,
+      "eventId": "G13-MISLEAD-001-ui:45",
+      "atUtc": "2026-09-20T20:14:34.527Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 0,
+      "type": "tour-reopen",
+      "intended": {
+        "seconds": 0
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d",
+      "afterSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 46,
+      "eventId": "G13-MISLEAD-001-ui:46",
+      "atUtc": "2026-09-20T20:14:34.583Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "tour-checkpoint-direct",
+      "intended": {
+        "seconds": 24
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4",
+      "afterSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d"
+    },
+    {
+      "schema": "gate13-event-v1",
+      "sequence": 47,
+      "eventId": "G13-MISLEAD-001-ui:47",
+      "atUtc": "2026-09-20T20:14:34.954Z",
+      "runId": "G13-MISLEAD-001",
+      "buildId": "g13-daa720242d62cd4c184f",
+      "documentId": "d27d8a6f-141c-4818-9ef6-6c425d88107e",
+      "cursorSeconds": 24,
+      "type": "review-export",
+      "intended": {
+        "kind": "document-review-record"
+      },
+      "result": "accepted",
+      "origin": "user-control",
+      "actor": "host_controlled_software_ui",
+      "provenance": "host_controlled_software",
+      "beforeSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d",
+      "afterSemanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d"
+    }
+  ]
+}

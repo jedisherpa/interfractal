@@ -1,0 +1,216 @@
+{
+  "page": {
+    "clientWidth": 960,
+    "scrollWidth": 960
+  },
+  "panels": [
+    {
+      "classes": "pair-card a",
+      "clientHeight": 163,
+      "clientWidth": 196,
+      "id": "",
+      "left": 507.5,
+      "right": 705.25,
+      "scrollHeight": 163,
+      "scrollWidth": 196,
+      "tag": "DIV",
+      "width": 197.75
+    },
+    {
+      "classes": "pair-card b",
+      "clientHeight": 163,
+      "clientWidth": 196,
+      "id": "",
+      "left": 715.25,
+      "right": 913,
+      "scrollHeight": 163,
+      "scrollWidth": 196,
+      "tag": "DIV",
+      "width": 197.75
+    },
+    {
+      "classes": "toolbar",
+      "clientHeight": 92,
+      "clientWidth": 906,
+      "id": "",
+      "left": 26,
+      "right": 934,
+      "scrollHeight": 92,
+      "scrollWidth": 906,
+      "tag": "SECTION",
+      "width": 908
+    },
+    {
+      "classes": "panel",
+      "clientHeight": 142,
+      "clientWidth": 446,
+      "id": "",
+      "left": 26,
+      "right": 473.5,
+      "scrollHeight": 142,
+      "scrollWidth": 446,
+      "tag": "ARTICLE",
+      "width": 447.5
+    },
+    {
+      "classes": "panel",
+      "clientHeight": 142,
+      "clientWidth": 446,
+      "id": "",
+      "left": 486.5,
+      "right": 934,
+      "scrollHeight": 142,
+      "scrollWidth": 446,
+      "tag": "ARTICLE",
+      "width": 447.5
+    },
+    {
+      "classes": "panel",
+      "clientHeight": 151,
+      "clientWidth": 446,
+      "id": "",
+      "left": 26,
+      "right": 473.5,
+      "scrollHeight": 151,
+      "scrollWidth": 446,
+      "tag": "ARTICLE",
+      "width": 447.5
+    },
+    {
+      "classes": "",
+      "clientHeight": 29,
+      "clientWidth": 64,
+      "id": "vertex-select",
+      "left": 84.6015625,
+      "right": 150.6015625,
+      "scrollHeight": 29,
+      "scrollWidth": 64,
+      "tag": "SELECT",
+      "width": 66
+    },
+    {
+      "classes": "",
+      "clientHeight": 29,
+      "clientWidth": 108,
+      "id": "edge-select",
+      "left": 192.15625,
+      "right": 301.65625,
+      "scrollHeight": 29,
+      "scrollWidth": 108,
+      "tag": "SELECT",
+      "width": 109.5
+    },
+    {
+      "classes": "panel",
+      "clientHeight": 151,
+      "clientWidth": 446,
+      "id": "",
+      "left": 486.5,
+      "right": 934,
+      "scrollHeight": 151,
+      "scrollWidth": 446,
+      "tag": "ARTICLE",
+      "width": 447.5
+    },
+    {
+      "classes": "ob-card ",
+      "clientHeight": 263,
+      "clientWidth": 281,
+      "id": "",
+      "left": 47,
+      "right": 329.6640625,
+      "scrollHeight": 263,
+      "scrollWidth": 281,
+      "tag": "DIV",
+      "width": 282.6640625
+    },
+    {
+      "classes": "ob-card ",
+      "clientHeight": 263,
+      "clientWidth": 281,
+      "id": "",
+      "left": 338.6640625,
+      "right": 621.328125,
+      "scrollHeight": 263,
+      "scrollWidth": 281,
+      "tag": "DIV",
+      "width": 282.6640625
+    },
+    {
+      "classes": "ob-card chosen",
+      "clientHeight": 263,
+      "clientWidth": 281,
+      "id": "",
+      "left": 630.328125,
+      "right": 912.9921875,
+      "scrollHeight": 263,
+      "scrollWidth": 281,
+      "tag": "DIV",
+      "width": 282.6640625
+    },
+    {
+      "classes": "panel",
+      "clientHeight": 351,
+      "clientWidth": 446,
+      "id": "",
+      "left": 26,
+      "right": 473.5,
+      "scrollHeight": 351,
+      "scrollWidth": 446,
+      "tag": "ARTICLE",
+      "width": 447.5
+    },
+    {
+      "classes": "panel",
+      "clientHeight": 351,
+      "clientWidth": 446,
+      "id": "",
+      "left": 486.5,
+      "right": 934,
+      "scrollHeight": 351,
+      "scrollWidth": 446,
+      "tag": "ARTICLE",
+      "width": 447.5
+    },
+    {
+      "classes": "panel inspector",
+      "clientHeight": 881,
+      "clientWidth": 906,
+      "id": "",
+      "left": 26,
+      "right": 934,
+      "scrollHeight": 881,
+      "scrollWidth": 906,
+      "tag": "DETAILS",
+      "width": 908
+    },
+    {
+      "classes": "",
+      "clientHeight": 358,
+      "clientWidth": 868,
+      "id": "state-json",
+      "left": 45,
+      "right": 915,
+      "scrollHeight": 17849,
+      "scrollWidth": 868,
+      "tag": "PRE",
+      "width": 870
+    },
+    {
+      "classes": "",
+      "clientHeight": 358,
+      "clientWidth": 868,
+      "id": "diagnostics",
+      "left": 45,
+      "right": 915,
+      "scrollHeight": 6199,
+      "scrollWidth": 868,
+      "tag": "PRE",
+      "width": 870
+    }
+  ],
+  "viewport": {
+    "height": 720,
+    "width": 960
+  }
+}

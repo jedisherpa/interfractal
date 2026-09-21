@@ -1,0 +1,14 @@
+[
+  {
+    "level": "error",
+    "message": "Error: correction not active\n    at derive (http://127.0.0.1:44006/model.mjs:16:415)\n    at semanticNow (http://127.0.0.1:44006/app.mjs:8:31)\n    at transition (http://127.0.0.1:44006/app.mjs:13:161)\n    at $.onclick (http://127.0.0.1:44006/app.mjs:47:145)",
+    "timestamp": "2026-09-20T20:22:46.256Z",
+    "url": "http://127.0.0.1:44006/model.mjs"
+  },
+  {
+    "level": "error",
+    "message": "Error: correction not active\n    at derive (http://127.0.0.1:44006/model.mjs:16:415)\n    at semanticNow (http://127.0.0.1:44006/app.mjs:8:31)\n    at transition (http://127.0.0.1:44006/app.mjs:13:71)\n    at $.onclick (http://127.0.0.1:44006/app.mjs:47:145)",
+    "timestamp": "2026-09-20T20:22:54.904Z",
+    "url": "http://127.0.0.1:44006/model.mjs"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "checkedAtUtc": "2026-09-20T02:55:32.117Z",
+  "base": "http://127.0.0.1:43996",
+  "runId": "G3-TESSERACT-003",
+  "buildId": "g3-6c31bc16aeca4460",
+  "pass": true,
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "url": "/",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "b853c82d7fc603d74421ce445954d2362abfbf2f28dbf264692912620182e017",
+      "actualSha256": "b853c82d7fc603d74421ce445954d2362abfbf2f28dbf264692912620182e017"
+    },
+    {
+      "url": "/style.css",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "4259039467aef981f21bc46d32b62f72c5dfd3966c1258b63699ca4a0fde875c",
+      "actualSha256": "4259039467aef981f21bc46d32b62f72c5dfd3966c1258b63699ca4a0fde875c"
+    },
+    {
+      "url": "/app.mjs",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "15a673114c8a9e8cf1ee49413b3908670bf519190a162a3f8066cfd067169828",
+      "actualSha256": "15a673114c8a9e8cf1ee49413b3908670bf519190a162a3f8066cfd067169828"
+    },
+    {
+      "url": "/model.mjs",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c",
+      "actualSha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c"
+    },
+    {
+      "url": "/api/run",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "3e4ca26073e15772858c53167681ee8aaf236e615206f9c89e523026be815e4f",
+      "actualSha256": "3e4ca26073e15772858c53167681ee8aaf236e615206f9c89e523026be815e4f"
+    },
+    {
+      "url": "/api/checkpoints",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "b0871c1120d33a1b26ada3b1f570d4ad174c4dede773bba67fecbd7fc754ecfc",
+      "actualSha256": "b0871c1120d33a1b26ada3b1f570d4ad174c4dede773bba67fecbd7fc754ecfc"
+    },
+    {
+      "url": "/api/events",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "44be1ec3192980ccb71b306e9e3786535d8ee21d1f6b10c3cabe4212bed57b61",
+      "actualSha256": "44be1ec3192980ccb71b306e9e3786535d8ee21d1f6b10c3cabe4212bed57b61"
+    },
+    {
+      "url": "/runs/G3-TESSERACT-003/initial-state.json",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "825bcab4709d303f0fa75a40637d111873d53753658199fde20a34715528e02e",
+      "actualSha256": "825bcab4709d303f0fa75a40637d111873d53753658199fde20a34715528e02e"
+    },
+    {
+      "url": "/api/evidence",
+      "status": 200,
+      "pass": true,
+      "expectedSha256": "b85844b50430bd902a36ef917dbed6cb6bb4fa7677d39703d0e60505e23dfc8b",
+      "actualSha256": "b85844b50430bd902a36ef917dbed6cb6bb4fa7677d39703d0e60505e23dfc8b"
+    },
+    {
+      "url": "/not-an-asset",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "/package.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "/api/private",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "/runs/%2e%2e%2f%2e%2e%2finputs%2fLOOKING_GLASS_CODEX_ORCHESTRATOR_PROMPT.md",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "url": "/evidence/gate-3/%2e%2e%2f%2e%2e%2finputs%2fLOOKING_GLASS_CODEX_ORCHESTRATOR_PROMPT.md",
+      "status": 403,
+      "pass": true
+    }
+  ]
+}

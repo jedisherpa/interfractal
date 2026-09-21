@@ -1,0 +1,125 @@
+{
+  "schema": "gate11-source-manifest-v1",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "content": [
+    {
+      "path": "receiver-summary/FAILED_CANDIDATES.md",
+      "sha256": "d8c9c7a281338d5550783d63aa9583715622b6d85bbc8dc493746ea8e0aef113"
+    },
+    {
+      "path": "receiver-summary/README.md",
+      "sha256": "c6790d13ed0fc8f8b32f49f5c80486c90e2646f4596b8c85e58706353d56a747"
+    },
+    {
+      "path": "receiver-summary/app.mjs",
+      "sha256": "833fe12cb19f81b7227892277396d1bb9f828bace082f4ecd45466941f352562"
+    },
+    {
+      "path": "receiver-summary/build.mjs",
+      "sha256": "e0c397f4cf0e46f688014bed30b1b4fd2b8448456607d36208a337bb2bc3ecc9"
+    },
+    {
+      "path": "receiver-summary/index.html",
+      "sha256": "c827c0d5033de440de77e8c1210f12905380697d4267b84c1d836e964f807782"
+    },
+    {
+      "path": "receiver-summary/model.mjs",
+      "sha256": "abf4491d27b62b4c5ea24c1ed2d11fbb04dd6afeaec58b58639c14fcbfebdf79"
+    },
+    {
+      "path": "receiver-summary/receiver.mjs",
+      "sha256": "d138bfd7e0d050c82a25bf1948919edce27111150f2322cc77a8faeb126720a9"
+    },
+    {
+      "path": "receiver-summary/server.mjs",
+      "sha256": "e98f561b0a49f91c954c218eb851cd7e492f815ba01e2761d16c560810f9edb3"
+    },
+    {
+      "path": "receiver-summary/style.css",
+      "sha256": "a75eab86f66a118d56a6d51e0d8e5c729c43555214a9a383b7fb2cd82314acd7"
+    },
+    {
+      "path": "receiver-summary/test.mjs",
+      "sha256": "72d2ed51022ded3d42fefc1e067d64d417ebe65e836ef010c5ec4167b25f2e63"
+    },
+    {
+      "path": "docs/gate-11/PRESPEC_FREEZE.json",
+      "sha256": "bc6f624e0eb0a2d225e1aafdebb99ec2fd3dcce45bcd24dd8ccadf6edd85fba9"
+    },
+    {
+      "path": "docs/gate-11/experiment-charter.md",
+      "sha256": "52b7c3867661323e3d7def4e16f052d724297ed139e24506aa704771eceb706b"
+    },
+    {
+      "path": "docs/gate-11/model-contract.md",
+      "sha256": "18f613cdd9ea352581fce1a7ee0fcc1425282c650f0c870b9cc000d5955115e8"
+    },
+    {
+      "path": "docs/gate-11/record-contract.md",
+      "sha256": "207f6a04142af991aa3371b5a01ccf0520d167fe30c2320c175a9b655a4a869a"
+    },
+    {
+      "path": "docs/gate-11/fixture.json",
+      "sha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc"
+    },
+    {
+      "path": "docs/gate-11/independent-predictions.json",
+      "sha256": "db411186c313d349a73a1c3b6ef7d4e77687e3000097587bb730bdd92defeb22"
+    }
+  ],
+  "built": [
+    {
+      "path": "FAILED_CANDIDATES.md",
+      "sha256": "d8c9c7a281338d5550783d63aa9583715622b6d85bbc8dc493746ea8e0aef113"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c6790d13ed0fc8f8b32f49f5c80486c90e2646f4596b8c85e58706353d56a747"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "833fe12cb19f81b7227892277396d1bb9f828bace082f4ecd45466941f352562"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "e0c397f4cf0e46f688014bed30b1b4fd2b8448456607d36208a337bb2bc3ecc9"
+    },
+    {
+      "path": "index.html",
+      "sha256": "c827c0d5033de440de77e8c1210f12905380697d4267b84c1d836e964f807782"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "abf4491d27b62b4c5ea24c1ed2d11fbb04dd6afeaec58b58639c14fcbfebdf79"
+    },
+    {
+      "path": "receiver.mjs",
+      "sha256": "d138bfd7e0d050c82a25bf1948919edce27111150f2322cc77a8faeb126720a9"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "e98f561b0a49f91c954c218eb851cd7e492f815ba01e2761d16c560810f9edb3"
+    },
+    {
+      "path": "style.css",
+      "sha256": "a75eab86f66a118d56a6d51e0d8e5c729c43555214a9a383b7fb2cd82314acd7"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "72d2ed51022ded3d42fefc1e067d64d417ebe65e836ef010c5ec4167b25f2e63"
+    },
+    {
+      "path": "fixture.json",
+      "sha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc"
+    },
+    {
+      "path": "build.json",
+      "sha256": "ac85874ffe005e46b608260d6a64d5847d6376d93a64ec31cc71243a120824b2"
+    }
+  ]
+}

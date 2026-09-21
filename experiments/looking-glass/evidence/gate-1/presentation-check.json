@@ -1,0 +1,133 @@
+{
+  "recordedAtUtc": "2026-09-20T01:26:44.082Z",
+  "scope": "Post-trial browser presentation review; separate from primary trial observations and trial activity copy.",
+  "openedVia": "Actual Results link in Gate1 Run Library",
+  "results": {
+    "heading": "A cube, its shadow,and a separate camera.",
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "G1-CUBE-003-S0-initial.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "G1-CUBE-003-S1-midpoint.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "G1-CUBE-003-S2-camera-only.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "G1-CUBE-003-S3-maximum.jpg"
+      }
+    ],
+    "links": [
+      {
+        "href": "/",
+        "text": "Open paused Gate 1 replay"
+      },
+      {
+        "href": "http://127.0.0.1:43991/",
+        "text": "Preserved Gate 0 replay"
+      },
+      {
+        "href": "GATE_1_PACKET.md",
+        "text": "Complete review packet"
+      },
+      {
+        "href": "independent-audit.md",
+        "text": "Independent audit"
+      },
+      {
+        "href": "G1-CUBE-003-S0-initial.jpg",
+        "text": "At zero seconds, v110 and v111 are distinct source corners but share one shadow site"
+      },
+      {
+        "href": "G1-CUBE-003-S1-midpoint.jpg",
+        "text": "At ten seconds, source rotation separates the marked pair in shadow while camera stays fixed"
+      },
+      {
+        "href": "G1-CUBE-003-S2-camera-only.jpg",
+        "text": "Camera-only exploration at ten seconds changes source-view labels but leaves the shadow unchanged"
+      },
+      {
+        "href": "G1-CUBE-003-S3-maximum.jpg",
+        "text": "At twenty seconds the source turn is ninety degrees and the marked shadow distance reaches two"
+      },
+      {
+        "href": "G1-CUBE-003-S4-return.jpg",
+        "text": "40 s return"
+      },
+      {
+        "href": "G1-CUBE-003-S5-reloaded-midpoint.jpg",
+        "text": "reloaded 10 s"
+      },
+      {
+        "href": "G1-CUBE-003-S6-inspector.jpg",
+        "text": "inspector"
+      },
+      {
+        "href": "capture-index.json",
+        "text": "capture index"
+      },
+      {
+        "href": "deviations.json",
+        "text": "deviations are recorded"
+      },
+      {
+        "href": "browser-observations.json",
+        "text": "Actual browser observations"
+      },
+      {
+        "href": "G1-CUBE-003-ui-session-log-trials.jsonl",
+        "text": "Saved UI events"
+      },
+      {
+        "href": "post-browser-integrity.json",
+        "text": "Preservation checks"
+      },
+      {
+        "href": "browser-console.json",
+        "text": "Console observation scope"
+      },
+      {
+        "href": "commit-recovery.json",
+        "text": "G0 commit recovery"
+      },
+      {
+        "href": "gate-0-library-link-check.json",
+        "text": "Actual G0 library opening"
+      },
+      {
+        "href": "/",
+        "text": "the paused replay"
+      }
+    ],
+    "title": "Looking Glass · Gate 1 results",
+    "viewport": {
+      "height": 904,
+      "width": 998
+    }
+  },
+  "initialScreenshotAttempt": "Native screenshot unavailable on initial newly opened result tab; actual trial images remain preserved.",
+  "consoleEntries": [],
+  "reviewPageScreenshot": {
+    "status": "unavailable",
+    "attempts": 3,
+    "methods": [
+      "native getScreenshot",
+      "explicit browser screenshot fullPage:false"
+    ],
+    "result": "Browser capture unavailable for this separately opened results tab; no results-page image is claimed.",
+    "scope": "This does not affect the seven previously captured primary trial images, which all load successfully."
+  }
+}

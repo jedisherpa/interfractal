@@ -1,0 +1,519 @@
+{
+  "schemaVersion": "gate-6-independent-predictions-v1",
+  "provenance": "Computed from the pinned Gate 2 JSON source facts and explicit Gate 6 rules by Astra before candidate build/browser use; no local-models implementation imports or outputs. Exact integer/string comparisons. These are expected results, not browser observations.",
+  "sourcePins": [
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    }
+  ],
+  "recordHashChecks": [
+    {
+      "recordId": "venue-hall",
+      "expectedContentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+      "recomputedMatch": true
+    },
+    {
+      "recordId": "venue-field",
+      "expectedContentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+      "recomputedMatch": true
+    },
+    {
+      "recordId": "venue-studio",
+      "expectedContentSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+      "recomputedMatch": true
+    },
+    {
+      "recordId": "weather-context",
+      "expectedContentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+      "recomputedMatch": true
+    }
+  ],
+  "fullReferenceAssignments": {
+    "R_CAPACITY_60": [
+      {
+        "recordId": "venue-hall",
+        "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+        "answer": "yes",
+        "status": "mapped",
+        "baseId": "east",
+        "reason": "60 households meets the 60-household threshold."
+      },
+      {
+        "recordId": "venue-field",
+        "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+        "answer": "yes",
+        "status": "mapped",
+        "baseId": "east",
+        "reason": "80 households meets the 60-household threshold."
+      },
+      {
+        "recordId": "venue-studio",
+        "recordSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+        "answer": "no",
+        "status": "mapped",
+        "baseId": "west",
+        "reason": "50 households is below the 60-household threshold."
+      },
+      {
+        "recordId": "weather-context",
+        "recordSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+        "answer": null,
+        "status": "unmapped",
+        "baseId": null,
+        "reason": "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing."
+      }
+    ],
+    "R_EXISTING_ACCESS": [
+      {
+        "recordId": "venue-hall",
+        "recordSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+        "answer": "no",
+        "status": "mapped",
+        "baseId": "west",
+        "reason": "Supplied access fact: a portable ramp costing 2 tokens is required."
+      },
+      {
+        "recordId": "venue-field",
+        "recordSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+        "answer": "yes",
+        "status": "mapped",
+        "baseId": "east",
+        "reason": "Supplied access fact: already accessible; no added access equipment required."
+      },
+      {
+        "recordId": "venue-studio",
+        "recordSha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130",
+        "answer": "yes",
+        "status": "mapped",
+        "baseId": "east",
+        "reason": "Supplied access fact: already accessible; no added access equipment required."
+      },
+      {
+        "recordId": "weather-context",
+        "recordSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2",
+        "answer": null,
+        "status": "unmapped",
+        "baseId": null,
+        "reason": "Weather, shelter and budget context are outside this single capacity/access criterion. Retain all facts in the plain listing."
+      }
+    ]
+  },
+  "referenceRoundTrip": {
+    "sequence": [
+      "R_CAPACITY_60",
+      "R_EXISTING_ACCESS",
+      "R_CAPACITY_60"
+    ],
+    "changedAnswerRecordIds": [
+      "venue-hall",
+      "venue-studio"
+    ],
+    "unchangedAnswerRecordIds": [
+      "venue-field",
+      "weather-context"
+    ],
+    "weatherAlwaysUnmapped": true,
+    "sourcePayloadHashesUnchanged": true,
+    "retainedLocalReferencesUnchanged": true,
+    "finalMappingExactlyEqualsInitial": true
+  },
+  "localContextContentHashes": [
+    {
+      "localId": "G6_LOCAL_HALL",
+      "contentSha256": "fa9c091a946b550543a1932e4718836ca0839e99f89f4cd90eca568215c0ef4c"
+    },
+    {
+      "localId": "G6_LOCAL_FIELD",
+      "contentSha256": "f3f33f0b516f5db03fabc1fc8b39fca0ad4c6699f317801fadec8580d37dd0d3"
+    }
+  ],
+  "localSourceMembership": [
+    {
+      "localId": "G6_LOCAL_HALL",
+      "recordIds": [
+        "venue-hall",
+        "weather-context"
+      ],
+      "dependencyIds": [
+        "G6_DEP_RAMP"
+      ]
+    },
+    {
+      "localId": "G6_LOCAL_FIELD",
+      "recordIds": [
+        "venue-field",
+        "weather-context"
+      ],
+      "dependencyIds": [
+        "G6_DEP_GENERATOR",
+        "G6_DEP_SHELTER"
+      ]
+    }
+  ],
+  "expansionRoundTrip": {
+    "operations": [
+      "expand",
+      "collapse",
+      "expand"
+    ],
+    "localManifestAndHistoryExactlyPreserved": true,
+    "sourceRecordRefsExactlyPreserved": true,
+    "dependenciesExactlyRecovered": true
+  },
+  "initialOutward": {
+    "capacityCriterionAnswers": {
+      "G6_LOCAL_HALL": "yes",
+      "G6_LOCAL_FIELD": "yes"
+    },
+    "accessCriterionAnswers": {
+      "G6_LOCAL_HALL": "no",
+      "G6_LOCAL_FIELD": "yes"
+    },
+    "equalCapacityCriterionContentExcludingLocalSourceIdentity": true,
+    "numericCapacityOmitted": true,
+    "dependenciesOmitted": true,
+    "costOmitted": true,
+    "receiverResultForBothAtEitherRequirement": "insufficient-summary",
+    "missingRequiredFields": [
+      "candidateCapacityHouseholds",
+      "venueEquipmentCostTokens",
+      "requiredEquipment"
+    ],
+    "forbiddenLeakFields": [
+      "candidateCapacityHouseholds",
+      "venueEquipmentCostTokens",
+      "requiredEquipment",
+      "acceptedForCostAndCapacityScreen",
+      "numericScreenPass",
+      "capacityPass",
+      "budgetPass"
+    ]
+  },
+  "repairedLocalResults": [
+    {
+      "localId": "G6_LOCAL_HALL",
+      "venueId": "venue-hall",
+      "candidateCapacityHouseholds": 60,
+      "hireTokens": 4,
+      "requiredEquipment": [
+        {
+          "kind": "access",
+          "name": "portable ramp",
+          "costTokens": 2
+        }
+      ],
+      "venueEquipmentCostTokens": 6,
+      "equipmentAvailability": "unknown-not-supplied",
+      "receiverResults": [
+        {
+          "receiverVersion": 1,
+          "minimumCapacityHouseholds": 60,
+          "capacityPass": true,
+          "budgetPass": true,
+          "numericScreenPass": true,
+          "classification": "numeric-constraints-satisfied"
+        },
+        {
+          "receiverVersion": 2,
+          "minimumCapacityHouseholds": 70,
+          "capacityPass": false,
+          "budgetPass": true,
+          "numericScreenPass": false,
+          "classification": "fails-capacity"
+        }
+      ]
+    },
+    {
+      "localId": "G6_LOCAL_FIELD",
+      "venueId": "venue-field",
+      "candidateCapacityHouseholds": 80,
+      "hireTokens": 3,
+      "requiredEquipment": [
+        {
+          "kind": "power",
+          "name": "generator",
+          "costTokens": 3
+        },
+        {
+          "kind": "rain-shelter",
+          "name": "rain shelter",
+          "costTokens": 3
+        }
+      ],
+      "venueEquipmentCostTokens": 9,
+      "equipmentAvailability": "unknown-not-supplied",
+      "receiverResults": [
+        {
+          "receiverVersion": 1,
+          "minimumCapacityHouseholds": 60,
+          "capacityPass": true,
+          "budgetPass": false,
+          "numericScreenPass": false,
+          "classification": "fails-budget"
+        },
+        {
+          "receiverVersion": 2,
+          "minimumCapacityHouseholds": 70,
+          "capacityPass": true,
+          "budgetPass": false,
+          "numericScreenPass": false,
+          "classification": "fails-budget"
+        }
+      ]
+    }
+  ],
+  "requirementChangeTrace": {
+    "trigger": {
+      "id": "G6_RECEIVER",
+      "beforeVersion": 1,
+      "afterVersion": 2,
+      "field": "minimumCapacityHouseholds",
+      "before": 60,
+      "after": 70
+    },
+    "affectedLocalIds": [
+      "G6_LOCAL_HALL",
+      "G6_LOCAL_FIELD"
+    ],
+    "directlyReevaluatedSourceFields": [
+      {
+        "recordId": "venue-hall",
+        "contentSha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b",
+        "field": "facts.capacityHouseholds",
+        "role": "source fact"
+      },
+      {
+        "recordId": "venue-field",
+        "contentSha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af",
+        "field": "facts.capacityHouseholds",
+        "role": "source fact"
+      }
+    ],
+    "notChangedCapacityTargets": [
+      "venue-studio",
+      "weather-context"
+    ],
+    "capacityPassBeforeAfter": {
+      "G6_LOCAL_HALL": [
+        true,
+        false
+      ],
+      "G6_LOCAL_FIELD": [
+        true,
+        true
+      ]
+    },
+    "budgetPassBeforeAfter": {
+      "G6_LOCAL_HALL": [
+        true,
+        true
+      ],
+      "G6_LOCAL_FIELD": [
+        false,
+        false
+      ]
+    },
+    "viewReferenceStill": {
+      "id": "R_CAPACITY_60",
+      "version": 1,
+      "mappingVersion": "gate-2-reference-mapping-v1",
+      "definitionSha256": "e89f2029b5bfed809cd55ab8ae20c8f63896a149456bd21e02ab04dd4409294a"
+    },
+    "viewCapacityAnswerHallStill": "yes",
+    "newSummaryRevisionByLocal": {
+      "G6_LOCAL_HALL": 3,
+      "G6_LOCAL_FIELD": 3
+    },
+    "previousSummaryRevisionsRetained": [
+      1,
+      2
+    ],
+    "sourceRecordsRevised": false
+  },
+  "relations": {
+    "supportedRelationCount": 4,
+    "supportedRelationIds": [
+      "G6_REL_SHARED_SOURCE",
+      "G6_REL_REQUIRES_RAMP",
+      "G6_REL_REQUIRES_GENERATOR",
+      "G6_REL_REQUIRES_SHELTER"
+    ],
+    "supportedSharedSourceRecord": {
+      "recordId": "weather-context",
+      "contentSha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+    },
+    "hallEquipmentDependencies": [
+      "G6_DEP_RAMP"
+    ],
+    "fieldEquipmentDependencies": [
+      "G6_DEP_GENERATOR",
+      "G6_DEP_SHELTER"
+    ],
+    "unsupportedClaimId": "G6-CLAIM-TRANSFER",
+    "unsupportedClaimEvidenceCount": 0,
+    "unsupportedClaimIncludedInSupportedGraph": false,
+    "supportedHallToFieldTransferPathExists": false,
+    "closePlacementChangesOnlyLayout": true
+  },
+  "referenceDisagreement": {
+    "retainedProposalIds": [
+      "G6_PROPOSAL_CAPACITY",
+      "G6_PROPOSAL_ACCESS"
+    ],
+    "referenceIds": [
+      "R_CAPACITY_60",
+      "R_EXISTING_ACCESS"
+    ],
+    "fullReferenceTablesRetained": true,
+    "averagedReferenceExists": false,
+    "participantCommitmentInferred": false
+  },
+  "replayCheckpointStates": [
+    {
+      "timeMs": 0,
+      "largerReferenceId": "R_CAPACITY_60",
+      "receiverVersion": 1,
+      "summaryRevision": 1,
+      "expandedLocalIds": [],
+      "selectedLocalId": null,
+      "traceMode": "none",
+      "traceLocalId": null,
+      "compareReferences": false,
+      "showClaims": false,
+      "selectedRelationId": null,
+      "representation": "graph",
+      "layout": "ordinary"
+    },
+    {
+      "timeMs": 5000,
+      "largerReferenceId": "R_EXISTING_ACCESS",
+      "receiverVersion": 1,
+      "summaryRevision": 1,
+      "expandedLocalIds": [],
+      "selectedLocalId": null,
+      "traceMode": "none",
+      "traceLocalId": null,
+      "compareReferences": false,
+      "showClaims": false,
+      "selectedRelationId": null,
+      "representation": "graph",
+      "layout": "ordinary"
+    },
+    {
+      "timeMs": 10000,
+      "largerReferenceId": "R_CAPACITY_60",
+      "receiverVersion": 1,
+      "summaryRevision": 1,
+      "expandedLocalIds": [],
+      "selectedLocalId": null,
+      "traceMode": "none",
+      "traceLocalId": null,
+      "compareReferences": false,
+      "showClaims": false,
+      "selectedRelationId": null,
+      "representation": "graph",
+      "layout": "ordinary"
+    },
+    {
+      "timeMs": 15000,
+      "largerReferenceId": "R_CAPACITY_60",
+      "receiverVersion": 1,
+      "summaryRevision": 2,
+      "expandedLocalIds": [
+        "G6_LOCAL_HALL",
+        "G6_LOCAL_FIELD"
+      ],
+      "selectedLocalId": null,
+      "traceMode": "budget",
+      "traceLocalId": null,
+      "compareReferences": false,
+      "showClaims": false,
+      "selectedRelationId": null,
+      "representation": "graph",
+      "layout": "ordinary"
+    },
+    {
+      "timeMs": 20000,
+      "largerReferenceId": "R_CAPACITY_60",
+      "receiverVersion": 2,
+      "summaryRevision": 3,
+      "expandedLocalIds": [
+        "G6_LOCAL_HALL",
+        "G6_LOCAL_FIELD"
+      ],
+      "selectedLocalId": null,
+      "traceMode": "requirement",
+      "traceLocalId": null,
+      "compareReferences": false,
+      "showClaims": false,
+      "selectedRelationId": null,
+      "representation": "graph",
+      "layout": "ordinary"
+    },
+    {
+      "timeMs": 25000,
+      "largerReferenceId": "R_CAPACITY_60",
+      "receiverVersion": 2,
+      "summaryRevision": 3,
+      "expandedLocalIds": [
+        "G6_LOCAL_HALL",
+        "G6_LOCAL_FIELD"
+      ],
+      "selectedLocalId": null,
+      "traceMode": "requirement",
+      "traceLocalId": null,
+      "compareReferences": true,
+      "showClaims": true,
+      "selectedRelationId": "G6-CLAIM-TRANSFER",
+      "representation": "graph",
+      "layout": "ordinary"
+    },
+    {
+      "timeMs": 30000,
+      "largerReferenceId": "R_CAPACITY_60",
+      "receiverVersion": 1,
+      "summaryRevision": 1,
+      "expandedLocalIds": [],
+      "selectedLocalId": null,
+      "traceMode": "none",
+      "traceLocalId": null,
+      "compareReferences": false,
+      "showClaims": false,
+      "selectedRelationId": null,
+      "representation": "graph",
+      "layout": "ordinary"
+    }
+  ],
+  "comparison": {
+    "sameSourceRecords": true,
+    "sameSummaryRules": true,
+    "sameReceiverEvaluator": true,
+    "sameCorrectionOperations": true,
+    "sameInitialSelection": null,
+    "modeExcludedFromSemanticDataFingerprints": true,
+    "routes": [
+      {
+        "id": "N1",
+        "expectedGraphNavigation": 3,
+        "expectedPlainNavigation": 3,
+        "expectedGraphCorrections": 1,
+        "expectedPlainCorrections": 1
+      },
+      {
+        "id": "N2",
+        "expectedGraphNavigation": 2,
+        "expectedPlainNavigation": 2,
+        "expectedGraphCorrections": 0,
+        "expectedPlainCorrections": 0
+      }
+    ],
+    "interpretation": "Predicted route counts only; actual successful controls/endpoints must be measured. No human usability or optimality claim."
+  }
+}

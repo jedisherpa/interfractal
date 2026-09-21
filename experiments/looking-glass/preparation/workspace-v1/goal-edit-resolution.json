@@ -1,0 +1,15 @@
+{
+  "recordedAtUtc": "2026-09-20T22:41:54.700442+00:00",
+  "authoritySource": "Actual user goal edit and explicit asynchronous scope answer in current task",
+  "question": "The newly edited goal again includes completing human investigations, whereas your earlier answer deferred both studies. Should overall completion still mean preparation only? I\u2019ll continue the approved workspace work meanwhile.",
+  "answer": "Include later study execution after separate approvals",
+  "effectiveObjective": "Complete the staged research program, including necessary preparation and later four-agent and human investigations after their separate required approvals. Retain evidence, independent review, negative/inconclusive outcomes, and final verified updated research-program ZIP.",
+  "supersedes": "docs/preparation-goal-authority-2026-09-20.json for prospective overall completion requirements only",
+  "currentAuthorizedWork": "Approved materials/recovery followed by equivalent plain/visual workspace and synthetic runner/scoring/transfer preparation.",
+  "fourAgentExecutionRequiredForOverallCompletion": true,
+  "humanStudyExecutionRequiredForOverallCompletion": true,
+  "futureCollectionApprovedNow": false,
+  "futureLaunchRule": "Later four-agent and human research stages each require their separate approvals and applicable readiness decisions before execution.",
+  "gate14": "Still a separate unapproved geometry decision; no implied approval.",
+  "historicalPolicy": "Preserve frozen records of earlier preparation-only scope without rewriting history."
+}

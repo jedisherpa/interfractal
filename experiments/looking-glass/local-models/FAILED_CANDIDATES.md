@@ -1,0 +1,11 @@
+# Gate 6 candidate history
+
+All three builds and their run data remain separate. Browser observations and original images are preserved under `evidence/gate-6/`; planned replay files are not substituted for observed UI events.
+
+| Run / immutable build | Observed result | Disposition |
+|---|---|---|
+| `G6-LOCAL-001` / `g6-fad414e0f36c3457` | At the compressed baseline (`claimsOpen=false`), the unsupported SVG transfer path and label were still visibly drawn. The original `001-initial-compressed.jpg` and 20 observations show the failure. | Failed visual claim-visibility check. The next source explicitly hid both SVG elements in initial markup and on render. See `evidence/gate-6/failed-candidates/G6-LOCAL-001/FAILED_CANDIDATE.json`. |
+| `G6-LOCAL-002` / `g6-b31ef3d7838d10c8` | Claim visibility was repaired and the other required cases and routes were exercised. Two responsive checks failed: opening source details made a 960px viewport's document 1136px wide; inspecting shared-source evidence made a 1280px viewport's document 1478px wide. | Failed horizontal-overflow checks. The exact 119 observations, 91 root action calls, 11 originals and three mis-targeted checkpoint attempts remain preserved. See `evidence/gate-6/failed-candidates/G6-LOCAL-002/FAILED_CANDIDATE.json` and `COLLECTION_ANOMALIES.json`. |
+| `G6-LOCAL-003` / `g6-0279cdcdc0adc9b0` | Long source/reference and relation-evidence text wraps; the previously failing narrow and relation-inspection states were repeated without horizontal overflow. The displayed saved receiver revision is labeled as historical when Receiver@1 is active, and the claim label clears its dashed path. | Final tested instrument. Root's closed browser core records 105 observations, 83 root action calls, 78 semantic UI events and eight originals; seven checkpoint hashes matched on four same-browser passes. Final evidence and independent audit are in `evidence/gate-6/`. |
+
+The qualified result is an instrument result on a deterministic fictional fixture. Expanded details may require vertical scrolling. The counted comparison routes are prescribed UI actions, not human effort, comprehension, or a general advantage for the diagram. The source facts remain the unchanged Gate 2 records, and the unsupported transfer remains excluded from supported relations and receiver calculations.

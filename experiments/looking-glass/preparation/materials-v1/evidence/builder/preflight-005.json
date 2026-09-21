@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "materials-builder-preflight/1",
+  "preparationOnly": true,
+  "recordId": "005",
+  "designFreezeSha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b",
+  "sourceTaskFreezeSha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+  "results": [
+    {
+      "name": "schema-validator-unit",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/schema-validator.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:03.703Z",
+      "completedAtUtc": "2026-09-20T21:38:03.759Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "schema validator unit checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "design-mutations",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:03.759Z",
+      "completedAtUtc": "2026-09-20T21:38:03.822Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "package design mutation checks passed\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "synthetic-snapshot-contract",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/snapshot-contract.test.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:03.822Z",
+      "completedAtUtc": "2026-09-20T21:38:03.889Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "snapshot contract fixtures and mutations passed (synthetic; zero research outputs)\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "frozen-source-and-generated-shape",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs",
+        "check"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:03.889Z",
+      "completedAtUtc": "2026-09-20T21:38:03.961Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "source/design and in-memory package check passed: 18 cards, 4 packets, 8 initial tasks, 69 output files; both authored freezes matched\n",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "generator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:03.962Z",
+      "completedAtUtc": "2026-09-20T21:38:04.008Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "preview-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/preview.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:04.008Z",
+      "completedAtUtc": "2026-09-20T21:38:04.054Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    },
+    {
+      "name": "snapshot-validator-syntax",
+      "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "args": [
+        "--check",
+        "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/snapshot-contract.mjs"
+      ],
+      "startedAtUtc": "2026-09-20T21:38:04.055Z",
+      "completedAtUtc": "2026-09-20T21:38:04.101Z",
+      "exitCode": 0,
+      "signal": null,
+      "stdout": "",
+      "stderr": "",
+      "spawnError": null
+    }
+  ],
+  "allPassed": true
+}

@@ -1,0 +1,6867 @@
+{
+  "schemaVersion": "workspace-provenance-source-trace/1",
+  "scope": "Frozen source-only blind derivation, active source facts and independent proof-boundary inspection; synthetic authored materials, zero research data.",
+  "sourcePins": {
+    "world.json": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef",
+    "allocations.json": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d",
+    "development-tasks.json": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6",
+    "withheld-tasks.json": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03",
+    "snapshot.schema.json": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a"
+  },
+  "counts": {
+    "development": 194,
+    "transfer": 98,
+    "total": 292,
+    "valueDisagreements": 0,
+    "nonactiveCitations": 0,
+    "transferAtomsWithoutPerAtomCanonicalEvidence": 73
+  },
+  "findings": [],
+  "rows": [
+    {
+      "scope": "A1",
+      "task": "D01",
+      "atom": "demand",
+      "value": 8,
+      "sourceDerivedValue": 8,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C02-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D01",
+      "atom": "requirementVersion",
+      "value": 1,
+      "sourceDerivedValue": 1,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C02-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D02",
+      "atom": "cart",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D02",
+      "atom": "press",
+      "value": 6,
+      "sourceDerivedValue": 6,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C03-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D02",
+      "atom": "varnish",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity CY/varnish"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D03",
+      "atom": "araEndorses",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C04-2",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D03",
+      "atom": "araPress6",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C04-3",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-3"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D03",
+      "atom": "araUnderstands",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C04-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D03",
+      "atom": "beaCart2",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D03",
+      "atom": "beaEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "BEA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D04",
+      "atom": "araExplores",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C05-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C05-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D04",
+      "atom": "araPress5",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D04",
+      "atom": "araUnderstands",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C06-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C06-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D04",
+      "atom": "beaCart1",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D04",
+      "atom": "cyVarnish1",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment CY/varnish P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D05",
+      "atom": "araEndorses",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C04-2",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D05",
+      "atom": "devMayCommit",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "complete DEV mandate for commit"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D05",
+      "atom": "devMayDescribe",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "complete DEV mandate for describe"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D05",
+      "atom": "modelAttributesAraEndorsement",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "model attribution ARA/P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D06",
+      "atom": "inspection",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "same-plan-version-scope-inspection",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P10.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1",
+        "commitment CY/varnish P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P10.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P10.inspection",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P10.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "capacity CY/varnish"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P10.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "capacity CY/varnish",
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1",
+        "commitment CY/varnish P10@1 quantity 1",
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P12.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P12.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P12.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P12.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P12.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P8.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P8.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P8.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P8.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D07",
+      "atom": "P8.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D08",
+      "atom": "cost",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "capacity CY/varnish",
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1",
+        "commitment BEA/cart P12@1 quantity 2",
+        "commitment BEA/cart P8@1 quantity 1",
+        "commitment CY/varnish P10@1 quantity 1",
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D08",
+      "atom": "output",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "capacity CY/varnish",
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1",
+        "commitment BEA/cart P12@1 quantity 2",
+        "commitment BEA/cart P8@1 quantity 1",
+        "commitment CY/varnish P10@1 quantity 1",
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A1",
+      "task": "D08",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart",
+        "capacity CY/varnish",
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1",
+        "commitment BEA/cart P12@1 quantity 2",
+        "commitment BEA/cart P8@1 quantity 1",
+        "commitment CY/varnish P10@1 quantity 1",
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "F-C03-1",
+        "F-C04-3",
+        "F-C04-4",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D01",
+      "atom": "demand",
+      "value": 8,
+      "sourceDerivedValue": 8,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C02-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D01",
+      "atom": "requirementVersion",
+      "value": 1,
+      "sourceDerivedValue": 1,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C02-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D02",
+      "atom": "cart",
+      "value": 2,
+      "sourceDerivedValue": 2,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C07-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C07-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D02",
+      "atom": "press",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D02",
+      "atom": "varnish",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity CY/varnish"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D03",
+      "atom": "araEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D03",
+      "atom": "araPress6",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P12@1 quantity 6"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D03",
+      "atom": "araUnderstands",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA understands P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D03",
+      "atom": "beaCart2",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C08-3",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C08-3"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D03",
+      "atom": "beaEndorses",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C08-2",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C08-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D04",
+      "atom": "araExplores",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA explores P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D04",
+      "atom": "araPress5",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D04",
+      "atom": "araUnderstands",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA understands P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D04",
+      "atom": "beaCart1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C10-1",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C10-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D04",
+      "atom": "cyVarnish1",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment CY/varnish P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D05",
+      "atom": "araEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D05",
+      "atom": "devMayCommit",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "complete DEV mandate for commit"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D05",
+      "atom": "devMayDescribe",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "complete DEV mandate for describe"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D05",
+      "atom": "modelAttributesAraEndorsement",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "model attribution ARA/P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D06",
+      "atom": "inspection",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "same-plan-version-scope-inspection",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P10.commitment",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [
+        "F-C10-1",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C10-1",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P10.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P10.inspection",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P10.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity CY/varnish"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P10.readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "F-C10-1",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "F-C07-1",
+        "F-C10-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P12.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P12@1 quantity 6"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P12.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P12.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P12.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P12.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "commitment ARA/press P12@1 quantity 6"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P8.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P8@1 quantity 4"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P8.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P8.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P8.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D07",
+      "atom": "P8.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "commitment ARA/press P8@1 quantity 4"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D08",
+      "atom": "cost",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment ARA/press P8@1 quantity 4"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D08",
+      "atom": "output",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment ARA/press P8@1 quantity 4"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A2",
+      "task": "D08",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment ARA/press P8@1 quantity 4"
+      ],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C09-2",
+        "F-C10-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D01",
+      "atom": "demand",
+      "value": 8,
+      "sourceDerivedValue": 8,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C02-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D01",
+      "atom": "requirementVersion",
+      "value": 1,
+      "sourceDerivedValue": 1,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C02-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D02",
+      "atom": "cart",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D02",
+      "atom": "press",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D02",
+      "atom": "varnish",
+      "value": 0,
+      "sourceDerivedValue": 0,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C12-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C12-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D03",
+      "atom": "araEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D03",
+      "atom": "araPress6",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P12@1 quantity 6"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D03",
+      "atom": "araUnderstands",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA understands P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D03",
+      "atom": "beaCart2",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D03",
+      "atom": "beaEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "BEA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D04",
+      "atom": "araExplores",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA explores P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D04",
+      "atom": "araPress5",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D04",
+      "atom": "araUnderstands",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA understands P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D04",
+      "atom": "beaCart1",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D04",
+      "atom": "cyVarnish1",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C13-1",
+        "F-C14-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D05",
+      "atom": "araEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D05",
+      "atom": "devMayCommit",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "complete DEV mandate for commit"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D05",
+      "atom": "devMayDescribe",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "complete DEV mandate for describe"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D05",
+      "atom": "modelAttributesAraEndorsement",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "model attribution ARA/P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D06",
+      "atom": "inspection",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "same-plan-version-scope-inspection",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P10.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P10.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P10.inspection",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "release inspection P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P10.physical",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [
+        "F-C12-1",
+        "R03",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C12-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P10.readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "F-C12-1",
+        "R03",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P12.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P12.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P12.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P12.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P12.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P8.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P8@1 quantity 4",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P8.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C02-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P8.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P8.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D07",
+      "atom": "P8.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P8@1 quantity 4",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D08",
+      "atom": "cost",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment ARA/press P8@1 quantity 4",
+        "commitment BEA/cart P12@1 quantity 2",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D08",
+      "atom": "output",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment ARA/press P8@1 quantity 4",
+        "commitment BEA/cart P12@1 quantity 2",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A3",
+      "task": "D08",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment ARA/press P8@1 quantity 4",
+        "commitment BEA/cart P12@1 quantity 2",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [
+        "F-C02-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D01",
+      "atom": "demand",
+      "value": 10,
+      "sourceDerivedValue": 10,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C17-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D01",
+      "atom": "requirementVersion",
+      "value": 2,
+      "sourceDerivedValue": 2,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C17-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D02",
+      "atom": "cart",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D02",
+      "atom": "press",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D02",
+      "atom": "varnish",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity CY/varnish"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D03",
+      "atom": "araEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D03",
+      "atom": "araPress6",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P12@1 quantity 6"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D03",
+      "atom": "araUnderstands",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA understands P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D03",
+      "atom": "beaCart2",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D03",
+      "atom": "beaEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "BEA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D04",
+      "atom": "araExplores",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA explores P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D04",
+      "atom": "araPress5",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D04",
+      "atom": "araUnderstands",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA understands P10@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D04",
+      "atom": "beaCart1",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment BEA/cart P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D04",
+      "atom": "cyVarnish1",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment CY/varnish P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D05",
+      "atom": "araEndorses",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "ARA endorses P12@1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D05",
+      "atom": "devMayCommit",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D05",
+      "atom": "devMayDescribe",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D05",
+      "atom": "modelAttributesAraEndorsement",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C16-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C16-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D06",
+      "atom": "inspection",
+      "value": "conflicted",
+      "sourceDerivedValue": "conflicted",
+      "traceRule": "same-plan-version-scope-inspection",
+      "sourceDerivedEvidence": [
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C18-1",
+        "F-C18-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P10.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5",
+        "commitment BEA/cart P10@1 quantity 1",
+        "commitment CY/varnish P10@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P10.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P10.inspection",
+      "value": "conflicted",
+      "sourceDerivedValue": "conflicted",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P10.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "capacity CY/varnish"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P10.readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P12.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P12.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P12.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P12.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P12.readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P8.commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P8@1 quantity 4",
+        "commitment BEA/cart P8@1 quantity 1"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P8.demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P8.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P8.physical",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D07",
+      "atom": "P8.readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D08",
+      "atom": "cost",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D08",
+      "atom": "output",
+      "value": null,
+      "sourceDerivedValue": null,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "A4",
+      "task": "D08",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "capacity ARA/press",
+        "capacity BEA/cart",
+        "commitment ARA/press P12@1 quantity 6",
+        "commitment BEA/cart P12@1 quantity 2"
+      ],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D01",
+      "atom": "demand",
+      "value": 10,
+      "sourceDerivedValue": 10,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C17-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D01",
+      "atom": "requirementVersion",
+      "value": 2,
+      "sourceDerivedValue": 2,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C17-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D02",
+      "atom": "cart",
+      "value": 2,
+      "sourceDerivedValue": 2,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C07-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C07-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D02",
+      "atom": "press",
+      "value": 6,
+      "sourceDerivedValue": 6,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C03-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D02",
+      "atom": "varnish",
+      "value": 0,
+      "sourceDerivedValue": 0,
+      "traceRule": "active-scalar",
+      "sourceDerivedEvidence": [
+        "F-C12-1"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C12-1",
+        "R03"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D03",
+      "atom": "araEndorses",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C04-2",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D03",
+      "atom": "araPress6",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C04-3",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-3"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D03",
+      "atom": "araUnderstands",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C04-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D03",
+      "atom": "beaCart2",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C08-3",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C08-3"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D03",
+      "atom": "beaEndorses",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C08-2",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C08-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D04",
+      "atom": "araExplores",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C05-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C05-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D04",
+      "atom": "araPress5",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment ARA/press P10@1 quantity 5"
+      ],
+      "authorCanonicalEvidence": [],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D04",
+      "atom": "araUnderstands",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C06-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C06-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D04",
+      "atom": "beaCart1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C10-1",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C10-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D04",
+      "atom": "cyVarnish1",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation",
+      "sourceDerivedEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R05"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C13-1",
+        "F-C14-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D05",
+      "atom": "araEndorses",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C04-2",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D05",
+      "atom": "devMayCommit",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D05",
+      "atom": "devMayDescribe",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C15-1",
+        "R06"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D05",
+      "atom": "modelAttributesAraEndorsement",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "directed-attestation-or-complete-mandate",
+      "sourceDerivedEvidence": [
+        "F-C16-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C16-1"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D06",
+      "atom": "inspection",
+      "value": "conflicted",
+      "sourceDerivedValue": "conflicted",
+      "traceRule": "same-plan-version-scope-inspection",
+      "sourceDerivedEvidence": [
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C18-1",
+        "F-C18-2"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P10.commitment",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [
+        "F-C10-1",
+        "F-C13-1",
+        "F-C14-1",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C10-1",
+        "F-C13-1",
+        "F-C14-1",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P10.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P10.inspection",
+      "value": "conflicted",
+      "sourceDerivedValue": "conflicted",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C18-1",
+        "F-C18-2",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P10.physical",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "F-C12-1",
+        "R03",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "F-C12-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P10.readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "F-C10-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "F-C10-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P12.commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [
+        "F-C04-3",
+        "F-C08-3",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-3",
+        "F-C08-3",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P12.demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P12.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P12.physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "R03",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P12.readiness",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C17-1",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C17-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P8.commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-commitment",
+      "sourceDerivedEvidence": [
+        "F-C04-4",
+        "F-C09-2",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C04-4",
+        "F-C09-2",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P8.demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-demand",
+      "sourceDerivedEvidence": [
+        "F-C17-1",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C17-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P8.inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P8.physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "plan-physical",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "R03",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C07-1",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D07",
+      "atom": "P8.readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "plan-readiness",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C04-4",
+        "F-C07-1",
+        "F-C09-2",
+        "F-C17-1",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C04-4",
+        "F-C07-1",
+        "F-C09-2",
+        "F-C17-1",
+        "R02",
+        "R03",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D08",
+      "atom": "cost",
+      "value": 7,
+      "sourceDerivedValue": 7,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C17-1",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C04-4",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C09-2",
+        "F-C10-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D08",
+      "atom": "output",
+      "value": 12,
+      "sourceDerivedValue": 12,
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C17-1",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C04-4",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C09-2",
+        "F-C10-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D08",
+      "atom": "selection",
+      "value": "P12",
+      "sourceDerivedValue": "P12",
+      "traceRule": "supported-only-choice",
+      "sourceDerivedEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C17-1",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C03-1",
+        "F-C04-3",
+        "F-C04-4",
+        "F-C07-1",
+        "F-C08-3",
+        "F-C09-2",
+        "F-C10-1",
+        "F-C12-1",
+        "F-C13-1",
+        "F-C14-1",
+        "F-C17-1",
+        "F-C18-1",
+        "F-C18-2",
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "R08"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D09",
+      "atom": "lineageCount",
+      "value": 1,
+      "sourceDerivedValue": 1,
+      "traceRule": "lineage-deduplication",
+      "sourceDerivedEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R09"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R05",
+        "R09"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D09",
+      "atom": "maxQuantity",
+      "value": 1,
+      "sourceDerivedValue": 1,
+      "traceRule": "lineage-deduplication",
+      "sourceDerivedEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R05",
+        "R09"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R05",
+        "R09"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D10",
+      "atom": "C06_C13",
+      "value": "same_surface_different_relation",
+      "sourceDerivedValue": "same_surface_different_relation",
+      "traceRule": "surface-versus-directed-relation",
+      "sourceDerivedEvidence": [
+        "F-C06-1",
+        "F-C13-1",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C06-1",
+        "F-C13-1",
+        "R04"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "UNION",
+      "task": "D10",
+      "atom": "C13_C14",
+      "value": "different_surface_same_relation",
+      "sourceDerivedValue": "different_surface_same_relation",
+      "traceRule": "surface-versus-directed-relation",
+      "sourceDerivedEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R09"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "F-C13-1",
+        "F-C14-1",
+        "R05",
+        "R09"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-physical",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R07",
+        "W01-F1",
+        "W01-F2"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W01-F1",
+        "W01-F2",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-demand",
+      "sourceDerivedEvidence": [
+        "R07",
+        "W01-F3"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W01-F3",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-commitment",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R07",
+        "W01-F6",
+        "W01-F7"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W01-F7",
+        "W01-F6",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "readiness",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "W01-F1",
+        "W01-F2",
+        "W01-F3",
+        "W01-F6",
+        "W01-F7"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "W01-F1",
+        "W01-F2",
+        "W01-F3",
+        "W01-F6",
+        "W01-F7"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "selection",
+      "value": "Q7",
+      "sourceDerivedValue": "Q7",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R08",
+        "W01-F1",
+        "W01-F2",
+        "W01-F3",
+        "W01-F6",
+        "W01-F7"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "linEndorsesV1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "exact-directed-version-one-endorsement",
+      "sourceDerivedEvidence": [
+        "R04",
+        "W01-F5"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W01",
+      "task": "W01",
+      "atom": "utterancePredicate",
+      "value": "resource_commitment",
+      "sourceDerivedValue": "resource_commitment",
+      "traceRule": "bound-claim-predicate",
+      "sourceDerivedEvidence": [
+        "W01-F7",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-physical",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R07",
+        "W02-F1",
+        "W02-F2"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W02-F1",
+        "W02-F2",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-demand",
+      "sourceDerivedEvidence": [
+        "R07",
+        "W02-F3"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W02-F3",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "exact-catalog-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment LIN/bench Q7@1 quantity 3"
+      ],
+      "authorCanonicalEvidence": [
+        "W02-F6",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment LIN/bench Q7@1 quantity 3"
+      ],
+      "authorCanonicalEvidence": [
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "W02-F1",
+        "W02-F2",
+        "W02-F3",
+        "W02-F6"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "commitment LIN/bench Q7@1 quantity 3"
+      ],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "linEndorsesV1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "exact-directed-version-one-endorsement",
+      "sourceDerivedEvidence": [
+        "R04",
+        "W02-F5"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W02",
+      "task": "W02",
+      "atom": "utterancePredicate",
+      "value": "understands",
+      "sourceDerivedValue": "understands",
+      "traceRule": "bound-claim-predicate",
+      "sourceDerivedEvidence": [
+        "W02-F4",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-physical",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R07",
+        "W03-F1",
+        "W03-F2"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W03-F1",
+        "W03-F2",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-demand",
+      "sourceDerivedEvidence": [
+        "R07",
+        "W03-F3"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W03-F3",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "commitment",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "exact-catalog-commitment",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment LIN/bench Q7@2 quantity 3",
+        "commitment NOA/courier Q7@2 quantity 1"
+      ],
+      "authorCanonicalEvidence": [
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "readiness",
+      "value": "unknown",
+      "sourceDerivedValue": "unknown",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [
+        "commitment LIN/bench Q7@2 quantity 3",
+        "commitment NOA/courier Q7@2 quantity 1"
+      ],
+      "authorCanonicalEvidence": [
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "W03-F1",
+        "W03-F2",
+        "W03-F3"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [
+        "commitment LIN/bench Q7@2 quantity 3",
+        "commitment NOA/courier Q7@2 quantity 1"
+      ],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "linEndorsesV1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "exact-directed-version-one-endorsement",
+      "sourceDerivedEvidence": [
+        "R04",
+        "W03-F5"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W03",
+      "task": "W03",
+      "atom": "utterancePredicate",
+      "value": "resource_commitment",
+      "sourceDerivedValue": "resource_commitment",
+      "traceRule": "bound-claim-predicate",
+      "sourceDerivedEvidence": [
+        "W03-F7",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-physical",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R07",
+        "W04-F1",
+        "W04-F2"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W04-F1",
+        "W04-F2",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "exact-catalog-demand",
+      "sourceDerivedEvidence": [
+        "R07",
+        "W04-F8"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W04-F8",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-commitment",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R07",
+        "W04-F6",
+        "W04-F7"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W04-F7",
+        "W04-F6",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "W04-F1",
+        "W04-F2",
+        "W04-F6",
+        "W04-F7",
+        "W04-F8"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "W04-F1",
+        "W04-F2",
+        "W04-F6",
+        "W04-F7",
+        "W04-F8"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "linEndorsesV1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "exact-directed-version-one-endorsement",
+      "sourceDerivedEvidence": [
+        "R04",
+        "W04-F5"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W04",
+      "task": "W04",
+      "atom": "utterancePredicate",
+      "value": "resource_commitment",
+      "sourceDerivedValue": "resource_commitment",
+      "traceRule": "bound-claim-predicate",
+      "sourceDerivedEvidence": [
+        "W04-F7",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-physical",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R07",
+        "W05-F1",
+        "W05-F2"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W05-F1",
+        "W05-F2",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-demand",
+      "sourceDerivedEvidence": [
+        "R07",
+        "W05-F3"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W05-F3",
+        "R03",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "commitment",
+      "value": "conflicted",
+      "sourceDerivedValue": "conflicted",
+      "traceRule": "exact-catalog-commitment",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R07",
+        "W05-F6",
+        "W05-F7",
+        "W05-F8"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "W05-F7",
+        "W05-F8",
+        "W05-F6",
+        "R05",
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-catalog-inspection",
+      "sourceDerivedEvidence": [
+        "R07"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R07"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "readiness",
+      "value": "conflicted",
+      "sourceDerivedValue": "conflicted",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "W05-F1",
+        "W05-F2",
+        "W05-F3",
+        "W05-F6",
+        "W05-F7",
+        "W05-F8"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": [
+        "R02",
+        "R03",
+        "R05",
+        "R07",
+        "W05-F1",
+        "W05-F2",
+        "W05-F3",
+        "W05-F6",
+        "W05-F7",
+        "W05-F8"
+      ],
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "four-valued-conjunction-and-supported-only-choice",
+      "sourceDerivedEvidence": [
+        "R08"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "linEndorsesV1",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "exact-directed-version-one-endorsement",
+      "sourceDerivedEvidence": [
+        "R04",
+        "W05-F5"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W05",
+      "task": "W05",
+      "atom": "utterancePredicate",
+      "value": "resource_commitment",
+      "sourceDerivedValue": "resource_commitment",
+      "traceRule": "bound-claim-predicate",
+      "sourceDerivedEvidence": [
+        "W05-F7",
+        "R04"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "authorHasNamedMissingDependencies": false
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SHARED-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SHARED-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "output",
+      "value": 0,
+      "sourceDerivedValue": 0,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [],
+      "atom": "cost",
+      "value": 0,
+      "sourceDerivedValue": 0,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R10",
+        "W06-SHARED-CAP-bay"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SHARED-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R10",
+        "W06-SHARED-K-X"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R07",
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "output",
+      "value": 6,
+      "sourceDerivedValue": 6,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "cost",
+      "value": 2,
+      "sourceDerivedValue": 2,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R10",
+        "W06-SHARED-CAP-bay"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SHARED-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R10",
+        "W06-SHARED-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R07",
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "output",
+      "value": 6,
+      "sourceDerivedValue": 6,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "cost",
+      "value": 3,
+      "sourceDerivedValue": 3,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "physical",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R10",
+        "W06-SHARED-CAP-bay"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SHARED-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R10",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R07",
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "output",
+      "value": 12,
+      "sourceDerivedValue": 12,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "cost",
+      "value": 5,
+      "sourceDerivedValue": 5,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SHARED",
+      "task": "W06",
+      "atom": "selection",
+      "value": "none_supported",
+      "sourceDerivedValue": "none_supported",
+      "traceRule": "supported-ready-bundles-only-minimum-cost-then-ID",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SHARED-CAP-bay"
+        ],
+        "demand": [
+          "W06-SHARED-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SHARED-K-X"
+          ],
+          "Y": [
+            "W06-SHARED-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SPLIT-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SPLIT-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "output",
+      "value": 0,
+      "sourceDerivedValue": 0,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [],
+      "atom": "cost",
+      "value": 0,
+      "sourceDerivedValue": 0,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R10",
+        "W06-SPLIT-CAP-bayX"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SPLIT-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R10",
+        "W06-SPLIT-K-X"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R07",
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "output",
+      "value": 6,
+      "sourceDerivedValue": 6,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X"
+      ],
+      "atom": "cost",
+      "value": 2,
+      "sourceDerivedValue": 2,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R10",
+        "W06-SPLIT-CAP-bayY"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "demand",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SPLIT-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R10",
+        "W06-SPLIT-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R07",
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "readiness",
+      "value": "refuted",
+      "sourceDerivedValue": "refuted",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "output",
+      "value": 6,
+      "sourceDerivedValue": 6,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "Y"
+      ],
+      "atom": "cost",
+      "value": 3,
+      "sourceDerivedValue": 3,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "physical",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-quantity-by-exact-resource-id",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R10",
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "demand",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "sum-output-versus-active-demand",
+      "sourceDerivedEvidence": [
+        "R10",
+        "W06-SPLIT-D"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "commitment",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "exact-plan-version-actor-resource-grants",
+      "sourceDerivedEvidence": [
+        "R05",
+        "R10",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "inspection",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "inspection-not-required",
+      "sourceDerivedEvidence": [
+        "R07",
+        "R10"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "readiness",
+      "value": "supported",
+      "sourceDerivedValue": "supported",
+      "traceRule": "four-valued-conjunction",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "output",
+      "value": 12,
+      "sourceDerivedValue": 12,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "bundle": [
+        "X",
+        "Y"
+      ],
+      "atom": "cost",
+      "value": 5,
+      "sourceDerivedValue": 5,
+      "traceRule": "sum-selected-catalog-plan-fields",
+      "sourceDerivedEvidence": [],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "sourceCatalogPlanIds": [
+        "X",
+        "Y"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    },
+    {
+      "scope": "W06-SPLIT",
+      "task": "W06",
+      "atom": "selection",
+      "value": [
+        "X",
+        "Y"
+      ],
+      "sourceDerivedValue": [
+        "X",
+        "Y"
+      ],
+      "traceRule": "supported-ready-bundles-only-minimum-cost-then-ID",
+      "sourceDerivedEvidence": [
+        "R03",
+        "R05",
+        "R07",
+        "R10",
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y"
+      ],
+      "sourceDerivedMissingDependencies": [],
+      "authorCanonicalEvidence": null,
+      "contextLevelCanonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "contextFacts": {
+        "capacity": [
+          "W06-SPLIT-CAP-bayX",
+          "W06-SPLIT-CAP-bayY"
+        ],
+        "demand": [
+          "W06-SPLIT-D"
+        ],
+        "grants": {
+          "X": [
+            "W06-SPLIT-K-X"
+          ],
+          "Y": [
+            "W06-SPLIT-K-Y"
+          ]
+        }
+      }
+    }
+  ]
+}

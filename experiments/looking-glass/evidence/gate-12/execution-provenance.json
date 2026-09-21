@@ -1,0 +1,144 @@
+{
+  "gate": 12,
+  "recordedAtUtc": "2026-09-20T18:45:10.204603+00:00",
+  "baseCommit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+  "requestedRouting": {
+    "specificationAndSynthesis": "GPT-6 Astra xhigh",
+    "primarySources": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independentAudit": "separate GPT-5.6 Sol high"
+  },
+  "actualStartedWorkers": [
+    {
+      "task": "/root/g10_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Gate12 specification via existing Astra worker"
+    },
+    {
+      "task": "/root/g9_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Gate12 primary-source gathering via existing Luna worker"
+    },
+    {
+      "task": "/root/g9_sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Gate12 independent prespec review via existing separate auditor"
+    },
+    {
+      "task": "/root/g9_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Gate12 implementation via existing separate builder",
+      "dispatchedAfterPrespecFreezeAtUtc": "2026-09-20T18:56:06.825617+00:00"
+    }
+  ],
+  "hostRole": "Local setup/tool routing, supported browser controls, evidence/status/Git. No unsupported host model switch claimed.",
+  "humanParticipants": 0,
+  "priorIntegrityEntries": 1613,
+  "gate10ResultPreserved": "BOUNDED_NEGATIVE_NOT_READY; no further repairs authorized.",
+  "publicationTarget": {
+    "remote": "origin",
+    "repository": "jedisherpa/btc-constitutional-learning-collective",
+    "visibility": "PRIVATE",
+    "branch": "codex/looking-glass",
+    "authorization": "Earlier actual user request: All right, publish everything to GitHub. Continuing existing private branch.",
+    "mirrorUntouched": true
+  },
+  "provisionalPort": 44005,
+  "portFreeAtStart": true,
+  "dispatchNotes": [
+    "Independent Sol candidate001 verifier preparation followup rejected by agent thread capacity while builder active; no work claimed from rejected dispatch. Retry after builder handoff.",
+    "First candidate002 builder followup rejected while independent auditor was finishing; retried successfully after auditor final response. No implementation attributed to rejected dispatch."
+  ],
+  "researchState": "Primary review complete; common public facts versus different local objectives distinction clarified. Luna final response received.",
+  "updatedAtUtc": "2026-09-20T19:45:48.472376+00:00",
+  "prespecFreeze": {
+    "path": "docs/gate-12/PRESPEC_FREEZE.json",
+    "sha256": "0aafcfe9b62f5ba1c2b5934ae7624b4e05248d7ed36ccfa266a4bc55cd4458b1",
+    "frozenAtUtc": "2026-09-20T18:55:36.033259+00:00",
+    "independentChecks": 67,
+    "files": 9
+  },
+  "specificationState": "Frozen after independent67/67 checks, before builder dispatch",
+  "candidate001": {
+    "runId": "G12-COORD-001",
+    "buildId": "g12-0d66d254f275f3663dee",
+    "status": "BLOCKED_RETAINED_OUTCOME_INSPECTION",
+    "observations": 43,
+    "hostActions": 31,
+    "originalImages": 6,
+    "criticalFirstUse": "Completed missing-proposal block, both local proposals, P2 selection, diagram/plain and export",
+    "stoppedAt": "Retained outcome L-A-1 selected in actual DOM but Inspect button remained disabled; original screenshot and failed action retained. No reference-control, reload or natural tour completed.",
+    "acquisitionErrors": "One exact getByLabel locator failure resolved with accessible combobox role; separate actual disabled-button failure retained.",
+    "exportPrefixEvents": 23,
+    "humanParticipants": 0,
+    "sourceHash": "0d66d254f275f3663dee1b9e75062a046106dddc3f4ce9419eaa519688cd5e74",
+    "hostServerExecSession": 40813,
+    "browserFreezeSha256": "038e3e2eba0796e95f5a061d01d8259a05da18c5613f19749d22a3e052bb589d",
+    "independentVerdict": "BLOCKED",
+    "independentChecks": {
+      "software": 144,
+      "controlledVmPass": 9,
+      "controlledVmTotal": 11
+    },
+    "hostServerStoppedForRevision": true
+  },
+  "candidate002": {
+    "authorizedBy": "Prespecified one initial plus at most two justified revisions",
+    "scope": "Retained outcome selection/enablement, unique branch registry, wrap source hashes",
+    "builderTask": "/root/g9_sol_builder",
+    "dispatchedAtUtc": "2026-09-20T19:12:54.509162+00:00",
+    "runId": "G12-COORD-002",
+    "buildId": "g12-3c5526361a7cb2cc5c4a",
+    "sourceHash": "3c5526361a7cb2cc5c4afe35c23801f183dacdc2f8ae4653471b202a27a9665c",
+    "hostServerExecSession": 80431,
+    "independentBuildChecks": 148,
+    "independentControlledUiChecks": 19,
+    "browserObservations": 93,
+    "hostActions": 79,
+    "originals": 5,
+    "pausedCheckpoints": 18,
+    "naturalSeconds": 24.002,
+    "coreSha256": "cdcbfb68c8fec722a217075d30c14b76e69803e753296fc3bde8a6ea936335f6",
+    "corePins": 102
+  },
+  "coreAudit": {
+    "verdict": "PASS_DECLARED_SOFTWARE_SCOPE",
+    "report": "audit/gate-12/final-audit.md",
+    "focusedChecks": 73,
+    "auditorEnded": true
+  },
+  "synthesis": {
+    "worker": "/root/g10_astra",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "xhigh",
+    "status": "dispatched after final core audit",
+    "completed": true,
+    "files": [
+      "evidence/gate-12/GATE_12_PACKET.md",
+      "evidence/gate-12/results.html",
+      "evidence/gate-12/run-evidence.json"
+    ]
+  },
+  "hostSynthesisReview": "Corrected attempted vs completed action counts before synthesis handoff:00131attempts29completed2failed; combined110attempts108completed2failed. Astra applied correction to all3 authored artifacts.",
+  "finalHandoff": {
+    "verdict": "PASS_HANDOFF_OF_DECLARED_SOFTWARE_RESULT",
+    "independentChecks": 31,
+    "report": "audit/gate-12/handoff-audit.md",
+    "presentationObservations": 9,
+    "presentationOriginals": 2,
+    "approvedReviewAssets": 8,
+    "viewportQualification": "Supported reset was called before final presentation capture; the final960x720 dimensions alone do not verify internal override state."
+  },
+  "allStageWorkersEnded": true,
+  "workerClosure": {
+    "Astra": "Specification and synthesis complete; final response received.",
+    "Luna": "Primary-source review and common-facts clarification complete; final response received.",
+    "SolBuilder": "Both immutable candidates and focused revision complete; final response received.",
+    "SolAuditor": "Prespec, candidates, core, presentation/handoff and chronology correction complete; final response received.",
+    "host": "Finishing final freeze/Git/publication, then ending at Gate13 boundary. Passive loopback replay servers remain."
+  }
+}

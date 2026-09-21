@@ -1,0 +1,1606 @@
+{
+  "schemaVersion": "author-answer-key/1",
+  "classification": "RESEARCH_TEAM_ONLY; never participant or HTTP content",
+  "status": "AUTHOR_DERIVATION_PENDING_INDEPENDENT_BLIND_COMPARISON",
+  "authorRole": "GPT-6 Astra xhigh engineering specification; no participant research output",
+  "sourcePins": {
+    "world.json": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef",
+    "allocations.json": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d",
+    "development-tasks.json": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6",
+    "withheld-tasks.json": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03",
+    "snapshot.schema.json": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a"
+  },
+  "semantics": {
+    "supportBits": {
+      "supported": [
+        true,
+        false
+      ],
+      "refuted": [
+        false,
+        true
+      ],
+      "conflicted": [
+        true,
+        true
+      ],
+      "unknown": [
+        false,
+        false
+      ]
+    },
+    "and": "positive=all positive; negative=any negative",
+    "actionEligibility": "supported only",
+    "unknown": "no positive or negative support, not false",
+    "sourceScope": "each initial packet separately; UNION complete18; transfers independent"
+  },
+  "development": {
+    "A1": {
+      "suppliedCardIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 8,
+            "requirementVersion": 1
+          },
+          "canonicalEvidence": {
+            "demand": [
+              "F-C02-1",
+              "R03"
+            ],
+            "requirementVersion": [
+              "F-C02-1",
+              "R03"
+            ]
+          }
+        },
+        "D02": {
+          "values": {
+            "press": 6,
+            "cart": null,
+            "varnish": null
+          },
+          "canonicalEvidence": {
+            "press": [
+              "F-C03-1",
+              "R03"
+            ],
+            "cart": [],
+            "varnish": []
+          }
+        },
+        "D03": {
+          "values": {
+            "araUnderstands": "supported",
+            "araEndorses": "refuted",
+            "beaEndorses": "unknown",
+            "araPress6": "supported",
+            "beaCart2": "unknown"
+          },
+          "canonicalEvidence": {
+            "araUnderstands": [
+              "F-C04-1"
+            ],
+            "araEndorses": [
+              "F-C04-2"
+            ],
+            "beaEndorses": [],
+            "araPress6": [
+              "F-C04-3"
+            ],
+            "beaCart2": []
+          }
+        },
+        "D04": {
+          "values": {
+            "araExplores": "supported",
+            "araUnderstands": "supported",
+            "araPress5": "unknown",
+            "beaCart1": "unknown",
+            "cyVarnish1": "unknown"
+          },
+          "canonicalEvidence": {
+            "araExplores": [
+              "F-C05-1"
+            ],
+            "araUnderstands": [
+              "F-C06-1"
+            ],
+            "araPress5": [],
+            "beaCart1": [],
+            "cyVarnish1": []
+          }
+        },
+        "D05": {
+          "values": {
+            "modelAttributesAraEndorsement": "unknown",
+            "araEndorses": "refuted",
+            "devMayDescribe": "unknown",
+            "devMayCommit": "unknown"
+          },
+          "canonicalEvidence": {
+            "modelAttributesAraEndorsement": [],
+            "araEndorses": [
+              "F-C04-2"
+            ],
+            "devMayDescribe": [],
+            "devMayCommit": []
+          }
+        },
+        "D06": {
+          "values": {
+            "inspection": "unknown"
+          },
+          "canonicalEvidence": {
+            "inspection": []
+          }
+        },
+        "D07": {
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "supported",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "unknown",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "unknown",
+            "P10.demand": "supported",
+            "P10.commitment": "unknown",
+            "P10.inspection": "unknown",
+            "P10.readiness": "unknown"
+          },
+          "canonicalEvidence": {
+            "P8.physical": [],
+            "P8.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P8.commitment": [],
+            "P8.inspection": [
+              "R07"
+            ],
+            "P8.readiness": [],
+            "P12.physical": [],
+            "P12.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P12.commitment": [],
+            "P12.inspection": [
+              "R07"
+            ],
+            "P12.readiness": [],
+            "P10.physical": [],
+            "P10.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P10.commitment": [],
+            "P10.inspection": [],
+            "P10.readiness": []
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null
+          },
+          "canonicalEvidence": {
+            "selection": [
+              "F-C02-1",
+              "F-C03-1",
+              "F-C04-3",
+              "F-C04-4",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "output": [],
+            "cost": []
+          }
+        }
+      },
+      "expectedValueAtomCount": 38,
+      "scopeNote": "Only supplied active claims count. Unknowns are expected, not deficient union reconstruction."
+    },
+    "A2": {
+      "suppliedCardIds": [
+        "C01",
+        "C02",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 8,
+            "requirementVersion": 1
+          },
+          "canonicalEvidence": {
+            "demand": [
+              "F-C02-1",
+              "R03"
+            ],
+            "requirementVersion": [
+              "F-C02-1",
+              "R03"
+            ]
+          }
+        },
+        "D02": {
+          "values": {
+            "press": null,
+            "cart": 2,
+            "varnish": null
+          },
+          "canonicalEvidence": {
+            "press": [],
+            "cart": [
+              "F-C07-1",
+              "R03"
+            ],
+            "varnish": []
+          }
+        },
+        "D03": {
+          "values": {
+            "araUnderstands": "unknown",
+            "araEndorses": "unknown",
+            "beaEndorses": "supported",
+            "araPress6": "unknown",
+            "beaCart2": "supported"
+          },
+          "canonicalEvidence": {
+            "araUnderstands": [],
+            "araEndorses": [],
+            "beaEndorses": [
+              "F-C08-2"
+            ],
+            "araPress6": [],
+            "beaCart2": [
+              "F-C08-3"
+            ]
+          }
+        },
+        "D04": {
+          "values": {
+            "araExplores": "unknown",
+            "araUnderstands": "unknown",
+            "araPress5": "unknown",
+            "beaCart1": "refuted",
+            "cyVarnish1": "unknown"
+          },
+          "canonicalEvidence": {
+            "araExplores": [],
+            "araUnderstands": [],
+            "araPress5": [],
+            "beaCart1": [
+              "F-C10-1"
+            ],
+            "cyVarnish1": []
+          }
+        },
+        "D05": {
+          "values": {
+            "modelAttributesAraEndorsement": "unknown",
+            "araEndorses": "unknown",
+            "devMayDescribe": "unknown",
+            "devMayCommit": "unknown"
+          },
+          "canonicalEvidence": {
+            "modelAttributesAraEndorsement": [],
+            "araEndorses": [],
+            "devMayDescribe": [],
+            "devMayCommit": []
+          }
+        },
+        "D06": {
+          "values": {
+            "inspection": "unknown"
+          },
+          "canonicalEvidence": {
+            "inspection": []
+          }
+        },
+        "D07": {
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "supported",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "unknown",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "unknown",
+            "P10.demand": "supported",
+            "P10.commitment": "refuted",
+            "P10.inspection": "unknown",
+            "P10.readiness": "refuted"
+          },
+          "canonicalEvidence": {
+            "P8.physical": [],
+            "P8.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P8.commitment": [],
+            "P8.inspection": [
+              "R07"
+            ],
+            "P8.readiness": [],
+            "P12.physical": [],
+            "P12.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P12.commitment": [],
+            "P12.inspection": [
+              "R07"
+            ],
+            "P12.readiness": [],
+            "P10.physical": [],
+            "P10.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P10.commitment": [
+              "F-C10-1",
+              "R05",
+              "R07"
+            ],
+            "P10.inspection": [],
+            "P10.readiness": [
+              "F-C02-1",
+              "F-C07-1",
+              "F-C10-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ]
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null
+          },
+          "canonicalEvidence": {
+            "selection": [
+              "F-C02-1",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C09-2",
+              "F-C10-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "output": [],
+            "cost": []
+          }
+        }
+      },
+      "expectedValueAtomCount": 38,
+      "scopeNote": "Only supplied active claims count. Unknowns are expected, not deficient union reconstruction."
+    },
+    "A3": {
+      "suppliedCardIds": [
+        "C01",
+        "C02",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 8,
+            "requirementVersion": 1
+          },
+          "canonicalEvidence": {
+            "demand": [
+              "F-C02-1",
+              "R03"
+            ],
+            "requirementVersion": [
+              "F-C02-1",
+              "R03"
+            ]
+          }
+        },
+        "D02": {
+          "values": {
+            "press": null,
+            "cart": null,
+            "varnish": 0
+          },
+          "canonicalEvidence": {
+            "press": [],
+            "cart": [],
+            "varnish": [
+              "F-C12-1",
+              "R03"
+            ]
+          }
+        },
+        "D03": {
+          "values": {
+            "araUnderstands": "unknown",
+            "araEndorses": "unknown",
+            "beaEndorses": "unknown",
+            "araPress6": "unknown",
+            "beaCart2": "unknown"
+          },
+          "canonicalEvidence": {
+            "araUnderstands": [],
+            "araEndorses": [],
+            "beaEndorses": [],
+            "araPress6": [],
+            "beaCart2": []
+          }
+        },
+        "D04": {
+          "values": {
+            "araExplores": "unknown",
+            "araUnderstands": "unknown",
+            "araPress5": "unknown",
+            "beaCart1": "unknown",
+            "cyVarnish1": "supported"
+          },
+          "canonicalEvidence": {
+            "araExplores": [],
+            "araUnderstands": [],
+            "araPress5": [],
+            "beaCart1": [],
+            "cyVarnish1": [
+              "F-C13-1",
+              "F-C14-1"
+            ]
+          }
+        },
+        "D05": {
+          "values": {
+            "modelAttributesAraEndorsement": "unknown",
+            "araEndorses": "unknown",
+            "devMayDescribe": "unknown",
+            "devMayCommit": "unknown"
+          },
+          "canonicalEvidence": {
+            "modelAttributesAraEndorsement": [],
+            "araEndorses": [],
+            "devMayDescribe": [],
+            "devMayCommit": []
+          }
+        },
+        "D06": {
+          "values": {
+            "inspection": "unknown"
+          },
+          "canonicalEvidence": {
+            "inspection": []
+          }
+        },
+        "D07": {
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "supported",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "unknown",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "refuted",
+            "P10.demand": "supported",
+            "P10.commitment": "unknown",
+            "P10.inspection": "unknown",
+            "P10.readiness": "refuted"
+          },
+          "canonicalEvidence": {
+            "P8.physical": [],
+            "P8.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P8.commitment": [],
+            "P8.inspection": [
+              "R07"
+            ],
+            "P8.readiness": [],
+            "P12.physical": [],
+            "P12.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P12.commitment": [],
+            "P12.inspection": [
+              "R07"
+            ],
+            "P12.readiness": [],
+            "P10.physical": [
+              "F-C12-1",
+              "R03",
+              "R07"
+            ],
+            "P10.demand": [
+              "F-C02-1",
+              "R03",
+              "R07"
+            ],
+            "P10.commitment": [],
+            "P10.inspection": [],
+            "P10.readiness": [
+              "F-C02-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ]
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null
+          },
+          "canonicalEvidence": {
+            "selection": [
+              "F-C02-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "output": [],
+            "cost": []
+          }
+        }
+      },
+      "expectedValueAtomCount": 38,
+      "scopeNote": "Only supplied active claims count. Unknowns are expected, not deficient union reconstruction."
+    },
+    "A4": {
+      "suppliedCardIds": [
+        "C01",
+        "C02",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 10,
+            "requirementVersion": 2
+          },
+          "canonicalEvidence": {
+            "demand": [
+              "F-C17-1",
+              "R03"
+            ],
+            "requirementVersion": [
+              "F-C17-1",
+              "R03"
+            ]
+          }
+        },
+        "D02": {
+          "values": {
+            "press": null,
+            "cart": null,
+            "varnish": null
+          },
+          "canonicalEvidence": {
+            "press": [],
+            "cart": [],
+            "varnish": []
+          }
+        },
+        "D03": {
+          "values": {
+            "araUnderstands": "unknown",
+            "araEndorses": "unknown",
+            "beaEndorses": "unknown",
+            "araPress6": "unknown",
+            "beaCart2": "unknown"
+          },
+          "canonicalEvidence": {
+            "araUnderstands": [],
+            "araEndorses": [],
+            "beaEndorses": [],
+            "araPress6": [],
+            "beaCart2": []
+          }
+        },
+        "D04": {
+          "values": {
+            "araExplores": "unknown",
+            "araUnderstands": "unknown",
+            "araPress5": "unknown",
+            "beaCart1": "unknown",
+            "cyVarnish1": "unknown"
+          },
+          "canonicalEvidence": {
+            "araExplores": [],
+            "araUnderstands": [],
+            "araPress5": [],
+            "beaCart1": [],
+            "cyVarnish1": []
+          }
+        },
+        "D05": {
+          "values": {
+            "modelAttributesAraEndorsement": "supported",
+            "araEndorses": "unknown",
+            "devMayDescribe": "supported",
+            "devMayCommit": "refuted"
+          },
+          "canonicalEvidence": {
+            "modelAttributesAraEndorsement": [
+              "F-C16-1"
+            ],
+            "araEndorses": [],
+            "devMayDescribe": [
+              "F-C15-1",
+              "R06"
+            ],
+            "devMayCommit": [
+              "F-C15-1",
+              "R06"
+            ]
+          }
+        },
+        "D06": {
+          "values": {
+            "inspection": "conflicted"
+          },
+          "canonicalEvidence": {
+            "inspection": [
+              "F-C18-1",
+              "F-C18-2"
+            ]
+          }
+        },
+        "D07": {
+          "values": {
+            "P8.physical": "unknown",
+            "P8.demand": "refuted",
+            "P8.commitment": "unknown",
+            "P8.inspection": "supported",
+            "P8.readiness": "refuted",
+            "P12.physical": "unknown",
+            "P12.demand": "supported",
+            "P12.commitment": "unknown",
+            "P12.inspection": "supported",
+            "P12.readiness": "unknown",
+            "P10.physical": "unknown",
+            "P10.demand": "supported",
+            "P10.commitment": "unknown",
+            "P10.inspection": "conflicted",
+            "P10.readiness": "refuted"
+          },
+          "canonicalEvidence": {
+            "P8.physical": [],
+            "P8.demand": [
+              "F-C17-1",
+              "R03",
+              "R07"
+            ],
+            "P8.commitment": [],
+            "P8.inspection": [
+              "R07"
+            ],
+            "P8.readiness": [
+              "F-C17-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ],
+            "P12.physical": [],
+            "P12.demand": [
+              "F-C17-1",
+              "R03",
+              "R07"
+            ],
+            "P12.commitment": [],
+            "P12.inspection": [
+              "R07"
+            ],
+            "P12.readiness": [],
+            "P10.physical": [],
+            "P10.demand": [
+              "F-C17-1",
+              "R03",
+              "R07"
+            ],
+            "P10.commitment": [],
+            "P10.inspection": [
+              "F-C18-1",
+              "F-C18-2",
+              "R07"
+            ],
+            "P10.readiness": [
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ]
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "none_supported",
+            "output": null,
+            "cost": null
+          },
+          "canonicalEvidence": {
+            "selection": [
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "output": [],
+            "cost": []
+          }
+        }
+      },
+      "expectedValueAtomCount": 38,
+      "scopeNote": "Only supplied active claims count. Unknowns are expected, not deficient union reconstruction."
+    },
+    "UNION": {
+      "suppliedCardIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "tasks": {
+        "D01": {
+          "values": {
+            "demand": 10,
+            "requirementVersion": 2
+          },
+          "canonicalEvidence": {
+            "demand": [
+              "F-C17-1",
+              "R03"
+            ],
+            "requirementVersion": [
+              "F-C17-1",
+              "R03"
+            ]
+          }
+        },
+        "D02": {
+          "values": {
+            "press": 6,
+            "cart": 2,
+            "varnish": 0
+          },
+          "canonicalEvidence": {
+            "press": [
+              "F-C03-1",
+              "R03"
+            ],
+            "cart": [
+              "F-C07-1",
+              "R03"
+            ],
+            "varnish": [
+              "F-C12-1",
+              "R03"
+            ]
+          }
+        },
+        "D03": {
+          "values": {
+            "araUnderstands": "supported",
+            "araEndorses": "refuted",
+            "beaEndorses": "supported",
+            "araPress6": "supported",
+            "beaCart2": "supported"
+          },
+          "canonicalEvidence": {
+            "araUnderstands": [
+              "F-C04-1"
+            ],
+            "araEndorses": [
+              "F-C04-2"
+            ],
+            "beaEndorses": [
+              "F-C08-2"
+            ],
+            "araPress6": [
+              "F-C04-3"
+            ],
+            "beaCart2": [
+              "F-C08-3"
+            ]
+          }
+        },
+        "D04": {
+          "values": {
+            "araExplores": "supported",
+            "araUnderstands": "supported",
+            "araPress5": "unknown",
+            "beaCart1": "refuted",
+            "cyVarnish1": "supported"
+          },
+          "canonicalEvidence": {
+            "araExplores": [
+              "F-C05-1"
+            ],
+            "araUnderstands": [
+              "F-C06-1"
+            ],
+            "araPress5": [],
+            "beaCart1": [
+              "F-C10-1"
+            ],
+            "cyVarnish1": [
+              "F-C13-1",
+              "F-C14-1"
+            ]
+          }
+        },
+        "D05": {
+          "values": {
+            "modelAttributesAraEndorsement": "supported",
+            "araEndorses": "refuted",
+            "devMayDescribe": "supported",
+            "devMayCommit": "refuted"
+          },
+          "canonicalEvidence": {
+            "modelAttributesAraEndorsement": [
+              "F-C16-1"
+            ],
+            "araEndorses": [
+              "F-C04-2"
+            ],
+            "devMayDescribe": [
+              "F-C15-1",
+              "R06"
+            ],
+            "devMayCommit": [
+              "F-C15-1",
+              "R06"
+            ]
+          }
+        },
+        "D06": {
+          "values": {
+            "inspection": "conflicted"
+          },
+          "canonicalEvidence": {
+            "inspection": [
+              "F-C18-1",
+              "F-C18-2"
+            ]
+          }
+        },
+        "D07": {
+          "values": {
+            "P8.physical": "supported",
+            "P8.demand": "refuted",
+            "P8.commitment": "supported",
+            "P8.inspection": "supported",
+            "P8.readiness": "refuted",
+            "P12.physical": "supported",
+            "P12.demand": "supported",
+            "P12.commitment": "supported",
+            "P12.inspection": "supported",
+            "P12.readiness": "supported",
+            "P10.physical": "refuted",
+            "P10.demand": "supported",
+            "P10.commitment": "refuted",
+            "P10.inspection": "conflicted",
+            "P10.readiness": "refuted"
+          },
+          "canonicalEvidence": {
+            "P8.physical": [
+              "F-C03-1",
+              "F-C07-1",
+              "R03",
+              "R07"
+            ],
+            "P8.demand": [
+              "F-C17-1",
+              "R03",
+              "R07"
+            ],
+            "P8.commitment": [
+              "F-C04-4",
+              "F-C09-2",
+              "R05",
+              "R07"
+            ],
+            "P8.inspection": [
+              "R07"
+            ],
+            "P8.readiness": [
+              "F-C03-1",
+              "F-C04-4",
+              "F-C07-1",
+              "F-C09-2",
+              "F-C17-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ],
+            "P12.physical": [
+              "F-C03-1",
+              "F-C07-1",
+              "R03",
+              "R07"
+            ],
+            "P12.demand": [
+              "F-C17-1",
+              "R03",
+              "R07"
+            ],
+            "P12.commitment": [
+              "F-C04-3",
+              "F-C08-3",
+              "R05",
+              "R07"
+            ],
+            "P12.inspection": [
+              "R07"
+            ],
+            "P12.readiness": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C17-1",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ],
+            "P10.physical": [
+              "F-C03-1",
+              "F-C07-1",
+              "F-C12-1",
+              "R03",
+              "R07"
+            ],
+            "P10.demand": [
+              "F-C17-1",
+              "R03",
+              "R07"
+            ],
+            "P10.commitment": [
+              "F-C10-1",
+              "F-C13-1",
+              "F-C14-1",
+              "R05",
+              "R07"
+            ],
+            "P10.inspection": [
+              "F-C18-1",
+              "F-C18-2",
+              "R07"
+            ],
+            "P10.readiness": [
+              "F-C03-1",
+              "F-C07-1",
+              "F-C10-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R02",
+              "R03",
+              "R05",
+              "R07"
+            ]
+          }
+        },
+        "D08": {
+          "values": {
+            "selection": "P12",
+            "output": 12,
+            "cost": 7
+          },
+          "canonicalEvidence": {
+            "selection": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C04-4",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C09-2",
+              "F-C10-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "output": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C04-4",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C09-2",
+              "F-C10-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ],
+            "cost": [
+              "F-C03-1",
+              "F-C04-3",
+              "F-C04-4",
+              "F-C07-1",
+              "F-C08-3",
+              "F-C09-2",
+              "F-C10-1",
+              "F-C12-1",
+              "F-C13-1",
+              "F-C14-1",
+              "F-C17-1",
+              "F-C18-1",
+              "F-C18-2",
+              "R02",
+              "R03",
+              "R05",
+              "R07",
+              "R08"
+            ]
+          }
+        },
+        "D09": {
+          "values": {
+            "lineageCount": 1,
+            "maxQuantity": 1
+          },
+          "canonicalEvidence": {
+            "lineageCount": [
+              "F-C13-1",
+              "F-C14-1",
+              "R05",
+              "R09"
+            ],
+            "maxQuantity": [
+              "F-C13-1",
+              "F-C14-1",
+              "R05",
+              "R09"
+            ]
+          }
+        },
+        "D10": {
+          "values": {
+            "C06_C13": "same_surface_different_relation",
+            "C13_C14": "different_surface_same_relation"
+          },
+          "canonicalEvidence": {
+            "C06_C13": [
+              "F-C06-1",
+              "F-C13-1",
+              "R04"
+            ],
+            "C13_C14": [
+              "F-C13-1",
+              "F-C14-1",
+              "R05",
+              "R09"
+            ]
+          }
+        }
+      },
+      "expectedValueAtomCount": 42,
+      "scopeNote": "Only supplied active claims count. Unknowns are expected, not deficient union reconstruction."
+    }
+  },
+  "transfer": {
+    "W01": {
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "supported",
+        "inspection": "supported",
+        "readiness": "supported",
+        "selection": "Q7",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "canonicalEvidence": {
+        "physical": [
+          "W01-F1",
+          "W01-F2",
+          "R03",
+          "R07"
+        ],
+        "demand": [
+          "W01-F3",
+          "R03",
+          "R07"
+        ],
+        "commitment": [
+          "W01-F7",
+          "W01-F6",
+          "R05",
+          "R07"
+        ],
+        "inspection": [
+          "R07"
+        ],
+        "readiness": [
+          "R02",
+          "R03",
+          "R05",
+          "R07",
+          "W01-F1",
+          "W01-F2",
+          "W01-F3",
+          "W01-F6",
+          "W01-F7"
+        ]
+      },
+      "sourceClaimIds": [
+        "W01-F1",
+        "W01-F2",
+        "W01-F3",
+        "W01-F4",
+        "W01-F5",
+        "W01-F6",
+        "W01-F7"
+      ]
+    },
+    "W02": {
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "unknown",
+        "inspection": "supported",
+        "readiness": "unknown",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "understands"
+      },
+      "canonicalEvidence": {
+        "physical": [
+          "W02-F1",
+          "W02-F2",
+          "R03",
+          "R07"
+        ],
+        "demand": [
+          "W02-F3",
+          "R03",
+          "R07"
+        ],
+        "commitment": [
+          "W02-F6",
+          "R05",
+          "R07"
+        ],
+        "inspection": [
+          "R07"
+        ],
+        "readiness": [
+          "R02",
+          "R03",
+          "R05",
+          "R07",
+          "W02-F1",
+          "W02-F2",
+          "W02-F3",
+          "W02-F6"
+        ]
+      },
+      "sourceClaimIds": [
+        "W02-F1",
+        "W02-F2",
+        "W02-F3",
+        "W02-F4",
+        "W02-F5",
+        "W02-F6"
+      ]
+    },
+    "W03": {
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "unknown",
+        "inspection": "supported",
+        "readiness": "unknown",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "canonicalEvidence": {
+        "physical": [
+          "W03-F1",
+          "W03-F2",
+          "R03",
+          "R07"
+        ],
+        "demand": [
+          "W03-F3",
+          "R03",
+          "R07"
+        ],
+        "commitment": [
+          "R05",
+          "R07"
+        ],
+        "inspection": [
+          "R07"
+        ],
+        "readiness": [
+          "R02",
+          "R03",
+          "R05",
+          "R07",
+          "W03-F1",
+          "W03-F2",
+          "W03-F3"
+        ]
+      },
+      "sourceClaimIds": [
+        "W03-F1",
+        "W03-F2",
+        "W03-F3",
+        "W03-F4",
+        "W03-F5",
+        "W03-F6",
+        "W03-F7"
+      ]
+    },
+    "W04": {
+      "values": {
+        "physical": "supported",
+        "demand": "refuted",
+        "commitment": "supported",
+        "inspection": "supported",
+        "readiness": "refuted",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "canonicalEvidence": {
+        "physical": [
+          "W04-F1",
+          "W04-F2",
+          "R03",
+          "R07"
+        ],
+        "demand": [
+          "W04-F8",
+          "R03",
+          "R07"
+        ],
+        "commitment": [
+          "W04-F7",
+          "W04-F6",
+          "R05",
+          "R07"
+        ],
+        "inspection": [
+          "R07"
+        ],
+        "readiness": [
+          "R02",
+          "R03",
+          "R05",
+          "R07",
+          "W04-F1",
+          "W04-F2",
+          "W04-F6",
+          "W04-F7",
+          "W04-F8"
+        ]
+      },
+      "sourceClaimIds": [
+        "W04-F1",
+        "W04-F2",
+        "W04-F4",
+        "W04-F5",
+        "W04-F6",
+        "W04-F7",
+        "W04-F8"
+      ]
+    },
+    "W05": {
+      "values": {
+        "physical": "supported",
+        "demand": "supported",
+        "commitment": "conflicted",
+        "inspection": "supported",
+        "readiness": "conflicted",
+        "selection": "none_supported",
+        "linEndorsesV1": "refuted",
+        "utterancePredicate": "resource_commitment"
+      },
+      "canonicalEvidence": {
+        "physical": [
+          "W05-F1",
+          "W05-F2",
+          "R03",
+          "R07"
+        ],
+        "demand": [
+          "W05-F3",
+          "R03",
+          "R07"
+        ],
+        "commitment": [
+          "W05-F7",
+          "W05-F8",
+          "W05-F6",
+          "R05",
+          "R07"
+        ],
+        "inspection": [
+          "R07"
+        ],
+        "readiness": [
+          "R02",
+          "R03",
+          "R05",
+          "R07",
+          "W05-F1",
+          "W05-F2",
+          "W05-F3",
+          "W05-F6",
+          "W05-F7",
+          "W05-F8"
+        ]
+      },
+      "sourceClaimIds": [
+        "W05-F1",
+        "W05-F2",
+        "W05-F3",
+        "W05-F4",
+        "W05-F5",
+        "W05-F6",
+        "W05-F7",
+        "W05-F8"
+      ]
+    },
+    "W06-SHARED": {
+      "values": {
+        "bundles": [
+          {
+            "planIds": [],
+            "physical": "supported",
+            "demand": "refuted",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 0,
+            "cost": 0
+          },
+          {
+            "planIds": [
+              "X"
+            ],
+            "physical": "supported",
+            "demand": "refuted",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 6,
+            "cost": 2
+          },
+          {
+            "planIds": [
+              "Y"
+            ],
+            "physical": "supported",
+            "demand": "refuted",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 6,
+            "cost": 3
+          },
+          {
+            "planIds": [
+              "X",
+              "Y"
+            ],
+            "physical": "refuted",
+            "demand": "supported",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 12,
+            "cost": 5
+          }
+        ],
+        "selection": "none_supported"
+      },
+      "canonicalEvidence": [
+        "W06-SHARED-CAP-bay",
+        "W06-SHARED-D",
+        "W06-SHARED-K-X",
+        "W06-SHARED-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "derivation": "Sum resource demand by exact resource ID; sum output/cost by selected plan. Empty conjunction supported. Never double capacity because two summaries mention it."
+    },
+    "W06-SPLIT": {
+      "values": {
+        "bundles": [
+          {
+            "planIds": [],
+            "physical": "supported",
+            "demand": "refuted",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 0,
+            "cost": 0
+          },
+          {
+            "planIds": [
+              "X"
+            ],
+            "physical": "supported",
+            "demand": "refuted",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 6,
+            "cost": 2
+          },
+          {
+            "planIds": [
+              "Y"
+            ],
+            "physical": "supported",
+            "demand": "refuted",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "refuted",
+            "output": 6,
+            "cost": 3
+          },
+          {
+            "planIds": [
+              "X",
+              "Y"
+            ],
+            "physical": "supported",
+            "demand": "supported",
+            "commitment": "supported",
+            "inspection": "supported",
+            "readiness": "supported",
+            "output": 12,
+            "cost": 5
+          }
+        ],
+        "selection": [
+          "X",
+          "Y"
+        ]
+      },
+      "canonicalEvidence": [
+        "W06-SPLIT-CAP-bayX",
+        "W06-SPLIT-CAP-bayY",
+        "W06-SPLIT-D",
+        "W06-SPLIT-K-X",
+        "W06-SPLIT-K-Y",
+        "R05",
+        "R07",
+        "R08",
+        "R10"
+      ],
+      "derivation": "Sum resource demand by exact resource ID; sum output/cost by selected plan. Empty conjunction supported. Never double capacity because two summaries mention it."
+    }
+  },
+  "finiteCounts": {
+    "uniqueDevelopmentCards": 18,
+    "initialPackets": 4,
+    "cardsPerPacket": 6,
+    "initialValueAtomsPerPacket": 38,
+    "unionValueAtoms": 42,
+    "withheldTasks": 6,
+    "withheldContexts": 7,
+    "transferValueAtoms": 98
+  },
+  "explanations": [
+    "All four initial scopes have no supported-ready plan; this is not an assertion that no complete-evidence plan can work.",
+    "UNION P12 alone is supported-ready: output12 meets demand10; press6/cart2 capacities and exact grants cover it; inspection not required. Ara rejection remains refuted endorsement alongside supported understanding and grant.",
+    "UNION P8 is refuted-ready because output8 fails demand10. Physical/grants are supported.",
+    "UNION P10 physical is refuted by corrected varnish0; commitment refuted by Bea decline; inspection conflicted. Its readiness is refuted; every component and both inspection reports remain recorded.",
+    "A4 P10 readiness is refuted under the specified four-valued conjunction: unknown physical/commitment do not remove inspection negative support, while positive readiness is absent. This does not classify every missing component false.",
+    "C13/C14 remain one lineage and one unit; C06/C13 identical surface text has different predicate, actor and argument roles.",
+    "W01 is supported-ready despite LIN rejection. W02 missing LIN commitment and W03 stale-version grants yield unknown readiness. W04 changed demand refutes readiness; W05 unresolved opposite commitment evidence yields conflicted readiness.",
+    "W06-SHARED has no supported-ready allowed bundle. W06-SPLIT selects X,Y with output12,cost5. Same outward supply texts do not settle shared resource dependency."
+  ],
+  "scoringReference": "SCORING_AND_ANALYSIS.md; canonical traces are not unique minimal proofs; preserve raw outputs and disagreements.",
+  "provenanceNote": "Unknown/null development atoms have empty evidence per the frozen task contract; name missing dependencies in the response. Known components may still be cited in their own component atoms. Canonical traces for asserted values are illustrative, not compulsory minimal proofs."
+}

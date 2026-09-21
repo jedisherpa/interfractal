@@ -1,0 +1,158 @@
+{
+  "closedAtUtc": "2026-09-20T03:38:05.049026+00:00",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "counts": {
+    "allCandidateObservations": 128,
+    "allOriginalCaptures": 21,
+    "finalObservations": 90,
+    "finalOriginalCaptures": 14,
+    "finalEvents": 57,
+    "allCaptureDimensionsMatch": true
+  },
+  "boundary": "Actual core browser trial ended with canonical paused0. Later passive/review UI events are excluded from this immutable event snapshot. Presentation evidence will be separate.",
+  "limitations": [
+    "No OS reduced-motion emulation; actual manual paused/step/checkpoint path tested.",
+    "No human comprehension or learning study.",
+    "Actual Gate3 history link opened correct paused run/build through DOM and accessibility; native new-tab screenshot failed once and is reported.",
+    "Active captures have measured before/after intervals rather than asserted atomic times.",
+    "Second library replay natural end observed after return window elapsed; first uninterrupted run contains active return32000\u201332100."
+  ],
+  "files": [
+    {
+      "path": "evidence/gate-4/browser-observations.json",
+      "sha256": "7e7b30823ee3ed2ddd175142ef22892832c37c94301924b7579a916163fd3ca5",
+      "bytes": 10363460
+    },
+    {
+      "path": "evidence/gate-4/browser-action-trace.json",
+      "sha256": "60b874d7c22bd9521f9d55098557314acdaef976e8df6f12dcccc07834c68b65",
+      "bytes": 11408
+    },
+    {
+      "path": "evidence/gate-4/capture-index.json",
+      "sha256": "ff29d6e7a3fc3b352b38075694e9bab3576be2a9e47e8bf77e7a78c503b8d97b",
+      "bytes": 17386
+    },
+    {
+      "path": "evidence/gate-4/observed-activity.jsonl",
+      "sha256": "e4b4ca2afe373d034088dced2a97bea7b0fe74dbfec5e8647a91b5a7df93b73f",
+      "bytes": 232123
+    },
+    {
+      "path": "evidence/gate-4/history-browser-review.json",
+      "sha256": "c489dcb2808c71f4ba29f464199bdb8e5274d280b9f574cdb170f096fb972493",
+      "bytes": 54885
+    },
+    {
+      "path": "evidence/gate-4/browser-console.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+      "sha256": "27dda12d3d9064813ec47df78b55d3aad38f27050f4fec3c814e88802cff4971",
+      "bytes": 61476
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-C1-point-16s.jpg",
+      "sha256": "935a6312eea8973f915f6a71c28b149cab6e1aa6f3a3e0efc852c983438c30e1",
+      "bytes": 59640
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-C2-empty-20s.jpg",
+      "sha256": "32d5cd5a880d23a72eadf80ae9de80d5b9637390a7a0818e04c97df11104f6dd",
+      "bytes": 60316
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-ambiguity-known-plane.jpg",
+      "sha256": "4468de36e9bec1d3372a5dfb438fbb5aca093bb91d0d216551d01f95f41b6641",
+      "bytes": 86148
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-heldout-movie.jpg",
+      "sha256": "4d5977efdfec885c41e0eb886359ad8a8fe8e15d4aa93f62e85775237ed9bae5",
+      "bytes": 87433
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-inspector-metadata.jpg",
+      "sha256": "7bb6223b9f1a1f726252327fe0fe374bac61fc462adef19bd0d1b0bd08bd669e",
+      "bytes": 97037
+    },
+    {
+      "path": "evidence/gate-4/screenshots/001-interior-8s.jpg",
+      "sha256": "99b60da45f521a59f01ecda8d4eacec3b540b6974399954d951b1eae813226ea",
+      "bytes": 61841
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+      "sha256": "8528984ec781ce5b58786044351193f059fb0e2df138099039e882d5f66434a5",
+      "bytes": 61478
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+      "sha256": "37b06c18f72675a7c50a399d2238a84dafde1655250883081ad0335c46dcc5d2",
+      "bytes": 59682
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+      "sha256": "b05dea07df6823e00db88767be686f73d758bf9bd938dec67195ea1d499f3b59",
+      "bytes": 60316
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+      "sha256": "48226647017828ba6210eb8d253056bd88b5fd0760c159f7bd1e2a62477add69",
+      "bytes": 86630
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-active-before-boundary.jpg",
+      "sha256": "6cba355d12762e749662b49169b638a3d0287dae9559f62c65e0ac233461e450",
+      "bytes": 61985
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-active-empty.jpg",
+      "sha256": "4757377cc1e405979e7256cb85d889dfe7dbb71faf9479ba9c3af22107112f98",
+      "bytes": 58981
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+      "sha256": "cb1da4c99182fc7d23c4b90c45566c28cf32616943982f688fc8cd3337aba2ce",
+      "bytes": 58745
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-active-return.jpg",
+      "sha256": "74a9b3e8f8c75d4df7fd3f65acf6f2e74a10d8117fecf443351eac02f3c5c07a",
+      "bytes": 60514
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-ambiguity-initial.jpg",
+      "sha256": "ae8a9178a5a19cb27aead7716d9d7aef45f6f3b71ffdb41ae29de84a3deb8bfb",
+      "bytes": 85806
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-heldout-movie.jpg",
+      "sha256": "240aaef0a969871c779626d1fbd574b071b3964c313c547f3b754c39505c0df0",
+      "bytes": 83522
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-inspector-fresh-scrolled.jpg",
+      "sha256": "47266fb48cdc5d69db76ff6e4ce8a0d558556f8e9eea9042e2a2e4b9658634f1",
+      "bytes": 53040
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-interior-8s.jpg",
+      "sha256": "c03182cfc905d6854a55aa3cebf85e280f7b6c899b678493c880be7df4a5cb15",
+      "bytes": 61875
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-movie-common-camera.jpg",
+      "sha256": "74739a23d9ffa48623cdcdd0032c05f4fb04d67d45afd84d37ab7516cf987ae6",
+      "bytes": 78937
+    },
+    {
+      "path": "evidence/gate-4/screenshots/002-viewport960x720.jpg",
+      "sha256": "645060f01d814b008168931fccd088e24399499522c899e3df717efbfc28c31c",
+      "bytes": 51996
+    }
+  ]
+}

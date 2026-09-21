@@ -1,0 +1,17 @@
+{
+  "copied_at_utc": "2026-09-20T00:30:23.115254+00:00",
+  "inputs": [
+    {
+      "name": "LOOKING_GLASS_CODEX_ORCHESTRATOR_PROMPT.md",
+      "original_path": "/Users/paul/Downloads/LOOKING_GLASS_CODEX_ORCHESTRATOR_PROMPT.md",
+      "sha256": "4fa73f5ae5afecda4620ed78b3c19afcd08bc709a862851b81a737306e688339",
+      "bytes": 40440
+    },
+    {
+      "name": "COLLECTIVE_CAPABILITY_RESEARCH_PACKAGE_v0_3.zip",
+      "original_path": "/Users/paul/Downloads/COLLECTIVE_CAPABILITY_RESEARCH_PACKAGE_v0_3.zip",
+      "sha256": "46614df7f276974b2525ef6e314ddbe652c697ac44a1903e12133a2597e2ab96",
+      "bytes": 311439
+    }
+  ]
+}

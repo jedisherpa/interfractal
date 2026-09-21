@@ -1,0 +1,99 @@
+{
+  "runId": "G6-LOCAL-002",
+  "buildId": "g6-b31ef3d7838d10c8",
+  "closedAtUtc": "2026-09-20T06:00:24.669197+00:00",
+  "result": "failed required responsive source and relation detail checks; other passed evidence preserved",
+  "failure": "Source disclosure1136px at960px; shared-relation evidence1478px at1280px.",
+  "counts": {
+    "observations": 119,
+    "rootActionCalls": 91,
+    "originalCaptures": 11
+  },
+  "files": [
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-002/browser-observations.json",
+      "sha256": "9107158930c140c5ed1a63eb20969976bdf170fb0f22296065de6b7071a27b6e",
+      "bytes": 12754375
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-002/capture-index.json",
+      "sha256": "714d0f62005b8ec2d4796af023a69403664c3103ae07ee63c8912d5c74a38e94",
+      "bytes": 6113
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-002/console-review.json",
+      "sha256": "acac8ac2dfb035538cba357e27c7bca48e407df811ad4a0566ba13febb221603",
+      "bytes": 62
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-002/action-trace.json",
+      "sha256": "ca0270732ebb7873dc9bc6d34cd21b284afd9a2e3d1e2e98c5f6b5aefddf9eb8",
+      "bytes": 28678
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-002/COLLECTION_ANOMALIES.json",
+      "sha256": "1d7855943b9d3d21ec40cbe61f13b06ee0ad9ed707a31df5dca4f438aa01fb81",
+      "bytes": 868
+    },
+    {
+      "path": "evidence/gate-6/failed-candidates/G6-LOCAL-002/observed-activity.jsonl",
+      "sha256": "e3973c334c84bc4be9ea02fb320d134460d9def64a95b0ac554f1cc6f020570d",
+      "bytes": 267964
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-compressed-insufficient.jpg",
+      "sha256": "575bf3fb194369ff15b6af2f0c434b6c58a04bea606cc1c4abc2e09abbef1108",
+      "bytes": 102788
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-reference-access.jpg",
+      "sha256": "b632dbdf5679af94a4e0ff3d97bd60b38acd1409f00fb13d2234406e09e072c7",
+      "bytes": 104929
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-graph-dependency-repair.jpg",
+      "sha256": "6b48577b3d3d9d7189f2773948b8578f43fe3b8b4bd9141efdb5b7aae720bb50",
+      "bytes": 114124
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-plain-dependency-repair.jpg",
+      "sha256": "5e3fdfabd22967297ec45e3b751650eedc2b7f57d85ab0eb7fda73fa493d56b1",
+      "bytes": 100885
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-unsupported-link-close-placement.jpg",
+      "sha256": "f8cdd1f7fdfbd08ae70ac087c4629500589417225629f5dcd5aa520f609680e2",
+      "bytes": 100652
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-requirement-revision-and-alternatives.jpg",
+      "sha256": "b939f64ca175c280e74506adc7ecb7171d78b9bff71ee52c07330d13f2a1d1c5",
+      "bytes": 123076
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-supported-and-unsupported-links.jpg",
+      "sha256": "b3158c797f35148fde02c4bf82a10b20a8458331507f289b8984587282cc72c6",
+      "bytes": 113658
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-active-replay.jpg",
+      "sha256": "f80dd93f4d03dd1125272360da34556e954c7a007c3bf995923f7ad020915585",
+      "bytes": 116185
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-narrow-960x720.jpg",
+      "sha256": "96b3dae0d35e8f7646d7755cc78038e7b8ca1eca92c835549ba19e98b27f1534",
+      "bytes": 93575
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-failure-source-overflow.jpg",
+      "sha256": "d27afb30ad09f508dc55b0c5d901a7e5cbd4c356c82bcdadab684ba67d1c363a",
+      "bytes": 140044
+    },
+    {
+      "path": "evidence/gate-6/screenshots/002-failure-relation-overflow.jpg",
+      "sha256": "7235ead3a56a01758ad728d4c641e55b8478e3f9beb3bd7502b5a9d8d67604cd",
+      "bytes": 115954
+    }
+  ]
+}

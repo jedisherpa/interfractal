@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "gate-5-run-evidence-v1",
+  "gate": 5,
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "sourceSha256": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "status": "Gate 5 qualified instrument result: independent checks pass; known views recover five coordinates, while global projection ambiguity and presentation limits remain. No human study.",
+  "result": "qualified-pass",
+  "independentAuditPassed": true,
+  "coreClosed": true,
+  "presentationReviewStatus": "host-reviewed-page-layout-and-loaded-original-images; HTTP preservation recorded separately",
+  "preparedAtUtc": "2026-09-20T04:17:41.982202+00:00",
+  "previewUrl": "http://127.0.0.1:43998/",
+  "resultsUrl": "/evidence/gate-5/results.html",
+  "packetUrl": "/evidence/gate-5/GATE_5_PACKET.md",
+  "auditUrl": "/evidence/gate-5/review/audit/gate-5/AUDIT.md",
+  "coreClosureUrl": "/evidence/gate-5/CORE_EVIDENCE_CLOSED.json",
+  "screenshots": [
+    {
+      "label": "The selected quartet separates; the full projection remains ambiguous.",
+      "url": "/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+      "captureLabel": "T2-second-turn-45-45",
+      "caption": "At \u03b1=\u03b2=45\u00b0, A/B/C/D have different raw 3D coordinates, but the whole 5D hypercube occupies only 18 sites. A still shares its site with three unmarked vertices. The 4D comparator remains at \u03b1=45\u00b0.",
+      "sha256": "719f392a38d4997f23e1f8b6627f5ae007eabdee624b738cea18d42907e89073",
+      "original": true,
+      "beforeObservation": 18,
+      "afterObservation": 19
+    },
+    {
+      "label": "Two known views still leave v hidden.",
+      "url": "/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+      "captureLabel": "rank4-v-hidden",
+      "caption": "The base and x\u2013w views give rank 4/5 and an explicit \u201cno unique 5D solution\u201d result. This negative case uses raw coordinate observations, not inference from the image.",
+      "sha256": "eb5e52dfa3997e520884f22a58e9ab8e0bc355babfe5dba154da8d41bc209e61",
+      "original": true,
+      "beforeObservation": 43,
+      "afterObservation": 44
+    },
+    {
+      "label": "A boundary slice is one location.",
+      "url": "/evidence/gate-5/screenshots/001-slice-point.jpg",
+      "captureLabel": "slice-point",
+      "caption": "At known (w,v)=(1,0), the radicand is exactly zero. The locator marks a singleton and its radius is zero; it is not a positive-radius sphere.",
+      "sha256": "bac01ab7e093bfa96766d99a017971409069a4ba388b029c4e85e6aa763eafa1",
+      "original": true,
+      "beforeObservation": 58,
+      "afterObservation": 59
+    },
+    {
+      "label": "Outside the boundary, the slice is empty.",
+      "url": "/evidence/gate-5/screenshots/001-slice-empty.jpg",
+      "captureLabel": "slice-empty",
+      "caption": "At (w,v)=(1.25,0), the radicand is \u22120.5625. There is no slice object or point locator; axes and the explicit EMPTY \u00b7 NO POINTS label remain.",
+      "sha256": "f4583495cc2f4f350a19cf82caa681183d7f6e3678abd20c5f2cb7830c323a3a",
+      "original": true,
+      "beforeObservation": 62,
+      "afterObservation": 63
+    }
+  ],
+  "captureIndexUrl": "/evidence/gate-5/capture-index.json",
+  "allOriginalScreenshots": [
+    {
+      "label": "initial-comparison",
+      "url": "/evidence/gate-5/screenshots/001-initial-comparison.jpg",
+      "sha256": "3d955c900cef32c5bd31dc4e9c085b6a5aacce5fafa7d3ce4c87b43deab58029",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "T1-overlap-0-0",
+      "url": "/evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+      "sha256": "faa4be104d81e0dd8ef04a85fb59ba7de3e39174722f601bd61e997c430e38a3",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "T2-first-turn-45-0",
+      "url": "/evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+      "sha256": "806e28fa825d968b6093723530ba7f6f2094ec85de049081895e66318dfb672d",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "T2-second-turn-45-45",
+      "url": "/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+      "sha256": "719f392a38d4997f23e1f8b6627f5ae007eabdee624b738cea18d42907e89073",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "active-first-leg",
+      "url": "/evidence/gate-5/screenshots/001-active-first-leg.jpg",
+      "sha256": "46191b53a4163c103f02dc2eb131d50e2ba4f83b6a987a8130758cece7865221",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "active-second-leg",
+      "url": "/evidence/gate-5/screenshots/001-active-second-leg.jpg",
+      "sha256": "2d1d315684b4b45f60e670909716b632ca186dcb531c8646c9fb2a31467aac5e",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "active-return-leg",
+      "url": "/evidence/gate-5/screenshots/001-active-return-leg.jpg",
+      "sha256": "3ceef667415bab0eea735258c191dc618f26fb0126a7695006e64c7be06d4114",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "rank4-v-hidden",
+      "url": "/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+      "sha256": "eb5e52dfa3997e520884f22a58e9ab8e0bc355babfe5dba154da8d41bc209e61",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "slice-half-half",
+      "url": "/evidence/gate-5/screenshots/001-slice-half-half.jpg",
+      "sha256": "f145abb5e522f12f908ebb87a6121b8754a1f68dd63fdd517639f1612f661840",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "slice-equal-A",
+      "url": "/evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+      "sha256": "e6cc877994d53160cd3f21209365bd5dac1a50421a9df62163d7c87b7cf4dbb6",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "slice-equal-B",
+      "url": "/evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+      "sha256": "9fb7d08bd387c9a376ce7a8071a521b47a7e900560d1852cb490b257a97fcef5",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "slice-point",
+      "url": "/evidence/gate-5/screenshots/001-slice-point.jpg",
+      "sha256": "bac01ab7e093bfa96766d99a017971409069a4ba388b029c4e85e6aa763eafa1",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "slice-empty",
+      "url": "/evidence/gate-5/screenshots/001-slice-empty.jpg",
+      "sha256": "f4583495cc2f4f350a19cf82caa681183d7f6e3678abd20c5f2cb7830c323a3a",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "inspector-fresh-environment",
+      "url": "/evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+      "sha256": "94cc575a462c713a5c7502e300b4d9fe31fada5d684d191dc7403dac71582933",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    },
+    {
+      "label": "viewport-960x720",
+      "url": "/evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+      "sha256": "85e40d2013e058ff62af12605c7a1f1e478c21562f82cfae0bef82f5012bb806",
+      "pixelWidth": 960,
+      "pixelHeight": 720
+    },
+    {
+      "label": "narrow-inspector",
+      "url": "/evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+      "sha256": "cbe84cf066c4343f2bc47a45043d613cc2d10b74dc751bba9d522fa9ac0b814c",
+      "pixelWidth": 960,
+      "pixelHeight": 720
+    },
+    {
+      "label": "restored-paused-start",
+      "url": "/evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+      "sha256": "236ff7b61908cc99063bf299d7f856d9abc8af7b2d08d09378187c8d298b386b",
+      "pixelWidth": 1280,
+      "pixelHeight": 720
+    }
+  ],
+  "counts": {
+    "observations": 131,
+    "successfulRootActions": 93,
+    "semanticEvents": 85,
+    "sessions": 3,
+    "originalImages": 17,
+    "closedCoreFiles": 23,
+    "priorFrozenEntries": 556,
+    "historicalScreenshotToolFailures": 2,
+    "candidateCount": 1,
+    "correctionCount": 0,
+    "note": "Action and event records overlap conceptually and are not added together. Historical screenshot failures are separate from the93 successful root actions."
+  },
+  "findings": [
+    {
+      "question": "T01\u201302 \u00b7 Are the two source controls faithful and independent?",
+      "expected": "32 vertices, 80 edges, span five; orthogonal rotations and independent x\u2013w / y\u2013v effects. Camera changes display only.",
+      "observed": "25 angle pairs and 12,400 squared-distance checks pass; maximum discrepancy 7.11\u00d710\u207b\u00b9\u2075. Actual \u03b1 then \u03b2 controls affect their declared planes; camera leaves raw state unchanged.",
+      "interpretation": "Supports the declared 5D source, projection and control isolation. The disjoint rotations commute.",
+      "unresolved": "A wireframe or its apparent complexity does not demonstrate a physical fifth dimension or human understanding."
+    },
+    {
+      "question": "T03\u201304 \u00b7 Which observations recover the coordinates?",
+      "expected": "Base rank 3; base+x\u2013w rank 4 with v hidden; adding known y\u2013v view gives rank 5.",
+      "observed": "Actual UI displays the rank-3/rank-4 failures and rank-5 solve. Independent audit recovers all 32 vertices plus one opaque noncube probe: maximum coordinate error 1.11\u00d710\u207b\u00b9\u2076, forward residual 0.",
+      "interpretation": "Conditional reconstruction from three known raw 3D views and supplied point correspondences; the solver receives observations and matrices, then a separate evaluator checks truth.",
+      "unresolved": "No recovery from arbitrary screenshots, unknown transforms/correspondences, or proof of a uniquely 5D cause."
+    },
+    {
+      "question": "T05 \u00b7 What do two slice coordinates determine?",
+      "expected": "\u03c1\u00b2=1\u2212w\u00b2\u2212v\u00b2: positive solid, exact zero point, negative empty. Different pairs can give equal slices.",
+      "observed": "19 frozen analytic cases agree. Actual w=.5 then v=.5 gives radii \u221a.75 then \u221a.5; (.5,0) and (0,.5) give the same \u221a.75 slice. Both exact point presets and the empty preset work.",
+      "interpretation": "Two independent known constraints select a 3D slice of the separate unit 5D ball. Full xyz projection stays a unit ball.",
+      "unresolved": "Radius identifies w\u00b2+v\u00b2, not the signed ordered pair. Known coordinate labels distinguish the requested conditions; geometry alone does not."
+    },
+    {
+      "question": "T06 \u00b7 What does the controlled 4D comparison show?",
+      "expected": "At 0/0\u219245/0\u219245/45, raw sites 4D/5D:8/8\u219212/12\u219212/18. The marked 4D pair separates after one source action; the 5D quartet after two.",
+      "observed": "Counts and screen proxies match predictions. T1 uses two actual inspect actions; T2 records two successive source turns and four inspections. The computed \u03b1-only 4D comparator matches the pinned historical model.",
+      "interpretation": "A prescribed route exposes the chosen extra-coordinate distinctions while retaining global coincidences. Structural and screen-space counts are instrumental measures.",
+      "unresolved": "Targets have different cardinalities. Action counts are neither a fair human difficulty comparison nor optimal navigation. At45/45 A still overlaps three unmarked 5D vertices."
+    },
+    {
+      "question": "T07\u201309 \u00b7 Can the actual run be watched and recovered?",
+      "expected": "Visible independent legs and return; natural 40s end; stable pause/step/seek; exact nine checkpoints; fresh metadata and preserved history.",
+      "observed": "Uninterrupted active capture brackets:0.7\u20130.8s,17.8\u201318.0s,28.2\u201328.3s. Natural end records automatic-playback/end-of-sequence. All nine hashes repeat after exploration, reopening and reload; 556 historical entries unchanged.",
+      "interpretation": "The saved local replay and actual tested controls are reproducible within this browser/build. All 131 recorded metadata/state observations and 17 original-image integrity checks pass.",
+      "unresolved": "Dense roster text; playback touches the 1280\u00d7720 fold and lower controls need scrolling. Two historical screenshot calls failed. No OS reduced-motion emulation or human study."
+    }
+  ],
+  "comparison": {
+    "rawSites4D5D": [
+      [
+        8,
+        8
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        18
+      ]
+    ],
+    "collapsedEdges4D5D": [
+      [
+        8,
+        32
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "markerOverlapPairs4D5D": [
+      [
+        8,
+        48
+      ],
+      [
+        4,
+        32
+      ],
+      [
+        4,
+        20
+      ]
+    ],
+    "actualRouteSourceActions": 2,
+    "t1ActualInspections": 2,
+    "t2ActualInspections": 4,
+    "markedPairTargetSourceActions4D": 1,
+    "markedQuartetTargetSourceActions5D": 2,
+    "globalUniquenessAt45_45": false,
+    "A5UnmarkedCoincidentOthers": 3,
+    "humanDifficultyClaim": false
+  },
+  "reconstruction": {
+    "baseRank": 3,
+    "hiddenRank": 4,
+    "revealedRank": 5,
+    "hypercubePoints": 32,
+    "opaqueProbe": true,
+    "maxRecoveryError": 1.1102230246251565e-16,
+    "maxResidual": 0
+  },
+  "activeCaptureBracketsMs": [
+    [
+      700,
+      800
+    ],
+    [
+      17800,
+      18000
+    ],
+    [
+      28200,
+      28300
+    ]
+  ],
+  "finalCoreState": {
+    "simulationTimeMs": 0,
+    "playing": false
+  },
+  "sameBrowserCheckpointCount": 9,
+  "qualifications": [
+    "At 45\u00b0/45\u00b0, all four marked 5D IDs are mutually separated, but the global projection has 18 sites for 32 vertices. A shares a site with three other, unmarked vertices. The corresponding 4D marked pair is also a restricted target, not a claim that every vertex becomes unique.",
+    "The comparison uses the same camera, scale, glyph radius and actual scene framing. The 4D panel is a separately labeled computed comparator validated against the untouched Gate 3 source. It ignores \u03b2. This does not alter the historical 4D replay.",
+    "Marker-overlap counts use center distance <8 SVG units for radius-4 glyphs. Exact screen coincidence and raw 3D coincidence are recorded separately. These are geometric proxies, not measured perception, pixel occlusion or line-crossing scores.",
+    "At 1280\u00d7720, source/task controls are visible, but playback touches the bottom and seek/checkpoints require scrolling. ID/status text is small and dense. The 960\u00d7720 layout has no horizontal overflow; lower details still need scrolling. The inspector and selected-ID controls preserve access to the records.",
+    "Actual Gate 3 and Gate 4 library links opened their correct paused run/build, verified through DOM/accessibility. A native new-tab screenshot attempt failed once for each. Both failures remain recorded; no historical screenshot is claimed.",
+    "Original JPEGs decode to 1280\u00d7720 or 960\u00d7720 pixels. These dimensions are recorded independently from the browser\u2019s reported DPR, which was sometimes 2. Active images are bracketed by observations rather than assigned an invented exact frame time.",
+    "No human responses, learning, relative usability, optimal navigation, OS reduced-motion emulation, video or public deployment are claimed. Raw 3D coordinate reconstruction assumes known transforms and stable correspondences; equal-radius slices do not identify their ordered hidden plane coordinates."
+  ],
+  "historicalRuns": [
+    {
+      "gate": 3,
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460",
+      "actualLinkOpened": true,
+      "pausedIdentityVerifiedViaDom": true,
+      "newScreenshotAvailable": false
+    },
+    {
+      "gate": 4,
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6",
+      "actualLinkOpened": true,
+      "pausedIdentityVerifiedViaDom": true,
+      "newScreenshotAvailable": false
+    }
+  ],
+  "nextGate": {
+    "number": 6,
+    "name": "Connected local models and changes of scale",
+    "approved": false,
+    "workStarted": false
+  },
+  "provenanceUrl": "/evidence/gate-5/execution-provenance.json",
+  "finalGateFreezeFile": "GATE_5_FREEZE.json",
+  "commitIdentityLocation": "Task handoff and local Git history; not embedded in the commit it identifies.",
+  "stageWorkersCompleted": true
+}

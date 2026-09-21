@@ -1,0 +1,10 @@
+{
+  "kind": "independent-prespec-cross-check",
+  "prediction": "docs/gate-5/independent-predictions.json",
+  "oracle": "audit/gate-5/oracle-results.json",
+  "checkpoints": 9,
+  "sliceCases": 19,
+  "comparisonTaskStates": 3,
+  "geometryPairs": 12400,
+  "status": "pass; this compares two independent mathematical derivations, not implementation or browser observations"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "gate9-closed-core-audit-v1",
+  "status": "PASS",
+  "manifestSha256": "2bc665deb66351e70ccd13fc57056365cecb75a2f2e892205fc56f79544dd6d0",
+  "pinnedFileCount": 32,
+  "observationCount": 307,
+  "actionCalls": 135,
+  "successfulActions": 134,
+  "failedActions": 1,
+  "originalCaptureCount": 13,
+  "eventSessionCount": 3,
+  "semanticEventCount": 151,
+  "historicalVisibleRun": "G8-AMBIGUITY-001",
+  "errors": []
+}

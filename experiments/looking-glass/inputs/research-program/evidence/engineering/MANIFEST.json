@@ -1,0 +1,188 @@
+{
+  "accessed": "2026-09-19",
+  "reviewer": "R1 visualizer HCI and software/evidence engineering perspective",
+  "method": "Read-only GitHub connector fetch at pinned commits followed by selective static inspection. No application source executed, no repository mutations, no runtime validation.",
+  "weopoly_pin": {
+    "branch": "grok/weopoly-learning-community-v1",
+    "commit": "756fe8fbd032816c2fa18138e1e8ad36e9557cc2",
+    "observed_via": "https://api.github.com/repos/jedisherpa/weopoly/branches"
+  },
+  "files": [
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "hopf_model.py",
+      "blob_sha": "a0028a29d7e1118c730848180a3d7a129e20b16c",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/hopf_model.py",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "8aafad9ecb70eaf076665d7d15250a4bdd59f3a118fd0e9a30cadfc5cee6647c",
+      "local_bytes": 17268,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "weopoly_hopf.py",
+      "blob_sha": "bb6cb34e8fe9a5e046d0ca61f9e64ced828da299",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/weopoly_hopf.py",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "84c951ec6962694ac33b79cb098d6604cda41041ee606b77dc3ae4ab577c870e",
+      "local_bytes": 6348,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "visualizer_geometry.js",
+      "blob_sha": "7ebb5832bca12f605774f73639701cb86d9750bd",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/visualizer_geometry.js",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "f7e93aea1b194a0ee613958d7d5941b2fcedbe5e393d0995973dd6c95b4e57eb",
+      "local_bytes": 5529,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "abacus_model.js",
+      "blob_sha": "889cc7aa517cc02e4be0efc84827cb79b765dd4b",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/abacus_model.js",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "6faab193c83f5fd3aac47fc5116512df680d67bae34c3a4b61c57e3a5dbde5ce",
+      "local_bytes": 53408,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "docs/INTENTION_ABACUS.md",
+      "blob_sha": "68e5ca23b2150cd2d906fe5ea4524a32d18f1946",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/docs/INTENTION_ABACUS.md",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "eed5c5cb830e3974a173a1a02b96e14cb6717e55897051c05029014cad9fdc4e",
+      "local_bytes": 15786,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/lensforge-app",
+      "path": "engine/src/game/orchestrationService.ts",
+      "blob_sha": "16530017a127be8c9123434190e201a884decb8e",
+      "url": "https://github.com/jedisherpa/lensforge-app/blob/2035a0a7bd96f930e8cb6ea61068bd202c2b08b1/engine/src/game/orchestrationService.ts",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "40d63807c321eb80b8c1f227748bffa4973ea507209e599622e18e343713da9f",
+      "local_bytes": 11534,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/lensforge-app",
+      "path": "engine/src/llm/service.ts",
+      "blob_sha": "591284a3d645571eb606881e8d8d55254750f5c3",
+      "url": "https://github.com/jedisherpa/lensforge-app/blob/2035a0a7bd96f930e8cb6ea61068bd202c2b08b1/engine/src/llm/service.ts",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "0b20e1e754841f892a8ebd3b1016ed65b90cf36738958f8de996fd433debc62a",
+      "local_bytes": 13233,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/weopoly",
+      "path": "lib/domain.ts",
+      "blob_sha": "c194c535b114ec372167d05dba7f78717488a70e",
+      "url": "https://github.com/jedisherpa/weopoly/blob/756fe8fbd032816c2fa18138e1e8ad36e9557cc2/lib/domain.ts",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "6c65fb6884361292d96a5bed13045613fa5e58ff1267fed6417053ab6f38cb20",
+      "local_bytes": 85648,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/weopoly",
+      "path": "docs/GAME_RULES.md",
+      "blob_sha": "c189f0970566336d627c6de26a673558f563d4a2",
+      "url": "https://github.com/jedisherpa/weopoly/blob/756fe8fbd032816c2fa18138e1e8ad36e9557cc2/docs/GAME_RULES.md",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "df77479473a54a638290db82d510a9590909e0cc6b0f5e237f144faa20991405",
+      "local_bytes": 2992,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/lensforge-app",
+      "path": "engine/src/game/round2Assignment.ts",
+      "blob_sha": "9c242e849e2e0b3c2336d79f4932fb3317a72d1e",
+      "url": "https://github.com/jedisherpa/lensforge-app/blob/2035a0a7bd96f930e8cb6ea61068bd202c2b08b1/engine/src/game/round2Assignment.ts",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "fc1435ac2ab3ed33075e5cf4f8a8f1e1d371f339930c715990c0001825250ea7",
+      "local_bytes": 2246,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/lensforge-app",
+      "path": "engine/src/game/lensAssignment.ts",
+      "blob_sha": "71e27c98584b12bcff9f73e2b402f50bc52356cf",
+      "url": "https://github.com/jedisherpa/lensforge-app/blob/2035a0a7bd96f930e8cb6ea61068bd202c2b08b1/engine/src/game/lensAssignment.ts",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "44a5ebf8c67e33d272f08db157de643d34188d7a43ca4bcb0abee477e7415e36",
+      "local_bytes": 2877,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/lensforge-app",
+      "path": "tma/src/pages/ForgePage.tsx",
+      "blob_sha": "29e452ce0d656bada73927190393047bda4d203f",
+      "url": "https://github.com/jedisherpa/lensforge-app/blob/2035a0a7bd96f930e8cb6ea61068bd202c2b08b1/tma/src/pages/ForgePage.tsx",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "44565cd4b940bb58d53aa8fbeeef2686f096f4e24dff3c5f6d98be4b29144d63",
+      "local_bytes": 10893,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/lensforge-app",
+      "path": "lens-packs/hands-of-the-void.json",
+      "blob_sha": "bf6a0ceac8d4a15492241c68b288f4c6fa8c6d40",
+      "url": "https://github.com/jedisherpa/lensforge-app/blob/2035a0a7bd96f930e8cb6ea61068bd202c2b08b1/lens-packs/hands-of-the-void.json",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "e3b51198d30e8bf05bc263a791b567e84f4cfc41e5af2cb57068fa705d22701b",
+      "local_bytes": 32138,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "visualizer.js",
+      "blob_sha": "ef2bfd6b0a497971eb312558f235906f8e5208cb",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/visualizer.js",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "2ba48aaa020f813fc3db998a370ee2c2c4cce114b5839a1ce2204f071ef3453e",
+      "local_bytes": 16982,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "visualizer_ui.js",
+      "blob_sha": "2ac09b1727994048d0501f0193aeaeefc5aaae97",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/visualizer_ui.js",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "f204f2071b8007500d0512650cc3325d15991bcd9497e23a1bf24b179bc21581",
+      "local_bytes": 11828,
+      "matches_git_blob": true
+    },
+    {
+      "repo": "jedisherpa/hopf-workshop",
+      "path": "abacus_engine.js",
+      "blob_sha": "9b86111e68e3e677de464e1aeb1d7b4e9b4faa96",
+      "url": "https://github.com/jedisherpa/hopf-workshop/blob/2967f71aa19117925f55b9349a7bfc0ec8fc8dea/abacus_engine.js",
+      "accessed": "2026-09-19",
+      "status": "Fetched full snapshot; selected relevant sections reviewed; not runtime-tested",
+      "local_sha256": "67ff885149585d2b973d8d53bfcb51f6b0d67c90f6c58042e0af70f99b9797aa",
+      "local_bytes": 17591,
+      "matches_git_blob": true
+    }
+  ]
+}

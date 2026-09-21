@@ -1,0 +1,170 @@
+{
+  "schema": "gate9-closed-core-v1",
+  "closedAtUtc": "2026-09-20T09:40:49.923137+00:00",
+  "runId": "G9-MATCHED-003",
+  "buildId": "g9-15c3bf973fe0c6cd",
+  "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+  "status": "Actual browser acquisition closed; independent evidence audit pending. Presentation/handoff evidence will be separate.",
+  "files": [
+    {
+      "path": "evidence/gate-9/COLLECTION_NOTES.json",
+      "sha256": "9c81093a98566c870d13f5dd060d44e19fe26bff3eb907b44bf4e85d70427834",
+      "bytes": 1520
+    },
+    {
+      "path": "evidence/gate-9/action-trace.json",
+      "sha256": "7f6e4474f711e0de92dac5b7a838b4d0cfd4a4fa3f252db201f0b3c1578908ac",
+      "bytes": 38572
+    },
+    {
+      "path": "evidence/gate-9/browser-non-actions.json",
+      "sha256": "502eef493c42cb9c0edfcb46492a3ba6b44c5d9ed74cf5a18d7efdbba04931f9",
+      "bytes": 941
+    },
+    {
+      "path": "evidence/gate-9/browser-observations.json",
+      "sha256": "20602d1330f3099c245e42233aea6bdab1cac70b57704f14caa1cffee7144601",
+      "bytes": 9773146
+    },
+    {
+      "path": "evidence/gate-9/browser-protocol.json",
+      "sha256": "5a43a9b5a949f62b65367fb5329a17cabb6bea1d0d43f1ea842adb023b8e021c",
+      "bytes": 4057
+    },
+    {
+      "path": "evidence/gate-9/capture-dimensions.json",
+      "sha256": "21622dd7233401c91ab807390e18f91ff6be470fec79593333c194f719f09775",
+      "bytes": 7618
+    },
+    {
+      "path": "evidence/gate-9/capture-index.json",
+      "sha256": "c8ccfc29a64f3039586b81dee3159984ecf4259a778e476f3bf4f4a67113113a",
+      "bytes": 4463
+    },
+    {
+      "path": "evidence/gate-9/checkpoint-review.json",
+      "sha256": "16097a9749e197b6faccd78c2396a660015f3eb5d0fa7ceabaeda1a3d6f65ffb",
+      "bytes": 5923
+    },
+    {
+      "path": "evidence/gate-9/console-review.json",
+      "sha256": "517b2e233d3f870c2934fdd909491e1425ad951db7819bc5cb8b7920076178fe",
+      "bytes": 63
+    },
+    {
+      "path": "evidence/gate-9/event-session-index.json",
+      "sha256": "045c55be8e422ca34bc2a36c713d1a58ce5816302f46eebd2b316078bd99d08e",
+      "bytes": 745
+    },
+    {
+      "path": "evidence/gate-9/event-sessions/2e0f0470-7b9a-433e-8ff9-3ca828d4cc44.json",
+      "sha256": "4fb0f3fcb088759a9bd9aeaead1a9ae8c244a9b227a87c2168cfc98a38d5adca",
+      "bytes": 13499
+    },
+    {
+      "path": "evidence/gate-9/event-sessions/8d4e84f0-a8e1-4a0c-8da0-b6c8b66c1248.json",
+      "sha256": "fb7b4a9a71ca0147e4e2af34ec1515b8dcf0ca121ac7c9ee9bbe4997ea73caa6",
+      "bytes": 849
+    },
+    {
+      "path": "evidence/gate-9/event-sessions/aef6e8ae-9e24-4fa3-b509-d2df21f6c8b4.json",
+      "sha256": "e760cc45722faa236a7dcf0960e3c5184da72748601dd2361b965efefb2cf710",
+      "bytes": 97997
+    },
+    {
+      "path": "evidence/gate-9/exported-routes.json",
+      "sha256": "f868665205bdc35698bea31222eb18641d4eafbb9cb2aeef24ef32880bdba33c",
+      "bytes": 1551450
+    },
+    {
+      "path": "evidence/gate-9/historical-browser-review.json",
+      "sha256": "f59be518efcf24ea506f5d1415212aca846bd1d413f8db345ff61c7192566da0",
+      "bytes": 4611
+    },
+    {
+      "path": "evidence/gate-9/host-browser-summary.json",
+      "sha256": "39ecfca77ee64c1afcd55ee137865dc7dfdb130c0b819912f0ae9780cfa349ef",
+      "bytes": 1351
+    },
+    {
+      "path": "evidence/gate-9/host-checkpoint-comparison.json",
+      "sha256": "fcf93de57b403c8182e715c8b3f2190d47e5f089984dd9132803ebcfe2e24458",
+      "bytes": 2549
+    },
+    {
+      "path": "evidence/gate-9/host-endpoint-comparison.json",
+      "sha256": "ec227fce497eac5080d2915d7f1043a0dcbcf8cffbe708dc104f6a799d87ab6d",
+      "bytes": 2104
+    },
+    {
+      "path": "evidence/gate-9/observed-activity.jsonl",
+      "sha256": "916fb9f9556df47781814cfd1b08a9c1347b38fe43005981bad3b7a40277e0a4",
+      "bytes": 88613
+    },
+    {
+      "path": "evidence/gate-9/screenshots/001-common-practice-1280.jpg",
+      "sha256": "6e18a5ff15043f0ff10545d7beeb0012fbe110ae8d7a0bfdb8d668f1d4d5a655",
+      "bytes": 94417
+    },
+    {
+      "path": "evidence/gate-9/screenshots/002-t01-completed-choice.jpg",
+      "sha256": "390f18997538da37b202163153b404adbb4c8b5bbf869b1dfcd90b943fa48002",
+      "bytes": 74121
+    },
+    {
+      "path": "evidence/gate-9/screenshots/003-t01-watch-active.jpg",
+      "sha256": "f8bc27932b9c9fcee4c6a03e395a707ff8b43bbfafa850f3b1792c88170b30de",
+      "bytes": 91630
+    },
+    {
+      "path": "evidence/gate-9/screenshots/004-t01-watch-complete.jpg",
+      "sha256": "c66c9e90df067539012862a55b923c419416a6f9c773d8b1801a6fcc98866b18",
+      "bytes": 59191
+    },
+    {
+      "path": "evidence/gate-9/screenshots/005-t01-static-sheet.jpg",
+      "sha256": "7a1a4bc8db00bf6eeec976c33686e4797ef8a837b876d3d67c120c1a481dd83e",
+      "bytes": 92796
+    },
+    {
+      "path": "evidence/gate-9/screenshots/006-t01-completed-choice-full.jpg",
+      "sha256": "b3de4874c0ce155e100848fec70473fc937e087eb8f40d3177c042e329764846",
+      "bytes": 74352
+    },
+    {
+      "path": "evidence/gate-9/screenshots/007-t04-nonseparating-static.jpg",
+      "sha256": "643cb903edc51c10863aec63d373d3a35c2e0c324379d6f77fa0262e5fc042b4",
+      "bytes": 95649
+    },
+    {
+      "path": "evidence/gate-9/screenshots/008-static-960-upper.jpg",
+      "sha256": "c71d7433c6f48f88ff7e5ea1bba1d4836d60869d64e41c33d9c54b38b2ffd6db",
+      "bytes": 49969
+    },
+    {
+      "path": "evidence/gate-9/screenshots/009-static-960-lower.jpg",
+      "sha256": "18aeca26266f8e4f9d55aa42665db50ddeb7d2f23078fc6bc9db6010dfe0f9ba",
+      "bytes": 68046
+    },
+    {
+      "path": "evidence/gate-9/screenshots/010-t01-watch-full-manual-review.jpg",
+      "sha256": "eff84de0575869d858487f94289db18b761e2874d60e8258a20d2f09642dc47e",
+      "bytes": 73262
+    },
+    {
+      "path": "evidence/gate-9/screenshots/011-continuous-tour-active.jpg",
+      "sha256": "26ab81aeac6a529126e1d140759c3c0c03b63d4fdeb62967fc9288da4a56ee01",
+      "bytes": 61876
+    },
+    {
+      "path": "evidence/gate-9/screenshots/012-continuous-tour-natural-end.jpg",
+      "sha256": "af34935ee37ee9e8019aa740a15ba2e594bbba7f5b38da8f943866bd4671dd9a",
+      "bytes": 90199
+    },
+    {
+      "path": "evidence/gate-9/screenshots/013-final-paused-start.jpg",
+      "sha256": "99dd14b99af1172fba78a1b40e44f58ca5fe0760ce67b534be2b5e4cf329b056",
+      "bytes": 85015
+    }
+  ]
+}

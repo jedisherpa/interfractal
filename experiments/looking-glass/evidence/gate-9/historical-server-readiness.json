@@ -1,0 +1,78 @@
+{
+  "checked_at_utc": "2026-09-20T08:46:17.956055+00:00",
+  "kind": "HTTP route readiness only; not fresh historical UI tests",
+  "entries": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "runId": "G0-CUBE-005",
+      "buildId": "g0-d85237ad31362768",
+      "status": 200,
+      "bytes": 4536
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "runId": "G1-CUBE-003",
+      "buildId": "g1-9dce1c2b9c2b3be4",
+      "status": 200,
+      "bytes": 5319
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "runId": "G2-HOPF-003",
+      "buildId": "g2-ccabad12693f86a8",
+      "status": 200,
+      "bytes": 5787
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "runId": "G3-TESSERACT-003",
+      "buildId": "g3-6c31bc16aeca4460",
+      "status": 200,
+      "bytes": 7227
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "runId": "G4-SLICES-002",
+      "buildId": "g4-38777d5882ef08a6",
+      "status": 200,
+      "bytes": 7598
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "runId": "G5-PENTERACT-001",
+      "buildId": "g5-0bdee39bcd7dd541",
+      "status": 200,
+      "bytes": 6152
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "runId": "G6-LOCAL-003",
+      "buildId": "g6-0279cdcdc0adc9b0",
+      "status": 200,
+      "bytes": 5310
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "runId": "G7-INTERPRET-002",
+      "buildId": "g7-90e64952eb028069",
+      "status": 200,
+      "bytes": 3954
+    },
+    {
+      "gate": 8,
+      "url": "http://127.0.0.1:44001/",
+      "runId": "G8-AMBIGUITY-001",
+      "buildId": "g8-f5c5ee62889da529",
+      "status": 200,
+      "bytes": 335
+    }
+  ]
+}

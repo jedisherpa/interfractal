@@ -1,0 +1,148 @@
+{
+  "runId": "G2-HOPF-001",
+  "gate": "G2",
+  "status": "planned deterministic fixture; actual browser observations recorded separately",
+  "experimentVersion": "gate-2-hopf-correspondence-v1",
+  "testId": "G2-hopf-phase-chart-and-reference",
+  "hypothesis": "Each selected S² point identifies one full S³ fiber; shared phase moves source q without moving its base, while a separate candidate reference maps the same fictional records by declared partial criteria.",
+  "baseRevision": "b8b354e47477b342726fa14403980e0caea47c0b",
+  "buildId": "g2-d8107c62a9ca1f71",
+  "sourceSha256": "d8107c62a9ca1f71978f4012122625c59536759dea32d4642131da5a8c657d9b",
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external runtime assets",
+  "builtAt": "2026-09-20T01:43:07.446Z",
+  "durationMs": 24000,
+  "stepMs": 1000,
+  "checkpointTimesMs": [
+    0,
+    6000,
+    12000,
+    18000,
+    24000
+  ],
+  "model": {
+    "type": "Hopf correspondence S³→S²",
+    "sourceCoordinates": "q=(Re z1,Im z1,Re z2,Im z2) in R⁴",
+    "sourceDimension": 3,
+    "ambientDimension": 4,
+    "basePoints": [
+      {
+        "id": "north",
+        "label": "North pole",
+        "p": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": "south",
+        "label": "South pole · infinity case",
+        "p": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "east",
+        "label": "Equator east",
+        "p": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "west",
+        "label": "Equator west",
+        "p": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "front",
+        "label": "Equator forward",
+        "p": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "back",
+        "label": "Equator back",
+        "p": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "id": "seam-plus",
+        "label": "Longitude seam +",
+        "p": [
+          -0.9999999999995,
+          0.000001,
+          0
+        ]
+      },
+      {
+        "id": "seam-minus",
+        "label": "Longitude seam −",
+        "p": [
+          -0.9999999999995,
+          -0.000001,
+          0
+        ]
+      }
+    ],
+    "fiberSamplesPerBase": 128,
+    "stereoClipRadius": 4,
+    "camera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659
+    },
+    "sourceToBase": "h=(2(ac+bd),2(bc-ad),a²+b²-c²-d²)",
+    "sourceToDisplay": "(a,b,c)/(1-d), d=1 excluded",
+    "phasePath": "east/north chart, gamma=2πt/24000",
+    "seed": null,
+    "renderer": "SVG 2D projection of computed R³ curves",
+    "fixedScaleSvgUnitsPerR3Unit": 55,
+    "clipping": "R³ radius 4; discontinuity at stereographic infinity; never join across excluded point"
+  },
+  "attention": {
+    "recordFixture": "fictional-records.json",
+    "recordFixtureSha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+    "mappingFixture": "reference-mappings.json",
+    "mappingFixtureSha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+    "initialReferenceId": "R_CAPACITY_60",
+    "recordIdsAndHashes": [
+      {
+        "id": "venue-hall",
+        "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+      },
+      {
+        "id": "venue-field",
+        "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+      },
+      {
+        "id": "venue-studio",
+        "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+      },
+      {
+        "id": "weather-context",
+        "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+      }
+    ],
+    "semantics": "candidate partial display mapping; phase is arbitrary display slot; no endorsement or full feasibility claim"
+  },
+  "initialStateHash": "7e876e2c960ef9b3c701468f0a419e51af4437b5d9dee976524351c2eb33abc3",
+  "initialGeometryHash": "f7f5f0c4741798333b6f8c61221b59c1ac38e82be044b2e7ae0bcd882904b6b1",
+  "initialMappingHash": "9f31b2e65a7bdac6a3d8a5540a7b312a9ad15397bb1aae90d27f3a5e3e8b57a0",
+  "initialStateFile": "initial-state.json",
+  "eventsFile": "events.jsonl",
+  "checkpointsFile": "checkpoints.json",
+  "eventsKind": "planned deterministic fixture, not observed browser controls"
+}

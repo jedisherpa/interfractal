@@ -1,0 +1,638 @@
+[
+  {
+    "label": "Final results initial1280",
+    "observedAtUtc": "2026-09-20T03:42:35.830Z",
+    "clientWidth": 1280,
+    "documentWidth": 1280,
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg"
+      }
+    ],
+    "links": [
+      {
+        "href": "/",
+        "text": "Open the paused replay"
+      },
+      {
+        "href": "/evidence/gate-4/GATE_4_PACKET.md",
+        "text": "Full review packet"
+      },
+      {
+        "href": "/evidence/gate-4/review/AUDIT.md",
+        "text": "Independent audit"
+      },
+      {
+        "href": "/evidence/gate-4/review/EXPERIMENT_CHARTER.md",
+        "text": "charter"
+      },
+      {
+        "href": "/evidence/gate-4/review/PRESPEC_FREEZE.json",
+        "text": "frozen before browser trials"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/browser-observations.json",
+        "text": "raw observations 1–3"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+        "text": "Final center slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-heldout-movie.jpg",
+        "text": "Held-out movie disagreement"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+        "text": "Active shrinking slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-empty.jpg",
+        "text": "Active empty interval"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-return.jpg",
+        "text": "Active return"
+      },
+      {
+        "href": "/evidence/gate-4/capture-index.json",
+        "text": "All 21 original capture records"
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/outcome.json",
+        "text": "failed-candidate record"
+      },
+      {
+        "href": "/evidence/gate-4/history-browser-review.json",
+        "text": "historical review record"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/movie-3d.json",
+        "text": "standalone saved 3D trace"
+      },
+      {
+        "href": "/evidence/gate-4/browser-observations.json",
+        "text": "Actual browser states"
+      },
+      {
+        "href": "/evidence/gate-4/browser-action-trace.json",
+        "text": "Actual control trace"
+      },
+      {
+        "href": "/evidence/gate-4/observed-activity.jsonl",
+        "text": "Closed UI event snapshot"
+      },
+      {
+        "href": "/evidence/gate-4/core-evidence-closure.json",
+        "text": "Core evidence closure"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Luna primary-source review"
+      },
+      {
+        "href": "/evidence/gate-4/execution-provenance.json",
+        "text": "Actual agent roles/settings"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/checkpoints.json",
+        "text": "Canonical checkpoint data"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Princeton and Toronto sources"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "text": "the local replay"
+      }
+    ],
+    "scrollY": 0,
+    "table": {
+      "clientWidth": 1118,
+      "scrollWidth": 1118
+    },
+    "title": "Looking Glass · Gate 4 results",
+    "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+    "viewport": {
+      "devicePixelRatio": 2,
+      "height": 720,
+      "width": 1280
+    },
+    "visibleDraft": false
+  },
+  {
+    "label": "Four original images loaded",
+    "observedAtUtc": "2026-09-20T03:42:36.227Z",
+    "clientWidth": 1280,
+    "documentWidth": 1280,
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg"
+      }
+    ],
+    "links": [
+      {
+        "href": "/",
+        "text": "Open the paused replay"
+      },
+      {
+        "href": "/evidence/gate-4/GATE_4_PACKET.md",
+        "text": "Full review packet"
+      },
+      {
+        "href": "/evidence/gate-4/review/AUDIT.md",
+        "text": "Independent audit"
+      },
+      {
+        "href": "/evidence/gate-4/review/EXPERIMENT_CHARTER.md",
+        "text": "charter"
+      },
+      {
+        "href": "/evidence/gate-4/review/PRESPEC_FREEZE.json",
+        "text": "frozen before browser trials"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/browser-observations.json",
+        "text": "raw observations 1–3"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+        "text": "Final center slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-heldout-movie.jpg",
+        "text": "Held-out movie disagreement"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+        "text": "Active shrinking slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-empty.jpg",
+        "text": "Active empty interval"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-return.jpg",
+        "text": "Active return"
+      },
+      {
+        "href": "/evidence/gate-4/capture-index.json",
+        "text": "All 21 original capture records"
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/outcome.json",
+        "text": "failed-candidate record"
+      },
+      {
+        "href": "/evidence/gate-4/history-browser-review.json",
+        "text": "historical review record"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/movie-3d.json",
+        "text": "standalone saved 3D trace"
+      },
+      {
+        "href": "/evidence/gate-4/browser-observations.json",
+        "text": "Actual browser states"
+      },
+      {
+        "href": "/evidence/gate-4/browser-action-trace.json",
+        "text": "Actual control trace"
+      },
+      {
+        "href": "/evidence/gate-4/observed-activity.jsonl",
+        "text": "Closed UI event snapshot"
+      },
+      {
+        "href": "/evidence/gate-4/core-evidence-closure.json",
+        "text": "Core evidence closure"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Luna primary-source review"
+      },
+      {
+        "href": "/evidence/gate-4/execution-provenance.json",
+        "text": "Actual agent roles/settings"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/checkpoints.json",
+        "text": "Canonical checkpoint data"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Princeton and Toronto sources"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "text": "the local replay"
+      }
+    ],
+    "scrollY": 2171.5,
+    "table": {
+      "clientWidth": 1118,
+      "scrollWidth": 1118
+    },
+    "title": "Looking Glass · Gate 4 results",
+    "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+    "viewport": {
+      "devicePixelRatio": 2,
+      "height": 720,
+      "width": 1280
+    },
+    "visibleDraft": false
+  },
+  {
+    "label": "Final results960table",
+    "observedAtUtc": "2026-09-20T03:42:36.788Z",
+    "clientWidth": 960,
+    "documentWidth": 960,
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg"
+      }
+    ],
+    "links": [
+      {
+        "href": "/",
+        "text": "Open the paused replay"
+      },
+      {
+        "href": "/evidence/gate-4/GATE_4_PACKET.md",
+        "text": "Full review packet"
+      },
+      {
+        "href": "/evidence/gate-4/review/AUDIT.md",
+        "text": "Independent audit"
+      },
+      {
+        "href": "/evidence/gate-4/review/EXPERIMENT_CHARTER.md",
+        "text": "charter"
+      },
+      {
+        "href": "/evidence/gate-4/review/PRESPEC_FREEZE.json",
+        "text": "frozen before browser trials"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/browser-observations.json",
+        "text": "raw observations 1–3"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+        "text": "Final center slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-heldout-movie.jpg",
+        "text": "Held-out movie disagreement"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+        "text": "Active shrinking slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-empty.jpg",
+        "text": "Active empty interval"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-return.jpg",
+        "text": "Active return"
+      },
+      {
+        "href": "/evidence/gate-4/capture-index.json",
+        "text": "All 21 original capture records"
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/outcome.json",
+        "text": "failed-candidate record"
+      },
+      {
+        "href": "/evidence/gate-4/history-browser-review.json",
+        "text": "historical review record"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/movie-3d.json",
+        "text": "standalone saved 3D trace"
+      },
+      {
+        "href": "/evidence/gate-4/browser-observations.json",
+        "text": "Actual browser states"
+      },
+      {
+        "href": "/evidence/gate-4/browser-action-trace.json",
+        "text": "Actual control trace"
+      },
+      {
+        "href": "/evidence/gate-4/observed-activity.jsonl",
+        "text": "Closed UI event snapshot"
+      },
+      {
+        "href": "/evidence/gate-4/core-evidence-closure.json",
+        "text": "Core evidence closure"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Luna primary-source review"
+      },
+      {
+        "href": "/evidence/gate-4/execution-provenance.json",
+        "text": "Actual agent roles/settings"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/checkpoints.json",
+        "text": "Canonical checkpoint data"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Princeton and Toronto sources"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "text": "the local replay"
+      }
+    ],
+    "scrollY": 1205,
+    "table": {
+      "clientWidth": 918,
+      "scrollWidth": 918
+    },
+    "title": "Looking Glass · Gate 4 results",
+    "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+    "viewport": {
+      "devicePixelRatio": 1,
+      "height": 720,
+      "width": 960
+    },
+    "visibleDraft": false
+  },
+  {
+    "label": "Final results native viewport restored",
+    "observedAtUtc": "2026-09-20T03:43:12.432Z",
+    "clientWidth": 1280,
+    "documentWidth": 1280,
+    "images": [
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg"
+      },
+      {
+        "complete": true,
+        "naturalHeight": 720,
+        "naturalWidth": 1280,
+        "src": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg"
+      }
+    ],
+    "links": [
+      {
+        "href": "/",
+        "text": "Open the paused replay"
+      },
+      {
+        "href": "/evidence/gate-4/GATE_4_PACKET.md",
+        "text": "Full review packet"
+      },
+      {
+        "href": "/evidence/gate-4/review/AUDIT.md",
+        "text": "Independent audit"
+      },
+      {
+        "href": "/evidence/gate-4/review/EXPERIMENT_CHARTER.md",
+        "text": "charter"
+      },
+      {
+        "href": "/evidence/gate-4/review/PRESPEC_FREEZE.json",
+        "text": "frozen before browser trials"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C1-point-16s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C2-empty-20s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C3-ambiguity-known-plane.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/001-C0-center-0s.jpg",
+        "text": ""
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/browser-observations.json",
+        "text": "raw observations 1–3"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-C0-center-0s.jpg",
+        "text": "Final center slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-heldout-movie.jpg",
+        "text": "Held-out movie disagreement"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-interior-library-replay.jpg",
+        "text": "Active shrinking slice"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-empty.jpg",
+        "text": "Active empty interval"
+      },
+      {
+        "href": "/evidence/gate-4/screenshots/002-active-return.jpg",
+        "text": "Active return"
+      },
+      {
+        "href": "/evidence/gate-4/capture-index.json",
+        "text": "All 21 original capture records"
+      },
+      {
+        "href": "/evidence/gate-4/candidates/G4-SLICES-001/outcome.json",
+        "text": "failed-candidate record"
+      },
+      {
+        "href": "/evidence/gate-4/history-browser-review.json",
+        "text": "historical review record"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/movie-3d.json",
+        "text": "standalone saved 3D trace"
+      },
+      {
+        "href": "/evidence/gate-4/browser-observations.json",
+        "text": "Actual browser states"
+      },
+      {
+        "href": "/evidence/gate-4/browser-action-trace.json",
+        "text": "Actual control trace"
+      },
+      {
+        "href": "/evidence/gate-4/observed-activity.jsonl",
+        "text": "Closed UI event snapshot"
+      },
+      {
+        "href": "/evidence/gate-4/core-evidence-closure.json",
+        "text": "Core evidence closure"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Luna primary-source review"
+      },
+      {
+        "href": "/evidence/gate-4/execution-provenance.json",
+        "text": "Actual agent roles/settings"
+      },
+      {
+        "href": "/runs/G4-SLICES-002/checkpoints.json",
+        "text": "Canonical checkpoint data"
+      },
+      {
+        "href": "/evidence/gate-4/review/SOURCE_REVIEW.md",
+        "text": "Princeton and Toronto sources"
+      },
+      {
+        "href": "http://127.0.0.1:43997/",
+        "text": "the local replay"
+      }
+    ],
+    "scrollY": 0,
+    "table": {
+      "clientWidth": 1118,
+      "scrollWidth": 1118
+    },
+    "title": "Looking Glass · Gate 4 results",
+    "url": "http://127.0.0.1:43997/evidence/gate-4/results.html",
+    "viewport": {
+      "devicePixelRatio": 2,
+      "height": 720,
+      "width": 1280
+    },
+    "visibleDraft": false
+  }
+]

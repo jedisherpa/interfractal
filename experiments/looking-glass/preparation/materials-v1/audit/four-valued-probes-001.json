@@ -1,0 +1,15 @@
+{
+  "scope": "synthetic candidate001 guard probes; not research outputs",
+  "probes": [
+    {
+      "status": "supported",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "status": "refuted",
+      "accepted": true,
+      "errors": []
+    }
+  ]
+}

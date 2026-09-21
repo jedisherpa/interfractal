@@ -1,0 +1,391 @@
+{
+  "schema": "gate9-route-audit-v1",
+  "status": "PASS",
+  "baseUrl": "http://127.0.0.1:44002/",
+  "checks": 38,
+  "allowedContentRoutes": 15,
+  "results": [
+    {
+      "method": "GET",
+      "target": "/",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "b62bbb12f6825ccfc0e8d7822cb4108392b0f62039b94ccd276a29412568fd66",
+      "bytes": 3868,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/index.html",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "b62bbb12f6825ccfc0e8d7822cb4108392b0f62039b94ccd276a29412568fd66",
+      "bytes": 3868,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/style.css",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "4bf7d0ed7986c25f765b95cdd6bf9106310fa5bd1f61cb66d77ba32f4b841047",
+      "bytes": 2204,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/app.mjs",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "c6c401ccee576aaeba40746638c80c2e121f971bacbed4e831ec915b274a2cfc",
+      "bytes": 14178,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/core.mjs",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "381c36bb50b5cc44ba45161ad0b34e92bb0c80602af479fd905b58205432d83f",
+      "bytes": 5256,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/engine.mjs",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "8c029cbfe25cc5ca70e4c10b6337f87af61aa964d881b3b3533ef80e35d3a92e",
+      "bytes": 15165,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/fixture.json",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+      "bytes": 8238,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/metadata.json",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "3a007b0cf41823c07d0c6630eb19ff1dc0757504e13eb6d6c85950f9c1d05b98",
+      "bytes": 284,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/api/build",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "5d99e55c84d91b5676010f4766963aaba4c5631d873a1398f6c047f9c7772940",
+      "bytes": 3955,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/api/run",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "d7ffd7cc9cf11e511736c5c2279c8145515f9836fdf9e01f152a43c2b581092b",
+      "bytes": 2419,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/api/initial-state",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "145b07b038d1f91526dc64708e47615b9f8741872f8ca33721bf2ce8c4bfe4bb",
+      "bytes": 922,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/api/checkpoints",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "ed64067a07b84377f815435be840ad2c5e924ee6e5e89686e21c2d70b197f71f",
+      "bytes": 25663,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/api/events",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "d5c77ef4f09cc7a6ef2469577a4d98a88c6890f2cc80c0d20de7e0bf0edb0a23",
+      "bytes": 7248,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/api/computation",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "6b5f20073878701af9eeb297bb576f14df7e2d833bc5e44256252d74ed2cdad7",
+      "bytes": 704,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/source-review.md",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "13ed696ab2a7b05298167f7de8183b47334b250e81ffc9cffa797e91b03621bc",
+      "bytes": 6667,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "HEAD",
+      "target": "/",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": null,
+      "bytes": 0,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "HEAD",
+      "target": "/api/build",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": null,
+      "bytes": 0,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/fixture.json?audit=read-only",
+      "status": 200,
+      "expectedStatus": 200,
+      "bodySha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+      "bytes": 8238,
+      "matchedExpectedBytes": true,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/independent-predictions.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/PRESPEC_FREEZE.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/build.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/test.mjs",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/README.md",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/docs/gate-9/fixture.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/audit/gate-9/prepackage-final-audit.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/matched-observation/builds/g9-15c3bf973fe0c6cd/server.mjs",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/../docs/gate-9/fixture.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/%2e%2e/docs/gate-9/fixture.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/screenshots/../../docs/gate-9/fixture.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/screenshots/%2e%2e%2f%2e%2e%2fdocs%2fgate-9%2ffixture.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/screenshots/nonexistent-audit-image.jpg",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/screenshots/../nonexistent-audit-image.jpg",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "POST",
+      "target": "/",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "POST",
+      "target": "/api/run",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/results.html",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/packet.md",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/audit.md",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "target": "/review/run-evidence.json",
+      "status": 404,
+      "expectedStatus": 404,
+      "bodySha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "bytes": 21,
+      "matchedExpectedBytes": null,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "browserInteraction": false
+}

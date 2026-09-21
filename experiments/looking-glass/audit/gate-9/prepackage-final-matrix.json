@@ -1,0 +1,115 @@
+{
+  "schema": "gate9-prepackage-correction-matrix-v1",
+  "routes": [
+    {
+      "condition": "choose",
+      "phase": "draft",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "choose",
+      "phase": "complete",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "watch",
+      "phase": "ready",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "watch",
+      "phase": "running",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "watch",
+      "phase": "complete",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "static",
+      "phase": "ready",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "static",
+      "phase": "running",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    },
+    {
+      "condition": "static",
+      "phase": "complete",
+      "malformed": "rejected",
+      "offMenu": "rejected",
+      "invalidCondition": "rejected",
+      "semanticStatePreserved": true,
+      "invalidConditionStopClockCalls": 0
+    }
+  ],
+  "practiceTiming": [
+    {
+      "condition": "watch",
+      "mode": "exploration",
+      "action": "practice-open",
+      "clockStopCalls": 1,
+      "presentationPaused": true,
+      "tourPaused": true,
+      "reviewStatus": "manual-review"
+    },
+    {
+      "condition": "watch",
+      "mode": "saved-tour",
+      "action": "practice-open",
+      "clockStopCalls": 1,
+      "presentationPaused": true,
+      "tourPaused": true,
+      "reviewStatus": "manual-review"
+    },
+    {
+      "condition": "static",
+      "mode": "exploration",
+      "action": "practice-open",
+      "clockStopCalls": 1,
+      "presentationPaused": true,
+      "tourPaused": true,
+      "reviewStatus": "manual-review"
+    },
+    {
+      "condition": "static",
+      "mode": "saved-tour",
+      "action": "practice-open",
+      "clockStopCalls": 1,
+      "presentationPaused": true,
+      "tourPaused": true,
+      "reviewStatus": "manual-review"
+    }
+  ]
+}

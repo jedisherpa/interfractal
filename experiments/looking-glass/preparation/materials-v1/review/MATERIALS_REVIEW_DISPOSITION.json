@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "materials-review-disposition/1",
+  "status": "PASS_BOUNDED_AUTHORED_MATERIALS_STAGE",
+  "acceptedCandidate": "package-candidate-003",
+  "candidateManifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+  "acceptedScope": [
+    "authored finite source/task/schema materials",
+    "independently frozen key reconciliation",
+    "participant bundle boundaries",
+    "declared structural and literal-source-witness guards",
+    "bounded read-only researcher preview smoke"
+  ],
+  "humanMaterialsApproval": "PENDING",
+  "overallPreparationGoal": "INCOMPLETE",
+  "historicalCandidates": {
+    "001": "blocked;109 frozen entries preserved",
+    "002": "blocked;119 frozen entries preserved;two browser intent mismatches unexplained",
+    "003": "bounded pass;earlier failures retained"
+  },
+  "keyChecks": {
+    "developmentValueAtoms": 194,
+    "transferValueAtoms": 98,
+    "w06BundleIdArrays": 8,
+    "inScopeAuthorReferences": 442,
+    "fullProofSufficiencyCertified": false
+  },
+  "candidate003Checks": {
+    "files": 70,
+    "rootManifestEntries": 69,
+    "previousGuardOutcomes": 17,
+    "phaseOutcomes": 5,
+    "literalWitnessOutcomes": 16,
+    "routeProbes": 14,
+    "browserObservations": 8,
+    "domSourceRecordInstances": 144,
+    "intendedTransitions": 3,
+    "originalJpegs": 2,
+    "consoleEntries": 0,
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "visualInspection": "Both003 originals directly inspected by synthesis worker;only C04 visibly opened in current smoke;DOM serialized all18 records per observation",
+  "requiredPreparationRemaining": [
+    "machine-readable transfer-response validator and negative tests",
+    "executable comparator/pool/scorer and cost-attempt accounting",
+    "substantive provenance proof sufficiency review",
+    "synthetic runner and immutable lineage end-to-end checks",
+    "integrated equivalent plain/visual instrument and acceptance corpus",
+    "human protocol/readiness and comparison/mechanism/cross-scale plans",
+    "documented responsible-owner/setting decisions and outstanding future approvals",
+    "independent final review and verified updated preparation ZIP",
+    "CLI entry-guard hardening and symlink-path regression test in next tooling-preparation revision"
+  ],
+  "futureLaunchRechecks": [
+    "actual model/version/settings",
+    "tokenizer/context fit without truncated union",
+    "fresh-context or restricted-runner tool/network isolation",
+    "separate execution authorization and applicable human approvals"
+  ],
+  "noCollection": {
+    "researchSnapshots": 0,
+    "researchExchangeMessages": 0,
+    "transferResponses": 0,
+    "humanParticipants": 0
+  },
+  "gate14": "UNAPPROVED_UNRUN",
+  "nextBoundary": "Review materials before dependent equivalent-instrument and synthetic runner/transfer/scorer preparation;no study execution",
+  "engineeringRoles": {
+    "specificationSynthesis": "GPT-6 Astra xhigh",
+    "implementation": "GPT-5.6 Sol high",
+    "independentDerivationAudit": "separate GPT-5.6 Sol high worker",
+    "host": "routing,preservation,supported browser inspection"
+  },
+  "pins": [
+    {
+      "path": "design/SOURCE_TASK_FREEZE.json",
+      "sha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+      "bytes": 1213
+    },
+    {
+      "path": "design/DESIGN_FREEZE.json",
+      "sha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b",
+      "bytes": 2461
+    },
+    {
+      "path": "audit/BLIND_KEY_FREEZE_001.json",
+      "sha256": "d23efa250eec5e4aa689f956a479d743ab5823dc857a740c62a10f3e42997603",
+      "bytes": 1051
+    },
+    {
+      "path": "audit/candidate-003-core-audit.md",
+      "sha256": "529a9e30d5c9c8810543330a9eab46c7a16c404c9cb2b0db63655bcd5e00f6a7",
+      "bytes": 3784
+    },
+    {
+      "path": "audit/candidate-003-core-audit.json",
+      "sha256": "3e92f0d1da16b7db4777b29cdc382fca082c92bf23ae7d3718fdf52f202e5c10",
+      "bytes": 3573
+    },
+    {
+      "path": "audit/cross-review-001-corrected.json",
+      "sha256": "6ed8243f165b137e62622bbf281cdb8c28fd97be461dabcfbf172c968497ad43",
+      "bytes": 1041
+    },
+    {
+      "path": "audit/package-verification-003.json",
+      "sha256": "5cce5e821bbf6d80fd7dd85ee6e50e60c4fd30de2cc26236a56b4be3c0ffc1e4",
+      "bytes": 1160
+    },
+    {
+      "path": "audit/snapshot-guard-probes-003.json",
+      "sha256": "a05ec25f8f38663697301db68c232eb69badd89407896f3a515724f1ec8b2576",
+      "bytes": 4964
+    },
+    {
+      "path": "audit/phase-probes-003.json",
+      "sha256": "5f86dbba85b73036c329f0a7ee3cb79d7e3940137729378b00cf9915607ad13f",
+      "bytes": 1069
+    },
+    {
+      "path": "audit/literal-matrix-003.json",
+      "sha256": "a2a877d8102f354ed8536ae1c0f884eb78cb35b41a83dd209a0baf7c2db78be0",
+      "bytes": 4287
+    },
+    {
+      "path": "audit/preview-routes-003.json",
+      "sha256": "9a6b57ff41c7691527bff09691db5eb7f27a17744afe14c28b8fd684bdb17f41",
+      "bytes": 2809
+    },
+    {
+      "path": "audit/browser-verification-003.json",
+      "sha256": "6ccf71deb98f90ecccaf3ca9dad2b81999662a8c7287529a8ca89b6f5951b857",
+      "bytes": 481
+    },
+    {
+      "path": "package-candidate-003/MANIFEST.json",
+      "sha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+      "bytes": 14178
+    },
+    {
+      "path": "evidence/CANDIDATE_001_FREEZE.json",
+      "sha256": "2ad6291b79695def48079c66fa63fb79e16f199f9a4e5a241af2aed09eb0edb2",
+      "bytes": 23561
+    },
+    {
+      "path": "evidence/CANDIDATE_002_FREEZE.json",
+      "sha256": "e305b6913fed05fff2928efc834323b1b89d6d0dae0e4181a746ca4c9d4d36e9",
+      "bytes": 25453
+    },
+    {
+      "path": "evidence/browser-candidate-003/ACQUISITION.md",
+      "sha256": "bf0a74307e250a7e1729e596d779113fccf2bc61790633310355a9bf65123627",
+      "bytes": 1297
+    },
+    {
+      "path": "evidence/browser-candidate-003/observations.json",
+      "sha256": "089de93e8514006eb014339c0aadff80216ea484267d9877ddebeb35f8a5909e",
+      "bytes": 277452
+    },
+    {
+      "path": "evidence/browser-candidate-003/actions.json",
+      "sha256": "d30280187938613af0795dfa186fb22fa0dceb5ecb89733aa6e8e7066605e492",
+      "bytes": 657
+    },
+    {
+      "path": "evidence/browser-candidate-003/screenshots.json",
+      "sha256": "1070c159f16e928557e755ad06884afc47d8078f179126df1006c4d6ec626a31",
+      "bytes": 757
+    },
+    {
+      "path": "evidence/browser-candidate-003/screenshots/candidate-003-overview.jpg",
+      "sha256": "3e19435f8ed03a52e1b97c13fdf59edc2b5e58f6ff2b989e04540682702302aa",
+      "bytes": 79849
+    },
+    {
+      "path": "evidence/browser-candidate-003/screenshots/candidate-003-C04-source.jpg",
+      "sha256": "e77b989326404ecd64a5937cbe799cf133c164b6ed1783ae575d7a122d4b72a1",
+      "bytes": 80705
+    },
+    {
+      "path": "review/SOURCE_EQUIVALENT_MAPPING.md",
+      "sha256": "9c86c094ccb7cf048b18c4bb86e569e5fe5f18c19b7e09f4c43aa23f185be239",
+      "bytes": 7977
+    },
+    {
+      "path": "review/MATERIALS_REVIEW_PACKET.md",
+      "sha256": "316528e2d942f1b611ceb9fb9705976e18c52012bf044cd0a50de22ccd7db608",
+      "bytes": 11372
+    },
+    {
+      "path": "CORE_MANIFEST.json",
+      "sha256": "16795483e387a34c0f32e7185723d221dcc772da333a3e3a90848e2a9b80e4d6",
+      "bytes": 71183
+    },
+    {
+      "path": "RECOVERY.md",
+      "sha256": "d51c8f0b39a2f52f4ff8d6a9f10d975760f0e3bfd7b2da00f8e347310a89c709",
+      "bytes": 2972
+    },
+    {
+      "path": "evidence/clean-reproduction-003.json",
+      "sha256": "d52837baf0ea9edff8f63cccf228de8104e1a2d0425d7f7088783de0d831ae40",
+      "bytes": 4276
+    },
+    {
+      "path": "evidence/clean-reproduction-003-canonical.json",
+      "sha256": "5b99cd6622d02001abbfaab82cc3f9ffebd47c913b92e451e7e7aab5009400fd",
+      "bytes": 1692
+    }
+  ],
+  "pinScope": "Selected fixed components and finalpacket;not a finalstagefreeze or repository-publication record",
+  "closedCore": {
+    "path": "CORE_MANIFEST.json",
+    "files": 334,
+    "sha256": "16795483e387a34c0f32e7185723d221dcc772da333a3e3a90848e2a9b80e4d6",
+    "excludes": "review synthesis,final handoff,mutable execution provenance and live status"
+  },
+  "supplementalCleanReproduction": {
+    "status": "PASS_CANONICAL_PATHS_WITH_PRESERVED_INITIAL_FAILURE",
+    "filesCompared": 70,
+    "mismatches": 0,
+    "manifestSha256": "7f7ba05a8f5d5fca9298d4e0b81210f049ff3a804fc94ab420d89fa4c5f32ced",
+    "inputs": "Only packaged builder-tooling and research-team/design",
+    "initialFailure": "Noncanonical macOS /var symlink path differed from Node /private/var; entry guard silently skipped main and returned0 with no output/package",
+    "correction": "Canonical absolute invocation; frozen code unchanged",
+    "acceptanceEvidenceRequired": [
+      "explicit successful stdout",
+      "complete output inventory",
+      "exact manifest hash"
+    ],
+    "remainingLimitation": "Noncanonical symlink entry paths;no unrestricted cross-platform CLI readiness",
+    "coreManifestUnchanged": true
+  }
+}

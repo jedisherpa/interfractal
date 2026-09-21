@@ -1,0 +1,80 @@
+{
+  "gate": 11,
+  "scope": "Primary methodological sources for task-relative summary sufficiency, finite receiver determinacy, provenance-preserving repair, and equivalent plain comparison.",
+  "accessed_at_utc": "2026-09-20T17:36:53Z",
+  "accessed_at_local": "2026-09-20T11:36:53-0600",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only primary-source review; no implementation, browser study, deployment, recruitment, or human-participant claims.",
+  "primary_sources": [
+    {
+      "title": "Views and Queries: Determinacy and Rewriting",
+      "authors": ["Luc Segoufin", "Victor Vianu"],
+      "publisher": "ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS)",
+      "published": "2005-06",
+      "source_type": "peer-reviewed conference paper; publisher DOI and author-hosted full paper",
+      "url": "https://doi.org/10.1145/1065167.1065174",
+      "open_copy_url": "https://dbucsd.github.io/paperpdfs/2005_7.pdf",
+      "claims_used": [
+        "A view determines a query when the view information uniquely determines the query answer.",
+        "Determinacy and rewriting are relative to the declared view/query and data model.",
+        "A finite same-summary/different-receiver pair is a direct counterexample to determinacy on the frozen world set."
+      ],
+      "gate11_use": "Define receiver-specific conditional adequacy over finite fictional worlds; test each receiver independently.",
+      "limits": "Formal database result; finite instrument checks do not establish universal determinacy or human understanding."
+    },
+    {
+      "title": "Why and Where: A Characterization of Data Provenance",
+      "authors": ["Peter Buneman", "Sanjeev Khanna", "Wang-Chiew Tan"],
+      "publisher": "International Conference on Database Theory (ICDT), Springer Lecture Notes in Computer Science 1973",
+      "published": "2001",
+      "source_type": "peer-reviewed conference paper; publisher DOI and institutional author copy",
+      "url": "https://doi.org/10.1007/3-540-44503-X_20",
+      "open_copy_url": "https://www.research.ed.ac.uk/files/16509989/Why_and_Where_A_Characterization_of_Data_Provenance.pdf",
+      "claims_used": [
+        "Why-provenance identifies source data that contributed to an output.",
+        "Where-provenance identifies source locations from which output data were taken."
+      ],
+      "gate11_use": "Require source record/field and derivation pointers for summary and repair fields; treat provenance as origin evidence, not a newly inferred fact.",
+      "limits": "Provenance characterizations require a specified data/query setting and do not evaluate explanation quality or human interpretation."
+    },
+    {
+      "title": "Provenance Semirings",
+      "authors": ["Todd J. Green", "Grigoris Karvounarakis", "Val Tannen"],
+      "publisher": "ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS)",
+      "published": "2007",
+      "source_type": "peer-reviewed conference paper; publisher DOI and author-hosted paper",
+      "url": "https://doi.org/10.1145/1265530.1265535",
+      "open_copy_url": "https://web.cs.ucdavis.edu/~green/papers/pods07.pdf",
+      "claims_used": [
+        "Symbolic semiring annotations track provenance and alternative derivations through relational computations.",
+        "The framework covers incomplete, probabilistic, and bag-semantics settings."
+      ],
+      "gate11_use": "Carry stable derivation/source identifiers through the equivalent plain comparator and any allowed minimal repair.",
+      "limits": "Annotations record formal derivations; they do not justify adding unsupported values or establish semantic understanding."
+    }
+  ],
+  "derived_gate11_requirements": [
+    {
+      "requirement": "Receiver-specific finite determinacy",
+      "design": "Freeze worlds, summary, and receiver functions; require equal summaries to imply equal receiver answers across the frozen world set, and retain same-summary/different-answer counterexamples.",
+      "basis": "Segoufin and Vianu (2005)",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Provenance-preserving minimal repair",
+      "design": "Declare an allowed field menu in advance; expose only an existing allowed dependency or source pointer, preserve its origin/derivation, and add no inferred fact.",
+      "basis": "Buneman, Khanna, and Tan (2001); Green, Karvounarakis, and Tannen (2007)",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Equivalent plain comparator",
+      "design": "Use the same records, formulas, fields, provenance identifiers, and repair state in both representations; do not treat visual agreement as added evidence.",
+      "basis": "Provenance semiring annotations and view/query determinacy",
+      "status": "methodological constraint"
+    }
+  ],
+  "limits": [
+    "The papers are formal database-theory sources; their guarantees are conditional on declared models, queries/views, and annotations.",
+    "The Gate 11 instrument supports software-level conditional checks only; it makes no human meaning, learning, usability, or causal claim."
+  ]
+}

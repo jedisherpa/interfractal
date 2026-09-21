@@ -1,0 +1,78 @@
+{
+  "schema": "gate10-candidate-003-overlap-idempotency-audit-v1",
+  "status": "PASS",
+  "scope": "Isolated software API concurrency; no browser or human action",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "identicalStart": {
+    "statuses": [
+      201,
+      200
+    ],
+    "attemptIds": [
+      "39d6a6f4-74dc-4a53-9d51-113704d3ba47",
+      "39d6a6f4-74dc-4a53-9d51-113704d3ba47"
+    ],
+    "distinctAttempts": 1,
+    "eventReferenceEquality": true,
+    "expected": "one immutable attempt and identical result for both same-request retries"
+  },
+  "identicalCommit": {
+    "statuses": [
+      201,
+      200
+    ],
+    "receiptEquality": true,
+    "eventReferenceEquality": true,
+    "secondError": null,
+    "expected": "same locked commit receipt for both same-request retries"
+  },
+  "conflictingStart": {
+    "statuses": [
+      201,
+      409
+    ],
+    "caseIds": [
+      "T01",
+      null
+    ],
+    "expected": "one accepted request, one 409 conflict for the same requestId with differing caseId"
+  },
+  "httpOverlap": {
+    "identicalStartStatuses": [
+      201,
+      200
+    ],
+    "distinctStartAttemptCount": 1,
+    "identicalStartEventEquality": true,
+    "identicalCommitStatuses": [
+      201,
+      200
+    ],
+    "commitReceiptEquality": true,
+    "commitEventEquality": true,
+    "conflictingStartStatuses": [
+      201,
+      409
+    ],
+    "conflictingStartCases": [
+      "T01",
+      null
+    ]
+  },
+  "attemptCount": 3,
+  "serverEventTypes": [
+    "session-start",
+    "attempt-start",
+    "attempt-start-retry",
+    "attempt-abandon",
+    "attempt-start",
+    "commit-ack",
+    "commit-retry",
+    "attempt-start",
+    "api-reject"
+  ],
+  "credentialsRedacted": true,
+  "directPass": true,
+  "httpPass": true
+}

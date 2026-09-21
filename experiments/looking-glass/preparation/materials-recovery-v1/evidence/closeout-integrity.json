@@ -1,0 +1,20 @@
+{
+  "recordedAtUtc": "2026-09-20T22:21:27.044865+00:00",
+  "previousVerification": {
+    "historicalEntries": 1947,
+    "materialsEntries": 352,
+    "materialsManifestSha256": "b7152720317987bcfa027e98104cb2f1695b0fc3ffd29a1272293e919c8cea5c",
+    "failures": [],
+    "pass": true,
+    "scope": "Byte preservation only; no research execution or human approval implied."
+  },
+  "dispositionPinsVerified": 21,
+  "dispositionPinErrors": [],
+  "independentAudit": "audit/INDEPENDENT_AUDIT.md",
+  "handoffReview": "audit/HANDOFF_REVIEW.md",
+  "researchOutputsCollected": 0,
+  "humanParticipants": 0,
+  "humanMaterialsApproval": false,
+  "overallPreparationGoalComplete": false,
+  "note": "Recorded before final freeze. The final freeze verifier is read-only and must pass separately."
+}

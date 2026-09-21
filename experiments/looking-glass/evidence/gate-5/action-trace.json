@@ -1,0 +1,1225 @@
+[
+  {
+    "index": 1,
+    "label": "T1-reset-overlap",
+    "control": {
+      "kind": "button",
+      "id": "task-baseline"
+    },
+    "startedAtUtc": "2026-09-20T04:04:13.417Z",
+    "beforeObservation": 3,
+    "afterObservation": 4,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:13.775Z"
+  },
+  {
+    "index": 2,
+    "label": "T1-inspect-4D",
+    "control": {
+      "kind": "button",
+      "id": "inspect-4"
+    },
+    "startedAtUtc": "2026-09-20T04:04:13.775Z",
+    "beforeObservation": 4,
+    "afterObservation": 5,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:14.281Z"
+  },
+  {
+    "index": 3,
+    "label": "T1-inspect-5D",
+    "control": {
+      "kind": "button",
+      "id": "inspect-5"
+    },
+    "startedAtUtc": "2026-09-20T04:04:14.281Z",
+    "beforeObservation": 5,
+    "afterObservation": 6,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:14.683Z"
+  },
+  {
+    "index": 4,
+    "label": "T2-start",
+    "control": {
+      "kind": "button",
+      "id": "task-start"
+    },
+    "startedAtUtc": "2026-09-20T04:04:14.749Z",
+    "beforeObservation": 8,
+    "afterObservation": 9,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:15.189Z"
+  },
+  {
+    "index": 5,
+    "label": "T2-first-source-turn-45-0",
+    "control": {
+      "kind": "button",
+      "id": "task-alpha"
+    },
+    "startedAtUtc": "2026-09-20T04:04:15.189Z",
+    "beforeObservation": 9,
+    "afterObservation": 10,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:15.589Z"
+  },
+  {
+    "index": 6,
+    "label": "T2-first-inspect-4D",
+    "control": {
+      "kind": "button",
+      "id": "inspect-4"
+    },
+    "startedAtUtc": "2026-09-20T04:04:15.589Z",
+    "beforeObservation": 10,
+    "afterObservation": 11,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:15.919Z"
+  },
+  {
+    "index": 7,
+    "label": "T2-first-inspect-5D",
+    "control": {
+      "kind": "button",
+      "id": "inspect-5"
+    },
+    "startedAtUtc": "2026-09-20T04:04:15.919Z",
+    "beforeObservation": 11,
+    "afterObservation": 12,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:16.400Z"
+  },
+  {
+    "index": 8,
+    "label": "T2-second-source-turn-45-45",
+    "control": {
+      "kind": "button",
+      "id": "task-beta"
+    },
+    "startedAtUtc": "2026-09-20T04:04:26.182Z",
+    "beforeObservation": 14,
+    "afterObservation": 15,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:26.723Z"
+  },
+  {
+    "index": 9,
+    "label": "T2-second-inspect-4D",
+    "control": {
+      "kind": "button",
+      "id": "inspect-4"
+    },
+    "startedAtUtc": "2026-09-20T04:04:26.730Z",
+    "beforeObservation": 15,
+    "afterObservation": 16,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:27.128Z"
+  },
+  {
+    "index": 10,
+    "label": "T2-second-inspect-5D",
+    "control": {
+      "kind": "button",
+      "id": "inspect-5"
+    },
+    "startedAtUtc": "2026-09-20T04:04:27.128Z",
+    "beforeObservation": 16,
+    "afterObservation": 17,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:27.469Z"
+  },
+  {
+    "index": 11,
+    "label": "camera-only-yaw120",
+    "control": {
+      "kind": "slider",
+      "id": "camera",
+      "value": 120
+    },
+    "startedAtUtc": "2026-09-20T04:04:27.614Z",
+    "beforeObservation": 19,
+    "afterObservation": 20,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:28.042Z"
+  },
+  {
+    "index": 12,
+    "label": "camera-restore-yaw30",
+    "control": {
+      "kind": "slider",
+      "id": "camera",
+      "value": 30
+    },
+    "startedAtUtc": "2026-09-20T04:04:28.043Z",
+    "beforeObservation": 20,
+    "afterObservation": 21,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:28.485Z"
+  },
+  {
+    "index": 13,
+    "label": "canonical-replay-start",
+    "control": {
+      "kind": "button",
+      "id": "replay"
+    },
+    "startedAtUtc": "2026-09-20T04:04:48.058Z",
+    "beforeObservation": 21,
+    "afterObservation": 22,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:48.428Z"
+  },
+  {
+    "index": 14,
+    "label": "playback-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 10
+    },
+    "startedAtUtc": "2026-09-20T04:04:48.429Z",
+    "beforeObservation": 22,
+    "afterObservation": 23,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:04:48.764Z"
+  },
+  {
+    "index": 15,
+    "label": "reset-after-natural-end",
+    "control": {
+      "kind": "button",
+      "id": "reset"
+    },
+    "startedAtUtc": "2026-09-20T04:05:36.636Z",
+    "beforeObservation": 30,
+    "afterObservation": 31,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:37.086Z"
+  },
+  {
+    "index": 16,
+    "label": "baseline-checkpoint-0",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 0
+    },
+    "startedAtUtc": "2026-09-20T04:05:37.086Z",
+    "beforeObservation": 31,
+    "afterObservation": 32,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:37.596Z"
+  },
+  {
+    "index": 17,
+    "label": "baseline-checkpoint-5",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 5
+    },
+    "startedAtUtc": "2026-09-20T04:05:37.602Z",
+    "beforeObservation": 32,
+    "afterObservation": 33,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:37.986Z"
+  },
+  {
+    "index": 18,
+    "label": "baseline-checkpoint-10",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 10
+    },
+    "startedAtUtc": "2026-09-20T04:05:37.987Z",
+    "beforeObservation": 33,
+    "afterObservation": 34,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:38.498Z"
+  },
+  {
+    "index": 19,
+    "label": "baseline-checkpoint-15",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 15
+    },
+    "startedAtUtc": "2026-09-20T04:05:38.498Z",
+    "beforeObservation": 34,
+    "afterObservation": 35,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:38.884Z"
+  },
+  {
+    "index": 20,
+    "label": "baseline-checkpoint-20",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 20
+    },
+    "startedAtUtc": "2026-09-20T04:05:38.884Z",
+    "beforeObservation": 35,
+    "afterObservation": 36,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:39.404Z"
+  },
+  {
+    "index": 21,
+    "label": "baseline-checkpoint-25",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 25
+    },
+    "startedAtUtc": "2026-09-20T04:05:39.405Z",
+    "beforeObservation": 36,
+    "afterObservation": 37,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:39.914Z"
+  },
+  {
+    "index": 22,
+    "label": "baseline-checkpoint-30",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 30
+    },
+    "startedAtUtc": "2026-09-20T04:05:39.914Z",
+    "beforeObservation": 37,
+    "afterObservation": 38,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:40.298Z"
+  },
+  {
+    "index": 23,
+    "label": "baseline-checkpoint-35",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 35
+    },
+    "startedAtUtc": "2026-09-20T04:05:40.298Z",
+    "beforeObservation": 38,
+    "afterObservation": 39,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:40.762Z"
+  },
+  {
+    "index": 24,
+    "label": "baseline-checkpoint-40",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 40
+    },
+    "startedAtUtc": "2026-09-20T04:05:40.762Z",
+    "beforeObservation": 39,
+    "afterObservation": 40,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:05:41.138Z"
+  },
+  {
+    "index": 25,
+    "label": "observability-base-rank3",
+    "control": {
+      "kind": "button",
+      "id": "rank-base"
+    },
+    "startedAtUtc": "2026-09-20T04:06:14.067Z",
+    "beforeObservation": 40,
+    "afterObservation": 41,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:14.617Z"
+  },
+  {
+    "index": 26,
+    "label": "observability-xw-only-rank4-negative",
+    "control": {
+      "kind": "button",
+      "id": "rank-hidden"
+    },
+    "startedAtUtc": "2026-09-20T04:06:14.617Z",
+    "beforeObservation": 41,
+    "afterObservation": 42,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:15.071Z"
+  },
+  {
+    "index": 27,
+    "label": "observability-add-yv-rank5",
+    "control": {
+      "kind": "button",
+      "id": "rank-reveal"
+    },
+    "startedAtUtc": "2026-09-20T04:06:15.297Z",
+    "beforeObservation": 44,
+    "afterObservation": 45,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:15.779Z"
+  },
+  {
+    "index": 28,
+    "label": "select-source-v11111",
+    "control": {
+      "kind": "select",
+      "id": "vertex-select",
+      "value": "v11111"
+    },
+    "startedAtUtc": "2026-09-20T04:06:15.779Z",
+    "beforeObservation": 45,
+    "afterObservation": 46,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:15.983Z"
+  },
+  {
+    "index": 29,
+    "label": "slice-independent-w-half",
+    "control": {
+      "kind": "slider",
+      "id": "slice-w",
+      "value": 0.5
+    },
+    "startedAtUtc": "2026-09-20T04:06:15.984Z",
+    "beforeObservation": 46,
+    "afterObservation": 47,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:16.419Z"
+  },
+  {
+    "index": 30,
+    "label": "slice-independent-v-half",
+    "control": {
+      "kind": "slider",
+      "id": "slice-v",
+      "value": 0.5
+    },
+    "startedAtUtc": "2026-09-20T04:06:16.419Z",
+    "beforeObservation": 47,
+    "afterObservation": 48,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:16.868Z"
+  },
+  {
+    "index": 31,
+    "label": "slice-equal-A",
+    "control": {
+      "kind": "button",
+      "id": "slice-a"
+    },
+    "startedAtUtc": "2026-09-20T04:06:25.026Z",
+    "beforeObservation": 50,
+    "afterObservation": 51,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:25.547Z"
+  },
+  {
+    "index": 32,
+    "label": "slice-equal-B",
+    "control": {
+      "kind": "button",
+      "id": "slice-b"
+    },
+    "startedAtUtc": "2026-09-20T04:06:25.801Z",
+    "beforeObservation": 53,
+    "afterObservation": 54,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:26.201Z"
+  },
+  {
+    "index": 33,
+    "label": "slice-point-w",
+    "control": {
+      "kind": "button",
+      "id": "slice-point-w"
+    },
+    "startedAtUtc": "2026-09-20T04:06:26.295Z",
+    "beforeObservation": 56,
+    "afterObservation": 57,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:26.648Z"
+  },
+  {
+    "index": 34,
+    "label": "slice-point-v",
+    "control": {
+      "kind": "button",
+      "id": "slice-point-v"
+    },
+    "startedAtUtc": "2026-09-20T04:06:26.882Z",
+    "beforeObservation": 59,
+    "afterObservation": 60,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:27.272Z"
+  },
+  {
+    "index": 35,
+    "label": "slice-empty",
+    "control": {
+      "kind": "button",
+      "id": "slice-empty"
+    },
+    "startedAtUtc": "2026-09-20T04:06:27.272Z",
+    "beforeObservation": 60,
+    "afterObservation": 61,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:27.625Z"
+  },
+  {
+    "index": 36,
+    "label": "manual-alpha-before-restore",
+    "control": {
+      "kind": "slider",
+      "id": "alpha",
+      "value": 30
+    },
+    "startedAtUtc": "2026-09-20T04:06:58.574Z",
+    "beforeObservation": 63,
+    "afterObservation": 64,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:59.199Z"
+  },
+  {
+    "index": 37,
+    "label": "manual-beta-before-restore",
+    "control": {
+      "kind": "slider",
+      "id": "beta",
+      "value": 60
+    },
+    "startedAtUtc": "2026-09-20T04:06:59.199Z",
+    "beforeObservation": 64,
+    "afterObservation": 65,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:06:59.711Z"
+  },
+  {
+    "index": 38,
+    "label": "manual-camera-before-restore",
+    "control": {
+      "kind": "slider",
+      "id": "camera",
+      "value": 120
+    },
+    "startedAtUtc": "2026-09-20T04:06:59.711Z",
+    "beforeObservation": 65,
+    "afterObservation": 66,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:00.156Z"
+  },
+  {
+    "index": 39,
+    "label": "inspector-open-before-restore",
+    "control": {
+      "kind": "inspector"
+    },
+    "startedAtUtc": "2026-09-20T04:07:00.156Z",
+    "beforeObservation": 66,
+    "afterObservation": 67,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:01.109Z"
+  },
+  {
+    "index": 40,
+    "label": "repeat-checkpoint-0",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 0
+    },
+    "startedAtUtc": "2026-09-20T04:07:01.303Z",
+    "beforeObservation": 69,
+    "afterObservation": 70,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:01.922Z"
+  },
+  {
+    "index": 41,
+    "label": "repeat-checkpoint-5",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 5
+    },
+    "startedAtUtc": "2026-09-20T04:07:01.922Z",
+    "beforeObservation": 70,
+    "afterObservation": 71,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:02.354Z"
+  },
+  {
+    "index": 42,
+    "label": "repeat-checkpoint-10",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 10
+    },
+    "startedAtUtc": "2026-09-20T04:07:02.355Z",
+    "beforeObservation": 71,
+    "afterObservation": 72,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:02.762Z"
+  },
+  {
+    "index": 43,
+    "label": "repeat-checkpoint-15",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 15
+    },
+    "startedAtUtc": "2026-09-20T04:07:02.762Z",
+    "beforeObservation": 72,
+    "afterObservation": 73,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:03.266Z"
+  },
+  {
+    "index": 44,
+    "label": "repeat-checkpoint-20",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 20
+    },
+    "startedAtUtc": "2026-09-20T04:07:03.267Z",
+    "beforeObservation": 73,
+    "afterObservation": 74,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:03.621Z"
+  },
+  {
+    "index": 45,
+    "label": "repeat-checkpoint-25",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 25
+    },
+    "startedAtUtc": "2026-09-20T04:07:03.621Z",
+    "beforeObservation": 74,
+    "afterObservation": 75,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:04.045Z"
+  },
+  {
+    "index": 46,
+    "label": "repeat-checkpoint-30",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 30
+    },
+    "startedAtUtc": "2026-09-20T04:07:04.046Z",
+    "beforeObservation": 75,
+    "afterObservation": 76,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:04.549Z"
+  },
+  {
+    "index": 47,
+    "label": "repeat-checkpoint-35",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 35
+    },
+    "startedAtUtc": "2026-09-20T04:07:04.549Z",
+    "beforeObservation": 76,
+    "afterObservation": 77,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:04.917Z"
+  },
+  {
+    "index": 48,
+    "label": "repeat-checkpoint-40",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 40
+    },
+    "startedAtUtc": "2026-09-20T04:07:04.917Z",
+    "beforeObservation": 77,
+    "afterObservation": 78,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:05.406Z"
+  },
+  {
+    "index": 49,
+    "label": "step-at-end-clamp",
+    "control": {
+      "kind": "button",
+      "id": "step"
+    },
+    "startedAtUtc": "2026-09-20T04:07:27.428Z",
+    "beforeObservation": 78,
+    "afterObservation": 79,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:27.957Z"
+  },
+  {
+    "index": 50,
+    "label": "seek-input-nongrid",
+    "control": {
+      "kind": "fill",
+      "id": "seek-number",
+      "value": "8.05"
+    },
+    "startedAtUtc": "2026-09-20T04:07:27.957Z",
+    "beforeObservation": 79,
+    "afterObservation": 80,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:28.152Z"
+  },
+  {
+    "index": 51,
+    "label": "seek-nongrid",
+    "control": {
+      "kind": "button",
+      "id": "seek-button"
+    },
+    "startedAtUtc": "2026-09-20T04:07:28.153Z",
+    "beforeObservation": 80,
+    "afterObservation": 81,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:28.577Z"
+  },
+  {
+    "index": 52,
+    "label": "seek-input-low-clamp",
+    "control": {
+      "kind": "fill",
+      "id": "seek-number",
+      "value": "-10"
+    },
+    "startedAtUtc": "2026-09-20T04:07:28.577Z",
+    "beforeObservation": 81,
+    "afterObservation": 82,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:28.682Z"
+  },
+  {
+    "index": 53,
+    "label": "seek-low-clamp",
+    "control": {
+      "kind": "button",
+      "id": "seek-button"
+    },
+    "startedAtUtc": "2026-09-20T04:07:28.683Z",
+    "beforeObservation": 82,
+    "afterObservation": 83,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:29.096Z"
+  },
+  {
+    "index": 54,
+    "label": "seek-input-high-clamp",
+    "control": {
+      "kind": "fill",
+      "id": "seek-number",
+      "value": "99"
+    },
+    "startedAtUtc": "2026-09-20T04:07:29.096Z",
+    "beforeObservation": 83,
+    "afterObservation": 84,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:29.372Z"
+  },
+  {
+    "index": 55,
+    "label": "seek-high-clamp",
+    "control": {
+      "kind": "button",
+      "id": "seek-button"
+    },
+    "startedAtUtc": "2026-09-20T04:07:29.372Z",
+    "beforeObservation": 84,
+    "afterObservation": 85,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:29.820Z"
+  },
+  {
+    "index": 56,
+    "label": "reset-for-step",
+    "control": {
+      "kind": "button",
+      "id": "reset"
+    },
+    "startedAtUtc": "2026-09-20T04:07:29.820Z",
+    "beforeObservation": 85,
+    "afterObservation": 86,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:30.281Z"
+  },
+  {
+    "index": 57,
+    "label": "step-from-zero",
+    "control": {
+      "kind": "button",
+      "id": "step"
+    },
+    "startedAtUtc": "2026-09-20T04:07:30.281Z",
+    "beforeObservation": 86,
+    "afterObservation": 87,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:30.871Z"
+  },
+  {
+    "index": 58,
+    "label": "scrub-to-12300",
+    "control": {
+      "kind": "slider",
+      "id": "scrub",
+      "value": 12300
+    },
+    "startedAtUtc": "2026-09-20T04:07:30.871Z",
+    "beforeObservation": 87,
+    "afterObservation": 88,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:31.223Z"
+  },
+  {
+    "index": 59,
+    "label": "play-resume-for-pause",
+    "control": {
+      "kind": "button",
+      "id": "play"
+    },
+    "startedAtUtc": "2026-09-20T04:07:31.223Z",
+    "beforeObservation": 88,
+    "afterObservation": 89,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:31.798Z"
+  },
+  {
+    "index": 60,
+    "label": "manual-pause",
+    "control": {
+      "kind": "button",
+      "id": "pause"
+    },
+    "startedAtUtc": "2026-09-20T04:07:31.798Z",
+    "beforeObservation": 89,
+    "afterObservation": 90,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:32.227Z"
+  },
+  {
+    "index": 61,
+    "label": "task-before-checkpoint-reset",
+    "control": {
+      "kind": "button",
+      "id": "task-start"
+    },
+    "startedAtUtc": "2026-09-20T04:07:42.477Z",
+    "beforeObservation": 91,
+    "afterObservation": 92,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:43.032Z"
+  },
+  {
+    "index": 62,
+    "label": "task-angle-before-checkpoint-reset",
+    "control": {
+      "kind": "button",
+      "id": "task-alpha"
+    },
+    "startedAtUtc": "2026-09-20T04:07:43.033Z",
+    "beforeObservation": 92,
+    "afterObservation": 93,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:43.575Z"
+  },
+  {
+    "index": 63,
+    "label": "checkpoint-clears-task",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 15
+    },
+    "startedAtUtc": "2026-09-20T04:07:43.575Z",
+    "beforeObservation": 93,
+    "afterObservation": 94,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:43.929Z"
+  },
+  {
+    "index": 64,
+    "label": "reopen-saved-run",
+    "control": {
+      "kind": "reopen"
+    },
+    "startedAtUtc": "2026-09-20T04:07:43.929Z",
+    "beforeObservation": 94,
+    "afterObservation": 95,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:44.279Z"
+  },
+  {
+    "index": 65,
+    "label": "reopen-checkpoint-0",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 0
+    },
+    "startedAtUtc": "2026-09-20T04:07:44.279Z",
+    "beforeObservation": 95,
+    "afterObservation": 96,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:44.747Z"
+  },
+  {
+    "index": 66,
+    "label": "reopen-checkpoint-5",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 5
+    },
+    "startedAtUtc": "2026-09-20T04:07:44.747Z",
+    "beforeObservation": 96,
+    "afterObservation": 97,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:45.357Z"
+  },
+  {
+    "index": 67,
+    "label": "reopen-checkpoint-10",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 10
+    },
+    "startedAtUtc": "2026-09-20T04:07:45.357Z",
+    "beforeObservation": 97,
+    "afterObservation": 98,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:45.847Z"
+  },
+  {
+    "index": 68,
+    "label": "reopen-checkpoint-15",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 15
+    },
+    "startedAtUtc": "2026-09-20T04:07:45.847Z",
+    "beforeObservation": 98,
+    "afterObservation": 99,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:46.262Z"
+  },
+  {
+    "index": 69,
+    "label": "reopen-checkpoint-20",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 20
+    },
+    "startedAtUtc": "2026-09-20T04:07:46.262Z",
+    "beforeObservation": 99,
+    "afterObservation": 100,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:46.778Z"
+  },
+  {
+    "index": 70,
+    "label": "reopen-checkpoint-25",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 25
+    },
+    "startedAtUtc": "2026-09-20T04:07:46.778Z",
+    "beforeObservation": 100,
+    "afterObservation": 101,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:47.204Z"
+  },
+  {
+    "index": 71,
+    "label": "reopen-checkpoint-30",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 30
+    },
+    "startedAtUtc": "2026-09-20T04:07:47.204Z",
+    "beforeObservation": 101,
+    "afterObservation": 102,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:47.684Z"
+  },
+  {
+    "index": 72,
+    "label": "reopen-checkpoint-35",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 35
+    },
+    "startedAtUtc": "2026-09-20T04:07:47.684Z",
+    "beforeObservation": 102,
+    "afterObservation": 103,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:48.207Z"
+  },
+  {
+    "index": 73,
+    "label": "reopen-checkpoint-40",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 40
+    },
+    "startedAtUtc": "2026-09-20T04:07:48.207Z",
+    "beforeObservation": 103,
+    "afterObservation": 104,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:48.621Z"
+  },
+  {
+    "index": 74,
+    "label": "reload-saved-run",
+    "control": {
+      "kind": "reload"
+    },
+    "startedAtUtc": "2026-09-20T04:07:48.621Z",
+    "beforeObservation": 104,
+    "afterObservation": 105,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:07:48.890Z"
+  },
+  {
+    "index": 75,
+    "label": "reload-checkpoint-0",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 0
+    },
+    "startedAtUtc": "2026-09-20T04:08:00.020Z",
+    "beforeObservation": 105,
+    "afterObservation": 106,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:00.537Z"
+  },
+  {
+    "index": 76,
+    "label": "reload-checkpoint-5",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 5
+    },
+    "startedAtUtc": "2026-09-20T04:08:00.537Z",
+    "beforeObservation": 106,
+    "afterObservation": 107,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:00.984Z"
+  },
+  {
+    "index": 77,
+    "label": "reload-checkpoint-10",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 10
+    },
+    "startedAtUtc": "2026-09-20T04:08:00.984Z",
+    "beforeObservation": 107,
+    "afterObservation": 108,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:01.433Z"
+  },
+  {
+    "index": 78,
+    "label": "reload-checkpoint-15",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 15
+    },
+    "startedAtUtc": "2026-09-20T04:08:01.433Z",
+    "beforeObservation": 108,
+    "afterObservation": 109,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:01.950Z"
+  },
+  {
+    "index": 79,
+    "label": "reload-checkpoint-20",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 20
+    },
+    "startedAtUtc": "2026-09-20T04:08:01.950Z",
+    "beforeObservation": 109,
+    "afterObservation": 110,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:02.501Z"
+  },
+  {
+    "index": 80,
+    "label": "reload-checkpoint-25",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 25
+    },
+    "startedAtUtc": "2026-09-20T04:08:02.501Z",
+    "beforeObservation": 110,
+    "afterObservation": 111,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:02.845Z"
+  },
+  {
+    "index": 81,
+    "label": "reload-checkpoint-30",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 30
+    },
+    "startedAtUtc": "2026-09-20T04:08:02.845Z",
+    "beforeObservation": 111,
+    "afterObservation": 112,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:03.358Z"
+  },
+  {
+    "index": 82,
+    "label": "reload-checkpoint-35",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 35
+    },
+    "startedAtUtc": "2026-09-20T04:08:03.359Z",
+    "beforeObservation": 112,
+    "afterObservation": 113,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:03.758Z"
+  },
+  {
+    "index": 83,
+    "label": "reload-checkpoint-40",
+    "control": {
+      "kind": "checkpoint",
+      "seconds": 40
+    },
+    "startedAtUtc": "2026-09-20T04:08:03.758Z",
+    "beforeObservation": 113,
+    "afterObservation": 114,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:04.272Z"
+  },
+  {
+    "index": 84,
+    "label": "reset-before-narrow-layout",
+    "control": {
+      "kind": "button",
+      "id": "reset"
+    },
+    "startedAtUtc": "2026-09-20T04:08:04.272Z",
+    "beforeObservation": 114,
+    "afterObservation": 115,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:04.830Z"
+  },
+  {
+    "index": 85,
+    "label": "viewport-960x720",
+    "control": {
+      "kind": "viewport",
+      "width": 960,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T04:08:04.830Z",
+    "beforeObservation": 115,
+    "afterObservation": 116,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:05.001Z"
+  },
+  {
+    "index": 86,
+    "label": "narrow-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 10
+    },
+    "startedAtUtc": "2026-09-20T04:08:05.001Z",
+    "beforeObservation": 116,
+    "afterObservation": 117,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:05.383Z"
+  },
+  {
+    "index": 87,
+    "label": "narrow-inspector-open",
+    "control": {
+      "kind": "inspector"
+    },
+    "startedAtUtc": "2026-09-20T04:08:05.688Z",
+    "beforeObservation": 119,
+    "afterObservation": 120,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:06.659Z"
+  },
+  {
+    "index": 88,
+    "label": "narrow-inspector-scroll",
+    "control": {
+      "kind": "scroll",
+      "direction": "down",
+      "pages": 0.5
+    },
+    "startedAtUtc": "2026-09-20T04:08:06.659Z",
+    "beforeObservation": 120,
+    "afterObservation": 121,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:07.520Z"
+  },
+  {
+    "index": 89,
+    "label": "history-open-gate4",
+    "control": {
+      "kind": "link",
+      "name": "Gate 4 · G4-SLICES-002"
+    },
+    "startedAtUtc": "2026-09-20T04:08:17.505Z",
+    "beforeObservation": 123,
+    "afterObservation": 124,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:18.479Z"
+  },
+  {
+    "index": 90,
+    "label": "history-open-gate3",
+    "control": {
+      "kind": "link",
+      "name": "Gate 3 · G3-TESSERACT-003"
+    },
+    "startedAtUtc": "2026-09-20T04:08:42.108Z",
+    "beforeObservation": 124,
+    "afterObservation": 125,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:08:43.118Z"
+  },
+  {
+    "index": 91,
+    "label": "viewport-restored-1280x720",
+    "control": {
+      "kind": "viewport",
+      "width": 1280,
+      "height": 720
+    },
+    "startedAtUtc": "2026-09-20T04:09:08.781Z",
+    "beforeObservation": 125,
+    "afterObservation": 126,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:09:09.611Z"
+  },
+  {
+    "index": 92,
+    "label": "final-core-reset",
+    "control": {
+      "kind": "button",
+      "id": "reset"
+    },
+    "startedAtUtc": "2026-09-20T04:09:09.611Z",
+    "beforeObservation": 126,
+    "afterObservation": 127,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:09:10.265Z"
+  },
+  {
+    "index": 93,
+    "label": "final-core-scroll-top",
+    "control": {
+      "kind": "scroll",
+      "direction": "up",
+      "pages": 10
+    },
+    "startedAtUtc": "2026-09-20T04:09:10.265Z",
+    "beforeObservation": 127,
+    "afterObservation": 128,
+    "success": true,
+    "endedAtUtc": "2026-09-20T04:09:11.123Z"
+  }
+]

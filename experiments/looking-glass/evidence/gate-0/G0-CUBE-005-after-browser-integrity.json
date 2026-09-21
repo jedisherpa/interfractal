@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-09-20T00:48:31.567940+00:00",
+  "files": [
+    {
+      "path": "probe/builds/g0-d85237ad31362768/test.mjs",
+      "sha256": "4a8d29343573ad288eac2c6621bdb1a919720a89bf37034a078504c525c30e94",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/index.html",
+      "sha256": "d790dbede9d958494e960ae9215dfd8ef47e5b61ef674f514d1afefd4773af49",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/build.mjs",
+      "sha256": "bb59304d1c7d3b6ffbcb28b4bc26d3e551e5d2b38429bcc95dd7710cd227e9b7",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/style.css",
+      "sha256": "0574ddba6a899a990baa4c95ea0bd5680caae1db80b4640e4529103052fd1cd7",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/app.mjs",
+      "sha256": "3e71ad8bfd5ae6d384b04b4003acf78e86855bc53589703575b72696b70acdf4",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/server.mjs",
+      "sha256": "40827a867fa8bc8304b64a6deb3d07e6f4d2095de831ada850659e5fdf0b3395",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/model.mjs",
+      "sha256": "0a95a947929668a24f6f9a7cb39bf3da0704c1d54fff8c970e64f2c7bde22242",
+      "matches": true
+    },
+    {
+      "path": "probe/builds/g0-d85237ad31362768/build.json",
+      "sha256": "5064a2ee70dc2e9b47a38600c4cecf6599178dccd929223f12c2d2659a0f83a0",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/run.json",
+      "sha256": "6191a6acd6fd6297b117a82a6735e1a6916bd1d7cbcd4e5608480c0029c6fd7c",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/events.jsonl",
+      "sha256": "971fe23488d2d64621bfdccb09bdd83119c49c0522bf79020941e5512e9cb504",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/checkpoints.json",
+      "sha256": "792b9383fb5c5a28cbcce0aab98b5c2e51c099ba76ae5c2e4f2b828971e9b330",
+      "matches": true
+    },
+    {
+      "path": "probe/runs/G0-CUBE-005/initial-state.json",
+      "sha256": "2d2e0219a313c625486c62a2cebc760de38168fd8c4b1cc9c913565fbe26da19",
+      "matches": true
+    }
+  ],
+  "all_match": true,
+  "prespec_files": [
+    {
+      "path": "docs/experiment-charter.md",
+      "sha256": "4191b47749ce11a6b63eabea5064e16cc532d5aaeda633d966d1e14d641d1226",
+      "matches": true
+    },
+    {
+      "path": "docs/record-contract.md",
+      "sha256": "7b3b7dd9c664e35043f86710226690eb62b0d0d2d29110e68e6bacc1344f1651",
+      "matches": true
+    },
+    {
+      "path": "docs/gate-sequence.md",
+      "sha256": "452dc2b3ce47d57c3a9ecc31ad22e5c4b0798206e4e8c3898915a47b415b2ec1",
+      "matches": true
+    },
+    {
+      "path": "docs/scope-and-authority.md",
+      "sha256": "9563d802a8cd7effcce81eba49b6b02fba7dba0d05fee69eddebb9593bb8fae3",
+      "matches": true
+    }
+  ],
+  "prespec_unchanged": true,
+  "gate_unchanged": true
+}

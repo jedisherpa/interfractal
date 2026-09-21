@@ -1,0 +1,139 @@
+{
+  "runId": "G4-SLICES-002",
+  "gate": "G4",
+  "status": "planned deterministic fixture; actual browser observations recorded separately",
+  "experimentVersion": "gate-4-charter-v1",
+  "modelVersion": "gate-4-model-v1",
+  "eventSchemaVersion": "gate-4-record-v1",
+  "generatorVersion": "gate-4-builder-v1",
+  "testId": "G4-ball-slice-projection-ambiguity-stored-3d-movie",
+  "hypothesis": "An analytic 4D-ball slice changes with w while its projection stays fixed; a known slice distinguishes two declared hidden-center candidates; a saved 3D animation reproduces the prescribed sampled projection movie.",
+  "buildId": "g4-38777d5882ef08a6",
+  "sourceSha256": "38777d5882ef08a63abf15da00d664e3c2036826029c4ba2cea5ab7c8640ff14",
+  "gitHead": "144abb15c3252f0ef6a2dbd2d3c45333ecf6aaef",
+  "uncommittedSourceIdentity": "38777d5882ef08a63abf15da00d664e3c2036826029c4ba2cea5ab7c8640ff14",
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+  "nodeVersion": "v24.17.0",
+  "builtAtUtc": "2026-09-20T03:31:31.833Z",
+  "prespecFreezeSha256": "da6838373c450bef6cd657f12b29395001a81b4fec1aac97ceb99e7f3a298a15",
+  "prespecFrozenAtUtc": "2026-09-20T03:23:06.699443+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-4/experiment-charter.md",
+      "sha256": "e9b6728ed266e28f213115b5c94e02da3f8dc19ec673a9d2939d0d97a1672fb8",
+      "bytes": 12840
+    },
+    {
+      "path": "docs/gate-4/model-contract.md",
+      "sha256": "5d7d592c411dbd57c4635dd94f1bebb138a3ff769c58e394a6f1d49c8e79f551",
+      "bytes": 10511
+    },
+    {
+      "path": "docs/gate-4/record-contract.md",
+      "sha256": "7cf7eae0b52637ac061f88a49fe5551bded7a686a3ffdf7abcde0a7aa90bea0a",
+      "bytes": 10363
+    },
+    {
+      "path": "docs/gate-4/independent-predictions.json",
+      "sha256": "957963f128ca680af8440c5f533730c1ac824af8e805aecc3fb3bc0178428e91",
+      "bytes": 14378
+    }
+  ],
+  "durationMs": 40000,
+  "stepMs": 1000,
+  "sampleMs": 100,
+  "checkpointTimesMs": [
+    0,
+    8000,
+    16000,
+    20000,
+    24000,
+    32000,
+    40000
+  ],
+  "sourceDescriptors": [
+    {
+      "id": "ball-center",
+      "center4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "radius": 1,
+      "dimension": 4,
+      "inequality": "x²+y²+z²+w² ≤ 1"
+    },
+    {
+      "id": "ball-plus",
+      "center4": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "radius": 1,
+      "dimension": 4,
+      "inequality": "x²+y²+z²+(w−0.5)² ≤ 1"
+    },
+    {
+      "id": "ball-minus",
+      "center4": [
+        0,
+        0,
+        0,
+        -0.5
+      ],
+      "radius": 1,
+      "dimension": 4,
+      "inequality": "x²+y²+z²+(w+0.5)² ≤ 1"
+    }
+  ],
+  "movieTraceFile": "movie-3d.json",
+  "movieTraceSha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+  "movieFrameCount": 401,
+  "maxBuilderTraceError": 1.1102230246251565e-16,
+  "sourceSeed": null,
+  "model": {
+    "primarySourceId": "ball-center",
+    "ambiguityCandidateIds": [
+      "ball-plus",
+      "ball-minus"
+    ],
+    "movieSourceId": "ball-plus",
+    "sourceDimension": 4,
+    "sourceBoundaryDimension": 3,
+    "primarySlice": "w=s; strict u=1-(s-c)^2 branch",
+    "projection": "orthographic xyz, independent of primary slice",
+    "canonicalCamera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659
+    },
+    "display": {
+      "renderer": "SVG of analytic 3D slice and orthographic projection; stored 3D frames read from JSON",
+      "viewBox": [
+        0,
+        0,
+        640,
+        420
+      ],
+      "center": [
+        320,
+        210
+      ],
+      "scale": 80,
+      "noAutoFit": true,
+      "noJitter": true
+    }
+  },
+  "initialSourceSha256": "dae273564d323bfb94f4433f5bfd24f0c5152c73a26ba95997be0614bc43d80b",
+  "initialSliceSha256": "75fb3dfb8a82554090a890dd0f6b1df35d53d17d5b073fa9f81d3f0bb220c55a",
+  "initialProjectionSha256": "86ac4d17c5e118e10827f80c881d9b46a8595e763468f490dc1f84191b8b75c1",
+  "initialMovieSha256": "a596d647164ea130ece6f899171f77e0d4bb2b2b860b12c99531b9da43e78ad1",
+  "initialCheckpointSha256": "4394430a19ef57af760ee2c36b33d1de4aadcc4c7fdc5c83a95ea1cad5b1d467",
+  "initialDisplaySha256": "701267359dbeacfc58caaa42ee5e8c6600997a80241429c104e28e9bc2ceb1d6",
+  "initialStateFile": "initial-state.json",
+  "checkpointsFile": "checkpoints.json",
+  "eventsFile": "events.jsonl",
+  "eventsKind": "planned deterministic fixture; not observed browser controls"
+}

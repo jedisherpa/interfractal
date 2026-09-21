@@ -1,0 +1,46 @@
+{
+  "schema": "gate10-independent-handoff-audit-v1",
+  "status": "PASS_NEGATIVE_HANDOFF",
+  "overallInstrumentVerdict": "BLOCKED_PREDICTION_WORKFLOW_NOT_READY",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "sourceSha256": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "method": "Read-only local hash and actual loopback GET/HEAD verification; no API POST, browser rerun, source edit, or human task",
+  "verification": "audit/gate-10/handoff-verification.json",
+  "presentation": {
+    "packetSha256": "c11042beb1274586cb49a3ced36577b3d0cb85f9384f974f7874ca86dfc0f57f",
+    "resultsSha256": "a5be9af03cd941a8d3c3b967ca19aec6f0f7fa8b531b2d1926daceb39225b785",
+    "runEvidenceSha256": "7e02df51bb143e21b95981a07c9525b983cdd0c9f318b7910749ee03f7dd366d",
+    "runEvidencePins": {"checked": 35, "matched": 35},
+    "packetLocalLinks": {"checked": 17, "missing": 0},
+    "actualSupportedBrowserPresentationEvidence": {"observations": 7, "originalJpegs": 3, "allThreeEmbeddedImagesLoaded": true, "wideAndNarrowWidths": [1280,960], "noHorizontalOverflow": true, "reportLinkOpened": "clean saved-tour paused0 G10-PREDICT-003/g10-9e34f791d83c1cd7a495", "backReturnedToReport": true, "finalReportScrollY": 0},
+    "presentationLimit": "Immediate DOM captures after scroll may precede rendered scrolling. The three presentation originals are separately inspected evidence, not asserted as synchronous snapshot/image pairs."
+  },
+  "closedCore": {"manifestSha256": "a8310e939ba5d3020d890613ca305f7b71179b5e7c88a97bc064bd588006fd28", "pinsChecked": 22, "matched": 22, "actualInstrumentObservationsUnchanged": 65},
+  "publicBoundary": {
+    "reviewAllowlistAssets": 6,
+    "actualServedGetAndHeadExactByteMatches": 6,
+    "sourceCopyMatches": 6,
+    "assets": ["/review/replay-collection.json", "/review/results.html", "/review/screenshots/initial-cards.jpg", "/review/screenshots/natural-tour-end.jpg", "/review/screenshots/start-ack-discarded.jpg", "/review/source-review.md"],
+    "deniedPrivateArbitraryAndTraversalGetRoutes": 20,
+    "denialStatus": 404,
+    "protectedApiGetRoutes": 6,
+    "apiGetStatus": 405,
+    "publicBuildSanitized": true,
+    "answerFreeHtmlAndPublicText": true,
+    "privatePacketPathMetadataQualification": "The replay collection names the local packet path for reference; neither packet contents nor a packet HTTP route are public. Its local path string is not an answer or correctness label.",
+    "htmlLinks": {"total": 14, "reviewNavigation": 3, "historicalAndCurrentReplayRoots": 11, "embeddedAllowedImages": 3}
+  },
+  "replayReadiness": {"entries": 11, "publicRunIdentityGetMatches": 11, "resultsUrlsGet200": 11, "additionalBuildIdentityRoutes": "Gate 8 and 9 /api/build, Gate 10 /build.json; Gate 0–7 /api/run already carries run and build IDs", "scope": "Read-only HTTP identity and results-route readiness, not a new historical browser or algorithm trial"},
+  "auditHarnessCorrections": {
+    "temporaryFailedOutput": "An unfrozen intermediate handoff-verification.json reported FAIL during script development and was overwritten by the corrected PASS_NEGATIVE_HANDOFF rerun; its raw bytes were not retained or represented as frozen evidence.",
+    "falseAssumptionsCorrected": [
+      "The first text scan treated the replay collection's local GATE_10_PACKET.md path metadata as leaked packet content. The corrected check permits that reference while testing that neither packet content nor its HTTP route is exposed.",
+      "The first identity probe required Gate 7 /api/build, which that historical server does not publish. Gate 7 /api/run itself carries the exact run and build IDs; the corrected probe uses that public route.",
+      "The first presentation-link probe treated its captured inspector JSON string as a parsed object. The corrected probe parses that string before verifying the clean paused-zero state."
+    ],
+    "productImpact": "None of these was a product or route failure; final verification status is PASS_NEGATIVE_HANDOFF with no errors."
+  },
+  "negativeResult": {"firstStartUiAcknowledgementDiscarded": true, "browserCommittedAnswers": 0, "browserSkips": 0, "browserReveals": 0, "completedCases": 0, "unansweredServerAttempts": 1, "technicalReplay": "Verified separately with four stale event-export document-height metadata states", "humanParticipants": 0, "humanLearningAndTransfer": "UNTESTED", "gate11Approved": false, "gate11Started": false},
+  "releaseReadiness": "The local packet and six-file answer-free review surface can be frozen as a faithful negative result. This audit does not approve the blocked prediction instrument, another Gate 10 revision, or Gate 11."
+}

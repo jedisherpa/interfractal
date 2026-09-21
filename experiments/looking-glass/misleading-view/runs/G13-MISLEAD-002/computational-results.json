@@ -1,0 +1,762 @@
+{
+  "schema": "gate13-computational-results-v1",
+  "runId": "G13-MISLEAD-002",
+  "hashes": {
+    "MISMATCH": {
+      "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "correctionDisplayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70"
+    },
+    "TRUE_CONTROL": {
+      "sourceHash": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+      "originalDisplayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+      "correctionDisplayHash": null
+    },
+    "ZERO_CONTROL": {
+      "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "correctionDisplayHash": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d"
+    }
+  },
+  "canonicalRecords": {
+    "MISMATCH": {
+      "check": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "check",
+          "caseId": "MISMATCH",
+          "provenance": "scripted_demonstration",
+          "recordId": "C-K-MISMATCH",
+          "documentId": "canonical-script",
+          "atUtc": null,
+          "originEventReference": "G13-MISLEAD-002-script:2"
+        },
+        "content": {
+          "schema": "gate13-check-content-v1",
+          "caseId": "MISMATCH",
+          "sourceId": "MISMATCH-SOURCE-1",
+          "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+          "originalDisplayId": "MISMATCH-ORIGINAL-1",
+          "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+          "statementId": "MISMATCH-TWICE-1",
+          "statementVersion": 1,
+          "statementText": "B completed twice as many tiles as A.",
+          "predicate": "TWICE_COUNT@1",
+          "predicateOperands": {
+            "leftB": 90,
+            "rightTwiceA": 160
+          },
+          "verdict": false,
+          "difference": 10,
+          "countRatio": {
+            "status": "defined",
+            "numerator": 9,
+            "denominator": 8
+          },
+          "originalOffsets": [
+            10,
+            20
+          ],
+          "originalSvgWidths": [
+            80,
+            160
+          ],
+          "originalLengthRatio": {
+            "status": "defined",
+            "numerator": 2,
+            "denominator": 1
+          },
+          "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+          "provenanceClass": "authored-software-check"
+        },
+        "contentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735"
+      },
+      "correction": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "correction",
+          "caseId": "MISMATCH",
+          "provenance": "scripted_demonstration",
+          "checkRecordId": "C-K-MISMATCH",
+          "recordId": "C-C-MISMATCH",
+          "documentId": "canonical-script",
+          "atUtc": null,
+          "originEventReference": "G13-MISLEAD-002-script:3"
+        },
+        "content": {
+          "schema": "gate13-correction-content-v1",
+          "caseId": "MISMATCH",
+          "sourceId": "MISMATCH-SOURCE-1",
+          "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+          "originalDisplayId": "MISMATCH-ORIGINAL-1",
+          "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+          "checkContentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735",
+          "correctedDisplayId": "MISMATCH-CORRECTED-1",
+          "correctedDisplayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+          "correctedText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+          "oldLowerBound": 70,
+          "newLowerBound": 0,
+          "oldSvgWidths": [
+            80,
+            160
+          ],
+          "newSvgWidths": [
+            192,
+            216
+          ],
+          "difference": 10,
+          "countRatio": {
+            "status": "defined",
+            "numerator": 9,
+            "denominator": 8
+          },
+          "correctedLengthRatio": {
+            "status": "defined",
+            "numerator": 9,
+            "denominator": 8
+          },
+          "factsTrue": true,
+          "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded.",
+          "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+          "provenanceClass": "authored-software-correction"
+        },
+        "contentHash": "de7fc135d604ad50ac0db1bf320f000632d2217008df9c30986042b812409bf1"
+      }
+    },
+    "TRUE_CONTROL": {
+      "check": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "check",
+          "caseId": "TRUE_CONTROL",
+          "provenance": "scripted_demonstration",
+          "recordId": "C-K-TRUE_CONTROL",
+          "documentId": "canonical-script",
+          "atUtc": null,
+          "originEventReference": "G13-MISLEAD-002-script:2"
+        },
+        "content": {
+          "schema": "gate13-check-content-v1",
+          "caseId": "TRUE_CONTROL",
+          "sourceId": "TRUE_CONTROL-SOURCE-1",
+          "sourceHash": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+          "originalDisplayId": "TRUE_CONTROL-ORIGINAL-1",
+          "originalDisplayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+          "statementId": "TRUE_CONTROL-TWICE-1",
+          "statementVersion": 1,
+          "statementText": "B completed twice as many tiles as A.",
+          "predicate": "TWICE_COUNT@1",
+          "predicateOperands": {
+            "leftB": 80,
+            "rightTwiceA": 80
+          },
+          "verdict": true,
+          "difference": 40,
+          "countRatio": {
+            "status": "defined",
+            "numerator": 2,
+            "denominator": 1
+          },
+          "originalOffsets": [
+            40,
+            80
+          ],
+          "originalSvgWidths": [
+            96,
+            192
+          ],
+          "originalLengthRatio": {
+            "status": "defined",
+            "numerator": 2,
+            "denominator": 1
+          },
+          "diagnosis": "statement-and-zero-baseline-ratio-agree",
+          "provenanceClass": "authored-software-check"
+        },
+        "contentHash": "1045a862be506534cd515f614c47607efe8ba01f53a7c7f56201084c8aae9d40"
+      },
+      "correction": null
+    },
+    "ZERO_CONTROL": {
+      "check": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "check",
+          "caseId": "ZERO_CONTROL",
+          "provenance": "scripted_demonstration",
+          "recordId": "C-K-ZERO_CONTROL",
+          "documentId": "canonical-script",
+          "atUtc": null,
+          "originEventReference": "G13-MISLEAD-002-script:2"
+        },
+        "content": {
+          "schema": "gate13-check-content-v1",
+          "caseId": "ZERO_CONTROL",
+          "sourceId": "ZERO_CONTROL-SOURCE-1",
+          "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+          "originalDisplayId": "ZERO_CONTROL-ORIGINAL-1",
+          "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+          "statementId": "ZERO_CONTROL-TWICE-1",
+          "statementVersion": 1,
+          "statementText": "B completed twice as many tiles as A.",
+          "predicate": "TWICE_COUNT@1",
+          "predicateOperands": {
+            "leftB": 10,
+            "rightTwiceA": 0
+          },
+          "verdict": false,
+          "difference": 10,
+          "countRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "originalOffsets": [
+            0,
+            10
+          ],
+          "originalSvgWidths": [
+            0,
+            24
+          ],
+          "originalLengthRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "diagnosis": "zero-reference-count-ratio-undefined",
+          "provenanceClass": "authored-software-check"
+        },
+        "contentHash": "19274c31ee4fb0d3685a532c2a37eefa84c5c8ff3e9270064bc75ac43e5365a3"
+      },
+      "correction": {
+        "envelope": {
+          "schema": "gate13-record-envelope-v1",
+          "kind": "correction",
+          "caseId": "ZERO_CONTROL",
+          "provenance": "scripted_demonstration",
+          "checkRecordId": "C-K-ZERO_CONTROL",
+          "recordId": "C-C-ZERO_CONTROL",
+          "documentId": "canonical-script",
+          "atUtc": null,
+          "originEventReference": "G13-MISLEAD-002-script:3"
+        },
+        "content": {
+          "schema": "gate13-correction-content-v1",
+          "caseId": "ZERO_CONTROL",
+          "sourceId": "ZERO_CONTROL-SOURCE-1",
+          "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+          "originalDisplayId": "ZERO_CONTROL-ORIGINAL-1",
+          "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+          "checkContentHash": "19274c31ee4fb0d3685a532c2a37eefa84c5c8ff3e9270064bc75ac43e5365a3",
+          "correctedDisplayId": "ZERO_CONTROL-CORRECTED-1",
+          "correctedDisplayHash": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d",
+          "correctedText": "B completed 10 tiles; A completed 0. B completed 10 more tiles. A multiplicative ratio B/A is undefined.",
+          "oldLowerBound": 0,
+          "newLowerBound": 0,
+          "oldSvgWidths": [
+            0,
+            24
+          ],
+          "newSvgWidths": [
+            0,
+            24
+          ],
+          "difference": 10,
+          "countRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "correctedLengthRatio": {
+            "status": "undefined",
+            "reason": "zero-denominator"
+          },
+          "factsTrue": true,
+          "debrief": "The original headline is false: 10 is not twice 0. B/A and the bar-length ratio have a zero denominator; neither is a finite multiplicative factor. The counts and their difference remain exactly known. Correct the statement without inventing a percentage, infinity value or positive A bar.",
+          "diagnosis": "zero-reference-count-ratio-undefined",
+          "provenanceClass": "authored-software-correction"
+        },
+        "contentHash": "1d49e0b5834968f6f36b2e99c985d8c3f2e9d02eccffcd6847844c0114b4183c"
+      }
+    }
+  },
+  "configurations": [
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "displayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1"
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "plain",
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "displayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1"
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "visual",
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          80,
+          90
+        ],
+        "svgWidths": [
+          192,
+          216
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "displayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70"
+    },
+    {
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "plain",
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          80,
+          90
+        ],
+        "svgWidths": [
+          192,
+          216
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+      "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+      "displayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70"
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representation": "visual",
+      "encoding": {
+        "counts": {
+          "A": 40,
+          "B": 80
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          40,
+          80
+        ],
+        "svgWidths": [
+          96,
+          192
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 40,
+        "predicateOperands": {
+          "leftB": 80,
+          "rightTwiceA": 80
+        },
+        "originalStatementTrue": true
+      },
+      "sourceHash": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+      "originalDisplayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+      "displayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3"
+    },
+    {
+      "caseId": "TRUE_CONTROL",
+      "version": "original",
+      "representation": "plain",
+      "encoding": {
+        "counts": {
+          "A": 40,
+          "B": 80
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          40,
+          80
+        ],
+        "svgWidths": [
+          96,
+          192
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 40,
+        "predicateOperands": {
+          "leftB": 80,
+          "rightTwiceA": 80
+        },
+        "originalStatementTrue": true
+      },
+      "sourceHash": "4ca7333812dfcb31ff045f69f5b300a03bdbc1f1b6f466d7c96d02ec47c2a65c",
+      "originalDisplayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3",
+      "displayHash": "8bd4938570aca0c5ca663ff2c30822f5942cbeabfff65f88ee4de8de39c454d3"
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representation": "visual",
+      "encoding": {
+        "counts": {
+          "A": 0,
+          "B": 10
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          0,
+          10
+        ],
+        "svgWidths": [
+          0,
+          24
+        ],
+        "countRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "lengthRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 10,
+          "rightTwiceA": 0
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "displayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e"
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "original",
+      "representation": "plain",
+      "encoding": {
+        "counts": {
+          "A": 0,
+          "B": 10
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          0,
+          10
+        ],
+        "svgWidths": [
+          0,
+          24
+        ],
+        "countRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "lengthRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 10,
+          "rightTwiceA": 0
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "displayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e"
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representation": "visual",
+      "encoding": {
+        "counts": {
+          "A": 0,
+          "B": 10
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          0,
+          10
+        ],
+        "svgWidths": [
+          0,
+          24
+        ],
+        "countRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "lengthRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 10,
+          "rightTwiceA": 0
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "displayHash": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d"
+    },
+    {
+      "caseId": "ZERO_CONTROL",
+      "version": "corrected",
+      "representation": "plain",
+      "encoding": {
+        "counts": {
+          "A": 0,
+          "B": 10
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          0,
+          10
+        ],
+        "svgWidths": [
+          0,
+          24
+        ],
+        "countRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "lengthRatio": {
+          "status": "undefined",
+          "reason": "zero-denominator"
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 10,
+          "rightTwiceA": 0
+        },
+        "originalStatementTrue": false
+      },
+      "sourceHash": "7d10e09aa44e1b4e4dc238e36eef7323bfb6a6238f0a0f3ad2c4c59982e53869",
+      "originalDisplayHash": "6cda52d3fb62d7ce02280fd3ea7c5057554e056fa4fcf7cf58a9855da1d6ea8e",
+      "displayHash": "5d16d2953f0d733d5b4c088f84c69fc4a1a185c3026cd971ba3b61b0e2d1164d"
+    }
+  ],
+  "humanParticipants": 0
+}

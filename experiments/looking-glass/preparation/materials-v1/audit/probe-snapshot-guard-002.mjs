@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+// Independent synthetic adversarial checks against packaged candidate002.
+import {readFileSync,writeFileSync} from 'node:fs';
+import {join,resolve} from 'node:path';
+import {validateSnapshotRecord} from '../package-candidate-002/builder-tooling/snapshot-contract.mjs';
+const base=resolve(import.meta.dirname,'..'), j=p=>JSON.parse(readFileSync(join(base,p)));
+const world=j('design/world.json'),alloc=j('design/allocations.json'),tasks=j('design/development-tasks.json'),schema=j('design/snapshot.schema.json');
+const original=j('package-candidate-002/builder-tooling/fixtures/SYNTHETIC_VALID_NOT_RESEARCH_OUTPUT.json');
+const z='0'.repeat(64), allIds=world.cards.map(c=>c.id);
+const initial={phase:'initial',agentId:'A1',snapshotId:original.snapshotId,modelId:original.identity.modelId,modelVersion:original.identity.modelVersion,cardIds:alloc.packets[0].cardIds,inputManifestSha256:z,settingsManifestSha256:z};
+const union={...initial,phase:'union',agentId:'SYNTHETIC-UNION',snapshotId:'SYNTHETIC-UNION-VALID',cardIds:allIds};
+const run=(record,context)=>validateSnapshotRecord(record,schema,world,alloc,context,tasks);
+const results=[];const probe=(name,record,context,shouldAccept)=>{const errors=run(record,context);results.push({name,shouldAccept,accepted:errors.length===0,pass:(errors.length===0)===shouldAccept,errors});};
+probe('valid initial fixture',structuredClone(original),initial,true);
+const mutate=f=>{const r=structuredClone(original);f(r);return r;};
+probe('union phase with six cards/eight tasks',mutate(r=>{r.phase='union';r.agentId=union.agentId;r.snapshotId=union.snapshotId;}),union,false);
+probe('A4 identity over A1 packet',mutate(r=>{r.agentId='A4';}),initial,false);
+probe('A4 expected identity over A1 packet',mutate(r=>{r.agentId='A4';}),{...initial,agentId:'A4'},false);
+probe('duplicate interpretation ID',mutate(r=>{r.interpretations[1].id=r.interpretations[0].id;}),initial,false);
+probe('supported action without readiness',mutate(r=>{r.proposedActions[0].status='supported';r.proposedActions[0].missingDependencies=[];}),initial,false);
+for(const status of ['supported','refuted'])probe(`both-direction capacity evidence labeled ${status}`,mutate(r=>{const i=r.interpretations[0];i.predicate='capacity';i.arguments={actor:'ARA',resource:'press'};i.status=status;i.supportingClaimIds=['F-C03-1'];i.conflictingClaimIds=['F-C03-1'];}),initial,false);
+probe('scoreably false numeric D02 value',mutate(r=>{r.taskResponses.find(x=>x.taskId==='D02').values.press=99;}),initial,true);
+probe('missing trusted context',structuredClone(original),null,false);
+probe('wrong input manifest binding',structuredClone(original),{...initial,inputManifestSha256:'1'.repeat(64)},false);
+probe('wrong settings manifest binding',structuredClone(original),{...initial,settingsManifestSha256:'1'.repeat(64)},false);
+probe('duplicate immutable snapshot ID',structuredClone(original),{...initial,existingSnapshotIds:[original.snapshotId]},false);
+probe('pool phase rejected',mutate(r=>{r.phase='pool';}),{...initial,phase:'pool'},false);
+const unionRecord=mutate(r=>{r.phase='union';r.agentId=union.agentId;r.snapshotId=union.snapshotId;r.suppliedCardIds=allIds;r.sourceCoverage=allIds.map(cardId=>({cardId,disposition:'used',reason:'synthetic guard fixture'}));r.taskResponses.push({taskId:'D09',values:{lineageCount:1,maxQuantity:1},evidence:{lineageCount:[],maxQuantity:[]},missingDependencies:[]},{taskId:'D10',values:{C06_C13:'unknown',C13_C14:'unknown'},evidence:{C06_C13:[],C13_C14:[]},missingDependencies:['synthetic']});});
+probe('valid full-union synthetic shape',unionRecord,union,true);
+probe('revised missing trusted parent',mutate(r=>{r.phase='revised';}),{...union,phase:'revised',agentId:'A1'},false);
+probe('interactive final missing four parents',mutate(r=>{r.phase='interactive_final';}),{...union,phase:'interactive_final'},false);
+const report={schemaVersion:'materials-candidate-002-guard-probes/1',status:results.every(r=>r.pass)?'PASS':'FAIL',candidate:'002',count:results.length,results};
+writeFileSync(join(base,'audit/snapshot-guard-probes-002.json'),JSON.stringify(report,null,2)+'\n',{flag:'wx'});console.log(JSON.stringify({status:report.status,count:results.length,failed:results.filter(r=>!r.pass).map(r=>r.name)}));if(report.status!=='PASS')process.exitCode=1;

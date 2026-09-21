@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Looking Glass · Gate 1 cube and shadow</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topline">
+      <div><div class="eyebrow">LOOKING GLASS / LAB NOTE 01</div><h1>A cube, and its shadow.</h1><p class="subtitle">Turn the source. Watch two distinct corners become one shadow position.</p></div>
+      <div class="stage"><span class="pulse"></span><span>GATE 1<br><strong>3D → 2D calibration</strong></span></div>
+    </header>
+    <div class="statebar"><strong id="mode-chip">SAVED RUN · PAUSED</strong><span id="time-readout">00:00 / 00:40</span><span id="angle-readout">Source turn 0.0°</span><span id="camera-readout">Camera yaw 30.0° · pitch 20.0°</span></div>
+    <section class="views" aria-label="Three-dimensional cube and its two-dimensional shadow">
+      <article class="view"><div class="view-head"><span class="view-index">01 / SOURCE</span><h2>3D cube</h2><span>Camera view</span></div><svg id="source-scene" viewBox="0 0 500 360" role="img" aria-label="Marked ordinary 3D cube under a display camera"><g id="source-drawing"></g></svg><p>Original corners remain fixed. The object turns; the display camera is a separate view.</p></article>
+      <article class="view shadow-view"><div class="view-head"><span class="view-index">02 / PROJECTION</span><h2>2D shadow</h2><span>Camera independent</span></div><svg id="shadow-scene" viewBox="0 0 500 360" role="img" aria-label="Orthographic two-dimensional shadow of the rotating cube"><g id="shadow-drawing"></g></svg><p>Shadow positions use <code>(x′, y′)</code>. Coincident IDs stay together, without spreading.</p></article>
+    </section>
+    <section class="pair-strip" aria-label="Marked pair measurements"><span><b>Marked pair</b> <span class="pair-mark diamond"></span> v110 &nbsp; <span class="pair-mark ring"></span> v111</span><span>3D distance <strong id="source-distance">2.000</strong></span><span>Shadow distance <strong id="shadow-distance">0.000</strong></span><span id="overlap-readout">4 shadow sites · 4 collapsed edges</span></section>
+    <section class="controls" aria-label="Replay and exploration controls">
+      <div class="control-row"><div class="control-label">01 / HISTORICAL REPLAY <small>Fixed camera · source turns 0° → 90° → 0°</small></div><div class="buttons"><button id="play" class="primary">▶ Play</button><button id="replay">↺ Replay</button><button id="pause">Ⅱ Pause</button><button id="step">Step +1s</button><button id="reset">Reset</button></div></div>
+      <div class="slider-row"><label for="scrub">Time <span id="seek-value">0.0 s</span></label><input id="scrub" type="range" min="0" max="40000" step="100" value="0"><div class="checkpoints"><button data-checkpoint="0">0s</button><button data-checkpoint="10000">10s</button><button data-checkpoint="20000">20s</button><button data-checkpoint="30000">30s</button><button data-checkpoint="40000">40s</button></div></div>
+      <div class="explore-row"><div><b>02 / EXPLORE</b><small>Changes here are separate from the saved run. Reset restores its paused start.</small></div><label for="turn">Source turn <span id="turn-value">0.0°</span></label><input id="turn" type="range" min="0" max="90" step="1" value="0"><label for="look">Look around <span id="look-value">30.0°</span></label><input id="look" type="range" min="0" max="360" step="1" value="30"></div>
+    </section>
+    <section class="below">
+      <article class="card"><div class="card-title">THE QUESTION <span>CURRENT SHARED REFERENCE</span></div><p class="reference">What does this projection hide?</p><p>At 0s, <b>v110</b> and <b>v111</b> occupy one shadow position, though they are two units apart in the cube. At 20s they are two shadow units apart. Looking around changes only the 3D display.</p><p class="scope">This familiar object checks the instrument. It does not establish 4D recovery or human understanding.</p></article>
+      <article class="card library"><div class="card-title">RUN LIBRARY <span>LOCAL REPLAYS</span></div><div class="run-row"><div><strong id="run-id">G1-CUBE-003</strong><small>Source turn · 40s · preserved build</small></div><button id="open-run">Open paused</button></div><div class="run-row prior"><div><strong>G0-CUBE-005</strong><small>g0-d85237ad31362768 · previous viewing probe</small></div><a href="http://127.0.0.1:43991/" target="_blank" rel="noopener">Open Gate 0 ↗</a></div><p id="build-readout" class="fine">Loading build identity…</p><div id="evidence" class="evidence">Captures pending.</div></article>
+      <details class="card inspector"><summary>Exact state & diagnostics <span>8 vertices · 12 edges · no IDs discarded</span></summary><div class="inspect-inner"><p>Original and rotated 3D coordinates, shadow coordinates, camera coordinates, screen coordinates, all twelve edge IDs, and state hashes are shown below.</p><pre id="diagnostics"></pre><pre id="state-json"></pre></div></details>
+    </section>
+    <footer>LOOKING GLASS · GATE 1 / ORDINARY CUBE CALIBRATION</footer>
+  </main>
+  <script type="module" src="/app.mjs"></script>
+</body>
+</html>

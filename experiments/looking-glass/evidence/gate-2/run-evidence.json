@@ -1,0 +1,25 @@
+{
+  "gate": 2,
+  "runId": "G2-HOPF-003",
+  "buildId": "g2-ccabad12693f86a8",
+  "status": "Gate2 complete for review: qualified instrument result. Plain-table overflow and stale inspector viewport remain documented; Gate3 not approved.",
+  "screenshots": [
+    {
+      "label": "0s \u00b7 linked source and base",
+      "url": "/evidence/gate-2/captures/S0-fixed-stable.jpg"
+    },
+    {
+      "label": "6s \u00b7 same base, moved source",
+      "url": "/evidence/gate-2/captures/S1-fixed-comparison.jpg"
+    },
+    {
+      "label": "South \u00b7 stereographic infinity",
+      "url": "/evidence/gate-2/captures/S3-south-infinity-top.jpg"
+    },
+    {
+      "label": "Hall \u00b7 changed question, same facts",
+      "url": "/evidence/gate-2/captures/S5-hall-access-confirmed.jpg"
+    }
+  ],
+  "resultsUrl": "/evidence/gate-2/results.html"
+}

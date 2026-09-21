@@ -1,0 +1,277 @@
+{
+  "checkedAtUtc": "2026-09-20T02:53:22.279Z",
+  "runId": "G3-TESSERACT-002",
+  "buildId": "g3-d82f221e5cda2757",
+  "observationCount": 93,
+  "captureCount": 16,
+  "verifiedCaptures": [
+    {
+      "label": "002-inspector-scroll-fixed",
+      "path": "screenshots/002-inspector-scroll-fixed.jpg",
+      "sha256": "755478268a87d96693bb416755c25d403d0e1f1f7f2c2d1c3fdbf67db3996981",
+      "bytes": 127247,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "C0-paused-0s",
+      "path": "screenshots/C0-paused-0s.jpg",
+      "sha256": "6e630803def837427d9b70700f0991f75ce7d3283a7e5b0ef20dbe7e095814c9",
+      "bytes": 101355,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "checkpoint-8s",
+      "path": "screenshots/checkpoint-8s.jpg",
+      "sha256": "5d3b2f5bdafdfb13c5d65e2db2b4b659109cf81f54a8aed9daa2e6aa1908e95b",
+      "bytes": 100511,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "C1-paused-16s",
+      "path": "screenshots/C1-paused-16s.jpg",
+      "sha256": "f4000854a25c1bd7d5b104223412a0954655884601897faacb5aabbf2b877225",
+      "bytes": 100348,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "checkpoint-24s",
+      "path": "screenshots/checkpoint-24s.jpg",
+      "sha256": "76a25cbf057d75fa34c110dab7682cd5d96e6987ce7d80496d8878b592b765c2",
+      "bytes": 100807,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "checkpoint-32s",
+      "path": "screenshots/checkpoint-32s.jpg",
+      "sha256": "a92e1339d5c5dd9d5fef8c95c0e61f5452808f57f6122cd5bb834f165e41fbb4",
+      "bytes": 101100,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "camera-only-yaw120",
+      "path": "screenshots/camera-only-yaw120.jpg",
+      "sha256": "ccff9f7bf0c45c7a5737e992431d943ccef528737c871346b631ed8cbb7bf32d",
+      "bytes": 100118,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "source-turn30",
+      "path": "screenshots/source-turn30.jpg",
+      "sha256": "4ab84d124ba1a6853e9121bb3217d378479b0d3cee94aad9cce76b2ad85949dd",
+      "bytes": 102249,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "C3-observability-comparison",
+      "path": "screenshots/C3-observability-comparison.jpg",
+      "sha256": "ca68720a7078c0e354f00b812a59918479b50537a025fac8e37ff2615c34885e",
+      "bytes": 127953,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "C2-active-reverse",
+      "path": "screenshots/C2-active-reverse.jpg",
+      "sha256": "3fb0fe3bef812d80e38af59da58ab770412a0de4ff6448116470f625add5cf57",
+      "bytes": 101526,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "replay-natural-end",
+      "path": "screenshots/replay-natural-end.jpg",
+      "sha256": "6e31d68d120e97643b69daded1e726f04a83ae5df8192c89e931ae7532174903",
+      "bytes": 100852,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "restored-8s-after-reload",
+      "path": "screenshots/restored-8s-after-reload.jpg",
+      "sha256": "be39b6d7ac5d7912458448cab41d150f8bf906ced86b9660243f2136b7fea44e",
+      "bytes": 99929,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "resize-1280x900",
+      "path": "screenshots/resize-1280x900.jpg",
+      "sha256": "6768a779037d474299a3e20c32e00454cf13c595a8a9220bfeb13767fdc0c095",
+      "bytes": 145292,
+      "dimensions": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    {
+      "label": "resize-960x720-inspector",
+      "path": "screenshots/resize-960x720-inspector.jpg",
+      "sha256": "9ef63d83b151d15ab690353f991c52ae528bffb9675b5f578bf7ab339ad0d5dc",
+      "bytes": 112262,
+      "dimensions": {
+        "height": 720,
+        "width": 960
+      }
+    },
+    {
+      "label": "resize-960x720-scene",
+      "path": "screenshots/resize-960x720-scene.jpg",
+      "sha256": "4a42f1f842cb980c660d907ade51e8f31ac97a3bebc685e76f2be4f80c18baeb",
+      "bytes": 91363,
+      "dimensions": {
+        "height": 720,
+        "width": 960
+      }
+    },
+    {
+      "label": "resize-960x720-json",
+      "path": "screenshots/resize-960x720-json.jpg",
+      "sha256": "04100de64c7da54b0b7063efd26d87d5192eb8fa0715f421f61dace2c222ac49",
+      "bytes": 70617,
+      "dimensions": {
+        "height": 720,
+        "width": 960
+      }
+    }
+  ],
+  "pass": false,
+  "passed": 9,
+  "failed": 2,
+  "checks": [
+    {
+      "name": "observations bind exact run/build and actual browser URL",
+      "pass": true,
+      "detail": {
+        "count": 93
+      }
+    },
+    {
+      "name": "every recorded 16-vertex source, 4D rotation, raw 3D shadow and SVG screen position matches independent equations",
+      "pass": true,
+      "detail": {
+        "checkedObservations": 93,
+        "errors": [],
+        "errorCount": 0
+      }
+    },
+    {
+      "name": "fresh viewport, DPR, scene rectangle and bounded page width at each actual observation",
+      "pass": true,
+      "detail": {
+        "checked": 93,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "five actual paused checkpoints match independent A/B distances and projected sites",
+      "pass": true,
+      "detail": [
+        {
+          "timeMs": 0,
+          "pass": true,
+          "count": 18
+        },
+        {
+          "timeMs": 8000,
+          "pass": true,
+          "count": 36
+        },
+        {
+          "timeMs": 16000,
+          "pass": true,
+          "count": 7
+        },
+        {
+          "timeMs": 24000,
+          "pass": true,
+          "count": 4
+        },
+        {
+          "timeMs": 32000,
+          "pass": true,
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "actual camera/source controls isolate variables and both 8s restores recover same browser checkpoint hash",
+      "pass": true
+    },
+    {
+      "name": "actual inspector reports rank-three negative cases and rank-four all-16 recovery within tolerance",
+      "pass": true,
+      "detail": {
+        "checked": 93,
+        "errors": []
+      }
+    },
+    {
+      "name": "actual rendered site/list selection preserves both overlapping IDs and a collapsed edge",
+      "pass": true
+    },
+    {
+      "name": "actual pause/step/scrub/end/reverse playback and library/reload recovery behave as declared",
+      "pass": false
+    },
+    {
+      "name": "actual fixed, wide and narrow viewport conditions were observed",
+      "pass": true,
+      "detail": {
+        "sizes": [
+          "1280x720",
+          "1280x900",
+          "960x720"
+        ]
+      }
+    },
+    {
+      "name": "original JPEG captures exist and bind to same run/build/observation; supplied hashes/dimensions match",
+      "pass": true,
+      "detail": {
+        "count": 16,
+        "errors": []
+      }
+    },
+    {
+      "name": "append-only observed events bind run/build and increase per UI session with explicit origins",
+      "pass": false,
+      "detail": {
+        "events": 46,
+        "sessions": 3,
+        "errors": []
+      }
+    }
+  ]
+}

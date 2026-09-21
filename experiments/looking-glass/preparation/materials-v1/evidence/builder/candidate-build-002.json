@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "materials-candidate-build/1",
+  "candidate": "package-candidate-002",
+  "preflightSha256": "8211712520b3fc80fc76b700161a5e533c79ba06e5bf1d5a10ebaed6f14ec4f0",
+  "build": {
+    "mode": "build",
+    "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "args": [
+      "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs",
+      "build"
+    ],
+    "startedAtUtc": "2026-09-20T21:38:16.744Z",
+    "completedAtUtc": "2026-09-20T21:38:16.833Z",
+    "exitCode": 0,
+    "signal": null,
+    "stdout": "build passed: 69 files; 18 cards; four six-card participant packets; candidate package-candidate-002\n",
+    "stderr": "",
+    "spawnError": null
+  },
+  "verify": {
+    "mode": "verify",
+    "executable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "args": [
+      "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-v1/tooling/build-package.mjs",
+      "verify"
+    ],
+    "startedAtUtc": "2026-09-20T21:38:16.833Z",
+    "completedAtUtc": "2026-09-20T21:38:16.915Z",
+    "exitCode": 0,
+    "signal": null,
+    "stdout": "verify passed: 69 files; 18 cards; four six-card participant packets; candidate package-candidate-002\n",
+    "stderr": "",
+    "spawnError": null
+  },
+  "candidateManifestSha256": "55b0b2c2524ac50e5c12e46f56762b86fc802b15d86eb8fba4571bd2547b5d23",
+  "allPassed": true
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "gate10-stage-closure-v1",
+  "recordedAtUtc": "2026-09-20T12:25:30.213749+00:00",
+  "result": "BOUNDED_NEGATIVE_NOT_READY",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "allStageWorkersEnded": true,
+  "candidateCount": 3,
+  "candidateBudgetExhausted": true,
+  "humanParticipants": 0,
+  "coreSha256": "a8310e939ba5d3020d890613ca305f7b71179b5e7c88a97bc064bd588006fd28",
+  "packetSha256": "c11042beb1274586cb49a3ced36577b3d0cb85f9384f974f7874ca86dfc0f57f",
+  "runEvidenceSha256": "7e02df51bb143e21b95981a07c9525b983cdd0c9f318b7910749ee03f7dd366d",
+  "handoffAuditSha256": "ce7a7560a4847f2958f2dd393ebf2d31bc7a68f295c59196ab69ca5b3d7dfcc9",
+  "nextGate": 11,
+  "nextGateName": "Break a summary by changing its receiver",
+  "nextGateApproved": false,
+  "publication": "Continue existing private origin/codex/looking-glass under prior user authorization; commit and remote verification occur after this manifest."
+}

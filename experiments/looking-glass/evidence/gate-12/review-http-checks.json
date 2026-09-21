@@ -1,0 +1,62 @@
+{
+  "recordedAtUtc": "2026-09-20T19:38:40.158388+00:00",
+  "status": "PASS",
+  "assets": [
+    {
+      "url": "http://127.0.0.1:44005/review/images/P2-with-conflicting-local-recommendations.jpg",
+      "status": 200,
+      "bytes": 133019,
+      "sha256": "ecafcc36a70c472505a7f274b0eef31b26f544a98f4fdcb15cd59948b183a4d7",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/images/changed-reference-P3-narrow.jpg",
+      "status": 200,
+      "bytes": 126257,
+      "sha256": "3f18138a14edb51657bfbec23d3443aa0c5661555b9b2119b1f558a6ca4afdc0",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/images/no-action-disagreement-preserved-narrow.jpg",
+      "status": 200,
+      "bytes": 113953,
+      "sha256": "d5d6633b8a10d7ab08c49fcbf26cd22ba187a6e4dfc8bc83854d24c03fd6068e",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/images/same-information-plain-P2.jpg",
+      "status": 200,
+      "bytes": 109915,
+      "sha256": "b151b4c61686160056d7a51578c5d26dc8ed934cd32bf93f37eb295eef486818",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/images/tie-break-retains-local-disagreement.jpg",
+      "status": 200,
+      "bytes": 131759,
+      "sha256": "584f42bb42dda94c64ce9df60760a4b9ff76614dfb2e6392342c658538a2db48",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/replay-collection.json",
+      "status": 200,
+      "bytes": 9266,
+      "sha256": "bf30961c7a8263ff08ad7a9eea6232c2b157ae21fd91bd0ee366b56d5665cda5",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/results.html",
+      "status": 200,
+      "bytes": 12244,
+      "sha256": "8b71893060617754f3490b155d37e280070fd241d72150a5b4f7ea832af34a62",
+      "matchesApproved": true
+    },
+    {
+      "url": "http://127.0.0.1:44005/review/source-review.md",
+      "status": 200,
+      "bytes": 5231,
+      "sha256": "e68895d17619c80c89086384d8f4aed340fbca366b47cd614f9e744f376dd957",
+      "matchesApproved": true
+    }
+  ]
+}

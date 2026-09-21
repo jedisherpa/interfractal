@@ -1,0 +1,57 @@
+{
+  "kind": "gate-6-independent-route-comparison",
+  "runId": "G6-LOCAL-003",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "routes": [
+    {
+      "task": "N1",
+      "mode": "graph",
+      "setupActions": 2,
+      "navigationActions": 3,
+      "correctionActions": 1,
+      "scrollActions": 1,
+      "failedActions": 0,
+      "startObservation": 29,
+      "endpointObservation": 33,
+      "endpointSucceeded": true
+    },
+    {
+      "task": "N1",
+      "mode": "plain",
+      "setupActions": 2,
+      "navigationActions": 3,
+      "correctionActions": 1,
+      "scrollActions": 0,
+      "failedActions": 0,
+      "startObservation": 38,
+      "endpointObservation": 42,
+      "endpointSucceeded": true
+    },
+    {
+      "task": "N2",
+      "mode": "graph",
+      "setupActions": 2,
+      "navigationActions": 2,
+      "correctionActions": 0,
+      "scrollActions": 0,
+      "failedActions": 0,
+      "startObservation": 46,
+      "endpointObservation": 48,
+      "endpointSucceeded": true
+    },
+    {
+      "task": "N2",
+      "mode": "plain",
+      "setupActions": 2,
+      "navigationActions": 2,
+      "correctionActions": 0,
+      "scrollActions": 0,
+      "failedActions": 0,
+      "startObservation": 51,
+      "endpointObservation": 53,
+      "endpointSucceeded": true
+    }
+  ],
+  "limits": "Prespecified successful control counts; no human usability or time-savings inference.",
+  "checksPassed": true
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "gate9-build-v1",
+  "runId": "G9-MATCHED-003",
+  "buildId": "g9-15c3bf973fe0c6cd",
+  "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+  "publicFiles": [
+    {
+      "path": "index.html",
+      "sha256": "b62bbb12f6825ccfc0e8d7822cb4108392b0f62039b94ccd276a29412568fd66",
+      "bytes": 3868
+    },
+    {
+      "path": "style.css",
+      "sha256": "4bf7d0ed7986c25f765b95cdd6bf9106310fa5bd1f61cb66d77ba32f4b841047",
+      "bytes": 2204
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "c6c401ccee576aaeba40746638c80c2e121f971bacbed4e831ec915b274a2cfc",
+      "bytes": 14178
+    },
+    {
+      "path": "core.mjs",
+      "sha256": "381c36bb50b5cc44ba45161ad0b34e92bb0c80602af479fd905b58205432d83f",
+      "bytes": 5256
+    },
+    {
+      "path": "engine.mjs",
+      "sha256": "8c029cbfe25cc5ca70e4c10b6337f87af61aa964d881b3b3533ef80e35d3a92e",
+      "bytes": 15165
+    },
+    {
+      "path": "fixture.json",
+      "sha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+      "bytes": 8238
+    }
+  ],
+  "internalFiles": [
+    {
+      "path": "server.mjs",
+      "sha256": "c5410c2ee96c7e67d9745318a20f0437a3b2264bbd38785e4f6b5566718cd47b",
+      "bytes": 3947
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "f98d82dd5a55873df7c609e4f16a4973345d0e431fc7a4765891a2a01efdd9a0",
+      "bytes": 7112
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "aa7242a6acc2cebc73ae77a05c8897c3330654ab5fd91427e919008a9b6a26c6",
+      "bytes": 10787
+    },
+    {
+      "path": "README.md",
+      "sha256": "42c6759540b9d9245252902e8fdc1b4819c329cd70977a106cc158dc25736b96",
+      "bytes": 4418
+    },
+    {
+      "path": "PRESPEC_FREEZE.json",
+      "sha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+      "bytes": 1677
+    },
+    {
+      "path": "independent-predictions.json",
+      "sha256": "03194be6024ffdabafff686263001f0c40e1f6b8cf86f9330c27cd7bfc8c5f25",
+      "bytes": 38462
+    }
+  ],
+  "gitHead": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "baseRevision": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+  "nodeVersion": "v24.17.0",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "builtAtUtc": "2026-09-20T09:29:42.862Z",
+  "prespecFreezeSha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-9/experiment-charter.md",
+      "sha256": "5d3335e6224f3289b46d4a98edecb06992a36a23ff355f983fbc46acce7e97c2",
+      "bytes": 7845
+    },
+    {
+      "path": "docs/gate-9/model-contract.md",
+      "sha256": "a00a6f9dfe8a99875f98647ca28e258fc0b66a529c775be06c508af5fb5e196d",
+      "bytes": 10971
+    },
+    {
+      "path": "docs/gate-9/record-contract.md",
+      "sha256": "71cda7552c711a32b5092dea426e088a64091e55a4a5c4b25773eb12725ddd97",
+      "bytes": 10932
+    },
+    {
+      "path": "docs/gate-9/fixture.json",
+      "sha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+      "bytes": 8238
+    },
+    {
+      "path": "docs/gate-9/independent-predictions.json",
+      "sha256": "03194be6024ffdabafff686263001f0c40e1f6b8cf86f9330c27cd7bfc8c5f25",
+      "bytes": 38462
+    }
+  ],
+  "publicFixtureSha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "renderer": "280x200 SVG; yaw 0°, pitch +20°, 80 CSS px/unit; exact rational labels",
+  "servedRoutes": [
+    "/",
+    "/index.html",
+    "/style.css",
+    "/app.mjs",
+    "/core.mjs",
+    "/engine.mjs",
+    "/fixture.json",
+    "/metadata.json",
+    "/api/build",
+    "/api/run",
+    "/api/initial-state",
+    "/api/checkpoints",
+    "/api/events",
+    "/api/computation",
+    "/review/results.html",
+    "/review/packet.md",
+    "/review/audit.md",
+    "/review/run-evidence.json",
+    "/review/source-review.md",
+    "/review/screenshots/<safe-name>"
+  ]
+}

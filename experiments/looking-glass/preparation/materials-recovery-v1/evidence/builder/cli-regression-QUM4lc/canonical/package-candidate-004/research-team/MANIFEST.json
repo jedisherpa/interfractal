@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "materials-package-manifest-v1",
+  "files": [
+    {
+      "path": "design/allocations.json",
+      "bytes": 1119,
+      "sha256": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d"
+    },
+    {
+      "path": "design/AUTHOR_ANSWER_KEY.json",
+      "bytes": 40676,
+      "sha256": "7ddc0950cbd06b4ddce9d37044d435833f8bcc33a3a63b9271a6517105880c4c"
+    },
+    {
+      "path": "design/DESIGN_CONTRACT.md",
+      "bytes": 8463,
+      "sha256": "92e21b83caae324f61da40149c1fad3e757019aa72d54a6baa2484b6a13fb70c"
+    },
+    {
+      "path": "design/DESIGN_FREEZE.json",
+      "bytes": 2461,
+      "sha256": "a2dcbf4fa41b568d198b42da4ca3cc19a28312487031ba4938d40fdf2af9da2b"
+    },
+    {
+      "path": "design/development-tasks.json",
+      "bytes": 6342,
+      "sha256": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6"
+    },
+    {
+      "path": "design/execution-plan.json",
+      "bytes": 8282,
+      "sha256": "e03871497cc1200ce55274007d2f98196749245174b3cfd1833358dc92c3fede"
+    },
+    {
+      "path": "design/PARTICIPANT_INSTRUCTIONS.md",
+      "bytes": 2649,
+      "sha256": "894410e84ce79794be29fffc14110eee6e5da75b10d61135acb2ab501b5c9052"
+    },
+    {
+      "path": "design/PROMPT_TEMPLATES.md",
+      "bytes": 5118,
+      "sha256": "d61cfe50ae552f36d67477efce0aef78a6561d857c0897643a76e986db0c36b7"
+    },
+    {
+      "path": "design/SCORING_AND_ANALYSIS.md",
+      "bytes": 7169,
+      "sha256": "854604ef4d143140fba58d99c71730f6aa88ee3ad6e7360a349edcb2a0f1cbf3"
+    },
+    {
+      "path": "design/snapshot.schema.json",
+      "bytes": 8053,
+      "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a"
+    },
+    {
+      "path": "design/SOURCE_TASK_FREEZE.json",
+      "bytes": 1213,
+      "sha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183"
+    },
+    {
+      "path": "design/withheld-tasks.json",
+      "bytes": 26576,
+      "sha256": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03"
+    },
+    {
+      "path": "design/world.json",
+      "bytes": 28103,
+      "sha256": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef"
+    }
+  ]
+}

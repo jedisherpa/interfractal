@@ -1,0 +1,657 @@
+{
+  "schemaVersion": "materials-cross-review/1",
+  "status": "FAIL",
+  "blindFreezeSha256": "d23efa250eec5e4aa689f956a479d743ab5823dc857a740c62a10f3e42997603",
+  "blindKeySha256": "1afc61ce7a071079f59a8c127f0edb43a4b72486ce5059ba58e95288154a75c2",
+  "authorKeySha256": "7ddc0950cbd06b4ddce9d37044d435833f8bcc33a3a63b9271a6517105880c4c",
+  "developmentAtoms": 194,
+  "transferAtoms": 98,
+  "structuralFields": 8,
+  "canonicalEvidenceReferencesResolved": 580,
+  "freezeChecks": [
+    {
+      "path": "preparation/materials-v1/audit/blind-key-001.json",
+      "pass": true
+    },
+    {
+      "path": "preparation/materials-v1/audit/blind-derivation-001.md",
+      "pass": true
+    },
+    {
+      "path": "preparation/materials-v1/audit/blind-input-manifest-001.json",
+      "pass": true
+    },
+    {
+      "path": "preparation/materials-v1/audit/derive-blind-key-001.mjs",
+      "pass": true
+    }
+  ],
+  "arithmetic": {
+    "interactiveBase": 38912,
+    "unionBase": 4096,
+    "uniqueCalls": 17,
+    "uniqueCap": 55296
+  },
+  "failures": [
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "H"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "E"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "D"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "C"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "b"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "a"
+    },
+    {
+      "label": "W06-SHARED.0.canonicalEvidence",
+      "invalidRef": "y"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "H"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "E"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "D"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.1.canonicalEvidence",
+      "invalidRef": "D"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "H"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "E"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "D"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "K"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.2.canonicalEvidence",
+      "invalidRef": "X"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "H"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "E"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "D"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "K"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SHARED.3.canonicalEvidence",
+      "invalidRef": "Y"
+    },
+    {
+      "label": "W06-SHARED.4.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.4.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.4.canonicalEvidence",
+      "invalidRef": "5"
+    },
+    {
+      "label": "W06-SHARED.5.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.5.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.5.canonicalEvidence",
+      "invalidRef": "7"
+    },
+    {
+      "label": "W06-SHARED.6.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.6.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SHARED.6.canonicalEvidence",
+      "invalidRef": "8"
+    },
+    {
+      "label": "W06-SHARED.7.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SHARED.7.canonicalEvidence",
+      "invalidRef": "1"
+    },
+    {
+      "label": "W06-SHARED.7.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "L"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "I"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "T"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "C"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "b"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "a"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "y"
+    },
+    {
+      "label": "W06-SPLIT.0.canonicalEvidence",
+      "invalidRef": "X"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "L"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "I"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "T"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "C"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "A"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "b"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "a"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "y"
+    },
+    {
+      "label": "W06-SPLIT.1.canonicalEvidence",
+      "invalidRef": "Y"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "L"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "I"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "T"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.2.canonicalEvidence",
+      "invalidRef": "D"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "L"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "I"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "T"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "K"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.3.canonicalEvidence",
+      "invalidRef": "X"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "W"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "6"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "S"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "P"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "L"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "I"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "T"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "K"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "-"
+    },
+    {
+      "label": "W06-SPLIT.4.canonicalEvidence",
+      "invalidRef": "Y"
+    },
+    {
+      "label": "W06-SPLIT.5.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SPLIT.5.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.5.canonicalEvidence",
+      "invalidRef": "5"
+    },
+    {
+      "label": "W06-SPLIT.6.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SPLIT.6.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.6.canonicalEvidence",
+      "invalidRef": "7"
+    },
+    {
+      "label": "W06-SPLIT.7.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SPLIT.7.canonicalEvidence",
+      "invalidRef": "0"
+    },
+    {
+      "label": "W06-SPLIT.7.canonicalEvidence",
+      "invalidRef": "8"
+    },
+    {
+      "label": "W06-SPLIT.8.canonicalEvidence",
+      "invalidRef": "R"
+    },
+    {
+      "label": "W06-SPLIT.8.canonicalEvidence",
+      "invalidRef": "1"
+    },
+    {
+      "label": "W06-SPLIT.8.canonicalEvidence",
+      "invalidRef": "0"
+    }
+  ]
+}

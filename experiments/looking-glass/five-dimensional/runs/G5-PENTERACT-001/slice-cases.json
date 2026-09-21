@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "gate-5-slice-cases-v1",
+  "source": "closed 5D unit ball at known w/v planes",
+  "cases": [
+    {
+      "constraints": {
+        "w": 0,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 1,
+      "kind": "solid",
+      "classification": "center",
+      "radius": 1,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 0.5,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.75,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": 0.5
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.75,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 0.5,
+        "v": 0.5
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.5,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.7071067811865476,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 1,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0,
+      "kind": "point",
+      "classification": "boundary-point",
+      "radius": 0,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(0,0,0)}"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": 1
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0,
+      "kind": "point",
+      "classification": "boundary-point",
+      "radius": 0,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(0,0,0)}"
+    },
+    {
+      "constraints": {
+        "w": 1.25,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -0.5625,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": 1.25
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -0.5625,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    },
+    {
+      "constraints": {
+        "w": 1,
+        "v": 1
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -1,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    },
+    {
+      "constraints": {
+        "w": -0.5,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.75,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": -0.5
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.75,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": -0.999999,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.000001999999000079633,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": -1.000001,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -0.0000020000009999243673,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    },
+    {
+      "constraints": {
+        "w": 0.999999,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.000001999999000079633,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 1.000001,
+        "v": 0
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -0.0000020000009999243673,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": -0.999999
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.000001999999000079633,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": -1.000001
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -0.0000020000009999243673,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": 0.999999
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": 0.000001999999000079633,
+      "kind": "solid",
+      "classification": "interior",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ],
+      "set": "{(x,y,z): x²+y²+z² ≤ 1−w²−v²}"
+    },
+    {
+      "constraints": {
+        "w": 0,
+        "v": 1.000001
+      },
+      "sourceCenter5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRadius": 1,
+      "discriminant": -0.0000020000009999243673,
+      "kind": "empty",
+      "classification": "empty",
+      "radius": null,
+      "center3": null,
+      "set": "∅"
+    }
+  ],
+  "equalRadiusPairs": [
+    [
+      0.5,
+      0
+    ],
+    [
+      0,
+      0.5
+    ]
+  ],
+  "fullProjectionRadius": 1
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "gate13-prespec-freeze-v1",
+  "frozenAtUtc": "2026-09-20T20:03:19.852279+00:00",
+  "status": "independent_prespec_PASS_52_checks_before_implementation",
+  "files": [
+    {
+      "path": "audit/gate-13/derive-prespec.py",
+      "bytes": 15824,
+      "sha256": "de7dc658e1973bbdd0018010fb2ac35d8fd3cbfb775af0ac0970fdcbba543fb2"
+    },
+    {
+      "path": "audit/gate-13/prespec-derivation.json",
+      "bytes": 17036,
+      "sha256": "7661d97240058da19bbbf16184431be79573b5511889f0ffe152ad55090f8094"
+    },
+    {
+      "path": "audit/gate-13/prespec-review.json",
+      "bytes": 3749,
+      "sha256": "8a8c419f7ff0b796cf865012a919574481d48e776d44146cf21aa4dd69f958e2"
+    },
+    {
+      "path": "audit/gate-13/prespec-review.md",
+      "bytes": 3753,
+      "sha256": "d5ee4ea5531625dc92e4ec2a045786e800c5479ae46b7584cd40f1698263314d"
+    },
+    {
+      "path": "docs/gate-13/experiment-charter.md",
+      "bytes": 5236,
+      "sha256": "7079f80e70535ff37c5165fb05ef86777f85798bc67cb1a7beeda9e46bbfc8a1"
+    },
+    {
+      "path": "docs/gate-13/fixture.json",
+      "bytes": 12131,
+      "sha256": "95238cd28d4c7af803733585940f60c56733d04dfdc00a216aef1385483247d8"
+    },
+    {
+      "path": "docs/gate-13/independent-predictions.json",
+      "bytes": 14806,
+      "sha256": "fb085a57ac9c65b0b70011e80150a377ab0fa7e77ed6c125eb8bb76db239eaa4"
+    },
+    {
+      "path": "docs/gate-13/model-contract.md",
+      "bytes": 9678,
+      "sha256": "fad7787c343934e2c6316ee6563e0f8b0ffecce9366b36242ffbce8cf5779a16"
+    },
+    {
+      "path": "docs/gate-13/record-contract.md",
+      "bytes": 7384,
+      "sha256": "fd3dcc862e726e556b9f75b4617d3dc0233ea19122a71b383597a01b6e81fdc7"
+    }
+  ]
+}

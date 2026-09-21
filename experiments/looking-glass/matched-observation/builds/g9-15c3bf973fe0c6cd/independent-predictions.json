@@ -1,0 +1,1542 @@
+{
+  "schema": "gate9-independent-predictions-v1",
+  "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+  "basis": "Prespecified explicit rational outputs and finite choice enumeration, authored without executing or importing Gate9 implementation. A separate reviewer must independently verify before host freeze.",
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "exactObservations": {
+    "C02-W01": {
+      "project": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "-1/2",
+          "0"
+        ]
+      },
+      "xw90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1",
+          "-1/2",
+          "0"
+        ]
+      },
+      "yv90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "1",
+          "0"
+        ]
+      }
+    },
+    "C02-W02": {
+      "project": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "-1/2",
+          "0"
+        ]
+      },
+      "xw90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1",
+          "-1/2",
+          "0"
+        ]
+      },
+      "yv90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "-1",
+          "0"
+        ]
+      }
+    },
+    "C02-W03": {
+      "project": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "-1/2",
+          "0"
+        ]
+      },
+      "xw90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "-1",
+          "-1/2",
+          "0"
+        ]
+      },
+      "yv90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "1",
+          "0"
+        ]
+      }
+    },
+    "C02-W04": {
+      "project": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "-1/2",
+          "0"
+        ]
+      },
+      "xw90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "-1",
+          "-1/2",
+          "0"
+        ]
+      },
+      "yv90": {
+        "kind": "point",
+        "pointId": "P",
+        "xyz": [
+          "1/2",
+          "-1",
+          "0"
+        ]
+      }
+    }
+  },
+  "worldQueryOutputCount": 12,
+  "practice": {
+    "project": [
+      "0",
+      "1/2",
+      "0"
+    ],
+    "repeatProject": [
+      "0",
+      "1/2",
+      "0"
+    ],
+    "xw90": [
+      "-2",
+      "1/2",
+      "0"
+    ],
+    "quarterTurnSourceW": "2"
+  },
+  "allOrderedChoiceCount": 9,
+  "allOrderedChoiceResults": [
+    {
+      "choiceQueryIds": [
+        "project",
+        "project"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "project",
+        "project"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "traceHash": "7bb222e35edf588a50aad165fdad1f792345101823d45e0ae854cbe614470c38",
+      "informationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "project",
+        "xw90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "project",
+        "xw90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "9ca054bf21faeb457e091fec49d523c27e15c2fff86289f0fcda9a99f7a7e64e",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "project",
+        "yv90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "project",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "traceHash": "0fd0e688418ea8b4a37b758f99fb30c0b0ff6d30ed8884991daa624907d75385",
+      "informationHash": "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "xw90",
+        "project"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "xw90",
+        "project"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "242385f9d1d59810787543a36c27d552dc1f736f573abbcfe2b52795e63e032c",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "xw90",
+        "xw90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "xw90",
+        "xw90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "89c35ef9c0f3742d6bec647f117ed368b16ae647cac3188bc3521c125760f61f",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "xw90",
+        "yv90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+        "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "yv90",
+        "project"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "yv90",
+        "project"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "traceHash": "4e8e44ce1ffdfd74ce4c2aee704d09e181e2d61c64138c99c9515d0047a65ba7",
+      "informationHash": "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "yv90",
+        "xw90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "yv90",
+        "xw90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "fb4be0e14f1a7b5306e4a251732b2e46fb687fd092f5c459a80a7b86a4021178",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+        "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    {
+      "choiceQueryIds": [
+        "yv90",
+        "yv90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "yv90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "traceHash": "57679e664647aa64b9ec688ac6660f1536c63dfae2fa61e43a74d8e33e5d8f0f",
+      "informationHash": "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    }
+  ],
+  "auditRecipes": {
+    "G9-T01": {
+      "choiceQueryIds": [
+        "xw90",
+        "yv90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+        "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    "G9-T02": {
+      "choiceQueryIds": [
+        "yv90",
+        "xw90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "yv90",
+        "xw90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90",
+        "yv90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W02"
+      ],
+      "propertyDetermined": true,
+      "remainingPropertyValues": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "fb4be0e14f1a7b5306e4a251732b2e46fb687fd092f5c459a80a7b86a4021178",
+      "informationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "135414b56700afaa3f7db1ae0c4f42eb52bad6f7682c1ded445f2a08ef82bdaa",
+        "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    "G9-T03": {
+      "choiceQueryIds": [
+        "xw90",
+        "xw90"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "xw90",
+        "xw90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project",
+        "xw90"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "traceHash": "89c35ef9c0f3742d6bec647f117ed368b16ae647cac3188bc3521c125760f61f",
+      "informationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+        "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    },
+    "G9-T04": {
+      "choiceQueryIds": [
+        "project",
+        "project"
+      ],
+      "orderedQueryIds": [
+        "project",
+        "project",
+        "project"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "uniqueQueryIds": [
+        "project"
+      ],
+      "compatibleWorldIds": [
+        "C02-W01",
+        "C02-W02",
+        "C02-W03",
+        "C02-W04"
+      ],
+      "propertyDetermined": false,
+      "remainingPropertyValues": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "traceHash": "7bb222e35edf588a50aad165fdad1f792345101823d45e0ae854cbe614470c38",
+      "informationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+      "watchAcquiredPrefixInformationHashes": [
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+        "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9"
+      ],
+      "completedEndpointEqualities": [
+        "choose=watch=static: contextHash",
+        "choose=watch=static: traceHash",
+        "choose=watch=static: informationHash",
+        "each acquiredInformationHash=informationHash",
+        "watch/static occurrence array=sealed choice occurrence array"
+      ]
+    }
+  },
+  "hashRelations": {
+    "sameInformationDifferentOrder": [
+      "G9-T01",
+      "G9-T02"
+    ],
+    "distinctInformationGroups": [
+      [
+        "G9-T01",
+        "G9-T02"
+      ],
+      [
+        "G9-T03"
+      ],
+      [
+        "G9-T04"
+      ]
+    ],
+    "allFourTraceHashesDistinct": true,
+    "T03OccurrenceCount": 3,
+    "T03UniqueQueryCount": 2,
+    "T04OccurrenceCount": 3,
+    "T04UniqueQueryCount": 1
+  },
+  "savedCheckpointCount": 10,
+  "savedCheckpoints": [
+    {
+      "seconds": 0,
+      "condition": "choose",
+      "phase": "draft",
+      "localSeconds": 0,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0
+      ],
+      "visibleOccurrenceIndices": [
+        0
+      ],
+      "acceptedChoiceCount": 0,
+      "sealedTraceAvailable": false,
+      "traceHash": null,
+      "acquiredInformationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+      "endpointComparisonEligible": false,
+      "completedCompatibleWorldIds": null,
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 2,
+      "condition": "choose",
+      "phase": "draft",
+      "localSeconds": 0,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1
+      ],
+      "visibleOccurrenceIndices": [
+        1
+      ],
+      "acceptedChoiceCount": 1,
+      "sealedTraceAvailable": false,
+      "traceHash": null,
+      "acquiredInformationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "endpointComparisonEligible": false,
+      "completedCompatibleWorldIds": null,
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 4,
+      "condition": "choose",
+      "phase": "complete",
+      "localSeconds": 0,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "visibleOccurrenceIndices": [
+        2
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "endpointComparisonEligible": true,
+      "completedCompatibleWorldIds": [
+        "C02-W02"
+      ],
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 6,
+      "condition": "watch",
+      "phase": "running",
+      "localSeconds": 0,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0
+      ],
+      "visibleOccurrenceIndices": [
+        0
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+      "endpointComparisonEligible": false,
+      "completedCompatibleWorldIds": null,
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 8,
+      "condition": "watch",
+      "phase": "running",
+      "localSeconds": 2,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1
+      ],
+      "visibleOccurrenceIndices": [
+        1
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+      "endpointComparisonEligible": false,
+      "completedCompatibleWorldIds": null,
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 10,
+      "condition": "watch",
+      "phase": "running",
+      "localSeconds": 4,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "visibleOccurrenceIndices": [
+        2
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "endpointComparisonEligible": false,
+      "completedCompatibleWorldIds": null,
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 12,
+      "condition": "watch",
+      "phase": "complete",
+      "localSeconds": 6,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "visibleOccurrenceIndices": [
+        2
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "endpointComparisonEligible": true,
+      "completedCompatibleWorldIds": [
+        "C02-W02"
+      ],
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 14,
+      "condition": "static",
+      "phase": "running",
+      "localSeconds": 0,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "visibleOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "endpointComparisonEligible": false,
+      "completedCompatibleWorldIds": null,
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 20,
+      "condition": "static",
+      "phase": "complete",
+      "localSeconds": 6,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "visibleOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "endpointComparisonEligible": true,
+      "completedCompatibleWorldIds": [
+        "C02-W02"
+      ],
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    },
+    {
+      "seconds": 24,
+      "condition": "static",
+      "phase": "complete",
+      "localSeconds": 6,
+      "tourPaused": true,
+      "presentationPaused": true,
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "visibleOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "acceptedChoiceCount": 2,
+      "sealedTraceAvailable": true,
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+      "endpointComparisonEligible": true,
+      "completedCompatibleWorldIds": [
+        "C02-W02"
+      ],
+      "practiceOpen": false,
+      "provenance": "scripted_demonstration"
+    }
+  ],
+  "canonicalScheduledEventCountExcludingInitialAndHostActions": 12,
+  "browserCheckpointObservationBudget": 24,
+  "humanParticipantCount": 0,
+  "humanPerformance": "untested",
+  "negativePredictions": [
+    "T03 cannot identify v from two copies of xw90; W01 and W02 survive.",
+    "T04 cannot identify either hidden sign from three copies of project; all four worlds survive.",
+    "An incomplete watch has only a prefix, unlike the static sheet at local0; full endpoint parity cannot be claimed midstream.",
+    "A third or off-menu choice is rejected without altering a sealed trace.",
+    "Static cannot deduplicate duplicate occurrence cards even though the information hash deduplicates query records.",
+    "Public model/known reference disclose the world; compatibility is a selected-evidence calculation, not a concealed-answer assessment.",
+    "Standard watch duration does not match variable chooser time; information parity cannot establish human agency or memory effects."
+  ]
+}

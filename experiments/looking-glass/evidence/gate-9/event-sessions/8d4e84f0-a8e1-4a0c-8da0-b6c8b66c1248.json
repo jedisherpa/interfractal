@@ -1,0 +1,27 @@
+{
+  "schema": "gate9-event-export-v1",
+  "runId": "G9-MATCHED-003",
+  "buildId": "g9-15c3bf973fe0c6cd",
+  "events": [
+    {
+      "sequence": 1,
+      "eventId": "8d4e84f0-a8e1-4a0c-8da0-b6c8b66c1248:1",
+      "atUtc": "2026-09-20T09:39:35.319Z",
+      "sessionId": "8d4e84f0-a8e1-4a0c-8da0-b6c8b66c1248",
+      "runId": "G9-MATCHED-003",
+      "buildId": "g9-15c3bf973fe0c6cd",
+      "tourSeconds": 0,
+      "localSeconds": 0,
+      "origin": "user-control",
+      "actor": "unattributed_local",
+      "provenance": "local_control",
+      "type": "trace-export",
+      "intended": {
+        "kind": "event-log"
+      },
+      "result": "accepted",
+      "beforeFingerprint": "37aee3a2192307671746b0d576e4996d54024e0f80781d9f9a8f289f85220e47",
+      "afterFingerprint": "37aee3a2192307671746b0d576e4996d54024e0f80781d9f9a8f289f85220e47"
+    }
+  ]
+}

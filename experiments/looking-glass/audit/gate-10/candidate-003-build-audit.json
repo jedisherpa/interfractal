@@ -1,0 +1,13 @@
+{
+  "schema": "gate10-candidate-003-immutable-build-audit-v1",
+  "status": "PASS",
+  "runId": "G10-PREDICT-003",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "sourceSha256": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+  "prespecFreezeSha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56",
+  "checkCount": 103,
+  "canonicalCheckpointCount": 6,
+  "canonicalEventCount": 6,
+  "errors": [],
+  "browserClaims": false
+}

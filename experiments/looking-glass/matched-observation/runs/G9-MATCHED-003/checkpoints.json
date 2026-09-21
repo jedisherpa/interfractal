@@ -1,0 +1,1099 @@
+[
+  {
+    "seconds": 0,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "choose",
+      "phase": "draft",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 0,
+      "localSeconds": 0,
+      "choices": [],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0
+      ],
+      "trace": null,
+      "traceHash": null,
+      "completedSummary": null,
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      0
+    ],
+    "acquiredInformationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+    "semanticFingerprint": "37aee3a2192307671746b0d576e4996d54024e0f80781d9f9a8f289f85220e47"
+  },
+  {
+    "seconds": 2,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "choose",
+      "phase": "draft",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 2,
+      "localSeconds": 0,
+      "choices": [
+        "xw90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1
+      ],
+      "trace": null,
+      "traceHash": null,
+      "completedSummary": null,
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      1
+    ],
+    "acquiredInformationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+    "semanticFingerprint": "da00ff261f105e8e2f4fac72fe0cecffeeaae6f1bae81a1b1a218203e87d2bfd"
+  },
+  {
+    "seconds": 4,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "choose",
+      "phase": "complete",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 4,
+      "localSeconds": 0,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": {
+        "compatibleWorldIds": [
+          "C02-W02"
+        ],
+        "propertyDetermined": true,
+        "remainingPropertyValues": [
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      2
+    ],
+    "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+    "semanticFingerprint": "41a5714975f3d515f6327583dc40ae670b163b17362a2ba5254794985bf5854d"
+  },
+  {
+    "seconds": 6,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "watch",
+      "phase": "running",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 6,
+      "localSeconds": 0,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": null,
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      0
+    ],
+    "acquiredInformationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+    "semanticFingerprint": "224a77d4c30d96ae4cd7b7dd90d63820f9b9163984e072b8fe9cb132edf0740a"
+  },
+  {
+    "seconds": 8,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "watch",
+      "phase": "running",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 8,
+      "localSeconds": 2,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": null,
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      1
+    ],
+    "acquiredInformationHash": "041eb3ab43c6a815a3c59a73aee87017f7b7c4e390804ebad260c17b8cd35837",
+    "semanticFingerprint": "66a2bd8178bfd7db6d340b3e3ea4f35ec3035428321b6241975edf90a091af88"
+  },
+  {
+    "seconds": 10,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "watch",
+      "phase": "running",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 10,
+      "localSeconds": 4,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": null,
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      2
+    ],
+    "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+    "semanticFingerprint": "0d082c6b14a0cc24cb17de28f1ce5bdfba7142282fef5afd958095157ba0ebe2"
+  },
+  {
+    "seconds": 12,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "watch",
+      "phase": "complete",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 12,
+      "localSeconds": 6,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": {
+        "compatibleWorldIds": [
+          "C02-W02"
+        ],
+        "propertyDetermined": true,
+        "remainingPropertyValues": [
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      2
+    ],
+    "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+    "semanticFingerprint": "acd866d14b1337b17ed01cc4f1baea94daa648e4a93a3bd7bc7b138f0ab66c13"
+  },
+  {
+    "seconds": 14,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "static",
+      "phase": "running",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 14,
+      "localSeconds": 0,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": null,
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      0,
+      1,
+      2
+    ],
+    "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+    "semanticFingerprint": "1141a9bbe1346fce82a54fc0a217ecbb6e85bffcb91bdf07ff67afb17f7b69e6"
+  },
+  {
+    "seconds": 20,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "static",
+      "phase": "complete",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 20,
+      "localSeconds": 6,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": {
+        "compatibleWorldIds": [
+          "C02-W02"
+        ],
+        "propertyDetermined": true,
+        "remainingPropertyValues": [
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      0,
+      1,
+      2
+    ],
+    "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+    "semanticFingerprint": "f976fd35c5b50ba7fe2b879e723d05859d56d0808070ec1371a563838a0737f8"
+  },
+  {
+    "seconds": 24,
+    "state": {
+      "mode": "saved-tour",
+      "condition": "static",
+      "phase": "complete",
+      "tourPaused": true,
+      "presentationPaused": true,
+      "tourSeconds": 24,
+      "localSeconds": 6,
+      "choices": [
+        "xw90",
+        "yv90"
+      ],
+      "occurrences": [
+        {
+          "index": 0,
+          "queryId": "project",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "queryId": "xw90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1",
+              "-1/2",
+              "0"
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "queryId": "yv90",
+          "observation": {
+            "kind": "point",
+            "pointId": "P",
+            "xyz": [
+              "1/2",
+              "-1",
+              "0"
+            ]
+          }
+        }
+      ],
+      "acquiredOccurrenceIndices": [
+        0,
+        1,
+        2
+      ],
+      "trace": {
+        "schema": "gate9-choice-trace-v1",
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "caseId": "G9-C01",
+        "referenceWorldId": "C02-W02",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "occurrences": [
+          {
+            "index": 0,
+            "queryId": "project",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "queryId": "xw90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "queryId": "yv90",
+            "observation": {
+              "kind": "point",
+              "pointId": "P",
+              "xyz": [
+                "1/2",
+                "-1",
+                "0"
+              ]
+            }
+          }
+        ]
+      },
+      "traceHash": "fa0cdd68e754d90611c86fdf6f2520e9d6d818d4a15f7f38934c2097675c820f",
+      "completedSummary": {
+        "compatibleWorldIds": [
+          "C02-W02"
+        ],
+        "propertyDetermined": true,
+        "remainingPropertyValues": [
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "reviewStatus": "standard-playback",
+      "practiceOpen": false
+    },
+    "visibleOccurrenceIndices": [
+      0,
+      1,
+      2
+    ],
+    "acquiredInformationHash": "49c7a797f92d699f278fce86e1dc3f0ffb519c926e5fb2c2e4bb49081c3185a9",
+    "semanticFingerprint": "7e59b9f18df1b09bf339b43fcc034bbb1ad63bd7dacf4658e134ca893e38671b"
+  }
+]

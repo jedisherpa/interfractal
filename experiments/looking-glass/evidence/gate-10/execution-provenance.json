@@ -1,0 +1,131 @@
+{
+  "gate": 10,
+  "recorded_at_utc": "2026-09-20T11:05:24.317817+00:00",
+  "base_commit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+  "requested_routing": {
+    "specification_and_synthesis": "GPT-6 Astra xhigh",
+    "primary_source_gathering": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independent_audit": "separate GPT-5.6 Sol high"
+  },
+  "actual_started_workers": [
+    {
+      "task": "/root/g10_astra",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "role": "Gate10 specification and final bounded-negative synthesis"
+    },
+    {
+      "task": "/root/g9_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high",
+      "role": "Gate10 primary sources via existing worker followup"
+    },
+    {
+      "task": "/root/g9_sol_audit",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "role": "Gate10 independent prespec and later implementation audit via existing worker followup"
+    },
+    {
+      "task": "/root/g9_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "role": "Gate10 implementation via existing worker followup",
+      "dispatched_after_prespec_freeze_at_utc": "2026-09-20T11:21:56.058394+00:00"
+    }
+  ],
+  "host_role": "Local setup, tool routing, supported browser controls and evidence preservation; no unsupported host model switch claimed.",
+  "human_participants": 0,
+  "prior_gate9_qualification": "Three active-clock inspector state/fingerprint mismatches retained in immutable Gate9; new instrument should capture one atomic state for rendering and hashing.",
+  "dispatch_notes": [
+    "New g10_luna_sources spawn rejected by thread capacity; existing Luna g9_luna_sources followup dispatched for Gate10. No work claimed from rejected new worker.",
+    "Parallel independent audit scaffold followup rejected by thread capacity during Sol implementation. Audit execution remains sequential after candidate handoff; no work claimed from rejected followup."
+  ],
+  "publication_target": {
+    "verified_at_utc": "2026-09-20T11:10:20.574975+00:00",
+    "authorization": "Prior actual user instruction: All right, publish everything to GitHub. Continuing the existing private research branch.",
+    "remote": "origin",
+    "repository": "jedisherpa/btc-constitutional-learning-collective",
+    "visibility": "PRIVATE",
+    "branch": "codex/looking-glass",
+    "merge": false,
+    "publicDeployment": false,
+    "otherRemotesUntouched": true,
+    "visibility_reverified_before_handoff": "PRIVATE"
+  },
+  "prespec_freeze_sha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56",
+  "prespec_frozen_at_utc": "2026-09-20T11:21:03.279381+00:00",
+  "prespec_independent_result": "PASS",
+  "prespec_independent_checks": 98,
+  "candidate_history": [
+    {
+      "runId": "G10-PREDICT-001",
+      "status": "Preserved; builder post-freeze self-review found scroll/resize publish reused last timer cursor instead of captured current clock",
+      "browser_acquisition": "none; host browser collection has not begun",
+      "buildId": "g10-6a81e6f6965f96cee454",
+      "sourceSha256": "6a81e6f6965f96cee454a0fe26e9a4130b14ccb0d95a9f123f7fe9b4841e21c4"
+    },
+    {
+      "runId": "G10-PREDICT-002",
+      "status": "Independent pre-browser audit BLOCKED;103build and572sequentialchecks pass, overlappingretry/export/provenance/eventchainfailures retained",
+      "browser_acquisition": "none",
+      "buildId": "g10-464bfe21ad6044378996",
+      "sourceSha256": "464bfe21ad6044378996d53fc89e897a750472019f2f163fc2acd0b78aced158",
+      "root_server_session": 40761,
+      "preview_url": "http://127.0.0.1:44003/",
+      "restart_requires_explicit_run": true,
+      "root_server_stopped": true,
+      "independent_report": "audit/gate-10/candidate-002-audit.md",
+      "independent_report_sha256": "96907120c6cf4b2c5575071797d9be8923867498d86893733aa8f67465a271cc"
+    },
+    {
+      "runId": "G10-PREDICT-003",
+      "status": "Pre-browser checks passed within scope, superseded by independently confirmed actual browser first-start acknowledgement failure. Final candidate budget exhausted; bounded negative packet.",
+      "browser_acquisition": "65 actual DOM observations,49 semantic host actions,6 untouched originals; zero commits/skips/reveals",
+      "buildId": "g10-9e34f791d83c1cd7a495",
+      "sourceSha256": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+      "builder_handoff": "evidence/gate-10/builder-003-handoff.md",
+      "preview_url": "http://127.0.0.1:44003/",
+      "root_server_session": 30920,
+      "independent_report": "audit/gate-10/browser-final-audit.md",
+      "browser_blocker": "Undefined current attached attempt ID was compared with captured null, discarding valid first-start ack."
+    }
+  ],
+  "updated_at_utc": "2026-09-20T12:25:30.213749+00:00",
+  "core_evidence_freeze_sha256": "a8310e939ba5d3020d890613ca305f7b71179b5e7c88a97bc064bd588006fd28",
+  "audit_gap": "103 build,572 isolated HTTP/service and12 deterministic control checks did not exercise first-start UI acknowledgement; real browser exposed undefined/null mismatch.",
+  "closed_core_audit": {
+    "report": "audit/gate-10/browser-final-audit.json",
+    "sha256": "b970e34b9fe3cbc72f87de0444ed582974a2f74c5900bfea7f9d045a343a694b",
+    "verdict": "BLOCKED_PREDICTION_WORKFLOW",
+    "semanticMatches": 65,
+    "ledgerMatches": 65,
+    "checkpointMatches": 16,
+    "staleDocumentHeightRecords": 4,
+    "actualServiceRows": 6,
+    "actualServiceStateMutations": 2,
+    "humanParticipants": 0
+  },
+  "stage_boundary": {
+    "nextGate": 11,
+    "nextGateName": "Break a summary by changing its receiver",
+    "approved": false,
+    "candidateBudgetExhausted": true,
+    "negativeResultPermittedBy": "docs/gate-10/experiment-charter.md:37"
+  },
+  "stage_workers_ended": true,
+  "stage_worker_completion": {
+    "astraSpecificationAndSynthesis": "completed",
+    "lunaSources": "completed",
+    "solImplementation": "completed",
+    "independentSolFinalAudit": "completed",
+    "hostVerification": "actualbrowser and finalpresentation complete",
+    "passiveReplayServers": "remain available; not active stage workers"
+  },
+  "final_handoff": {
+    "verdict": "PASS_NEGATIVE_HANDOFF",
+    "report": "audit/gate-10/handoff-audit.json",
+    "sha256": "ce7a7560a4847f2958f2dd393ebf2d31bc7a68f295c59196ab69ca5b3d7dfcc9"
+  }
+}

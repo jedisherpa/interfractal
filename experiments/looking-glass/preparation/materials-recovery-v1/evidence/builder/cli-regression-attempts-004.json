@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "materials-cli-attempt-inventory/1",
+  "attempts": [
+    {
+      "directory": "cli-regression-J4sU9s",
+      "resultSha256": "8fd2c39f9701cc2cea0303f7405703d03e49b4f07e1f24f9f719e4878aae2fe3",
+      "passed": true,
+      "failure": null,
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/directory-target"
+        },
+        {
+          "path": "import-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/import-only"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-J4sU9s/file-target/tooling/build-package.mjs"
+        }
+      ]
+    },
+    {
+      "directory": "cli-regression-QUM4lc",
+      "resultSha256": "39795bef16623494830e84219bf717285598bb2fa00e3dfeedd5574b3d6da77e",
+      "passed": true,
+      "failure": null,
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-QUM4lc/directory-target"
+        },
+        {
+          "path": "import-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-QUM4lc/import-only"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-QUM4lc/file-target/tooling/build-package.mjs"
+        }
+      ]
+    },
+    {
+      "directory": "cli-regression-iMtn26",
+      "resultSha256": "df8ba0a2f75bd679c1c92458a692b65f614484eac035732b42eaf35e5ab3a10f",
+      "passed": true,
+      "failure": null,
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/directory-target"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-iMtn26/file-target/tooling/build-package.mjs"
+        }
+      ]
+    },
+    {
+      "directory": "cli-regression-upYQwy",
+      "resultSha256": "c0f1aa4742ab104f0f4127a622ce7ba85d436f874f432c1bac0952765fde32b6",
+      "passed": false,
+      "failure": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /mismatch|does not match/i. Input:",
+      "symlinks": [
+        {
+          "path": "directory-symlink",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/directory-target"
+        },
+        {
+          "path": "file-symlink.mjs",
+          "target": "/Users/paul/BTC-Learning/experiments/looking-glass/preparation/materials-recovery-v1/evidence/builder/cli-regression-upYQwy/file-target/tooling/build-package.mjs"
+        }
+      ]
+    }
+  ],
+  "previewDiff": [
+    "--- candidate003/review/index.html",
+    "+++ candidate004/review/index.html",
+    "@@ -1,4 +1,4 @@",
+    "-<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Looking Glass materials review</title><style>body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:auto;padding:2rem;color:#18233a;background:#f7f9fc}h1,h2{line-height:1.2}header{border-bottom:3px solid #243c64}table{border-collapse:collapse;width:100%;margin:1rem 0 2rem;background:white}th,td{padding:.6rem;border:1px solid #ccd3df;text-align:left;vertical-align:top}tr:nth-child(even){background:#f2f5fa}code{white-space:nowrap}pre{white-space:pre-wrap;overflow-wrap:anywhere}details{max-width:44rem}.scope{background:#fff4d8;border-left:4px solid #a36500;padding:1rem}a{color:#164f9d}</style><header><h1>Looking Glass \u00b7 materials review</h1><p>World TILE18-v1 \u00b7 cutoff 10 \u00b7 candidate 003</p></header><p class=\"scope\"><strong>Preparation only.</strong> These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.</p><h2>Allocation</h2><p>Two common anchors (<code>C01</code>, <code>C02</code>); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.</p><table><thead><tr><th>Future packet</th><th>Card IDs</th><th>Perspective instruction</th></tr></thead><tbody><tr><th scope=\"row\">A1</th><td><code>C01</code> <code>C02</code> <code>C03</code> <code>C04</code> <code>C05</code> <code>C06</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope=\"row\">A2</th><td><code>C01</code> <code>C02</code> <code>C07</code> <code>C08</code> <code>C09</code> <code>C10</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope=\"row\">A3</th><td><code>C01</code> <code>C02</code> <code>C11</code> <code>C12</code> <code>C13</code> <code>C14</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope=\"row\">A4</th><td><code>C01</code> <code>C02</code> <code>C15</code> <code>C16</code> <code>C17</code> <code>C18</code></td><td>COMMON-PERSPECTIVE-1</td></tr></tbody></table><h2>Source cards</h2><table><thead><tr><th>ID</th><th>Version</th><th>Title</th><th>Record</th></tr></thead><tbody><tr><th scope=\"row\">C01</th><td>1</td><td>Evaluation rules</td><td><details><summary>Inspect authored source record</summary><pre>{",
+    "+<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Looking Glass materials review</title><style>body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:auto;padding:2rem;color:#18233a;background:#f7f9fc}h1,h2{line-height:1.2}header{border-bottom:3px solid #243c64}table{border-collapse:collapse;width:100%;margin:1rem 0 2rem;background:white}th,td{padding:.6rem;border:1px solid #ccd3df;text-align:left;vertical-align:top}tr:nth-child(even){background:#f2f5fa}code{white-space:nowrap}pre{white-space:pre-wrap;overflow-wrap:anywhere}details{max-width:44rem}.scope{background:#fff4d8;border-left:4px solid #a36500;padding:1rem}a{color:#164f9d}</style><header><h1>Looking Glass \u00b7 materials review</h1><p>World TILE18-v1 \u00b7 cutoff 10 \u00b7 candidate 004</p></header><p class=\"scope\"><strong>Preparation only.</strong> These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.</p><h2>Allocation</h2><p>Two common anchors (<code>C01</code>, <code>C02</code>); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.</p><table><thead><tr><th>Future packet</th><th>Card IDs</th><th>Perspective instruction</th></tr></thead><tbody><tr><th scope=\"row\">A1</th><td><code>C01</code> <code>C02</code> <code>C03</code> <code>C04</code> <code>C05</code> <code>C06</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope=\"row\">A2</th><td><code>C01</code> <code>C02</code> <code>C07</code> <code>C08</code> <code>C09</code> <code>C10</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope=\"row\">A3</th><td><code>C01</code> <code>C02</code> <code>C11</code> <code>C12</code> <code>C13</code> <code>C14</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope=\"row\">A4</th><td><code>C01</code> <code>C02</code> <code>C15</code> <code>C16</code> <code>C17</code> <code>C18</code></td><td>COMMON-PERSPECTIVE-1</td></tr></tbody></table><h2>Source cards</h2><table><thead><tr><th>ID</th><th>Version</th><th>Title</th><th>Record</th></tr></thead><tbody><tr><th scope=\"row\">C01</th><td>1</td><td>Evaluation rules</td><td><details><summary>Inspect authored source record</summary><pre>{",
+    "   &quot;id&quot;: &quot;C01&quot;,",
+    "   &quot;version&quot;: 1,",
+    "   &quot;occurredTick&quot;: 0,"
+  ],
+  "previewOnlyCandidateIdentity": true
+}

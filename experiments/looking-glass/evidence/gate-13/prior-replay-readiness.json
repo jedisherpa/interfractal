@@ -1,0 +1,1369 @@
+{
+  "recordedAtUtc": "2026-09-20T19:54:01.850657+00:00",
+  "method": "Read-only HTTP identity/results checks; distinct from browser UI validation",
+  "results": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "expectedRun": "G0-CUBE-005",
+      "expectedBuild": "g0-d85237ad31362768",
+      "actual": {
+        "runId": "G0-CUBE-005",
+        "gate": "G0",
+        "experimentVersion": "G0-charter-v1",
+        "testId": "G0-cube-view-replay",
+        "hypothesis": "A marked ordinary 3D cube remains legible and a saved camera path can be replayed from exact time states.",
+        "baseRevision": "3f1b1d028947fcc2fb207e41780f1a2b714705b0",
+        "buildId": "g0-d85237ad31362768",
+        "sourceSha256": "d85237ad313627683bce5fed50977060b2c61c9e8626a5056bff74b0efcce567",
+        "dependencyIdentity": "node-builtins-only; no lockfile or external assets",
+        "builtAt": "2026-09-20T00:44:50.108Z",
+        "durationMs": 20000,
+        "checkpointTimesMs": [
+          0,
+          10000,
+          20000
+        ],
+        "model": {
+          "type": "ordinary-3d-wire-cube",
+          "dimension": 3,
+          "generatorVersion": "cube-v1",
+          "seed": null,
+          "vertices": [
+            {
+              "id": "v000",
+              "q": [
+                -1,
+                -1,
+                -1
+              ]
+            },
+            {
+              "id": "v001",
+              "q": [
+                -1,
+                -1,
+                1
+              ]
+            },
+            {
+              "id": "v010",
+              "q": [
+                -1,
+                1,
+                -1
+              ]
+            },
+            {
+              "id": "v011",
+              "q": [
+                -1,
+                1,
+                1
+              ]
+            },
+            {
+              "id": "v100",
+              "q": [
+                1,
+                -1,
+                -1
+              ]
+            },
+            {
+              "id": "v101",
+              "q": [
+                1,
+                -1,
+                1
+              ]
+            },
+            {
+              "id": "v110",
+              "q": [
+                1,
+                1,
+                -1
+              ]
+            },
+            {
+              "id": "v111",
+              "q": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "id": "v000-v001",
+              "from": "v000",
+              "to": "v001"
+            },
+            {
+              "id": "v000-v010",
+              "from": "v000",
+              "to": "v010"
+            },
+            {
+              "id": "v000-v100",
+              "from": "v000",
+              "to": "v100"
+            },
+            {
+              "id": "v001-v011",
+              "from": "v001",
+              "to": "v011"
+            },
+            {
+              "id": "v001-v101",
+              "from": "v001",
+              "to": "v101"
+            },
+            {
+              "id": "v010-v011",
+              "from": "v010",
+              "to": "v011"
+            },
+            {
+              "id": "v010-v110",
+              "from": "v010",
+              "to": "v110"
+            },
+            {
+              "id": "v011-v111",
+              "from": "v011",
+              "to": "v111"
+            },
+            {
+              "id": "v100-v101",
+              "from": "v100",
+              "to": "v101"
+            },
+            {
+              "id": "v100-v110",
+              "from": "v100",
+              "to": "v110"
+            },
+            {
+              "id": "v101-v111",
+              "from": "v101",
+              "to": "v111"
+            },
+            {
+              "id": "v110-v111",
+              "from": "v110",
+              "to": "v111"
+            }
+          ],
+          "selectedVertexId": "v111",
+          "sourceTransform": "identity",
+          "displayCamera": {
+            "yawStart": 0.5235987755982988,
+            "yawEnd": 1.0471975511965976,
+            "pitch": 0.3490658503988659,
+            "order": "Rx(pitch) \u00b7 Ry(yaw) \u00b7 q"
+          },
+          "projection": "orthographic screen=(cx,-cy)",
+          "scalePxPerUnit": 138,
+          "clipping": "none",
+          "displayOptions": {
+            "depthCue": "edge-opacity",
+            "glow": false,
+            "trail": false,
+            "autoRescale": false
+          },
+          "renderer": "SVG 2D",
+          "viewport": "responsive SVG viewBox 700\u00d7560"
+        },
+        "initialStateHash": "85106e9a82bca61ab8f43451536f168472aaadc2c1763633ec957889839cd3af",
+        "eventsFile": "events.jsonl",
+        "checkpointsFile": "checkpoints.json",
+        "initialStateFile": "initial-state.json",
+        "resultsStatus": "Model replay checks are recorded separately by actual test; browser inspection required."
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "expectedRun": "G1-CUBE-003",
+      "expectedBuild": "g1-9dce1c2b9c2b3be4",
+      "actual": {
+        "runId": "G1-CUBE-003",
+        "gate": "G1",
+        "experimentVersion": "G1-calibration-v1",
+        "testId": "G1-cube-source-shadow-calibration",
+        "hypothesis": "A fixed-camera cube source turn changes its 2D shadow predictably while selected source points remain distinct; camera exploration changes only the 3D display.",
+        "baseRevision": "6fb4ecbd516aa9a9dc23710c7ffcda4e8c65b819",
+        "buildId": "g1-9dce1c2b9c2b3be4",
+        "sourceSha256": "9dce1c2b9c2b3be42e5597e0c666e499d7e0cd8d8ec05d9dac7ad66f72fb7c61",
+        "dependencyIdentity": "node-builtins-only; no lockfile or external assets",
+        "builtAt": "2026-09-20T01:13:04.814Z",
+        "durationMs": 40000,
+        "stepMs": 1000,
+        "checkpointTimesMs": [
+          0,
+          10000,
+          20000,
+          30000,
+          40000
+        ],
+        "model": {
+          "type": "ordinary-3d-wire-cube",
+          "dimension": 3,
+          "generatorVersion": "cube-v1",
+          "seed": null,
+          "vertices": [
+            {
+              "id": "v000",
+              "q": [
+                -1,
+                -1,
+                -1
+              ]
+            },
+            {
+              "id": "v001",
+              "q": [
+                -1,
+                -1,
+                1
+              ]
+            },
+            {
+              "id": "v010",
+              "q": [
+                -1,
+                1,
+                -1
+              ]
+            },
+            {
+              "id": "v011",
+              "q": [
+                -1,
+                1,
+                1
+              ]
+            },
+            {
+              "id": "v100",
+              "q": [
+                1,
+                -1,
+                -1
+              ]
+            },
+            {
+              "id": "v101",
+              "q": [
+                1,
+                -1,
+                1
+              ]
+            },
+            {
+              "id": "v110",
+              "q": [
+                1,
+                1,
+                -1
+              ]
+            },
+            {
+              "id": "v111",
+              "q": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "id": "v000-v001",
+              "from": "v000",
+              "to": "v001"
+            },
+            {
+              "id": "v000-v010",
+              "from": "v000",
+              "to": "v010"
+            },
+            {
+              "id": "v000-v100",
+              "from": "v000",
+              "to": "v100"
+            },
+            {
+              "id": "v001-v011",
+              "from": "v001",
+              "to": "v011"
+            },
+            {
+              "id": "v001-v101",
+              "from": "v001",
+              "to": "v101"
+            },
+            {
+              "id": "v010-v011",
+              "from": "v010",
+              "to": "v011"
+            },
+            {
+              "id": "v010-v110",
+              "from": "v010",
+              "to": "v110"
+            },
+            {
+              "id": "v011-v111",
+              "from": "v011",
+              "to": "v111"
+            },
+            {
+              "id": "v100-v101",
+              "from": "v100",
+              "to": "v101"
+            },
+            {
+              "id": "v100-v110",
+              "from": "v100",
+              "to": "v110"
+            },
+            {
+              "id": "v101-v111",
+              "from": "v101",
+              "to": "v111"
+            },
+            {
+              "id": "v110-v111",
+              "from": "v110",
+              "to": "v111"
+            }
+          ],
+          "selectedVertexIds": [
+            "v110",
+            "v111"
+          ],
+          "sourceTransform": "Ry(theta) column vector; theta=pi*t/40000 to 20s, then pi*(40000-t)/40000",
+          "displayCamera": {
+            "yaw": 0.5235987755982988,
+            "pitch": 0.3490658503988659,
+            "order": "Rx(pitch)\u00b7Ry(yaw)\u00b7rotatedSource",
+            "frozenInCanonicalRun": true
+          },
+          "shadowProjection": "P=(x\u2032,y\u2032)",
+          "displayProjection": "orthographic screen=(cx,\u2212cy)",
+          "scalePxPerUnit": 95,
+          "clipping": "none",
+          "autoRescale": false,
+          "renderer": "SVG 2D; two responsive side-by-side views"
+        },
+        "initialStateHash": "900e4313f83f277028e19990b6b95d3a22cab77383d0b4d0970ccd9764384bc3",
+        "initialGeometryHash": "ac35900ef087a088b82f512e18bda68184cadf489f377f7adba38424c74f3ac7",
+        "initialStateFile": "initial-state.json",
+        "eventsFile": "events.jsonl",
+        "checkpointsFile": "checkpoints.json",
+        "eventsKind": "planned deterministic fixture, not observed browser controls",
+        "resultsStatus": "Numerical and actual browser observations are recorded separately."
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "expectedRun": "G2-HOPF-003",
+      "expectedBuild": "g2-ccabad12693f86a8",
+      "actual": {
+        "runId": "G2-HOPF-003",
+        "gate": "G2",
+        "status": "planned deterministic fixture; actual browser observations recorded separately",
+        "experimentVersion": "gate-2-hopf-correspondence-v1",
+        "testId": "G2-hopf-phase-chart-and-reference",
+        "hypothesis": "Each selected S\u00b2 point identifies one full S\u00b3 fiber; shared phase moves source q without moving its base, while a separate candidate reference maps the same fictional records by declared partial criteria.",
+        "baseRevision": "b8b354e47477b342726fa14403980e0caea47c0b",
+        "buildId": "g2-ccabad12693f86a8",
+        "sourceSha256": "ccabad12693f86a810af614995379506bee2029fabf751e5e5f710f0235a961e",
+        "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external runtime assets",
+        "builtAt": "2026-09-20T01:54:20.839Z",
+        "prespecFreezeSha256": "9edccd502697e829aac92c90a09c3e42838ba26748e888181b4dd94c35977a12",
+        "prespecFrozenAtUtc": "2026-09-20T01:46:30.247897+00:00",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-2/experiment-charter.md",
+            "sha256": "84973cde2d9f27d30abb1ec25e7ab14e495a1774356d260bfe98777bb7c6b4f2",
+            "bytes": 13410
+          },
+          {
+            "path": "docs/gate-2/model-contract.md",
+            "sha256": "e9aeaecadd27ab404efb36bac8d989fed9c95daf59ed02e9260bdf1ddcbd3e07",
+            "bytes": 10841
+          },
+          {
+            "path": "docs/gate-2/record-contract.md",
+            "sha256": "f9a08dc83a55011bee057d927cd0f8e76ff60f6a39d65731230c1490d26d47eb",
+            "bytes": 10072
+          },
+          {
+            "path": "docs/gate-2/fictional-records.json",
+            "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+            "bytes": 5473
+          },
+          {
+            "path": "docs/gate-2/reference-mappings.json",
+            "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+            "bytes": 5571
+          },
+          {
+            "path": "docs/gate-2/independent-predictions.json",
+            "sha256": "888d718a94ca66b6980da693bb3c5277ea28a3d4040b735ec8b6df616fd9a200",
+            "bytes": 8842
+          }
+        ],
+        "durationMs": 24000,
+        "stepMs": 1000,
+        "checkpointTimesMs": [
+          0,
+          6000,
+          12000,
+          18000,
+          24000
+        ],
+        "model": {
+          "type": "Hopf correspondence S\u00b3\u2192S\u00b2",
+          "sourceCoordinates": "q=(Re z1,Im z1,Re z2,Im z2) in R\u2074",
+          "sourceDimension": 3,
+          "ambientDimension": 4,
+          "basePoints": [
+            {
+              "id": "north",
+              "label": "North pole",
+              "p": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "id": "south",
+              "label": "South pole \u00b7 infinity case",
+              "p": [
+                0,
+                0,
+                -1
+              ]
+            },
+            {
+              "id": "east",
+              "label": "Equator east",
+              "p": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "west",
+              "label": "Equator west",
+              "p": [
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "front",
+              "label": "Equator forward",
+              "p": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "id": "back",
+              "label": "Equator back",
+              "p": [
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "id": "seam-plus",
+              "label": "Longitude seam +",
+              "p": [
+                -0.9999999999995,
+                1e-06,
+                0
+              ]
+            },
+            {
+              "id": "seam-minus",
+              "label": "Longitude seam \u2212",
+              "p": [
+                -0.9999999999995,
+                -1e-06,
+                0
+              ]
+            }
+          ],
+          "fiberSamplesPerBase": 128,
+          "stereoClipRadius": 4,
+          "camera": {
+            "yaw": 0.5235987755982988,
+            "pitch": 0.3490658503988659
+          },
+          "sourceToBase": "h=(2(ac+bd),2(bc-ad),a\u00b2+b\u00b2-c\u00b2-d\u00b2)",
+          "sourceToDisplay": "(a,b,c)/(1-d), d=1 excluded",
+          "phasePath": "east/north chart, gamma=2\u03c0t/24000",
+          "seed": null,
+          "renderer": "SVG 2D projection of computed R\u00b3 curves",
+          "fixedScaleSvgUnitsPerR3Unit": 55,
+          "clipping": "R\u00b3 radius 4; discontinuity at stereographic infinity; never join across excluded point",
+          "semanticLoopDisplay": {
+            "center": [
+              160,
+              110
+            ],
+            "radiusSvgUnits": 66,
+            "xyFromPhase": "x=160+66cos(phase); y=110\u221266sin(phase); arbitrary categorical display slot"
+          }
+        },
+        "attention": {
+          "recordFixture": "fictional-records.json",
+          "recordFixtureSha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+          "mappingFixture": "reference-mappings.json",
+          "mappingFixtureSha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+          "initialReferenceId": "R_CAPACITY_60",
+          "recordIdsAndHashes": [
+            {
+              "id": "venue-hall",
+              "sha256": "3227c49b6fb34f69ae8e0c6ad4c7144fb10aea688bd4356d5a1aca4f6700109b"
+            },
+            {
+              "id": "venue-field",
+              "sha256": "b7b9e925ef7a4615c07ad2d4d459b66acddc6f780e8e7d131529d43d7c8b87af"
+            },
+            {
+              "id": "venue-studio",
+              "sha256": "1f7f1e32c395c47bb4e19890429f83c1b1964662833c190ca03d43208ed38130"
+            },
+            {
+              "id": "weather-context",
+              "sha256": "e030af043050522df6a79c71d5e2d3204b1c8c55e7c3a162edd396c73f9e5fb2"
+            }
+          ],
+          "semantics": "candidate partial display mapping; phase is arbitrary display slot; no endorsement or full feasibility claim"
+        },
+        "initialStateHash": "4f0680753ded774d66d70740b2d167f02193e38b9fa53213fe044893d9af1bf4",
+        "initialModelHash": "54fb43a5af8eb76ffa0cede1c82a2cd8c550d8556ff58818a29fb111869e99ed",
+        "initialGeometryHash": "8168d04822fbc99c103f1c20966df9b2830aba286c4e9818ba00be7be06c42ca",
+        "initialMappingHash": "d27ed3aa1c67b8ab16b803b0f8307ad6220e30614aee714a767ddeb185cd5090",
+        "initialRecordsHash": "f4ae97187371b4ba3e764cdc07306009476606a3e5e79919c5a1df384875652f",
+        "initialStateFile": "initial-state.json",
+        "eventsFile": "events.jsonl",
+        "checkpointsFile": "checkpoints.json",
+        "eventsKind": "planned deterministic fixture, not observed browser controls"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "expectedRun": "G3-TESSERACT-003",
+      "expectedBuild": "g3-6c31bc16aeca4460",
+      "actual": {
+        "runId": "G3-TESSERACT-003",
+        "gate": "G3",
+        "status": "planned deterministic fixture; actual browser observations recorded separately",
+        "experimentVersion": "gate-3-charter-v1",
+        "modelVersion": "gate-3-model-v1",
+        "eventSchemaVersion": "gate-3-record-v1",
+        "generatorVersion": "gate-3-builder-v1",
+        "testId": "G3-known-4D-hypercube-projection-and-observability",
+        "hypothesis": "A known x\u2013w source turn separates an initially coincident pair in the xyz projection; a fixed or camera-only source view leaves w underdetermined, while known 0\u00b0+90\u00b0 source views recover q from raw projected coordinates and correspondences.",
+        "buildId": "g3-6c31bc16aeca4460",
+        "sourceSha256": "6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d",
+        "gitHead": "bf2be1afe85874edbaf4e59cbbc48a37991553fc",
+        "uncommittedSourceIdentity": "6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d",
+        "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+        "nodeVersion": "v24.10.0",
+        "builtAtUtc": "2026-09-20T02:54:44.875Z",
+        "prespecFreezeSha256": "e18e4a129ea1350b641908fe1a4ebfb6ac1f5fcba6a26d33cc5031d5141cfbf6",
+        "prespecFrozenAtUtc": "2026-09-20T02:38:53.042662+00:00",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-3/experiment-charter.md",
+            "sha256": "b931fa0f10efba21e6c79d35a719b27e9ef6cd114d740a590116cd7c24fb7a7b",
+            "bytes": 13285
+          },
+          {
+            "path": "docs/gate-3/model-contract.md",
+            "sha256": "3433d0887238a6ce1a9421f1ad0d2de329479bc59e6fbac3e0587afe0b238202",
+            "bytes": 9100
+          },
+          {
+            "path": "docs/gate-3/record-contract.md",
+            "sha256": "d86d13169d2d3984e43b30699743f0ef356c37eea0f9c5e2cbd2669b3db19163",
+            "bytes": 9224
+          },
+          {
+            "path": "docs/gate-3/independent-predictions.json",
+            "sha256": "91f684c1323c0fb7f2c88f261e5a68dd53ca38245a5cad115d83372e5fa9aa3d",
+            "bytes": 31187
+          }
+        ],
+        "durationMs": 32000,
+        "stepMs": 1000,
+        "checkpointTimesMs": [
+          0,
+          8000,
+          16000,
+          24000,
+          32000
+        ],
+        "model": {
+          "sourceObject": "solid [-1,1]^4; wireframe displays its one-dimensional edge skeleton",
+          "sourceDimension": 4,
+          "boundaryDimension": 3,
+          "skeletonDimension": 1,
+          "vertexAffineSpan": 4,
+          "vertices": 16,
+          "edges": 32,
+          "markedPair": [
+            "v1110",
+            "v1111"
+          ],
+          "markedEdgeId": "e-v1110-v1111",
+          "sourceRotation": "column-vector Rxw(theta), applied first",
+          "projection": "orthographic P selects rotated x,y,z",
+          "camera": {
+            "yaw": 0.5235987755982988,
+            "pitch": 0.3490658503988659
+          },
+          "display": {
+            "renderer": "SVG view of calculated R\u00b3 points; no WebGL dependency",
+            "viewBox": [
+              0,
+              0,
+              640,
+              420
+            ],
+            "center": [
+              320,
+              210
+            ],
+            "scale": 80,
+            "noAutoFit": true,
+            "noJitter": true
+          },
+          "sourceSeed": null
+        },
+        "sourceIdentitySha256": "5036ac9888a1eb652caeaac3c66134ae82783174cc83ed442f57f637a1ed54fd",
+        "initialProjectionSha256": "8c6ce27db49273de2bd919c4d95e01aad6bf66144b093dc89661371f9eb0dcd7",
+        "initialCheckpointSha256": "1d54305d0912601519a1d5356fbfbda4e71f9d84f02656d2ff592203bd265dca",
+        "initialDisplaySha256": "baa3698712cc8b6c6951ed94ecb82777a90921bbb27ca664186b0813ee289869",
+        "initialStateFile": "initial-state.json",
+        "eventsFile": "events.jsonl",
+        "checkpointsFile": "checkpoints.json",
+        "eventsKind": "planned deterministic fixture; not observed browser controls"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "expectedRun": "G4-SLICES-002",
+      "expectedBuild": "g4-38777d5882ef08a6",
+      "actual": {
+        "runId": "G4-SLICES-002",
+        "gate": "G4",
+        "status": "planned deterministic fixture; actual browser observations recorded separately",
+        "experimentVersion": "gate-4-charter-v1",
+        "modelVersion": "gate-4-model-v1",
+        "eventSchemaVersion": "gate-4-record-v1",
+        "generatorVersion": "gate-4-builder-v1",
+        "testId": "G4-ball-slice-projection-ambiguity-stored-3d-movie",
+        "hypothesis": "An analytic 4D-ball slice changes with w while its projection stays fixed; a known slice distinguishes two declared hidden-center candidates; a saved 3D animation reproduces the prescribed sampled projection movie.",
+        "buildId": "g4-38777d5882ef08a6",
+        "sourceSha256": "38777d5882ef08a63abf15da00d664e3c2036826029c4ba2cea5ab7c8640ff14",
+        "gitHead": "144abb15c3252f0ef6a2dbd2d3c45333ecf6aaef",
+        "uncommittedSourceIdentity": "38777d5882ef08a63abf15da00d664e3c2036826029c4ba2cea5ab7c8640ff14",
+        "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+        "nodeVersion": "v24.17.0",
+        "builtAtUtc": "2026-09-20T03:31:31.833Z",
+        "prespecFreezeSha256": "da6838373c450bef6cd657f12b29395001a81b4fec1aac97ceb99e7f3a298a15",
+        "prespecFrozenAtUtc": "2026-09-20T03:23:06.699443+00:00",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-4/experiment-charter.md",
+            "sha256": "e9b6728ed266e28f213115b5c94e02da3f8dc19ec673a9d2939d0d97a1672fb8",
+            "bytes": 12840
+          },
+          {
+            "path": "docs/gate-4/model-contract.md",
+            "sha256": "5d7d592c411dbd57c4635dd94f1bebb138a3ff769c58e394a6f1d49c8e79f551",
+            "bytes": 10511
+          },
+          {
+            "path": "docs/gate-4/record-contract.md",
+            "sha256": "7cf7eae0b52637ac061f88a49fe5551bded7a686a3ffdf7abcde0a7aa90bea0a",
+            "bytes": 10363
+          },
+          {
+            "path": "docs/gate-4/independent-predictions.json",
+            "sha256": "957963f128ca680af8440c5f533730c1ac824af8e805aecc3fb3bc0178428e91",
+            "bytes": 14378
+          }
+        ],
+        "durationMs": 40000,
+        "stepMs": 1000,
+        "sampleMs": 100,
+        "checkpointTimesMs": [
+          0,
+          8000,
+          16000,
+          20000,
+          24000,
+          32000,
+          40000
+        ],
+        "sourceDescriptors": [
+          {
+            "id": "ball-center",
+            "center4": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "radius": 1,
+            "dimension": 4,
+            "inequality": "x\u00b2+y\u00b2+z\u00b2+w\u00b2 \u2264 1"
+          },
+          {
+            "id": "ball-plus",
+            "center4": [
+              0,
+              0,
+              0,
+              0.5
+            ],
+            "radius": 1,
+            "dimension": 4,
+            "inequality": "x\u00b2+y\u00b2+z\u00b2+(w\u22120.5)\u00b2 \u2264 1"
+          },
+          {
+            "id": "ball-minus",
+            "center4": [
+              0,
+              0,
+              0,
+              -0.5
+            ],
+            "radius": 1,
+            "dimension": 4,
+            "inequality": "x\u00b2+y\u00b2+z\u00b2+(w+0.5)\u00b2 \u2264 1"
+          }
+        ],
+        "movieTraceFile": "movie-3d.json",
+        "movieTraceSha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+        "movieFrameCount": 401,
+        "maxBuilderTraceError": 1.1102230246251565e-16,
+        "sourceSeed": null,
+        "model": {
+          "primarySourceId": "ball-center",
+          "ambiguityCandidateIds": [
+            "ball-plus",
+            "ball-minus"
+          ],
+          "movieSourceId": "ball-plus",
+          "sourceDimension": 4,
+          "sourceBoundaryDimension": 3,
+          "primarySlice": "w=s; strict u=1-(s-c)^2 branch",
+          "projection": "orthographic xyz, independent of primary slice",
+          "canonicalCamera": {
+            "yaw": 0.5235987755982988,
+            "pitch": 0.3490658503988659
+          },
+          "display": {
+            "renderer": "SVG of analytic 3D slice and orthographic projection; stored 3D frames read from JSON",
+            "viewBox": [
+              0,
+              0,
+              640,
+              420
+            ],
+            "center": [
+              320,
+              210
+            ],
+            "scale": 80,
+            "noAutoFit": true,
+            "noJitter": true
+          }
+        },
+        "initialSourceSha256": "dae273564d323bfb94f4433f5bfd24f0c5152c73a26ba95997be0614bc43d80b",
+        "initialSliceSha256": "75fb3dfb8a82554090a890dd0f6b1df35d53d17d5b073fa9f81d3f0bb220c55a",
+        "initialProjectionSha256": "86ac4d17c5e118e10827f80c881d9b46a8595e763468f490dc1f84191b8b75c1",
+        "initialMovieSha256": "a596d647164ea130ece6f899171f77e0d4bb2b2b860b12c99531b9da43e78ad1",
+        "initialCheckpointSha256": "4394430a19ef57af760ee2c36b33d1de4aadcc4c7fdc5c83a95ea1cad5b1d467",
+        "initialDisplaySha256": "701267359dbeacfc58caaa42ee5e8c6600997a80241429c104e28e9bc2ceb1d6",
+        "initialStateFile": "initial-state.json",
+        "checkpointsFile": "checkpoints.json",
+        "eventsFile": "events.jsonl",
+        "eventsKind": "planned deterministic fixture; not observed browser controls"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "expectedRun": "G5-PENTERACT-001",
+      "expectedBuild": "g5-0bdee39bcd7dd541",
+      "actual": {
+        "runId": "G5-PENTERACT-001",
+        "gate": "G5",
+        "status": "planned deterministic fixture; actual browser observations stored separately",
+        "experimentVersion": "gate-5-charter-v1",
+        "modelVersion": "gate-5-model-v1",
+        "eventSchemaVersion": "gate-5-record-v1",
+        "generatorVersion": "gate-5-builder-v1",
+        "testId": "G5-two-independent-extra-coordinates",
+        "hypothesis": "Independent x\u2013w and y\u2013v source rotations expose distinct 5D effects; known raw views can reveal v; two-plane slices and fixed-camera task comparison retain specified ambiguities.",
+        "buildId": "g5-0bdee39bcd7dd541",
+        "sourceSha256": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+        "gitHead": "231780872da982cb87b54f004c287a078d26839b",
+        "baseRevision": "231780872da982cb87b54f004c287a078d26839b",
+        "uncommittedSourceIdentity": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+        "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+        "nodeVersion": "v24.17.0",
+        "builtAtUtc": "2026-09-20T04:02:10.500Z",
+        "prespecFreezeSha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+        "prespecFrozenAtUtc": "2026-09-20T03:59:55.539897+00:00",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-5/experiment-charter.md",
+            "sha256": "20920a82e4e670eeb85d32871728ac5151f4877146ba9c14ba6962df567eca2f",
+            "bytes": 7547
+          },
+          {
+            "path": "docs/gate-5/model-contract.md",
+            "sha256": "c37fb3e353dcd6cb3efc4974c143dd6df1ac732536660b325b71b4e9413ef6dc",
+            "bytes": 12057
+          },
+          {
+            "path": "docs/gate-5/record-contract.md",
+            "sha256": "1dea0f67d6d101e0d69b88bfe50ffc609d4389f7064c454c1513b37d8c2a84a1",
+            "bytes": 9051
+          },
+          {
+            "path": "docs/gate-5/independent-predictions.json",
+            "sha256": "fcd1fb992cb2f12ae3177d6129fffb6bb598f2d5d6dd9f57546ee86bc62490d0",
+            "bytes": 54046
+          }
+        ],
+        "baseline4D": {
+          "path": "hypercube/builds/g3-6c31bc16aeca4460/model.mjs",
+          "sha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c",
+          "preservedRunId": "G3-TESSERACT-003",
+          "preservedBuildId": "g3-6c31bc16aeca4460"
+        },
+        "renderer": "Browser SVG of raw 3D projected 4D/5D wireframes and analytic 5D-ball 3D slice",
+        "sourceSeed": null,
+        "durationMs": 40000,
+        "stepMs": 1000,
+        "sampleMs": 100,
+        "checkpointTimesMs": [
+          0,
+          5000,
+          10000,
+          15000,
+          20000,
+          25000,
+          30000,
+          35000,
+          40000
+        ],
+        "source5": {
+          "dimension": 5,
+          "boundaryDimension": 4,
+          "vertices": 32,
+          "edges": 80
+        },
+        "comparator4": {
+          "dimension": 4,
+          "boundaryDimension": 3,
+          "vertices": 16,
+          "edges": 32,
+          "description": "newly computed comparator validated against untouched Gate 3 source; beta ignored"
+        },
+        "display": {
+          "camera": {
+            "yaw": 0.5235987755982988,
+            "pitch": 0.3490658503988659
+          },
+          "viewBox": [
+            0,
+            0,
+            640,
+            420
+          ],
+          "center": [
+            320,
+            210
+          ],
+          "scale": 80,
+          "glyphRadiusSvgUnits": 4,
+          "noAutoFit": true,
+          "noJitter": true
+        },
+        "observationCasesFile": "observation-cases.json",
+        "sliceCasesFile": "slice-cases.json",
+        "initialSourceSha256": "540871ea8402c51f6fb6165b62ae38d372baa2f9ac1f6cfbbc459fc89a35a500",
+        "initialRotationSha256": "4f2d9bffff87d5bfca13f2cc6dff19349a7e2443d220f92df8c513436e628b42",
+        "initialProjectionSha256": "ab9cbf8b5a7674179fd5694925a0b01d1df0d1c0fb23f6aec408223e323c9012",
+        "initialComparatorSha256": "8f2e169eb2901220199482d559926c71287ac7c758c65f8509707b1bba690fd3",
+        "initialSliceSha256": "bb7edc0349635a52ef855e1b9507c4c5ced5a7e8b9d2d76f8211cf7a01419184",
+        "initialCheckpointSha256": "b4fda6749b3d30da9eff4a6d2e763445877041b630299aa744a651da2f90dbc3",
+        "initialStateFile": "initial-state.json",
+        "checkpointsFile": "checkpoints.json",
+        "eventsFile": "events.jsonl",
+        "eventsKind": "planned deterministic fixture; not observed browser controls"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "expectedRun": "G6-LOCAL-003",
+      "expectedBuild": "g6-0279cdcdc0adc9b0",
+      "actual": {
+        "schemaVersion": "gate-6-run-v1",
+        "runId": "G6-LOCAL-003",
+        "gate": "G6",
+        "status": "planned deterministic fixture; actual browser results and activity stored separately",
+        "experimentVersion": "gate-6-charter-v1",
+        "modelVersion": "gate-6-model-v1",
+        "eventSchemaVersion": "gate-6-record-v1",
+        "generatorVersion": "gate-6-builder-v1",
+        "buildId": "g6-0279cdcdc0adc9b0",
+        "sourceSha256": "0279cdcdc0adc9b06790cbe877e64ff3703c3b40803b08775315e359869fe353",
+        "gitHead": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+        "baseRevision": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+        "uncommittedSourceIdentity": "0279cdcdc0adc9b06790cbe877e64ff3703c3b40803b08775315e359869fe353",
+        "dependencyIdentity": "Node.js built-ins and browser SVG/HTML only; no package, lockfile, external asset or source seed",
+        "nodeVersion": "v24.17.0",
+        "builtAtUtc": "2026-09-20T05:59:48.560Z",
+        "prespecFreezeSha256": "2241afcb9c3bcdffacfbc277d92c918d4c3678baa41e0f906467cfa81b020570",
+        "prespecFrozenAtUtc": "2026-09-20T05:40:15.602977+00:00",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-6/experiment-charter.md",
+            "sha256": "a307da2de1411cd45ce592279ff4176b80017fcfd67d07c6083e40858276cd9d",
+            "bytes": 10059
+          },
+          {
+            "path": "docs/gate-6/model-contract.md",
+            "sha256": "cc2ef35f0303eec54337714444dd32dd55073e9014330878ea8a567a8c3dab49",
+            "bytes": 10566
+          },
+          {
+            "path": "docs/gate-6/record-contract.md",
+            "sha256": "23120b6e1f9cbe3fe52cabbe995e60f95148a7fe6ad8455c4ae75cc1a8ad98ca",
+            "bytes": 8455
+          },
+          {
+            "path": "docs/gate-6/fixture.json",
+            "sha256": "3b80d971b31b6a5c9f6b06c6e13167715b934a948d81daf6aa126e56f1eb4020",
+            "bytes": 26870
+          },
+          {
+            "path": "docs/gate-6/independent-predictions.json",
+            "sha256": "91d9d43ef59efda7164de8decb715bad32189a0a104cb06737101f5c9cac7b04",
+            "bytes": 14991
+          }
+        ],
+        "sourcePins": [
+          {
+            "path": "docs/gate-2/fictional-records.json",
+            "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+            "bytes": 5473
+          },
+          {
+            "path": "docs/gate-2/reference-mappings.json",
+            "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+            "bytes": 5571
+          }
+        ],
+        "fixtureSha256": "3b80d971b31b6a5c9f6b06c6e13167715b934a948d81daf6aa126e56f1eb4020",
+        "renderer": "Browser HTML/SVG local-context diagram and equivalent plain table; arbitrary layout without geometric inference",
+        "sourceSeed": null,
+        "durationMs": 30000,
+        "sampleMs": 100,
+        "stepMs": 1000,
+        "checkpointTimesMs": [
+          0,
+          5000,
+          10000,
+          15000,
+          20000,
+          25000,
+          30000
+        ],
+        "localContextCount": 2,
+        "sourceRecordCount": 4,
+        "supportedRelationCount": 4,
+        "unsupportedClaimCount": 1,
+        "initialStateFile": "initial-state.json",
+        "checkpointsFile": "checkpoints.json",
+        "eventsFile": "events.jsonl",
+        "activityFile": "activity.jsonl",
+        "eventsKind": "planned deterministic fixture; not observed browser controls",
+        "initialSourceSha256": "1c848c8b835b305837636f290514f2cfe7aa7afeee951bebd742f2b93b6ea54f",
+        "initialLocalSha256": "391e9e886fc6881fef3694f3290801befe4bc3cb7c4ed2e167deca64200796ab",
+        "initialRelationsSha256": "0d4973d6a1f48fda95d947c9640f2927389bc12a3c98fd3ca7fc67fce2747a04",
+        "initialMappingSha256": "bfe800bb20b3633d335f3b3d40775d7a97866aafe7f961d269e236b88687870e",
+        "initialSummarySha256": "5191f9d1f8057cb362de2082f25c2bda6ab38427eb760c2614465031f01410ff",
+        "initialSummaryHistorySha256": "b0ec57e231abe6b97a63ad4028b7df79820706b3f929d2790c64ba486a8e770f",
+        "initialReceiverSha256": "98ff7bd4eebb23dfa3491290f151a8d8591b0272233d05f49641ba31724a909a",
+        "initialCheckpointSha256": "3c2de3bdeb814dfa66120c2572c2026dce571ad6aa7005fadaefd6a916346930",
+        "fingerprintAlgorithm": "SHA-256 of UTF-8 JSON.stringify of declared state boundary, in fixed property order"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "expectedRun": "G7-INTERPRET-002",
+      "expectedBuild": "g7-90e64952eb028069",
+      "actual": {
+        "schemaVersion": "gate7-run-v1",
+        "runId": "G7-INTERPRET-002",
+        "gate": "G7",
+        "status": "planned deterministic software demonstration; browser activity and human participation are separate",
+        "buildId": "g7-90e64952eb028069",
+        "sourceSha256": "90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078",
+        "gitHead": "39d97a4d2829e1b4bec45b0afce90c758a6e05c8",
+        "baseRevision": "39d97a4d2829e1b4bec45b0afce90c758a6e05c8",
+        "nodeVersion": "v24.17.0",
+        "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "builtAtUtc": "2026-09-20T06:55:41.374Z",
+        "prespecFreezeSha256": "8abb6366f27a42590c89365c4d1f019e5c350dee90bfff77290cdd4783b1469f",
+        "publicFixtureSha256": "4e34224c64247b7cdf3edecd116fc84416d6ffc84781505804bf01ecd3db0f43",
+        "fixtureId": "G7-UNFAMILIAR-01",
+        "fixtureVersion": "gate7-task-fixture-v1",
+        "experimentVersion": "gate7-prespec-v1",
+        "modelVersion": "gate7-model-v1",
+        "eventSchemaVersion": "gate7-record-v1",
+        "generatorVersion": "gate7-builder-v1",
+        "renderer": "Browser HTML/SVG; fixed-scale orthographic yaw then pitch, display depth dropped; raw xyz table separate",
+        "durationMs": 48000,
+        "sampleMs": 100,
+        "stepMs": 1000,
+        "checkpointTimesMs": [
+          0,
+          6000,
+          12000,
+          18000,
+          24000,
+          30000,
+          36000,
+          42000,
+          48000
+        ],
+        "taskCount": 8,
+        "answerCount": 0,
+        "revealedCount": 0,
+        "humanParticipantCount": 0,
+        "actor": "unattributed_local",
+        "sourceSeed": null,
+        "initialStateFile": "initial-state.json",
+        "checkpointsFile": "checkpoints.json",
+        "eventsFile": "events.jsonl",
+        "activityFile": "activity.jsonl",
+        "computationalResultsFile": "computational-results.json",
+        "eventsKind": "planned deterministic fixture; not observed browser controls",
+        "initialCheckpointSha256": "44d51bd0b936848e606828ac95e9b73c0e2b5b0a5cb688fa8bd172469c071f27",
+        "fingerprintAlgorithm": "SHA-256 of UTF-8 JSON.stringify of declared public boundary in fixed property order"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 8,
+      "url": "http://127.0.0.1:44001/",
+      "expectedRun": "G8-AMBIGUITY-001",
+      "expectedBuild": "g8-f5c5ee62889da529",
+      "actual": {
+        "schemaVersion": "gate8-run-v1",
+        "gate": "G8",
+        "runId": "G8-AMBIGUITY-001",
+        "buildId": "g8-f5c5ee62889da529",
+        "sourceSha256": "f5c5ee62889da529fcb16cce66b777707335c34db299d85a22332f2521c5a046",
+        "status": "planned deterministic software demonstration; browser activity is separate",
+        "gitHead": "cbb32394e741bcaab78a0970a0905236c706d33e",
+        "baseRevision": "cbb32394e741bcaab78a0970a0905236c706d33e",
+        "nodeVersion": "v24.17.0",
+        "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "builtAtUtc": "2026-09-20T08:10:57.061Z",
+        "prespecFreezeSha256": "38f1cbae00339eb9d4d1f1ee097fdb124b120c598ecea4c69c3ee7af8c19e7b8",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-8/experiment-charter.md",
+            "sha256": "621d7b1d804f9ee984b68dc26d6dfcc58de4c395a33664dc358fa88f6f0bf62c",
+            "bytes": 6886
+          },
+          {
+            "path": "docs/gate-8/model-contract.md",
+            "sha256": "84f98f27acfb9b0a463d3e27b9f3250c2efcfcf5d6b8dfd4117a0a155f8e6b3d",
+            "bytes": 10167
+          },
+          {
+            "path": "docs/gate-8/record-contract.md",
+            "sha256": "faca999c99d3da4feafdb27bf9c5bcc08f1ed6b93aa41ed6248239f6e8e36e69",
+            "bytes": 9401
+          },
+          {
+            "path": "docs/gate-8/fixture.json",
+            "sha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509",
+            "bytes": 6580
+          },
+          {
+            "path": "docs/gate-8/independent-predictions.json",
+            "sha256": "2468b3934d36e1a9618f20cdf5ca1286344ea38687f32fc6af3f128f4100a9d6",
+            "bytes": 20259
+          }
+        ],
+        "publicFixtureSha256": "2ddeb27ae3b47cf139a98868d94c9dccb52a1fc834aee6978a328983cdf7a509",
+        "fixtureId": "G8-FINITE-WORLDS-01",
+        "fixtureVersion": "gate8-fixture-v1",
+        "experimentVersion": "gate8-charter-v1",
+        "modelVersion": "gate8-model-v1",
+        "eventSchemaVersion": "gate8-record-v1",
+        "renderer": "Fixed 43 px/unit SVG, yaw about display y, fixed pitch 20\u00b0, no autoscale; exact records separate",
+        "durationSeconds": 32,
+        "checkpointSeconds": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32
+        ],
+        "candidateCount": 10,
+        "humanParticipantCount": 0,
+        "actor": "unattributed_local",
+        "answerCount": 0,
+        "initialStateFile": "initial-state.json",
+        "checkpointsFile": "checkpoints.json",
+        "eventsFile": "events.jsonl",
+        "activityFile": "activity.jsonl",
+        "computationalResultsFile": "computational-results.json",
+        "eventsKind": "planned fixture expectations, not observed browser controls",
+        "fingerprintAlgorithm": "SHA-256 of fixed-order UTF-8 JSON; full exact observation strings"
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 9,
+      "url": "http://127.0.0.1:44002/",
+      "expectedRun": "G9-MATCHED-003",
+      "expectedBuild": "g9-15c3bf973fe0c6cd",
+      "actual": {
+        "schemaVersion": "gate9-run-v1",
+        "gate": "G9",
+        "runId": "G9-MATCHED-003",
+        "buildId": "g9-15c3bf973fe0c6cd",
+        "sourceSha256": "15c3bf973fe0c6cde206e17f133b0ab7e868cf7026e7d4c9a0f7930e93c6f910",
+        "status": "scripted demonstration and mathematical software checks; browser validation separate",
+        "gitHead": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+        "baseRevision": "32924adfdeeab4b7e3238daf40cca168c871ae79",
+        "nodeVersion": "v24.17.0",
+        "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "builtAtUtc": "2026-09-20T09:29:42.862Z",
+        "prespecFreezeSha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+        "prespecFiles": [
+          {
+            "path": "docs/gate-9/experiment-charter.md",
+            "sha256": "5d3335e6224f3289b46d4a98edecb06992a36a23ff355f983fbc46acce7e97c2",
+            "bytes": 7845
+          },
+          {
+            "path": "docs/gate-9/model-contract.md",
+            "sha256": "a00a6f9dfe8a99875f98647ca28e258fc0b66a529c775be06c508af5fb5e196d",
+            "bytes": 10971
+          },
+          {
+            "path": "docs/gate-9/record-contract.md",
+            "sha256": "71cda7552c711a32b5092dea426e088a64091e55a4a5c4b25773eb12725ddd97",
+            "bytes": 10932
+          },
+          {
+            "path": "docs/gate-9/fixture.json",
+            "sha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+            "bytes": 8238
+          },
+          {
+            "path": "docs/gate-9/independent-predictions.json",
+            "sha256": "03194be6024ffdabafff686263001f0c40e1f6b8cf86f9330c27cd7bfc8c5f25",
+            "bytes": 38462
+          }
+        ],
+        "fixtureId": "G9-MATCHED-OBSERVATIONS-01",
+        "publicFixtureSha256": "e273500682965cf4f881e8a1159f81203f0ce33ffa6e685c8475ca3e4a2e79a6",
+        "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+        "experimentVersion": "gate9-charter-v1",
+        "modelVersion": "gate9-model-v1",
+        "recordVersion": "gate9-record-v1",
+        "durationSeconds": 24,
+        "checkpointSeconds": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          20,
+          24
+        ],
+        "scheduledEventCount": 12,
+        "allOrderedChoiceCount": 9,
+        "humanParticipantCount": 0,
+        "humanPerformance": "untested",
+        "actor": "scripted_demonstration",
+        "eventsKind": "canonical scripted expectations; browser events exported separately",
+        "files": {
+          "initialState": "initial-state.json",
+          "checkpoints": "checkpoints.json",
+          "events": "events.jsonl",
+          "computationalResults": "computational-results.json"
+        }
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 10,
+      "url": "http://127.0.0.1:44003/",
+      "expectedRun": "G10-PREDICT-003",
+      "expectedBuild": "g10-9e34f791d83c1cd7a495",
+      "actual": {
+        "schema": "gate10-run-v1",
+        "runId": "G10-PREDICT-003",
+        "buildId": "g10-9e34f791d83c1cd7a495",
+        "sourceHash": "9e34f791d83c1cd7a495bec3371470fddebd6ad96205e957dc635d9404dc22f4",
+        "baseCommit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+        "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "nodeVersion": "v24.17.0",
+        "fixtureId": "G10-FIXTURE-001",
+        "fixtureSha256": "729902887d4a51ac522831f7baf17f8a905422fa6d7aa51f14d81e4565bf089e",
+        "prespecFreezeSha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56",
+        "port": 44003,
+        "host": "127.0.0.1",
+        "durationSeconds": 20,
+        "checkpointSeconds": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "scheduledEventCount": 6,
+        "localSoftwareOnly": true,
+        "humanParticipants": 0
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 11,
+      "url": "http://127.0.0.1:44004/",
+      "expectedRun": "G11-RECEIVER-002",
+      "expectedBuild": "g11-7ced826c903d40c5a0dd",
+      "actual": {
+        "schema": "gate11-run-v1",
+        "runId": "G11-RECEIVER-002",
+        "buildId": "g11-7ced826c903d40c5a0dd",
+        "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+        "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+        "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "nodeVersion": "v24.17.0",
+        "fixtureId": "G11-FIXTURE-001",
+        "fixtureSha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc",
+        "prespecFreezeSha256": "bc6f624e0eb0a2d225e1aafdebb99ec2fd3dcce45bcd24dd8ccadf6edd85fba9",
+        "host": "127.0.0.1",
+        "port": 44004,
+        "durationSeconds": 24,
+        "checkpointSeconds": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24
+        ],
+        "scheduledEventCount": 7,
+        "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+        "localSoftwareOnly": true,
+        "humanParticipants": 0
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    },
+    {
+      "gate": 12,
+      "url": "http://127.0.0.1:44005/",
+      "expectedRun": "G12-COORD-002",
+      "expectedBuild": "g12-3c5526361a7cb2cc5c4a",
+      "actual": {
+        "schema": "gate12-run-v1",
+        "runId": "G12-COORD-002",
+        "buildId": "g12-3c5526361a7cb2cc5c4a",
+        "sourceHash": "3c5526361a7cb2cc5c4afe35c23801f183dacdc2f8ae4653471b202a27a9665c",
+        "baseCommit": "a7d6d3f686817f4cb9700ed3bf3095845dea3874",
+        "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+        "nodeVersion": "v24.17.0",
+        "fixtureId": "G12-FIXTURE-001",
+        "fixtureSha256": "88c6555fc4ba75f41136f08b4e9d27de1a197c03bff7d994581b62cb402ce825",
+        "prespecFreezeSha256": "0aafcfe9b62f5ba1c2b5934ae7624b4e05248d7ed36ccfa266a4bc55cd4458b1",
+        "host": "127.0.0.1",
+        "port": 44005,
+        "durationSeconds": 24,
+        "checkpointSeconds": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24
+        ],
+        "scheduledEventCount": 8,
+        "sourceModesHash": "24ac2f593d288632e9e58f77d257ea2de5c67aba36ea7696e4cc6eb10b95f94e",
+        "localSoftwareOnly": true,
+        "humanParticipants": 0
+      },
+      "identityPresent": true,
+      "resultsHttp": 200
+    }
+  ]
+}

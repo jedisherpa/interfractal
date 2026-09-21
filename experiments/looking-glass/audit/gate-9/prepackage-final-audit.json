@@ -1,0 +1,74 @@
+{
+  "schema": "gate9-prepackage-final-audit-v1",
+  "status": "PASS",
+  "candidate": "G9-MATCHED-003 prepackage mutable source",
+  "reviewedSnapshot": "evidence/gate-9/prepackage-drafts/review-3/SNAPSHOT.json",
+  "reviewedSourceFiles": [
+    {
+      "original_path": "matched-observation/README.md",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/README.md",
+      "sha256": "42c6759540b9d9245252902e8fdc1b4819c329cd70977a106cc158dc25736b96",
+      "bytes": 4418
+    },
+    {
+      "original_path": "matched-observation/app.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/app.mjs",
+      "sha256": "c6c401ccee576aaeba40746638c80c2e121f971bacbed4e831ec915b274a2cfc",
+      "bytes": 14178
+    },
+    {
+      "original_path": "matched-observation/build.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/build.mjs",
+      "sha256": "f98d82dd5a55873df7c609e4f16a4973345d0e431fc7a4765891a2a01efdd9a0",
+      "bytes": 7112
+    },
+    {
+      "original_path": "matched-observation/core.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/core.mjs",
+      "sha256": "381c36bb50b5cc44ba45161ad0b34e92bb0c80602af479fd905b58205432d83f",
+      "bytes": 5256
+    },
+    {
+      "original_path": "matched-observation/engine.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/engine.mjs",
+      "sha256": "8c029cbfe25cc5ca70e4c10b6337f87af61aa964d881b3b3533ef80e35d3a92e",
+      "bytes": 15165
+    },
+    {
+      "original_path": "matched-observation/index.html",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/index.html",
+      "sha256": "b62bbb12f6825ccfc0e8d7822cb4108392b0f62039b94ccd276a29412568fd66",
+      "bytes": 3868
+    },
+    {
+      "original_path": "matched-observation/server.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/server.mjs",
+      "sha256": "c5410c2ee96c7e67d9745318a20f0437a3b2264bbd38785e4f6b5566718cd47b",
+      "bytes": 3947
+    },
+    {
+      "original_path": "matched-observation/style.css",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/style.css",
+      "sha256": "4bf7d0ed7986c25f765b95cdd6bf9106310fa5bd1f61cb66d77ba32f4b841047",
+      "bytes": 2204
+    },
+    {
+      "original_path": "matched-observation/test.mjs",
+      "snapshot_path": "evidence/gate-9/prepackage-drafts/review-3/test.mjs",
+      "sha256": "aa7242a6acc2cebc73ae77a05c8897c3330654ab5fd91427e919008a9b6a26c6",
+      "bytes": 10787
+    }
+  ],
+  "prespecFreezeSha256": "f91788e4ae31949bec265582afe4e879f9fafb4e05eb8cdb3c9c2c9cacc881cd",
+  "checks": {
+    "originalNineRouteAndFailureReproduction": "PASS",
+    "correctedExportIdentityAndRestoredEventReferences": "PASS",
+    "eightLifecycleStates": "PASS",
+    "practiceGlobalAndLocal": "PASS",
+    "builderModelTest": "PASS",
+    "frozenPrespecAndOldBuildManifests": "PASS"
+  },
+  "candidate003ExistedAtReview": false,
+  "browserClaims": false,
+  "remaining": "Package only these reviewed source bytes as candidate003, then audit immutable build, HTTP routes, actual browser controls and retained evidence."
+}

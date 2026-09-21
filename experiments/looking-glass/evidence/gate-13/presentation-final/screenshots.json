@@ -1,0 +1,26 @@
+[
+  {
+    "label": "preparation-scope-and-next-decision",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/presentation-final/screenshots/preparation-scope-and-next-decision.jpg",
+    "sha256": "c3fb8618fd0473484531fd7054f30ebd9e10642494e8c7d91d51b9c94a7de023",
+    "bytes": 115391,
+    "beforeObservationIndex": 1,
+    "afterObservationIndex": 2
+  },
+  {
+    "label": "comparison-evidence",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/presentation-final/screenshots/comparison-evidence.jpg",
+    "sha256": "87c0ae1b791a019ea27878b079ce5779d4583c95c8d3291785c82672393f7b33",
+    "bytes": 73454,
+    "beforeObservationIndex": 4,
+    "afterObservationIndex": 5
+  },
+  {
+    "label": "final-results-top",
+    "path": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-13/presentation-final/screenshots/final-results-top.jpg",
+    "sha256": "c253b6eae12783ecd9a9aaf0b56b5e9b1bd202853336f3b135676bc3a5920868",
+    "bytes": 80678,
+    "beforeObservationIndex": 7,
+    "afterObservationIndex": 8
+  }
+]

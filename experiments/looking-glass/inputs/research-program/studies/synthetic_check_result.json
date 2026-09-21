@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "kind": "bounded synthetic fixture key consistency",
+  "states": [
+    {
+      "state": "S1",
+      "physical_plans": [
+        "bridge|compact|long",
+        "orchard|compact|long"
+      ],
+      "proposed_plan_physically_feasible": true,
+      "authorized_under_task_rule": true,
+      "action_ready": true
+    },
+    {
+      "state": "S2",
+      "physical_plans": [
+        "bridge|compact|long"
+      ],
+      "proposed_plan_physically_feasible": false,
+      "authorized_under_task_rule": true,
+      "action_ready": false
+    },
+    {
+      "state": "S3",
+      "physical_plans": [
+        "bridge|compact|long"
+      ],
+      "proposed_plan_physically_feasible": true,
+      "authorized_under_task_rule": false,
+      "action_ready": false
+    },
+    {
+      "state": "S4",
+      "physical_plans": [
+        "bridge|compact|long"
+      ],
+      "proposed_plan_physically_feasible": true,
+      "authorized_under_task_rule": true,
+      "action_ready": true
+    }
+  ],
+  "candidate_plans_checked": 32,
+  "proposed_plan_observations_checked": 4,
+  "readiness_counterexample": "S3/S4 share route/count but differ in current readiness.",
+  "capability_request_checks": [
+    {
+      "world": "independent_power",
+      "requested_units": 1,
+      "feasible": true,
+      "witness_assignments": [
+        [
+          "battery-A"
+        ],
+        [
+          "battery-B"
+        ]
+      ]
+    },
+    {
+      "world": "independent_power",
+      "requested_units": 2,
+      "feasible": true,
+      "witness_assignments": [
+        [
+          "battery-A",
+          "battery-B"
+        ],
+        [
+          "battery-B",
+          "battery-A"
+        ]
+      ]
+    },
+    {
+      "world": "shared_power",
+      "requested_units": 1,
+      "feasible": true,
+      "witness_assignments": [
+        [
+          "battery-A"
+        ]
+      ]
+    },
+    {
+      "world": "shared_power",
+      "requested_units": 2,
+      "feasible": false,
+      "witness_assignments": []
+    }
+  ],
+  "capability_counterexample": "Equal two-kit offers conceal one versus two exclusive batteries; only the latter serves two simultaneous requests.",
+  "not_tested": [
+    "deployed software",
+    "visualizer rendering",
+    "human understanding",
+    "collective interaction advantage",
+    "predictive dynamics",
+    "arbitrary authorization policies"
+  ]
+}

@@ -1,0 +1,1353 @@
+[
+  {
+    "index": 0,
+    "name": "Set viewport 1280 by 720",
+    "label": "Set viewport 1280 by 720",
+    "startedAtUtc": "2026-09-20T09:30:53.814Z",
+    "beforeObservation": 1,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:53.890Z",
+    "afterObservation": 2
+  },
+  {
+    "index": 1,
+    "name": "Open shared worked practice",
+    "label": "read common practice once",
+    "startedAtUtc": "2026-09-20T09:30:53.895Z",
+    "beforeObservation": 3,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:54.299Z",
+    "afterObservation": 4
+  },
+  {
+    "index": 2,
+    "name": "Close shared worked practice",
+    "label": "close common practice",
+    "startedAtUtc": "2026-09-20T09:30:54.332Z",
+    "beforeObservation": 7,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:54.690Z",
+    "afterObservation": 8
+  },
+  {
+    "index": 3,
+    "name": "Reopen saved start",
+    "label": "Reopen saved start",
+    "startedAtUtc": "2026-09-20T09:30:54.697Z",
+    "beforeObservation": 9,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:55.036Z",
+    "afterObservation": 10
+  },
+  {
+    "index": 4,
+    "name": "Checkpoint 0 s",
+    "label": "initial checkpoint 0",
+    "startedAtUtc": "2026-09-20T09:30:55.042Z",
+    "beforeObservation": 11,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:55.359Z",
+    "afterObservation": 12
+  },
+  {
+    "index": 5,
+    "name": "Checkpoint 2 s",
+    "label": "initial checkpoint 2",
+    "startedAtUtc": "2026-09-20T09:30:55.374Z",
+    "beforeObservation": 13,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:55.749Z",
+    "afterObservation": 14
+  },
+  {
+    "index": 6,
+    "name": "Checkpoint 4 s",
+    "label": "initial checkpoint 4",
+    "startedAtUtc": "2026-09-20T09:30:55.756Z",
+    "beforeObservation": 15,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:56.084Z",
+    "afterObservation": 16
+  },
+  {
+    "index": 7,
+    "name": "Checkpoint 6 s",
+    "label": "initial checkpoint 6",
+    "startedAtUtc": "2026-09-20T09:30:56.090Z",
+    "beforeObservation": 17,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:56.431Z",
+    "afterObservation": 18
+  },
+  {
+    "index": 8,
+    "name": "Checkpoint 8 s",
+    "label": "initial checkpoint 8",
+    "startedAtUtc": "2026-09-20T09:30:56.438Z",
+    "beforeObservation": 19,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:56.796Z",
+    "afterObservation": 20
+  },
+  {
+    "index": 9,
+    "name": "Checkpoint 10 s",
+    "label": "initial checkpoint 10",
+    "startedAtUtc": "2026-09-20T09:30:56.804Z",
+    "beforeObservation": 21,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:57.162Z",
+    "afterObservation": 22
+  },
+  {
+    "index": 10,
+    "name": "Checkpoint 12 s",
+    "label": "initial checkpoint 12",
+    "startedAtUtc": "2026-09-20T09:30:57.169Z",
+    "beforeObservation": 23,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:57.507Z",
+    "afterObservation": 24
+  },
+  {
+    "index": 11,
+    "name": "Checkpoint 14 s",
+    "label": "initial checkpoint 14",
+    "startedAtUtc": "2026-09-20T09:30:57.514Z",
+    "beforeObservation": 25,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:57.899Z",
+    "afterObservation": 26
+  },
+  {
+    "index": 12,
+    "name": "Checkpoint 20 s",
+    "label": "initial checkpoint 20",
+    "startedAtUtc": "2026-09-20T09:30:57.906Z",
+    "beforeObservation": 27,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:58.306Z",
+    "afterObservation": 28
+  },
+  {
+    "index": 13,
+    "name": "Checkpoint 24 s",
+    "label": "initial checkpoint 24",
+    "startedAtUtc": "2026-09-20T09:30:58.329Z",
+    "beforeObservation": 29,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:30:58.701Z",
+    "afterObservation": 30
+  },
+  {
+    "index": 14,
+    "name": "New choice",
+    "label": "T01 begin actual choice",
+    "startedAtUtc": "2026-09-20T09:31:20.486Z",
+    "beforeObservation": 31,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:20.837Z",
+    "afterObservation": 32
+  },
+  {
+    "index": 15,
+    "name": "Observe known x-w quarter-turn",
+    "label": "T01 first choice xw",
+    "startedAtUtc": "2026-09-20T09:31:20.843Z",
+    "beforeObservation": 33,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:21.196Z",
+    "afterObservation": 34
+  },
+  {
+    "index": 16,
+    "name": "Observe known y-v quarter-turn",
+    "label": "T01 second choice yv and automatic seal",
+    "startedAtUtc": "2026-09-20T09:31:21.202Z",
+    "beforeObservation": 35,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:21.566Z",
+    "afterObservation": 36
+  },
+  {
+    "index": 17,
+    "name": "Export completed route",
+    "label": "G9-T01 choose export",
+    "startedAtUtc": "2026-09-20T09:31:21.573Z",
+    "beforeObservation": 37,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:22.104Z",
+    "afterObservation": 38
+  },
+  {
+    "index": 18,
+    "name": "T01 bring observation cards into view",
+    "label": "T01 bring observation cards into view",
+    "startedAtUtc": "2026-09-20T09:31:22.122Z",
+    "beforeObservation": 39,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:22.632Z",
+    "afterObservation": 40
+  },
+  {
+    "index": 19,
+    "name": "Review watch",
+    "label": "T01 open yoked watch",
+    "startedAtUtc": "2026-09-20T09:31:22.766Z",
+    "beforeObservation": 43,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:23.147Z",
+    "afterObservation": 44
+  },
+  {
+    "index": 20,
+    "name": "Play presentation",
+    "label": "T01 standard watch start",
+    "startedAtUtc": "2026-09-20T09:31:23.155Z",
+    "beforeObservation": 45,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:23.496Z",
+    "afterObservation": 46
+  },
+  {
+    "index": 21,
+    "name": "Export completed route",
+    "label": "G9-T01 watch export",
+    "startedAtUtc": "2026-09-20T09:31:42.728Z",
+    "beforeObservation": 50,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:43.296Z",
+    "afterObservation": 51
+  },
+  {
+    "index": 22,
+    "name": "T01 scroll to complete watch card",
+    "label": "T01 scroll to complete watch card",
+    "startedAtUtc": "2026-09-20T09:31:43.329Z",
+    "beforeObservation": 52,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:43.756Z",
+    "afterObservation": 53
+  },
+  {
+    "index": 23,
+    "name": "Review static",
+    "label": "T01 open identical sheet",
+    "startedAtUtc": "2026-09-20T09:31:43.856Z",
+    "beforeObservation": 56,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:44.218Z",
+    "afterObservation": 57
+  },
+  {
+    "index": 24,
+    "name": "Play presentation",
+    "label": "T01 standard static timer start",
+    "startedAtUtc": "2026-09-20T09:31:44.227Z",
+    "beforeObservation": 58,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:31:44.557Z",
+    "afterObservation": 59
+  },
+  {
+    "index": 25,
+    "name": "Export completed route",
+    "label": "G9-T01 static export",
+    "startedAtUtc": "2026-09-20T09:32:22.263Z",
+    "beforeObservation": 61,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:22.842Z",
+    "afterObservation": 62
+  },
+  {
+    "index": 26,
+    "name": "T01 align static sheet in viewport",
+    "label": "T01 align static sheet in viewport",
+    "startedAtUtc": "2026-09-20T09:32:22.875Z",
+    "beforeObservation": 63,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:23.308Z",
+    "afterObservation": 64
+  },
+  {
+    "index": 27,
+    "name": "Review choose",
+    "label": "T01 revisit completed choice",
+    "startedAtUtc": "2026-09-20T09:32:48.477Z",
+    "beforeObservation": 67,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:48.849Z",
+    "afterObservation": 68
+  },
+  {
+    "index": 28,
+    "name": "T01 align completed choice",
+    "label": "T01 align completed choice",
+    "startedAtUtc": "2026-09-20T09:32:48.862Z",
+    "beforeObservation": 69,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:49.097Z",
+    "afterObservation": 70
+  },
+  {
+    "index": 29,
+    "name": "New choice",
+    "label": "T02 begin reversed choices",
+    "startedAtUtc": "2026-09-20T09:32:49.153Z",
+    "beforeObservation": 73,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:49.533Z",
+    "afterObservation": 74
+  },
+  {
+    "index": 30,
+    "name": "Observe known y-v quarter-turn",
+    "label": "T02 first yv",
+    "startedAtUtc": "2026-09-20T09:32:49.555Z",
+    "beforeObservation": 75,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:49.895Z",
+    "afterObservation": 76
+  },
+  {
+    "index": 31,
+    "name": "Observe known x-w quarter-turn",
+    "label": "T02 second xw",
+    "startedAtUtc": "2026-09-20T09:32:49.905Z",
+    "beforeObservation": 77,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:50.262Z",
+    "afterObservation": 78
+  },
+  {
+    "index": 32,
+    "name": "Export completed route",
+    "label": "G9-T02 choose export",
+    "startedAtUtc": "2026-09-20T09:32:50.272Z",
+    "beforeObservation": 79,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:50.884Z",
+    "afterObservation": 80
+  },
+  {
+    "index": 33,
+    "name": "Review watch",
+    "label": "T02 manual watch",
+    "startedAtUtc": "2026-09-20T09:32:50.904Z",
+    "beforeObservation": 81,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:51.293Z",
+    "afterObservation": 82
+  },
+  {
+    "index": 34,
+    "name": "Next observation",
+    "label": "T02 watch index1",
+    "startedAtUtc": "2026-09-20T09:32:51.304Z",
+    "beforeObservation": 83,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:51.649Z",
+    "afterObservation": 84
+  },
+  {
+    "index": 35,
+    "name": "Previous observation",
+    "label": "T02 backtrack to baseline",
+    "startedAtUtc": "2026-09-20T09:32:51.659Z",
+    "beforeObservation": 85,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:52.005Z",
+    "afterObservation": 86
+  },
+  {
+    "index": 36,
+    "name": "Next observation",
+    "label": "T02 return index1",
+    "startedAtUtc": "2026-09-20T09:32:52.015Z",
+    "beforeObservation": 87,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:52.370Z",
+    "afterObservation": 88
+  },
+  {
+    "index": 37,
+    "name": "Next observation",
+    "label": "T02 index2",
+    "startedAtUtc": "2026-09-20T09:32:52.380Z",
+    "beforeObservation": 89,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:52.713Z",
+    "afterObservation": 90
+  },
+  {
+    "index": 38,
+    "name": "Next observation",
+    "label": "T02 manual watch completion",
+    "startedAtUtc": "2026-09-20T09:32:52.723Z",
+    "beforeObservation": 91,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:53.104Z",
+    "afterObservation": 92
+  },
+  {
+    "index": 39,
+    "name": "Export completed route",
+    "label": "G9-T02 watch export",
+    "startedAtUtc": "2026-09-20T09:32:53.115Z",
+    "beforeObservation": 93,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:53.701Z",
+    "afterObservation": 94
+  },
+  {
+    "index": 40,
+    "name": "Review static",
+    "label": "T02 static",
+    "startedAtUtc": "2026-09-20T09:32:53.734Z",
+    "beforeObservation": 95,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:54.116Z",
+    "afterObservation": 96
+  },
+  {
+    "index": 41,
+    "name": "Finish sheet review",
+    "label": "T02 manual static completion",
+    "startedAtUtc": "2026-09-20T09:32:54.126Z",
+    "beforeObservation": 97,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:54.524Z",
+    "afterObservation": 98
+  },
+  {
+    "index": 42,
+    "name": "Export completed route",
+    "label": "G9-T02 static export",
+    "startedAtUtc": "2026-09-20T09:32:54.556Z",
+    "beforeObservation": 99,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:32:55.140Z",
+    "afterObservation": 100
+  },
+  {
+    "index": 43,
+    "name": "New choice",
+    "label": "T03 begin repeated xw",
+    "startedAtUtc": "2026-09-20T09:33:20.510Z",
+    "beforeObservation": 101,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:20.876Z",
+    "afterObservation": 102
+  },
+  {
+    "index": 44,
+    "name": "Observe known x-w quarter-turn",
+    "label": "T03 first xw",
+    "startedAtUtc": "2026-09-20T09:33:20.889Z",
+    "beforeObservation": 103,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:21.231Z",
+    "afterObservation": 104
+  },
+  {
+    "index": 45,
+    "name": "Observe known x-w quarter-turn",
+    "label": "T03 repeat xw",
+    "startedAtUtc": "2026-09-20T09:33:21.253Z",
+    "beforeObservation": 105,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:21.606Z",
+    "afterObservation": 106
+  },
+  {
+    "index": 46,
+    "name": "Export completed route",
+    "label": "G9-T03 choose export",
+    "startedAtUtc": "2026-09-20T09:33:21.618Z",
+    "beforeObservation": 107,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:22.257Z",
+    "afterObservation": 108
+  },
+  {
+    "index": 47,
+    "name": "Review watch",
+    "label": "T03 watch",
+    "startedAtUtc": "2026-09-20T09:33:22.323Z",
+    "beforeObservation": 110,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:22.692Z",
+    "afterObservation": 111
+  },
+  {
+    "index": 48,
+    "name": "Next observation",
+    "label": "T03 manual watch step 1",
+    "startedAtUtc": "2026-09-20T09:33:22.704Z",
+    "beforeObservation": 112,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:23.045Z",
+    "afterObservation": 113
+  },
+  {
+    "index": 49,
+    "name": "Next observation",
+    "label": "T03 manual watch step 2",
+    "startedAtUtc": "2026-09-20T09:33:23.059Z",
+    "beforeObservation": 114,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:23.401Z",
+    "afterObservation": 115
+  },
+  {
+    "index": 50,
+    "name": "Next observation",
+    "label": "T03 manual watch step 3",
+    "startedAtUtc": "2026-09-20T09:33:23.414Z",
+    "beforeObservation": 116,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:23.769Z",
+    "afterObservation": 117
+  },
+  {
+    "index": 51,
+    "name": "Export completed route",
+    "label": "G9-T03 watch export",
+    "startedAtUtc": "2026-09-20T09:33:23.783Z",
+    "beforeObservation": 118,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:24.420Z",
+    "afterObservation": 119
+  },
+  {
+    "index": 52,
+    "name": "Review static",
+    "label": "T03 repeated sheet",
+    "startedAtUtc": "2026-09-20T09:33:24.452Z",
+    "beforeObservation": 120,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:24.802Z",
+    "afterObservation": 121
+  },
+  {
+    "index": 53,
+    "name": "Finish sheet review",
+    "label": "T03 sheet manual complete",
+    "startedAtUtc": "2026-09-20T09:33:24.817Z",
+    "beforeObservation": 122,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:25.216Z",
+    "afterObservation": 123
+  },
+  {
+    "index": 54,
+    "name": "Export completed route",
+    "label": "G9-T03 static export",
+    "startedAtUtc": "2026-09-20T09:33:25.248Z",
+    "beforeObservation": 124,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:25.894Z",
+    "afterObservation": 125
+  },
+  {
+    "index": 55,
+    "name": "New choice",
+    "label": "T04 begin repeated baseline",
+    "startedAtUtc": "2026-09-20T09:33:25.927Z",
+    "beforeObservation": 126,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:26.304Z",
+    "afterObservation": 127
+  },
+  {
+    "index": 56,
+    "name": "Observe original xyz projection again",
+    "label": "T04 first repeated project",
+    "startedAtUtc": "2026-09-20T09:33:26.319Z",
+    "beforeObservation": 128,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:26.686Z",
+    "afterObservation": 129
+  },
+  {
+    "index": 57,
+    "name": "Observe original xyz projection again",
+    "label": "T04 second repeated project",
+    "startedAtUtc": "2026-09-20T09:33:26.701Z",
+    "beforeObservation": 130,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:27.052Z",
+    "afterObservation": 131
+  },
+  {
+    "index": 58,
+    "name": "Export completed route",
+    "label": "G9-T04 choose export",
+    "startedAtUtc": "2026-09-20T09:33:27.068Z",
+    "beforeObservation": 132,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:27.728Z",
+    "afterObservation": 133
+  },
+  {
+    "index": 59,
+    "name": "Review watch",
+    "label": "T04 watch",
+    "startedAtUtc": "2026-09-20T09:33:27.757Z",
+    "beforeObservation": 134,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:28.133Z",
+    "afterObservation": 135
+  },
+  {
+    "index": 60,
+    "name": "Next observation",
+    "label": "T04 manual watch step 1",
+    "startedAtUtc": "2026-09-20T09:33:28.150Z",
+    "beforeObservation": 136,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:28.478Z",
+    "afterObservation": 137
+  },
+  {
+    "index": 61,
+    "name": "Next observation",
+    "label": "T04 manual watch step 2",
+    "startedAtUtc": "2026-09-20T09:33:28.494Z",
+    "beforeObservation": 138,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:28.864Z",
+    "afterObservation": 139
+  },
+  {
+    "index": 62,
+    "name": "Next observation",
+    "label": "T04 manual watch step 3",
+    "startedAtUtc": "2026-09-20T09:33:28.877Z",
+    "beforeObservation": 140,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:29.236Z",
+    "afterObservation": 141
+  },
+  {
+    "index": 63,
+    "name": "Export completed route",
+    "label": "G9-T04 watch export",
+    "startedAtUtc": "2026-09-20T09:33:29.252Z",
+    "beforeObservation": 142,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:29.948Z",
+    "afterObservation": 143
+  },
+  {
+    "index": 64,
+    "name": "Review static",
+    "label": "T04 all baseline cards",
+    "startedAtUtc": "2026-09-20T09:33:29.981Z",
+    "beforeObservation": 144,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:30.345Z",
+    "afterObservation": 145
+  },
+  {
+    "index": 65,
+    "name": "Finish sheet review",
+    "label": "T04 manual sheet complete",
+    "startedAtUtc": "2026-09-20T09:33:30.358Z",
+    "beforeObservation": 146,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:30.752Z",
+    "afterObservation": 147
+  },
+  {
+    "index": 66,
+    "name": "Export completed route",
+    "label": "G9-T04 static export",
+    "startedAtUtc": "2026-09-20T09:33:30.770Z",
+    "beforeObservation": 148,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:31.489Z",
+    "afterObservation": 149
+  },
+  {
+    "index": 67,
+    "name": "T04 align nonseparating static sheet",
+    "label": "T04 align nonseparating static sheet",
+    "startedAtUtc": "2026-09-20T09:33:31.527Z",
+    "beforeObservation": 150,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:33:32.091Z",
+    "afterObservation": 151
+  },
+  {
+    "index": 68,
+    "name": "Resize to 960 by 720",
+    "label": "Resize to 960 by 720",
+    "startedAtUtc": "2026-09-20T09:34:05.543Z",
+    "beforeObservation": 154,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:05.989Z",
+    "afterObservation": 155
+  },
+  {
+    "index": 69,
+    "name": "Align narrow static layout",
+    "label": "Align narrow static layout",
+    "startedAtUtc": "2026-09-20T09:34:06.025Z",
+    "beforeObservation": 156,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:06.565Z",
+    "afterObservation": 157
+  },
+  {
+    "index": 70,
+    "name": "Scroll narrow sheet to retained third card",
+    "label": "Scroll narrow sheet to retained third card",
+    "startedAtUtc": "2026-09-20T09:34:06.634Z",
+    "beforeObservation": 160,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:07.186Z",
+    "afterObservation": 161
+  },
+  {
+    "index": 71,
+    "name": "New choice",
+    "label": "new incomplete draft after four sealed traces",
+    "startedAtUtc": "2026-09-20T09:34:07.254Z",
+    "beforeObservation": 164,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:07.615Z",
+    "afterObservation": 165
+  },
+  {
+    "index": 72,
+    "name": "Restore retained T04 registry entry",
+    "label": "Restore retained T04 registry entry",
+    "startedAtUtc": "2026-09-20T09:34:07.641Z",
+    "beforeObservation": 167,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:07.741Z",
+    "afterObservation": 168
+  },
+  {
+    "index": 73,
+    "name": "Export completed route",
+    "label": "G9-T04-registry-return choose export",
+    "startedAtUtc": "2026-09-20T09:34:07.757Z",
+    "beforeObservation": 169,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:08.406Z",
+    "afterObservation": 170
+  },
+  {
+    "index": 74,
+    "name": "Restore viewport 1280 by 720",
+    "label": "Restore viewport 1280 by 720",
+    "startedAtUtc": "2026-09-20T09:34:08.468Z",
+    "beforeObservation": 171,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:09.006Z",
+    "afterObservation": 172
+  },
+  {
+    "index": 75,
+    "name": "Select retained actual T01 for control checks",
+    "label": "Select retained actual T01 for control checks",
+    "startedAtUtc": "2026-09-20T09:34:56.601Z",
+    "beforeObservation": 173,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:56.692Z",
+    "afterObservation": 174
+  },
+  {
+    "index": 76,
+    "name": "Review watch",
+    "label": "control check local watch",
+    "startedAtUtc": "2026-09-20T09:34:56.712Z",
+    "beforeObservation": 175,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:57.063Z",
+    "afterObservation": 176
+  },
+  {
+    "index": 77,
+    "name": "Next observation",
+    "label": "control check watch manual completion 1",
+    "startedAtUtc": "2026-09-20T09:34:57.081Z",
+    "beforeObservation": 177,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:57.425Z",
+    "afterObservation": 178
+  },
+  {
+    "index": 78,
+    "name": "Next observation",
+    "label": "control check watch manual completion 2",
+    "startedAtUtc": "2026-09-20T09:34:57.445Z",
+    "beforeObservation": 179,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:57.803Z",
+    "afterObservation": 180
+  },
+  {
+    "index": 79,
+    "name": "Next observation",
+    "label": "control check watch manual completion 3",
+    "startedAtUtc": "2026-09-20T09:34:57.833Z",
+    "beforeObservation": 181,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:58.205Z",
+    "afterObservation": 182
+  },
+  {
+    "index": 80,
+    "name": "Align full watch card",
+    "label": "Align full watch card",
+    "startedAtUtc": "2026-09-20T09:34:58.234Z",
+    "beforeObservation": 183,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:58.478Z",
+    "afterObservation": 184
+  },
+  {
+    "index": 81,
+    "name": "Restart presentation",
+    "label": "local watch restart resets acquired prefix",
+    "startedAtUtc": "2026-09-20T09:34:58.567Z",
+    "beforeObservation": 187,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:58.934Z",
+    "afterObservation": 188
+  },
+  {
+    "index": 82,
+    "name": "Play presentation",
+    "label": "local watch start before pause",
+    "startedAtUtc": "2026-09-20T09:34:58.954Z",
+    "beforeObservation": 189,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:59.291Z",
+    "afterObservation": 190
+  },
+  {
+    "index": 83,
+    "name": "Pause presentation",
+    "label": "local watch manual pause",
+    "startedAtUtc": "2026-09-20T09:34:59.343Z",
+    "beforeObservation": 191,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:34:59.708Z",
+    "afterObservation": 192
+  },
+  {
+    "index": 84,
+    "name": "Play presentation",
+    "label": "local watch resume",
+    "startedAtUtc": "2026-09-20T09:34:59.726Z",
+    "beforeObservation": 193,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:00.053Z",
+    "afterObservation": 194
+  },
+  {
+    "index": 85,
+    "name": "Restart presentation",
+    "label": "local watch restart while playing",
+    "startedAtUtc": "2026-09-20T09:35:00.071Z",
+    "beforeObservation": 195,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:00.415Z",
+    "afterObservation": 196
+  },
+  {
+    "index": 86,
+    "name": "Play presentation",
+    "label": "local watch start before practice reinspection",
+    "startedAtUtc": "2026-09-20T09:35:00.434Z",
+    "beforeObservation": 197,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:00.789Z",
+    "afterObservation": 198
+  },
+  {
+    "index": 87,
+    "name": "Open shared worked practice",
+    "label": "practice reinspection pauses local playback",
+    "startedAtUtc": "2026-09-20T09:35:00.809Z",
+    "beforeObservation": 199,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:01.151Z",
+    "afterObservation": 200
+  },
+  {
+    "index": 88,
+    "name": "Close shared worked practice",
+    "label": "close practice reinspection",
+    "startedAtUtc": "2026-09-20T09:35:33.699Z",
+    "beforeObservation": 202,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:34.065Z",
+    "afterObservation": 203
+  },
+  {
+    "index": 89,
+    "name": "Review choose",
+    "label": "return actual T01 completed choice",
+    "startedAtUtc": "2026-09-20T09:35:34.087Z",
+    "beforeObservation": 204,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:34.453Z",
+    "afterObservation": 205
+  },
+  {
+    "index": 90,
+    "name": "Export completed route",
+    "label": "regression-local-T01 choose export",
+    "startedAtUtc": "2026-09-20T09:35:34.473Z",
+    "beforeObservation": 206,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:35.213Z",
+    "afterObservation": 207
+  },
+  {
+    "index": 91,
+    "name": "Checkpoint 4 s",
+    "label": "same-hash canonical restore clears local export",
+    "startedAtUtc": "2026-09-20T09:35:35.270Z",
+    "beforeObservation": 208,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:35.625Z",
+    "afterObservation": 209
+  },
+  {
+    "index": 92,
+    "name": "Play saved tour",
+    "label": "global play from checkpoint4",
+    "startedAtUtc": "2026-09-20T09:35:35.655Z",
+    "beforeObservation": 210,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:36.012Z",
+    "afterObservation": 211
+  },
+  {
+    "index": 93,
+    "name": "Pause saved tour",
+    "label": "global manual pause",
+    "startedAtUtc": "2026-09-20T09:35:36.039Z",
+    "beforeObservation": 212,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:36.429Z",
+    "afterObservation": 213
+  },
+  {
+    "index": 94,
+    "name": "Previous checkpoint",
+    "label": "global previous checkpoint",
+    "startedAtUtc": "2026-09-20T09:35:36.451Z",
+    "beforeObservation": 214,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:36.787Z",
+    "afterObservation": 215
+  },
+  {
+    "index": 95,
+    "name": "Next checkpoint",
+    "label": "global next checkpoint",
+    "startedAtUtc": "2026-09-20T09:35:36.808Z",
+    "beforeObservation": 216,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:37.162Z",
+    "afterObservation": 217
+  },
+  {
+    "index": 96,
+    "name": "Play saved tour",
+    "label": "start saved watch before manual interruption",
+    "startedAtUtc": "2026-09-20T09:35:37.184Z",
+    "beforeObservation": 218,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:37.537Z",
+    "afterObservation": 219
+  },
+  {
+    "index": 97,
+    "name": "Pause presentation",
+    "label": "manual presentation pause cancels saved tour clock",
+    "startedAtUtc": "2026-09-20T09:35:37.558Z",
+    "beforeObservation": 220,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:37.895Z",
+    "afterObservation": 221
+  },
+  {
+    "index": 98,
+    "name": "Checkpoint 2 s",
+    "label": "restore first canonical choice for provenance check",
+    "startedAtUtc": "2026-09-20T09:35:37.916Z",
+    "beforeObservation": 222,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:38.279Z",
+    "afterObservation": 223
+  },
+  {
+    "index": 99,
+    "name": "Observe known y-v quarter-turn",
+    "label": "actual second choice after canonical restore",
+    "startedAtUtc": "2026-09-20T09:35:38.300Z",
+    "beforeObservation": 224,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:35:38.657Z",
+    "afterObservation": 225
+  },
+  {
+    "index": 100,
+    "name": "Export completed route",
+    "label": "regression-restored-choice choose export",
+    "startedAtUtc": "2026-09-20T09:35:38.676Z",
+    "beforeObservation": 226,
+    "success": false,
+    "error": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector internal:role=button[name=\"Export completed route\"s]\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"click\",\"locator\":\"internal:role=button[name=\\\"Export completed route\\\"s]\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":null,\"disabled\":true,\"role\":null,\"tag\":\"button\",\"text\":\"Export completed route\",\"type\":\"button\",\"visible\":true}],\"visibleCount\":1,\"truncated\":false}",
+    "finishedAtUtc": "2026-09-20T09:35:41.783Z",
+    "afterObservation": 227
+  },
+  {
+    "index": 101,
+    "name": "Observe known x-w quarter-turn",
+    "label": "finish fresh local draft after saved-state control transition",
+    "startedAtUtc": "2026-09-20T09:36:26.100Z",
+    "beforeObservation": 229,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:36:26.456Z",
+    "afterObservation": 230
+  },
+  {
+    "index": 102,
+    "name": "Export completed route",
+    "label": "regression-new-choice-after-restore choose export",
+    "startedAtUtc": "2026-09-20T09:36:26.478Z",
+    "beforeObservation": 231,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:36:27.323Z",
+    "afterObservation": 232
+  },
+  {
+    "index": 103,
+    "name": "Checkpoint 2 s",
+    "label": "canonical provenance resume checkpoint2",
+    "startedAtUtc": "2026-09-20T09:36:27.388Z",
+    "beforeObservation": 233,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:36:27.755Z",
+    "afterObservation": 234
+  },
+  {
+    "index": 104,
+    "name": "Play saved tour",
+    "label": "resume canonical timeline from checkpoint2",
+    "startedAtUtc": "2026-09-20T09:36:27.774Z",
+    "beforeObservation": 235,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:36:28.113Z",
+    "afterObservation": 236
+  },
+  {
+    "index": 105,
+    "name": "Pause saved tour",
+    "label": "pause resumed canonical trace",
+    "startedAtUtc": "2026-09-20T09:36:43.412Z",
+    "beforeObservation": 238,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:36:43.776Z",
+    "afterObservation": 239
+  },
+  {
+    "index": 106,
+    "name": "Finish sheet review",
+    "label": "finish paused canonical resume manually",
+    "startedAtUtc": "2026-09-20T09:37:15.428Z",
+    "beforeObservation": 240,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:15.827Z",
+    "afterObservation": 241
+  },
+  {
+    "index": 107,
+    "name": "Export completed route",
+    "label": "regression-canonical-resume static export",
+    "startedAtUtc": "2026-09-20T09:37:15.859Z",
+    "beforeObservation": 242,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:16.775Z",
+    "afterObservation": 243
+  },
+  {
+    "index": 108,
+    "name": "Reopen saved start",
+    "label": "reset after all exploration",
+    "startedAtUtc": "2026-09-20T09:37:16.841Z",
+    "beforeObservation": 244,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:17.180Z",
+    "afterObservation": 245
+  },
+  {
+    "index": 109,
+    "name": "Checkpoint 0 s",
+    "label": "after-exploration checkpoint 0",
+    "startedAtUtc": "2026-09-20T09:37:17.200Z",
+    "beforeObservation": 246,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:17.550Z",
+    "afterObservation": 247
+  },
+  {
+    "index": 110,
+    "name": "Checkpoint 2 s",
+    "label": "after-exploration checkpoint 2",
+    "startedAtUtc": "2026-09-20T09:37:17.586Z",
+    "beforeObservation": 248,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:17.948Z",
+    "afterObservation": 249
+  },
+  {
+    "index": 111,
+    "name": "Checkpoint 4 s",
+    "label": "after-exploration checkpoint 4",
+    "startedAtUtc": "2026-09-20T09:37:17.989Z",
+    "beforeObservation": 250,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:18.381Z",
+    "afterObservation": 251
+  },
+  {
+    "index": 112,
+    "name": "Checkpoint 6 s",
+    "label": "after-exploration checkpoint 6",
+    "startedAtUtc": "2026-09-20T09:37:18.420Z",
+    "beforeObservation": 252,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:18.745Z",
+    "afterObservation": 253
+  },
+  {
+    "index": 113,
+    "name": "Checkpoint 8 s",
+    "label": "after-exploration checkpoint 8",
+    "startedAtUtc": "2026-09-20T09:37:18.779Z",
+    "beforeObservation": 254,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:19.164Z",
+    "afterObservation": 255
+  },
+  {
+    "index": 114,
+    "name": "Checkpoint 10 s",
+    "label": "after-exploration checkpoint 10",
+    "startedAtUtc": "2026-09-20T09:37:19.203Z",
+    "beforeObservation": 256,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:19.562Z",
+    "afterObservation": 257
+  },
+  {
+    "index": 115,
+    "name": "Checkpoint 12 s",
+    "label": "after-exploration checkpoint 12",
+    "startedAtUtc": "2026-09-20T09:37:19.598Z",
+    "beforeObservation": 258,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:19.938Z",
+    "afterObservation": 259
+  },
+  {
+    "index": 116,
+    "name": "Checkpoint 14 s",
+    "label": "after-exploration checkpoint 14",
+    "startedAtUtc": "2026-09-20T09:37:19.977Z",
+    "beforeObservation": 260,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:20.357Z",
+    "afterObservation": 261
+  },
+  {
+    "index": 117,
+    "name": "Checkpoint 20 s",
+    "label": "after-exploration checkpoint 20",
+    "startedAtUtc": "2026-09-20T09:37:20.402Z",
+    "beforeObservation": 262,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:20.782Z",
+    "afterObservation": 263
+  },
+  {
+    "index": 118,
+    "name": "Checkpoint 24 s",
+    "label": "after-exploration checkpoint 24",
+    "startedAtUtc": "2026-09-20T09:37:20.828Z",
+    "beforeObservation": 264,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:21.202Z",
+    "afterObservation": 265
+  },
+  {
+    "index": 119,
+    "name": "Reopen saved start",
+    "label": "explicit saved-start reopening",
+    "startedAtUtc": "2026-09-20T09:37:21.269Z",
+    "beforeObservation": 266,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:21.650Z",
+    "afterObservation": 267
+  },
+  {
+    "index": 120,
+    "name": "Checkpoint 0 s",
+    "label": "after-reopen checkpoint 0",
+    "startedAtUtc": "2026-09-20T09:37:21.674Z",
+    "beforeObservation": 268,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:22.022Z",
+    "afterObservation": 269
+  },
+  {
+    "index": 121,
+    "name": "Checkpoint 24 s",
+    "label": "after-reopen checkpoint 24",
+    "startedAtUtc": "2026-09-20T09:37:22.062Z",
+    "beforeObservation": 270,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:22.431Z",
+    "afterObservation": 271
+  },
+  {
+    "index": 122,
+    "name": "Export event log",
+    "label": "preserve session1 before reload",
+    "startedAtUtc": "2026-09-20T09:37:22.497Z",
+    "beforeObservation": 272,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:23.162Z",
+    "afterObservation": 273
+  },
+  {
+    "index": 123,
+    "name": "Reload immutable candidate and reset session",
+    "label": "Reload immutable candidate and reset session",
+    "startedAtUtc": "2026-09-20T09:37:23.199Z",
+    "beforeObservation": 274,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:23.400Z",
+    "afterObservation": 275
+  },
+  {
+    "index": 124,
+    "name": "Checkpoint 0 s",
+    "label": "after-reload checkpoint 0",
+    "startedAtUtc": "2026-09-20T09:37:23.423Z",
+    "beforeObservation": 276,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:23.803Z",
+    "afterObservation": 277
+  },
+  {
+    "index": 125,
+    "name": "Checkpoint 24 s",
+    "label": "after-reload checkpoint 24",
+    "startedAtUtc": "2026-09-20T09:37:23.851Z",
+    "beforeObservation": 278,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:24.251Z",
+    "afterObservation": 279
+  },
+  {
+    "index": 126,
+    "name": "Reopen saved start",
+    "label": "prepare continuous 24 second tour",
+    "startedAtUtc": "2026-09-20T09:37:24.316Z",
+    "beforeObservation": 280,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:24.664Z",
+    "afterObservation": 281
+  },
+  {
+    "index": 127,
+    "name": "Play saved tour",
+    "label": "uninterrupted full tour start",
+    "startedAtUtc": "2026-09-20T09:37:24.705Z",
+    "beforeObservation": 282,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:25.046Z",
+    "afterObservation": 283
+  },
+  {
+    "index": 128,
+    "name": "Frame active tour observation",
+    "label": "Frame active tour observation",
+    "startedAtUtc": "2026-09-20T09:37:25.074Z",
+    "beforeObservation": 284,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:37:25.329Z",
+    "afterObservation": 285
+  },
+  {
+    "index": 129,
+    "name": "Frame natural tour ending",
+    "label": "Frame natural tour ending",
+    "startedAtUtc": "2026-09-20T09:38:06.888Z",
+    "beforeObservation": 289,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:38:07.153Z",
+    "afterObservation": 290
+  },
+  {
+    "index": 130,
+    "name": "Reopen saved start",
+    "label": "core final paused saved start",
+    "startedAtUtc": "2026-09-20T09:38:07.277Z",
+    "beforeObservation": 293,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:38:07.629Z",
+    "afterObservation": 294
+  },
+  {
+    "index": 131,
+    "name": "Export event log",
+    "label": "preserve final session2 event log",
+    "startedAtUtc": "2026-09-20T09:38:07.652Z",
+    "beforeObservation": 295,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:38:08.043Z",
+    "afterObservation": 296
+  },
+  {
+    "index": 132,
+    "name": "Export event log",
+    "label": "preserve fresh return session3",
+    "startedAtUtc": "2026-09-20T09:39:35.272Z",
+    "beforeObservation": 299,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:39:35.640Z",
+    "afterObservation": 300
+  },
+  {
+    "index": 133,
+    "name": "Reset temporary viewport override",
+    "label": "Reset temporary viewport override",
+    "startedAtUtc": "2026-09-20T09:39:35.675Z",
+    "beforeObservation": 301,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:39:35.744Z",
+    "afterObservation": 302
+  },
+  {
+    "index": 134,
+    "name": "Frame final paused baseline",
+    "label": "Frame final paused baseline",
+    "startedAtUtc": "2026-09-20T09:39:35.770Z",
+    "beforeObservation": 303,
+    "success": true,
+    "finishedAtUtc": "2026-09-20T09:39:36.003Z",
+    "afterObservation": 304
+  }
+]

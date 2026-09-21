@@ -1,0 +1,34 @@
+{
+  "record_type": "gate-0-commit-recovery",
+  "recorded_at_utc": "2026-09-20T01:05:46.252Z",
+  "exact_commit_sha": "6fb4ecbd516aa9a9dc23710c7ffcda4e8c65b819",
+  "archive_scope": "experiments/looking-glass",
+  "recovery_path": "/tmp/looking-glass-g0-recovery-7ti30f/experiments/looking-glass",
+  "freeze_manifest": "evidence/gate-0/GATE_0_FREEZE.json",
+  "checksum_algorithm": "SHA-256",
+  "checksum_results": {
+    "manifest_file_count": 61,
+    "entries_checked": 61,
+    "entries_matched": 61,
+    "entries_mismatched": 0,
+    "entries_missing": 0,
+    "all_entries_match": true
+  },
+  "snapshot_test": {
+    "path": "probe/builds/g0-d85237ad31362768/test.mjs",
+    "stdout": "PASS G0-CUBE-005: 8 vertices, 12 edges, independent camera checkpoints, deterministic state, frozen source, immutable run\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "approval_record": {
+    "path": "approvals/GATE_1_APPROVAL.json",
+    "source": "actual user message in this task",
+    "approved_gate": 1,
+    "approved_scope": "3D-to-2D calibration and model/replay checks; save and commit the reviewed Gate 0 replay before starting Gate 1.",
+    "user_message": "I approve Gate 1. Save this replay and commit it then move on to the next.",
+    "gate_2_approved": false,
+    "interpretation": "This recovery record adds no approval beyond the cited actual approval record."
+  },
+  "source_modified": false,
+  "notes": "Archive extracted with git archive from the exact commit; preserved snapshot test executed from the restored path."
+}

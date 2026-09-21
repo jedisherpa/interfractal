@@ -1,0 +1,1335 @@
+{
+  "schema": "gate11-computational-results-v1",
+  "runId": "G11-RECEIVER-001",
+  "fixtureId": "G11-FIXTURE-001",
+  "sourceHashes": {
+    "family": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+    "worlds": {
+      "W00": "03f9ebaa603d3228770a4a3914712092b8bc298b152c6e71ac38ff99bae54c2f",
+      "W01": "b60670ee18da1d2e541a82a3520f3fd4419125febe0453d04998a563eb181177",
+      "W10": "1edc7b4cdc9f9b7aa5cbe9b7fb2dd9224700969047874f4c22556337a2add07b",
+      "W11": "cff451d1e1ba7bb1a118111b74ddf38b1e0e0aeaf832c36bd8b9d59dcbe29e57"
+    }
+  },
+  "fullSourceAnswers": {
+    "W00": {
+      "R_COUNT": "yes",
+      "R_RELEASE": "no"
+    },
+    "W01": {
+      "R_COUNT": "yes",
+      "R_RELEASE": "no"
+    },
+    "W10": {
+      "R_COUNT": "yes",
+      "R_RELEASE": "no"
+    },
+    "W11": {
+      "R_COUNT": "yes",
+      "R_RELEASE": "yes"
+    }
+  },
+  "certificates": [
+    {
+      "receiverId": "R_COUNT",
+      "fields": [],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 0,
+      "partitionHash": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+      "certificateHash": "e7f1b39cef032e947ae6db7cc19a8961e38f49fd3323c9abf5020ec05920b9b4"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "no",
+            "yes"
+          ],
+          "conflictingPairs": [
+            [
+              "W00",
+              "W11"
+            ],
+            [
+              "W01",
+              "W11"
+            ],
+            [
+              "W10",
+              "W11"
+            ]
+          ]
+        }
+      ],
+      "globallySufficient": false,
+      "conflictingPairs": [
+        [
+          "W00",
+          "W11"
+        ],
+        [
+          "W01",
+          "W11"
+        ],
+        [
+          "W10",
+          "W11"
+        ]
+      ],
+      "subsetMask": 0,
+      "partitionHash": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+      "certificateHash": "9566e1207d732671f78a3352c55f3303542c3ba638248fdacf7a1583ebd90956"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "calibration"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 1,
+      "partitionHash": "80002705eed1a3974f3d07bbb2f03b9d502e1d63e2cdc1b7f546e53ca436d18c",
+      "certificateHash": "ef01b1a5f1f8ca0146f710053f38b3045d278bd6e2042c975b7402fb68bf3a9f"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "calibration"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "no",
+            "yes"
+          ],
+          "conflictingPairs": [
+            [
+              "W10",
+              "W11"
+            ]
+          ]
+        }
+      ],
+      "globallySufficient": false,
+      "conflictingPairs": [
+        [
+          "W10",
+          "W11"
+        ]
+      ],
+      "subsetMask": 1,
+      "partitionHash": "80002705eed1a3974f3d07bbb2f03b9d502e1d63e2cdc1b7f546e53ca436d18c",
+      "certificateHash": "0e63d0fa8107ffcd8eabcc3e08c542ecda90fbf9c3569650f59ac305cc963953"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "authorization"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 2,
+      "partitionHash": "c899d5de68960b63b85ce19529f69c6ce86c01a5f681deaafd2dc859d6213bdd",
+      "certificateHash": "84d391d2a420fe752d3bce1693d116587e4c9873726ce8b109990389c11ce968"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "authorization"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "answers": [
+            "no",
+            "yes"
+          ],
+          "conflictingPairs": [
+            [
+              "W01",
+              "W11"
+            ]
+          ]
+        }
+      ],
+      "globallySufficient": false,
+      "conflictingPairs": [
+        [
+          "W01",
+          "W11"
+        ]
+      ],
+      "subsetMask": 2,
+      "partitionHash": "c899d5de68960b63b85ce19529f69c6ce86c01a5f681deaafd2dc859d6213bdd",
+      "certificateHash": "cf6ac4844fb73110c8f8c6de21e0e7d70f924110c141b9fa9f66e805f1f7c3d4"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 3,
+      "partitionHash": "a77be5164347992eba5976f4f71bfc5ab7ae2110af8258d0031bbe23e49a8485",
+      "certificateHash": "5ccf4d2ac98c8009e3500277159ae33ae6a80b391cd40e43a4eae9ab3057fe33"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 3,
+      "partitionHash": "a77be5164347992eba5976f4f71bfc5ab7ae2110af8258d0031bbe23e49a8485",
+      "certificateHash": "872bdad77ec168b5472fb2f3c4a8d3fc59a3c503f796326ac7b50139175bc7d6"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 4,
+      "partitionHash": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+      "certificateHash": "3e5dcce88f7844a08dda97e22e6ea2767d3b3b9c63e62f61dc06dfed7b552430"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "no",
+            "yes"
+          ],
+          "conflictingPairs": [
+            [
+              "W00",
+              "W11"
+            ],
+            [
+              "W01",
+              "W11"
+            ],
+            [
+              "W10",
+              "W11"
+            ]
+          ]
+        }
+      ],
+      "globallySufficient": false,
+      "conflictingPairs": [
+        [
+          "W00",
+          "W11"
+        ],
+        [
+          "W01",
+          "W11"
+        ],
+        [
+          "W10",
+          "W11"
+        ]
+      ],
+      "subsetMask": 4,
+      "partitionHash": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+      "certificateHash": "0140f85d668fde0692d1a5201366e6e912cd70c80ebce470090c7dc2107cb1e3"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "calibration",
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 5,
+      "partitionHash": "80002705eed1a3974f3d07bbb2f03b9d502e1d63e2cdc1b7f546e53ca436d18c",
+      "certificateHash": "388d9e773115c8a2ad7658415b590148a69b62f97c5a4864b71445ee1672234c"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "calibration",
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "no",
+            "yes"
+          ],
+          "conflictingPairs": [
+            [
+              "W10",
+              "W11"
+            ]
+          ]
+        }
+      ],
+      "globallySufficient": false,
+      "conflictingPairs": [
+        [
+          "W10",
+          "W11"
+        ]
+      ],
+      "subsetMask": 5,
+      "partitionHash": "80002705eed1a3974f3d07bbb2f03b9d502e1d63e2cdc1b7f546e53ca436d18c",
+      "certificateHash": "4642ba9d308f21d6340235a0dcaa915300b9169bce5ec86a6cbdbfeebc100214"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "authorization",
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 6,
+      "partitionHash": "c899d5de68960b63b85ce19529f69c6ce86c01a5f681deaafd2dc859d6213bdd",
+      "certificateHash": "b88cbd1c5d18713ceeac3071fced05445549b3b3b3d6110ead122a6bbdc0ad48"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "authorization",
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "answers": [
+            "no",
+            "yes"
+          ],
+          "conflictingPairs": [
+            [
+              "W01",
+              "W11"
+            ]
+          ]
+        }
+      ],
+      "globallySufficient": false,
+      "conflictingPairs": [
+        [
+          "W01",
+          "W11"
+        ]
+      ],
+      "subsetMask": 6,
+      "partitionHash": "c899d5de68960b63b85ce19529f69c6ce86c01a5f681deaafd2dc859d6213bdd",
+      "certificateHash": "b6865e5ab9b3904976c21d7b181f04639e3b56aecbe9e1c80ef0258cfd3f5560"
+    },
+    {
+      "receiverId": "R_COUNT",
+      "fields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 7,
+      "partitionHash": "a77be5164347992eba5976f4f71bfc5ab7ae2110af8258d0031bbe23e49a8485",
+      "certificateHash": "cf965b4f76c3475e43ef1c770ceea69eddcbc9274136ba27560d21556f02692c"
+    },
+    {
+      "receiverId": "R_RELEASE",
+      "fields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "answers": [
+            "no"
+          ],
+          "conflictingPairs": []
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 7,
+      "partitionHash": "a77be5164347992eba5976f4f71bfc5ab7ae2110af8258d0031bbe23e49a8485",
+      "certificateHash": "24e46f21f8303e0b3867605eade89282526c7d5073b9dc59459ac48032ab51fe"
+    }
+  ],
+  "canonicalRevisions": {
+    "S0": {
+      "id": "S0",
+      "parentId": null,
+      "parentReferenceOnly": false,
+      "fieldsBefore": [],
+      "requestedFields": [],
+      "effectiveAddedFields": [],
+      "fieldsAfter": [],
+      "triggerReceiverId": "R_COUNT",
+      "provenance": "scripted_demonstration",
+      "originEventReference": "initial-state",
+      "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+      "payloads": {
+        "W00": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {}
+        },
+        "W01": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {}
+        },
+        "W10": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {}
+        },
+        "W11": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {}
+        }
+      },
+      "payloadHashes": {
+        "W00": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042",
+        "W01": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042",
+        "W10": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042",
+        "W11": "f84e62b427ee7b1a009ccc80ce78d9c090993cf2a03b6ca5f96b43f200051042"
+      },
+      "envelopes": {
+        "W00": {
+          "worldId": "W00",
+          "fullSourceHash": "03f9ebaa603d3228770a4a3914712092b8bc298b152c6e71ac38ff99bae54c2f",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S0",
+          "originEventReference": "initial-state"
+        },
+        "W01": {
+          "worldId": "W01",
+          "fullSourceHash": "b60670ee18da1d2e541a82a3520f3fd4419125febe0453d04998a563eb181177",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S0",
+          "originEventReference": "initial-state"
+        },
+        "W10": {
+          "worldId": "W10",
+          "fullSourceHash": "1edc7b4cdc9f9b7aa5cbe9b7fb2dd9224700969047874f4c22556337a2add07b",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S0",
+          "originEventReference": "initial-state"
+        },
+        "W11": {
+          "worldId": "W11",
+          "fullSourceHash": "cff451d1e1ba7bb1a118111b74ddf38b1e0e0aeaf832c36bd8b9d59dcbe29e57",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S0",
+          "originEventReference": "initial-state"
+        }
+      },
+      "outcome": "unchanged-content",
+      "contentHash": "d35779e9d64773aff0ecb7b1fb8ec3aa4c3d5a558a02d32789d9be41da4dd1b6",
+      "historyHash": "2228ddb16d5bc76796038d587dc9afc66f6a0555349a871a04878f2bb4782f43"
+    },
+    "S1": {
+      "id": "S1",
+      "parentId": "S0",
+      "parentReferenceOnly": false,
+      "fieldsBefore": [],
+      "requestedFields": [
+        "calibration"
+      ],
+      "effectiveAddedFields": [
+        "calibration"
+      ],
+      "fieldsAfter": [
+        "calibration"
+      ],
+      "triggerReceiverId": "R_RELEASE",
+      "provenance": "scripted_demonstration",
+      "originEventReference": "G11-RECEIVER-001-script:3",
+      "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+      "payloads": {
+        "W00": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "expired",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        },
+        "W01": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "expired",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        },
+        "W10": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "current",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        },
+        "W11": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "current",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        }
+      },
+      "payloadHashes": {
+        "W00": "e7e02a14caf6306bba0a812944edfceb9c16610207cafb80fda3c4ef55383e89",
+        "W01": "e7e02a14caf6306bba0a812944edfceb9c16610207cafb80fda3c4ef55383e89",
+        "W10": "dc861068dd2482281a03ebe4fd6a847036a4a148a24b6fed748eaa0b8611e117",
+        "W11": "dc861068dd2482281a03ebe4fd6a847036a4a148a24b6fed748eaa0b8611e117"
+      },
+      "envelopes": {
+        "W00": {
+          "worldId": "W00",
+          "fullSourceHash": "03f9ebaa603d3228770a4a3914712092b8bc298b152c6e71ac38ff99bae54c2f",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S1",
+          "originEventReference": "G11-RECEIVER-001-script:3"
+        },
+        "W01": {
+          "worldId": "W01",
+          "fullSourceHash": "b60670ee18da1d2e541a82a3520f3fd4419125febe0453d04998a563eb181177",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S1",
+          "originEventReference": "G11-RECEIVER-001-script:3"
+        },
+        "W10": {
+          "worldId": "W10",
+          "fullSourceHash": "1edc7b4cdc9f9b7aa5cbe9b7fb2dd9224700969047874f4c22556337a2add07b",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S1",
+          "originEventReference": "G11-RECEIVER-001-script:3"
+        },
+        "W11": {
+          "worldId": "W11",
+          "fullSourceHash": "cff451d1e1ba7bb1a118111b74ddf38b1e0e0aeaf832c36bd8b9d59dcbe29e57",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S1",
+          "originEventReference": "G11-RECEIVER-001-script:3"
+        }
+      },
+      "outcome": "new-content",
+      "contentHash": "09ed23fb5e1706103217eea55e0bd869db834e26876b03b7059f8cd28ba6781c",
+      "historyHash": "732c03ac1620f6b6b63d2fc31e707a6259a38fc95be5c2a27dd4247d0249ca80"
+    },
+    "S2": {
+      "id": "S2",
+      "parentId": "S1",
+      "parentReferenceOnly": false,
+      "fieldsBefore": [
+        "calibration"
+      ],
+      "requestedFields": [
+        "authorization"
+      ],
+      "effectiveAddedFields": [
+        "authorization"
+      ],
+      "fieldsAfter": [
+        "calibration",
+        "authorization"
+      ],
+      "triggerReceiverId": "R_RELEASE",
+      "provenance": "scripted_demonstration",
+      "originEventReference": "G11-RECEIVER-001-script:4",
+      "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+      "payloads": {
+        "W00": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "expired",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            },
+            "authorization": {
+              "forLot": "LOT",
+              "status": "pending",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "AUTH",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        },
+        "W01": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "expired",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            },
+            "authorization": {
+              "forLot": "LOT",
+              "status": "approved",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "AUTH",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        },
+        "W10": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "current",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            },
+            "authorization": {
+              "forLot": "LOT",
+              "status": "pending",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "AUTH",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        },
+        "W11": {
+          "schema": "gate11-receiver-summary-v1",
+          "lotId": "LOT",
+          "assetType": "field-scanner",
+          "units": 4,
+          "sourceRef": {
+            "familyId": "G11-SCANNER-FAMILY-001",
+            "logicalRecordId": "LOT",
+            "fields": [
+              "id",
+              "assetType",
+              "units"
+            ],
+            "dereferenceWithinReceiver": false
+          },
+          "additions": {
+            "calibration": {
+              "forLot": "LOT",
+              "status": "current",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "CAL",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            },
+            "authorization": {
+              "forLot": "LOT",
+              "status": "approved",
+              "sourceRef": {
+                "familyId": "G11-SCANNER-FAMILY-001",
+                "logicalRecordId": "AUTH",
+                "fields": [
+                  "lotId",
+                  "status"
+                ],
+                "dereferenceWithinReceiver": false
+              }
+            }
+          }
+        }
+      },
+      "payloadHashes": {
+        "W00": "f79b1e8cf4680af76c46bc840ccbb3d9dc17ddfd738ca86ef4dee78e9e89639c",
+        "W01": "78719534c50cbee444138fc10d9ccd23706321efafb90166bed1a551cf58c305",
+        "W10": "c867201c2ebb46ffc65650244495b5745b590c5bb19598c8ee08970a14076ea6",
+        "W11": "11a7cea829a1dc053c9d946a2808e5902ace58aec94af175695855ec6aa71e9d"
+      },
+      "envelopes": {
+        "W00": {
+          "worldId": "W00",
+          "fullSourceHash": "03f9ebaa603d3228770a4a3914712092b8bc298b152c6e71ac38ff99bae54c2f",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status",
+            "records.AUTH.lotId",
+            "records.AUTH.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S2",
+          "originEventReference": "G11-RECEIVER-001-script:4"
+        },
+        "W01": {
+          "worldId": "W01",
+          "fullSourceHash": "b60670ee18da1d2e541a82a3520f3fd4419125febe0453d04998a563eb181177",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status",
+            "records.AUTH.lotId",
+            "records.AUTH.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S2",
+          "originEventReference": "G11-RECEIVER-001-script:4"
+        },
+        "W10": {
+          "worldId": "W10",
+          "fullSourceHash": "1edc7b4cdc9f9b7aa5cbe9b7fb2dd9224700969047874f4c22556337a2add07b",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status",
+            "records.AUTH.lotId",
+            "records.AUTH.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S2",
+          "originEventReference": "G11-RECEIVER-001-script:4"
+        },
+        "W11": {
+          "worldId": "W11",
+          "fullSourceHash": "cff451d1e1ba7bb1a118111b74ddf38b1e0e0aeaf832c36bd8b9d59dcbe29e57",
+          "sourceRecordFieldPaths": [
+            "records.LOT.id",
+            "records.LOT.assetType",
+            "records.LOT.units",
+            "records.CAL.lotId",
+            "records.CAL.status",
+            "records.AUTH.lotId",
+            "records.AUTH.status"
+          ],
+          "projectionRule": "copy-selected-source-fields/v1",
+          "revisionId": "S2",
+          "originEventReference": "G11-RECEIVER-001-script:4"
+        }
+      },
+      "outcome": "new-content",
+      "contentHash": "618d4632cd077d5c19ac3237cd3eb38877d9cf74540cd090fa1a55087d8c6b08",
+      "historyHash": "e648c9b9d2669ec8ba30afa9ebbd4d970bce099e58d221a9142957aeccbd34cb"
+    }
+  },
+  "shortcutDisagreementWorlds": [
+    "W00",
+    "W01",
+    "W10"
+  ],
+  "humanParticipants": 0
+}

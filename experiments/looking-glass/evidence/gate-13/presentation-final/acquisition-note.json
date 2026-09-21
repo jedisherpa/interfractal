@@ -1,0 +1,19 @@
+{
+  "recordedAtUtc": "2026-09-20T20:54:13.486Z",
+  "method": "Supported actual CUA reload, scroll and Next decision click; one readonly DOM serialization per observation; original screenshot bytes unchanged.",
+  "reportPath": "misleading-view/review/results.html",
+  "reportSha256": "94972776d340c8de1d15bc8efae8336ffb14f782c9c777533ab02bc26150b732",
+  "observations": 10,
+  "originalImages": 3,
+  "actualActions": [
+    "reload revised report",
+    "scroll up six pages",
+    "scroll up three pages",
+    "click Next decision link"
+  ],
+  "viewportOverrideSet": false,
+  "allImagesLoadedByObservation": 3,
+  "noHorizontalOverflow": true,
+  "scope": "Final preparation-only report presentation; software core acquisitions are separate.",
+  "supersedesPresentation": "evidence/gate-13/presentation/"
+}

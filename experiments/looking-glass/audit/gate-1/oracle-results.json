@@ -1,0 +1,81 @@
+{
+  "schema": "looking-glass-gate-1-independent-oracle-v1",
+  "generatedAtUtc": "2026-09-20T01:10:13.454Z",
+  "scope": "Frozen prespec arithmetic only; no implementation import or browser observation",
+  "toleranceAbsolute": 1e-10,
+  "sourceVertexCount": 8,
+  "sourceEdgeCount": 12,
+  "sourcePairCount": 28,
+  "checks": [
+    {
+      "name": "prespec freeze hashes",
+      "status": "pass"
+    },
+    {
+      "name": "eight bit-derived vertex IDs and all twelve Hamming edges",
+      "status": "pass"
+    },
+    {
+      "name": "all 28 source pairwise distances and multiplicities",
+      "status": "pass"
+    },
+    {
+      "name": "algebraic inverse R(-theta)R(theta) at 0, 15, 45, 90 degrees",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 0: rotation, projection, camera, all vertices",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 0: 28 distances, 12 edges, shadow memberships",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 10000: rotation, projection, camera, all vertices",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 10000: 28 distances, 12 edges, shadow memberships",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 20000: rotation, projection, camera, all vertices",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 20000: 28 distances, 12 edges, shadow memberships",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 30000: rotation, projection, camera, all vertices",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 30000: 28 distances, 12 edges, shadow memberships",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 40000: rotation, projection, camera, all vertices",
+      "status": "pass"
+    },
+    {
+      "name": "checkpoint 40000: 28 distances, 12 edges, shadow memberships",
+      "status": "pass"
+    },
+    {
+      "name": "source-return geometry t=40000 equals t=0",
+      "status": "pass"
+    },
+    {
+      "name": "camera-only yaw120 changes view but preserves source and shadow",
+      "status": "pass"
+    },
+    {
+      "name": "source-only 30 degree counterfactual, fixed camera",
+      "status": "pass"
+    }
+  ],
+  "passed": 17,
+  "failed": 0
+}

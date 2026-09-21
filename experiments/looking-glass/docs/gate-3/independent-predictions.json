@@ -1,0 +1,1843 @@
+{
+  "schemaVersion": "gate-3-independent-predictions-v1",
+  "gate": 3,
+  "status": "Analytic predictions prepared before browser trials; no actual result asserted",
+  "provenance": "Derived from declared source coordinates and closed-form cos/sin at 0,pi/4,pi/2, without importing implementation. Exact-zero analytic checkpoint entries intentionally differ from floating trigonometric roundoff within tolerance.",
+  "absoluteTolerance": 1e-10,
+  "rankTolerance": 1e-10,
+  "object": {
+    "solid": "[-1,1]^4",
+    "solidDimension": 4,
+    "boundaryDimension": 3,
+    "skeletonDimension": 1,
+    "vertexAffineSpan": 4,
+    "vertexCount": 16,
+    "edgeCount": 32,
+    "degree": 4,
+    "squaredVertexNorm": 4,
+    "edgeLength": 2,
+    "unorderedPairCount": 120,
+    "squaredDistanceHistogram": {
+      "4": 32,
+      "8": 48,
+      "12": 32,
+      "16": 8
+    },
+    "affineWitness": {
+      "base": "v0000",
+      "ids": [
+        "v1000",
+        "v0100",
+        "v0010",
+        "v0001"
+      ],
+      "differenceMatrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 16
+    },
+    "vertices": [
+      {
+        "id": "v0000",
+        "q": [
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v0001",
+        "q": [
+          -1,
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v0010",
+        "q": [
+          -1,
+          -1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v0011",
+        "q": [
+          -1,
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v0100",
+        "q": [
+          -1,
+          1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v0101",
+        "q": [
+          -1,
+          1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v0110",
+        "q": [
+          -1,
+          1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v0111",
+        "q": [
+          -1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v1000",
+        "q": [
+          1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v1001",
+        "q": [
+          1,
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v1010",
+        "q": [
+          1,
+          -1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v1011",
+        "q": [
+          1,
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "v1100",
+        "q": [
+          1,
+          1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "v1101",
+        "q": [
+          1,
+          1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": "v1110",
+        "q": [
+          1,
+          1,
+          1,
+          -1
+        ]
+      },
+      {
+        "id": "v1111",
+        "q": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "sourceConvention": {
+    "vector": "column (x,y,z,w)",
+    "plane": "x-w",
+    "formula": "x'=cos(theta)*x-sin(theta)*w; w'=sin(theta)*x+cos(theta)*w; y'=y; z'=z",
+    "compositionOrder": [
+      "R_xw",
+      "P_xyz",
+      "ordinary3Dcamera",
+      "2DorthographicScreen"
+    ],
+    "projectionMatrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "invariantTestAnglesDegrees": [
+      0,
+      15,
+      30,
+      45,
+      60,
+      75,
+      90
+    ],
+    "inverseRule": "R(-theta)R(theta)=I4",
+    "determinant": 1,
+    "orthogonality": "R^T R=I4"
+  },
+  "canonical": {
+    "durationMs": 32000,
+    "stepMs": 1000,
+    "checkpointTimesMs": [
+      0,
+      8000,
+      16000,
+      24000,
+      32000
+    ],
+    "thetaRadiansExpression": "t<=16000 ? pi*t/32000 : pi*(32000-t)/32000",
+    "camera": {
+      "yawDegrees": 30,
+      "pitchDegrees": 20,
+      "viewBox": [
+        0,
+        0,
+        640,
+        420
+      ],
+      "center": [
+        320,
+        210
+      ],
+      "svgUnitsPerProjectedUnit": 80,
+      "automaticRescaling": false,
+      "perspective": false
+    },
+    "targetViewportCss": [
+      1280,
+      720
+    ],
+    "markedA": "v1110",
+    "markedB": "v1111",
+    "markedEdge": "e-v1110-v1111",
+    "opensPaused": true,
+    "trails": false,
+    "selectedVertexId": "v1110",
+    "selectedEdgeId": "e-v1110-v1111"
+  },
+  "checkpoints": [
+    {
+      "timeMs": 0,
+      "thetaDegrees": 0,
+      "thetaRadians": 0.0,
+      "exactCosSin": [
+        "1",
+        "0"
+      ],
+      "rows": [
+        {
+          "id": "v0000",
+          "qPrime": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "p": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0001",
+          "qPrime": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "p": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0010",
+          "qPrime": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "p": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0011",
+          "qPrime": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0100",
+          "qPrime": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "p": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0101",
+          "qPrime": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0110",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v0111",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1000",
+          "qPrime": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "p": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1001",
+          "qPrime": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "p": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1010",
+          "qPrime": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1011",
+          "qPrime": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1100",
+          "qPrime": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1101",
+          "qPrime": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "marked": [
+        {
+          "id": "v1110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "markedProjectionDistance": 0,
+      "markedSourceDistance": 2,
+      "distinctProjectedLocations": 8,
+      "multiplicityHistogram": {
+        "2": 8
+      },
+      "collapsedEdgeAxis": "w"
+    },
+    {
+      "timeMs": 8000,
+      "thetaDegrees": 45,
+      "thetaRadians": 0.7853981633974483,
+      "exactCosSin": [
+        "1/sqrt(2)",
+        "1/sqrt(2)"
+      ],
+      "rows": [
+        {
+          "id": "v0000",
+          "qPrime": [
+            0.0,
+            -1,
+            -1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0001",
+          "qPrime": [
+            -1.4142135623730951,
+            -1,
+            -1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0010",
+          "qPrime": [
+            0.0,
+            -1,
+            1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0011",
+          "qPrime": [
+            -1.4142135623730951,
+            -1,
+            1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0100",
+          "qPrime": [
+            0.0,
+            1,
+            -1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0101",
+          "qPrime": [
+            -1.4142135623730951,
+            1,
+            -1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0110",
+          "qPrime": [
+            0.0,
+            1,
+            1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v0111",
+          "qPrime": [
+            -1.4142135623730951,
+            1,
+            1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1000",
+          "qPrime": [
+            1.4142135623730951,
+            -1,
+            -1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1001",
+          "qPrime": [
+            0.0,
+            -1,
+            -1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1010",
+          "qPrime": [
+            1.4142135623730951,
+            -1,
+            1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1011",
+          "qPrime": [
+            0.0,
+            -1,
+            1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1100",
+          "qPrime": [
+            1.4142135623730951,
+            1,
+            -1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1101",
+          "qPrime": [
+            0.0,
+            1,
+            -1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1110",
+          "qPrime": [
+            1.4142135623730951,
+            1,
+            1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            0.0,
+            1,
+            1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            1
+          ]
+        }
+      ],
+      "marked": [
+        {
+          "id": "v1110",
+          "qPrime": [
+            1.4142135623730951,
+            1,
+            1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            0.0,
+            1,
+            1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            1
+          ]
+        }
+      ],
+      "markedProjectionDistance": 1.4142135623730951,
+      "markedSourceDistance": 2,
+      "distinctProjectedLocations": 12,
+      "multiplicityHistogram": {
+        "1": 8,
+        "2": 4
+      },
+      "collapsedEdgeAxis": null
+    },
+    {
+      "timeMs": 16000,
+      "thetaDegrees": 90,
+      "thetaRadians": 1.5707963267948966,
+      "exactCosSin": [
+        "0",
+        "1"
+      ],
+      "rows": [
+        {
+          "id": "v0000",
+          "qPrime": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "p": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0001",
+          "qPrime": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "p": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0010",
+          "qPrime": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0011",
+          "qPrime": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "p": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0100",
+          "qPrime": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0101",
+          "qPrime": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "p": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v0111",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1000",
+          "qPrime": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "p": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1001",
+          "qPrime": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "p": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1010",
+          "qPrime": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1011",
+          "qPrime": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1100",
+          "qPrime": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1101",
+          "qPrime": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        }
+      ],
+      "marked": [
+        {
+          "id": "v1110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        }
+      ],
+      "markedProjectionDistance": 2,
+      "markedSourceDistance": 2,
+      "distinctProjectedLocations": 8,
+      "multiplicityHistogram": {
+        "2": 8
+      },
+      "collapsedEdgeAxis": "x"
+    },
+    {
+      "timeMs": 24000,
+      "thetaDegrees": 45,
+      "thetaRadians": 0.7853981633974483,
+      "exactCosSin": [
+        "1/sqrt(2)",
+        "1/sqrt(2)"
+      ],
+      "rows": [
+        {
+          "id": "v0000",
+          "qPrime": [
+            0.0,
+            -1,
+            -1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0001",
+          "qPrime": [
+            -1.4142135623730951,
+            -1,
+            -1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0010",
+          "qPrime": [
+            0.0,
+            -1,
+            1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0011",
+          "qPrime": [
+            -1.4142135623730951,
+            -1,
+            1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0100",
+          "qPrime": [
+            0.0,
+            1,
+            -1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0101",
+          "qPrime": [
+            -1.4142135623730951,
+            1,
+            -1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0110",
+          "qPrime": [
+            0.0,
+            1,
+            1,
+            -1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v0111",
+          "qPrime": [
+            -1.4142135623730951,
+            1,
+            1,
+            0.0
+          ],
+          "p": [
+            -1.4142135623730951,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1000",
+          "qPrime": [
+            1.4142135623730951,
+            -1,
+            -1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1001",
+          "qPrime": [
+            0.0,
+            -1,
+            -1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1010",
+          "qPrime": [
+            1.4142135623730951,
+            -1,
+            1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1011",
+          "qPrime": [
+            0.0,
+            -1,
+            1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1100",
+          "qPrime": [
+            1.4142135623730951,
+            1,
+            -1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1101",
+          "qPrime": [
+            0.0,
+            1,
+            -1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1110",
+          "qPrime": [
+            1.4142135623730951,
+            1,
+            1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            0.0,
+            1,
+            1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            1
+          ]
+        }
+      ],
+      "marked": [
+        {
+          "id": "v1110",
+          "qPrime": [
+            1.4142135623730951,
+            1,
+            1,
+            0.0
+          ],
+          "p": [
+            1.4142135623730951,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            0.0,
+            1,
+            1,
+            1.4142135623730951
+          ],
+          "p": [
+            0.0,
+            1,
+            1
+          ]
+        }
+      ],
+      "markedProjectionDistance": 1.4142135623730951,
+      "markedSourceDistance": 2,
+      "distinctProjectedLocations": 12,
+      "multiplicityHistogram": {
+        "1": 8,
+        "2": 4
+      },
+      "collapsedEdgeAxis": null
+    },
+    {
+      "timeMs": 32000,
+      "thetaDegrees": 0,
+      "thetaRadians": 0.0,
+      "exactCosSin": [
+        "1",
+        "0"
+      ],
+      "rows": [
+        {
+          "id": "v0000",
+          "qPrime": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "p": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0001",
+          "qPrime": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "p": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v0010",
+          "qPrime": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "p": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0011",
+          "qPrime": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v0100",
+          "qPrime": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "p": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0101",
+          "qPrime": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v0110",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v0111",
+          "qPrime": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1000",
+          "qPrime": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "p": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1001",
+          "qPrime": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "p": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "id": "v1010",
+          "qPrime": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1011",
+          "qPrime": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            -1,
+            1
+          ]
+        },
+        {
+          "id": "v1100",
+          "qPrime": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1101",
+          "qPrime": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "id": "v1110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "marked": [
+        {
+          "id": "v1110",
+          "qPrime": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v1111",
+          "qPrime": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "p": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "markedProjectionDistance": 0,
+      "markedSourceDistance": 2,
+      "distinctProjectedLocations": 8,
+      "multiplicityHistogram": {
+        "2": 8
+      },
+      "collapsedEdgeAxis": "w"
+    }
+  ],
+  "explorationSource30Degrees": {
+    "sameTimeMs": 8000,
+    "thetaDegrees": 30,
+    "cameraUnchanged": true,
+    "AqPrime": [
+      1.3660254037844386,
+      1,
+      1,
+      -0.3660254037844386
+    ],
+    "BqPrime": [
+      0.3660254037844386,
+      1,
+      1,
+      1.3660254037844386
+    ],
+    "markedProjectedDistance": 1
+  },
+  "negativeFixedView": {
+    "candidateClass": "q in R4",
+    "matrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "rank": 3,
+    "nullspaceBasis": [
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "solutionFamily": "(p.x,p.y,p.z,w) for arbitrary real w",
+    "fixtureRestrictedCandidatesPerCompatibleP": 2,
+    "requiredStatus": "underdetermined",
+    "minimumNormWarning": "w=0 is one representative, not a unique recovery"
+  },
+  "negativeCameraOnly": {
+    "sourceThetaDegrees": 0,
+    "cameraYawDegrees": [
+      30,
+      120
+    ],
+    "cameraPitchDegrees": 20,
+    "rawProjectionUnchanged": true,
+    "cameraSpace3DStack": "[C30 P; C120 P]",
+    "cameraSpace3DStackRank": 3,
+    "actualScreenStack": "[S C30 P; S C120 P] where S drops camera depth",
+    "actualScreenStackRankUpperBound": 3,
+    "sharedNullspaceContains": [
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "requiredStatus": "underdetermined",
+    "dataBoundary": "Camera-space 3D and literal screen 2D matrices are different. Neither can add w sensitivity."
+  },
+  "positiveTwoKnownSourceViews": {
+    "candidateClass": "q in R4 with known transforms and supplied stable correspondence IDs",
+    "observationAnglesDegrees": [
+      0,
+      90
+    ],
+    "observationData": "pre-camera raw 3D p=P R q",
+    "stackedMatrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "rank": 4,
+    "gramMatrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "singularValuesDescending": [
+      1.4142135623730951,
+      1.4142135623730951,
+      1,
+      1
+    ],
+    "conditionNumber2": 1.4142135623730951,
+    "closedFormRecovery": "q=(p0.x,p0.y,p0.z,-p90.x)",
+    "solverInputsOnly": [
+      "opaqueId",
+      "observedP",
+      "knownProjectionRotationMatrix"
+    ],
+    "forbiddenSolverInputs": [
+      "hiddenSourceQ",
+      "sourceFixtureLookup",
+      "IDCoordinateDecoding"
+    ],
+    "evaluation": "Compare recovered q with separately held truth only after solving all16 correspondences",
+    "maximumCoordinateErrorUpperBound": 1e-10,
+    "maximumForwardResidualUpperBound": 1e-10,
+    "requiredStatus": "unique_under_declared_model"
+  },
+  "fingerprintRules": {
+    "exactEquality": "same browser, build and checkpoint after restore/reopen/reload",
+    "notExactOracles": [
+      "Node vs browser numeric hashes",
+      "different checkpoint times with same geometric angle",
+      "cross-device pixel identity"
+    ],
+    "environment": "Measure fresh viewport/DPR/scene rectangle at every observed snapshot; exclude from deterministic checkpoint hash"
+  },
+  "claims": {
+    "mathematicalFidelity": "To be tested",
+    "informationRecovery": "To be tested under known transforms/correspondences only",
+    "humanUnderstanding": "Not tested",
+    "physicalExtraDimensions": "Not established"
+  }
+}

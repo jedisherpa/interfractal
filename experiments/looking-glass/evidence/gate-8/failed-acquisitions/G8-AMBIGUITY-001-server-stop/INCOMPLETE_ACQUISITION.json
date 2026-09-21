@@ -1,0 +1,14 @@
+{
+  "recordedAtUtc": "2026-09-20T08:13:56.986211+00:00",
+  "runId": "G8-AMBIGUITY-001",
+  "buildId": "g8-f5c5ee62889da529",
+  "status": "incomplete acquisition preserved, not accepted core",
+  "reason": "HTTP connection refused on port44001 after builder completed; rendered page reported Event log failed: Failed to fetch. Some UI actions remained client-side. Exact immutable build unchanged.",
+  "counts": {
+    "observations": 43,
+    "actions": 17,
+    "originalCaptures": 4
+  },
+  "restart": "Root exec session19630 starts exact same Node24.17.0 immutable server; new browser session will redo complete protocol",
+  "claimBoundary": "No complete actual event log or acceptance claimed for this acquisition. getByLabel Case also failed; subsequent DOM snapshot exposed named combobox."
+}

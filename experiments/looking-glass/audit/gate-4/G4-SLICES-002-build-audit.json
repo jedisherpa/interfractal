@@ -1,0 +1,84 @@
+{
+  "checkedAtUtc": "2026-09-20T03:40:03.566Z",
+  "kind": "immutable-candidate-numerical-and-source-audit",
+  "runId": "G4-SLICES-002",
+  "buildId": "g4-38777d5882ef08a6",
+  "sourceSha256": "38777d5882ef08a63abf15da00d664e3c2036826029c4ba2cea5ab7c8640ff14",
+  "traceSha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+  "pass": true,
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "prespec freeze byte and four file hashes",
+      "pass": true
+    },
+    {
+      "name": "immutable source manifest and content-derived build identity",
+      "pass": true,
+      "detail": {
+        "sourceSha256": "38777d5882ef08a63abf15da00d664e3c2036826029c4ba2cea5ab7c8640ff14",
+        "failedFiles": []
+      }
+    },
+    {
+      "name": "real Gate 3 base, candidate, metadata and seven checkpoints",
+      "pass": true
+    },
+    {
+      "name": "source descriptors preserve three distinct 4D balls",
+      "pass": true
+    },
+    {
+      "name": "standalone serialized 3D trace SHA, exact schema and all 401 frames",
+      "pass": true,
+      "detail": {
+        "traceSha256": "98eb91dd0b4deb5e91ff4adae91e083773d9ac7f9a07be8951a77145c9f33139",
+        "maxTraceError": 0
+      }
+    },
+    {
+      "name": "seven fixture checkpoints match independent raw slice/projection/movie predictions",
+      "pass": true,
+      "detail": [
+        {
+          "id": "C0",
+          "pass": true
+        },
+        {
+          "id": "C8",
+          "pass": true
+        },
+        {
+          "id": "C16",
+          "pass": true
+        },
+        {
+          "id": "C20",
+          "pass": true
+        },
+        {
+          "id": "C24",
+          "pass": true
+        },
+        {
+          "id": "C32",
+          "pass": true
+        },
+        {
+          "id": "C40",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "initial state and digest metadata bind checkpoint zero",
+      "pass": true
+    },
+    {
+      "name": "fixture is labeled planned, separate from actual browser activity",
+      "pass": true
+    }
+  ],
+  "scope": "Static source/trace/fixture and independent numerical checks. No actual browser control or image result."
+}

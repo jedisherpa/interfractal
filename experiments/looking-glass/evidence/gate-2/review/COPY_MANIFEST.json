@@ -1,0 +1,25 @@
+{
+  "purpose": "Byte-identical copies available through the immutable local server evidence route. Relative links inside Markdown originals resolve at the originals; the HTML results links supporting JSON directly.",
+  "files": [
+    {
+      "original": "audit/gate-2/AUDIT.md",
+      "copy": "evidence/gate-2/review/AUDIT.md",
+      "sha256": "e7aa4c0a50489c5fc9497b96f0fb08271f050eea8808621e198db64eeceb44f8"
+    },
+    {
+      "original": "audit/gate-2/G2-HOPF-003-browser-audit.json",
+      "copy": "evidence/gate-2/review/browser-audit.json",
+      "sha256": "a65d1da2aaba9d083fae999e8b13e9dcc79adb7d0e1c981d8172ddfc47bc2d8d"
+    },
+    {
+      "original": "audit/gate-2/G2-HOPF-003-build-audit.json",
+      "copy": "evidence/gate-2/review/build-audit.json",
+      "sha256": "90600a7f639ce927d0da9ebee3a60256f98a27c5f13cdb95ddc72f66929a10c3"
+    },
+    {
+      "original": "docs/gate-2/experiment-charter.md",
+      "copy": "evidence/gate-2/review/experiment-charter.md",
+      "sha256": "84973cde2d9f27d30abb1ec25e7ab14e495a1774356d260bfe98777bb7c6b4f2"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "index": 0,
+    "label": "resize 960 by 720",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:14.105Z",
+    "beforeObservation": 3,
+    "success": true,
+    "afterObservation": 4,
+    "endedAtUtc": "2026-09-20T08:12:14.160Z"
+  },
+  {
+    "index": 1,
+    "label": "scroll to observations 960",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:14.192Z",
+    "beforeObservation": 7,
+    "success": true,
+    "afterObservation": 8,
+    "endedAtUtc": "2026-09-20T08:12:14.562Z"
+  },
+  {
+    "index": 2,
+    "label": "expand raw bundle",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:27.709Z",
+    "beforeObservation": 11,
+    "success": true,
+    "afterObservation": 12,
+    "endedAtUtc": "2026-09-20T08:12:28.130Z"
+  },
+  {
+    "index": 3,
+    "label": "expand complete inspector",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:28.136Z",
+    "beforeObservation": 13,
+    "success": true,
+    "afterObservation": 14,
+    "endedAtUtc": "2026-09-20T08:12:28.630Z"
+  },
+  {
+    "index": 4,
+    "label": "collapse inspector",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:28.701Z",
+    "beforeObservation": 17,
+    "success": true,
+    "afterObservation": 18,
+    "endedAtUtc": "2026-09-20T08:12:29.110Z"
+  },
+  {
+    "index": 5,
+    "label": "collapse raw bundle",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:29.115Z",
+    "beforeObservation": 19,
+    "success": true,
+    "afterObservation": 20,
+    "endedAtUtc": "2026-09-20T08:12:29.543Z"
+  },
+  {
+    "index": 6,
+    "label": "restore 1280 by 720",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:29.550Z",
+    "beforeObservation": 21,
+    "success": true,
+    "afterObservation": 22,
+    "endedAtUtc": "2026-09-20T08:12:29.636Z"
+  },
+  {
+    "index": 7,
+    "label": "baseline checkpoint 0",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:39.353Z",
+    "beforeObservation": 23,
+    "success": true,
+    "afterObservation": 24,
+    "endedAtUtc": "2026-09-20T08:12:39.754Z"
+  },
+  {
+    "index": 8,
+    "label": "baseline checkpoint 4",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:39.761Z",
+    "beforeObservation": 25,
+    "success": true,
+    "afterObservation": 26,
+    "endedAtUtc": "2026-09-20T08:12:40.234Z"
+  },
+  {
+    "index": 9,
+    "label": "baseline checkpoint 8",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:40.241Z",
+    "beforeObservation": 27,
+    "success": true,
+    "afterObservation": 28,
+    "endedAtUtc": "2026-09-20T08:12:40.574Z"
+  },
+  {
+    "index": 10,
+    "label": "baseline checkpoint 12",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:40.581Z",
+    "beforeObservation": 29,
+    "success": true,
+    "afterObservation": 30,
+    "endedAtUtc": "2026-09-20T08:12:40.938Z"
+  },
+  {
+    "index": 11,
+    "label": "baseline checkpoint 16",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:40.945Z",
+    "beforeObservation": 31,
+    "success": true,
+    "afterObservation": 32,
+    "endedAtUtc": "2026-09-20T08:12:41.469Z"
+  },
+  {
+    "index": 12,
+    "label": "baseline checkpoint 20",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:41.476Z",
+    "beforeObservation": 33,
+    "success": true,
+    "afterObservation": 34,
+    "endedAtUtc": "2026-09-20T08:12:41.803Z"
+  },
+  {
+    "index": 13,
+    "label": "baseline checkpoint 24",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:41.811Z",
+    "beforeObservation": 35,
+    "success": true,
+    "afterObservation": 36,
+    "endedAtUtc": "2026-09-20T08:12:42.146Z"
+  },
+  {
+    "index": 14,
+    "label": "baseline checkpoint 28",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:42.152Z",
+    "beforeObservation": 37,
+    "success": true,
+    "afterObservation": 38,
+    "endedAtUtc": "2026-09-20T08:12:42.566Z"
+  },
+  {
+    "index": 15,
+    "label": "baseline checkpoint 32",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:42.574Z",
+    "beforeObservation": 39,
+    "success": true,
+    "afterObservation": 40,
+    "endedAtUtc": "2026-09-20T08:12:42.896Z"
+  },
+  {
+    "index": 16,
+    "label": "select C01",
+    "actor": "software_validation",
+    "startedAtUtc": "2026-09-20T08:12:55.813Z",
+    "beforeObservation": 41,
+    "success": false,
+    "error": "Error: Error: Playwright selector deadline exceeded\nlocator.selectOption failed for selector internal:label=\"Case\"s\nLocator diagnostics: {\"kind\":\"no_matches\",\"action\":\"selectOption\",\"locator\":\"internal:label=\\\"Case\\\"s\",\"matchCount\":0,\"matches\":[],\"visibleCount\":0,\"truncated\":false}",
+    "afterObservation": 42,
+    "endedAtUtc": "2026-09-20T08:12:58.852Z"
+  }
+]

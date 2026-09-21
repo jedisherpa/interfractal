@@ -1,0 +1,54 @@
+{
+  "schema": "gate9-prepackage-audit-v1",
+  "status": "BLOCKED",
+  "candidate": "mutable source before G9-MATCHED-003 packaging",
+  "contextHash": "955b6737367a925b3ba8587ec00d3d5ad90253107958fc241cb5a834da3e9da9",
+  "results": {
+    "nineTraceRoutes": "PASS",
+    "newChoiceFingerprintChains": "FAIL",
+    "checkpointFingerprintChains": "FAIL",
+    "restoredChoiceReferenceProvenance": {
+      "joinsCurrentSessionLog": false,
+      "declaresCanonicalOrReconstructionSource": false
+    },
+    "reopenFingerprintChains": "FAIL",
+    "userChoiceFromSavedStartProvenance": {
+      "mode": "saved-tour",
+      "envelope": "scripted_demonstration",
+      "origins": [
+        "user-control",
+        "user-control"
+      ]
+    },
+    "manualReview": "PASS",
+    "tourPausedAfterManualPresentationPause": false,
+    "priorFullExportPersistsOnWatch": true,
+    "manualControlsCanOrphanRunningTour": true
+  },
+  "errors": [
+    {
+      "label": "new-choice afterFingerprint joins next beforeFingerprint"
+    },
+    {
+      "label": "checkpoint afterFingerprint joins tour-play beforeFingerprint"
+    },
+    {
+      "label": "checkpoint-restored choice references join actual events or declare a canonical/reconstruction source"
+    },
+    {
+      "label": "reopen afterFingerprint joins next beforeFingerprint"
+    },
+    {
+      "label": "user-control choices from saved start must not become scripted demonstration"
+    },
+    {
+      "label": "manual presentation pause pauses the active saved tour"
+    },
+    {
+      "label": "full prior export cleared on entry to unfinished watch"
+    },
+    {
+      "label": "manual presentation pause/restart must mark or pause an active tour"
+    }
+  ]
+}

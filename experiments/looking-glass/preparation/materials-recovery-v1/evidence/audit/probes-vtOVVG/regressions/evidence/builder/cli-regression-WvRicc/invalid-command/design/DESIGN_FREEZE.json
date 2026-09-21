@@ -1,0 +1,67 @@
+{
+  "frozenAtUtc": "2026-09-20T21:22:13.566186+00:00",
+  "purpose": "Author-stable complete design before candidate packaging; independent blinded key review remains pending.",
+  "authorFiles": 11,
+  "files": [
+    {
+      "path": "preparation/materials-v1/design/AUTHOR_ANSWER_KEY.json",
+      "sha256": "7ddc0950cbd06b4ddce9d37044d435833f8bcc33a3a63b9271a6517105880c4c",
+      "bytes": 40676
+    },
+    {
+      "path": "preparation/materials-v1/design/DESIGN_CONTRACT.md",
+      "sha256": "92e21b83caae324f61da40149c1fad3e757019aa72d54a6baa2484b6a13fb70c",
+      "bytes": 8463
+    },
+    {
+      "path": "preparation/materials-v1/design/PARTICIPANT_INSTRUCTIONS.md",
+      "sha256": "894410e84ce79794be29fffc14110eee6e5da75b10d61135acb2ab501b5c9052",
+      "bytes": 2649
+    },
+    {
+      "path": "preparation/materials-v1/design/PROMPT_TEMPLATES.md",
+      "sha256": "d61cfe50ae552f36d67477efce0aef78a6561d857c0897643a76e986db0c36b7",
+      "bytes": 5118
+    },
+    {
+      "path": "preparation/materials-v1/design/SCORING_AND_ANALYSIS.md",
+      "sha256": "854604ef4d143140fba58d99c71730f6aa88ee3ad6e7360a349edcb2a0f1cbf3",
+      "bytes": 7169
+    },
+    {
+      "path": "preparation/materials-v1/design/SOURCE_TASK_FREEZE.json",
+      "sha256": "e2e5593615bb8a746138da0b558cb9e5274e1b7d000edcf4a705b1f26445e183",
+      "bytes": 1213
+    },
+    {
+      "path": "preparation/materials-v1/design/allocations.json",
+      "sha256": "9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d",
+      "bytes": 1119
+    },
+    {
+      "path": "preparation/materials-v1/design/development-tasks.json",
+      "sha256": "cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6",
+      "bytes": 6342
+    },
+    {
+      "path": "preparation/materials-v1/design/execution-plan.json",
+      "sha256": "e03871497cc1200ce55274007d2f98196749245174b3cfd1833358dc92c3fede",
+      "bytes": 8282
+    },
+    {
+      "path": "preparation/materials-v1/design/snapshot.schema.json",
+      "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a",
+      "bytes": 8053
+    },
+    {
+      "path": "preparation/materials-v1/design/withheld-tasks.json",
+      "sha256": "7f0afed439188b2552687e6a412eeb034fb4d12df061b4ad5ebdb1aebfa69a03",
+      "bytes": 26576
+    },
+    {
+      "path": "preparation/materials-v1/design/world.json",
+      "sha256": "a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef",
+      "bytes": 28103
+    }
+  ]
+}

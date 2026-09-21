@@ -1,0 +1,97 @@
+{
+  "state": {
+    "mode": "saved-tour",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "representation": "diagram",
+    "worldId": "W11",
+    "receiverId": "R_COUNT",
+    "revisionId": "S0",
+    "repairDraft": [],
+    "witnessPair": null,
+    "fullSourceOpen": false,
+    "certificateOpen": false
+  },
+  "payload": {
+    "schema": "gate11-semantic-v1",
+    "mode": "saved-tour",
+    "cursorSeconds": 0,
+    "paused": true,
+    "endReason": null,
+    "representation": "diagram",
+    "worldId": "W11",
+    "receiverId": "R_COUNT",
+    "revisionId": "S0",
+    "repairDraft": [],
+    "witnessPair": null,
+    "fullSourceOpen": false,
+    "certificateOpen": false,
+    "revisionContentHash": "d35779e9d64773aff0ecb7b1fb8ec3aa4c3d5a558a02d32789d9be41da4dd1b6",
+    "payload": {
+      "schema": "gate11-receiver-summary-v1",
+      "lotId": "LOT",
+      "assetType": "field-scanner",
+      "units": 4,
+      "sourceRef": {
+        "familyId": "G11-SCANNER-FAMILY-001",
+        "logicalRecordId": "LOT",
+        "fields": [
+          "id",
+          "assetType",
+          "units"
+        ],
+        "dereferenceWithinReceiver": false
+      },
+      "additions": {}
+    },
+    "receiverResult": {
+      "status": "determined",
+      "possibleAnswers": [
+        "yes"
+      ],
+      "answer": "yes",
+      "reason": "Supplied count is at least four.",
+      "missingRelevant": []
+    },
+    "globalCertificate": {
+      "receiverId": "R_COUNT",
+      "fields": [],
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "answers": [
+            "yes"
+          ],
+          "conflictingPairs": []
+        }
+      ],
+      "globallySufficient": true,
+      "conflictingPairs": [],
+      "subsetMask": 0,
+      "partitionHash": "c9938960984815c35fcbc66fb2a3b5f94a83ca33afc0f5bbfd76c3d89c26c7d0",
+      "certificateHash": "e7f1b39cef032e947ae6db7cc19a8961e38f49fd3323c9abf5020ec05920b9b4"
+    },
+    "selectedWitness": null,
+    "fullSource": null,
+    "sourceEnvelope": {
+      "worldId": "W11",
+      "fullSourceHash": "cff451d1e1ba7bb1a118111b74ddf38b1e0e0aeaf832c36bd8b9d59dcbe29e57",
+      "sourceRecordFieldPaths": [
+        "records.LOT.id",
+        "records.LOT.assetType",
+        "records.LOT.units"
+      ],
+      "projectionRule": "copy-selected-source-fields/v1",
+      "revisionId": "S0",
+      "originEventReference": "initial-state"
+    },
+    "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce"
+  },
+  "semanticFingerprint": "52c7917821ccf75863f32e308f14c28abea74b1dc6401ab13e97b5a06b995c49"
+}

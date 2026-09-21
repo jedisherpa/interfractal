@@ -1,0 +1,68 @@
+[
+  {
+    "path": "evidence/gate-7/screenshots/002-initial-paused.jpg",
+    "width": 1280,
+    "height": 720,
+    "sha256": "c39cc7bec3cd6abfea4a147b381054338ed4484d7f367ef0b2627e7cf5a1bde4"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-static-sheet.jpg",
+    "width": 1280,
+    "height": 720,
+    "sha256": "110f42d80f9b42a6e80ef85772baacd25442c8095be6aa124488ae9ad89ee2ed"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-selected-frame.jpg",
+    "width": 1280,
+    "height": 720,
+    "sha256": "00c75951350435ca79d1cca397a12e3388e16abcd9029a022249953da6aad8e5"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-slice-sheet.jpg",
+    "width": 1280,
+    "height": 720,
+    "sha256": "b4305f07e1314d2a95bf6d455214f2e2ac8aef732fb1f1500a62150eb6e55af8"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-plain-960.jpg",
+    "width": 960,
+    "height": 720,
+    "sha256": "3678557a0293acb9d185a3b0802968fae71841a83beaa0d031316ddde96447c5"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-contexts-960.jpg",
+    "width": 960,
+    "height": 720,
+    "sha256": "000aa5d7fa5799e23c9f3024bff079b8e92269ff1ebba79dc97d90678af004b4"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-inspector-960.jpg",
+    "width": 960,
+    "height": 720,
+    "sha256": "80cf13f93040c725cd26f118f89d17faaca4908f0ad92b108c1e33da94f3fc9d"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-context-records-960.jpg",
+    "width": 960,
+    "height": 720,
+    "sha256": "3a5112c6ad67bd15cfa5f9fb08a3b8238f7de49dbf08dd92dfa4210e4f74c5f5"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-plain-records-960.jpg",
+    "width": 960,
+    "height": 720,
+    "sha256": "47f71426d15954f43fdeee2b6097e203570cf2af3ddb6fac35f87b5261def73d"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-tour-active.jpg",
+    "width": 1280,
+    "height": 720,
+    "sha256": "d92c020bb1cd907af2b6db4bf726044e546d446d27cfb50034cf3d6014181d8d"
+  },
+  {
+    "path": "evidence/gate-7/screenshots/002-final-paused.jpg",
+    "width": 1280,
+    "height": 720,
+    "sha256": "7e18f8ae332104f3c93599ee0679e8c1ef3c8cd6bebad7d85659b24aa414650b"
+  }
+]

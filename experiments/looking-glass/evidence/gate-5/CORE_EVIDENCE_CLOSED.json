@@ -1,0 +1,138 @@
+{
+  "gate": 5,
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "closedAtUtc": "2026-09-20T04:09:59.199016+00:00",
+  "status": "Actual core browser evidence closed before independent final audit and presentation work",
+  "observations": 131,
+  "rootActions": 93,
+  "successfulRootActions": 93,
+  "originalCaptures": 17,
+  "observedEvents": 85,
+  "sessions": {
+    "2c5e9a4d-2199-4eea-8299-ee5c9ed3db05": 62,
+    "9cea8ac8-8461-4d85-bf73-663b6ef3cfe4": 10,
+    "e1d6ada7-622d-41bb-957a-c769665b5c77": 13
+  },
+  "finalSimulationTimeMs": 0,
+  "finalPlaying": false,
+  "historyScreenshotToolFailures": 2,
+  "exclusions": "Later presentation/handoff observations and append-only live activity are outside this core closure. Failed historical screenshot attempts are documented in historical-ui-review.json, not counted as images.",
+  "files": [
+    {
+      "path": "evidence/gate-5/browser-observations.json",
+      "sha256": "6c7b142e503661d1d211bc39fe3874453a60b6b9ab0488094d73513216c2a2c7",
+      "bytes": 12773535
+    },
+    {
+      "path": "evidence/gate-5/action-trace.json",
+      "sha256": "6cd0f59aeb7fcd885719efdcfc8ae8244a986d3889964d1fc9192ad62767f340",
+      "bytes": 28740
+    },
+    {
+      "path": "evidence/gate-5/capture-index.json",
+      "sha256": "88c9dd35e0dcf60b0977129f74a7617082800db6a5d4b41ce7c6d894141096ec",
+      "bytes": 9633
+    },
+    {
+      "path": "evidence/gate-5/observed-activity.jsonl",
+      "sha256": "aa1387bd14fea70bae224825b28325776fe8accfb22d47aec0689093c7d1fd69",
+      "bytes": 418759
+    },
+    {
+      "path": "evidence/gate-5/historical-ui-review.json",
+      "sha256": "3b08828e97643bc3383befb9232aa89b86d873612be4720d0e9d471774d44741",
+      "bytes": 42541
+    },
+    {
+      "path": "evidence/gate-5/console-review.json",
+      "sha256": "7998df7eaa72d2a88cb9b4da7ab38ccc1b16d856d152fd19a6169e1a92987f0c",
+      "bytes": 134
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-initial-comparison.jpg",
+      "sha256": "3d955c900cef32c5bd31dc4e9c085b6a5aacce5fafa7d3ce4c87b43deab58029",
+      "bytes": 85572
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+      "sha256": "faa4be104d81e0dd8ef04a85fb59ba7de3e39174722f601bd61e997c430e38a3",
+      "bytes": 85829
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+      "sha256": "806e28fa825d968b6093723530ba7f6f2094ec85de049081895e66318dfb672d",
+      "bytes": 89494
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+      "sha256": "719f392a38d4997f23e1f8b6627f5ae007eabdee624b738cea18d42907e89073",
+      "bytes": 91836
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-active-first-leg.jpg",
+      "sha256": "46191b53a4163c103f02dc2eb131d50e2ba4f83b6a987a8130758cece7865221",
+      "bytes": 88942
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-active-second-leg.jpg",
+      "sha256": "2d1d315684b4b45f60e670909716b632ca186dcb531c8646c9fb2a31467aac5e",
+      "bytes": 89059
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-active-return-leg.jpg",
+      "sha256": "3ceef667415bab0eea735258c191dc618f26fb0126a7695006e64c7be06d4114",
+      "bytes": 89804
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+      "sha256": "eb5e52dfa3997e520884f22a58e9ab8e0bc355babfe5dba154da8d41bc209e61",
+      "bytes": 119160
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-half-half.jpg",
+      "sha256": "f145abb5e522f12f908ebb87a6121b8754a1f68dd63fdd517639f1612f661840",
+      "bytes": 120645
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+      "sha256": "e6cc877994d53160cd3f21209365bd5dac1a50421a9df62163d7c87b7cf4dbb6",
+      "bytes": 116232
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+      "sha256": "9fb7d08bd387c9a376ce7a8071a521b47a7e900560d1852cb490b257a97fcef5",
+      "bytes": 115061
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-point.jpg",
+      "sha256": "bac01ab7e093bfa96766d99a017971409069a4ba388b029c4e85e6aa763eafa1",
+      "bytes": 114134
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-slice-empty.jpg",
+      "sha256": "f4583495cc2f4f350a19cf82caa681183d7f6e3678abd20c5f2cb7830c323a3a",
+      "bytes": 114676
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+      "sha256": "94cc575a462c713a5c7502e300b4d9fe31fada5d684d191dc7403dac71582933",
+      "bytes": 125953
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+      "sha256": "85e40d2013e058ff62af12605c7a1f1e478c21562f82cfae0bef82f5012bb806",
+      "bytes": 88157
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+      "sha256": "cbe84cf066c4343f2bc47a45043d613cc2d10b74dc751bba9d522fa9ac0b814c",
+      "bytes": 81001
+    },
+    {
+      "path": "evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+      "sha256": "236ff7b61908cc99063bf299d7f856d9abc8af7b2d08d09378187c8d298b386b",
+      "bytes": 82605
+    }
+  ]
+}

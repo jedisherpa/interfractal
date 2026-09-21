@@ -1,0 +1,27 @@
+{
+  "schema": "gate11-run-manifest-v1",
+  "runId": "G11-RECEIVER-001",
+  "buildId": "g11-4a38606632d77897a06e",
+  "files": [
+    {
+      "path": "run.json",
+      "sha256": "1d4b4467fd5c6c6f09ca3211e44afff4332c061601ddb5a7f328b9798c082edc"
+    },
+    {
+      "path": "initial-state.json",
+      "sha256": "a04d5f9184af850be793ccdf0efa9dec7d468ac0447a5ec165a8a8f86564d8d6"
+    },
+    {
+      "path": "events.jsonl",
+      "sha256": "cab4549e2f5aca8048d9029a540eea28cccf4f608b1da2f1226bca95a2806797"
+    },
+    {
+      "path": "checkpoints.json",
+      "sha256": "3dda141fb361a64a762cd8ed8040d8b69c4c5578097c05b4fa268434e609afc6"
+    },
+    {
+      "path": "computational-results.json",
+      "sha256": "8866eb21eccebeb5e67656655d9d2ba476e7dd01769e920a3a6edec1fdbbad93"
+    }
+  ]
+}

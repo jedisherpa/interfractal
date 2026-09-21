@@ -1,0 +1,110 @@
+{
+  "runId": "G5-PENTERACT-001",
+  "gate": "G5",
+  "status": "planned deterministic fixture; actual browser observations stored separately",
+  "experimentVersion": "gate-5-charter-v1",
+  "modelVersion": "gate-5-model-v1",
+  "eventSchemaVersion": "gate-5-record-v1",
+  "generatorVersion": "gate-5-builder-v1",
+  "testId": "G5-two-independent-extra-coordinates",
+  "hypothesis": "Independent x–w and y–v source rotations expose distinct 5D effects; known raw views can reveal v; two-plane slices and fixed-camera task comparison retain specified ambiguities.",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "sourceSha256": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "gitHead": "231780872da982cb87b54f004c287a078d26839b",
+  "baseRevision": "231780872da982cb87b54f004c287a078d26839b",
+  "uncommittedSourceIdentity": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+  "nodeVersion": "v24.17.0",
+  "builtAtUtc": "2026-09-20T04:02:10.500Z",
+  "prespecFreezeSha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+  "prespecFrozenAtUtc": "2026-09-20T03:59:55.539897+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-5/experiment-charter.md",
+      "sha256": "20920a82e4e670eeb85d32871728ac5151f4877146ba9c14ba6962df567eca2f",
+      "bytes": 7547
+    },
+    {
+      "path": "docs/gate-5/model-contract.md",
+      "sha256": "c37fb3e353dcd6cb3efc4974c143dd6df1ac732536660b325b71b4e9413ef6dc",
+      "bytes": 12057
+    },
+    {
+      "path": "docs/gate-5/record-contract.md",
+      "sha256": "1dea0f67d6d101e0d69b88bfe50ffc609d4389f7064c454c1513b37d8c2a84a1",
+      "bytes": 9051
+    },
+    {
+      "path": "docs/gate-5/independent-predictions.json",
+      "sha256": "fcd1fb992cb2f12ae3177d6129fffb6bb598f2d5d6dd9f57546ee86bc62490d0",
+      "bytes": 54046
+    }
+  ],
+  "baseline4D": {
+    "path": "hypercube/builds/g3-6c31bc16aeca4460/model.mjs",
+    "sha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c",
+    "preservedRunId": "G3-TESSERACT-003",
+    "preservedBuildId": "g3-6c31bc16aeca4460"
+  },
+  "renderer": "Browser SVG of raw 3D projected 4D/5D wireframes and analytic 5D-ball 3D slice",
+  "sourceSeed": null,
+  "durationMs": 40000,
+  "stepMs": 1000,
+  "sampleMs": 100,
+  "checkpointTimesMs": [
+    0,
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000,
+    35000,
+    40000
+  ],
+  "source5": {
+    "dimension": 5,
+    "boundaryDimension": 4,
+    "vertices": 32,
+    "edges": 80
+  },
+  "comparator4": {
+    "dimension": 4,
+    "boundaryDimension": 3,
+    "vertices": 16,
+    "edges": 32,
+    "description": "newly computed comparator validated against untouched Gate 3 source; beta ignored"
+  },
+  "display": {
+    "camera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659
+    },
+    "viewBox": [
+      0,
+      0,
+      640,
+      420
+    ],
+    "center": [
+      320,
+      210
+    ],
+    "scale": 80,
+    "glyphRadiusSvgUnits": 4,
+    "noAutoFit": true,
+    "noJitter": true
+  },
+  "observationCasesFile": "observation-cases.json",
+  "sliceCasesFile": "slice-cases.json",
+  "initialSourceSha256": "540871ea8402c51f6fb6165b62ae38d372baa2f9ac1f6cfbbc459fc89a35a500",
+  "initialRotationSha256": "4f2d9bffff87d5bfca13f2cc6dff19349a7e2443d220f92df8c513436e628b42",
+  "initialProjectionSha256": "ab9cbf8b5a7674179fd5694925a0b01d1df0d1c0fb23f6aec408223e323c9012",
+  "initialComparatorSha256": "8f2e169eb2901220199482d559926c71287ac7c758c65f8509707b1bba690fd3",
+  "initialSliceSha256": "bb7edc0349635a52ef855e1b9507c4c5ced5a7e8b9d2d76f8211cf7a01419184",
+  "initialCheckpointSha256": "b4fda6749b3d30da9eff4a6d2e763445877041b630299aa744a651da2f90dbc3",
+  "initialStateFile": "initial-state.json",
+  "checkpointsFile": "checkpoints.json",
+  "eventsFile": "events.jsonl",
+  "eventsKind": "planned deterministic fixture; not observed browser controls"
+}

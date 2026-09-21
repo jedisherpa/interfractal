@@ -1,0 +1,440 @@
+[
+  {
+    "label": "results-top",
+    "observedAtUtc": "2026-09-20T04:19:11.280Z",
+    "state": {
+      "clientWidth": 1280,
+      "documentWidth": 1280,
+      "images": [
+        {
+          "alt": "The selected quartet separates; the full projection remains ambiguous.",
+          "complete": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg"
+        },
+        {
+          "alt": "Two known views still leave v hidden.",
+          "complete": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg"
+        },
+        {
+          "alt": "A boundary slice is one location.",
+          "complete": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg"
+        },
+        {
+          "alt": "Outside the boundary, the slice is empty.",
+          "complete": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/GATE_5_PACKET.md",
+          "text": "Full review packet ↗"
+        },
+        {
+          "href": "http://127.0.0.1:43998/",
+          "text": "Open the paused replay →"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/results.html#watch",
+          "text": "What to watch"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-initial-comparison.jpg",
+          "text": "initial comparison"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+          "text": "T1 overlap 0 0"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+          "text": "T2 first turn 45 0"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+          "text": "T2 second turn 45 45"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-first-leg.jpg",
+          "text": "active first leg"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-second-leg.jpg",
+          "text": "active second leg"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-return-leg.jpg",
+          "text": "active return leg"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+          "text": "rank4 v hidden"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-half-half.jpg",
+          "text": "slice half half"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+          "text": "slice equal A"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+          "text": "slice equal B"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg",
+          "text": "slice point"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg",
+          "text": "slice empty"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+          "text": "inspector fresh environment"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+          "text": "viewport 960x720"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+          "text": "narrow inspector"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+          "text": "restored paused start"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/capture-index.json",
+          "text": "Capture index, dimensions and SHA-256s"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/review/audit/gate-5/AUDIT.md",
+          "text": "Independent audit"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/CORE_EVIDENCE_CLOSED.json",
+          "text": "Closed core"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/review/docs/gate-5/PRESPEC_FREEZE.json",
+          "text": "Frozen specification"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/browser-observations.json",
+          "text": "Actual browser observations"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/action-trace.json",
+          "text": "Root computer-use action trace"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/observed-activity.jsonl",
+          "text": "Actual semantic activity"
+        },
+        {
+          "href": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/checkpoints.json",
+          "text": "Canonical checkpoint records"
+        },
+        {
+          "href": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/observation-cases.json",
+          "text": "Known observations and solver cases"
+        },
+        {
+          "href": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/slice-cases.json",
+          "text": "Analytic slice cases"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/historical-ui-review.json",
+          "text": "Historical review and two screenshot failures"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/review/research/gate-5/source-review.md",
+          "text": "Primary-source review"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/execution-provenance.json",
+          "text": "Execution provenance"
+        },
+        {
+          "href": "https://www.cs.princeton.edu/courses/archive/fall13/cos521/lecnotes/lec11.pdf",
+          "text": "Arora’s Princeton geometry notes"
+        },
+        {
+          "href": "https://people.math.ethz.ch/~grsam/NumMeth/Parts/NCSEFL_handout_chapter_3.pdf",
+          "text": "Hiptmair’s ETH numerical-methods notes"
+        },
+        {
+          "href": "http://127.0.0.1:43998/",
+          "text": "Review the paused replay again →"
+        }
+      ],
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "text": "LOOKING GLASS / EXPERIMENT 05\nFull review packet ↗\n\nTWO ADDITIONAL COORDINATES IN 5D\n\nTwo independent turns,\nwith limits in view.\nQualified instrument result · independently audited\n\nThe controls expose distinct hidden-coordinate effects. Three known raw 3D views recover all five coordinates. A successful marked-point task still leaves global projection ambiguity.\n\nOpen the paused replay →What to watch\n\nG5-PENTERACT-001 · build g5-0bdee39bcd7dd541 · local preview on this Mac\n\n32 / 80\n5D source vertices / edges\n3 → 4 → 5\nRank as known observations are added\n18 of 32\nDistinct global sites at 45° / 45°\n\nA SHORT VIEWING GUIDE\n\nWatch the controls separately.\n\nThe 40-second run opens paused. The ordinary camera stays fixed. Source/task controls are near the top; scroll slightly for playback and checkpoints, farther for rank and slice details.\n\nOpen the paused replay and click Replay from start. During 0–10s only x–w changes; during 10–20s only y–v changes. The two return legs end at 40s. Use the 5s and 15s checkpoints to inspect each effect without motion.\nUse Task T2 · start, then T2 · x–w 45°, followed by T2 · y–v 45°. Inspect 4D site and Inspect 5D site after each turn. The selected pair separates after the first control and the selected quartet after the second; other source IDs still overlap.\nScroll to Track correspondence. Rank 4 · v hidden leaves a genuine missing coordinate. Rank 5 · reveal v adds the known third view and shows the numerical solve. The ordinary camera is a separate control.\nIn Slice a solid 5D ball, compare Equal A · 0.5, 0 with Equal B · 0, 0.5, then Point · 1, 0 and Empty · 1.25, 0. The first two have identical slice geometry; the last two distinguish one location from no points.\n\nFIXED CAMERA · RECORDED TASK ROUTE\n\nMore distinctions; remaining overlaps.\n\nCells show 4D / 5D. The 4D reference is a new computed comparator validated against the untouched Gate 3 model; only α affects it. Both panels use the same camera, framing, scale and radius-4 markers.\n\nα / β\tRaw 3D sites\tCollapsed edges\tNonzero edges\tMarker-overlap pairs\n0° / 0°\t8 / 8\t8 / 32\t24 / 48\t8 / 48\n45° / 0°\t12 / 12\t0 / 16\t32 / 64\t4 / 32\n45° / 45°\t12 / 18\t0 / 0\t32 / 80\t4 / 20\nSelected identities are not globally unique sites. T1 inspects two IDs at the marked 4D site and four at the marked 5D site. On T2’s route, the pair separates after one actual source action; the quartet after two. At45°/ 45°, A still shares a site with three unmarked 5D vertices. These are unequal target sizes and route-specific action counts, not human difficulty or optimal navigation.\n\nMarker-overlap pairs use screen-center distance<8 SVG units. Raw 3D and exact 2D coincidences are recorded separately. These are geometric proxies, not perceived occlusion. Source totals stay 16/32 vertices and 32/80 edges.\n\nEXPECTED · OBSERVED · LIMITS\n\nWhat the evidence supports.\nT01–02 · Are the two source controls faithful and independent?\nEXPECTED\n32 vertices, 80 edges, span five; orthogonal rotations and independent x–w / y–v effects. Camera changes display only.\nOBSERVED\n25 angle pairs and 12,400 squared-distance checks pass; maximum discrepancy 7.11×10⁻¹⁵. Actual α then β controls affect their declared planes; camera leaves raw state unchanged.\nINTERPRETATION\nSupports the declared 5D source, projection and control isolation. The disjoint rotations commute.\nSTILL LIMITED\nA wireframe or its apparent complexity does not demonstrate a physical fifth dimension or human understanding.\nT03–04 · Which observations recover the coordinates?\nEXPECTED\nBase rank 3; base+x–w rank 4 with v hidden; adding known y–v view gives rank 5.\nOBSERVED\nActual UI displays the rank-3/rank-4 failures and rank-5 solve. Independent audit recovers all 32 vertices plus one opaque noncube probe: maximum coordinate error 1.11×10⁻¹⁶, forward residual 0.\nINTERPRETATION\nConditional reconstruction from three known raw 3D views and supplied point correspondences; the solver receives observations and matrices, then a separate evaluator checks truth.\nSTILL LIMITED\nNo recovery from arbitrary screenshots, unknown transforms/correspondences, or proof of a uniquely 5D cause.\nT05 · What do two slice coordinates determine?\nEXPECTED\nρ²=1−w²−v²: positive solid, exact zero point, negative empty. Different pairs can give equal slices.\nOBSERVED\n19 frozen analytic cases agree. Actual w=.5 then v=.5 gives radii √.75 then √.5; (.5,0) and (0,.5) give the same √.75 slice. Both exact point presets and the empty preset work.\nINTERPRETATION\nTwo independent known constraints select a 3D slice of the separate unit 5D ball. Full xyz projection stays a unit ball.\nSTILL LIMITED\nRadius identifies w²+v², not the signed ordered pair. Known coordinate labels distinguish the requested conditions; geometry alone does not.\nT06 · What does the controlled 4D comparison show?\nEXPECTED\nAt 0/0→45/0→45/ 45, raw sites 4D/5D:8/8→12/12→12/18. The marked 4D pair separates after one source action; the 5D quartet after two.\nOBSERVED\nCounts and screen proxies match predictions. T1 uses two actual inspect actions; T2 records two successive source turns and four inspections. The computed α-only 4D comparator matches the pinned historical model.\nINTERPRETATION\nA prescribed route exposes the chosen extra-coordinate distinctions while retaining global coincidences. Structural and screen-space counts are instrumental measures.\nSTILL LIMITED\nTargets have different cardinalities. Action counts are neither a fair human difficulty comparison nor optimal navigation. At45/ 45 A still overlaps three unmarked 5D vertices.\nT07–09 · Can the actual run be watched and recovered?\nEXPECTED\nVisible independent legs and return; natural 40s end; stable pause/step/seek; exact nine checkpoints; fresh metadata and preserved history.\nOBSERVED\nUninterrupted active capture brackets:0.7–0.8s,17.8–18.0s,28.2–28.3s. Natural end records automatic-playback/end-of-sequence. All nine hashes repeat after exploration, reopening and reload; 556 historical entries unchanged.\nINTERPRETATION\nThe saved local replay and actual tested controls are reproducible within this browser/build. All 131 recorded metadata/state observations and 17 original-image integrity checks pass.\nSTILL LIMITED\nDense roster text; playback touches the 1280×720 fold and lower controls need scrolling. Two historical screenshot calls failed. No OS reduced-motion emulation or human study.\n\nUNTOUCHED NATIVE SCREENSHOTS\n\nFour inspected moments.\n\nOriginals retain their capture-time state and provisional library text. Open any image at full size. All 17 originals and their state brackets are preserved below.\n\nThe selected quartet separates; the full projection remains ambiguous.\n\nAt α=β=45°, A/B/C/D have different raw 3D coordinates, but the whole 5D hypercube occupies only 18 sites. A still shares its site with three unmarked vertices. The 4D comparator remains at α=45°.\n\nOriginal 1280×720 · observations 18–19 · click for full image\nTwo known views still leave v hidden.\n\nThe base and x–w views give rank 4/5 and an explicit “no unique 5D solution” result. This negative case uses raw coordinate observations, not inference from the image.\n\nOriginal 1280×720 · observations 43–44 · click for full image\nA boundary slice is one location.\n\nAt known (w,v)=(1,0), the radicand is exactly zero. The locator marks a singleton and its radius is zero; it is not a positive-radius sphere.\n\nOriginal 1280×720 · observations 58–59 · click for full image\nOutside the boundary, the slice is empty.\n\nAt (w,v)=(1.25,0), the radicand is −0.5625. There is no slice object or point locator; axes and the explicit EMPTY · NO POINTS label remain.\n\nOriginal 1280×720 · observations 62–63 · click for full image\nAll 17 original captures and state links\n\nONE CANDIDATE · NO CORRECTION\n\nA closed, reproducible core.\n\n131 observations · 93 successful root actions · 85 semantic events in three sessions · 17 originals\n\nThese count different records and are not added together. All 23 closed-core files and all 556 historical entries pass byte integrity. The console is empty. All nine checkpoints restore exactly in the same browser/build after exploration, library reopening and reload.\n\nActual active captures are bracketed at 0.7–0.8s,17.8–18.0s and28.2–28.3s. Natural playback ends at 40s with automatic-playback / end-of-sequence. No implementation candidate failed and no correction build was needed.\n\nIndependent audit · Closed core · Frozen specification\n\nREAD THE RECORDS\n\nActual browser observations\nRoot computer-use action trace\nActual semantic activity\nCanonical checkpoint records\nKnown observations and solver cases\nAnalytic slice cases\nHistorical review and two screenshot failures\nPrimary-source review\n\nGenerated run fixtures describe expected states. Actual controls are recorded in the separate browser and activity files.\n\nQUALIFICATIONS\n\nThe boundaries stay explicit.\nAt 1280×720, source/task controls are visible, but playback touches the bottom and seek/checkpoints require scrolling. ID/status text is small and dense. The 960×720 layout has no horizontal overflow; lower details still need scrolling. The inspector and selected-ID controls preserve access to the records.\nActual Gate 3 and Gate 4 library links opened their correct paused run/build, verified through DOM/accessibility. A native new-tab screenshot attempt failed once for each. Both failures remain recorded; no historical screenshot is claimed.\nOriginal JPEGs decode to 1280×720 or 960×720 pixels. These dimensions are recorded independently from the browser’s reported DPR, which was sometimes 2. Active images are bracketed by observations rather than assigned an invented exact frame time.\nNo human responses, learning, relative usability, optimal navigation, OS reduced-motion emulation, video or public deployment are claimed. Raw 3D coordinate reconstruction assumes known transforms and stable correspondences; equal-radius slices do not identify their ordered hidden plane coordinates.\n\nActual roles: Astra xhigh, specification/synthesis; Luna high, source gathering; Sol high, implementation; a separate Sol high worker, audit. Root operated the browser. These are software-agent roles, not human expert or participant reviews. Execution provenance.\n\nThe mathematical basis uses Arora’s Princeton geometry notes and Hiptmair’s ETH numerical-methods notes. Specific counts, matrices and the two-constraint slice formula are direct derivations; sources do not validate this UI or human understanding.\n\nExact identity and local recovery\n\nDECISION FOR PAUL\n\nGate 6: Connected local models\nand changes of scale\n\nThe proposed next scope is two fictional local contexts with declared shared references, typed dependencies, expandable summaries and a plain table/graph comparison that preserves source details. No Gate 6 work has started.\n\nDo you approve Gate 6, want revisions to Gate 5, or want to pause?\n\nReview the paused replay again →\nLooking Glass · Gate 5 only · no human study, public deployment or automatic stage advancement",
+      "title": "Gate 5 results · Looking Glass",
+      "url": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      }
+    },
+    "screenshot": {
+      "path": "presentation-results-top.jpg",
+      "sha256": "17822770658b11150aaa86f7bec6750b1b031f6b2654ce20f178c450110c0f7a",
+      "bytes": 76064,
+      "mime": "image/jpeg",
+      "unedited": true
+    }
+  },
+  {
+    "label": "results-captures",
+    "observedAtUtc": "2026-09-20T04:19:18.687Z",
+    "state": {
+      "clientWidth": 1280,
+      "documentWidth": 1280,
+      "images": [
+        {
+          "alt": "The selected quartet separates; the full projection remains ambiguous.",
+          "complete": true,
+          "naturalHeight": 720,
+          "naturalWidth": 1280,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg"
+        },
+        {
+          "alt": "Two known views still leave v hidden.",
+          "complete": true,
+          "naturalHeight": 720,
+          "naturalWidth": 1280,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg"
+        },
+        {
+          "alt": "A boundary slice is one location.",
+          "complete": true,
+          "naturalHeight": 720,
+          "naturalWidth": 1280,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg"
+        },
+        {
+          "alt": "Outside the boundary, the slice is empty.",
+          "complete": true,
+          "naturalHeight": 720,
+          "naturalWidth": 1280,
+          "src": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/GATE_5_PACKET.md",
+          "text": "Full review packet ↗"
+        },
+        {
+          "href": "http://127.0.0.1:43998/",
+          "text": "Open the paused replay →"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/results.html#watch",
+          "text": "What to watch"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg",
+          "text": ""
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-initial-comparison.jpg",
+          "text": "initial comparison"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T1-overlap-0-0.jpg",
+          "text": "T1 overlap 0 0"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-first-turn-45-0.jpg",
+          "text": "T2 first turn 45 0"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-T2-second-turn-45-45.jpg",
+          "text": "T2 second turn 45 45"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-first-leg.jpg",
+          "text": "active first leg"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-second-leg.jpg",
+          "text": "active second leg"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-active-return-leg.jpg",
+          "text": "active return leg"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-rank4-v-hidden.jpg",
+          "text": "rank4 v hidden"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-half-half.jpg",
+          "text": "slice half half"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-equal-A.jpg",
+          "text": "slice equal A"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-equal-B.jpg",
+          "text": "slice equal B"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-point.jpg",
+          "text": "slice point"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-slice-empty.jpg",
+          "text": "slice empty"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-inspector-fresh-environment.jpg",
+          "text": "inspector fresh environment"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-viewport-960x720.jpg",
+          "text": "viewport 960x720"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-narrow-inspector.jpg",
+          "text": "narrow inspector"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/screenshots/001-restored-paused-start.jpg",
+          "text": "restored paused start"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/capture-index.json",
+          "text": "Capture index, dimensions and SHA-256s"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/review/audit/gate-5/AUDIT.md",
+          "text": "Independent audit"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/CORE_EVIDENCE_CLOSED.json",
+          "text": "Closed core"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/review/docs/gate-5/PRESPEC_FREEZE.json",
+          "text": "Frozen specification"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/browser-observations.json",
+          "text": "Actual browser observations"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/action-trace.json",
+          "text": "Root computer-use action trace"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/observed-activity.jsonl",
+          "text": "Actual semantic activity"
+        },
+        {
+          "href": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/checkpoints.json",
+          "text": "Canonical checkpoint records"
+        },
+        {
+          "href": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/observation-cases.json",
+          "text": "Known observations and solver cases"
+        },
+        {
+          "href": "http://127.0.0.1:43998/runs/G5-PENTERACT-001/slice-cases.json",
+          "text": "Analytic slice cases"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/historical-ui-review.json",
+          "text": "Historical review and two screenshot failures"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/review/research/gate-5/source-review.md",
+          "text": "Primary-source review"
+        },
+        {
+          "href": "http://127.0.0.1:43998/evidence/gate-5/execution-provenance.json",
+          "text": "Execution provenance"
+        },
+        {
+          "href": "https://www.cs.princeton.edu/courses/archive/fall13/cos521/lecnotes/lec11.pdf",
+          "text": "Arora’s Princeton geometry notes"
+        },
+        {
+          "href": "https://people.math.ethz.ch/~grsam/NumMeth/Parts/NCSEFL_handout_chapter_3.pdf",
+          "text": "Hiptmair’s ETH numerical-methods notes"
+        },
+        {
+          "href": "http://127.0.0.1:43998/",
+          "text": "Review the paused replay again →"
+        }
+      ],
+      "scroll": {
+        "x": 0,
+        "y": 3420
+      },
+      "text": "LOOKING GLASS / EXPERIMENT 05\nFull review packet ↗\n\nTWO ADDITIONAL COORDINATES IN 5D\n\nTwo independent turns,\nwith limits in view.\nQualified instrument result · independently audited\n\nThe controls expose distinct hidden-coordinate effects. Three known raw 3D views recover all five coordinates. A successful marked-point task still leaves global projection ambiguity.\n\nOpen the paused replay →What to watch\n\nG5-PENTERACT-001 · build g5-0bdee39bcd7dd541 · local preview on this Mac\n\n32 / 80\n5D source vertices / edges\n3 → 4 → 5\nRank as known observations are added\n18 of 32\nDistinct global sites at 45° / 45°\n\nA SHORT VIEWING GUIDE\n\nWatch the controls separately.\n\nThe 40-second run opens paused. The ordinary camera stays fixed. Source/task controls are near the top; scroll slightly for playback and checkpoints, farther for rank and slice details.\n\nOpen the paused replay and click Replay from start. During 0–10s only x–w changes; during 10–20s only y–v changes. The two return legs end at 40s. Use the 5s and 15s checkpoints to inspect each effect without motion.\nUse Task T2 · start, then T2 · x–w 45°, followed by T2 · y–v 45°. Inspect 4D site and Inspect 5D site after each turn. The selected pair separates after the first control and the selected quartet after the second; other source IDs still overlap.\nScroll to Track correspondence. Rank 4 · v hidden leaves a genuine missing coordinate. Rank 5 · reveal v adds the known third view and shows the numerical solve. The ordinary camera is a separate control.\nIn Slice a solid 5D ball, compare Equal A · 0.5, 0 with Equal B · 0, 0.5, then Point · 1, 0 and Empty · 1.25, 0. The first two have identical slice geometry; the last two distinguish one location from no points.\n\nFIXED CAMERA · RECORDED TASK ROUTE\n\nMore distinctions; remaining overlaps.\n\nCells show 4D / 5D. The 4D reference is a new computed comparator validated against the untouched Gate 3 model; only α affects it. Both panels use the same camera, framing, scale and radius-4 markers.\n\nα / β\tRaw 3D sites\tCollapsed edges\tNonzero edges\tMarker-overlap pairs\n0° / 0°\t8 / 8\t8 / 32\t24 / 48\t8 / 48\n45° / 0°\t12 / 12\t0 / 16\t32 / 64\t4 / 32\n45° / 45°\t12 / 18\t0 / 0\t32 / 80\t4 / 20\nSelected identities are not globally unique sites. T1 inspects two IDs at the marked 4D site and four at the marked 5D site. On T2’s route, the pair separates after one actual source action; the quartet after two. At45°/ 45°, A still shares a site with three unmarked 5D vertices. These are unequal target sizes and route-specific action counts, not human difficulty or optimal navigation.\n\nMarker-overlap pairs use screen-center distance<8 SVG units. Raw 3D and exact 2D coincidences are recorded separately. These are geometric proxies, not perceived occlusion. Source totals stay 16/32 vertices and 32/80 edges.\n\nEXPECTED · OBSERVED · LIMITS\n\nWhat the evidence supports.\nT01–02 · Are the two source controls faithful and independent?\nEXPECTED\n32 vertices, 80 edges, span five; orthogonal rotations and independent x–w / y–v effects. Camera changes display only.\nOBSERVED\n25 angle pairs and 12,400 squared-distance checks pass; maximum discrepancy 7.11×10⁻¹⁵. Actual α then β controls affect their declared planes; camera leaves raw state unchanged.\nINTERPRETATION\nSupports the declared 5D source, projection and control isolation. The disjoint rotations commute.\nSTILL LIMITED\nA wireframe or its apparent complexity does not demonstrate a physical fifth dimension or human understanding.\nT03–04 · Which observations recover the coordinates?\nEXPECTED\nBase rank 3; base+x–w rank 4 with v hidden; adding known y–v view gives rank 5.\nOBSERVED\nActual UI displays the rank-3/rank-4 failures and rank-5 solve. Independent audit recovers all 32 vertices plus one opaque noncube probe: maximum coordinate error 1.11×10⁻¹⁶, forward residual 0.\nINTERPRETATION\nConditional reconstruction from three known raw 3D views and supplied point correspondences; the solver receives observations and matrices, then a separate evaluator checks truth.\nSTILL LIMITED\nNo recovery from arbitrary screenshots, unknown transforms/correspondences, or proof of a uniquely 5D cause.\nT05 · What do two slice coordinates determine?\nEXPECTED\nρ²=1−w²−v²: positive solid, exact zero point, negative empty. Different pairs can give equal slices.\nOBSERVED\n19 frozen analytic cases agree. Actual w=.5 then v=.5 gives radii √.75 then √.5; (.5,0) and (0,.5) give the same √.75 slice. Both exact point presets and the empty preset work.\nINTERPRETATION\nTwo independent known constraints select a 3D slice of the separate unit 5D ball. Full xyz projection stays a unit ball.\nSTILL LIMITED\nRadius identifies w²+v², not the signed ordered pair. Known coordinate labels distinguish the requested conditions; geometry alone does not.\nT06 · What does the controlled 4D comparison show?\nEXPECTED\nAt 0/0→45/0→45/ 45, raw sites 4D/5D:8/8→12/12→12/18. The marked 4D pair separates after one source action; the 5D quartet after two.\nOBSERVED\nCounts and screen proxies match predictions. T1 uses two actual inspect actions; T2 records two successive source turns and four inspections. The computed α-only 4D comparator matches the pinned historical model.\nINTERPRETATION\nA prescribed route exposes the chosen extra-coordinate distinctions while retaining global coincidences. Structural and screen-space counts are instrumental measures.\nSTILL LIMITED\nTargets have different cardinalities. Action counts are neither a fair human difficulty comparison nor optimal navigation. At45/ 45 A still overlaps three unmarked 5D vertices.\nT07–09 · Can the actual run be watched and recovered?\nEXPECTED\nVisible independent legs and return; natural 40s end; stable pause/step/seek; exact nine checkpoints; fresh metadata and preserved history.\nOBSERVED\nUninterrupted active capture brackets:0.7–0.8s,17.8–18.0s,28.2–28.3s. Natural end records automatic-playback/end-of-sequence. All nine hashes repeat after exploration, reopening and reload; 556 historical entries unchanged.\nINTERPRETATION\nThe saved local replay and actual tested controls are reproducible within this browser/build. All 131 recorded metadata/state observations and 17 original-image integrity checks pass.\nSTILL LIMITED\nDense roster text; playback touches the 1280×720 fold and lower controls need scrolling. Two historical screenshot calls failed. No OS reduced-motion emulation or human study.\n\nUNTOUCHED NATIVE SCREENSHOTS\n\nFour inspected moments.\n\nOriginals retain their capture-time state and provisional library text. Open any image at full size. All 17 originals and their state brackets are preserved below.\n\nThe selected quartet separates; the full projection remains ambiguous.\n\nAt α=β=45°, A/B/C/D have different raw 3D coordinates, but the whole 5D hypercube occupies only 18 sites. A still shares its site with three unmarked vertices. The 4D comparator remains at α=45°.\n\nOriginal 1280×720 · observations 18–19 · click for full image\nTwo known views still leave v hidden.\n\nThe base and x–w views give rank 4/5 and an explicit “no unique 5D solution” result. This negative case uses raw coordinate observations, not inference from the image.\n\nOriginal 1280×720 · observations 43–44 · click for full image\nA boundary slice is one location.\n\nAt known (w,v)=(1,0), the radicand is exactly zero. The locator marks a singleton and its radius is zero; it is not a positive-radius sphere.\n\nOriginal 1280×720 · observations 58–59 · click for full image\nOutside the boundary, the slice is empty.\n\nAt (w,v)=(1.25,0), the radicand is −0.5625. There is no slice object or point locator; axes and the explicit EMPTY · NO POINTS label remain.\n\nOriginal 1280×720 · observations 62–63 · click for full image\nAll 17 original captures and state links\n\nONE CANDIDATE · NO CORRECTION\n\nA closed, reproducible core.\n\n131 observations · 93 successful root actions · 85 semantic events in three sessions · 17 originals\n\nThese count different records and are not added together. All 23 closed-core files and all 556 historical entries pass byte integrity. The console is empty. All nine checkpoints restore exactly in the same browser/build after exploration, library reopening and reload.\n\nActual active captures are bracketed at 0.7–0.8s,17.8–18.0s and28.2–28.3s. Natural playback ends at 40s with automatic-playback / end-of-sequence. No implementation candidate failed and no correction build was needed.\n\nIndependent audit · Closed core · Frozen specification\n\nREAD THE RECORDS\n\nActual browser observations\nRoot computer-use action trace\nActual semantic activity\nCanonical checkpoint records\nKnown observations and solver cases\nAnalytic slice cases\nHistorical review and two screenshot failures\nPrimary-source review\n\nGenerated run fixtures describe expected states. Actual controls are recorded in the separate browser and activity files.\n\nQUALIFICATIONS\n\nThe boundaries stay explicit.\nAt 1280×720, source/task controls are visible, but playback touches the bottom and seek/checkpoints require scrolling. ID/status text is small and dense. The 960×720 layout has no horizontal overflow; lower details still need scrolling. The inspector and selected-ID controls preserve access to the records.\nActual Gate 3 and Gate 4 library links opened their correct paused run/build, verified through DOM/accessibility. A native new-tab screenshot attempt failed once for each. Both failures remain recorded; no historical screenshot is claimed.\nOriginal JPEGs decode to 1280×720 or 960×720 pixels. These dimensions are recorded independently from the browser’s reported DPR, which was sometimes 2. Active images are bracketed by observations rather than assigned an invented exact frame time.\nNo human responses, learning, relative usability, optimal navigation, OS reduced-motion emulation, video or public deployment are claimed. Raw 3D coordinate reconstruction assumes known transforms and stable correspondences; equal-radius slices do not identify their ordered hidden plane coordinates.\n\nActual roles: Astra xhigh, specification/synthesis; Luna high, source gathering; Sol high, implementation; a separate Sol high worker, audit. Root operated the browser. These are software-agent roles, not human expert or participant reviews. Execution provenance.\n\nThe mathematical basis uses Arora’s Princeton geometry notes and Hiptmair’s ETH numerical-methods notes. Specific counts, matrices and the two-constraint slice formula are direct derivations; sources do not validate this UI or human understanding.\n\nExact identity and local recovery\n\nDECISION FOR PAUL\n\nGate 6: Connected local models\nand changes of scale\n\nThe proposed next scope is two fictional local contexts with declared shared references, typed dependencies, expandable summaries and a plain table/graph comparison that preserves source details. No Gate 6 work has started.\n\nDo you approve Gate 6, want revisions to Gate 5, or want to pause?\n\nReview the paused replay again →\nLooking Glass · Gate 5 only · no human study, public deployment or automatic stage advancement",
+      "title": "Gate 5 results · Looking Glass",
+      "url": "http://127.0.0.1:43998/evidence/gate-5/results.html",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 720,
+        "width": 1280
+      }
+    },
+    "screenshot": {
+      "path": "presentation-results-captures.jpg",
+      "sha256": "8fa021be03aab8f3bcb72d751c8f29fc0e74dbf6620994ff4326a477f9875855",
+      "bytes": 115025,
+      "mime": "image/jpeg",
+      "unedited": true
+    }
+  }
+]

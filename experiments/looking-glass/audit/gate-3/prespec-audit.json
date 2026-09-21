@@ -1,0 +1,32 @@
+{
+  "checkedAtUtc": "2026-09-20T02:42:36.412Z",
+  "pass": true,
+  "checks": [
+    {
+      "name": "oracle itself passed independently",
+      "pass": true
+    },
+    {
+      "name": "source vertices and marked identities match independent enumeration",
+      "pass": true
+    },
+    {
+      "name": "declared source counts and distance histogram",
+      "pass": true
+    },
+    {
+      "name": "all five declared checkpoint tables agree with independent rotation and projection",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "negative rank and positive known-transform Gram are declared correctly",
+      "pass": true
+    },
+    {
+      "name": "four prespec files match frozen hashes and byte counts",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

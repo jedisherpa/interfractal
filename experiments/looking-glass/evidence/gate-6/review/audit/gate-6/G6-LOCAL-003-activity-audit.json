@@ -1,0 +1,29 @@
+{
+  "kind": "gate-6-independent-activity-audit",
+  "activityPath": "/Users/paul/BTC-Learning/experiments/looking-glass/evidence/gate-6/observed-activity.jsonl",
+  "actualEvents": 78,
+  "sessions": 3,
+  "types": {
+    "checkpoint.restore": 37,
+    "claims.show": 2,
+    "display.toggle": 2,
+    "layout.set": 1,
+    "local.collapse": 1,
+    "local.expand": 4,
+    "local.select": 2,
+    "playback.pause": 2,
+    "playback.play": 2,
+    "playback.replay-from-start": 2,
+    "playback.seek": 1,
+    "playback.step": 2,
+    "reference.set": 2,
+    "references.compare": 1,
+    "relation.inspect": 3,
+    "replay.open": 3,
+    "representation.set": 5,
+    "requirement.set": 2,
+    "summary.repair": 2,
+    "trace.inspect": 2
+  },
+  "checksPassed": true
+}

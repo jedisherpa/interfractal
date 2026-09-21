@@ -1,0 +1,64 @@
+{
+  "schema": "gate10-independent-candidate-audit-v1",
+  "candidate": "G10-PREDICT-002",
+  "buildId": "g10-464bfe21ad6044378996",
+  "sourceSha256": "464bfe21ad6044378996d53fc89e897a750472019f2f163fc2acd0b78aced158",
+  "status": "BLOCKED_PRE_BROWSER",
+  "scope": "Independent immutable-build, isolated HTTP/service, and source-level app review; no actual browser controls or DOM observations",
+  "passedEvidence": [
+    {"file": "candidate-002-build-audit.json", "checks": 103, "status": "PASS", "covers": "Source/build/spec pins, private copies, sanitized public manifest, six canonical checkpoints and six scheduled events"},
+    {"file": "candidate-002-http-service-audit.json", "checks": 572, "status": "PASS", "covers": "Sequential route allowlist, static bytes, API validation and lifecycle, capacity, clock-controlled expiry, redacted logs"}
+  ],
+  "blockingFindings": [
+    {
+      "id": "G10-002-01",
+      "kind": "independently_reproduced_service_failure",
+      "severity": "blocking",
+      "title": "Overlapping request IDs are not locked before asynchronous logging",
+      "source": ["prediction-transfer/builds/g10-464bfe21ad6044378996/service.mjs:65-75", "prediction-transfer/builds/g10-464bfe21ad6044378996/service.mjs:83-90"],
+      "evidence": "candidate-002-concurrency-repro.json",
+      "observed": "Identical concurrent start returned 201/201 with two distinct attempts; identical concurrent commit returned 201/409 attempt_locked rather than the same receipt; conflicting concurrent start reuse returned 201/201 for T01 and T02. The same failure was exercised directly and over an isolated HTTP server.",
+      "contract": "docs/gate-10/model-contract.md:42-43",
+      "minimalFix": "Reserve an in-flight request identity and canonical payload before the first await. Identical overlapping retries join the original result; conflicting reuse rejects without another mutation. Preserve the immutable first response and event identity."
+    },
+    {
+      "id": "G10-002-02",
+      "kind": "source_control_flow_failure_not_browser_observed",
+      "severity": "blocking",
+      "title": "Late ledger export can repopulate answer-bearing text after canonical restoration",
+      "source": ["prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:35-41", "prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:139-142", "prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:152"],
+      "observed": "The ledger export awaits the server without marking a pending action or capturing mode, epoch, session and case. Reopen saved remains enabled and clears export text, but the earlier export response then writes its revealed target/explanation into export-output unconditionally on the canonical page.",
+      "contract": "docs/gate-10/model-contract.md:23,25,46; docs/gate-10/record-contract.md:25",
+      "minimalFix": "Bind the export response to its initiating document epoch/session/mode and discard it after navigation, or keep navigation disabled for the entire export operation; canonical restoration must leave export text empty."
+    },
+    {
+      "id": "G10-002-03",
+      "kind": "source_provenance_failure_not_browser_observed",
+      "severity": "blocking",
+      "title": "Actual API acknowledgement and rejection UI events are labeled scripted demonstration",
+      "source": ["prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:27-29", "prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:78-81", "prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:83-88"],
+      "observed": "The event logger maps every origin other than user-control to scripted_demonstration. The actual attempt/commit/reveal/session API acknowledgements and rejections call it with origin api, so the exported UI ledger states false actor/provenance.",
+      "contract": "docs/gate-10/record-contract.md:9-11",
+      "minimalFix": "Map api events to a distinct software API actor/provenance, while retaining scripted_demonstration only for replay and automatic events."
+    },
+    {
+      "id": "G10-002-04",
+      "kind": "source_event_chain_failure_not_browser_observed",
+      "severity": "blocking",
+      "title": "Play and boundary pause can emit nonchaining before/after fingerprints",
+      "source": ["prediction-transfer/builds/g10-464bfe21ad6044378996/app.mjs:50-63"],
+      "observed": "Play captures before before an implicit restore from local review: restore emits local-to-paused-canonical, then tour-play again claims the old local before. Pause captures before before advanceClock; when that call emits a scheduled case-select, tour-pause repeats a pre-boundary before. In both reachable paths, adjacent event fingerprints differ at their join.",
+      "contract": "docs/gate-10/record-contract.md:11,13",
+      "minimalFix": "For each event, capture before immediately after any preceding state-changing operation, or emit the control transition in the actual order so each event's before equals the preceding event's after."
+    }
+  ],
+  "boundedNonblockingNotes": [
+    "The synchronous event export has no late server response, and pending start/commit/reveal guard their epoch, case and attempt before applying acknowledgements.",
+    "A failed /api/session creation currently clears pending/unknown without an idempotency key. Because the frozen /api/session schema has no requestId and session creation is a separate pre-attempt operation, this is recorded as a session-issuance ambiguity rather than an additional candidate blocker; it must not be described as a proven idempotent session retry.",
+    "Close on navigation is fire-and-forget; an unacknowledged close can leave a server attempt open until a later start or expiry. Local history is not falsely marked abandoned from that path; the host should inspect actual ledgers."
+  ],
+  "failedReproductionFiles": ["candidate-002-concurrency-repro.json", "candidate-002-concurrency-actions.jsonl", "candidate-002-concurrency-http-actions.jsonl"],
+  "credentialsAndReceipts": "Redacted from the summarized failure reproduction; no credential or receipt values are quoted in this report.",
+  "nextStep": "Correct candidate 003, then independently rerun the passing suites and failed concurrent probes against 003 before any actual browser collection.",
+  "humanOutcomes": "Untested"
+}

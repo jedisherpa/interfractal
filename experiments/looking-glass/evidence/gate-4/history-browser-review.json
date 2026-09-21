@@ -1,0 +1,1893 @@
+{
+  "observedAtUtc": "2026-09-20T03:35:55.158Z",
+  "sourceAction": "002 open actual Gate3 history link",
+  "targetTabId": "14",
+  "snapshot": "- main:\n  - generic: LOOKING GLASS / EXPERIMENT 03\n  - heading \"A 4D object, a moving 3D shadow.\" [level=1]\n  - paragraph: Sixteen source vertices live in (x, y, z, w). A controlled x–w turn changes their orthographic xyz projection. The ordinary camera only changes how that 3D projection appears on this screen.\n  - generic: GATE 3 · 4D PROJECTION\n  - generic: PAUSED · SAVED RUN\n  - generic: 0.0s / 32s\n  - generic: G3-TESSERACT-003\n  - article:\n    - text: 01 / PROJECTED STRUCTURE\n    - heading \"The moving 3D shadow\" [level=2]\n    - generic: x–w 0.0°\n    - img \"Ordinary camera view of a computed 3D projection of the 4D hypercube wireframe\":\n      - button \"Select edge e-v0000-v0010\"\n      - button \"Select edge e-v0000-v0100\"\n      - button \"Select edge e-v0000-v1000\"\n      - button \"Select edge e-v0001-v0011\"\n      - button \"Select edge e-v0001-v0101\"\n      - button \"Select edge e-v0001-v1001\"\n      - button \"Select edge e-v0010-v0110\"\n      - button \"Select edge e-v0010-v1010\"\n      - button \"Select edge e-v0011-v0111\"\n      - button \"Select edge e-v0011-v1011\"\n      - button \"Select edge e-v0100-v0110\"\n      - button \"Select edge e-v0100-v1100\"\n      - button \"Select edge e-v0101-v0111\"\n      - button \"Select edge e-v0101-v1101\"\n      - button \"Select edge e-v0110-v1110\"\n      - button \"Select edge e-v0111-v1111\"\n      - button \"Select edge e-v1000-v1010\"\n      - button \"Select edge e-v1000-v1100\"\n      - button \"Select edge e-v1001-v1011\"\n      - button \"Select edge e-v1001-v1101\"\n      - button \"Select edge e-v1010-v1110\"\n      - button \"Select edge e-v1011-v1111\"\n      - button \"Select edge e-v1100-v1110\"\n      - button \"Select edge e-v1101-v1111\"\n      - button \"Screen site of v0000 and v0001\"\n      - button \"Screen site of v0010 and v0011\"\n      - button \"Screen site of v0100 and v0101\"\n      - button \"Screen site of v0110 and v0111\"\n      - button \"Screen site of v1000 and v1001\"\n      - button \"Screen site of v1010 and v1011\"\n      - button \"Screen site of v1100 and v1101\"\n      - button \"Screen site of v1110 and v1111\"\n      - generic: A/B\n    - paragraph: The wireframe is a screen drawing of the 3D projection. It is neither the full solid nor evidence of a physical fourth spatial dimension. The two highlighted points are drawn at their true projected positions; no separation is added.\n  - article:\n    - text: 02 / SOURCE INSPECTOR\n    - heading \"Two IDs, one initial site\" [level=2]\n    - generic: 2 IDs · 1 projected site\n    - generic: A and B share their original xyz. Their w values differ, so they are distinct source vertices and the endpoints of one w-edge.\n    - heading \"A · v1110\" [level=3]\n    - code: \"4D source: (1.000000, 1.000000, 1.000000, -1.000000)\"\n    - code: \"4D rotated: (1.000000, 1.000000, 1.000000, -1.000000)\"\n    - code: \"3D projected: (1.000000, 1.000000, 1.000000)\"\n    - heading \"B · v1111\" [level=3]\n    - code: \"4D source: (1.000000, 1.000000, 1.000000, 1.000000)\"\n    - code: \"4D rotated: (1.000000, 1.000000, 1.000000, 1.000000)\"\n    - code: \"3D projected: (1.000000, 1.000000, 1.000000)\"\n    - generic: Source distance\n    - strong: \"2.000000\"\n    - generic: Projected 3D distance\n    - strong: \"0\"\n    - paragraph: The highlighted pair coincides in the computed xyz projection. Both IDs and their source w-edge remain in the model. The edge has zero projected length.\n    - text: q=(x,y,z,w) → R\n    - subscript: xw\n    - text: (θ)q → P\n    - subscript: xyz\n    - text: → ordinary camera → screen\n  - button \"Play\"\n  - button \"Pause\"\n  - button \"Replay from start\"\n  - button \"Step +1s\"\n  - button \"Reset to start\"\n  - generic: Clock paused\n  - text: Scrub saved run\n  - slider \"Scrub saved run\": \"0\"\n  - generic: 0.0s\n  - button \"0s\"\n  - button \"8s\"\n  - button \"16s\"\n  - button \"24s\"\n  - button \"32s\"\n  - article:\n    - heading \"Change the source\" [level=3]\n    - text: x–w rotation\n    - generic: 0.0°\n    - slider \"x–w rotation 0.0°\": \"0\"\n    - paragraph: \"This changes the 4D source orientation and the projected 3D coordinates. Fixed scale: 80 SVG units per projected unit.\"\n  - article:\n    - heading \"Look around the shadow\" [level=3]\n    - text: Ordinary camera yaw\n    - generic: 30.0°\n    - slider \"Ordinary camera yaw 30.0°\": \"30\"\n    - paragraph: This changes only the screen view. The source angle, 3D projected coordinates and observability rank stay fixed.\n  - article:\n    - heading \"Track exact IDs\" [level=3]\n    - text: Vertex\n    - combobox \"Vertex\":\n      - option \"v0000\"\n      - option \"v0001\"\n      - option \"v0010\"\n      - option \"v0011\"\n      - option \"v0100\"\n      - option \"v0101\"\n      - option \"v0110\"\n      - option \"v0111\"\n      - option \"v1000\"\n      - option \"v1001\"\n      - option \"v1010\"\n      - option \"v1011\"\n      - option \"v1100\"\n      - option \"v1101\"\n      - option \"v1110\" [selected]\n      - option \"v1111\"\n    - text: Edge\n    - combobox \"Edge\":\n      - option \"e-v0000-v0001\"\n      - option \"e-v0000-v0010\"\n      - option \"e-v0000-v0100\"\n      - option \"e-v0000-v1000\"\n      - option \"e-v0001-v0011\"\n      - option \"e-v0001-v0101\"\n      - option \"e-v0001-v1001\"\n      - option \"e-v0010-v0011\"\n      - option \"e-v0010-v0110\"\n      - option \"e-v0010-v1010\"\n      - option \"e-v0011-v0111\"\n      - option \"e-v0011-v1011\"\n      - option \"e-v0100-v0101\"\n      - option \"e-v0100-v0110\"\n      - option \"e-v0100-v1100\"\n      - option \"e-v0101-v0111\"\n      - option \"e-v0101-v1101\"\n      - option \"e-v0110-v0111\"\n      - option \"e-v0110-v1110\"\n      - option \"e-v0111-v1111\"\n      - option \"e-v1000-v1001\"\n      - option \"e-v1000-v1010\"\n      - option \"e-v1000-v1100\"\n      - option \"e-v1001-v1011\"\n      - option \"e-v1001-v1101\"\n      - option \"e-v1010-v1011\"\n      - option \"e-v1010-v1110\"\n      - option \"e-v1011-v1111\"\n      - option \"e-v1100-v1101\"\n      - option \"e-v1100-v1110\"\n      - option \"e-v1101-v1111\"\n      - option \"e-v1110-v1111\" [selected]\n    - paragraph: \"Vertex v1110: q=(1.000000, 1.000000, 1.000000, -1.000000), p=(1.000000, 1.000000, 1.000000). Edge e-v1110-v1111: projected length 0 (collapsed, source ID retained).\"\n  - article:\n    - heading \"Screen and source comparison\" [level=3]\n    - generic: Source θ=0.0°, projected v1110=(1.000000, 1.000000, 1.000000). Camera yaw=30.0°, screen=(349.282032, 172.201247). Camera controls do not enter P R(θ).\n    - paragraph: At a fixed time, move the camera slider and read the separate projection and display digests below.\n  - text: 03 / BOUNDED OBSERVABILITY\n  - heading \"What the projected coordinates determine\" [level=2]\n  - paragraph: Known vertex correspondence, known x–w matrices, and numerical 3D coordinates are supplied. The solver receives only those observations and matrices. Source coordinates are consulted afterward for a check.\n  - generic: KNOWN TRANSFORMS\n  - button \"Compare fixed 0°\"\n  - button \"Compare camera 30° / 120°\"\n  - button \"Compare source 0° / 90°\"\n  - heading \"One fixed source view\" [level=3]\n  - paragraph: \"Source ID: v1110\"\n  - paragraph: \"Stacked rows: 3 × 4; rank 3\"\n  - paragraph: \"Observation(s): source 0.0° (1.000000, 1.000000, 1.000000)\"\n  - paragraph: \"Reconstruction: underdetermined\"\n  - paragraph: \"Residual: unavailable\"\n  - paragraph: w is hidden; infinitely many 4D points fit.\n  - heading \"Camera-only second view\" [level=3]\n  - paragraph: \"Source ID: v1110\"\n  - paragraph: \"Stacked rows: 6 × 4; rank 3\"\n  - paragraph: \"Observation(s): camera 30.0° (0.366025, 0.472484, 1.625664) · camera 120.0° (-1.366025, 0.814505, 0.685972)\"\n  - paragraph: \"Reconstruction: underdetermined\"\n  - paragraph: \"Residual: unavailable\"\n  - paragraph: \"Camera 30°/120°: 3D camera rows rank 3, screen rows rank 3. Screen sites: 30° (349.282032, 172.201247) · 120° (210.717968, 144.839635). w stays hidden.\"\n  - heading \"Known 90° source view\" [level=3]\n  - paragraph: \"Source ID: v1110\"\n  - paragraph: \"Stacked rows: 6 × 4; rank 4\"\n  - paragraph: \"Observation(s): source 0.0° (1.000000, 1.000000, 1.000000) · source 90.0° (1.000000, 1.000000, 1.000000)\"\n  - paragraph: \"Reconstructed q: (1.000000, 1.000000, 1.000000, -1.000000)\"\n  - paragraph: \"Projected-coordinate residual: 0\"\n  - paragraph: The extra x row reveals w for this known ID.\n  - paragraph: \"All 16 IDs: max post-solve coordinate error 0; max absolute forward residual 0.\"\n  - paragraph: A single 0° view, even with ordinary camera views, leaves w unobservable. Adding a known 90° source view yields rank 4 for all 16 known correspondences. This is not recovery from arbitrary screenshots or proof of a uniquely 4D physical cause.\n  - article:\n    - heading \"What to watch\" [level=3]\n    - paragraph: At 0s, A and B have one 3D projected site and remain two source IDs. At 16s (90°), their projected x coordinates differ by 2 while their source distance stays 2. At 32s they coincide again. The marked w-edge collapses in the 0° projection without ceasing to exist in 4D.\n    - paragraph: Try the camera yaw at a fixed checkpoint. It changes the SVG view while the xyz values and geometry fingerprint stay fixed.\n  - article:\n    - heading \"Run library\" [level=3]\n    - paragraph: G3-TESSERACT-003 · g3-6c31bc16aeca4460 · canonical paused start\n    - paragraph:\n      - link \"Open current run paused\":\n        - /url: /\n      - text: ·\n      - button \"Replay from start\"\n    - paragraph: Build g3-6c31bc16aeca4460 · Node.js builtins only; no packages, lockfile or external assets\n    - paragraph:\n      - text: \"Recovery:\"\n      - code: node /Users/paul/BTC-Learning/experiments/looking-glass/hypercube/builds/g3-6c31bc16aeca4460/server.mjs\n    - text: Gate 3 review ready. Earlier failed candidates and original evidence remain preserved.\n    - link \"0s · two IDs at one shadow site · 0.0s\":\n      - /url: /evidence/gate-3/screenshots/003-C0-paused-0s.jpg\n    - text: ·\n    - link \"16s · separation under the source turn · 16.0s\":\n      - /url: /evidence/gate-3/screenshots/003-C1-paused-16s.jpg\n    - text: ·\n    - link \"Active return · 26.7s · 26.7s\":\n      - /url: /evidence/gate-3/screenshots/003-C2-active-reverse.jpg\n    - text: ·\n    - link \"Known-coordinate recovery comparison · 8.0s\":\n      - /url: /evidence/gate-3/screenshots/003-C3-observability-comparison.jpg\n    - text: ·\n    - link \"Gate 3 results\":\n      - /url: /evidence/gate-3/results.html\n    - paragraph:\n      - text: \"Earlier frozen instruments:\"\n      - link \"Gate 2 replay · G2-HOPF-003 / g2-ccabad12693f86a8\":\n        - /url: http://127.0.0.1:43995/\n      - text: (\n      - link \"qualified results\":\n        - /url: http://127.0.0.1:43995/evidence/gate-2/results.html\n      - text: ) ·\n      - link \"Gate 1 replay · G1-CUBE-003 / g1-9dce1c2b9c2b3be4\":\n        - /url: http://127.0.0.1:43994/\n      - text: (\n      - link \"qualified results\":\n        - /url: http://127.0.0.1:43994/evidence/gate-1/results.html\n      - text: ) ·\n      - link \"Gate 0 replay · G0-CUBE-005 / g0-d85237ad31362768\":\n        - /url: http://127.0.0.1:43991/\n      - text: (\n      - link \"result packet\":\n        - /url: http://127.0.0.1:43991/evidence/gate-0/GATE_0_PACKET.md\n      - text: )\n  - generic \"Exact state inspector source, projection, camera, hashes, viewport\":\n    - text: Exact state inspector\n    - generic: source, projection, camera, hashes, viewport\n  - generic: LOCAL RESEARCH INSTRUMENT · PROJECTION AND NUMERICAL RECOVERY UNDER DECLARED CONTROLS",
+  "state": {
+    "diagnostics": {
+      "activityActor": "unspecified-ui",
+      "activityLog": "Saved event 1 · replay.open · programmatic-restore",
+      "buildId": "g3-6c31bc16aeca4460",
+      "documentClientWidth": 1279,
+      "documentScrollWidth": 1279,
+      "observability": {
+        "all16": [
+          {
+            "id": "v0000",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0001",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v0010",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0011",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v0100",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0101",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v0110",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0111",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1000",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1001",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v1010",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1011",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v1100",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1101",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v1110",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1111",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          }
+        ],
+        "cameraOnlyMatrices": [
+          [
+            [
+              0.8660254037844387,
+              0,
+              -0.49999999999999994,
+              0
+            ],
+            [
+              -0.17101007166283433,
+              0.9396926207859084,
+              -0.29619813272602386,
+              0
+            ],
+            [
+              0.46984631039295416,
+              0.3420201433256687,
+              0.8137976813493738,
+              0
+            ]
+          ],
+          [
+            [
+              -0.4999999999999998,
+              0,
+              -0.8660254037844387,
+              0
+            ],
+            [
+              -0.29619813272602386,
+              0.9396926207859084,
+              0.17101007166283427,
+              0
+            ],
+            [
+              0.8137976813493738,
+              0.3420201433256687,
+              -0.469846310392954,
+              0
+            ]
+          ]
+        ],
+        "cameraOnlyRank": 3,
+        "cameraOnlyScreenRank": 3,
+        "cameraOnlyScreens": [
+          {
+            "screen": [
+              349.2820323027551,
+              172.20124668823598
+            ],
+            "yawDegrees": 30
+          },
+          {
+            "screen": [
+              210.71796769724497,
+              144.8396352221825
+            ],
+            "yawDegrees": 120
+          }
+        ],
+        "declaredMatrices": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              6.123233995736766e-17,
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "fixedNullspaceDirection": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "hiddenTruthComparisonAfterReconstruction": 1.1102230246251563e-16,
+        "knownSourceViewsRank": 4,
+        "knownSourceViewsResidual": 0,
+        "maxCoordinateErrorAfterSolve": 1.1102230246251563e-16,
+        "maxForwardResidual": 0,
+        "oneViewRank": 3,
+        "solverInputsByCondition": {
+          "camera": [
+            {
+              "camera": {
+                "pitch": 0.3490658503988659,
+                "yaw": 0.5235987755982988
+              },
+              "id": "v1110",
+              "matrix": [
+                [
+                  0.8660254037844387,
+                  0,
+                  -0.49999999999999994,
+                  0
+                ],
+                [
+                  -0.17101007166283433,
+                  0.9396926207859084,
+                  -0.29619813272602386,
+                  0
+                ],
+                [
+                  0.46984631039295416,
+                  0.3420201433256687,
+                  0.8137976813493738,
+                  0
+                ]
+              ],
+              "projected": [
+                0.3660254037844387,
+                0.47248441639705024,
+                1.6256641350679966
+              ]
+            },
+            {
+              "camera": {
+                "pitch": 0.3490658503988659,
+                "yaw": 2.0943951023931953
+              },
+              "id": "v1110",
+              "matrix": [
+                [
+                  -0.4999999999999998,
+                  0,
+                  -0.8660254037844387,
+                  0
+                ],
+                [
+                  -0.29619813272602386,
+                  0.9396926207859084,
+                  0.17101007166283427,
+                  0
+                ],
+                [
+                  0.8137976813493738,
+                  0.3420201433256687,
+                  -0.469846310392954,
+                  0
+                ]
+              ],
+              "projected": [
+                -1.3660254037844384,
+                0.8145045597227188,
+                0.6859715142820885
+              ]
+            }
+          ],
+          "fixed": [
+            {
+              "id": "v1110",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "projected": [
+                1,
+                1,
+                1
+              ],
+              "theta": 0
+            }
+          ],
+          "source": [
+            {
+              "id": "v1110",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "projected": [
+                1,
+                1,
+                1
+              ],
+              "theta": 0
+            },
+            {
+              "id": "v1110",
+              "matrix": [
+                [
+                  6.123233995736766e-17,
+                  0,
+                  0,
+                  -1
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "projected": [
+                1,
+                1,
+                1
+              ],
+              "theta": 1.5707963267948966
+            }
+          ]
+        },
+        "sourceId": "v1110",
+        "statusCameraOnly": "underdetermined",
+        "statusFixed": "underdetermined"
+      },
+      "renderer": "SVG from computed 3D coordinates; no WebGL dependency",
+      "runId": "G3-TESSERACT-003",
+      "sceneRect": {
+        "height": 390,
+        "width": 605,
+        "x": 27,
+        "y": 291.25
+      },
+      "uiSessionId": "33b3d67c-fdd4-4106-8be8-42d7415641f3",
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 904,
+        "width": 1279
+      }
+    },
+    "state": {
+      "camera": {
+        "pitch": 0.3490658503988659,
+        "yaw": 0.5235987755982988
+      },
+      "cameraYawOverride": null,
+      "checkpointSha256": "1d54305d0912601519a1d5356fbfbda4e71f9d84f02656d2ff592203bd265dca",
+      "compareCondition": "source",
+      "displaySha256": "baa3698712cc8b6c6951ed94ecb82777a90921bbb27ca664186b0813ee289869",
+      "documentClientWidth": 1279,
+      "documentScrollWidth": 1279,
+      "geometrySha256": "8c6ce27db49273de2bd919c4d95e01aad6bf66144b093dc89661371f9eb0dcd7",
+      "mode": "saved-run",
+      "model": {
+        "boundaryDimension": 3,
+        "camera": {
+          "pitch": 0.3490658503988659,
+          "yaw": 0.5235987755982988
+        },
+        "displayProjection": "a=cos(yaw)x−sin(yaw)z; b=sin(yaw)x+cos(yaw)z; vertical=cos(pitch)y−sin(pitch)b; screen=(320+80a,210−80vertical)",
+        "edges": [
+          {
+            "from": "v0000",
+            "id": "e-v0000-v0001",
+            "to": "v0001"
+          },
+          {
+            "from": "v0000",
+            "id": "e-v0000-v0010",
+            "to": "v0010"
+          },
+          {
+            "from": "v0000",
+            "id": "e-v0000-v0100",
+            "to": "v0100"
+          },
+          {
+            "from": "v0000",
+            "id": "e-v0000-v1000",
+            "to": "v1000"
+          },
+          {
+            "from": "v0001",
+            "id": "e-v0001-v0011",
+            "to": "v0011"
+          },
+          {
+            "from": "v0001",
+            "id": "e-v0001-v0101",
+            "to": "v0101"
+          },
+          {
+            "from": "v0001",
+            "id": "e-v0001-v1001",
+            "to": "v1001"
+          },
+          {
+            "from": "v0010",
+            "id": "e-v0010-v0011",
+            "to": "v0011"
+          },
+          {
+            "from": "v0010",
+            "id": "e-v0010-v0110",
+            "to": "v0110"
+          },
+          {
+            "from": "v0010",
+            "id": "e-v0010-v1010",
+            "to": "v1010"
+          },
+          {
+            "from": "v0011",
+            "id": "e-v0011-v0111",
+            "to": "v0111"
+          },
+          {
+            "from": "v0011",
+            "id": "e-v0011-v1011",
+            "to": "v1011"
+          },
+          {
+            "from": "v0100",
+            "id": "e-v0100-v0101",
+            "to": "v0101"
+          },
+          {
+            "from": "v0100",
+            "id": "e-v0100-v0110",
+            "to": "v0110"
+          },
+          {
+            "from": "v0100",
+            "id": "e-v0100-v1100",
+            "to": "v1100"
+          },
+          {
+            "from": "v0101",
+            "id": "e-v0101-v0111",
+            "to": "v0111"
+          },
+          {
+            "from": "v0101",
+            "id": "e-v0101-v1101",
+            "to": "v1101"
+          },
+          {
+            "from": "v0110",
+            "id": "e-v0110-v0111",
+            "to": "v0111"
+          },
+          {
+            "from": "v0110",
+            "id": "e-v0110-v1110",
+            "to": "v1110"
+          },
+          {
+            "from": "v0111",
+            "id": "e-v0111-v1111",
+            "to": "v1111"
+          },
+          {
+            "from": "v1000",
+            "id": "e-v1000-v1001",
+            "to": "v1001"
+          },
+          {
+            "from": "v1000",
+            "id": "e-v1000-v1010",
+            "to": "v1010"
+          },
+          {
+            "from": "v1000",
+            "id": "e-v1000-v1100",
+            "to": "v1100"
+          },
+          {
+            "from": "v1001",
+            "id": "e-v1001-v1011",
+            "to": "v1011"
+          },
+          {
+            "from": "v1001",
+            "id": "e-v1001-v1101",
+            "to": "v1101"
+          },
+          {
+            "from": "v1010",
+            "id": "e-v1010-v1011",
+            "to": "v1011"
+          },
+          {
+            "from": "v1010",
+            "id": "e-v1010-v1110",
+            "to": "v1110"
+          },
+          {
+            "from": "v1011",
+            "id": "e-v1011-v1111",
+            "to": "v1111"
+          },
+          {
+            "from": "v1100",
+            "id": "e-v1100-v1101",
+            "to": "v1101"
+          },
+          {
+            "from": "v1100",
+            "id": "e-v1100-v1110",
+            "to": "v1110"
+          },
+          {
+            "from": "v1101",
+            "id": "e-v1101-v1111",
+            "to": "v1111"
+          },
+          {
+            "from": "v1110",
+            "id": "e-v1110-v1111",
+            "to": "v1111"
+          }
+        ],
+        "fixedScaleSvgUnitsPerR3Unit": 80,
+        "pairProjectedDistance": 0,
+        "pairSourceDistance": 2,
+        "projection": {
+          "composedMatrix": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "description": "orthographic P(x′,y′,z′,w′)=(x′,y′,z′)",
+          "matrix": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "projectionSites": [
+          {
+            "projected": [
+              -1,
+              -1,
+              -1
+            ],
+            "sourceIds": [
+              "v0000",
+              "v0001"
+            ]
+          },
+          {
+            "projected": [
+              -1,
+              -1,
+              1
+            ],
+            "sourceIds": [
+              "v0010",
+              "v0011"
+            ]
+          },
+          {
+            "projected": [
+              -1,
+              1,
+              -1
+            ],
+            "sourceIds": [
+              "v0100",
+              "v0101"
+            ]
+          },
+          {
+            "projected": [
+              -1,
+              1,
+              1
+            ],
+            "sourceIds": [
+              "v0110",
+              "v0111"
+            ]
+          },
+          {
+            "projected": [
+              1,
+              -1,
+              -1
+            ],
+            "sourceIds": [
+              "v1000",
+              "v1001"
+            ]
+          },
+          {
+            "projected": [
+              1,
+              -1,
+              1
+            ],
+            "sourceIds": [
+              "v1010",
+              "v1011"
+            ]
+          },
+          {
+            "projected": [
+              1,
+              1,
+              -1
+            ],
+            "sourceIds": [
+              "v1100",
+              "v1101"
+            ]
+          },
+          {
+            "projected": [
+              1,
+              1,
+              1
+            ],
+            "sourceIds": [
+              "v1110",
+              "v1111"
+            ]
+          }
+        ],
+        "rotation": {
+          "matrix": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "plane": "x–w",
+          "theta": 0
+        },
+        "selectedVertexIds": [
+          "v1110",
+          "v1111"
+        ],
+        "simulationTimeMs": 0,
+        "sourceDimension": 4,
+        "sourceObject": "solid 4D hypercube vertices and wireframe boundary edges",
+        "vertices": [
+          {
+            "cameraCoordinates": [
+              -0.3660254037844387,
+              -0.47248441639705024,
+              -1.6256641350679966
+            ],
+            "id": "v0000",
+            "normalizedScreen": [
+              -0.3660254037844387,
+              0.47248441639705024
+            ],
+            "originalSource": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "projected": [
+              -1,
+              -1,
+              -1
+            ],
+            "rotatedSource": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "screen": [
+              290.7179676972449,
+              247.798753311764
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -0.3660254037844387,
+              -0.47248441639705024,
+              -1.6256641350679966
+            ],
+            "id": "v0001",
+            "normalizedScreen": [
+              -0.3660254037844387,
+              0.47248441639705024
+            ],
+            "originalSource": [
+              -1,
+              -1,
+              -1,
+              1
+            ],
+            "projected": [
+              -1,
+              -1,
+              -1
+            ],
+            "rotatedSource": [
+              -1,
+              -1,
+              -1,
+              1
+            ],
+            "screen": [
+              290.7179676972449,
+              247.798753311764
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -1.3660254037844386,
+              -1.064880681849098,
+              0.0019312276307509313
+            ],
+            "id": "v0010",
+            "normalizedScreen": [
+              -1.3660254037844386,
+              1.064880681849098
+            ],
+            "originalSource": [
+              -1,
+              -1,
+              1,
+              -1
+            ],
+            "projected": [
+              -1,
+              -1,
+              1
+            ],
+            "rotatedSource": [
+              -1,
+              -1,
+              1,
+              -1
+            ],
+            "screen": [
+              210.71796769724492,
+              295.19045454792786
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -1.3660254037844386,
+              -1.064880681849098,
+              0.0019312276307509313
+            ],
+            "id": "v0011",
+            "normalizedScreen": [
+              -1.3660254037844386,
+              1.064880681849098
+            ],
+            "originalSource": [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            "projected": [
+              -1,
+              -1,
+              1
+            ],
+            "rotatedSource": [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            "screen": [
+              210.71796769724492,
+              295.19045454792786
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -0.3660254037844387,
+              1.4069008251747666,
+              -0.9416238484166592
+            ],
+            "id": "v0100",
+            "normalizedScreen": [
+              -0.3660254037844387,
+              -1.4069008251747666
+            ],
+            "originalSource": [
+              -1,
+              1,
+              -1,
+              -1
+            ],
+            "projected": [
+              -1,
+              1,
+              -1
+            ],
+            "rotatedSource": [
+              -1,
+              1,
+              -1,
+              -1
+            ],
+            "screen": [
+              290.7179676972449,
+              97.44793398601868
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -0.3660254037844387,
+              1.4069008251747666,
+              -0.9416238484166592
+            ],
+            "id": "v0101",
+            "normalizedScreen": [
+              -0.3660254037844387,
+              -1.4069008251747666
+            ],
+            "originalSource": [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "projected": [
+              -1,
+              1,
+              -1
+            ],
+            "rotatedSource": [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "screen": [
+              290.7179676972449,
+              97.44793398601868
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -1.3660254037844386,
+              0.814504559722719,
+              0.6859715142820884
+            ],
+            "id": "v0110",
+            "normalizedScreen": [
+              -1.3660254037844386,
+              -0.814504559722719
+            ],
+            "originalSource": [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "projected": [
+              -1,
+              1,
+              1
+            ],
+            "rotatedSource": [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "screen": [
+              210.71796769724492,
+              144.8396352221825
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              -1.3660254037844386,
+              0.814504559722719,
+              0.6859715142820884
+            ],
+            "id": "v0111",
+            "normalizedScreen": [
+              -1.3660254037844386,
+              -0.814504559722719
+            ],
+            "originalSource": [
+              -1,
+              1,
+              1,
+              1
+            ],
+            "projected": [
+              -1,
+              1,
+              1
+            ],
+            "rotatedSource": [
+              -1,
+              1,
+              1,
+              1
+            ],
+            "screen": [
+              210.71796769724492,
+              144.8396352221825
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              1.3660254037844386,
+              -0.814504559722719,
+              -0.6859715142820884
+            ],
+            "id": "v1000",
+            "normalizedScreen": [
+              1.3660254037844386,
+              0.814504559722719
+            ],
+            "originalSource": [
+              1,
+              -1,
+              -1,
+              -1
+            ],
+            "projected": [
+              1,
+              -1,
+              -1
+            ],
+            "rotatedSource": [
+              1,
+              -1,
+              -1,
+              -1
+            ],
+            "screen": [
+              429.28203230275506,
+              275.1603647778175
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              1.3660254037844386,
+              -0.814504559722719,
+              -0.6859715142820884
+            ],
+            "id": "v1001",
+            "normalizedScreen": [
+              1.3660254037844386,
+              0.814504559722719
+            ],
+            "originalSource": [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "projected": [
+              1,
+              -1,
+              -1
+            ],
+            "rotatedSource": [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "screen": [
+              429.28203230275506,
+              275.1603647778175
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              0.3660254037844387,
+              -1.4069008251747666,
+              0.9416238484166592
+            ],
+            "id": "v1010",
+            "normalizedScreen": [
+              0.3660254037844387,
+              1.4069008251747666
+            ],
+            "originalSource": [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "projected": [
+              1,
+              -1,
+              1
+            ],
+            "rotatedSource": [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "screen": [
+              349.2820323027551,
+              322.5520660139813
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              0.3660254037844387,
+              -1.4069008251747666,
+              0.9416238484166592
+            ],
+            "id": "v1011",
+            "normalizedScreen": [
+              0.3660254037844387,
+              1.4069008251747666
+            ],
+            "originalSource": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "projected": [
+              1,
+              -1,
+              1
+            ],
+            "rotatedSource": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "screen": [
+              349.2820323027551,
+              322.5520660139813
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              1.3660254037844386,
+              1.064880681849098,
+              -0.0019312276307509313
+            ],
+            "id": "v1100",
+            "normalizedScreen": [
+              1.3660254037844386,
+              -1.064880681849098
+            ],
+            "originalSource": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "projected": [
+              1,
+              1,
+              -1
+            ],
+            "rotatedSource": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "screen": [
+              429.28203230275506,
+              124.80954545207216
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              1.3660254037844386,
+              1.064880681849098,
+              -0.0019312276307509313
+            ],
+            "id": "v1101",
+            "normalizedScreen": [
+              1.3660254037844386,
+              -1.064880681849098
+            ],
+            "originalSource": [
+              1,
+              1,
+              -1,
+              1
+            ],
+            "projected": [
+              1,
+              1,
+              -1
+            ],
+            "rotatedSource": [
+              1,
+              1,
+              -1,
+              1
+            ],
+            "screen": [
+              429.28203230275506,
+              124.80954545207216
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              0.3660254037844387,
+              0.47248441639705024,
+              1.6256641350679966
+            ],
+            "id": "v1110",
+            "normalizedScreen": [
+              0.3660254037844387,
+              -0.47248441639705024
+            ],
+            "originalSource": [
+              1,
+              1,
+              1,
+              -1
+            ],
+            "projected": [
+              1,
+              1,
+              1
+            ],
+            "rotatedSource": [
+              1,
+              1,
+              1,
+              -1
+            ],
+            "screen": [
+              349.2820323027551,
+              172.20124668823598
+            ]
+          },
+          {
+            "cameraCoordinates": [
+              0.3660254037844387,
+              0.47248441639705024,
+              1.6256641350679966
+            ],
+            "id": "v1111",
+            "normalizedScreen": [
+              0.3660254037844387,
+              -0.47248441639705024
+            ],
+            "originalSource": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "projected": [
+              1,
+              1,
+              1
+            ],
+            "rotatedSource": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "screen": [
+              349.2820323027551,
+              172.20124668823598
+            ]
+          }
+        ],
+        "wireframeDimension": 1
+      },
+      "observability": {
+        "all16": [
+          {
+            "id": "v0000",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0001",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v0010",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0011",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v0100",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0101",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v0110",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v0111",
+            "rank": 4,
+            "reconstructed": [
+              -1,
+              1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1000",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1001",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v1010",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1011",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v1100",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1101",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              -1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          },
+          {
+            "id": "v1110",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              1,
+              -1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 1.1102230246251563e-16
+          },
+          {
+            "id": "v1111",
+            "rank": 4,
+            "reconstructed": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "residual": 0,
+            "truthErrorAfterSolve": 0
+          }
+        ],
+        "cameraOnlyMatrices": [
+          [
+            [
+              0.8660254037844387,
+              0,
+              -0.49999999999999994,
+              0
+            ],
+            [
+              -0.17101007166283433,
+              0.9396926207859084,
+              -0.29619813272602386,
+              0
+            ],
+            [
+              0.46984631039295416,
+              0.3420201433256687,
+              0.8137976813493738,
+              0
+            ]
+          ],
+          [
+            [
+              -0.4999999999999998,
+              0,
+              -0.8660254037844387,
+              0
+            ],
+            [
+              -0.29619813272602386,
+              0.9396926207859084,
+              0.17101007166283427,
+              0
+            ],
+            [
+              0.8137976813493738,
+              0.3420201433256687,
+              -0.469846310392954,
+              0
+            ]
+          ]
+        ],
+        "cameraOnlyRank": 3,
+        "cameraOnlyScreenRank": 3,
+        "cameraOnlyScreens": [
+          {
+            "screen": [
+              349.2820323027551,
+              172.20124668823598
+            ],
+            "yawDegrees": 30
+          },
+          {
+            "screen": [
+              210.71796769724497,
+              144.8396352221825
+            ],
+            "yawDegrees": 120
+          }
+        ],
+        "declaredMatrices": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              6.123233995736766e-17,
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "fixedNullspaceDirection": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "hiddenTruthComparisonAfterReconstruction": 1.1102230246251563e-16,
+        "knownSourceViewsRank": 4,
+        "knownSourceViewsResidual": 0,
+        "maxCoordinateErrorAfterSolve": 1.1102230246251563e-16,
+        "maxForwardResidual": 0,
+        "oneViewRank": 3,
+        "solverInputsByCondition": {
+          "camera": [
+            {
+              "camera": {
+                "pitch": 0.3490658503988659,
+                "yaw": 0.5235987755982988
+              },
+              "id": "v1110",
+              "matrix": [
+                [
+                  0.8660254037844387,
+                  0,
+                  -0.49999999999999994,
+                  0
+                ],
+                [
+                  -0.17101007166283433,
+                  0.9396926207859084,
+                  -0.29619813272602386,
+                  0
+                ],
+                [
+                  0.46984631039295416,
+                  0.3420201433256687,
+                  0.8137976813493738,
+                  0
+                ]
+              ],
+              "projected": [
+                0.3660254037844387,
+                0.47248441639705024,
+                1.6256641350679966
+              ]
+            },
+            {
+              "camera": {
+                "pitch": 0.3490658503988659,
+                "yaw": 2.0943951023931953
+              },
+              "id": "v1110",
+              "matrix": [
+                [
+                  -0.4999999999999998,
+                  0,
+                  -0.8660254037844387,
+                  0
+                ],
+                [
+                  -0.29619813272602386,
+                  0.9396926207859084,
+                  0.17101007166283427,
+                  0
+                ],
+                [
+                  0.8137976813493738,
+                  0.3420201433256687,
+                  -0.469846310392954,
+                  0
+                ]
+              ],
+              "projected": [
+                -1.3660254037844384,
+                0.8145045597227188,
+                0.6859715142820885
+              ]
+            }
+          ],
+          "fixed": [
+            {
+              "id": "v1110",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "projected": [
+                1,
+                1,
+                1
+              ],
+              "theta": 0
+            }
+          ],
+          "source": [
+            {
+              "id": "v1110",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "projected": [
+                1,
+                1,
+                1
+              ],
+              "theta": 0
+            },
+            {
+              "id": "v1110",
+              "matrix": [
+                [
+                  6.123233995736766e-17,
+                  0,
+                  0,
+                  -1
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "projected": [
+                1,
+                1,
+                1
+              ],
+              "theta": 1.5707963267948966
+            }
+          ]
+        },
+        "sourceId": "v1110",
+        "statusCameraOnly": "underdetermined",
+        "statusFixed": "underdetermined"
+      },
+      "pairProjectedDistance": 0,
+      "pairSourceDistance": 2,
+      "playing": false,
+      "projectionSha256": "8c6ce27db49273de2bd919c4d95e01aad6bf66144b093dc89661371f9eb0dcd7",
+      "renderer": "SVG from computed 3D coordinates; no WebGL dependency",
+      "sceneRect": {
+        "height": 390,
+        "width": 605,
+        "x": 27,
+        "y": 291.25
+      },
+      "selectedEdge": {
+        "collapsed": true,
+        "from": "v1110",
+        "id": "e-v1110-v1111",
+        "projectedLength": 0,
+        "to": "v1111"
+      },
+      "selectedEdgeId": "e-v1110-v1111",
+      "selectedVertexId": "v1110",
+      "simulationTimeMs": 0,
+      "sourceAngleOverride": null,
+      "sourceSha256": "5036ac9888a1eb652caeaac3c66134ae82783174cc83ed442f57f637a1ed54fd",
+      "sourceTheta": 0,
+      "viewport": {
+        "devicePixelRatio": 2,
+        "height": 904,
+        "width": 1279
+      }
+    },
+    "title": "Looking Glass · Gate 3 4D hypercube",
+    "url": "http://127.0.0.1:43996/"
+  },
+  "captureLimitation": "Error: Unable to capture screenshot"
+}

@@ -1,0 +1,105 @@
+{
+  "recordedAtUtc": "2026-09-20T12:14:33.811910+00:00",
+  "scope": "Read-only root HTTP readiness only; this is not browser execution or complete build identity verification.",
+  "entries": [
+    {
+      "gate": 0,
+      "url": "http://127.0.0.1:43991/",
+      "status": 200,
+      "bytes": 4536,
+      "sha256": "d790dbede9d958494e960ae9215dfd8ef47e5b61ef674f514d1afefd4773af49",
+      "expectedRunId": "G0-CUBE-005",
+      "expectedBuildId": "g0-d85237ad31362768"
+    },
+    {
+      "gate": 1,
+      "url": "http://127.0.0.1:43994/",
+      "status": 200,
+      "bytes": 5319,
+      "sha256": "eef709f58830d6e845bfc52fce9d8210ebf3726a6628d004acba146187d2fa02",
+      "expectedRunId": "G1-CUBE-003",
+      "expectedBuildId": "g1-9dce1c2b9c2b3be4"
+    },
+    {
+      "gate": 2,
+      "url": "http://127.0.0.1:43995/",
+      "status": 200,
+      "bytes": 5787,
+      "sha256": "8296ec34a12e6cda09518d6b5bc0e65402c0d500568d81debf55d6d94c189fed",
+      "expectedRunId": "G2-HOPF-003",
+      "expectedBuildId": "g2-ccabad12693f86a8"
+    },
+    {
+      "gate": 3,
+      "url": "http://127.0.0.1:43996/",
+      "status": 200,
+      "bytes": 7227,
+      "sha256": "b853c82d7fc603d74421ce445954d2362abfbf2f28dbf264692912620182e017",
+      "expectedRunId": "G3-TESSERACT-003",
+      "expectedBuildId": "g3-6c31bc16aeca4460"
+    },
+    {
+      "gate": 4,
+      "url": "http://127.0.0.1:43997/",
+      "status": 200,
+      "bytes": 7598,
+      "sha256": "c146097928884ba2d712699b35978aa56fb670bcfeed4382ae8d128e72bb6bf0",
+      "expectedRunId": "G4-SLICES-002",
+      "expectedBuildId": "g4-38777d5882ef08a6"
+    },
+    {
+      "gate": 5,
+      "url": "http://127.0.0.1:43998/",
+      "status": 200,
+      "bytes": 6152,
+      "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef",
+      "expectedRunId": "G5-PENTERACT-001",
+      "expectedBuildId": "g5-0bdee39bcd7dd541"
+    },
+    {
+      "gate": 6,
+      "url": "http://127.0.0.1:43999/",
+      "status": 200,
+      "bytes": 5310,
+      "sha256": "b6d00e01939db242bce3ad3f30ae1bfc56c988f279d186c54cac8699c2c0c70c",
+      "expectedRunId": "G6-LOCAL-003",
+      "expectedBuildId": "g6-0279cdcdc0adc9b0"
+    },
+    {
+      "gate": 7,
+      "url": "http://127.0.0.1:44000/",
+      "status": 200,
+      "bytes": 3954,
+      "sha256": "b28a104382168baa9e1a8e91a7c1b48ff1fd2741ea2d5321d058955425b43c57",
+      "expectedRunId": "G7-INTERPRET-002",
+      "expectedBuildId": "g7-90e64952eb028069"
+    },
+    {
+      "gate": 8,
+      "url": "http://127.0.0.1:44001/",
+      "status": 200,
+      "bytes": 335,
+      "sha256": "7e8263e791debd4d104495617a48e72da9d6f0b61de2456ab9cc160c76cee382",
+      "expectedRunId": "G8-AMBIGUITY-001",
+      "expectedBuildId": "g8-f5c5ee62889da529"
+    },
+    {
+      "gate": 9,
+      "url": "http://127.0.0.1:44002/",
+      "status": 200,
+      "bytes": 3868,
+      "sha256": "b62bbb12f6825ccfc0e8d7822cb4108392b0f62039b94ccd276a29412568fd66",
+      "expectedRunId": "G9-MATCHED-003",
+      "expectedBuildId": "g9-15c3bf973fe0c6cd"
+    },
+    {
+      "gate": 10,
+      "url": "http://127.0.0.1:44003/",
+      "status": 200,
+      "bytes": 2527,
+      "sha256": "25c37fb7889cb25df582303fdc92b0da57b8117903a10670e57c8beb9dbe407e",
+      "expectedRunId": "G10-PREDICT-003",
+      "expectedBuildId": "g10-9e34f791d83c1cd7a495"
+    }
+  ]
+}

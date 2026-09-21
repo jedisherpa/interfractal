@@ -1,0 +1,26 @@
+{
+  "schema": "gate11-public-build-v1",
+  "runId": "G11-RECEIVER-001",
+  "buildId": "g11-4a38606632d77897a06e",
+  "sourceHash": "4a38606632d77897a06e1d261a2251e3965e048d7d13e451be738d15d5b21ddf",
+  "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+  "fixtureId": "G11-FIXTURE-001",
+  "nodeVersion": "v24.17.0",
+  "publicRoutes": [
+    "/",
+    "/index.html",
+    "/app.mjs",
+    "/model.mjs",
+    "/receiver.mjs",
+    "/style.css",
+    "/fixture.json",
+    "/build.json",
+    "/run/run.json",
+    "/run/initial-state.json",
+    "/run/events.jsonl",
+    "/run/checkpoints.json"
+  ],
+  "reviewRoutesRequireHashApproval": true,
+  "localSoftwareOnly": true,
+  "humanParticipants": 0
+}

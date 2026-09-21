@@ -1,0 +1,806 @@
+{
+  "schema": "gate11-independent-predictions-v1",
+  "fixtureId": "G11-FIXTURE-001",
+  "status": "Author-supplied exact expectations; independent review pending",
+  "oraclePolicy": "Independently derive from equations/source fields without importing implementation or treating these expectations as an audit result.",
+  "worldOrder": [
+    "W00",
+    "W01",
+    "W10",
+    "W11"
+  ],
+  "truth": {
+    "R_COUNT": [
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "R_RELEASE": [
+      "no",
+      "no",
+      "no",
+      "yes"
+    ]
+  },
+  "derivations": [
+    {
+      "worldId": "W00",
+      "count": 4,
+      "calibration": "expired",
+      "authorization": "pending",
+      "R_COUNT": "yes",
+      "R_RELEASE": "no",
+      "reason": "Count holds; both dependencies negative."
+    },
+    {
+      "worldId": "W01",
+      "count": 4,
+      "calibration": "expired",
+      "authorization": "approved",
+      "R_COUNT": "yes",
+      "R_RELEASE": "no",
+      "reason": "Expired calibration is enough for no."
+    },
+    {
+      "worldId": "W10",
+      "count": 4,
+      "calibration": "current",
+      "authorization": "pending",
+      "R_COUNT": "yes",
+      "R_RELEASE": "no",
+      "reason": "Pending authorization is enough for no."
+    },
+    {
+      "worldId": "W11",
+      "count": 4,
+      "calibration": "current",
+      "authorization": "approved",
+      "R_COUNT": "yes",
+      "R_RELEASE": "yes",
+      "reason": "Count and both dependencies hold."
+    }
+  ],
+  "baseline": {
+    "fullPayloadsByteEqualAcrossWorlds": true,
+    "countPossibleAnswers": [
+      "yes"
+    ],
+    "countGloballySufficient": true,
+    "releasePossibleAnswers": [
+      "no",
+      "yes"
+    ],
+    "releaseGloballySufficient": false,
+    "logicalSourceReferencesIdentical": true,
+    "uniqueSourceIdentityOnlyInInspectionEnvelope": true
+  },
+  "subsetCertificates": [
+    {
+      "mask": 0,
+      "fields": [],
+      "entryCount": 0,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "insufficient",
+        "W01": "insufficient",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W00",
+          "W11"
+        ],
+        [
+          "W01",
+          "W11"
+        ],
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 1,
+      "fields": [
+        "calibration"
+      ],
+      "entryCount": 1,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 2,
+      "fields": [
+        "authorization"
+      ],
+      "entryCount": 1,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "insufficient",
+        "W10": "no",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W01",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 3,
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "entryCount": 2,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "releaseAnswers": [
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "no",
+        "W11": "yes"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": true,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": []
+    },
+    {
+      "mask": 4,
+      "fields": [
+        "paint"
+      ],
+      "entryCount": 1,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01",
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "insufficient",
+        "W01": "insufficient",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W00",
+          "W11"
+        ],
+        [
+          "W01",
+          "W11"
+        ],
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 5,
+      "fields": [
+        "calibration",
+        "paint"
+      ],
+      "entryCount": 2,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "insufficient",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W10",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 6,
+      "fields": [
+        "authorization",
+        "paint"
+      ],
+      "entryCount": 2,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00",
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01",
+            "W11"
+          ],
+          "releaseAnswers": [
+            "no",
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "insufficient",
+        "W10": "no",
+        "W11": "insufficient"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": false,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": [
+        [
+          "W01",
+          "W11"
+        ]
+      ]
+    },
+    {
+      "mask": 7,
+      "fields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "entryCount": 3,
+      "blocks": [
+        {
+          "worldIds": [
+            "W00"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W01"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W10"
+          ],
+          "releaseAnswers": [
+            "no"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        },
+        {
+          "worldIds": [
+            "W11"
+          ],
+          "releaseAnswers": [
+            "yes"
+          ],
+          "countAnswers": [
+            "yes"
+          ]
+        }
+      ],
+      "localReleaseResultsByWorld": {
+        "W00": "no",
+        "W01": "no",
+        "W10": "no",
+        "W11": "yes"
+      },
+      "localCountResultsByWorld": {
+        "W00": "yes",
+        "W01": "yes",
+        "W10": "yes",
+        "W11": "yes"
+      },
+      "releaseGloballySufficient": true,
+      "countGloballySufficient": true,
+      "conflictingReleasePairs": []
+    }
+  ],
+  "minimality": {
+    "receiverId": "R_RELEASE",
+    "sufficientMasks": [
+      3,
+      7
+    ],
+    "subsetMinimalMasks": [
+      3
+    ],
+    "cardinalityMinimum": 2,
+    "cardinalityMinimumMasks": [
+      3
+    ],
+    "allSingleEntryMasksFail": [
+      1,
+      2,
+      4
+    ],
+    "properSubsetsOfMask3Fail": [
+      0,
+      1,
+      2
+    ],
+    "removeCalibrationWitness": [
+      "W01",
+      "W11"
+    ],
+    "removeAuthorizationWitness": [
+      "W10",
+      "W11"
+    ],
+    "scope": "Exactly these four worlds and three menu entries; no claim over arbitrary derived encodings or byte cost"
+  },
+  "countMinimality": {
+    "receiverId": "R_COUNT",
+    "sufficientMasks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "subsetMinimalMasks": [
+      0
+    ],
+    "cardinalityMinimum": 0
+  },
+  "wrongShortcut": {
+    "outputs": [
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "falsePositiveWorlds": [
+      "W00",
+      "W01",
+      "W10"
+    ],
+    "falseNegativeWorlds": [],
+    "falsePositiveCount": 3,
+    "notActualReceiverEvaluator": true
+  },
+  "partitionEqualities": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "localMinimalityInReleaseReceiver": {
+    "W00": {
+      "minimum": 1,
+      "minimalMenus": [
+        [
+          "calibration"
+        ],
+        [
+          "authorization"
+        ]
+      ]
+    },
+    "W01": {
+      "minimum": 1,
+      "minimalMenus": [
+        [
+          "calibration"
+        ]
+      ]
+    },
+    "W10": {
+      "minimum": 1,
+      "minimalMenus": [
+        [
+          "authorization"
+        ]
+      ]
+    },
+    "W11": {
+      "minimum": 2,
+      "minimalMenus": [
+        [
+          "calibration",
+          "authorization"
+        ]
+      ]
+    }
+  },
+  "checkpointExpectations": [
+    {
+      "seconds": 0,
+      "worldId": "W11",
+      "receiverId": "R_COUNT",
+      "revisionId": "S0",
+      "fields": [],
+      "representation": "diagram",
+      "localAnswer": "yes",
+      "globalSufficient": true,
+      "witnessPair": null
+    },
+    {
+      "seconds": 4,
+      "worldId": "W11",
+      "receiverId": "R_RELEASE",
+      "revisionId": "S0",
+      "fields": [],
+      "representation": "diagram",
+      "localAnswer": null,
+      "possibleAnswers": [
+        "no",
+        "yes"
+      ],
+      "globalSufficient": false,
+      "witnessPair": null
+    },
+    {
+      "seconds": 8,
+      "worldId": "W11",
+      "receiverId": "R_RELEASE",
+      "revisionId": "S0",
+      "fields": [],
+      "representation": "diagram",
+      "localAnswer": null,
+      "possibleAnswers": [
+        "no",
+        "yes"
+      ],
+      "globalSufficient": false,
+      "witnessPair": [
+        "W10",
+        "W11"
+      ],
+      "witnessRelation": "collides-with-conflicting-answers"
+    },
+    {
+      "seconds": 12,
+      "worldId": "W11",
+      "receiverId": "R_RELEASE",
+      "revisionId": "S1",
+      "fields": [
+        "calibration"
+      ],
+      "representation": "diagram",
+      "localAnswer": null,
+      "possibleAnswers": [
+        "no",
+        "yes"
+      ],
+      "globalSufficient": false,
+      "witnessPair": [
+        "W10",
+        "W11"
+      ],
+      "witnessRelation": "collides-with-conflicting-answers"
+    },
+    {
+      "seconds": 16,
+      "worldId": "W11",
+      "receiverId": "R_RELEASE",
+      "revisionId": "S2",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "representation": "diagram",
+      "localAnswer": "yes",
+      "globalSufficient": true,
+      "witnessPair": [
+        "W10",
+        "W11"
+      ],
+      "witnessRelation": "separated"
+    },
+    {
+      "seconds": 20,
+      "worldId": "W11",
+      "receiverId": "R_RELEASE",
+      "revisionId": "S2",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "representation": "plain",
+      "localAnswer": "yes",
+      "globalSufficient": true,
+      "witnessPair": [
+        "W10",
+        "W11"
+      ],
+      "witnessRelation": "separated"
+    },
+    {
+      "seconds": 24,
+      "worldId": "W11",
+      "receiverId": "R_COUNT",
+      "revisionId": "S0",
+      "fields": [],
+      "representation": "diagram",
+      "localAnswer": "yes",
+      "globalSufficient": true,
+      "witnessPair": null,
+      "endReason": "end-of-sequence"
+    }
+  ],
+  "checkpointCommon": {
+    "mode": "saved-tour",
+    "paused": true,
+    "repairDraft": [],
+    "fullSourceOpen": false,
+    "certificateOpen": false
+  },
+  "canonicalScheduledEventCount": 7,
+  "browserCountsPrespecifiedNotObserved": {
+    "pausedCheckpoints": 18,
+    "primaryCriticalWorkflow": "Fresh receiver change -> insufficient -> witness -> two-field repair -> yes/global sufficient -> plain parity",
+    "originalsRecommended": "4-6",
+    "humanParticipants": 0
+  },
+  "invariants": [
+    "R_COUNT and R_RELEASE definitions never change through repair or inspection.",
+    "Receiver evaluation reads only payload and receiver ID; source inspection never dereferences facts into that input.",
+    "A source-negative single dependency may determine local no while the field subset remains globally insufficient.",
+    "Global sufficiency quantifies every pair of worlds with the same complete receiver payload.",
+    "The payload including logical references collides as predicted; world/hash/revision identity stays in the separate envelope.",
+    "All source records and their hashes remain unchanged across all revisions and receiver/representation switches.",
+    "Empty/duplicate repair changes no payload content; paint changes payload content but not partitions or answers.",
+    "Each repair copies declared fields from the same world and retains its parent and source provenance.",
+    "Diagram/plain information hashes match for equivalent substantive state even if semantic representation differs.",
+    "Canonical hashes match after local exploration/reopen/reload; local revisions/exports never masquerade as scripted actions.",
+    "Every captured semantic payload independently hashes to its adjacent fingerprint, including active clocks.",
+    "Post-export inspector dimensions match the actual resulting layout, without requiring a later resize.",
+    "No software result establishes human detection, repair, coordination, learning, or diagram advantage."
+  ]
+}

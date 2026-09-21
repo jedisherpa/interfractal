@@ -1,0 +1,24 @@
+{
+  "kind": "prior-frozen-byte-integrity",
+  "gateCounts": [
+    {
+      "gate": 0,
+      "entries": 61
+    },
+    {
+      "gate": 1,
+      "entries": 95
+    },
+    {
+      "gate": 2,
+      "entries": 120
+    },
+    {
+      "gate": 3,
+      "entries": 139
+    }
+  ],
+  "checkedEntries": 415,
+  "failed": [],
+  "pass": true
+}

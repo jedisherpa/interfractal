@@ -1,0 +1,11 @@
+{
+  "schema": "gate11-candidate001-paused-publication-race-repro-v1",
+  "status": "REPRODUCED",
+  "expectedReceiverAfterControl": "R_RELEASE",
+  "actualPublishedReceiverAfterSettling": "R_COUNT",
+  "initialSnapshotRevision": 1,
+  "finalSnapshotRevision": 3,
+  "trigger": "receiver control starts delayed hash; immediate paused scroll metadataRefresh increments revision and republishes prior lastPacket",
+  "softwareControlledDomOnly": true,
+  "browserObservation": false
+}

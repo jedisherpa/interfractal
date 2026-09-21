@@ -1,0 +1,27 @@
+{
+  "schema": "gate13-run-manifest-v1",
+  "runId": "G13-MISLEAD-002",
+  "buildId": "g13-5b8514d97acc3485aabf",
+  "files": [
+    {
+      "path": "run.json",
+      "sha256": "3c477ecb98d867410a39976282c58da34fbc6ea75847b2c20097aca4f6d171cf"
+    },
+    {
+      "path": "initial-state.json",
+      "sha256": "e0dc3a201070a58dedd151e4a12259b5d1cac003eb9a08618e5d2a61e591f9f2"
+    },
+    {
+      "path": "events.jsonl",
+      "sha256": "7d5c0e360d8fee6f0d07bd3925bb2086d0159115db5a95cf5187df964ac0e3b1"
+    },
+    {
+      "path": "checkpoints.json",
+      "sha256": "c1700ea5f782ea2efec3993491e7a3c8fa586bea1b1a4b8ea6508833fc730f69"
+    },
+    {
+      "path": "computational-results.json",
+      "sha256": "2279225a7c15d5b697f48608e67d80b1bbf2c38b42bf4396492daa58a4c77877"
+    }
+  ]
+}

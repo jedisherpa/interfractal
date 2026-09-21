@@ -1,0 +1,46 @@
+{
+  "reviewed_version": "v0.1 before R2 corrections",
+  "recorded_at_utc": "2026-09-19T22:46:48.940896+00:00",
+  "files": [
+    {
+      "path": "01_RESEARCH_CHARTER.md",
+      "sha256": "0e8e0457c7c2aa2852c160056dad25a86999a7a7657f0541b55b51da79f3fbf6"
+    },
+    {
+      "path": "02_AGENT_PERSPECTIVES_AND_RUNBOOK.md",
+      "sha256": "777ad6a6d309a6181783c1baef8488b8cd7f03b50d513993ff88fe0cc8b30824"
+    },
+    {
+      "path": "03_INTEGRATED_RESEARCH_PROTOCOL.md",
+      "sha256": "9dbd792a63fd37428884d71db22831fe28618bbc2b121cc2725e623ff6564dd2"
+    },
+    {
+      "path": "04_VISUALIZER_RESEARCH_SPEC.md",
+      "sha256": "b96721497d70a47bcb17d233658ab2814e9a915fef63139bd5099c8c1dc4bdf1"
+    },
+    {
+      "path": "05_EXECUTION_PLAN_AND_GATES.md",
+      "sha256": "3557ab42b281bf46562ff061f17306113e08edb75867eecdebc00210cad51c67"
+    },
+    {
+      "path": "06_CONCEPTUAL_SYNTHESIS.md",
+      "sha256": "8ff2e67a617547676ee001bf807c45d0ba213c6c900710a73ba94233f0c6879a"
+    },
+    {
+      "path": "studies/FIRST_SESSION_MATERIALS.md",
+      "sha256": "f4d504c062a3fe6594cbfb8979598ccce434fa0843cc848081f5ccbde99e45ee"
+    },
+    {
+      "path": "studies/lantern_task.json",
+      "sha256": "22927f454935ad751207f13f04b63e78dce5edcd17e54380d97a131c58b479ca"
+    },
+    {
+      "path": "studies/synthetic_check_result.json",
+      "sha256": "df8e256628366a141a0c93f13acfa830abc1a2cceab8a2f5182133507bf17243"
+    },
+    {
+      "path": "studies/verify_fixture.py",
+      "sha256": "c149565c898c1c649451cb005e2803507853cb2fc2014973dd4ae1182336e60f"
+    }
+  ]
+}

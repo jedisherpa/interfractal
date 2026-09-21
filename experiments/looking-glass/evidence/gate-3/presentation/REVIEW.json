@@ -1,0 +1,17 @@
+{
+  "reviewedAtUtc": "2026-09-20T03:07:37.397495+00:00",
+  "resultsHtmlSha256": "1862fd1d1005711e91c068befc140f141cb7e9a82dbd4a2af6e16d89f1f07c32",
+  "packetSha256": "cc83328630eb2de74fafedbacd4aff315bde2bd1b9ea19f60e02e350825a0752",
+  "hostInspectedOriginalPresentationScreenshots": [
+    "presentation/results-top.jpg",
+    "presentation/results-captures.jpg"
+  ],
+  "fourEmbeddedOriginalsLoaded": true,
+  "resultsPageDocumentWidth": 1280,
+  "resultsPageViewportWidth": 1280,
+  "routeByteReview": "presentation/route-byte-review.json",
+  "all21UniqueLocalTargetsMatchSavedBytes": true,
+  "replayHandoff": "presentation/replay-handoff.json",
+  "viewportOverrideReset": true,
+  "note": "Presentation review is separate from the frozen 67-observation candidate003 trial; no additional scientific assertion or Gate4 approval."
+}

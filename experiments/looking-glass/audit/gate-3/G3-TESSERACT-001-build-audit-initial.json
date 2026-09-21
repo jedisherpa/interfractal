@@ -1,0 +1,89 @@
+{
+  "checkedAtUtc": "2026-09-20T02:44:17.901Z",
+  "runId": "G3-TESSERACT-001",
+  "buildId": "g3-2137b012118cbd13",
+  "sourceSha256": "2137b012118cbd134170596537a12d794edd050f2e38d7f9beee43be6b497b8d",
+  "pass": false,
+  "passed": 11,
+  "failed": 2,
+  "checks": [
+    {
+      "name": "immutable snapshot files and full content-derived build identity",
+      "pass": true,
+      "detail": {
+        "sourceSha256": "2137b012118cbd134170596537a12d794edd050f2e38d7f9beee43be6b497b8d",
+        "failedFiles": []
+      }
+    },
+    {
+      "name": "run and build bind the unchanged four-file prespec freeze",
+      "pass": true
+    },
+    {
+      "name": "version, renderer, seed, runtime and source dimensions recorded",
+      "pass": true
+    },
+    {
+      "name": "source identities and all 32 edges agree with independent enumeration",
+      "pass": true
+    },
+    {
+      "name": "all five exact saved states reproduce and all 80 projected rows match independent predictions",
+      "pass": false,
+      "detail": [
+        {
+          "timeMs": 0,
+          "pass": false
+        },
+        {
+          "timeMs": 8000,
+          "pass": false
+        },
+        {
+          "timeMs": 16000,
+          "pass": false
+        },
+        {
+          "timeMs": 24000,
+          "pass": false
+        },
+        {
+          "timeMs": 32000,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "name": "initial state and run digests bind first saved checkpoint",
+      "pass": true
+    },
+    {
+      "name": "full 4×4 rotation, fixed 3×4 P and separate composed PR",
+      "pass": true
+    },
+    {
+      "name": "projection fingerprint excludes clock and camera but changes with source angle",
+      "pass": true
+    },
+    {
+      "name": "actual SVG screen positions use fixed center and scale; camera changes only display",
+      "pass": true
+    },
+    {
+      "name": "solver recovers a nonfixture opaque-ID point from supplied matrices and raw 3D p",
+      "pass": true
+    },
+    {
+      "name": "solver rejects mismatched IDs and uses no fixture coordinate encoded in ID",
+      "pass": false
+    },
+    {
+      "name": "all 16 source correspondences recover with maximum coordinate error and forward residual ≤1e-10",
+      "pass": true
+    },
+    {
+      "name": "planned fixture events are marked as predictions, not browser observations",
+      "pass": true
+    }
+  ]
+}

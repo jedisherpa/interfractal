@@ -1,0 +1,92 @@
+{
+  "schema": "gate12-candidate-002-controlled-ui-race-v1",
+  "candidate": "G12-COORD-002",
+  "status": "PASS",
+  "checkCount": 19,
+  "passCount": 19,
+  "checks": [
+    {
+      "name": "initial snapshot",
+      "pass": true
+    },
+    {
+      "name": "new local branch",
+      "pass": true
+    },
+    {
+      "name": "export includes its own event",
+      "pass": true
+    },
+    {
+      "name": "post-export layout measured",
+      "pass": true
+    },
+    {
+      "name": "paused control then scroll/resize/details preserves semantic",
+      "pass": true
+    },
+    {
+      "name": "post-render metadata from latest viewport",
+      "pass": true
+    },
+    {
+      "name": "published inspector matches latest packet",
+      "pass": true
+    },
+    {
+      "name": "obsolete slow semantic result rejected",
+      "pass": true
+    },
+    {
+      "name": "semantic token settled",
+      "pass": true
+    },
+    {
+      "name": "local branch index has no duplicate and canonical remains selectable",
+      "pass": true,
+      "detail": [
+        "C0",
+        "L1"
+      ]
+    },
+    {
+      "name": "retained-outcome select has enablement handler",
+      "pass": true
+    },
+    {
+      "name": "first local outcome selected P2",
+      "pass": true
+    },
+    {
+      "name": "second local outcome selected tied P1",
+      "pass": true
+    },
+    {
+      "name": "retained inspection enabled by actual selector handler",
+      "pass": true
+    },
+    {
+      "name": "pending outcome choice survives redraw",
+      "pass": true
+    },
+    {
+      "name": "historical outcome inspected with recorded context",
+      "pass": true
+    },
+    {
+      "name": "second local branch unique registry",
+      "pass": true
+    },
+    {
+      "name": "return L1 preserves records",
+      "pass": true
+    },
+    {
+      "name": "canonical return masks display but retains local registry",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "hashCalls": 79,
+  "scope": "isolated VM DOM/clock reproduction; not supported-browser evidence"
+}

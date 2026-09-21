@@ -1,0 +1,51 @@
+{
+  "recordedAtUtc": "2026-09-20T06:20:00.013889+00:00",
+  "scope": "Five original presentation/handoff captures, separate from 23 candidate and transition originals and final eight-image core.",
+  "notes": [
+    "Initial results HTML CSS failure is preserved.",
+    "Anchor-transition frame was captured during smooth scrolling; settled section is separate.",
+    "All files are original CUA JPEG bytes, without editing or re-encoding."
+  ],
+  "captures": [
+    {
+      "path": "evidence/gate-6/screenshots/presentation-anchor-transition.jpg",
+      "bytes": 124109,
+      "sha256": "5399a239b48811ca88f19be5db6fd2c85c1b13fde682ccd9e7c5cfd749a6aa9e",
+      "width": 1280,
+      "height": 720,
+      "originalUnmodified": true
+    },
+    {
+      "path": "evidence/gate-6/screenshots/presentation-initial-results-top.jpg",
+      "bytes": 164997,
+      "sha256": "4cf0eb25ff71b8b054ec09212b2ed57ded8ddec026673cd6bf6d31ccfd11dea9",
+      "width": 1280,
+      "height": 720,
+      "originalUnmodified": true
+    },
+    {
+      "path": "evidence/gate-6/screenshots/presentation-replay-handoff.jpg",
+      "bytes": 122629,
+      "sha256": "cd766aef891c5003417e98adddda92161db8133ece1a6e44d2d4bba64b462c2e",
+      "width": 1279,
+      "height": 904,
+      "originalUnmodified": true
+    },
+    {
+      "path": "evidence/gate-6/screenshots/presentation-results-captures.jpg",
+      "bytes": 85791,
+      "sha256": "3301b7b68f84a2fa1014d7eea6c14312d52409efd38136c3424e30d0f3188c9e",
+      "width": 1280,
+      "height": 720,
+      "originalUnmodified": true
+    },
+    {
+      "path": "evidence/gate-6/screenshots/presentation-results-top.jpg",
+      "bytes": 117489,
+      "sha256": "f7a772857487724f8daf848dc349e466445dda74c2a16b9c96cced84c0a8a14d",
+      "width": 1280,
+      "height": 720,
+      "originalUnmodified": true
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "kind": "original-capture-integrity",
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "originalsChecked": 17,
+  "allChecksPassed": true,
+  "captures": [
+    {
+      "label": "initial-comparison",
+      "path": "screenshots/001-initial-comparison.jpg",
+      "sha256": "3d955c900cef32c5bd31dc4e9c085b6a5aacce5fafa7d3ce4c87b43deab58029",
+      "bytes": 85572,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 2,
+      "afterObservation": 3,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "T1-overlap-0-0",
+      "path": "screenshots/001-T1-overlap-0-0.jpg",
+      "sha256": "faa4be104d81e0dd8ef04a85fb59ba7de3e39174722f601bd61e997c430e38a3",
+      "bytes": 85829,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 7,
+      "afterObservation": 8,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "T2-first-turn-45-0",
+      "path": "screenshots/001-T2-first-turn-45-0.jpg",
+      "sha256": "806e28fa825d968b6093723530ba7f6f2094ec85de049081895e66318dfb672d",
+      "bytes": 89494,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 13,
+      "afterObservation": 14,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "T2-second-turn-45-45",
+      "path": "screenshots/001-T2-second-turn-45-45.jpg",
+      "sha256": "719f392a38d4997f23e1f8b6627f5ae007eabdee624b738cea18d42907e89073",
+      "bytes": 91836,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 18,
+      "afterObservation": 19,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "active-first-leg",
+      "path": "screenshots/001-active-first-leg.jpg",
+      "sha256": "46191b53a4163c103f02dc2eb131d50e2ba4f83b6a987a8130758cece7865221",
+      "bytes": 88942,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 24,
+      "afterObservation": 25,
+      "beforeTimeMs": 700,
+      "afterTimeMs": 800,
+      "sameCheckpointHash": false
+    },
+    {
+      "label": "active-second-leg",
+      "path": "screenshots/001-active-second-leg.jpg",
+      "sha256": "2d1d315684b4b45f60e670909716b632ca186dcb531c8646c9fb2a31467aac5e",
+      "bytes": 89059,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 26,
+      "afterObservation": 27,
+      "beforeTimeMs": 17800,
+      "afterTimeMs": 18000,
+      "sameCheckpointHash": false
+    },
+    {
+      "label": "active-return-leg",
+      "path": "screenshots/001-active-return-leg.jpg",
+      "sha256": "3ceef667415bab0eea735258c191dc618f26fb0126a7695006e64c7be06d4114",
+      "bytes": 89804,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 28,
+      "afterObservation": 29,
+      "beforeTimeMs": 28200,
+      "afterTimeMs": 28300,
+      "sameCheckpointHash": false
+    },
+    {
+      "label": "rank4-v-hidden",
+      "path": "screenshots/001-rank4-v-hidden.jpg",
+      "sha256": "eb5e52dfa3997e520884f22a58e9ab8e0bc355babfe5dba154da8d41bc209e61",
+      "bytes": 119160,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 43,
+      "afterObservation": 44,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "slice-half-half",
+      "path": "screenshots/001-slice-half-half.jpg",
+      "sha256": "f145abb5e522f12f908ebb87a6121b8754a1f68dd63fdd517639f1612f661840",
+      "bytes": 120645,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 49,
+      "afterObservation": 50,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "slice-equal-A",
+      "path": "screenshots/001-slice-equal-A.jpg",
+      "sha256": "e6cc877994d53160cd3f21209365bd5dac1a50421a9df62163d7c87b7cf4dbb6",
+      "bytes": 116232,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 52,
+      "afterObservation": 53,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "slice-equal-B",
+      "path": "screenshots/001-slice-equal-B.jpg",
+      "sha256": "9fb7d08bd387c9a376ce7a8071a521b47a7e900560d1852cb490b257a97fcef5",
+      "bytes": 115061,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 55,
+      "afterObservation": 56,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "slice-point",
+      "path": "screenshots/001-slice-point.jpg",
+      "sha256": "bac01ab7e093bfa96766d99a017971409069a4ba388b029c4e85e6aa763eafa1",
+      "bytes": 114134,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 58,
+      "afterObservation": 59,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "slice-empty",
+      "path": "screenshots/001-slice-empty.jpg",
+      "sha256": "f4583495cc2f4f350a19cf82caa681183d7f6e3678abd20c5f2cb7830c323a3a",
+      "bytes": 114676,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 62,
+      "afterObservation": 63,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "inspector-fresh-environment",
+      "path": "screenshots/001-inspector-fresh-environment.jpg",
+      "sha256": "94cc575a462c713a5c7502e300b4d9fe31fada5d684d191dc7403dac71582933",
+      "bytes": 125953,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 68,
+      "afterObservation": 69,
+      "beforeTimeMs": 40000,
+      "afterTimeMs": 40000,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "viewport-960x720",
+      "path": "screenshots/001-viewport-960x720.jpg",
+      "sha256": "85e40d2013e058ff62af12605c7a1f1e478c21562f82cfae0bef82f5012bb806",
+      "bytes": 88157,
+      "dimensions": {
+        "height": 720,
+        "width": 960
+      },
+      "beforeObservation": 118,
+      "afterObservation": 119,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "narrow-inspector",
+      "path": "screenshots/001-narrow-inspector.jpg",
+      "sha256": "cbe84cf066c4343f2bc47a45043d613cc2d10b74dc751bba9d522fa9ac0b814c",
+      "bytes": 81001,
+      "dimensions": {
+        "height": 720,
+        "width": 960
+      },
+      "beforeObservation": 122,
+      "afterObservation": 123,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    },
+    {
+      "label": "restored-paused-start",
+      "path": "screenshots/001-restored-paused-start.jpg",
+      "sha256": "236ff7b61908cc99063bf299d7f856d9abc8af7b2d08d09378187c8d298b386b",
+      "bytes": 82605,
+      "dimensions": {
+        "height": 720,
+        "width": 1280
+      },
+      "beforeObservation": 129,
+      "afterObservation": 130,
+      "beforeTimeMs": 0,
+      "afterTimeMs": 0,
+      "sameCheckpointHash": true
+    }
+  ],
+  "interpretation": "Active images are bounded by before/after observations; no atomic frame time is inferred."
+}

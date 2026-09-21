@@ -1,0 +1,28 @@
+{
+  "recordedAtUtc": "2026-09-20T18:34:21.953845+00:00",
+  "status": "PASS_HOST_PRESENTATION",
+  "observations": 5,
+  "originals": 2,
+  "allReferencedImagesLoaded": true,
+  "noObservedHorizontalOverflow": true,
+  "testedWidths": [
+    960,
+    1280
+  ],
+  "linkedPausedRun": "G11-RECEIVER-002",
+  "linkedPausedBuild": "g11-7ced826c903d40c5a0dd",
+  "linkedCursor": 0,
+  "linkedPaused": true,
+  "hostInspectedOriginals": [
+    "desktop-report.jpg",
+    "narrow-repair-section.jpg"
+  ],
+  "visualFindings": [
+    "Desktop result summary, exact run/build and review links are readable; summary metrics cross the bottom fold.",
+    "At960px the finite-menu explanation and image captions wrap cleanly. Embedded original images are scaled by CSS; no image bytes were edited.",
+    "Page requires vertical scrolling. The lower Gate12 boundary is explicit.",
+    "All four displayed evidence images load at original natural dimensions."
+  ],
+  "consoleWarningsOrErrors": 0,
+  "capturePolicy": "Separate presentation evidence; closed instrument core never rewritten."
+}

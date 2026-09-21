@@ -1,0 +1,488 @@
+{
+  "schema": "gate11-run-evidence-v1",
+  "synthesizedAtUtc": "2026-09-20T18:32:18.347578+00:00",
+  "verdict": "PASS_BOUNDED_SOFTWARE_AND_BROWSER_EVIDENCE",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "sourceSha256": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "baseCommit": "a35be1ccb61c802a8bd7282903a9665b2c7d1863",
+  "runtime": {
+    "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+    "nodeVersion": "v24.17.0"
+  },
+  "fixtureId": "G11-FIXTURE-001",
+  "sourceFamilyHash": "123e039c7421d7b86161f6ef9baa0e38e10b8ecb485efc53004a8393a2c744ce",
+  "previewUrl": "http://127.0.0.1:44004/",
+  "resultsUrl": "http://127.0.0.1:44004/review/results.html",
+  "restartCommand": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/receiver-summary/builds/g11-7ced826c903d40c5a0dd/server.mjs --run /Users/paul/BTC-Learning/experiments/looking-glass/receiver-summary/runs/G11-RECEIVER-002 --port 44004",
+  "explicitRunRequired": true,
+  "finiteModelResult": {
+    "worldOrder": [
+      "W00",
+      "W01",
+      "W10",
+      "W11"
+    ],
+    "countAnswers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "releaseAnswers": [
+      "no",
+      "no",
+      "no",
+      "yes"
+    ],
+    "allowedRepairFields": [
+      "calibration",
+      "authorization",
+      "paint"
+    ],
+    "enumeratedFieldSubsets": 8,
+    "worldSubsetProjections": 32,
+    "countMinimumEntries": 0,
+    "releaseMinimumEntries": 2,
+    "uniqueSubsetMinimalReleaseRepair": [
+      "calibration",
+      "authorization"
+    ],
+    "redundantSufficientRepair": [
+      "calibration",
+      "authorization",
+      "paint"
+    ],
+    "wrongCountShortcutFalsePositives": [
+      "W00",
+      "W01",
+      "W10"
+    ],
+    "localGlobalDistinction": "One supplied negative dependency determines local no; the one-field projection remains globally insufficient over positive-status worlds.",
+    "scope": "Only the frozen four-world family and three-entry menu; no universal or byte-minimum claim."
+  },
+  "receiverBoundary": {
+    "inputs": [
+      "declared summary payload",
+      "receiver ID"
+    ],
+    "logicalSourceRefs": "Identical non-dereferenceable references within colliding payloads",
+    "inspectionOnly": [
+      "world ID",
+      "full-source hash",
+      "revision identity",
+      "source paths/envelope"
+    ],
+    "allDataPublic": true,
+    "inspectionChangesInput": false,
+    "repairPreservesSources": true
+  },
+  "independentChecks": {
+    "prespec": 205,
+    "candidate002BuildReceiverHttp": 190,
+    "candidate001PublicationRace": "Reproduced; fixed on exact candidate002 source",
+    "finalClosedCore": {
+      "script": "audit/gate-11/verify-final-core.mjs",
+      "result": "audit/gate-11/final-core-verification.json",
+      "status": "PASS",
+      "checksPassed": 2567,
+      "checksTotal": 2567
+    }
+  },
+  "closedCore": {
+    "path": "evidence/gate-11/CORE_EVIDENCE_FREEZE.json",
+    "sha256": "e9ab3b68f78a2b7c5a018ef39bd88efcb79536abd83ee1beb7b94e6df52c232a",
+    "entriesRehashed": 54,
+    "mismatches": 0
+  },
+  "acceptedFullAcquisition": {
+    "directory": "evidence/gate-11/browser-002-full",
+    "observations": 100,
+    "hostActions": 79,
+    "uneditedOriginalJpegs": 6,
+    "semanticHashesRecomputed": 100,
+    "informationHashesRecomputed": 100,
+    "payloadHashesRecomputed": 100,
+    "viewportAndSceneMatches": 100,
+    "designatedPausedCheckpointMatches": 18,
+    "localRevisionsWithProvenance": 7,
+    "naturalTourElapsedSeconds": 24.005,
+    "naturalScheduledEvents": 7,
+    "documentOneExportEvents": 56,
+    "documentTwoExportEvents": 21,
+    "distinctDocumentIds": 2,
+    "finalPausedCursorSeconds": 0
+  },
+  "earlierPreservedAcquisitions": [
+    {
+      "directory": "evidence/gate-11/browser-001",
+      "observations": 75,
+      "hostActions": 62,
+      "originalJpegs": 5,
+      "qualification": "Candidate001 retains a separately reproduced atomic publication race; collection stopped before reload/natural tour."
+    },
+    {
+      "directory": "evidence/gate-11/browser-002",
+      "observations": 101,
+      "hostActions": 80,
+      "originalJpegs": 6,
+      "qualification": "CUA structured-object transport truncated 21 semantic and 66 information payloads and shifted one active cursor double by one ULP; preserved, not used as complete hash evidence."
+    }
+  ],
+  "totalPreservedAcquisitionCounts": {
+    "observations": 276,
+    "hostActions": 221,
+    "instrumentOriginalJpegs": 17,
+    "scope": "Candidate001 plus both candidate002 acquisitions; only browser-002-full supports complete100/100 hash/layout conclusions."
+  },
+  "localRepairRevisions": [
+    {
+      "id": "L1",
+      "parentId": "S0",
+      "parentReferenceOnly": true,
+      "requestedFields": [
+        "calibration",
+        "authorization"
+      ],
+      "effectiveAddedFields": [
+        "calibration",
+        "authorization"
+      ],
+      "fieldsAfter": [
+        "calibration",
+        "authorization"
+      ],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:6"
+    },
+    {
+      "id": "L2",
+      "parentId": "S0",
+      "parentReferenceOnly": true,
+      "requestedFields": [
+        "calibration"
+      ],
+      "effectiveAddedFields": [
+        "calibration"
+      ],
+      "fieldsAfter": [
+        "calibration"
+      ],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:20"
+    },
+    {
+      "id": "L3",
+      "parentId": "S0",
+      "parentReferenceOnly": true,
+      "requestedFields": [
+        "authorization"
+      ],
+      "effectiveAddedFields": [
+        "authorization"
+      ],
+      "fieldsAfter": [
+        "authorization"
+      ],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:29"
+    },
+    {
+      "id": "L4",
+      "parentId": "S0",
+      "parentReferenceOnly": true,
+      "requestedFields": [],
+      "effectiveAddedFields": [],
+      "fieldsAfter": [],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:33"
+    },
+    {
+      "id": "L5",
+      "parentId": "S0",
+      "parentReferenceOnly": true,
+      "requestedFields": [
+        "paint"
+      ],
+      "effectiveAddedFields": [
+        "paint"
+      ],
+      "fieldsAfter": [
+        "paint"
+      ],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:36"
+    },
+    {
+      "id": "L6",
+      "parentId": "S0",
+      "parentReferenceOnly": true,
+      "requestedFields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "effectiveAddedFields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "fieldsAfter": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:41"
+    },
+    {
+      "id": "L7",
+      "parentId": "L1",
+      "parentReferenceOnly": false,
+      "requestedFields": [
+        "calibration"
+      ],
+      "effectiveAddedFields": [],
+      "fieldsAfter": [
+        "calibration",
+        "authorization"
+      ],
+      "provenance": "source_informed_software",
+      "originEventReference": "G11-RECEIVER-002-ui:44"
+    }
+  ],
+  "captureQualification": "An oversized single-string read failed after one successful export. The host retained captureError and recovered the complete observation with a read-only shallow-chunk string capture in one DOM read; the failed read is not counted as an observation.",
+  "observationLimits": [
+    "No separate active DOM observation during natural tour seconds 12\u201316; the 12-second boundary is in the actual scheduled event and paused checkpoint.",
+    "The collision witness screenshot exposes only the first part of its capped JSON panel; full public pair data were checked from complete DOM observations and exports.",
+    "No participant, learning, omission-detection or diagram-advantage result was measured."
+  ],
+  "eventResult": "Two actual-document event prefixes are sequenced and attributed truthfully, include their own export events, and reference all seven local revision creations. Seven scripted/automatic tour events reached the natural end-of-sequence in 24.005 seconds; clock-advancement gaps are not misreported as adjacent same-state chains.",
+  "historicalIntegrity": {
+    "priorGateFrozenEntriesRehashed": 1437,
+    "mismatches": 0,
+    "actualGate10PausedReplayAndSeparateNegativeResultsLabel": true
+  },
+  "humanParticipants": 0,
+  "humanOutcomes": "UNTESTED",
+  "diagramAdvantage": "UNTESTED",
+  "gate10RepairPerformed": false,
+  "actualRoles": {
+    "specificationAndSynthesis": "GPT-6 Astra xhigh",
+    "sources": "GPT-5.6 Luna high",
+    "implementation": "GPT-5.6 Sol high",
+    "independentAudit": "Separate GPT-5.6 Sol high",
+    "host": "Supported browser operation and evidence preservation",
+    "detailedRecord": "evidence/gate-11/execution-provenance.json",
+    "softwareRolesNotHumanParticipants": true
+  },
+  "candidateBudget": {
+    "implementationCandidates": 2,
+    "candidate001": "Preserved blocked atomic publication race",
+    "candidate002": "Accepted",
+    "candidate003Created": false,
+    "sameBuildReacquisitionNotNewCandidate": true
+  },
+  "presentation": {
+    "resultsFile": "evidence/gate-11/results.html",
+    "images": [
+      "/review/images/changed-receiver-witness.jpg",
+      "/review/images/minimal-repair-diagram.jpg",
+      "/review/images/minimal-repair-plain.jpg",
+      "/review/images/partial-negative-narrow.jpg"
+    ],
+    "status": "Authored from closed core; separate host presentation/handoff audit pending"
+  },
+  "closureBoundary": {
+    "coreClosed": true,
+    "finalGateFreezeClaimedHere": false,
+    "workerShutdownClaimedHere": false,
+    "publicationClaimedHere": false,
+    "nextGate": 12,
+    "nextGateName": "Coordinate without erasing disagreement",
+    "nextGateApproved": false,
+    "nextGateStarted": false
+  },
+  "pinnedArtifacts": [
+    {
+      "path": "docs/gate-11/PRESPEC_FREEZE.json",
+      "bytes": 1730,
+      "sha256": "bc6f624e0eb0a2d225e1aafdebb99ec2fd3dcce45bcd24dd8ccadf6edd85fba9"
+    },
+    {
+      "path": "audit/gate-11/prespec-review.md",
+      "bytes": 3732,
+      "sha256": "f5ec4902bdc86bbd38510f252944821a4a92095156df22a5d79080c670282caa"
+    },
+    {
+      "path": "audit/gate-11/prespec-review.json",
+      "bytes": 3051,
+      "sha256": "e1d7b569aff10364051973bb4e7972705dcc5e672f6d34c6b044510691b95fdc"
+    },
+    {
+      "path": "audit/gate-11/prespec-derivation.json",
+      "bytes": 32035,
+      "sha256": "7c66f9678928f9f35474e6cc54cd3d9483f8025b9165119d581c8e863ff993f8"
+    },
+    {
+      "path": "audit/gate-11/candidate-001-audit.md",
+      "bytes": 1951,
+      "sha256": "7c9c21d325b78c543a5967e71ddd2fd0c47fe82b4f73356c0c7411b4d852a683"
+    },
+    {
+      "path": "audit/gate-11/candidate-001-snapshot-race-repro.json",
+      "bytes": 474,
+      "sha256": "3ecc64eac297f5ebb0ffdd0973647af321b7ee2f3f06b9942332f49590b856d5"
+    },
+    {
+      "path": "audit/gate-11/candidate-002-audit.md",
+      "bytes": 2104,
+      "sha256": "3dc3bb16eab0f1de2932ab17102f15c967c51c8c0d1346eda331acbe12d307c6"
+    },
+    {
+      "path": "audit/gate-11/candidate-002-bytecheck.json",
+      "bytes": 3375,
+      "sha256": "8d06aeaf8229f6775658e4345339c492135198dfdfa393ac3e0d26e3f452909e"
+    },
+    {
+      "path": "audit/gate-11/candidate-002-receiver-check.json",
+      "bytes": 7536,
+      "sha256": "c5ce1606aec9e8e015ab8e35d9bbf64c0f6fbb4e14ef13411ec0ec944c731137"
+    },
+    {
+      "path": "audit/gate-11/candidate-002-http-check.json",
+      "bytes": 5160,
+      "sha256": "10875edda21b1d5063b66516d58f4acfe32ccd47af8a2ee3e5a48e0158a6895c"
+    },
+    {
+      "path": "audit/gate-11/candidate-002-snapshot-race-repro.json",
+      "bytes": 435,
+      "sha256": "7ee0eb08be7e56da5da2c4c144bcfbe3536dff68f4e95d09c5358e38d00d2414"
+    },
+    {
+      "path": "audit/gate-11/candidate-002-transport-diagnosis.json",
+      "bytes": 1888,
+      "sha256": "6eb12165967b6ecb485189f284870a7bcd7cb6b95b26362cd4f6ca53bba652c7"
+    },
+    {
+      "path": "audit/gate-11/transport-acquisition-review.md",
+      "bytes": 1876,
+      "sha256": "40bf27e0859d70cc0bcb8ed55c2f076dffe4816fa59f7b9415ef689dbacb2294"
+    },
+    {
+      "path": "audit/gate-11/transport-acquisition-review.json",
+      "bytes": 1740,
+      "sha256": "5c3db04dde7ced0011bd930fbf795b0aed0d1fd943837fd5fcc470a4ce936d16"
+    },
+    {
+      "path": "audit/gate-11/final-audit.md",
+      "bytes": 4691,
+      "sha256": "3d8244d3b5df3222138b9eb749b7568652f52725df8bb52c5d744b9b0ea7d40c"
+    },
+    {
+      "path": "audit/gate-11/final-audit.json",
+      "bytes": 3418,
+      "sha256": "cfa2c1c8a57d36baa9420babd1ea13e6a23b1559b15d7269dc433a36c00ab310"
+    },
+    {
+      "path": "audit/gate-11/final-core-verification.json",
+      "bytes": 2296,
+      "sha256": "819574968bc40096c27cdbe84e85aee9768ce05f3abe019ba01c50e1e16dd45c"
+    },
+    {
+      "path": "audit/gate-11/verify-final-core.mjs",
+      "bytes": 19655,
+      "sha256": "41c89eb000dbbeaef89c7f35775a0c8a94e61c7b107462a8fbd79fefa7c87513"
+    },
+    {
+      "path": "evidence/gate-11/CORE_EVIDENCE_FREEZE.json",
+      "bytes": 10840,
+      "sha256": "e9ab3b68f78a2b7c5a018ef39bd88efcb79536abd83ee1beb7b94e6df52c232a"
+    },
+    {
+      "path": "evidence/gate-11/CANDIDATE_001_BROWSER_FREEZE.json",
+      "bytes": 3166,
+      "sha256": "0a290af183ad2fca97d966d1ca255df83a8b624408422a0bc14e02d21f457b1f"
+    },
+    {
+      "path": "evidence/gate-11/CANDIDATE_002_FIRST_ACQUISITION_FREEZE.json",
+      "bytes": 4139,
+      "sha256": "959891faec75d702b25adf76929f4e7057e43557030d42d6b1b72a7da3b3a97b"
+    },
+    {
+      "path": "evidence/gate-11/host-browser-outcome.json",
+      "bytes": 8577,
+      "sha256": "0be83cb4fb6a26e582226fc50d1192fcf711723d92cf4218a8e98a02e3e1899f"
+    },
+    {
+      "path": "evidence/gate-11/prior-integrity-after-browser.json",
+      "bytes": 124,
+      "sha256": "16d99b8b2ce4ab7303802d35daf987cdd9b11984f5cd138ce4899b56dfc6fb66"
+    },
+    {
+      "path": "evidence/gate-11/replay-collection.json",
+      "bytes": 8407,
+      "sha256": "d6ce0979039a33538269884388d9debceae10c2c7de964be467acc1d9b0aeae0"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/screenshots.json",
+      "bytes": 3738,
+      "sha256": "834b5f90acf816e62110e267904580be94a0cbdf8b00673f820505c44e7e4ff2"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/critical-workflow-export.json",
+      "bytes": 41567,
+      "sha256": "99c0eac9197459c8b3980734001717f703066e68ae22370edce28a832d0f0cbd"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/all-local-revisions-export.json",
+      "bytes": 117091,
+      "sha256": "fac0d79301fbbedafdd15d7e6b7606fe4ff53c709d1ef5e86a0383c907567b5e"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/session-one-final-export.json",
+      "bytes": 119825,
+      "sha256": "27c3d8a8f5675f2f0721781bb2ab3d8a1bc6aa3079cc70751eef7e6874d46e2d"
+    },
+    {
+      "path": "evidence/gate-11/browser-002-full/session-two-final-export.json",
+      "bytes": 37236,
+      "sha256": "5d59c5f4f52a0ff16573406478964b6472cf7db5e123111e98b9f444a57a4f9e"
+    },
+    {
+      "path": "research/gate-11/source-review.md",
+      "bytes": 4535,
+      "sha256": "ff32fa87a3e830e3dd2277659a4c4e72edd904b549399c10d331a07d171d31c9"
+    },
+    {
+      "path": "research/gate-11/sources.json",
+      "bytes": 5170,
+      "sha256": "81f21e8dae3dba3b4c6cb2b64e47398932c6120f5c5a92e662406d44526a1a11"
+    },
+    {
+      "path": "receiver-summary/runs/G11-RECEIVER-001/run-manifest.json",
+      "bytes": 780,
+      "sha256": "143c297e293c893eac3c60db8ae566af8ac0c94d81b52954a41d1adab5df70dc"
+    },
+    {
+      "path": "receiver-summary/runs/G11-RECEIVER-002/run.json",
+      "bytes": 880,
+      "sha256": "50211f30ef0b6e85dff964ca3cbe177a11d22aee5a86bdfa0d4cd5477290c6e7"
+    },
+    {
+      "path": "receiver-summary/runs/G11-RECEIVER-002/run-manifest.json",
+      "bytes": 780,
+      "sha256": "db540090b5e08b1a213f3053f2113f9d16694204457d788bf141141d201858b4"
+    },
+    {
+      "path": "evidence/gate-11/GATE_11_PACKET.md",
+      "bytes": 18534,
+      "sha256": "f207ccfb7e80f99af224367ca24ad070ebdee508d14e924a544b0c20baa133ad"
+    },
+    {
+      "path": "evidence/gate-11/results.html",
+      "bytes": 13588,
+      "sha256": "ce813b42824eb06cd8b1e72f900e66ef527b7a8b37b92237bb3562b9c67efdc6"
+    }
+  ]
+}

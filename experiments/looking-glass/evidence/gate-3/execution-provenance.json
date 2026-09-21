@@ -1,0 +1,63 @@
+{
+  "recordedAtUtc": "2026-09-20T02:30:53.545366+00:00",
+  "gate": 3,
+  "routingSource": "Actual user model-routing request and project AGENTS.md",
+  "workers": [
+    {
+      "task": "/root/g3_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Experiment specification, model/observation contract and later synthesis"
+    },
+    {
+      "task": "/root/g3_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Bounded primary-source internet gathering"
+    },
+    {
+      "task": "/root/g3_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation and build checks"
+    },
+    {
+      "task": "/root/g3_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent mathematical/observability oracle, exact-build and actual-evidence audit"
+    }
+  ],
+  "independentAudit": "Separate Sol worker; no implementation or browser control ownership. Actual results will be retained in audit/gate-3/.",
+  "hostCoordinator": "Local workspace and Git, supported browser computer use, evidence preservation. No unsupported model switch claimed.",
+  "humanParticipation": "No participant study or human comprehension result authorized or inferred.",
+  "authorization": "Actual named Gate3 approval in approvals/GATE_3_APPROVAL.json; Gate4 not approved.",
+  "actualCandidateHistory": [
+    {
+      "run": "G3-TESSERACT-001",
+      "outcome": "Actual stale scroll metadata; preserved and corrected002"
+    },
+    {
+      "run": "G3-TESSERACT-002",
+      "outcome": "Full UI/mathematical regression passed except automatic-end reason schema; preserved and corrected003"
+    },
+    {
+      "run": "G3-TESSERACT-003",
+      "outcome": "Final 67-observation regression, 6 originals and 46 actual events; independent build14/14, routes14/14 and browser12/12 passed; qualified bounded instrument."
+    }
+  ],
+  "independentAuditResult": {
+    "path": "audit/gate-3/AUDIT.md",
+    "oraclePassed": 12,
+    "prespecPassed": 6,
+    "finalBuildPassed": 14,
+    "finalRoutesPassed": 14,
+    "finalBrowserPassed": 12,
+    "finalBrowserFailed": 0,
+    "maximumCoordinateError": 1.1102230246251563e-16,
+    "maximumForwardResidual": 0
+  },
+  "allStageWorkersCompleted": true,
+  "completionRecordedAtUtc": "2026-09-20T03:07:37.397495+00:00",
+  "stageBoundary": "Gate3 complete for review; Gate4 remains unapproved. Passive local replay servers are not stage workers."
+}

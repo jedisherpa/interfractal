@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "initial-input-manifest/1",
+  "agentId": "A3",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "files": [
+    {
+      "path": "allocation.json",
+      "bytes": 308,
+      "sha256": "abc68b4281ec47c45dc1133ddf85cec174995cb387a0c6d31e5070c883f90b0b"
+    },
+    {
+      "path": "development-tasks.json",
+      "bytes": 4977,
+      "sha256": "0bc296ee07f264b54dcce768257129cd69595095a9f5b416021cef475946f245"
+    },
+    {
+      "path": "INITIAL_PROMPT_TEMPLATE.txt",
+      "bytes": 945,
+      "sha256": "2044be43e7dca73f736416f5c5189b160958c30ec7c3ad53aa8491b2cdbd1e5c"
+    },
+    {
+      "path": "PARTICIPANT_INSTRUCTIONS.md",
+      "bytes": 2649,
+      "sha256": "894410e84ce79794be29fffc14110eee6e5da75b10d61135acb2ab501b5c9052"
+    },
+    {
+      "path": "proposed-run-settings.json",
+      "bytes": 353,
+      "sha256": "02bb791b72c1b665b6926c37f72c8b805d9aecf807999a1752744150bce44fb5"
+    },
+    {
+      "path": "snapshot.schema.json",
+      "bytes": 8053,
+      "sha256": "b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a"
+    },
+    {
+      "path": "world.json",
+      "bytes": 16633,
+      "sha256": "be0c902966e04370a1a5b35a21aacdc3bc7560a763c96a4645aca9c9a34b6d6d"
+    }
+  ]
+}

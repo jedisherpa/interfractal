@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "materials-cross-review/1",
+  "status": "PASS",
+  "blindFreezeSha256": "d23efa250eec5e4aa689f956a479d743ab5823dc857a740c62a10f3e42997603",
+  "blindKeySha256": "1afc61ce7a071079f59a8c127f0edb43a4b72486ce5059ba58e95288154a75c2",
+  "authorKeySha256": "7ddc0950cbd06b4ddce9d37044d435833f8bcc33a3a63b9271a6517105880c4c",
+  "developmentAtoms": 194,
+  "transferAtoms": 98,
+  "structuralFields": 8,
+  "canonicalEvidenceReferencesResolved": 442,
+  "freezeChecks": [
+    {
+      "path": "preparation/materials-v1/audit/blind-key-001.json",
+      "pass": true
+    },
+    {
+      "path": "preparation/materials-v1/audit/blind-derivation-001.md",
+      "pass": true
+    },
+    {
+      "path": "preparation/materials-v1/audit/blind-input-manifest-001.json",
+      "pass": true
+    },
+    {
+      "path": "preparation/materials-v1/audit/derive-blind-key-001.mjs",
+      "pass": true
+    }
+  ],
+  "arithmetic": {
+    "interactiveBase": 38912,
+    "unionBase": 4096,
+    "uniqueCalls": 17,
+    "uniqueCap": 55296
+  },
+  "failures": []
+}

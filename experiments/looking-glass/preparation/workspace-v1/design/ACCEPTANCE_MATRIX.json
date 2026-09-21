@@ -1,0 +1,520 @@
+{
+  "schemaVersion": "workspace-acceptance-matrix/1",
+  "scope": "PREPARATION_ONLY_SYNTHETIC",
+  "atomSets": {
+    "initial": {
+      "count": 38,
+      "paths": [
+        "D01.demand",
+        "D01.requirementVersion",
+        "D02.press",
+        "D02.cart",
+        "D02.varnish",
+        "D03.araUnderstands",
+        "D03.araEndorses",
+        "D03.araPress6",
+        "D03.beaEndorses",
+        "D03.beaCart2",
+        "D04.araExplores",
+        "D04.araUnderstands",
+        "D04.araPress5",
+        "D04.beaCart1",
+        "D04.cyVarnish1",
+        "D05.modelAttributesAraEndorsement",
+        "D05.araEndorses",
+        "D05.devMayDescribe",
+        "D05.devMayCommit",
+        "D06.inspection",
+        "D07.P8.physical",
+        "D07.P8.demand",
+        "D07.P8.commitment",
+        "D07.P8.inspection",
+        "D07.P8.readiness",
+        "D07.P12.physical",
+        "D07.P12.demand",
+        "D07.P12.commitment",
+        "D07.P12.inspection",
+        "D07.P12.readiness",
+        "D07.P10.physical",
+        "D07.P10.demand",
+        "D07.P10.commitment",
+        "D07.P10.inspection",
+        "D07.P10.readiness",
+        "D08.selection",
+        "D08.output",
+        "D08.cost"
+      ],
+      "scopes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    "union": {
+      "count": 42,
+      "paths": [
+        "D01.demand",
+        "D01.requirementVersion",
+        "D02.press",
+        "D02.cart",
+        "D02.varnish",
+        "D03.araUnderstands",
+        "D03.araEndorses",
+        "D03.araPress6",
+        "D03.beaEndorses",
+        "D03.beaCart2",
+        "D04.araExplores",
+        "D04.araUnderstands",
+        "D04.araPress5",
+        "D04.beaCart1",
+        "D04.cyVarnish1",
+        "D05.modelAttributesAraEndorsement",
+        "D05.araEndorses",
+        "D05.devMayDescribe",
+        "D05.devMayCommit",
+        "D06.inspection",
+        "D07.P8.physical",
+        "D07.P8.demand",
+        "D07.P8.commitment",
+        "D07.P8.inspection",
+        "D07.P8.readiness",
+        "D07.P12.physical",
+        "D07.P12.demand",
+        "D07.P12.commitment",
+        "D07.P12.inspection",
+        "D07.P12.readiness",
+        "D07.P10.physical",
+        "D07.P10.demand",
+        "D07.P10.commitment",
+        "D07.P10.inspection",
+        "D07.P10.readiness",
+        "D08.selection",
+        "D08.output",
+        "D08.cost",
+        "D09.lineageCount",
+        "D09.maxQuantity",
+        "D10.C06_C13",
+        "D10.C13_C14"
+      ]
+    },
+    "pool": {
+      "count": 38,
+      "paths": [
+        "D01.demand",
+        "D01.requirementVersion",
+        "D02.press",
+        "D02.cart",
+        "D02.varnish",
+        "D03.araUnderstands",
+        "D03.araEndorses",
+        "D03.araPress6",
+        "D03.beaEndorses",
+        "D03.beaCart2",
+        "D04.araExplores",
+        "D04.araUnderstands",
+        "D04.araPress5",
+        "D04.beaCart1",
+        "D04.cyVarnish1",
+        "D05.modelAttributesAraEndorsement",
+        "D05.araEndorses",
+        "D05.devMayDescribe",
+        "D05.devMayCommit",
+        "D06.inspection",
+        "D07.P8.physical",
+        "D07.P8.demand",
+        "D07.P8.commitment",
+        "D07.P8.inspection",
+        "D07.P8.readiness",
+        "D07.P12.physical",
+        "D07.P12.demand",
+        "D07.P12.commitment",
+        "D07.P12.inspection",
+        "D07.P12.readiness",
+        "D07.P10.physical",
+        "D07.P10.demand",
+        "D07.P10.commitment",
+        "D07.P10.inspection",
+        "D07.P10.readiness",
+        "D08.selection",
+        "D08.output",
+        "D08.cost"
+      ]
+    },
+    "transfer": {
+      "count": 98,
+      "paths": [
+        "W01.physical",
+        "W01.demand",
+        "W01.commitment",
+        "W01.inspection",
+        "W01.readiness",
+        "W01.selection",
+        "W01.linEndorsesV1",
+        "W01.utterancePredicate",
+        "W02.physical",
+        "W02.demand",
+        "W02.commitment",
+        "W02.inspection",
+        "W02.readiness",
+        "W02.selection",
+        "W02.linEndorsesV1",
+        "W02.utterancePredicate",
+        "W03.physical",
+        "W03.demand",
+        "W03.commitment",
+        "W03.inspection",
+        "W03.readiness",
+        "W03.selection",
+        "W03.linEndorsesV1",
+        "W03.utterancePredicate",
+        "W04.physical",
+        "W04.demand",
+        "W04.commitment",
+        "W04.inspection",
+        "W04.readiness",
+        "W04.selection",
+        "W04.linEndorsesV1",
+        "W04.utterancePredicate",
+        "W05.physical",
+        "W05.demand",
+        "W05.commitment",
+        "W05.inspection",
+        "W05.readiness",
+        "W05.selection",
+        "W05.linEndorsesV1",
+        "W05.utterancePredicate",
+        "W06-SHARED.bundles.0.physical",
+        "W06-SHARED.bundles.0.demand",
+        "W06-SHARED.bundles.0.commitment",
+        "W06-SHARED.bundles.0.inspection",
+        "W06-SHARED.bundles.0.readiness",
+        "W06-SHARED.bundles.0.output",
+        "W06-SHARED.bundles.0.cost",
+        "W06-SHARED.bundles.1.physical",
+        "W06-SHARED.bundles.1.demand",
+        "W06-SHARED.bundles.1.commitment",
+        "W06-SHARED.bundles.1.inspection",
+        "W06-SHARED.bundles.1.readiness",
+        "W06-SHARED.bundles.1.output",
+        "W06-SHARED.bundles.1.cost",
+        "W06-SHARED.bundles.2.physical",
+        "W06-SHARED.bundles.2.demand",
+        "W06-SHARED.bundles.2.commitment",
+        "W06-SHARED.bundles.2.inspection",
+        "W06-SHARED.bundles.2.readiness",
+        "W06-SHARED.bundles.2.output",
+        "W06-SHARED.bundles.2.cost",
+        "W06-SHARED.bundles.3.physical",
+        "W06-SHARED.bundles.3.demand",
+        "W06-SHARED.bundles.3.commitment",
+        "W06-SHARED.bundles.3.inspection",
+        "W06-SHARED.bundles.3.readiness",
+        "W06-SHARED.bundles.3.output",
+        "W06-SHARED.bundles.3.cost",
+        "W06-SHARED.selection",
+        "W06-SPLIT.bundles.0.physical",
+        "W06-SPLIT.bundles.0.demand",
+        "W06-SPLIT.bundles.0.commitment",
+        "W06-SPLIT.bundles.0.inspection",
+        "W06-SPLIT.bundles.0.readiness",
+        "W06-SPLIT.bundles.0.output",
+        "W06-SPLIT.bundles.0.cost",
+        "W06-SPLIT.bundles.1.physical",
+        "W06-SPLIT.bundles.1.demand",
+        "W06-SPLIT.bundles.1.commitment",
+        "W06-SPLIT.bundles.1.inspection",
+        "W06-SPLIT.bundles.1.readiness",
+        "W06-SPLIT.bundles.1.output",
+        "W06-SPLIT.bundles.1.cost",
+        "W06-SPLIT.bundles.2.physical",
+        "W06-SPLIT.bundles.2.demand",
+        "W06-SPLIT.bundles.2.commitment",
+        "W06-SPLIT.bundles.2.inspection",
+        "W06-SPLIT.bundles.2.readiness",
+        "W06-SPLIT.bundles.2.output",
+        "W06-SPLIT.bundles.2.cost",
+        "W06-SPLIT.bundles.3.physical",
+        "W06-SPLIT.bundles.3.demand",
+        "W06-SPLIT.bundles.3.commitment",
+        "W06-SPLIT.bundles.3.inspection",
+        "W06-SPLIT.bundles.3.readiness",
+        "W06-SPLIT.bundles.3.output",
+        "W06-SPLIT.bundles.3.cost",
+        "W06-SPLIT.selection"
+      ]
+    }
+  },
+  "structuralTransferBundleIds": [
+    [],
+    [
+      "X"
+    ],
+    [
+      "Y"
+    ],
+    [
+      "X",
+      "Y"
+    ]
+  ],
+  "checks": [
+    {
+      "id": "A01",
+      "category": "invariants",
+      "method": "Rehash approved materials and the 58 baseline participant/design pins.",
+      "expected": "All bytes unchanged; supplemental namespace separate.",
+      "actualBrowserRequired": false
+    },
+    {
+      "id": "A02",
+      "category": "access",
+      "method": "Start all four strict initial modes using only the assigned participant bundle; probe routes, queries, imports, static files and exports.",
+      "expected": "Exactly six own cards and eight tasks; no foreign claims, keys, withheld cases, union data or phase escalation.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A03",
+      "category": "parity",
+      "method": "Switch views at the same state; filter, restore, inspect, export and rearrange layout.",
+      "expected": "Semantic and information payloads and action availability agree; only presentation metadata changes.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A04",
+      "category": "source",
+      "method": "Inspect C04, C06/C13, C13/C14, C11/C12, C16, C18 and the Dev mandate.",
+      "expected": "Preserve directed roles, dissent, restatement, supersession, attribution, conflict and mandate scope.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A05",
+      "category": "import",
+      "method": "Import valid, invalid JSON, duplicate-ID, wrong-scope, wrong-witness, stale-parent and unsupported-action fixtures.",
+      "expected": "Raw bytes retained; invalid records quarantined; no permission change; identical reuse idempotent.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A06",
+      "category": "phases",
+      "method": "Execute the complete fixture graph and isolated blocked transitions.",
+      "expected": "17 unique slots; comparison precedes exchange, messages freeze before revisions, synthesis uses all revisions, finals freeze before transfer.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A07",
+      "category": "lineage",
+      "method": "Reload, export/reimport, conflict IDs, stale parents and reset to a new run.",
+      "expected": "Exact lineage survives; originals and failed attempts retained; export includes its own event.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A08",
+      "category": "values",
+      "method": "Score key-derived fixtures and one-atom mutations in every scope.",
+      "expected": "38 initial, 42 union, 38 pool, 98 transfer atoms; fixed denominators; missing atoms score zero; wrong well-formed values fail.",
+      "actualBrowserRequired": false
+    },
+    {
+      "id": "A09",
+      "category": "proof",
+      "method": "Evaluate all 292 finite atoms against independent source-derived review, including shorter and adversarial proofs.",
+      "expected": "Source validity is separate from proof credit; catalog premises and named missing dependencies are checked.",
+      "actualBrowserRequired": false
+    },
+    {
+      "id": "A10",
+      "category": "proof-controls",
+      "method": "Test valid IDs with wrong roles/versions, rule-only witnesses, omitted opposition, stale capacities, partial unknown proofs and model attribution.",
+      "expected": "Incorrect proofs are disproved or queued with reasons; no false proof credit.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A10B",
+      "category": "proof-compatibility",
+      "method": "Import an unchanged valid snapshot without sidecar, then one with supplied typed catalog/gap premises; compare against a complete host_expected proof. Test an unrecognized free-text gap.",
+      "expected": "Original shape and value scoring remain valid; host-filled premises earn no submitted proof credit. Missing proof queues review; sufficient actual sidecar can prove; free text remains pending until review.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A11",
+      "category": "pool",
+      "method": "Pool four initial records at runtime; test duplicate tuples and cross-scope conflicts.",
+      "expected": "Retain all tuples and the exact naive 38-atom readout; D09/D10 are not elicited.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A12",
+      "category": "transfer",
+      "method": "Validate transfer responses and early, duplicate, missing, foreign-source, hash, bundle and type mutants.",
+      "expected": "Seven contexts, 98 atoms and eight structural bundle arrays; invalid raw evidence retained; phase restrictions enforced.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A13",
+      "category": "accounting",
+      "method": "Inspect 17 slots, shared initial branch memberships, retries and simulated budget overflow.",
+      "expected": "Cap 55,296; branch caps 20,480/8,192/43,008; unique initial work counted once; provider calls zero.",
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A14",
+      "category": "launch",
+      "method": "Request real transport using a stub that fails if called.",
+      "expected": "RESEARCH_EXECUTION_DEFERRED occurs before external calls or secret lookup; no provider adapter.",
+      "actualBrowserRequired": false
+    },
+    {
+      "id": "S01-AVAILABILITY",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": [
+        "All6 record IDs remain visible;private source body/value absent in payload,DOM,export",
+        "Withdrawal history remains inspectable only within authorized source scope",
+        "No status creates permission"
+      ],
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S02-VERSION-OWNER-REPLAY",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": null,
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S03-CORRECTION",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": [
+        "CAP1 survives historical inspection",
+        "CAP2 shown in actual derived/synthesis inputs",
+        "Old capacity never silently drives current readiness"
+      ],
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S04-ATTRIBUTION-MANDATE",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": {
+        "actorEndorsement": "refuted",
+        "modelAttribution": "supported",
+        "repDescribe": "allowed",
+        "repCommit": "denied"
+      },
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S05-SUMMARY-DEPENDENCY",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": [
+        "Summary payloads identical",
+        "Inspector reveals exact dependency after explicit allowed drilldown",
+        "Do not expose omitted dependencies before drilldown in summary-only payload"
+      ],
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S06-OVERLAP",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": {
+        "uniqueActorCount": 3,
+        "membershipPlacements": 4,
+        "uniqueCapacity": 1,
+        "combinedDemand": 2,
+        "combinedPhysical": "refuted"
+      },
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S07-ROSTERS-RELABEL",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": [
+        {
+          "size": 3,
+          "distinctActors": 3,
+          "distinctRecords": 3,
+          "directedEdges": 2,
+          "sumQuantity": 6,
+          "lastQuantity": 3
+        },
+        {
+          "size": 4,
+          "distinctActors": 4,
+          "distinctRecords": 4,
+          "directedEdges": 3,
+          "sumQuantity": 10,
+          "lastQuantity": 4
+        },
+        {
+          "size": 5,
+          "distinctActors": 5,
+          "distinctRecords": 5,
+          "directedEdges": 4,
+          "sumQuantity": 15,
+          "lastQuantity": 5
+        },
+        {
+          "size": 12,
+          "distinctActors": 12,
+          "distinctRecords": 12,
+          "directedEdges": 11,
+          "sumQuantity": 78,
+          "lastQuantity": 12
+        }
+      ],
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "S08-SAME-MEAN-DISTRIBUTIONS",
+      "category": "supplemental",
+      "method": "Execute the separately authored supplemental fixture through the same reducer, permission, view and export layers.",
+      "expected": [
+        "Show allfour recordedvalues andworldID inbothviews",
+        "Equalmean never meansagreement",
+        "Numbers areauthored testjudgments,not measuredhumantraits",
+        "No centroidcreatesauthority"
+      ],
+      "actualBrowserRequired": true
+    },
+    {
+      "id": "A15",
+      "category": "recovery",
+      "method": "Rebuild from packaged sources/fixtures; test real/symlink entry and imports.",
+      "expected": "Exact manifest; no silent no-op; nonzero overwrite/errors; historical inputs unchanged.",
+      "actualBrowserRequired": false
+    },
+    {
+      "id": "A16",
+      "category": "browser-evidence",
+      "method": "Use supported browser controls before polish; preserve lossless observations and original images.",
+      "expected": "Actual intended effects, state hashes and fresh viewport verified; failures retained; no human outcome claim.",
+      "actualBrowserRequired": true
+    }
+  ],
+  "browserRecipe": {
+    "criticalFirstUse": [
+      "Strict initial A1: verify six cards and scope; inspect C04 in plain and visual views.",
+      "Import valid A1 and a rejected foreign-source/witness fixture; inspect retained raw error.",
+      "Export including its own event, then reload and confirm retained state.",
+      "Researcher mode: run synthetic initials and compare; inspect revisions, corrected capacity and retained dissent.",
+      "Compute pool and scores; inspect separate proof status and cost lineage.",
+      "Attempt early transfer and observe rejection; freeze finals, release transfer, import valid and invalid responses, inspect scores and export."
+    ],
+    "laterControls": [
+      "Exercise S01\u2013S04 availability, owner/version, correction and mandate actions.",
+      "Inspect S05 summary dependencies, S06 overlapping membership, S07 rosters 3 and 12, and S08 distinct distributions.",
+      "Verify both-view parity, keyboard selection, filter/restore, historical read-only behavior and reload.",
+      "Inspect 1280\u00d7800 and 960\u00d7720 viewports for essential clipping and fresh metadata.",
+      "Automated access tests cover all four allocations; actual browser covers at least strict A1 and researcher mode."
+    ],
+    "targetObservations": "Approximately 45\u201370 useful observations; report actual counts, not a predetermined research sample.",
+    "originalImages": "4\u20136 untouched originals: plain/visual, dissent/revision, rejected import and score/proof/transfer. Inspect each directly.",
+    "noResearchMeasures": true
+  },
+  "acceptance": "Every matrix item evidenced; zero unresolved consequential scope/source/permission/phase/scoring defects; independent audit of the exact candidate. No actual research required for this phase."
+}

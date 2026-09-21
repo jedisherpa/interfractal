@@ -1,0 +1,662 @@
+[
+  {
+    "label": "S0-east-start",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:55:34.525Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "S0-east-start-fixed",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:55:46.608Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "S1-east-six",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:55:47.269Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "S1-east-six-top",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:56:03.605Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "S0-east-start-top",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:56:05.445Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "checkpoint-12000",
+    "intended": "Manual exact checkpoint 12000 ms",
+    "observedAtUtc": "2026-09-20T01:56:06.142Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 12000,
+    "base": "east",
+    "hash": "3d22a8754efac950abf820543faa8fed736901425b453dc659c27c509f87d257"
+  },
+  {
+    "label": "checkpoint-18000",
+    "intended": "Manual exact checkpoint 18000 ms",
+    "observedAtUtc": "2026-09-20T01:56:06.619Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 18000,
+    "base": "east",
+    "hash": "bc8200789b2106bf201dbed0b938e30e0e7381f5d4d11d6a0b6016bd4e81c115"
+  },
+  {
+    "label": "checkpoint-24000",
+    "intended": "Manual exact checkpoint 24000 ms",
+    "observedAtUtc": "2026-09-20T01:56:07.226Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 24000,
+    "base": "east",
+    "hash": "ef5385c9e641b123440c137a568fedcd581dcf89557a97dffce8b22c7d06daad"
+  },
+  {
+    "label": "S0-fixed-comparison",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:56:36.034Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "S1-fixed-comparison",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:56:37.708Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "S0-fixed-stable",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:57:00.672Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "base-marker-north",
+    "intended": "Click actual north marker at {\"label\":\"Select North pole\",\"x\":329.75,\"y\":342.70423889160156}",
+    "observedAtUtc": "2026-09-20T01:57:01.580Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "north",
+    "hash": "002d8f280f2ac7b2e415f25cb0405a541b8f139c221b6a84f4bb9dd277635fba"
+  },
+  {
+    "label": "fiber-hit-east",
+    "intended": "Actual rendered east segment click: {\"point\":[314.1705,81.04599999999999],\"separation\":76.45879243259078,\"client\":[944.8368928571429,360.3898125]}",
+    "observedAtUtc": "2026-09-20T01:57:28.904Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "picked-fiber-phase-90",
+    "intended": "Manual source phase90° after east fiber hit",
+    "observedAtUtc": "2026-09-20T01:57:52.648Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "59ca3f7ce862724aa7e4f4c3c0537a0fd3d2f298375ab152af812b7a633de99f"
+  },
+  {
+    "label": "custom-lat30",
+    "intended": "Latitude30° via actual slider",
+    "observedAtUtc": "2026-09-20T01:57:53.047Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "custom",
+    "hash": "ecf1088435976c8f7a9c8dc440c366bcd7eb8f624b4fa6e7291a4b4473323eba"
+  },
+  {
+    "label": "custom-lat30-lon60",
+    "intended": "Longitude60° via actual slider",
+    "observedAtUtc": "2026-09-20T01:57:53.489Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "custom",
+    "hash": "256fd78a2024670b0c3b6527b93e051e8023108e16c46e276526708843ea2833"
+  },
+  {
+    "label": "custom-surface-pick",
+    "intended": "Actual front sphere click {\"svg\":[394,136],\"client\":[398.4642857142857,411.4185267857143],\"bounds\":{\"bottom\":675.1328125,\"height\":390,\"left\":27,\"right\":632.5,\"top\":285.1328125,\"width\":605.5,\"x\":27,\"y\":285.1328125}}",
+    "observedAtUtc": "2026-09-20T01:57:54.906Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "custom",
+    "hash": "b880bbfa8f9ad9976fd1e382332a33627385bfcc3849eeead2acd49832943353"
+  },
+  {
+    "label": "front-north-chart",
+    "intended": "Select front at phase0, chartN",
+    "observedAtUtc": "2026-09-20T01:58:17.567Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "front",
+    "hash": "64f0a4460f7ef45d697186b258f90c15691f07c6ef6059e6917e349e458ed75b"
+  },
+  {
+    "label": "front-south-chart",
+    "intended": "SwitchN→S with phase compensation",
+    "observedAtUtc": "2026-09-20T01:58:18.322Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "front",
+    "hash": "0c8dc92b45f549fb77a5c274994c51e70bc2e9e6564fbfc17eb9ea460e7e3c51"
+  },
+  {
+    "label": "S2-front-chart-controls",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:58:18.358Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "front",
+    "hash": "0c8dc92b45f549fb77a5c274994c51e70bc2e9e6564fbfc17eb9ea460e7e3c51"
+  },
+  {
+    "label": "front-north-chart-restored",
+    "intended": "SwitchS→N",
+    "observedAtUtc": "2026-09-20T01:58:18.721Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "front",
+    "hash": "64f0a4460f7ef45d697186b258f90c15691f07c6ef6059e6917e349e458ed75b"
+  },
+  {
+    "label": "north-chart-unavailable",
+    "intended": "Inspect disabled southchart at northpole",
+    "observedAtUtc": "2026-09-20T01:58:19.531Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "north",
+    "hash": "002d8f280f2ac7b2e415f25cb0405a541b8f139c221b6a84f4bb9dd277635fba"
+  },
+  {
+    "label": "south-phase-0",
+    "intended": "Inspect disabled northchart at southpole,phase0",
+    "observedAtUtc": "2026-09-20T01:58:20.089Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "south",
+    "hash": "612b47b8789f2676c7760082dd7e8f3bfdeb81eb2f127c5422b97ec1a07fdd21"
+  },
+  {
+    "label": "south-infinity",
+    "intended": "South phase90° validq and null projection",
+    "observedAtUtc": "2026-09-20T01:58:20.495Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "south",
+    "hash": "8c5a2fb712520cce346aace802b3be6b6c4d442d9e2ba2051814137381987d82"
+  },
+  {
+    "label": "S3-south-infinity-controls",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:58:20.552Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "south",
+    "hash": "8c5a2fb712520cce346aace802b3be6b6c4d442d9e2ba2051814137381987d82"
+  },
+  {
+    "label": "S3-south-infinity-top",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:58:21.318Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "south",
+    "hash": "8c5a2fb712520cce346aace802b3be6b6c4d442d9e2ba2051814137381987d82"
+  },
+  {
+    "label": "south-phase-180",
+    "intended": "South source phase 180°",
+    "observedAtUtc": "2026-09-20T01:58:21.805Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "south",
+    "hash": "363e70cdccae5fe12fe09556095d28b35cc7d5f7eefe758f90723e286e973b8d"
+  },
+  {
+    "label": "south-phase-270",
+    "intended": "South source phase 270°",
+    "observedAtUtc": "2026-09-20T01:58:22.158Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "south",
+    "hash": "27a3307294925f169d1b3a201d4a99fbd6ed1fbad3154a24dca92bff91e14f02"
+  },
+  {
+    "label": "camera-before-six",
+    "intended": "Restore canonical6s before camera intervention",
+    "observedAtUtc": "2026-09-20T01:58:46.886Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "camera-yaw120",
+    "intended": "Look around yaw120°",
+    "observedAtUtc": "2026-09-20T01:58:47.304Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "6d1dc5dda417b591fc00303236829562d901e3f65f1b3a3c925816b95139edbe"
+  },
+  {
+    "label": "camera-yaw120-top",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:58:47.909Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "6d1dc5dda417b591fc00303236829562d901e3f65f1b3a3c925816b95139edbe"
+  },
+  {
+    "label": "camera-restore-six",
+    "intended": "Restore exact6s and camera30°",
+    "observedAtUtc": "2026-09-20T01:58:48.878Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "capacity-hall-marker",
+    "intended": "Click actual Hall SVGmarker center(307.664,655.961)",
+    "observedAtUtc": "2026-09-20T01:59:12.188Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "S4-capacity-hall",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:59:12.784Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "reference-access",
+    "intended": "Switch current question to existingwheelchairaccess",
+    "observedAtUtc": "2026-09-20T01:59:13.097Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "ba0117609c4b5c71f6263675095907d99e72e1f9fb0f8812704e0e811f6f1c19"
+  },
+  {
+    "label": "S5-access-hall",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:59:13.446Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "ba0117609c4b5c71f6263675095907d99e72e1f9fb0f8812704e0e811f6f1c19"
+  },
+  {
+    "label": "reference-capacity-restored",
+    "intended": "Switch reference back to capacity",
+    "observedAtUtc": "2026-09-20T01:59:13.709Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "references-compared",
+    "intended": "Show both retained assignmentviews",
+    "observedAtUtc": "2026-09-20T01:59:14.516Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "unmapped-weather",
+    "intended": "Inspect retained unmappedweatherfacts",
+    "observedAtUtc": "2026-09-20T01:59:15.579Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "S5-unmapped-weather",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:59:15.628Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "hall-marker-confirmed",
+    "intended": "Click rendered Hall circle with supported locator; prior coordinate attempt did not select a record",
+    "observedAtUtc": "2026-09-20T01:59:43.345Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "S4-hall-selected-confirmed",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:59:43.446Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "hall-access-confirmed",
+    "intended": "Hall selected while question changes fromcapacity toexistingaccess",
+    "observedAtUtc": "2026-09-20T01:59:43.749Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "ba0117609c4b5c71f6263675095907d99e72e1f9fb0f8812704e0e811f6f1c19"
+  },
+  {
+    "label": "S5-hall-access-confirmed",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T01:59:44.214Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "ba0117609c4b5c71f6263675095907d99e72e1f9fb0f8812704e0e811f6f1c19"
+  },
+  {
+    "label": "hall-capacity-confirmed-restored",
+    "intended": "Hall selected andcapacity restored",
+    "observedAtUtc": "2026-09-20T01:59:44.456Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "semantic-camera-yaw120",
+    "intended": "Camera motion while Hallassignment remains selected",
+    "observedAtUtc": "2026-09-20T01:59:44.960Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "3ea57801e8c9a4325356a4ca5d9f8a99e9ac8e8c6a2c3b66c0e77849f211d89c"
+  },
+  {
+    "label": "plain-source-history-horizontal",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T02:00:32.616Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "3ea57801e8c9a4325356a4ca5d9f8a99e9ac8e8c6a2c3b66c0e77849f211d89c"
+  },
+  {
+    "label": "plain-reference-comparison",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T02:00:33.422Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "3ea57801e8c9a4325356a4ca5d9f8a99e9ac8e8c6a2c3b66c0e77849f211d89c"
+  },
+  {
+    "label": "manual-play",
+    "intended": "Startplaying via Playcontrol",
+    "observedAtUtc": "2026-09-20T02:00:35.295Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 175,
+    "base": "east",
+    "hash": "56a6f5e0af5991001516947cb703dd5d7d428edcb89e79e60ca9a8da516cf10d"
+  },
+  {
+    "label": "manual-pause",
+    "intended": "Pause via actualcontrol",
+    "observedAtUtc": "2026-09-20T02:00:46.147Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 10925,
+    "base": "east",
+    "hash": "3d053a6144620354f23cc16a365182b450f58f120e4cddbc3338bc2e513033fd"
+  },
+  {
+    "label": "paused-stability",
+    "intended": "NoUIintervention aftermanualpause; checkstablecursor after>=2seconds",
+    "observedAtUtc": "2026-09-20T02:01:03.945Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 10925,
+    "base": "east",
+    "hash": "3d053a6144620354f23cc16a365182b450f58f120e4cddbc3338bc2e513033fd"
+  },
+  {
+    "label": "manual-step",
+    "intended": "Step+1000ms from10925",
+    "observedAtUtc": "2026-09-20T02:01:04.760Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 11925,
+    "base": "east",
+    "hash": "197ce7df436751f80bc4290f55a6f29397da68a70d40cb2f0e68e5761ac54353"
+  },
+  {
+    "label": "manual-scrub-7300",
+    "intended": "Scrub exact7300ms",
+    "observedAtUtc": "2026-09-20T02:01:05.168Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 7300,
+    "base": "east",
+    "hash": "e00721b691a3ba454b16a748d0042f9e6f5f15ebe83dba734d5c287403fd223c"
+  },
+  {
+    "label": "end-step-clamp",
+    "intended": "Step+1s at24000 remains24000paused",
+    "observedAtUtc": "2026-09-20T02:01:06.756Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 24000,
+    "base": "east",
+    "hash": "ef5385c9e641b123440c137a568fedcd581dcf89557a97dffce8b22c7d06daad"
+  },
+  {
+    "label": "reset-zero",
+    "intended": "Reset clears all exploration tocanonical0",
+    "observedAtUtc": "2026-09-20T02:01:07.330Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "full-replay-start",
+    "intended": "Begin uninterrupted24s canonicalreplay",
+    "observedAtUtc": "2026-09-20T02:01:07.934Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 133,
+    "base": "east",
+    "hash": "bf88b668d3a527492f90ab0b351dbf7b4d3dfbb656e5f6de43f9a1731c3b4dce"
+  },
+  {
+    "label": "full-replay-mid",
+    "intended": "Read-only observation duringuninterrupted24sreplay",
+    "observedAtUtc": "2026-09-20T02:01:19.649Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 11850,
+    "base": "east",
+    "hash": "ee0ac417481d08e27bdc56b1cebaf42a82506333227be017b5640ac4f5554725"
+  },
+  {
+    "label": "full-replay-ended",
+    "intended": "Uninterrupted replay reached naturalendpoint; no interveningcontrol",
+    "observedAtUtc": "2026-09-20T02:02:01.778Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 24000,
+    "base": "east",
+    "hash": "ef5385c9e641b123440c137a568fedcd581dcf89557a97dffce8b22c7d06daad"
+  },
+  {
+    "label": "S6-final-twentyfour",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T02:02:02.587Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 24000,
+    "base": "east",
+    "hash": "ef5385c9e641b123440c137a568fedcd581dcf89557a97dffce8b22c7d06daad"
+  },
+  {
+    "label": "library-reopen-zero",
+    "intended": "Open exactcurrentrunpaused viaRunLibrary",
+    "observedAtUtc": "2026-09-20T02:02:03.593Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "library-reopen-six",
+    "intended": "Restore6s afterLibraryreopen",
+    "observedAtUtc": "2026-09-20T02:02:04.438Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "reload-zero",
+    "intended": "Actualbrowserreload openspaused0",
+    "observedAtUtc": "2026-09-20T02:02:04.639Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 0,
+    "base": "east",
+    "hash": "fb0b1f8f0fe86255e6f15937f09e2487ea0635e6faa421fe2da153f28d5c681d"
+  },
+  {
+    "label": "reload-six",
+    "intended": "Restore6s afterbrowserreload",
+    "observedAtUtc": "2026-09-20T02:02:05.209Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "S6-reloaded-six",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T02:02:05.917Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "inspector-expanded",
+    "intended": "Open exactsource andhashinspector through UI",
+    "observedAtUtc": "2026-09-20T02:02:30.397Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  },
+  {
+    "label": "exact-state-inspector",
+    "intended": "Capture untouched current viewport",
+    "observedAtUtc": "2026-09-20T02:02:30.498Z",
+    "runId": "G2-HOPF-003",
+    "buildId": "g2-ccabad12693f86a8",
+    "time": 6000,
+    "base": "east",
+    "hash": "41db1fd5f16c5b6b851af25a376bf0a021719cfa8d40f3e72a2b56da5bc3aa2a"
+  }
+]

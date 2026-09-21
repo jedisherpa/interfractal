@@ -1,0 +1,80 @@
+{
+  "recordedAtUtc": "2026-09-20T08:24:14.100Z",
+  "scope": "Separate post-core viewport reset and paused handoff; closed evidence unchanged",
+  "state": {
+    "runId": "G8-AMBIGUITY-001",
+    "buildId": "g8-f5c5ee62889da529",
+    "fixtureId": "G8-FINITE-WORLDS-01",
+    "sessionId": "5727769d-6670-420d-8485-0276decbbfa9",
+    "mode": "saved-replay",
+    "paused": true,
+    "cursorSeconds": 0,
+    "caseId": "G8-C01",
+    "referenceWorldId": "C01-W01",
+    "selectedAdditionalQueryIds": [],
+    "cameraYawDegrees": 0,
+    "certificateVisible": false,
+    "observedBundle": [
+      {
+        "queryId": "project",
+        "observation": {
+          "kind": "point",
+          "pointId": "P",
+          "xyz": [
+            "0",
+            "1/2",
+            "-1/4"
+          ]
+        }
+      }
+    ],
+    "compatibleWorldIds": [
+      "C01-W01",
+      "C01-W02"
+    ],
+    "localPropertyDetermined": false,
+    "pairDiagnostics": [
+      {
+        "pair": [
+          "C01-W01",
+          "C01-W02"
+        ],
+        "propertyEqual": false,
+        "exactEqual": true,
+        "withinTolerance": true,
+        "roundedLabelsEqual": true
+      }
+    ],
+    "certificate": null,
+    "semanticFingerprint": "82fe999e5cd217b09720a6ce93cd61440001de4126082a4447983dfb7a645a0a",
+    "informationFingerprint": "eb3c2195c27edc2c042cc1a92992db79f45c9dd92ac5ffddf2eea69f061bdd0b",
+    "viewport": {
+      "width": 1279,
+      "height": 904,
+      "devicePixelRatio": 2,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    "scene": {
+      "clientWidth": 1279,
+      "clientHeight": 904,
+      "scrollWidth": 1279,
+      "scrollHeight": 1343,
+      "observedPanelRects": [
+        {
+          "x": 77.09375,
+          "y": 838.3515625,
+          "width": 677.1015625,
+          "height": 125
+        }
+      ]
+    }
+  },
+  "dom": {
+    "width": 1279,
+    "height": 904,
+    "dpr": 2,
+    "scrollX": 0,
+    "scrollY": 0
+  }
+}

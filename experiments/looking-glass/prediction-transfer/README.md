@@ -1,0 +1,19 @@
+# Gate 10 local software instrument
+
+**Final result: prediction workflow blocked; not participant-ready.** The actual browser trial of candidate003 created a server attempt but discarded its acknowledgement because the app compared an absent attempt ID (`undefined`) with a captured `null`. Answer, Commit, Skip and Reveal controls never became available. No browser prediction was committed, skipped or revealed. All three candidates are preserved; the prespecified revision budget is exhausted. The earlier computational/API passes do not establish a working browser lifecycle. See `../evidence/gate-10/GATE_10_PACKET.md` and `../audit/gate-10/browser-final-audit.md`.
+
+Restart the exact preserved final candidate (the explicit run argument is required):
+
+```sh
+/opt/homebrew/Cellar/node@24/24.17.0/bin/node /Users/paul/BTC-Learning/experiments/looking-glass/prediction-transfer/builds/g10-9e34f791d83c1cd7a495/server.mjs --run /Users/paul/BTC-Learning/experiments/looking-glass/prediction-transfer/runs/G10-PREDICT-003 --port 44003
+```
+
+Review: <http://127.0.0.1:44003/review/results.html>. Replay: <http://127.0.0.1:44003/>. The answer-free replay remains available independently of the failed response workflow.
+
+Run the selected immutable candidate with the exact Node 24.17.0 executable recorded in its `run.json`. The source tree is for builder development; the served program is the content-addressed copy under `builds/`. The server binds only to 127.0.0.1 and serves the exact routes in its public `build.json`. Assessment answers and independent predictions sit under the build's nonserved `private/` directory. The public build manifest identifies the whole build but carries no private file path, size or individual content hash. Candidate001 is preserved; candidate002 corrects active snapshot advancement on resize and scroll. Candidate003 corrects overlapping request idempotency, late export restoration, API event provenance and play/pause event chaining.
+
+The saved tour is an answer-free scripted demonstration. Local review is source-informed software operation, never a participant record. A valid commit response contains no grading or target; a separate reveal request with the session-bound receipt returns one answer. Browser inspector snapshots intentionally redact target, explanation and grade from the retained ledger, so reopening the canonical tour does not show old answer-bearing text. Explicit **Export redacted ledger** in local review returns the session's previously and deliberately revealed results. Reopening the canonical tour clears that export text. On reload the in-memory session token is lost; the prior server session remains a separate record until expiry or process end.
+
+The server's append-only action log is `live/<run-id>/actions.jsonl`, outside immutable build and run directories. It records public references and statuses, never session tokens or receipts. The in-process clock seam in `PredictionService` is for builder/API expiry tests only; no HTTP route changes service time. Browser controls and API validation probes have distinct provenance. Host review routes require `live/review-allowlist.json` with exact route, path and SHA-256 of independently approved answer-free bytes; absent or changed files return 404.
+
+Builder checks: `/opt/homebrew/Cellar/node@24/24.17.0/bin/node prediction-transfer/test.mjs` from the project root. This test verifies exact arithmetic, checkpoint purity, service order, retry/mismatch, skip, wrong answer, repeat, abandonment, isolation, expiry and capacity. It does not replace actual browser collection or independent audit.

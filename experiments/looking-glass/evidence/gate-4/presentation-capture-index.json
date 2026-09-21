@@ -1,0 +1,35 @@
+{
+  "scope": "Review-page visual captures only; distinct from21core original experiment captures",
+  "captures": [
+    {
+      "path": "evidence/gate-4/presentation-results-captures.jpg",
+      "sha256": "959b3fc5b55d03920da86393f5e02193d3b834f68ad0fa4a4d3bdc5bff7c8a2a",
+      "bytes": 114430,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnedited": true
+    },
+    {
+      "path": "evidence/gate-4/presentation-results-table960.jpg",
+      "sha256": "1df1a68e17a9e36951011cbde7f30d45c5eb93afc8f9b42dbb066a6f4584ad92",
+      "bytes": 112910,
+      "imageDimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "originalUnedited": true
+    },
+    {
+      "path": "evidence/gate-4/presentation-results-top.jpg",
+      "sha256": "575e01d2b7fefc348d8bddfa750ad298150aaadf2e0326a6ee2e93b11dec2b0c",
+      "bytes": 102125,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnedited": true
+    }
+  ]
+}

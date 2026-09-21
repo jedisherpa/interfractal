@@ -1,0 +1,13 @@
+{
+  "approved_at_recorded_utc": "2026-09-20T05:28:21.991430+00:00",
+  "source": "actual user message in this task",
+  "user_message": "approve **Gate 6: Connected local models and changes of scale**",
+  "approved_gate": 6,
+  "approved_scope": "Connected fictional local models, reference-dependent summaries and recoverable typed dependencies, identical plain comparator; Gate7 not approved.",
+  "reviewed_run_id": "G5-PENTERACT-001",
+  "reviewed_build_id": "g5-0bdee39bcd7dd541",
+  "reviewed_commit": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+  "reviewed_packet_sha256": "7264d510fc2e964f357f8cbaec96e42ca87c3a7dcb08fc79213acc9840472b03",
+  "reviewed_freeze_manifest_sha256": "fa7fb2f90ae5494e5e736ee868fc8823ece13f1b297b7d040086b6652c25dd03",
+  "gate_7_approved": false
+}

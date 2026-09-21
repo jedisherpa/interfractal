@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "gate-6-synthesis-v1",
+  "generatedAtUtc": "2026-09-20T06:13:40.259034+00:00",
+  "gate": 6,
+  "runId": "G6-LOCAL-003",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "sourceSha256": "0279cdcdc0adc9b06790cbe877e64ff3703c3b40803b08775315e359869fe353",
+  "baseRevision": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+  "result": "pass as a qualified bounded instrument result",
+  "headline": "Gate 6 passes as a qualified instrument result: local views preserve their sources and dependencies, and a repaired summary supports the declared receiving task. The initial compact summary fails that task. The graph and plain table use the same measured navigation actions; human understanding and a general geometry advantage remain untested.",
+  "authority": "Actual Gate 6 approval only. Gate 7 remains unapproved. This synthesis is not approval.",
+  "evidenceBoundary": {
+    "coreManifest": "evidence/gate-6/CORE_EVIDENCE_CLOSED.json",
+    "coreManifestSha256": "64f3287f418ea4d8445d2fc4474154b3428e33ff4b6cecdc611276c61eb15c38",
+    "closedAtUtc": "2026-09-20T06:06:56.859070+00:00",
+    "coreFileCount": 15,
+    "browserObservations": 105,
+    "successfulRootActionCalls": 83,
+    "documentedFailedRootActionCalls": 0,
+    "semanticUIEvents": 78,
+    "sessions": 3,
+    "originalCaptures": 8,
+    "allCandidateAndTransitionOriginalImages": 23,
+    "presentationReviewIncluded": false,
+    "note": "Subsequent presentation/handoff evidence and final gate freeze are separate host records."
+  },
+  "audit": {
+    "path": "audit/gate-6/AUDIT.md",
+    "reviewCopyPath": "evidence/gate-6/review/audit/gate-6/AUDIT.md",
+    "sha256": "88db9bc0b29ffaa029da5c2fb5ae1748636da9bd10fc2ee910093da64d3da4f7",
+    "status": "passed",
+    "priorFrozenEntriesUnchanged": 668,
+    "exactByteHTTPReads": 13,
+    "rejectedHTTPRoutes": 5,
+    "fourReceiverCases": true,
+    "malformedOutwardCases": 6
+  },
+  "cases": [
+    {
+      "case": "C1 · Reference and scale round trips",
+      "expected": "Capacity→access→capacity changes Hall and Studio; expansion preserves the local account.",
+      "observed": "Actual reference switch/back and Field expand/collapse/re-expand restore exact fingerprints. Field remains yes; weather remains unmapped. All four Gate 2 records and histories stay unchanged.",
+      "interpretation": "The declared views reorganize and recover the same evidence.",
+      "unresolved": "These mappings do not establish agreement or understanding."
+    },
+    {
+      "case": "C2 · Similar summaries, different dependencies",
+      "expected": "The initial summaries cannot answer the receiver. Repair reveals Hall 6 versus Field 9 against budget 8.",
+      "observed": "Both v1 payloads return insufficient-summary. Hall hire 4 + ramp 2 = 6; Field hire 3 + generator 3 + shelter 3 = 9. v2 gives Hall numeric pass and Field budget fail.",
+      "interpretation": "The compression fails this task; explicit dependency/cost repair makes this narrow screen answerable.",
+      "unresolved": "Availability, bookings and full event feasibility remain unknown."
+    },
+    {
+      "case": "C3 · Requirement change",
+      "expected": "Receiver minimum 60 → 70 produces traced, attributed revisions without changing the capacity 60 reference.",
+      "observed": "Both venue capacity fields are traced to v3. Hall capacity pass changes true → false; Field stays true but over budget. Both now fail the numeric screen. Prior revisions and synthetic author remain inspectable.",
+      "interpretation": "The changed requirement reaches the relevant local evidence and outward revisions.",
+      "unresolved": "A fixture editor attribution is not a human decision or endorsement."
+    },
+    {
+      "case": "C4 · Reference disagreement",
+      "expected": "Keep capacity and existing-access questions, authors and mappings separately.",
+      "observed": "Both original definitions and complete tables remain available. Hall retains its capacity reference; Field retains existing access as its local reference.",
+      "interpretation": "Competing questions remain explicit through larger-view changes.",
+      "unresolved": "No averaging, consensus or social coordination was tested."
+    },
+    {
+      "case": "C5 · Unsupported link and proximity",
+      "expected": "An unsupported transfer stays outside the supported graph; close placement changes layout only.",
+      "observed": "Claim evidence is empty. Four supported relations stay intact, including shared weather source; the claimed transfer is excluded from receiver computation. Close placement preserves semantic hashes.",
+      "interpretation": "Inspection distinguishes a shared source from an unsupported transfer.",
+      "unresolved": "A line or proximity establishes no resource transfer, influence or authority."
+    },
+    {
+      "case": "N1/N2 · Plain comparison",
+      "expected": "Identical sources, rules, correction operations and starting semantic state.",
+      "observed": "Both modes: N1 three navigation actions plus one repair; N2 two navigation actions. All four endpoints pass.",
+      "interpretation": "The implemented routes are equivalent in counted actions and information.",
+      "unresolved": "No measured geometry advantage, optimal-route or human-effort claim."
+    },
+    {
+      "case": "Replay and preservation",
+      "expected": "30-second discrete replay; seven repeatable checkpoints; historical artifacts unchanged.",
+      "observed": "Natural automatic end at 30 s; pause/step/scrub work. Seven hashes match at baseline, restore, reopen and reload. All 668 prior frozen entries match.",
+      "interpretation": "The exact tested local run is reproducible in this browser/build.",
+      "unresolved": "Pixel identity across devices and OS reduced-motion behavior were not tested."
+    }
+  ],
+  "narrowCostModel": {
+    "Hall": {
+      "hire": 4,
+      "ramp": 2,
+      "total": 6,
+      "capacity": 60
+    },
+    "Field": {
+      "hire": 3,
+      "generator": 3,
+      "rainShelter": 3,
+      "total": 9,
+      "capacity": 80
+    },
+    "shelterChargeCount": 1,
+    "budget": 8,
+    "receiver1MinimumCapacity": 60,
+    "receiver2MinimumCapacity": 70,
+    "v1": "insufficient-summary; outward-only evaluator receives no hidden source decision",
+    "receiver1": {
+      "Hall": "numeric-constraints-satisfied",
+      "Field": "fails-budget"
+    },
+    "receiver2": {
+      "Hall": "fails-capacity",
+      "Field": "fails-budget"
+    },
+    "equipmentAvailability": "unknown-not-supplied",
+    "fullEventFeasibility": "not evaluated"
+  },
+  "routes": [
+    {
+      "task": "N1",
+      "mode": "graph",
+      "setupActions": 2,
+      "navigationActions": 3,
+      "correctionActions": 1,
+      "scrollActions": 1,
+      "failedActions": 0,
+      "startObservation": 29,
+      "endpointObservation": 33,
+      "endpointSucceeded": true
+    },
+    {
+      "task": "N1",
+      "mode": "plain",
+      "setupActions": 2,
+      "navigationActions": 3,
+      "correctionActions": 1,
+      "scrollActions": 0,
+      "failedActions": 0,
+      "startObservation": 38,
+      "endpointObservation": 42,
+      "endpointSucceeded": true
+    },
+    {
+      "task": "N2",
+      "mode": "graph",
+      "setupActions": 2,
+      "navigationActions": 2,
+      "correctionActions": 0,
+      "scrollActions": 0,
+      "failedActions": 0,
+      "startObservation": 46,
+      "endpointObservation": 48,
+      "endpointSucceeded": true
+    },
+    {
+      "task": "N2",
+      "mode": "plain",
+      "setupActions": 2,
+      "navigationActions": 2,
+      "correctionActions": 0,
+      "scrollActions": 0,
+      "failedActions": 0,
+      "startObservation": 51,
+      "endpointObservation": 53,
+      "endpointSucceeded": true
+    }
+  ],
+  "routeInterpretation": {
+    "allMatchedBaselinesAndEndpoints": true,
+    "countsAreHumanMeasures": false,
+    "optimalityClaim": false,
+    "graphN1Scroll": "One framing scroll after successful endpoint observation33; not required route navigation.",
+    "graphN2Selection": "Accessible adjacent relation button; no direct SVG line hit-test result asserted.",
+    "visualAssessment": "Plain table more compact vertically; graph emphasizes local grouping but adds display area and links. Qualitative layout observation only."
+  },
+  "replay": {
+    "durationMs": 30000,
+    "naturalAutomaticEnd": true,
+    "automaticEndReason": "end-of-sequence",
+    "checkpointTimesMs": [
+      0,
+      5000,
+      10000,
+      15000,
+      20000,
+      25000,
+      30000
+    ],
+    "sameBrowserRepeatedPhases": [
+      "baseline",
+      "restored",
+      "reopened",
+      "reloaded"
+    ],
+    "matchingCheckpointObservations": 28,
+    "activeCaptureBeforeMs": 29000,
+    "activeCaptureAfterMs": 29300,
+    "finalTimeMs": 0,
+    "finalPlaying": false,
+    "pausedReopen": true,
+    "pauseStepScrubTested": true
+  },
+  "historicalReview": {
+    "gates": [
+      2,
+      5
+    ],
+    "correctPausedRunBuildIdentity": true,
+    "method": "Actual link-open and read-only DOM inspection",
+    "historicalScreenshotsAttempted": false
+  },
+  "selectedOriginals": [
+    {
+      "path": "evidence/gate-6/screenshots/003-initial-compressed.jpg",
+      "title": "The compact summary fails the receiving task.",
+      "interpretation": "At saved time 0, both capacity headlines agree while each explicitly reports an insufficient summary. Their different local references remain visible."
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-plain-dependency-repair.jpg",
+      "title": "The plain comparator exposes the same repaired evidence.",
+      "interpretation": "Field’s trace shows hire 3 + generator 3 + shelter 3 = 9. Hall is 6/8; Field is 9/8. This is exploration at cursor 0, after the actual plain route."
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-requirement-revision-and-alternatives.jpg",
+      "title": "A new requirement changes the result without rewriting the old reference.",
+      "interpretation": "Receiver@2 requires 70, while the outer capacity reference still means 60. Both numeric screens fail for different reasons; both reference alternatives are retained. This exploration retains the 15 s cursor."
+    },
+    {
+      "path": "evidence/gate-6/screenshots/003-supported-and-unsupported-links.jpg",
+      "title": "Supported evidence and an unsupported claim stay distinct.",
+      "interpretation": "At 25 s the solid shared-weather connection is separate from the dashed transfer claim. The selected claim has evidence [] and remains excluded from supported relations."
+    }
+  ],
+  "captureIndex": "evidence/gate-6/capture-index.json",
+  "candidateHistory": [
+    {
+      "runId": "G6-LOCAL-001",
+      "buildId": "g6-fad414e0f36c3457",
+      "status": "failed and preserved",
+      "observations": 20,
+      "originalCaptures": 3,
+      "failure": "Unsupported SVG path/label visible while claims were closed",
+      "manifest": "evidence/gate-6/failed-candidates/G6-LOCAL-001/FAILED_CANDIDATE.json"
+    },
+    {
+      "runId": "G6-LOCAL-002",
+      "buildId": "g6-b31ef3d7838d10c8",
+      "status": "failed and preserved",
+      "observations": 119,
+      "originalCaptures": 11,
+      "failure": "Source disclosure960→1136 px and relation evidence1280→1478 px overflow",
+      "collectionAnomalies": [
+        "initial nested MaxDepth truncation",
+        "one response-limit read error",
+        "three intended checkpoint targets not reached; not counted successful"
+      ],
+      "manifest": "evidence/gate-6/failed-candidates/G6-LOCAL-002/FAILED_CANDIDATE.json"
+    },
+    {
+      "runId": "G6-LOCAL-003",
+      "buildId": "g6-0279cdcdc0adc9b0",
+      "status": "final independent audit pass",
+      "observations": 105,
+      "originalCaptures": 8,
+      "fixes": [
+        "text wrapping in source/relation detail",
+        "clear current-versus-historical requirement-trace wording",
+        "unsupported claim label separated from dashed line"
+      ]
+    }
+  ],
+  "limitations": [
+    "No human comprehension, usability, time-saving or social-emergence measurement.",
+    "No inferred equipment availability, bookings or full event feasibility.",
+    "No influence, capability, resource transfer or authority inferred from proximity or visual links.",
+    "Arbitrary typed graph/local bundle-inspired views; no formal bundle or new-dimension claim.",
+    "Dense identity/provenance and lower controls require vertical scrolling at 720 px height.",
+    "No OS reduced-motion emulation or cross-device pixel-equivalence claim.",
+    "Capture states bracket image acquisition rather than assert an atomic simulation timestamp."
+  ],
+  "recovery": {
+    "url": "http://127.0.0.1:43999/",
+    "resultsUrl": "http://127.0.0.1:43999/evidence/gate-6/results.html",
+    "command": "node /Users/paul/BTC-Learning/experiments/looking-glass/local-models/builds/g6-0279cdcdc0adc9b0/server.mjs",
+    "scope": "Local only; exact tested immutable snapshot"
+  },
+  "nextDecision": {
+    "gate": 7,
+    "name": "Unfamiliar-case interpretation and the bounded conclusion",
+    "approved": false,
+    "workStarted": false,
+    "options": [
+      "approve named Gate 7",
+      "revise Gate 6",
+      "pause"
+    ]
+  }
+}

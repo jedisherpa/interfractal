@@ -1,0 +1,26 @@
+[
+  {
+    "index": 0,
+    "label": "open-C04-by-keyboard",
+    "startedAtUtc": "2026-09-20T21:49:00.107Z",
+    "beforeObservationIndex": 2,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:49:00.128Z"
+  },
+  {
+    "index": 1,
+    "label": "close-C04-by-click",
+    "startedAtUtc": "2026-09-20T21:49:05.875Z",
+    "beforeObservationIndex": 5,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:49:06.143Z"
+  },
+  {
+    "index": 2,
+    "label": "reload-review-index",
+    "startedAtUtc": "2026-09-20T21:49:19.188Z",
+    "beforeObservationIndex": 6,
+    "toolCompleted": true,
+    "completedAtUtc": "2026-09-20T21:49:19.223Z"
+  }
+]

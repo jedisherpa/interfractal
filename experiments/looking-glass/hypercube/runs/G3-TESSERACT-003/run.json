@@ -1,0 +1,96 @@
+{
+  "runId": "G3-TESSERACT-003",
+  "gate": "G3",
+  "status": "planned deterministic fixture; actual browser observations recorded separately",
+  "experimentVersion": "gate-3-charter-v1",
+  "modelVersion": "gate-3-model-v1",
+  "eventSchemaVersion": "gate-3-record-v1",
+  "generatorVersion": "gate-3-builder-v1",
+  "testId": "G3-known-4D-hypercube-projection-and-observability",
+  "hypothesis": "A known x–w source turn separates an initially coincident pair in the xyz projection; a fixed or camera-only source view leaves w underdetermined, while known 0°+90° source views recover q from raw projected coordinates and correspondences.",
+  "buildId": "g3-6c31bc16aeca4460",
+  "sourceSha256": "6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d",
+  "gitHead": "bf2be1afe85874edbaf4e59cbbc48a37991553fc",
+  "uncommittedSourceIdentity": "6c31bc16aeca4460aa8518c392e26a28bca40524d4679acbc63bd4cd8fdcb68d",
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+  "nodeVersion": "v24.10.0",
+  "builtAtUtc": "2026-09-20T02:54:44.875Z",
+  "prespecFreezeSha256": "e18e4a129ea1350b641908fe1a4ebfb6ac1f5fcba6a26d33cc5031d5141cfbf6",
+  "prespecFrozenAtUtc": "2026-09-20T02:38:53.042662+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-3/experiment-charter.md",
+      "sha256": "b931fa0f10efba21e6c79d35a719b27e9ef6cd114d740a590116cd7c24fb7a7b",
+      "bytes": 13285
+    },
+    {
+      "path": "docs/gate-3/model-contract.md",
+      "sha256": "3433d0887238a6ce1a9421f1ad0d2de329479bc59e6fbac3e0587afe0b238202",
+      "bytes": 9100
+    },
+    {
+      "path": "docs/gate-3/record-contract.md",
+      "sha256": "d86d13169d2d3984e43b30699743f0ef356c37eea0f9c5e2cbd2669b3db19163",
+      "bytes": 9224
+    },
+    {
+      "path": "docs/gate-3/independent-predictions.json",
+      "sha256": "91f684c1323c0fb7f2c88f261e5a68dd53ca38245a5cad115d83372e5fa9aa3d",
+      "bytes": 31187
+    }
+  ],
+  "durationMs": 32000,
+  "stepMs": 1000,
+  "checkpointTimesMs": [
+    0,
+    8000,
+    16000,
+    24000,
+    32000
+  ],
+  "model": {
+    "sourceObject": "solid [-1,1]^4; wireframe displays its one-dimensional edge skeleton",
+    "sourceDimension": 4,
+    "boundaryDimension": 3,
+    "skeletonDimension": 1,
+    "vertexAffineSpan": 4,
+    "vertices": 16,
+    "edges": 32,
+    "markedPair": [
+      "v1110",
+      "v1111"
+    ],
+    "markedEdgeId": "e-v1110-v1111",
+    "sourceRotation": "column-vector Rxw(theta), applied first",
+    "projection": "orthographic P selects rotated x,y,z",
+    "camera": {
+      "yaw": 0.5235987755982988,
+      "pitch": 0.3490658503988659
+    },
+    "display": {
+      "renderer": "SVG view of calculated R³ points; no WebGL dependency",
+      "viewBox": [
+        0,
+        0,
+        640,
+        420
+      ],
+      "center": [
+        320,
+        210
+      ],
+      "scale": 80,
+      "noAutoFit": true,
+      "noJitter": true
+    },
+    "sourceSeed": null
+  },
+  "sourceIdentitySha256": "5036ac9888a1eb652caeaac3c66134ae82783174cc83ed442f57f637a1ed54fd",
+  "initialProjectionSha256": "8c6ce27db49273de2bd919c4d95e01aad6bf66144b093dc89661371f9eb0dcd7",
+  "initialCheckpointSha256": "1d54305d0912601519a1d5356fbfbda4e71f9d84f02656d2ff592203bd265dca",
+  "initialDisplaySha256": "baa3698712cc8b6c6951ed94ecb82777a90921bbb27ca664186b0813ee289869",
+  "initialStateFile": "initial-state.json",
+  "eventsFile": "events.jsonl",
+  "checkpointsFile": "checkpoints.json",
+  "eventsKind": "planned deterministic fixture; not observed browser controls"
+}

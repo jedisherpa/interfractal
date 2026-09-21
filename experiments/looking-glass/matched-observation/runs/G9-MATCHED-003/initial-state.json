@@ -1,0 +1,41 @@
+{
+  "seconds": 0,
+  "state": {
+    "mode": "saved-tour",
+    "condition": "choose",
+    "phase": "draft",
+    "tourPaused": true,
+    "presentationPaused": true,
+    "tourSeconds": 0,
+    "localSeconds": 0,
+    "choices": [],
+    "occurrences": [
+      {
+        "index": 0,
+        "queryId": "project",
+        "observation": {
+          "kind": "point",
+          "pointId": "P",
+          "xyz": [
+            "1/2",
+            "-1/2",
+            "0"
+          ]
+        }
+      }
+    ],
+    "acquiredOccurrenceIndices": [
+      0
+    ],
+    "trace": null,
+    "traceHash": null,
+    "completedSummary": null,
+    "reviewStatus": "standard-playback",
+    "practiceOpen": false
+  },
+  "visibleOccurrenceIndices": [
+    0
+  ],
+  "acquiredInformationHash": "432c73a7f6bc5c179ecae5cb6ac398a0ab8fad64084da5811cf02e6a75166cd9",
+  "semanticFingerprint": "37aee3a2192307671746b0d576e4996d54024e0f80781d9f9a8f289f85220e47"
+}

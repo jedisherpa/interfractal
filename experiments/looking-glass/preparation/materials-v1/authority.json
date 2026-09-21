@@ -1,0 +1,23 @@
+{
+  "recordedAtUtc": "2026-09-20T21:02:31.766061+00:00",
+  "workType": "Research preparation; not Gate14 or actual research collection",
+  "authority": [
+    "Actual user request: The goal should be to do what is necessary to prepare for the four-agent experiment and human research stages.",
+    "Actual user confirmation: Yes—defer both; complete preparation only.",
+    "Current continuation request to make concrete progress toward the active goal, interpreted with the explicit confirmed preparation-only scope."
+  ],
+  "previousGoalTurnClassification": "progress",
+  "previousProgressEvidence": {
+    "commit": "ffe390e2dbdf48a74be4a8d41df79bcad12972e4",
+    "gate13FinalFreeze": "evidence/gate-13/FREEZE_MANIFEST.json",
+    "gate13FinalFreezeSha256": "81798ecc84f6c9e584395d4209c04bd0da4ca7f2d0192fa45e33755f99d14949",
+    "privateOriginPushVerified": true
+  },
+  "scope": "Prepare the concrete eighteen-card source corpus, four participant bundles, withheld tasks, independent key review, snapshot and prompt/compute manifests, source-equivalent comparison mapping and comparator/analysis execution plans. Validate package generation and key/bundle isolation with synthetic software tests. Submit inspectable materials for review before any future research launch.",
+  "researchAgentOutputsToCollect": 0,
+  "humanParticipantsToEnroll": 0,
+  "gate14Approved": false,
+  "goalComplete": false,
+  "preserveOriginals": true,
+  "furtherDependency": "A reviewed materials packet is required before dependent study use; this preparation does not authorize research execution or approve the integrated instrument."
+}

@@ -1,0 +1,88 @@
+{
+  "gate": 12,
+  "scope": "Primary methodological sources for coordination that preserves local perspectives, disagreement, common public facts, explicit local objectives, common information spaces, and inspectable joint action.",
+  "fixture_translation": "The Gate12 fixture gives both local references the same public export-mode facts; their detail-versus-speed objective functions produce incompatible judgments. No hidden or asymmetric local source facts are being modeled.",
+  "accessed_at_utc": "2026-09-20T18:45:49Z",
+  "accessed_at_local": "2026-09-20T12:45:49-0600",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only primary-source review; no implementation, browser study, deployment, recruitment, external messages, or human-participant claims.",
+  "primary_sources": [
+    {
+      "title": "Institutional Ecology, 'Translations' and Boundary Objects: Amateurs and Professionals in Berkeley's Museum of Vertebrate Zoology, 1907-39",
+      "authors": ["Susan Leigh Star", "James R. Griesemer"],
+      "publisher": "Social Studies of Science, 19(3), 387-420",
+      "published": "1989-08",
+      "source_type": "peer-reviewed research article; publisher DOI primary attribution and original-paper PDF copy",
+      "url": "https://doi.org/10.1177/030631289019003001",
+      "open_copy_url": "https://griesemer.net/wp-content/uploads/2020/12/07-star-griesemer-1989-sss19-3387-420-boundary-objects.pdf",
+      "claims_used": [
+        "Boundary objects can adapt to several local viewpoints while retaining a common identity across sites.",
+        "Standardization and translation are described as ways heterogeneous actors cooperate despite divergent viewpoints."
+      ],
+      "gate12_use": "Treat the joint decision record as a stable shared object while retaining each local reference, judgment, provenance pointer, and unresolved incompatibility.",
+      "limits": "A historical museum case and conceptual account; it does not establish shared human understanding or the instrument's coordination effects."
+    },
+    {
+      "title": "Taking CSCW Seriously: Supporting Articulation Work",
+      "authors": ["Kjeld Schmidt", "Liam J. Bannon"],
+      "publisher": "Computer Supported Cooperative Work, 1(1-2), 7-40",
+      "published": "1992",
+      "source_type": "journal article; publisher DOI primary attribution and author-uploaded full text",
+      "url": "https://doi.org/10.1007/BF00752449",
+      "open_copy_url": "https://www.researchgate.net/publication/226480952_Taking_CSCW_seriously_Supporting_Articulation_Work",
+      "claims_used": [
+        "Articulation work coordinates steps under local contingencies and incommensurate opinions.",
+        "A common database is not automatically a common information space; meaning is interpreted and negotiated locally and temporarily."
+      ],
+      "gate12_use": "Record local references and judgments before the joint action; distinguish shared artifacts from shared meaning and preserve unresolved conflicts.",
+      "limits": "Programmatic CSCW framework, not a controlled evaluation of this instrument or a measured human coordination benefit."
+    },
+    {
+      "title": "Coordination with Local Information",
+      "authors": ["Munther A. Dahleh", "Alireza Tahbaz-Salehi", "John N. Tsitsiklis", "Spyros I. Zoumpoulis"],
+      "publisher": "Operations Research, 64(3), 622-637",
+      "published": "2015-11 online; 2016 issue",
+      "source_type": "peer-reviewed formal research article; publisher DOI primary attribution and corrected institutional PDF",
+      "url": "https://doi.org/10.1287/opre.2015.1378",
+      "open_copy_url": "https://business.columbia.edu/sites/default/files-efs/pubfiles/11553/Coordination_Tahbaz-Salehi.pdf",
+      "claims_used": [
+        "In a finite-player global-games model, local signals observed by subsets of agents can produce multiple equilibria.",
+        "The pattern and reach of information sharing affect coordination determinacy."
+      ],
+      "gate12_use": "Adjacent context only: keep the fixture's common public facts explicit, represent its distinct local objective functions explicitly, and reject any silent inference from a joint action to a single shared judgment.",
+      "limits": "Formal strategic model with specific local-information and game assumptions; it is neither the implemented Gate12 model nor evidence for its objective-disagreement fixture or any human outcome."
+    }
+  ],
+  "derived_gate12_requirements": [
+    {
+      "requirement": "Preserve local perspectives",
+      "design": "Freeze common public export facts, then at least two local reference functions/objectives and judgments; retain source, revision, function/objective, judgment, and incompatibility records before constructing the joint action.",
+      "basis": "Star and Griesemer (1989); Schmidt and Bannon (1992)",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Inspectable coordination without forced consensus",
+      "design": "The joint action lists participating judgments, decision scope, provenance, and unresolved disagreement; it may coordinate a next step without making local judgments identical.",
+      "basis": "Boundary-object and articulation-work accounts",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Explicit information and objective boundaries",
+      "design": "Mark all source facts as common public inputs and local reference functions/objectives as distinct; declare every merge, omission, or tie-break rule in the finite menu and do not infer a shared judgment from action alone.",
+      "basis": "Dahleh et al. (2015/2016); Schmidt and Bannon (1992)",
+      "status": "methodological constraint"
+    },
+    {
+      "requirement": "Representation parity",
+      "design": "Equivalent diagram and plain views must retain identical local references, disagreement records, joint-action fields, and provenance.",
+      "basis": "Source synthesis constrained to the frozen software instrument",
+      "status": "methodological constraint"
+    }
+  ],
+  "limits": [
+    "These sources motivate formal preservation and coordination checks; Dahleh et al. is adjacent local-information context, not the implemented objective-disagreement model or evidence for it.",
+    "The software fixture uses common public source facts with distinct local objectives; it does not implement private or asymmetric local source information.",
+    "Any human coordination claim requires actual participants, separate local judgments, and observed joint outcomes under a separately approved protocol.",
+    "Agreement is not the sole success criterion: preserved disagreement plus an inspectable bounded joint action is a distinct software outcome."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "gate-6-independent-build-audit",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "sourceSha256": "0279cdcdc0adc9b06790cbe877e64ff3703c3b40803b08775315e359869fe353",
+  "runId": "G6-LOCAL-003",
+  "prespecFreezeSha256": "2241afcb9c3bcdffacfbc277d92c918d4c3678baa41e0f906467cfa81b020570",
+  "sourceFileCount": 11,
+  "checkpointCount": 7,
+  "plannedFixtureEvents": 9,
+  "checksPassed": true
+}

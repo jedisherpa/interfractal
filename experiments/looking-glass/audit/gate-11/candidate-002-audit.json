@@ -1,0 +1,31 @@
+{
+  "schema": "gate11-candidate002-independent-build-audit-v1",
+  "verdict": "PASS_FOR_ACTUAL_BROWSER_COLLECTION",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "sourceHash": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "independentChecks": [
+    {"path": "audit/gate-11/candidate-002-bytecheck.json", "passed": 41, "total": 41},
+    {"path": "audit/gate-11/candidate-002-receiver-check.json", "passed": 105, "total": 105},
+    {"path": "audit/gate-11/candidate-002-http-check.json", "passed": 44, "total": 44}
+  ],
+  "priorBlockerRecheck": {
+    "path": "audit/gate-11/candidate-002-snapshot-race-repro.json",
+    "status": "PASS_FIXED",
+    "method": "The prior candidate's controlled-DOM delayed-hash receiver-change and immediate-scroll sequence was run against packaged candidate002 with only the required per-document UUID mock added.",
+    "initialReceiver": "R_COUNT",
+    "settledReceiver": "R_RELEASE",
+    "initialSnapshotRevision": 1,
+    "finalSnapshotRevision": 3
+  },
+  "sourceReview": {
+    "unchangedBuiltFilesFromCandidate001": ["index.html", "model.mjs", "receiver.mjs", "server.mjs", "style.css", "fixture.json"],
+    "publicationFix": "The app separates semanticGeneration from snapshotRevision; paused metadata refresh during a pending semantic publish records a dirty measurement and waits for the new semantic packet to render before refreshing.",
+    "eventProvenance": "The app now creates a random documentId and includes it in local events and exports, outside semantic fingerprints.",
+    "remainingActualChecks": ["supported-browser first-use repair and export", "18 designated paused checkpoints", "negative controls and immutable local lineage", "24-second natural playback and seven events", "post-export/scroll/resize DOM metadata", "original-image inspection and historical integrity"]
+  },
+  "softwareOnly": true,
+  "browserObservationsAudited": 0,
+  "humanParticipants": 0,
+  "openBuildBlockers": []
+}

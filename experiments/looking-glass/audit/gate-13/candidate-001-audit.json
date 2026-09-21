@@ -1,0 +1,30 @@
+{
+  "schema": "gate13-candidate-001-independent-audit-v1",
+  "scopeVerdict": "PASS_IMMUTABLE_MODEL_BUILD_AND_CONTROLLED_DOM",
+  "fullBrowserVerdict": "PENDING_CLOSED_CORE",
+  "runId": "G13-MISLEAD-001",
+  "buildId": "g13-daa720242d62cd4c184f",
+  "sourceSha256": "daa720242d62cd4c184f2f3687ddc1e8584f6ce2031f40ba119b87efa225f93d",
+  "prespecFreezeSha256": "5e05e46a031ce84786d1f67c1b194fb457c7817d6300b40d3c35ceed20371269",
+  "independentChecks": {
+    "packagedModelAndIsolatedHttp": {"path":"audit/gate-13/candidate-001-check.json","passed":73,"total":73},
+    "controlledDomAndDelayedHash": {"path":"audit/gate-13/candidate-001-ui-race.json","passed":15,"total":15},
+    "actualHostBrowser": "Separate acquisition in progress; these 88 checks are not browser observations."
+  },
+  "confirmed": [
+    "Frozen nine-pin prespec, fourteen source pins, ten immutable package pins and five run pins match exact bytes and source identity.",
+    "All three exact source/check/correction arithmetic cases, ten configurations and five visual/plain information pairs match independent prespec derivations.",
+    "Canonical paused zero, seven checkpoint hashes/events, scripted provenance and same-boundary restore-to-stop chain match.",
+    "Unknown case/version, correction-before-check, true-case correction, malformed counts/axis and source/display/check binding mismatches reject.",
+    "Twelve public routes serve exact GET/HEAD bytes; isolated private/traversal/unknown and mutation requests are denied. Live host GET identity was separately read at port 44006.",
+    "Controlled DOM: settled original/correction toggles, own-event export and exact local records, visual/plain parity, delayed semantic hashing, viewport remeasurement and stale-result rejection pass."
+  ],
+  "actualBrowserObservationKnownAtThisReview": {
+    "status": "ACQUISITION_OPEN_WITH_RECOVERED_CONTROL_ANOMALY",
+    "originalClickAttempt": "The host's first Show original click returned complete, but the next observed state remained corrected and no version-select event was present. Original was enabled in the preceding and following published snapshots. Cause is unestablished.",
+    "subsequentAction": "A Show correction attempt failed because that button was still disabled in corrected state. The host preserved the failed call, then keyboard Enter on Show original and subsequent Show correction/Show original/Show correction clicks succeeded with expected state and events.",
+    "classification": "Retained single non-transitioning control attempt and dependent disabled failure; no reproducible implementation defect or final browser result established yet. Do not erase these actions or count the first click as a completed state transition."
+  },
+  "limitations": "Model/HTTP and VM checks are not actual supported-browser operation. Final evidence/core audit must independently verify full event exports, controls, viewport and replay after host closure. Zero human outcomes are tested.",
+  "blockingIssuesFromIndependentPackagedChecks": []
+}

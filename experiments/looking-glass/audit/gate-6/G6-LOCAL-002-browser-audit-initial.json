@@ -1,0 +1,12 @@
+{
+  "kind": "gate-6-independent-initial-browser-failure",
+  "runId": "G6-LOCAL-002",
+  "buildId": "g6-b31ef3d7838d10c8",
+  "sourceSha256": "b31ef3d7838d10c8356ad04ff989277df9a0603861b5f8ddb88902f268fb0cc5",
+  "result": "failed-candidate",
+  "case": "Source and relation evidence overflow",
+  "expected": "At every tested viewport, documentScrollWidth is at most documentClientWidth plus 1 CSS pixel, including expanded source and relation evidence.",
+  "observed": "At `inspect-sources` and `inspector-narrow-after-transport-recovery`, the 960px plain/source view reached documentScrollWidth 1136, an excess of 176 CSS pixels. At `reopened-checkpoint-20000` and `reopened-checkpoint-25000`, an inspected relation's long evidence readout reached documentScrollWidth 1478 against 1280, an excess of 198 CSS pixels. An attempted checkpoint click in that portion of the trace registered relation.inspect, so the intended-versus-actual action must remain disclosed separately.",
+  "observationLabels": ["inspect-sources", "inspector-narrow-after-transport-recovery", "reopened-checkpoint-20000", "reopened-checkpoint-25000"],
+  "interpretation": "Long source fact/hash and relation-evidence lines overflow tested viewports. Model, build, routes, matched task paths and most browser states pass, but this exact candidate fails the frozen responsive inspector contract. Preserve it and repair within the approved final correction budget."
+}

@@ -1,0 +1,1040 @@
+{
+  "schema": "gate7-task-fixture-v1",
+  "fixtureId": "G7-UNFAMILIAR-01",
+  "sourceStatus": "New synthetic Gate7 examples; no real participant responses.",
+  "publicInformationRule": "Only these supplied facts and frame observations are task data; source coordinates and scoring are withheld.",
+  "teaching": {
+    "text": [
+      "A source rotation changes a model observation; a display camera changes its drawing.",
+      "A projection forgets coordinates; a slice fixes coordinates. A known formula and supplied raw observations can support calculation.",
+      "A shared reference states a question and rule; switching it does not rewrite source records.",
+      "Choose insufficient information when more than one allowed source condition gives the supplied observations."
+    ],
+    "recommendedSeconds": 60,
+    "enforced": false,
+    "taskSpecificWorkedExamples": false
+  },
+  "conditions": {
+    "static": {
+      "label": "Static sheet",
+      "access": "All supplied frames simultaneously; identical captions and raw-coordinate tables.",
+      "sequenceSeconds": null
+    },
+    "prescribed": {
+      "label": "Prescribed sequence",
+      "access": "The same frames, one at a time, 2 seconds each; discrete transitions, no interpolation; pause/replay/step available.",
+      "sequenceSeconds": 6
+    },
+    "interactive": {
+      "label": "Choose a frame",
+      "access": "The same finite frame set in any order with buttons; no arbitrary source transform or extra view."
+    },
+    "attention": {
+      "label": "Local objects",
+      "access": "Same supplied records, reference criteria and frame selectors as the plain view; links show typed required costs only."
+    },
+    "plain": {
+      "label": "Plain table",
+      "access": "Same supplied records, reference criteria and frame selectors as local objects."
+    }
+  },
+  "timing": {
+    "recommendedTaskSeconds": 45,
+    "enforced": false,
+    "comparisonStatus": "Presentation-readiness specification only; no participant exposure/timing outcomes collected."
+  },
+  "tasks": [
+    {
+      "id": "Q01",
+      "family": "geometry",
+      "scene": "points",
+      "model": "arbitrary-point-4d",
+      "prompt": "For the selected point K, what is its source w coordinate? Use the declared source rotations and the displayed raw projected coordinates.",
+      "selectedPointId": "K",
+      "availableFacts": [
+        "The same point ID is preserved in every frame. Source coordinates are arbitrary real values, not hypercube vertices.",
+        "x′ = x cos α − w sin α; y′ = y; z′ = z. The camera only draws the raw xyz observation.",
+        "Point IDs and source identities are local to this case; no source identity is asserted across different cases."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "+0.8"
+        },
+        {
+          "id": "b",
+          "label": "−0.8"
+        },
+        {
+          "id": "c",
+          "label": "+0.4"
+        },
+        {
+          "id": "d",
+          "label": "−0.4"
+        },
+        {
+          "id": "e",
+          "label": "The available observations are insufficient."
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 30
+          },
+          "points": [
+            {
+              "id": "K",
+              "xyz": [
+                0.7464101615137755,
+                -0.6,
+                0.2
+              ],
+              "marker": "circle"
+            },
+            {
+              "id": "M",
+              "xyz": [
+                -0.7330127018922192,
+                0.3,
+                -0.4
+              ],
+              "marker": "square"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 120
+          },
+          "points": [
+            {
+              "id": "K",
+              "xyz": [
+                0.4928203230275511,
+                -0.6,
+                0.2
+              ],
+              "marker": "circle"
+            },
+            {
+              "id": "M",
+              "xyz": [
+                -0.26961524227066336,
+                0.3,
+                -0.4
+              ],
+              "marker": "square"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 210
+          },
+          "points": [
+            {
+              "id": "K",
+              "xyz": [
+                -0.7464101615137756,
+                -0.6,
+                0.2
+              ],
+              "marker": "circle"
+            },
+            {
+              "id": "M",
+              "xyz": [
+                0.7330127018922193,
+                0.3,
+                -0.4
+              ],
+              "marker": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "family": "geometry",
+      "scene": "points",
+      "model": "arbitrary-point-4d",
+      "prompt": "For point N, which source w coordinate is uniquely established by the available observations?",
+      "selectedPointId": "N",
+      "availableFacts": [
+        "Source coordinates may be any real values. No coordinate magnitude or sign constraint is supplied.",
+        "x′ = x cos α − w sin α; y′ = y; z′ = z. Camera yaw is a display change.",
+        "Point IDs and source identities are local to this case; no source identity is asserted across different cases."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "w = 0"
+        },
+        {
+          "id": "b",
+          "label": "w = +1"
+        },
+        {
+          "id": "c",
+          "label": "The available observations are insufficient."
+        },
+        {
+          "id": "d",
+          "label": "w = −1"
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": -30,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 30
+          },
+          "points": [
+            {
+              "id": "N",
+              "xyz": [
+                0.5,
+                -0.2,
+                0.7
+              ],
+              "marker": "circle"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 0,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 30
+          },
+          "points": [
+            {
+              "id": "N",
+              "xyz": [
+                0.5,
+                -0.2,
+                0.7
+              ],
+              "marker": "circle"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 30,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 30
+          },
+          "points": [
+            {
+              "id": "N",
+              "xyz": [
+                0.5,
+                -0.2,
+                0.7
+              ],
+              "marker": "circle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "family": "geometry",
+      "scene": "points",
+      "model": "arbitrary-point-5d",
+      "prompt": "What is the sign of point P’s source v coordinate?",
+      "selectedPointId": "P",
+      "availableFacts": [
+        "Source coordinates may be any real values. Stable point IDs establish correspondence.",
+        "Apply x–w rotation α, then y–v rotation β. x′ = x cos α − w sin α; y′ = y cos β − v sin β; z′ = z.",
+        "Point IDs and source identities are local to this case; no source identity is asserted across different cases."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "The available observations are insufficient."
+        },
+        {
+          "id": "b",
+          "label": "Positive"
+        },
+        {
+          "id": "c",
+          "label": "Zero"
+        },
+        {
+          "id": "d",
+          "label": "Negative"
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 20,
+            "betaDegrees": 0
+          },
+          "points": [
+            {
+              "id": "P",
+              "xyz": [
+                0.04249368590780442,
+                -0.4,
+                0.2
+              ],
+              "marker": "circle"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 110,
+            "betaDegrees": 0
+          },
+          "points": [
+            {
+              "id": "P",
+              "xyz": [
+                -0.7603908775478364,
+                -0.4,
+                0.2
+              ],
+              "marker": "circle"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 200,
+            "betaDegrees": 0
+          },
+          "points": [
+            {
+              "id": "P",
+              "xyz": [
+                -0.042493685907804474,
+                -0.4,
+                0.2
+              ],
+              "marker": "circle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "family": "geometry",
+      "scene": "points",
+      "model": "arbitrary-point-5d",
+      "prompt": "What is the sign of point R’s source v coordinate?",
+      "selectedPointId": "R",
+      "availableFacts": [
+        "Source coordinates may be any real values. Stable point IDs establish correspondence.",
+        "Apply x–w rotation α, then y–v rotation β. x′ = x cos α − w sin α; y′ = y cos β − v sin β; z′ = z.",
+        "Point IDs and source identities are local to this case; no source identity is asserted across different cases."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Positive"
+        },
+        {
+          "id": "b",
+          "label": "The available observations are insufficient."
+        },
+        {
+          "id": "c",
+          "label": "Zero"
+        },
+        {
+          "id": "d",
+          "label": "Negative"
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 20,
+            "betaDegrees": 0
+          },
+          "points": [
+            {
+              "id": "R",
+              "xyz": [
+                0.3931506101525829,
+                0.5,
+                -0.3
+              ],
+              "marker": "circle"
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 110,
+            "betaDegrees": 0
+          },
+          "points": [
+            {
+              "id": "R",
+              "xyz": [
+                0.4954115438064113,
+                0.5,
+                -0.3
+              ],
+              "marker": "circle"
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "alphaDegrees": 20,
+            "betaDegrees": 70
+          },
+          "points": [
+            {
+              "id": "R",
+              "xyz": [
+                0.3931506101525829,
+                0.5468871199771977,
+                -0.3
+              ],
+              "marker": "circle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "family": "geometry",
+      "scene": "ball-comparison",
+      "model": "solid-4d-ball",
+      "prompt": "Predict the slice and full orthographic xyz projection at the unshown setting s = 1.8.",
+      "availableFacts": [
+        "The solid 4D ball has center (0, 0, 0, 0.3) and radius 1.2. A slice fixes w = s.",
+        "The projection contains xyz points for which at least one source w exists; the slice fixes one w. Empty means there are no slice points."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Both are empty."
+        },
+        {
+          "id": "b",
+          "label": "The slice is empty; the full projection remains a ball of radius 1.2."
+        },
+        {
+          "id": "c",
+          "label": "The slice is a point; the projection is empty."
+        },
+        {
+          "id": "d",
+          "label": "Both remain balls of radius 1.2."
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "sliceW": 0.3
+          },
+          "projection": {
+            "radius": 1.2,
+            "kind": "ball"
+          },
+          "slice": {
+            "radius": 1.2,
+            "kind": "ball"
+          }
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "sliceW": 0.9
+          },
+          "projection": {
+            "radius": 1.2,
+            "kind": "ball"
+          },
+          "slice": {
+            "radius": 1.0392304845413265,
+            "kind": "ball"
+          }
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 25,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {
+            "sliceW": 1.5
+          },
+          "projection": {
+            "radius": 1.2,
+            "kind": "ball"
+          },
+          "slice": {
+            "radius": 0,
+            "kind": "point"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "family": "geometry",
+      "scene": "slice-ball",
+      "model": "solid-unit-5d-ball",
+      "prompt": "Which signed pair of hidden slice settings (s, t) is uniquely established by the observed 3D slice?",
+      "availableFacts": [
+        "The source is the unit solid 5D ball centered at the origin. The slice fixes w = s and v = t.",
+        "Its radius is √(1 − s² − t²) when the radicand is positive. The setting pair is unchanged between frames; it is not otherwise supplied."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "(+0.48, +0.64)"
+        },
+        {
+          "id": "b",
+          "label": "(−0.48, +0.64)"
+        },
+        {
+          "id": "c",
+          "label": "(+0.64, +0.48)"
+        },
+        {
+          "id": "d",
+          "label": "The available observations are insufficient."
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "displayCamera": {
+            "yawDegrees": -30,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {},
+          "slice": {
+            "radius": 0.6,
+            "kind": "ball"
+          }
+        },
+        {
+          "id": "F2",
+          "displayCamera": {
+            "yawDegrees": 0,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {},
+          "slice": {
+            "radius": 0.6,
+            "kind": "ball"
+          }
+        },
+        {
+          "id": "F3",
+          "displayCamera": {
+            "yawDegrees": 30,
+            "pitchDegrees": 18,
+            "scale": 105
+          },
+          "parameters": {},
+          "slice": {
+            "radius": 0.6,
+            "kind": "ball"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "family": "attention",
+      "scene": "contexts",
+      "model": "fictional-local-contexts",
+      "prompt": "Using only these outward summaries, which context satisfies both capacity at least 60 and total setup cost at most 6 tokens?",
+      "availableFacts": [
+        "Only the displayed summaries are available in this case. Total setup cost is the sum of all required listed costs when those details are supplied.",
+        "A capacity headline is not a statement about total cost. No booking, safety or real venue feasibility is assessed."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "The available summaries are insufficient."
+        },
+        {
+          "id": "b",
+          "label": "Oak only"
+        },
+        {
+          "id": "c",
+          "label": "Jetty only"
+        },
+        {
+          "id": "d",
+          "label": "Both"
+        },
+        {
+          "id": "e",
+          "label": "Neither"
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "referenceId": "capacity60@1",
+          "receiver": {
+            "capacityMin": 60,
+            "budgetMax": 6
+          },
+          "references": [
+            {
+              "id": "capacity60@1",
+              "wording": "Capacity at least 60",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "capacity >= 60"
+            },
+            {
+              "id": "existing-access@1",
+              "wording": "Existing step-free access",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "existingAccess === true"
+            }
+          ],
+          "contexts": [
+            {
+              "id": "Oak",
+              "localReferenceId": "capacity60@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            },
+            {
+              "id": "Jetty",
+              "localReferenceId": "existing-access@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            }
+          ],
+          "detailLevel": "summary-only"
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "family": "attention",
+      "scene": "contexts",
+      "model": "fictional-local-contexts",
+      "prompt": "After the receiver changes to capacity at least 70 and setup cost at most 8 tokens, which context passes that numeric screen?",
+      "availableFacts": [
+        "Use capacity and the sum of every required cost. Existing-access reference and local reference are retained as alternative questions, not extra receiver requirements.",
+        "The source records stay unchanged when the receiver changes. This is only a synthetic numeric screen, not full event feasibility."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Both"
+        },
+        {
+          "id": "b",
+          "label": "Cedar only"
+        },
+        {
+          "id": "c",
+          "label": "Quay only"
+        },
+        {
+          "id": "d",
+          "label": "Neither"
+        },
+        {
+          "id": "e",
+          "label": "The available information is insufficient."
+        }
+      ],
+      "frames": [
+        {
+          "id": "F1",
+          "referenceId": "capacity60@1",
+          "receiver": {
+            "capacityMin": 60,
+            "budgetMax": 6
+          },
+          "references": [
+            {
+              "id": "capacity60@1",
+              "wording": "Capacity at least 60",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "capacity >= 60"
+            },
+            {
+              "id": "existing-access@1",
+              "wording": "Existing step-free access",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "existingAccess === true"
+            }
+          ],
+          "contexts": [
+            {
+              "id": "Cedar",
+              "localReferenceId": "capacity60@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            },
+            {
+              "id": "Quay",
+              "localReferenceId": "existing-access@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            }
+          ],
+          "records": [
+            {
+              "id": "REC-C",
+              "contextId": "Cedar",
+              "capacity": 64,
+              "existingAccess": false,
+              "requiredCosts": [
+                {
+                  "id": "C-hire",
+                  "tokens": 3
+                },
+                {
+                  "id": "C-ramp",
+                  "tokens": 2
+                }
+              ],
+              "history": [
+                {
+                  "version": 1,
+                  "author": "Gate7 fixture designer",
+                  "kind": "synthetic-source"
+                }
+              ]
+            },
+            {
+              "id": "REC-Q",
+              "contextId": "Quay",
+              "capacity": 78,
+              "existingAccess": true,
+              "requiredCosts": [
+                {
+                  "id": "Q-hire",
+                  "tokens": 4
+                },
+                {
+                  "id": "Q-power",
+                  "tokens": 1
+                },
+                {
+                  "id": "Q-shelter",
+                  "tokens": 2
+                }
+              ],
+              "history": [
+                {
+                  "version": 1,
+                  "author": "Gate7 fixture designer",
+                  "kind": "synthetic-source"
+                }
+              ]
+            }
+          ],
+          "detailLevel": "expanded",
+          "revisionAuthor": "Gate7 fixture designer"
+        },
+        {
+          "id": "F2",
+          "referenceId": "existing-access@1",
+          "receiver": {
+            "capacityMin": 60,
+            "budgetMax": 6
+          },
+          "references": [
+            {
+              "id": "capacity60@1",
+              "wording": "Capacity at least 60",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "capacity >= 60"
+            },
+            {
+              "id": "existing-access@1",
+              "wording": "Existing step-free access",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "existingAccess === true"
+            }
+          ],
+          "contexts": [
+            {
+              "id": "Cedar",
+              "localReferenceId": "capacity60@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            },
+            {
+              "id": "Quay",
+              "localReferenceId": "existing-access@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            }
+          ],
+          "records": [
+            {
+              "id": "REC-C",
+              "contextId": "Cedar",
+              "capacity": 64,
+              "existingAccess": false,
+              "requiredCosts": [
+                {
+                  "id": "C-hire",
+                  "tokens": 3
+                },
+                {
+                  "id": "C-ramp",
+                  "tokens": 2
+                }
+              ],
+              "history": [
+                {
+                  "version": 1,
+                  "author": "Gate7 fixture designer",
+                  "kind": "synthetic-source"
+                }
+              ]
+            },
+            {
+              "id": "REC-Q",
+              "contextId": "Quay",
+              "capacity": 78,
+              "existingAccess": true,
+              "requiredCosts": [
+                {
+                  "id": "Q-hire",
+                  "tokens": 4
+                },
+                {
+                  "id": "Q-power",
+                  "tokens": 1
+                },
+                {
+                  "id": "Q-shelter",
+                  "tokens": 2
+                }
+              ],
+              "history": [
+                {
+                  "version": 1,
+                  "author": "Gate7 fixture designer",
+                  "kind": "synthetic-source"
+                }
+              ]
+            }
+          ],
+          "detailLevel": "expanded",
+          "revisionAuthor": "Gate7 fixture designer"
+        },
+        {
+          "id": "F3",
+          "referenceId": "capacity60@1",
+          "receiver": {
+            "capacityMin": 70,
+            "budgetMax": 8
+          },
+          "references": [
+            {
+              "id": "capacity60@1",
+              "wording": "Capacity at least 60",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "capacity >= 60"
+            },
+            {
+              "id": "existing-access@1",
+              "wording": "Existing step-free access",
+              "scope": "Fictional venue numeric screen",
+              "author": "Gate7 fixture designer",
+              "version": 1,
+              "criteria": "existingAccess === true"
+            }
+          ],
+          "contexts": [
+            {
+              "id": "Cedar",
+              "localReferenceId": "capacity60@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            },
+            {
+              "id": "Quay",
+              "localReferenceId": "existing-access@1",
+              "outwardSummary": {
+                "capacity60": true
+              }
+            }
+          ],
+          "records": [
+            {
+              "id": "REC-C",
+              "contextId": "Cedar",
+              "capacity": 64,
+              "existingAccess": false,
+              "requiredCosts": [
+                {
+                  "id": "C-hire",
+                  "tokens": 3
+                },
+                {
+                  "id": "C-ramp",
+                  "tokens": 2
+                }
+              ],
+              "history": [
+                {
+                  "version": 1,
+                  "author": "Gate7 fixture designer",
+                  "kind": "synthetic-source"
+                }
+              ]
+            },
+            {
+              "id": "REC-Q",
+              "contextId": "Quay",
+              "capacity": 78,
+              "existingAccess": true,
+              "requiredCosts": [
+                {
+                  "id": "Q-hire",
+                  "tokens": 4
+                },
+                {
+                  "id": "Q-power",
+                  "tokens": 1
+                },
+                {
+                  "id": "Q-shelter",
+                  "tokens": 2
+                }
+              ],
+              "history": [
+                {
+                  "version": 1,
+                  "author": "Gate7 fixture designer",
+                  "kind": "synthetic-source"
+                }
+              ]
+            }
+          ],
+          "detailLevel": "expanded",
+          "revisionAuthor": "Gate7 fixture designer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Host server startup, no browser acquisition",
+  "attempts": [
+    {
+      "recordedAtUtc": "2026-09-20T11:36:18.640089+00:00",
+      "candidate": "G10-PREDICT-002",
+      "command": "node build/server.mjs without --run",
+      "result": "Rejected Run/build identity mismatch: server default run001. No server/browser or activity started.",
+      "interpretation": "Host assumed prior-gate no-argument recovery pattern; corrected after reading CLI source. Not a candidate corruption claim."
+    },
+    {
+      "candidate": "G10-PREDICT-002",
+      "command": "Exact Node24 build/server.mjs --run absolute runs/G10-PREDICT-002",
+      "result": "Started G10-PREDICT-002 / g10-464bfe21ad6044378996 at http://127.0.0.1:44003/",
+      "rootServerSession": 40761,
+      "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+      "browserAcquisition": "none before independent source audit"
+    },
+    {
+      "recordedAtUtc": "2026-09-20T11:55:18.706266+00:00",
+      "candidate": "G10-PREDICT-003",
+      "command": "Exact Node24 immutable server with explicit --run absolute runs/G10-PREDICT-003 --port44003",
+      "result": "Started G10-PREDICT-003 / g10-9e34f791d83c1cd7a495 at http://127.0.0.1:44003/",
+      "rootServerSession": 30920,
+      "priorCandidate002ServerStopped": true,
+      "browserAcquisition": "not started before independentreaudit"
+    }
+  ]
+}

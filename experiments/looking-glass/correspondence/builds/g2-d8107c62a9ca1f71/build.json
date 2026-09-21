@@ -1,0 +1,45 @@
+{
+  "buildId": "g2-d8107c62a9ca1f71",
+  "sourceSha256": "d8107c62a9ca1f71978f4012122625c59536759dea32d4642131da5a8c657d9b",
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "716f219456af36057a0c4c9897a0ac50dc9183e5ddbc5bcf29efc05df0fddfec"
+    },
+    {
+      "path": "style.css",
+      "sha256": "9dfa405afb0ab7589212d6caacb7b5c085eb35daf523cf5d55b715a132540751"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "1557fb2d6acd620a91b6c7fc85f57c5f7dfed3f5178a7141ad1fa6c112a4db66"
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "079a307aa383ae99720cd03b558c295e815828e5336eef6380fb101dd6cab96e"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "dc46566db6cd73b687da03720761534c2e7208ffe37abed353fffe1214e07f4e"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "3617787e9e31c7603c455762b4ab4f2a495bd85d188dd7793d9089ba51dc6784"
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "69c2a22df782d22d8cfb263b7d019cef485af770b35be3528f4035464b46cd6a"
+    },
+    {
+      "path": "fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36"
+    },
+    {
+      "path": "reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8"
+    }
+  ],
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external runtime assets",
+  "nodeVersion": "v24.10.0",
+  "builtAt": "2026-09-20T01:43:07.446Z"
+}

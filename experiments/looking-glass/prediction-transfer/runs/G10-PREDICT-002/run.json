@@ -1,0 +1,26 @@
+{
+  "schema": "gate10-run-v1",
+  "runId": "G10-PREDICT-002",
+  "buildId": "g10-464bfe21ad6044378996",
+  "sourceHash": "464bfe21ad6044378996d53fc89e897a750472019f2f163fc2acd0b78aced158",
+  "baseCommit": "9e39c0332d7b34f60a9e779cdbff7fd93e6acee1",
+  "nodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node",
+  "nodeVersion": "v24.17.0",
+  "fixtureId": "G10-FIXTURE-001",
+  "fixtureSha256": "729902887d4a51ac522831f7baf17f8a905422fa6d7aa51f14d81e4565bf089e",
+  "prespecFreezeSha256": "3dba94a05674bf8760ea036a4115010ae524e2211d7aa7ecf404139dba3f9d56",
+  "port": 44003,
+  "host": "127.0.0.1",
+  "durationSeconds": 20,
+  "checkpointSeconds": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+  ],
+  "scheduledEventCount": 6,
+  "localSoftwareOnly": true,
+  "humanParticipants": 0
+}

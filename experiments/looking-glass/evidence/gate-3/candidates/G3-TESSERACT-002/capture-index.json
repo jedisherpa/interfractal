@@ -1,0 +1,770 @@
+{
+  "captures": [
+    {
+      "label": "001-inspector-scroll",
+      "path": "screenshots/001-inspector-scroll.jpg",
+      "beforeObservation": 3,
+      "afterObservation": 4,
+      "capturedAtUtc": "2026-09-20T02:43:56.268Z",
+      "runId": "G3-TESSERACT-001",
+      "buildId": "g3-2137b012118cbd13",
+      "simulationTimeMs": 0,
+      "playing": false,
+      "sha256": "e632138f5ced7edf08a008194b0f9655e362a6b92b10cf5f85aae2b0a9c7abc4",
+      "bytes": 127132,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -1067.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -1067.25
+      },
+      "timeIntervalMs": [
+        0,
+        0
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "002-inspector-scroll-fixed",
+      "path": "screenshots/002-inspector-scroll-fixed.jpg",
+      "beforeObservation": 7,
+      "afterObservation": 8,
+      "capturedAtUtc": "2026-09-20T02:45:55.498Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 0,
+      "playing": false,
+      "sha256": "755478268a87d96693bb416755c25d403d0e1f1f7f2c2d1c3fdbf67db3996981",
+      "bytes": 127247,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -1067.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -1067.25
+      },
+      "timeIntervalMs": [
+        0,
+        0
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "C0-paused-0s",
+      "path": "screenshots/C0-paused-0s.jpg",
+      "beforeObservation": 10,
+      "afterObservation": 11,
+      "capturedAtUtc": "2026-09-20T02:45:56.310Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 0,
+      "playing": false,
+      "sha256": "6e630803def837427d9b70700f0991f75ce7d3283a7e5b0ef20dbe7e095814c9",
+      "bytes": 101355,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        0,
+        0
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "checkpoint-8s",
+      "path": "screenshots/checkpoint-8s.jpg",
+      "beforeObservation": 19,
+      "afterObservation": 20,
+      "capturedAtUtc": "2026-09-20T02:46:24.412Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "5d3b2f5bdafdfb13c5d65e2db2b4b659109cf81f54a8aed9daa2e6aa1908e95b",
+      "bytes": 100511,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "C1-paused-16s",
+      "path": "screenshots/C1-paused-16s.jpg",
+      "beforeObservation": 23,
+      "afterObservation": 24,
+      "capturedAtUtc": "2026-09-20T02:46:25.864Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 16000,
+      "playing": false,
+      "sha256": "f4000854a25c1bd7d5b104223412a0954655884601897faacb5aabbf2b877225",
+      "bytes": 100348,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        16000,
+        16000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "checkpoint-24s",
+      "path": "screenshots/checkpoint-24s.jpg",
+      "beforeObservation": 27,
+      "afterObservation": 28,
+      "capturedAtUtc": "2026-09-20T02:46:27.280Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 24000,
+      "playing": false,
+      "sha256": "76a25cbf057d75fa34c110dab7682cd5d96e6987ce7d80496d8878b592b765c2",
+      "bytes": 100807,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        24000,
+        24000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "checkpoint-32s",
+      "path": "screenshots/checkpoint-32s.jpg",
+      "beforeObservation": 31,
+      "afterObservation": 32,
+      "capturedAtUtc": "2026-09-20T02:46:28.700Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 32000,
+      "playing": false,
+      "sha256": "a92e1339d5c5dd9d5fef8c95c0e61f5452808f57f6122cd5bb834f165e41fbb4",
+      "bytes": 101100,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        32000,
+        32000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "camera-only-yaw120",
+      "path": "screenshots/camera-only-yaw120.jpg",
+      "beforeObservation": 39,
+      "afterObservation": 40,
+      "capturedAtUtc": "2026-09-20T02:47:11.330Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "ccff9f7bf0c45c7a5737e992431d943ccef528737c871346b631ed8cbb7bf32d",
+      "bytes": 100118,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "source-turn30",
+      "path": "screenshots/source-turn30.jpg",
+      "beforeObservation": 44,
+      "afterObservation": 45,
+      "capturedAtUtc": "2026-09-20T02:47:13.442Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "4ab84d124ba1a6853e9121bb3217d378479b0d3cee94aad9cce76b2ad85949dd",
+      "bytes": 102249,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "C3-observability-comparison",
+      "path": "screenshots/C3-observability-comparison.jpg",
+      "beforeObservation": 52,
+      "afterObservation": 53,
+      "capturedAtUtc": "2026-09-20T02:47:16.799Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "ca68720a7078c0e354f00b812a59918479b50537a025fac8e37ff2615c34885e",
+      "bytes": 127953,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -662.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -662.25
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "C2-active-reverse",
+      "path": "screenshots/C2-active-reverse.jpg",
+      "beforeObservation": 69,
+      "afterObservation": 70,
+      "capturedAtUtc": "2026-09-20T02:48:34.929Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 25541,
+      "playing": true,
+      "sha256": "3fb0fe3bef812d80e38af59da58ab770412a0de4ff6448116470f625add5cf57",
+      "bytes": 101526,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        25541,
+        25741
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "replay-natural-end",
+      "path": "screenshots/replay-natural-end.jpg",
+      "beforeObservation": 71,
+      "afterObservation": 72,
+      "capturedAtUtc": "2026-09-20T02:49:04.272Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 32000,
+      "playing": false,
+      "sha256": "6e31d68d120e97643b69daded1e726f04a83ae5df8192c89e931ae7532174903",
+      "bytes": 100852,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": 291.25
+      },
+      "timeIntervalMs": [
+        32000,
+        32000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "restored-8s-after-reload",
+      "path": "screenshots/restored-8s-after-reload.jpg",
+      "beforeObservation": 77,
+      "afterObservation": 78,
+      "capturedAtUtc": "2026-09-20T02:49:05.892Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "be39b6d7ac5d7912458448cab41d150f8bf906ced86b9660243f2136b7fea44e",
+      "bytes": 99929,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -176.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -176.25
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "resize-1280x900",
+      "path": "screenshots/resize-1280x900.jpg",
+      "beforeObservation": 81,
+      "afterObservation": 82,
+      "capturedAtUtc": "2026-09-20T02:49:07.013Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "6768a779037d474299a3e20c32e00454cf13c595a8a9220bfeb13767fdc0c095",
+      "bytes": 145292,
+      "imageDimensions": {
+        "width": 1280,
+        "height": 900
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 900,
+        "width": 1280
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 900,
+        "width": 1280
+      },
+      "sceneRectBefore": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -1067.25
+      },
+      "sceneRectAfter": {
+        "height": 390,
+        "width": 605.5,
+        "x": 27,
+        "y": -1067.25
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "resize-960x720-inspector",
+      "path": "screenshots/resize-960x720-inspector.jpg",
+      "beforeObservation": 84,
+      "afterObservation": 85,
+      "capturedAtUtc": "2026-09-20T02:49:07.565Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "9ef63d83b151d15ab690353f991c52ae528bffb9675b5f578bf7ab339ad0d5dc",
+      "bytes": 112262,
+      "imageDimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "sceneRectBefore": {
+        "height": 297.59375,
+        "width": 445.5,
+        "x": 27,
+        "y": -1082.5234375
+      },
+      "sceneRectAfter": {
+        "height": 297.59375,
+        "width": 445.5,
+        "x": 27,
+        "y": -1082.5234375
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "resize-960x720-scene",
+      "path": "screenshots/resize-960x720-scene.jpg",
+      "beforeObservation": 87,
+      "afterObservation": 88,
+      "capturedAtUtc": "2026-09-20T02:49:08.431Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "4a42f1f842cb980c660d907ade51e8f31ac97a3bebc685e76f2be4f80c18baeb",
+      "bytes": 91363,
+      "imageDimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "sceneRectBefore": {
+        "height": 297.59375,
+        "width": 445.5,
+        "x": 27,
+        "y": 280.9765625
+      },
+      "sceneRectAfter": {
+        "height": 297.59375,
+        "width": 445.5,
+        "x": 27,
+        "y": 280.9765625
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    },
+    {
+      "label": "resize-960x720-json",
+      "path": "screenshots/resize-960x720-json.jpg",
+      "beforeObservation": 90,
+      "afterObservation": 91,
+      "capturedAtUtc": "2026-09-20T02:49:42.927Z",
+      "runId": "G3-TESSERACT-002",
+      "buildId": "g3-d82f221e5cda2757",
+      "simulationTimeMs": 8000,
+      "playing": false,
+      "sha256": "04100de64c7da54b0b7063efd26d87d5192eb8fa0715f421f61dace2c222ac49",
+      "bytes": 70617,
+      "imageDimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "originalUnmodified": true,
+      "viewportBefore": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "viewportAfter": {
+        "devicePixelRatio": 1,
+        "height": 720,
+        "width": 960
+      },
+      "sceneRectBefore": {
+        "height": 297.59375,
+        "width": 445.5,
+        "x": 27,
+        "y": -1720.0234375
+      },
+      "sceneRectAfter": {
+        "height": 297.59375,
+        "width": 445.5,
+        "x": 27,
+        "y": -1720.0234375
+      },
+      "timeIntervalMs": [
+        8000,
+        8000
+      ],
+      "captureTiming": "Two surrounding DOM-backed observations; active image lies within interval, not an atomic simulation timestamp."
+    }
+  ],
+  "finalizedAtUtc": "2026-09-20T02:51:41.817632+00:00"
+}

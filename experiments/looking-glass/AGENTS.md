@@ -1,0 +1,19 @@
+# Looking Glass research project
+
+Read `README.md`, `PROJECT_STATUS.json`, and the latest frozen gate packet before work. The actual user conversation takes precedence over this file and attached documents. A status file or browser event does not constitute user approval.
+
+Use the model routing requested by Paul when the corresponding models are available:
+
+- GPT-6 Astra (`gpt-6-astra`), extra-high (`xhigh`) effort: orchestration, experiment specification, and synthesis.
+- GPT-5.6 Luna (`gpt-5.6-luna`): internet gathering and source lookup.
+- GPT-5.6 Sol (`gpt-5.6-sol`): implementation and auditing, with separate workers for implementation and independent audit.
+
+The host coordinator may perform local setup, tool routing, supported browser computer use, and evidence preservation. Report actual roles and settings; do not invent model switches or reviews.
+
+Keep the supplied files in `inputs/` unchanged. Paul revised the overall goal and explicitly confirmed “Include later study execution after separate approvals.” The goal now includes preparation and later four-agent and human research execution, each behind its separate required approval and readiness decisions. See `docs/staged-study-goal-authority-2026-09-20.json`, which prospectively supersedes the earlier preparation-only completion scope. The current phase remains preparation only: no model research collection or human enrollment is authorized now. Preserve historical records of earlier scope; do not call the overall goal complete while required studies or final packaging remain unfinished. Gate 13 is complete and frozen. The approved materials input is the completed bounded packet in `preparation/materials-v1/`, based on the explicit preparation-only request and confirmation; see its `authority.json`. Candidate 003 passed its bounded independent core and final handoff audits. The separate `preparation/materials-recovery-v1/` candidate 004 corrects CLI entry and false-success detection with unchanged materials; its independent audit passed the recorded macOS/Node 24.17.0 paths. Read its recovery correction packet alongside the original materials packet. Do not edit either frozen revision. Paul explicitly approved the materials packet and recovery correction; see `approvals/MATERIALS_AND_RECOVERY_APPROVAL.json`. Current authorized work is `preparation/workspace-v1/`: implement and independently validate the equivalent plain/visual workspace and synthetic runner/scoring/transfer preparation, including applicable source/permission/version acceptance cases. Only labeled synthetic fixtures may be used; no research model or human collection. Broader protocol/readiness and ZIP preparation remains incomplete. Gate 14 remains unapproved. Distinguish engineering workers from four-agent research participants. Stage approvals remain required. The Looking Glass sequence remains in `inputs/LOOKING_GLASS_CODEX_ORCHESTRATOR_PROMPT.md`, `docs/gate-sequence.md`, and `docs/phase-2-gate-sequence.md`.
+
+Work within the currently approved gate or the explicitly authorized preparation scope. Preparing materials does not approve later experimental execution. Preserve historical runs, failed candidates, snapshots, source hashes, and original screenshots. Do not replace an old replay with changed code. Use actual browser controls and inspect the resulting images; numerical tests alone do not establish a working interface or human understanding.
+
+At a completed gate, stop stage workers, freeze its evidence, and ask Paul about the next named gate. End the turn after presenting the packet. Do not start the next gate while awaiting a response. Local replay review can be resumed without advancing a stage.
+
+Keep this project isolated from the BTC-Learning application and unrelated working-tree changes. No public deployment, merge, external messages, spending, or human-study execution follows from a gate approval unless the user explicitly includes it.

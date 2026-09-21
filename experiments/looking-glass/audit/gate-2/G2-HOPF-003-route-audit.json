@@ -1,0 +1,156 @@
+{
+  "runId": "G2-HOPF-003",
+  "buildId": "g2-ccabad12693f86a8",
+  "base": "http://127.0.0.1:43995",
+  "checkedAtUtc": "2026-09-20T01:55:05.669Z",
+  "assertions": [
+    {
+      "name": "index is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "8296ec34a12e6cda09518d6b5bc0e65402c0d500568d81debf55d6d94c189fed",
+        "expectedSha256": "8296ec34a12e6cda09518d6b5bc0e65402c0d500568d81debf55d6d94c189fed"
+      }
+    },
+    {
+      "name": "app.mjs is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "88da7280198fef5f6123c6c34e71bfe9de1eacaff30e92ed8fd349f498dd4fd8",
+        "expectedSha256": "88da7280198fef5f6123c6c34e71bfe9de1eacaff30e92ed8fd349f498dd4fd8"
+      }
+    },
+    {
+      "name": "model.mjs is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "1f1d985e5687228702cff1d2cf3f826c9f89678388cdd1909ae69ec343c36de0",
+        "expectedSha256": "1f1d985e5687228702cff1d2cf3f826c9f89678388cdd1909ae69ec343c36de0"
+      }
+    },
+    {
+      "name": "mapping.mjs is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "89fe3febe03bac75e5ad3821bba9f60a55b68870e245edff6f50640dd5d2b344",
+        "expectedSha256": "89fe3febe03bac75e5ad3821bba9f60a55b68870e245edff6f50640dd5d2b344"
+      }
+    },
+    {
+      "name": "style.css is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "5387efa699a22178a8839f0405f58bef053a24556b4810197dd40c953a127dcf",
+        "expectedSha256": "5387efa699a22178a8839f0405f58bef053a24556b4810197dd40c953a127dcf"
+      }
+    },
+    {
+      "name": "fictional-records.json is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+        "expectedSha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36"
+      }
+    },
+    {
+      "name": "reference-mappings.json is exact snapshot",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+        "expectedSha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8"
+      }
+    },
+    {
+      "name": "/api/run canonical bytes",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "5254a843c5668b6811cdd120b5420d03b61d8e43219a6becbf999ab530dc98d2",
+        "expectedSha256": "5254a843c5668b6811cdd120b5420d03b61d8e43219a6becbf999ab530dc98d2"
+      }
+    },
+    {
+      "name": "/api/current-run canonical bytes",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "5254a843c5668b6811cdd120b5420d03b61d8e43219a6becbf999ab530dc98d2",
+        "expectedSha256": "5254a843c5668b6811cdd120b5420d03b61d8e43219a6becbf999ab530dc98d2"
+      }
+    },
+    {
+      "name": "/api/checkpoints canonical bytes",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "10cc7df3fc219a679d62918925d386297ce349d7fe7dd5492bea5ba1191e7694",
+        "expectedSha256": "10cc7df3fc219a679d62918925d386297ce349d7fe7dd5492bea5ba1191e7694"
+      }
+    },
+    {
+      "name": "/api/events canonical bytes",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "681a8d91a0f22f595848fe5b57089f3bfb904822b8c7eb66100a0214fe7293a4",
+        "expectedSha256": "681a8d91a0f22f595848fe5b57089f3bfb904822b8c7eb66100a0214fe7293a4"
+      }
+    },
+    {
+      "name": "/runs/G2-HOPF-001/run.json canonical bytes",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "servedSha256": "ce316585c20371d3cc885d0547aa0d2253aee9f5aeb1d090b73f808674d190bf",
+        "expectedSha256": "ce316585c20371d3cc885d0547aa0d2253aee9f5aeb1d090b73f808674d190bf"
+      }
+    },
+    {
+      "name": "/AGENTS.md not exposed",
+      "pass": true,
+      "detail": {
+        "status": 404
+      }
+    },
+    {
+      "name": "/PROJECT_STATUS.json not exposed",
+      "pass": true,
+      "detail": {
+        "status": 404
+      }
+    },
+    {
+      "name": "/server.mjs not exposed",
+      "pass": true,
+      "detail": {
+        "status": 404
+      }
+    },
+    {
+      "name": "/../AGENTS.md not exposed",
+      "pass": true,
+      "detail": {
+        "status": 404
+      }
+    },
+    {
+      "name": "/runs/../builds/g2-d8107c62a9ca1f71/model.mjs not exposed",
+      "pass": true,
+      "detail": {
+        "status": 404
+      }
+    }
+  ],
+  "summary": {
+    "passed": 17,
+    "total": 17,
+    "failed": []
+  }
+}

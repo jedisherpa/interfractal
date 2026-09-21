@@ -1,0 +1,138 @@
+{
+  "kind": "gate-6-independent-original-capture-audit",
+  "runId": "G6-LOCAL-003",
+  "buildId": "g6-0279cdcdc0adc9b0",
+  "originalCount": 8,
+  "captures": [
+    {
+      "label": "initial-compressed",
+      "path": "evidence/gate-6/screenshots/003-initial-compressed.jpg",
+      "sha256": "6b15a22c6e6abcb90b27585a582f6f3e5f060177f7f578898a7a005a4f58a074",
+      "bytes": 102832,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 1,
+      "afterObservation": 2,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "source-wrap-960",
+      "path": "evidence/gate-6/screenshots/003-source-wrap-960.jpg",
+      "sha256": "7652d1c55ea03f0988858dc01ad47f7f2046f4ba1234a2d8a04693fe76e1c31f",
+      "bytes": 129458,
+      "dimensions": {
+        "width": 960,
+        "height": 720
+      },
+      "beforeObservation": 7,
+      "afterObservation": 8,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "shared-evidence-wrap-1280",
+      "path": "evidence/gate-6/screenshots/003-shared-evidence-wrap-1280.jpg",
+      "sha256": "abaa5b07f6fc65ad51a25449c8ac7e1126c9f3ed1ac914c3ee2118f6934e79b7",
+      "bytes": 115979,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 13,
+      "afterObservation": 14,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "graph-dependency-repair",
+      "path": "evidence/gate-6/screenshots/003-graph-dependency-repair.jpg",
+      "sha256": "26172e67e3c744e33b0d22446cc4408828a636fffdf5406d2d0694df3a782ed5",
+      "bytes": 114170,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 35,
+      "afterObservation": 36,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "plain-dependency-repair",
+      "path": "evidence/gate-6/screenshots/003-plain-dependency-repair.jpg",
+      "sha256": "06799f7b39a45098a0823f12948bb56059c10fe4694a4d82cc98701e1c9c2771",
+      "bytes": 100884,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 43,
+      "afterObservation": 44,
+      "simulationTimeBracketMs": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "requirement-revision-and-alternatives",
+      "path": "evidence/gate-6/screenshots/003-requirement-revision-and-alternatives.jpg",
+      "sha256": "2371753865d346e559879b469df46c41160f1cc079808c8744a306876c04558f",
+      "bytes": 123720,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 58,
+      "afterObservation": 59,
+      "simulationTimeBracketMs": [
+        15000,
+        15000
+      ]
+    },
+    {
+      "label": "supported-and-unsupported-links",
+      "path": "evidence/gate-6/screenshots/003-supported-and-unsupported-links.jpg",
+      "sha256": "8f42225e5a1e73d9b04f1eb66f0f877544eebf4a00845429e4a68d686d9b29a2",
+      "bytes": 113981,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 63,
+      "afterObservation": 64,
+      "simulationTimeBracketMs": [
+        25000,
+        25000
+      ]
+    },
+    {
+      "label": "active-replay",
+      "path": "evidence/gate-6/screenshots/003-active-replay.jpg",
+      "sha256": "5ba624ebb3c90836e8dea6cc13e546c0c55e109fe5a7b970d26b1603b0a57b2b",
+      "bytes": 120845,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "beforeObservation": 68,
+      "afterObservation": 69,
+      "simulationTimeBracketMs": [
+        29000,
+        29300
+      ]
+    }
+  ],
+  "limits": "A playback capture is bracketed by actual observations; its exact atomic frame time is not asserted.",
+  "checksPassed": true
+}

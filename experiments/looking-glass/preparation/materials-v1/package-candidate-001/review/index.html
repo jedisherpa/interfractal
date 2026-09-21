@@ -1,0 +1,680 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Looking Glass materials review</title><style>body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:auto;padding:2rem;color:#18233a;background:#f7f9fc}h1,h2{line-height:1.2}header{border-bottom:3px solid #243c64}table{border-collapse:collapse;width:100%;margin:1rem 0 2rem;background:white}th,td{padding:.6rem;border:1px solid #ccd3df;text-align:left;vertical-align:top}tr:nth-child(even){background:#f2f5fa}code{white-space:nowrap}pre{white-space:pre-wrap;overflow-wrap:anywhere}details{max-width:44rem}.scope{background:#fff4d8;border-left:4px solid #a36500;padding:1rem}a{color:#164f9d}</style><header><h1>Looking Glass · materials review</h1><p>World TILE18-v1 · cutoff 10 · candidate 001</p></header><p class="scope"><strong>Preparation only.</strong> These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.</p><h2>Allocation</h2><p>Two common anchors (<code>C01</code>, <code>C02</code>); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.</p><table><thead><tr><th>Future packet</th><th>Card IDs</th><th>Perspective instruction</th></tr></thead><tbody><tr><th scope="row">A1</th><td><code>C01</code> <code>C02</code> <code>C03</code> <code>C04</code> <code>C05</code> <code>C06</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope="row">A2</th><td><code>C01</code> <code>C02</code> <code>C07</code> <code>C08</code> <code>C09</code> <code>C10</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope="row">A3</th><td><code>C01</code> <code>C02</code> <code>C11</code> <code>C12</code> <code>C13</code> <code>C14</code></td><td>COMMON-PERSPECTIVE-1</td></tr><tr><th scope="row">A4</th><td><code>C01</code> <code>C02</code> <code>C15</code> <code>C16</code> <code>C17</code> <code>C18</code></td><td>COMMON-PERSPECTIVE-1</td></tr></tbody></table><h2>Source cards</h2><table><thead><tr><th>ID</th><th>Version</th><th>Title</th><th>Record</th></tr></thead><tbody><tr><th scope="row">C01</th><td>1</td><td>Evaluation rules</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C01&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 0,
+  &quot;recordedTick&quot;: 0,
+  &quot;kind&quot;: &quot;shared_anchor&quot;,
+  &quot;title&quot;: &quot;Evaluation rules&quot;,
+  &quot;surfaceText&quot;: &quot;This card contains the common finite-world evaluation rules and status semantics.&quot;,
+  &quot;claims&quot;: [],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;,
+  &quot;rules&quot;: [
+    {
+      &quot;id&quot;: &quot;R01&quot;,
+      &quot;text&quot;: &quot;Evaluate only supplied, uniquely identified source claims with occurredTick &lt;= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R02&quot;,
+      &quot;text&quot;: &quot;The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R03&quot;,
+      &quot;text&quot;: &quot;A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R04&quot;,
+      &quot;text&quot;: &quot;Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R05&quot;,
+      &quot;text&quot;: &quot;Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R06&quot;,
+      &quot;text&quot;: &quot;Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R07&quot;,
+      &quot;text&quot;: &quot;For each plan, physical is AND of known capacity &gt;= required quantity; demand is output &gt;= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R08&quot;,
+      &quot;text&quot;: &quot;Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R09&quot;,
+      &quot;text&quot;: &quot;Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;R10&quot;,
+      &quot;text&quot;: &quot;Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies.&quot;
+    }
+  ],
+  &quot;statusSemantics&quot;: {
+    &quot;supported&quot;: [
+      true,
+      false
+    ],
+    &quot;refuted&quot;: [
+      false,
+      true
+    ],
+    &quot;conflicted&quot;: [
+      true,
+      true
+    ],
+    &quot;unknown&quot;: [
+      false,
+      false
+    ]
+  }
+}</pre></details></td></tr><tr><th scope="row">C02</th><td>1</td><td>Tile dispatch catalog</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C02&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 1,
+  &quot;recordedTick&quot;: 1,
+  &quot;kind&quot;: &quot;shared_anchor&quot;,
+  &quot;title&quot;: &quot;Tile dispatch catalog&quot;,
+  &quot;surfaceText&quot;: &quot;Choose one plan. Initial demand is 8 tiles. Plan P8 produces 8 for cost 4; P12 produces 12 for cost 7; P10 produces 10 for cost 6. Exact dependencies are in the catalog.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C02-1&quot;,
+      &quot;predicate&quot;: &quot;demand&quot;,
+      &quot;arguments&quot;: {
+        &quot;requirement&quot;: &quot;tiles&quot;,
+        &quot;requirementVersion&quot;: 1
+      },
+      &quot;value&quot;: 8,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C02-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;,
+  &quot;entities&quot;: {
+    &quot;actors&quot;: [
+      {
+        &quot;id&quot;: &quot;ARA&quot;,
+        &quot;kind&quot;: &quot;fictional_actor&quot;
+      },
+      {
+        &quot;id&quot;: &quot;BEA&quot;,
+        &quot;kind&quot;: &quot;fictional_actor&quot;
+      },
+      {
+        &quot;id&quot;: &quot;CY&quot;,
+        &quot;kind&quot;: &quot;fictional_actor&quot;
+      },
+      {
+        &quot;id&quot;: &quot;DEV&quot;,
+        &quot;kind&quot;: &quot;fictional_actor&quot;
+      }
+    ],
+    &quot;resources&quot;: [
+      {
+        &quot;id&quot;: &quot;press&quot;,
+        &quot;owner&quot;: &quot;ARA&quot;
+      },
+      {
+        &quot;id&quot;: &quot;cart&quot;,
+        &quot;owner&quot;: &quot;BEA&quot;
+      },
+      {
+        &quot;id&quot;: &quot;varnish&quot;,
+        &quot;owner&quot;: &quot;CY&quot;
+      }
+    ]
+  },
+  &quot;plans&quot;: [
+    {
+      &quot;id&quot;: &quot;P8&quot;,
+      &quot;version&quot;: 1,
+      &quot;output&quot;: 8,
+      &quot;cost&quot;: 4,
+      &quot;requires&quot;: [
+        {
+          &quot;actor&quot;: &quot;ARA&quot;,
+          &quot;resource&quot;: &quot;press&quot;,
+          &quot;quantity&quot;: 4
+        },
+        {
+          &quot;actor&quot;: &quot;BEA&quot;,
+          &quot;resource&quot;: &quot;cart&quot;,
+          &quot;quantity&quot;: 1
+        }
+      ],
+      &quot;inspectionRequired&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;P12&quot;,
+      &quot;version&quot;: 1,
+      &quot;output&quot;: 12,
+      &quot;cost&quot;: 7,
+      &quot;requires&quot;: [
+        {
+          &quot;actor&quot;: &quot;ARA&quot;,
+          &quot;resource&quot;: &quot;press&quot;,
+          &quot;quantity&quot;: 6
+        },
+        {
+          &quot;actor&quot;: &quot;BEA&quot;,
+          &quot;resource&quot;: &quot;cart&quot;,
+          &quot;quantity&quot;: 2
+        }
+      ],
+      &quot;inspectionRequired&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;P10&quot;,
+      &quot;version&quot;: 1,
+      &quot;output&quot;: 10,
+      &quot;cost&quot;: 6,
+      &quot;requires&quot;: [
+        {
+          &quot;actor&quot;: &quot;ARA&quot;,
+          &quot;resource&quot;: &quot;press&quot;,
+          &quot;quantity&quot;: 5
+        },
+        {
+          &quot;actor&quot;: &quot;BEA&quot;,
+          &quot;resource&quot;: &quot;cart&quot;,
+          &quot;quantity&quot;: 1
+        },
+        {
+          &quot;actor&quot;: &quot;CY&quot;,
+          &quot;resource&quot;: &quot;varnish&quot;,
+          &quot;quantity&quot;: 1
+        }
+      ],
+      &quot;inspectionRequired&quot;: true
+    }
+  ]
+}</pre></details></td></tr><tr><th scope="row">C03</th><td>1</td><td>Press capacity</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C03&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 2,
+  &quot;recordedTick&quot;: 2,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Press capacity&quot;,
+  &quot;surfaceText&quot;: &quot;Ara has 6 press units available.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C03-1&quot;,
+      &quot;predicate&quot;: &quot;capacity&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;resource&quot;: &quot;press&quot;
+      },
+      &quot;value&quot;: 6,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C03-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C04</th><td>1</td><td>Understanding, dissent and conditional alternatives</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C04&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 3,
+  &quot;recordedTick&quot;: 3,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Understanding, dissent and conditional alternatives&quot;,
+  &quot;surfaceText&quot;: &quot;Ara understands P12 and rejects endorsing it. Ara nevertheless commits 6 press units to P12 version 1, or 4 to P8 version 1 if that alternative is selected. These are alternative plan-specific grants, not additive reservations.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C04-1&quot;,
+      &quot;predicate&quot;: &quot;understands&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C04-1&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C04-2&quot;,
+      &quot;predicate&quot;: &quot;endorses&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: false,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C04-2&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C04-3&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;press&quot;,
+        &quot;quantity&quot;: 6
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C04-3&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C04-4&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P8&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;press&quot;,
+        &quot;quantity&quot;: 4
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C04-4&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C05</th><td>1</td><td>Exploration</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C05&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 3,
+  &quot;recordedTick&quot;: 3,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Exploration&quot;,
+  &quot;surfaceText&quot;: &quot;Ara is exploring P10 version 1. No endorsement or commitment is stated.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C05-1&quot;,
+      &quot;predicate&quot;: &quot;explores&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C05-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C06</th><td>1</td><td>Understanding confirmation</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C06&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 4,
+  &quot;recordedTick&quot;: 4,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Understanding confirmation&quot;,
+  &quot;surfaceText&quot;: &quot;Ready.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C06-1&quot;,
+      &quot;predicate&quot;: &quot;understands&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C06-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;,
+  &quot;speechAct&quot;: &quot;understanding_confirmation&quot;,
+  &quot;referent&quot;: {
+    &quot;actor&quot;: &quot;ARA&quot;,
+    &quot;plan&quot;: &quot;P10&quot;,
+    &quot;planVersion&quot;: 1
+  }
+}</pre></details></td></tr><tr><th scope="row">C07</th><td>1</td><td>Cart capacity</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C07&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 2,
+  &quot;recordedTick&quot;: 2,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Cart capacity&quot;,
+  &quot;surfaceText&quot;: &quot;Bea has 2 cart units available.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C07-1&quot;,
+      &quot;predicate&quot;: &quot;capacity&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;resource&quot;: &quot;cart&quot;
+      },
+      &quot;value&quot;: 2,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C07-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C08</th><td>1</td><td>P12 cart grant</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C08&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 3,
+  &quot;recordedTick&quot;: 3,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;P12 cart grant&quot;,
+  &quot;surfaceText&quot;: &quot;Bea understands and endorses P12 version 1 and commits 2 cart units to it.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C08-1&quot;,
+      &quot;predicate&quot;: &quot;understands&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C08-1&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C08-2&quot;,
+      &quot;predicate&quot;: &quot;endorses&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C08-2&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C08-3&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;cart&quot;,
+        &quot;quantity&quot;: 2
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C08-3&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C09</th><td>1</td><td>P8 cart grant</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C09&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 3,
+  &quot;recordedTick&quot;: 3,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;P8 cart grant&quot;,
+  &quot;surfaceText&quot;: &quot;Bea endorses P8 version 1 and commits 1 cart unit to it as an alternative.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C09-1&quot;,
+      &quot;predicate&quot;: &quot;endorses&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;plan&quot;: &quot;P8&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C09-1&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C09-2&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;plan&quot;: &quot;P8&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;cart&quot;,
+        &quot;quantity&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C09-2&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C10</th><td>1</td><td>P10 cart refusal</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C10&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 4,
+  &quot;recordedTick&quot;: 4,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;P10 cart refusal&quot;,
+  &quot;surfaceText&quot;: &quot;Bea declines a commitment of 1 cart unit to P10 version 1.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C10-1&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;BEA&quot;,
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;cart&quot;,
+        &quot;quantity&quot;: 1
+      },
+      &quot;value&quot;: false,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C10-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C11</th><td>1</td><td>Original varnish capacity</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C11&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 2,
+  &quot;recordedTick&quot;: 2,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Original varnish capacity&quot;,
+  &quot;surfaceText&quot;: &quot;Cy originally reports 1 varnish unit available.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C11-1&quot;,
+      &quot;predicate&quot;: &quot;capacity&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;CY&quot;,
+        &quot;resource&quot;: &quot;varnish&quot;
+      },
+      &quot;value&quot;: 1,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C11-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C12</th><td>1</td><td>Capacity correction</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C12&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 7,
+  &quot;recordedTick&quot;: 7,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Capacity correction&quot;,
+  &quot;surfaceText&quot;: &quot;Cy corrects the available varnish capacity to 0. This supersedes F-C11-1; keep the original visible as history.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C12-1&quot;,
+      &quot;predicate&quot;: &quot;capacity&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;CY&quot;,
+        &quot;resource&quot;: &quot;varnish&quot;
+      },
+      &quot;value&quot;: 0,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C12-1&quot;,
+      &quot;supersedes&quot;: [
+        &quot;F-C11-1&quot;
+      ]
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C13</th><td>1</td><td>Resource commitment</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C13&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 4,
+  &quot;recordedTick&quot;: 4,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Resource commitment&quot;,
+  &quot;surfaceText&quot;: &quot;Ready.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C13-1&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;CY&quot;,
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;varnish&quot;,
+        &quot;quantity&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;K-CY-P10&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;,
+  &quot;speechAct&quot;: &quot;resource_commitment&quot;,
+  &quot;referent&quot;: {
+    &quot;actor&quot;: &quot;CY&quot;,
+    &quot;plan&quot;: &quot;P10&quot;,
+    &quot;planVersion&quot;: 1,
+    &quot;resource&quot;: &quot;varnish&quot;,
+    &quot;quantity&quot;: 1
+  }
+}</pre></details></td></tr><tr><th scope="row">C14</th><td>1</td><td>Restatement, not another unit</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C14&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 5,
+  &quot;recordedTick&quot;: 5,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Restatement, not another unit&quot;,
+  &quot;surfaceText&quot;: &quot;Hold one varnish slot for P10.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C14-1&quot;,
+      &quot;predicate&quot;: &quot;resource_commitment&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;CY&quot;,
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;resource&quot;: &quot;varnish&quot;,
+        &quot;quantity&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;K-CY-P10&quot;,
+      &quot;restates&quot;: [
+        &quot;F-C13-1&quot;
+      ]
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;,
+  &quot;speechAct&quot;: &quot;resource_commitment_restatement&quot;
+}</pre></details></td></tr><tr><th scope="row">C15</th><td>1</td><td>Representative mandate</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C15&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 3,
+  &quot;recordedTick&quot;: 3,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Representative mandate&quot;,
+  &quot;surfaceText&quot;: &quot;Dev may describe the three named plans. This complete mandate excludes committing resources or binding any actor.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C15-1&quot;,
+      &quot;predicate&quot;: &quot;mandate&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;DEV&quot;,
+        &quot;scope&quot;: &quot;P8,P12,P10&quot;,
+        &quot;complete&quot;: true
+      },
+      &quot;value&quot;: [
+        &quot;describe&quot;
+      ],
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C15-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C16</th><td>1</td><td>Model attribution, not an endorsement</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C16&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 5,
+  &quot;recordedTick&quot;: 5,
+  &quot;kind&quot;: &quot;synthetic_model_artifact&quot;,
+  &quot;title&quot;: &quot;Model attribution, not an endorsement&quot;,
+  &quot;surfaceText&quot;: &quot;Synthetic model summary: Ara endorses P12. This card records an attributed model interpretation only; no actor attestation is created.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C16-1&quot;,
+      &quot;predicate&quot;: &quot;model_attributes_endorsement&quot;,
+      &quot;arguments&quot;: {
+        &quot;actor&quot;: &quot;ARA&quot;,
+        &quot;plan&quot;: &quot;P12&quot;,
+        &quot;planVersion&quot;: 1
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;synthetic_model_artifact&quot;,
+      &quot;lineageId&quot;: &quot;F-C16-1&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C17</th><td>1</td><td>Changed requirement</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C17&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 8,
+  &quot;recordedTick&quot;: 8,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Changed requirement&quot;,
+  &quot;surfaceText&quot;: &quot;The requirement is now 10 tiles, version 2. This supersedes the initial demand claim F-C02-1.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C17-1&quot;,
+      &quot;predicate&quot;: &quot;demand&quot;,
+      &quot;arguments&quot;: {
+        &quot;requirement&quot;: &quot;tiles&quot;,
+        &quot;requirementVersion&quot;: 2
+      },
+      &quot;value&quot;: 10,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C17-1&quot;,
+      &quot;supersedes&quot;: [
+        &quot;F-C02-1&quot;
+      ]
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr><tr><th scope="row">C18</th><td>1</td><td>Unresolved inspection reports</td><td><details><summary>Inspect authored source record</summary><pre>{
+  &quot;id&quot;: &quot;C18&quot;,
+  &quot;version&quot;: 1,
+  &quot;occurredTick&quot;: 9,
+  &quot;recordedTick&quot;: 9,
+  &quot;kind&quot;: &quot;source_record&quot;,
+  &quot;title&quot;: &quot;Unresolved inspection reports&quot;,
+  &quot;surfaceText&quot;: &quot;Inspector IN1 reports P10 version 1 passed; inspector IN2 reports the same inspection scope failed. Neither report supersedes the other.&quot;,
+  &quot;claims&quot;: [
+    {
+      &quot;id&quot;: &quot;F-C18-1&quot;,
+      &quot;predicate&quot;: &quot;inspection_report&quot;,
+      &quot;arguments&quot;: {
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;scope&quot;: &quot;release&quot;,
+        &quot;reporter&quot;: &quot;IN1&quot;
+      },
+      &quot;value&quot;: true,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C18-1&quot;
+    },
+    {
+      &quot;id&quot;: &quot;F-C18-2&quot;,
+      &quot;predicate&quot;: &quot;inspection_report&quot;,
+      &quot;arguments&quot;: {
+        &quot;plan&quot;: &quot;P10&quot;,
+        &quot;planVersion&quot;: 1,
+        &quot;scope&quot;: &quot;release&quot;,
+        &quot;reporter&quot;: &quot;IN2&quot;
+      },
+      &quot;value&quot;: false,
+      &quot;evidenceKind&quot;: &quot;stipulated_source&quot;,
+      &quot;lineageId&quot;: &quot;F-C18-2&quot;
+    }
+  ],
+  &quot;provenance&quot;: &quot;Author-created fictional material; no human statement or observed outcome.&quot;
+}</pre></details></td></tr></tbody></table><h2>Development task references</h2><p>Withheld tasks and answers are researcher-only files and are not served by this preview.</p><table><thead><tr><th>ID</th><th>Access phase</th><th>Scope</th><th>Question</th></tr></thead><tbody><tr><th scope="row">D01</th><td>initial access</td><td>all</td><td>Report active demand from the supplied evidence, not from unseen cards.</td></tr><tr><th scope="row">D02</th><td>initial access</td><td>all</td><td>Report active physical capacities; preserve superseded sources as history.</td></tr><tr><th scope="row">D03</th><td>initial access</td><td>all</td><td>Keep P12 understanding, endorsement and resource commitments separate.</td></tr><tr><th scope="row">D04</th><td>initial access</td><td>all</td><td>Identify the P10 predicates separately; absence is unknown.</td></tr><tr><th scope="row">D05</th><td>initial access</td><td>all</td><td>Distinguish the recorded model attribution from actual Ara endorsement of P12, and inspect Dev’s mandate.</td></tr><tr><th scope="row">D06</th><td>initial access</td><td>all</td><td>Evaluate the P10 inspection reports for the same plan version and scope.</td></tr><tr><th scope="row">D07</th><td>initial access</td><td>all</td><td>Evaluate each catalog plan relative to only supplied evidence; report component statuses.</td></tr><tr><th scope="row">D08</th><td>initial access</td><td>all</td><td>Choose the minimum-cost supported-ready plan, or none_supported. None does not assert impossibility.</td></tr><tr><th scope="row">D09</th><td>post-union only</td><td>union_only</td><td>For Cy/P10 varnish, count distinct positive commitment lineages and maximum granted amount. Preserve every restatement source.</td></tr><tr><th scope="row">D10</th><td>post-union only</td><td>union_only</td><td>Classify C06/C13 and C13/C14 by surface and normalized relation. Normalized relation includes predicate and all directed argument roles.</td></tr></tbody></table><h2>Public source input hashes</h2><table><thead><tr><th>Design path</th><th>Bytes</th><th>SHA-256</th></tr></thead><tbody><tr><td><code>design/allocations.json</code></td><td>1119</td><td><code>9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d</code></td></tr><tr><td><code>design/development-tasks.json</code></td><td>6342</td><td><code>cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6</code></td></tr><tr><td><code>design/snapshot.schema.json</code></td><td>8053</td><td><code>b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a</code></td></tr><tr><td><code>design/world.json</code></td><td>28103</td><td><code>a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef</code></td></tr></tbody></table><p>Inspect the generated JSON bundles and their SHA-256 manifests on disk for exact source and release boundaries.</p></html>

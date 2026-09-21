@@ -1,0 +1,706 @@
+{
+  "schema": "gate11-host-browser-verification-v1",
+  "generatedAtUtc": "2026-09-20T18:13:44.825Z",
+  "actor": "source_informed_software",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "observations": 101,
+  "hostActions": 80,
+  "originals": 6,
+  "humanParticipants": 0,
+  "semanticHashes": {
+    "passed": 79,
+    "total": 101
+  },
+  "informationHashes": {
+    "passed": 35,
+    "total": 101
+  },
+  "viewportAndScene": {
+    "passed": 101,
+    "total": 101
+  },
+  "checkpoints": [
+    {
+      "index": 22,
+      "label": "baseline-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 23,
+      "label": "baseline-cp-4",
+      "seconds": 4,
+      "pass": true
+    },
+    {
+      "index": 24,
+      "label": "baseline-cp-8",
+      "seconds": 8,
+      "pass": true
+    },
+    {
+      "index": 25,
+      "label": "baseline-cp-12",
+      "seconds": 12,
+      "pass": true
+    },
+    {
+      "index": 26,
+      "label": "baseline-cp-16",
+      "seconds": 16,
+      "pass": true
+    },
+    {
+      "index": 27,
+      "label": "baseline-cp-20",
+      "seconds": 20,
+      "pass": true
+    },
+    {
+      "index": 28,
+      "label": "baseline-cp-24",
+      "seconds": 24,
+      "pass": true
+    },
+    {
+      "index": 66,
+      "label": "after-local-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 67,
+      "label": "after-local-cp-4",
+      "seconds": 4,
+      "pass": true
+    },
+    {
+      "index": 68,
+      "label": "after-local-cp-8",
+      "seconds": 8,
+      "pass": true
+    },
+    {
+      "index": 69,
+      "label": "after-local-cp-12",
+      "seconds": 12,
+      "pass": true
+    },
+    {
+      "index": 70,
+      "label": "after-local-cp-16",
+      "seconds": 16,
+      "pass": true
+    },
+    {
+      "index": 71,
+      "label": "after-local-cp-20",
+      "seconds": 20,
+      "pass": true
+    },
+    {
+      "index": 72,
+      "label": "after-local-cp-24",
+      "seconds": 24,
+      "pass": true
+    },
+    {
+      "index": 73,
+      "label": "reopen-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 74,
+      "label": "reopen-cp-24",
+      "seconds": 24,
+      "pass": true
+    },
+    {
+      "index": 77,
+      "label": "reload-cp-0",
+      "seconds": 0,
+      "pass": true
+    },
+    {
+      "index": 78,
+      "label": "reload-cp-24",
+      "seconds": 24,
+      "pass": true
+    }
+  ],
+  "criticalFirstUse": {
+    "completed": true,
+    "sourceInspectionInputUnchanged": true,
+    "repairParity": true,
+    "negativeParity": true
+  },
+  "localRevisions": [
+    {
+      "id": "L1",
+      "parent": "S0",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L2",
+      "parent": "S0",
+      "fields": [
+        "calibration"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L3",
+      "parent": "S0",
+      "fields": [
+        "authorization"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L4",
+      "parent": "S0",
+      "fields": [],
+      "outcome": "unchanged-content"
+    },
+    {
+      "id": "L5",
+      "parent": "S0",
+      "fields": [
+        "paint"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L6",
+      "parent": "S0",
+      "fields": [
+        "calibration",
+        "authorization",
+        "paint"
+      ],
+      "outcome": "new-content"
+    },
+    {
+      "id": "L7",
+      "parent": "L1",
+      "fields": [
+        "calibration",
+        "authorization"
+      ],
+      "outcome": "unchanged-content"
+    }
+  ],
+  "naturalTour": {
+    "elapsedSeconds": 24.003,
+    "scheduledEvents": [
+      {
+        "sequence": 4,
+        "type": "receiver-select",
+        "origin": "replay",
+        "cursor": 4
+      },
+      {
+        "sequence": 5,
+        "type": "witness-open",
+        "origin": "replay",
+        "cursor": 8
+      },
+      {
+        "sequence": 6,
+        "type": "repair-apply",
+        "origin": "replay",
+        "cursor": 12
+      },
+      {
+        "sequence": 7,
+        "type": "repair-apply",
+        "origin": "replay",
+        "cursor": 16
+      },
+      {
+        "sequence": 8,
+        "type": "representation-select",
+        "origin": "replay",
+        "cursor": 20
+      },
+      {
+        "sequence": 9,
+        "type": "canonical-restore",
+        "origin": "replay",
+        "cursor": 24
+      },
+      {
+        "sequence": 10,
+        "type": "tour-stop",
+        "origin": "automatic",
+        "cursor": 24
+      }
+    ],
+    "endReason": "end-of-sequence",
+    "activeObservationIndices": [
+      80,
+      81,
+      82,
+      83
+    ],
+    "twelveSecondBoundary": "Retained in actual scheduled event and paused checkpoint; no separate active DOM observation inside12–16 seconds."
+  },
+  "exports": {
+    "documentOne": "6f0ba7b0-5d02-4c6a-a315-c6a12b722acc",
+    "documentTwo": "4a4482b7-caee-4e77-bc8e-e4e8340bf339",
+    "distinctDocuments": true,
+    "documentOneEvents": 56,
+    "documentTwoEvents": 21,
+    "includeOwnExport": true,
+    "laterBoundary": "Final Reopen and two historical-link clicks follow the last export and remain in host actions/DOM, not falsely included in its event prefix."
+  },
+  "failures": [
+    {
+      "group": "semantic",
+      "index": 11,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 12,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 13,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 14,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 15,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 16,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 17,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 18,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 19,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 20,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 25,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 26,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 27,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 69,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 70,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 71,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 82,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 83,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 91,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 92,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 93,
+      "pass": false
+    },
+    {
+      "group": "semantic",
+      "index": 94,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 11,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 12,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 13,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 14,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 15,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 16,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 17,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 18,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 19,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 20,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 25,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 26,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 27,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 28,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 30,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 31,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 32,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 33,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 34,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 35,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 36,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 37,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 38,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 39,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 40,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 41,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 42,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 43,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 44,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 45,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 46,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 47,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 48,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 49,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 50,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 51,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 52,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 53,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 54,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 55,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 56,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 57,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 58,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 59,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 60,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 61,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 62,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 63,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 64,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 65,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 69,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 70,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 71,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 72,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 74,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 75,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 78,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 82,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 83,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 84,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 85,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 86,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 87,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 91,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 92,
+      "pass": false
+    },
+    {
+      "group": "information",
+      "index": 93,
+      "pass": false
+    }
+  ],
+  "scope": "Host evidence checks pending separate independent Sol browser audit; no human or diagram advantage claim."
+}

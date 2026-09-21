@@ -1,0 +1,156 @@
+{
+  "schema": "gate13-independent-final-core-002-v1",
+  "status": "PASS",
+  "checkCount": 26,
+  "passCount": 26,
+  "errors": [],
+  "checks": [
+    {
+      "name": "closed core 138 exact pins and freeze identity",
+      "pass": true
+    },
+    {
+      "name": "candidate 001 failure freeze 84 pins unchanged",
+      "pass": true
+    },
+    {
+      "name": "1745 earlier frozen entries unchanged",
+      "pass": true
+    },
+    {
+      "name": "frozen prespec and candidate identity",
+      "pass": true
+    },
+    {
+      "name": "108 complete observations and 91 completed actions",
+      "pass": true
+    },
+    {
+      "name": "108 independently recomputed semantic and information hashes",
+      "pass": true
+    },
+    {
+      "name": "108 actual-versus-published viewport and scene measurements",
+      "pass": true
+    },
+    {
+      "name": "108 source-derived SVG bars, ticks, and zero markers",
+      "pass": true
+    },
+    {
+      "name": "108 source-bound visible statements and scales",
+      "pass": true
+    },
+    {
+      "name": "108 actual control availability versus published operations",
+      "pass": true
+    },
+    {
+      "name": "18 exact paused canonical checkpoint comparisons",
+      "pass": true
+    },
+    {
+      "name": "three actual diagram/plain information parity pairs",
+      "pass": true
+    },
+    {
+      "name": "five untouched, visually inspected JPEGs with hashes and brackets",
+      "pass": true
+    },
+    {
+      "name": "CP8/12/16/20 source/records/representation/version inspection retains scripted state",
+      "pass": true
+    },
+    {
+      "name": "actual canonical version controls succeed at 12,16,20",
+      "pass": true
+    },
+    {
+      "name": "fresh UUID CP20 correction and records succeed without performed local history",
+      "pass": true
+    },
+    {
+      "name": "first document 65-event export includes own event",
+      "pass": true
+    },
+    {
+      "name": "new UUID natural 15 and final 19 events, exact preserved prefix",
+      "pass": true
+    },
+    {
+      "name": "three performed checks and two corrections independently source/event bound",
+      "pass": true
+    },
+    {
+      "name": "one check reuse creates no duplicate performed record",
+      "pass": true
+    },
+    {
+      "name": "scripted definitions remain separate from performed records after reload",
+      "pass": true
+    },
+    {
+      "name": "same-cursor adjacent event chains match",
+      "pass": true
+    },
+    {
+      "name": "seven exact scheduled event identities and scripted provenance",
+      "pass": true
+    },
+    {
+      "name": "natural stop after 24.002 seconds and paused end of sequence",
+      "pass": true
+    },
+    {
+      "name": "active captures in all five 4-second windows",
+      "pass": true
+    },
+    {
+      "name": "final viewport chronology recorded without inferring reset state",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "corePins": 138,
+    "candidate001FailurePins": 84,
+    "priorPins": 1745,
+    "observations": 108,
+    "actions": 91,
+    "originalImages": 5,
+    "checkpointComparisons": 18,
+    "parityPairs": 3,
+    "firstEvents": 65,
+    "naturalEvents": 15,
+    "secondEvents": 19
+  },
+  "mismatches": {
+    "pinnedBad": [],
+    "oldBad": [],
+    "priorBad": [],
+    "hashBad": [],
+    "layoutBad": [],
+    "svgBad": [],
+    "textBad": [],
+    "controlBad": [],
+    "cpBad": [],
+    "savedBad": [],
+    "recBad": [],
+    "imageBad": []
+  },
+  "sameCursorChains": {
+    "first": {
+      "pairs": 43,
+      "bad": []
+    },
+    "natural": {
+      "pairs": 6,
+      "bad": []
+    },
+    "second": {
+      "pairs": 8,
+      "bad": []
+    }
+  },
+  "naturalElapsedSeconds": 24.002,
+  "scope": "Sealed actual supported-browser evidence and frozen contracts; no implementation imports, no human claim."
+}

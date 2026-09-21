@@ -1,0 +1,1273 @@
+[
+  {
+    "seconds": 0,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "cursorSeconds": 0,
+      "paused": true,
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "visual",
+      "cursorSeconds": 0,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "original",
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": null,
+      "correction": null,
+      "correctionMarker": null,
+      "debrief": null
+    },
+    "semanticFingerprint": "b4014e4a826bf729f4282b3cf7d352c580f6b70ec47effc12f841723294889d4",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 4,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "cursorSeconds": 4,
+      "paused": true,
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "visual",
+      "cursorSeconds": 4,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": null,
+      "correction": null,
+      "correctionMarker": null,
+      "debrief": null
+    },
+    "semanticFingerprint": "722cf8d9f19658e35142b3f35c6e87dcc3ae5a322a1aa6f95103edde05e621a8",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 8,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "cursorSeconds": 8,
+      "paused": true,
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": false,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "visual",
+      "cursorSeconds": 8,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": false,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": {
+        "schema": "gate13-check-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "statementId": "MISMATCH-TWICE-1",
+        "statementVersion": 1,
+        "statementText": "B completed twice as many tiles as A.",
+        "predicate": "TWICE_COUNT@1",
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "verdict": false,
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "originalOffsets": [
+          10,
+          20
+        ],
+        "originalSvgWidths": [
+          80,
+          160
+        ],
+        "originalLengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-check"
+      },
+      "correction": null,
+      "correctionMarker": null,
+      "debrief": null
+    },
+    "semanticFingerprint": "daa1f6beb2577d40f850fdc771b4fbfed6c549468e5da29cff4b675896ff427a",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 12,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "visual",
+      "cursorSeconds": 12,
+      "paused": true,
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "visual",
+      "cursorSeconds": 12,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-CORRECTED-1",
+        "version": 1,
+        "text": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "scale": {
+          "lowerBound": 0,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            0,
+            20,
+            40,
+            60,
+            80,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ],
+        "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded."
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          80,
+          90
+        ],
+        "svgWidths": [
+          192,
+          216
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": {
+        "schema": "gate13-check-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "statementId": "MISMATCH-TWICE-1",
+        "statementVersion": 1,
+        "statementText": "B completed twice as many tiles as A.",
+        "predicate": "TWICE_COUNT@1",
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "verdict": false,
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "originalOffsets": [
+          10,
+          20
+        ],
+        "originalSvgWidths": [
+          80,
+          160
+        ],
+        "originalLengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-check"
+      },
+      "correction": {
+        "schema": "gate13-correction-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "checkContentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735",
+        "correctedDisplayId": "MISMATCH-CORRECTED-1",
+        "correctedDisplayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+        "correctedText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "oldLowerBound": 70,
+        "newLowerBound": 0,
+        "oldSvgWidths": [
+          80,
+          160
+        ],
+        "newSvgWidths": [
+          192,
+          216
+        ],
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "correctedLengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "factsTrue": true,
+        "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded.",
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-correction"
+      },
+      "correctionMarker": null,
+      "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded."
+    },
+    "semanticFingerprint": "c94e8c0d635e76c7364edd0240e7026bfda76c711b4b5bfec170800c83e63965",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 16,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "representation": "plain",
+      "cursorSeconds": 16,
+      "paused": true,
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "plain",
+      "cursorSeconds": 16,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "corrected",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-CORRECTED-1",
+        "version": 1,
+        "text": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "scale": {
+          "lowerBound": 0,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            0,
+            20,
+            40,
+            60,
+            80,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ],
+        "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded."
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 0,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "offsets": [
+          80,
+          90
+        ],
+        "svgWidths": [
+          192,
+          216
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": {
+        "schema": "gate13-check-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "statementId": "MISMATCH-TWICE-1",
+        "statementVersion": 1,
+        "statementText": "B completed twice as many tiles as A.",
+        "predicate": "TWICE_COUNT@1",
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "verdict": false,
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "originalOffsets": [
+          10,
+          20
+        ],
+        "originalSvgWidths": [
+          80,
+          160
+        ],
+        "originalLengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-check"
+      },
+      "correction": {
+        "schema": "gate13-correction-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "checkContentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735",
+        "correctedDisplayId": "MISMATCH-CORRECTED-1",
+        "correctedDisplayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+        "correctedText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "oldLowerBound": 70,
+        "newLowerBound": 0,
+        "oldSvgWidths": [
+          80,
+          160
+        ],
+        "newSvgWidths": [
+          192,
+          216
+        ],
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "correctedLengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "factsTrue": true,
+        "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded.",
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-correction"
+      },
+      "correctionMarker": null,
+      "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded."
+    },
+    "semanticFingerprint": "854a362af3733bdc969fe0ad0e7559c7356757463a41d406471620dd8ac8f254",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 20,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "plain",
+      "cursorSeconds": 20,
+      "paused": true,
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "plain",
+      "cursorSeconds": 20,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "original",
+      "sourceOpen": true,
+      "recordsOpen": false,
+      "activeCheck": true,
+      "activeCorrection": true,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": {
+        "schema": "gate13-check-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "statementId": "MISMATCH-TWICE-1",
+        "statementVersion": 1,
+        "statementText": "B completed twice as many tiles as A.",
+        "predicate": "TWICE_COUNT@1",
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "verdict": false,
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "originalOffsets": [
+          10,
+          20
+        ],
+        "originalSvgWidths": [
+          80,
+          160
+        ],
+        "originalLengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-check"
+      },
+      "correction": {
+        "schema": "gate13-correction-content-v1",
+        "caseId": "MISMATCH",
+        "sourceId": "MISMATCH-SOURCE-1",
+        "sourceHash": "d8ea17d5467ee65ce02b557f2cbc24c6a3db583acae6f10d3ea803e967c5f425",
+        "originalDisplayId": "MISMATCH-ORIGINAL-1",
+        "originalDisplayHash": "4df233c071f40f56d88bfb85d236f9a16c1ca24f636337aca14035aa55f2b5a1",
+        "checkContentHash": "98df04d1d863f2e5bd527bfed8cc36598cf27e408b2bf011d6e86f88a4c0a735",
+        "correctedDisplayId": "MISMATCH-CORRECTED-1",
+        "correctedDisplayHash": "53eea8e13bbef4b1c6c99b84e16aa491f5b1725803decf039a429ac95ae62d70",
+        "correctedText": "B completed 90 tiles; A completed 80. B completed 10 more tiles, or 9/8 as many.",
+        "oldLowerBound": 70,
+        "newLowerBound": 0,
+        "oldSvgWidths": [
+          80,
+          160
+        ],
+        "newSvgWidths": [
+          192,
+          216
+        ],
+        "difference": 10,
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "correctedLengthRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "factsTrue": true,
+        "debrief": "The original headline is false: 90 is not twice 80. Subtracting a baseline of 70 produces lengths 10 and 20, whose ratio is 2. Those lengths are offsets, not completed counts. The corrected chart starts at zero and preserves the original source. This authored example does not show that a person was persuaded.",
+        "diagnosis": "cropped-length-ratio-is-not-count-ratio",
+        "provenanceClass": "authored-software-correction"
+      },
+      "correctionMarker": "Correction available; original retained for inspection",
+      "debrief": null
+    },
+    "semanticFingerprint": "2dd7f915fc89a3588686c95c2f37e0d876c4905674f94081e0772e0ca102eaac",
+    "referenceOnly": true
+  },
+  {
+    "seconds": 24,
+    "state": {
+      "mode": "saved-tour",
+      "caseId": "MISMATCH",
+      "version": "original",
+      "representation": "visual",
+      "cursorSeconds": 24,
+      "paused": true,
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "endReason": null
+    },
+    "payload": {
+      "schema": "gate13-semantic-v1",
+      "mode": "saved-tour",
+      "representation": "visual",
+      "cursorSeconds": 24,
+      "paused": true,
+      "endReason": null,
+      "caseId": "MISMATCH",
+      "version": "original",
+      "sourceOpen": false,
+      "recordsOpen": false,
+      "activeCheck": false,
+      "activeCorrection": false,
+      "source": {
+        "id": "MISMATCH-SOURCE-1",
+        "version": 1,
+        "scope": "Fictional test tiles completed in the same stipulated window within this case; counts, not rates.",
+        "unit": "tiles",
+        "windowId": "MISMATCH-WINDOW-1",
+        "records": [
+          {
+            "id": "A",
+            "completedCount": 80
+          },
+          {
+            "id": "B",
+            "completedCount": 90
+          }
+        ],
+        "provenance": "author-created synthetic fixture; no measured production"
+      },
+      "originalDisplay": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "display": {
+        "id": "MISMATCH-ORIGINAL-1",
+        "version": 1,
+        "statement": {
+          "id": "MISMATCH-TWICE-1",
+          "predicate": "TWICE_COUNT",
+          "predicateVersion": 1,
+          "text": "B completed twice as many tiles as A."
+        },
+        "scale": {
+          "lowerBound": 70,
+          "upperBound": 100,
+          "plotWidth": 240,
+          "ticks": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        "mark": "horizontal-length",
+        "sourceOrder": [
+          "A",
+          "B"
+        ]
+      },
+      "encoding": {
+        "counts": {
+          "A": 80,
+          "B": 90
+        },
+        "lowerBound": 70,
+        "upperBound": 100,
+        "plotWidth": 240,
+        "ticks": [
+          70,
+          80,
+          90,
+          100
+        ],
+        "offsets": [
+          10,
+          20
+        ],
+        "svgWidths": [
+          80,
+          160
+        ],
+        "countRatio": {
+          "status": "defined",
+          "numerator": 9,
+          "denominator": 8
+        },
+        "lengthRatio": {
+          "status": "defined",
+          "numerator": 2,
+          "denominator": 1
+        },
+        "difference": 10,
+        "predicateOperands": {
+          "leftB": 90,
+          "rightTwiceA": 160
+        },
+        "originalStatementTrue": false
+      },
+      "check": null,
+      "correction": null,
+      "correctionMarker": null,
+      "debrief": null
+    },
+    "semanticFingerprint": "8f091488ca89c370f19681755549105921a3409e6ad33cb830a6d412f386dc9d",
+    "referenceOnly": true
+  }
+]

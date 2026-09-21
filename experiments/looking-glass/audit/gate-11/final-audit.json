@@ -1,0 +1,22 @@
+{
+  "schema": "gate11-independent-final-audit-v1",
+  "verdict": "PASS_BOUNDED_SOFTWARE_AND_BROWSER_EVIDENCE",
+  "runId": "G11-RECEIVER-002",
+  "buildId": "g11-7ced826c903d40c5a0dd",
+  "fullSourceSha256": "7ced826c903d40c5a0dd6398477debdf65e1ccbd4a9260d4d0fe9556aad1fc70",
+  "closedCore": {"path": "evidence/gate-11/CORE_EVIDENCE_FREEZE.json", "sha256": "e9ab3b68f78a2b7c5a018ef39bd88efcb79536abd83ee1beb7b94e6df52c232a", "entriesRehashed": 54, "mismatches": 0},
+  "independentVerification": {"script": "audit/gate-11/verify-final-core.mjs", "result": "audit/gate-11/final-core-verification.json", "status": "PASS", "checksPassed": 2567, "checksTotal": 2567},
+  "historicalIntegrity": {"priorGateFrozenEntriesRehashed": 1437, "mismatches": 0, "actualGate10PausedReplayAndSeparateNegativeResultsLabel": true},
+  "acceptedFullAcquisition": {"directory": "evidence/gate-11/browser-002-full", "observations": 100, "hostActions": 79, "uneditedOriginalJpegs": 6, "semanticHashesRecomputed": 100, "informationHashesRecomputed": 100, "payloadHashesRecomputed": 100, "viewportAndSceneMatches": 100, "designatedPausedCheckpointMatches": 18, "localRevisionsWithProvenance": 7, "naturalTourElapsedSeconds": 24.005, "naturalScheduledEvents": 7, "documentOneExportEvents": 56, "documentTwoExportEvents": 21, "distinctDocumentIds": 2, "finalPausedCursorSeconds": 0},
+  "earlierPreservedAcquisitions": [
+    {"directory": "evidence/gate-11/browser-001", "observations": 75, "hostActions": 62, "originalJpegs": 5, "qualification": "Candidate001 retains a separately reproduced atomic publication race; collection stopped before reload/natural tour."},
+    {"directory": "evidence/gate-11/browser-002", "observations": 101, "hostActions": 80, "originalJpegs": 6, "qualification": "CUA structured-object transport truncated 21 semantic and 66 information payloads and shifted one active cursor double by one ULP; preserved, not used as complete hash evidence."}
+  ],
+  "modelResult": "The four-world receiver benchmark, every observed projection/certificate, pure receiver results, witness collision/separation, local negative versus global insufficiency, seven retained local repair branches, copied source envelopes and three wrong-shortcut counterexamples match the frozen finite oracle.",
+  "eventResult": "Two actual-document event prefixes are sequenced and attributed truthfully, include their own export events, and reference all seven local revision creations. Seven scripted/automatic tour events reached the natural end-of-sequence in 24.005 seconds; clock-advancement gaps are not misreported as adjacent same-state chains.",
+  "captureQualification": "An oversized single-string read failed after one successful export. The host retained captureError and recovered the complete observation with a read-only shallow-chunk string capture in one DOM read; the failed read is not counted as an observation.",
+  "observationLimits": ["No separate active DOM observation during natural tour seconds 12–16; the 12-second boundary is in the actual scheduled event and paused checkpoint.", "The collision witness screenshot exposes only the first part of its capped JSON panel; full public pair data were checked from complete DOM observations and exports.", "No participant, learning, omission-detection or diagram-advantage result was measured."],
+  "humanParticipants": 0,
+  "nextGateApproved": false,
+  "openCoreBlockers": []
+}

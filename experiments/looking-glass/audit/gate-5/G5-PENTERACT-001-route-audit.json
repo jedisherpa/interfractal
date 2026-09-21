@@ -1,0 +1,94 @@
+{
+  "kind": "read-only-exact-route-audit",
+  "runId": "G5-PENTERACT-001",
+  "buildId": "g5-0bdee39bcd7dd541",
+  "baseUrl": "http://127.0.0.1:43998",
+  "passed": 15,
+  "cases": [
+    {
+      "url": "/",
+      "status": 200,
+      "bytes": 6152,
+      "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef"
+    },
+    {
+      "url": "/style.css",
+      "status": 200,
+      "bytes": 5042,
+      "sha256": "764bdea89235ac1529caae521b65848ec8b6ac704d2331730f51ca8d074306b4"
+    },
+    {
+      "url": "/app.mjs",
+      "status": 200,
+      "bytes": 25151,
+      "sha256": "734c1728367cbd8ac589f2c8a20b7f6636337fcd0cdf1d3f641e446eb768fcc3"
+    },
+    {
+      "url": "/model.mjs",
+      "status": 200,
+      "bytes": 15160,
+      "sha256": "0bacbb23bb6d4666b946ca19d5b7236231f8c66d256df95125a54ea621847a6d"
+    },
+    {
+      "url": "/api/run",
+      "status": 200,
+      "bytes": 3959,
+      "sha256": "cb35b3d2a24101b62844b81ee9ae7f8d9ece2d24cd8cc49b74de5fe548e2fa81"
+    },
+    {
+      "url": "/api/current-run",
+      "status": 200,
+      "bytes": 3959,
+      "sha256": "cb35b3d2a24101b62844b81ee9ae7f8d9ece2d24cd8cc49b74de5fe548e2fa81"
+    },
+    {
+      "url": "/api/checkpoints",
+      "status": 200,
+      "bytes": 937697,
+      "sha256": "de96342b6cbcc0adcc898bff3494eb41da455b9b360dec3efe1d0f48d8192519"
+    },
+    {
+      "url": "/api/events",
+      "status": 200,
+      "bytes": 5636,
+      "sha256": "14a26fa2c6850c6adcee5a4e3954e84df854f29cc155f385a7ab696073d9418f"
+    },
+    {
+      "url": "/api/evidence",
+      "status": 200,
+      "bytes": 134,
+      "sha256": "637e8741687546579221366823bae6e487a99e7a877ca579e40e07440b11de34"
+    },
+    {
+      "url": "/runs/G5-PENTERACT-001/run.json",
+      "status": 200,
+      "bytes": 3959,
+      "sha256": "cb35b3d2a24101b62844b81ee9ae7f8d9ece2d24cd8cc49b74de5fe548e2fa81"
+    },
+    {
+      "url": "/runs/G5-PENTERACT-001/observation-cases.json",
+      "status": 200,
+      "bytes": 163331,
+      "sha256": "01dc3af974efe58b18ec724954405f89ff796dd60dee20a00e9cbb93dcb1254c"
+    },
+    {
+      "url": "/runs/G5-PENTERACT-001/slice-cases.json",
+      "status": 200,
+      "bytes": 7878,
+      "sha256": "1fc6110601d554757bcf38c8b752d41489aa1b480da21a3923ef6016048b8242"
+    },
+    {
+      "url": "/does-not-exist",
+      "status": 404
+    },
+    {
+      "url": "/server.mjs",
+      "status": 404
+    },
+    {
+      "url": "/runs/not-a-run.json",
+      "status": 404
+    }
+  ],
+  "allChecksPassed": true
+}

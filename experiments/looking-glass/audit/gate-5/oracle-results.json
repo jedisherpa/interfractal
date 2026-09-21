@@ -1,0 +1,917 @@
+{
+  "kind": "independent-equation-oracle",
+  "implementationImported": false,
+  "tolerance": 1e-10,
+  "geometry": {
+    "vertices": 32,
+    "edges": 80,
+    "affineRank": 5,
+    "pairwiseDistancesPerGridPoint": 496,
+    "gridPoints": 25,
+    "pairsChecked": 12400,
+    "maxInvariantError": 7.105427357601002e-15
+  },
+  "reconstruction": {
+    "baseRank": 3,
+    "withXwRank": 4,
+    "withYvRank": 5,
+    "testPoints": 33,
+    "underXwOnly": "v hidden"
+  },
+  "slices": [
+    {
+      "s": 0,
+      "t": 0,
+      "u": 1,
+      "kind": "solid",
+      "radius": 1,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0.5,
+      "t": 0,
+      "u": 0.75,
+      "kind": "solid",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0,
+      "t": 0.5,
+      "u": 0.75,
+      "kind": "solid",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0.5,
+      "t": 0.5,
+      "u": 0.5,
+      "kind": "solid",
+      "radius": 0.7071067811865476,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 1,
+      "t": 0,
+      "u": 0,
+      "kind": "point",
+      "radius": 0,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0,
+      "t": 1,
+      "u": 0,
+      "kind": "point",
+      "radius": 0,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 1.25,
+      "t": 0,
+      "u": -0.5625,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "s": 0,
+      "t": 1.25,
+      "u": -0.5625,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "s": 1,
+      "t": 1,
+      "u": -1,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "s": -0.5,
+      "t": 0,
+      "u": 0.75,
+      "kind": "solid",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0,
+      "t": -0.5,
+      "u": 0.75,
+      "kind": "solid",
+      "radius": 0.8660254037844386,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": -0.999999,
+      "t": 0,
+      "u": 0.000001999999000079633,
+      "kind": "solid",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0,
+      "t": -0.999999,
+      "u": 0.000001999999000079633,
+      "kind": "solid",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": -1.000001,
+      "t": 0,
+      "u": -0.0000020000009999243673,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "s": 0,
+      "t": -1.000001,
+      "u": -0.0000020000009999243673,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "s": 0.999999,
+      "t": 0,
+      "u": 0.000001999999000079633,
+      "kind": "solid",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 0,
+      "t": 0.999999,
+      "u": 0.000001999999000079633,
+      "kind": "solid",
+      "radius": 0.0014142132088478148,
+      "center3": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "s": 1.000001,
+      "t": 0,
+      "u": -0.0000020000009999243673,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    },
+    {
+      "s": 0,
+      "t": 1.000001,
+      "u": -0.0000020000009999243673,
+      "kind": "empty",
+      "radius": null,
+      "center3": null
+    }
+  ],
+  "checkpoints": [
+    {
+      "timeMs": 0,
+      "anglesDeg": [
+        0,
+        0
+      ]
+    },
+    {
+      "timeMs": 5000,
+      "anglesDeg": [
+        45,
+        0
+      ]
+    },
+    {
+      "timeMs": 10000,
+      "anglesDeg": [
+        90,
+        0
+      ]
+    },
+    {
+      "timeMs": 15000,
+      "anglesDeg": [
+        90,
+        45
+      ]
+    },
+    {
+      "timeMs": 20000,
+      "anglesDeg": [
+        90,
+        90
+      ]
+    },
+    {
+      "timeMs": 25000,
+      "anglesDeg": [
+        45,
+        90
+      ]
+    },
+    {
+      "timeMs": 30000,
+      "anglesDeg": [
+        0,
+        90
+      ]
+    },
+    {
+      "timeMs": 35000,
+      "anglesDeg": [
+        0,
+        45
+      ]
+    },
+    {
+      "timeMs": 40000,
+      "anglesDeg": [
+        0,
+        0
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "anglesDeg": [
+        0,
+        0
+      ],
+      "four": {
+        "vertices": 16,
+        "edges": 32,
+        "collapsed": 8,
+        "nonzero": 24,
+        "rawSites": 8,
+        "rawExcess": 8,
+        "screenSites": 8,
+        "screenExcess": 8,
+        "markerCollisionPairs": 8,
+        "markerCollisionPairIds": [
+          [
+            "v0000",
+            "v0001"
+          ],
+          [
+            "v0010",
+            "v0011"
+          ],
+          [
+            "v0100",
+            "v0101"
+          ],
+          [
+            "v0110",
+            "v0111"
+          ],
+          [
+            "v1000",
+            "v1001"
+          ],
+          [
+            "v1010",
+            "v1011"
+          ],
+          [
+            "v1100",
+            "v1101"
+          ],
+          [
+            "v1110",
+            "v1111"
+          ]
+        ],
+        "markedRoster": [
+          "v0000",
+          "v0001"
+        ]
+      },
+      "five": {
+        "vertices": 32,
+        "edges": 80,
+        "collapsed": 32,
+        "nonzero": 48,
+        "rawSites": 8,
+        "rawExcess": 24,
+        "screenSites": 8,
+        "screenExcess": 24,
+        "markerCollisionPairs": 48,
+        "markerCollisionPairIds": [
+          [
+            "v00000",
+            "v00001"
+          ],
+          [
+            "v00000",
+            "v00010"
+          ],
+          [
+            "v00000",
+            "v00011"
+          ],
+          [
+            "v00001",
+            "v00010"
+          ],
+          [
+            "v00001",
+            "v00011"
+          ],
+          [
+            "v00010",
+            "v00011"
+          ],
+          [
+            "v00100",
+            "v00101"
+          ],
+          [
+            "v00100",
+            "v00110"
+          ],
+          [
+            "v00100",
+            "v00111"
+          ],
+          [
+            "v00101",
+            "v00110"
+          ],
+          [
+            "v00101",
+            "v00111"
+          ],
+          [
+            "v00110",
+            "v00111"
+          ],
+          [
+            "v01000",
+            "v01001"
+          ],
+          [
+            "v01000",
+            "v01010"
+          ],
+          [
+            "v01000",
+            "v01011"
+          ],
+          [
+            "v01001",
+            "v01010"
+          ],
+          [
+            "v01001",
+            "v01011"
+          ],
+          [
+            "v01010",
+            "v01011"
+          ],
+          [
+            "v01100",
+            "v01101"
+          ],
+          [
+            "v01100",
+            "v01110"
+          ],
+          [
+            "v01100",
+            "v01111"
+          ],
+          [
+            "v01101",
+            "v01110"
+          ],
+          [
+            "v01101",
+            "v01111"
+          ],
+          [
+            "v01110",
+            "v01111"
+          ],
+          [
+            "v10000",
+            "v10001"
+          ],
+          [
+            "v10000",
+            "v10010"
+          ],
+          [
+            "v10000",
+            "v10011"
+          ],
+          [
+            "v10001",
+            "v10010"
+          ],
+          [
+            "v10001",
+            "v10011"
+          ],
+          [
+            "v10010",
+            "v10011"
+          ],
+          [
+            "v10100",
+            "v10101"
+          ],
+          [
+            "v10100",
+            "v10110"
+          ],
+          [
+            "v10100",
+            "v10111"
+          ],
+          [
+            "v10101",
+            "v10110"
+          ],
+          [
+            "v10101",
+            "v10111"
+          ],
+          [
+            "v10110",
+            "v10111"
+          ],
+          [
+            "v11000",
+            "v11001"
+          ],
+          [
+            "v11000",
+            "v11010"
+          ],
+          [
+            "v11000",
+            "v11011"
+          ],
+          [
+            "v11001",
+            "v11010"
+          ],
+          [
+            "v11001",
+            "v11011"
+          ],
+          [
+            "v11010",
+            "v11011"
+          ],
+          [
+            "v11100",
+            "v11101"
+          ],
+          [
+            "v11100",
+            "v11110"
+          ],
+          [
+            "v11100",
+            "v11111"
+          ],
+          [
+            "v11101",
+            "v11110"
+          ],
+          [
+            "v11101",
+            "v11111"
+          ],
+          [
+            "v11110",
+            "v11111"
+          ]
+        ],
+        "markedRoster": [
+          "v00000",
+          "v00001",
+          "v00010",
+          "v00011"
+        ]
+      }
+    },
+    {
+      "anglesDeg": [
+        45,
+        0
+      ],
+      "four": {
+        "vertices": 16,
+        "edges": 32,
+        "collapsed": 0,
+        "nonzero": 32,
+        "rawSites": 12,
+        "rawExcess": 4,
+        "screenSites": 12,
+        "screenExcess": 4,
+        "markerCollisionPairs": 4,
+        "markerCollisionPairIds": [
+          [
+            "v0000",
+            "v1001"
+          ],
+          [
+            "v0010",
+            "v1011"
+          ],
+          [
+            "v0100",
+            "v1101"
+          ],
+          [
+            "v0110",
+            "v1111"
+          ]
+        ],
+        "markedRoster": [
+          "v0000",
+          "v1001"
+        ]
+      },
+      "five": {
+        "vertices": 32,
+        "edges": 80,
+        "collapsed": 16,
+        "nonzero": 64,
+        "rawSites": 12,
+        "rawExcess": 20,
+        "screenSites": 12,
+        "screenExcess": 20,
+        "markerCollisionPairs": 32,
+        "markerCollisionPairIds": [
+          [
+            "v00000",
+            "v00001"
+          ],
+          [
+            "v00000",
+            "v10010"
+          ],
+          [
+            "v00000",
+            "v10011"
+          ],
+          [
+            "v00001",
+            "v10010"
+          ],
+          [
+            "v00001",
+            "v10011"
+          ],
+          [
+            "v00010",
+            "v00011"
+          ],
+          [
+            "v00100",
+            "v00101"
+          ],
+          [
+            "v00100",
+            "v10110"
+          ],
+          [
+            "v00100",
+            "v10111"
+          ],
+          [
+            "v00101",
+            "v10110"
+          ],
+          [
+            "v00101",
+            "v10111"
+          ],
+          [
+            "v00110",
+            "v00111"
+          ],
+          [
+            "v01000",
+            "v01001"
+          ],
+          [
+            "v01000",
+            "v11010"
+          ],
+          [
+            "v01000",
+            "v11011"
+          ],
+          [
+            "v01001",
+            "v11010"
+          ],
+          [
+            "v01001",
+            "v11011"
+          ],
+          [
+            "v01010",
+            "v01011"
+          ],
+          [
+            "v01100",
+            "v01101"
+          ],
+          [
+            "v01100",
+            "v11110"
+          ],
+          [
+            "v01100",
+            "v11111"
+          ],
+          [
+            "v01101",
+            "v11110"
+          ],
+          [
+            "v01101",
+            "v11111"
+          ],
+          [
+            "v01110",
+            "v01111"
+          ],
+          [
+            "v10000",
+            "v10001"
+          ],
+          [
+            "v10010",
+            "v10011"
+          ],
+          [
+            "v10100",
+            "v10101"
+          ],
+          [
+            "v10110",
+            "v10111"
+          ],
+          [
+            "v11000",
+            "v11001"
+          ],
+          [
+            "v11010",
+            "v11011"
+          ],
+          [
+            "v11100",
+            "v11101"
+          ],
+          [
+            "v11110",
+            "v11111"
+          ]
+        ],
+        "markedRoster": [
+          "v00000",
+          "v00001",
+          "v10010",
+          "v10011"
+        ]
+      }
+    },
+    {
+      "anglesDeg": [
+        45,
+        45
+      ],
+      "four": {
+        "vertices": 16,
+        "edges": 32,
+        "collapsed": 0,
+        "nonzero": 32,
+        "rawSites": 12,
+        "rawExcess": 4,
+        "screenSites": 12,
+        "screenExcess": 4,
+        "markerCollisionPairs": 4,
+        "markerCollisionPairIds": [
+          [
+            "v0000",
+            "v1001"
+          ],
+          [
+            "v0010",
+            "v1011"
+          ],
+          [
+            "v0100",
+            "v1101"
+          ],
+          [
+            "v0110",
+            "v1111"
+          ]
+        ],
+        "markedRoster": [
+          "v0000",
+          "v1001"
+        ]
+      },
+      "five": {
+        "vertices": 32,
+        "edges": 80,
+        "collapsed": 0,
+        "nonzero": 80,
+        "rawSites": 18,
+        "rawExcess": 14,
+        "screenSites": 18,
+        "screenExcess": 14,
+        "markerCollisionPairs": 20,
+        "markerCollisionPairIds": [
+          [
+            "v00000",
+            "v01001"
+          ],
+          [
+            "v00000",
+            "v10010"
+          ],
+          [
+            "v00000",
+            "v11011"
+          ],
+          [
+            "v00001",
+            "v10011"
+          ],
+          [
+            "v00010",
+            "v01011"
+          ],
+          [
+            "v00100",
+            "v01101"
+          ],
+          [
+            "v00100",
+            "v10110"
+          ],
+          [
+            "v00100",
+            "v11111"
+          ],
+          [
+            "v00101",
+            "v10111"
+          ],
+          [
+            "v00110",
+            "v01111"
+          ],
+          [
+            "v01000",
+            "v11010"
+          ],
+          [
+            "v01001",
+            "v10010"
+          ],
+          [
+            "v01001",
+            "v11011"
+          ],
+          [
+            "v01100",
+            "v11110"
+          ],
+          [
+            "v01101",
+            "v10110"
+          ],
+          [
+            "v01101",
+            "v11111"
+          ],
+          [
+            "v10000",
+            "v11001"
+          ],
+          [
+            "v10010",
+            "v11011"
+          ],
+          [
+            "v10100",
+            "v11101"
+          ],
+          [
+            "v10110",
+            "v11111"
+          ]
+        ],
+        "markedRoster": [
+          "v00000",
+          "v01001",
+          "v10010",
+          "v11011"
+        ]
+      }
+    },
+    {
+      "anglesDeg": [
+        30,
+        30
+      ],
+      "four": {
+        "vertices": 16,
+        "edges": 32,
+        "collapsed": 0,
+        "nonzero": 32,
+        "rawSites": 16,
+        "rawExcess": 0,
+        "screenSites": 16,
+        "screenExcess": 0,
+        "markerCollisionPairs": 0,
+        "markerCollisionPairIds": [],
+        "markedRoster": [
+          "v0000"
+        ]
+      },
+      "five": {
+        "vertices": 32,
+        "edges": 80,
+        "collapsed": 0,
+        "nonzero": 80,
+        "rawSites": 32,
+        "rawExcess": 0,
+        "screenSites": 32,
+        "screenExcess": 0,
+        "markerCollisionPairs": 0,
+        "markerCollisionPairIds": [],
+        "markedRoster": [
+          "v00000"
+        ]
+      }
+    }
+  ],
+  "status": "prespecified equations independently verified; no implementation or browser result"
+}

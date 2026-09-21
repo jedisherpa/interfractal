@@ -1,0 +1,73 @@
+{
+  "schema": "gate12-candidate-001-controlled-ui-race-v1",
+  "candidate": "G12-COORD-001",
+  "status": "BLOCKED",
+  "checkCount": 11,
+  "passCount": 9,
+  "checks": [
+    {
+      "name": "initial snapshot",
+      "pass": true
+    },
+    {
+      "name": "new local branch",
+      "pass": true
+    },
+    {
+      "name": "export includes its own event",
+      "pass": true
+    },
+    {
+      "name": "post-export layout measured",
+      "pass": true
+    },
+    {
+      "name": "paused control then scroll/resize/details preserves semantic",
+      "pass": true
+    },
+    {
+      "name": "post-render metadata from latest viewport",
+      "pass": true
+    },
+    {
+      "name": "published inspector matches latest packet",
+      "pass": true
+    },
+    {
+      "name": "obsolete slow semantic result rejected",
+      "pass": true
+    },
+    {
+      "name": "semantic token settled",
+      "pass": true
+    },
+    {
+      "name": "local branch index has no duplicate and canonical remains selectable",
+      "pass": false,
+      "detail": [
+        "L1",
+        "L1"
+      ]
+    },
+    {
+      "name": "retained-outcome select has enablement handler",
+      "pass": false
+    }
+  ],
+  "errors": [
+    {
+      "name": "local branch index has no duplicate and canonical remains selectable",
+      "pass": false,
+      "detail": [
+        "L1",
+        "L1"
+      ]
+    },
+    {
+      "name": "retained-outcome select has enablement handler",
+      "pass": false
+    }
+  ],
+  "hashCalls": 27,
+  "scope": "isolated VM DOM/clock reproduction; not supported-browser evidence"
+}

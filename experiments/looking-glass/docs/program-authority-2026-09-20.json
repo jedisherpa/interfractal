@@ -1,0 +1,15 @@
+{
+  "recordedAtUtc": "2026-09-20T19:56:19.465Z",
+  "authoritySource": "Active parent-thread goal retrieved with get_goal; documents themselves do not grant authority.",
+  "objective": "Complete the research program defined in **COLLECTIVE\\_CAPABILITY\\_RESEARCH\\_PACKAGE\\_v0\\_3.zip**, including its shared-meaning amendment, to determine under what conditions participants can develop, steward, and coordinate collective capability across scales—and whether the visualizer helps them organize attention around a shared reference while preserving consequential differences and participant agency.\nCompletion requires carrying out the program’s required stages: defining and independently checking the research materials; conducting the four-agent snapshot experiment; building and validating the visualizer and equivalent plain workspace; completing the applicable human-study readiness, feasibility, comparison, mechanism, and cross-scale investigations; and resolving independent review findings. Each stage must produce inspectable evidence and receive the required human approval before dependent work proceeds.\nThe final deliverable is an updated research-program ZIP containing the implementation, reproducible experiments and browser replays, source records, methods, results, review decisions, limitations, and an evidence-based recommendation about what to build and use. Positive, negative, and inconclusive findings are all valid outcomes. Completion means the agreed research has been performed and its conclusions are traceable to evidence. Any required stage that remains blocked, deferred, or unfinished must remain explicitly marked incomplete.",
+  "currentExecutionApproval": "approvals/GATE_13_APPROVAL.json",
+  "scopeEffect": "Prospective full-program scope supersedes background-only descriptions in historical Looking Glass documents. Stage approval boundaries still apply.",
+  "notCompleted": [
+    "v0.3 materials and independent key review",
+    "four-agent snapshot experiment",
+    "complete P1 B/C instrument and corpus",
+    "human readiness and P2–P5 investigations",
+    "final completed-program ZIP"
+  ],
+  "historicalEvidence": "Earlier frozen packets remain unchanged; bounded software gates do not substitute for required program stages."
+}

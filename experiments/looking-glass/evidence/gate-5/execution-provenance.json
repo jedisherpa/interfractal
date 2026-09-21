@@ -1,0 +1,47 @@
+{
+  "recordedAtUtc": "2026-09-20T03:49:36.884740+00:00",
+  "gate": 5,
+  "routingSource": "Actual user request and project AGENTS.md",
+  "workers": [
+    {
+      "task": "/root/g5_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Orchestration, frozen specification and later synthesis"
+    },
+    {
+      "task": "/root/g5_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Bounded primary-source internet gathering"
+    },
+    {
+      "task": "/root/g5_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation and build checks"
+    },
+    {
+      "task": "/root/g5_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent mathematical, immutable build, route and later actual browser evidence audit; separate from builder"
+    }
+  ],
+  "independentAudit": "Separate GPT-5.6 Sol worker completed mathematical, immutable-build, route, saved browser/activity, original-capture, closed-core and historical-integrity audit. All declared checks passed; qualifications in audit/gate-5/AUDIT.md.",
+  "hostCoordinator": "Local workspace and Git, tool routing, supported browser computer use, evidence preservation and final handoff. No unsupported model switch claimed.",
+  "humanParticipation": "No human comprehension study or human cost measurements.",
+  "authorization": "Actual Gate 5 approval recorded; Gate 6 not approved.",
+  "coreEvidence": {
+    "observations": 131,
+    "originalJpegs": 17,
+    "savedSemanticUiEvents": 85,
+    "sessions": 3,
+    "successfulRootActionCalls": 93,
+    "historicalScreenshotToolFailures": 2
+  },
+  "workerState": "All four stage workers completed: Luna source gathering, Sol implementation, separate Sol independent audit, and Astra specification/synthesis.",
+  "allStageWorkersCompleted": true,
+  "completedAtUtc": "2026-09-20T04:20:12.549119+00:00",
+  "presentationEvidence": "Separate presentation-review.json and presentation-http-review.json; excluded from the core browser trial."
+}

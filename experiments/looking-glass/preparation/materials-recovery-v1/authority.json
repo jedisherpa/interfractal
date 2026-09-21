@@ -1,0 +1,26 @@
+{
+  "recordedAtUtc": "2026-09-20T22:04:27.697376+00:00",
+  "scope": "Correct the documented materials packaging CLI recovery defect in a separate immutable revision; no dependent instrument or research stage begins.",
+  "authority": [
+    "Actual user: defer both four-agent and human research; complete preparation only.",
+    "Current goal continuation asks for concrete progress using authoritative worktree evidence.",
+    "Existing materials-v1 final handoff identifies this CLI entry defect as remaining tooling preparation work."
+  ],
+  "priorGoalTurnClassification": "progress",
+  "priorProgress": {
+    "commit": "5249115f8f7fd1a39f03e792f933ffaa1a36ef4a",
+    "delivered": "Bounded independently checked materials package; pending human review",
+    "materialsFreezeSha256": "b7152720317987bcfa027e98104cb2f1695b0fc3ffd29a1272293e919c8cea5c"
+  },
+  "currentHumanMaterialsApproval": false,
+  "gate14Approved": false,
+  "researchOutputsToCollect": 0,
+  "humanParticipantsToEnroll": 0,
+  "goalComplete": false,
+  "invariants": [
+    "Preserve materials-v1 and all earlier gates exactly",
+    "Keep design, key, allocation, task, prompt/settings and participant bundle bytes unchanged",
+    "Restrict changes to packaging entry/run result verification, regression evidence, candidate identity and recovery instructions",
+    "No integrated instrument, scoring runner, transfer collection or human study starts from this continuation"
+  ]
+}

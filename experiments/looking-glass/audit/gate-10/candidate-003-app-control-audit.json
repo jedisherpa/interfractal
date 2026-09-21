@@ -1,0 +1,57 @@
+{
+  "schema": "gate10-candidate-003-independent-app-control-audit-v1",
+  "status": "PASS",
+  "scope": "Deterministic minimal DOM and clock harness of built app source; no supported browser or human action",
+  "buildId": "g10-9e34f791d83c1cd7a495",
+  "checkCount": 12,
+  "checks": [
+    {
+      "name": "initial inspector semantic hash",
+      "pass": true
+    },
+    {
+      "name": "initial target withheld",
+      "pass": true
+    },
+    {
+      "name": "local play emits restore then play",
+      "pass": true
+    },
+    {
+      "name": "local play event fingerprints join",
+      "pass": true
+    },
+    {
+      "name": "boundary pause emits case-select then pause",
+      "pass": true
+    },
+    {
+      "name": "boundary pause event fingerprints join",
+      "pass": true
+    },
+    {
+      "name": "API actor/provenance not scripted",
+      "pass": true
+    },
+    {
+      "name": "export request delayed",
+      "pass": true
+    },
+    {
+      "name": "late export does not repopulate canonical text",
+      "pass": true
+    },
+    {
+      "name": "late export does not pollute canonical inspector",
+      "pass": true
+    },
+    {
+      "name": "second delayed export",
+      "pass": true
+    },
+    {
+      "name": "late export does not cross local case",
+      "pass": true
+    }
+  ]
+}

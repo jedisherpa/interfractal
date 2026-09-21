@@ -1,0 +1,83 @@
+{
+  "buildId": "g5-0bdee39bcd7dd541",
+  "sourceSha256": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "33a01874c151704776885e2a73819069a5ea23298c542e58640dc111a9a191ef",
+      "bytes": 6152
+    },
+    {
+      "path": "style.css",
+      "sha256": "764bdea89235ac1529caae521b65848ec8b6ac704d2331730f51ca8d074306b4",
+      "bytes": 5042
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "734c1728367cbd8ac589f2c8a20b7f6636337fcd0cdf1d3f641e446eb768fcc3",
+      "bytes": 25151
+    },
+    {
+      "path": "model.mjs",
+      "sha256": "0bacbb23bb6d4666b946ca19d5b7236231f8c66d256df95125a54ea621847a6d",
+      "bytes": 15160
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "241f4dd88e956d93950e1262803cddaeac625a4f05e45bf7e26ac1bde28cff5a",
+      "bytes": 5278
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "626511bed7adaa6f766c3dc162029cedf3b840852a1ceedb285e00d29130b82c",
+      "bytes": 9328
+    },
+    {
+      "path": "test.mjs",
+      "sha256": "46feecb124a7957741f641450a9e7d82af6a7d684307f465d98a38d8b6cd50e7",
+      "bytes": 7807
+    },
+    {
+      "path": "README.md",
+      "sha256": "bd9ee7c05f1168325bca3381325e86bcd4dbbddb4dadca9cfe8d6f492ecdfd7a",
+      "bytes": 8488
+    }
+  ],
+  "gitHead": "231780872da982cb87b54f004c287a078d26839b",
+  "baseRevision": "231780872da982cb87b54f004c287a078d26839b",
+  "uncommittedSourceIdentity": "0bdee39bcd7dd541f65044b55195c077948e377758d654fa91cea5a2e5798da9",
+  "dependencyIdentity": "Node.js builtins only; no packages, lockfile or external assets",
+  "nodeVersion": "v24.17.0",
+  "builtAtUtc": "2026-09-20T04:02:10.500Z",
+  "prespecFreezeSha256": "71d14a6f31f1c22dc705b9dd5b51a6f2dd7c4ecb709741e9ba52d3dc5573e82e",
+  "prespecFrozenAtUtc": "2026-09-20T03:59:55.539897+00:00",
+  "prespecFiles": [
+    {
+      "path": "docs/gate-5/experiment-charter.md",
+      "sha256": "20920a82e4e670eeb85d32871728ac5151f4877146ba9c14ba6962df567eca2f",
+      "bytes": 7547
+    },
+    {
+      "path": "docs/gate-5/model-contract.md",
+      "sha256": "c37fb3e353dcd6cb3efc4974c143dd6df1ac732536660b325b71b4e9413ef6dc",
+      "bytes": 12057
+    },
+    {
+      "path": "docs/gate-5/record-contract.md",
+      "sha256": "1dea0f67d6d101e0d69b88bfe50ffc609d4389f7064c454c1513b37d8c2a84a1",
+      "bytes": 9051
+    },
+    {
+      "path": "docs/gate-5/independent-predictions.json",
+      "sha256": "fcd1fb992cb2f12ae3177d6129fffb6bb598f2d5d6dd9f57546ee86bc62490d0",
+      "bytes": 54046
+    }
+  ],
+  "baseline4D": {
+    "path": "hypercube/builds/g3-6c31bc16aeca4460/model.mjs",
+    "sha256": "e9be25d2aaf9f625a3d3cd7784d70abb0739399da832fea307d9bff1c3b7bc2c",
+    "preservedRunId": "G3-TESSERACT-003",
+    "preservedBuildId": "g3-6c31bc16aeca4460"
+  },
+  "renderer": "Browser SVG of raw 3D projected 4D/5D wireframes and analytic 5D-ball 3D slice"
+}

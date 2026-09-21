@@ -1,0 +1,39 @@
+{
+  "schema": "gate11-independent-prespec-review-v1",
+  "verdict": "PASS_FOR_FREEZE",
+  "scope": "Independent prespec arithmetic, finite projection/certificate, provenance, event, and browser-recipe coherence only; no implementation or browser observation.",
+  "inputFiles": [
+    {"path": "docs/gate-11/experiment-charter.md", "sha256": "52b7c3867661323e3d7def4e16f052d724297ed139e24506aa704771eceb706b"},
+    {"path": "docs/gate-11/model-contract.md", "sha256": "18f613cdd9ea352581fce1a7ee0fcc1425282c650f0c870b9cc000d5955115e8"},
+    {"path": "docs/gate-11/record-contract.md", "sha256": "207f6a04142af991aa3371b5a01ccf0520d167fe30c2320c175a9b655a4a869a"},
+    {"path": "docs/gate-11/fixture.json", "sha256": "ae2cd2c4bac68a05bbf83f6ccd40f7b7ed2fe394b558da6c529a3d39f7da3adc"},
+    {"path": "docs/gate-11/independent-predictions.json", "sha256": "db411186c313d349a73a1c3b6ef7d4e77687e3000097587bb730bdd92defeb22"}
+  ],
+  "derivation": {"path": "audit/gate-11/prespec-derivation.json", "script": "audit/gate-11/derive-prespec.py", "passed": 205, "total": 205, "projectionCount": 32, "implementationImports": 0},
+  "independentResults": {
+    "worldOrder": ["W00", "W01", "W10", "W11"],
+    "R_COUNT": ["yes", "yes", "yes", "yes"],
+    "R_RELEASE": ["no", "no", "no", "yes"],
+    "releaseGloballySufficientMasks": [3, 7],
+    "releaseUniqueSubsetMinimalMask": 3,
+    "releaseCardinalityMinimum": 2,
+    "countMinimumMask": 0,
+    "paintPartitionEqualities": [[0, 4], [1, 5], [2, 6], [3, 7]],
+    "wrongCountOnlyShortcutFalsePositiveWorlds": ["W00", "W01", "W10"],
+    "canonicalEvents": 7,
+    "canonicalPausedCheckpoints": 7,
+    "designatedBrowserPausedCheckpoints": 18
+  },
+  "clarification": "The host made the one-line auditor-requested clerical clarification to record-contract step 6 before freeze: the preserved Gate 10 instrument root supplies exact paused run/build identity; its separate results.html page supplies the negative-result label. The derivation reran and pins the amended record-contract bytes.",
+  "verifiedBoundaries": [
+    "Complete receiver payload collisions include identical fixed, non-dereferenceable logical sourceRef values; world IDs and source hashes remain inspection-envelope data outside the pure evaluator.",
+    "A locally determined no from one negative dependency does not establish global subset sufficiency; positive single-field cases remain insufficient.",
+    "Copied field values and source paths, retained revision lineage, empty/duplicate/paint controls, and diagram/plain information parity are specified for implementation checks.",
+    "First real UI path precedes secondary presentation work; seven baseline checkpoints follow that path, with seven post-workflow and four reopen/reload checkpoints, and no baseline pre-exposure claim.",
+    "Published snapshot/export metadata must be captured after DOM rendering; this is a required future browser check, not a prespec observation."
+  ],
+  "openBlockers": [],
+  "browserObservations": 0,
+  "humanParticipants": 0,
+  "nextGateApproved": false
+}

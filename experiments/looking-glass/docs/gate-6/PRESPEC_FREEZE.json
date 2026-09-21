@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "gate-6-prespec-freeze-v1",
+  "gate": 6,
+  "frozenAtUtc": "2026-09-20T05:40:15.602977+00:00",
+  "status": "Frozen before any Gate 6 browser trial; no implementation or browser success asserted",
+  "authorRole": "Assigned GPT-6 Astra xhigh specification/synthesis worker",
+  "approvedScope": "Gate 6: Connected local models and changes of scale only; no Gate 7 preparation, human study, public deployment, spending or external messages",
+  "baseRevision": "56a8e6956e455155326c6b2a7fa50ef2c89e3836",
+  "candidateIdConvention": "G6-LOCAL-001 and incrementing preserved revisions; initial candidate plus two revisions maximum",
+  "implementationContractAgreed": "Sol builder explicitly agreed to the five-file contract as written and requested freeze, with no requested specification change. Implementation alignment is ongoing; no browser trial has started.",
+  "builderConfirmation": "I agree to the five-file Gate 6 contract as written; please freeze now. I’m aligning implementation to exact fixture IDs/data, outward-only evaluator, canonical states, route controls and separate hashes. No specification change requested.",
+  "independentPrespecCheck": {
+    "role": "Separate Sol audit worker",
+    "reportedPass": true,
+    "scope": "Both source byte pins/reference definition hashes, all four original mapping rows/reasons, local hashes, dependency/evidence pointers, costs 6/9, receiver 60→70 classifications, typed relations, revision chains and checkpoints",
+    "auditPath": "audit/gate-6/prespec-cross-check.json"
+  },
+  "sourcePins": [
+    {
+      "path": "docs/gate-2/fictional-records.json",
+      "sha256": "c58b2e2fe35a1bbc8995978a2efe59073c29f8cb14b445bb6b45716e4a606c36",
+      "bytes": 5473
+    },
+    {
+      "path": "docs/gate-2/reference-mappings.json",
+      "sha256": "45d519af661c38b46d73bad00c179491e4c2be7ce13648a45f8e80d8c81a50d8",
+      "bytes": 5571
+    }
+  ],
+  "sourceRecordCount": 4,
+  "localContextCount": 2,
+  "dependencyCount": 3,
+  "supportedRelationCount": 4,
+  "checkpointCount": 7,
+  "durationMs": 30000,
+  "expectedVenueEquipmentCostsTokens": {
+    "G6_LOCAL_HALL": 6,
+    "G6_LOCAL_FIELD": 9
+  },
+  "v1OutwardOnlyReceiverResult": "insufficient-summary",
+  "predictedRouteCountsBothModes": {
+    "N1": {
+      "navigation": 3,
+      "correction": 1
+    },
+    "N2": {
+      "navigation": 2,
+      "correction": 0
+    }
+  },
+  "claimLimit": "Expected fixture/route results, not actual UI or human outcomes. New synthetic contexts and requirements do not alter Gate 2.",
+  "priorFrozenEntriesReportedUnchangedByRoot": 668,
+  "files": [
+    {
+      "path": "docs/gate-6/experiment-charter.md",
+      "sha256": "a307da2de1411cd45ce592279ff4176b80017fcfd67d07c6083e40858276cd9d",
+      "bytes": 10059
+    },
+    {
+      "path": "docs/gate-6/model-contract.md",
+      "sha256": "cc2ef35f0303eec54337714444dd32dd55073e9014330878ea8a567a8c3dab49",
+      "bytes": 10566
+    },
+    {
+      "path": "docs/gate-6/record-contract.md",
+      "sha256": "23120b6e1f9cbe3fe52cabbe995e60f95148a7fe6ad8455c4ae75cc1a8ad98ca",
+      "bytes": 8455
+    },
+    {
+      "path": "docs/gate-6/fixture.json",
+      "sha256": "3b80d971b31b6a5c9f6b06c6e13167715b934a948d81daf6aa126e56f1eb4020",
+      "bytes": 26870
+    },
+    {
+      "path": "docs/gate-6/independent-predictions.json",
+      "sha256": "91d9d43ef59efda7164de8decb715bad32189a0a104cb06737101f5c9cac7b04",
+      "bytes": 14991
+    }
+  ]
+}

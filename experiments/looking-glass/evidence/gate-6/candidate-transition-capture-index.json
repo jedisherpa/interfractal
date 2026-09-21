@@ -1,0 +1,17 @@
+[
+  {
+    "label": "initial-compressed",
+    "path": "evidence/gate-6/screenshots/002-initial-compressed.jpg",
+    "runId": "G6-LOCAL-002",
+    "buildId": "g6-b31ef3d7838d10c8",
+    "beforeObservation": 21,
+    "afterObservation": 22,
+    "beforeSimulationTimeMs": 0,
+    "afterSimulationTimeMs": 0,
+    "sha256": "575bf3fb194369ff15b6af2f0c434b6c58a04bea606cc1c4abc2e09abbef1108",
+    "bytes": 102788,
+    "mime": "image/jpeg",
+    "captureMethod": "cua native getScreenshot; original bytes unchanged",
+    "originalBytesUnchanged": true
+  }
+]

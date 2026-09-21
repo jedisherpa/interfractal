@@ -1,0 +1,323 @@
+{
+  "schema": "gate13-candidate-001-independent-check-v1",
+  "status": "PASS",
+  "runId": "G13-MISLEAD-001",
+  "buildId": "g13-daa720242d62cd4c184f",
+  "sourceHash": "daa720242d62cd4c184f2f3687ddc1e8584f6ce2031f40ba119b87efa225f93d",
+  "checkCount": 73,
+  "passCount": 73,
+  "errors": [],
+  "checks": [
+    {
+      "name": "prespec freeze nine pins and fixed SHA",
+      "pass": true
+    },
+    {
+      "name": "source manifest fourteen pins",
+      "pass": true
+    },
+    {
+      "name": "immutable package ten pins",
+      "pass": true
+    },
+    {
+      "name": "immutable run five pins",
+      "pass": true
+    },
+    {
+      "name": "source hash and exact run/build identity",
+      "pass": true
+    },
+    {
+      "name": "run/spec/fixture hashes and public scope",
+      "pass": true
+    },
+    {
+      "name": "public build does not disclose private path or audit metadata",
+      "pass": true
+    },
+    {
+      "name": "packaged fixture exact frozen bytes",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH original exact independent arithmetic",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH exact source/display hashes",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH check content/hash/binding",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH corrected exact widths/ratio",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH correction immutable check reference",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL original exact independent arithmetic",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL exact source/display hashes",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL check content/hash/binding",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL original exact independent arithmetic",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL exact source/display hashes",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL check content/hash/binding",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL corrected exact widths/ratio",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL correction immutable check reference",
+      "pass": true
+    },
+    {
+      "name": "ten packaged configurations match independent derivation",
+      "pass": true
+    },
+    {
+      "name": "scripted canonical record provenance and hashes",
+      "pass": true
+    },
+    {
+      "name": "paused zero has no performed check/correction",
+      "pass": true
+    },
+    {
+      "name": "seven exact checkpoint hashes and states",
+      "pass": true
+    },
+    {
+      "name": "seven canonical event identities and origin",
+      "pass": true
+    },
+    {
+      "name": "same-boundary restore to automatic stop chain",
+      "pass": true
+    },
+    {
+      "name": "unknown case rejects",
+      "pass": true
+    },
+    {
+      "name": "true-case corrected version rejects",
+      "pass": true
+    },
+    {
+      "name": "correction before check rejects",
+      "pass": true
+    },
+    {
+      "name": "true-case correction rejects",
+      "pass": true
+    },
+    {
+      "name": "wrong content hash rejects",
+      "pass": true
+    },
+    {
+      "name": "wrong source binding rejects",
+      "pass": true
+    },
+    {
+      "name": "wrong original display binding rejects",
+      "pass": true
+    },
+    {
+      "name": "wrong case binding rejects",
+      "pass": true
+    },
+    {
+      "name": "malformed count rejects",
+      "pass": true
+    },
+    {
+      "name": "malformed axis rejects",
+      "pass": true
+    },
+    {
+      "name": "zero case remains decidably false with undefined ratios",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH/original information parity",
+      "pass": true
+    },
+    {
+      "name": "MISMATCH/corrected information parity",
+      "pass": true
+    },
+    {
+      "name": "TRUE_CONTROL/original information parity",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL/original information parity",
+      "pass": true
+    },
+    {
+      "name": "ZERO_CONTROL/corrected information parity",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /index.html",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /app.mjs",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /model.mjs",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /style.css",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /fixture.json",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /build.json",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /run/run.json",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /run/initial-state.json",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /run/events.jsonl",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /run/checkpoints.json",
+      "pass": true
+    },
+    {
+      "name": "GET+HEAD exact /run/computational-results.json",
+      "pass": true
+    },
+    {
+      "name": "deny /review/results.html",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /review/allowlist.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /docs/gate-13/fixture.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /docs/gate-13/independent-predictions.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /audit/gate-13/prespec-review.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /source-manifest.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /server.mjs",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /run/unknown.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /bogus",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /%2e%2e/docs/gate-13/fixture.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny /run/run.json?x=1",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny raw /../docs/gate-13/fixture.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny raw /review/../../docs/gate-13/fixture.json",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "deny method POST",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method PUT",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method PATCH",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method DELETE",
+      "pass": true,
+      "detail": 405
+    },
+    {
+      "name": "deny method OPTIONS",
+      "pass": true,
+      "detail": 405
+    }
+  ],
+  "scope": "Immutable packaged model/assets and isolated HTTP only; not supported-browser evidence."
+}

@@ -1,0 +1,104 @@
+{
+  "gate": 2,
+  "scope": "Bounded primary-source review for Hopf correspondence and the separately labeled candidate shared-reference view",
+  "accessed_date": "2026-09-19",
+  "timezone": "America/Denver",
+  "collector": "GPT-5.6 Luna via web__run",
+  "execution_policy": "Read-only source inspection. No upstream code execution, deployment, external communication, human study, or later gate execution.",
+  "primary_sources": [
+    {
+      "title": "Niles Johnson, A visualization of the Hopf fibration",
+      "url": "https://nilesjohnson.net/hopf.html",
+      "accessed_date": "2026-09-19",
+      "source_type": "author-maintained mathematical visualization and explanation",
+      "pins": ["lines 0-4: S³ represented by circles over points of S²", "lines 12-18: linked fibers, latitude tori, and two-solid-tori decomposition", "lines 23-33: S³ in R⁴, circle fibers, and the exceptional line/circle through infinity"],
+      "supported_statements": [
+        "The Hopf fibration organizes S³ as circle fibers over S² base points.",
+        "Distinct fibers are linked, and fibers over latitude circles form tori.",
+        "The exceptional stereographic-looking central line closes as a circle through infinity in S³."
+      ],
+      "use_in_gate2": "Visual and explanatory basis for selectable base/fiber views, the pole/infinity case, and finite-rendering caveats."
+    },
+    {
+      "title": "David W. Lyons, An Elementary Introduction to the Hopf Fibration",
+      "url": "https://nilesjohnson.net/hopf-articles/Lyons_Elem-intro-Hopf-fibration.pdf",
+      "accessed_date": "2026-09-19",
+      "source_type": "author mathematical exposition, Lebanon Valley College",
+      "pins": ["PDF pp. 2-3 / lines 50-64: quaternion-coordinate Hopf map S³→S² and unit-sphere image", "PDF pp. 7-8 / lines 316-335: fibers are inverse images and each is a circle", "PDF pp. 10-11 / lines 441-512: stereographic chart S³ minus one point to R³; fibers become circles or a line", "PDF pp. 11-13 / lines 516-543, 613-616: exceptional axis and linked projected fibers"],
+      "supported_statements": [
+        "The Hopf map is a map from S³ to S² whose inverse image over a base point is a circle.",
+        "Stereographic projection omits one selected point of S³ and maps fibers to circles except for the fiber containing that point, which maps to a line.",
+        "The quaternion-coordinate convention must be recorded when comparing with a complex-pair convention."
+      ],
+      "use_in_gate2": "Primary derivation for base/fiber identity, stereographic pole handling, and convention warning."
+    },
+    {
+      "title": "Ralph L. Cohen, The Topology of Fiber Bundles",
+      "url": "https://math.stanford.edu/~ralph/math215b/fiber.pdf",
+      "accessed_date": "2026-09-19",
+      "source_type": "Stanford University topology lecture notes",
+      "pins": ["PDF pp. 14-18 / lines 521-590, 753-779: principal-bundle definition, S³→S² Hopf fibration", "PDF p. 19 / lines 780-808: upper/lower hemisphere local trivializations", "PDF pp. 19-20 / lines 829-839: principal bundle has a section iff it is trivial", "PDF p. 20 / lines 840-865: overlap clutching/transition functions"],
+      "supported_statements": [
+        "The Hopf map is a principal S¹ bundle over S².",
+        "The bundle is locally trivial over two hemisphere charts.",
+        "A global section would trivialize a principal bundle, so the no-global-section claim must be tied to the Hopf bundle's nontriviality."
+      ],
+      "use_in_gate2": "Needed university-hosted primary reference for local sections, transition functions, and the section/triviality implication."
+    }
+  ],
+  "pinned_code": [
+    {
+      "repository": "hopf-workshop",
+      "url": "https://github.com/jedisherpa/hopf-workshop",
+      "revision": "2967f71aa19117925f55b9349a7bfc0ec8fc8dea",
+      "revision_type": "commit",
+      "snapshot_manifest": "research/source-snapshots/MANIFEST.json",
+      "files": [
+        {"path": "hopf_model.py", "sha256": "8aafad9ecb70eaf076665d7d15250a4bdd59f3a118fd0e9a30cadfc5cee6647c", "pins": ["lines 13-16 state", "lines 23-28 Hopf map and unit rejection", "lines 36-42 stereographic pole", "lines 89-91 finite fiber sampling"]},
+        {"path": "hopf.js", "sha256": "851d49b36c876ab110d9743eeffedf4aa3a3ad042ee72253faeda4143bfd43e2", "pins": ["lines 33-70 state, Hopf, gauge, stereographic, north/south sections"]},
+        {"path": "README.md", "sha256": "6b8fdcfd028d88b1bf3609627a71cf08b6d20f0da3d717d6bd06e7b78be51024", "pins": ["sections 5.1, 5.4, 8, and 9: convention, transition winding, semantic nonclaims, finite-sampling limits"]}
+      ],
+      "reusable_conventions": ["explicit common-phase gauge", "reject non-unit inputs", "north/south local representatives", "throw or flag at stereographic pole", "geometry is separate from permission and semantics"],
+      "status": "pinned source snapshot; not evidence about current deployment"
+    },
+    {
+      "repository": "interfractal",
+      "url": "https://github.com/jedisherpa/interfractal",
+      "revision": "1326cc64223fc167610c2157f2c24fa33a87c93b",
+      "revision_type": "commit",
+      "snapshot_manifest": "research/source-snapshots/MANIFEST.json",
+      "files": [
+        {"path": "src/workshop/hopf.ts", "sha256": "82fb114a5901b2d5d1172163d07cf2508927db85691b573ba3d108d9d5b52795", "pins": ["lines 44-81 state, Hopf, gauge, stereographic, sections", "lines 114-132 finite sampling and clipping policy"]},
+        {"path": "src/lib/hopf.ts", "sha256": "cb68d43ec1e6e2e900d9743eeffedf4aa3a3ad042ee72253faeda4143bfd43e2", "pins": ["manifest pin only; inspect for UI-facing fiber-safe sampling conventions"]}
+      ],
+      "reusable_conventions": ["same complex-pair sign convention as hopf-workshop", "explicit pole rejection", "bounded fiber-safe display policy labeled separately from full geometry"],
+      "status": "pinned source snapshot; deployment commit is not inferred"
+    }
+  ],
+  "derived_checks": [
+    {
+      "claim": "Shared-phase invariance",
+      "formula": "h(e^(iγ)z)=h(z)",
+      "basis": "Direct algebra under the stated complex-pair convention; corroborated by the pinned hopf_model.py/hopf.js gauge implementation.",
+      "status": "implementation-checkable mathematical identity"
+    },
+    {
+      "claim": "No global continuous phase-origin section",
+      "formula": "s_S=e^(iφ)s_N on overlap; transition winds once",
+      "basis": "Direct computation from the pinned local representatives plus Cohen's local-trivialization and section iff trivial results. Nontriviality is the standard S³ versus S²×S¹ homology obstruction.",
+      "status": "mathematical boundary condition; do not replace with a finite selector"
+    },
+    {
+      "claim": "Pole fiber is line-like in R³ chart",
+      "formula": "denominator 1−Im(z₂); exceptional point (0,0,0,1)",
+      "basis": "Direct conversion of Lyons's stereographic result into the pinned complex-pair real ordering; Lyons explicitly identifies the line exception.",
+      "status": "implementation-checkable chart convention"
+    }
+  ],
+  "limitations": [
+    "Finite phase samples and clipped tubes do not render the continuum of S³ or every fiber.",
+    "Johnson and Lyons establish mathematical visualization/exposition, not the candidate shared-reference semantics.",
+    "Pinned code is historical source material; no live deployment/source-commit equivalence is claimed.",
+    "The proposed reference-dependent mapping is an interface hypothesis over fictional stable records, not a psychological, social, governance, or authority result."
+  ]
+}

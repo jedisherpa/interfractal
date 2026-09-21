@@ -1,0 +1,14 @@
+{
+  "coreTrialScope": "Initial inspection plus brief slice and960px context/plain views; no response, skip, reveal, full replay or complete checkpoint protocol attempted.",
+  "hostToolFailure": {
+    "count": 1,
+    "kind": "CUA JavaScript syntax error before execution",
+    "message": "Expected ')'",
+    "actionsExecuted": false,
+    "timestampNotAvailable": true
+  },
+  "limitations": [
+    "Four images are original viewport captures; some content is outside the viewport due to scrolling.",
+    "The mixed event-schema failure was established by independent static code audit; no duplicate submit/reveal transactions were exercised in this browser session."
+  ]
+}

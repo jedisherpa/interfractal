@@ -1,0 +1,848 @@
+[
+  {
+    "index": 0,
+    "label": "002 opening top",
+    "startedAtUtc": "2026-09-20T06:56:45.162Z",
+    "endedAtUtc": "2026-09-20T06:56:45.535Z",
+    "before": 1,
+    "after": 2,
+    "success": true
+  },
+  {
+    "index": 1,
+    "label": "002 collapse teaching after reading",
+    "startedAtUtc": "2026-09-20T06:56:45.596Z",
+    "endedAtUtc": "2026-09-20T06:56:46.052Z",
+    "before": 5,
+    "after": 6,
+    "success": true
+  },
+  {
+    "index": 2,
+    "label": "002 frame the static sheet",
+    "startedAtUtc": "2026-09-20T06:56:46.052Z",
+    "endedAtUtc": "2026-09-20T06:56:46.302Z",
+    "before": 7,
+    "after": 8,
+    "success": true
+  },
+  {
+    "index": 3,
+    "label": "002 baseline checkpoint 0s",
+    "startedAtUtc": "2026-09-20T06:57:12.608Z",
+    "endedAtUtc": "2026-09-20T06:57:12.967Z",
+    "before": 11,
+    "after": 12,
+    "success": true
+  },
+  {
+    "index": 4,
+    "label": "002 baseline checkpoint 6s",
+    "startedAtUtc": "2026-09-20T06:57:12.967Z",
+    "endedAtUtc": "2026-09-20T06:57:13.357Z",
+    "before": 13,
+    "after": 14,
+    "success": true
+  },
+  {
+    "index": 5,
+    "label": "002 baseline checkpoint 12s",
+    "startedAtUtc": "2026-09-20T06:57:13.357Z",
+    "endedAtUtc": "2026-09-20T06:57:13.767Z",
+    "before": 15,
+    "after": 16,
+    "success": true
+  },
+  {
+    "index": 6,
+    "label": "002 baseline checkpoint 18s",
+    "startedAtUtc": "2026-09-20T06:57:13.767Z",
+    "endedAtUtc": "2026-09-20T06:57:14.108Z",
+    "before": 17,
+    "after": 18,
+    "success": true
+  },
+  {
+    "index": 7,
+    "label": "002 baseline checkpoint 24s",
+    "startedAtUtc": "2026-09-20T06:57:14.109Z",
+    "endedAtUtc": "2026-09-20T06:57:14.361Z",
+    "before": 19,
+    "after": 20,
+    "success": true
+  },
+  {
+    "index": 8,
+    "label": "002 baseline checkpoint 30s",
+    "startedAtUtc": "2026-09-20T06:57:14.361Z",
+    "endedAtUtc": "2026-09-20T06:57:14.696Z",
+    "before": 21,
+    "after": 22,
+    "success": true
+  },
+  {
+    "index": 9,
+    "label": "002 baseline checkpoint 36s",
+    "startedAtUtc": "2026-09-20T06:57:14.696Z",
+    "endedAtUtc": "2026-09-20T06:57:14.999Z",
+    "before": 23,
+    "after": 24,
+    "success": true
+  },
+  {
+    "index": 10,
+    "label": "002 baseline checkpoint 42s",
+    "startedAtUtc": "2026-09-20T06:57:15.000Z",
+    "endedAtUtc": "2026-09-20T06:57:15.278Z",
+    "before": 25,
+    "after": 26,
+    "success": true
+  },
+  {
+    "index": 11,
+    "label": "002 baseline checkpoint 48s",
+    "startedAtUtc": "2026-09-20T06:57:15.278Z",
+    "endedAtUtc": "2026-09-20T06:57:15.673Z",
+    "before": 27,
+    "after": 28,
+    "success": true
+  },
+  {
+    "index": 12,
+    "label": "002 condition comparison baseline",
+    "startedAtUtc": "2026-09-20T06:57:24.326Z",
+    "endedAtUtc": "2026-09-20T06:57:24.691Z",
+    "before": 29,
+    "after": 30,
+    "success": true
+  },
+  {
+    "index": 13,
+    "label": "002 Q01 prescribed condition",
+    "startedAtUtc": "2026-09-20T06:57:24.692Z",
+    "endedAtUtc": "2026-09-20T06:57:25.197Z",
+    "before": 31,
+    "after": 32,
+    "success": true
+  },
+  {
+    "index": 14,
+    "label": "002 start prescribed sequence",
+    "startedAtUtc": "2026-09-20T06:57:37.702Z",
+    "endedAtUtc": "2026-09-20T06:57:38.161Z",
+    "before": 33,
+    "after": 34,
+    "success": true
+  },
+  {
+    "index": 15,
+    "label": "002 replay prescribed for manual pause",
+    "startedAtUtc": "2026-09-20T06:58:28.061Z",
+    "endedAtUtc": "2026-09-20T06:58:28.456Z",
+    "before": 36,
+    "after": 37,
+    "success": true
+  },
+  {
+    "index": 16,
+    "label": "002 manually pause prescribed",
+    "startedAtUtc": "2026-09-20T06:58:28.456Z",
+    "endedAtUtc": "2026-09-20T06:58:28.752Z",
+    "before": 38,
+    "after": 39,
+    "success": true
+  },
+  {
+    "index": 17,
+    "label": "002 prescribed manual F2",
+    "startedAtUtc": "2026-09-20T06:58:28.752Z",
+    "endedAtUtc": "2026-09-20T06:58:29.173Z",
+    "before": 40,
+    "after": 41,
+    "success": true
+  },
+  {
+    "index": 18,
+    "label": "002 Q01 interactive condition",
+    "startedAtUtc": "2026-09-20T06:58:29.174Z",
+    "endedAtUtc": "2026-09-20T06:58:29.558Z",
+    "before": 42,
+    "after": 43,
+    "success": true
+  },
+  {
+    "index": 19,
+    "label": "002 interactive F3",
+    "startedAtUtc": "2026-09-20T06:58:29.558Z",
+    "endedAtUtc": "2026-09-20T06:58:29.936Z",
+    "before": 44,
+    "after": 45,
+    "success": true
+  },
+  {
+    "index": 20,
+    "label": "002 interactive F1",
+    "startedAtUtc": "2026-09-20T06:58:29.936Z",
+    "endedAtUtc": "2026-09-20T06:58:30.279Z",
+    "before": 46,
+    "after": 47,
+    "success": true
+  },
+  {
+    "index": 21,
+    "label": "002 inspect Q02",
+    "startedAtUtc": "2026-09-20T07:02:23.223Z",
+    "endedAtUtc": "2026-09-20T07:02:23.598Z",
+    "before": 50,
+    "after": 51,
+    "success": true
+  },
+  {
+    "index": 22,
+    "label": "002 inspect Q03",
+    "startedAtUtc": "2026-09-20T07:02:23.598Z",
+    "endedAtUtc": "2026-09-20T07:02:24.015Z",
+    "before": 52,
+    "after": 53,
+    "success": true
+  },
+  {
+    "index": 23,
+    "label": "002 inspect Q04",
+    "startedAtUtc": "2026-09-20T07:02:24.015Z",
+    "endedAtUtc": "2026-09-20T07:02:24.354Z",
+    "before": 54,
+    "after": 55,
+    "success": true
+  },
+  {
+    "index": 24,
+    "label": "002 inspect Q05",
+    "startedAtUtc": "2026-09-20T07:02:24.354Z",
+    "endedAtUtc": "2026-09-20T07:02:24.712Z",
+    "before": 56,
+    "after": 57,
+    "success": true
+  },
+  {
+    "index": 25,
+    "label": "002 inspect Q06",
+    "startedAtUtc": "2026-09-20T07:02:24.712Z",
+    "endedAtUtc": "2026-09-20T07:02:25.124Z",
+    "before": 58,
+    "after": 59,
+    "success": true
+  },
+  {
+    "index": 26,
+    "label": "002 Q05 corrected radius view",
+    "startedAtUtc": "2026-09-20T07:02:35.124Z",
+    "endedAtUtc": "2026-09-20T07:02:35.623Z",
+    "before": 60,
+    "after": 61,
+    "success": true
+  },
+  {
+    "index": 27,
+    "label": "002 Q07 compact summaries",
+    "startedAtUtc": "2026-09-20T07:02:35.670Z",
+    "endedAtUtc": "2026-09-20T07:02:36.118Z",
+    "before": 64,
+    "after": 65,
+    "success": true
+  },
+  {
+    "index": 28,
+    "label": "002 Q07 plain comparison",
+    "startedAtUtc": "2026-09-20T07:02:36.119Z",
+    "endedAtUtc": "2026-09-20T07:02:36.511Z",
+    "before": 66,
+    "after": 67,
+    "success": true
+  },
+  {
+    "index": 29,
+    "label": "002 Q08 expanded contexts",
+    "startedAtUtc": "2026-09-20T07:02:36.512Z",
+    "endedAtUtc": "2026-09-20T07:02:37.019Z",
+    "before": 68,
+    "after": 69,
+    "success": true
+  },
+  {
+    "index": 30,
+    "label": "002 Q08 objects F1",
+    "startedAtUtc": "2026-09-20T07:02:49.313Z",
+    "endedAtUtc": "2026-09-20T07:02:50.071Z",
+    "before": 70,
+    "after": 71,
+    "success": true
+  },
+  {
+    "index": 31,
+    "label": "002 Q08 plain F1",
+    "startedAtUtc": "2026-09-20T07:02:50.071Z",
+    "endedAtUtc": "2026-09-20T07:02:50.437Z",
+    "before": 72,
+    "after": 73,
+    "success": true
+  },
+  {
+    "index": 32,
+    "label": "002 Q08 objects F2",
+    "startedAtUtc": "2026-09-20T07:02:50.437Z",
+    "endedAtUtc": "2026-09-20T07:02:51.201Z",
+    "before": 74,
+    "after": 75,
+    "success": true
+  },
+  {
+    "index": 33,
+    "label": "002 Q08 plain F2",
+    "startedAtUtc": "2026-09-20T07:02:51.201Z",
+    "endedAtUtc": "2026-09-20T07:02:51.524Z",
+    "before": 76,
+    "after": 77,
+    "success": true
+  },
+  {
+    "index": 34,
+    "label": "002 Q08 objects F3",
+    "startedAtUtc": "2026-09-20T07:02:51.524Z",
+    "endedAtUtc": "2026-09-20T07:02:52.376Z",
+    "before": 78,
+    "after": 79,
+    "success": true
+  },
+  {
+    "index": 35,
+    "label": "002 Q08 plain F3",
+    "startedAtUtc": "2026-09-20T07:02:52.376Z",
+    "endedAtUtc": "2026-09-20T07:02:52.728Z",
+    "before": 80,
+    "after": 81,
+    "success": true
+  },
+  {
+    "index": 36,
+    "label": "002 narrow 960 responsive check",
+    "startedAtUtc": "2026-09-20T07:03:02.472Z",
+    "endedAtUtc": "2026-09-20T07:03:02.560Z",
+    "before": 82,
+    "after": 83,
+    "success": true
+  },
+  {
+    "index": 37,
+    "label": "002 narrow local objects",
+    "startedAtUtc": "2026-09-20T07:03:02.609Z",
+    "endedAtUtc": "2026-09-20T07:03:03.051Z",
+    "before": 86,
+    "after": 87,
+    "success": true
+  },
+  {
+    "index": 38,
+    "label": "002 expand public inspector",
+    "startedAtUtc": "2026-09-20T07:03:03.115Z",
+    "endedAtUtc": "2026-09-20T07:03:03.614Z",
+    "before": 90,
+    "after": 91,
+    "success": true
+  },
+  {
+    "index": 39,
+    "label": "002 scroll inspector into view",
+    "startedAtUtc": "2026-09-20T07:03:03.614Z",
+    "endedAtUtc": "2026-09-20T07:03:03.963Z",
+    "before": 92,
+    "after": 93,
+    "success": true
+  },
+  {
+    "index": 40,
+    "label": "002 narrow complete contexts",
+    "startedAtUtc": "2026-09-20T07:03:14.758Z",
+    "endedAtUtc": "2026-09-20T07:03:15.148Z",
+    "before": 96,
+    "after": 97,
+    "success": true
+  },
+  {
+    "index": 41,
+    "label": "002 narrow complete plain records",
+    "startedAtUtc": "2026-09-20T07:03:15.352Z",
+    "endedAtUtc": "2026-09-20T07:03:15.870Z",
+    "before": 100,
+    "after": 101,
+    "success": true
+  },
+  {
+    "index": 42,
+    "label": "002 scroll plain records",
+    "startedAtUtc": "2026-09-20T07:03:15.870Z",
+    "endedAtUtc": "2026-09-20T07:03:16.215Z",
+    "before": 102,
+    "after": 103,
+    "success": true
+  },
+  {
+    "index": 43,
+    "label": "002 restore desktop test viewport",
+    "startedAtUtc": "2026-09-20T07:03:16.284Z",
+    "endedAtUtc": "2026-09-20T07:03:16.464Z",
+    "before": 106,
+    "after": 107,
+    "success": true
+  },
+  {
+    "index": 44,
+    "label": "002 teaching rules for software trial",
+    "startedAtUtc": "2026-09-20T07:03:16.464Z",
+    "endedAtUtc": "2026-09-20T07:03:16.888Z",
+    "before": 108,
+    "after": 109,
+    "success": true
+  },
+  {
+    "index": 45,
+    "label": "002 identify software validator",
+    "startedAtUtc": "2026-09-20T07:03:27.447Z",
+    "endedAtUtc": "2026-09-20T07:03:27.906Z",
+    "before": 110,
+    "after": 111,
+    "success": true
+  },
+  {
+    "index": 46,
+    "label": "002 response mechanism Q01",
+    "startedAtUtc": "2026-09-20T07:03:27.907Z",
+    "endedAtUtc": "2026-09-20T07:03:28.409Z",
+    "before": 112,
+    "after": 113,
+    "success": true
+  },
+  {
+    "index": 47,
+    "label": "002 choose test option +0.8",
+    "startedAtUtc": "2026-09-20T07:03:28.409Z",
+    "endedAtUtc": "2026-09-20T07:03:29.015Z",
+    "before": 114,
+    "after": 115,
+    "success": true
+  },
+  {
+    "index": 48,
+    "label": "002 submit software response",
+    "startedAtUtc": "2026-09-20T07:03:29.016Z",
+    "endedAtUtc": "2026-09-20T07:03:29.522Z",
+    "before": 116,
+    "after": 117,
+    "success": true
+  },
+  {
+    "index": 49,
+    "label": "002 deliberate Q01 explanation reveal",
+    "startedAtUtc": "2026-09-20T07:03:42.569Z",
+    "endedAtUtc": "2026-09-20T07:03:43.190Z",
+    "before": 118,
+    "after": 119,
+    "success": true
+  },
+  {
+    "index": 50,
+    "label": "002 Q05 skip branch",
+    "startedAtUtc": "2026-09-20T07:03:43.191Z",
+    "endedAtUtc": "2026-09-20T07:03:43.796Z",
+    "before": 120,
+    "after": 121,
+    "success": true
+  },
+  {
+    "index": 51,
+    "label": "002 explicit software skip",
+    "startedAtUtc": "2026-09-20T07:03:43.797Z",
+    "endedAtUtc": "2026-09-20T07:03:44.197Z",
+    "before": 122,
+    "after": 123,
+    "success": true
+  },
+  {
+    "index": 52,
+    "label": "002 deliberate skipped-case reveal",
+    "startedAtUtc": "2026-09-20T07:03:44.197Z",
+    "endedAtUtc": "2026-09-20T07:03:44.705Z",
+    "before": 124,
+    "after": 125,
+    "success": true
+  },
+  {
+    "index": 53,
+    "label": "002 clear responses and reveals",
+    "startedAtUtc": "2026-09-20T07:03:44.706Z",
+    "endedAtUtc": "2026-09-20T07:03:45.207Z",
+    "before": 126,
+    "after": 127,
+    "success": true
+  },
+  {
+    "index": 54,
+    "label": "002 restored checkpoint 0s",
+    "startedAtUtc": "2026-09-20T07:03:45.207Z",
+    "endedAtUtc": "2026-09-20T07:03:45.705Z",
+    "before": 128,
+    "after": 129,
+    "success": true
+  },
+  {
+    "index": 55,
+    "label": "002 restored checkpoint 6s",
+    "startedAtUtc": "2026-09-20T07:03:45.705Z",
+    "endedAtUtc": "2026-09-20T07:03:46.212Z",
+    "before": 130,
+    "after": 131,
+    "success": true
+  },
+  {
+    "index": 56,
+    "label": "002 restored checkpoint 12s",
+    "startedAtUtc": "2026-09-20T07:03:46.212Z",
+    "endedAtUtc": "2026-09-20T07:03:46.599Z",
+    "before": 132,
+    "after": 133,
+    "success": true
+  },
+  {
+    "index": 57,
+    "label": "002 restored checkpoint 18s",
+    "startedAtUtc": "2026-09-20T07:03:46.600Z",
+    "endedAtUtc": "2026-09-20T07:03:47.141Z",
+    "before": 134,
+    "after": 135,
+    "success": true
+  },
+  {
+    "index": 58,
+    "label": "002 restored checkpoint 24s",
+    "startedAtUtc": "2026-09-20T07:03:47.141Z",
+    "endedAtUtc": "2026-09-20T07:03:47.477Z",
+    "before": 136,
+    "after": 137,
+    "success": true
+  },
+  {
+    "index": 59,
+    "label": "002 restored checkpoint 30s",
+    "startedAtUtc": "2026-09-20T07:03:47.477Z",
+    "endedAtUtc": "2026-09-20T07:03:48.036Z",
+    "before": 138,
+    "after": 139,
+    "success": true
+  },
+  {
+    "index": 60,
+    "label": "002 restored checkpoint 36s",
+    "startedAtUtc": "2026-09-20T07:03:48.037Z",
+    "endedAtUtc": "2026-09-20T07:03:48.427Z",
+    "before": 140,
+    "after": 141,
+    "success": true
+  },
+  {
+    "index": 61,
+    "label": "002 restored checkpoint 42s",
+    "startedAtUtc": "2026-09-20T07:03:48.428Z",
+    "endedAtUtc": "2026-09-20T07:03:48.845Z",
+    "before": 142,
+    "after": 143,
+    "success": true
+  },
+  {
+    "index": 62,
+    "label": "002 restored checkpoint 48s",
+    "startedAtUtc": "2026-09-20T07:03:48.846Z",
+    "endedAtUtc": "2026-09-20T07:03:49.397Z",
+    "before": 144,
+    "after": 145,
+    "success": true
+  },
+  {
+    "index": 63,
+    "label": "002 reopen checkpoint verification",
+    "startedAtUtc": "2026-09-20T07:04:03.001Z",
+    "endedAtUtc": "2026-09-20T07:04:03.517Z",
+    "before": 146,
+    "after": 147,
+    "success": true
+  },
+  {
+    "index": 64,
+    "label": "002 reopened checkpoint 0s",
+    "startedAtUtc": "2026-09-20T07:04:03.518Z",
+    "endedAtUtc": "2026-09-20T07:04:04.176Z",
+    "before": 148,
+    "after": 149,
+    "success": true
+  },
+  {
+    "index": 65,
+    "label": "002 reopened checkpoint 6s",
+    "startedAtUtc": "2026-09-20T07:04:04.176Z",
+    "endedAtUtc": "2026-09-20T07:04:04.523Z",
+    "before": 150,
+    "after": 151,
+    "success": true
+  },
+  {
+    "index": 66,
+    "label": "002 reopened checkpoint 12s",
+    "startedAtUtc": "2026-09-20T07:04:04.524Z",
+    "endedAtUtc": "2026-09-20T07:04:05.148Z",
+    "before": 152,
+    "after": 153,
+    "success": true
+  },
+  {
+    "index": 67,
+    "label": "002 reopened checkpoint 18s",
+    "startedAtUtc": "2026-09-20T07:04:05.149Z",
+    "endedAtUtc": "2026-09-20T07:04:05.535Z",
+    "before": 154,
+    "after": 155,
+    "success": true
+  },
+  {
+    "index": 68,
+    "label": "002 reopened checkpoint 24s",
+    "startedAtUtc": "2026-09-20T07:04:05.535Z",
+    "endedAtUtc": "2026-09-20T07:04:06.024Z",
+    "before": 156,
+    "after": 157,
+    "success": true
+  },
+  {
+    "index": 69,
+    "label": "002 reopened checkpoint 30s",
+    "startedAtUtc": "2026-09-20T07:04:06.024Z",
+    "endedAtUtc": "2026-09-20T07:04:06.407Z",
+    "before": 158,
+    "after": 159,
+    "success": true
+  },
+  {
+    "index": 70,
+    "label": "002 reopened checkpoint 36s",
+    "startedAtUtc": "2026-09-20T07:04:06.407Z",
+    "endedAtUtc": "2026-09-20T07:04:06.678Z",
+    "before": 160,
+    "after": 161,
+    "success": true
+  },
+  {
+    "index": 71,
+    "label": "002 reopened checkpoint 42s",
+    "startedAtUtc": "2026-09-20T07:04:06.679Z",
+    "endedAtUtc": "2026-09-20T07:04:07.155Z",
+    "before": 162,
+    "after": 163,
+    "success": true
+  },
+  {
+    "index": 72,
+    "label": "002 reopened checkpoint 48s",
+    "startedAtUtc": "2026-09-20T07:04:07.156Z",
+    "endedAtUtc": "2026-09-20T07:04:07.631Z",
+    "before": 164,
+    "after": 165,
+    "success": true
+  },
+  {
+    "index": 73,
+    "label": "002 page reload checkpoint verification",
+    "startedAtUtc": "2026-09-20T07:04:07.631Z",
+    "endedAtUtc": "2026-09-20T07:04:07.846Z",
+    "before": 166,
+    "after": 167,
+    "success": true
+  },
+  {
+    "index": 74,
+    "label": "002 reloaded checkpoint 0s",
+    "startedAtUtc": "2026-09-20T07:04:07.846Z",
+    "endedAtUtc": "2026-09-20T07:04:08.279Z",
+    "before": 168,
+    "after": 169,
+    "success": true
+  },
+  {
+    "index": 75,
+    "label": "002 reloaded checkpoint 6s",
+    "startedAtUtc": "2026-09-20T07:04:08.279Z",
+    "endedAtUtc": "2026-09-20T07:04:08.692Z",
+    "before": 170,
+    "after": 171,
+    "success": true
+  },
+  {
+    "index": 76,
+    "label": "002 reloaded checkpoint 12s",
+    "startedAtUtc": "2026-09-20T07:04:08.692Z",
+    "endedAtUtc": "2026-09-20T07:04:09.065Z",
+    "before": 172,
+    "after": 173,
+    "success": true
+  },
+  {
+    "index": 77,
+    "label": "002 reloaded checkpoint 18s",
+    "startedAtUtc": "2026-09-20T07:04:09.065Z",
+    "endedAtUtc": "2026-09-20T07:04:09.526Z",
+    "before": 174,
+    "after": 175,
+    "success": true
+  },
+  {
+    "index": 78,
+    "label": "002 reloaded checkpoint 24s",
+    "startedAtUtc": "2026-09-20T07:04:09.526Z",
+    "endedAtUtc": "2026-09-20T07:04:09.895Z",
+    "before": 176,
+    "after": 177,
+    "success": true
+  },
+  {
+    "index": 79,
+    "label": "002 reloaded checkpoint 30s",
+    "startedAtUtc": "2026-09-20T07:04:09.896Z",
+    "endedAtUtc": "2026-09-20T07:04:10.264Z",
+    "before": 178,
+    "after": 179,
+    "success": true
+  },
+  {
+    "index": 80,
+    "label": "002 reloaded checkpoint 36s",
+    "startedAtUtc": "2026-09-20T07:04:10.264Z",
+    "endedAtUtc": "2026-09-20T07:04:10.739Z",
+    "before": 180,
+    "after": 181,
+    "success": true
+  },
+  {
+    "index": 81,
+    "label": "002 reloaded checkpoint 42s",
+    "startedAtUtc": "2026-09-20T07:04:10.739Z",
+    "endedAtUtc": "2026-09-20T07:04:11.107Z",
+    "before": 182,
+    "after": 183,
+    "success": true
+  },
+  {
+    "index": 82,
+    "label": "002 reloaded checkpoint 48s",
+    "startedAtUtc": "2026-09-20T07:04:11.108Z",
+    "endedAtUtc": "2026-09-20T07:04:11.476Z",
+    "before": 184,
+    "after": 185,
+    "success": true
+  },
+  {
+    "index": 83,
+    "label": "002 tour test saved start",
+    "startedAtUtc": "2026-09-20T07:04:11.477Z",
+    "endedAtUtc": "2026-09-20T07:04:11.959Z",
+    "before": 186,
+    "after": 187,
+    "success": true
+  },
+  {
+    "index": 84,
+    "label": "002 tour step forward",
+    "startedAtUtc": "2026-09-20T07:04:11.959Z",
+    "endedAtUtc": "2026-09-20T07:04:12.325Z",
+    "before": 188,
+    "after": 189,
+    "success": true
+  },
+  {
+    "index": 85,
+    "label": "002 tour step back",
+    "startedAtUtc": "2026-09-20T07:04:12.325Z",
+    "endedAtUtc": "2026-09-20T07:04:12.680Z",
+    "before": 190,
+    "after": 191,
+    "success": true
+  },
+  {
+    "index": 86,
+    "label": "002 scrub via keyboard",
+    "startedAtUtc": "2026-09-20T07:04:12.680Z",
+    "endedAtUtc": "2026-09-20T07:04:12.960Z",
+    "before": 192,
+    "after": 193,
+    "success": true
+  },
+  {
+    "index": 87,
+    "label": "002 start and pause tour",
+    "startedAtUtc": "2026-09-20T07:04:12.961Z",
+    "endedAtUtc": "2026-09-20T07:04:13.751Z",
+    "before": 194,
+    "after": 195,
+    "success": true
+  },
+  {
+    "index": 88,
+    "label": "002 full tour replay from start",
+    "startedAtUtc": "2026-09-20T07:04:18.156Z",
+    "endedAtUtc": "2026-09-20T07:04:18.616Z",
+    "before": 196,
+    "after": 197,
+    "success": true
+  },
+  {
+    "index": 89,
+    "label": "002 historical Gate3 link",
+    "startedAtUtc": "2026-09-20T07:05:20.089Z",
+    "endedAtUtc": "2026-09-20T07:05:20.566Z",
+    "before": 202,
+    "after": 203,
+    "success": true
+  },
+  {
+    "index": 90,
+    "label": "002 historical Gate6 link",
+    "startedAtUtc": "2026-09-20T07:05:27.821Z",
+    "endedAtUtc": "2026-09-20T07:05:28.668Z",
+    "before": 204,
+    "after": 205,
+    "success": true
+  },
+  {
+    "index": 91,
+    "label": "002 final saved start",
+    "startedAtUtc": "2026-09-20T07:05:43.043Z",
+    "endedAtUtc": "2026-09-20T07:05:43.556Z",
+    "before": 206,
+    "after": 207,
+    "success": true
+  },
+  {
+    "index": 92,
+    "label": "002 collapse teaching at handoff",
+    "startedAtUtc": "2026-09-20T07:05:43.556Z",
+    "endedAtUtc": "2026-09-20T07:05:44.298Z",
+    "before": 208,
+    "after": 209,
+    "success": true
+  },
+  {
+    "index": 93,
+    "label": "002 final page top",
+    "startedAtUtc": "2026-09-20T07:05:44.298Z",
+    "endedAtUtc": "2026-09-20T07:05:44.546Z",
+    "before": 210,
+    "after": 211,
+    "success": true
+  }
+]

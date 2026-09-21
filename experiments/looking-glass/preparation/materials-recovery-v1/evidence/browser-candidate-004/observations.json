@@ -1,0 +1,3094 @@
+[
+  {
+    "label": "initial overview",
+    "observedAtUtc": "2026-09-20T22:12:51.405Z",
+    "ax": "Browser tab: 61, Title: \"Looking Glass materials review\", URL: \"http://127.0.0.1:44010/\".\n0 AXWebArea Looking Glass materials review, URL: 127.0.0.1:44010/\n\t1 container\n\t\t2 heading Looking Glass · materials review, Value: 1\n\t\t\t3 text Looking Glass · materials review\n\t\t4 text World TILE18-v1 · cutoff 10 · candidate 004\n\t5 container\n\t\t6 text Preparation only.  These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.\n\t7 heading Allocation, Value: 2\n\t\t8 text Allocation\n\t9 container\n\t\t10 text Two common anchors ( C01 ,  C02 ); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.\n\t11 table\n\t\t12 row\n\t\t\t13 cell\n\t\t\t\t14 text Future packet\n\t\t\t15 cell\n\t\t\t\t16 text Card IDs\n\t\t\t17 cell\n\t\t\t\t18 text Perspective instruction\n\t\t19 row\n\t\t\t20 cell\n\t\t\t\t21 text A1\n\t\t\t22 cell\n\t\t\t\t23 text C01\n\t\t\t\t24 text C02\n\t\t\t\t25 text C03\n\t\t\t\t26 text C04\n\t\t\t\t27 text C05\n\t\t\t\t28 text C06\n\t\t\t29 cell\n\t\t\t\t30 text COMMON-PERSPECTIVE-1\n\t\t31 row\n\t\t\t32 cell\n\t\t\t\t33 text A2\n\t\t\t34 cell\n\t\t\t\t35 text C01\n\t\t\t\t36 text C02\n\t\t\t\t37 text C07\n\t\t\t\t38 text C08\n\t\t\t\t39 text C09\n\t\t\t\t40 text C10\n\t\t\t41 cell\n\t\t\t\t42 text COMMON-PERSPECTIVE-1\n\t\t43 row\n\t\t\t44 cell\n\t\t\t\t45 text A3\n\t\t\t46 cell\n\t\t\t\t47 text C01\n\t\t\t\t48 text C02\n\t\t\t\t49 text C11\n\t\t\t\t50 text C12\n\t\t\t\t51 text C13\n\t\t\t\t52 text C14\n\t\t\t53 cell\n\t\t\t\t54 text COMMON-PERSPECTIVE-1\n\t\t55 row\n\t\t\t56 cell\n\t\t\t\t57 text A4\n\t\t\t58 cell\n\t\t\t\t59 text C01\n\t\t\t\t60 text C02\n\t\t\t\t61 text C15\n\t\t\t\t62 text C16\n\t\t\t\t63 text C17\n\t\t\t\t64 text C18\n\t\t\t65 cell\n\t\t\t\t66 text COMMON-PERSPECTIVE-1\n\t67 heading Source cards, Value: 2\n\t\t68 text Source cards\n\t69 table\n\t\t70 row\n\t\t\t71 cell\n\t\t\t\t72 text ID\n\t\t\t73 cell\n\t\t\t\t74 text Version\n\t\t\t75 cell\n\t\t\t\t76 text Title\n\t\t\t77 cell\n\t\t\t\t78 text Record\n\t\t79 row\n\t\t\t80 cell\n\t\t\t\t81 text C01\n\t\t\t82 cell\n\t\t\t\t83 text 1\n\t\t\t84 cell\n\t\t\t\t85 text Evaluation rules\n\t\t\t86 cell\n\t\t\t\t87 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t88 text Inspect authored source record\n\t\t89 row\n\t\t\t90 cell\n\t\t\t\t91 text C02\n\t\t\t92 cell\n\t\t\t\t93 text 1\n\t\t\t94 cell\n\t\t\t\t95 text Tile dispatch catalog\n\t\t\t96 cell\n\t\t\t\t97 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t98 text Inspect authored source record\n\t\t99 row\n\t\t\t100 cell\n\t\t\t\t101 text C03\n\t\t\t102 cell\n\t\t\t\t103 text 1\n\t\t\t104 cell\n\t\t\t\t105 text Press capacity\n\t\t\t106 cell\n\t\t\t\t107 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t108 text Inspect authored source record\n\t\t109 row\n\t\t\t110 cell\n\t\t\t\t111 text C04\n\t\t\t112 cell\n\t\t\t\t113 text 1\n\t\t\t114 cell\n\t\t\t\t115 text Understanding, dissent and conditional alternatives\n\t\t\t116 cell\n\t\t\t\t117 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t118 text Inspect authored source record\n\t\t119 row\n\t\t\t120 cell\n\t\t\t\t121 text C05\n\t\t\t122 cell\n\t\t\t\t123 text 1\n\t\t\t124 cell\n\t\t\t\t125 text Exploration\n\t\t\t126 cell\n\t\t\t\t127 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t128 text Inspect authored source record\n\t\t129 row\n\t\t\t130 cell\n\t\t\t\t131 text C06\n\t\t\t132 cell\n\t\t\t\t133 text 1\n\t\t\t134 cell\n\t\t\t\t135 text Understanding confirmation\n\t\t\t136 cell\n\t\t\t\t137 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t138 text Inspect authored source record\n\t\t139 row\n\t\t\t140 cell\n\t\t\t\t141 text C07\n\t\t\t142 cell\n\t\t\t\t143 text 1\n\t\t\t144 cell\n\t\t\t\t145 text Cart capacity\n\t\t\t146 cell\n\t\t\t\t147 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t148 text Inspect authored source record\n\t\t149 row\n\t\t\t150 cell\n\t\t\t\t151 text C08\n\t\t\t152 cell\n\t\t\t\t153 text 1\n\t\t\t154 cell\n\t\t\t\t155 text P12 cart grant\n\t\t\t156 cell\n\t\t\t\t157 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t158 text Inspect authored source record\n\t\t159 row\n\t\t\t160 cell\n\t\t\t\t161 text C09\n\t\t\t162 cell\n\t\t\t\t163 text 1\n\t\t\t164 cell\n\t\t\t\t165 text P8 cart grant\n\t\t\t166 cell\n\t\t\t\t167 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t168 text Inspect authored source record\n\t\t169 row\n\t\t\t170 cell\n\t\t\t\t171 text C10\n\t\t\t172 cell\n\t\t\t\t173 text 1\n\t\t\t174 cell\n\t\t\t\t175 text P10 cart refusal\n\t\t\t176 cell\n\t\t\t\t177 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t178 text Inspect authored source record\n\t\t179 row\n\t\t\t180 cell\n\t\t\t\t181 text C11\n\t\t\t182 cell\n\t\t\t\t183 text 1\n\t\t\t184 cell\n\t\t\t\t185 text Original varnish capacity\n\t\t\t186 cell\n\t\t\t\t187 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t188 text Inspect authored source record\n\t\t189 row\n\t\t\t190 cell\n\t\t\t\t191 text C12\n\t\t\t192 cell\n\t\t\t\t193 text 1\n\t\t\t194 cell\n\t\t\t\t195 text Capacity correction\n\t\t\t196 cell\n\t\t\t\t197 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t198 text Inspect authored source record\n\t\t199 row\n\t\t\t200 cell\n\t\t\t\t201 text C13\n\t\t\t202 cell\n\t\t\t\t203 text 1\n\t\t\t204 cell\n\t\t\t\t205 text Resource commitment\n\t\t\t206 cell\n\t\t\t\t207 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t208 text Inspect authored source record\n\t\t209 row\n\t\t\t210 cell\n\t\t\t\t211 text C14\n\t\t\t212 cell\n\t\t\t\t213 text 1\n\t\t\t214 cell\n\t\t\t\t215 text Restatement, not another unit\n\t\t\t216 cell\n\t\t\t\t217 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t218 text Inspect authored source record\n\t\t219 row\n\t\t\t220 cell\n\t\t\t\t221 text C15\n\t\t\t222 cell\n\t\t\t\t223 text 1\n\t\t\t224 cell\n\t\t\t\t225 text Representative mandate\n\t\t\t226 cell\n\t\t\t\t227 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t228 text Inspect authored source record\n\t\t229 row\n\t\t\t230 cell\n\t\t\t\t231 text C16\n\t\t\t232 cell\n\t\t\t\t233 text 1\n\t\t\t234 cell\n\t\t\t\t235 text Model attribution, not an endorsement\n\t\t\t236 cell\n\t\t\t\t237 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t238 text Inspect authored source record\n\t\t239 row\n\t\t\t240 cell\n\t\t\t\t241 text C17\n\t\t\t242 cell\n\t\t\t\t243 text 1\n\t\t\t244 cell\n\t\t\t\t245 text Changed requirement\n\t\t\t246 cell\n\t\t\t\t247 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t248 text Inspect authored source record\n\t\t249 row\n\t\t\t250 cell\n\t\t\t\t251 text C18\n\t\t\t252 cell\n\t\t\t\t253 text 1\n\t\t\t254 cell\n\t\t\t\t255 text Unresolved inspection reports\n\t\t\t256 cell\n\t\t\t\t257 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t258 text Inspect authored source record\n\t259 heading Development task references, Value: 2\n\t\t260 text Development task references\n\t261 text Withheld tasks and answers are researcher-only files and are not served by this preview.\n\t262 table\n\t\t263 row\n\t\t\t264 cell\n\t\t\t\t265 text ID\n\t\t\t266 cell\n\t\t\t\t267 text Access phase\n\t\t\t268 cell\n\t\t\t\t269 text Scope\n\t\t\t270 cell\n\t\t\t\t271 text Question\n\t\t272 row\n\t\t\t273 cell\n\t\t\t\t274 text D01\n\t\t\t275 cell\n\t\t\t\t276 text initial access\n\t\t\t277 cell\n\t\t\t\t278 text all\n\t\t\t279 cell\n\t\t\t\t280 text Report active demand from the supplied evidence, not from unseen cards.\n\t\t281 row\n\t\t\t282 cell\n\t\t\t\t283 text D02\n\t\t\t284 cell\n\t\t\t\t285 text initial access\n\t\t\t286 cell\n\t\t\t\t287 text all\n\t\t\t288 cell\n\t\t\t\t289 text Report active physical capacities; preserve superseded sources as history.\n\t\t290 row\n\t\t\t291 cell\n\t\t\t\t292 text D03\n\t\t\t293 cell\n\t\t\t\t294 text initial access\n\t\t\t295 cell\n\t\t\t\t296 text all\n\t\t\t297 cell\n\t\t\t\t298 text Keep P12 understanding, endorsement and resource commitments separate.\n\t\t299 row\n\t\t\t300 cell\n\t\t\t\t301 text D04\n\t\t\t302 cell\n\t\t\t\t303 text initial access\n\t\t\t304 cell\n\t\t\t\t305 text all\n\t\t\t306 cell\n\t\t\t\t307 text Identify the P10 predicates separately; absence is unknown.\n\t\t308 row\n\t\t\t309 cell\n\t\t\t\t310 text D05\n\t\t\t311 cell\n\t\t\t\t312 text initial access\n\t\t\t313 cell\n\t\t\t\t314 text all\n\t\t\t315 cell\n\t\t\t\t316 text Distinguish the recorded model attribution from actual Ara endorsement of P12, and inspect Dev’s mandate.\n\t\t317 row\n\t\t\t318 cell\n\t\t\t\t319 text D06\n\t\t\t320 cell\n\t\t\t\t321 text initial access\n\t\t\t322 cell\n\t\t\t\t323 text all\n\t\t\t324 cell\n\t\t\t\t325 text Evaluate the P10 inspection reports for the same plan version and scope.\n\t\t326 row\n\t\t\t327 cell\n\t\t\t\t328 text D07\n\t\t\t329 cell\n\t\t\t\t330 text initial access\n\t\t\t331 cell\n\t\t\t\t332 text all\n\t\t\t333 cell\n\t\t\t\t334 text Evaluate each catalog plan relative to only supplied evidence; report component statuses.\n\t\t335 row\n\t\t\t336 cell\n\t\t\t\t337 text D08\n\t\t\t338 cell\n\t\t\t\t339 text initial access\n\t\t\t340 cell\n\t\t\t\t341 text all\n\t\t\t342 cell\n\t\t\t\t343 text Choose the minimum-cost supported-ready plan, or none_supported. None does not assert impossibility.\n\t\t344 row\n\t\t\t345 cell\n\t\t\t\t346 text D09\n\t\t\t347 cell\n\t\t\t\t348 text post-union only\n\t\t\t349 cell\n\t\t\t\t350 text union_only\n\t\t\t351 cell\n\t\t\t\t352 text For Cy/P10 varnish, count distinct positive commitment lineages and maximum granted amount. Preserve every restatement source.\n\t\t353 row\n\t\t\t354 cell\n\t\t\t\t355 text D10\n\t\t\t356 cell\n\t\t\t\t357 text post-union only\n\t\t\t358 cell\n\t\t\t\t359 text union_only\n\t\t\t360 cell\n\t\t\t\t361 text Classify C06/C13 and C13/C14 by surface and normalized relation. Normalized relation includes predicate and all directed argument roles.\n\t362 heading Public source input hashes, Value: 2\n\t\t363 text Public source input hashes\n\t364 table\n\t\t365 row\n\t\t\t366 cell\n\t\t\t\t367 text Design path\n\t\t\t368 cell\n\t\t\t\t369 text Bytes\n\t\t\t370 cell\n\t\t\t\t371 text SHA-256\n\t\t372 row\n\t\t\t373 cell\n\t\t\t\t374 text design/allocations.json\n\t\t\t375 cell\n\t\t\t\t376 text 1119\n\t\t\t377 cell\n\t\t\t\t378 text 9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d\n\t\t379 row\n\t\t\t380 cell\n\t\t\t\t381 text design/development-tasks.json\n\t\t\t382 cell\n\t\t\t\t383 text 6342\n\t\t\t384 cell\n\t\t\t\t385 text cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6\n\t\t386 row\n\t\t\t387 cell\n\t\t\t\t388 text design/snapshot.schema.json\n\t\t\t389 cell\n\t\t\t\t390 text 8053\n\t\t\t391 cell\n\t\t\t\t392 text b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a\n\t\t393 row\n\t\t\t394 cell\n\t\t\t\t395 text design/world.json\n\t\t\t396 cell\n\t\t\t\t397 text 28103\n\t\t\t398 cell\n\t\t\t\t399 text a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef\n\t400 text Inspect the generated JSON bundles and their SHA-256 manifests on disk for exact source and release boundaries.\n\nThe focused UI element is 0 AXWebArea Looking Glass materials review, URL: 127.0.0.1:44010/",
+    "dom": {
+      "identity": "Looking Glass · materials reviewWorld TILE18-v1 · cutoff 10 · candidate 004",
+      "records": [
+        {
+          "card": {
+            "claims": [],
+            "id": "C01",
+            "kind": "shared_anchor",
+            "occurredTick": 0,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 0,
+            "rules": [
+              {
+                "id": "R01",
+                "text": "Evaluate only supplied, uniquely identified source claims with occurredTick <= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent."
+              },
+              {
+                "id": "R02",
+                "text": "The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted."
+              },
+              {
+                "id": "R03",
+                "text": "A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown."
+              },
+              {
+                "id": "R04",
+                "text": "Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority."
+              },
+              {
+                "id": "R05",
+                "text": "Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources."
+              },
+              {
+                "id": "R06",
+                "text": "Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor."
+              },
+              {
+                "id": "R07",
+                "text": "For each plan, physical is AND of known capacity >= required quantity; demand is output >= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible."
+              },
+              {
+                "id": "R08",
+                "text": "Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity."
+              },
+              {
+                "id": "R09",
+                "text": "Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration."
+              },
+              {
+                "id": "R10",
+                "text": "Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies."
+              }
+            ],
+            "statusSemantics": {
+              "conflicted": [
+                true,
+                true
+              ],
+              "refuted": [
+                false,
+                true
+              ],
+              "supported": [
+                true,
+                false
+              ],
+              "unknown": [
+                false,
+                false
+              ]
+            },
+            "surfaceText": "This card contains the common finite-world evaluation rules and status semantics.",
+            "title": "Evaluation rules",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C02-1",
+                "lineageId": "F-C02-1",
+                "predicate": "demand",
+                "value": 8
+              }
+            ],
+            "entities": {
+              "actors": [
+                {
+                  "id": "ARA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "BEA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "CY",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "DEV",
+                  "kind": "fictional_actor"
+                }
+              ],
+              "resources": [
+                {
+                  "id": "press",
+                  "owner": "ARA"
+                },
+                {
+                  "id": "cart",
+                  "owner": "BEA"
+                },
+                {
+                  "id": "varnish",
+                  "owner": "CY"
+                }
+              ]
+            },
+            "id": "C02",
+            "kind": "shared_anchor",
+            "occurredTick": 1,
+            "plans": [
+              {
+                "cost": 4,
+                "id": "P8",
+                "inspectionRequired": false,
+                "output": 8,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 4,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 7,
+                "id": "P12",
+                "inspectionRequired": false,
+                "output": 12,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 6,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 2,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 6,
+                "id": "P10",
+                "inspectionRequired": true,
+                "output": 10,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 5,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  },
+                  {
+                    "actor": "CY",
+                    "quantity": 1,
+                    "resource": "varnish"
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 1,
+            "surfaceText": "Choose one plan. Initial demand is 8 tiles. Plan P8 produces 8 for cost 4; P12 produces 12 for cost 7; P10 produces 10 for cost 6. Exact dependencies are in the catalog.",
+            "title": "Tile dispatch catalog",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C03-1",
+                "lineageId": "F-C03-1",
+                "predicate": "capacity",
+                "value": 6
+              }
+            ],
+            "id": "C03",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Ara has 6 press units available.",
+            "title": "Press capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-1",
+                "lineageId": "F-C04-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-2",
+                "lineageId": "F-C04-2",
+                "predicate": "endorses",
+                "value": false
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 6,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-3",
+                "lineageId": "F-C04-3",
+                "predicate": "resource_commitment",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 4,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-4",
+                "lineageId": "F-C04-4",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C04",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara understands P12 and rejects endorsing it. Ara nevertheless commits 6 press units to P12 version 1, or 4 to P8 version 1 if that alternative is selected. These are alternative plan-specific grants, not additive reservations.",
+            "title": "Understanding, dissent and conditional alternatives",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C05-1",
+                "lineageId": "F-C05-1",
+                "predicate": "explores",
+                "value": true
+              }
+            ],
+            "id": "C05",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara is exploring P10 version 1. No endorsement or commitment is stated.",
+            "title": "Exploration",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C06-1",
+                "lineageId": "F-C06-1",
+                "predicate": "understands",
+                "value": true
+              }
+            ],
+            "id": "C06",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "ARA",
+              "plan": "P10",
+              "planVersion": 1
+            },
+            "speechAct": "understanding_confirmation",
+            "surfaceText": "Ready.",
+            "title": "Understanding confirmation",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C07-1",
+                "lineageId": "F-C07-1",
+                "predicate": "capacity",
+                "value": 2
+              }
+            ],
+            "id": "C07",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Bea has 2 cart units available.",
+            "title": "Cart capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-1",
+                "lineageId": "F-C08-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-2",
+                "lineageId": "F-C08-2",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 2,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-3",
+                "lineageId": "F-C08-3",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C08",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea understands and endorses P12 version 1 and commits 2 cart units to it.",
+            "title": "P12 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-1",
+                "lineageId": "F-C09-1",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-2",
+                "lineageId": "F-C09-2",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C09",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea endorses P8 version 1 and commits 1 cart unit to it as an alternative.",
+            "title": "P8 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C10-1",
+                "lineageId": "F-C10-1",
+                "predicate": "resource_commitment",
+                "value": false
+              }
+            ],
+            "id": "C10",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "surfaceText": "Bea declines a commitment of 1 cart unit to P10 version 1.",
+            "title": "P10 cart refusal",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C11-1",
+                "lineageId": "F-C11-1",
+                "predicate": "capacity",
+                "value": 1
+              }
+            ],
+            "id": "C11",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Cy originally reports 1 varnish unit available.",
+            "title": "Original varnish capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C12-1",
+                "lineageId": "F-C12-1",
+                "predicate": "capacity",
+                "supersedes": [
+                  "F-C11-1"
+                ],
+                "value": 0
+              }
+            ],
+            "id": "C12",
+            "kind": "source_record",
+            "occurredTick": 7,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 7,
+            "surfaceText": "Cy corrects the available varnish capacity to 0. This supersedes F-C11-1; keep the original visible as history.",
+            "title": "Capacity correction",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C13-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C13",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "CY",
+              "plan": "P10",
+              "planVersion": 1,
+              "quantity": 1,
+              "resource": "varnish"
+            },
+            "speechAct": "resource_commitment",
+            "surfaceText": "Ready.",
+            "title": "Resource commitment",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C14-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "restates": [
+                  "F-C13-1"
+                ],
+                "value": true
+              }
+            ],
+            "id": "C14",
+            "kind": "source_record",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "speechAct": "resource_commitment_restatement",
+            "surfaceText": "Hold one varnish slot for P10.",
+            "title": "Restatement, not another unit",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "DEV",
+                  "complete": true,
+                  "scope": "P8,P12,P10"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C15-1",
+                "lineageId": "F-C15-1",
+                "predicate": "mandate",
+                "value": [
+                  "describe"
+                ]
+              }
+            ],
+            "id": "C15",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Dev may describe the three named plans. This complete mandate excludes committing resources or binding any actor.",
+            "title": "Representative mandate",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "synthetic_model_artifact",
+                "id": "F-C16-1",
+                "lineageId": "F-C16-1",
+                "predicate": "model_attributes_endorsement",
+                "value": true
+              }
+            ],
+            "id": "C16",
+            "kind": "synthetic_model_artifact",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "surfaceText": "Synthetic model summary: Ara endorses P12. This card records an attributed model interpretation only; no actor attestation is created.",
+            "title": "Model attribution, not an endorsement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 2
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C17-1",
+                "lineageId": "F-C17-1",
+                "predicate": "demand",
+                "supersedes": [
+                  "F-C02-1"
+                ],
+                "value": 10
+              }
+            ],
+            "id": "C17",
+            "kind": "source_record",
+            "occurredTick": 8,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 8,
+            "surfaceText": "The requirement is now 10 tiles, version 2. This supersedes the initial demand claim F-C02-1.",
+            "title": "Changed requirement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN1",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-1",
+                "lineageId": "F-C18-1",
+                "predicate": "inspection_report",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN2",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-2",
+                "lineageId": "F-C18-2",
+                "predicate": "inspection_report",
+                "value": false
+              }
+            ],
+            "id": "C18",
+            "kind": "source_record",
+            "occurredTick": 9,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 9,
+            "surfaceText": "Inspector IN1 reports P10 version 1 passed; inspector IN2 reports the same inspection scope failed. Neither report supersedes the other.",
+            "title": "Unresolved inspection reports",
+            "version": 1
+          },
+          "open": false
+        }
+      ],
+      "scope": "Preparation only. These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.",
+      "title": "Looking Glass materials review",
+      "url": "http://127.0.0.1:44010/",
+      "viewport": {
+        "documentHeight": 2619,
+        "documentWidth": 1280,
+        "dpr": 2,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 0,
+        "width": 1280
+      }
+    }
+  },
+  {
+    "label": "after keyboard open C04",
+    "observedAtUtc": "2026-09-20T22:12:57.373Z",
+    "ax": "Browser tab: 61, Title: \"Looking Glass materials review\", URL: \"http://127.0.0.1:44010/\".\n0 AXWebArea Looking Glass materials review, URL: 127.0.0.1:44010/\n\t1 container\n\t\t2 heading Looking Glass · materials review, Value: 1\n\t\t\t3 text Looking Glass · materials review\n\t\t4 text World TILE18-v1 · cutoff 10 · candidate 004\n\t5 container\n\t\t6 text Preparation only.  These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.\n\t7 heading Allocation, Value: 2\n\t\t8 text Allocation\n\t9 container\n\t\t10 text Two common anchors ( C01 ,  C02 ); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.\n\t11 table\n\t\t12 row\n\t\t\t13 cell\n\t\t\t\t14 text Future packet\n\t\t\t15 cell\n\t\t\t\t16 text Card IDs\n\t\t\t17 cell\n\t\t\t\t18 text Perspective instruction\n\t\t19 row\n\t\t\t20 cell\n\t\t\t\t21 text A1\n\t\t\t22 cell\n\t\t\t\t23 text C01\n\t\t\t\t24 text C02\n\t\t\t\t25 text C03\n\t\t\t\t26 text C04\n\t\t\t\t27 text C05\n\t\t\t\t28 text C06\n\t\t\t29 cell\n\t\t\t\t30 text COMMON-PERSPECTIVE-1\n\t\t31 row\n\t\t\t32 cell\n\t\t\t\t33 text A2\n\t\t\t34 cell\n\t\t\t\t35 text C01\n\t\t\t\t36 text C02\n\t\t\t\t37 text C07\n\t\t\t\t38 text C08\n\t\t\t\t39 text C09\n\t\t\t\t40 text C10\n\t\t\t41 cell\n\t\t\t\t42 text COMMON-PERSPECTIVE-1\n\t\t43 row\n\t\t\t44 cell\n\t\t\t\t45 text A3\n\t\t\t46 cell\n\t\t\t\t47 text C01\n\t\t\t\t48 text C02\n\t\t\t\t49 text C11\n\t\t\t\t50 text C12\n\t\t\t\t51 text C13\n\t\t\t\t52 text C14\n\t\t\t53 cell\n\t\t\t\t54 text COMMON-PERSPECTIVE-1\n\t\t55 row\n\t\t\t56 cell\n\t\t\t\t57 text A4\n\t\t\t58 cell\n\t\t\t\t59 text C01\n\t\t\t\t60 text C02\n\t\t\t\t61 text C15\n\t\t\t\t62 text C16\n\t\t\t\t63 text C17\n\t\t\t\t64 text C18\n\t\t\t65 cell\n\t\t\t\t66 text COMMON-PERSPECTIVE-1\n\t67 heading Source cards, Value: 2\n\t\t68 text Source cards\n\t69 table\n\t\t70 row\n\t\t\t71 cell\n\t\t\t\t72 text ID\n\t\t\t73 cell\n\t\t\t\t74 text Version\n\t\t\t75 cell\n\t\t\t\t76 text Title\n\t\t\t77 cell\n\t\t\t\t78 text Record\n\t\t79 row\n\t\t\t80 cell\n\t\t\t\t81 text C01\n\t\t\t82 cell\n\t\t\t\t83 text 1\n\t\t\t84 cell\n\t\t\t\t85 text Evaluation rules\n\t\t\t86 cell\n\t\t\t\t87 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t88 text Inspect authored source record\n\t\t89 row\n\t\t\t90 cell\n\t\t\t\t91 text C02\n\t\t\t92 cell\n\t\t\t\t93 text 1\n\t\t\t94 cell\n\t\t\t\t95 text Tile dispatch catalog\n\t\t\t96 cell\n\t\t\t\t97 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t98 text Inspect authored source record\n\t\t99 row\n\t\t\t100 cell\n\t\t\t\t101 text C03\n\t\t\t102 cell\n\t\t\t\t103 text 1\n\t\t\t104 cell\n\t\t\t\t105 text Press capacity\n\t\t\t106 cell\n\t\t\t\t107 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t108 text Inspect authored source record\n\t\t109 row\n\t\t\t110 cell\n\t\t\t\t111 text C04\n\t\t\t112 cell\n\t\t\t\t113 text 1\n\t\t\t114 cell\n\t\t\t\t115 text Understanding, dissent and conditional alternatives\n\t\t\t116 cell\n\t\t\t\t401 container\n\t\t\t\t\t402 button (expanded) Inspect authored source record, Secondary Actions: Collapse\n\t\t\t\t\t\t403 text Inspect authored source record\n\t\t\t\t\t404 text {\n  \"id\": \"C04\",\n  \"version\": 1,\n  \"occurredTick\": 3,\n  \"recordedTick\": 3,\n  \"kind\": \"source_record\",\n  \"title\": \"Understanding, dissent and conditional alternatives\",\n  \"surfaceText\": \"Ara understands P12 and rejects endorsing it. Ara nevertheless commits 6 press units to P12 version 1, or 4 to P8 version 1 if that alternative is selected. These are alternative plan-specific grants, not additive reservations.\",\n  \"claims\": [\n    {\n      \"id\": \"F-C04-1\",\n      \"predicate\": \"understands\",\n      \"arguments\": {\n        \"actor\": \"ARA\",\n        \"plan\": \"P12\",\n        \"planVersion\": 1\n      },\n      \"value\": true,\n      \"evidenceKind\": \"stipulated_source\",\n      \"lineageId\": \"F-C04-1\"\n    },\n    {\n      \"id\": \"F-C04-2\",\n      \"predicate\": \"endorses\",\n      \"arguments\": {\n        \"actor\": \"ARA\",\n        \"plan\": \"P12\",\n        \"planVersion\": 1\n      },\n      \"value\": false,\n      \"evidenceKind\": \"stipulated_source\",\n      \"lineageId\": \"F-C04-2\"\n    },\n    {\n      \"id\": \"F-C04-3\",\n      \"predicate\": \"resource_commitment\",\n      \"arguments\": {\n        \"actor\": \"ARA\",\n        \"plan\": \"P12\",\n        \"planVersion\": 1,\n        \"resource\": \"press\",\n        \"quantity\": 6\n      },\n      \"value\": true,\n      \"evidenceKind\": \"stipulated_source\",\n      \"lineageId\": \"F-C04-3\"\n    },\n    {\n      \"id\": \"F-C04-4\",\n      \"predicate\": \"resource_commitment\",\n      \"arguments\": {\n        \"actor\": \"ARA\",\n        \"plan\": \"P8\",\n        \"planVersion\": 1,\n        \"resource\": \"press\",\n        \"quantity\": 4\n      },\n      \"value\": true,\n      \"evidenceKind\": \"stipulated_source\",\n      \"lineageId\": \"F-C04-4\"\n    }\n  ],\n  \"provenance\": \"Author-created fictional material; no human statement or observed outcome.\"\n}\n\t\t119 row\n\t\t\t120 cell\n\t\t\t\t121 text C05\n\t\t\t122 cell\n\t\t\t\t123 text 1\n\t\t\t124 cell\n\t\t\t\t125 text Exploration\n\t\t\t126 cell\n\t\t\t\t127 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t128 text Inspect authored source record\n\t\t129 row\n\t\t\t130 cell\n\t\t\t\t131 text C06\n\t\t\t132 cell\n\t\t\t\t133 text 1\n\t\t\t134 cell\n\t\t\t\t135 text Understanding confirmation\n\t\t\t136 cell\n\t\t\t\t137 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t138 text Inspect authored source record\n\t\t139 row\n\t\t\t140 cell\n\t\t\t\t141 text C07\n\t\t\t142 cell\n\t\t\t\t143 text 1\n\t\t\t144 cell\n\t\t\t\t145 text Cart capacity\n\t\t\t146 cell\n\t\t\t\t147 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t148 text Inspect authored source record\n\t\t149 row\n\t\t\t150 cell\n\t\t\t\t151 text C08\n\t\t\t152 cell\n\t\t\t\t153 text 1\n\t\t\t154 cell\n\t\t\t\t155 text P12 cart grant\n\t\t\t156 cell\n\t\t\t\t157 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t158 text Inspect authored source record\n\t\t159 row\n\t\t\t160 cell\n\t\t\t\t161 text C09\n\t\t\t162 cell\n\t\t\t\t163 text 1\n\t\t\t164 cell\n\t\t\t\t165 text P8 cart grant\n\t\t\t166 cell\n\t\t\t\t167 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t168 text Inspect authored source record\n\t\t169 row\n\t\t\t170 cell\n\t\t\t\t171 text C10\n\t\t\t172 cell\n\t\t\t\t173 text 1\n\t\t\t174 cell\n\t\t\t\t175 text P10 cart refusal\n\t\t\t176 cell\n\t\t\t\t177 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t178 text Inspect authored source record\n\t\t179 row\n\t\t\t180 cell\n\t\t\t\t181 text C11\n\t\t\t182 cell\n\t\t\t\t183 text 1\n\t\t\t184 cell\n\t\t\t\t185 text Original varnish capacity\n\t\t\t186 cell\n\t\t\t\t187 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t188 text Inspect authored source record\n\t\t189 row\n\t\t\t190 cell\n\t\t\t\t191 text C12\n\t\t\t192 cell\n\t\t\t\t193 text 1\n\t\t\t194 cell\n\t\t\t\t195 text Capacity correction\n\t\t\t196 cell\n\t\t\t\t197 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t198 text Inspect authored source record\n\t\t199 row\n\t\t\t200 cell\n\t\t\t\t201 text C13\n\t\t\t202 cell\n\t\t\t\t203 text 1\n\t\t\t204 cell\n\t\t\t\t205 text Resource commitment\n\t\t\t206 cell\n\t\t\t\t207 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t208 text Inspect authored source record\n\t\t209 row\n\t\t\t210 cell\n\t\t\t\t211 text C14\n\t\t\t212 cell\n\t\t\t\t213 text 1\n\t\t\t214 cell\n\t\t\t\t215 text Restatement, not another unit\n\t\t\t216 cell\n\t\t\t\t217 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t218 text Inspect authored source record\n\t\t219 row\n\t\t\t220 cell\n\t\t\t\t221 text C15\n\t\t\t222 cell\n\t\t\t\t223 text 1\n\t\t\t224 cell\n\t\t\t\t225 text Representative mandate\n\t\t\t226 cell\n\t\t\t\t227 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t228 text Inspect authored source record\n\t\t229 row\n\t\t\t230 cell\n\t\t\t\t231 text C16\n\t\t\t232 cell\n\t\t\t\t233 text 1\n\t\t\t234 cell\n\t\t\t\t235 text Model attribution, not an endorsement\n\t\t\t236 cell\n\t\t\t\t237 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t238 text Inspect authored source record\n\t\t239 row\n\t\t\t240 cell\n\t\t\t\t241 text C17\n\t\t\t242 cell\n\t\t\t\t243 text 1\n\t\t\t244 cell\n\t\t\t\t245 text Changed requirement\n\t\t\t246 cell\n\t\t\t\t247 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t248 text Inspect authored source record\n\t\t249 row\n\t\t\t250 cell\n\t\t\t\t251 text C18\n\t\t\t252 cell\n\t\t\t\t253 text 1\n\t\t\t254 cell\n\t\t\t\t255 text Unresolved inspection reports\n\t\t\t256 cell\n\t\t\t\t257 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t258 text Inspect authored source record\n\t259 heading Development task references, Value: 2\n\t\t260 text Development task references\n\t261 text Withheld tasks and answers are researcher-only files and are not served by this preview.\n\t262 table\n\t\t263 row\n\t\t\t264 cell\n\t\t\t\t265 text ID\n\t\t\t266 cell\n\t\t\t\t267 text Access phase\n\t\t\t268 cell\n\t\t\t\t269 text Scope\n\t\t\t270 cell\n\t\t\t\t271 text Question\n\t\t272 row\n\t\t\t273 cell\n\t\t\t\t274 text D01\n\t\t\t275 cell\n\t\t\t\t276 text initial access\n\t\t\t277 cell\n\t\t\t\t278 text all\n\t\t\t279 cell\n\t\t\t\t280 text Report active demand from the supplied evidence, not from unseen cards.\n\t\t281 row\n\t\t\t282 cell\n\t\t\t\t283 text D02\n\t\t\t284 cell\n\t\t\t\t285 text initial access\n\t\t\t286 cell\n\t\t\t\t287 text all\n\t\t\t288 cell\n\t\t\t\t289 text Report active physical capacities; preserve superseded sources as history.\n\t\t290 row\n\t\t\t291 cell\n\t\t\t\t292 text D03\n\t\t\t293 cell\n\t\t\t\t294 text initial access\n\t\t\t295 cell\n\t\t\t\t296 text all\n\t\t\t297 cell\n\t\t\t\t298 text Keep P12 understanding, endorsement and resource commitments separate.\n\t\t299 row\n\t\t\t300 cell\n\t\t\t\t301 text D04\n\t\t\t302 cell\n\t\t\t\t303 text initial access\n\t\t\t304 cell\n\t\t\t\t305 text all\n\t\t\t306 cell\n\t\t\t\t307 text Identify the P10 predicates separately; absence is unknown.\n\t\t308 row\n\t\t\t309 cell\n\t\t\t\t310 text D05\n\t\t\t311 cell\n\t\t\t\t312 text initial access\n\t\t\t313 cell\n\t\t\t\t314 text all\n\t\t\t315 cell\n\t\t\t\t316 text Distinguish the recorded model attribution from actual Ara endorsement of P12, and inspect Dev’s mandate.\n\t\t317 row\n\t\t\t318 cell\n\t\t\t\t319 text D06\n\t\t\t320 cell\n\t\t\t\t321 text initial access\n\t\t\t322 cell\n\t\t\t\t323 text all\n\t\t\t324 cell\n\t\t\t\t325 text Evaluate the P10 inspection reports for the same plan version and scope.\n\t\t326 row\n\t\t\t327 cell\n\t\t\t\t328 text D07\n\t\t\t329 cell\n\t\t\t\t330 text initial access\n\t\t\t331 cell\n\t\t\t\t332 text all\n\t\t\t333 cell\n\t\t\t\t334 text Evaluate each catalog plan relative to only supplied evidence; report component statuses.\n\t\t335 row\n\t\t\t336 cell\n\t\t\t\t337 text D08\n\t\t\t338 cell\n\t\t\t\t339 text initial access\n\t\t\t340 cell\n\t\t\t\t341 text all\n\t\t\t342 cell\n\t\t\t\t343 text Choose the minimum-cost supported-ready plan, or none_supported. None does not assert impossibility.\n\t\t344 row\n\t\t\t345 cell\n\t\t\t\t346 text D09\n\t\t\t347 cell\n\t\t\t\t348 text post-union only\n\t\t\t349 cell\n\t\t\t\t350 text union_only\n\t\t\t351 cell\n\t\t\t\t352 text For Cy/P10 varnish, count distinct positive commitment lineages and maximum granted amount. Preserve every restatement source.\n\t\t353 row\n\t\t\t354 cell\n\t\t\t\t355 text D10\n\t\t\t356 cell\n\t\t\t\t357 text post-union only\n\t\t\t358 cell\n\t\t\t\t359 text union_only\n\t\t\t360 cell\n\t\t\t\t361 text Classify C06/C13 and C13/C14 by surface and normalized relation. Normalized relation includes predicate and all directed argument roles.\n\t362 heading Public source input hashes, Value: 2\n\t\t363 text Public source input hashes\n\t364 table\n\t\t365 row\n\t\t\t366 cell\n\t\t\t\t367 text Design path\n\t\t\t368 cell\n\t\t\t\t369 text Bytes\n\t\t\t370 cell\n\t\t\t\t371 text SHA-256\n\t\t372 row\n\t\t\t373 cell\n\t\t\t\t374 text design/allocations.json\n\t\t\t375 cell\n\t\t\t\t376 text 1119\n\t\t\t377 cell\n\t\t\t\t378 text 9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d\n\t\t379 row\n\t\t\t380 cell\n\t\t\t\t381 text design/development-tasks.json\n\t\t\t382 cell\n\t\t\t\t383 text 6342\n\t\t\t384 cell\n\t\t\t\t385 text cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6\n\t\t386 row\n\t\t\t387 cell\n\t\t\t\t388 text design/snapshot.schema.json\n\t\t\t389 cell\n\t\t\t\t390 text 8053\n\t\t\t391 cell\n\t\t\t\t392 text b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a\n\t\t393 row\n\t\t\t394 cell\n\t\t\t\t395 text design/world.json\n\t\t\t396 cell\n\t\t\t\t397 text 28103\n\t\t\t398 cell\n\t\t\t\t399 text a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef\n\t400 text Inspect the generated JSON bundles and their SHA-256 manifests on disk for exact source and release boundaries.\n\nThe focused UI element is 402 button (expanded) Inspect authored source record, Secondary Actions: Collapse",
+    "dom": {
+      "identity": "Looking Glass · materials reviewWorld TILE18-v1 · cutoff 10 · candidate 004",
+      "records": [
+        {
+          "card": {
+            "claims": [],
+            "id": "C01",
+            "kind": "shared_anchor",
+            "occurredTick": 0,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 0,
+            "rules": [
+              {
+                "id": "R01",
+                "text": "Evaluate only supplied, uniquely identified source claims with occurredTick <= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent."
+              },
+              {
+                "id": "R02",
+                "text": "The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted."
+              },
+              {
+                "id": "R03",
+                "text": "A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown."
+              },
+              {
+                "id": "R04",
+                "text": "Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority."
+              },
+              {
+                "id": "R05",
+                "text": "Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources."
+              },
+              {
+                "id": "R06",
+                "text": "Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor."
+              },
+              {
+                "id": "R07",
+                "text": "For each plan, physical is AND of known capacity >= required quantity; demand is output >= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible."
+              },
+              {
+                "id": "R08",
+                "text": "Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity."
+              },
+              {
+                "id": "R09",
+                "text": "Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration."
+              },
+              {
+                "id": "R10",
+                "text": "Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies."
+              }
+            ],
+            "statusSemantics": {
+              "conflicted": [
+                true,
+                true
+              ],
+              "refuted": [
+                false,
+                true
+              ],
+              "supported": [
+                true,
+                false
+              ],
+              "unknown": [
+                false,
+                false
+              ]
+            },
+            "surfaceText": "This card contains the common finite-world evaluation rules and status semantics.",
+            "title": "Evaluation rules",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C02-1",
+                "lineageId": "F-C02-1",
+                "predicate": "demand",
+                "value": 8
+              }
+            ],
+            "entities": {
+              "actors": [
+                {
+                  "id": "ARA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "BEA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "CY",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "DEV",
+                  "kind": "fictional_actor"
+                }
+              ],
+              "resources": [
+                {
+                  "id": "press",
+                  "owner": "ARA"
+                },
+                {
+                  "id": "cart",
+                  "owner": "BEA"
+                },
+                {
+                  "id": "varnish",
+                  "owner": "CY"
+                }
+              ]
+            },
+            "id": "C02",
+            "kind": "shared_anchor",
+            "occurredTick": 1,
+            "plans": [
+              {
+                "cost": 4,
+                "id": "P8",
+                "inspectionRequired": false,
+                "output": 8,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 4,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 7,
+                "id": "P12",
+                "inspectionRequired": false,
+                "output": 12,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 6,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 2,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 6,
+                "id": "P10",
+                "inspectionRequired": true,
+                "output": 10,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 5,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  },
+                  {
+                    "actor": "CY",
+                    "quantity": 1,
+                    "resource": "varnish"
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 1,
+            "surfaceText": "Choose one plan. Initial demand is 8 tiles. Plan P8 produces 8 for cost 4; P12 produces 12 for cost 7; P10 produces 10 for cost 6. Exact dependencies are in the catalog.",
+            "title": "Tile dispatch catalog",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C03-1",
+                "lineageId": "F-C03-1",
+                "predicate": "capacity",
+                "value": 6
+              }
+            ],
+            "id": "C03",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Ara has 6 press units available.",
+            "title": "Press capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-1",
+                "lineageId": "F-C04-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-2",
+                "lineageId": "F-C04-2",
+                "predicate": "endorses",
+                "value": false
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 6,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-3",
+                "lineageId": "F-C04-3",
+                "predicate": "resource_commitment",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 4,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-4",
+                "lineageId": "F-C04-4",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C04",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara understands P12 and rejects endorsing it. Ara nevertheless commits 6 press units to P12 version 1, or 4 to P8 version 1 if that alternative is selected. These are alternative plan-specific grants, not additive reservations.",
+            "title": "Understanding, dissent and conditional alternatives",
+            "version": 1
+          },
+          "open": true
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C05-1",
+                "lineageId": "F-C05-1",
+                "predicate": "explores",
+                "value": true
+              }
+            ],
+            "id": "C05",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara is exploring P10 version 1. No endorsement or commitment is stated.",
+            "title": "Exploration",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C06-1",
+                "lineageId": "F-C06-1",
+                "predicate": "understands",
+                "value": true
+              }
+            ],
+            "id": "C06",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "ARA",
+              "plan": "P10",
+              "planVersion": 1
+            },
+            "speechAct": "understanding_confirmation",
+            "surfaceText": "Ready.",
+            "title": "Understanding confirmation",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C07-1",
+                "lineageId": "F-C07-1",
+                "predicate": "capacity",
+                "value": 2
+              }
+            ],
+            "id": "C07",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Bea has 2 cart units available.",
+            "title": "Cart capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-1",
+                "lineageId": "F-C08-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-2",
+                "lineageId": "F-C08-2",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 2,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-3",
+                "lineageId": "F-C08-3",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C08",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea understands and endorses P12 version 1 and commits 2 cart units to it.",
+            "title": "P12 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-1",
+                "lineageId": "F-C09-1",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-2",
+                "lineageId": "F-C09-2",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C09",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea endorses P8 version 1 and commits 1 cart unit to it as an alternative.",
+            "title": "P8 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C10-1",
+                "lineageId": "F-C10-1",
+                "predicate": "resource_commitment",
+                "value": false
+              }
+            ],
+            "id": "C10",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "surfaceText": "Bea declines a commitment of 1 cart unit to P10 version 1.",
+            "title": "P10 cart refusal",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C11-1",
+                "lineageId": "F-C11-1",
+                "predicate": "capacity",
+                "value": 1
+              }
+            ],
+            "id": "C11",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Cy originally reports 1 varnish unit available.",
+            "title": "Original varnish capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C12-1",
+                "lineageId": "F-C12-1",
+                "predicate": "capacity",
+                "supersedes": [
+                  "F-C11-1"
+                ],
+                "value": 0
+              }
+            ],
+            "id": "C12",
+            "kind": "source_record",
+            "occurredTick": 7,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 7,
+            "surfaceText": "Cy corrects the available varnish capacity to 0. This supersedes F-C11-1; keep the original visible as history.",
+            "title": "Capacity correction",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C13-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C13",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "CY",
+              "plan": "P10",
+              "planVersion": 1,
+              "quantity": 1,
+              "resource": "varnish"
+            },
+            "speechAct": "resource_commitment",
+            "surfaceText": "Ready.",
+            "title": "Resource commitment",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C14-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "restates": [
+                  "F-C13-1"
+                ],
+                "value": true
+              }
+            ],
+            "id": "C14",
+            "kind": "source_record",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "speechAct": "resource_commitment_restatement",
+            "surfaceText": "Hold one varnish slot for P10.",
+            "title": "Restatement, not another unit",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "DEV",
+                  "complete": true,
+                  "scope": "P8,P12,P10"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C15-1",
+                "lineageId": "F-C15-1",
+                "predicate": "mandate",
+                "value": [
+                  "describe"
+                ]
+              }
+            ],
+            "id": "C15",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Dev may describe the three named plans. This complete mandate excludes committing resources or binding any actor.",
+            "title": "Representative mandate",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "synthetic_model_artifact",
+                "id": "F-C16-1",
+                "lineageId": "F-C16-1",
+                "predicate": "model_attributes_endorsement",
+                "value": true
+              }
+            ],
+            "id": "C16",
+            "kind": "synthetic_model_artifact",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "surfaceText": "Synthetic model summary: Ara endorses P12. This card records an attributed model interpretation only; no actor attestation is created.",
+            "title": "Model attribution, not an endorsement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 2
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C17-1",
+                "lineageId": "F-C17-1",
+                "predicate": "demand",
+                "supersedes": [
+                  "F-C02-1"
+                ],
+                "value": 10
+              }
+            ],
+            "id": "C17",
+            "kind": "source_record",
+            "occurredTick": 8,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 8,
+            "surfaceText": "The requirement is now 10 tiles, version 2. This supersedes the initial demand claim F-C02-1.",
+            "title": "Changed requirement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN1",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-1",
+                "lineageId": "F-C18-1",
+                "predicate": "inspection_report",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN2",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-2",
+                "lineageId": "F-C18-2",
+                "predicate": "inspection_report",
+                "value": false
+              }
+            ],
+            "id": "C18",
+            "kind": "source_record",
+            "occurredTick": 9,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 9,
+            "surfaceText": "Inspector IN1 reports P10 version 1 passed; inspector IN2 reports the same inspection scope failed. Neither report supersedes the other.",
+            "title": "Unresolved inspection reports",
+            "version": 1
+          },
+          "open": false
+        }
+      ],
+      "scope": "Preparation only. These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.",
+      "title": "Looking Glass materials review",
+      "url": "http://127.0.0.1:44010/",
+      "viewport": {
+        "documentHeight": 4331,
+        "documentWidth": 1280,
+        "dpr": 2,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 529.5,
+        "width": 1280
+      }
+    }
+  },
+  {
+    "label": "after mouse close C04",
+    "observedAtUtc": "2026-09-20T22:13:08.433Z",
+    "ax": "Browser tab: 61, Title: \"Looking Glass materials review\", URL: \"http://127.0.0.1:44010/\".\n0 AXWebArea Looking Glass materials review, URL: 127.0.0.1:44010/\n\t1 container\n\t\t2 heading Looking Glass · materials review, Value: 1\n\t\t\t3 text Looking Glass · materials review\n\t\t4 text World TILE18-v1 · cutoff 10 · candidate 004\n\t5 container\n\t\t6 text Preparation only.  These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.\n\t7 heading Allocation, Value: 2\n\t\t8 text Allocation\n\t9 container\n\t\t10 text Two common anchors ( C01 ,  C02 ); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.\n\t11 table\n\t\t12 row\n\t\t\t13 cell\n\t\t\t\t14 text Future packet\n\t\t\t15 cell\n\t\t\t\t16 text Card IDs\n\t\t\t17 cell\n\t\t\t\t18 text Perspective instruction\n\t\t19 row\n\t\t\t20 cell\n\t\t\t\t21 text A1\n\t\t\t22 cell\n\t\t\t\t23 text C01\n\t\t\t\t24 text C02\n\t\t\t\t25 text C03\n\t\t\t\t26 text C04\n\t\t\t\t27 text C05\n\t\t\t\t28 text C06\n\t\t\t29 cell\n\t\t\t\t30 text COMMON-PERSPECTIVE-1\n\t\t31 row\n\t\t\t32 cell\n\t\t\t\t33 text A2\n\t\t\t34 cell\n\t\t\t\t35 text C01\n\t\t\t\t36 text C02\n\t\t\t\t37 text C07\n\t\t\t\t38 text C08\n\t\t\t\t39 text C09\n\t\t\t\t40 text C10\n\t\t\t41 cell\n\t\t\t\t42 text COMMON-PERSPECTIVE-1\n\t\t43 row\n\t\t\t44 cell\n\t\t\t\t45 text A3\n\t\t\t46 cell\n\t\t\t\t47 text C01\n\t\t\t\t48 text C02\n\t\t\t\t49 text C11\n\t\t\t\t50 text C12\n\t\t\t\t51 text C13\n\t\t\t\t52 text C14\n\t\t\t53 cell\n\t\t\t\t54 text COMMON-PERSPECTIVE-1\n\t\t55 row\n\t\t\t56 cell\n\t\t\t\t57 text A4\n\t\t\t58 cell\n\t\t\t\t59 text C01\n\t\t\t\t60 text C02\n\t\t\t\t61 text C15\n\t\t\t\t62 text C16\n\t\t\t\t63 text C17\n\t\t\t\t64 text C18\n\t\t\t65 cell\n\t\t\t\t66 text COMMON-PERSPECTIVE-1\n\t67 heading Source cards, Value: 2\n\t\t68 text Source cards\n\t69 table\n\t\t70 row\n\t\t\t71 cell\n\t\t\t\t72 text ID\n\t\t\t73 cell\n\t\t\t\t74 text Version\n\t\t\t75 cell\n\t\t\t\t76 text Title\n\t\t\t77 cell\n\t\t\t\t78 text Record\n\t\t79 row\n\t\t\t80 cell\n\t\t\t\t81 text C01\n\t\t\t82 cell\n\t\t\t\t83 text 1\n\t\t\t84 cell\n\t\t\t\t85 text Evaluation rules\n\t\t\t86 cell\n\t\t\t\t87 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t88 text Inspect authored source record\n\t\t89 row\n\t\t\t90 cell\n\t\t\t\t91 text C02\n\t\t\t92 cell\n\t\t\t\t93 text 1\n\t\t\t94 cell\n\t\t\t\t95 text Tile dispatch catalog\n\t\t\t96 cell\n\t\t\t\t97 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t98 text Inspect authored source record\n\t\t99 row\n\t\t\t100 cell\n\t\t\t\t101 text C03\n\t\t\t102 cell\n\t\t\t\t103 text 1\n\t\t\t104 cell\n\t\t\t\t105 text Press capacity\n\t\t\t106 cell\n\t\t\t\t107 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t108 text Inspect authored source record\n\t\t109 row\n\t\t\t110 cell\n\t\t\t\t111 text C04\n\t\t\t112 cell\n\t\t\t\t113 text 1\n\t\t\t114 cell\n\t\t\t\t115 text Understanding, dissent and conditional alternatives\n\t\t\t116 cell\n\t\t\t\t401 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t402 text Inspect authored source record\n\t\t119 row\n\t\t\t120 cell\n\t\t\t\t121 text C05\n\t\t\t122 cell\n\t\t\t\t123 text 1\n\t\t\t124 cell\n\t\t\t\t125 text Exploration\n\t\t\t126 cell\n\t\t\t\t127 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t128 text Inspect authored source record\n\t\t129 row\n\t\t\t130 cell\n\t\t\t\t131 text C06\n\t\t\t132 cell\n\t\t\t\t133 text 1\n\t\t\t134 cell\n\t\t\t\t135 text Understanding confirmation\n\t\t\t136 cell\n\t\t\t\t137 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t138 text Inspect authored source record\n\t\t139 row\n\t\t\t140 cell\n\t\t\t\t141 text C07\n\t\t\t142 cell\n\t\t\t\t143 text 1\n\t\t\t144 cell\n\t\t\t\t145 text Cart capacity\n\t\t\t146 cell\n\t\t\t\t147 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t148 text Inspect authored source record\n\t\t149 row\n\t\t\t150 cell\n\t\t\t\t151 text C08\n\t\t\t152 cell\n\t\t\t\t153 text 1\n\t\t\t154 cell\n\t\t\t\t155 text P12 cart grant\n\t\t\t156 cell\n\t\t\t\t157 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t158 text Inspect authored source record\n\t\t159 row\n\t\t\t160 cell\n\t\t\t\t161 text C09\n\t\t\t162 cell\n\t\t\t\t163 text 1\n\t\t\t164 cell\n\t\t\t\t165 text P8 cart grant\n\t\t\t166 cell\n\t\t\t\t167 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t168 text Inspect authored source record\n\t\t169 row\n\t\t\t170 cell\n\t\t\t\t171 text C10\n\t\t\t172 cell\n\t\t\t\t173 text 1\n\t\t\t174 cell\n\t\t\t\t175 text P10 cart refusal\n\t\t\t176 cell\n\t\t\t\t177 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t178 text Inspect authored source record\n\t\t179 row\n\t\t\t180 cell\n\t\t\t\t181 text C11\n\t\t\t182 cell\n\t\t\t\t183 text 1\n\t\t\t184 cell\n\t\t\t\t185 text Original varnish capacity\n\t\t\t186 cell\n\t\t\t\t187 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t188 text Inspect authored source record\n\t\t189 row\n\t\t\t190 cell\n\t\t\t\t191 text C12\n\t\t\t192 cell\n\t\t\t\t193 text 1\n\t\t\t194 cell\n\t\t\t\t195 text Capacity correction\n\t\t\t196 cell\n\t\t\t\t197 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t198 text Inspect authored source record\n\t\t199 row\n\t\t\t200 cell\n\t\t\t\t201 text C13\n\t\t\t202 cell\n\t\t\t\t203 text 1\n\t\t\t204 cell\n\t\t\t\t205 text Resource commitment\n\t\t\t206 cell\n\t\t\t\t207 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t208 text Inspect authored source record\n\t\t209 row\n\t\t\t210 cell\n\t\t\t\t211 text C14\n\t\t\t212 cell\n\t\t\t\t213 text 1\n\t\t\t214 cell\n\t\t\t\t215 text Restatement, not another unit\n\t\t\t216 cell\n\t\t\t\t217 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t218 text Inspect authored source record\n\t\t219 row\n\t\t\t220 cell\n\t\t\t\t221 text C15\n\t\t\t222 cell\n\t\t\t\t223 text 1\n\t\t\t224 cell\n\t\t\t\t225 text Representative mandate\n\t\t\t226 cell\n\t\t\t\t227 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t228 text Inspect authored source record\n\t\t229 row\n\t\t\t230 cell\n\t\t\t\t231 text C16\n\t\t\t232 cell\n\t\t\t\t233 text 1\n\t\t\t234 cell\n\t\t\t\t235 text Model attribution, not an endorsement\n\t\t\t236 cell\n\t\t\t\t237 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t238 text Inspect authored source record\n\t\t239 row\n\t\t\t240 cell\n\t\t\t\t241 text C17\n\t\t\t242 cell\n\t\t\t\t243 text 1\n\t\t\t244 cell\n\t\t\t\t245 text Changed requirement\n\t\t\t246 cell\n\t\t\t\t247 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t248 text Inspect authored source record\n\t\t249 row\n\t\t\t250 cell\n\t\t\t\t251 text C18\n\t\t\t252 cell\n\t\t\t\t253 text 1\n\t\t\t254 cell\n\t\t\t\t255 text Unresolved inspection reports\n\t\t\t256 cell\n\t\t\t\t257 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t258 text Inspect authored source record\n\t259 heading Development task references, Value: 2\n\t\t260 text Development task references\n\t261 text Withheld tasks and answers are researcher-only files and are not served by this preview.\n\t262 table\n\t\t263 row\n\t\t\t264 cell\n\t\t\t\t265 text ID\n\t\t\t266 cell\n\t\t\t\t267 text Access phase\n\t\t\t268 cell\n\t\t\t\t269 text Scope\n\t\t\t270 cell\n\t\t\t\t271 text Question\n\t\t272 row\n\t\t\t273 cell\n\t\t\t\t274 text D01\n\t\t\t275 cell\n\t\t\t\t276 text initial access\n\t\t\t277 cell\n\t\t\t\t278 text all\n\t\t\t279 cell\n\t\t\t\t280 text Report active demand from the supplied evidence, not from unseen cards.\n\t\t281 row\n\t\t\t282 cell\n\t\t\t\t283 text D02\n\t\t\t284 cell\n\t\t\t\t285 text initial access\n\t\t\t286 cell\n\t\t\t\t287 text all\n\t\t\t288 cell\n\t\t\t\t289 text Report active physical capacities; preserve superseded sources as history.\n\t\t290 row\n\t\t\t291 cell\n\t\t\t\t292 text D03\n\t\t\t293 cell\n\t\t\t\t294 text initial access\n\t\t\t295 cell\n\t\t\t\t296 text all\n\t\t\t297 cell\n\t\t\t\t298 text Keep P12 understanding, endorsement and resource commitments separate.\n\t\t299 row\n\t\t\t300 cell\n\t\t\t\t301 text D04\n\t\t\t302 cell\n\t\t\t\t303 text initial access\n\t\t\t304 cell\n\t\t\t\t305 text all\n\t\t\t306 cell\n\t\t\t\t307 text Identify the P10 predicates separately; absence is unknown.\n\t\t308 row\n\t\t\t309 cell\n\t\t\t\t310 text D05\n\t\t\t311 cell\n\t\t\t\t312 text initial access\n\t\t\t313 cell\n\t\t\t\t314 text all\n\t\t\t315 cell\n\t\t\t\t316 text Distinguish the recorded model attribution from actual Ara endorsement of P12, and inspect Dev’s mandate.\n\t\t317 row\n\t\t\t318 cell\n\t\t\t\t319 text D06\n\t\t\t320 cell\n\t\t\t\t321 text initial access\n\t\t\t322 cell\n\t\t\t\t323 text all\n\t\t\t324 cell\n\t\t\t\t325 text Evaluate the P10 inspection reports for the same plan version and scope.\n\t\t326 row\n\t\t\t327 cell\n\t\t\t\t328 text D07\n\t\t\t329 cell\n\t\t\t\t330 text initial access\n\t\t\t331 cell\n\t\t\t\t332 text all\n\t\t\t333 cell\n\t\t\t\t334 text Evaluate each catalog plan relative to only supplied evidence; report component statuses.\n\t\t335 row\n\t\t\t336 cell\n\t\t\t\t337 text D08\n\t\t\t338 cell\n\t\t\t\t339 text initial access\n\t\t\t340 cell\n\t\t\t\t341 text all\n\t\t\t342 cell\n\t\t\t\t343 text Choose the minimum-cost supported-ready plan, or none_supported. None does not assert impossibility.\n\t\t344 row\n\t\t\t345 cell\n\t\t\t\t346 text D09\n\t\t\t347 cell\n\t\t\t\t348 text post-union only\n\t\t\t349 cell\n\t\t\t\t350 text union_only\n\t\t\t351 cell\n\t\t\t\t352 text For Cy/P10 varnish, count distinct positive commitment lineages and maximum granted amount. Preserve every restatement source.\n\t\t353 row\n\t\t\t354 cell\n\t\t\t\t355 text D10\n\t\t\t356 cell\n\t\t\t\t357 text post-union only\n\t\t\t358 cell\n\t\t\t\t359 text union_only\n\t\t\t360 cell\n\t\t\t\t361 text Classify C06/C13 and C13/C14 by surface and normalized relation. Normalized relation includes predicate and all directed argument roles.\n\t362 heading Public source input hashes, Value: 2\n\t\t363 text Public source input hashes\n\t364 table\n\t\t365 row\n\t\t\t366 cell\n\t\t\t\t367 text Design path\n\t\t\t368 cell\n\t\t\t\t369 text Bytes\n\t\t\t370 cell\n\t\t\t\t371 text SHA-256\n\t\t372 row\n\t\t\t373 cell\n\t\t\t\t374 text design/allocations.json\n\t\t\t375 cell\n\t\t\t\t376 text 1119\n\t\t\t377 cell\n\t\t\t\t378 text 9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d\n\t\t379 row\n\t\t\t380 cell\n\t\t\t\t381 text design/development-tasks.json\n\t\t\t382 cell\n\t\t\t\t383 text 6342\n\t\t\t384 cell\n\t\t\t\t385 text cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6\n\t\t386 row\n\t\t\t387 cell\n\t\t\t\t388 text design/snapshot.schema.json\n\t\t\t389 cell\n\t\t\t\t390 text 8053\n\t\t\t391 cell\n\t\t\t\t392 text b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a\n\t\t393 row\n\t\t\t394 cell\n\t\t\t\t395 text design/world.json\n\t\t\t396 cell\n\t\t\t\t397 text 28103\n\t\t\t398 cell\n\t\t\t\t399 text a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef\n\t400 text Inspect the generated JSON bundles and their SHA-256 manifests on disk for exact source and release boundaries.\n\nThe focused UI element is 401 button (collapsed) Inspect authored source record, Secondary Actions: Expand",
+    "dom": {
+      "identity": "Looking Glass · materials reviewWorld TILE18-v1 · cutoff 10 · candidate 004",
+      "records": [
+        {
+          "card": {
+            "claims": [],
+            "id": "C01",
+            "kind": "shared_anchor",
+            "occurredTick": 0,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 0,
+            "rules": [
+              {
+                "id": "R01",
+                "text": "Evaluate only supplied, uniquely identified source claims with occurredTick <= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent."
+              },
+              {
+                "id": "R02",
+                "text": "The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted."
+              },
+              {
+                "id": "R03",
+                "text": "A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown."
+              },
+              {
+                "id": "R04",
+                "text": "Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority."
+              },
+              {
+                "id": "R05",
+                "text": "Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources."
+              },
+              {
+                "id": "R06",
+                "text": "Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor."
+              },
+              {
+                "id": "R07",
+                "text": "For each plan, physical is AND of known capacity >= required quantity; demand is output >= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible."
+              },
+              {
+                "id": "R08",
+                "text": "Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity."
+              },
+              {
+                "id": "R09",
+                "text": "Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration."
+              },
+              {
+                "id": "R10",
+                "text": "Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies."
+              }
+            ],
+            "statusSemantics": {
+              "conflicted": [
+                true,
+                true
+              ],
+              "refuted": [
+                false,
+                true
+              ],
+              "supported": [
+                true,
+                false
+              ],
+              "unknown": [
+                false,
+                false
+              ]
+            },
+            "surfaceText": "This card contains the common finite-world evaluation rules and status semantics.",
+            "title": "Evaluation rules",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C02-1",
+                "lineageId": "F-C02-1",
+                "predicate": "demand",
+                "value": 8
+              }
+            ],
+            "entities": {
+              "actors": [
+                {
+                  "id": "ARA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "BEA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "CY",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "DEV",
+                  "kind": "fictional_actor"
+                }
+              ],
+              "resources": [
+                {
+                  "id": "press",
+                  "owner": "ARA"
+                },
+                {
+                  "id": "cart",
+                  "owner": "BEA"
+                },
+                {
+                  "id": "varnish",
+                  "owner": "CY"
+                }
+              ]
+            },
+            "id": "C02",
+            "kind": "shared_anchor",
+            "occurredTick": 1,
+            "plans": [
+              {
+                "cost": 4,
+                "id": "P8",
+                "inspectionRequired": false,
+                "output": 8,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 4,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 7,
+                "id": "P12",
+                "inspectionRequired": false,
+                "output": 12,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 6,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 2,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 6,
+                "id": "P10",
+                "inspectionRequired": true,
+                "output": 10,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 5,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  },
+                  {
+                    "actor": "CY",
+                    "quantity": 1,
+                    "resource": "varnish"
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 1,
+            "surfaceText": "Choose one plan. Initial demand is 8 tiles. Plan P8 produces 8 for cost 4; P12 produces 12 for cost 7; P10 produces 10 for cost 6. Exact dependencies are in the catalog.",
+            "title": "Tile dispatch catalog",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C03-1",
+                "lineageId": "F-C03-1",
+                "predicate": "capacity",
+                "value": 6
+              }
+            ],
+            "id": "C03",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Ara has 6 press units available.",
+            "title": "Press capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-1",
+                "lineageId": "F-C04-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-2",
+                "lineageId": "F-C04-2",
+                "predicate": "endorses",
+                "value": false
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 6,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-3",
+                "lineageId": "F-C04-3",
+                "predicate": "resource_commitment",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 4,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-4",
+                "lineageId": "F-C04-4",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C04",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara understands P12 and rejects endorsing it. Ara nevertheless commits 6 press units to P12 version 1, or 4 to P8 version 1 if that alternative is selected. These are alternative plan-specific grants, not additive reservations.",
+            "title": "Understanding, dissent and conditional alternatives",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C05-1",
+                "lineageId": "F-C05-1",
+                "predicate": "explores",
+                "value": true
+              }
+            ],
+            "id": "C05",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara is exploring P10 version 1. No endorsement or commitment is stated.",
+            "title": "Exploration",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C06-1",
+                "lineageId": "F-C06-1",
+                "predicate": "understands",
+                "value": true
+              }
+            ],
+            "id": "C06",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "ARA",
+              "plan": "P10",
+              "planVersion": 1
+            },
+            "speechAct": "understanding_confirmation",
+            "surfaceText": "Ready.",
+            "title": "Understanding confirmation",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C07-1",
+                "lineageId": "F-C07-1",
+                "predicate": "capacity",
+                "value": 2
+              }
+            ],
+            "id": "C07",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Bea has 2 cart units available.",
+            "title": "Cart capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-1",
+                "lineageId": "F-C08-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-2",
+                "lineageId": "F-C08-2",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 2,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-3",
+                "lineageId": "F-C08-3",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C08",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea understands and endorses P12 version 1 and commits 2 cart units to it.",
+            "title": "P12 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-1",
+                "lineageId": "F-C09-1",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-2",
+                "lineageId": "F-C09-2",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C09",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea endorses P8 version 1 and commits 1 cart unit to it as an alternative.",
+            "title": "P8 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C10-1",
+                "lineageId": "F-C10-1",
+                "predicate": "resource_commitment",
+                "value": false
+              }
+            ],
+            "id": "C10",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "surfaceText": "Bea declines a commitment of 1 cart unit to P10 version 1.",
+            "title": "P10 cart refusal",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C11-1",
+                "lineageId": "F-C11-1",
+                "predicate": "capacity",
+                "value": 1
+              }
+            ],
+            "id": "C11",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Cy originally reports 1 varnish unit available.",
+            "title": "Original varnish capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C12-1",
+                "lineageId": "F-C12-1",
+                "predicate": "capacity",
+                "supersedes": [
+                  "F-C11-1"
+                ],
+                "value": 0
+              }
+            ],
+            "id": "C12",
+            "kind": "source_record",
+            "occurredTick": 7,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 7,
+            "surfaceText": "Cy corrects the available varnish capacity to 0. This supersedes F-C11-1; keep the original visible as history.",
+            "title": "Capacity correction",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C13-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C13",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "CY",
+              "plan": "P10",
+              "planVersion": 1,
+              "quantity": 1,
+              "resource": "varnish"
+            },
+            "speechAct": "resource_commitment",
+            "surfaceText": "Ready.",
+            "title": "Resource commitment",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C14-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "restates": [
+                  "F-C13-1"
+                ],
+                "value": true
+              }
+            ],
+            "id": "C14",
+            "kind": "source_record",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "speechAct": "resource_commitment_restatement",
+            "surfaceText": "Hold one varnish slot for P10.",
+            "title": "Restatement, not another unit",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "DEV",
+                  "complete": true,
+                  "scope": "P8,P12,P10"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C15-1",
+                "lineageId": "F-C15-1",
+                "predicate": "mandate",
+                "value": [
+                  "describe"
+                ]
+              }
+            ],
+            "id": "C15",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Dev may describe the three named plans. This complete mandate excludes committing resources or binding any actor.",
+            "title": "Representative mandate",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "synthetic_model_artifact",
+                "id": "F-C16-1",
+                "lineageId": "F-C16-1",
+                "predicate": "model_attributes_endorsement",
+                "value": true
+              }
+            ],
+            "id": "C16",
+            "kind": "synthetic_model_artifact",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "surfaceText": "Synthetic model summary: Ara endorses P12. This card records an attributed model interpretation only; no actor attestation is created.",
+            "title": "Model attribution, not an endorsement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 2
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C17-1",
+                "lineageId": "F-C17-1",
+                "predicate": "demand",
+                "supersedes": [
+                  "F-C02-1"
+                ],
+                "value": 10
+              }
+            ],
+            "id": "C17",
+            "kind": "source_record",
+            "occurredTick": 8,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 8,
+            "surfaceText": "The requirement is now 10 tiles, version 2. This supersedes the initial demand claim F-C02-1.",
+            "title": "Changed requirement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN1",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-1",
+                "lineageId": "F-C18-1",
+                "predicate": "inspection_report",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN2",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-2",
+                "lineageId": "F-C18-2",
+                "predicate": "inspection_report",
+                "value": false
+              }
+            ],
+            "id": "C18",
+            "kind": "source_record",
+            "occurredTick": 9,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 9,
+            "surfaceText": "Inspector IN1 reports P10 version 1 passed; inspector IN2 reports the same inspection scope failed. Neither report supersedes the other.",
+            "title": "Unresolved inspection reports",
+            "version": 1
+          },
+          "open": false
+        }
+      ],
+      "scope": "Preparation only. These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.",
+      "title": "Looking Glass materials review",
+      "url": "http://127.0.0.1:44010/",
+      "viewport": {
+        "documentHeight": 2619,
+        "documentWidth": 1280,
+        "dpr": 2,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 529.5,
+        "width": 1280
+      }
+    }
+  },
+  {
+    "label": "after reload",
+    "observedAtUtc": "2026-09-20T22:13:16.670Z",
+    "ax": "Browser tab: 61, Title: \"Looking Glass materials review\", URL: \"http://127.0.0.1:44010/\".\n1 AXWebArea Looking Glass materials review, URL: 127.0.0.1:44010/\n\t2 container\n\t\t3 heading Looking Glass · materials review, Value: 1\n\t\t\t4 text Looking Glass · materials review\n\t\t5 text World TILE18-v1 · cutoff 10 · candidate 004\n\t6 container\n\t\t7 text Preparation only.  These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.\n\t8 heading Allocation, Value: 2\n\t\t9 text Allocation\n\t10 container\n\t\t11 text Two common anchors ( C01 ,  C02 ); four distinct private cards in each of four proposed six-card packets. Each anchor is one source even when shown in four packets.\n\t12 table\n\t\t13 row\n\t\t\t14 cell\n\t\t\t\t15 text Future packet\n\t\t\t16 cell\n\t\t\t\t17 text Card IDs\n\t\t\t18 cell\n\t\t\t\t19 text Perspective instruction\n\t\t20 row\n\t\t\t21 cell\n\t\t\t\t22 text A1\n\t\t\t23 cell\n\t\t\t\t24 text C01\n\t\t\t\t25 text C02\n\t\t\t\t26 text C03\n\t\t\t\t27 text C04\n\t\t\t\t28 text C05\n\t\t\t\t29 text C06\n\t\t\t30 cell\n\t\t\t\t31 text COMMON-PERSPECTIVE-1\n\t\t32 row\n\t\t\t33 cell\n\t\t\t\t34 text A2\n\t\t\t35 cell\n\t\t\t\t36 text C01\n\t\t\t\t37 text C02\n\t\t\t\t38 text C07\n\t\t\t\t39 text C08\n\t\t\t\t40 text C09\n\t\t\t\t41 text C10\n\t\t\t42 cell\n\t\t\t\t43 text COMMON-PERSPECTIVE-1\n\t\t44 row\n\t\t\t45 cell\n\t\t\t\t46 text A3\n\t\t\t47 cell\n\t\t\t\t48 text C01\n\t\t\t\t49 text C02\n\t\t\t\t50 text C11\n\t\t\t\t51 text C12\n\t\t\t\t52 text C13\n\t\t\t\t53 text C14\n\t\t\t54 cell\n\t\t\t\t55 text COMMON-PERSPECTIVE-1\n\t\t56 row\n\t\t\t57 cell\n\t\t\t\t58 text A4\n\t\t\t59 cell\n\t\t\t\t60 text C01\n\t\t\t\t61 text C02\n\t\t\t\t62 text C15\n\t\t\t\t63 text C16\n\t\t\t\t64 text C17\n\t\t\t\t65 text C18\n\t\t\t66 cell\n\t\t\t\t67 text COMMON-PERSPECTIVE-1\n\t68 heading Source cards, Value: 2\n\t\t69 text Source cards\n\t70 table\n\t\t71 row\n\t\t\t72 cell\n\t\t\t\t73 text ID\n\t\t\t74 cell\n\t\t\t\t75 text Version\n\t\t\t76 cell\n\t\t\t\t77 text Title\n\t\t\t78 cell\n\t\t\t\t79 text Record\n\t\t80 row\n\t\t\t81 cell\n\t\t\t\t82 text C01\n\t\t\t83 cell\n\t\t\t\t84 text 1\n\t\t\t85 cell\n\t\t\t\t86 text Evaluation rules\n\t\t\t87 cell\n\t\t\t\t88 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t89 text Inspect authored source record\n\t\t90 row\n\t\t\t91 cell\n\t\t\t\t92 text C02\n\t\t\t93 cell\n\t\t\t\t94 text 1\n\t\t\t95 cell\n\t\t\t\t96 text Tile dispatch catalog\n\t\t\t97 cell\n\t\t\t\t98 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t99 text Inspect authored source record\n\t\t100 row\n\t\t\t101 cell\n\t\t\t\t102 text C03\n\t\t\t103 cell\n\t\t\t\t104 text 1\n\t\t\t105 cell\n\t\t\t\t106 text Press capacity\n\t\t\t107 cell\n\t\t\t\t108 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t109 text Inspect authored source record\n\t\t110 row\n\t\t\t111 cell\n\t\t\t\t112 text C04\n\t\t\t113 cell\n\t\t\t\t114 text 1\n\t\t\t115 cell\n\t\t\t\t116 text Understanding, dissent and conditional alternatives\n\t\t\t117 cell\n\t\t\t\t118 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t119 text Inspect authored source record\n\t\t120 row\n\t\t\t121 cell\n\t\t\t\t122 text C05\n\t\t\t123 cell\n\t\t\t\t124 text 1\n\t\t\t125 cell\n\t\t\t\t126 text Exploration\n\t\t\t127 cell\n\t\t\t\t128 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t129 text Inspect authored source record\n\t\t130 row\n\t\t\t131 cell\n\t\t\t\t132 text C06\n\t\t\t133 cell\n\t\t\t\t134 text 1\n\t\t\t135 cell\n\t\t\t\t136 text Understanding confirmation\n\t\t\t137 cell\n\t\t\t\t138 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t139 text Inspect authored source record\n\t\t140 row\n\t\t\t141 cell\n\t\t\t\t142 text C07\n\t\t\t143 cell\n\t\t\t\t144 text 1\n\t\t\t145 cell\n\t\t\t\t146 text Cart capacity\n\t\t\t147 cell\n\t\t\t\t148 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t149 text Inspect authored source record\n\t\t150 row\n\t\t\t151 cell\n\t\t\t\t152 text C08\n\t\t\t153 cell\n\t\t\t\t154 text 1\n\t\t\t155 cell\n\t\t\t\t156 text P12 cart grant\n\t\t\t157 cell\n\t\t\t\t158 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t159 text Inspect authored source record\n\t\t160 row\n\t\t\t161 cell\n\t\t\t\t162 text C09\n\t\t\t163 cell\n\t\t\t\t164 text 1\n\t\t\t165 cell\n\t\t\t\t166 text P8 cart grant\n\t\t\t167 cell\n\t\t\t\t168 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t169 text Inspect authored source record\n\t\t170 row\n\t\t\t171 cell\n\t\t\t\t172 text C10\n\t\t\t173 cell\n\t\t\t\t174 text 1\n\t\t\t175 cell\n\t\t\t\t176 text P10 cart refusal\n\t\t\t177 cell\n\t\t\t\t178 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t179 text Inspect authored source record\n\t\t180 row\n\t\t\t181 cell\n\t\t\t\t182 text C11\n\t\t\t183 cell\n\t\t\t\t184 text 1\n\t\t\t185 cell\n\t\t\t\t186 text Original varnish capacity\n\t\t\t187 cell\n\t\t\t\t188 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t189 text Inspect authored source record\n\t\t190 row\n\t\t\t191 cell\n\t\t\t\t192 text C12\n\t\t\t193 cell\n\t\t\t\t194 text 1\n\t\t\t195 cell\n\t\t\t\t196 text Capacity correction\n\t\t\t197 cell\n\t\t\t\t198 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t199 text Inspect authored source record\n\t\t200 row\n\t\t\t201 cell\n\t\t\t\t202 text C13\n\t\t\t203 cell\n\t\t\t\t204 text 1\n\t\t\t205 cell\n\t\t\t\t206 text Resource commitment\n\t\t\t207 cell\n\t\t\t\t208 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t209 text Inspect authored source record\n\t\t210 row\n\t\t\t211 cell\n\t\t\t\t212 text C14\n\t\t\t213 cell\n\t\t\t\t214 text 1\n\t\t\t215 cell\n\t\t\t\t216 text Restatement, not another unit\n\t\t\t217 cell\n\t\t\t\t218 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t219 text Inspect authored source record\n\t\t220 row\n\t\t\t221 cell\n\t\t\t\t222 text C15\n\t\t\t223 cell\n\t\t\t\t224 text 1\n\t\t\t225 cell\n\t\t\t\t226 text Representative mandate\n\t\t\t227 cell\n\t\t\t\t228 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t229 text Inspect authored source record\n\t\t230 row\n\t\t\t231 cell\n\t\t\t\t232 text C16\n\t\t\t233 cell\n\t\t\t\t234 text 1\n\t\t\t235 cell\n\t\t\t\t236 text Model attribution, not an endorsement\n\t\t\t237 cell\n\t\t\t\t238 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t239 text Inspect authored source record\n\t\t240 row\n\t\t\t241 cell\n\t\t\t\t242 text C17\n\t\t\t243 cell\n\t\t\t\t244 text 1\n\t\t\t245 cell\n\t\t\t\t246 text Changed requirement\n\t\t\t247 cell\n\t\t\t\t248 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t249 text Inspect authored source record\n\t\t250 row\n\t\t\t251 cell\n\t\t\t\t252 text C18\n\t\t\t253 cell\n\t\t\t\t254 text 1\n\t\t\t255 cell\n\t\t\t\t256 text Unresolved inspection reports\n\t\t\t257 cell\n\t\t\t\t258 button (collapsed) Inspect authored source record, Secondary Actions: Expand\n\t\t\t\t\t259 text Inspect authored source record\n\t260 heading Development task references, Value: 2\n\t\t261 text Development task references\n\t262 text Withheld tasks and answers are researcher-only files and are not served by this preview.\n\t263 table\n\t\t264 row\n\t\t\t265 cell\n\t\t\t\t266 text ID\n\t\t\t267 cell\n\t\t\t\t268 text Access phase\n\t\t\t269 cell\n\t\t\t\t270 text Scope\n\t\t\t271 cell\n\t\t\t\t272 text Question\n\t\t273 row\n\t\t\t274 cell\n\t\t\t\t275 text D01\n\t\t\t276 cell\n\t\t\t\t277 text initial access\n\t\t\t278 cell\n\t\t\t\t279 text all\n\t\t\t280 cell\n\t\t\t\t281 text Report active demand from the supplied evidence, not from unseen cards.\n\t\t282 row\n\t\t\t283 cell\n\t\t\t\t284 text D02\n\t\t\t285 cell\n\t\t\t\t286 text initial access\n\t\t\t287 cell\n\t\t\t\t288 text all\n\t\t\t289 cell\n\t\t\t\t290 text Report active physical capacities; preserve superseded sources as history.\n\t\t291 row\n\t\t\t292 cell\n\t\t\t\t293 text D03\n\t\t\t294 cell\n\t\t\t\t295 text initial access\n\t\t\t296 cell\n\t\t\t\t297 text all\n\t\t\t298 cell\n\t\t\t\t299 text Keep P12 understanding, endorsement and resource commitments separate.\n\t\t300 row\n\t\t\t301 cell\n\t\t\t\t302 text D04\n\t\t\t303 cell\n\t\t\t\t304 text initial access\n\t\t\t305 cell\n\t\t\t\t306 text all\n\t\t\t307 cell\n\t\t\t\t308 text Identify the P10 predicates separately; absence is unknown.\n\t\t309 row\n\t\t\t310 cell\n\t\t\t\t311 text D05\n\t\t\t312 cell\n\t\t\t\t313 text initial access\n\t\t\t314 cell\n\t\t\t\t315 text all\n\t\t\t316 cell\n\t\t\t\t317 text Distinguish the recorded model attribution from actual Ara endorsement of P12, and inspect Dev’s mandate.\n\t\t318 row\n\t\t\t319 cell\n\t\t\t\t320 text D06\n\t\t\t321 cell\n\t\t\t\t322 text initial access\n\t\t\t323 cell\n\t\t\t\t324 text all\n\t\t\t325 cell\n\t\t\t\t326 text Evaluate the P10 inspection reports for the same plan version and scope.\n\t\t327 row\n\t\t\t328 cell\n\t\t\t\t329 text D07\n\t\t\t330 cell\n\t\t\t\t331 text initial access\n\t\t\t332 cell\n\t\t\t\t333 text all\n\t\t\t334 cell\n\t\t\t\t335 text Evaluate each catalog plan relative to only supplied evidence; report component statuses.\n\t\t336 row\n\t\t\t337 cell\n\t\t\t\t338 text D08\n\t\t\t339 cell\n\t\t\t\t340 text initial access\n\t\t\t341 cell\n\t\t\t\t342 text all\n\t\t\t343 cell\n\t\t\t\t344 text Choose the minimum-cost supported-ready plan, or none_supported. None does not assert impossibility.\n\t\t345 row\n\t\t\t346 cell\n\t\t\t\t347 text D09\n\t\t\t348 cell\n\t\t\t\t349 text post-union only\n\t\t\t350 cell\n\t\t\t\t351 text union_only\n\t\t\t352 cell\n\t\t\t\t353 text For Cy/P10 varnish, count distinct positive commitment lineages and maximum granted amount. Preserve every restatement source.\n\t\t354 row\n\t\t\t355 cell\n\t\t\t\t356 text D10\n\t\t\t357 cell\n\t\t\t\t358 text post-union only\n\t\t\t359 cell\n\t\t\t\t360 text union_only\n\t\t\t361 cell\n\t\t\t\t362 text Classify C06/C13 and C13/C14 by surface and normalized relation. Normalized relation includes predicate and all directed argument roles.\n\t363 heading Public source input hashes, Value: 2\n\t\t364 text Public source input hashes\n\t365 table\n\t\t366 row\n\t\t\t367 cell\n\t\t\t\t368 text Design path\n\t\t\t369 cell\n\t\t\t\t370 text Bytes\n\t\t\t371 cell\n\t\t\t\t372 text SHA-256\n\t\t373 row\n\t\t\t374 cell\n\t\t\t\t375 text design/allocations.json\n\t\t\t376 cell\n\t\t\t\t377 text 1119\n\t\t\t378 cell\n\t\t\t\t379 text 9837571085bbd6f216b7b3c2d44121ab791930357152512b423f3351d225c53d\n\t\t380 row\n\t\t\t381 cell\n\t\t\t\t382 text design/development-tasks.json\n\t\t\t383 cell\n\t\t\t\t384 text 6342\n\t\t\t385 cell\n\t\t\t\t386 text cf2d0d41419a2f126314009c08f5a1774b99ead90e00df3e4d388533ffef02f6\n\t\t387 row\n\t\t\t388 cell\n\t\t\t\t389 text design/snapshot.schema.json\n\t\t\t390 cell\n\t\t\t\t391 text 8053\n\t\t\t392 cell\n\t\t\t\t393 text b116188fe6c399ac0042460e4b5f6fe47d0815ff5106da57f2c8b806c157b88a\n\t\t394 row\n\t\t\t395 cell\n\t\t\t\t396 text design/world.json\n\t\t\t397 cell\n\t\t\t\t398 text 28103\n\t\t\t399 cell\n\t\t\t\t400 text a0daabff2c1f0a2c48fe1973023bc9775130970f3c7025115136798ed307c9ef\n\t401 text Inspect the generated JSON bundles and their SHA-256 manifests on disk for exact source and release boundaries.\n\nThe focused UI element is 1 AXWebArea Looking Glass materials review, URL: 127.0.0.1:44010/",
+    "dom": {
+      "identity": "Looking Glass · materials reviewWorld TILE18-v1 · cutoff 10 · candidate 004",
+      "records": [
+        {
+          "card": {
+            "claims": [],
+            "id": "C01",
+            "kind": "shared_anchor",
+            "occurredTick": 0,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 0,
+            "rules": [
+              {
+                "id": "R01",
+                "text": "Evaluate only supplied, uniquely identified source claims with occurredTick <= 10. Unseen facts stay unknown. This is a finite fictional evidence model, not universal truth or human consent."
+              },
+              {
+                "id": "R02",
+                "text": "The four statuses encode [positive support, negative support] as specified in statusSemantics. Absence is unknown, not refuted. For AND, positive support requires every input positive; negative support requires any input negative. Preserve component statuses even when an overall conjunction is refuted."
+              },
+              {
+                "id": "R03",
+                "text": "A supplied claim supersedes only the exact claim IDs it explicitly lists. No latest-message or majority rule. Active incompatible unsuperseded quantities are conflicted: test a numeric predicate over every distinct active value, positive if any value satisfies and negative if any fails. No active value gives unknown."
+              },
+              {
+                "id": "R04",
+                "text": "Explores, understands, endorses, resource_commitment, inspection_report and model_attributes_endorsement are separate predicates. None entails another. A model attribution is not actor testimony, endorsement or authority."
+              },
+              {
+                "id": "R05",
+                "text": "Each commitment binds actor, resource, exact plan ID/version and quantity. A positive claim supports a requested amount when its quantity is at least that amount. A negative commitment refutes that exact requested amount when its quantity equals the requested amount. Missing, different-version or different-plan commitment yields no support. Do not sum separate commitment quantities. Repeated lineageId/restates is one commitment, not additional resources."
+              },
+              {
+                "id": "R06",
+                "text": "Resource owners in the common catalog may commit their own listed resources. Actor DEV has only the operations in an explicit complete mandate, when supplied; absence of that mandate is unknown. A grant cannot increase physical capacity or authorize another actor."
+              },
+              {
+                "id": "R07",
+                "text": "For each plan, physical is AND of known capacity >= required quantity; demand is output >= the explicitly active supplied demand; commitment is AND of exact required actor/resource commitments. Inspection is supported by rule when inspectionRequired is false; otherwise aggregate inspection_report support for the same plan/version/scope. Readiness is AND(physical,demand,commitment,inspection). Conflicted readiness is not action eligible."
+              },
+              {
+                "id": "R08",
+                "text": "Choose among supported-ready plans only, by minimum cost then lexical plan ID. With none, report none_supported; this does not mean no possible feasible plan. Plan choices are mutually exclusive unless a task expressly permits bundles. Alternative plan commitments do not themselves reserve simultaneous capacity."
+              },
+              {
+                "id": "R09",
+                "text": "Source claims deduplicate by claim ID and lineageId; preserve distinct reports and every restatement source reference. Shared anchor cards count once. Source confidence, number of copies, screen proximity and model confidence never add corroboration."
+              },
+              {
+                "id": "R10",
+                "text": "Transfer contexts are independent fictional worlds governed by these rules with their explicitly supplied cutoff, catalog and source records. Transfer facts do not amend the development world. Bundles, when expressly allowed, sum outputs/costs and each resource demand, while checking all required exact commitments. Facts in a transfer context have occurredTick and recordedTick equal to that context cutoff unless explicitly stated otherwise; declared supersession still applies."
+              }
+            ],
+            "statusSemantics": {
+              "conflicted": [
+                true,
+                true
+              ],
+              "refuted": [
+                false,
+                true
+              ],
+              "supported": [
+                true,
+                false
+              ],
+              "unknown": [
+                false,
+                false
+              ]
+            },
+            "surfaceText": "This card contains the common finite-world evaluation rules and status semantics.",
+            "title": "Evaluation rules",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C02-1",
+                "lineageId": "F-C02-1",
+                "predicate": "demand",
+                "value": 8
+              }
+            ],
+            "entities": {
+              "actors": [
+                {
+                  "id": "ARA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "BEA",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "CY",
+                  "kind": "fictional_actor"
+                },
+                {
+                  "id": "DEV",
+                  "kind": "fictional_actor"
+                }
+              ],
+              "resources": [
+                {
+                  "id": "press",
+                  "owner": "ARA"
+                },
+                {
+                  "id": "cart",
+                  "owner": "BEA"
+                },
+                {
+                  "id": "varnish",
+                  "owner": "CY"
+                }
+              ]
+            },
+            "id": "C02",
+            "kind": "shared_anchor",
+            "occurredTick": 1,
+            "plans": [
+              {
+                "cost": 4,
+                "id": "P8",
+                "inspectionRequired": false,
+                "output": 8,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 4,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 7,
+                "id": "P12",
+                "inspectionRequired": false,
+                "output": 12,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 6,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 2,
+                    "resource": "cart"
+                  }
+                ],
+                "version": 1
+              },
+              {
+                "cost": 6,
+                "id": "P10",
+                "inspectionRequired": true,
+                "output": 10,
+                "requires": [
+                  {
+                    "actor": "ARA",
+                    "quantity": 5,
+                    "resource": "press"
+                  },
+                  {
+                    "actor": "BEA",
+                    "quantity": 1,
+                    "resource": "cart"
+                  },
+                  {
+                    "actor": "CY",
+                    "quantity": 1,
+                    "resource": "varnish"
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 1,
+            "surfaceText": "Choose one plan. Initial demand is 8 tiles. Plan P8 produces 8 for cost 4; P12 produces 12 for cost 7; P10 produces 10 for cost 6. Exact dependencies are in the catalog.",
+            "title": "Tile dispatch catalog",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C03-1",
+                "lineageId": "F-C03-1",
+                "predicate": "capacity",
+                "value": 6
+              }
+            ],
+            "id": "C03",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Ara has 6 press units available.",
+            "title": "Press capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-1",
+                "lineageId": "F-C04-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-2",
+                "lineageId": "F-C04-2",
+                "predicate": "endorses",
+                "value": false
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 6,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-3",
+                "lineageId": "F-C04-3",
+                "predicate": "resource_commitment",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 4,
+                  "resource": "press"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C04-4",
+                "lineageId": "F-C04-4",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C04",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara understands P12 and rejects endorsing it. Ara nevertheless commits 6 press units to P12 version 1, or 4 to P8 version 1 if that alternative is selected. These are alternative plan-specific grants, not additive reservations.",
+            "title": "Understanding, dissent and conditional alternatives",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C05-1",
+                "lineageId": "F-C05-1",
+                "predicate": "explores",
+                "value": true
+              }
+            ],
+            "id": "C05",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Ara is exploring P10 version 1. No endorsement or commitment is stated.",
+            "title": "Exploration",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P10",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C06-1",
+                "lineageId": "F-C06-1",
+                "predicate": "understands",
+                "value": true
+              }
+            ],
+            "id": "C06",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "ARA",
+              "plan": "P10",
+              "planVersion": 1
+            },
+            "speechAct": "understanding_confirmation",
+            "surfaceText": "Ready.",
+            "title": "Understanding confirmation",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C07-1",
+                "lineageId": "F-C07-1",
+                "predicate": "capacity",
+                "value": 2
+              }
+            ],
+            "id": "C07",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Bea has 2 cart units available.",
+            "title": "Cart capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-1",
+                "lineageId": "F-C08-1",
+                "predicate": "understands",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-2",
+                "lineageId": "F-C08-2",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P12",
+                  "planVersion": 1,
+                  "quantity": 2,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C08-3",
+                "lineageId": "F-C08-3",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C08",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea understands and endorses P12 version 1 and commits 2 cart units to it.",
+            "title": "P12 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-1",
+                "lineageId": "F-C09-1",
+                "predicate": "endorses",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P8",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C09-2",
+                "lineageId": "F-C09-2",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C09",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Bea endorses P8 version 1 and commits 1 cart unit to it as an alternative.",
+            "title": "P8 cart grant",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "BEA",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "cart"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C10-1",
+                "lineageId": "F-C10-1",
+                "predicate": "resource_commitment",
+                "value": false
+              }
+            ],
+            "id": "C10",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "surfaceText": "Bea declines a commitment of 1 cart unit to P10 version 1.",
+            "title": "P10 cart refusal",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C11-1",
+                "lineageId": "F-C11-1",
+                "predicate": "capacity",
+                "value": 1
+              }
+            ],
+            "id": "C11",
+            "kind": "source_record",
+            "occurredTick": 2,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 2,
+            "surfaceText": "Cy originally reports 1 varnish unit available.",
+            "title": "Original varnish capacity",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C12-1",
+                "lineageId": "F-C12-1",
+                "predicate": "capacity",
+                "supersedes": [
+                  "F-C11-1"
+                ],
+                "value": 0
+              }
+            ],
+            "id": "C12",
+            "kind": "source_record",
+            "occurredTick": 7,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 7,
+            "surfaceText": "Cy corrects the available varnish capacity to 0. This supersedes F-C11-1; keep the original visible as history.",
+            "title": "Capacity correction",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C13-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "value": true
+              }
+            ],
+            "id": "C13",
+            "kind": "source_record",
+            "occurredTick": 4,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 4,
+            "referent": {
+              "actor": "CY",
+              "plan": "P10",
+              "planVersion": 1,
+              "quantity": 1,
+              "resource": "varnish"
+            },
+            "speechAct": "resource_commitment",
+            "surfaceText": "Ready.",
+            "title": "Resource commitment",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "CY",
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "quantity": 1,
+                  "resource": "varnish"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C14-1",
+                "lineageId": "K-CY-P10",
+                "predicate": "resource_commitment",
+                "restates": [
+                  "F-C13-1"
+                ],
+                "value": true
+              }
+            ],
+            "id": "C14",
+            "kind": "source_record",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "speechAct": "resource_commitment_restatement",
+            "surfaceText": "Hold one varnish slot for P10.",
+            "title": "Restatement, not another unit",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "DEV",
+                  "complete": true,
+                  "scope": "P8,P12,P10"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C15-1",
+                "lineageId": "F-C15-1",
+                "predicate": "mandate",
+                "value": [
+                  "describe"
+                ]
+              }
+            ],
+            "id": "C15",
+            "kind": "source_record",
+            "occurredTick": 3,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 3,
+            "surfaceText": "Dev may describe the three named plans. This complete mandate excludes committing resources or binding any actor.",
+            "title": "Representative mandate",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "actor": "ARA",
+                  "plan": "P12",
+                  "planVersion": 1
+                },
+                "evidenceKind": "synthetic_model_artifact",
+                "id": "F-C16-1",
+                "lineageId": "F-C16-1",
+                "predicate": "model_attributes_endorsement",
+                "value": true
+              }
+            ],
+            "id": "C16",
+            "kind": "synthetic_model_artifact",
+            "occurredTick": 5,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 5,
+            "surfaceText": "Synthetic model summary: Ara endorses P12. This card records an attributed model interpretation only; no actor attestation is created.",
+            "title": "Model attribution, not an endorsement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "requirement": "tiles",
+                  "requirementVersion": 2
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C17-1",
+                "lineageId": "F-C17-1",
+                "predicate": "demand",
+                "supersedes": [
+                  "F-C02-1"
+                ],
+                "value": 10
+              }
+            ],
+            "id": "C17",
+            "kind": "source_record",
+            "occurredTick": 8,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 8,
+            "surfaceText": "The requirement is now 10 tiles, version 2. This supersedes the initial demand claim F-C02-1.",
+            "title": "Changed requirement",
+            "version": 1
+          },
+          "open": false
+        },
+        {
+          "card": {
+            "claims": [
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN1",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-1",
+                "lineageId": "F-C18-1",
+                "predicate": "inspection_report",
+                "value": true
+              },
+              {
+                "arguments": {
+                  "plan": "P10",
+                  "planVersion": 1,
+                  "reporter": "IN2",
+                  "scope": "release"
+                },
+                "evidenceKind": "stipulated_source",
+                "id": "F-C18-2",
+                "lineageId": "F-C18-2",
+                "predicate": "inspection_report",
+                "value": false
+              }
+            ],
+            "id": "C18",
+            "kind": "source_record",
+            "occurredTick": 9,
+            "provenance": "Author-created fictional material; no human statement or observed outcome.",
+            "recordedTick": 9,
+            "surfaceText": "Inspector IN1 reports P10 version 1 passed; inspector IN2 reports the same inspection scope failed. Neither report supersedes the other.",
+            "title": "Unresolved inspection reports",
+            "version": 1
+          },
+          "open": false
+        }
+      ],
+      "scope": "Preparation only. These are authored synthetic sources and proposed future packets, not collected agent or human responses. This page does not establish readiness to enroll, comparison outcomes, or approval of Gate 14.",
+      "title": "Looking Glass materials review",
+      "url": "http://127.0.0.1:44010/",
+      "viewport": {
+        "documentHeight": 2619,
+        "documentWidth": 1280,
+        "dpr": 2,
+        "height": 720,
+        "scrollX": 0,
+        "scrollY": 529.5,
+        "width": 1280
+      }
+    }
+  }
+]

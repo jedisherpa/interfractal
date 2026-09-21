@@ -1,0 +1,7 @@
+{
+  "recordedAtUtc": "2026-09-20T20:59:32.248986+00:00",
+  "method": "Host final rehash of every earlier Gate0\u201312 entry and original manifest SHA, after independent handoff audit and before Gate13 freeze.",
+  "entriesVerified": 1745,
+  "mismatches": [],
+  "status": "PASS"
+}

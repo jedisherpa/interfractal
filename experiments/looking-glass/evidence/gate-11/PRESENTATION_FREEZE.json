@@ -1,0 +1,41 @@
+{
+  "closedAtUtc": "2026-09-20T18:34:21.953845+00:00",
+  "entries": [
+    {
+      "path": "evidence/gate-11/presentation/captures.json",
+      "bytes": 335,
+      "sha256": "8245aa5c2b6ab155517476a65648da8f218001c5c8dd471ebb7d82d3e147380a"
+    },
+    {
+      "path": "evidence/gate-11/presentation/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/gate-11/presentation/desktop-report.jpg",
+      "bytes": 98633,
+      "sha256": "457305a8a04f1b50f9bd51a5b62cfba49eff60b26feef965f6d482116eed363d"
+    },
+    {
+      "path": "evidence/gate-11/presentation/linked-paused-identity.json",
+      "bytes": 15291,
+      "sha256": "4caa5b7c4d69aa5181022a8217ce10f2f8c972857e4688dca17c3d3d690a69db"
+    },
+    {
+      "path": "evidence/gate-11/presentation/narrow-repair-section.jpg",
+      "bytes": 105812,
+      "sha256": "de6c8d5297234db63de020c996b41847621162701cfa7be85ccbb58a6742e2d4"
+    },
+    {
+      "path": "evidence/gate-11/presentation/observations.json",
+      "bytes": 56335,
+      "sha256": "6829817bf858eb78816175c897271f158c7c53ad24d25638a719342bb530a461"
+    },
+    {
+      "path": "evidence/gate-11/presentation/presentation-outcome.json",
+      "bytes": 1061,
+      "sha256": "1852726b3f6bd06b54e55dff4f9a8f6d9cc31554d134edaef1d2ab1d20aa9642"
+    }
+  ],
+  "count": 7
+}

@@ -1,0 +1,32 @@
+{
+  "recordedAtUtc": "2026-09-20T20:47:24.882064+00:00",
+  "authoritySource": "Actual user message in current task; takes precedence over the earlier stored goal and attached documents.",
+  "userMessage": "Defer the four-agent experiment and human research stages until later. Remove them from the goal completion requirements. The goal should be to do what is necessary to prepare for the four-agent experiment and human research stages.",
+  "effectiveObjective": "Prepare the v0.3 research program and shared-meaning amendment for later four-agent and human research. Complete the necessary reviewed materials, withheld tasks and independent keys, protocols and analysis plans, equivalent plain/visual instruments and relevant software validation, readiness documentation, independent review dispositions, and a reproducible preparation ZIP. The four-agent snapshot experiment and all human research collection and outcome studies are deferred and are excluded from this goal’s completion criteria. Clearly identify future execution approvals and unresolved setting-specific arrangements without presenting them as completed studies. Preserve stage approvals, historical failures, and all bounded evidence.",
+  "supersedes": "docs/program-authority-2026-09-20.json for prospective completion requirements only",
+  "included": "Preparation and independent software/materials/protocol review; see current docs/program-requirements-and-status.md.",
+  "deferredExcludedFromCompletion": [
+    "four-agent research snapshot collection and experiment execution",
+    "human cognitive interviews and pilot collection",
+    "human comparison, mechanism, cross-scale and durability investigations",
+    "empirical claims that require those deferred studies"
+  ],
+  "stageBoundary": "Gate13 remains current approved software gate; Gate14 remains unapproved. Scope clarification does not execute a study or approve a later gate.",
+  "goalStoreLimitation": "Available goal API exposes status changes only. The user edited the stored objective, removing the four-agent experiment clause; residual human-investigation wording remains in that stored text. Their subsequent explicit confirmation, Yes—defer both; complete preparation only, supersedes that residual wording. No assistant-side goal-store rewrite is claimed.",
+  "researchAgentSnapshots": 0,
+  "humanParticipants": 0,
+  "subsequentUserGoalEdit": {
+    "observedAtUtc": "2026-09-20T20:51:34.471066+00:00",
+    "fourAgentExecutionClauseRemoved": true,
+    "humanInvestigationExecutionWordingRemains": true,
+    "clarificationPending": false,
+    "interimWork": "Continue necessary preparation and Gate13 software closure; no research-agent or human collection."
+  },
+  "scopeClarification": {
+    "recordedAtUtc": "2026-09-20T20:51:57.885412+00:00",
+    "question": "Your edited goal removes the four-agent experiment, but still requires completing human investigations. Should human stages also remain preparation-only, as you just requested?",
+    "answer": "Yes—defer both; complete preparation only",
+    "authority": "Actual user response to asynchronous scope question",
+    "effect": "Both four-agent research experiment execution and human research execution are deferred and excluded from completion. Necessary preparation remains required."
+  }
+}

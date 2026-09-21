@@ -1,0 +1,84 @@
+{
+  "gate": 7,
+  "recordedAtUtc": "2026-09-20T06:27:25.716679+00:00",
+  "routingSource": "Actual user request and applicable project AGENTS.md",
+  "workers": [
+    {
+      "task": "/root/g7_astra",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "role": "Specification, orchestration and synthesis",
+      "status": "Completed specification and final bounded synthesis."
+    },
+    {
+      "task": "/root/g7_luna_sources",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high",
+      "role": "Primary-source internet gathering",
+      "status": "completed: three primary sources and bounded design recommendations"
+    },
+    {
+      "task": "/root/g7_sol_auditor",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Independent audit, separate from builder",
+      "status": "Completed independent core and final public presentation audit; PASS for synthetic instrument."
+    },
+    {
+      "task": "/root/g7_sol_builder",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "role": "Implementation, separate from independent auditor",
+      "status": "Completed candidate002 and exact recovery documentation; no active implementation."
+    }
+  ],
+  "hostCoordinator": "Workspace setup, tool routing, supported CUA browser, evidence preservation and local Git; no unsupported host model switch claimed.",
+  "authorization": "Actual Gate7 approval. No further scope approved.",
+  "humanParticipation": "None requested or recorded. Agent/source-informed checks are computational validation, never human comprehension outcomes.",
+  "allStageWorkersEnded": true,
+  "runtimeObservations": {
+    "rootShellNode": "v24.10.0",
+    "builderNode": "v24.17.0",
+    "builderNodeExecutable": "/opt/homebrew/Cellar/node@24/24.17.0/bin/node"
+  },
+  "prespec": {
+    "freezeSha256": "8abb6366f27a42590c89365c4d1f019e5c350dee90bfff77290cdd4783b1469f",
+    "frozenAtUtc": "2026-09-20T06:37:42.415485+00:00",
+    "files": 6
+  },
+  "candidateHistory": [
+    {
+      "runId": "G7-INTERPRET-001",
+      "buildId": "g7-0519920fd48aa2fd",
+      "status": "failed and preserved",
+      "manifest": "evidence/gate-7/failed-candidates/G7-INTERPRET-001/FAILED_CANDIDATE.json",
+      "observations": 23,
+      "hostActionCalls": 7,
+      "originalImages": 4,
+      "semanticEventRows": 5,
+      "answerMechanicsAttempted": false
+    },
+    {
+      "runId": "G7-INTERPRET-002",
+      "buildId": "g7-90e64952eb028069",
+      "sourceSha256": "90e64952eb0280697952a0fdb756803d49117ebe97f827608d57f05483532078",
+      "status": "Accepted qualified instrument result; core, presentation, and independent audit complete.",
+      "coreManifest": "evidence/gate-7/CORE_TRIAL_CLOSED.json",
+      "coreManifestSha256": "633f7c56a33ac1c64f49965ecca028a6f2b62fbb3e70f14f96dd9232bff10779",
+      "observations": 214,
+      "hostActionCalls": 94,
+      "originalImages": 11,
+      "semanticEventRows": 106,
+      "apiTransactionRows": 9,
+      "checkpointObservations": 36,
+      "humanParticipants": 0
+    }
+  ],
+  "presentation": {
+    "separateOriginalCaptures": 4,
+    "separateBrowserObservations": 8,
+    "record": "evidence/gate-7/presentation-review.json",
+    "consoleWarningsOrErrors": 0,
+    "temporaryViewportOverrideCleared": true
+  }
+}

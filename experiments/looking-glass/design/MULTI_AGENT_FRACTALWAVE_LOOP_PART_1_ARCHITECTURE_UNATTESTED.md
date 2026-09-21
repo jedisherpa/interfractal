@@ -154,3 +154,124 @@ Related Looking Glass instrument gates (Hopf correspondence, ambiguity, coordina
 | Sibling | Part 2 — Governance, open questions, status (when published) |
 
 *End of Part 1.*
+
+
+---
+
+# Part 2 — Jev scoring layer, governance, open questions
+
+**Status:** Draft — pending Paul Cooper attestation. Not for merge. Do not deploy. Do not push to `main`.
+
+**Rule:** This Part 2 **appends** to Part 1. It does not revise Part 1 architecture text. Part 1 remains the architecture freeze candidate; Part 2 adds scoring, non-authorization, and open questions.
+
+**Document control:** Same path as Part 1 (`experiments/looking-glass/design/MULTI_AGENT_FRACTALWAVE_LOOP_PART_1_ARCHITECTURE_UNATTESTED.md`). Mirror on Interfractal `codex/import-looking-glass-laboratory` (PR 12 branch).
+
+---
+
+## (A) Jev scoring layer
+
+### What Jev is (for this design)
+
+**Jev** is TypeSafe’s **System One** model — **not** a chat LLM.
+
+- **In:** a `state` (text and/or JSON) plus **typed questions**.
+- **Out:** **probabilities** and **confidence** — **no prose**.
+- Role in this loop: **scorer / meta-checker**, not narrator, not consensus author.
+
+Primary framing (TypeSafe docs / launch materials, paraphrased for this draft): unstructured or structured state in; typed probabilistic decisions out; no string generation.
+
+### Pricing and capacity (as published; verify before spend)
+
+| Item | Published figure (draft note) |
+| --- | --- |
+| Input price | About **$42 per billion** input tokens (~$0.042 / MTok) |
+| Output | **Free** (not billed) |
+| Context | **64k** tokens per request; **32k** for `state` + longest single question |
+| Latency | About **70–500 ms** end-to-end (claimed) |
+| Input modalities | Text / JSON only — no image/audio/video |
+| Tool use | Not an agent tool-loop model; closed Choice/Score/Noul questions composed in **your** code |
+
+**Hard limit for this architecture:** Jev **cannot draft consensus**, cannot write the shared account, and **cannot explain why** (no generative rationale). Explanation and synthesis remain with generative models and/or Paul.
+
+### Twelve Jev scoring calls → synthesizer → final Jev meta-check
+
+| Phase | Calls | State | Role |
+| --- | --- | --- | --- |
+| Bottom self-scores | **Jev 1–4** | Each bottom agent’s **own** snapshot (+ local provenance as needed) | Score that agent’s freeze package against typed criteria |
+| Top lenses | **Jev 5–8** | **All four** bottom snapshots (+ provenance) | Score the cohort through lenses A–D |
+| Joint / cohort | **Jev 9–12** | All four snapshots together | Four typed joint facets (agreement, contradiction, cancel-vs-align, residual ambiguity — exact facet labels **open**) |
+| Synthesizer | *(not Jev)* | The **twelve** Jev distributions (+ frozen snapshots as context allows) | **Generative** model **proposes** a final question |
+| Meta-check | **Final Jev** | Proposed question + supporting distributions/snapshots | Typed check: is this question **worth asking**? |
+
+**Division of labor (non-negotiable in this draft):**
+
+1. **Jev = scorer** (twelve distributions) and **validator** of whether the synthesizer’s question is worth asking.
+2. **Synthesizer = question-chooser** (generative; proposes the question; does not silently become the consensus text authority).
+3. **Final Jev validates the question** before any further spend on answering it in the loop.
+
+If the meta-check fails confidence or returns “not worth asking,” the loop **stops or escalates** — it does not invent a softer pass.
+
+### Fit to Part 1
+
+- Level 1 / Level 2 **blind-then-open** and freeze packages remain as in Part 1.
+- Jev attaches **typed, hashable score records** to those freezes (provenance-linked).
+- Live viz (Part 1 §7) remains **not built**; Jev scores do not imply a 3D wave UI.
+
+### Open issues specific to Jev (must resolve before implementation)
+
+1. **Budget:** Do **four snapshots** (plus provenance) fit the **32k** `state` + longest-question budget? If not: filter, summarize under attested rules, or multi-call with explicit join keys — **open**.
+2. **Decomposition:** Can open-ended **meaning-making** be decomposed into Choice / Score / Noul **without smuggling the answer into the rubric**? **Open.**
+3. **Calibration:** Calibration of Jev on **Looking Glass / fractalwave vocabulary** is **unknown without evaluation**. Do not treat marketing Pareto claims as Looking Glass-domain proof.
+
+---
+
+## (B) Governance — what this document does **not** authorize
+
+This Part 1+2 draft **does not authorize**:
+
+| Item | Status under this draft |
+| --- | --- |
+| **Gate 14** (geometry ablations / related Looking Glass gate) | **Not authorized** |
+| **Study execution** (four-agent or human) | **Not authorized** |
+| **Connection readiness** (independent client replaying a full research round) as built or as build mandate | **Not authorized** |
+| **Looking Glass integration work** into product / teaching app | **Not authorized** |
+| **Public deployment** | **Not authorized** |
+| **Merge to `main`** / production promote | **Not authorized** |
+
+**Da Vinci / HUMAN_DECIDED (purpose clarification) — binding reminder for this draft:**
+
+- Purpose clarification **does not authorize Looking Glass integration**.
+- **“Treat connection readiness as already built” is not consented.**
+- Every material step still requires **separate Paul Cooper attestation** (scope, target, payload, timing, conditions).
+
+No analysis in Part 1 or Part 2 is authorization. Intelligence is not authority.
+
+---
+
+## (C) Open questions for Paul Cooper’s review
+
+| ID | Question | Notes |
+| --- | --- | --- |
+| **C1** | Exact definition of each **bottom agent’s unique information set** | Partition, overlap rules, forbidden peeks |
+| **C2** | Exact **system prompts** for the **four top lenses** (A–D) | Frequency alignment; structural ambiguity; persuasion risk; coordination preservation |
+| **C3** | What differs between the four top calls **beyond prompts** so they are not trivial echo | Model, temperature, tool ban, input masking, seed policy, etc. |
+| **C4** | **Provenance recording mechanics per LLM call** | **Must-specify-before-implementation** (hash inputs/outputs, model id/version, prompt hash, timestamps, parent freeze ids) |
+| **C5** | Is **L2 convergence** a **ninth glass / Jev pass**, or a **simpler threshold aggregation** over existing scores? | Pick one; document failure modes |
+| **C6** | **Interfractal PR 12** vs **BTC PR 6** — which repo/branch is **canonical** for visualizer/workshop hosting vs lab archive? | Hosting update previously pointed at BTC; PR 12 is import/archive |
+
+Until C1–C6 are attested, implementation of the multi-agent fractalwave loop (including Jev wiring) remains **blocked**.
+
+---
+
+## (D) Status line
+
+**Draft — pending Paul Cooper attestation. Not for merge.**
+
+| Field | Value |
+| --- | --- |
+| Parts | 1 Architecture + 2 Jev / governance / opens (this append) |
+| Code changes | **None** authorized |
+| Attestation | **Pending** |
+| Merge / deploy | **Forbidden** until explicit grant |
+
+*End of Part 2.*
